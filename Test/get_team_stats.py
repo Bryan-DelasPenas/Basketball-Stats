@@ -1,5 +1,5 @@
 #####################################################
-# File: Team_Constants.py 
+# File:   get_team_stats.py
 # Author: Bryan Delas Penas 
 # Email:  bryan.delaspenas0405@gmail.com
 # Date:   12/21/2020
