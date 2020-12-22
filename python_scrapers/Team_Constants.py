@@ -22,6 +22,7 @@ TEAM_TO_ABBRIVATION = {
     'HOUSTON ROCKETS':                   'HOU', # Currently the Houston Rockets from 1967 to 2020 
     'INDIANA PACERS':                    'IND', # Currently the Indiana Pacers from 1967 to 2020
     'LOS ANGELES CLIPPERS':              'LAC', # Currently the Los Angeles Clippers from 1970 to 2020 
+    'SAN DIEGO CLIPPERS':                'SDC', # Formerly the San Diego Clippers from 1978 to 1984
     'LOS ANGELES LAKERS':                 'LAL', # Currently the Los Angeles Lakers from 1960 to 2020
     'MEMPHIS GRIZZLIES':                 'MEM', # Currently the Memphis Grizzlies from 2001 to 2020 
     'VANCOUVER GRIZZLIES':               'VAN', # Formerly the Vancouver Grizzlies from 1995 to 2001   
@@ -43,6 +44,7 @@ TEAM_TO_ABBRIVATION = {
     'SAN ANTONIO SPURS':                 'SAS', # Currently the San Antonio Spurs from 1976 to 2020
     'TORONTO RAPTORS':                   'TOR', # Currently the Toranto Raptors from 1995 to 2020
     'UTAH JAZZ':                         'UTA', # Currently the Utah Jazz from 1979 to 2020 
+    'NEW ORLEANS JAZZ' :                 'NOJ',
     'WASHINGTON WIZARDS':                'WAS', # Currently the Washington Wizards from 1998 to 2020 
     'WASHINGTON BULLETS':                'WAB', # Formerly the Washington Bullets from 1974 to 1997
 }
@@ -60,6 +62,8 @@ TEAM_SETS = [
     ['GSW'],
     ['HOU'],
     ['IND'],
+    ['SDC', 'LAC'],
+    ['LAL'],
     ['MEM', 'VAN'],
     ['MIA'], 
     ['MIL'],
@@ -72,6 +76,6 @@ TEAM_SETS = [
     ['POR'],
     ['SAC', 'KCK' ],
     ['SAS'],
-    ['UTA'],
+    ['NOJ','UTA'],
     ['WAB', 'WAS']
 ]

@@ -57,3 +57,4 @@ def get_team_stats(season, data_format ='PER_GAME'):
         df = df.drop(['Rk', 'Team'], axis=1)
  
     return df
+
