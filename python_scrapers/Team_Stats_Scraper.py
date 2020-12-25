@@ -25,8 +25,10 @@ def get_team_stats(season, data_format ='PER_GAME'):
     # 3 options: Total, Per game and Per poss
     if data_format=='TOTAL':
         select = 'div_team-stats-base'
+    
     elif data_format=='PER_GAME':
         select = 'div_team-stats-per_game'
+    
     elif data_format=='PER_POSS':
         select = 'div_team-stats-per_poss'
 
@@ -43,9 +45,13 @@ def get_team_stats(season, data_format ='PER_GAME'):
         
         # Insert this data into a pandas dataframe
         df = pd.read_html(str(table))[0]
-        league_avg_index = df[df['Team']=='League Average'].index[0]
-        df = df[:league_avg_index]
-
+        
+        # Since total and per game have league averages we have to add this segement of code 
+        if(data_format != 'PER_POSS'):
+            league_avg_index = df[df['Team']=='League Average'].index[0]
+            df = df[:league_avg_index]
+        else:
+            pass
         # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
         df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
@@ -55,6 +61,9 @@ def get_team_stats(season, data_format ='PER_GAME'):
 
         # Drop rk(Rank) and Team 
         df = df.drop(['Rk', 'Team'], axis=1)
- 
+       
     return df
+    
+    
+
 
