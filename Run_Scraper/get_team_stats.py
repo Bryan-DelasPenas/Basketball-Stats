@@ -82,9 +82,9 @@ Helper function that creates folders for each season
 def create_season_folder():
     # Our file path 
     output_path = r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Team_Stats"
-  
+
     # If this is false, creates file else just print message
-    if(os.path.isfile(r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Team_Stats\1980") == False):
+    if(os.path.isdir(r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Team_Stats\1980") == False):
         print("Creating files from 1980 to 2020")
         
         # Iterate through 1980 - 2020
@@ -92,9 +92,11 @@ def create_season_folder():
 
             # Creates folder 
             os.mkdir(os.path.join(output_path, str(season)))
+        return True
+
     else:
         print("Files are already created")
-    return 0
+        return False
 
 '''
 Function that creates a folder for each team, and creates a csv for there stats
@@ -117,4 +119,6 @@ def main():
     #season_csv()
     get_team_stats()
     return 0
-main()
+
+if __name__ == "__main__":
+    main()
