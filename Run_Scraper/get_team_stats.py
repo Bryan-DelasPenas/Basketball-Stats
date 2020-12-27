@@ -9,82 +9,87 @@
 import sys 
 sys.path.append('\\Users\\Bryan\\Desktop\\Basketball-Stats\\python_scrapers')
 import os
+import pathlib 
+from pathlib import Path
 from Team_Stats_Scraper import get_season_team_stats, get_team_stats
 
 '''
 Generates a CSV file of teams per game stats since 1980
 '''
-def csv_pergame_stats():
+def csv_pergame_stats(year):
     
     # Iterate through 1980 to 2020
-    for year in range(1980, 2021):
-        df = get_season_team_stats(year, 'PER_GAME')
-        df = df.round(2)
+    #for year in range(1980, 2021):
+    df = get_season_team_stats(year, 'PER_GAME')
+    df = df.round(2)
         
-        # Output path for the csv file
-        output_path = r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Season_Stats\Team_Pergame_Stats"
+    # Output path for the csv file
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", "Team_Pergame_Stats")
+        
+    # Create a unique name for the file 
+    season =  "\\"+ str(year)+ "season"+ "_" +"pergame" + ".csv"
 
-        # Create a unique name for the file 
-        season =  "\\"+ str(year)+ "season"+ "_" +"pergame" + ".csv"
-
-        # Create the csv file
-        df.to_csv(output_path + season, index = False)
+    # Create the csv file
+    df.to_csv(output_path + season, index = False)
 
 '''
 Generates a CSV file of teams per possion stats since 1980
 '''
-def csv_perposs_stats():
+def csv_perposs_stats(year):
 
    # Iterate through 1980 to 2020
-    for year in range(1980, 2021):
-        df = get_season_team_stats(year, 'PER_POSS')
-        df = df.round(2)
+    #for year in range(1980, 2021):
+    df = get_season_team_stats(year, 'PER_POSS')
+    df = df.round(2)
         
-        # Output path for the csv file
-        output_path = r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Season_Stats\Team_Perposs_Stats"
+    # Output path for the csv file
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", "Team_Perposs_Stats")
 
-        # Create a unique name for the file 
-        season =  "\\"+ str(year)+ "season"+ "_" +"perposs" + ".csv"
+    # Create a unique name for the file 
+    season =  "\\"+ str(year)+ "season"+ "_" +"perposs" + ".csv"
 
-        # Create the csv file
-        df.to_csv(output_path + season, index = False)
+    # Create the csv file
+    df.to_csv(output_path + season, index = False)
 
 '''
 Generates a CSV file of teams total stats since 1980
 '''
-def csv_total_stats():
+def csv_total_stats(year):
  
  # Iterate through 1980 to 2020
-    for year in range(1980, 2021):
-        df = get_season_team_stats(year, 'TOTAL')
-        df = df.round(2)
+    #for year in range(1980, 2021):
+    df = get_season_team_stats(year, 'TOTAL')
+    df = df.round(2)
         
-        # Output path for the csv file
-        output_path = r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Season_Stats\Team_Total_Stats"
+    # Output path for the csv file
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", "Team_Total_Stats")
 
-        # Create a unique name for the file 
-        season =  "\\"+ str(year)+ "season"+ "_" + "Total" + ".csv"
+    # Create a unique name for the file 
+    season =  "\\"+ str(year)+ "season"+ "_" + "Total" + ".csv"
 
-        # Create the csv file
-        df.to_csv(output_path + season, index = False)
+    # Create the csv file
+    df.to_csv(output_path + season, index = False)
 
 '''
 Functions that calls the three functions above that creates the csv 
 '''
 def season_csv():
-    csv_pergame_stats()
-    csv_perposs_stats()
-    csv_total_stats()
+    
+    # 
+    for year in range(1980, 2021):
+        csv_pergame_stats(year)
+        csv_perposs_stats(year)
+        csv_total_stats(year)
 
 '''
 Helper function that creates folders for each season 
 '''
 def create_season_folder():
     # Our file path 
-    output_path = r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Team_Stats"
-
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team_Stats")
+    
     # If this is false, creates file else just print message
-    if(os.path.isdir(r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Team_Stats\1980") == False):
+    if(os.path.isdir(os.path.join(output_path, "1980")) == False):
         print("Creating files from 1980 to 2020")
         
         # Iterate through 1980 - 2020
@@ -110,7 +115,7 @@ def get_team_pergame_stats():
     for year in range(1980, 2021):
         df = get_season_team_stats(2019, 'PER_GAME') 
         # Our file path 
-        output_path = r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Team_Stats"
+        output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team_Stats")
 
         # Update the path replaces "2019" with season
         update_path = os.path.join(output_path, str(year))
@@ -141,8 +146,12 @@ def get_team_pergame_stats():
 Main function generates csv files for the functions above
 '''
 def main():
-    #season_csv()
-    get_team_pergame_stats()
+    season_csv()
+    #get_team_pergame_stats()
+    #path = pathlib.Path().absolute()
+    #print(path)
+    #print(os.path.join(path, "Output", "Team_Stats"))
+    
     return 0
 
 if __name__ == "__main__":

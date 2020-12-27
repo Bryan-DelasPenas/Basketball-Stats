@@ -68,7 +68,7 @@ def get_season_team_stats(season, data_format ='PER_GAME'):
     return df
     
 '''
-Creates a dataframe for a specific team stats, overloaded function for get_season_stats
+Creates a dataframe for a specific team stats, overloaded function for get_season_stats but this only gets one teams stats
 '''
 def get_team_stats(team,season, data_format ='PER_GAME'): 
     
@@ -85,7 +85,7 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
 
     # Get the url of the page for starting purposes, using widgets.sports-references.com
     page = r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
-
+    
     # Init the dataframe 
     df = None 
 
