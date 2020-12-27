@@ -101,23 +101,48 @@ def create_season_folder():
 '''
 Function that creates a folder for each team, and creates a csv for there stats
 '''
-def get_team_stats():
+def get_team_pergame_stats():
 
     # Create the season folders if needed to 
     create_season_folder()
+    
+    # Iterate through 1980 to 2020
+    for year in range(1980, 2021):
+        df = get_season_team_stats(2019, 'PER_GAME') 
+        # Our file path 
+        output_path = r"C:\Users\Bryan\Desktop\Basketball-Stats\Output\Team_Stats"
 
-    # TODO: Create the folders for season  
+        # Update the path replaces "2019" with season
+        update_path = os.path.join(output_path, str(year))
 
-    # TODO: Put in the csv 
+        # Create the final path that has "Pergame"
+        final_path = os.path.join(update_path, "Pergame")
+    
+        if(os.path.isdir(final_path) == False):
+            # Create the directory with the final_path
+            print("Now creating the pergame directory for this year")
+            os.mkdir(final_path)
+        else:
+            print("The file name pergame was created for this year")
+    
+        # Iterate through the len of the team column 
+        for team in range(0, len(df['TEAM'])):
+        
+            # Call the get_team_stats that returns a dataframe a certin team stats from a given year
+            team_df = get_team_stats(df.iloc[team, 0], year) 
+    
+            # Create a unique name for the file 
+            file_name = "\\"+ str(year)+ "season"+ "_" + str(df.iloc[team, 0]) + "_" + "Pergame" + ".csv"
 
-
+            # Generate the CSV file in the propery directory 
+            team_df.to_csv(final_path + file_name, index = False)
 
 '''
 Main function generates csv files for the functions above
 '''
 def main():
     #season_csv()
-    get_team_stats()
+    get_team_pergame_stats()
     return 0
 
 if __name__ == "__main__":

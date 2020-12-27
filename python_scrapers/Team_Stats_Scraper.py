@@ -68,7 +68,7 @@ def get_season_team_stats(season, data_format ='PER_GAME'):
     return df
     
 '''
-Creates a dataframe for a specific team stats 
+Creates a dataframe for a specific team stats, overloaded function for get_season_stats
 '''
 def get_team_stats(team,season, data_format ='PER_GAME'): 
     
@@ -114,8 +114,8 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
         df = df.drop(['Rk', 'Team'], axis=1)
         
         # Adds a new column called season which should be the season parameter minus 1 - season parameter
-        df.loc[:, 'SEASON'] = f'{season - 1}-{str(season)[2:]}'
-        df = df[df['TEAM']==team]
+        df.loc[:, 'SEASON'] = f'{season - 1} - {str(season)[2:]}'
+        df = df[df['TEAM'] == team]
         
         # Moves the TEAM column to be the first element
         df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
