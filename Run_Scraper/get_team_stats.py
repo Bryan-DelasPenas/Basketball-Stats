@@ -83,45 +83,75 @@ def create_season_folder():
 '''
 Function that creates a folder for each team, and creates a csv for there stats
 '''
-def get_team_pergame_csv():
+def csv_team_stats(format):
 
     # Create the season folders if needed to 
     create_season_folder()
     
+    if(format == 'PER_GAME'):
+        file_type = "Pergame"
+        string_type = "pergame"
+
+    elif(format == 'PER_POSS'):
+        file_type = "Perposs"
+        string_type = "perposs"
+
+    elif(format == 'TOTAL'):
+        file_type = "Total"
+        string_type = "total"
+    
+    else:
+        print("Please select insert the right format")
+        return 0
+
+
     # Iterate through 1980 to 2020
     for year in range(1980, 2021):
-        df = get_season_team_stats(2019, 'PER_GAME') 
+        print(year)
+        df = get_season_team_stats(year, format) 
+
+        output_path = None
+        final_path = None
+
         # Our file path 
         output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team_Stats")
+        print(output_path)
 
-        # Create the final path that has "Pergame"
-        final_path = os.path.join(output_path, str(year), "Pergame")
-    
+        # Create the final path that has format name
+        final_path = os.path.join(output_path, str(year), file_type)
+        print("final path is" + " " + final_path)
+
         if(os.path.isdir(final_path) == False):
             # Create the directory with the final_path
-            print("Now creating the pergame directory for this year")
+            #print("Now creating the pergame directory for this year")
             os.mkdir(final_path)
         else:
-            print("The file name pergame was created for this year")
-    
+            #print("The file name pergame was created for this year")
+            pass
         # Iterate through the len of the team column 
         for team in range(0, len(df['TEAM'])):
         
             # Call the get_team_stats that returns a dataframe a certin team stats from a given year
-            team_df = get_team_stats(df.iloc[team, 0], year) 
+            team_df = get_team_stats(df.iloc[team, 0], year, format) 
     
             # Create a unique name for the file 
-            file_name = "\\"+ str(year)+ "season"+ "_" + str(df.iloc[team, 0]) + "_" + "Pergame" + ".csv"
+            file_name = "\\"+ str(year)+ "season"+ "_" + str(df.iloc[team, 0]) + "_" + string_type + ".csv"
 
             # Generate the CSV file in the propery directory 
             team_df.to_csv(final_path + file_name, index = False)
+        
+
+def get_team_csv(): 
+    csv_team_stats('PER_GAME')
+    csv_team_stats('PER_POSS')
+    csv_team_stats('TOTAL')
 
 '''
 Main function generates csv files for the functions above
 '''
 def main():
-    get_season_csv()
-    #get_team_pergame_csv()
+    #get_season_csv()
+    get_team_csv()
 
     
     return 0
