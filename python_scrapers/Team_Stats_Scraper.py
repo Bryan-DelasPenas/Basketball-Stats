@@ -84,13 +84,13 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
         select = 'div_team-stats-per_poss'
 
     # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
+    r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
     
     # Init the dataframe 
     df = None 
 
     # Check the status code, if the code is 200, it means the request went through
-    if page.status_code == 200: 
+    if r.status_code == 200: 
         soup = BeautifulSoup(r.content, 'html.parser')
         table = soup.find('table')
         
@@ -101,8 +101,10 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
         if(data_format != 'PER_POSS'):
             league_avg_index = df[df['Team']=='League Average'].index[0]
             df = df[:league_avg_index]
+        
         else:
             pass
+        
         # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
         df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
@@ -122,3 +124,53 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
 
         return df
 
+'''
+
+'''
+def get_opp_stats(season, data_format ='PER_GAME'):
+
+    # This is the format for the data, 
+    # 3 options: Total, Per game and Per poss
+    if data_format=='TOTAL':
+        select = 'div_opponent-stats-base'
+    
+    elif data_format=='PER_GAME':
+        select = 'div_opponent-stats-per_game'
+    
+    elif data_format=='PER_POSS':
+        select = 'div_opponent-stats-per_poss'
+
+    r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}')
+    df = None
+
+    # Check the status code, if the code is 200, it means the request went through
+    if r.status_code == 200: 
+        soup = BeautifulSoup(r.content, 'html.parser')
+        table = soup.find('table')
+    
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+        
+        # Since total and per game have league averages we have to add this segement of code 
+        if(data_format != 'PER_POSS'):
+            league_avg_index = df[df['Team']=='League Average'].index[0]
+            df = df[:league_avg_index]
+        
+        else:
+            pass
+        
+        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+
+        # Moves the TEAM column to be the first element
+        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+
+        # Drop rk(Rank) and Team 
+        df = df.drop(['Rk', 'Team'], axis=1)
+        
+        # Change columns name to add OPP 
+        df.columns = list(map(lambda x: 'OPP_'+x, list(df.columns)))
+        df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
+        
+        return df 
