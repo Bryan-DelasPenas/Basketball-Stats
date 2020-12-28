@@ -16,47 +16,32 @@ from Team_Stats_Scraper import get_season_team_stats, get_team_stats
 '''
 Generates a CSV file of teams per game stats since 1980
 '''
-def csv_pergame_stats(year):
-    df = get_season_team_stats(year, 'PER_GAME')
+def csv_season_stats(year, format):
+    
+    if(format == 'PER_GAME'):
+        file_name = "Team_Pergame_Stats"
+        string_type = "pergame"
+
+    elif(format == 'PER_POSS'):
+        file_name = "Team_Perposs_Stats"
+        string_type = "perposs"
+
+    elif(format == 'TOTAL'):
+        file_name = "Team_Total_Stats"
+        string_type = "total"
+    
+    else:
+        print("Please select insert the right format")
+        return 0
+
+    df = get_season_team_stats(year, format)
     df = df.round(2)
         
     # Output path for the csv file
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", "Team_Pergame_Stats")
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", file_name)
         
     # Create a unique name for the file 
-    season =  "\\"+ str(year)+ "season"+ "_" +"pergame" + ".csv"
-
-    # Create the csv file
-    df.to_csv(output_path + season, index = False)
-
-'''
-Generates a CSV file of teams per possion stats since 1980
-'''
-def csv_perposs_stats(year):
-    df = get_season_team_stats(year, 'PER_POSS')
-    df = df.round(2)
-        
-    # Output path for the csv file
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", "Team_Perposs_Stats")
-
-    # Create a unique name for the file 
-    season =  "\\"+ str(year)+ "season"+ "_" +"perposs" + ".csv"
-
-    # Create the csv file
-    df.to_csv(output_path + season, index = False)
-
-'''
-Generates a CSV file of teams total stats since 1980
-'''
-def csv_total_stats(year):
-    df = get_season_team_stats(year, 'TOTAL')
-    df = df.round(2)
-        
-    # Output path for the csv file
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", "Team_Total_Stats")
-
-    # Create a unique name for the file 
-    season =  "\\"+ str(year)+ "season"+ "_" + "Total" + ".csv"
+    season =  "\\"+ str(year)+ "season"+ "_" + string_type + ".csv"
 
     # Create the csv file
     df.to_csv(output_path + season, index = False)
@@ -64,13 +49,14 @@ def csv_total_stats(year):
 '''
 Functions that calls the three functions above that creates the csv 
 '''
-def get_season_season_csv():
+def get_season_csv():
     
     # Iterate through the 1980 and 2020 season
     for year in range(1980, 2021):
-        csv_pergame_stats(year)
-        csv_perposs_stats(year)
-        csv_total_stats(year)
+        csv_season_stats(year, 'PER_GAME')
+        csv_season_stats(year, 'PER_POSS')
+        csv_season_stats(year, 'TOTAL')
+      
 
 '''
 Helper function that creates folders for each season 
@@ -134,8 +120,8 @@ def get_team_pergame_csv():
 Main function generates csv files for the functions above
 '''
 def main():
-    get_season_season_csv()
-    get_team_pergame_csv()
+    get_season_csv()
+    #get_team_pergame_csv()
 
     
     return 0
