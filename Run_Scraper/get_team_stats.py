@@ -17,9 +17,6 @@ from Team_Stats_Scraper import get_season_team_stats, get_team_stats
 Generates a CSV file of teams per game stats since 1980
 '''
 def csv_pergame_stats(year):
-    
-    # Iterate through 1980 to 2020
-    #for year in range(1980, 2021):
     df = get_season_team_stats(year, 'PER_GAME')
     df = df.round(2)
         
@@ -36,9 +33,6 @@ def csv_pergame_stats(year):
 Generates a CSV file of teams per possion stats since 1980
 '''
 def csv_perposs_stats(year):
-
-   # Iterate through 1980 to 2020
-    #for year in range(1980, 2021):
     df = get_season_team_stats(year, 'PER_POSS')
     df = df.round(2)
         
@@ -55,9 +49,6 @@ def csv_perposs_stats(year):
 Generates a CSV file of teams total stats since 1980
 '''
 def csv_total_stats(year):
- 
- # Iterate through 1980 to 2020
-    #for year in range(1980, 2021):
     df = get_season_team_stats(year, 'TOTAL')
     df = df.round(2)
         
@@ -73,9 +64,9 @@ def csv_total_stats(year):
 '''
 Functions that calls the three functions above that creates the csv 
 '''
-def season_csv():
+def get_season_season_csv():
     
-    # 
+    # Iterate through the 1980 and 2020 season
     for year in range(1980, 2021):
         csv_pergame_stats(year)
         csv_perposs_stats(year)
@@ -85,7 +76,7 @@ def season_csv():
 Helper function that creates folders for each season 
 '''
 def create_season_folder():
-    # Our file path 
+    # The file path
     output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team_Stats")
     
     # If this is false, creates file else just print message
@@ -106,7 +97,7 @@ def create_season_folder():
 '''
 Function that creates a folder for each team, and creates a csv for there stats
 '''
-def get_team_pergame_stats():
+def get_team_pergame_csv():
 
     # Create the season folders if needed to 
     create_season_folder()
@@ -117,11 +108,8 @@ def get_team_pergame_stats():
         # Our file path 
         output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team_Stats")
 
-        # Update the path replaces "2019" with season
-        update_path = os.path.join(output_path, str(year))
-
         # Create the final path that has "Pergame"
-        final_path = os.path.join(update_path, "Pergame")
+        final_path = os.path.join(output_path, str(year), "Pergame")
     
         if(os.path.isdir(final_path) == False):
             # Create the directory with the final_path
@@ -146,11 +134,9 @@ def get_team_pergame_stats():
 Main function generates csv files for the functions above
 '''
 def main():
-    season_csv()
-    #get_team_pergame_stats()
-    #path = pathlib.Path().absolute()
-    #print(path)
-    #print(os.path.join(path, "Output", "Team_Stats"))
+    get_season_season_csv()
+    get_team_pergame_csv()
+
     
     return 0
 
