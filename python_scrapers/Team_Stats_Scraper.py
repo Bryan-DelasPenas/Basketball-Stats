@@ -24,14 +24,14 @@ Creates a dataframe that returns the teams name
 '''
 def get_team_name(season):
     # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div=div_team-stats-per_poss') 
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div=div_team-stats-per_poss') 
 
     # Init the dataframe 
     df = None 
 
     # Check the status code, if the code is 200, it means the request went through
     if page.status_code == 200: 
-        soup = BeautifulSoup(r.content, 'html.parser')
+        soup = BeautifulSoup(page.content, 'html.parser')
         table = soup.find('table')
         
         # Insert this data into a pandas dataframe
@@ -43,6 +43,33 @@ def get_team_name(season):
         # Uppercase only the first letter in the team names 
         df = df['Team'].str.title()
     return df 
+
+'''
+Create a dataframe for team roster
+'''
+def get_roster(team, season):
+    # Get the url of the page for starting purposes,
+    page = get(f'https://www.basketball-reference.com/teams/{team}/{season}.html')
+
+    # Init the dataframe  
+    df = None 
+
+    # Check the status code, if the code is 200, it means the request went through
+    if page.status_code == 200: 
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find('table')
+        
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+
+        # Column for the dataframe 
+        df.columns = ['NUMBER', 'PLAYER', 'POS', 'HEIGHT', 'WEIGHT', 'BIRTH_DATE', 'NATIONALITY', 'EXPERIENCE', 'COLLEGE']
+
+        # Converts birth date to datetime 
+        df['BIRTH_DATE'] = df['BIRTH_DATE'].apply(lambda x: pd.to_datetime(x))
+        df['NATIONALITY'] = df['NATIONALITY'].str.upper()
+        
+        return df
 '''
 Creates a dataframe of everyteam's teams for the season
 '''
@@ -60,14 +87,14 @@ def get_season_team_stats(season, data_format ='PER_GAME'):
         select = 'div_team-stats-per_poss'
 
     # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
 
     # Init the dataframe 
     df = None 
 
     # Check the status code, if the code is 200, it means the request went through
     if page.status_code == 200: 
-        soup = BeautifulSoup(r.content, 'html.parser')
+        soup = BeautifulSoup(page.content, 'html.parser')
         table = soup.find('table')
         
         # Insert this data into a pandas dataframe
@@ -108,14 +135,14 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
         select = 'div_team-stats-per_poss'
 
     # Get the url of the page for starting purposes, using widgets.sports-references.com
-    r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
     
     # Init the dataframe 
     df = None 
 
     # Check the status code, if the code is 200, it means the request went through
-    if r.status_code == 200: 
-        soup = BeautifulSoup(r.content, 'html.parser')
+    if page.status_code == 200: 
+        soup = BeautifulSoup(page.content, 'html.parser')
         table = soup.find('table')
         
         # Insert this data into a pandas dataframe

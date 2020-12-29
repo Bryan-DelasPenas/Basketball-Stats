@@ -1,0 +1,20 @@
+NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+12,Chris Andersen,C,6-10,245,1978-07-07,US,4,Blinn College
+33,Brandon Bass,PF,6-8,250,1985-04-30,US,R,LSU
+42,P.J. Brown,C,6-11,225,1969-10-14,US,12,Louisiana Tech
+45,Rasual Butler,SF,6-7,215,1979-05-23,US,3,La Salle
+5,Speedy Claxton,PG,5-11,166,1978-05-08,US,4,Hofstra
+21,Marcus Fizer,PF,6-9,262,1978-08-10,US,5,Iowa State
+44,Marc Jackson,C,6-10,270,1975-01-16,US,5,"VCU, Temple"
+43,Linton Johnson,SF,6-8,205,1980-06-13,US,2,Tulane
+15,Maciej Lampe,C,6-11,275,1985-02-05,PL,2,
+6,Arvydas Macijauskas,SG,6-4,214,1980-01-19,LT,R,
+24,Desmond Mason,SF,6-7,224,1977-10-11,US,5,Oklahoma State
+10,Boštjan Nachbar,PF,6-9,221,1980-07-03,SI,3,
+25,Moochie Norris,PG,6-1,175,1973-07-27,US,8,"Auburn, University of West Florida"
+3,Chris Paul,PG,6-1,175,1985-05-06,US,R,Wake Forest
+23,J.R. Smith,SG,6-6,225,1985-09-09,US,1,
+1,Kirk Snyder,SG,6-6,225,1983-06-05,US,1,Nevada
+4,Jackson Vroman,PF,6-10,220,1981-06-06,US,1,Iowa State
+30,David West,PF,6-9,250,1980-08-29,US,2,Xavier
+34,Aaron Williams,C,6-9,220,1971-10-02,US,11,Xavier
