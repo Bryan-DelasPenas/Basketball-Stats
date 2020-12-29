@@ -20,6 +20,30 @@ from requests import get
 from Team_Constants import TEAM_TO_ABBRIVATION
 
 '''
+Creates a dataframe that returns the teams name 
+'''
+def get_team_name(season):
+    # Get the url of the page for starting purposes, using widgets.sports-references.com
+    page = r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div=div_team-stats-per_poss') 
+
+    # Init the dataframe 
+    df = None 
+
+    # Check the status code, if the code is 200, it means the request went through
+    if page.status_code == 200: 
+        soup = BeautifulSoup(r.content, 'html.parser')
+        table = soup.find('table')
+        
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+        
+        # Remove * from playoff teams 
+        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+ 
+        # Uppercase only the first letter in the team names 
+        df = df['Team'].str.title()
+    return df 
+'''
 Creates a dataframe of everyteam's teams for the season
 '''
 def get_season_team_stats(season, data_format ='PER_GAME'): 

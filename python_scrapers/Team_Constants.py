@@ -14,7 +14,7 @@ TEAM_TO_ABBRIVATION = {
     'CHARLOTTE HORNETS':                 'CHO', # Currently the Charlotte Hornets from 2014 to 2020 but formely the Charlotee Hornets from 1989 to 2002
     'CHARLOTTE BOBCATS':                 'CHA', # Formerly the Charlotte Bobcats from, 2004 to 2014
     'CHICAGO BULLS':                     'CHI', # Currently the Chicago Bulls from 1966 to 2020
-    'CLEVELAND CAVALIERS':              'CLE', # Currently the Cleveland Calvaliers from 1970 to 2020 
+    'CLEVELAND CAVALIERS':               'CLE', # Currently the Cleveland Calvaliers from 1970 to 2020 
     'DALLAS MAVERICKS':                  'DAL', # Currently the Dallas Mavericks from 1980 to 2020 
     'DENVER NUGGETS':                    'DEN', # Currently the Denver Nuggets from 1967 to 2020
     'DETROIT PISTONS':                   'DET', # Currently the Detroit Pistons from 1948 to 2020 
@@ -23,7 +23,7 @@ TEAM_TO_ABBRIVATION = {
     'INDIANA PACERS':                    'IND', # Currently the Indiana Pacers from 1967 to 2020
     'LOS ANGELES CLIPPERS':              'LAC', # Currently the Los Angeles Clippers from 1970 to 2020 
     'SAN DIEGO CLIPPERS':                'SDC', # Formerly the San Diego Clippers from 1978 to 1984
-    'LOS ANGELES LAKERS':                 'LAL', # Currently the Los Angeles Lakers from 1960 to 2020
+    'LOS ANGELES LAKERS':                'LAL', # Currently the Los Angeles Lakers from 1960 to 2020
     'MEMPHIS GRIZZLIES':                 'MEM', # Currently the Memphis Grizzlies from 2001 to 2020 
     'VANCOUVER GRIZZLIES':               'VAN', # Formerly the Vancouver Grizzlies from 1995 to 2001   
     'MIAMI HEAT':                        'MIA', # Currently the Miami Heat from 1988 to 2020

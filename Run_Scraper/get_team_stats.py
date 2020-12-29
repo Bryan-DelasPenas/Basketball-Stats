@@ -11,8 +11,25 @@ sys.path.append('\\Users\\Bryan\\Desktop\\Basketball-Stats\\python_scrapers')
 import os
 import pathlib 
 from pathlib import Path
-from Team_Stats_Scraper import get_season_team_stats, get_team_stats, get_opp_stats
+from Team_Stats_Scraper import get_season_team_stats, get_team_stats, get_opp_stats, get_team_name
 
+'''
+
+'''
+def csv_team_name(year):
+    # Check if the needed directory has been made  
+    directory_parent = "Season_Stats"
+    directory_child = "Team_Names"
+    create_output_directory(directory_parent)
+    create_output_child_directory(directory_parent,directory_child)
+    
+    df = get_team_name(year)
+    # Our file path 
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent,directory_child)
+
+    file_name = "\\" + str(year) + "teams.csv"
+
+    df.to_csv(output_path + file_name, index = False)
 '''
 Generates a CSV file of teams per game stats since 1980
 '''
@@ -43,7 +60,7 @@ def csv_season_stats(year, format):
     df = df.round(2)
         
     # Output path for the csv file
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Season_Stats", file_name)
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent, file_name)
         
     # Create a unique name for the file 
     season =  "\\"+ str(year)+ "season"+ "_" + string_type + ".csv"
@@ -61,7 +78,7 @@ def get_season_csv():
         csv_season_stats(year, 'PER_GAME')
         csv_season_stats(year, 'PER_POSS')
         csv_season_stats(year, 'TOTAL')
-      
+        csv_team_name(year)
 '''
 Helper function that creates folders for each season 
 '''
@@ -85,7 +102,7 @@ def create_team_stats_folder():
         return False
 
 '''
-Function that creates a folder for each team, and creates a csv for there stats
+Function that creates a folder for each team, and creates a csv for there stats and a csv containing team names
 '''
 def csv_team_stats(format):
 
@@ -111,35 +128,34 @@ def csv_team_stats(format):
     # Check if the directory has been made
     directory_parent = "Team_Stats"
     create_output_directory(directory_parent)
-    create_output_child_directory(directory_parent, file_type)
+    
     
     # Iterate through 1980 to 2020
     for year in range(1980, 2021):
-        print(year)
+        
+        # Dataframe for season stats
         df = get_season_team_stats(year, format) 
-
+        
         output_path = None
         final_path = None
 
         # Our file path 
-        output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team_Stats")
-
+        output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent)
         # Create the final path that has format name
         final_path = os.path.join(output_path, str(year), file_type)
 
         if(os.path.isdir(final_path) == False):
             # Create the directory with the final_path
-            #print("Now creating the pergame directory for this year")
             os.mkdir(final_path)
         else:
-            #print("The file name pergame was created for this year")
+            
             pass
         # Iterate through the len of the team column 
         for team in range(0, len(df['TEAM'])):
         
             # Call the get_team_stats that returns a dataframe a certin team stats from a given year
             team_df = get_team_stats(df.iloc[team, 0], year, format) 
-    
+
             # Create a unique name for the file 
             file_name = "\\"+ str(year)+ "season"+ "_" + str(df.iloc[team, 0]) + "_" + string_type + ".csv"
 
@@ -236,8 +252,8 @@ Main function generates csv files for the functions above
 '''
 def main():
     get_season_csv()
-    get_team_csv()
-    get_opp_csv()
+    #get_team_csv()
+    #get_opp_csv()
     
     return 0
 
