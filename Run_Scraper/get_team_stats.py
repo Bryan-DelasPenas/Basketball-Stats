@@ -155,7 +155,7 @@ def get_team_csv():
     csv_team_stats('TOTAL')
 
 '''
-
+Creates a new dirctory in the directory Output 
 '''
 def create_output_directory(format): 
     output_path = os.path.join(pathlib.Path().absolute(), "Output")
@@ -168,7 +168,7 @@ def create_output_directory(format):
         return False
     
 '''
-
+Creates a new directory in the parent_directory 
 '''
 def create_output_child_directory(parent_directory, format):
     output_path = os.path.join(pathlib.Path().absolute(), "Output", parent_directory)
@@ -181,7 +181,7 @@ def create_output_child_directory(parent_directory, format):
         return False
 
 '''
-
+Function that creates the csvs for opponent stats 
 '''
 def csv_season_opp(year, format):
     if(format == 'PER_GAME'):
@@ -200,11 +200,13 @@ def csv_season_opp(year, format):
     else:
         print("Please select insert the right format")
         return 0
+    
+    # Create the directory if not there
     directory_parent = "Opponent_Season_Stats"
     create_output_directory(directory_parent)
     create_output_child_directory(directory_parent,file_name)
 
-
+    # Call the scraper function
     df = get_opp_stats(year, format)
     df = df.round(2)
     
@@ -220,7 +222,7 @@ def csv_season_opp(year, format):
     return 0
 
 '''
-
+Functions that gets the pergame, perposs and total opponent stats from 1980 to 2020
 '''
 def get_opp_csv():
     # Iterate through the 1980 and 2020 season
@@ -233,8 +235,8 @@ def get_opp_csv():
 Main function generates csv files for the functions above
 '''
 def main():
-    #get_season_csv()
-    #get_team_csv()
+    get_season_csv()
+    get_team_csv()
     get_opp_csv()
     
     return 0

@@ -125,7 +125,7 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
         return df
 
 '''
-
+Creates a dataframe that contains the stats of teams' oppoenets 
 '''
 def get_opp_stats(season, data_format ='PER_GAME'):
 
