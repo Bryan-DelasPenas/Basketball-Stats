@@ -70,6 +70,7 @@ def get_roster(team, season):
         df['NATIONALITY'] = df['NATIONALITY'].str.upper()
         
         return df
+
 '''
 Creates a dataframe of everyteam's teams for the season
 '''
