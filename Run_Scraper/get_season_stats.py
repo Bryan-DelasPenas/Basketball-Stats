@@ -11,7 +11,7 @@ sys.path.append('\\Users\\Bryan\\Desktop\\Basketball-Stats\\python_scrapers')
 import os
 import pathlib 
 from pathlib import Path
-from Team_Stats_Scraper import get_season_team_stats, get_team_stats, get_opp_stats, get_team_name, get_roster
+from Season_Stats_Scraper import get_season_team_stats, get_opp_stats, get_team_name
 
 '''
 Helper function that creates a new dirctory in the directory Output 
@@ -151,6 +151,7 @@ def get_season_csv():
         csv_season_opp(year, 'PER_POSS')
         csv_season_opp(year, 'TOTAL') 
 
+"""
 '''
 Helper function that creates folders for each season 
 '''
@@ -289,9 +290,9 @@ def get_team_csv():
 '''
 Main function generates csv files for the functions above
 '''
+"""
 def main():
-    get_season_csv()
-    get_team_csv()
+    #get_season_csv()
     
     return 0
 

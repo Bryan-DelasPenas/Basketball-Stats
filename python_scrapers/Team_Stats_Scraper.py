@@ -18,31 +18,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from Team_Constants import TEAM_TO_ABBRIVATION
-
-'''
-Creates a dataframe that returns the teams name 
-'''
-def get_team_name(season):
-    # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div=div_team-stats-per_poss') 
-
-    # Init the dataframe 
-    df = None 
-
-    # Check the status code, if the code is 200, it means the request went through
-    if page.status_code == 200: 
-        soup = BeautifulSoup(page.content, 'html.parser')
-        table = soup.find('table')
-        
-        # Insert this data into a pandas dataframe
-        df = pd.read_html(str(table))[0]
-        
-        # Remove * from playoff teams 
-        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
- 
-        # Uppercase only the first letter in the team names 
-        df = df['Team'].str.title()
-    return df 
+from utils import remove_accents
 
 '''
 Create a dataframe for team roster
@@ -65,6 +41,8 @@ def get_roster(team, season):
         # Column for the dataframe 
         df.columns = ['NUMBER', 'PLAYER', 'POS', 'HEIGHT', 'WEIGHT', 'BIRTH_DATE', 'NATIONALITY', 'EXPERIENCE', 'COLLEGE']
 
+        df['PLAYER'] = df['PLAYER'].apply(lambda name: remove_accents(name, team, season))
+
         # Converts birth date to datetime 
         df['BIRTH_DATE'] = df['BIRTH_DATE'].apply(lambda x: pd.to_datetime(x))
         df['NATIONALITY'] = df['NATIONALITY'].str.upper()
@@ -72,71 +50,51 @@ def get_roster(team, season):
         return df
 
 '''
-Creates a dataframe of everyteam's teams for the season
+Creates a dataframe for team's pergame with players 
 '''
-def get_season_team_stats(season, data_format ='PER_GAME'): 
+def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'): 
     
-    # This is the format for the data, 
-    # 3 options: Total, Per game and Per poss
-    if data_format=='TOTAL':
-        select = 'div_team-stats-base'
-    
-    elif data_format=='PER_GAME':
-        select = 'div_team-stats-per_game'
-    
-    elif data_format=='PER_POSS':
-        select = 'div_team-stats-per_poss'
-
-    # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
-
-    # Init the dataframe 
-    df = None 
-
-    # Check the status code, if the code is 200, it means the request went through
-    if page.status_code == 200: 
-        soup = BeautifulSoup(page.content, 'html.parser')
-        table = soup.find('table')
+    # Check if playoff stats are requested
+    if playoffs == True: 
+        if data_format =='TOTAL':
+            select = 'div_playoffs_total'
         
-        # Insert this data into a pandas dataframe
-        df = pd.read_html(str(table))[0]
+        elif data_format =='PER_GAME':
+            select = 'div_playoffs_per_game'
         
-        # Since total and per game have league averages we have to add this segement of code 
-        if(data_format != 'PER_POSS'):
-            league_avg_index = df[df['Team']=='League Average'].index[0]
-            df = df[:league_avg_index]
-        else:
-            pass
-        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
-        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+        elif data_format == 'PER_MINUTE':
+            select = 'div_playoffs_per_minute'
 
-        # Moves the TEAM column to be the first element
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        elif data_format == 'PER_POSS':
+            select = 'div_playoffs_per_poss'
 
-        # Drop rk(Rank) and Team 
-        df = df.drop(['Rk', 'Team'], axis=1)
-       
-    return df
-    
-'''
-Creates a dataframe for a specific team stats, overloaded function for get_season_stats. TODO: Rewrite this function
-'''
-def get_team_stats(team,season, data_format ='PER_GAME'): 
-    
-    # This is the format for the data, 
-    # 3 options: Total, Per game and Per poss
-    if data_format=='TOTAL':
-        select = 'div_team-stats-base'
-    
-    elif data_format=='PER_GAME':
-        select = 'div_team-stats-per_game'
-    
-    elif data_format=='PER_POSS':
-        select = 'div_team-stats-per_poss'
+        elif data_format == 'ADVANCED':
+            select = 'div_playoffs_advanced'
 
+    else:
+
+        # This is the format for the data, 
+        # 6 options: Total, Per game and Per 36 and per 100, advanced, adjusted shooting
+        if data_format =='TOTAL':
+            select = 'div_total'
+        
+        elif data_format =='PER_GAME':
+            select = 'div_per_game'
+        
+        elif data_format == 'PER_MINUTE':
+            select = 'div_per_minute'
+
+        elif data_format == 'PER_POSS':
+            select = 'div_per_poss'
+
+        elif data_format == 'ADVANCED':
+            select = 'div_advanced'
+
+        elif data_format == 'ADJUSTED':
+            select = 'div_adj-shooting'
+   
     # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fteams%2F{team}%2F{season}.html&div={select}') 
     
     # Init the dataframe 
     df = None 
@@ -145,150 +103,31 @@ def get_team_stats(team,season, data_format ='PER_GAME'):
     if page.status_code == 200: 
         soup = BeautifulSoup(page.content, 'html.parser')
         table = soup.find('table')
-        
-        # Insert this data into a pandas dataframe
-        df = pd.read_html(str(table))[0]
-        
-        # Since total and per game have league averages we have to add this segement of code 
-        if(data_format != 'PER_POSS'):
-            league_avg_index = df[df['Team']=='League Average'].index[0]
-            df = df[:league_avg_index]
-        
+
+        # Check if the table exist example; if playoff is passed as parameter and team didn't make playoffs    
+        if(table == None):
+            print("Error: table not found")
+            return None
         else:
-            pass
+            # Insert this data into a pandas dataframe
+            df = pd.read_html(str(table))[0]
         
-        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
-        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
-
-        # Moves the TEAM column to be the first element
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-
-        # Drop rk(Rank) and Team 
-        df = df.drop(['Rk', 'Team'], axis=1)
+            # Changes the second column to players 
+            df.columns.values[1] = "PLAYER"
+            df['PLAYER'] = df['PLAYER'].apply(lambda name: remove_accents(name, team, season))
+            df.rename(columns = {'Age': 'AGE'})
+            # Drop rk(Rank) which is the first column 
+            df = df.drop(['Rk'], axis=1)
         
-        # Adds a new column called season which should be the season parameter minus 1 - season parameter
-        df.loc[:, 'SEASON'] = f'{season - 1} - {str(season)[2:]}'
-        
-        # Look for the team you pass as a parameter
-        df = df[df['TEAM'] == team]
-        
-        # Moves the TEAM column to be the first element
-        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
-
-        return df
+            return df
 
 '''
-Creates a dataframe that contains the stats of teams' oppoenets 
+Creates a dataframe for opp per game with players 
 '''
-def get_opp_stats(season, data_format ='PER_GAME'):
 
-    # This is the format for the data, 
-    # 3 options: Total, Per game and Per poss
-    if data_format=='TOTAL':
-        select = 'div_opponent-stats-base'
-    
-    elif data_format=='PER_GAME':
-        select = 'div_opponent-stats-per_game'
-    
-    elif data_format=='PER_POSS':
-        select = 'div_opponent-stats-per_poss'
-
-    r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}')
-    df = None
-
-    # Check the status code, if the code is 200, it means the request went through
-    if r.status_code == 200: 
-        soup = BeautifulSoup(r.content, 'html.parser')
-        table = soup.find('table')
-    
-        # Insert this data into a pandas dataframe
-        df = pd.read_html(str(table))[0]
-        
-        # Since total and per game have league averages we have to add this segement of code 
-        if(data_format != 'PER_POSS'):
-            league_avg_index = df[df['Team']=='League Average'].index[0]
-            df = df[:league_avg_index]
-        
-        else:
-            pass
-        
-        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
-        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
-
-        # Moves the TEAM column to be the first element
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-
-        # Drop rk(Rank) and Team 
-        df = df.drop(['Rk', 'Team'], axis=1)
-        
-        # Change columns name to add OPP 
-        df.columns = list(map(lambda x: 'OPP_'+x, list(df.columns)))
-        df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
-        
-        return df 
-
-'''
-Creates a dataframe of a teams players opp's averages TODO: Rewrite this function 
-'''
-def get_team_opp_stats(team, season, data_format = 'PER_GAME'):
-    # This is the format for the data, 
-    # 3 options: Total, Per game and Per poss
-    if data_format=='TOTAL':
-        select = 'div_opponent-stats-base'
-    
-    elif data_format=='PER_GAME':
-        select = 'div_opponent-stats-per_game'
-    
-    elif data_format=='PER_POSS':
-        select = 'div_opponent-stats-per_poss'
-
-    r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}')
-    df = None
-
-    # Check the status code, if the code is 200, it means the request went through
-    if r.status_code == 200: 
-        soup = BeautifulSoup(r.content, 'html.parser')
-        table = soup.find('table')
-    
-        # Insert this data into a pandas dataframe
-        df = pd.read_html(str(table))[0]
-        
-        # Since total and per game have league averages we have to add this segement of code 
-        if(data_format != 'PER_POSS'):
-            league_avg_index = df[df['Team']=='League Average'].index[0]
-            df = df[:league_avg_index]
-        
-        else:
-            pass
-        
-        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
-        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
-
-        # Moves the TEAM column to be the first element
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-
-        # Drop rk(Rank) and Team 
-        df = df.drop(['Rk', 'Team'], axis=1)
-        
-        # Adds a new column called season which should be the season parameter minus 1 - season parameter
-        df.loc[:, 'SEASON'] = f'{season - 1} - {str(season)[2:]}'
-        
-        # Look for the team you pass as a parameter
-        df = df[df['TEAM'] == team]
-        
-        # Moves the TEAM column to be the first element
-        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
-
-        # Change columns name to add OPP 
-        df.columns = list(map(lambda x: 'OPP_'+x, list(df.columns)))
-        df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
-        
-        return df 
 
 def main():
-    print(get_team_opp_stats('GSW',2019))
+    print(get_team_stats('GSW', 2020))
+    return 0
 
 main()
