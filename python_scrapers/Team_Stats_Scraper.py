@@ -76,7 +76,7 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
         # This is the format for the data, 
         # 6 options: Total, Per game and Per 36 and per 100, advanced, adjusted shooting
         if data_format =='TOTAL':
-            select = 'div_total'
+            select = 'div_totals'
         
         elif data_format =='PER_GAME':
             select = 'div_per_game'
@@ -112,12 +112,25 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             # Insert this data into a pandas dataframe
             df = pd.read_html(str(table))[0]
         
-            # Changes the second column to players 
-            df.columns.values[1] = "PLAYER"
+            # This is due to Adjusted table being a muti-index 
+            if(data_format == 'ADJUSTED'):
+                df.columns = ['RK', 'PLAYER','AGE','G','MP', ' ','FG','2P','3P','eFG','FT','TS','FTr','3PAr',' ','FG+','2P+','3P+','eFG+','FT+','TS+','FTr+','3PAr+',' ','FG Add','TS Add']
+                
+                # Drop rows where values are all missing
+                df = df.dropna(how='all')
+
+                # Drop columns where all values are missing 
+                df = df.dropna(axis='columns',how='all')
+        
+            else:
+                # Changes the second column to players 
+                df.columns.values[1] = "PLAYER"
+            
             df['PLAYER'] = df['PLAYER'].apply(lambda name: remove_accents(name, team, season))
             df.rename(columns = {'Age': 'AGE'})
+            
             # Drop rk(Rank) which is the first column 
-            df = df.drop(['Rk'], axis=1)
+            df = df.drop(['RK'], axis=1)
         
             return df
 
@@ -126,8 +139,3 @@ Creates a dataframe for opp per game with players
 '''
 
 
-def main():
-    print(get_team_stats('GSW', 2020))
-    return 0
-
-main()
