@@ -99,67 +99,56 @@ def csv_team_stats(year, playoffs ,format):
     
     # Check if you are looking for playoff stats 
     if(playoffs == True):
-
+        string_playoffs = "Playoffs"
         if(format == 'PER_GAME'):
             file_type = "Per_game"
             string_type = "per_game"
-            string_playoffs = "Playoffs"
 
         elif(format == 'PER_POSS'):
             file_type = "Per_poss"
             string_type = "per_poss"
-            string_playoffs = "Playoffs"
 
         elif(format == 'TOTAL'):
             file_type = "Total"
             string_type = "total"
-            string_playoffs = "Playoffs"
 
         elif(format == 'PER_MINUTE'):
             file_type = "Per_Minute"
             string_type = "per_minute"
-            string_playoffs = "Playoffs"
 
         elif(format == 'ADVANCED'):
             file_type = 'Advanced'
             string_type = "advanced"
-            string_playoffs = "Playoffs"
 
         else:
             print("Please select insert the right format")
             return 0
 
     else:
-        
+        string_playoffs = "Regular"
         if(format == 'PER_GAME'):
             file_type = "Per_game"
             string_type = "per_game"
-            string_playoffs = "Regular"
 
         elif(format == 'PER_POSS'):
             file_type = "Per_poss"
             string_type = "per_poss"
-            string_playoffs = "Regular"
 
         elif(format == 'TOTAL'):
             file_type = "Total"
             string_type = "total"
-            string_playoffs = "Regular"
 
         elif(format == 'PER_MINUTE'):
             file_type = "Per_Minute"
             string_type = "per_minute"
-            string_playoffs = "Regualar"
 
         elif(format == 'ADVANCED'):
             file_type = 'Advanced'
             string_type = "advanced"
-            string_playoffs = "Regular"
 
         elif(format == 'ADJUSTED'): 
             file_type = 'Adjusted'
             string_type = "adjusted"
-            string_playoffs = "Regular"
 
         else:
             print("Please select insert the right format")
@@ -168,6 +157,7 @@ def csv_team_stats(year, playoffs ,format):
     # Dataframe for season stats
     df = get_season_team_stats(year) 
         
+    # Init variables 
     output_path = None
     final_path = None
 
@@ -180,8 +170,8 @@ def csv_team_stats(year, playoffs ,format):
         # Create the directory with the final_path
         os.mkdir(final_path)
     else:
-            
         pass
+    
     # Iterate through the len of the team column 
     for team in range(0, len(df['TEAM'])):
 
@@ -204,11 +194,11 @@ def get_team_csv():
     for year in range(1980, 2021):
 
         # Non-Playoff stats
-        #csv_team_stats(year, False, 'PER_GAME')
-        #csv_team_stats(year, False, 'PER_POSS')
-        #csv_team_stats(year, False, 'TOTAL')
-        #csv_team_stats(year, False, 'PER_MINUTE')
-        #csv_team_stats(year, False, 'ADVANCED')
+        csv_team_stats(year, False, 'PER_GAME')
+        csv_team_stats(year, False, 'PER_POSS')
+        csv_team_stats(year, False, 'TOTAL')
+        csv_team_stats(year, False, 'PER_MINUTE')
+        csv_team_stats(year, False, 'ADVANCED')
         csv_team_stats(year, False, 'ADJUSTED')
 
         # Playoff stats 

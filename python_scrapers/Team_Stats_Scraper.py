@@ -108,11 +108,12 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
         if(table == None):
             print("Error: table not found")
             return None
+        
         else:
             # Insert this data into a pandas dataframe
             df = pd.read_html(str(table))[0]
         
-            # This is due to Adjusted table being a muti-index 
+            # This is due to Adjusted table being a muti-index for the columns
             if(data_format == 'ADJUSTED'):
                 df.columns = ['RK', 'PLAYER','AGE','G','MP', ' ','FG','2P','3P','eFG','FT','TS','FTr','3PAr',' ','FG+','2P+','3P+','eFG+','FT+','TS+','FTr+','3PAr+',' ','FG Add','TS Add']
                 
@@ -134,8 +135,5 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
         
             return df
 
-'''
-Creates a dataframe for opp per game with players 
-'''
 
 
