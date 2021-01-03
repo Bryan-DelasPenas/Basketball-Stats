@@ -45,12 +45,8 @@ Function that creates csv files of team roster
 '''
 def csv_roster(year):
 
-    # Create the season folders if needed to 
-    create_team_stats_folder()
-     
-    # Check if the directory has been made
+    # Directory name 
     directory_parent = "Team_Stats"
-    create_output_directory(directory_parent)
     
     # Dataframe for season stats
     df = get_season_team_stats(year) 
@@ -90,12 +86,8 @@ Function that creates a folder for each team, and creates a csv for there stats 
 '''
 def csv_team_stats(year, playoffs ,format):
 
-     # Check if the directory has been made
+    # Check if the directory has been made
     directory_parent = "Team_Stats"
-    create_output_directory(directory_parent)
-
-    # Create the season folders if needed to 
-    create_team_stats_folder()
     
     # Check if you are looking for playoff stats 
     if(playoffs == True):
@@ -190,8 +182,15 @@ Generates a CSV of each team in its own dir for each team
 '''
 def get_team_csv(): 
     
+    # Check if the directory has been made
+    directory_parent = "Team_Stats"
+    create_output_directory(directory_parent)
+
+    # Create the season folders if needed to 
+    create_team_stats_folder()
+
     # Iterate through 1980 to 2020
-    for year in range(1980, 2021):
+    for year in range(2010, 2021):
 
         # Non-Playoff stats
         csv_team_stats(year, False, 'PER_GAME')
