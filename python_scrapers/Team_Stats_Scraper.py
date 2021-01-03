@@ -115,7 +115,7 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
         
             # This is due to Adjusted table being a muti-index for the columns
             if(data_format == 'ADJUSTED'):
-                df.columns = ['RK', 'PLAYER','AGE','G','MP', ' ','FG','2P','3P','eFG','FT','TS','FTr','3PAr',' ','FG+','2P+','3P+','eFG+','FT+','TS+','FTr+','3PAr+',' ','FG Add','TS Add']
+                df.columns = ['Rk', 'PLAYER','AGE','G','MP', ' ','FG','2P','3P','eFG','FT','TS','FTr','3PAr',' ','FG+','2P+','3P+','eFG+','FT+','TS+','FTr+','3PAr+',' ','FG Add','TS Add']
                 
                 # Drop rows where values are all missing
                 df = df.dropna(how='all')
@@ -131,7 +131,7 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             df.rename(columns = {'Age': 'AGE'})
             
             # Drop rk(Rank) which is the first column 
-            df = df.drop(['RK'], axis=1)
+            df = df.drop(['Rk'], axis=1)
         
             return df
 
