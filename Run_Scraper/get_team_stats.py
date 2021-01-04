@@ -190,7 +190,7 @@ def get_team_csv():
     create_team_stats_folder()
 
     # Iterate through 1980 to 2020
-    for year in range(2010, 2021):
+    for year in range(1980, 2021):
 
         # Non-Playoff stats
         csv_team_stats(year, False, 'PER_GAME')
@@ -212,5 +212,5 @@ def get_team_csv():
 
 def main():
     get_team_csv()
-
+    
 main()

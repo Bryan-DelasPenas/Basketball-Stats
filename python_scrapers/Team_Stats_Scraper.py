@@ -54,47 +54,19 @@ Creates a dataframe for team's pergame with players
 '''
 def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'): 
     
+    # Lower case data_format for the url
+    select = data_format.lower()
+    
+    # This is a speical case 
+    if select == 'adjusted':
+        select = 'adj-shooting'
+    
     # Check if playoff stats are requested
-    if playoffs == True: 
-        if data_format =='TOTAL':
-            select = 'div_playoffs_total'
-        
-        elif data_format =='PER_GAME':
-            select = 'div_playoffs_per_game'
-        
-        elif data_format == 'PER_MINUTE':
-            select = 'div_playoffs_per_minute'
+    if playoffs: 
+        select = 'playoffs_' + select
 
-        elif data_format == 'PER_POSS':
-            select = 'div_playoffs_per_poss'
-
-        elif data_format == 'ADVANCED':
-            select = 'div_playoffs_advanced'
-
-    else:
-
-        # This is the format for the data, 
-        # 6 options: Total, Per game and Per 36 and per 100, advanced, adjusted shooting
-        if data_format =='TOTAL':
-            select = 'div_totals'
-        
-        elif data_format =='PER_GAME':
-            select = 'div_per_game'
-        
-        elif data_format == 'PER_MINUTE':
-            select = 'div_per_minute'
-
-        elif data_format == 'PER_POSS':
-            select = 'div_per_poss'
-
-        elif data_format == 'ADVANCED':
-            select = 'div_advanced'
-
-        elif data_format == 'ADJUSTED':
-            select = 'div_adj-shooting'
-   
     # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fteams%2F{team}%2F{season}.html&div={select}') 
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fteams%2F{team}%2F{season}.html&div=div_{select}') 
     
     # Init the dataframe 
     df = None 
