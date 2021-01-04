@@ -4,9 +4,9 @@
 <p>This project is a personal project, using concepts of web scraping, database management 
 and machine learning that can be broken down into three phases</p>
 
-<strong>Phase 1:</strong> Web scraping 
-<strong>Phase 2:</strong> Creating the database 
-<strong>Phase 3:</strong> Predicting the MVP based on player stats 
+<strong>Phase 1:</strong> Web scraping<br>
+<strong>Phase 2:</strong> Creating the database<br> 
+<strong>Phase 3:</strong> Predicting the MVP based on player stats<br> 
 
 <p>Phase 1: By using the python libraries beautifulsoup, we can scrap data from 
 basketball-reference.com. There are going to be multiple scrapers that scrap information
