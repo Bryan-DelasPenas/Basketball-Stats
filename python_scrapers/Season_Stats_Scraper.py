@@ -189,6 +189,10 @@ def get_standings(season, data_format = 'standard'):
             df_east = df_east.drop(['Eastern Conference'], axis=1)
             df_west = df_west.drop(['Western Conference'], axis=1)
 
+            # Round each entry to the second decimal place
+            df_east = df_east.round(2)
+            df_west = df_west.round(2)
+
             return df_east, df_west
         else: 
             print('Error 404: Page could not be found')
@@ -238,6 +242,9 @@ def get_standings(season, data_format = 'standard'):
             # Drop rk(Rank) and Team 
             df = df.drop(['Rk', 'Team'], axis=1)
             
+            # Round each entry to the second decimal place
+            df = df.round(2)
+
             return df
         else: 
             print('Error 404: Page could not be found')
@@ -263,6 +270,9 @@ def get_standings(season, data_format = 'standard'):
             # Drop rk(Rank) and Team 
             df = df.drop(['Rk', 'Team'], axis=1)
             
+            # Round each entry to the second decimal place
+            df = df.round(2)
+
             return df
        
         else: 

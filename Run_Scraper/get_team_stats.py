@@ -86,9 +86,12 @@ Function that creates a folder for each team, and creates a csv for there stats 
 '''
 def csv_team_stats(year, playoffs ,format):
 
-    # Check if the directory has been made
+    # The directory parents
     directory_parent = "Team_Stats"
     
+    # Change format to be uppercase 
+    format = format.upper()
+
     # Check if you are looking for playoff stats 
     if(playoffs == True):
         string_playoffs = "Playoffs"
@@ -213,4 +216,5 @@ def get_team_csv():
 def main():
     get_team_csv()
   
-main()
+if __name__ == "__main__":
+    main()
