@@ -3,7 +3,7 @@
 ## Description:
 <p>This project is a personal project, using concepts of web scraping, database management 
 and machine learning, we can use data from the that can be broken down into three phases
-and a possible fourth phase</p>
+and a possible fourth phase.</p>
 
 <strong>Phase 1:</strong> Web scraping<br>
 <strong>Phase 2:</strong> Creating the database<br> 
@@ -89,7 +89,7 @@ $ python /your/path/Basketball-Stats/Run_Scraper/get_season_stats.py  # Gets sea
 $ python /your/path/Basketball-Stats/Run_Scraper/get_team_stats.py    # Gets team stats from 1980 - current
 $ python /your/path/Basketball-Stats/Run_Scraper/get_player_stats.py  # Gets player stats from 1980 - current
 ``` 
-<p>Were your path is where you decide to store the source directory, <em>Basketball-Stats</em></p>
+<p>Where your path is where you decide to store the source directory, <em>Basketball-Stats</em></p>
 
 ### Running the Database 
 <p>TBD</p>
