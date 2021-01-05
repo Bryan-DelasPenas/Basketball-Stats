@@ -51,6 +51,7 @@ def get_roster(team, season):
 
     else: 
         print('Error 404: Page could not be found')
+
 '''
 Creates a dataframe for team's pergame with players 
 '''
@@ -59,7 +60,7 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
     # Lower case data_format for the url
     select = data_format.lower()
     
-    # This is a speical case 
+    # This is a stat only that name doesn't match it in the url 
     if select == 'adjusted':
         select = 'adj-shooting'
     
@@ -114,5 +115,4 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
 
     else: 
         print('Error 404: Page could not be found')
-
 

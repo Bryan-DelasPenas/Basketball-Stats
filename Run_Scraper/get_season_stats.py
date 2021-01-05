@@ -13,7 +13,7 @@ import pathlib
 from pathlib import Path
 
 # Import modules 
-from Season_Stats_Scraper import get_season_team_stats, get_opp_stats, get_team_name, get_standings
+from Season_Stats_Scraper import get_season_team_stats, get_opp_stats, get_team_name, get_standings, get_team_misc
 from helper import create_output_child_directory, create_output_directory
 
 '''
@@ -23,7 +23,6 @@ def csv_team_name(year):
     # Check if the needed directory has been made  
     directory_parent = "Season_Stats"
     directory_child = "Team_Names"
-    create_output_directory(directory_parent)
     create_output_child_directory(directory_parent,directory_child)
     
     df = get_team_name(year)
@@ -60,7 +59,6 @@ def csv_season_stats(year, format):
 
     # Check if the directory has been made
     directory_parent = "Season_Stats"
-    create_output_directory(directory_parent)
     create_output_child_directory(directory_parent,file_name)
 
     df = get_season_team_stats(year, format)
@@ -102,7 +100,6 @@ def csv_season_opp(year, format):
     
     # Create the directory if not there
     directory_parent = "Season_Stats"
-    create_output_directory(directory_parent)
     create_output_child_directory(directory_parent,file_name)
 
     # Call the scraper function
@@ -121,7 +118,7 @@ def csv_season_opp(year, format):
     return 0
 
 '''
-Function that creates the csv
+Function that creates the csv for standings
 '''
 def csv_standings(year, format):
     
@@ -147,7 +144,6 @@ def csv_standings(year, format):
 
     # Check if the proper directories has been made
     directory_parent = "Season_Stats"
-    create_output_directory(directory_parent)
     create_output_child_directory(directory_parent,file_name)
 
     # If the format is standard get_standings will return two dataframes 
@@ -178,16 +174,52 @@ def csv_standings(year, format):
         df.to_csv(output_path + season, index = False)
 
 '''
+Function that creates the csv for team misc stats
+'''
+def csv_team_misc(year):
+    # Check if the needed directory has been made  
+    directory_parent = "Season_Stats"
+    directory_child = "Team_Misc"
+    create_output_child_directory(directory_parent,directory_child)
+
+    # Call the scraper function
+    df = get_team_misc(year)
+    
+    # Our file path 
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent,directory_child)
+
+    file_name = "\\" + str(year) + "team_misc.csv"
+
+    df.to_csv(output_path + file_name, index = False)
+
+'''
 Functions that calls the three functions above that creates the csv 
 '''
 def get_season_csv():
-    
+    # Check if the proper directories has been made
+    directory_parent = "Season_Stats"
+    create_output_directory(directory_parent)
+
     # Iterate through the 1980 and 2020 season
     for year in range(1980, 2021):
+        
+        # Season Stats
         csv_season_stats(year, 'PER_GAME')
         csv_season_stats(year, 'PER_POSS')
         csv_season_stats(year, 'TOTAL')
+
+        # Team Name
         csv_team_name(year)
+        
+        # Team Misc
+        csv_team_misc(year)
+
+        # Standing Stats
+        csv_standings(year, 'STANDARD')
+        csv_standings(year, 'EXPANDED_STANDINGS')
+        csv_standings(year, 'TEAM_VS_TEAM')
+
+        # Opponent Stats
         csv_season_opp(year, 'PER_GAME')
         csv_season_opp(year, 'PER_POSS')
         csv_season_opp(year, 'TOTAL') 
@@ -196,9 +228,7 @@ def get_season_csv():
 Main function generates csv files for the functions above
 '''
 def main():
-    #get_season_csv()
-    csv_standings(2020, 'expanded_standings')
-    return 0
-
+    get_season_csv()
+    
 if __name__ == "__main__":
     main()
