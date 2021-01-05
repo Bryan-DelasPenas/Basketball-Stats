@@ -132,7 +132,7 @@ def get_season_csv():
 Main function generates csv files for the functions above
 '''
 def main():
-    #get_season_csv()
+    get_season_csv()
     
     return 0
 

@@ -212,5 +212,5 @@ def get_team_csv():
 
 def main():
     get_team_csv()
-    
+  
 main()

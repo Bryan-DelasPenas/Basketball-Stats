@@ -49,6 +49,8 @@ def get_roster(team, season):
         
         return df
 
+    else: 
+        print('Error 404: Page could not be found')
 '''
 Creates a dataframe for team's pergame with players 
 '''
@@ -104,8 +106,13 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             
             # Drop rk(Rank) which is the first column 
             df = df.drop(['Rk'], axis=1)
-        
+            
+            # Rounds every entry to two decimal places
+            df = df.round(2)
+            
             return df
 
+    else: 
+        print('Error 404: Page could not be found')
 
 

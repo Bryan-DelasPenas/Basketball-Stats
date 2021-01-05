@@ -89,7 +89,10 @@ def get_season_team_stats(season, data_format ='PER_GAME'):
 
         # Drop rk(Rank) and Team 
         df = df.drop(['Rk', 'Team'], axis=1)
-       
+
+        # Rounds every entry to two decimal places
+        df = df.round(2)
+
     return df
     
 '''
@@ -141,5 +144,126 @@ def get_opp_stats(season, data_format ='PER_GAME'):
         df.columns = list(map(lambda x: 'OPP_'+x, list(df.columns)))
         df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
         
+        # Rounds every entry to two decimal places
+        df = df.round(2)
+
         return df 
 
+''' 
+Creates a datafrane that returns standings 
+'''
+def get_standings(season, data_format = 'standard'):
+
+    # Converts data_format into lower case string 
+    data_format = data_format.lower()
+    
+    if data_format == 'standard':
+
+        r = get(f'https://www.basketball-reference.com/leagues/NBA_{season}_standings.html')
+        df_east = None
+        df_west = None
+
+        # Check the status code, if the code is 200, it means the request went through
+        if r.status_code == 200: 
+            soup = BeautifulSoup(r.content, 'html.parser')
+
+            # Search for eastern conference and western conference table
+            table_east = soup.find('table', attrs={'id': 'confs_standings_E'})
+            table_west = soup.find('table', attrs={'id': 'confs_standings_W'} )
+            
+            # Create a dataframe for both east and west conference
+            df_east = pd.read_html(str(table_east))[0]
+            df_west = pd.read_html(str(table_west))[0]
+            
+            # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+            df_east['Eastern Conference'] = df_east['Eastern Conference'].apply(lambda x: x.replace('*', '').upper())
+            df_east['TEAM'] = df_east['Eastern Conference'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+            df_west['Western Conference'] = df_west['Western Conference'].apply(lambda x: x.replace('*', '').upper())
+            df_west['TEAM'] = df_west['Western Conference'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+            
+            # Moves the TEAM column to be the first element
+            df_east = df_east[ ['TEAM'] + [ col for col in df_east.columns if col != 'TEAM' ] ]
+            df_west = df_west[ ['TEAM'] + [ col for col in df_west.columns if col != 'TEAM' ] ]
+
+            # Drop Team 
+            df_east = df_east.drop(['Eastern Conference'], axis=1)
+            df_west = df_west.drop(['Western Conference'], axis=1)
+
+            return df_east, df_west
+        else: 
+            print('Error 404: Page could not be found')
+
+    elif data_format == 'expanded_standings':
+        select = 'div_expanded_standings'
+        r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_2020_standings.html&div={select}')
+        df = None
+
+        # Check the status code, if the code is 200, it means the request went through
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.content, 'html.parser')
+            table = soup.find('table')
+            df = pd.read_html(str(table))[0]
+            
+            # Special case for 2020 due to COVID19
+            if season == 2020:
+                
+                # Dataframe's columns for the 2020 season
+                df.columns = ['Rk', 'Team', 'OVERALL', 'HOME RECORD', 'ROAD RECORD', 'EASTERN CONFERENCE RECORD', 'WESTERN CONFERENCE RECORD', 'ATLANTIC DIVISION RECORD','CENTRAL DIVISION RECORD', 
+                           'SOUTHEASTERN DIVISION RECORD', 'NORTHWESTERN DIVISION RECORD', 'PACIFIC DIVISION RECORD', 'SOUTHWESTERN DIVISION RECORD', 'PRE ALLSTAR RECORD', 'POST ALLSTAR RECORD',
+                           '3 POINT MARGIN', '10 POINT MARGIN', 'OCT RECORD', 'NOV RECORD', 'DEC RECORD', 'JAN RECORD', 'FEB RECORD', 'MAR RECORD', 'JUL RECORD', 'AUG RECORD']
+            
+            # Due to COVID19 the season start in DEC
+            elif season == 2021:
+                
+                # Dataframe's columns for the 2021 season
+                df.columns = ['Rk', 'Team', 'OVERALL', 'HOME RECORD', 'ROAD RECORD', 'EASTERN CONFERENCE RECORD', 'WESTERN CONFERENCE RECORD', 'ATLANTIC DIVISION RECORD','CENTRAL DIVISION RECORD', 
+                           'SOUTHEASTERN DIVISION RECORD', 'NORTHWESTERN DIVISION RECORD', 'PACIFIC DIVISION RECORD', 'SOUTHWESTERN DIVISION RECORD', 'PRE ALLSTAR RECORD', 'POST ALLSTAR RECORD',
+                           '3 POINT MARGIN', '10 POINT MARGIN',  'DEC RECORD', 'JAN RECORD', 'FEB RECORD', 'MAR RECORD']
+            
+            # For any other season, 1980 - 2019
+            else: 
+                
+                # Dataframe's columns for 1980 - 2019 seasons
+                df.columns = ['Rk', 'Team', 'OVERALL', 'HOME RECORD', 'ROAD RECORD', 'EASTERN CONFERENCE RECORD', 'WESTERN CONFERENCE RECORD', 'ATLANTIC DIVISION RECORD','CENTRAL DIVISION RECORD', 
+                           'SOUTHEASTERN DIVISION RECORD', 'NORTHWESTERN DIVISION RECORD', 'PACIFIC DIVISION RECORD', 'SOUTHWESTERN DIVISION RECORD', 'PRE ALLSTAR RECORD', 'POST ALLSTAR RECORD',
+                           '3 POINT MARGIN', '10 POINT MARGIN', 'OCT RECORD', 'NOV RECORD', 'DEC RECORD', 'JAN RECORD', 'FEB RECORD', 'MAR RECORD', 'APR RECORD']
+                        
+            # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+            df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+            df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+
+            # Moves the TEAM column to be the first element
+            df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+
+            # Drop rk(Rank) and Team 
+            df = df.drop(['Rk', 'Team'], axis=1)
+            
+            return df
+        else: 
+            print('Error 404: Page could not be found')
+
+    elif data_format == 'team_vs_team':
+        select = 'div_team_vs_team'
+        r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_2020_standings.html&div={select}')
+        df = None
+
+        # Check the status code, if the code is 200, it means the request went through
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.content, 'html.parser')
+            table = soup.find('table')
+            df = pd.read_html(str(table))[0]
+             
+            # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+            df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+            df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+
+            # Moves the TEAM column to be the first element
+            df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+
+            # Drop rk(Rank) and Team 
+            df = df.drop(['Rk', 'Team'], axis=1)
+            
+            return df
+       
+        else: 
+            print('Error 404: Page could not be found')
