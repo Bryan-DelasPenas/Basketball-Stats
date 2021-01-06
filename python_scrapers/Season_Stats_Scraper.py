@@ -445,8 +445,10 @@ def get_team_misc(season):
 
         # Insert this data into a pandas dataframe
         df = pd.read_html(str(table))[0]
-
-        df.columns = list(map(lambda x: x[1], list(df.columns)))
+        
+        df.columns = ['Rk', 'Team', 'Age','W','L','PW','PL', 'MOV', 'SOS', 'SRS', 'ORtg','DRtg', 'NRtg','Pace', 'FTr', '3PAr', 'TS%', 
+                      'eFG%', 'TOV%', 'ORB%', 'FT/FGA', 'eFG%', 'TOV%', 'DRB%', 'FT/FGA', 'Arena', 'Attend.', 'Attend./G']
+        
         league_avg_index = df[df['Team']=='League Average'].index[0]
         df = df[:league_avg_index]
 
@@ -459,7 +461,7 @@ def get_team_misc(season):
 
         # Create a new column called season
         df['SEASON'] = season
-
+ 
         # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
         df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
         df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
@@ -470,6 +472,9 @@ def get_team_misc(season):
 
         # Change the name of the columns to be uppercase 
         df.rename(columns = {'Age': 'AGE', 'Pace': 'PACE', 'Arena': 'ARENA', 'Attend.': 'ATTENDANCE', 'Attend./G': 'ATTENDANCE/G'}, inplace=True)
+
+        # For some reason, there is duplicate column names, this code removes it 
+        df = df.loc[:,~df.columns.duplicated()]
 
         # Rounds every entry to two decimal places
         df = df.round(2)
