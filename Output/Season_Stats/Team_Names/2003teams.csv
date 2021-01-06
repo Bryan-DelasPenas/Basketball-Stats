@@ -1,30 +1,30 @@
-Team
-Dallas Mavericks
-Golden State Warriors
-Sacramento Kings
-Los Angeles Lakers
-Milwaukee Bucks
-Orlando Magic
-Minnesota Timberwolves
-Memphis Grizzlies
-Philadelphia 76Ers
-Indiana Pacers
-New York Knicks
-San Antonio Spurs
-Phoenix Suns
-New Jersey Nets
-Portland Trail Blazers
-Chicago Bulls
-Utah Jazz
-Atlanta Hawks
-New Orleans Hornets
-Los Angeles Clippers
-Houston Rockets
-Boston Celtics
-Seattle Supersonics
-Washington Wizards
-Cleveland Cavaliers
-Detroit Pistons
-Toronto Raptors
-Miami Heat
-Denver Nuggets
+SEASON,TEAM ID,Team,TEAM
+2003,7,Dallas Mavericks,DAL
+2003,10,Golden State Warriors,GSW
+2003,26,Sacramento Kings,SAC
+2003,14,Los Angeles Lakers,LAL
+2003,17,Milwaukee Bucks,MIL
+2003,22,Orlando Magic,ORL
+2003,18,Minnesota Timberwolves,MIN
+2003,15,Memphis Grizzlies,MEM
+2003,23,Philadelphia 76Ers,PHI
+2003,12,Indiana Pacers,IND
+2003,20,New York Knicks,NYK
+2003,27,San Antonio Spurs,SAS
+2003,24,Phoenix Suns,PHO
+2003,3,New Jersey Nets,NJN
+2003,25,Portland Trail Blazers,POR
+2003,5,Chicago Bulls,CHI
+2003,29,Utah Jazz,UTA
+2003,1,Atlanta Hawks,ALT
+2003,19,New Orleans Hornets,NOH
+2003,13,Los Angeles Clippers,LAC
+2003,11,Houston Rockets,HOU
+2003,2,Boston Celtics,BOS
+2003,21,Seattle Supersonics,SEA
+2003,30,Washington Wizards,WAS
+2003,6,Cleveland Cavaliers,CLE
+2003,9,Detroit Pistons,DET
+2003,28,Toronto Raptors,TOR
+2003,16,Miami Heat,MIA
+2003,8,Denver Nuggets,DEN

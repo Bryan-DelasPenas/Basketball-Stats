@@ -1,28 +1,28 @@
-Team
-Denver Nuggets
-Golden State Warriors
-Portland Trail Blazers
-Phoenix Suns
-Indiana Pacers
-Boston Celtics
-Chicago Bulls
-Atlanta Hawks
-San Antonio Spurs
-Houston Rockets
-Seattle Supersonics
-Milwaukee Bucks
-Los Angeles Lakers
-Orlando Magic
-Philadelphia 76Ers
-Utah Jazz
-Los Angeles Clippers
-New York Knicks
-New Jersey Nets
-Charlotte Hornets
-Miami Heat
-Cleveland Cavaliers
-Washington Bullets
-Detroit Pistons
-Dallas Mavericks
-Minnesota Timberwolves
-Sacramento Kings
+SEASON,TEAM ID,Team,TEAM
+1991,8,Denver Nuggets,DEN
+1991,10,Golden State Warriors,GSW
+1991,25,Portland Trail Blazers,POR
+1991,24,Phoenix Suns,PHO
+1991,12,Indiana Pacers,IND
+1991,2,Boston Celtics,BOS
+1991,5,Chicago Bulls,CHI
+1991,1,Atlanta Hawks,ALT
+1991,27,San Antonio Spurs,SAS
+1991,11,Houston Rockets,HOU
+1991,21,Seattle Supersonics,SEA
+1991,17,Milwaukee Bucks,MIL
+1991,14,Los Angeles Lakers,LAL
+1991,22,Orlando Magic,ORL
+1991,23,Philadelphia 76Ers,PHI
+1991,29,Utah Jazz,UTA
+1991,13,Los Angeles Clippers,LAC
+1991,20,New York Knicks,NYK
+1991,3,New Jersey Nets,NJN
+1991,4,Charlotte Hornets,CHO
+1991,16,Miami Heat,MIA
+1991,6,Cleveland Cavaliers,CLE
+1991,30,Washington Bullets,WAB
+1991,9,Detroit Pistons,DET
+1991,7,Dallas Mavericks,DAL
+1991,18,Minnesota Timberwolves,MIN
+1991,26,Sacramento Kings,SAC

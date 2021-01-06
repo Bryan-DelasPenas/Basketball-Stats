@@ -1,30 +1,30 @@
-Team
-Los Angeles Lakers
-Minnesota Timberwolves
-Utah Jazz
-Seattle Supersonics
-New Jersey Nets
-Phoenix Suns
-Houston Rockets
-Washington Wizards
-Chicago Bulls
-Charlotte Hornets
-Vancouver Grizzlies
-Indiana Pacers
-Los Angeles Clippers
-Boston Celtics
-Atlanta Hawks
-Miami Heat
-Toronto Raptors
-Milwaukee Bucks
-Portland Trail Blazers
-Detroit Pistons
-Philadelphia 76Ers
-Sacramento Kings
-San Antonio Spurs
-Cleveland Cavaliers
-New York Knicks
-Dallas Mavericks
-Orlando Magic
-Denver Nuggets
-Golden State Warriors
+SEASON,TEAM ID,Team,TEAM
+1998,14,Los Angeles Lakers,LAL
+1998,18,Minnesota Timberwolves,MIN
+1998,29,Utah Jazz,UTA
+1998,21,Seattle Supersonics,SEA
+1998,3,New Jersey Nets,NJN
+1998,24,Phoenix Suns,PHO
+1998,11,Houston Rockets,HOU
+1998,30,Washington Wizards,WAS
+1998,5,Chicago Bulls,CHI
+1998,4,Charlotte Hornets,CHO
+1998,15,Vancouver Grizzlies,VAN
+1998,12,Indiana Pacers,IND
+1998,13,Los Angeles Clippers,LAC
+1998,2,Boston Celtics,BOS
+1998,1,Atlanta Hawks,ALT
+1998,16,Miami Heat,MIA
+1998,28,Toronto Raptors,TOR
+1998,17,Milwaukee Bucks,MIL
+1998,25,Portland Trail Blazers,POR
+1998,9,Detroit Pistons,DET
+1998,23,Philadelphia 76Ers,PHI
+1998,26,Sacramento Kings,SAC
+1998,27,San Antonio Spurs,SAS
+1998,6,Cleveland Cavaliers,CLE
+1998,20,New York Knicks,NYK
+1998,7,Dallas Mavericks,DAL
+1998,22,Orlando Magic,ORL
+1998,8,Denver Nuggets,DEN
+1998,10,Golden State Warriors,GSW

@@ -17,7 +17,7 @@ import sys
 from bs4 import BeautifulSoup
 from requests import get
 
-from Team_Constants import TEAM_TO_ABBRIVATION
+from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID
 
 '''
 Creates a dataframe that returns the teams name 
@@ -36,12 +36,28 @@ def get_team_name(season):
         
         # Insert this data into a pandas dataframe
         df = pd.read_html(str(table))[0]
-        
+    
         # Remove * from playoff teams 
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
  
+        # Create a new column and put the team abbrivations for it 
+        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+    
+        # Create a new column for Team ID
+        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
         # Uppercase only the first letter in the team names 
-        df = df['Team'].str.title()
+        df['Team'] = df['Team'].str.title()
+
+        df['SEASON'] = season
+
+        # Drop all useless stats
+        df = df.drop(['Rk','G','MP','FG','FGA','FG%','3P','3PA', '3P%', '2P', '2PA','2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS'], axis =1)
+        
+        # Move team ID to the second element and Season to be the first
+        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+        
     return df 
 
 '''
@@ -84,8 +100,16 @@ def get_season_team_stats(season, data_format ='PER_GAME'):
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
         df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
 
-        # Moves the TEAM column to be the first element
+        # Create a new column for Team ID
+        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+        # Create a new column called season
+        df['SEASON'] = season
+
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
         df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
 
         # Drop rk(Rank) and Team 
         df = df.drop(['Rk', 'Team'], axis=1)
@@ -134,10 +158,18 @@ def get_opp_stats(season, data_format ='PER_GAME'):
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
         df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
 
-        # Moves the TEAM column to be the first element
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        # Create a new column for Team ID
+        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
 
-        # Drop rk(Rank) and Team 
+        # Create a new column called season
+        df['SEASON'] = season
+
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+        
+        # Drop rank and team from the dataframe
         df = df.drop(['Rk', 'Team'], axis=1)
         
         # Change columns name to add OPP 
@@ -150,7 +182,7 @@ def get_opp_stats(season, data_format ='PER_GAME'):
         return df 
 
 ''' 
-Creates a datafrane that returns standings 
+Creates a datafrane that returns standings TODO: PUT SEASON ID and TEAM ID
 '''
 def get_standings(season, data_format = 'standard'):
 
@@ -182,10 +214,22 @@ def get_standings(season, data_format = 'standard'):
                 df_east['TEAM'] = df_east['Eastern Conference'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
                 df_west['Western Conference'] = df_west['Western Conference'].apply(lambda x: x.replace('*', '').upper())
                 df_west['TEAM'] = df_west['Western Conference'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
-                
+
+                # Create a new column for Team ID
+                df_east['TEAM ID'] = df_east['TEAM'].apply(lambda x: TEAM_ID[x])
+                df_west['TEAM ID'] = df_west['TEAM'].apply(lambda x: TEAM_ID[x])
+
+                # Create a new column called season
+                df_east['SEASON'] = season
+                df_west['SEASON'] = season
+
                 # Moves the TEAM column to be the first element
                 df_east = df_east[ ['TEAM'] + [ col for col in df_east.columns if col != 'TEAM' ] ]
+                df_east = df_east[ ['TEAM ID'] + [ col for col in df_east.columns if col != 'TEAM ID' ] ]
+                df_east = df_east[ ['SEASON'] + [ col for col in df_east.columns if col != 'SEASON' ] ]
                 df_west = df_west[ ['TEAM'] + [ col for col in df_west.columns if col != 'TEAM' ] ]
+                df_west = df_west[ ['TEAM ID'] + [ col for col in df_west.columns if col != 'TEAM ID' ] ]
+                df_west = df_west[ ['SEASON'] + [ col for col in df_west.columns if col != 'SEASON' ] ]
 
                 # Drop Team 
                 df_east = df_east.drop(['Eastern Conference'], axis=1)
@@ -215,11 +259,23 @@ def get_standings(season, data_format = 'standard'):
                 df_east['TEAM'] = df_east['Eastern Conference'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
                 df_west['Western Conference'] = df_west['Western Conference'].apply(lambda x: x.replace('*', '').upper())
                 df_west['TEAM'] = df_west['Western Conference'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
-                
+
+                # Create a new column for Team ID
+                df_east['TEAM ID'] = df_east['TEAM'].apply(lambda x: TEAM_ID[x])
+                df_west['TEAM ID'] = df_west['TEAM'].apply(lambda x: TEAM_ID[x])
+
+                # Create a new column called season
+                df_east['SEASON'] = season
+                df_west['SEASON'] = season
+
                 # Moves the TEAM column to be the first element
                 df_east = df_east[ ['TEAM'] + [ col for col in df_east.columns if col != 'TEAM' ] ]
+                df_east = df_east[ ['TEAM ID'] + [ col for col in df_east.columns if col != 'TEAM ID' ] ]
+                df_east = df_east[ ['SEASON'] + [ col for col in df_east.columns if col != 'SEASON' ] ]
                 df_west = df_west[ ['TEAM'] + [ col for col in df_west.columns if col != 'TEAM' ] ]
-
+                df_west = df_west[ ['TEAM ID'] + [ col for col in df_west.columns if col != 'TEAM ID' ] ]
+                df_west = df_west[ ['SEASON'] + [ col for col in df_west.columns if col != 'SEASON' ] ]
+                
                 # Drop Team 
                 df_east = df_east.drop(['Eastern Conference'], axis=1)
                 df_west = df_west.drop(['Western Conference'], axis=1)
@@ -314,8 +370,16 @@ def get_standings(season, data_format = 'standard'):
             df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
             df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
 
-            # Moves the TEAM column to be the first element
+            # Create a new column for Team ID
+            df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+            # Create a new column called season
+            df['SEASON'] = season
+
+            # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
             df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+            df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+            df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
 
             # Drop rk(Rank) and Team 
             df = df.drop(['Rk', 'Team'], axis=1)
@@ -338,12 +402,20 @@ def get_standings(season, data_format = 'standard'):
             table = soup.find('table')
             df = pd.read_html(str(table))[0]
              
-            # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+             # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
             df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
             df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
 
-            # Moves the TEAM column to be the first element
+            # Create a new column for Team ID
+            df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+            # Create a new column called season
+            df['SEASON'] = season
+
+            # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
             df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+            df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+            df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
 
             # Drop rk(Rank) and Team 
             df = df.drop(['Rk', 'Team'], axis=1)
@@ -382,8 +454,16 @@ def get_team_misc(season):
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
         df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
 
-        # Moves the TEAM column to be the first element
+        # Create a new column for Team ID
+        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+        # Create a new column called season
+        df['SEASON'] = season
+
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
         df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
 
         # Drop rk(Rank) and Team 
         df = df.drop(['Rk', 'Team'], axis=1)

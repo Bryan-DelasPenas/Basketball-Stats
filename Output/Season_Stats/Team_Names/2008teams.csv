@@ -1,31 +1,31 @@
-Team
-Golden State Warriors
-Denver Nuggets
-Phoenix Suns
-Los Angeles Lakers
-Utah Jazz
-Orlando Magic
-Indiana Pacers
-Sacramento Kings
-New Orleans Hornets
-Memphis Grizzlies
-Boston Celtics
-Dallas Mavericks
-Toronto Raptors
-Washington Wizards
-Atlanta Hawks
-Seattle Supersonics
-Detroit Pistons
-Chicago Bulls
-Charlotte Bobcats
-Milwaukee Bucks
-New York Knicks
-Houston Rockets
-Philadelphia 76Ers
-Cleveland Cavaliers
-New Jersey Nets
-Minnesota Timberwolves
-Portland Trail Blazers
-San Antonio Spurs
-Los Angeles Clippers
-Miami Heat
+SEASON,TEAM ID,Team,TEAM
+2008,10,Golden State Warriors,GSW
+2008,8,Denver Nuggets,DEN
+2008,24,Phoenix Suns,PHO
+2008,14,Los Angeles Lakers,LAL
+2008,29,Utah Jazz,UTA
+2008,22,Orlando Magic,ORL
+2008,12,Indiana Pacers,IND
+2008,26,Sacramento Kings,SAC
+2008,19,New Orleans Hornets,NOH
+2008,15,Memphis Grizzlies,MEM
+2008,2,Boston Celtics,BOS
+2008,7,Dallas Mavericks,DAL
+2008,28,Toronto Raptors,TOR
+2008,30,Washington Wizards,WAS
+2008,1,Atlanta Hawks,ALT
+2008,21,Seattle Supersonics,SEA
+2008,9,Detroit Pistons,DET
+2008,5,Chicago Bulls,CHI
+2008,4,Charlotte Bobcats,CHA
+2008,17,Milwaukee Bucks,MIL
+2008,20,New York Knicks,NYK
+2008,11,Houston Rockets,HOU
+2008,23,Philadelphia 76Ers,PHI
+2008,6,Cleveland Cavaliers,CLE
+2008,3,New Jersey Nets,NJN
+2008,18,Minnesota Timberwolves,MIN
+2008,25,Portland Trail Blazers,POR
+2008,27,San Antonio Spurs,SAS
+2008,13,Los Angeles Clippers,LAC
+2008,16,Miami Heat,MIA

@@ -1,28 +1,28 @@
-Team
-Phoenix Suns
-Charlotte Hornets
-Golden State Warriors
-Portland Trail Blazers
-Seattle Supersonics
-Sacramento Kings
-Indiana Pacers
-Cleveland Cavaliers
-Atlanta Hawks
-Los Angeles Clippers
-Utah Jazz
-Orlando Magic
-San Antonio Spurs
-Denver Nuggets
-Chicago Bulls
-Philadelphia 76Ers
-Los Angeles Lakers
-Houston Rockets
-Boston Celtics
-Miami Heat
-New Jersey Nets
-Milwaukee Bucks
-Washington Bullets
-New York Knicks
-Detroit Pistons
-Dallas Mavericks
-Minnesota Timberwolves
+SEASON,TEAM ID,Team,TEAM
+1993,24,Phoenix Suns,PHO
+1993,4,Charlotte Hornets,CHO
+1993,10,Golden State Warriors,GSW
+1993,25,Portland Trail Blazers,POR
+1993,21,Seattle Supersonics,SEA
+1993,26,Sacramento Kings,SAC
+1993,12,Indiana Pacers,IND
+1993,6,Cleveland Cavaliers,CLE
+1993,1,Atlanta Hawks,ALT
+1993,13,Los Angeles Clippers,LAC
+1993,29,Utah Jazz,UTA
+1993,22,Orlando Magic,ORL
+1993,27,San Antonio Spurs,SAS
+1993,8,Denver Nuggets,DEN
+1993,5,Chicago Bulls,CHI
+1993,23,Philadelphia 76Ers,PHI
+1993,14,Los Angeles Lakers,LAL
+1993,11,Houston Rockets,HOU
+1993,2,Boston Celtics,BOS
+1993,16,Miami Heat,MIA
+1993,3,New Jersey Nets,NJN
+1993,17,Milwaukee Bucks,MIL
+1993,30,Washington Bullets,WAB
+1993,20,New York Knicks,NYK
+1993,9,Detroit Pistons,DET
+1993,7,Dallas Mavericks,DAL
+1993,18,Minnesota Timberwolves,MIN

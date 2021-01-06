@@ -1,28 +1,28 @@
-Team
-Golden State Warriors
-Indiana Pacers
-Phoenix Suns
-Portland Trail Blazers
-Chicago Bulls
-Charlotte Hornets
-Cleveland Cavaliers
-Utah Jazz
-Boston Celtics
-Seattle Supersonics
-Atlanta Hawks
-New Jersey Nets
-Milwaukee Bucks
-Miami Heat
-Sacramento Kings
-San Antonio Spurs
-Los Angeles Clippers
-Washington Bullets
-Houston Rockets
-Philadelphia 76Ers
-Orlando Magic
-New York Knicks
-Minnesota Timberwolves
-Los Angeles Lakers
-Denver Nuggets
-Detroit Pistons
-Dallas Mavericks
+SEASON,TEAM ID,Team,TEAM
+1992,10,Golden State Warriors,GSW
+1992,12,Indiana Pacers,IND
+1992,24,Phoenix Suns,PHO
+1992,25,Portland Trail Blazers,POR
+1992,5,Chicago Bulls,CHI
+1992,4,Charlotte Hornets,CHO
+1992,6,Cleveland Cavaliers,CLE
+1992,29,Utah Jazz,UTA
+1992,2,Boston Celtics,BOS
+1992,21,Seattle Supersonics,SEA
+1992,1,Atlanta Hawks,ALT
+1992,3,New Jersey Nets,NJN
+1992,17,Milwaukee Bucks,MIL
+1992,16,Miami Heat,MIA
+1992,26,Sacramento Kings,SAC
+1992,27,San Antonio Spurs,SAS
+1992,13,Los Angeles Clippers,LAC
+1992,30,Washington Bullets,WAB
+1992,11,Houston Rockets,HOU
+1992,23,Philadelphia 76Ers,PHI
+1992,22,Orlando Magic,ORL
+1992,20,New York Knicks,NYK
+1992,18,Minnesota Timberwolves,MIN
+1992,14,Los Angeles Lakers,LAL
+1992,8,Denver Nuggets,DEN
+1992,9,Detroit Pistons,DET
+1992,7,Dallas Mavericks,DAL

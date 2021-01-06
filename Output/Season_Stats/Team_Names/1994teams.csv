@@ -1,28 +1,28 @@
-Team
-Phoenix Suns
-Golden State Warriors
-Portland Trail Blazers
-Charlotte Hornets
-Seattle Supersonics
-Orlando Magic
-Miami Heat
-New Jersey Nets
-Los Angeles Clippers
-Utah Jazz
-Atlanta Hawks
-Cleveland Cavaliers
-Houston Rockets
-Sacramento Kings
-Indiana Pacers
-Boston Celtics
-Los Angeles Lakers
-Washington Bullets
-Denver Nuggets
-San Antonio Spurs
-New York Knicks
-Philadelphia 76Ers
-Chicago Bulls
-Milwaukee Bucks
-Detroit Pistons
-Minnesota Timberwolves
-Dallas Mavericks
+SEASON,TEAM ID,Team,TEAM
+1994,24,Phoenix Suns,PHO
+1994,10,Golden State Warriors,GSW
+1994,25,Portland Trail Blazers,POR
+1994,4,Charlotte Hornets,CHO
+1994,21,Seattle Supersonics,SEA
+1994,22,Orlando Magic,ORL
+1994,16,Miami Heat,MIA
+1994,3,New Jersey Nets,NJN
+1994,13,Los Angeles Clippers,LAC
+1994,29,Utah Jazz,UTA
+1994,1,Atlanta Hawks,ALT
+1994,6,Cleveland Cavaliers,CLE
+1994,11,Houston Rockets,HOU
+1994,26,Sacramento Kings,SAC
+1994,12,Indiana Pacers,IND
+1994,2,Boston Celtics,BOS
+1994,14,Los Angeles Lakers,LAL
+1994,30,Washington Bullets,WAB
+1994,8,Denver Nuggets,DEN
+1994,27,San Antonio Spurs,SAS
+1994,20,New York Knicks,NYK
+1994,23,Philadelphia 76Ers,PHI
+1994,5,Chicago Bulls,CHI
+1994,17,Milwaukee Bucks,MIL
+1994,9,Detroit Pistons,DET
+1994,18,Minnesota Timberwolves,MIN
+1994,7,Dallas Mavericks,DAL

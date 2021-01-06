@@ -1,31 +1,31 @@
-Team
-Golden State Warriors
-Los Angeles Clippers
-Dallas Mavericks
-Toronto Raptors
-Oklahoma City Thunder
-Houston Rockets
-San Antonio Spurs
-Cleveland Cavaliers
-Portland Trail Blazers
-Atlanta Hawks
-Phoenix Suns
-Denver Nuggets
-Boston Celtics
-Sacramento Kings
-Chicago Bulls
-New Orleans Pelicans
-Washington Wizards
-Detroit Pistons
-Los Angeles Lakers
-Memphis Grizzlies
-Brooklyn Nets
-Milwaukee Bucks
-Minnesota Timberwolves
-Indiana Pacers
-Orlando Magic
-Utah Jazz
-Miami Heat
-Charlotte Hornets
-Philadelphia 76Ers
-New York Knicks
+SEASON,TEAM ID,Team,TEAM
+2015,10,Golden State Warriors,GSW
+2015,13,Los Angeles Clippers,LAC
+2015,7,Dallas Mavericks,DAL
+2015,28,Toronto Raptors,TOR
+2015,21,Oklahoma City Thunder,OKC
+2015,11,Houston Rockets,HOU
+2015,27,San Antonio Spurs,SAS
+2015,6,Cleveland Cavaliers,CLE
+2015,25,Portland Trail Blazers,POR
+2015,1,Atlanta Hawks,ALT
+2015,24,Phoenix Suns,PHO
+2015,8,Denver Nuggets,DEN
+2015,2,Boston Celtics,BOS
+2015,26,Sacramento Kings,SAC
+2015,5,Chicago Bulls,CHI
+2015,19,New Orleans Pelicans,NOP
+2015,30,Washington Wizards,WAS
+2015,9,Detroit Pistons,DET
+2015,14,Los Angeles Lakers,LAL
+2015,15,Memphis Grizzlies,MEM
+2015,3,Brooklyn Nets,BRK
+2015,17,Milwaukee Bucks,MIL
+2015,18,Minnesota Timberwolves,MIN
+2015,12,Indiana Pacers,IND
+2015,22,Orlando Magic,ORL
+2015,29,Utah Jazz,UTA
+2015,16,Miami Heat,MIA
+2015,4,Charlotte Hornets,CHO
+2015,23,Philadelphia 76Ers,PHI
+2015,20,New York Knicks,NYK

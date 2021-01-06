@@ -1,31 +1,31 @@
-Team
-Los Angeles Clippers
-Houston Rockets
-Minnesota Timberwolves
-Portland Trail Blazers
-Oklahoma City Thunder
-San Antonio Spurs
-Phoenix Suns
-Dallas Mavericks
-Denver Nuggets
-Golden State Warriors
-Los Angeles Lakers
-Miami Heat
-Toronto Raptors
-Detroit Pistons
-Atlanta Hawks
-Washington Wizards
-Sacramento Kings
-New Orleans Pelicans
-Philadelphia 76Ers
-New York Knicks
-Brooklyn Nets
-Cleveland Cavaliers
-Charlotte Bobcats
-Indiana Pacers
-Orlando Magic
-Boston Celtics
-Memphis Grizzlies
-Milwaukee Bucks
-Utah Jazz
-Chicago Bulls
+SEASON,TEAM ID,Team,TEAM
+2014,13,Los Angeles Clippers,LAC
+2014,11,Houston Rockets,HOU
+2014,18,Minnesota Timberwolves,MIN
+2014,25,Portland Trail Blazers,POR
+2014,21,Oklahoma City Thunder,OKC
+2014,27,San Antonio Spurs,SAS
+2014,24,Phoenix Suns,PHO
+2014,7,Dallas Mavericks,DAL
+2014,8,Denver Nuggets,DEN
+2014,10,Golden State Warriors,GSW
+2014,14,Los Angeles Lakers,LAL
+2014,16,Miami Heat,MIA
+2014,28,Toronto Raptors,TOR
+2014,9,Detroit Pistons,DET
+2014,1,Atlanta Hawks,ALT
+2014,30,Washington Wizards,WAS
+2014,26,Sacramento Kings,SAC
+2014,19,New Orleans Pelicans,NOP
+2014,23,Philadelphia 76Ers,PHI
+2014,20,New York Knicks,NYK
+2014,3,Brooklyn Nets,BRK
+2014,6,Cleveland Cavaliers,CLE
+2014,4,Charlotte Bobcats,CHA
+2014,12,Indiana Pacers,IND
+2014,22,Orlando Magic,ORL
+2014,2,Boston Celtics,BOS
+2014,15,Memphis Grizzlies,MEM
+2014,17,Milwaukee Bucks,MIL
+2014,29,Utah Jazz,UTA
+2014,5,Chicago Bulls,CHI
