@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-53,Jerome Allen,SG,6-4,184,1973-01-28,US,1,Penn
-2,Vincent Askew,SG,6-6,210,1966-02-28,US,7,Memphis
-4,Travis Best,PG,5-11,182,1972-07-12,US,1,Georgia Tech
-25,Erick Dampier,C,6-11,265,1975-07-14,US,R,Mississippi State
-33,Antonio Davis,PF,6-9,215,1968-10-31,US,3,Texas-El Paso
-32,Dale Davis,PF,6-11,230,1969-03-25,US,5,Clemson
-27,Duane Ferrell,SF,6-7,209,1965-02-28,US,8,Georgia Tech
-24,Darvin Ham,SF,6-7,220,1973-07-23,US,R,Texas Tech
-20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,1,Iowa State
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,9,St. John's
-8,Eddie Johnson,SF,6-7,215,1959-05-01,US,14,Illinois
-9,Derrick McKey,SF,6-9,205,1966-10-10,US,9,Alabama
-31,Reggie Miller,SG,6-7,185,1965-08-24,US,9,UCLA
-5,Jalen Rose,SF,6-8,210,1973-01-30,US,2,Michigan
-55,Brent Scott,PF,6-10,250,1971-06-15,US,R,Rice University
-45,Rik Smits,C,7-4,250,1966-08-23,NL,8,Marist College
-41,LaSalle Thompson,C,6-10,245,1961-06-23,US,14,Texas
-7,Reggie Williams,SF,6-7,190,1964-03-05,US,9,Georgetown
-3,Haywoode Workman,PG,6-2,180,1966-01-23,US,5,"Winston-Salem State, Oral Roberts"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,12,IND,53,Jerome Allen,SG,6-4,184,1973-01-28,US,1,Penn
+1997,12,IND,2,Vincent Askew,SG,6-6,210,1966-02-28,US,7,Memphis
+1997,12,IND,4,Travis Best,PG,5-11,182,1972-07-12,US,1,Georgia Tech
+1997,12,IND,25,Erick Dampier,C,6-11,265,1975-07-14,US,R,Mississippi State
+1997,12,IND,33,Antonio Davis,PF,6-9,215,1968-10-31,US,3,Texas-El Paso
+1997,12,IND,32,Dale Davis,PF,6-11,230,1969-03-25,US,5,Clemson
+1997,12,IND,27,Duane Ferrell,SF,6-7,209,1965-02-28,US,8,Georgia Tech
+1997,12,IND,24,Darvin Ham,SF,6-7,220,1973-07-23,US,R,Texas Tech
+1997,12,IND,20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,1,Iowa State
+1997,12,IND,13,Mark Jackson,PG,6-1,180,1965-04-01,US,9,St. John's
+1997,12,IND,8,Eddie Johnson,SF,6-7,215,1959-05-01,US,14,Illinois
+1997,12,IND,9,Derrick McKey,SF,6-9,205,1966-10-10,US,9,Alabama
+1997,12,IND,31,Reggie Miller,SG,6-7,185,1965-08-24,US,9,UCLA
+1997,12,IND,5,Jalen Rose,SF,6-8,210,1973-01-30,US,2,Michigan
+1997,12,IND,55,Brent Scott,PF,6-10,250,1971-06-15,US,R,Rice University
+1997,12,IND,45,Rik Smits,C,7-4,250,1966-08-23,NL,8,Marist College
+1997,12,IND,41,LaSalle Thompson,C,6-10,245,1961-06-23,US,14,Texas
+1997,12,IND,7,Reggie Williams,SF,6-7,190,1964-03-05,US,9,Georgetown
+1997,12,IND,3,Haywoode Workman,PG,6-2,180,1966-01-23,US,5,"Winston-Salem State, Oral Roberts"

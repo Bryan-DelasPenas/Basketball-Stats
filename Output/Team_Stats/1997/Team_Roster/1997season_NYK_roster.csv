@@ -1,14 +1,14 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-4,Scott Brooks,PG,5-11,165,1965-07-31,US,8,"TCU, University of California, Irvine"
-1,Chris Childs,PG,6-3,195,1967-11-20,US,2,Boise State
-33,Patrick Ewing,C,7-0,240,1962-08-05,JM,11,Georgetown
-20,Allan Houston,SG,6-6,200,1971-04-20,US,3,Tennessee
-7,Chris Jent,SF,6-7,220,1970-01-11,US,1,Ohio State
-2,Larry Johnson,SF,6-6,250,1969-03-14,US,5,UNLV
-40,Walter McCarty,PF,6-10,230,1974-02-01,US,R,Kentucky
-34,Charles Oakley,PF,6-8,225,1963-12-18,US,11,Virginia Union University
-3,John Starks,SG,6-3,180,1965-08-10,US,7,Oklahoma State
-44,John Wallace,SF,6-8,225,1974-02-09,US,R,Syracuse
-21,Charlie Ward,PG,6-2,190,1970-10-12,US,2,Florida State
-52,Buck Williams,PF,6-8,215,1960-03-08,US,15,Maryland
-32,Herb Williams,PF,6-10,242,1958-02-16,US,15,Ohio State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,20,NYK,4,Scott Brooks,PG,5-11,165,1965-07-31,US,8,"TCU, University of California, Irvine"
+1997,20,NYK,1,Chris Childs,PG,6-3,195,1967-11-20,US,2,Boise State
+1997,20,NYK,33,Patrick Ewing,C,7-0,240,1962-08-05,JM,11,Georgetown
+1997,20,NYK,20,Allan Houston,SG,6-6,200,1971-04-20,US,3,Tennessee
+1997,20,NYK,7,Chris Jent,SF,6-7,220,1970-01-11,US,1,Ohio State
+1997,20,NYK,2,Larry Johnson,SF,6-6,250,1969-03-14,US,5,UNLV
+1997,20,NYK,40,Walter McCarty,PF,6-10,230,1974-02-01,US,R,Kentucky
+1997,20,NYK,34,Charles Oakley,PF,6-8,225,1963-12-18,US,11,Virginia Union University
+1997,20,NYK,3,John Starks,SG,6-3,180,1965-08-10,US,7,Oklahoma State
+1997,20,NYK,44,John Wallace,SF,6-8,225,1974-02-09,US,R,Syracuse
+1997,20,NYK,21,Charlie Ward,PG,6-2,190,1970-10-12,US,2,Florida State
+1997,20,NYK,52,Buck Williams,PF,6-8,215,1960-03-08,US,15,Maryland
+1997,20,NYK,32,Herb Williams,PF,6-10,242,1958-02-16,US,15,Ohio State

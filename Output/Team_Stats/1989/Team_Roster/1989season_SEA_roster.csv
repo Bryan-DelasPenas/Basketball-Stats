@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-42,Greg Ballard,SF,6-7,215,1955-01-29,US,10,Oregon
-44,Michael Cage,PF,6-9,224,1962-01-28,US,4,San Diego State
-41,Mike Champion,SF,6-10,230,1964-04-05,US,R,Gonzaga
-3,Dale Ellis,SG,6-7,205,1960-08-06,US,5,Tennessee
-15,Avery Johnson,PG,5-10,175,1965-03-25,US,R,"Cameron University, Southern University and A&M College"
-53,Alton Lister,C,7-0,240,1958-10-01,US,7,Arizona State
-20,John Lucas,PG,6-3,175,1953-10-31,US,12,Maryland
-34,Xavier McDaniel,SF,6-7,205,1963-06-04,US,3,Wichita State
-31,Derrick McKey,SF,6-9,205,1966-10-10,US,1,Alabama
-10,Nate McMillan,PG,6-5,195,1964-08-03,US,2,NC State
-23,Olden Polynice,C,6-11,220,1964-11-21,HT,1,Virginia
-35,Jerry Reynolds,SG,6-8,200,1962-12-23,US,3,LSU
-40,Russ Schoene,PF,6-10,210,1960-04-16,US,3,Chattanooga
-4,Sedale Threatt,PG,6-2,175,1961-09-10,US,5,West Virginia Tech
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1989,21,SEA,42,Greg Ballard,SF,6-7,215,1955-01-29,US,10,Oregon
+1989,21,SEA,44,Michael Cage,PF,6-9,224,1962-01-28,US,4,San Diego State
+1989,21,SEA,41,Mike Champion,SF,6-10,230,1964-04-05,US,R,Gonzaga
+1989,21,SEA,3,Dale Ellis,SG,6-7,205,1960-08-06,US,5,Tennessee
+1989,21,SEA,15,Avery Johnson,PG,5-10,175,1965-03-25,US,R,"Cameron University, Southern University and A&M College"
+1989,21,SEA,53,Alton Lister,C,7-0,240,1958-10-01,US,7,Arizona State
+1989,21,SEA,20,John Lucas,PG,6-3,175,1953-10-31,US,12,Maryland
+1989,21,SEA,34,Xavier McDaniel,SF,6-7,205,1963-06-04,US,3,Wichita State
+1989,21,SEA,31,Derrick McKey,SF,6-9,205,1966-10-10,US,1,Alabama
+1989,21,SEA,10,Nate McMillan,PG,6-5,195,1964-08-03,US,2,NC State
+1989,21,SEA,23,Olden Polynice,C,6-11,220,1964-11-21,HT,1,Virginia
+1989,21,SEA,35,Jerry Reynolds,SG,6-8,200,1962-12-23,US,3,LSU
+1989,21,SEA,40,Russ Schoene,PF,6-10,210,1960-04-16,US,3,Chattanooga
+1989,21,SEA,4,Sedale Threatt,PG,6-2,175,1961-09-10,US,5,West Virginia Tech

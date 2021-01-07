@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-24,Mark Aguirre,SF,6-6,232,1959-12-10,US,11,DePaul
-4,Joe Dumars,SG,6-3,190,1963-05-24,US,7,McNeese State University
-25,Gerald Glass,SF,6-5,221,1967-11-12,US,2,"Delta State University, Ole Miss"
-40,Bill Laimbeer,C,6-11,245,1957-05-19,US,12,Notre Dame
-6,Terry Mills,PF,6-10,230,1967-12-21,US,2,Michigan
-35,Isaiah Morris,SF,6-8,229,1969-04-02,US,R,Arkansas
-23,Melvin Newbern,SG,6-4,200,1967-06-11,US,R,Minnesota
-34,Olden Polynice,C,6-11,220,1964-11-21,HT,5,Virginia
-42,Mark Randall,PF,6-8,235,1967-09-30,US,1,Kansas
-3,Alvin Robertson,SG,6-3,185,1962-07-22,US,8,Arkansas
-10,Dennis Rodman,PF,6-7,210,1961-05-13,US,6,Southeastern Oklahoma State University
-50,Jeff Ruland,C,6-10,240,1958-12-16,US,7,Iona College
-11,Isiah Thomas,PG,6-1,180,1961-04-30,US,11,Indiana
-5,Darrell Walker,SG,6-4,180,1961-03-09,US,9,Arkansas
-0,Orlando Woolridge,SF,6-9,215,1959-12-16,US,11,Notre Dame
-20,Danny Young,PG,6-3,175,1962-07-26,US,8,Wake Forest
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1993,9,DET,24,Mark Aguirre,SF,6-6,232,1959-12-10,US,11,DePaul
+1993,9,DET,4,Joe Dumars,SG,6-3,190,1963-05-24,US,7,McNeese State University
+1993,9,DET,25,Gerald Glass,SF,6-5,221,1967-11-12,US,2,"Delta State University, Ole Miss"
+1993,9,DET,40,Bill Laimbeer,C,6-11,245,1957-05-19,US,12,Notre Dame
+1993,9,DET,6,Terry Mills,PF,6-10,230,1967-12-21,US,2,Michigan
+1993,9,DET,35,Isaiah Morris,SF,6-8,229,1969-04-02,US,R,Arkansas
+1993,9,DET,23,Melvin Newbern,SG,6-4,200,1967-06-11,US,R,Minnesota
+1993,9,DET,34,Olden Polynice,C,6-11,220,1964-11-21,HT,5,Virginia
+1993,9,DET,42,Mark Randall,PF,6-8,235,1967-09-30,US,1,Kansas
+1993,9,DET,3,Alvin Robertson,SG,6-3,185,1962-07-22,US,8,Arkansas
+1993,9,DET,10,Dennis Rodman,PF,6-7,210,1961-05-13,US,6,Southeastern Oklahoma State University
+1993,9,DET,50,Jeff Ruland,C,6-10,240,1958-12-16,US,7,Iona College
+1993,9,DET,11,Isiah Thomas,PG,6-1,180,1961-04-30,US,11,Indiana
+1993,9,DET,5,Darrell Walker,SG,6-4,180,1961-03-09,US,9,Arkansas
+1993,9,DET,0,Orlando Woolridge,SF,6-9,215,1959-12-16,US,11,Notre Dame
+1993,9,DET,20,Danny Young,PG,6-3,175,1962-07-26,US,8,Wake Forest

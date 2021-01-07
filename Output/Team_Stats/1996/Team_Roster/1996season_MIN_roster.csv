@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-53,Jerome Allen,SG,6-4,184,1973-01-28,US,R,Penn
-33,Marques Bragg,PF,6-8,230,1970-03-24,US,R,Providence
-7,Mark Davis,SF,6-7,210,1973-04-26,US,R,"Howard College, Texas Tech"
-21,Kevin Garnett,SF,6-11,240,1976-05-19,US,R,
-24,Tom Gugliotta,PF,6-10,240,1969-12-19,US,3,NC State
-32,Christian Laettner,C,6-11,235,1969-08-17,US,3,Duke
-28,Andrew Lang,C,6-11,245,1966-06-28,US,7,Arkansas
-15,Darrick Martin,PG,5-11,170,1971-03-06,US,1,UCLA
-42,Sam Mitchell,SF,6-6,210,1963-09-02,US,6,Mercer University
-30,Terry Porter,PG,6-3,195,1963-04-08,US,10,University of Wisconsin-Stevens Point
-34,Isaiah Rider,SG,6-5,215,1971-03-12,US,2,UNLV
-40,Eric Riley,C,7-0,245,1970-06-02,US,2,Michigan
-45,Sean Rooks,C,6-10,250,1969-09-09,US,3,Arizona
-3,Charles Smith,PG,6-1,160,1967-11-29,US,2,Georgetown
-4,Spud Webb,PG,5-6,133,1963-07-13,US,10,"Midland College, NC State"
-5,Doug West,SG,6-6,200,1967-05-27,US,6,Villanova
-4,Micheal Williams,PG,6-2,175,1966-07-23,US,7,Baylor
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1996,18,MIN,53,Jerome Allen,SG,6-4,184,1973-01-28,US,R,Penn
+1996,18,MIN,33,Marques Bragg,PF,6-8,230,1970-03-24,US,R,Providence
+1996,18,MIN,7,Mark Davis,SF,6-7,210,1973-04-26,US,R,"Howard College, Texas Tech"
+1996,18,MIN,21,Kevin Garnett,SF,6-11,240,1976-05-19,US,R,
+1996,18,MIN,24,Tom Gugliotta,PF,6-10,240,1969-12-19,US,3,NC State
+1996,18,MIN,32,Christian Laettner,C,6-11,235,1969-08-17,US,3,Duke
+1996,18,MIN,28,Andrew Lang,C,6-11,245,1966-06-28,US,7,Arkansas
+1996,18,MIN,15,Darrick Martin,PG,5-11,170,1971-03-06,US,1,UCLA
+1996,18,MIN,42,Sam Mitchell,SF,6-6,210,1963-09-02,US,6,Mercer University
+1996,18,MIN,30,Terry Porter,PG,6-3,195,1963-04-08,US,10,University of Wisconsin-Stevens Point
+1996,18,MIN,34,Isaiah Rider,SG,6-5,215,1971-03-12,US,2,UNLV
+1996,18,MIN,40,Eric Riley,C,7-0,245,1970-06-02,US,2,Michigan
+1996,18,MIN,45,Sean Rooks,C,6-10,250,1969-09-09,US,3,Arizona
+1996,18,MIN,3,Charles Smith,PG,6-1,160,1967-11-29,US,2,Georgetown
+1996,18,MIN,4,Spud Webb,PG,5-6,133,1963-07-13,US,10,"Midland College, NC State"
+1996,18,MIN,5,Doug West,SG,6-6,200,1967-05-27,US,6,Villanova
+1996,18,MIN,4,Micheal Williams,PG,6-2,175,1966-07-23,US,7,Baylor

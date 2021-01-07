@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-4,Charles Barkley,PF,6-6,252,1963-02-20,US,14,Auburn
-50,Matt Bullard,PF,6-10,215,1967-06-05,US,7,"Colorado, Iowa"
-55,Antoine Carr,PF,6-9,225,1961-07-23,US,14,Wichita State
-3,Michael Dickerson,SG,6-5,190,1975-06-25,US,R,Arizona
-11,Bryce Drew,PG,6-2,185,1974-09-21,US,R,Valparaiso
-32,Othella Harrington,PF,6-9,235,1974-01-31,US,2,Georgetown
-8,Eddie Johnson,SF,6-7,215,1959-05-01,US,16,Illinois
-7,Sam Mack,SF,6-7,220,1970-05-26,US,4,"Iowa State, Tyler Junior College, Houston"
-12,Matt Maloney,PG,6-3,192,1971-12-06,US,2,"Vanderbilt, Penn"
-2,Anthony Miller,PF,6-9,225,1971-10-22,US,4,Michigan State
-5,Cuttino Mobley,PG,6-4,190,1975-09-01,US,R,Rhode Island
-34,Hakeem Olajuwon,C,7-0,255,1963-01-21,NG,14,Houston
-33,Scottie Pippen,SF,6-8,210,1965-09-25,US,11,University of Central Arkansas
-20,Brent Price,PG,6-1,165,1968-12-09,US,5,"South Carolina, Oklahoma"
-1,Rodrick Rhodes,SF,6-6,225,1973-09-24,US,1,"Kentucky, USC"
-53,Stanley Roberts,C,7-0,285,1970-02-07,US,6,LSU
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1999,11,HOU,4,Charles Barkley,PF,6-6,252,1963-02-20,US,14,Auburn
+1999,11,HOU,50,Matt Bullard,PF,6-10,215,1967-06-05,US,7,"Colorado, Iowa"
+1999,11,HOU,55,Antoine Carr,PF,6-9,225,1961-07-23,US,14,Wichita State
+1999,11,HOU,3,Michael Dickerson,SG,6-5,190,1975-06-25,US,R,Arizona
+1999,11,HOU,11,Bryce Drew,PG,6-2,185,1974-09-21,US,R,Valparaiso
+1999,11,HOU,32,Othella Harrington,PF,6-9,235,1974-01-31,US,2,Georgetown
+1999,11,HOU,8,Eddie Johnson,SF,6-7,215,1959-05-01,US,16,Illinois
+1999,11,HOU,7,Sam Mack,SF,6-7,220,1970-05-26,US,4,"Iowa State, Tyler Junior College, Houston"
+1999,11,HOU,12,Matt Maloney,PG,6-3,192,1971-12-06,US,2,"Vanderbilt, Penn"
+1999,11,HOU,2,Anthony Miller,PF,6-9,225,1971-10-22,US,4,Michigan State
+1999,11,HOU,5,Cuttino Mobley,PG,6-4,190,1975-09-01,US,R,Rhode Island
+1999,11,HOU,34,Hakeem Olajuwon,C,7-0,255,1963-01-21,NG,14,Houston
+1999,11,HOU,33,Scottie Pippen,SF,6-8,210,1965-09-25,US,11,University of Central Arkansas
+1999,11,HOU,20,Brent Price,PG,6-1,165,1968-12-09,US,5,"South Carolina, Oklahoma"
+1999,11,HOU,1,Rodrick Rhodes,SF,6-6,225,1973-09-24,US,1,"Kentucky, USC"
+1999,11,HOU,53,Stanley Roberts,C,7-0,285,1970-02-07,US,6,LSU

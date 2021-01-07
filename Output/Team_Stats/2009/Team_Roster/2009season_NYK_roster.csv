@@ -1,24 +1,24 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-21,Wilson Chandler,SF,6-8,235,1987-05-10,US,1,DePaul
-25,Mardy Collins,SG,6-6,220,1984-08-04,US,2,Temple
-11,Jamal Crawford,SG,6-5,185,1980-03-20,US,8,Michigan
-5,Joe Crawford,SF,6-5,210,1986-06-17,US,R,Kentucky
-34,Eddy Curry,C,7-0,295,1982-12-05,US,7,
-1,Chris Duhon,PG,6-1,185,1982-08-31,US,4,Duke
-8,Danilo Gallinari,SG,6-10,233,1988-08-08,IT,R,
-7,Al Harrington,PF,6-9,230,1980-02-17,US,10,
-0,Larry Hughes,SG,6-5,184,1979-01-23,US,10,Saint Louis
-13,Jerome James,C,7-0,300,1975-11-17,US,8,Florida A&M
-20,Jared Jeffries,SF,6-11,230,1981-11-25,US,6,Indiana
-42,David Lee,C,6-9,245,1983-04-29,US,3,Florida
-35,Demetris Nichols,SF,6-8,216,1984-09-04,US,1,Syracuse
-50,Zach Randolph,C,6-9,250,1981-07-16,US,7,Michigan State
-23,Quentin Richardson,SG,6-6,223,1980-04-13,US,8,DePaul
-5,Anthony Roberson,PG,6-2,180,1983-02-14,US,2,Florida
-4,Nate Robinson,PG,5-9,180,1984-05-31,US,3,Washington
-31,Malik Rose,PF,6-7,250,1974-11-23,US,12,Drexel
-25,Cheikh Samb,C,7-1,245,1984-10-22,SN,1,
-18,Mouhamed Sene,C,6-11,230,1986-05-12,SN,2,
-44,Courtney Sims,C,6-10,245,1983-10-21,US,1,Michigan
-2,Tim Thomas,PF,6-10,230,1977-02-26,US,11,Villanova
-9,Chris Wilcox,C,6-10,221,1982-09-03,US,6,Maryland
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2009,20,NYK,21,Wilson Chandler,SF,6-8,235,1987-05-10,US,1,DePaul
+2009,20,NYK,25,Mardy Collins,SG,6-6,220,1984-08-04,US,2,Temple
+2009,20,NYK,11,Jamal Crawford,SG,6-5,185,1980-03-20,US,8,Michigan
+2009,20,NYK,5,Joe Crawford,SF,6-5,210,1986-06-17,US,R,Kentucky
+2009,20,NYK,34,Eddy Curry,C,7-0,295,1982-12-05,US,7,
+2009,20,NYK,1,Chris Duhon,PG,6-1,185,1982-08-31,US,4,Duke
+2009,20,NYK,8,Danilo Gallinari,SG,6-10,233,1988-08-08,IT,R,
+2009,20,NYK,7,Al Harrington,PF,6-9,230,1980-02-17,US,10,
+2009,20,NYK,0,Larry Hughes,SG,6-5,184,1979-01-23,US,10,Saint Louis
+2009,20,NYK,13,Jerome James,C,7-0,300,1975-11-17,US,8,Florida A&M
+2009,20,NYK,20,Jared Jeffries,SF,6-11,230,1981-11-25,US,6,Indiana
+2009,20,NYK,42,David Lee,C,6-9,245,1983-04-29,US,3,Florida
+2009,20,NYK,35,Demetris Nichols,SF,6-8,216,1984-09-04,US,1,Syracuse
+2009,20,NYK,50,Zach Randolph,C,6-9,250,1981-07-16,US,7,Michigan State
+2009,20,NYK,23,Quentin Richardson,SG,6-6,223,1980-04-13,US,8,DePaul
+2009,20,NYK,5,Anthony Roberson,PG,6-2,180,1983-02-14,US,2,Florida
+2009,20,NYK,4,Nate Robinson,PG,5-9,180,1984-05-31,US,3,Washington
+2009,20,NYK,31,Malik Rose,PF,6-7,250,1974-11-23,US,12,Drexel
+2009,20,NYK,25,Cheikh Samb,C,7-1,245,1984-10-22,SN,1,
+2009,20,NYK,18,Mouhamed Sene,C,6-11,230,1986-05-12,SN,2,
+2009,20,NYK,44,Courtney Sims,C,6-10,245,1983-10-21,US,1,Michigan
+2009,20,NYK,2,Tim Thomas,PF,6-10,230,1977-02-26,US,11,Villanova
+2009,20,NYK,9,Chris Wilcox,C,6-10,221,1982-09-03,US,6,Maryland

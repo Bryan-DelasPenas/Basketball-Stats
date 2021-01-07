@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-9,Dairis Bertāns,SG,6-4,200,1989-09-09,LV,R,
-2,Ian Clark,SG,6-3,175,1991-03-07,US,5,Belmont
-23,Anthony Davis,C,6-10,253,1993-03-11,US,6,Kentucky
-13,Cheick Diallo,PF,6-8,219,1996-09-13,ML,2,Kansas
-10,Tim Frazier,PG,6-0,170,1990-11-01,US,4,Penn State
-1,Andrew Harrison,PG,6-6,213,1994-10-28,US,2,Kentucky
-44,Solomon Hill,SF,6-6,226,1991-03-18,US,5,Arizona
-11,Jrue Holiday,SG,6-3,205,1990-06-12,US,9,UCLA
-15,Frank Jackson,PG,6-3,205,1998-05-04,US,R,Duke
-3,Stanley Johnson,SF,6-6,242,1996-05-29,US,3,Arizona
-33,Wesley Johnson,SF,6-7,215,1987-07-11,US,8,"Iowa State, Syracuse"
-21,Darius Miller,SF,6-6,225,1990-03-21,US,4,Kentucky
-3,Nikola Mirotić,PF,6-10,250,1991-02-11,ME,4,
-55,E'Twaun Moore,SG,6-3,191,1989-02-25,US,7,Purdue
-8,Jahlil Okafor,C,6-10,270,1995-12-15,US,3,Duke
-4,Elfrid Payton,PG,6-3,195,1994-02-22,US,4,Louisiana
-30,Julius Randle,PF,6-8,250,1994-11-29,US,4,Kentucky
-14,Jason Smith,C,7-0,240,1986-03-02,US,10,Colorado State
-34,Kenrich Williams,SF,6-6,210,1994-12-02,US,R,TCU
-35,Christian Wood,PF,6-10,214,1995-09-27,US,2,UNLV
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2019,19,NOP,9,Dairis Bertans,SG,6-4,200,1989-09-09,LV,R,
+2019,19,NOP,2,Ian Clark,SG,6-3,175,1991-03-07,US,5,Belmont
+2019,19,NOP,23,Anthony Davis,C,6-10,253,1993-03-11,US,6,Kentucky
+2019,19,NOP,13,Cheick Diallo,PF,6-8,219,1996-09-13,ML,2,Kansas
+2019,19,NOP,10,Tim Frazier,PG,6-0,170,1990-11-01,US,4,Penn State
+2019,19,NOP,1,Andrew Harrison,PG,6-6,213,1994-10-28,US,2,Kentucky
+2019,19,NOP,44,Solomon Hill,SF,6-6,226,1991-03-18,US,5,Arizona
+2019,19,NOP,11,Jrue Holiday,SG,6-3,205,1990-06-12,US,9,UCLA
+2019,19,NOP,15,Frank Jackson,PG,6-3,205,1998-05-04,US,R,Duke
+2019,19,NOP,3,Stanley Johnson,SF,6-6,242,1996-05-29,US,3,Arizona
+2019,19,NOP,33,Wesley Johnson,SF,6-7,215,1987-07-11,US,8,"Iowa State, Syracuse"
+2019,19,NOP,21,Darius Miller,SF,6-6,225,1990-03-21,US,4,Kentucky
+2019,19,NOP,3,Nikola Mirotic,PF,6-10,250,1991-02-11,ME,4,
+2019,19,NOP,55,E'Twaun Moore,SG,6-3,191,1989-02-25,US,7,Purdue
+2019,19,NOP,8,Jahlil Okafor,C,6-10,270,1995-12-15,US,3,Duke
+2019,19,NOP,4,Elfrid Payton,PG,6-3,195,1994-02-22,US,4,Louisiana
+2019,19,NOP,30,Julius Randle,PF,6-8,250,1994-11-29,US,4,Kentucky
+2019,19,NOP,14,Jason Smith,C,7-0,240,1986-03-02,US,10,Colorado State
+2019,19,NOP,34,Kenrich Williams,SF,6-6,210,1994-12-02,US,R,TCU
+2019,19,NOP,35,Christian Wood,PF,6-10,214,1995-09-27,US,2,UNLV

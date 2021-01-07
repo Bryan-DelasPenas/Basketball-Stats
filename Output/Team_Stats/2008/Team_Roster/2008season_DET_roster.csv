@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-28,Arron Afflalo,SG,6-5,210,1985-10-15,US,R,UCLA
-1,Chauncey Billups,PG,6-3,202,1976-09-25,US,10,Colorado
-7,Primož Brezec,C,7-2,252,1979-10-02,SI,6,
-8,Juan Dixon,PG,6-3,164,1978-10-09,US,5,Maryland
-12,Ronald Dupree,SF,6-7,209,1981-01-26,US,4,LSU
-32,Richard Hamilton,SG,6-6,185,1978-02-14,US,8,UConn
-9,Jarvis Hayes,SF,6-7,220,1981-08-09,US,4,"Western Carolina University, Georgia"
-5,Walter Herrmann,PF,6-9,225,1979-06-26,AR,1,
-10,Lindsey Hunter,PG,6-2,170,1970-12-03,US,14,"Alcorn State, Jackson State University"
-25,Amir Johnson,PF,6-9,240,1987-05-01,US,2,
-54,Jason Maxiell,C,6-7,260,1983-02-18,US,2,Cincinnati
-24,Antonio McDyess,PF,6-9,220,1974-09-07,US,11,Alabama
-13,Nazr Mohammed,C,6-10,221,1977-09-05,US,9,Kentucky
-6,Ronald Murray,PG,6-4,190,1979-07-29,US,5,"Meridian Community College, Shaw"
-22,Tayshaun Prince,SF,6-9,212,1980-02-28,US,5,Kentucky
-42,Theo Ratliff,C,6-10,225,1973-04-17,US,12,Wyoming
-35,Cheikh Samb,C,7-1,245,1984-10-22,SN,R,
-3,Rodney Stuckey,PG,6-5,210,1986-04-21,US,R,Eastern Washington
-36,Rasheed Wallace,C,6-10,225,1974-09-17,US,12,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2008,9,DET,28,Arron Afflalo,SG,6-5,210,1985-10-15,US,R,UCLA
+2008,9,DET,1,Chauncey Billups,PG,6-3,202,1976-09-25,US,10,Colorado
+2008,9,DET,7,Primoz Brezec,C,7-2,252,1979-10-02,SI,6,
+2008,9,DET,8,Juan Dixon,PG,6-3,164,1978-10-09,US,5,Maryland
+2008,9,DET,12,Ronald Dupree,SF,6-7,209,1981-01-26,US,4,LSU
+2008,9,DET,32,Richard Hamilton,SG,6-6,185,1978-02-14,US,8,UConn
+2008,9,DET,9,Jarvis Hayes,SF,6-7,220,1981-08-09,US,4,"Western Carolina University, Georgia"
+2008,9,DET,5,Walter Herrmann,PF,6-9,225,1979-06-26,AR,1,
+2008,9,DET,10,Lindsey Hunter,PG,6-2,170,1970-12-03,US,14,"Alcorn State, Jackson State University"
+2008,9,DET,25,Amir Johnson,PF,6-9,240,1987-05-01,US,2,
+2008,9,DET,54,Jason Maxiell,C,6-7,260,1983-02-18,US,2,Cincinnati
+2008,9,DET,24,Antonio McDyess,PF,6-9,220,1974-09-07,US,11,Alabama
+2008,9,DET,13,Nazr Mohammed,C,6-10,221,1977-09-05,US,9,Kentucky
+2008,9,DET,6,Ronald Murray,PG,6-4,190,1979-07-29,US,5,"Meridian Community College, Shaw"
+2008,9,DET,22,Tayshaun Prince,SF,6-9,212,1980-02-28,US,5,Kentucky
+2008,9,DET,42,Theo Ratliff,C,6-10,225,1973-04-17,US,12,Wyoming
+2008,9,DET,35,Cheikh Samb,C,7-1,245,1984-10-22,SN,R,
+2008,9,DET,3,Rodney Stuckey,PG,6-5,210,1986-04-21,US,R,Eastern Washington
+2008,9,DET,36,Rasheed Wallace,C,6-10,225,1974-09-17,US,12,UNC

@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-31,Brent Barry,SG,6-6,185,1971-12-31,US,R,Oregon State
-24,Terry Dehere,PG,6-2,190,1971-09-12,US,2,Seton Hall
-8,Bison Dele,C,6-9,235,1969-04-06,US,4,"Maryland, Arizona"
-40,Antonio Harvey,PF,6-11,225,1970-07-06,US,2,"Southern Illinois, Georgia, Pfeiffer University"
-7,Lamond Murray,SF,6-7,236,1973-04-20,US,1,California
-45,Bo Outlaw,PF,6-8,210,1971-04-13,US,2,"South Plains College, Houston"
-52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,1,Nebraska
-2,Pooh Richardson,PG,6-1,180,1966-05-14,US,6,UCLA
-53,Stanley Roberts,C,7-0,285,1970-02-07,US,3,LSU
-54,Rodney Rogers,SF,6-7,235,1971-06-20,US,2,Wake Forest
-21,Malik Sealy,SF,6-8,190,1970-02-01,US,3,St. John's
-51,Keith Tower,C,6-11,250,1970-05-15,US,2,Notre Dame
-25,Logan Vander Velden,SF,6-8,215,1971-04-03,US,R,Green Bay
-35,Loy Vaught,PF,6-9,230,1968-02-27,US,5,Michigan
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1996,13,LAC,31,Brent Barry,SG,6-6,185,1971-12-31,US,R,Oregon State
+1996,13,LAC,24,Terry Dehere,PG,6-2,190,1971-09-12,US,2,Seton Hall
+1996,13,LAC,8,Bison Dele,C,6-9,235,1969-04-06,US,4,"Maryland, Arizona"
+1996,13,LAC,40,Antonio Harvey,PF,6-11,225,1970-07-06,US,2,"Southern Illinois, Georgia, Pfeiffer University"
+1996,13,LAC,7,Lamond Murray,SF,6-7,236,1973-04-20,US,1,California
+1996,13,LAC,45,Bo Outlaw,PF,6-8,210,1971-04-13,US,2,"South Plains College, Houston"
+1996,13,LAC,52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,1,Nebraska
+1996,13,LAC,2,Pooh Richardson,PG,6-1,180,1966-05-14,US,6,UCLA
+1996,13,LAC,53,Stanley Roberts,C,7-0,285,1970-02-07,US,3,LSU
+1996,13,LAC,54,Rodney Rogers,SF,6-7,235,1971-06-20,US,2,Wake Forest
+1996,13,LAC,21,Malik Sealy,SF,6-8,190,1970-02-01,US,3,St. John's
+1996,13,LAC,51,Keith Tower,C,6-11,250,1970-05-15,US,2,Notre Dame
+1996,13,LAC,25,Logan Vander Velden,SF,6-8,215,1971-04-03,US,R,Green Bay
+1996,13,LAC,35,Loy Vaught,PF,6-9,230,1968-02-27,US,5,Michigan

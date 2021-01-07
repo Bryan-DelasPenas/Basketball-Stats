@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Dennis Awtrey,C,6-10,235,1948-02-22,US,9,Santa Clara
-1,Del Beshore,PG,5-11,165,1956-11-29,US,1,California University of Pennslyvania
-55,Roger Brown,C,6-11,225,1950-02-23,US,4,Kansas
-26,Coby Dietrick,C,6-10,220,1948-07-23,US,9,San Jose State
-53,Artis Gilmore,C,7-2,240,1949-09-21,US,8,"Gardner-Webb University, Jacksonville University"
-34,Dave Greenwood,PF,6-9,222,1957-05-27,US,R,UCLA
-27,Ollie Johnson,SF,6-6,200,1949-05-11,US,7,Temple
-13,Dwight Jones,PF,6-10,210,1952-02-27,US,6,Houston
-54,Mark Landsberger,C,6-8,215,1955-05-21,US,2,"Minnesota, Arizona State"
-23,Ollie Mack,SG,6-3,185,1957-06-06,US,R,East Carolina University
-17,Scott May,SF,6-7,215,1954-03-19,US,3,Indiana
-15,John Mengelt,SG,6-2,195,1949-10-16,US,8,Auburn
-28,Sam Smith,SF,6-4,200,1955-01-08,US,1,UNLV
-40,Ricky Sobers,PG,6-3,198,1953-01-15,US,4,UNLV
-24,Reggie Theus,SG,6-7,190,1957-10-13,US,1,UNLV
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1980,5,CHI,20,Dennis Awtrey,C,6-10,235,1948-02-22,US,9,Santa Clara
+1980,5,CHI,1,Del Beshore,PG,5-11,165,1956-11-29,US,1,California University of Pennslyvania
+1980,5,CHI,55,Roger Brown,C,6-11,225,1950-02-23,US,4,Kansas
+1980,5,CHI,26,Coby Dietrick,C,6-10,220,1948-07-23,US,9,San Jose State
+1980,5,CHI,53,Artis Gilmore,C,7-2,240,1949-09-21,US,8,"Gardner-Webb University, Jacksonville University"
+1980,5,CHI,34,Dave Greenwood,PF,6-9,222,1957-05-27,US,R,UCLA
+1980,5,CHI,27,Ollie Johnson,SF,6-6,200,1949-05-11,US,7,Temple
+1980,5,CHI,13,Dwight Jones,PF,6-10,210,1952-02-27,US,6,Houston
+1980,5,CHI,54,Mark Landsberger,C,6-8,215,1955-05-21,US,2,"Minnesota, Arizona State"
+1980,5,CHI,23,Ollie Mack,SG,6-3,185,1957-06-06,US,R,East Carolina University
+1980,5,CHI,17,Scott May,SF,6-7,215,1954-03-19,US,3,Indiana
+1980,5,CHI,15,John Mengelt,SG,6-2,195,1949-10-16,US,8,Auburn
+1980,5,CHI,28,Sam Smith,SF,6-4,200,1955-01-08,US,1,UNLV
+1980,5,CHI,40,Ricky Sobers,PG,6-3,198,1953-01-15,US,4,UNLV
+1980,5,CHI,24,Reggie Theus,SG,6-7,190,1957-10-13,US,1,UNLV

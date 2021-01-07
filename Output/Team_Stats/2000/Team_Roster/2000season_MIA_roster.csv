@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-12,Bruce Bowen,SF,6-7,185,1971-06-14,US,3,Cal State Fullerton
-42,P.J. Brown,PF,6-11,225,1969-10-14,US,6,Louisiana Tech
-32,Rodney Buford,SG,6-5,189,1977-11-02,US,R,Creighton
-25,Anthony Carter,PG,6-1,190,1975-06-16,US,R,Hawaii
-4,Duane Causwell,C,7-0,240,1968-05-31,US,9,Temple
-10,Tim Hardaway,PG,6-0,175,1966-09-01,US,9,Texas-El Paso
-40,Tim James,SF,6-7,212,1976-12-26,US,R,Miami (FL)
-6,Harold Jamison,PF,6-8,260,1976-11-20,US,R,Clemson
-21,Voshon Lenard,SG,6-4,205,1973-05-14,US,4,Minnesota
-9,Dan Majerle,SG,6-6,215,1965-09-09,US,11,Central Michigan University
-24,Jamal Mashburn,SF,6-8,240,1972-11-29,US,6,Kentucky
-33,Alonzo Mourning,C,6-10,240,1970-02-08,US,7,Georgetown
-5,Mark Strickland,SF,6-9,210,1970-07-14,US,4,Temple
-52,Otis Thorpe,PF,6-9,225,1962-08-05,US,15,Providence
-23,Rex Walters,PG,6-4,190,1970-03-12,US,6,"Northwestern, Kansas"
-35,Clarence Weatherspoon,PF,6-6,240,1970-09-08,US,7,University of Southern Mississippi
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2000,16,MIA,12,Bruce Bowen,SF,6-7,185,1971-06-14,US,3,Cal State Fullerton
+2000,16,MIA,42,P.J. Brown,PF,6-11,225,1969-10-14,US,6,Louisiana Tech
+2000,16,MIA,32,Rodney Buford,SG,6-5,189,1977-11-02,US,R,Creighton
+2000,16,MIA,25,Anthony Carter,PG,6-1,190,1975-06-16,US,R,Hawaii
+2000,16,MIA,4,Duane Causwell,C,7-0,240,1968-05-31,US,9,Temple
+2000,16,MIA,10,Tim Hardaway,PG,6-0,175,1966-09-01,US,9,Texas-El Paso
+2000,16,MIA,40,Tim James,SF,6-7,212,1976-12-26,US,R,Miami (FL)
+2000,16,MIA,6,Harold Jamison,PF,6-8,260,1976-11-20,US,R,Clemson
+2000,16,MIA,21,Voshon Lenard,SG,6-4,205,1973-05-14,US,4,Minnesota
+2000,16,MIA,9,Dan Majerle,SG,6-6,215,1965-09-09,US,11,Central Michigan University
+2000,16,MIA,24,Jamal Mashburn,SF,6-8,240,1972-11-29,US,6,Kentucky
+2000,16,MIA,33,Alonzo Mourning,C,6-10,240,1970-02-08,US,7,Georgetown
+2000,16,MIA,5,Mark Strickland,SF,6-9,210,1970-07-14,US,4,Temple
+2000,16,MIA,52,Otis Thorpe,PF,6-9,225,1962-08-05,US,15,Providence
+2000,16,MIA,23,Rex Walters,PG,6-4,190,1970-03-12,US,6,"Northwestern, Kansas"
+2000,16,MIA,35,Clarence Weatherspoon,PF,6-6,240,1970-09-08,US,7,University of Southern Mississippi

@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-8,Al-Farouq Aminu,PF,6-8,220,1990-09-21,US,7,Wake Forest
-2,Wade Baldwin,PG,6-4,200,1996-03-29,US,1,Vanderbilt
-33,Zach Collins,C,6-11,250,1997-11-19,US,R,Gonzaga
-5,Pat Connaughton,SG,6-5,209,1993-01-06,US,2,Notre Dame
-17,Ed Davis,C,6-9,218,1989-06-05,US,7,UNC
-4,Maurice Harkless,SF,6-7,220,1993-05-11,US,5,St. John's
-10,Jake Layman,SF,6-8,209,1994-03-07,US,1,Maryland
-11,Meyers Leonard,C,7-0,260,1992-02-27,US,5,Illinois
-0,Damian Lillard,PG,6-2,195,1990-07-15,US,5,Weber State
-3,CJ McCollum,SG,6-3,190,1991-09-19,US,4,Lehigh
-6,Shabazz Napier,PG,6-0,175,1991-07-14,US,3,UConn
-27,Jusuf Nurkić,C,7-0,290,1994-08-23,BA,3,
-19,Georgios Papagiannis,C,7-1,240,1997-07-03,GR,1,
-50,Caleb Swanigan,PF,6-9,260,1997-04-18,US,R,Purdue
-1,Evan Turner,SF,6-6,220,1988-10-27,US,7,Ohio State
-21,Noah Vonleh,PF,6-10,257,1995-08-24,US,3,Indiana
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2018,25,POR,8,Al-Farouq Aminu,PF,6-8,220,1990-09-21,US,7,Wake Forest
+2018,25,POR,2,Wade Baldwin,PG,6-4,200,1996-03-29,US,1,Vanderbilt
+2018,25,POR,33,Zach Collins,C,6-11,250,1997-11-19,US,R,Gonzaga
+2018,25,POR,5,Pat Connaughton,SG,6-5,209,1993-01-06,US,2,Notre Dame
+2018,25,POR,17,Ed Davis,C,6-9,218,1989-06-05,US,7,UNC
+2018,25,POR,4,Maurice Harkless,SF,6-7,220,1993-05-11,US,5,St. John's
+2018,25,POR,10,Jake Layman,SF,6-8,209,1994-03-07,US,1,Maryland
+2018,25,POR,11,Meyers Leonard,C,7-0,260,1992-02-27,US,5,Illinois
+2018,25,POR,0,Damian Lillard,PG,6-2,195,1990-07-15,US,5,Weber State
+2018,25,POR,3,CJ McCollum,SG,6-3,190,1991-09-19,US,4,Lehigh
+2018,25,POR,6,Shabazz Napier,PG,6-0,175,1991-07-14,US,3,UConn
+2018,25,POR,27,Jusuf Nurkic,C,7-0,290,1994-08-23,BA,3,
+2018,25,POR,19,Georgios Papagiannis,C,7-1,240,1997-07-03,GR,1,
+2018,25,POR,50,Caleb Swanigan,PF,6-9,260,1997-04-18,US,R,Purdue
+2018,25,POR,1,Evan Turner,SF,6-6,220,1988-10-27,US,7,Ohio State
+2018,25,POR,21,Noah Vonleh,PF,6-10,257,1995-08-24,US,3,Indiana

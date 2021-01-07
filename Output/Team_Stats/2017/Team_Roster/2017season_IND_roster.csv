@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-5,Lavoy Allen,PF,6-9,260,1989-02-04,US,5,Temple
-0,Aaron Brooks,PG,6-0,161,1985-01-14,US,8,Oregon
-25,Rakeem Christmas,PF,6-9,250,1991-12-01,US,1,Syracuse
-11,Monta Ellis,SG,6-3,185,1985-10-26,US,11,
-13,Paul George,SF,6-8,220,1990-05-02,US,6,Fresno State
-7,Al Jefferson,C,6-10,289,1985-01-04,US,12,
-0,C.J. Miles,SF,6-6,220,1987-03-18,US,11,
-32,Georges Niang,PF,6-7,230,1993-06-17,US,R,Iowa State
-40,Glenn Robinson,SF,6-6,222,1994-01-08,US,2,Michigan
-1,Kevin Séraphin,PF,6-9,285,1989-12-07,GF,6,
-6,Lance Stephenson,SG,6-6,230,1990-09-05,US,6,Cincinnati
-2,Rodney Stuckey,PG,6-5,210,1986-04-21,US,9,Eastern Washington
-44,Jeff Teague,PG,6-3,195,1988-06-10,US,7,Wake Forest
-33,Myles Turner,C,6-11,250,1996-03-24,US,1,Texas
-3,Joe Young,PG,6-2,180,1992-06-27,US,1,"Houston, Oregon"
-21,Thaddeus Young,PF,6-8,235,1988-06-21,US,9,Georgia Tech
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2017,12,IND,5,Lavoy Allen,PF,6-9,260,1989-02-04,US,5,Temple
+2017,12,IND,0,Aaron Brooks,PG,6-0,161,1985-01-14,US,8,Oregon
+2017,12,IND,25,Rakeem Christmas,PF,6-9,250,1991-12-01,US,1,Syracuse
+2017,12,IND,11,Monta Ellis,SG,6-3,185,1985-10-26,US,11,
+2017,12,IND,13,Paul George,SF,6-8,220,1990-05-02,US,6,Fresno State
+2017,12,IND,7,Al Jefferson,C,6-10,289,1985-01-04,US,12,
+2017,12,IND,0,C.J. Miles,SF,6-6,220,1987-03-18,US,11,
+2017,12,IND,32,Georges Niang,PF,6-7,230,1993-06-17,US,R,Iowa State
+2017,12,IND,40,Glenn Robinson,SF,6-6,222,1994-01-08,US,2,Michigan
+2017,12,IND,1,Kevin Seraphin,PF,6-9,285,1989-12-07,GF,6,
+2017,12,IND,6,Lance Stephenson,SG,6-6,230,1990-09-05,US,6,Cincinnati
+2017,12,IND,2,Rodney Stuckey,PG,6-5,210,1986-04-21,US,9,Eastern Washington
+2017,12,IND,44,Jeff Teague,PG,6-3,195,1988-06-10,US,7,Wake Forest
+2017,12,IND,33,Myles Turner,C,6-11,250,1996-03-24,US,1,Texas
+2017,12,IND,3,Joe Young,PG,6-2,180,1992-06-27,US,1,"Houston, Oregon"
+2017,12,IND,21,Thaddeus Young,PF,6-8,235,1988-06-21,US,9,Georgia Tech

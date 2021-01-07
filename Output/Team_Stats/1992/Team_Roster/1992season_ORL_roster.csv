@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-42,Mark Acres,C,6-11,220,1962-11-15,US,4,Oral Roberts
-25,Nick Anderson,SG,6-6,205,1968-01-20,US,2,Illinois
-14,Anthony Bowie,SG,6-6,190,1963-11-09,US,2,Oklahoma
-33,Terry Catledge,PF,6-8,220,1963-08-22,US,6,University of South Alabama
-13,Chris Corchiani,PG,6-0,185,1968-03-28,US,R,NC State
-8,Bison Dele,PF,6-9,235,1969-04-06,US,R,"Maryland, Arizona"
-15,Sean Higgins,PF,6-9,205,1968-12-30,US,1,Michigan
-34,Greg Kite,C,6-11,250,1961-08-05,US,8,BYU
-35,Jerry Reynolds,SG,6-8,200,1962-12-23,US,6,LSU
-53,Stanley Roberts,C,7-0,285,1970-02-07,US,R,LSU
-3,Dennis Scott,SF,6-8,229,1968-09-05,US,1,Georgia Tech
-4,Scott Skiles,PG,6-1,180,1964-03-05,US,5,Michigan State
-32,Otis Smith,SG,6-5,210,1964-01-30,US,5,Jacksonville University
-5,Stephen Thompson,SG,6-4,185,1968-12-02,US,R,Syracuse
-31,Jeff Turner,SF,6-9,230,1962-04-09,US,5,Vanderbilt
-11,Sam Vincent,PG,6-2,185,1963-05-18,US,6,Michigan State
-20,Morlon Wiley,PG,6-4,185,1966-09-24,US,3,Cal State Long Beach
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1992,22,ORL,42,Mark Acres,C,6-11,220,1962-11-15,US,4,Oral Roberts
+1992,22,ORL,25,Nick Anderson,SG,6-6,205,1968-01-20,US,2,Illinois
+1992,22,ORL,14,Anthony Bowie,SG,6-6,190,1963-11-09,US,2,Oklahoma
+1992,22,ORL,33,Terry Catledge,PF,6-8,220,1963-08-22,US,6,University of South Alabama
+1992,22,ORL,13,Chris Corchiani,PG,6-0,185,1968-03-28,US,R,NC State
+1992,22,ORL,8,Bison Dele,PF,6-9,235,1969-04-06,US,R,"Maryland, Arizona"
+1992,22,ORL,15,Sean Higgins,PF,6-9,205,1968-12-30,US,1,Michigan
+1992,22,ORL,34,Greg Kite,C,6-11,250,1961-08-05,US,8,BYU
+1992,22,ORL,35,Jerry Reynolds,SG,6-8,200,1962-12-23,US,6,LSU
+1992,22,ORL,53,Stanley Roberts,C,7-0,285,1970-02-07,US,R,LSU
+1992,22,ORL,3,Dennis Scott,SF,6-8,229,1968-09-05,US,1,Georgia Tech
+1992,22,ORL,4,Scott Skiles,PG,6-1,180,1964-03-05,US,5,Michigan State
+1992,22,ORL,32,Otis Smith,SG,6-5,210,1964-01-30,US,5,Jacksonville University
+1992,22,ORL,5,Stephen Thompson,SG,6-4,185,1968-12-02,US,R,Syracuse
+1992,22,ORL,31,Jeff Turner,SF,6-9,230,1962-04-09,US,5,Vanderbilt
+1992,22,ORL,11,Sam Vincent,PG,6-2,185,1963-05-18,US,6,Michigan State
+1992,22,ORL,20,Morlon Wiley,PG,6-4,185,1966-09-24,US,3,Cal State Long Beach

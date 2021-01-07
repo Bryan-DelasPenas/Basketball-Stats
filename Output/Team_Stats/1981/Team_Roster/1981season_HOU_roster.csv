@@ -1,14 +1,14 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Mike Dunleavy,SG,6-3,180,1954-03-21,US,4,South Carolina
-0,Calvin Garrett,SF,6-7,190,1956-07-11,US,R,"Austin Peay State University, Oral Roberts"
-6,Tom Henderson,SG,6-3,190,1952-01-26,US,6,Hawaii
-1,Lee Johnson,PF,6-11,205,1957-06-16,US,R,"Montana, East Texas State University"
-11,Major Jones,PF,6-9,225,1953-07-09,US,1,Albany State University
-30,Allen Leavell,PG,6-1,170,1957-05-27,US,1,Oklahoma City University
-24,Moses Malone,C,6-10,215,1955-03-23,US,6,
-23,Calvin Murphy,PG,5-9,165,1948-05-09,US,10,Niagara University
-5,Billy Paultz,PF,6-11,235,1948-07-30,US,10,"Cameron University, St. John's"
-50,Robert Reid,SF,6-8,205,1955-08-30,US,3,St. Mary's University
-42,John Stroud,SF,6-7,215,1957-10-29,US,R,Ole Miss
-45,Rudy Tomjanovich,PF,6-8,218,1948-11-24,US,10,Michigan
-32,Bill Willoughby,SF,6-8,205,1957-05-20,US,4,
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1981,11,HOU,10,Mike Dunleavy,SG,6-3,180,1954-03-21,US,4,South Carolina
+1981,11,HOU,0,Calvin Garrett,SF,6-7,190,1956-07-11,US,R,"Austin Peay State University, Oral Roberts"
+1981,11,HOU,6,Tom Henderson,SG,6-3,190,1952-01-26,US,6,Hawaii
+1981,11,HOU,1,Lee Johnson,PF,6-11,205,1957-06-16,US,R,"Montana, East Texas State University"
+1981,11,HOU,11,Major Jones,PF,6-9,225,1953-07-09,US,1,Albany State University
+1981,11,HOU,30,Allen Leavell,PG,6-1,170,1957-05-27,US,1,Oklahoma City University
+1981,11,HOU,24,Moses Malone,C,6-10,215,1955-03-23,US,6,
+1981,11,HOU,23,Calvin Murphy,PG,5-9,165,1948-05-09,US,10,Niagara University
+1981,11,HOU,5,Billy Paultz,PF,6-11,235,1948-07-30,US,10,"Cameron University, St. John's"
+1981,11,HOU,50,Robert Reid,SF,6-8,205,1955-08-30,US,3,St. Mary's University
+1981,11,HOU,42,John Stroud,SF,6-7,215,1957-10-29,US,R,Ole Miss
+1981,11,HOU,45,Rudy Tomjanovich,PF,6-8,218,1948-11-24,US,10,Michigan
+1981,11,HOU,32,Bill Willoughby,SF,6-8,205,1957-05-20,US,4,

@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,John Battle,SG,6-2,175,1962-11-09,US,9,Rutgers University
-12,Elmer Bennett,PG,6-0,170,1970-02-13,US,R,Notre Dame
-11,Terrell Brandon,PG,5-11,180,1970-05-20,US,3,Oregon
-44,Michael Cage,C,6-9,224,1962-01-28,US,10,San Diego State
-9,Tony Campbell,SF,6-7,215,1962-05-07,US,10,Ohio State
-5,Steve Colter,PG,6-3,165,1962-07-24,US,7,New Mexico State
-30,Greg Dreiling,C,7-1,250,1962-11-07,US,8,"Wichita State, Kansas"
-35,Danny Ferry,PF,6-10,230,1966-10-17,US,4,Duke
-32,Tyrone Hill,C,6-9,240,1968-03-19,US,4,Xavier
-12,Gerald Madkins,SG,6-4,200,1969-04-18,US,1,UCLA
-24,Chris Mills,SF,6-6,215,1970-01-25,US,1,"Kentucky, Arizona"
-14,Bobby Phills,SG,6-5,210,1969-12-20,US,3,Southern University and A&M College
-25,Mark Price,PG,6-0,170,1964-02-15,US,8,Georgia Tech
-31,Fred Roberts,SF,6-10,218,1960-08-14,US,10,BYU
-18,Hot Rod Williams,PF,6-11,215,1962-08-09,US,8,Tulane
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1995,6,CLE,10,John Battle,SG,6-2,175,1962-11-09,US,9,Rutgers University
+1995,6,CLE,12,Elmer Bennett,PG,6-0,170,1970-02-13,US,R,Notre Dame
+1995,6,CLE,11,Terrell Brandon,PG,5-11,180,1970-05-20,US,3,Oregon
+1995,6,CLE,44,Michael Cage,C,6-9,224,1962-01-28,US,10,San Diego State
+1995,6,CLE,9,Tony Campbell,SF,6-7,215,1962-05-07,US,10,Ohio State
+1995,6,CLE,5,Steve Colter,PG,6-3,165,1962-07-24,US,7,New Mexico State
+1995,6,CLE,30,Greg Dreiling,C,7-1,250,1962-11-07,US,8,"Wichita State, Kansas"
+1995,6,CLE,35,Danny Ferry,PF,6-10,230,1966-10-17,US,4,Duke
+1995,6,CLE,32,Tyrone Hill,C,6-9,240,1968-03-19,US,4,Xavier
+1995,6,CLE,12,Gerald Madkins,SG,6-4,200,1969-04-18,US,1,UCLA
+1995,6,CLE,24,Chris Mills,SF,6-6,215,1970-01-25,US,1,"Kentucky, Arizona"
+1995,6,CLE,14,Bobby Phills,SG,6-5,210,1969-12-20,US,3,Southern University and A&M College
+1995,6,CLE,25,Mark Price,PG,6-0,170,1964-02-15,US,8,Georgia Tech
+1995,6,CLE,31,Fred Roberts,SF,6-10,218,1960-08-14,US,10,BYU
+1995,6,CLE,18,Hot Rod Williams,PF,6-11,215,1962-08-09,US,8,Tulane

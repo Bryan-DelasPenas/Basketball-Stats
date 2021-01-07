@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-0,Randy Brown,PG,6-2,190,1968-05-22,US,11,"Houston, New Mexico State"
-4,Alton Ford,PF,6-9,275,1981-05-29,US,1,Houston
-24,Tom Gugliotta,PF,6-10,240,1969-12-19,US,10,NC State
-1,Anfernee Hardaway,SG,6-7,195,1971-07-18,US,9,Memphis
-23,Casey Jacobsen,SF,6-6,215,1981-03-19,US,R,Stanford
-2,Joe Johnson,SG,6-7,240,1981-06-29,US,1,Arkansas
-14,Dan Langhi,SF,6-11,220,1977-11-28,US,2,Vanderbilt
-3,Stephon Marbury,PG,6-2,180,1977-02-20,US,6,Georgia Tech
-31,Shawn Marion,SF,6-7,220,1978-05-07,US,3,UNLV
-45,Bo Outlaw,C,6-8,210,1971-04-13,US,9,"South Plains College, Houston"
-32,Amar'e Stoudemire,PF,6-10,245,1982-11-16,US,R,
-25,Jake Tsakalidis,C,7-2,285,1979-06-10,GE,2,
-43,Jake Voskuhl,C,6-11,245,1977-11-01,US,2,UConn
-47,Scott Williams,C,6-10,230,1968-03-21,US,12,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2003,24,PHO,0,Randy Brown,PG,6-2,190,1968-05-22,US,11,"Houston, New Mexico State"
+2003,24,PHO,4,Alton Ford,PF,6-9,275,1981-05-29,US,1,Houston
+2003,24,PHO,24,Tom Gugliotta,PF,6-10,240,1969-12-19,US,10,NC State
+2003,24,PHO,1,Anfernee Hardaway,SG,6-7,195,1971-07-18,US,9,Memphis
+2003,24,PHO,23,Casey Jacobsen,SF,6-6,215,1981-03-19,US,R,Stanford
+2003,24,PHO,2,Joe Johnson,SG,6-7,240,1981-06-29,US,1,Arkansas
+2003,24,PHO,14,Dan Langhi,SF,6-11,220,1977-11-28,US,2,Vanderbilt
+2003,24,PHO,3,Stephon Marbury,PG,6-2,180,1977-02-20,US,6,Georgia Tech
+2003,24,PHO,31,Shawn Marion,SF,6-7,220,1978-05-07,US,3,UNLV
+2003,24,PHO,45,Bo Outlaw,C,6-8,210,1971-04-13,US,9,"South Plains College, Houston"
+2003,24,PHO,32,Amar'e Stoudemire,PF,6-10,245,1982-11-16,US,R,
+2003,24,PHO,25,Jake Tsakalidis,C,7-2,285,1979-06-10,GE,2,
+2003,24,PHO,43,Jake Voskuhl,C,6-11,245,1977-11-01,US,2,UConn
+2003,24,PHO,47,Scott Williams,C,6-10,230,1968-03-21,US,12,UNC

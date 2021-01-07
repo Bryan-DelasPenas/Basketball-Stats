@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-1,Cory Alexander,PG,6-1,185,1973-06-22,US,1,Virginia
-33,Greg Anderson,C,6-10,230,1964-06-22,US,8,Houston
-40,Joe Courtney,PF,6-8,235,1969-10-17,US,3,"Mississippi State, University of Southern Mississippi"
-15,Vinny Del Negro,SG,6-4,185,1966-08-09,US,6,NC State
-32,Sean Elliott,SF,6-8,205,1968-02-02,US,7,Arizona
-14,Jamie Feick,PF,6-9,255,1974-07-03,US,R,Michigan State
-4,Devin Gray,PF,6-7,240,1972-05-31,US,R,Clemson
-4,Darrin Hancock,SF,6-7,205,1971-11-03,US,2,Kansas
-7,Carl Herrera,PF,6-9,215,1966-12-14,TT,5,"Jacksonville University, Houston"
-34,Stephen Howard,SF,6-9,225,1970-07-15,US,2,DePaul
-6,Avery Johnson,PG,5-10,175,1965-03-25,US,8,"Cameron University, Southern University and A&M College"
-8,Tim Kempton,PF,6-10,245,1964-01-25,US,6,Notre Dame
-11,Vernon Maxwell,SG,6-4,180,1965-09-12,US,8,Florida
-9,Gaylon Nickerson,SG,6-3,190,1969-02-05,US,R,"Wichita State, Butler County Community College, Kansas State, Northwestern Oklahoma State University"
-41,Will Perdue,C,7-0,240,1965-08-29,US,8,Vanderbilt
-50,David Robinson,C,7-1,235,1965-08-06,US,7,United States Naval Academy
-35,Jason Sasser,SF,6-7,225,1974-01-13,US,R,Texas Tech
-54,Charles Smith,PF,6-10,230,1965-07-16,US,8,Pitt
-21,Dominique Wilkins,SF,6-8,215,1960-01-12,FR,13,Georgia
-3,Monty Williams,SF,6-8,225,1971-10-08,US,2,Notre Dame
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,27,SAS,1,Cory Alexander,PG,6-1,185,1973-06-22,US,1,Virginia
+1997,27,SAS,33,Greg Anderson,C,6-10,230,1964-06-22,US,8,Houston
+1997,27,SAS,40,Joe Courtney,PF,6-8,235,1969-10-17,US,3,"Mississippi State, University of Southern Mississippi"
+1997,27,SAS,15,Vinny Del Negro,SG,6-4,185,1966-08-09,US,6,NC State
+1997,27,SAS,32,Sean Elliott,SF,6-8,205,1968-02-02,US,7,Arizona
+1997,27,SAS,14,Jamie Feick,PF,6-9,255,1974-07-03,US,R,Michigan State
+1997,27,SAS,4,Devin Gray,PF,6-7,240,1972-05-31,US,R,Clemson
+1997,27,SAS,4,Darrin Hancock,SF,6-7,205,1971-11-03,US,2,Kansas
+1997,27,SAS,7,Carl Herrera,PF,6-9,215,1966-12-14,TT,5,"Jacksonville University, Houston"
+1997,27,SAS,34,Stephen Howard,SF,6-9,225,1970-07-15,US,2,DePaul
+1997,27,SAS,6,Avery Johnson,PG,5-10,175,1965-03-25,US,8,"Cameron University, Southern University and A&M College"
+1997,27,SAS,8,Tim Kempton,PF,6-10,245,1964-01-25,US,6,Notre Dame
+1997,27,SAS,11,Vernon Maxwell,SG,6-4,180,1965-09-12,US,8,Florida
+1997,27,SAS,9,Gaylon Nickerson,SG,6-3,190,1969-02-05,US,R,"Wichita State, Butler County Community College, Kansas State, Northwestern Oklahoma State University"
+1997,27,SAS,41,Will Perdue,C,7-0,240,1965-08-29,US,8,Vanderbilt
+1997,27,SAS,50,David Robinson,C,7-1,235,1965-08-06,US,7,United States Naval Academy
+1997,27,SAS,35,Jason Sasser,SF,6-7,225,1974-01-13,US,R,Texas Tech
+1997,27,SAS,54,Charles Smith,PF,6-10,230,1965-07-16,US,8,Pitt
+1997,27,SAS,21,Dominique Wilkins,SF,6-8,215,1960-01-12,FR,13,Georgia
+1997,27,SAS,3,Monty Williams,SF,6-8,225,1971-10-08,US,2,Notre Dame

@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-11,J.J. Barea,SG,5-10,180,1984-06-26,PR,2,Northeastern University
-32,Brandon Bass,C,6-8,250,1985-04-30,US,3,LSU
-13,Matt Carroll,SG,6-6,212,1980-08-28,US,5,Notre Dame
-25,Erick Dampier,C,6-11,265,1975-07-14,US,12,Mississippi State
-7,DeSagana Diop,C,7-0,300,1982-01-30,SN,7,
-40,Devean George,SF,6-8,220,1977-08-29,US,9,Augsburg College
-8,Gerald Green,SG,6-6,205,1986-01-26,US,3,
-1,Ryan Hollins,C,7-0,240,1984-10-10,US,2,UCLA
-5,Josh Howard,SF,6-7,210,1980-04-28,US,5,Wake Forest
-2,Jason Kidd,PG,6-4,205,1973-03-23,US,14,California
-41,Dirk Nowitzki,PF,7-0,245,1978-06-19,DE,10,
-33,James Singleton,PF,6-8,216,1981-07-20,US,2,Murray State
-42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,13,UNC
-31,Jason Terry,SG,6-2,185,1977-09-15,US,9,Arizona
-4,Shawne Williams,SF,6-9,225,1986-02-16,US,2,Memphis
-21,Antoine Wright,SF,6-7,210,1984-02-06,US,3,Texas A&M
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2009,7,DAL,11,J.J. Barea,SG,5-10,180,1984-06-26,PR,2,Northeastern University
+2009,7,DAL,32,Brandon Bass,C,6-8,250,1985-04-30,US,3,LSU
+2009,7,DAL,13,Matt Carroll,SG,6-6,212,1980-08-28,US,5,Notre Dame
+2009,7,DAL,25,Erick Dampier,C,6-11,265,1975-07-14,US,12,Mississippi State
+2009,7,DAL,7,DeSagana Diop,C,7-0,300,1982-01-30,SN,7,
+2009,7,DAL,40,Devean George,SF,6-8,220,1977-08-29,US,9,Augsburg College
+2009,7,DAL,8,Gerald Green,SG,6-6,205,1986-01-26,US,3,
+2009,7,DAL,1,Ryan Hollins,C,7-0,240,1984-10-10,US,2,UCLA
+2009,7,DAL,5,Josh Howard,SF,6-7,210,1980-04-28,US,5,Wake Forest
+2009,7,DAL,2,Jason Kidd,PG,6-4,205,1973-03-23,US,14,California
+2009,7,DAL,41,Dirk Nowitzki,PF,7-0,245,1978-06-19,DE,10,
+2009,7,DAL,33,James Singleton,PF,6-8,216,1981-07-20,US,2,Murray State
+2009,7,DAL,42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,13,UNC
+2009,7,DAL,31,Jason Terry,SG,6-2,185,1977-09-15,US,9,Arizona
+2009,7,DAL,4,Shawne Williams,SF,6-9,225,1986-02-16,US,2,Memphis
+2009,7,DAL,21,Antoine Wright,SF,6-7,210,1984-02-06,US,3,Texas A&M

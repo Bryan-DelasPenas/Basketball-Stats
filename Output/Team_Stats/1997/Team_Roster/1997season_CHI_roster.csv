@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-1,Randy Brown,PG,6-2,190,1968-05-22,US,5,"Houston, New Mexico State"
-30,Jud Buechler,SF,6-6,220,1968-06-19,US,6,Arizona
-35,Jason Caffey,PF,6-8,255,1973-06-12,US,1,Alabama
-18,Bison Dele,C,6-9,235,1969-04-06,US,5,"Maryland, Arizona"
-9,Ron Harper,PG,6-6,185,1964-01-20,US,10,Miami University
-23,Michael Jordan,SG,6-6,198,1963-02-17,US,11,UNC
-25,Steve Kerr,PG,6-3,175,1965-09-27,LB,8,Arizona
-7,Toni Kukoč,SF,6-10,192,1968-09-18,HR,3,
-13,Luc Longley,C,7-2,265,1969-01-19,AU,5,New Mexico
-0,Robert Parish,C,7-1,230,1953-08-30,US,20,Centenary (LA)
-33,Scottie Pippen,SF,6-8,210,1965-09-25,US,9,University of Central Arkansas
-91,Dennis Rodman,PF,6-7,210,1961-05-13,US,10,Southeastern Oklahoma State University
-8,Dickey Simpkins,PF,6-9,248,1972-04-06,US,2,Providence
-6,Matt Steigenga,SF,6-7,225,1970-03-27,US,R,Michigan State
-34,Bill Wennington,C,7-0,245,1963-04-26,CA,9,St. John's
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,5,CHI,1,Randy Brown,PG,6-2,190,1968-05-22,US,5,"Houston, New Mexico State"
+1997,5,CHI,30,Jud Buechler,SF,6-6,220,1968-06-19,US,6,Arizona
+1997,5,CHI,35,Jason Caffey,PF,6-8,255,1973-06-12,US,1,Alabama
+1997,5,CHI,18,Bison Dele,C,6-9,235,1969-04-06,US,5,"Maryland, Arizona"
+1997,5,CHI,9,Ron Harper,PG,6-6,185,1964-01-20,US,10,Miami University
+1997,5,CHI,23,Michael Jordan,SG,6-6,198,1963-02-17,US,11,UNC
+1997,5,CHI,25,Steve Kerr,PG,6-3,175,1965-09-27,LB,8,Arizona
+1997,5,CHI,7,Toni Kukoc,SF,6-10,192,1968-09-18,HR,3,
+1997,5,CHI,13,Luc Longley,C,7-2,265,1969-01-19,AU,5,New Mexico
+1997,5,CHI,0,Robert Parish,C,7-1,230,1953-08-30,US,20,Centenary (LA)
+1997,5,CHI,33,Scottie Pippen,SF,6-8,210,1965-09-25,US,9,University of Central Arkansas
+1997,5,CHI,91,Dennis Rodman,PF,6-7,210,1961-05-13,US,10,Southeastern Oklahoma State University
+1997,5,CHI,8,Dickey Simpkins,PF,6-9,248,1972-04-06,US,2,Providence
+1997,5,CHI,6,Matt Steigenga,SF,6-7,225,1970-03-27,US,R,Michigan State
+1997,5,CHI,34,Bill Wennington,C,7-0,245,1963-04-26,CA,9,St. John's

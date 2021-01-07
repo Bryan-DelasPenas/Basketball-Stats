@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-40,Willie Anderson,SG,6-7,190,1967-01-08,US,5,Georgia
-35,Antoine Carr,PF,6-9,225,1961-07-23,US,9,Wichita State
-34,Terry Cummings,PF,6-9,220,1961-03-15,US,11,DePaul
-24,Lloyd Daniels,SG,6-7,205,1967-09-04,US,1,Mount San Antonio College
-15,Vinny Del Negro,SG,6-4,185,1966-08-09,US,3,NC State
-3,Dale Ellis,SF,6-7,205,1960-08-06,US,10,Tennessee
-21,Sleepy Floyd,PG,6-3,170,1960-03-06,US,11,Georgetown
-54,Jack Haley,PF,6-10,240,1964-01-27,US,4,UCLA
-32,Negele Knight,PG,6-1,175,1967-03-06,US,3,Dayton
-52,Chuck Nevitt,C,7-5,217,1959-06-13,US,8,NC State
-7,J.R. Reid,PF,6-9,247,1968-03-31,US,4,UNC
-50,David Robinson,C,7-1,235,1965-08-06,US,4,United States Naval Academy
-10,Dennis Rodman,PF,6-7,210,1961-05-13,US,7,Southeastern Oklahoma State University
-20,Chris Whitney,PG,6-0,168,1971-10-05,US,R,Clemson
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1994,27,SAS,40,Willie Anderson,SG,6-7,190,1967-01-08,US,5,Georgia
+1994,27,SAS,35,Antoine Carr,PF,6-9,225,1961-07-23,US,9,Wichita State
+1994,27,SAS,34,Terry Cummings,PF,6-9,220,1961-03-15,US,11,DePaul
+1994,27,SAS,24,Lloyd Daniels,SG,6-7,205,1967-09-04,US,1,Mount San Antonio College
+1994,27,SAS,15,Vinny Del Negro,SG,6-4,185,1966-08-09,US,3,NC State
+1994,27,SAS,3,Dale Ellis,SF,6-7,205,1960-08-06,US,10,Tennessee
+1994,27,SAS,21,Sleepy Floyd,PG,6-3,170,1960-03-06,US,11,Georgetown
+1994,27,SAS,54,Jack Haley,PF,6-10,240,1964-01-27,US,4,UCLA
+1994,27,SAS,32,Negele Knight,PG,6-1,175,1967-03-06,US,3,Dayton
+1994,27,SAS,52,Chuck Nevitt,C,7-5,217,1959-06-13,US,8,NC State
+1994,27,SAS,7,J.R. Reid,PF,6-9,247,1968-03-31,US,4,UNC
+1994,27,SAS,50,David Robinson,C,7-1,235,1965-08-06,US,4,United States Naval Academy
+1994,27,SAS,10,Dennis Rodman,PF,6-7,210,1961-05-13,US,7,Southeastern Oklahoma State University
+1994,27,SAS,20,Chris Whitney,PG,6-0,168,1971-10-05,US,R,Clemson

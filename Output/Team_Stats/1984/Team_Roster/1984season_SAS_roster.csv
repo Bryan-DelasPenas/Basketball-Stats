@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Gene Banks,PF,6-7,215,1959-05-15,US,2,Duke
-45,Dave Batton,C,6-10,240,1956-03-26,US,1,Notre Dame
-10,Ron Brewer,SG,6-4,180,1955-07-16,US,5,Arkansas
-10,Keith Edmonson,SG,6-5,195,1960-09-28,US,1,Purdue
-44,George Gervin,SG,6-7,180,1952-04-27,US,11,Eastern Michigan
-53,Artis Gilmore,C,7-2,240,1949-09-21,US,12,"Gardner-Webb University, Jacksonville University"
-42,Edgar Jones,PF,6-10,225,1956-06-17,US,3,Nevada
-25,Steve Lingenfelter,PF,6-9,225,1958-06-10,US,1,"Minnesota, South Dakota State"
-32,Darrell Lockhart,C,6-9,245,1960-09-14,US,R,Auburn
-15,John Lucas,PG,6-3,175,1953-10-31,US,7,Maryland
-31,Mark McNamara,C,6-11,235,1959-06-08,US,1,"Santa Clara, California"
-41,Bob Miller,PF,6-10,230,1956-07-09,US,R,Cincinnati
-34,Mike Mitchell,SF,6-7,215,1956-01-01,US,5,Auburn
-0,Johnny Moore,PG,6-1,175,1958-03-03,US,3,Texas
-4,John Paxson,PG,6-2,185,1960-09-29,US,R,Notre Dame
-21,Roger Phegley,SG,6-6,205,1956-10-16,US,5,Bradley
-11,Fred Roberts,PF,6-10,218,1960-08-14,US,R,BYU
-25,Dave Robisch,C,6-10,235,1949-12-22,US,12,Kansas
-25,Brant Weidner,PF,6-9,230,1960-10-28,US,R,William & Mary
-12,Kevin Williams,SG,6-2,175,1961-09-11,US,R,"TCU, St. John's"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1984,27,SAS,20,Gene Banks,PF,6-7,215,1959-05-15,US,2,Duke
+1984,27,SAS,45,Dave Batton,C,6-10,240,1956-03-26,US,1,Notre Dame
+1984,27,SAS,10,Ron Brewer,SG,6-4,180,1955-07-16,US,5,Arkansas
+1984,27,SAS,10,Keith Edmonson,SG,6-5,195,1960-09-28,US,1,Purdue
+1984,27,SAS,44,George Gervin,SG,6-7,180,1952-04-27,US,11,Eastern Michigan
+1984,27,SAS,53,Artis Gilmore,C,7-2,240,1949-09-21,US,12,"Gardner-Webb University, Jacksonville University"
+1984,27,SAS,42,Edgar Jones,PF,6-10,225,1956-06-17,US,3,Nevada
+1984,27,SAS,25,Steve Lingenfelter,PF,6-9,225,1958-06-10,US,1,"Minnesota, South Dakota State"
+1984,27,SAS,32,Darrell Lockhart,C,6-9,245,1960-09-14,US,R,Auburn
+1984,27,SAS,15,John Lucas,PG,6-3,175,1953-10-31,US,7,Maryland
+1984,27,SAS,31,Mark McNamara,C,6-11,235,1959-06-08,US,1,"Santa Clara, California"
+1984,27,SAS,41,Bob Miller,PF,6-10,230,1956-07-09,US,R,Cincinnati
+1984,27,SAS,34,Mike Mitchell,SF,6-7,215,1956-01-01,US,5,Auburn
+1984,27,SAS,0,Johnny Moore,PG,6-1,175,1958-03-03,US,3,Texas
+1984,27,SAS,4,John Paxson,PG,6-2,185,1960-09-29,US,R,Notre Dame
+1984,27,SAS,21,Roger Phegley,SG,6-6,205,1956-10-16,US,5,Bradley
+1984,27,SAS,11,Fred Roberts,PF,6-10,218,1960-08-14,US,R,BYU
+1984,27,SAS,25,Dave Robisch,C,6-10,235,1949-12-22,US,12,Kansas
+1984,27,SAS,25,Brant Weidner,PF,6-9,230,1960-10-28,US,R,William & Mary
+1984,27,SAS,12,Kevin Williams,SG,6-2,175,1961-09-11,US,R,"TCU, St. John's"

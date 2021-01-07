@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-5,Tom Abernethy,SF,6-7,220,1954-05-06,US,4,Indiana
-42,Mike Bantom,SF,6-9,200,1951-12-03,US,7,Saint Joseph's
-7,Dudley Bradley,SG,6-6,195,1957-03-19,US,1,UNC
-10-11,Don Buse,SG,6-4,190,1950-08-10,US,8,University of Evansville
-16,Johnny Davis,PG,6-2,170,1955-10-21,US,4,Dayton
-40,James Edwards,C,7-0,225,1955-11-22,US,3,Washington
-45,Clemon Johnson,C,6-10,240,1956-09-12,US,2,Florida A&M
-24,George Johnson,PF,6-7,210,1956-12-08,US,2,St. John's
-25,Billy Knight,SG,6-6,195,1952-06-09,US,6,Pitt
-30,George McGinnis,PF,6-8,235,1950-08-12,US,9,Indiana
-44,Dick Miller,SF,6-6,215,1958-04-26,US,R,Toledo
-3,Kenny Natt,SG,6-3,185,1958-10-05,US,R,Louisiana-Monroe
-55,Louis Orr,SF,6-8,175,1958-05-07,US,R,Syracuse
-14,Jerry Sichting,PG,6-1,168,1956-11-29,US,R,Purdue
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1981,12,IND,5,Tom Abernethy,SF,6-7,220,1954-05-06,US,4,Indiana
+1981,12,IND,42,Mike Bantom,SF,6-9,200,1951-12-03,US,7,Saint Joseph's
+1981,12,IND,7,Dudley Bradley,SG,6-6,195,1957-03-19,US,1,UNC
+1981,12,IND,10-11,Don Buse,SG,6-4,190,1950-08-10,US,8,University of Evansville
+1981,12,IND,16,Johnny Davis,PG,6-2,170,1955-10-21,US,4,Dayton
+1981,12,IND,40,James Edwards,C,7-0,225,1955-11-22,US,3,Washington
+1981,12,IND,45,Clemon Johnson,C,6-10,240,1956-09-12,US,2,Florida A&M
+1981,12,IND,24,George Johnson,PF,6-7,210,1956-12-08,US,2,St. John's
+1981,12,IND,25,Billy Knight,SG,6-6,195,1952-06-09,US,6,Pitt
+1981,12,IND,30,George McGinnis,PF,6-8,235,1950-08-12,US,9,Indiana
+1981,12,IND,44,Dick Miller,SF,6-6,215,1958-04-26,US,R,Toledo
+1981,12,IND,3,Kenny Natt,SG,6-3,185,1958-10-05,US,R,Louisiana-Monroe
+1981,12,IND,55,Louis Orr,SF,6-8,175,1958-05-07,US,R,Syracuse
+1981,12,IND,14,Jerry Sichting,PG,6-1,168,1956-11-29,US,R,Purdue

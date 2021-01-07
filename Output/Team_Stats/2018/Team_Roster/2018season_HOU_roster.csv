@@ -1,25 +1,25 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-33,Ryan Anderson,PF,6-9,240,1988-05-06,US,9,California
-1,Trevor Ariza,SF,6-8,215,1985-06-30,US,13,UCLA
-28,Tarik Black,C,6-9,250,1991-11-22,US,3,"Memphis, Kansas"
-6,Bobby Brown,PG,6-2,175,1984-09-24,US,3,Cal State Fullerton
-26,Markel Brown,SG,6-3,190,1992-01-29,US,2,Oklahoma State
-7,Isaiah Canaan,SG,6-0,201,1991-05-21,US,4,Murray State
-15,Clint Capela,C,6-10,240,1994-05-18,CH,3,
-10,Eric Gordon,SG,6-3,215,1988-12-25,US,9,Indiana
-14,Gerald Green,SG,6-6,205,1986-01-26,US,10,
-13,James Harden,SG,6-5,220,1989-08-26,US,8,Arizona State
-42,Nenê Hilário,C,6-11,250,1982-09-13,BR,15,
-2,R.J. Hunter,SG,6-5,185,1993-10-24,US,2,Georgia State University
-5,Aaron Jackson,PG,6-4,185,1986-05-06,US,R,Duquesne
-2,Demetrius Jackson,PG,6-1,201,1994-09-07,US,1,Notre Dame
-7,Joe Johnson,SF,6-7,240,1981-06-29,US,16,Arkansas
-12,Luc Mbah a Moute,PF,6-8,230,1986-09-09,CM,9,UCLA
-21,Chinanu Onuaku,C,6-10,245,1996-11-01,US,1,Louisville
-3,Chris Paul,PG,6-1,175,1985-05-06,US,12,Wake Forest
-9,Zhou Qi,C,7-1,210,1996-01-16,CN,R,
-55,Tim Quarterman,SG,6-6,195,1994-10-27,US,1,LSU
-4,P.J. Tucker,PF,6-5,245,1985-05-05,US,6,Texas
-0,Briante Weber,PG,6-2,165,1992-12-29,US,2,VCU
-5,Troy Williams,SF,6-7,218,1994-12-30,US,1,Indiana
-32,Brandan Wright,PF,6-10,210,1987-10-05,US,9,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2018,11,HOU,33,Ryan Anderson,PF,6-9,240,1988-05-06,US,9,California
+2018,11,HOU,1,Trevor Ariza,SF,6-8,215,1985-06-30,US,13,UCLA
+2018,11,HOU,28,Tarik Black,C,6-9,250,1991-11-22,US,3,"Memphis, Kansas"
+2018,11,HOU,6,Bobby Brown,PG,6-2,175,1984-09-24,US,3,Cal State Fullerton
+2018,11,HOU,26,Markel Brown,SG,6-3,190,1992-01-29,US,2,Oklahoma State
+2018,11,HOU,7,Isaiah Canaan,SG,6-0,201,1991-05-21,US,4,Murray State
+2018,11,HOU,15,Clint Capela,C,6-10,240,1994-05-18,CH,3,
+2018,11,HOU,10,Eric Gordon,SG,6-3,215,1988-12-25,US,9,Indiana
+2018,11,HOU,14,Gerald Green,SG,6-6,205,1986-01-26,US,10,
+2018,11,HOU,13,James Harden,SG,6-5,220,1989-08-26,US,8,Arizona State
+2018,11,HOU,42,Nene Hilario,C,6-11,250,1982-09-13,BR,15,
+2018,11,HOU,2,R.J. Hunter,SG,6-5,185,1993-10-24,US,2,Georgia State University
+2018,11,HOU,5,Aaron Jackson,PG,6-4,185,1986-05-06,US,R,Duquesne
+2018,11,HOU,2,Demetrius Jackson,PG,6-1,201,1994-09-07,US,1,Notre Dame
+2018,11,HOU,7,Joe Johnson,SF,6-7,240,1981-06-29,US,16,Arkansas
+2018,11,HOU,12,Luc Mbah a Moute,PF,6-8,230,1986-09-09,CM,9,UCLA
+2018,11,HOU,21,Chinanu Onuaku,C,6-10,245,1996-11-01,US,1,Louisville
+2018,11,HOU,3,Chris Paul,PG,6-1,175,1985-05-06,US,12,Wake Forest
+2018,11,HOU,9,Zhou Qi,C,7-1,210,1996-01-16,CN,R,
+2018,11,HOU,55,Tim Quarterman,SG,6-6,195,1994-10-27,US,1,LSU
+2018,11,HOU,4,P.J. Tucker,PF,6-5,245,1985-05-05,US,6,Texas
+2018,11,HOU,0,Briante Weber,PG,6-2,165,1992-12-29,US,2,VCU
+2018,11,HOU,5,Troy Williams,SF,6-7,218,1994-12-30,US,1,Indiana
+2018,11,HOU,32,Brandan Wright,PF,6-10,210,1987-10-05,US,9,UNC

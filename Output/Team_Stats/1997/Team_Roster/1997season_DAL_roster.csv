@@ -1,28 +1,28 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-44,Shawn Bradley,C,7-6,235,1972-03-22,DE,3,BYU
-10,Sam Cassell,PG,6-3,185,1969-11-18,US,3,Florida State
-5,Sasha Danilović,SG,6-5,200,1970-02-26,BA,1,
-50,Greg Dreiling,C,7-1,250,1962-11-07,US,9,"Wichita State, Kansas"
-7,Tony Dumas,SG,6-6,190,1972-08-25,US,2,Missouri-Kansas City
-4,Michael Finley,SF,6-7,215,1973-03-06,US,1,Wisconsin
-25,Chris Gatling,PF,6-10,220,1967-09-03,US,5,Old Dominion
-45,A.C. Green,PF,6-9,220,1963-10-04,US,11,Oregon State
-12,Derek Harper,PG,6-4,185,1961-10-13,US,13,Illinois
-24,Jim Jackson,SG,6-6,220,1970-10-14,US,4,Ohio State
-5,Jason Kidd,PG,6-4,205,1973-03-23,US,2,California
-33,Stacey King,C,6-11,230,1967-01-29,US,7,Oklahoma
-32,Jamal Mashburn,SF,6-8,240,1972-11-29,US,3,Kentucky
-21,George McCloud,SF,6-6,205,1967-05-27,US,6,Florida State
-40,Loren Meyer,PF,6-10,257,1972-12-30,US,1,Iowa State
-2,Oliver Miller,C,6-9,280,1970-04-06,US,4,Arkansas
-00,Eric Montross,C,7-0,270,1971-09-23,US,2,UNC
-13-31,Martin Müürsepp,PF,6-9,235,1974-09-26,EE,R,
-31,Ed O'Bannon,SF,6-8,222,1972-08-14,US,1,UCLA
-14,Robert Pack,PG,6-2,180,1969-02-03,US,5,USC
-6,Khalid Reeves,PG,6-3,199,1972-07-15,US,2,Arizona
-44,Fred Roberts,PF,6-10,218,1960-08-14,US,12,BYU
-33,Jason Sasser,SF,6-7,225,1974-01-13,US,R,Texas Tech
-1,Stevin Smith,SG,6-2,208,1972-01-24,US,R,Arizona State
-20,Erick Strickland,SG,6-3,210,1973-11-25,US,R,Nebraska
-52,Samaki Walker,PF,6-9,240,1976-02-25,US,R,Louisville
-3,Jamie Watson,SF,6-7,190,1972-02-23,US,2,South Carolina
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,7,DAL,44,Shawn Bradley,C,7-6,235,1972-03-22,DE,3,BYU
+1997,7,DAL,10,Sam Cassell,PG,6-3,185,1969-11-18,US,3,Florida State
+1997,7,DAL,5,Sasha Danilovic,SG,6-5,200,1970-02-26,BA,1,
+1997,7,DAL,50,Greg Dreiling,C,7-1,250,1962-11-07,US,9,"Wichita State, Kansas"
+1997,7,DAL,7,Tony Dumas,SG,6-6,190,1972-08-25,US,2,Missouri-Kansas City
+1997,7,DAL,4,Michael Finley,SF,6-7,215,1973-03-06,US,1,Wisconsin
+1997,7,DAL,25,Chris Gatling,PF,6-10,220,1967-09-03,US,5,Old Dominion
+1997,7,DAL,45,A.C. Green,PF,6-9,220,1963-10-04,US,11,Oregon State
+1997,7,DAL,12,Derek Harper,PG,6-4,185,1961-10-13,US,13,Illinois
+1997,7,DAL,24,Jim Jackson,SG,6-6,220,1970-10-14,US,4,Ohio State
+1997,7,DAL,5,Jason Kidd,PG,6-4,205,1973-03-23,US,2,California
+1997,7,DAL,33,Stacey King,C,6-11,230,1967-01-29,US,7,Oklahoma
+1997,7,DAL,32,Jamal Mashburn,SF,6-8,240,1972-11-29,US,3,Kentucky
+1997,7,DAL,21,George McCloud,SF,6-6,205,1967-05-27,US,6,Florida State
+1997,7,DAL,40,Loren Meyer,PF,6-10,257,1972-12-30,US,1,Iowa State
+1997,7,DAL,2,Oliver Miller,C,6-9,280,1970-04-06,US,4,Arkansas
+1997,7,DAL,00,Eric Montross,C,7-0,270,1971-09-23,US,2,UNC
+1997,7,DAL,13-31,Martin Muursepp,PF,6-9,235,1974-09-26,EE,R,
+1997,7,DAL,31,Ed O'Bannon,SF,6-8,222,1972-08-14,US,1,UCLA
+1997,7,DAL,14,Robert Pack,PG,6-2,180,1969-02-03,US,5,USC
+1997,7,DAL,6,Khalid Reeves,PG,6-3,199,1972-07-15,US,2,Arizona
+1997,7,DAL,44,Fred Roberts,PF,6-10,218,1960-08-14,US,12,BYU
+1997,7,DAL,33,Jason Sasser,SF,6-7,225,1974-01-13,US,R,Texas Tech
+1997,7,DAL,1,Stevin Smith,SG,6-2,208,1972-01-24,US,R,Arizona State
+1997,7,DAL,20,Erick Strickland,SG,6-3,210,1973-11-25,US,R,Nebraska
+1997,7,DAL,52,Samaki Walker,PF,6-9,240,1976-02-25,US,R,Louisville
+1997,7,DAL,3,Jamie Watson,SF,6-7,190,1972-02-23,US,2,South Carolina

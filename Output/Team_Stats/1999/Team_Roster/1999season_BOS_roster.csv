@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-7,Kenny Anderson,PG,6-0,168,1970-10-09,US,7,Georgia Tech
-11,Dana Barros,PG,5-11,163,1967-04-13,US,9,Boston College
-40,Tony Battie,C,6-11,230,1976-02-11,US,1,Texas Tech
-12,Bruce Bowen,SF,6-7,185,1971-06-14,US,2,Cal State Fullerton
-45,Andrew DeClercq,C,6-10,230,1973-02-01,US,3,Florida
-20,Marlon Garnett,PG,6-2,186,1975-07-03,US,R,Santa Clara
-13,Damon Jones,PG,6-3,185,1976-08-25,US,R,Houston
-4,Popeye Jones,PF,6-8,250,1970-06-17,US,5,Murray State
-0,Walter McCarty,PF,6-10,230,1974-02-01,US,2,Kentucky
-5,Ron Mercer,SG,6-7,210,1976-05-18,US,1,Kentucky
-9,Greg Minor,SG,6-6,210,1971-09-18,US,4,Louisville
-34,Paul Pierce,SF,6-7,235,1977-10-13,US,R,Kansas
-52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,2,Wright State University
-44,Eric Riley,C,7-0,245,1970-06-02,US,4,Michigan
-55,Dwayne Schintzius,C,7-1,260,1968-10-14,US,7,Florida
-8,Antoine Walker,PF,6-8,224,1976-08-12,US,2,Kentucky
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1999,2,BOS,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,7,Georgia Tech
+1999,2,BOS,11,Dana Barros,PG,5-11,163,1967-04-13,US,9,Boston College
+1999,2,BOS,40,Tony Battie,C,6-11,230,1976-02-11,US,1,Texas Tech
+1999,2,BOS,12,Bruce Bowen,SF,6-7,185,1971-06-14,US,2,Cal State Fullerton
+1999,2,BOS,45,Andrew DeClercq,C,6-10,230,1973-02-01,US,3,Florida
+1999,2,BOS,20,Marlon Garnett,PG,6-2,186,1975-07-03,US,R,Santa Clara
+1999,2,BOS,13,Damon Jones,PG,6-3,185,1976-08-25,US,R,Houston
+1999,2,BOS,4,Popeye Jones,PF,6-8,250,1970-06-17,US,5,Murray State
+1999,2,BOS,0,Walter McCarty,PF,6-10,230,1974-02-01,US,2,Kentucky
+1999,2,BOS,5,Ron Mercer,SG,6-7,210,1976-05-18,US,1,Kentucky
+1999,2,BOS,9,Greg Minor,SG,6-6,210,1971-09-18,US,4,Louisville
+1999,2,BOS,34,Paul Pierce,SF,6-7,235,1977-10-13,US,R,Kansas
+1999,2,BOS,52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,2,Wright State University
+1999,2,BOS,44,Eric Riley,C,7-0,245,1970-06-02,US,4,Michigan
+1999,2,BOS,55,Dwayne Schintzius,C,7-1,260,1968-10-14,US,7,Florida
+1999,2,BOS,8,Antoine Walker,PF,6-8,224,1976-08-12,US,2,Kentucky

@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-7,Kenny Anderson,PG,6-0,168,1970-10-09,US,9,Georgia Tech
-4,Tony Battie,C,6-11,230,1976-02-11,US,3,Texas Tech
-30,Mark Blount,C,7-0,230,1975-11-30,US,R,Pitt
-11,Randy Brown,PG,6-2,190,1968-05-22,US,9,"Houston, New Mexico State"
-40,Rick Brunson,PG,6-4,190,1972-06-14,US,3,Temple
-43,Chris Carr,SG,6-5,207,1974-03-12,US,5,Southern Illinois
-44,Adrian Griffin,SF,6-5,217,1974-07-04,US,1,Seton Hall
-12,Chris Herren,PG,6-2,197,1975-09-27,US,1,"Boston College, Fresno State"
-0,Walter McCarty,PF,6-10,230,1974-02-01,US,4,Kentucky
-5,Jérôme Moïso,C,6-10,235,1978-06-15,FR,R,UCLA
-9,Doug Overton,PG,6-3,190,1969-08-03,US,8,La Salle
-9,Milt Palacio,PG,6-3,195,1978-02-07,US,1,"Midland College, Colorado State"
-34,Paul Pierce,SF,6-7,235,1977-10-13,US,2,Kansas
-52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,4,Wright State University
-20,Bryant Stith,SG,6-5,208,1970-12-10,US,8,Virginia
-8,Antoine Walker,PF,6-8,224,1976-08-12,US,4,Kentucky
-55,Eric Williams,SF,6-8,220,1972-07-17,US,5,Providence
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2001,2,BOS,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,9,Georgia Tech
+2001,2,BOS,4,Tony Battie,C,6-11,230,1976-02-11,US,3,Texas Tech
+2001,2,BOS,30,Mark Blount,C,7-0,230,1975-11-30,US,R,Pitt
+2001,2,BOS,11,Randy Brown,PG,6-2,190,1968-05-22,US,9,"Houston, New Mexico State"
+2001,2,BOS,40,Rick Brunson,PG,6-4,190,1972-06-14,US,3,Temple
+2001,2,BOS,43,Chris Carr,SG,6-5,207,1974-03-12,US,5,Southern Illinois
+2001,2,BOS,44,Adrian Griffin,SF,6-5,217,1974-07-04,US,1,Seton Hall
+2001,2,BOS,12,Chris Herren,PG,6-2,197,1975-09-27,US,1,"Boston College, Fresno State"
+2001,2,BOS,0,Walter McCarty,PF,6-10,230,1974-02-01,US,4,Kentucky
+2001,2,BOS,5,Jerome Moiso,C,6-10,235,1978-06-15,FR,R,UCLA
+2001,2,BOS,9,Doug Overton,PG,6-3,190,1969-08-03,US,8,La Salle
+2001,2,BOS,9,Milt Palacio,PG,6-3,195,1978-02-07,US,1,"Midland College, Colorado State"
+2001,2,BOS,34,Paul Pierce,SF,6-7,235,1977-10-13,US,2,Kansas
+2001,2,BOS,52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,4,Wright State University
+2001,2,BOS,20,Bryant Stith,SG,6-5,208,1970-12-10,US,8,Virginia
+2001,2,BOS,8,Antoine Walker,PF,6-8,224,1976-08-12,US,4,Kentucky
+2001,2,BOS,55,Eric Williams,SF,6-8,220,1972-07-17,US,5,Providence

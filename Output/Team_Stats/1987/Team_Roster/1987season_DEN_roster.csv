@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-32,Mark Alarie,PF,6-8,217,1963-12-11,US,R,Duke
-42,Wayne Cooper,C,6-10,220,1956-11-16,US,8,New Orleans
-23,T.R. Dunn,SG,6-4,192,1955-02-01,US,9,Alabama
-2,Alex English,SF,6-7,190,1954-01-05,US,10,South Carolina
-5,Mike Evans,SG,6-1,170,1955-04-19,US,7,Kansas State
-24,Bill Hanzlik,PF,6-7,185,1957-12-06,US,6,Notre Dame
-12,Fat Lever,PG,6-3,170,1960-08-18,US,4,Arizona State
-11,Maurice Martin,SF,6-6,200,1964-07-02,US,R,Saint Joseph's
-33,Calvin Natt,PF,6-6,220,1957-01-08,US,7,Louisiana-Monroe
-41,Blair Rasmussen,C,7-0,250,1962-11-13,US,1,Oregon
-34,Danny Schayes,C,6-11,235,1959-05-10,US,5,Syracuse
-22,Otis Smith,SG,6-5,210,1964-01-30,US,R,Jacksonville University
-4,Darrell Walker,PG,6-4,180,1961-03-09,US,3,Arkansas
-31,Pete Williams,PF,6-7,190,1965-03-10,US,1,Arizona
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1987,8,DEN,32,Mark Alarie,PF,6-8,217,1963-12-11,US,R,Duke
+1987,8,DEN,42,Wayne Cooper,C,6-10,220,1956-11-16,US,8,New Orleans
+1987,8,DEN,23,T.R. Dunn,SG,6-4,192,1955-02-01,US,9,Alabama
+1987,8,DEN,2,Alex English,SF,6-7,190,1954-01-05,US,10,South Carolina
+1987,8,DEN,5,Mike Evans,SG,6-1,170,1955-04-19,US,7,Kansas State
+1987,8,DEN,24,Bill Hanzlik,PF,6-7,185,1957-12-06,US,6,Notre Dame
+1987,8,DEN,12,Fat Lever,PG,6-3,170,1960-08-18,US,4,Arizona State
+1987,8,DEN,11,Maurice Martin,SF,6-6,200,1964-07-02,US,R,Saint Joseph's
+1987,8,DEN,33,Calvin Natt,PF,6-6,220,1957-01-08,US,7,Louisiana-Monroe
+1987,8,DEN,41,Blair Rasmussen,C,7-0,250,1962-11-13,US,1,Oregon
+1987,8,DEN,34,Danny Schayes,C,6-11,235,1959-05-10,US,5,Syracuse
+1987,8,DEN,22,Otis Smith,SG,6-5,210,1964-01-30,US,R,Jacksonville University
+1987,8,DEN,4,Darrell Walker,PG,6-4,180,1961-03-09,US,3,Arkansas
+1987,8,DEN,31,Pete Williams,PF,6-7,190,1965-03-10,US,1,Arizona

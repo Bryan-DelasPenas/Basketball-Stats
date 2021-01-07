@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-25,Bill Cartwright,C,7-1,245,1957-07-30,US,6,San Francisco
-42,Pat Cummings,PF,6-9,230,1956-07-11,US,7,Cincinnati
-33,Patrick Ewing,PF,7-0,240,1962-08-05,JM,1,Georgetown
-11,Stewart Granger,PG,6-3,190,1961-10-27,CA,2,Villanova
-7,Gerald Henderson,PG,6-2,175,1956-01-16,US,7,VCU
-30,Bernard King,SF,6-7,205,1956-12-04,US,8,Tennessee
-26,Bill Martin,SF,6-7,205,1962-08-16,US,1,Georgetown
-14,Chris McNealy,PF,6-7,210,1961-07-15,US,1,San Jose State
-44,Jawann Oldham,C,7-0,215,1957-07-04,US,6,Seattle University
-55,Louis Orr,SF,6-8,175,1958-05-07,US,6,Syracuse
-26,McKinley Singleton,PG,6-5,175,1961-10-29,US,R,UAB
-2,Rory Sparrow,PG,6-2,175,1958-06-12,US,6,Villanova
-23,Bob Thornton,PF,6-10,225,1962-07-10,US,1,"University of California, Irvine"
-6,Trent Tucker,SG,6-5,193,1959-12-20,US,4,Minnesota
-34,Kenny Walker,SF,6-8,210,1964-08-18,US,R,Kentucky
-45,Eddie Lee Wilkins,PF,6-10,220,1962-05-07,US,1,Gardner-Webb University
-21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,1,Chattanooga
-8,Brad Wright,PF,6-11,225,1962-03-26,US,R,UCLA
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1987,20,NYK,25,Bill Cartwright,C,7-1,245,1957-07-30,US,6,San Francisco
+1987,20,NYK,42,Pat Cummings,PF,6-9,230,1956-07-11,US,7,Cincinnati
+1987,20,NYK,33,Patrick Ewing,PF,7-0,240,1962-08-05,JM,1,Georgetown
+1987,20,NYK,11,Stewart Granger,PG,6-3,190,1961-10-27,CA,2,Villanova
+1987,20,NYK,7,Gerald Henderson,PG,6-2,175,1956-01-16,US,7,VCU
+1987,20,NYK,30,Bernard King,SF,6-7,205,1956-12-04,US,8,Tennessee
+1987,20,NYK,26,Bill Martin,SF,6-7,205,1962-08-16,US,1,Georgetown
+1987,20,NYK,14,Chris McNealy,PF,6-7,210,1961-07-15,US,1,San Jose State
+1987,20,NYK,44,Jawann Oldham,C,7-0,215,1957-07-04,US,6,Seattle University
+1987,20,NYK,55,Louis Orr,SF,6-8,175,1958-05-07,US,6,Syracuse
+1987,20,NYK,26,McKinley Singleton,PG,6-5,175,1961-10-29,US,R,UAB
+1987,20,NYK,2,Rory Sparrow,PG,6-2,175,1958-06-12,US,6,Villanova
+1987,20,NYK,23,Bob Thornton,PF,6-10,225,1962-07-10,US,1,"University of California, Irvine"
+1987,20,NYK,6,Trent Tucker,SG,6-5,193,1959-12-20,US,4,Minnesota
+1987,20,NYK,34,Kenny Walker,SF,6-8,210,1964-08-18,US,R,Kentucky
+1987,20,NYK,45,Eddie Lee Wilkins,PF,6-10,220,1962-05-07,US,1,Gardner-Webb University
+1987,20,NYK,21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,1,Chattanooga
+1987,20,NYK,8,Brad Wright,PF,6-11,225,1962-03-26,US,R,UCLA

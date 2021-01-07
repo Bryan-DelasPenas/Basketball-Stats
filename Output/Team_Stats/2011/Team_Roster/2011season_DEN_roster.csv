@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-6,Arron Afflalo,SG,6-5,210,1985-10-15,US,3,UCLA
-11,Chris Andersen,C,6-10,245,1978-07-07,US,8,Blinn College
-15,Carmelo Anthony,SF,6-8,238,1984-05-29,US,7,Syracuse
-32,Renaldo Balkman,SF,6-8,208,1984-07-14,US,4,South Carolina
-1,Chauncey Billups,PG,6-3,202,1976-09-25,US,13,Colorado
-25,Anthony Carter,PG,6-1,190,1975-06-16,US,11,Hawaii
-21,Wilson Chandler,SF,6-8,235,1987-05-10,US,3,DePaul
-34,Melvin Ely,C,6-10,260,1978-05-02,US,7,Fresno State
-20,Raymond Felton,SG,6-1,205,1984-06-26,US,5,UNC
-0,Gary Forbes,SF,6-7,220,1985-02-25,PA,R,"Virginia, UMass"
-8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,2,
-7,Al Harrington,PF,6-9,230,1980-02-17,US,12,
-31,Nenê Hilário,C,6-11,250,1982-09-13,BR,8,
-41,Kosta Koufos,C,7-0,245,1989-02-24,US,2,Ohio State
-3,Ty Lawson,PG,5-11,195,1987-11-03,US,1,UNC
-4,Kenyon Martin,PF,6-9,234,1977-12-30,US,10,Cincinnati
-25,Timofey Mozgov,C,7-1,275,1986-07-16,RU,R,
-5,J.R. Smith,SF,6-6,225,1985-09-09,US,6,
-23,Shelden Williams,PF,6-9,250,1983-10-21,US,4,Duke
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2011,8,DEN,6,Arron Afflalo,SG,6-5,210,1985-10-15,US,3,UCLA
+2011,8,DEN,11,Chris Andersen,C,6-10,245,1978-07-07,US,8,Blinn College
+2011,8,DEN,15,Carmelo Anthony,SF,6-8,238,1984-05-29,US,7,Syracuse
+2011,8,DEN,32,Renaldo Balkman,SF,6-8,208,1984-07-14,US,4,South Carolina
+2011,8,DEN,1,Chauncey Billups,PG,6-3,202,1976-09-25,US,13,Colorado
+2011,8,DEN,25,Anthony Carter,PG,6-1,190,1975-06-16,US,11,Hawaii
+2011,8,DEN,21,Wilson Chandler,SF,6-8,235,1987-05-10,US,3,DePaul
+2011,8,DEN,34,Melvin Ely,C,6-10,260,1978-05-02,US,7,Fresno State
+2011,8,DEN,20,Raymond Felton,SG,6-1,205,1984-06-26,US,5,UNC
+2011,8,DEN,0,Gary Forbes,SF,6-7,220,1985-02-25,PA,R,"Virginia, UMass"
+2011,8,DEN,8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,2,
+2011,8,DEN,7,Al Harrington,PF,6-9,230,1980-02-17,US,12,
+2011,8,DEN,31,Nene Hilario,C,6-11,250,1982-09-13,BR,8,
+2011,8,DEN,41,Kosta Koufos,C,7-0,245,1989-02-24,US,2,Ohio State
+2011,8,DEN,3,Ty Lawson,PG,5-11,195,1987-11-03,US,1,UNC
+2011,8,DEN,4,Kenyon Martin,PF,6-9,234,1977-12-30,US,10,Cincinnati
+2011,8,DEN,25,Timofey Mozgov,C,7-1,275,1986-07-16,RU,R,
+2011,8,DEN,5,J.R. Smith,SF,6-6,225,1985-09-09,US,6,
+2011,8,DEN,23,Shelden Williams,PF,6-9,250,1983-10-21,US,4,Duke

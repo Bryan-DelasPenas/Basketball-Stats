@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-40,Willie Anderson,SG,6-7,190,1967-01-08,US,3,Georgia
-42,Steve Bardo,SG,6-5,190,1968-04-05,US,R,Illinois
-33,Jud Buechler,SF,6-6,220,1968-06-19,US,1,Arizona
-35,Antoine Carr,PF,6-9,225,1961-07-23,US,7,Wichita State
-30,Tom Copa,C,6-10,275,1964-10-30,US,R,Marquette
-34,Terry Cummings,PF,6-9,220,1961-03-15,US,9,DePaul
-32,Sean Elliott,SF,6-8,205,1968-02-02,US,2,Arizona
-22,Tom Garrick,SG,6-2,185,1966-07-07,US,3,Rhode Island
-21,Sidney Green,PF,6-9,220,1961-01-04,US,8,UNLV
-3,Sean Higgins,SF,6-9,205,1968-12-30,US,1,Michigan
-15,Avery Johnson,PG,5-10,175,1965-03-25,US,3,"Cameron University, Southern University and A&M College"
-15-25,Vinnie Johnson,SG,6-2,200,1956-09-01,US,12,Baylor
-45,Tony Massenburg,PF,6-9,220,1967-07-31,US,1,Maryland
-8,Paul Pressey,SG,6-5,185,1958-12-24,US,9,Tulsa
-50,David Robinson,C,7-1,235,1965-08-06,US,2,United States Naval Academy
-5,Donald Royal,SF,6-8,210,1966-05-22,US,1,Notre Dame
-1,Rod Strickland,PG,6-3,175,1966-07-11,US,3,DePaul
-23,Greg Sutton,PG,6-2,170,1967-12-03,US,R,Oral Roberts
-6,Trent Tucker,SG,6-5,193,1959-12-20,US,9,Minnesota
-20,Morlon Wiley,PG,6-4,185,1966-09-24,US,3,Cal State Long Beach
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1992,27,SAS,40,Willie Anderson,SG,6-7,190,1967-01-08,US,3,Georgia
+1992,27,SAS,42,Steve Bardo,SG,6-5,190,1968-04-05,US,R,Illinois
+1992,27,SAS,33,Jud Buechler,SF,6-6,220,1968-06-19,US,1,Arizona
+1992,27,SAS,35,Antoine Carr,PF,6-9,225,1961-07-23,US,7,Wichita State
+1992,27,SAS,30,Tom Copa,C,6-10,275,1964-10-30,US,R,Marquette
+1992,27,SAS,34,Terry Cummings,PF,6-9,220,1961-03-15,US,9,DePaul
+1992,27,SAS,32,Sean Elliott,SF,6-8,205,1968-02-02,US,2,Arizona
+1992,27,SAS,22,Tom Garrick,SG,6-2,185,1966-07-07,US,3,Rhode Island
+1992,27,SAS,21,Sidney Green,PF,6-9,220,1961-01-04,US,8,UNLV
+1992,27,SAS,3,Sean Higgins,SF,6-9,205,1968-12-30,US,1,Michigan
+1992,27,SAS,15,Avery Johnson,PG,5-10,175,1965-03-25,US,3,"Cameron University, Southern University and A&M College"
+1992,27,SAS,15-25,Vinnie Johnson,SG,6-2,200,1956-09-01,US,12,Baylor
+1992,27,SAS,45,Tony Massenburg,PF,6-9,220,1967-07-31,US,1,Maryland
+1992,27,SAS,8,Paul Pressey,SG,6-5,185,1958-12-24,US,9,Tulsa
+1992,27,SAS,50,David Robinson,C,7-1,235,1965-08-06,US,2,United States Naval Academy
+1992,27,SAS,5,Donald Royal,SF,6-8,210,1966-05-22,US,1,Notre Dame
+1992,27,SAS,1,Rod Strickland,PG,6-3,175,1966-07-11,US,3,DePaul
+1992,27,SAS,23,Greg Sutton,PG,6-2,170,1967-12-03,US,R,Oral Roberts
+1992,27,SAS,6,Trent Tucker,SG,6-5,193,1959-12-20,US,9,Minnesota
+1992,27,SAS,20,Morlon Wiley,PG,6-4,185,1966-09-24,US,3,Cal State Long Beach

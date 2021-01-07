@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-12,LaMarcus Aldridge,PF,6-11,250,1985-07-19,US,4,Texas
-11,Luke Babbitt,SF,6-9,225,1989-06-20,US,R,Nevada
-40,Earl Barron,C,7-0,250,1981-08-14,US,4,Memphis
-88,Nicolas Batum,SF,6-9,230,1988-12-14,FR,2,
-23,Marcus Camby,C,6-11,220,1974-03-22,US,14,UMass
-31,Jarron Collins,C,6-11,255,1978-12-02,US,9,Stanford
-33,Dante Cunningham,PF,6-8,230,1987-04-22,US,1,Villanova
-5,Rudy Fernández,SG,6-6,185,1985-04-04,ES,2,
-1,Armon Johnson,PG,6-3,195,1989-02-23,US,R,Nevada
-17,Chris Johnson,C,6-11,210,1985-07-15,US,R,LSU
-4,Sean Marks,C,6-10,250,1975-08-23,NZ,10,California
-2,Wesley Matthews,SG,6-4,220,1986-10-14,US,1,Marquette
-24,Andre Miller,PG,6-3,200,1976-03-19,US,11,Utah
-8,Patty Mills,PG,6-1,180,1988-08-11,AU,1,Saint Mary's
-21,Fabricio Oberto,C,6-10,245,1975-03-21,AR,5,
-10,Joel Przybilla,C,7-1,255,1979-10-10,US,10,Minnesota
-7,Brandon Roy,SG,6-6,215,1984-07-23,US,4,Washington
-3,Gerald Wallace,PF,6-7,215,1982-07-23,US,9,Alabama
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2011,25,POR,12,LaMarcus Aldridge,PF,6-11,250,1985-07-19,US,4,Texas
+2011,25,POR,11,Luke Babbitt,SF,6-9,225,1989-06-20,US,R,Nevada
+2011,25,POR,40,Earl Barron,C,7-0,250,1981-08-14,US,4,Memphis
+2011,25,POR,88,Nicolas Batum,SF,6-9,230,1988-12-14,FR,2,
+2011,25,POR,23,Marcus Camby,C,6-11,220,1974-03-22,US,14,UMass
+2011,25,POR,31,Jarron Collins,C,6-11,255,1978-12-02,US,9,Stanford
+2011,25,POR,33,Dante Cunningham,PF,6-8,230,1987-04-22,US,1,Villanova
+2011,25,POR,5,Rudy Fernandez,SG,6-6,185,1985-04-04,ES,2,
+2011,25,POR,1,Armon Johnson,PG,6-3,195,1989-02-23,US,R,Nevada
+2011,25,POR,17,Chris Johnson,C,6-11,210,1985-07-15,US,R,LSU
+2011,25,POR,4,Sean Marks,C,6-10,250,1975-08-23,NZ,10,California
+2011,25,POR,2,Wesley Matthews,SG,6-4,220,1986-10-14,US,1,Marquette
+2011,25,POR,24,Andre Miller,PG,6-3,200,1976-03-19,US,11,Utah
+2011,25,POR,8,Patty Mills,PG,6-1,180,1988-08-11,AU,1,Saint Mary's
+2011,25,POR,21,Fabricio Oberto,C,6-10,245,1975-03-21,AR,5,
+2011,25,POR,10,Joel Przybilla,C,7-1,255,1979-10-10,US,10,Minnesota
+2011,25,POR,7,Brandon Roy,SG,6-6,215,1984-07-23,US,4,Washington
+2011,25,POR,3,Gerald Wallace,PF,6-7,215,1982-07-23,US,9,Alabama

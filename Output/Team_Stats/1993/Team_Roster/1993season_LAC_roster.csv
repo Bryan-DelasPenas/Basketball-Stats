@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-7,Lester Conner,PG,6-4,180,1959-09-17,US,9,Oregon State
-23,Gary Grant,PG,6-3,185,1965-04-21,US,4,Michigan
-4,Ron Harper,SG,6-6,185,1964-01-20,US,6,Miami University
-8,Jaren Jackson,SG,6-4,190,1967-10-27,US,2,Georgetown
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,5,St. John's
-5,Danny Manning,PF,6-10,230,1966-05-17,US,4,Kansas
-3,Ken Norman,SF,6-8,215,1964-09-05,US,5,Illinois
-53,Stanley Roberts,C,7-0,285,1970-02-07,US,1,LSU
-27,Elmore Spencer,C,7-0,270,1969-12-06,US,R,"Georgia, UNLV"
-25,Alex Stivrins,SF,6-8,220,1962-11-29,US,1,"Creighton, Colorado"
-55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,12,UCLA
-35,Loy Vaught,PF,6-9,230,1968-02-27,US,2,Michigan
-10,Duane Washington,SG,6-4,195,1964-08-31,DE,1,Middle Tennessee
-34,John Williams,SF,6-8,235,1966-10-26,US,5,LSU
-14,Randy Woods,PG,5-10,185,1970-09-23,US,R,La Salle
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1993,13,LAC,7,Lester Conner,PG,6-4,180,1959-09-17,US,9,Oregon State
+1993,13,LAC,23,Gary Grant,PG,6-3,185,1965-04-21,US,4,Michigan
+1993,13,LAC,4,Ron Harper,SG,6-6,185,1964-01-20,US,6,Miami University
+1993,13,LAC,8,Jaren Jackson,SG,6-4,190,1967-10-27,US,2,Georgetown
+1993,13,LAC,13,Mark Jackson,PG,6-1,180,1965-04-01,US,5,St. John's
+1993,13,LAC,5,Danny Manning,PF,6-10,230,1966-05-17,US,4,Kansas
+1993,13,LAC,3,Ken Norman,SF,6-8,215,1964-09-05,US,5,Illinois
+1993,13,LAC,53,Stanley Roberts,C,7-0,285,1970-02-07,US,1,LSU
+1993,13,LAC,27,Elmore Spencer,C,7-0,270,1969-12-06,US,R,"Georgia, UNLV"
+1993,13,LAC,25,Alex Stivrins,SF,6-8,220,1962-11-29,US,1,"Creighton, Colorado"
+1993,13,LAC,55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,12,UCLA
+1993,13,LAC,35,Loy Vaught,PF,6-9,230,1968-02-27,US,2,Michigan
+1993,13,LAC,10,Duane Washington,SG,6-4,195,1964-08-31,DE,1,Middle Tennessee
+1993,13,LAC,34,John Williams,SF,6-8,235,1966-10-26,US,5,LSU
+1993,13,LAC,14,Randy Woods,PG,5-10,185,1970-09-23,US,R,La Salle

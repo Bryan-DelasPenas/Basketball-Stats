@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-13,Ike Anigbogu,C,6-10,250,1998-10-17,US,R,UCLA
-44,Bojan Bogdanović,SF,6-8,226,1989-04-18,BA,3,
-20,Trevor Booker,PF,6-8,228,1987-11-25,US,7,Clemson
-2,Darren Collison,PG,6-0,175,1987-08-23,US,8,UCLA
-25,Al Jefferson,C,6-10,289,1985-01-04,US,13,
-6,Cory Joseph,PG,6-3,200,1991-08-20,CA,6,Texas
-22,T.J. Leaf,PF,6-10,222,1997-04-30,IL,R,UCLA
-10,Trey McKinney-Jones,SG,6-5,214,1990-08-27,US,R,"Missouri-Kansas City, Miami (FL)"
-26,Ben Moore,PF,6-8,220,1995-05-13,US,R,SMU
-4,Victor Oladipo,SG,6-4,213,1992-05-04,US,4,Indiana
-0,Alex Poythress,PF,6-9,235,1993-09-06,US,1,Kentucky
-40,Glenn Robinson,SF,6-6,222,1994-01-08,US,3,Michigan
-11,Domantas Sabonis,C,6-11,240,1996-05-03,US,1,Gonzaga
-1,Lance Stephenson,SG,6-6,230,1990-09-05,US,7,Cincinnati
-5,Edmond Sumner,PG,6-4,196,1995-12-31,US,R,Xavier
-33,Myles Turner,C,6-11,250,1996-03-24,US,2,Texas
-12,Damien Wilkins,SF,6-6,225,1980-01-11,US,9,"NC State, Georgia"
-3,Joe Young,PG,6-2,180,1992-06-27,US,2,"Houston, Oregon"
-21,Thaddeus Young,PF,6-8,235,1988-06-21,US,10,Georgia Tech
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2018,12,IND,13,Ike Anigbogu,C,6-10,250,1998-10-17,US,R,UCLA
+2018,12,IND,44,Bojan Bogdanovic,SF,6-8,226,1989-04-18,BA,3,
+2018,12,IND,20,Trevor Booker,PF,6-8,228,1987-11-25,US,7,Clemson
+2018,12,IND,2,Darren Collison,PG,6-0,175,1987-08-23,US,8,UCLA
+2018,12,IND,25,Al Jefferson,C,6-10,289,1985-01-04,US,13,
+2018,12,IND,6,Cory Joseph,PG,6-3,200,1991-08-20,CA,6,Texas
+2018,12,IND,22,T.J. Leaf,PF,6-10,222,1997-04-30,IL,R,UCLA
+2018,12,IND,10,Trey McKinney-Jones,SG,6-5,214,1990-08-27,US,R,"Missouri-Kansas City, Miami (FL)"
+2018,12,IND,26,Ben Moore,PF,6-8,220,1995-05-13,US,R,SMU
+2018,12,IND,4,Victor Oladipo,SG,6-4,213,1992-05-04,US,4,Indiana
+2018,12,IND,0,Alex Poythress,PF,6-9,235,1993-09-06,US,1,Kentucky
+2018,12,IND,40,Glenn Robinson,SF,6-6,222,1994-01-08,US,3,Michigan
+2018,12,IND,11,Domantas Sabonis,C,6-11,240,1996-05-03,US,1,Gonzaga
+2018,12,IND,1,Lance Stephenson,SG,6-6,230,1990-09-05,US,7,Cincinnati
+2018,12,IND,5,Edmond Sumner,PG,6-4,196,1995-12-31,US,R,Xavier
+2018,12,IND,33,Myles Turner,C,6-11,250,1996-03-24,US,2,Texas
+2018,12,IND,12,Damien Wilkins,SF,6-6,225,1980-01-11,US,9,"NC State, Georgia"
+2018,12,IND,3,Joe Young,PG,6-2,180,1992-06-27,US,2,"Houston, Oregon"
+2018,12,IND,21,Thaddeus Young,PF,6-8,235,1988-06-21,US,10,Georgia Tech

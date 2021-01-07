@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-50,Lavoy Allen,PF,6-9,260,1989-02-04,US,R,Temple
-4,Tony Battie,C,6-11,230,1976-02-11,US,13,Texas Tech
-33,Craig Brackins,PF,6-10,230,1987-10-09,US,1,Iowa State
-42,Elton Brand,C,6-8,275,1979-03-11,US,12,Duke
-16,Francisco Elson,C,7-0,235,1976-02-28,NL,8,California
-0,Spencer Hawes,C,7-1,245,1988-04-28,US,4,Washington
-11,Jrue Holiday,PG,6-3,205,1990-06-12,US,2,UCLA
-9,Andre Iguodala,SF,6-6,215,1984-01-28,US,7,Arizona
-20,Jodie Meeks,SG,6-4,210,1987-08-21,US,2,Kentucky
-5,Andrés Nocioni,SF,6-7,225,1979-11-30,AR,7,
-25,Xavier Silas,SG,6-5,205,1988-01-22,US,R,"Colorado, Northern Illinois"
-12,Evan Turner,SF,6-6,220,1988-10-27,US,1,Ohio State
-8,Nikola Vučević,C,6-11,260,1990-10-24,CH,R,USC
-23,Lou Williams,PG,6-1,175,1986-10-27,US,6,
-7,Sam Young,SF,6-6,220,1985-06-01,US,2,Pitt
-21,Thaddeus Young,PF,6-8,235,1988-06-21,US,4,Georgia Tech
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2012,23,PHI,50,Lavoy Allen,PF,6-9,260,1989-02-04,US,R,Temple
+2012,23,PHI,4,Tony Battie,C,6-11,230,1976-02-11,US,13,Texas Tech
+2012,23,PHI,33,Craig Brackins,PF,6-10,230,1987-10-09,US,1,Iowa State
+2012,23,PHI,42,Elton Brand,C,6-8,275,1979-03-11,US,12,Duke
+2012,23,PHI,16,Francisco Elson,C,7-0,235,1976-02-28,NL,8,California
+2012,23,PHI,0,Spencer Hawes,C,7-1,245,1988-04-28,US,4,Washington
+2012,23,PHI,11,Jrue Holiday,PG,6-3,205,1990-06-12,US,2,UCLA
+2012,23,PHI,9,Andre Iguodala,SF,6-6,215,1984-01-28,US,7,Arizona
+2012,23,PHI,20,Jodie Meeks,SG,6-4,210,1987-08-21,US,2,Kentucky
+2012,23,PHI,5,Andres Nocioni,SF,6-7,225,1979-11-30,AR,7,
+2012,23,PHI,25,Xavier Silas,SG,6-5,205,1988-01-22,US,R,"Colorado, Northern Illinois"
+2012,23,PHI,12,Evan Turner,SF,6-6,220,1988-10-27,US,1,Ohio State
+2012,23,PHI,8,Nikola Vucevic,C,6-11,260,1990-10-24,CH,R,USC
+2012,23,PHI,23,Lou Williams,PG,6-1,175,1986-10-27,US,6,
+2012,23,PHI,7,Sam Young,SF,6-6,220,1985-06-01,US,2,Pitt
+2012,23,PHI,21,Thaddeus Young,PF,6-8,235,1988-06-21,US,4,Georgia Tech

@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-8,Bismack Biyombo,C,6-8,255,1992-08-28,CD,3,
-30,Troy Daniels,SG,6-4,200,1991-07-15,US,1,VCU
-19,P.J. Hairston,SG,6-6,230,1992-12-24,US,R,UNC
-9,Gerald Henderson,SG,6-5,215,1987-12-09,US,5,Duke
-25,Al Jefferson,C,6-10,289,1985-01-04,US,10,
-14,Michael Kidd-Gilchrist,SF,6-6,232,1993-09-26,US,2,Kentucky
-54,Jason Maxiell,PF,6-7,260,1983-02-18,US,9,Cincinnati
-12,Gary Neal,SG,6-4,210,1984-10-03,US,4,"La Salle, Towson University"
-5,Jannero Pargo,PG,6-1,175,1979-10-22,US,10,Arkansas
-22,Brian Roberts,PG,6-1,173,1985-12-03,US,2,Dayton
-1,Lance Stephenson,SG,6-6,230,1990-09-05,US,4,Cincinnati
-44,Jeffery Taylor,SF,6-7,225,1989-05-23,SE,2,Vanderbilt
-11,Noah Vonleh,PF,6-10,257,1995-08-24,US,R,Indiana
-15,Kemba Walker,PG,6-0,184,1990-05-08,US,3,UConn
-2,Marvin Williams,PF,6-8,237,1986-06-19,US,9,UNC
-7,Mo Williams,PG,6-1,198,1982-12-19,US,11,Alabama
-40,Cody Zeller,C,7-0,240,1992-10-05,US,1,Indiana
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2015,4,CHO,8,Bismack Biyombo,C,6-8,255,1992-08-28,CD,3,
+2015,4,CHO,30,Troy Daniels,SG,6-4,200,1991-07-15,US,1,VCU
+2015,4,CHO,19,P.J. Hairston,SG,6-6,230,1992-12-24,US,R,UNC
+2015,4,CHO,9,Gerald Henderson,SG,6-5,215,1987-12-09,US,5,Duke
+2015,4,CHO,25,Al Jefferson,C,6-10,289,1985-01-04,US,10,
+2015,4,CHO,14,Michael Kidd-Gilchrist,SF,6-6,232,1993-09-26,US,2,Kentucky
+2015,4,CHO,54,Jason Maxiell,PF,6-7,260,1983-02-18,US,9,Cincinnati
+2015,4,CHO,12,Gary Neal,SG,6-4,210,1984-10-03,US,4,"La Salle, Towson University"
+2015,4,CHO,5,Jannero Pargo,PG,6-1,175,1979-10-22,US,10,Arkansas
+2015,4,CHO,22,Brian Roberts,PG,6-1,173,1985-12-03,US,2,Dayton
+2015,4,CHO,1,Lance Stephenson,SG,6-6,230,1990-09-05,US,4,Cincinnati
+2015,4,CHO,44,Jeffery Taylor,SF,6-7,225,1989-05-23,SE,2,Vanderbilt
+2015,4,CHO,11,Noah Vonleh,PF,6-10,257,1995-08-24,US,R,Indiana
+2015,4,CHO,15,Kemba Walker,PG,6-0,184,1990-05-08,US,3,UConn
+2015,4,CHO,2,Marvin Williams,PF,6-8,237,1986-06-19,US,9,UNC
+2015,4,CHO,7,Mo Williams,PG,6-1,198,1982-12-19,US,11,Alabama
+2015,4,CHO,40,Cody Zeller,C,7-0,240,1992-10-05,US,1,Indiana

@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-2,Blake Ahearn,PG,6-2,190,1984-05-27,US,2,Missouri State University
-19,Raja Bell,SG,6-5,204,1976-09-19,VI,11,"Boston University, Florida International University"
-10,Alec Burks,SG,6-6,214,1991-07-20,US,R,Colorado
-3,DeMarre Carroll,SF,6-6,215,1986-07-27,US,2,"Vanderbilt, Missouri"
-40,Jeremy Evans,SF,6-9,200,1987-10-24,US,1,Western Kentucky
-15,Derrick Favors,PF,6-9,265,1991-07-15,US,1,Georgia Tech
-5,Devin Harris,PG,6-3,185,1983-02-27,US,7,Wisconsin
-20,Gordon Hayward,SF,6-7,225,1990-03-23,US,1,Butler
-8,Josh Howard,SF,6-7,210,1980-04-28,US,8,Wake Forest
-25,Al Jefferson,C,6-10,289,1985-01-04,US,7,
-0,Enes Kanter,C,6-10,250,1992-05-20,CH,R,
-34,C.J. Miles,SG,6-6,220,1987-03-18,US,6,
-24,Paul Millsap,PF,6-7,257,1985-02-10,US,5,Louisiana Tech
-6,Jamaal Tinsley,PG,6-3,195,1978-02-28,US,8,Iowa State
-11,Earl Watson,PG,6-1,195,1979-06-12,US,10,UCLA
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2012,29,UTA,2,Blake Ahearn,PG,6-2,190,1984-05-27,US,2,Missouri State University
+2012,29,UTA,19,Raja Bell,SG,6-5,204,1976-09-19,VI,11,"Boston University, Florida International University"
+2012,29,UTA,10,Alec Burks,SG,6-6,214,1991-07-20,US,R,Colorado
+2012,29,UTA,3,DeMarre Carroll,SF,6-6,215,1986-07-27,US,2,"Vanderbilt, Missouri"
+2012,29,UTA,40,Jeremy Evans,SF,6-9,200,1987-10-24,US,1,Western Kentucky
+2012,29,UTA,15,Derrick Favors,PF,6-9,265,1991-07-15,US,1,Georgia Tech
+2012,29,UTA,5,Devin Harris,PG,6-3,185,1983-02-27,US,7,Wisconsin
+2012,29,UTA,20,Gordon Hayward,SF,6-7,225,1990-03-23,US,1,Butler
+2012,29,UTA,8,Josh Howard,SF,6-7,210,1980-04-28,US,8,Wake Forest
+2012,29,UTA,25,Al Jefferson,C,6-10,289,1985-01-04,US,7,
+2012,29,UTA,0,Enes Kanter,C,6-10,250,1992-05-20,CH,R,
+2012,29,UTA,34,C.J. Miles,SG,6-6,220,1987-03-18,US,6,
+2012,29,UTA,24,Paul Millsap,PF,6-7,257,1985-02-10,US,5,Louisiana Tech
+2012,29,UTA,6,Jamaal Tinsley,PG,6-3,195,1978-02-28,US,8,Iowa State
+2012,29,UTA,11,Earl Watson,PG,6-1,195,1979-06-12,US,10,UCLA

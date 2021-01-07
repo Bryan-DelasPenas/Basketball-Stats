@@ -1,22 +1,22 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-11,Chris Andersen,C,6-10,245,1978-07-07,US,12,Blinn College
-30,Michael Beasley,PF,6-9,235,1989-01-09,US,6,Kansas State
-1,Chris Bosh,C,6-11,235,1984-03-24,US,11,Georgia Tech
-26,Shannon Brown,SG,6-4,205,1985-11-29,US,8,Michigan State
-15,Mario Chalmers,PG,6-2,190,1986-05-19,US,6,Kansas
-30,Norris Cole,PG,6-2,175,1988-10-13,US,3,Cleveland State University
-24,Andre Dawkins,SG,6-5,215,1991-09-19,US,R,Duke
-9,Luol Deng,SF,6-9,237,1985-04-16,SS,10,Duke
-7,Goran Dragić,PG,6-3,190,1986-05-06,SI,6,
-12,Zoran Dragić,SG,6-5,200,1989-06-22,SI,R,
-32,James Ennis,SF,6-6,215,1990-07-01,US,R,Cal State Long Beach
-22,Danny Granger,SF,6-9,222,1983-04-20,US,9,"Bradley, New Mexico"
-7,Justin Hamilton,C,7-0,260,1990-04-01,US,1,"Iowa State, LSU"
-40,Udonis Haslem,PF,6-8,235,1980-06-09,US,11,Florida
-8,Tyler Johnson,SG,6-3,186,1992-05-07,US,R,Fresno State
-4,Josh McRoberts,PF,6-10,240,1987-02-28,US,7,Duke
-13,Shabazz Napier,PG,6-0,175,1991-07-14,US,R,UConn
-3,Dwyane Wade,SG,6-4,220,1982-01-17,US,11,Marquette
-5,Henry Walker,SF,6-6,220,1987-10-09,US,4,Kansas State
-21,Hassan Whiteside,C,7-0,265,1989-06-13,US,2,Marshall
-43,Shawne Williams,SF,6-9,225,1986-02-16,US,6,Memphis
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2015,16,MIA,11,Chris Andersen,C,6-10,245,1978-07-07,US,12,Blinn College
+2015,16,MIA,30,Michael Beasley,PF,6-9,235,1989-01-09,US,6,Kansas State
+2015,16,MIA,1,Chris Bosh,C,6-11,235,1984-03-24,US,11,Georgia Tech
+2015,16,MIA,26,Shannon Brown,SG,6-4,205,1985-11-29,US,8,Michigan State
+2015,16,MIA,15,Mario Chalmers,PG,6-2,190,1986-05-19,US,6,Kansas
+2015,16,MIA,30,Norris Cole,PG,6-2,175,1988-10-13,US,3,Cleveland State University
+2015,16,MIA,24,Andre Dawkins,SG,6-5,215,1991-09-19,US,R,Duke
+2015,16,MIA,9,Luol Deng,SF,6-9,237,1985-04-16,SS,10,Duke
+2015,16,MIA,7,Goran Dragic,PG,6-3,190,1986-05-06,SI,6,
+2015,16,MIA,12,Zoran Dragic,SG,6-5,200,1989-06-22,SI,R,
+2015,16,MIA,32,James Ennis,SF,6-6,215,1990-07-01,US,R,Cal State Long Beach
+2015,16,MIA,22,Danny Granger,SF,6-9,222,1983-04-20,US,9,"Bradley, New Mexico"
+2015,16,MIA,7,Justin Hamilton,C,7-0,260,1990-04-01,US,1,"Iowa State, LSU"
+2015,16,MIA,40,Udonis Haslem,PF,6-8,235,1980-06-09,US,11,Florida
+2015,16,MIA,8,Tyler Johnson,SG,6-3,186,1992-05-07,US,R,Fresno State
+2015,16,MIA,4,Josh McRoberts,PF,6-10,240,1987-02-28,US,7,Duke
+2015,16,MIA,13,Shabazz Napier,PG,6-0,175,1991-07-14,US,R,UConn
+2015,16,MIA,3,Dwyane Wade,SG,6-4,220,1982-01-17,US,11,Marquette
+2015,16,MIA,5,Henry Walker,SF,6-6,220,1987-10-09,US,4,Kansas State
+2015,16,MIA,21,Hassan Whiteside,C,7-0,265,1989-06-13,US,2,Marshall
+2015,16,MIA,43,Shawne Williams,SF,6-9,225,1986-02-16,US,6,Memphis

@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Otis Birdsong,SG,6-3,190,1955-12-09,US,8,Houston
-45,Bobby Cattage,PF,6-9,250,1958-08-17,US,1,Auburn
-12,Darwin Cook,PG,6-3,184,1958-08-06,US,5,University of Portland
-53,Darryl Dawkins,C,6-11,251,1957-01-11,US,10,
-42,Mike Gminski,C,6-11,250,1959-08-03,US,5,Duke
-22,Rod Higgins,SF,6-7,200,1960-01-31,US,3,Fresno State
-43,Mickey Johnson,PF,6-10,190,1952-08-31,US,11,Aurora University
-40,Yvon Joseph,C,6-11,245,1957-10-31,HT,R,Georgia Tech
-55,Albert King,SF,6-6,190,1959-12-17,US,4,Maryland
-31,Mike O'Koren,SF,6-7,207,1958-02-07,US,5,UNC
-14,Kelvin Ransey,PG,6-1,170,1958-05-03,US,5,Ohio State
-20,Micheal Ray Richardson,PG,6-5,189,1955-04-11,US,7,Montana
-35,Jeff Turner,PF,6-9,230,1962-04-09,US,1,Vanderbilt
-52,Buck Williams,PF,6-8,215,1960-03-08,US,4,Maryland
-13,Ray Williams,PG,6-3,188,1954-10-14,US,8,Minnesota
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1986,3,NJN,10,Otis Birdsong,SG,6-3,190,1955-12-09,US,8,Houston
+1986,3,NJN,45,Bobby Cattage,PF,6-9,250,1958-08-17,US,1,Auburn
+1986,3,NJN,12,Darwin Cook,PG,6-3,184,1958-08-06,US,5,University of Portland
+1986,3,NJN,53,Darryl Dawkins,C,6-11,251,1957-01-11,US,10,
+1986,3,NJN,42,Mike Gminski,C,6-11,250,1959-08-03,US,5,Duke
+1986,3,NJN,22,Rod Higgins,SF,6-7,200,1960-01-31,US,3,Fresno State
+1986,3,NJN,43,Mickey Johnson,PF,6-10,190,1952-08-31,US,11,Aurora University
+1986,3,NJN,40,Yvon Joseph,C,6-11,245,1957-10-31,HT,R,Georgia Tech
+1986,3,NJN,55,Albert King,SF,6-6,190,1959-12-17,US,4,Maryland
+1986,3,NJN,31,Mike O'Koren,SF,6-7,207,1958-02-07,US,5,UNC
+1986,3,NJN,14,Kelvin Ransey,PG,6-1,170,1958-05-03,US,5,Ohio State
+1986,3,NJN,20,Micheal Ray Richardson,PG,6-5,189,1955-04-11,US,7,Montana
+1986,3,NJN,35,Jeff Turner,PF,6-9,230,1962-04-09,US,1,Vanderbilt
+1986,3,NJN,52,Buck Williams,PF,6-8,215,1960-03-08,US,4,Maryland
+1986,3,NJN,13,Ray Williams,PG,6-3,188,1954-10-14,US,8,Minnesota

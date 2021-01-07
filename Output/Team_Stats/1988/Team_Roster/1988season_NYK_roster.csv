@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-3,Rick Carlisle,SG,6-5,210,1959-10-27,US,3,"University of Maine, Virginia"
-25,Bill Cartwright,C,7-1,245,1957-07-30,US,7,San Francisco
-42,Pat Cummings,PF,6-9,230,1956-07-11,US,8,Cincinnati
-1,Billy Donovan,PG,5-11,171,1965-05-30,US,R,Providence
-33,Patrick Ewing,C,7-0,240,1962-08-05,JM,2,Georgetown
-44,Sidney Green,PF,6-9,220,1961-01-04,US,4,UNLV
-7,Gerald Henderson,PG,6-2,175,1956-01-16,US,8,VCU
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,R,St. John's
-14,Chris McNealy,PF,6-7,210,1961-07-15,US,2,San Jose State
-4,Johnny Newman,SF,6-7,190,1963-11-28,US,1,Richmond
-55,Louis Orr,SF,6-8,175,1958-05-07,US,7,Syracuse
-20,Carey Scurry,SF,6-7,188,1962-12-04,US,2,Long Island University
-2,Rory Sparrow,PG,6-2,175,1958-06-12,US,7,Villanova
-23,Bob Thornton,PF,6-10,225,1962-07-10,US,2,"University of California, Irvine"
-18,Ray Tolbert,PF,6-9,225,1958-09-10,US,3,Indiana
-11,Sedric Toney,PG,6-2,178,1962-04-13,US,1,Dayton
-6,Trent Tucker,SG,6-5,193,1959-12-20,US,5,Minnesota
-34,Kenny Walker,SF,6-8,210,1964-08-18,US,1,Kentucky
-11,Tony White,PG,6-2,170,1965-02-15,US,R,Tennessee
-21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,2,Chattanooga
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1988,20,NYK,3,Rick Carlisle,SG,6-5,210,1959-10-27,US,3,"University of Maine, Virginia"
+1988,20,NYK,25,Bill Cartwright,C,7-1,245,1957-07-30,US,7,San Francisco
+1988,20,NYK,42,Pat Cummings,PF,6-9,230,1956-07-11,US,8,Cincinnati
+1988,20,NYK,1,Billy Donovan,PG,5-11,171,1965-05-30,US,R,Providence
+1988,20,NYK,33,Patrick Ewing,C,7-0,240,1962-08-05,JM,2,Georgetown
+1988,20,NYK,44,Sidney Green,PF,6-9,220,1961-01-04,US,4,UNLV
+1988,20,NYK,7,Gerald Henderson,PG,6-2,175,1956-01-16,US,8,VCU
+1988,20,NYK,13,Mark Jackson,PG,6-1,180,1965-04-01,US,R,St. John's
+1988,20,NYK,14,Chris McNealy,PF,6-7,210,1961-07-15,US,2,San Jose State
+1988,20,NYK,4,Johnny Newman,SF,6-7,190,1963-11-28,US,1,Richmond
+1988,20,NYK,55,Louis Orr,SF,6-8,175,1958-05-07,US,7,Syracuse
+1988,20,NYK,20,Carey Scurry,SF,6-7,188,1962-12-04,US,2,Long Island University
+1988,20,NYK,2,Rory Sparrow,PG,6-2,175,1958-06-12,US,7,Villanova
+1988,20,NYK,23,Bob Thornton,PF,6-10,225,1962-07-10,US,2,"University of California, Irvine"
+1988,20,NYK,18,Ray Tolbert,PF,6-9,225,1958-09-10,US,3,Indiana
+1988,20,NYK,11,Sedric Toney,PG,6-2,178,1962-04-13,US,1,Dayton
+1988,20,NYK,6,Trent Tucker,SG,6-5,193,1959-12-20,US,5,Minnesota
+1988,20,NYK,34,Kenny Walker,SF,6-8,210,1964-08-18,US,1,Kentucky
+1988,20,NYK,11,Tony White,PG,6-2,170,1965-02-15,US,R,Tennessee
+1988,20,NYK,21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,2,Chattanooga

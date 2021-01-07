@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-50,Mark Bradtke,C,6-10,265,1968-09-27,AU,R,
-4,Michael Cage,C,6-9,224,1962-01-28,US,12,San Diego State
-45,Adrian Caldwell,PF,6-8,265,1966-07-04,US,4,"SMU, Lamar"
-44,Derrick Coleman,PF,6-10,230,1967-06-21,US,6,Syracuse
-21,Joe Courtney,PF,6-8,235,1969-10-17,US,3,"Mississippi State, University of Southern Mississippi"
-7,Mark Davis,SF,6-7,210,1973-04-26,US,1,"Howard College, Texas Tech"
-30,Lucious Harris,SG,6-5,190,1970-12-18,US,3,Cal State Long Beach
-14,Mark Hendrickson,PF,6-9,220,1974-06-23,US,R,Washington State
-3,Allen Iverson,PG,6-0,165,1975-06-07,US,R,Georgetown
-20,Frankie King,SG,6-1,185,1972-06-06,US,1,Western Carolina University
-25,Don MacLean,SF,6-10,235,1970-01-16,US,4,UCLA
-9,Doug Overton,PG,6-3,190,1969-08-03,US,4,La Salle
-42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,1,UNC
-23,Rex Walters,SG,6-4,190,1970-03-12,US,3,"Northwestern, Kansas"
-35,Clarence Weatherspoon,SF,6-6,240,1970-09-08,US,4,University of Southern Mississippi
-55,Scott Williams,C,6-10,230,1968-03-21,US,6,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,23,PHI,50,Mark Bradtke,C,6-10,265,1968-09-27,AU,R,
+1997,23,PHI,4,Michael Cage,C,6-9,224,1962-01-28,US,12,San Diego State
+1997,23,PHI,45,Adrian Caldwell,PF,6-8,265,1966-07-04,US,4,"SMU, Lamar"
+1997,23,PHI,44,Derrick Coleman,PF,6-10,230,1967-06-21,US,6,Syracuse
+1997,23,PHI,21,Joe Courtney,PF,6-8,235,1969-10-17,US,3,"Mississippi State, University of Southern Mississippi"
+1997,23,PHI,7,Mark Davis,SF,6-7,210,1973-04-26,US,1,"Howard College, Texas Tech"
+1997,23,PHI,30,Lucious Harris,SG,6-5,190,1970-12-18,US,3,Cal State Long Beach
+1997,23,PHI,14,Mark Hendrickson,PF,6-9,220,1974-06-23,US,R,Washington State
+1997,23,PHI,3,Allen Iverson,PG,6-0,165,1975-06-07,US,R,Georgetown
+1997,23,PHI,20,Frankie King,SG,6-1,185,1972-06-06,US,1,Western Carolina University
+1997,23,PHI,25,Don MacLean,SF,6-10,235,1970-01-16,US,4,UCLA
+1997,23,PHI,9,Doug Overton,PG,6-3,190,1969-08-03,US,4,La Salle
+1997,23,PHI,42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,1,UNC
+1997,23,PHI,23,Rex Walters,SG,6-4,190,1970-03-12,US,3,"Northwestern, Kansas"
+1997,23,PHI,35,Clarence Weatherspoon,SF,6-6,240,1970-09-08,US,4,University of Southern Mississippi
+1997,23,PHI,55,Scott Williams,C,6-10,230,1968-03-21,US,6,UNC

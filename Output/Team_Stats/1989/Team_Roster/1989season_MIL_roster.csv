@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-45,Randy Breuer,C,7-3,230,1960-10-11,US,5,Minnesota
-35,Tony Brown,SF,6-6,185,1960-07-29,US,3,Arkansas
-34,Terry Cummings,SF,6-9,220,1961-03-15,US,6,DePaul
-23,Mark Davis,SF,6-6,195,1963-06-08,US,R,Old Dominion
-10,Mike Dunleavy,PG,6-3,180,1954-03-21,US,9,South Carolina
-20,Jeff Grayer,SG,6-5,200,1965-12-17,US,R,Iowa State
-11,Rickey Green,PG,6-0,170,1954-08-18,US,10,Michigan
-50,Tito Horford,C,7-1,245,1966-01-19,DO,R,Miami (FL)
-24,Jay Humphries,PG,6-3,185,1962-10-17,US,4,Colorado
-42,Larry Krystkowiak,PF,6-9,220,1964-09-23,US,2,Montana
-44,Paul Mokeski,C,7-0,250,1957-01-03,US,9,Kansas
-4,Sidney Moncrief,PG,6-3,180,1957-09-21,US,9,Arkansas
-22,Ricky Pierce,SG,6-4,205,1959-08-19,US,6,Rice University
-25,Paul Pressey,SG,6-5,185,1958-12-24,US,6,Tulsa
-31,Fred Roberts,PF,6-10,218,1960-08-14,US,5,BYU
-43,Jack Sikma,C,6-11,230,1955-11-14,US,11,Illinois Wesleyan University
-11,Andre Turner,PG,5-11,160,1964-12-13,US,2,Memphis
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1989,17,MIL,45,Randy Breuer,C,7-3,230,1960-10-11,US,5,Minnesota
+1989,17,MIL,35,Tony Brown,SF,6-6,185,1960-07-29,US,3,Arkansas
+1989,17,MIL,34,Terry Cummings,SF,6-9,220,1961-03-15,US,6,DePaul
+1989,17,MIL,23,Mark Davis,SF,6-6,195,1963-06-08,US,R,Old Dominion
+1989,17,MIL,10,Mike Dunleavy,PG,6-3,180,1954-03-21,US,9,South Carolina
+1989,17,MIL,20,Jeff Grayer,SG,6-5,200,1965-12-17,US,R,Iowa State
+1989,17,MIL,11,Rickey Green,PG,6-0,170,1954-08-18,US,10,Michigan
+1989,17,MIL,50,Tito Horford,C,7-1,245,1966-01-19,DO,R,Miami (FL)
+1989,17,MIL,24,Jay Humphries,PG,6-3,185,1962-10-17,US,4,Colorado
+1989,17,MIL,42,Larry Krystkowiak,PF,6-9,220,1964-09-23,US,2,Montana
+1989,17,MIL,44,Paul Mokeski,C,7-0,250,1957-01-03,US,9,Kansas
+1989,17,MIL,4,Sidney Moncrief,PG,6-3,180,1957-09-21,US,9,Arkansas
+1989,17,MIL,22,Ricky Pierce,SG,6-4,205,1959-08-19,US,6,Rice University
+1989,17,MIL,25,Paul Pressey,SG,6-5,185,1958-12-24,US,6,Tulsa
+1989,17,MIL,31,Fred Roberts,PF,6-10,218,1960-08-14,US,5,BYU
+1989,17,MIL,43,Jack Sikma,C,6-11,230,1955-11-14,US,11,Illinois Wesleyan University
+1989,17,MIL,11,Andre Turner,PG,5-11,160,1964-12-13,US,2,Memphis

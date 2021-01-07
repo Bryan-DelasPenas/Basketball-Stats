@@ -1,14 +1,14 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-24,Mark Aguirre,SF,6-6,232,1959-12-10,US,R,DePaul
-22,Rolando Blackman,SG,6-6,190,1959-02-26,PA,R,Kansas State
-23,Allan Bristow,SF,6-7,210,1951-08-23,US,8,Virginia Tech
-43,Wayne Cooper,C,6-10,220,1956-11-16,US,3,New Orleans
-15,Brad Davis,PG,6-3,180,1955-12-17,US,4,Maryland
-53,Clarence Kea,PF,6-6,218,1959-02-02,US,1,Lamar
-25,Tom LaGarde,C,6-10,220,1955-02-10,US,4,UNC
-44,Scott Lloyd,PF,6-10,230,1952-12-19,US,4,Arizona State
-17,Ollie Mack,SG,6-3,185,1957-06-06,US,2,East Carolina University
-40,Kurt Nimphius,C,6-10,218,1958-03-13,US,R,Arizona State
-34,Jim Spanarkel,SG,6-5,190,1957-06-28,US,2,Duke
-33,Elston Turner,SF,6-5,190,1959-06-10,US,R,Ole Miss
-31,Jay Vincent,PF,6-7,220,1959-06-10,US,R,Michigan State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1982,7,DAL,24,Mark Aguirre,SF,6-6,232,1959-12-10,US,R,DePaul
+1982,7,DAL,22,Rolando Blackman,SG,6-6,190,1959-02-26,PA,R,Kansas State
+1982,7,DAL,23,Allan Bristow,SF,6-7,210,1951-08-23,US,8,Virginia Tech
+1982,7,DAL,43,Wayne Cooper,C,6-10,220,1956-11-16,US,3,New Orleans
+1982,7,DAL,15,Brad Davis,PG,6-3,180,1955-12-17,US,4,Maryland
+1982,7,DAL,53,Clarence Kea,PF,6-6,218,1959-02-02,US,1,Lamar
+1982,7,DAL,25,Tom LaGarde,C,6-10,220,1955-02-10,US,4,UNC
+1982,7,DAL,44,Scott Lloyd,PF,6-10,230,1952-12-19,US,4,Arizona State
+1982,7,DAL,17,Ollie Mack,SG,6-3,185,1957-06-06,US,2,East Carolina University
+1982,7,DAL,40,Kurt Nimphius,C,6-10,218,1958-03-13,US,R,Arizona State
+1982,7,DAL,34,Jim Spanarkel,SG,6-5,190,1957-06-28,US,2,Duke
+1982,7,DAL,33,Elston Turner,SF,6-5,190,1959-06-10,US,R,Ole Miss
+1982,7,DAL,31,Jay Vincent,PF,6-7,220,1959-06-10,US,R,Michigan State

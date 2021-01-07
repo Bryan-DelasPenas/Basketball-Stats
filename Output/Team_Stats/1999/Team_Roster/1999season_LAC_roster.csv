@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-33,Keith Closs,C,7-3,212,1976-04-03,US,1,Central Connecticut State University
-20,Sherman Douglas,PG,6-0,180,1966-09-15,US,9,Syracuse
-6,Troy Hudson,PG,6-1,170,1976-03-13,US,1,"Missouri, Southern Illinois"
-15,Darrick Martin,PG,5-11,170,1971-03-06,US,4,UCLA
-7,Lamond Murray,SF,6-7,236,1973-04-20,US,4,California
-8,Tyrone Nesby,SF,6-6,225,1976-01-31,US,R,UNLV
-34,Michael Olowokandi,C,7-0,269,1975-04-03,NG,R,University of the Pacific
-52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,4,Nebraska
-24,Pooh Richardson,PG,6-1,180,1966-05-14,US,9,UCLA
-26,James Robinson,PG,6-2,180,1970-08-31,US,5,Alabama
-54,Rodney Rogers,SF,6-7,235,1971-06-20,US,5,Wake Forest
-32,Brian Skinner,PF,6-9,255,1976-05-19,US,R,Baylor
-5,Charles Smith,SG,6-4,194,1975-08-22,US,1,New Mexico
-23,Maurice Taylor,PF,6-9,260,1976-10-30,US,1,Michigan
-11,Stojko Vranković,C,7-2,260,1964-01-22,HR,4,
-55,Lorenzen Wright,C,6-11,225,1975-11-04,US,2,Memphis
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1999,13,LAC,33,Keith Closs,C,7-3,212,1976-04-03,US,1,Central Connecticut State University
+1999,13,LAC,20,Sherman Douglas,PG,6-0,180,1966-09-15,US,9,Syracuse
+1999,13,LAC,6,Troy Hudson,PG,6-1,170,1976-03-13,US,1,"Missouri, Southern Illinois"
+1999,13,LAC,15,Darrick Martin,PG,5-11,170,1971-03-06,US,4,UCLA
+1999,13,LAC,7,Lamond Murray,SF,6-7,236,1973-04-20,US,4,California
+1999,13,LAC,8,Tyrone Nesby,SF,6-6,225,1976-01-31,US,R,UNLV
+1999,13,LAC,34,Michael Olowokandi,C,7-0,269,1975-04-03,NG,R,University of the Pacific
+1999,13,LAC,52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,4,Nebraska
+1999,13,LAC,24,Pooh Richardson,PG,6-1,180,1966-05-14,US,9,UCLA
+1999,13,LAC,26,James Robinson,PG,6-2,180,1970-08-31,US,5,Alabama
+1999,13,LAC,54,Rodney Rogers,SF,6-7,235,1971-06-20,US,5,Wake Forest
+1999,13,LAC,32,Brian Skinner,PF,6-9,255,1976-05-19,US,R,Baylor
+1999,13,LAC,5,Charles Smith,SG,6-4,194,1975-08-22,US,1,New Mexico
+1999,13,LAC,23,Maurice Taylor,PF,6-9,260,1976-10-30,US,1,Michigan
+1999,13,LAC,11,Stojko Vrankovic,C,7-2,260,1964-01-22,HR,4,
+1999,13,LAC,55,Lorenzen Wright,C,6-11,225,1975-11-04,US,2,Memphis

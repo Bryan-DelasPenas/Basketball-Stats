@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-5,Alaa Abdelnaby,PF,6-10,240,1968-06-24,EG,2,Duke
-0,Anthony Avent,PF,6-9,235,1969-10-18,US,R,Seton Hall
-17,Jon Barry,SG,6-4,195,1969-07-25,US,R,"University of the Pacific, Georgia Tech"
-40,Frank Brickowski,C,6-9,240,1959-08-14,US,8,Penn State
-10,Todd Day,SG,6-6,188,1970-01-07,US,R,Arkansas
-30,Blue Edwards,SF,6-4,200,1965-10-31,US,3,East Carolina University
-54,Brad Lohaus,PF,6-11,230,1964-09-29,US,5,Iowa
-8,Moses Malone,C,6-10,215,1955-03-23,US,18,
-11,Lee Mayberry,PG,6-1,172,1970-06-12,US,R,Arkansas
-3,Eric Murdock,PG,6-1,190,1968-06-14,US,1,Providence
-53,Dan O'Sullivan,C,6-10,250,1968-03-03,US,1,Fordham
-53,Alan Ogg,C,7-2,240,1967-07-05,US,2,UAB
-23,Anthony Pullard,PF,6-10,245,1966-06-23,US,R,McNeese State University
-34,Fred Roberts,C,6-10,218,1960-08-14,US,9,BYU
-21,Alvin Robertson,SG,6-3,185,1962-07-22,US,8,Arkansas
-24,Danny Schayes,C,6-11,235,1959-05-10,US,11,Syracuse
-43,Alex Stivrins,SF,6-8,220,1962-11-29,US,1,"Creighton, Colorado"
-20,Derek Strong,PF,6-8,220,1968-02-09,US,1,Xavier
-6,Orlando Woolridge,SF,6-9,215,1959-12-16,US,11,Notre Dame
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1993,17,MIL,5,Alaa Abdelnaby,PF,6-10,240,1968-06-24,EG,2,Duke
+1993,17,MIL,0,Anthony Avent,PF,6-9,235,1969-10-18,US,R,Seton Hall
+1993,17,MIL,17,Jon Barry,SG,6-4,195,1969-07-25,US,R,"University of the Pacific, Georgia Tech"
+1993,17,MIL,40,Frank Brickowski,C,6-9,240,1959-08-14,US,8,Penn State
+1993,17,MIL,10,Todd Day,SG,6-6,188,1970-01-07,US,R,Arkansas
+1993,17,MIL,30,Blue Edwards,SF,6-4,200,1965-10-31,US,3,East Carolina University
+1993,17,MIL,54,Brad Lohaus,PF,6-11,230,1964-09-29,US,5,Iowa
+1993,17,MIL,8,Moses Malone,C,6-10,215,1955-03-23,US,18,
+1993,17,MIL,11,Lee Mayberry,PG,6-1,172,1970-06-12,US,R,Arkansas
+1993,17,MIL,3,Eric Murdock,PG,6-1,190,1968-06-14,US,1,Providence
+1993,17,MIL,53,Dan O'Sullivan,C,6-10,250,1968-03-03,US,1,Fordham
+1993,17,MIL,53,Alan Ogg,C,7-2,240,1967-07-05,US,2,UAB
+1993,17,MIL,23,Anthony Pullard,PF,6-10,245,1966-06-23,US,R,McNeese State University
+1993,17,MIL,34,Fred Roberts,C,6-10,218,1960-08-14,US,9,BYU
+1993,17,MIL,21,Alvin Robertson,SG,6-3,185,1962-07-22,US,8,Arkansas
+1993,17,MIL,24,Danny Schayes,C,6-11,235,1959-05-10,US,11,Syracuse
+1993,17,MIL,43,Alex Stivrins,SF,6-8,220,1962-11-29,US,1,"Creighton, Colorado"
+1993,17,MIL,20,Derek Strong,PF,6-8,220,1968-02-09,US,1,Xavier
+1993,17,MIL,6,Orlando Woolridge,SF,6-9,215,1959-12-16,US,11,Notre Dame

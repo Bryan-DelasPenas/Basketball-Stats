@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-4,Travis Best,PG,5-11,182,1972-07-12,US,R,Georgia Tech
-50,Adrian Caldwell,PF,6-8,265,1966-07-04,US,3,"SMU, Lamar"
-33,Antonio Davis,PF,6-9,215,1968-10-31,US,2,Texas-El Paso
-32,Dale Davis,PF,6-11,230,1969-03-25,US,4,Clemson
-27,Duane Ferrell,SF,6-7,209,1965-02-28,US,7,Georgia Tech
-20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,R,Iowa State
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,8,St. John's
-8,Eddie Johnson,SF,6-7,215,1959-05-01,US,13,Illinois
-9,Derrick McKey,SF,6-9,205,1966-10-10,US,8,Alabama
-31,Reggie Miller,SG,6-7,185,1965-08-24,US,8,UCLA
-22,Ricky Pierce,SG,6-4,205,1959-08-19,US,13,Rice University
-55,Dwayne Schintzius,C,7-1,260,1968-10-14,US,5,Florida
-45,Rik Smits,C,7-4,250,1966-08-23,NL,7,Marist College
-3,Haywoode Workman,PG,6-2,180,1966-01-23,US,4,"Winston-Salem State, Oral Roberts"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1996,12,IND,4,Travis Best,PG,5-11,182,1972-07-12,US,R,Georgia Tech
+1996,12,IND,50,Adrian Caldwell,PF,6-8,265,1966-07-04,US,3,"SMU, Lamar"
+1996,12,IND,33,Antonio Davis,PF,6-9,215,1968-10-31,US,2,Texas-El Paso
+1996,12,IND,32,Dale Davis,PF,6-11,230,1969-03-25,US,4,Clemson
+1996,12,IND,27,Duane Ferrell,SF,6-7,209,1965-02-28,US,7,Georgia Tech
+1996,12,IND,20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,R,Iowa State
+1996,12,IND,13,Mark Jackson,PG,6-1,180,1965-04-01,US,8,St. John's
+1996,12,IND,8,Eddie Johnson,SF,6-7,215,1959-05-01,US,13,Illinois
+1996,12,IND,9,Derrick McKey,SF,6-9,205,1966-10-10,US,8,Alabama
+1996,12,IND,31,Reggie Miller,SG,6-7,185,1965-08-24,US,8,UCLA
+1996,12,IND,22,Ricky Pierce,SG,6-4,205,1959-08-19,US,13,Rice University
+1996,12,IND,55,Dwayne Schintzius,C,7-1,260,1968-10-14,US,5,Florida
+1996,12,IND,45,Rik Smits,C,7-4,250,1966-08-23,NL,7,Marist College
+1996,12,IND,3,Haywoode Workman,PG,6-2,180,1966-01-23,US,4,"Winston-Salem State, Oral Roberts"

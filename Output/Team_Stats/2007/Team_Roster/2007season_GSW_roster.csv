@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-7,Kelenna Azubuike,SG,6-5,220,1983-12-16,GB,R,Kentucky
-22,Matt Barnes,PF,6-7,226,1980-03-09,US,3,UCLA
-15,Andris Biedriņš,C,6-11,240,1986-04-02,LV,2,
-5,Baron Davis,PG,6-3,209,1979-04-13,US,7,UCLA
-9,Ike Diogu,PF,6-8,250,1983-09-11,US,1,Arizona State
-34,Mike Dunleavy,PF,6-9,230,1980-09-15,US,4,Duke
-8,Monta Ellis,SG,6-3,185,1985-10-26,US,1,
-31,Adonal Foyle,C,6-10,250,1975-03-09,VC,9,Colgate
-3,Al Harrington,PF,6-9,230,1980-02-17,US,8,
-1,Stephen Jackson,SF,6-8,218,1978-04-05,US,6,Butler County Community College
-33,Šarūnas Jasikevičius,PG,6-4,195,1976-03-05,LT,1,Maryland
-12,Renaldo Major,PF,6-7,200,1982-05-07,US,R,"South Plains College, Fresno State"
-4,Keith McLeod,PG,6-2,188,1979-11-05,US,3,Bowling Green
-1,Troy Murphy,PF,6-11,245,1980-05-02,US,5,Notre Dame
-26,Patrick O'Bryant,C,7-0,260,1986-06-20,US,R,Bradley
-2,Mickaël Piétrus,SF,6-6,215,1982-02-07,GP,3,
-21,Josh Powell,PF,6-9,225,1983-01-25,US,1,NC State
-23,Jason Richardson,SG,6-6,220,1981-01-20,US,5,Michigan State
-3,Anthony Roberson,PG,6-2,180,1983-02-14,US,1,Florida
-0,Dajuan Wagner,SG,6-2,200,1983-02-04,US,3,Memphis
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2007,10,GSW,7,Kelenna Azubuike,SG,6-5,220,1983-12-16,GB,R,Kentucky
+2007,10,GSW,22,Matt Barnes,PF,6-7,226,1980-03-09,US,3,UCLA
+2007,10,GSW,15,Andris Biedrins,C,6-11,240,1986-04-02,LV,2,
+2007,10,GSW,5,Baron Davis,PG,6-3,209,1979-04-13,US,7,UCLA
+2007,10,GSW,9,Ike Diogu,PF,6-8,250,1983-09-11,US,1,Arizona State
+2007,10,GSW,34,Mike Dunleavy,PF,6-9,230,1980-09-15,US,4,Duke
+2007,10,GSW,8,Monta Ellis,SG,6-3,185,1985-10-26,US,1,
+2007,10,GSW,31,Adonal Foyle,C,6-10,250,1975-03-09,VC,9,Colgate
+2007,10,GSW,3,Al Harrington,PF,6-9,230,1980-02-17,US,8,
+2007,10,GSW,1,Stephen Jackson,SF,6-8,218,1978-04-05,US,6,Butler County Community College
+2007,10,GSW,33,Sarunas Jasikevicius,PG,6-4,195,1976-03-05,LT,1,Maryland
+2007,10,GSW,12,Renaldo Major,PF,6-7,200,1982-05-07,US,R,"South Plains College, Fresno State"
+2007,10,GSW,4,Keith McLeod,PG,6-2,188,1979-11-05,US,3,Bowling Green
+2007,10,GSW,1,Troy Murphy,PF,6-11,245,1980-05-02,US,5,Notre Dame
+2007,10,GSW,26,Patrick O'Bryant,C,7-0,260,1986-06-20,US,R,Bradley
+2007,10,GSW,2,Mickael Pietrus,SF,6-6,215,1982-02-07,GP,3,
+2007,10,GSW,21,Josh Powell,PF,6-9,225,1983-01-25,US,1,NC State
+2007,10,GSW,23,Jason Richardson,SG,6-6,220,1981-01-20,US,5,Michigan State
+2007,10,GSW,3,Anthony Roberson,PG,6-2,180,1983-02-14,US,1,Florida
+2007,10,GSW,0,Dajuan Wagner,SG,6-2,200,1983-02-04,US,3,Memphis

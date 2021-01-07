@@ -1,23 +1,23 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Rawle Alkins,SG,6-5,225,1997-10-29,US,R,Arizona
-51,Ryan Arcidiacono,PG,6-3,195,1994-03-26,US,1,Villanova
-9,Antonio Blakeney,SG,6-4,192,1996-10-04,US,1,LSU
-34,Wendell Carter,C,6-9,270,1999-04-16,US,R,Duke
-32,Kris Dunn,PG,6-3,205,1994-03-18,US,2,Providence
-6,Cristiano Felício,C,6-10,270,1992-07-07,BR,3,
-3,Shaquille Harrison,SG,6-7,190,1993-10-06,US,1,Tulsa
-7,Justin Holiday,SG,6-6,180,1989-04-05,US,5,Washington
-15,Chandler Hutchison,SF,6-7,210,1996-04-26,US,R,Boise State
-8,Zach LaVine,SG,6-6,200,1995-03-10,US,4,UCLA
-25,Walt Lemon,PG,6-3,180,1992-07-26,US,1,Bradley
-42,Robin Lopez,C,7-0,281,1988-04-01,US,10,Stanford
-7,Timothé Luwawu-Cabarrot,SF,6-7,220,1995-05-09,FR,2,
-24,Lauri Markkanen,PF,7-0,240,1997-05-22,FI,1,Arizona
-2,Jabari Parker,PF,6-8,245,1995-03-15,US,4,Duke
-22,Cameron Payne,PG,6-3,190,1994-08-08,US,3,Murray State
-22,Otto Porter,SF,6-8,198,1993-06-03,US,5,Georgetown
-5,Bobby Portis,PF,6-10,250,1995-02-10,US,3,Arkansas
-44,Brandon Sampson,SG,6-5,184,1997-05-01,US,R,LSU
-41,JaKarr Sampson,SF,6-7,214,1993-03-20,US,3,St. John's
-14,Wayne Selden,SG,6-5,230,1994-09-30,US,2,Kansas
-0,Tyler Ulis,PG,5-10,160,1996-01-05,US,2,Kentucky
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2019,5,CHI,20,Rawle Alkins,SG,6-5,225,1997-10-29,US,R,Arizona
+2019,5,CHI,51,Ryan Arcidiacono,PG,6-3,195,1994-03-26,US,1,Villanova
+2019,5,CHI,9,Antonio Blakeney,SG,6-4,192,1996-10-04,US,1,LSU
+2019,5,CHI,34,Wendell Carter,C,6-9,270,1999-04-16,US,R,Duke
+2019,5,CHI,32,Kris Dunn,PG,6-3,205,1994-03-18,US,2,Providence
+2019,5,CHI,6,Cristiano Felicio,C,6-10,270,1992-07-07,BR,3,
+2019,5,CHI,3,Shaquille Harrison,SG,6-7,190,1993-10-06,US,1,Tulsa
+2019,5,CHI,7,Justin Holiday,SG,6-6,180,1989-04-05,US,5,Washington
+2019,5,CHI,15,Chandler Hutchison,SF,6-7,210,1996-04-26,US,R,Boise State
+2019,5,CHI,8,Zach LaVine,SG,6-6,200,1995-03-10,US,4,UCLA
+2019,5,CHI,25,Walt Lemon,PG,6-3,180,1992-07-26,US,1,Bradley
+2019,5,CHI,42,Robin Lopez,C,7-0,281,1988-04-01,US,10,Stanford
+2019,5,CHI,7,Timothe Luwawu-Cabarrot,SF,6-7,220,1995-05-09,FR,2,
+2019,5,CHI,24,Lauri Markkanen,PF,7-0,240,1997-05-22,FI,1,Arizona
+2019,5,CHI,2,Jabari Parker,PF,6-8,245,1995-03-15,US,4,Duke
+2019,5,CHI,22,Cameron Payne,PG,6-3,190,1994-08-08,US,3,Murray State
+2019,5,CHI,22,Otto Porter,SF,6-8,198,1993-06-03,US,5,Georgetown
+2019,5,CHI,5,Bobby Portis,PF,6-10,250,1995-02-10,US,3,Arkansas
+2019,5,CHI,44,Brandon Sampson,SG,6-5,184,1997-05-01,US,R,LSU
+2019,5,CHI,41,JaKarr Sampson,SF,6-7,214,1993-03-20,US,3,St. John's
+2019,5,CHI,14,Wayne Selden,SG,6-5,230,1994-09-30,US,2,Kansas
+2019,5,CHI,0,Tyler Ulis,PG,5-10,160,1996-01-05,US,2,Kentucky

@@ -1,23 +1,23 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Dragan Bender,PF,7-0,225,1997-11-17,BA,3,
-12,Ky Bowman,PG,6-1,187,1997-06-16,US,R,Boston College
-8-20,Alec Burks,SF,6-6,214,1991-07-20,US,8,Colorado
-2,Willie Cauley-Stein,C,7-0,240,1993-08-18,US,4,Kentucky
-32,Marquese Chriss,PF,6-9,240,1997-07-02,US,3,Washington
-30,Stephen Curry,PG,6-3,185,1988-03-14,US,10,Davidson
-10,Jacob Evans,SG,6-4,210,1997-06-18,US,1,Cincinnati
-23,Draymond Green,PF,6-6,230,1990-03-04,US,7,Michigan State
-1,Damion Lee,SG,6-5,210,1992-10-21,US,2,"Drexel, Louisville"
-5,Kevon Looney,C,6-9,222,1996-02-06,US,4,UCLA
-15,Mychal Mulder,SF,6-4,184,1994-06-12,CA,R,"Vincennes, Kentucky"
-21,Zach Norvell,SG,6-5,206,1997-12-09,US,R,Gonzaga
-20,Jeremy Pargo,PG,6-2,219,1986-03-17,US,2,Gonzaga
-7,Eric Paschall,PF,6-6,255,1996-11-04,US,R,"Fordham, Villanova"
-3,Jordan Poole,SG,6-4,194,1999-06-19,US,R,Michigan
-25,Chasson Randle,PG,6-2,185,1993-02-05,US,2,Stanford
-22,Glenn Robinson,SF,6-6,222,1994-01-08,US,5,Michigan
-0,D'Angelo Russell,PG,6-4,193,1996-02-23,US,4,Ohio State
-6,Alen Smailagić,C,6-10,215,2000-08-18,RS,R,
-4,Omari Spellman,C,6-8,245,1997-07-21,US,1,Villanova
-95,Juan Toscano-Anderson,SG,6-6,209,1993-04-10,US,R,Marquette
-22,Andrew Wiggins,SF,6-7,197,1995-02-23,CA,5,Kansas
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2020,10,GSW,10,Dragan Bender,PF,7-0,225,1997-11-17,BA,3,
+2020,10,GSW,12,Ky Bowman,PG,6-1,187,1997-06-16,US,R,Boston College
+2020,10,GSW,8-20,Alec Burks,SF,6-6,214,1991-07-20,US,8,Colorado
+2020,10,GSW,2,Willie Cauley-Stein,C,7-0,240,1993-08-18,US,4,Kentucky
+2020,10,GSW,32,Marquese Chriss,PF,6-9,240,1997-07-02,US,3,Washington
+2020,10,GSW,30,Stephen Curry,PG,6-3,185,1988-03-14,US,10,Davidson
+2020,10,GSW,10,Jacob Evans,SG,6-4,210,1997-06-18,US,1,Cincinnati
+2020,10,GSW,23,Draymond Green,PF,6-6,230,1990-03-04,US,7,Michigan State
+2020,10,GSW,1,Damion Lee,SG,6-5,210,1992-10-21,US,2,"Drexel, Louisville"
+2020,10,GSW,5,Kevon Looney,C,6-9,222,1996-02-06,US,4,UCLA
+2020,10,GSW,15,Mychal Mulder,SF,6-4,184,1994-06-12,CA,R,"Vincennes, Kentucky"
+2020,10,GSW,21,Zach Norvell,SG,6-5,206,1997-12-09,US,R,Gonzaga
+2020,10,GSW,20,Jeremy Pargo,PG,6-2,219,1986-03-17,US,2,Gonzaga
+2020,10,GSW,7,Eric Paschall,PF,6-6,255,1996-11-04,US,R,"Fordham, Villanova"
+2020,10,GSW,3,Jordan Poole,SG,6-4,194,1999-06-19,US,R,Michigan
+2020,10,GSW,25,Chasson Randle,PG,6-2,185,1993-02-05,US,2,Stanford
+2020,10,GSW,22,Glenn Robinson,SF,6-6,222,1994-01-08,US,5,Michigan
+2020,10,GSW,0,D'Angelo Russell,PG,6-4,193,1996-02-23,US,4,Ohio State
+2020,10,GSW,6,Alen Smailagic,C,6-10,215,2000-08-18,RS,R,
+2020,10,GSW,4,Omari Spellman,C,6-8,245,1997-07-21,US,1,Villanova
+2020,10,GSW,95,Juan Toscano-Anderson,SG,6-6,209,1993-04-10,US,R,Marquette
+2020,10,GSW,22,Andrew Wiggins,SF,6-7,197,1995-02-23,CA,5,Kansas

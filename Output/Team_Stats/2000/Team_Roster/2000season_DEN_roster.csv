@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-9,Tariq Abdul-Wahad,SG,6-6,223,1974-11-03,FR,2,"Michigan, San Jose State"
-7,Cory Alexander,PG,6-1,185,1973-06-22,US,4,Virginia
-4,Chauncey Billups,SG,6-3,202,1976-09-25,US,2,Colorado
-42,Ryan Bowen,SF,6-7,215,1975-11-20,US,R,Iowa
-13-15,Keon Clark,C,6-11,220,1975-04-16,US,1,UNLV
-32,Chris Gatling,PF,6-10,220,1967-09-03,US,8,Old Dominion
-8,Chris Herren,PG,6-2,197,1975-09-27,US,R,"Boston College, Fresno State"
-54,Popeye Jones,PF,6-8,250,1970-06-17,US,6,Murray State
-45,Raef LaFrentz,C,6-11,240,1976-05-29,US,1,Kansas
-21,George McCloud,SF,6-6,205,1967-05-27,US,9,Florida State
-24,Antonio McDyess,PF,6-9,220,1974-09-07,US,4,Alabama
-5,Ron Mercer,SG,6-7,210,1976-05-18,US,2,Kentucky
-41,James Posey,SF,6-8,215,1977-01-13,US,R,Xavier
-25,Roy Rogers,PF,6-10,235,1973-08-19,US,2,Alabama
-23,Bryant Stith,SG,6-5,208,1970-12-10,US,7,Virginia
-17,Johnny Taylor,SF,6-9,220,1974-06-04,US,2,"Indian Hills Community College, Chattanooga"
-31,Nick Van Exel,PG,6-1,170,1971-11-27,US,6,"Trinity Valley CC, Cincinnati"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2000,8,DEN,9,Tariq Abdul-Wahad,SG,6-6,223,1974-11-03,FR,2,"Michigan, San Jose State"
+2000,8,DEN,7,Cory Alexander,PG,6-1,185,1973-06-22,US,4,Virginia
+2000,8,DEN,4,Chauncey Billups,SG,6-3,202,1976-09-25,US,2,Colorado
+2000,8,DEN,42,Ryan Bowen,SF,6-7,215,1975-11-20,US,R,Iowa
+2000,8,DEN,13-15,Keon Clark,C,6-11,220,1975-04-16,US,1,UNLV
+2000,8,DEN,32,Chris Gatling,PF,6-10,220,1967-09-03,US,8,Old Dominion
+2000,8,DEN,8,Chris Herren,PG,6-2,197,1975-09-27,US,R,"Boston College, Fresno State"
+2000,8,DEN,54,Popeye Jones,PF,6-8,250,1970-06-17,US,6,Murray State
+2000,8,DEN,45,Raef LaFrentz,C,6-11,240,1976-05-29,US,1,Kansas
+2000,8,DEN,21,George McCloud,SF,6-6,205,1967-05-27,US,9,Florida State
+2000,8,DEN,24,Antonio McDyess,PF,6-9,220,1974-09-07,US,4,Alabama
+2000,8,DEN,5,Ron Mercer,SG,6-7,210,1976-05-18,US,2,Kentucky
+2000,8,DEN,41,James Posey,SF,6-8,215,1977-01-13,US,R,Xavier
+2000,8,DEN,25,Roy Rogers,PF,6-10,235,1973-08-19,US,2,Alabama
+2000,8,DEN,23,Bryant Stith,SG,6-5,208,1970-12-10,US,7,Virginia
+2000,8,DEN,17,Johnny Taylor,SF,6-9,220,1974-06-04,US,2,"Indian Hills Community College, Chattanooga"
+2000,8,DEN,31,Nick Van Exel,PG,6-1,170,1971-11-27,US,6,"Trinity Valley CC, Cincinnati"

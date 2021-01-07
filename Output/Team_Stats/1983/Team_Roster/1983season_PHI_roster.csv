@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-7,J.J. Anderson,SF,6-8,195,1960-09-23,US,R,Bradley
-10,Maurice Cheeks,PG,6-1,180,1956-09-08,US,4,West Texas A&M University
-25,Earl Cureton,C,6-9,210,1957-09-03,US,2,"Robert Morris University (PA), Detroit Mercy"
-14,Franklin Edwards,PG,6-1,170,1959-02-02,US,1,Cleveland State University
-6,Julius Erving,SF,6-7,210,1950-02-22,US,11,UMass
-8,Marc Iavaroni,PF,6-8,210,1956-09-15,US,R,Virginia
-45,Clemon Johnson,C,6-10,240,1956-09-12,US,4,Florida A&M
-33,Reggie Johnson,SF,6-9,205,1957-06-25,US,2,Tennessee
-24,Bobby Jones,PF,6-9,210,1951-12-18,US,8,UNC
-2,Moses Malone,C,6-10,215,1955-03-23,US,8,
-31,Mark McNamara,C,6-11,235,1959-06-08,US,R,"Santa Clara, California"
-4,Clint Richardson,SG,6-3,195,1956-08-07,US,3,Seattle University
-3,Russ Schoene,PF,6-10,210,1960-04-16,US,R,Chattanooga
-22,Andrew Toney,SG,6-3,178,1957-11-23,US,2,Louisiana
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1983,23,PHI,7,J.J. Anderson,SF,6-8,195,1960-09-23,US,R,Bradley
+1983,23,PHI,10,Maurice Cheeks,PG,6-1,180,1956-09-08,US,4,West Texas A&M University
+1983,23,PHI,25,Earl Cureton,C,6-9,210,1957-09-03,US,2,"Robert Morris University (PA), Detroit Mercy"
+1983,23,PHI,14,Franklin Edwards,PG,6-1,170,1959-02-02,US,1,Cleveland State University
+1983,23,PHI,6,Julius Erving,SF,6-7,210,1950-02-22,US,11,UMass
+1983,23,PHI,8,Marc Iavaroni,PF,6-8,210,1956-09-15,US,R,Virginia
+1983,23,PHI,45,Clemon Johnson,C,6-10,240,1956-09-12,US,4,Florida A&M
+1983,23,PHI,33,Reggie Johnson,SF,6-9,205,1957-06-25,US,2,Tennessee
+1983,23,PHI,24,Bobby Jones,PF,6-9,210,1951-12-18,US,8,UNC
+1983,23,PHI,2,Moses Malone,C,6-10,215,1955-03-23,US,8,
+1983,23,PHI,31,Mark McNamara,C,6-11,235,1959-06-08,US,R,"Santa Clara, California"
+1983,23,PHI,4,Clint Richardson,SG,6-3,195,1956-08-07,US,3,Seattle University
+1983,23,PHI,3,Russ Schoene,PF,6-10,210,1960-04-16,US,R,Chattanooga
+1983,23,PHI,22,Andrew Toney,SG,6-3,178,1957-11-23,US,2,Louisiana

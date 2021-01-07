@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-6,Arron Afflalo,SG,6-5,210,1985-10-15,US,4,UCLA
-11,Chris Andersen,C,6-10,245,1978-07-07,US,9,Blinn College
-13,Corey Brewer,SF,6-9,186,1986-03-05,US,4,Florida
-0,DeMarre Carroll,PF,6-6,215,1986-07-27,US,2,"Vanderbilt, Missouri"
-21,Wilson Chandler,SF,6-8,235,1987-05-10,US,4,DePaul
-35,Kenneth Faried,PF,6-8,220,1989-11-19,US,R,Morehead State University
-5,Rudy Fernández,SG,6-6,185,1985-04-04,ES,3,
-8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,3,
-1,Jordan Hamilton,SF,6-7,220,1990-10-06,US,R,Texas
-7,Al Harrington,PF,6-9,230,1980-02-17,US,13,
-31,Nenê Hilário,C,6-11,250,1982-09-13,BR,9,
-41,Kosta Koufos,C,7-0,245,1989-02-24,US,3,Ohio State
-3,Ty Lawson,PG,5-11,195,1987-11-03,US,2,UNC
-34,JaVale McGee,C,7-0,270,1988-01-19,US,3,Nevada
-24,Andre Miller,SG,6-3,200,1976-03-19,US,12,Utah
-25,Timofey Mozgov,C,7-1,275,1986-07-16,RU,1,
-10,Julyan Stone,SG,6-6,200,1988-12-07,US,R,Texas-El Paso
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2012,8,DEN,6,Arron Afflalo,SG,6-5,210,1985-10-15,US,4,UCLA
+2012,8,DEN,11,Chris Andersen,C,6-10,245,1978-07-07,US,9,Blinn College
+2012,8,DEN,13,Corey Brewer,SF,6-9,186,1986-03-05,US,4,Florida
+2012,8,DEN,0,DeMarre Carroll,PF,6-6,215,1986-07-27,US,2,"Vanderbilt, Missouri"
+2012,8,DEN,21,Wilson Chandler,SF,6-8,235,1987-05-10,US,4,DePaul
+2012,8,DEN,35,Kenneth Faried,PF,6-8,220,1989-11-19,US,R,Morehead State University
+2012,8,DEN,5,Rudy Fernandez,SG,6-6,185,1985-04-04,ES,3,
+2012,8,DEN,8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,3,
+2012,8,DEN,1,Jordan Hamilton,SF,6-7,220,1990-10-06,US,R,Texas
+2012,8,DEN,7,Al Harrington,PF,6-9,230,1980-02-17,US,13,
+2012,8,DEN,31,Nene Hilario,C,6-11,250,1982-09-13,BR,9,
+2012,8,DEN,41,Kosta Koufos,C,7-0,245,1989-02-24,US,3,Ohio State
+2012,8,DEN,3,Ty Lawson,PG,5-11,195,1987-11-03,US,2,UNC
+2012,8,DEN,34,JaVale McGee,C,7-0,270,1988-01-19,US,3,Nevada
+2012,8,DEN,24,Andre Miller,SG,6-3,200,1976-03-19,US,12,Utah
+2012,8,DEN,25,Timofey Mozgov,C,7-1,275,1986-07-16,RU,1,
+2012,8,DEN,10,Julyan Stone,SG,6-6,200,1988-12-07,US,R,Texas-El Paso

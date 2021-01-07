@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Don Buse,PG,6-4,190,1950-08-10,US,10,University of Evansville
-34,Kenny Carr,PF,6-7,220,1955-08-15,US,5,NC State
-42,Wayne Cooper,C,6-10,220,1956-11-16,US,4,New Orleans
-22,Jeff Judkins,SF,6-6,185,1956-03-23,US,4,Utah
-3,Jeff Lamp,SF,6-6,195,1959-03-09,US,1,Virginia
-12,Fat Lever,PG,6-3,170,1960-08-18,US,R,Arizona State
-7,Hank McDowell,PF,6-9,215,1959-11-13,US,1,Memphis
-33,Calvin Natt,SF,6-6,220,1957-01-08,US,3,Louisiana-Monroe
-24,Audie Norris,C,6-9,230,1960-12-18,US,R,Jackson State University
-4,Jim Paxson,SG,6-6,200,1957-07-09,US,3,Dayton
-43,Mychal Thompson,C,6-10,226,1955-01-30,BS,3,Minnesota
-2,Linton Townes,SF,6-7,190,1959-11-30,US,R,James Madison University
-14,Darnell Valentine,PG,6-1,183,1959-02-03,US,1,Kansas
-31,Pete Verhoeven,PF,6-9,215,1959-02-15,US,1,Fresno State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1983,25,POR,10,Don Buse,PG,6-4,190,1950-08-10,US,10,University of Evansville
+1983,25,POR,34,Kenny Carr,PF,6-7,220,1955-08-15,US,5,NC State
+1983,25,POR,42,Wayne Cooper,C,6-10,220,1956-11-16,US,4,New Orleans
+1983,25,POR,22,Jeff Judkins,SF,6-6,185,1956-03-23,US,4,Utah
+1983,25,POR,3,Jeff Lamp,SF,6-6,195,1959-03-09,US,1,Virginia
+1983,25,POR,12,Fat Lever,PG,6-3,170,1960-08-18,US,R,Arizona State
+1983,25,POR,7,Hank McDowell,PF,6-9,215,1959-11-13,US,1,Memphis
+1983,25,POR,33,Calvin Natt,SF,6-6,220,1957-01-08,US,3,Louisiana-Monroe
+1983,25,POR,24,Audie Norris,C,6-9,230,1960-12-18,US,R,Jackson State University
+1983,25,POR,4,Jim Paxson,SG,6-6,200,1957-07-09,US,3,Dayton
+1983,25,POR,43,Mychal Thompson,C,6-10,226,1955-01-30,BS,3,Minnesota
+1983,25,POR,2,Linton Townes,SF,6-7,190,1959-11-30,US,R,James Madison University
+1983,25,POR,14,Darnell Valentine,PG,6-1,183,1959-02-03,US,1,Kansas
+1983,25,POR,31,Pete Verhoeven,PF,6-9,215,1959-02-15,US,1,Fresno State

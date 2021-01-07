@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-40,Dave Corzine,C,6-11,250,1956-04-25,US,6,DePaul
-44,Quintin Dailey,SG,6-3,180,1961-01-22,US,2,San Francisco
-34,Chris Engler,C,6-11,245,1959-03-01,US,2,"Minnesota, Wyoming"
-21,Sidney Green,PF,6-9,220,1961-01-04,US,1,UNLV
-10,Dave Greenwood,PF,6-9,222,1957-05-27,US,5,UCLA
-22,Rod Higgins,SF,6-7,200,1960-01-31,US,2,Fresno State
-32,Steve Johnson,C,6-10,235,1957-11-03,US,3,Oregon State
-39,Caldwell Jones,C,6-11,217,1950-08-04,US,11,Albany State University
-13,Charles Jones,PF,6-9,215,1957-04-03,US,1,Albany State University
-23,Michael Jordan,SG,6-6,198,1963-02-17,US,R,UNC
-1,Wes Matthews,PG,6-1,170,1959-08-24,US,4,Wisconsin
-33,Jawann Oldham,C,7-0,215,1957-07-04,US,4,Seattle University
-3,Ennis Whatley,PG,6-3,177,1962-08-11,US,1,Alabama
-0,Orlando Woolridge,SF,6-9,215,1959-12-16,US,3,Notre Dame
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1985,5,CHI,40,Dave Corzine,C,6-11,250,1956-04-25,US,6,DePaul
+1985,5,CHI,44,Quintin Dailey,SG,6-3,180,1961-01-22,US,2,San Francisco
+1985,5,CHI,34,Chris Engler,C,6-11,245,1959-03-01,US,2,"Minnesota, Wyoming"
+1985,5,CHI,21,Sidney Green,PF,6-9,220,1961-01-04,US,1,UNLV
+1985,5,CHI,10,Dave Greenwood,PF,6-9,222,1957-05-27,US,5,UCLA
+1985,5,CHI,22,Rod Higgins,SF,6-7,200,1960-01-31,US,2,Fresno State
+1985,5,CHI,32,Steve Johnson,C,6-10,235,1957-11-03,US,3,Oregon State
+1985,5,CHI,39,Caldwell Jones,C,6-11,217,1950-08-04,US,11,Albany State University
+1985,5,CHI,13,Charles Jones,PF,6-9,215,1957-04-03,US,1,Albany State University
+1985,5,CHI,23,Michael Jordan,SG,6-6,198,1963-02-17,US,R,UNC
+1985,5,CHI,1,Wes Matthews,PG,6-1,170,1959-08-24,US,4,Wisconsin
+1985,5,CHI,33,Jawann Oldham,C,7-0,215,1957-07-04,US,4,Seattle University
+1985,5,CHI,3,Ennis Whatley,PG,6-3,177,1962-08-11,US,1,Alabama
+1985,5,CHI,0,Orlando Woolridge,SF,6-9,215,1959-12-16,US,3,Notre Dame

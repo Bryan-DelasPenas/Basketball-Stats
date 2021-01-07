@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID
-from utils import remove_accents
+from utils import strip_accents
 
 '''
 Create a dataframe for team roster
@@ -51,7 +51,7 @@ def get_roster(team, season):
         df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
 
         # Removes accents 
-        df['PLAYER'] = df['PLAYER'].apply(lambda name: remove_accents(name, team, season))
+        df['PLAYER'] = df['PLAYER'].apply(lambda name: strip_accents(name))
 
         # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
         df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
@@ -96,7 +96,7 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
 
         # Check if the table exist example; if playoff is passed as parameter and team didn't make playoffs    
         if(table == None):
-            print("Error: table not found")
+            #print("Error: table not found")
             return None
         
         else:
@@ -117,12 +117,29 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
                 # Changes the second column to players 
                 df.columns.values[1] = "PLAYER"
             
-            df['PLAYER'] = df['PLAYER'].apply(lambda name: remove_accents(name, team, season))
+            df['PLAYER'] = df['PLAYER'].apply(lambda name: strip_accents(name))
             df.rename(columns = {'Age': 'AGE'})
             
             # Drop rk(Rank) which is the first column 
             df = df.drop(['Rk'], axis=1)
             
+            # Create a new column called team
+            df['TEAM'] = team
+        
+            # Create a new column called season
+            df['SEASON'] = season
+        
+            # Create a new column for Team ID
+            df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+            # Removes accents 
+            df['PLAYER'] = df['PLAYER'].apply(lambda name: strip_accents(name))
+
+            # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+            df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+            df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+            df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+
             # Rounds every entry to two decimal places
             df = df.round(2)
             

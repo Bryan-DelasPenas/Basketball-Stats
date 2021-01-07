@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-23,DeVaughn Akoon-Purcell,SG,6-6,200,1993-06-05,US,R,Illinois State
-5,Will Barton,SF,6-5,181,1991-01-06,US,6,Memphis
-25,Malik Beasley,SG,6-4,187,1996-11-26,US,2,Florida State
-3,Torrey Craig,SF,6-7,221,1990-12-19,US,1,USC Upstate
-6,Brandon Goodwin,PG,6-0,180,1995-10-02,US,R,"Central Florida, Florida Gulf Coast"
-14,Gary Harris,SG,6-4,210,1994-09-14,US,4,Michigan State
-41,Juan Hernangómez,PF,6-9,214,1995-09-28,ES,2,
-15,Nikola Jokić,C,7-0,284,1995-02-19,RS,3,
-20,Tyler Lydon,PF,6-10,225,1996-04-09,US,1,Syracuse
-7,Trey Lyles,PF,6-9,234,1995-11-05,CA,3,Kentucky
-4,Paul Millsap,PF,6-7,257,1985-02-10,US,12,Louisiana Tech
-11,Monte Morris,PG,6-2,183,1995-06-27,US,1,Iowa State
-27,Jamal Murray,PG,6-4,215,1997-02-23,CA,2,Kentucky
-24,Mason Plumlee,C,6-11,254,1990-03-05,US,5,Duke
-0,Isaiah Thomas,SG,5-9,185,1989-02-07,US,7,Washington
-8,Jarred Vanderbilt,PF,6-9,214,1999-04-03,US,R,Kentucky
-45,Thomas Welsh,C,7-0,255,1996-02-03,US,R,UCLA
-34,Nick Young,SG,6-7,210,1985-06-01,US,11,USC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2019,8,DEN,23,DeVaughn Akoon-Purcell,SG,6-6,200,1993-06-05,US,R,Illinois State
+2019,8,DEN,5,Will Barton,SF,6-5,181,1991-01-06,US,6,Memphis
+2019,8,DEN,25,Malik Beasley,SG,6-4,187,1996-11-26,US,2,Florida State
+2019,8,DEN,3,Torrey Craig,SF,6-7,221,1990-12-19,US,1,USC Upstate
+2019,8,DEN,6,Brandon Goodwin,PG,6-0,180,1995-10-02,US,R,"Central Florida, Florida Gulf Coast"
+2019,8,DEN,14,Gary Harris,SG,6-4,210,1994-09-14,US,4,Michigan State
+2019,8,DEN,41,Juan Hernangomez,PF,6-9,214,1995-09-28,ES,2,
+2019,8,DEN,15,Nikola Jokic,C,7-0,284,1995-02-19,RS,3,
+2019,8,DEN,20,Tyler Lydon,PF,6-10,225,1996-04-09,US,1,Syracuse
+2019,8,DEN,7,Trey Lyles,PF,6-9,234,1995-11-05,CA,3,Kentucky
+2019,8,DEN,4,Paul Millsap,PF,6-7,257,1985-02-10,US,12,Louisiana Tech
+2019,8,DEN,11,Monte Morris,PG,6-2,183,1995-06-27,US,1,Iowa State
+2019,8,DEN,27,Jamal Murray,PG,6-4,215,1997-02-23,CA,2,Kentucky
+2019,8,DEN,24,Mason Plumlee,C,6-11,254,1990-03-05,US,5,Duke
+2019,8,DEN,0,Isaiah Thomas,SG,5-9,185,1989-02-07,US,7,Washington
+2019,8,DEN,8,Jarred Vanderbilt,PF,6-9,214,1999-04-03,US,R,Kentucky
+2019,8,DEN,45,Thomas Welsh,C,7-0,255,1996-02-03,US,R,UCLA
+2019,8,DEN,34,Nick Young,SG,6-7,210,1985-06-01,US,11,USC

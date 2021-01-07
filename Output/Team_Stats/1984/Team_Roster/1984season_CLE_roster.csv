@@ -1,14 +1,14 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-5,John Bagley,PG,6-0,185,1960-04-23,US,1,Boston College
-45,Jeff Cook,C,6-10,215,1956-10-21,US,4,Idaho State University
-41,Geoff Crompton,C,6-11,280,1955-07-04,US,4,UNC
-21,World B. Free,SG,6-2,185,1953-12-09,US,8,Guilford College
-55,John Garris,PF,6-8,205,1959-06-06,US,R,"Michigan, Boston College"
-10,Stewart Granger,PG,6-3,190,1961-10-27,CA,R,Villanova
-32,Roy Hinson,SF,6-9,210,1961-05-02,US,R,Rutgers University
-35,Phil Hubbard,SF,6-8,215,1956-12-13,US,4,Michigan
-20,Geoff Huston,PG,6-2,175,1957-11-08,US,4,Texas Tech
-50,Ben Poquette,PF,6-9,235,1955-05-07,US,6,Central Michigan University
-11,Cliff Robinson,C,6-9,220,1960-03-13,US,4,USC
-8,Lonnie Shelton,PF,6-8,240,1955-10-19,US,7,Oregon State
-33,Paul Thompson,SF,6-6,210,1961-05-25,US,R,Tulane
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1984,6,CLE,5,John Bagley,PG,6-0,185,1960-04-23,US,1,Boston College
+1984,6,CLE,45,Jeff Cook,C,6-10,215,1956-10-21,US,4,Idaho State University
+1984,6,CLE,41,Geoff Crompton,C,6-11,280,1955-07-04,US,4,UNC
+1984,6,CLE,21,World B. Free,SG,6-2,185,1953-12-09,US,8,Guilford College
+1984,6,CLE,55,John Garris,PF,6-8,205,1959-06-06,US,R,"Michigan, Boston College"
+1984,6,CLE,10,Stewart Granger,PG,6-3,190,1961-10-27,CA,R,Villanova
+1984,6,CLE,32,Roy Hinson,SF,6-9,210,1961-05-02,US,R,Rutgers University
+1984,6,CLE,35,Phil Hubbard,SF,6-8,215,1956-12-13,US,4,Michigan
+1984,6,CLE,20,Geoff Huston,PG,6-2,175,1957-11-08,US,4,Texas Tech
+1984,6,CLE,50,Ben Poquette,PF,6-9,235,1955-05-07,US,6,Central Michigan University
+1984,6,CLE,11,Cliff Robinson,C,6-9,220,1960-03-13,US,4,USC
+1984,6,CLE,8,Lonnie Shelton,PF,6-8,240,1955-10-19,US,7,Oregon State
+1984,6,CLE,33,Paul Thompson,SF,6-6,210,1961-05-25,US,R,Tulane

@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-23,Mark Aguirre,SF,6-6,232,1959-12-10,US,10,DePaul
-00,William Bedford,C,7-0,225,1963-12-14,US,4,Memphis
-32,Lance Blanks,SG,6-4,190,1966-09-09,US,1,"Virginia, Texas"
-4,Joe Dumars,SG,6-3,190,1963-05-24,US,6,McNeese State University
-12,Gerald Henderson,PG,6-2,175,1956-01-16,US,12,VCU
-40,Bill Laimbeer,C,6-11,245,1957-05-19,US,11,Notre Dame
-30,Bob McCann,SF,6-6,244,1964-04-22,US,1,"Upsala College, Morehead State University"
-10,Dennis Rodman,PF,6-7,210,1961-05-13,US,5,Southeastern Oklahoma State University
-22,John Salley,PF,6-11,230,1964-05-16,US,5,Georgia Tech
-3,Brad Sellers,PF,7-0,210,1962-12-17,US,4,"Wisconsin, Ohio State"
-14,Charles Thomas,SG,6-3,175,1969-10-03,US,R,Eastern Michigan
-11,Isiah Thomas,PG,6-1,180,1961-04-30,US,10,Indiana
-5,Darrell Walker,SG,6-4,180,1961-03-09,US,8,Arkansas
-0-6,Orlando Woolridge,SF,6-9,215,1959-12-16,US,10,Notre Dame
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1992,9,DET,23,Mark Aguirre,SF,6-6,232,1959-12-10,US,10,DePaul
+1992,9,DET,00,William Bedford,C,7-0,225,1963-12-14,US,4,Memphis
+1992,9,DET,32,Lance Blanks,SG,6-4,190,1966-09-09,US,1,"Virginia, Texas"
+1992,9,DET,4,Joe Dumars,SG,6-3,190,1963-05-24,US,6,McNeese State University
+1992,9,DET,12,Gerald Henderson,PG,6-2,175,1956-01-16,US,12,VCU
+1992,9,DET,40,Bill Laimbeer,C,6-11,245,1957-05-19,US,11,Notre Dame
+1992,9,DET,30,Bob McCann,SF,6-6,244,1964-04-22,US,1,"Upsala College, Morehead State University"
+1992,9,DET,10,Dennis Rodman,PF,6-7,210,1961-05-13,US,5,Southeastern Oklahoma State University
+1992,9,DET,22,John Salley,PF,6-11,230,1964-05-16,US,5,Georgia Tech
+1992,9,DET,3,Brad Sellers,PF,7-0,210,1962-12-17,US,4,"Wisconsin, Ohio State"
+1992,9,DET,14,Charles Thomas,SG,6-3,175,1969-10-03,US,R,Eastern Michigan
+1992,9,DET,11,Isiah Thomas,PG,6-1,180,1961-04-30,US,10,Indiana
+1992,9,DET,5,Darrell Walker,SG,6-4,180,1961-03-09,US,8,Arkansas
+1992,9,DET,0-6,Orlando Woolridge,SF,6-9,215,1959-12-16,US,10,Notre Dame

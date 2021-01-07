@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-3,Marcus Banks,PG,6-2,200,1981-11-19,US,2,UNLV
-30,Mark Blount,C,7-0,230,1975-11-30,US,5,Pitt
-7,Anthony Carter,PG,6-1,190,1975-06-16,US,6,Hawaii
-31,Ricky Davis,SF,6-6,195,1979-09-23,US,7,Iowa
-12,Ronald Dupree,SF,6-7,209,1981-01-26,US,2,LSU
-24,Richie Frahm,SG,6-5,210,1977-08-14,US,2,Gonzaga
-21,Kevin Garnett,PF,6-11,240,1976-05-19,US,10,
-41,Eddie Griffin,C,6-10,220,1982-05-30,US,3,Seton Hall
-23,Trenton Hassell,SG,6-5,200,1979-03-04,US,4,Austin Peay State University
-16,Troy Hudson,PG,6-1,170,1976-03-13,US,8,"Missouri, Southern Illinois"
-55,Marko Jarić,PG,6-7,198,1978-10-12,RS,3,
-35,Mark Madsen,C,6-9,240,1976-01-28,US,5,Stanford
-1,Rashad McCants,SG,6-4,207,1984-09-25,US,R,UNC
-34,Michael Olowokandi,C,7-0,269,1975-04-03,NG,7,University of the Pacific
-9,Justin Reed,SF,6-8,240,1982-01-16,US,1,Ole Miss
-10,Wally Szczerbiak,SF,6-7,244,1977-03-05,ES,6,Miami University
-17,Nikoloz Tskitishvili,PF,7-0,225,1983-04-14,GE,3,
-6,Bracey Wright,SG,6-3,210,1984-07-01,US,R,Indiana
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2006,18,MIN,3,Marcus Banks,PG,6-2,200,1981-11-19,US,2,UNLV
+2006,18,MIN,30,Mark Blount,C,7-0,230,1975-11-30,US,5,Pitt
+2006,18,MIN,7,Anthony Carter,PG,6-1,190,1975-06-16,US,6,Hawaii
+2006,18,MIN,31,Ricky Davis,SF,6-6,195,1979-09-23,US,7,Iowa
+2006,18,MIN,12,Ronald Dupree,SF,6-7,209,1981-01-26,US,2,LSU
+2006,18,MIN,24,Richie Frahm,SG,6-5,210,1977-08-14,US,2,Gonzaga
+2006,18,MIN,21,Kevin Garnett,PF,6-11,240,1976-05-19,US,10,
+2006,18,MIN,41,Eddie Griffin,C,6-10,220,1982-05-30,US,3,Seton Hall
+2006,18,MIN,23,Trenton Hassell,SG,6-5,200,1979-03-04,US,4,Austin Peay State University
+2006,18,MIN,16,Troy Hudson,PG,6-1,170,1976-03-13,US,8,"Missouri, Southern Illinois"
+2006,18,MIN,55,Marko Jaric,PG,6-7,198,1978-10-12,RS,3,
+2006,18,MIN,35,Mark Madsen,C,6-9,240,1976-01-28,US,5,Stanford
+2006,18,MIN,1,Rashad McCants,SG,6-4,207,1984-09-25,US,R,UNC
+2006,18,MIN,34,Michael Olowokandi,C,7-0,269,1975-04-03,NG,7,University of the Pacific
+2006,18,MIN,9,Justin Reed,SF,6-8,240,1982-01-16,US,1,Ole Miss
+2006,18,MIN,10,Wally Szczerbiak,SF,6-7,244,1977-03-05,ES,6,Miami University
+2006,18,MIN,17,Nikoloz Tskitishvili,PF,7-0,225,1983-04-14,GE,3,
+2006,18,MIN,6,Bracey Wright,SG,6-3,210,1984-07-01,US,R,Indiana

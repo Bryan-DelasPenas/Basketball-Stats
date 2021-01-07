@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Gene Banks,PF,6-7,215,1959-05-15,US,1,Duke
-50,Geoff Crompton,C,6-11,280,1955-07-04,US,3,UNC
-25,Coby Dietrick,C,6-10,220,1948-07-23,US,12,San Jose State
-10,Mike Dunleavy,PG,6-3,180,1954-03-21,US,6,South Carolina
-44,George Gervin,SG,6-7,180,1952-04-27,US,10,Eastern Michigan
-53,Artis Gilmore,C,7-2,240,1949-09-21,US,11,"Gardner-Webb University, Jacksonville University"
-30,Paul Griffin,PF,6-9,205,1954-01-20,US,6,Western Michigan
-25,Jim Johnstone,C,6-11,245,1960-09-20,US,R,Wake Forest
-42,Edgar Jones,PF,6-10,225,1956-06-17,US,2,Nevada
-34,Mike Mitchell,SF,6-7,215,1956-01-01,US,4,Auburn
-0,Johnny Moore,PG,6-1,175,1958-03-03,US,2,Texas
-5,Billy Paultz,C,6-11,235,1948-07-30,US,12,"Cameron University, St. John's"
-21,Roger Phegley,SG,6-6,205,1956-10-16,US,4,Bradley
-15,Ed Rains,SF,6-7,190,1956-12-24,US,1,University of South Alabama
-1,Oliver Robinson,SG,6-4,180,1960-03-13,US,R,UAB
-35,Mike Sanders,SF,6-6,210,1960-05-07,US,R,UCLA
-9,Robert Smith,PG,5-11,165,1955-03-10,US,5,UNLV
-33,Bill Willoughby,SF,6-8,205,1957-05-20,US,6,
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1983,27,SAS,20,Gene Banks,PF,6-7,215,1959-05-15,US,1,Duke
+1983,27,SAS,50,Geoff Crompton,C,6-11,280,1955-07-04,US,3,UNC
+1983,27,SAS,25,Coby Dietrick,C,6-10,220,1948-07-23,US,12,San Jose State
+1983,27,SAS,10,Mike Dunleavy,PG,6-3,180,1954-03-21,US,6,South Carolina
+1983,27,SAS,44,George Gervin,SG,6-7,180,1952-04-27,US,10,Eastern Michigan
+1983,27,SAS,53,Artis Gilmore,C,7-2,240,1949-09-21,US,11,"Gardner-Webb University, Jacksonville University"
+1983,27,SAS,30,Paul Griffin,PF,6-9,205,1954-01-20,US,6,Western Michigan
+1983,27,SAS,25,Jim Johnstone,C,6-11,245,1960-09-20,US,R,Wake Forest
+1983,27,SAS,42,Edgar Jones,PF,6-10,225,1956-06-17,US,2,Nevada
+1983,27,SAS,34,Mike Mitchell,SF,6-7,215,1956-01-01,US,4,Auburn
+1983,27,SAS,0,Johnny Moore,PG,6-1,175,1958-03-03,US,2,Texas
+1983,27,SAS,5,Billy Paultz,C,6-11,235,1948-07-30,US,12,"Cameron University, St. John's"
+1983,27,SAS,21,Roger Phegley,SG,6-6,205,1956-10-16,US,4,Bradley
+1983,27,SAS,15,Ed Rains,SF,6-7,190,1956-12-24,US,1,University of South Alabama
+1983,27,SAS,1,Oliver Robinson,SG,6-4,180,1960-03-13,US,R,UAB
+1983,27,SAS,35,Mike Sanders,SF,6-6,210,1960-05-07,US,R,UCLA
+1983,27,SAS,9,Robert Smith,PG,5-11,165,1955-03-10,US,5,UNLV
+1983,27,SAS,33,Bill Willoughby,SF,6-8,205,1957-05-20,US,6,

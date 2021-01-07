@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-15,Carmelo Anthony,SF,6-8,238,1984-05-29,US,3,Syracuse
-25,Steve Blake,PG,6-3,172,1980-02-26,US,3,Maryland
-11,Earl Boykins,PG,5-5,135,1976-06-02,US,8,Eastern Michigan
-23,Marcus Camby,C,6-11,220,1974-03-22,US,10,UMass
-4,Anthony Carter,PG,6-1,190,1975-06-16,US,7,Hawaii
-5,Yakhouba Diawara,SG,6-7,225,1982-08-29,FR,R,Pepperdine
-30,Reggie Evans,PF,6-8,245,1980-05-18,US,4,Iowa
-31,Nenê Hilário,C,6-11,250,1982-09-13,BR,4,
-32,Julius Hodge,SG,6-7,210,1983-11-18,US,1,NC State
-3,Allen Iverson,SG,6-0,165,1975-06-07,US,10,Georgetown
-3-8,DerMarr Johnson,SF,6-9,201,1980-05-05,US,5,Cincinnati
-43,Linas Kleiza,PF,6-8,245,1985-01-03,LT,1,Missouri
-6,Kenyon Martin,PF,6-9,234,1977-12-30,US,6,Cincinnati
-24,Andre Miller,PG,6-3,200,1976-03-19,US,7,Utah
-21,Eduardo Nájera,PF,6-8,240,1976-07-11,MX,6,Oklahoma
-7,Jamal Sampson,C,6-11,235,1983-05-15,US,4,California
-1,J.R. Smith,SG,6-6,225,1985-09-09,US,2,
-8,Joe Smith,PF,6-10,225,1975-07-26,US,11,Maryland
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2007,8,DEN,15,Carmelo Anthony,SF,6-8,238,1984-05-29,US,3,Syracuse
+2007,8,DEN,25,Steve Blake,PG,6-3,172,1980-02-26,US,3,Maryland
+2007,8,DEN,11,Earl Boykins,PG,5-5,135,1976-06-02,US,8,Eastern Michigan
+2007,8,DEN,23,Marcus Camby,C,6-11,220,1974-03-22,US,10,UMass
+2007,8,DEN,4,Anthony Carter,PG,6-1,190,1975-06-16,US,7,Hawaii
+2007,8,DEN,5,Yakhouba Diawara,SG,6-7,225,1982-08-29,FR,R,Pepperdine
+2007,8,DEN,30,Reggie Evans,PF,6-8,245,1980-05-18,US,4,Iowa
+2007,8,DEN,31,Nene Hilario,C,6-11,250,1982-09-13,BR,4,
+2007,8,DEN,32,Julius Hodge,SG,6-7,210,1983-11-18,US,1,NC State
+2007,8,DEN,3,Allen Iverson,SG,6-0,165,1975-06-07,US,10,Georgetown
+2007,8,DEN,3-8,DerMarr Johnson,SF,6-9,201,1980-05-05,US,5,Cincinnati
+2007,8,DEN,43,Linas Kleiza,PF,6-8,245,1985-01-03,LT,1,Missouri
+2007,8,DEN,6,Kenyon Martin,PF,6-9,234,1977-12-30,US,6,Cincinnati
+2007,8,DEN,24,Andre Miller,PG,6-3,200,1976-03-19,US,7,Utah
+2007,8,DEN,21,Eduardo Najera,PF,6-8,240,1976-07-11,MX,6,Oklahoma
+2007,8,DEN,7,Jamal Sampson,C,6-11,235,1983-05-15,US,4,California
+2007,8,DEN,1,J.R. Smith,SG,6-6,225,1985-09-09,US,2,
+2007,8,DEN,8,Joe Smith,PF,6-10,225,1975-07-26,US,11,Maryland

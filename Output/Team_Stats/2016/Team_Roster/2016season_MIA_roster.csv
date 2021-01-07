@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-11,Chris Andersen,C,6-10,245,1978-07-07,US,13,Blinn College
-1,Chris Bosh,PF,6-11,235,1984-03-24,US,12,Georgia Tech
-15,Mario Chalmers,PG,6-2,190,1986-05-19,US,7,Kansas
-9,Luol Deng,PF,6-9,237,1985-04-16,SS,11,Duke
-7,Goran Dragić,PG,6-3,190,1986-05-06,SI,7,
-32,James Ennis,SF,6-6,215,1990-07-01,US,1,Cal State Long Beach
-14,Gerald Green,SG,6-6,205,1986-01-26,US,8,
-40,Udonis Haslem,PF,6-8,235,1980-06-09,US,12,Florida
-2,Joe Johnson,SF,6-7,240,1981-06-29,US,14,Arkansas
-8,Tyler Johnson,SG,6-3,186,1992-05-07,US,1,Fresno State
-4,Josh McRoberts,PF,6-10,240,1987-02-28,US,8,Duke
-0,Josh Richardson,SG,6-5,200,1993-09-15,US,R,Tennessee
-12,Jarnell Stokes,C,6-9,263,1994-01-07,US,1,Tennessee
-5,Amar'e Stoudemire,C,6-10,245,1982-11-16,US,13,
-19,Beno Udrih,PG,6-3,205,1982-07-05,SI,11,
-3,Dwyane Wade,SG,6-4,220,1982-01-17,US,12,Marquette
-12,Briante Weber,PG,6-2,165,1992-12-29,US,R,VCU
-21,Hassan Whiteside,C,7-0,265,1989-06-13,US,3,Marshall
-20,Justise Winslow,SF,6-6,222,1996-03-26,US,R,Duke
-11,Dorell Wright,SF,6-9,205,1985-12-02,US,11,
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2016,16,MIA,11,Chris Andersen,C,6-10,245,1978-07-07,US,13,Blinn College
+2016,16,MIA,1,Chris Bosh,PF,6-11,235,1984-03-24,US,12,Georgia Tech
+2016,16,MIA,15,Mario Chalmers,PG,6-2,190,1986-05-19,US,7,Kansas
+2016,16,MIA,9,Luol Deng,PF,6-9,237,1985-04-16,SS,11,Duke
+2016,16,MIA,7,Goran Dragic,PG,6-3,190,1986-05-06,SI,7,
+2016,16,MIA,32,James Ennis,SF,6-6,215,1990-07-01,US,1,Cal State Long Beach
+2016,16,MIA,14,Gerald Green,SG,6-6,205,1986-01-26,US,8,
+2016,16,MIA,40,Udonis Haslem,PF,6-8,235,1980-06-09,US,12,Florida
+2016,16,MIA,2,Joe Johnson,SF,6-7,240,1981-06-29,US,14,Arkansas
+2016,16,MIA,8,Tyler Johnson,SG,6-3,186,1992-05-07,US,1,Fresno State
+2016,16,MIA,4,Josh McRoberts,PF,6-10,240,1987-02-28,US,8,Duke
+2016,16,MIA,0,Josh Richardson,SG,6-5,200,1993-09-15,US,R,Tennessee
+2016,16,MIA,12,Jarnell Stokes,C,6-9,263,1994-01-07,US,1,Tennessee
+2016,16,MIA,5,Amar'e Stoudemire,C,6-10,245,1982-11-16,US,13,
+2016,16,MIA,19,Beno Udrih,PG,6-3,205,1982-07-05,SI,11,
+2016,16,MIA,3,Dwyane Wade,SG,6-4,220,1982-01-17,US,12,Marquette
+2016,16,MIA,12,Briante Weber,PG,6-2,165,1992-12-29,US,R,VCU
+2016,16,MIA,21,Hassan Whiteside,C,7-0,265,1989-06-13,US,3,Marshall
+2016,16,MIA,20,Justise Winslow,SF,6-6,222,1996-03-26,US,R,Duke
+2016,16,MIA,11,Dorell Wright,SF,6-9,205,1985-12-02,US,11,

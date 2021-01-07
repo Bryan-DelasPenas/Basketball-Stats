@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-7,Chucky Atkins,PG,5-11,160,1974-08-14,US,4,South Florida
-1,Chauncey Billups,PG,6-3,202,1976-09-25,US,6,Colorado
-41,Elden Campbell,C,6-11,215,1968-07-23,US,13,Clemson
-44,Hubert Davis,SG,6-5,183,1970-05-17,US,11,UNC
-24,Tremaine Fowlkes,SF,6-8,220,1976-04-11,US,2,"California, Fresno State"
-8,Darvin Ham,SF,6-7,220,1973-07-23,US,6,Texas Tech
-32,Richard Hamilton,SG,6-6,185,1978-02-14,US,4,UConn
-10,Lindsey Hunter,SG,6-2,170,1970-12-03,US,10,"Alcorn State, Jackson State University"
-7,Mike James,PG,6-2,188,1975-06-23,US,2,Duquesne
-31,Darko Miličić,C,7-0,250,1985-06-20,RS,R,
-13,Mehmet Okur,PF,6-11,249,1979-05-26,TR,1,
-22,Tayshaun Prince,SF,6-9,212,1980-02-28,US,1,Kentucky
-39,Željko Rebrača,C,7-0,257,1972-04-09,RS,2,
-5,Bob Sura,SG,6-5,200,1973-03-25,US,8,Florida State
-3,Ben Wallace,C,6-9,240,1974-09-10,US,7,Virginia Union University
-30,Rasheed Wallace,PF,6-10,225,1974-09-17,US,8,UNC
-34,Corliss Williamson,PF,6-7,245,1973-12-04,US,8,Arkansas
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2004,9,DET,7,Chucky Atkins,PG,5-11,160,1974-08-14,US,4,South Florida
+2004,9,DET,1,Chauncey Billups,PG,6-3,202,1976-09-25,US,6,Colorado
+2004,9,DET,41,Elden Campbell,C,6-11,215,1968-07-23,US,13,Clemson
+2004,9,DET,44,Hubert Davis,SG,6-5,183,1970-05-17,US,11,UNC
+2004,9,DET,24,Tremaine Fowlkes,SF,6-8,220,1976-04-11,US,2,"California, Fresno State"
+2004,9,DET,8,Darvin Ham,SF,6-7,220,1973-07-23,US,6,Texas Tech
+2004,9,DET,32,Richard Hamilton,SG,6-6,185,1978-02-14,US,4,UConn
+2004,9,DET,10,Lindsey Hunter,SG,6-2,170,1970-12-03,US,10,"Alcorn State, Jackson State University"
+2004,9,DET,7,Mike James,PG,6-2,188,1975-06-23,US,2,Duquesne
+2004,9,DET,31,Darko Milicic,C,7-0,250,1985-06-20,RS,R,
+2004,9,DET,13,Mehmet Okur,PF,6-11,249,1979-05-26,TR,1,
+2004,9,DET,22,Tayshaun Prince,SF,6-9,212,1980-02-28,US,1,Kentucky
+2004,9,DET,39,Zeljko Rebraca,C,7-0,257,1972-04-09,RS,2,
+2004,9,DET,5,Bob Sura,SG,6-5,200,1973-03-25,US,8,Florida State
+2004,9,DET,3,Ben Wallace,C,6-9,240,1974-09-10,US,7,Virginia Union University
+2004,9,DET,30,Rasheed Wallace,PF,6-10,225,1974-09-17,US,8,UNC
+2004,9,DET,34,Corliss Williamson,PF,6-7,245,1973-12-04,US,8,Arkansas

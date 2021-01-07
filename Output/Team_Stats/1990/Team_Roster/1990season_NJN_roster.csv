@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Mookie Blaylock,PG,6-0,180,1967-03-20,US,R,"Midland College, Oklahoma"
-31,Sam Bowie,C,7-1,235,1961-03-17,US,4,Kentucky
-21,Stanley Brundy,SF,6-6,210,1967-11-13,US,R,DePaul
-12,Rick Carlisle,SG,6-5,210,1959-10-27,US,4,"University of Maine, Virginia"
-11,Joe Barry Carroll,C,7-0,225,1958-07-24,US,8,Purdue
-15,Lester Conner,PG,6-4,180,1959-09-17,US,6,Oregon State
-52,Chris Dudley,PF,6-11,235,1965-02-22,US,2,Yale
-24,Derrick Gervin,PF,6-8,200,1963-03-28,US,R,Texas-San Antonio
-44,Jack Haley,PF,6-10,240,1964-01-27,US,1,UCLA
-23,Roy Hinson,PF,6-9,210,1961-05-02,US,6,Rutgers University
-2,Dennis Hopson,SG,6-5,200,1965-04-22,US,2,Ohio State
-14,Jaren Jackson,SG,6-4,190,1967-10-27,US,R,Georgetown
-42,Anthony Mason,PF,6-7,250,1966-12-14,US,R,Tennessee State
-34,Chris Morris,SF,6-8,210,1966-01-20,US,1,Auburn
-7,Pete Myers,SG,6-6,180,1963-09-15,US,3,Little Rock
-33,Charles Shackleford,C,6-10,225,1966-04-22,US,1,NC State
-45,Purvis Short,SF,6-7,210,1957-07-02,US,11,Jackson State University
-24,Jay Taylor,SG,6-3,190,1967-10-03,US,R,Eastern Illinois University
-22,Leon Wood,SG,6-3,185,1962-03-25,US,4,"Arizona, Cal State Fullerton"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1990,3,NJN,10,Mookie Blaylock,PG,6-0,180,1967-03-20,US,R,"Midland College, Oklahoma"
+1990,3,NJN,31,Sam Bowie,C,7-1,235,1961-03-17,US,4,Kentucky
+1990,3,NJN,21,Stanley Brundy,SF,6-6,210,1967-11-13,US,R,DePaul
+1990,3,NJN,12,Rick Carlisle,SG,6-5,210,1959-10-27,US,4,"University of Maine, Virginia"
+1990,3,NJN,11,Joe Barry Carroll,C,7-0,225,1958-07-24,US,8,Purdue
+1990,3,NJN,15,Lester Conner,PG,6-4,180,1959-09-17,US,6,Oregon State
+1990,3,NJN,52,Chris Dudley,PF,6-11,235,1965-02-22,US,2,Yale
+1990,3,NJN,24,Derrick Gervin,PF,6-8,200,1963-03-28,US,R,Texas-San Antonio
+1990,3,NJN,44,Jack Haley,PF,6-10,240,1964-01-27,US,1,UCLA
+1990,3,NJN,23,Roy Hinson,PF,6-9,210,1961-05-02,US,6,Rutgers University
+1990,3,NJN,2,Dennis Hopson,SG,6-5,200,1965-04-22,US,2,Ohio State
+1990,3,NJN,14,Jaren Jackson,SG,6-4,190,1967-10-27,US,R,Georgetown
+1990,3,NJN,42,Anthony Mason,PF,6-7,250,1966-12-14,US,R,Tennessee State
+1990,3,NJN,34,Chris Morris,SF,6-8,210,1966-01-20,US,1,Auburn
+1990,3,NJN,7,Pete Myers,SG,6-6,180,1963-09-15,US,3,Little Rock
+1990,3,NJN,33,Charles Shackleford,C,6-10,225,1966-04-22,US,1,NC State
+1990,3,NJN,45,Purvis Short,SF,6-7,210,1957-07-02,US,11,Jackson State University
+1990,3,NJN,24,Jay Taylor,SG,6-3,190,1967-10-03,US,R,Eastern Illinois University
+1990,3,NJN,22,Leon Wood,SG,6-3,185,1962-03-25,US,4,"Arizona, Cal State Fullerton"

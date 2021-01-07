@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-9,Melvin Booker,PG,6-1,185,1972-08-20,US,R,Missouri
-15,Tim Breaux,SF,6-7,215,1970-09-19,US,1,Wyoming
-52,Chucky Brown,PF,6-7,214,1968-02-29,US,6,NC State
-2,Mark Bryant,PF,6-9,245,1965-04-25,US,7,Seton Hall
-10,Sam Cassell,PG,6-3,185,1969-11-18,US,2,Florida State
-32,Pete Chilcutt,PF,6-10,230,1968-09-14,US,4,UNC
-22,Clyde Drexler,SG,6-7,210,1962-06-22,US,12,Houston
-17,Mario Elie,SF,6-5,210,1963-11-26,US,5,American International College
-55,Alvin Heggs,SF,6-8,225,1967-12-12,US,R,Texas
-25,Robert Horry,SF,6-10,240,1970-08-25,US,3,Alabama
-12,Jaren Jackson,SG,6-4,190,1967-10-27,US,5,Georgetown
-21,Henry James,PF,6-8,220,1965-07-29,US,4,"South Plains College, St. Mary's University"
-27,Charles Jones,PF,6-9,215,1957-04-03,US,12,Albany State University
-4,Sam Mack,SF,6-7,220,1970-05-26,US,1,"Iowa State, Tyler Junior College, Houston"
-20,Tracy Moore,SG,6-4,200,1965-12-28,US,3,Tulsa
-34,Hakeem Olajuwon,C,7-0,255,1963-01-21,NG,11,Houston
-3,Eldridge Recasner,SG,6-3,190,1967-12-14,US,1,Washington
-30,Kenny Smith,PG,6-3,170,1965-03-08,US,8,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1996,11,HOU,9,Melvin Booker,PG,6-1,185,1972-08-20,US,R,Missouri
+1996,11,HOU,15,Tim Breaux,SF,6-7,215,1970-09-19,US,1,Wyoming
+1996,11,HOU,52,Chucky Brown,PF,6-7,214,1968-02-29,US,6,NC State
+1996,11,HOU,2,Mark Bryant,PF,6-9,245,1965-04-25,US,7,Seton Hall
+1996,11,HOU,10,Sam Cassell,PG,6-3,185,1969-11-18,US,2,Florida State
+1996,11,HOU,32,Pete Chilcutt,PF,6-10,230,1968-09-14,US,4,UNC
+1996,11,HOU,22,Clyde Drexler,SG,6-7,210,1962-06-22,US,12,Houston
+1996,11,HOU,17,Mario Elie,SF,6-5,210,1963-11-26,US,5,American International College
+1996,11,HOU,55,Alvin Heggs,SF,6-8,225,1967-12-12,US,R,Texas
+1996,11,HOU,25,Robert Horry,SF,6-10,240,1970-08-25,US,3,Alabama
+1996,11,HOU,12,Jaren Jackson,SG,6-4,190,1967-10-27,US,5,Georgetown
+1996,11,HOU,21,Henry James,PF,6-8,220,1965-07-29,US,4,"South Plains College, St. Mary's University"
+1996,11,HOU,27,Charles Jones,PF,6-9,215,1957-04-03,US,12,Albany State University
+1996,11,HOU,4,Sam Mack,SF,6-7,220,1970-05-26,US,1,"Iowa State, Tyler Junior College, Houston"
+1996,11,HOU,20,Tracy Moore,SG,6-4,200,1965-12-28,US,3,Tulsa
+1996,11,HOU,34,Hakeem Olajuwon,C,7-0,255,1963-01-21,NG,11,Houston
+1996,11,HOU,3,Eldridge Recasner,SG,6-3,190,1967-12-14,US,1,Washington
+1996,11,HOU,30,Kenny Smith,PG,6-3,170,1965-03-08,US,8,UNC

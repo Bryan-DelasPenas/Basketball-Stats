@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-40,Mike Brittain,C,7-0,235,1963-06-21,US,R,South Carolina
-45,Jeff Cook,PF,6-10,215,1956-10-21,US,6,Idaho State University
-23,Tyrone Corbin,SF,6-6,210,1962-12-31,US,R,DePaul
-53,Artis Gilmore,C,7-2,240,1949-09-21,US,14,"Gardner-Webb University, Jacksonville University"
-10,Dave Greenwood,PF,6-9,222,1957-05-27,US,6,UCLA
-22,Rod Higgins,SF,6-7,200,1960-01-31,US,3,Fresno State
-6,Alfredrick Hughes,SG,6-5,215,1962-07-19,US,R,Loyola Chicago
-32,Marc Iavaroni,PF,6-8,210,1956-09-15,US,3,Virginia
-33,Steve Johnson,C,6-10,235,1957-11-03,US,4,Oregon State
-3,Jeff Lamp,SF,6-6,195,1959-03-09,US,3,Virginia
-1,Wes Matthews,PG,6-1,170,1959-08-24,US,5,Wisconsin
-34,Mike Mitchell,SF,6-7,215,1956-01-01,US,7,Auburn
-0,Johnny Moore,PG,6-1,175,1958-03-03,US,5,Texas
-21,Alvin Robertson,SG,6-3,185,1962-07-22,US,1,Arkansas
-20,Jon Sundvold,PG,6-2,170,1961-07-02,US,2,Missouri
-3,Ennis Whatley,PG,6-3,177,1962-08-11,US,2,Alabama
-45,Jeff Wilkins,C,6-11,230,1955-03-09,US,5,Illinois State
-11,Ray Williams,PG,6-3,188,1954-10-14,US,8,Minnesota
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1986,27,SAS,40,Mike Brittain,C,7-0,235,1963-06-21,US,R,South Carolina
+1986,27,SAS,45,Jeff Cook,PF,6-10,215,1956-10-21,US,6,Idaho State University
+1986,27,SAS,23,Tyrone Corbin,SF,6-6,210,1962-12-31,US,R,DePaul
+1986,27,SAS,53,Artis Gilmore,C,7-2,240,1949-09-21,US,14,"Gardner-Webb University, Jacksonville University"
+1986,27,SAS,10,Dave Greenwood,PF,6-9,222,1957-05-27,US,6,UCLA
+1986,27,SAS,22,Rod Higgins,SF,6-7,200,1960-01-31,US,3,Fresno State
+1986,27,SAS,6,Alfredrick Hughes,SG,6-5,215,1962-07-19,US,R,Loyola Chicago
+1986,27,SAS,32,Marc Iavaroni,PF,6-8,210,1956-09-15,US,3,Virginia
+1986,27,SAS,33,Steve Johnson,C,6-10,235,1957-11-03,US,4,Oregon State
+1986,27,SAS,3,Jeff Lamp,SF,6-6,195,1959-03-09,US,3,Virginia
+1986,27,SAS,1,Wes Matthews,PG,6-1,170,1959-08-24,US,5,Wisconsin
+1986,27,SAS,34,Mike Mitchell,SF,6-7,215,1956-01-01,US,7,Auburn
+1986,27,SAS,0,Johnny Moore,PG,6-1,175,1958-03-03,US,5,Texas
+1986,27,SAS,21,Alvin Robertson,SG,6-3,185,1962-07-22,US,1,Arkansas
+1986,27,SAS,20,Jon Sundvold,PG,6-2,170,1961-07-02,US,2,Missouri
+1986,27,SAS,3,Ennis Whatley,PG,6-3,177,1962-08-11,US,2,Alabama
+1986,27,SAS,45,Jeff Wilkins,C,6-11,230,1955-03-09,US,5,Illinois State
+1986,27,SAS,11,Ray Williams,PG,6-3,188,1954-10-14,US,8,Minnesota

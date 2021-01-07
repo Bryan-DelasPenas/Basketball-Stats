@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-1,Derek Anderson,SG,6-5,194,1974-07-18,US,10,"Ohio State, Kentucky"
-11,Earl Boykins,PG,5-5,135,1976-06-02,US,9,Eastern Michigan
-7,Primož Brezec,C,7-2,252,1979-10-02,SI,6,
-13,Matt Carroll,SG,6-6,212,1980-08-28,US,4,Notre Dame
-33,Jermareo Davidson,SF,6-10,230,1984-11-15,US,R,Alabama
-4,Jared Dudley,PF,6-6,237,1985-07-10,US,R,Boston College
-20,Raymond Felton,PG,6-1,205,1984-06-26,US,2,UNC
-24,Othella Harrington,C,6-9,235,1974-01-31,US,11,Georgetown
-5,Walter Herrmann,PF,6-9,225,1979-06-26,AR,1,
-15,Ryan Hollins,PF,7-0,240,1984-10-10,US,1,UCLA
-0,Jeff McInnis,PG,6-4,190,1974-10-22,US,10,UNC
-6,Nazr Mohammed,C,6-10,221,1977-09-05,US,9,Kentucky
-50,Emeka Okafor,C,6-10,252,1982-09-28,US,3,UConn
-23,Jason Richardson,SF,6-6,220,1981-01-20,US,6,Michigan State
-3,Gerald Wallace,PF,6-7,215,1982-07-23,US,6,Alabama
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2008,4,CHA,1,Derek Anderson,SG,6-5,194,1974-07-18,US,10,"Ohio State, Kentucky"
+2008,4,CHA,11,Earl Boykins,PG,5-5,135,1976-06-02,US,9,Eastern Michigan
+2008,4,CHA,7,Primoz Brezec,C,7-2,252,1979-10-02,SI,6,
+2008,4,CHA,13,Matt Carroll,SG,6-6,212,1980-08-28,US,4,Notre Dame
+2008,4,CHA,33,Jermareo Davidson,SF,6-10,230,1984-11-15,US,R,Alabama
+2008,4,CHA,4,Jared Dudley,PF,6-6,237,1985-07-10,US,R,Boston College
+2008,4,CHA,20,Raymond Felton,PG,6-1,205,1984-06-26,US,2,UNC
+2008,4,CHA,24,Othella Harrington,C,6-9,235,1974-01-31,US,11,Georgetown
+2008,4,CHA,5,Walter Herrmann,PF,6-9,225,1979-06-26,AR,1,
+2008,4,CHA,15,Ryan Hollins,PF,7-0,240,1984-10-10,US,1,UCLA
+2008,4,CHA,0,Jeff McInnis,PG,6-4,190,1974-10-22,US,10,UNC
+2008,4,CHA,6,Nazr Mohammed,C,6-10,221,1977-09-05,US,9,Kentucky
+2008,4,CHA,50,Emeka Okafor,C,6-10,252,1982-09-28,US,3,UConn
+2008,4,CHA,23,Jason Richardson,SF,6-6,220,1981-01-20,US,6,Michigan State
+2008,4,CHA,3,Gerald Wallace,PF,6-7,215,1982-07-23,US,6,Alabama

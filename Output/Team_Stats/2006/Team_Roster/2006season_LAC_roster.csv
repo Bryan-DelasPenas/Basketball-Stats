@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-34,Vin Baker,C,6-11,232,1971-11-23,US,12,University of Hartford
-42,Elton Brand,PF,6-8,275,1979-03-11,US,6,Duke
-19,Sam Cassell,PG,6-3,185,1969-11-18,US,12,Florida State
-10,Howard Eisley,PG,6-2,177,1972-12-04,US,11,Boston College
-3,Daniel Ewing,SG,6-3,185,1983-03-26,US,R,Duke
-4,Anthony Goldwire,PG,6-1,182,1971-09-06,US,7,Houston
-35,Chris Kaman,C,7-0,265,1982-04-28,US,2,Central Michigan University
-8,Yaroslav Korolev,SF,6-9,203,1987-05-07,RU,R,
-14,Shaun Livingston,PG,6-7,192,1985-09-11,US,1,
-50,Corey Maggette,SF,6-6,218,1979-11-12,US,6,Duke
-0,Walter McCarty,SF,6-10,230,1974-02-01,US,9,Kentucky
-5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,7,Rhode Island
-22,Boniface N'Dong,C,7-0,198,1977-03-09,SN,R,
-7,Vladimir Radmanović,PF,6-10,227,1980-11-19,BA,4,
-11,Željko Rebrača,C,7-0,257,1972-04-09,RS,4,
-13,Quinton Ross,SF,6-6,195,1981-04-30,US,1,SMU
-15,James Singleton,SF,6-8,216,1981-07-20,US,R,Murray State
-54,Chris Wilcox,C,6-10,221,1982-09-03,US,3,Maryland
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2006,13,LAC,34,Vin Baker,C,6-11,232,1971-11-23,US,12,University of Hartford
+2006,13,LAC,42,Elton Brand,PF,6-8,275,1979-03-11,US,6,Duke
+2006,13,LAC,19,Sam Cassell,PG,6-3,185,1969-11-18,US,12,Florida State
+2006,13,LAC,10,Howard Eisley,PG,6-2,177,1972-12-04,US,11,Boston College
+2006,13,LAC,3,Daniel Ewing,SG,6-3,185,1983-03-26,US,R,Duke
+2006,13,LAC,4,Anthony Goldwire,PG,6-1,182,1971-09-06,US,7,Houston
+2006,13,LAC,35,Chris Kaman,C,7-0,265,1982-04-28,US,2,Central Michigan University
+2006,13,LAC,8,Yaroslav Korolev,SF,6-9,203,1987-05-07,RU,R,
+2006,13,LAC,14,Shaun Livingston,PG,6-7,192,1985-09-11,US,1,
+2006,13,LAC,50,Corey Maggette,SF,6-6,218,1979-11-12,US,6,Duke
+2006,13,LAC,0,Walter McCarty,SF,6-10,230,1974-02-01,US,9,Kentucky
+2006,13,LAC,5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,7,Rhode Island
+2006,13,LAC,22,Boniface N'Dong,C,7-0,198,1977-03-09,SN,R,
+2006,13,LAC,7,Vladimir Radmanovic,PF,6-10,227,1980-11-19,BA,4,
+2006,13,LAC,11,Zeljko Rebraca,C,7-0,257,1972-04-09,RS,4,
+2006,13,LAC,13,Quinton Ross,SF,6-6,195,1981-04-30,US,1,SMU
+2006,13,LAC,15,James Singleton,SF,6-8,216,1981-07-20,US,R,Murray State
+2006,13,LAC,54,Chris Wilcox,C,6-10,221,1982-09-03,US,3,Maryland

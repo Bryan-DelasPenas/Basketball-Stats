@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-2,Keith Askins,SF,6-7,197,1967-12-15,US,4,Alabama
-12,Bimbo Coles,PG,6-1,180,1968-04-22,US,4,Virginia Tech
-21,Ledell Eackles,SG,6-5,220,1966-11-24,US,4,New Orleans
-35,Kevin Gamble,SF,6-5,210,1965-11-13,US,7,Iowa
-52,Matt Geiger,C,7-0,243,1969-09-10,US,2,"Auburn, Georgia Tech"
-54,Brad Lohaus,PF,6-11,230,1964-09-29,US,7,Iowa
-43,Grant Long,PF,6-8,225,1966-03-12,US,6,Eastern Michigan
-4-32,Harold Miner,SG,6-5,210,1971-05-05,US,2,USC
-30-32,Billy Owens,SG,6-8,220,1969-05-01,US,3,Syracuse
-14,Kevin Pritchard,PG,6-3,180,1967-07-17,US,2,Kansas
-3,Khalid Reeves,PG,6-3,199,1972-07-15,US,R,Arizona
-41,Glen Rice,SF,6-7,215,1967-05-28,US,5,Michigan
-22,John Salley,C,6-11,230,1964-05-16,US,8,Georgia Tech
-3,Steve Smith,SG,6-7,200,1969-03-31,US,3,Michigan State
-42,Kevin Willis,PF,7-0,220,1962-09-06,US,9,Michigan State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1995,16,MIA,2,Keith Askins,SF,6-7,197,1967-12-15,US,4,Alabama
+1995,16,MIA,12,Bimbo Coles,PG,6-1,180,1968-04-22,US,4,Virginia Tech
+1995,16,MIA,21,Ledell Eackles,SG,6-5,220,1966-11-24,US,4,New Orleans
+1995,16,MIA,35,Kevin Gamble,SF,6-5,210,1965-11-13,US,7,Iowa
+1995,16,MIA,52,Matt Geiger,C,7-0,243,1969-09-10,US,2,"Auburn, Georgia Tech"
+1995,16,MIA,54,Brad Lohaus,PF,6-11,230,1964-09-29,US,7,Iowa
+1995,16,MIA,43,Grant Long,PF,6-8,225,1966-03-12,US,6,Eastern Michigan
+1995,16,MIA,4-32,Harold Miner,SG,6-5,210,1971-05-05,US,2,USC
+1995,16,MIA,30-32,Billy Owens,SG,6-8,220,1969-05-01,US,3,Syracuse
+1995,16,MIA,14,Kevin Pritchard,PG,6-3,180,1967-07-17,US,2,Kansas
+1995,16,MIA,3,Khalid Reeves,PG,6-3,199,1972-07-15,US,R,Arizona
+1995,16,MIA,41,Glen Rice,SF,6-7,215,1967-05-28,US,5,Michigan
+1995,16,MIA,22,John Salley,C,6-11,230,1964-05-16,US,8,Georgia Tech
+1995,16,MIA,3,Steve Smith,SG,6-7,200,1969-03-31,US,3,Michigan State
+1995,16,MIA,42,Kevin Willis,PF,7-0,220,1962-09-06,US,9,Michigan State

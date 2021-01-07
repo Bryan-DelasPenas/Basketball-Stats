@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-0,Gilbert Arenas,PG,6-3,191,1982-01-06,US,4,Arizona
-7,Chucky Atkins,SG,5-11,160,1974-08-14,US,6,South Florida
-32,Andray Blatche,PF,6-11,235,1986-08-22,US,R,
-52,Calvin Booth,C,6-11,230,1976-05-07,US,6,Penn State
-3,Caron Butler,SF,6-7,228,1980-03-13,US,3,UConn
-6,Antonio Daniels,SG,6-4,195,1975-03-19,US,8,Bowling Green
-24,Jarvis Hayes,SG,6-7,220,1981-08-09,US,2,"Western Carolina University, Georgia"
-33,Brendan Haywood,C,7-0,268,1979-11-27,US,4,UNC
-4,Antawn Jamison,SF,6-8,223,1976-06-12,US,7,UNC
-1,Jared Jeffries,PF,6-11,230,1981-11-25,US,3,Indiana
-51,Michael Ruffin,C,6-9,246,1977-01-21,US,5,Tulsa
-35,Awvee Storey,SF,6-6,222,1977-04-18,US,1,"Illinois, Arizona State"
-21,Donell Taylor,SG,6-6,180,1982-07-26,US,R,"Okaloosa-Walton Community College, UAB"
-12,Billy Thomas,SG,6-4,208,1975-12-23,US,1,Kansas
-36,Etan Thomas,C,6-9,256,1978-04-01,US,4,Syracuse
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2006,30,WAS,0,Gilbert Arenas,PG,6-3,191,1982-01-06,US,4,Arizona
+2006,30,WAS,7,Chucky Atkins,SG,5-11,160,1974-08-14,US,6,South Florida
+2006,30,WAS,32,Andray Blatche,PF,6-11,235,1986-08-22,US,R,
+2006,30,WAS,52,Calvin Booth,C,6-11,230,1976-05-07,US,6,Penn State
+2006,30,WAS,3,Caron Butler,SF,6-7,228,1980-03-13,US,3,UConn
+2006,30,WAS,6,Antonio Daniels,SG,6-4,195,1975-03-19,US,8,Bowling Green
+2006,30,WAS,24,Jarvis Hayes,SG,6-7,220,1981-08-09,US,2,"Western Carolina University, Georgia"
+2006,30,WAS,33,Brendan Haywood,C,7-0,268,1979-11-27,US,4,UNC
+2006,30,WAS,4,Antawn Jamison,SF,6-8,223,1976-06-12,US,7,UNC
+2006,30,WAS,1,Jared Jeffries,PF,6-11,230,1981-11-25,US,3,Indiana
+2006,30,WAS,51,Michael Ruffin,C,6-9,246,1977-01-21,US,5,Tulsa
+2006,30,WAS,35,Awvee Storey,SF,6-6,222,1977-04-18,US,1,"Illinois, Arizona State"
+2006,30,WAS,21,Donell Taylor,SG,6-6,180,1982-07-26,US,R,"Okaloosa-Walton Community College, UAB"
+2006,30,WAS,12,Billy Thomas,SG,6-4,208,1975-12-23,US,1,Kansas
+2006,30,WAS,36,Etan Thomas,C,6-9,256,1978-04-01,US,4,Syracuse

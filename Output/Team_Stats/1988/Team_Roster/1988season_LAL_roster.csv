@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-33,Kareem Abdul-Jabbar,C,7-2,225,1947-04-16,US,18,UCLA
-19,Tony Campbell,SF,6-7,215,1962-05-07,US,3,Ohio State
-21,Michael Cooper,SG,6-5,170,1956-04-15,US,9,New Mexico
-45,A.C. Green,PF,6-9,220,1963-10-04,US,2,Oregon State
-32,Magic Johnson,PG,6-9,215,1959-08-14,US,8,Michigan State
-3,Jeff Lamp,SF,6-6,195,1959-03-09,US,4,Virginia
-1,Wes Matthews,PG,6-1,170,1959-08-24,US,7,Wisconsin
-31,Kurt Rambis,PF,6-8,213,1958-02-25,US,6,Santa Clara
-4,Byron Scott,SG,6-3,195,1961-03-28,US,4,Arizona State
-52,Mike Smrek,C,7-0,250,1962-08-31,CA,2,Canisius
-55,Billy Thompson,SF,6-7,195,1963-12-01,US,1,Louisville
-43,Mychal Thompson,C,6-10,226,1955-01-30,BS,8,Minnesota
-34,Ray Tolbert,PF,6-9,225,1958-09-10,US,3,Indiana
-20,Milt Wagner,SG,6-5,185,1963-02-20,US,R,Louisville
-42,James Worthy,SF,6-9,225,1961-02-27,US,5,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1988,14,LAL,33,Kareem Abdul-Jabbar,C,7-2,225,1947-04-16,US,18,UCLA
+1988,14,LAL,19,Tony Campbell,SF,6-7,215,1962-05-07,US,3,Ohio State
+1988,14,LAL,21,Michael Cooper,SG,6-5,170,1956-04-15,US,9,New Mexico
+1988,14,LAL,45,A.C. Green,PF,6-9,220,1963-10-04,US,2,Oregon State
+1988,14,LAL,32,Magic Johnson,PG,6-9,215,1959-08-14,US,8,Michigan State
+1988,14,LAL,3,Jeff Lamp,SF,6-6,195,1959-03-09,US,4,Virginia
+1988,14,LAL,1,Wes Matthews,PG,6-1,170,1959-08-24,US,7,Wisconsin
+1988,14,LAL,31,Kurt Rambis,PF,6-8,213,1958-02-25,US,6,Santa Clara
+1988,14,LAL,4,Byron Scott,SG,6-3,195,1961-03-28,US,4,Arizona State
+1988,14,LAL,52,Mike Smrek,C,7-0,250,1962-08-31,CA,2,Canisius
+1988,14,LAL,55,Billy Thompson,SF,6-7,195,1963-12-01,US,1,Louisville
+1988,14,LAL,43,Mychal Thompson,C,6-10,226,1955-01-30,BS,8,Minnesota
+1988,14,LAL,34,Ray Tolbert,PF,6-9,225,1958-09-10,US,3,Indiana
+1988,14,LAL,20,Milt Wagner,SG,6-5,185,1963-02-20,US,R,Louisville
+1988,14,LAL,42,James Worthy,SF,6-9,225,1961-02-27,US,5,UNC

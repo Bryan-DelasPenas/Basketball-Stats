@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-2,Stacey Augmon,SF,6-8,205,1968-08-01,US,13,UNLV
-11,Andre Barrett,PG,5-10,172,1982-02-21,US,R,Seton Hall
-4,Tony Battie,C,6-11,230,1976-02-11,US,7,Texas Tech
-7,Michael Bradley,PF,6-10,245,1979-04-18,US,3,"Kentucky, Villanova"
-13,Kelvin Cato,C,6-11,255,1974-08-26,US,7,"University of South Alabama, Iowa State"
-1,Doug Christie,SG,6-6,200,1970-05-09,US,12,Pepperdine
-55,Andrew DeClercq,C,6-10,230,1973-02-01,US,9,Florida
-3,Steve Francis,PG,6-3,195,1977-02-21,US,5,Maryland
-8,Pat Garrity,PF,6-9,238,1976-08-23,US,6,Notre Dame
-33,Grant Hill,SF,6-8,225,1972-10-05,US,9,Duke
-12,Dwight Howard,PF,6-10,265,1985-12-08,US,R,
-34,Brandon Hunter,PF,6-7,260,1980-11-24,US,1,Ohio University
-7,Mark Jones,SF,6-6,215,1975-05-25,US,R,"Minnesota, Central Florida"
-41,Mario Kasun,C,7-1,260,1980-04-05,HR,R,
-5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,6,Rhode Island
-14,Jameer Nelson,PG,6-0,190,1982-02-09,US,R,Saint Joseph's
-9,DeShawn Stevenson,SG,6-5,210,1981-04-03,US,4,
-15,Hedo Türkoğlu,SF,6-10,220,1979-03-19,TR,4,
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2005,22,ORL,2,Stacey Augmon,SF,6-8,205,1968-08-01,US,13,UNLV
+2005,22,ORL,11,Andre Barrett,PG,5-10,172,1982-02-21,US,R,Seton Hall
+2005,22,ORL,4,Tony Battie,C,6-11,230,1976-02-11,US,7,Texas Tech
+2005,22,ORL,7,Michael Bradley,PF,6-10,245,1979-04-18,US,3,"Kentucky, Villanova"
+2005,22,ORL,13,Kelvin Cato,C,6-11,255,1974-08-26,US,7,"University of South Alabama, Iowa State"
+2005,22,ORL,1,Doug Christie,SG,6-6,200,1970-05-09,US,12,Pepperdine
+2005,22,ORL,55,Andrew DeClercq,C,6-10,230,1973-02-01,US,9,Florida
+2005,22,ORL,3,Steve Francis,PG,6-3,195,1977-02-21,US,5,Maryland
+2005,22,ORL,8,Pat Garrity,PF,6-9,238,1976-08-23,US,6,Notre Dame
+2005,22,ORL,33,Grant Hill,SF,6-8,225,1972-10-05,US,9,Duke
+2005,22,ORL,12,Dwight Howard,PF,6-10,265,1985-12-08,US,R,
+2005,22,ORL,34,Brandon Hunter,PF,6-7,260,1980-11-24,US,1,Ohio University
+2005,22,ORL,7,Mark Jones,SF,6-6,215,1975-05-25,US,R,"Minnesota, Central Florida"
+2005,22,ORL,41,Mario Kasun,C,7-1,260,1980-04-05,HR,R,
+2005,22,ORL,5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,6,Rhode Island
+2005,22,ORL,14,Jameer Nelson,PG,6-0,190,1982-02-09,US,R,Saint Joseph's
+2005,22,ORL,9,DeShawn Stevenson,SG,6-5,210,1981-04-03,US,4,
+2005,22,ORL,15,Hedo Turkoglu,SF,6-10,220,1979-03-19,TR,4,

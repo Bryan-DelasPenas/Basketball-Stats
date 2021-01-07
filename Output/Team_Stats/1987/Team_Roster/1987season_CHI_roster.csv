@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Gene Banks,SF,6-7,215,1959-05-15,US,5,Duke
-17,Mike Brown,C,6-9,257,1963-07-19,US,R,George Washington
-11,Fred Cofield,PG,6-3,190,1962-01-04,US,1,"Oregon, Eastern Michigan"
-22,Steve Colter,PG,6-3,165,1962-07-24,US,2,New Mexico State
-40,Dave Corzine,C,6-11,250,1956-04-25,US,8,DePaul
-25,Earl Cureton,C,6-9,210,1957-09-03,US,6,"Robert Morris University (PA), Detroit Mercy"
-30,Darren Daye,SF,6-8,220,1960-11-30,US,3,UCLA
-23,Michael Jordan,SG,6-6,198,1963-02-17,US,2,UNC
-10,Pete Myers,SG,6-6,180,1963-09-15,US,R,Little Rock
-34,Charles Oakley,PF,6-8,225,1963-12-18,US,1,Virginia Union University
-5,John Paxson,PG,6-2,185,1960-09-29,US,3,Notre Dame
-50,Ben Poquette,PF,6-9,235,1955-05-07,US,9,Central Michigan University
-6,Brad Sellers,PF,7-0,210,1962-12-17,US,R,"Wisconsin, Ohio State"
-3,Sedale Threatt,PG,6-2,175,1961-09-10,US,3,West Virginia Tech
-21,Elston Turner,SF,6-5,190,1959-06-10,US,5,Ole Miss
-31,Granville Waiters,C,6-11,225,1961-01-08,US,3,Ohio State
-12-24,Perry Young,SG,6-5,210,1963-08-04,US,R,Virginia Tech
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1987,5,CHI,20,Gene Banks,SF,6-7,215,1959-05-15,US,5,Duke
+1987,5,CHI,17,Mike Brown,C,6-9,257,1963-07-19,US,R,George Washington
+1987,5,CHI,11,Fred Cofield,PG,6-3,190,1962-01-04,US,1,"Oregon, Eastern Michigan"
+1987,5,CHI,22,Steve Colter,PG,6-3,165,1962-07-24,US,2,New Mexico State
+1987,5,CHI,40,Dave Corzine,C,6-11,250,1956-04-25,US,8,DePaul
+1987,5,CHI,25,Earl Cureton,C,6-9,210,1957-09-03,US,6,"Robert Morris University (PA), Detroit Mercy"
+1987,5,CHI,30,Darren Daye,SF,6-8,220,1960-11-30,US,3,UCLA
+1987,5,CHI,23,Michael Jordan,SG,6-6,198,1963-02-17,US,2,UNC
+1987,5,CHI,10,Pete Myers,SG,6-6,180,1963-09-15,US,R,Little Rock
+1987,5,CHI,34,Charles Oakley,PF,6-8,225,1963-12-18,US,1,Virginia Union University
+1987,5,CHI,5,John Paxson,PG,6-2,185,1960-09-29,US,3,Notre Dame
+1987,5,CHI,50,Ben Poquette,PF,6-9,235,1955-05-07,US,9,Central Michigan University
+1987,5,CHI,6,Brad Sellers,PF,7-0,210,1962-12-17,US,R,"Wisconsin, Ohio State"
+1987,5,CHI,3,Sedale Threatt,PG,6-2,175,1961-09-10,US,3,West Virginia Tech
+1987,5,CHI,21,Elston Turner,SF,6-5,190,1959-06-10,US,5,Ole Miss
+1987,5,CHI,31,Granville Waiters,C,6-11,225,1961-01-08,US,3,Ohio State
+1987,5,CHI,12-24,Perry Young,SG,6-5,210,1963-08-04,US,R,Virginia Tech

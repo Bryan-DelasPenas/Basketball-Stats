@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-9,Rick Brunson,PG,6-4,190,1972-06-14,US,3,Temple
-23,Marcus Camby,C,6-11,220,1974-03-22,US,4,UMass
-1,Chris Childs,PG,6-3,195,1967-11-20,US,6,Boise State
-32,Othella Harrington,C,6-9,235,1974-01-31,US,4,Georgetown
-20,Allan Houston,SG,6-6,200,1971-04-20,US,7,Tennessee
-31,Mark Jackson,PG,6-1,180,1965-04-01,US,13,St. John's
-2,Larry Johnson,PF,6-6,250,1969-03-14,US,9,UNLV
-44,Travis Knight,C,7-0,235,1974-09-13,US,4,UConn
-13,Luc Longley,C,7-2,265,1969-01-19,AU,9,New Mexico
-7,Lavor Postell,SG,6-5,215,1978-02-26,US,R,St. John's
-41,Glen Rice,SF,6-7,215,1967-05-28,US,11,Michigan
-50,Felton Spencer,C,7-0,265,1968-01-15,US,10,Louisville
-8,Latrell Sprewell,SF,6-5,190,1970-09-08,US,8,Alabama
-25,Erick Strickland,PG,6-3,210,1973-11-25,US,4,Nebraska
-40,Kurt Thomas,PF,6-9,230,1972-10-04,US,5,TCU
-21,Charlie Ward,PG,6-2,190,1970-10-12,US,6,Florida State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2001,20,NYK,9,Rick Brunson,PG,6-4,190,1972-06-14,US,3,Temple
+2001,20,NYK,23,Marcus Camby,C,6-11,220,1974-03-22,US,4,UMass
+2001,20,NYK,1,Chris Childs,PG,6-3,195,1967-11-20,US,6,Boise State
+2001,20,NYK,32,Othella Harrington,C,6-9,235,1974-01-31,US,4,Georgetown
+2001,20,NYK,20,Allan Houston,SG,6-6,200,1971-04-20,US,7,Tennessee
+2001,20,NYK,31,Mark Jackson,PG,6-1,180,1965-04-01,US,13,St. John's
+2001,20,NYK,2,Larry Johnson,PF,6-6,250,1969-03-14,US,9,UNLV
+2001,20,NYK,44,Travis Knight,C,7-0,235,1974-09-13,US,4,UConn
+2001,20,NYK,13,Luc Longley,C,7-2,265,1969-01-19,AU,9,New Mexico
+2001,20,NYK,7,Lavor Postell,SG,6-5,215,1978-02-26,US,R,St. John's
+2001,20,NYK,41,Glen Rice,SF,6-7,215,1967-05-28,US,11,Michigan
+2001,20,NYK,50,Felton Spencer,C,7-0,265,1968-01-15,US,10,Louisville
+2001,20,NYK,8,Latrell Sprewell,SF,6-5,190,1970-09-08,US,8,Alabama
+2001,20,NYK,25,Erick Strickland,PG,6-3,210,1973-11-25,US,4,Nebraska
+2001,20,NYK,40,Kurt Thomas,PF,6-9,230,1972-10-04,US,5,TCU
+2001,20,NYK,21,Charlie Ward,PG,6-2,190,1970-10-12,US,6,Florida State

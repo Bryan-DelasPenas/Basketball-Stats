@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-7,Kenny Anderson,PG,6-0,168,1970-10-09,US,8,Georgia Tech
-11,Dana Barros,PG,5-11,163,1967-04-13,US,10,Boston College
-4,Tony Battie,C,6-11,230,1976-02-11,US,2,Texas Tech
-40,Calbert Cheaney,SG,6-7,209,1971-07-17,US,6,Indiana
-29,Pervis Ellison,C,6-9,210,1967-04-03,US,9,Louisville
-27,Danny Fortson,PF,6-7,260,1976-03-27,US,2,Cincinnati
-44,Adrian Griffin,SG,6-5,217,1974-07-04,US,R,Seton Hall
-0,Walter McCarty,PF,6-10,230,1974-02-01,US,3,Kentucky
-20,Doug Overton,PG,6-3,190,1969-08-03,US,7,La Salle
-34,Paul Pierce,SF,6-7,235,1977-10-13,US,1,Kansas
-52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,3,Wright State University
-5,Jamel Thomas,SF,6-6,215,1973-03-25,US,R,Providence
-5,Wayne Turner,PG,6-2,190,1976-03-22,US,R,Kentucky
-8,Antoine Walker,PF,6-8,224,1976-08-12,US,3,Kentucky
-55,Eric Williams,SF,6-8,220,1972-07-17,US,4,Providence
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2000,2,BOS,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,8,Georgia Tech
+2000,2,BOS,11,Dana Barros,PG,5-11,163,1967-04-13,US,10,Boston College
+2000,2,BOS,4,Tony Battie,C,6-11,230,1976-02-11,US,2,Texas Tech
+2000,2,BOS,40,Calbert Cheaney,SG,6-7,209,1971-07-17,US,6,Indiana
+2000,2,BOS,29,Pervis Ellison,C,6-9,210,1967-04-03,US,9,Louisville
+2000,2,BOS,27,Danny Fortson,PF,6-7,260,1976-03-27,US,2,Cincinnati
+2000,2,BOS,44,Adrian Griffin,SG,6-5,217,1974-07-04,US,R,Seton Hall
+2000,2,BOS,0,Walter McCarty,PF,6-10,230,1974-02-01,US,3,Kentucky
+2000,2,BOS,20,Doug Overton,PG,6-3,190,1969-08-03,US,7,La Salle
+2000,2,BOS,34,Paul Pierce,SF,6-7,235,1977-10-13,US,1,Kansas
+2000,2,BOS,52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,3,Wright State University
+2000,2,BOS,5,Jamel Thomas,SF,6-6,215,1973-03-25,US,R,Providence
+2000,2,BOS,5,Wayne Turner,PG,6-2,190,1976-03-22,US,R,Kentucky
+2000,2,BOS,8,Antoine Walker,PF,6-8,224,1976-08-12,US,3,Kentucky
+2000,2,BOS,55,Eric Williams,SF,6-8,220,1972-07-17,US,4,Providence

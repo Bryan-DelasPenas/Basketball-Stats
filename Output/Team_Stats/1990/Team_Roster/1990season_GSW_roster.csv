@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-33,Uwe Blab,C,7-1,252,1962-03-26,DE,4,Indiana
-10,Manute Bol,C,7-7,200,1962-10-16,SS,4,University of Bridgeport
-12,Winston Garland,PG,6-2,170,1964-12-19,US,2,Missouri State University
-5,Tim Hardaway,PG,6-0,175,1966-09-01,US,R,Texas-El Paso
-22,Rod Higgins,PF,6-7,200,1960-01-31,US,7,Fresno State
-8,Marques Johnson,SF,6-7,218,1956-02-08,US,10,UCLA
-53,Alton Lister,C,7-0,240,1958-10-01,US,8,Arizona State
-13,Šarūnas Marčiulionis,SG,6-5,200,1964-06-13,LT,R,
-17,Chris Mullin,SF,6-6,200,1963-07-30,US,4,St. John's
-43,Jim Petersen,C,6-10,235,1962-02-22,US,5,Minnesota
-23,Mitch Richmond,SG,6-5,215,1965-06-30,US,1,Kansas State
-45,John Shasky,C,6-11,235,1964-07-31,US,1,Minnesota
-52,Mike Smrek,C,7-0,250,1962-08-31,CA,4,Canisius
-44,Leonard Taylor,PF,6-8,220,1966-05-02,US,R,California
-20,Terry Teagle,SF,6-5,195,1960-04-10,US,7,Baylor
-3,Tom Tolbert,PF,6-7,235,1965-10-16,US,1,"University of California, Irvine, Arizona"
-7,Kelvin Upshaw,SG,6-2,180,1963-01-24,US,1,Utah
-40,Chris Welp,C,7-0,245,1964-01-02,DE,2,Washington
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1990,10,GSW,33,Uwe Blab,C,7-1,252,1962-03-26,DE,4,Indiana
+1990,10,GSW,10,Manute Bol,C,7-7,200,1962-10-16,SS,4,University of Bridgeport
+1990,10,GSW,12,Winston Garland,PG,6-2,170,1964-12-19,US,2,Missouri State University
+1990,10,GSW,5,Tim Hardaway,PG,6-0,175,1966-09-01,US,R,Texas-El Paso
+1990,10,GSW,22,Rod Higgins,PF,6-7,200,1960-01-31,US,7,Fresno State
+1990,10,GSW,8,Marques Johnson,SF,6-7,218,1956-02-08,US,10,UCLA
+1990,10,GSW,53,Alton Lister,C,7-0,240,1958-10-01,US,8,Arizona State
+1990,10,GSW,13,Sarunas Marciulionis,SG,6-5,200,1964-06-13,LT,R,
+1990,10,GSW,17,Chris Mullin,SF,6-6,200,1963-07-30,US,4,St. John's
+1990,10,GSW,43,Jim Petersen,C,6-10,235,1962-02-22,US,5,Minnesota
+1990,10,GSW,23,Mitch Richmond,SG,6-5,215,1965-06-30,US,1,Kansas State
+1990,10,GSW,45,John Shasky,C,6-11,235,1964-07-31,US,1,Minnesota
+1990,10,GSW,52,Mike Smrek,C,7-0,250,1962-08-31,CA,4,Canisius
+1990,10,GSW,44,Leonard Taylor,PF,6-8,220,1966-05-02,US,R,California
+1990,10,GSW,20,Terry Teagle,SF,6-5,195,1960-04-10,US,7,Baylor
+1990,10,GSW,3,Tom Tolbert,PF,6-7,235,1965-10-16,US,1,"University of California, Irvine, Arizona"
+1990,10,GSW,7,Kelvin Upshaw,SG,6-2,180,1963-01-24,US,1,Utah
+1990,10,GSW,40,Chris Welp,C,7-0,245,1964-01-02,DE,2,Washington

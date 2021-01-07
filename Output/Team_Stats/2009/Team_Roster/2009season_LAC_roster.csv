@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-3,Alex Acker,SG,6-5,185,1983-01-21,US,1,Pepperdine
-23,Marcus Camby,C,6-11,220,1974-03-22,US,12,UMass
-25,Mardy Collins,PG,6-6,220,1984-08-04,US,2,Temple
-1,Baron Davis,PG,6-3,209,1979-04-13,US,9,UCLA
-40,Paul Davis,PF,6-11,270,1984-07-21,US,2,Michigan State
-31,Ricky Davis,SG,6-6,195,1979-09-23,US,10,Iowa
-10,Eric Gordon,SG,6-3,215,1988-12-25,US,R,Indiana
-6,Jason Hart,PG,6-3,185,1978-04-29,US,7,Syracuse
-2,Fred Jones,SF,6-4,210,1979-03-11,US,6,Oregon
-9,DeAndre Jordan,C,6-11,265,1988-07-21,US,R,Texas A&M
-35,Chris Kaman,C,7-0,265,1982-04-28,US,5,Central Michigan University
-5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,10,Rhode Island
-20,Steve Novak,PF,6-10,225,1983-06-13,US,2,Marquette
-50,Zach Randolph,PF,6-9,250,1981-07-16,US,7,Michigan State
-34,Cheikh Samb,C,7-1,245,1984-10-22,SN,1,
-8,Brian Skinner,PF,6-9,255,1976-05-19,US,10,Baylor
-4,Mike Taylor,PG,6-2,165,1986-01-21,US,R,Iowa State
-2,Tim Thomas,PF,6-10,230,1977-02-26,US,11,Villanova
-12,Al Thornton,SF,6-8,220,1983-12-07,US,1,Florida State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2009,13,LAC,3,Alex Acker,SG,6-5,185,1983-01-21,US,1,Pepperdine
+2009,13,LAC,23,Marcus Camby,C,6-11,220,1974-03-22,US,12,UMass
+2009,13,LAC,25,Mardy Collins,PG,6-6,220,1984-08-04,US,2,Temple
+2009,13,LAC,1,Baron Davis,PG,6-3,209,1979-04-13,US,9,UCLA
+2009,13,LAC,40,Paul Davis,PF,6-11,270,1984-07-21,US,2,Michigan State
+2009,13,LAC,31,Ricky Davis,SG,6-6,195,1979-09-23,US,10,Iowa
+2009,13,LAC,10,Eric Gordon,SG,6-3,215,1988-12-25,US,R,Indiana
+2009,13,LAC,6,Jason Hart,PG,6-3,185,1978-04-29,US,7,Syracuse
+2009,13,LAC,2,Fred Jones,SF,6-4,210,1979-03-11,US,6,Oregon
+2009,13,LAC,9,DeAndre Jordan,C,6-11,265,1988-07-21,US,R,Texas A&M
+2009,13,LAC,35,Chris Kaman,C,7-0,265,1982-04-28,US,5,Central Michigan University
+2009,13,LAC,5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,10,Rhode Island
+2009,13,LAC,20,Steve Novak,PF,6-10,225,1983-06-13,US,2,Marquette
+2009,13,LAC,50,Zach Randolph,PF,6-9,250,1981-07-16,US,7,Michigan State
+2009,13,LAC,34,Cheikh Samb,C,7-1,245,1984-10-22,SN,1,
+2009,13,LAC,8,Brian Skinner,PF,6-9,255,1976-05-19,US,10,Baylor
+2009,13,LAC,4,Mike Taylor,PG,6-2,165,1986-01-21,US,R,Iowa State
+2009,13,LAC,2,Tim Thomas,PF,6-10,230,1977-02-26,US,11,Villanova
+2009,13,LAC,12,Al Thornton,SF,6-8,220,1983-12-07,US,1,Florida State

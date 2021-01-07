@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-24,Jonathan Bender,SF,6-11,202,1981-01-30,US,5,
-44,Austin Croshere,PF,6-9,235,1975-05-01,US,7,Providence
-12,Michael Curry,SF,6-5,210,1968-08-22,US,10,Georgia Southern University
-32,Dale Davis,C,6-11,230,1969-03-25,US,13,Clemson
-54,John Edwards,C,7-0,275,1981-07-31,US,R,Kent State University
-10,Jeff Foster,C,6-11,236,1977-01-16,US,5,Texas State University
-3,Tremaine Fowlkes,SF,6-8,220,1976-04-11,US,3,"California, Fresno State"
-4,Eddie Gill,PG,6-0,190,1978-08-16,US,3,Weber State
-2,Marcus Haislip,PF,6-10,230,1980-12-22,US,2,Tennessee
-13,David Harrison,C,7-0,280,1982-08-15,US,R,Colorado
-1,Stephen Jackson,SF,6-8,218,1978-04-05,US,4,Butler County Community College
-32,Britton Johnsen,SF,6-10,210,1979-07-08,US,1,Utah
-8,Anthony Johnson,PG,6-3,190,1974-10-02,US,7,College of Charleston
-20,Fred Jones,SG,6-4,210,1979-03-11,US,2,Oregon
-33,James Jones,SF,6-8,218,1980-10-04,US,1,Miami (FL)
-31,Reggie Miller,SG,6-7,185,1965-08-24,US,17,UCLA
-7,Jermaine O'Neal,PF,6-11,226,1978-10-13,US,8,
-62,Scot Pollard,C,6-11,265,1975-02-12,US,7,Kansas
-11,Jamaal Tinsley,PG,6-3,195,1978-02-28,US,3,Iowa State
-91,Metta World Peace,SF,6-6,260,1979-11-13,US,5,St. John's
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2005,12,IND,24,Jonathan Bender,SF,6-11,202,1981-01-30,US,5,
+2005,12,IND,44,Austin Croshere,PF,6-9,235,1975-05-01,US,7,Providence
+2005,12,IND,12,Michael Curry,SF,6-5,210,1968-08-22,US,10,Georgia Southern University
+2005,12,IND,32,Dale Davis,C,6-11,230,1969-03-25,US,13,Clemson
+2005,12,IND,54,John Edwards,C,7-0,275,1981-07-31,US,R,Kent State University
+2005,12,IND,10,Jeff Foster,C,6-11,236,1977-01-16,US,5,Texas State University
+2005,12,IND,3,Tremaine Fowlkes,SF,6-8,220,1976-04-11,US,3,"California, Fresno State"
+2005,12,IND,4,Eddie Gill,PG,6-0,190,1978-08-16,US,3,Weber State
+2005,12,IND,2,Marcus Haislip,PF,6-10,230,1980-12-22,US,2,Tennessee
+2005,12,IND,13,David Harrison,C,7-0,280,1982-08-15,US,R,Colorado
+2005,12,IND,1,Stephen Jackson,SF,6-8,218,1978-04-05,US,4,Butler County Community College
+2005,12,IND,32,Britton Johnsen,SF,6-10,210,1979-07-08,US,1,Utah
+2005,12,IND,8,Anthony Johnson,PG,6-3,190,1974-10-02,US,7,College of Charleston
+2005,12,IND,20,Fred Jones,SG,6-4,210,1979-03-11,US,2,Oregon
+2005,12,IND,33,James Jones,SF,6-8,218,1980-10-04,US,1,Miami (FL)
+2005,12,IND,31,Reggie Miller,SG,6-7,185,1965-08-24,US,17,UCLA
+2005,12,IND,7,Jermaine O'Neal,PF,6-11,226,1978-10-13,US,8,
+2005,12,IND,62,Scot Pollard,C,6-11,265,1975-02-12,US,7,Kansas
+2005,12,IND,11,Jamaal Tinsley,PG,6-3,195,1978-02-28,US,3,Iowa State
+2005,12,IND,91,Metta World Peace,SF,6-6,260,1979-11-13,US,5,St. John's

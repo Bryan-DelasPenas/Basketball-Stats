@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-32,Dale Davis,PF,6-11,230,1969-03-25,US,R,Clemson
-54,Greg Dreiling,C,7-1,250,1962-11-07,US,5,"Wichita State, Kansas"
-10,Vern Fleming,PG,6-5,185,1962-02-04,US,7,Georgia
-23,Sean Green,SG,6-5,210,1970-02-02,US,R,"NC State, Iona College"
-33,Jerome Lane,PF,6-6,230,1966-12-04,US,3,Pitt
-20,George McCloud,SF,6-6,205,1967-05-27,US,2,Florida State
-31,Reggie Miller,SG,6-7,185,1965-08-24,US,4,UCLA
-45,Chuck Person,SF,6-8,220,1964-06-27,US,5,Auburn
-33,Mike Sanders,SF,6-6,210,1960-05-07,US,9,UCLA
-11,Detlef Schrempf,PF,6-10,235,1963-01-21,DE,6,Washington
-24,Rik Smits,C,7-4,250,1966-08-23,NL,3,Marist College
-41,LaSalle Thompson,C,6-10,245,1961-06-23,US,9,Texas
-44,Kenny Williams,SF,6-9,205,1969-06-09,US,1,Barton County Community College
-4,Micheal Williams,PG,6-2,175,1966-07-23,US,3,Baylor
-14,Randy Wittman,SG,6-6,210,1959-10-28,US,8,Indiana
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1992,12,IND,32,Dale Davis,PF,6-11,230,1969-03-25,US,R,Clemson
+1992,12,IND,54,Greg Dreiling,C,7-1,250,1962-11-07,US,5,"Wichita State, Kansas"
+1992,12,IND,10,Vern Fleming,PG,6-5,185,1962-02-04,US,7,Georgia
+1992,12,IND,23,Sean Green,SG,6-5,210,1970-02-02,US,R,"NC State, Iona College"
+1992,12,IND,33,Jerome Lane,PF,6-6,230,1966-12-04,US,3,Pitt
+1992,12,IND,20,George McCloud,SF,6-6,205,1967-05-27,US,2,Florida State
+1992,12,IND,31,Reggie Miller,SG,6-7,185,1965-08-24,US,4,UCLA
+1992,12,IND,45,Chuck Person,SF,6-8,220,1964-06-27,US,5,Auburn
+1992,12,IND,33,Mike Sanders,SF,6-6,210,1960-05-07,US,9,UCLA
+1992,12,IND,11,Detlef Schrempf,PF,6-10,235,1963-01-21,DE,6,Washington
+1992,12,IND,24,Rik Smits,C,7-4,250,1966-08-23,NL,3,Marist College
+1992,12,IND,41,LaSalle Thompson,C,6-10,245,1961-06-23,US,9,Texas
+1992,12,IND,44,Kenny Williams,SF,6-9,205,1969-06-09,US,1,Barton County Community College
+1992,12,IND,4,Micheal Williams,PG,6-2,175,1966-07-23,US,3,Baylor
+1992,12,IND,14,Randy Wittman,SG,6-6,210,1959-10-28,US,8,Indiana

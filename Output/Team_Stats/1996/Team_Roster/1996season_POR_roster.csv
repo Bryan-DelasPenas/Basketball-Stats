@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-12,Randolph Childress,PG,6-2,188,1972-09-21,US,R,Wake Forest
-38,Anthony Cook,PF,6-9,205,1967-03-19,US,3,Arizona
-24,Chris Dudley,C,6-11,235,1965-02-22,US,8,Yale
-44,Harvey Grant,PF,6-8,195,1965-07-04,US,7,"Clemson, Oklahoma"
-23,Aaron McKie,SG,6-5,209,1972-10-02,US,1,Temple
-3,Clifford Robinson,SF,6-10,225,1966-12-16,US,6,UConn
-26,James Robinson,PG,6-2,180,1970-08-31,US,2,Alabama
-21,Rumeal Robinson,PG,6-2,195,1966-11-13,JM,4,Michigan
-11,Arvydas Sabonis,C,7-3,279,1964-12-19,LT,R,
-40,Reggie Slater,PF,6-7,215,1970-08-27,US,1,Wyoming
-27,Elmore Spencer,C,7-0,270,1969-12-06,US,3,"Georgia, UNLV"
-1,Rod Strickland,PG,6-3,175,1966-07-11,US,7,DePaul
-33,Gary Trent,PF,6-8,250,1974-09-22,US,R,Ohio University
-52,Buck Williams,PF,6-8,215,1960-03-08,US,14,Maryland
-10,Dontonio Wingfield,SF,6-8,256,1974-06-23,US,1,Cincinnati
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1996,25,POR,12,Randolph Childress,PG,6-2,188,1972-09-21,US,R,Wake Forest
+1996,25,POR,38,Anthony Cook,PF,6-9,205,1967-03-19,US,3,Arizona
+1996,25,POR,24,Chris Dudley,C,6-11,235,1965-02-22,US,8,Yale
+1996,25,POR,44,Harvey Grant,PF,6-8,195,1965-07-04,US,7,"Clemson, Oklahoma"
+1996,25,POR,23,Aaron McKie,SG,6-5,209,1972-10-02,US,1,Temple
+1996,25,POR,3,Clifford Robinson,SF,6-10,225,1966-12-16,US,6,UConn
+1996,25,POR,26,James Robinson,PG,6-2,180,1970-08-31,US,2,Alabama
+1996,25,POR,21,Rumeal Robinson,PG,6-2,195,1966-11-13,JM,4,Michigan
+1996,25,POR,11,Arvydas Sabonis,C,7-3,279,1964-12-19,LT,R,
+1996,25,POR,40,Reggie Slater,PF,6-7,215,1970-08-27,US,1,Wyoming
+1996,25,POR,27,Elmore Spencer,C,7-0,270,1969-12-06,US,3,"Georgia, UNLV"
+1996,25,POR,1,Rod Strickland,PG,6-3,175,1966-07-11,US,7,DePaul
+1996,25,POR,33,Gary Trent,PF,6-8,250,1974-09-22,US,R,Ohio University
+1996,25,POR,52,Buck Williams,PF,6-8,215,1960-03-08,US,14,Maryland
+1996,25,POR,10,Dontonio Wingfield,SF,6-8,256,1974-06-23,US,1,Cincinnati

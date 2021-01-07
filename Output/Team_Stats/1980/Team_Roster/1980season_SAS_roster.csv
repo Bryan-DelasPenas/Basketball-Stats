@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-21,Tim Bassett,PF,6-8,225,1951-04-01,US,6,Georgia
-23,Harry Davis,SF,6-7,220,1956-01-27,US,1,Florida State
-1,Mike Evans,SG,6-1,170,1955-04-19,US,R,Kansas State
-12,Mike Gale,PG,6-4,185,1950-07-18,US,8,Elizabeth City State University
-44,George Gervin,SG,6-7,180,1952-04-27,US,7,Eastern Michigan
-30,Paul Griffin,C,6-9,205,1954-01-20,US,3,Western Michigan
-35,Larry Kenon,PF,6-9,205,1952-12-13,US,6,Memphis
-21,Irv Kiffin,SF,6-9,225,1951-08-08,US,R,Oklahoma Baptist University
-40,Sylvester Norris,C,6-11,220,1957-02-18,US,R,Jackson State University
-53,Mark Olberding,SF,6-8,225,1956-04-21,US,4,Minnesota
-5,Billy Paultz,C,6-11,235,1948-07-30,US,9,"Cameron University, St. John's"
-54,Wiley Peck,SF,6-7,220,1957-09-15,US,R,Mississippi State
-31,Kevin Restani,SF,6-9,225,1951-12-23,US,5,San Francisco
-34,John Shumate,PF,6-9,235,1952-04-06,US,3,Notre Dame
-13,James Silas,PG,6-1,180,1949-02-11,US,7,Stephen F. Austin
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1980,27,SAS,21,Tim Bassett,PF,6-8,225,1951-04-01,US,6,Georgia
+1980,27,SAS,23,Harry Davis,SF,6-7,220,1956-01-27,US,1,Florida State
+1980,27,SAS,1,Mike Evans,SG,6-1,170,1955-04-19,US,R,Kansas State
+1980,27,SAS,12,Mike Gale,PG,6-4,185,1950-07-18,US,8,Elizabeth City State University
+1980,27,SAS,44,George Gervin,SG,6-7,180,1952-04-27,US,7,Eastern Michigan
+1980,27,SAS,30,Paul Griffin,C,6-9,205,1954-01-20,US,3,Western Michigan
+1980,27,SAS,35,Larry Kenon,PF,6-9,205,1952-12-13,US,6,Memphis
+1980,27,SAS,21,Irv Kiffin,SF,6-9,225,1951-08-08,US,R,Oklahoma Baptist University
+1980,27,SAS,40,Sylvester Norris,C,6-11,220,1957-02-18,US,R,Jackson State University
+1980,27,SAS,53,Mark Olberding,SF,6-8,225,1956-04-21,US,4,Minnesota
+1980,27,SAS,5,Billy Paultz,C,6-11,235,1948-07-30,US,9,"Cameron University, St. John's"
+1980,27,SAS,54,Wiley Peck,SF,6-7,220,1957-09-15,US,R,Mississippi State
+1980,27,SAS,31,Kevin Restani,SF,6-9,225,1951-12-23,US,5,San Francisco
+1980,27,SAS,34,John Shumate,PF,6-9,235,1952-04-06,US,3,Notre Dame
+1980,27,SAS,13,James Silas,PG,6-1,180,1949-02-11,US,7,Stephen F. Austin

@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-31,Brent Barry,SG,6-6,185,1971-12-31,US,1,Oregon State
-24,Terry Dehere,PG,6-2,190,1971-09-12,US,3,Seton Hall
-0,Kevin Duckworth,C,7-0,275,1964-04-01,US,10,Eastern Illinois University
-50,Rich Manning,PF,6-11,253,1970-06-23,US,1,"Syracuse, Washington"
-15,Darrick Martin,PG,5-11,170,1971-03-06,US,2,UCLA
-7,Lamond Murray,SF,6-7,236,1973-04-20,US,2,California
-45,Bo Outlaw,PF,6-8,210,1971-04-13,US,3,"South Plains College, Houston"
-52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,2,Nebraska
-2,Pooh Richardson,PG,6-1,180,1966-05-14,US,7,UCLA
-53,Stanley Roberts,C,7-0,285,1970-02-07,US,4,LSU
-54,Rodney Rogers,SF,6-7,235,1971-06-20,US,3,Wake Forest
-33,Dwayne Schintzius,C,7-1,260,1968-10-14,US,6,Florida
-21,Malik Sealy,SG,6-8,190,1970-02-01,US,4,St. John's
-35,Loy Vaught,PF,6-9,230,1968-02-27,US,6,Michigan
-55,Lorenzen Wright,C,6-11,225,1975-11-04,US,R,Memphis
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,13,LAC,31,Brent Barry,SG,6-6,185,1971-12-31,US,1,Oregon State
+1997,13,LAC,24,Terry Dehere,PG,6-2,190,1971-09-12,US,3,Seton Hall
+1997,13,LAC,0,Kevin Duckworth,C,7-0,275,1964-04-01,US,10,Eastern Illinois University
+1997,13,LAC,50,Rich Manning,PF,6-11,253,1970-06-23,US,1,"Syracuse, Washington"
+1997,13,LAC,15,Darrick Martin,PG,5-11,170,1971-03-06,US,2,UCLA
+1997,13,LAC,7,Lamond Murray,SF,6-7,236,1973-04-20,US,2,California
+1997,13,LAC,45,Bo Outlaw,PF,6-8,210,1971-04-13,US,3,"South Plains College, Houston"
+1997,13,LAC,52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,2,Nebraska
+1997,13,LAC,2,Pooh Richardson,PG,6-1,180,1966-05-14,US,7,UCLA
+1997,13,LAC,53,Stanley Roberts,C,7-0,285,1970-02-07,US,4,LSU
+1997,13,LAC,54,Rodney Rogers,SF,6-7,235,1971-06-20,US,3,Wake Forest
+1997,13,LAC,33,Dwayne Schintzius,C,7-1,260,1968-10-14,US,6,Florida
+1997,13,LAC,21,Malik Sealy,SG,6-8,190,1970-02-01,US,4,St. John's
+1997,13,LAC,35,Loy Vaught,PF,6-9,230,1968-02-27,US,6,Michigan
+1997,13,LAC,55,Lorenzen Wright,C,6-11,225,1975-11-04,US,R,Memphis

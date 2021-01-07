@@ -1,23 +1,23 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-21,Patrick Beverley,PG,6-1,180,1988-07-12,US,6,Arkansas
-11,Avery Bradley,SG,6-3,180,1990-11-26,US,8,Texas
-22,Wilson Chandler,SF,6-8,235,1987-05-10,US,10,DePaul
-31,Ángel Delgado,C,6-10,245,1994-11-20,DO,R,Seton Hall
-8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,9,
-2,Shai Gilgeous-Alexander,PG,6-5,180,1998-07-12,CA,R,Kentucky
-13,Marcin Gortat,C,6-11,240,1984-02-17,PL,11,
-4,JaMychal Green,PF,6-8,227,1990-06-21,US,4,Alabama
-5,Montrezl Harrell,C,6-7,240,1994-01-26,US,3,Louisville
-34,Tobias Harris,PF,6-8,226,1992-07-15,US,7,Tennessee
-51,Boban Marjanović,C,7-4,290,1988-08-15,RS,3,
-12,Luc Mbah a Moute,PF,6-8,230,1986-09-09,CM,10,UCLA
-15,Johnathan Motley,PF,6-8,230,1995-05-04,US,1,Baylor
-10,Jerome Robinson,SG,6-4,190,1997-02-22,US,R,Boston College
-30,Mike Scott,PF,6-7,237,1988-07-16,US,6,Virginia
-20,Landry Shamet,SG,6-4,190,1997-03-13,US,R,Wichita State
-17,Garrett Temple,SG,6-5,195,1986-05-08,US,8,LSU
-4,Miloš Teodosić,PG,6-5,196,1987-03-19,RS,1,
-0,Sindarius Thornwell,SG,6-5,215,1994-11-15,US,1,South Carolina
-9,Tyrone Wallace,PG,6-5,198,1994-06-10,US,1,California
-23,Lou Williams,SG,6-1,175,1986-10-27,US,13,
-40,Ivica Zubac,C,7-0,240,1997-03-18,BA,2,
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2019,13,LAC,21,Patrick Beverley,PG,6-1,180,1988-07-12,US,6,Arkansas
+2019,13,LAC,11,Avery Bradley,SG,6-3,180,1990-11-26,US,8,Texas
+2019,13,LAC,22,Wilson Chandler,SF,6-8,235,1987-05-10,US,10,DePaul
+2019,13,LAC,31,Angel Delgado,C,6-10,245,1994-11-20,DO,R,Seton Hall
+2019,13,LAC,8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,9,
+2019,13,LAC,2,Shai Gilgeous-Alexander,PG,6-5,180,1998-07-12,CA,R,Kentucky
+2019,13,LAC,13,Marcin Gortat,C,6-11,240,1984-02-17,PL,11,
+2019,13,LAC,4,JaMychal Green,PF,6-8,227,1990-06-21,US,4,Alabama
+2019,13,LAC,5,Montrezl Harrell,C,6-7,240,1994-01-26,US,3,Louisville
+2019,13,LAC,34,Tobias Harris,PF,6-8,226,1992-07-15,US,7,Tennessee
+2019,13,LAC,51,Boban Marjanovic,C,7-4,290,1988-08-15,RS,3,
+2019,13,LAC,12,Luc Mbah a Moute,PF,6-8,230,1986-09-09,CM,10,UCLA
+2019,13,LAC,15,Johnathan Motley,PF,6-8,230,1995-05-04,US,1,Baylor
+2019,13,LAC,10,Jerome Robinson,SG,6-4,190,1997-02-22,US,R,Boston College
+2019,13,LAC,30,Mike Scott,PF,6-7,237,1988-07-16,US,6,Virginia
+2019,13,LAC,20,Landry Shamet,SG,6-4,190,1997-03-13,US,R,Wichita State
+2019,13,LAC,17,Garrett Temple,SG,6-5,195,1986-05-08,US,8,LSU
+2019,13,LAC,4,Milos Teodosic,PG,6-5,196,1987-03-19,RS,1,
+2019,13,LAC,0,Sindarius Thornwell,SG,6-5,215,1994-11-15,US,1,South Carolina
+2019,13,LAC,9,Tyrone Wallace,PG,6-5,198,1994-06-10,US,1,California
+2019,13,LAC,23,Lou Williams,SG,6-1,175,1986-10-27,US,13,
+2019,13,LAC,40,Ivica Zubac,C,7-0,240,1997-03-18,BA,2,

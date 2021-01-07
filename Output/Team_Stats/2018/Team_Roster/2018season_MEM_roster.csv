@@ -1,25 +1,25 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-24,Dillon Brooks,SF,6-7,225,1996-01-22,CA,R,Oregon
-8,MarShon Brooks,SG,6-5,200,1989-01-26,US,3,Providence
-6,Mario Chalmers,PG,6-2,190,1986-05-19,US,8,Kansas
-11,Mike Conley,PG,6-1,175,1987-10-11,US,10,Ohio State
-21,Deyonta Davis,C,6-11,237,1996-12-02,US,1,Michigan State
-8,James Ennis,SF,6-6,215,1990-07-01,US,3,Cal State Long Beach
-12,Tyreke Evans,PG,6-6,220,1989-09-19,US,8,Memphis
-33,Marc Gasol,C,6-11,255,1985-01-29,ES,9,
-0,JaMychal Green,PF,6-8,227,1990-06-21,US,3,Alabama
-5,Andrew Harrison,PG,6-6,213,1994-10-28,US,1,Kentucky
-4,Myke Henry,SF,6-6,210,1992-12-23,US,R,DePaul
-32,Vince Hunter,PF,6-8,208,1994-08-05,US,R,Texas-El Paso
-14,Brice Johnson,PF,6-10,230,1994-06-27,US,1,UNC
-14,Omari Johnson,PF,6-9,220,1989-11-26,JM,R,Oregon State
-1,Jarell Martin,PF,6-10,239,1994-05-24,US,2,LSU
-23,Ben McLemore,SG,6-3,195,1993-02-11,US,4,Kansas
-25,Chandler Parsons,SF,6-9,230,1988-10-25,US,6,Florida
-10,Ivan Rabb,PF,6-10,220,1997-02-04,US,R,California
-22,Xavier Rathan-Mayes,SG,6-4,208,1994-04-29,CA,R,Florida State
-7,Wayne Selden,SG,6-5,230,1994-09-30,US,1,Kansas
-2,Kobi Simmons,PG,6-5,166,1997-07-04,US,R,Arizona
-20,Marquis Teague,PG,6-2,189,1993-02-28,US,2,Kentucky
-3,Briante Weber,PG,6-2,165,1992-12-29,US,2,VCU
-34,Brandan Wright,PF,6-10,210,1987-10-05,US,9,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2018,15,MEM,24,Dillon Brooks,SF,6-7,225,1996-01-22,CA,R,Oregon
+2018,15,MEM,8,MarShon Brooks,SG,6-5,200,1989-01-26,US,3,Providence
+2018,15,MEM,6,Mario Chalmers,PG,6-2,190,1986-05-19,US,8,Kansas
+2018,15,MEM,11,Mike Conley,PG,6-1,175,1987-10-11,US,10,Ohio State
+2018,15,MEM,21,Deyonta Davis,C,6-11,237,1996-12-02,US,1,Michigan State
+2018,15,MEM,8,James Ennis,SF,6-6,215,1990-07-01,US,3,Cal State Long Beach
+2018,15,MEM,12,Tyreke Evans,PG,6-6,220,1989-09-19,US,8,Memphis
+2018,15,MEM,33,Marc Gasol,C,6-11,255,1985-01-29,ES,9,
+2018,15,MEM,0,JaMychal Green,PF,6-8,227,1990-06-21,US,3,Alabama
+2018,15,MEM,5,Andrew Harrison,PG,6-6,213,1994-10-28,US,1,Kentucky
+2018,15,MEM,4,Myke Henry,SF,6-6,210,1992-12-23,US,R,DePaul
+2018,15,MEM,32,Vince Hunter,PF,6-8,208,1994-08-05,US,R,Texas-El Paso
+2018,15,MEM,14,Brice Johnson,PF,6-10,230,1994-06-27,US,1,UNC
+2018,15,MEM,14,Omari Johnson,PF,6-9,220,1989-11-26,JM,R,Oregon State
+2018,15,MEM,1,Jarell Martin,PF,6-10,239,1994-05-24,US,2,LSU
+2018,15,MEM,23,Ben McLemore,SG,6-3,195,1993-02-11,US,4,Kansas
+2018,15,MEM,25,Chandler Parsons,SF,6-9,230,1988-10-25,US,6,Florida
+2018,15,MEM,10,Ivan Rabb,PF,6-10,220,1997-02-04,US,R,California
+2018,15,MEM,22,Xavier Rathan-Mayes,SG,6-4,208,1994-04-29,CA,R,Florida State
+2018,15,MEM,7,Wayne Selden,SG,6-5,230,1994-09-30,US,1,Kansas
+2018,15,MEM,2,Kobi Simmons,PG,6-5,166,1997-07-04,US,R,Arizona
+2018,15,MEM,20,Marquis Teague,PG,6-2,189,1993-02-28,US,2,Kentucky
+2018,15,MEM,3,Briante Weber,PG,6-2,165,1992-12-29,US,2,VCU
+2018,15,MEM,34,Brandan Wright,PF,6-10,210,1987-10-05,US,9,UNC

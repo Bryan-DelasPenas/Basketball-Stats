@@ -12,8 +12,10 @@ def create_output_directory(format):
     # Check if the directory was already made
     if(os.path.isdir(os.path.join(output_path, format)) == False):
         os.mkdir(os.path.join(output_path,format))
+        print('Creating new Output child Directory')
         return True
     else:
+        print("Output Directory child already made")
         return False
     
 '''
@@ -25,6 +27,8 @@ def create_output_child_directory(parent_directory, format):
     # Check if the directory was made
     if(os.path.isdir(os.path.join(output_path, format)) == False):
         os.mkdir(os.path.join(output_path,format))
+        print('Creating Child')
         return True
     else:
+        print('Already Made')
         return False

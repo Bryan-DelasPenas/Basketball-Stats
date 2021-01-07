@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Alec Burks,SG,6-6,214,1991-07-20,US,1,Colorado
-3,DeMarre Carroll,SF,6-6,215,1986-07-27,US,3,"Vanderbilt, Missouri"
-40,Jeremy Evans,PF,6-9,200,1987-10-24,US,2,Western Kentucky
-15,Derrick Favors,PF,6-9,265,1991-07-15,US,2,Georgia Tech
-8,Randy Foye,SG,6-4,213,1983-09-24,US,6,Villanova
-20,Gordon Hayward,SF,6-7,225,1990-03-23,US,2,Butler
-25,Al Jefferson,C,6-10,289,1985-01-04,US,8,
-0,Enes Kanter,C,6-10,250,1992-05-20,CH,1,
-24,Paul Millsap,PF,6-7,257,1985-02-10,US,6,Louisiana Tech
-55,Kevin Murphy,SG,6-5,185,1990-03-06,US,R,Tennessee Technological University
-6,Jamaal Tinsley,PG,6-3,195,1978-02-28,US,9,Iowa State
-11,Earl Watson,PG,6-1,195,1979-06-12,US,11,UCLA
-2,Marvin Williams,SF,6-8,237,1986-06-19,US,7,UNC
-5,Mo Williams,PG,6-1,198,1982-12-19,US,9,Alabama
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2013,29,UTA,10,Alec Burks,SG,6-6,214,1991-07-20,US,1,Colorado
+2013,29,UTA,3,DeMarre Carroll,SF,6-6,215,1986-07-27,US,3,"Vanderbilt, Missouri"
+2013,29,UTA,40,Jeremy Evans,PF,6-9,200,1987-10-24,US,2,Western Kentucky
+2013,29,UTA,15,Derrick Favors,PF,6-9,265,1991-07-15,US,2,Georgia Tech
+2013,29,UTA,8,Randy Foye,SG,6-4,213,1983-09-24,US,6,Villanova
+2013,29,UTA,20,Gordon Hayward,SF,6-7,225,1990-03-23,US,2,Butler
+2013,29,UTA,25,Al Jefferson,C,6-10,289,1985-01-04,US,8,
+2013,29,UTA,0,Enes Kanter,C,6-10,250,1992-05-20,CH,1,
+2013,29,UTA,24,Paul Millsap,PF,6-7,257,1985-02-10,US,6,Louisiana Tech
+2013,29,UTA,55,Kevin Murphy,SG,6-5,185,1990-03-06,US,R,Tennessee Technological University
+2013,29,UTA,6,Jamaal Tinsley,PG,6-3,195,1978-02-28,US,9,Iowa State
+2013,29,UTA,11,Earl Watson,PG,6-1,195,1979-06-12,US,11,UCLA
+2013,29,UTA,2,Marvin Williams,SF,6-8,237,1986-06-19,US,7,UNC
+2013,29,UTA,5,Mo Williams,PG,6-1,198,1982-12-19,US,9,Alabama

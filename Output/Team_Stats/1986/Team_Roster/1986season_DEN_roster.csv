@@ -1,13 +1,13 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-42,Wayne Cooper,C,6-10,220,1956-11-16,US,7,New Orleans
-23,T.R. Dunn,SG,6-4,192,1955-02-01,US,8,Alabama
-2,Alex English,SF,6-7,190,1954-01-05,US,9,South Carolina
-5,Mike Evans,PG,6-1,170,1955-04-19,US,6,Kansas State
-24,Bill Hanzlik,SF,6-7,185,1957-12-06,US,5,Notre Dame
-12,Fat Lever,PG,6-3,170,1960-08-18,US,3,Arizona State
-33,Calvin Natt,PF,6-6,220,1957-01-08,US,6,Louisiana-Monroe
-41,Blair Rasmussen,C,7-0,250,1962-11-13,US,R,Oregon
-34,Danny Schayes,C,6-11,235,1959-05-10,US,4,Syracuse
-20,Elston Turner,SG,6-5,190,1959-06-10,US,4,Ole Miss
-10,Willie White,SG,6-3,195,1962-08-20,US,1,Chattanooga
-31,Pete Williams,PF,6-7,190,1965-03-10,US,R,Arizona
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1986,8,DEN,42,Wayne Cooper,C,6-10,220,1956-11-16,US,7,New Orleans
+1986,8,DEN,23,T.R. Dunn,SG,6-4,192,1955-02-01,US,8,Alabama
+1986,8,DEN,2,Alex English,SF,6-7,190,1954-01-05,US,9,South Carolina
+1986,8,DEN,5,Mike Evans,PG,6-1,170,1955-04-19,US,6,Kansas State
+1986,8,DEN,24,Bill Hanzlik,SF,6-7,185,1957-12-06,US,5,Notre Dame
+1986,8,DEN,12,Fat Lever,PG,6-3,170,1960-08-18,US,3,Arizona State
+1986,8,DEN,33,Calvin Natt,PF,6-6,220,1957-01-08,US,6,Louisiana-Monroe
+1986,8,DEN,41,Blair Rasmussen,C,7-0,250,1962-11-13,US,R,Oregon
+1986,8,DEN,34,Danny Schayes,C,6-11,235,1959-05-10,US,4,Syracuse
+1986,8,DEN,20,Elston Turner,SG,6-5,190,1959-06-10,US,4,Ole Miss
+1986,8,DEN,10,Willie White,SG,6-3,195,1962-08-20,US,1,Chattanooga
+1986,8,DEN,31,Pete Williams,PF,6-7,190,1965-03-10,US,R,Arizona

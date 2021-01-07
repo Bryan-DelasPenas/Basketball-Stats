@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-2,Greg Anthony,PG,6-0,176,1967-11-15,US,R,"University of Portland, UNLV"
-35,James Donaldson,C,7-2,275,1957-08-16,GB,11,Washington State
-41,Patrick Eddie,C,6-11,240,1967-12-27,US,R,"Arkansas State University, Ole Miss"
-33,Patrick Ewing,C,7-0,240,1962-08-05,JM,6,Georgetown
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,4,St. John's
-14,Anthony Mason,PF,6-7,250,1966-12-14,US,2,Tennessee State
-44,Tim McCormick,C,6-11,240,1962-03-10,US,7,Michigan
-32,Xavier McDaniel,SF,6-7,205,1963-06-04,US,6,Wichita State
-4,Carlton McKinney,SG,6-4,190,1964-10-21,US,1,"Tulsa, SMU"
-34,Charles Oakley,PF,6-8,225,1963-12-18,US,6,Virginia Union University
-23,Brian Quinnett,SG,6-8,235,1966-05-30,US,2,Washington State
-3,John Starks,SG,6-3,180,1965-08-10,US,2,Oklahoma State
-55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,11,UCLA
-21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,6,Chattanooga
-7-20,Kennard Winchester,SF,6-5,210,1966-09-03,US,1,"James Madison University, Averett University"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1992,20,NYK,2,Greg Anthony,PG,6-0,176,1967-11-15,US,R,"University of Portland, UNLV"
+1992,20,NYK,35,James Donaldson,C,7-2,275,1957-08-16,GB,11,Washington State
+1992,20,NYK,41,Patrick Eddie,C,6-11,240,1967-12-27,US,R,"Arkansas State University, Ole Miss"
+1992,20,NYK,33,Patrick Ewing,C,7-0,240,1962-08-05,JM,6,Georgetown
+1992,20,NYK,13,Mark Jackson,PG,6-1,180,1965-04-01,US,4,St. John's
+1992,20,NYK,14,Anthony Mason,PF,6-7,250,1966-12-14,US,2,Tennessee State
+1992,20,NYK,44,Tim McCormick,C,6-11,240,1962-03-10,US,7,Michigan
+1992,20,NYK,32,Xavier McDaniel,SF,6-7,205,1963-06-04,US,6,Wichita State
+1992,20,NYK,4,Carlton McKinney,SG,6-4,190,1964-10-21,US,1,"Tulsa, SMU"
+1992,20,NYK,34,Charles Oakley,PF,6-8,225,1963-12-18,US,6,Virginia Union University
+1992,20,NYK,23,Brian Quinnett,SG,6-8,235,1966-05-30,US,2,Washington State
+1992,20,NYK,3,John Starks,SG,6-3,180,1965-08-10,US,2,Oklahoma State
+1992,20,NYK,55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,11,UCLA
+1992,20,NYK,21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,6,Chattanooga
+1992,20,NYK,7-20,Kennard Winchester,SF,6-5,210,1966-09-03,US,1,"James Madison University, Averett University"

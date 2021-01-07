@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-42,Vin Baker,PF,6-11,232,1971-11-23,US,5,University of Hartford
-12,Drew Barry,SG,6-5,191,1973-02-17,US,1,Georgia Tech
-4,James Cotton,SG,6-5,220,1975-12-14,US,1,Cal State Long Beach
-22,John Crotty,PG,6-1,185,1969-07-15,US,6,Virginia
-9,Dale Ellis,SF,6-7,205,1960-08-06,US,15,Tennessee
-33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,10,Bradley
-7,Rashard Lewis,SF,6-10,215,1979-08-08,US,R,
-24,Don MacLean,PF,6-10,235,1970-01-16,US,6,UCLA
-34,Jelani McCoy,C,6-10,245,1977-12-06,US,R,UCLA
-6,Moochie Norris,PG,6-1,175,1973-07-27,US,1,"Auburn, University of West Florida"
-30,Billy Owens,SF,6-8,220,1969-05-01,US,7,Syracuse
-20,Gary Payton,PG,6-4,180,1968-07-23,US,8,Oregon State
-0,Olden Polynice,C,6-11,220,1964-11-21,HT,11,Virginia
-11,Detlef Schrempf,SF,6-10,235,1963-01-21,DE,13,Washington
-5,Vladimir Stepania,C,7-0,236,1976-05-08,GE,R,
-15,Aaron Williams,PF,6-9,220,1971-10-02,US,4,Xavier
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1999,21,SEA,42,Vin Baker,PF,6-11,232,1971-11-23,US,5,University of Hartford
+1999,21,SEA,12,Drew Barry,SG,6-5,191,1973-02-17,US,1,Georgia Tech
+1999,21,SEA,4,James Cotton,SG,6-5,220,1975-12-14,US,1,Cal State Long Beach
+1999,21,SEA,22,John Crotty,PG,6-1,185,1969-07-15,US,6,Virginia
+1999,21,SEA,9,Dale Ellis,SF,6-7,205,1960-08-06,US,15,Tennessee
+1999,21,SEA,33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,10,Bradley
+1999,21,SEA,7,Rashard Lewis,SF,6-10,215,1979-08-08,US,R,
+1999,21,SEA,24,Don MacLean,PF,6-10,235,1970-01-16,US,6,UCLA
+1999,21,SEA,34,Jelani McCoy,C,6-10,245,1977-12-06,US,R,UCLA
+1999,21,SEA,6,Moochie Norris,PG,6-1,175,1973-07-27,US,1,"Auburn, University of West Florida"
+1999,21,SEA,30,Billy Owens,SF,6-8,220,1969-05-01,US,7,Syracuse
+1999,21,SEA,20,Gary Payton,PG,6-4,180,1968-07-23,US,8,Oregon State
+1999,21,SEA,0,Olden Polynice,C,6-11,220,1964-11-21,HT,11,Virginia
+1999,21,SEA,11,Detlef Schrempf,SF,6-10,235,1963-01-21,DE,13,Washington
+1999,21,SEA,5,Vladimir Stepania,C,7-0,236,1976-05-08,GE,R,
+1999,21,SEA,15,Aaron Williams,PF,6-9,220,1971-10-02,US,4,Xavier

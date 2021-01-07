@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-34,Cliff Alexander,PF,6-8,245,1995-11-16,US,R,Kansas
-8,Al-Farouq Aminu,SF,6-8,220,1990-09-21,US,5,Wake Forest
-5,Pat Connaughton,SG,6-5,209,1993-01-06,US,R,Notre Dame
-23,Allen Crabbe,SG,6-5,212,1992-04-09,US,2,California
-17,Ed Davis,PF,6-9,218,1989-06-05,US,5,UNC
-10,Tim Frazier,PG,6-0,170,1990-11-01,US,1,Penn State
-4,Maurice Harkless,SF,6-7,220,1993-05-11,US,3,St. John's
-9,Gerald Henderson,SG,6-5,215,1987-12-09,US,6,Duke
-35,Chris Kaman,C,7-0,265,1982-04-28,US,12,Central Michigan University
-11,Meyers Leonard,PF,7-0,260,1992-02-27,US,3,Illinois
-0,Damian Lillard,PG,6-2,195,1990-07-15,US,3,Weber State
-3,CJ McCollum,SG,6-3,190,1991-09-19,US,2,Lehigh
-44,Luis Montero,SG,6-7,185,1993-04-06,DO,R,Westchester CC
-24,Mason Plumlee,C,6-11,254,1990-03-05,US,2,Duke
-2,Brian Roberts,PG,6-1,173,1985-12-03,US,3,Dayton
-21,Noah Vonleh,PF,6-10,257,1995-08-24,US,1,Indiana
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2016,25,POR,34,Cliff Alexander,PF,6-8,245,1995-11-16,US,R,Kansas
+2016,25,POR,8,Al-Farouq Aminu,SF,6-8,220,1990-09-21,US,5,Wake Forest
+2016,25,POR,5,Pat Connaughton,SG,6-5,209,1993-01-06,US,R,Notre Dame
+2016,25,POR,23,Allen Crabbe,SG,6-5,212,1992-04-09,US,2,California
+2016,25,POR,17,Ed Davis,PF,6-9,218,1989-06-05,US,5,UNC
+2016,25,POR,10,Tim Frazier,PG,6-0,170,1990-11-01,US,1,Penn State
+2016,25,POR,4,Maurice Harkless,SF,6-7,220,1993-05-11,US,3,St. John's
+2016,25,POR,9,Gerald Henderson,SG,6-5,215,1987-12-09,US,6,Duke
+2016,25,POR,35,Chris Kaman,C,7-0,265,1982-04-28,US,12,Central Michigan University
+2016,25,POR,11,Meyers Leonard,PF,7-0,260,1992-02-27,US,3,Illinois
+2016,25,POR,0,Damian Lillard,PG,6-2,195,1990-07-15,US,3,Weber State
+2016,25,POR,3,CJ McCollum,SG,6-3,190,1991-09-19,US,2,Lehigh
+2016,25,POR,44,Luis Montero,SG,6-7,185,1993-04-06,DO,R,Westchester CC
+2016,25,POR,24,Mason Plumlee,C,6-11,254,1990-03-05,US,2,Duke
+2016,25,POR,2,Brian Roberts,PG,6-1,173,1985-12-03,US,3,Dayton
+2016,25,POR,21,Noah Vonleh,PF,6-10,257,1995-08-24,US,1,Indiana

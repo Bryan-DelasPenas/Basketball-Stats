@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-3,Hassan Adams,SG,6-4,220,1984-06-20,US,1,Arizona
-3,Marcus Banks,PG,6-2,200,1981-11-19,US,5,UNLV
-7,Andrea Bargnani,PF,7-0,245,1985-10-26,IT,2,
-4,Chris Bosh,C,6-11,235,1984-03-24,US,5,Georgia Tech
-8,José Calderón,PG,6-3,200,1981-09-28,ES,3,
-5,Quincy Douby,PG,6-3,175,1984-05-16,US,2,Rutgers University
-14,Joey Graham,SF,6-7,225,1982-06-11,US,3,"Central Florida, Oklahoma State"
-43,Kris Humphries,SF,6-9,235,1985-02-06,US,4,Minnesota
-21,Nathan Jawai,PF,6-10,280,1986-10-10,AU,R,Midland College
-24,Jason Kapono,SG,6-8,213,1981-02-04,US,5,UCLA
-31,Shawn Marion,SF,6-7,220,1978-05-07,US,9,UNLV
-44,Pops Mensah-Bonsu,PF,6-9,240,1983-09-07,GB,1,George Washington
-33,Jamario Moon,SF,6-8,205,1980-06-13,US,1,Meridian Community College
-13,Patrick O'Bryant,C,7-0,260,1986-06-20,US,2,Bradley
-6,Jermaine O'Neal,C,6-11,226,1978-10-13,US,12,
-18,Anthony Parker,SG,6-6,215,1975-06-19,US,5,Bradley
-5,Will Solomon,PG,6-1,185,1978-07-20,US,1,Clemson
-1,Roko Ukić,PG,6-5,183,1984-05-12,HR,R,
-77,Jake Voskuhl,C,6-11,245,1977-11-01,US,8,UConn
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2009,28,TOR,3,Hassan Adams,SG,6-4,220,1984-06-20,US,1,Arizona
+2009,28,TOR,3,Marcus Banks,PG,6-2,200,1981-11-19,US,5,UNLV
+2009,28,TOR,7,Andrea Bargnani,PF,7-0,245,1985-10-26,IT,2,
+2009,28,TOR,4,Chris Bosh,C,6-11,235,1984-03-24,US,5,Georgia Tech
+2009,28,TOR,8,Jose Calderon,PG,6-3,200,1981-09-28,ES,3,
+2009,28,TOR,5,Quincy Douby,PG,6-3,175,1984-05-16,US,2,Rutgers University
+2009,28,TOR,14,Joey Graham,SF,6-7,225,1982-06-11,US,3,"Central Florida, Oklahoma State"
+2009,28,TOR,43,Kris Humphries,SF,6-9,235,1985-02-06,US,4,Minnesota
+2009,28,TOR,21,Nathan Jawai,PF,6-10,280,1986-10-10,AU,R,Midland College
+2009,28,TOR,24,Jason Kapono,SG,6-8,213,1981-02-04,US,5,UCLA
+2009,28,TOR,31,Shawn Marion,SF,6-7,220,1978-05-07,US,9,UNLV
+2009,28,TOR,44,Pops Mensah-Bonsu,PF,6-9,240,1983-09-07,GB,1,George Washington
+2009,28,TOR,33,Jamario Moon,SF,6-8,205,1980-06-13,US,1,Meridian Community College
+2009,28,TOR,13,Patrick O'Bryant,C,7-0,260,1986-06-20,US,2,Bradley
+2009,28,TOR,6,Jermaine O'Neal,C,6-11,226,1978-10-13,US,12,
+2009,28,TOR,18,Anthony Parker,SG,6-6,215,1975-06-19,US,5,Bradley
+2009,28,TOR,5,Will Solomon,PG,6-1,185,1978-07-20,US,1,Clemson
+2009,28,TOR,1,Roko Ukic,PG,6-5,183,1984-05-12,HR,R,
+2009,28,TOR,77,Jake Voskuhl,C,6-11,245,1977-11-01,US,8,UConn

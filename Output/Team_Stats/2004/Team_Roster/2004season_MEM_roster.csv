@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-31,Shane Battier,SF,6-8,220,1978-09-09,US,2,Duke
-3,Troy Bell,PG,6-1,180,1980-11-10,US,R,Boston College
-16,Pau Gasol,PF,7-0,250,1980-07-06,ES,2,
-40,Ryan Humphrey,PF,6-8,235,1979-07-24,US,1,"Oklahoma, Notre Dame"
-30,Dahntay Jones,SG,6-6,225,1980-12-27,US,R,"Rutgers University, Duke"
-33,Mike Miller,SF,6-8,218,1980-02-19,US,3,Florida
-45,Bo Outlaw,PF,6-8,210,1971-04-13,US,10,"South Plains College, Houston"
-1,Wesley Person,SG,6-6,195,1971-03-28,US,9,Auburn
-41,James Posey,SG,6-8,215,1977-01-13,US,4,Xavier
-0,Theron Smith,SF,6-8,225,1980-10-03,US,R,Ball State University
-4,Stromile Swift,PF,6-9,225,1979-11-21,US,3,LSU
-12,Jake Tsakalidis,C,7-2,285,1979-06-10,GE,3,
-25,Earl Watson,PG,6-1,195,1979-06-12,US,2,UCLA
-6,Bonzi Wells,SG,6-5,210,1976-09-28,US,5,Ball State University
-2,Jason Williams,PG,6-1,190,1975-11-18,US,5,"Marshall, Florida"
-42,Lorenzen Wright,C,6-11,225,1975-11-04,US,7,Memphis
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2004,15,MEM,31,Shane Battier,SF,6-8,220,1978-09-09,US,2,Duke
+2004,15,MEM,3,Troy Bell,PG,6-1,180,1980-11-10,US,R,Boston College
+2004,15,MEM,16,Pau Gasol,PF,7-0,250,1980-07-06,ES,2,
+2004,15,MEM,40,Ryan Humphrey,PF,6-8,235,1979-07-24,US,1,"Oklahoma, Notre Dame"
+2004,15,MEM,30,Dahntay Jones,SG,6-6,225,1980-12-27,US,R,"Rutgers University, Duke"
+2004,15,MEM,33,Mike Miller,SF,6-8,218,1980-02-19,US,3,Florida
+2004,15,MEM,45,Bo Outlaw,PF,6-8,210,1971-04-13,US,10,"South Plains College, Houston"
+2004,15,MEM,1,Wesley Person,SG,6-6,195,1971-03-28,US,9,Auburn
+2004,15,MEM,41,James Posey,SG,6-8,215,1977-01-13,US,4,Xavier
+2004,15,MEM,0,Theron Smith,SF,6-8,225,1980-10-03,US,R,Ball State University
+2004,15,MEM,4,Stromile Swift,PF,6-9,225,1979-11-21,US,3,LSU
+2004,15,MEM,12,Jake Tsakalidis,C,7-2,285,1979-06-10,GE,3,
+2004,15,MEM,25,Earl Watson,PG,6-1,195,1979-06-12,US,2,UCLA
+2004,15,MEM,6,Bonzi Wells,SG,6-5,210,1976-09-28,US,5,Ball State University
+2004,15,MEM,2,Jason Williams,PG,6-1,190,1975-11-18,US,5,"Marshall, Florida"
+2004,15,MEM,42,Lorenzen Wright,C,6-11,225,1975-11-04,US,7,Memphis

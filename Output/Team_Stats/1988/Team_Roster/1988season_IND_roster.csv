@@ -1,14 +1,14 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-15,Ron Anderson,SF,6-7,215,1958-10-15,US,3,Fresno State
-54,Greg Dreiling,C,7-1,250,1962-11-07,US,1,"Wichita State, Kansas"
-10,Vern Fleming,PG,6-5,185,1962-02-04,US,3,Georgia
-55,Stuart Gray,C,7-0,235,1963-05-27,PA,3,UCLA
-25,John Long,SG,6-5,195,1956-08-28,US,9,Detroit Mercy
-31,Reggie Miller,SG,6-7,185,1965-08-24,US,R,UCLA
-45,Chuck Person,SF,6-8,220,1964-06-27,US,1,Auburn
-24,Brian Rowsom,PF,6-9,220,1965-10-23,US,R,UNC Wilmington
-3,Scott Skiles,PG,6-1,180,1964-03-05,US,1,Michigan State
-40,Steve Stipanovich,C,6-11,245,1960-11-17,US,4,Missouri
-23,Wayman Tisdale,PF,6-9,240,1964-06-09,US,2,Oklahoma
-5,Clinton Wheeler,PG,6-1,185,1959-10-27,US,R,William Paterson University
-32,Herb Williams,C,6-10,242,1958-02-16,US,6,Ohio State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1988,12,IND,15,Ron Anderson,SF,6-7,215,1958-10-15,US,3,Fresno State
+1988,12,IND,54,Greg Dreiling,C,7-1,250,1962-11-07,US,1,"Wichita State, Kansas"
+1988,12,IND,10,Vern Fleming,PG,6-5,185,1962-02-04,US,3,Georgia
+1988,12,IND,55,Stuart Gray,C,7-0,235,1963-05-27,PA,3,UCLA
+1988,12,IND,25,John Long,SG,6-5,195,1956-08-28,US,9,Detroit Mercy
+1988,12,IND,31,Reggie Miller,SG,6-7,185,1965-08-24,US,R,UCLA
+1988,12,IND,45,Chuck Person,SF,6-8,220,1964-06-27,US,1,Auburn
+1988,12,IND,24,Brian Rowsom,PF,6-9,220,1965-10-23,US,R,UNC Wilmington
+1988,12,IND,3,Scott Skiles,PG,6-1,180,1964-03-05,US,1,Michigan State
+1988,12,IND,40,Steve Stipanovich,C,6-11,245,1960-11-17,US,4,Missouri
+1988,12,IND,23,Wayman Tisdale,PF,6-9,240,1964-06-09,US,2,Oklahoma
+1988,12,IND,5,Clinton Wheeler,PG,6-1,185,1959-10-27,US,R,William Paterson University
+1988,12,IND,32,Herb Williams,C,6-10,242,1958-02-16,US,6,Ohio State

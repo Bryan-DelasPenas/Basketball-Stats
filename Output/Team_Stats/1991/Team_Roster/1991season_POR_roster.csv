@@ -1,14 +1,14 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-31,Alaa Abdelnaby,PF,6-10,240,1968-06-24,EG,R,Duke
-9,Danny Ainge,SG,6-4,175,1959-03-17,US,9,BYU
-2,Mark Bryant,PF,6-9,245,1965-04-25,US,2,Seton Hall
-42,Wayne Cooper,C,6-10,220,1956-11-16,US,12,New Orleans
-6,Walter Davis,SG,6-6,193,1954-09-09,US,13,UNC
-22,Clyde Drexler,SG,6-7,210,1962-06-22,US,7,Houston
-0,Kevin Duckworth,C,7-0,275,1964-04-01,US,4,Eastern Illinois University
-25,Jerome Kersey,SF,6-7,215,1962-06-26,US,6,Longwood University
-44,Dražen Petrović,SG,6-5,195,1964-10-22,HR,1,
-30,Terry Porter,PG,6-3,195,1963-04-08,US,5,University of Wisconsin-Stevens Point
-3,Clifford Robinson,PF,6-10,225,1966-12-16,US,1,UConn
-52,Buck Williams,PF,6-8,215,1960-03-08,US,9,Maryland
-21,Danny Young,PG,6-3,175,1962-07-26,US,6,Wake Forest
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1991,25,POR,31,Alaa Abdelnaby,PF,6-10,240,1968-06-24,EG,R,Duke
+1991,25,POR,9,Danny Ainge,SG,6-4,175,1959-03-17,US,9,BYU
+1991,25,POR,2,Mark Bryant,PF,6-9,245,1965-04-25,US,2,Seton Hall
+1991,25,POR,42,Wayne Cooper,C,6-10,220,1956-11-16,US,12,New Orleans
+1991,25,POR,6,Walter Davis,SG,6-6,193,1954-09-09,US,13,UNC
+1991,25,POR,22,Clyde Drexler,SG,6-7,210,1962-06-22,US,7,Houston
+1991,25,POR,0,Kevin Duckworth,C,7-0,275,1964-04-01,US,4,Eastern Illinois University
+1991,25,POR,25,Jerome Kersey,SF,6-7,215,1962-06-26,US,6,Longwood University
+1991,25,POR,44,Drazen Petrovic,SG,6-5,195,1964-10-22,HR,1,
+1991,25,POR,30,Terry Porter,PG,6-3,195,1963-04-08,US,5,University of Wisconsin-Stevens Point
+1991,25,POR,3,Clifford Robinson,PF,6-10,225,1966-12-16,US,1,UConn
+1991,25,POR,52,Buck Williams,PF,6-8,215,1960-03-08,US,9,Maryland
+1991,25,POR,21,Danny Young,PG,6-3,175,1962-07-26,US,6,Wake Forest

@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Otis Birdsong,SG,6-3,190,1955-12-09,US,3,Houston
-13,Leon Douglas,C,6-10,230,1954-08-26,US,4,Alabama
-1,Phil Ford,PG,6-2,175,1956-02-09,US,2,UNC
-22,Gus Gerard,SF,6-8,200,1953-07-27,US,6,Virginia
-20,Ernie Grunfeld,SF,6-6,210,1955-04-24,RO,3,Tennessee
-51,Reggie King,PF,6-6,225,1957-02-14,US,1,Alabama
-44,Sam Lacey,C,6-10,235,1948-03-28,US,10,New Mexico State
-24,John Lambert,PF,6-10,225,1953-01-14,US,5,USC
-50,Joe Meriweather,C,6-10,215,1953-10-26,US,5,Southern Illinois
-4,Frankie Sanders,SF,6-6,200,1957-01-23,US,1,Southern University and A&M College
-11-12,Lloyd Walton,PG,6-0,160,1953-11-23,US,4,Marquette
-15,Scott Wedman,SF,6-7,215,1952-07-29,US,6,Colorado
-12,Jo Jo White,PG,6-3,190,1946-11-16,US,11,Kansas
-43,Hawkeye Whitney,SG,6-5,235,1957-06-22,US,R,NC State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1981,26,KCK,10,Otis Birdsong,SG,6-3,190,1955-12-09,US,3,Houston
+1981,26,KCK,13,Leon Douglas,C,6-10,230,1954-08-26,US,4,Alabama
+1981,26,KCK,1,Phil Ford,PG,6-2,175,1956-02-09,US,2,UNC
+1981,26,KCK,22,Gus Gerard,SF,6-8,200,1953-07-27,US,6,Virginia
+1981,26,KCK,20,Ernie Grunfeld,SF,6-6,210,1955-04-24,RO,3,Tennessee
+1981,26,KCK,51,Reggie King,PF,6-6,225,1957-02-14,US,1,Alabama
+1981,26,KCK,44,Sam Lacey,C,6-10,235,1948-03-28,US,10,New Mexico State
+1981,26,KCK,24,John Lambert,PF,6-10,225,1953-01-14,US,5,USC
+1981,26,KCK,50,Joe Meriweather,C,6-10,215,1953-10-26,US,5,Southern Illinois
+1981,26,KCK,4,Frankie Sanders,SF,6-6,200,1957-01-23,US,1,Southern University and A&M College
+1981,26,KCK,11-12,Lloyd Walton,PG,6-0,160,1953-11-23,US,4,Marquette
+1981,26,KCK,15,Scott Wedman,SF,6-7,215,1952-07-29,US,6,Colorado
+1981,26,KCK,12,Jo Jo White,PG,6-3,190,1946-11-16,US,11,Kansas
+1981,26,KCK,43,Hawkeye Whitney,SG,6-5,235,1957-06-22,US,R,NC State

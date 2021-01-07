@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-10,Darrell Armstrong,PG,6-0,170,1968-06-22,US,10,Fayetteville State University
-52,Calvin Booth,C,6-11,230,1976-05-07,US,5,Penn State
-44,Shawn Bradley,C,7-6,235,1972-03-22,DE,11,BYU
-25,Erick Dampier,C,6-11,265,1975-07-14,US,8,Mississippi State
-6,Marquis Daniels,SG,6-6,200,1981-01-07,US,1,Auburn
-21,Dan Dickau,PG,6-0,190,1978-09-16,US,2,"Washington, Gonzaga"
-4,Michael Finley,SG,6-7,215,1973-03-06,US,9,Wisconsin
-34,Devin Harris,PG,6-3,185,1983-02-27,US,R,Wisconsin
-50,Alan Henderson,PF,6-9,235,1972-12-02,US,9,Indiana
-5,Josh Howard,SF,6-7,210,1980-04-28,US,1,Wake Forest
-28,Didier Ilunga-Mbenga,C,7-0,245,1980-12-30,CD,R,
-41,Dirk Nowitzki,PF,7-0,245,1978-06-19,DE,6,
-24,Pavel Podkolzin,C,7-5,260,1985-01-15,RU,R,
-42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,9,UNC
-31,Jason Terry,PG,6-2,185,1977-09-15,US,5,Arizona
-2,Keith Van Horn,PF,6-10,220,1975-10-23,US,7,Utah
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2005,7,DAL,10,Darrell Armstrong,PG,6-0,170,1968-06-22,US,10,Fayetteville State University
+2005,7,DAL,52,Calvin Booth,C,6-11,230,1976-05-07,US,5,Penn State
+2005,7,DAL,44,Shawn Bradley,C,7-6,235,1972-03-22,DE,11,BYU
+2005,7,DAL,25,Erick Dampier,C,6-11,265,1975-07-14,US,8,Mississippi State
+2005,7,DAL,6,Marquis Daniels,SG,6-6,200,1981-01-07,US,1,Auburn
+2005,7,DAL,21,Dan Dickau,PG,6-0,190,1978-09-16,US,2,"Washington, Gonzaga"
+2005,7,DAL,4,Michael Finley,SG,6-7,215,1973-03-06,US,9,Wisconsin
+2005,7,DAL,34,Devin Harris,PG,6-3,185,1983-02-27,US,R,Wisconsin
+2005,7,DAL,50,Alan Henderson,PF,6-9,235,1972-12-02,US,9,Indiana
+2005,7,DAL,5,Josh Howard,SF,6-7,210,1980-04-28,US,1,Wake Forest
+2005,7,DAL,28,Didier Ilunga-Mbenga,C,7-0,245,1980-12-30,CD,R,
+2005,7,DAL,41,Dirk Nowitzki,PF,7-0,245,1978-06-19,DE,6,
+2005,7,DAL,24,Pavel Podkolzin,C,7-5,260,1985-01-15,RU,R,
+2005,7,DAL,42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,9,UNC
+2005,7,DAL,31,Jason Terry,PG,6-2,185,1977-09-15,US,5,Arizona
+2005,7,DAL,2,Keith Van Horn,PF,6-10,220,1975-10-23,US,7,Utah

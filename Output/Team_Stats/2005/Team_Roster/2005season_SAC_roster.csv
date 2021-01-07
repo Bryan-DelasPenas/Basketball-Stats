@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-9,Matt Barnes,SF,6-7,226,1980-03-09,US,1,UCLA
-10,Mike Bibby,PG,6-1,190,1978-05-13,US,6,Arizona
-33,Michael Bradley,PF,6-10,245,1979-04-18,US,3,"Kentucky, Villanova"
-13,Doug Christie,SG,6-6,200,1970-05-09,US,12,Pepperdine
-15,Erik Daniels,SF,6-8,214,1982-04-01,US,R,Kentucky
-5,Maurice Evans,SG,6-5,220,1978-11-08,US,1,"Wichita State, Texas"
-50,Eddie House,PG,6-1,180,1978-05-14,US,4,Arizona State
-24,Bobby Jackson,SG,6-1,185,1973-03-13,US,7,Minnesota
-23,Kevin Martin,PG,6-7,199,1983-02-01,US,R,Western Carolina University
-52,Brad Miller,C,6-11,244,1976-04-12,US,6,Purdue
-3,Cuttino Mobley,SG,6-4,190,1975-09-01,US,6,Rhode Island
-0,Greg Ostertag,C,7-2,280,1973-03-06,US,9,Kansas
-54,Brian Skinner,C,6-9,255,1976-05-19,US,6,Baylor
-25,Darius Songaila,PF,6-9,248,1978-02-14,LT,1,Wake Forest
-16,Peja Stojaković,SF,6-10,229,1977-06-09,HR,6,
-9,Kenny Thomas,PF,6-7,261,1977-07-25,US,5,New Mexico
-4,Chris Webber,PF,6-9,245,1973-03-01,US,11,Michigan
-34,Corliss Williamson,PF,6-7,245,1973-12-04,US,9,Arkansas
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2005,26,SAC,9,Matt Barnes,SF,6-7,226,1980-03-09,US,1,UCLA
+2005,26,SAC,10,Mike Bibby,PG,6-1,190,1978-05-13,US,6,Arizona
+2005,26,SAC,33,Michael Bradley,PF,6-10,245,1979-04-18,US,3,"Kentucky, Villanova"
+2005,26,SAC,13,Doug Christie,SG,6-6,200,1970-05-09,US,12,Pepperdine
+2005,26,SAC,15,Erik Daniels,SF,6-8,214,1982-04-01,US,R,Kentucky
+2005,26,SAC,5,Maurice Evans,SG,6-5,220,1978-11-08,US,1,"Wichita State, Texas"
+2005,26,SAC,50,Eddie House,PG,6-1,180,1978-05-14,US,4,Arizona State
+2005,26,SAC,24,Bobby Jackson,SG,6-1,185,1973-03-13,US,7,Minnesota
+2005,26,SAC,23,Kevin Martin,PG,6-7,199,1983-02-01,US,R,Western Carolina University
+2005,26,SAC,52,Brad Miller,C,6-11,244,1976-04-12,US,6,Purdue
+2005,26,SAC,3,Cuttino Mobley,SG,6-4,190,1975-09-01,US,6,Rhode Island
+2005,26,SAC,0,Greg Ostertag,C,7-2,280,1973-03-06,US,9,Kansas
+2005,26,SAC,54,Brian Skinner,C,6-9,255,1976-05-19,US,6,Baylor
+2005,26,SAC,25,Darius Songaila,PF,6-9,248,1978-02-14,LT,1,Wake Forest
+2005,26,SAC,16,Peja Stojakovic,SF,6-10,229,1977-06-09,HR,6,
+2005,26,SAC,9,Kenny Thomas,PF,6-7,261,1977-07-25,US,5,New Mexico
+2005,26,SAC,4,Chris Webber,PF,6-9,245,1973-03-01,US,11,Michigan
+2005,26,SAC,34,Corliss Williamson,PF,6-7,245,1973-12-04,US,9,Arkansas

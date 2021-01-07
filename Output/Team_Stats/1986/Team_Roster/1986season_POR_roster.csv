@@ -1,14 +1,14 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-31,Sam Bowie,C,7-1,235,1961-03-17,US,1,Kentucky
-34,Kenny Carr,PF,6-7,220,1955-08-15,US,8,NC State
-20,Steve Colter,PG,6-3,165,1962-07-24,US,1,New Mexico State
-22,Clyde Drexler,SG,6-7,210,1962-06-22,US,2,Houston
-0,Ken Johnson,PF,6-8,240,1962-11-07,US,R,"USC, Michigan State"
-27,Caldwell Jones,C,6-11,217,1950-08-04,US,12,Albany State University
-25,Jerome Kersey,SF,6-7,215,1962-06-26,US,1,Longwood University
-21,Brian Martin,SF,6-9,212,1962-08-18,US,R,Kansas
-4,Jim Paxson,SG,6-6,200,1957-07-09,US,6,Dayton
-30,Terry Porter,PG,6-3,195,1963-04-08,US,R,University of Wisconsin-Stevens Point
-43,Mychal Thompson,C,6-10,226,1955-01-30,BS,6,Minnesota
-14,Darnell Valentine,PG,6-1,183,1959-02-03,US,4,Kansas
-55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,5,UCLA
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1986,25,POR,31,Sam Bowie,C,7-1,235,1961-03-17,US,1,Kentucky
+1986,25,POR,34,Kenny Carr,PF,6-7,220,1955-08-15,US,8,NC State
+1986,25,POR,20,Steve Colter,PG,6-3,165,1962-07-24,US,1,New Mexico State
+1986,25,POR,22,Clyde Drexler,SG,6-7,210,1962-06-22,US,2,Houston
+1986,25,POR,0,Ken Johnson,PF,6-8,240,1962-11-07,US,R,"USC, Michigan State"
+1986,25,POR,27,Caldwell Jones,C,6-11,217,1950-08-04,US,12,Albany State University
+1986,25,POR,25,Jerome Kersey,SF,6-7,215,1962-06-26,US,1,Longwood University
+1986,25,POR,21,Brian Martin,SF,6-9,212,1962-08-18,US,R,Kansas
+1986,25,POR,4,Jim Paxson,SG,6-6,200,1957-07-09,US,6,Dayton
+1986,25,POR,30,Terry Porter,PG,6-3,195,1963-04-08,US,R,University of Wisconsin-Stevens Point
+1986,25,POR,43,Mychal Thompson,C,6-10,226,1955-01-30,BS,6,Minnesota
+1986,25,POR,14,Darnell Valentine,PG,6-1,183,1959-02-03,US,4,Kansas
+1986,25,POR,55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,5,UCLA

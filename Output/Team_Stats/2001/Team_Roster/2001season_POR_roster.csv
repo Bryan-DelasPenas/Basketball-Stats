@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-50,Greg Anthony,PG,6-0,176,1967-11-15,US,9,"University of Portland, UNLV"
-2,Stacey Augmon,SG,6-8,205,1968-08-01,US,9,UNLV
-21,Erick Barkley,PG,6-1,177,1978-02-21,US,R,St. John's
-34,Dale Davis,C,6-11,230,1969-03-25,US,9,Clemson
-23,Gary Grant,PG,6-3,185,1965-04-21,US,12,Michigan
-4,Antonio Harvey,PF,6-11,225,1970-07-06,US,5,"Southern Illinois, Georgia, Pfeiffer University"
-40,Shawn Kemp,PF,6-10,230,1969-11-26,US,11,Trinity Valley CC
-55,Will Perdue,C,7-0,240,1965-08-29,US,12,Vanderbilt
-33,Scottie Pippen,SF,6-8,210,1965-09-25,US,13,University of Central Arkansas
-11,Arvydas Sabonis,C,7-3,279,1964-12-19,LT,5,
-12,Detlef Schrempf,SF,6-10,235,1963-01-21,DE,15,Washington
-8,Steve Smith,SG,6-7,200,1969-03-31,US,9,Michigan State
-3,Damon Stoudamire,PG,5-10,171,1973-09-03,US,5,Arizona
-1,Rod Strickland,PG,6-3,175,1966-07-11,US,12,DePaul
-30,Rasheed Wallace,PF,6-10,225,1974-09-17,US,5,UNC
-6,Bonzi Wells,SF,6-5,210,1976-09-28,US,2,Ball State University
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2001,25,POR,50,Greg Anthony,PG,6-0,176,1967-11-15,US,9,"University of Portland, UNLV"
+2001,25,POR,2,Stacey Augmon,SG,6-8,205,1968-08-01,US,9,UNLV
+2001,25,POR,21,Erick Barkley,PG,6-1,177,1978-02-21,US,R,St. John's
+2001,25,POR,34,Dale Davis,C,6-11,230,1969-03-25,US,9,Clemson
+2001,25,POR,23,Gary Grant,PG,6-3,185,1965-04-21,US,12,Michigan
+2001,25,POR,4,Antonio Harvey,PF,6-11,225,1970-07-06,US,5,"Southern Illinois, Georgia, Pfeiffer University"
+2001,25,POR,40,Shawn Kemp,PF,6-10,230,1969-11-26,US,11,Trinity Valley CC
+2001,25,POR,55,Will Perdue,C,7-0,240,1965-08-29,US,12,Vanderbilt
+2001,25,POR,33,Scottie Pippen,SF,6-8,210,1965-09-25,US,13,University of Central Arkansas
+2001,25,POR,11,Arvydas Sabonis,C,7-3,279,1964-12-19,LT,5,
+2001,25,POR,12,Detlef Schrempf,SF,6-10,235,1963-01-21,DE,15,Washington
+2001,25,POR,8,Steve Smith,SG,6-7,200,1969-03-31,US,9,Michigan State
+2001,25,POR,3,Damon Stoudamire,PG,5-10,171,1973-09-03,US,5,Arizona
+2001,25,POR,1,Rod Strickland,PG,6-3,175,1966-07-11,US,12,DePaul
+2001,25,POR,30,Rasheed Wallace,PF,6-10,225,1974-09-17,US,5,UNC
+2001,25,POR,6,Bonzi Wells,SF,6-5,210,1976-09-28,US,2,Ball State University

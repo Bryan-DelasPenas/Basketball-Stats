@@ -1,24 +1,24 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-53,Jerome Allen,SG,6-4,184,1973-01-28,US,1,Penn
-17,Vincent Askew,SG,6-6,210,1966-02-28,US,7,Memphis
-14,Elmer Bennett,PG,6-0,170,1970-02-13,US,2,Notre Dame
-14,Melvin Booker,PG,6-1,185,1972-08-20,US,1,Missouri
-3,Dale Ellis,SF,6-7,205,1960-08-06,US,13,Tennessee
-20,LaPhonso Ellis,PF,6-8,240,1970-05-05,US,4,Notre Dame
-5,Anthony Goldwire,PG,6-1,182,1971-09-06,US,1,Houston
-35,Darvin Ham,SF,6-7,220,1973-07-23,US,R,Texas Tech
-21,Tom Hammonds,PF,6-9,215,1967-03-27,US,7,Georgia Tech
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,9,St. John's
-50,Ervin Johnson,C,6-11,245,1967-12-21,US,3,New Orleans
-13,Jimmy King,SG,6-5,210,1973-08-09,US,1,Michigan
-8,Šarūnas Marčiulionis,SG,6-5,200,1964-06-13,LT,6,
-24,Antonio McDyess,PF,6-9,220,1974-09-07,US,1,Alabama
-5,Jeff McInnis,PG,6-4,190,1974-10-22,US,R,UNC
-14,Eric Murdock,PG,6-1,190,1968-06-14,US,5,Providence
-22,Ricky Pierce,SG,6-4,205,1959-08-19,US,14,Rice University
-30,Kenny Smith,PG,6-3,170,1965-03-08,US,9,UNC
-23,Bryant Stith,SG,6-5,208,1970-12-10,US,4,Virginia
-6,Brooks Thompson,PG,6-4,193,1970-07-19,US,2,"Texas A&M, Oklahoma State"
-41,LaSalle Thompson,C,6-10,245,1961-06-23,US,14,Texas
-55,Aaron Williams,C,6-9,220,1971-10-02,US,2,Xavier
-25,George Zídek,C,7-0,250,1973-08-02,CZ,1,UCLA
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1997,8,DEN,53,Jerome Allen,SG,6-4,184,1973-01-28,US,1,Penn
+1997,8,DEN,17,Vincent Askew,SG,6-6,210,1966-02-28,US,7,Memphis
+1997,8,DEN,14,Elmer Bennett,PG,6-0,170,1970-02-13,US,2,Notre Dame
+1997,8,DEN,14,Melvin Booker,PG,6-1,185,1972-08-20,US,1,Missouri
+1997,8,DEN,3,Dale Ellis,SF,6-7,205,1960-08-06,US,13,Tennessee
+1997,8,DEN,20,LaPhonso Ellis,PF,6-8,240,1970-05-05,US,4,Notre Dame
+1997,8,DEN,5,Anthony Goldwire,PG,6-1,182,1971-09-06,US,1,Houston
+1997,8,DEN,35,Darvin Ham,SF,6-7,220,1973-07-23,US,R,Texas Tech
+1997,8,DEN,21,Tom Hammonds,PF,6-9,215,1967-03-27,US,7,Georgia Tech
+1997,8,DEN,13,Mark Jackson,PG,6-1,180,1965-04-01,US,9,St. John's
+1997,8,DEN,50,Ervin Johnson,C,6-11,245,1967-12-21,US,3,New Orleans
+1997,8,DEN,13,Jimmy King,SG,6-5,210,1973-08-09,US,1,Michigan
+1997,8,DEN,8,Sarunas Marciulionis,SG,6-5,200,1964-06-13,LT,6,
+1997,8,DEN,24,Antonio McDyess,PF,6-9,220,1974-09-07,US,1,Alabama
+1997,8,DEN,5,Jeff McInnis,PG,6-4,190,1974-10-22,US,R,UNC
+1997,8,DEN,14,Eric Murdock,PG,6-1,190,1968-06-14,US,5,Providence
+1997,8,DEN,22,Ricky Pierce,SG,6-4,205,1959-08-19,US,14,Rice University
+1997,8,DEN,30,Kenny Smith,PG,6-3,170,1965-03-08,US,9,UNC
+1997,8,DEN,23,Bryant Stith,SG,6-5,208,1970-12-10,US,4,Virginia
+1997,8,DEN,6,Brooks Thompson,PG,6-4,193,1970-07-19,US,2,"Texas A&M, Oklahoma State"
+1997,8,DEN,41,LaSalle Thompson,C,6-10,245,1961-06-23,US,14,Texas
+1997,8,DEN,55,Aaron Williams,C,6-9,220,1971-10-02,US,2,Xavier
+1997,8,DEN,25,George Zidek,C,7-0,250,1973-08-02,CZ,1,UCLA

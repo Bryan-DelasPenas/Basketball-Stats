@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-21,Dennis Awtrey,C,6-10,235,1948-02-22,US,10,Santa Clara
-20,James Bailey,PF,6-9,220,1957-05-21,US,1,Rutgers University
-32,Fred Brown,SG,6-3,182,1948-08-07,US,9,Iowa
-40,James Donaldson,C,7-2,275,1957-08-16,GB,R,Washington State
-34,Jacky Dorsey,SF,6-7,230,1954-12-18,US,2,Georgia
-22,Bill Hanzlik,SF,6-7,185,1957-12-06,US,R,Notre Dame
-24,Armond Hill,PG,6-4,190,1953-03-31,US,4,Princeton
-27,John Johnson,SF,6-7,200,1947-10-18,US,10,Iowa
-15,Vinnie Johnson,PG,6-2,200,1956-09-01,US,1,Baylor
-8,Lonnie Shelton,PF,6-8,240,1955-10-19,US,4,Oregon State
-34,John Shumate,PF,6-9,235,1952-04-06,US,4,Notre Dame
-43,Jack Sikma,C,6-11,230,1955-11-14,US,3,Illinois Wesleyan University
-42,Wally Walker,SF,6-7,190,1954-07-18,US,4,Virginia
-44,Paul Westphal,SG,6-4,195,1950-11-30,US,8,USC
-10,Rudy White,SG,6-2,195,1953-06-23,US,4,Arizona State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1981,21,SEA,21,Dennis Awtrey,C,6-10,235,1948-02-22,US,10,Santa Clara
+1981,21,SEA,20,James Bailey,PF,6-9,220,1957-05-21,US,1,Rutgers University
+1981,21,SEA,32,Fred Brown,SG,6-3,182,1948-08-07,US,9,Iowa
+1981,21,SEA,40,James Donaldson,C,7-2,275,1957-08-16,GB,R,Washington State
+1981,21,SEA,34,Jacky Dorsey,SF,6-7,230,1954-12-18,US,2,Georgia
+1981,21,SEA,22,Bill Hanzlik,SF,6-7,185,1957-12-06,US,R,Notre Dame
+1981,21,SEA,24,Armond Hill,PG,6-4,190,1953-03-31,US,4,Princeton
+1981,21,SEA,27,John Johnson,SF,6-7,200,1947-10-18,US,10,Iowa
+1981,21,SEA,15,Vinnie Johnson,PG,6-2,200,1956-09-01,US,1,Baylor
+1981,21,SEA,8,Lonnie Shelton,PF,6-8,240,1955-10-19,US,4,Oregon State
+1981,21,SEA,34,John Shumate,PF,6-9,235,1952-04-06,US,4,Notre Dame
+1981,21,SEA,43,Jack Sikma,C,6-11,230,1955-11-14,US,3,Illinois Wesleyan University
+1981,21,SEA,42,Wally Walker,SF,6-7,190,1954-07-18,US,4,Virginia
+1981,21,SEA,44,Paul Westphal,SG,6-4,195,1950-11-30,US,8,USC
+1981,21,SEA,10,Rudy White,SG,6-2,195,1953-06-23,US,4,Arizona State

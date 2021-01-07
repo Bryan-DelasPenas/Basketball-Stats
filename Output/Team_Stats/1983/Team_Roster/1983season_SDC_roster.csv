@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-35,Richard Anderson,C,6-10,240,1960-11-19,US,R,UC Santa Barbara
-15,Jim Brogan,SG,6-4,185,1958-02-24,US,1,West Virginia Wesleyan College
-7,Michael Brooks,SF,6-7,220,1958-08-17,US,2,La Salle
-22,Tom Chambers,PF,6-10,220,1959-06-21,US,1,Utah
-23,Joe Cooper,C,6-10,230,1957-09-01,US,1,"Howard University, Tulsa, Colorado"
-34,Terry Cummings,PF,6-9,220,1961-03-15,US,R,DePaul
-13,John Douglas,SG,6-2,170,1956-06-12,US,1,Kansas
-30,Bob Gross,SF,6-6,200,1953-08-03,US,7,"Seattle University, Cal State Long Beach"
-24,Craig Hodges,SG,6-2,190,1960-06-27,US,R,Cal State Long Beach
-9,Lionel Hollins,PG,6-3,185,1953-10-19,US,7,Arizona State
-23,Hutch Jones,SF,6-8,190,1959-09-01,US,R,"Buffalo State, Vanderbilt"
-13,Lowes Moore,PG,6-1,170,1957-05-05,US,2,West Virginia
-31,Swen Nater,C,6-11,240,1950-01-14,NL,9,UCLA
-9,Randy Smith,SG,6-3,180,1948-12-12,US,11,Buffalo State
-9,Robert Smith,PG,5-11,165,1955-03-10,US,5,UNLV
-32,Bill Walton,C,6-11,210,1952-11-05,US,5,UCLA
-33,Jerome Whitehead,C,6-10,220,1956-09-30,US,4,Marquette
-4,Al Wood,SF,6-6,193,1958-06-02,US,1,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1983,13,SDC,35,Richard Anderson,C,6-10,240,1960-11-19,US,R,UC Santa Barbara
+1983,13,SDC,15,Jim Brogan,SG,6-4,185,1958-02-24,US,1,West Virginia Wesleyan College
+1983,13,SDC,7,Michael Brooks,SF,6-7,220,1958-08-17,US,2,La Salle
+1983,13,SDC,22,Tom Chambers,PF,6-10,220,1959-06-21,US,1,Utah
+1983,13,SDC,23,Joe Cooper,C,6-10,230,1957-09-01,US,1,"Howard University, Tulsa, Colorado"
+1983,13,SDC,34,Terry Cummings,PF,6-9,220,1961-03-15,US,R,DePaul
+1983,13,SDC,13,John Douglas,SG,6-2,170,1956-06-12,US,1,Kansas
+1983,13,SDC,30,Bob Gross,SF,6-6,200,1953-08-03,US,7,"Seattle University, Cal State Long Beach"
+1983,13,SDC,24,Craig Hodges,SG,6-2,190,1960-06-27,US,R,Cal State Long Beach
+1983,13,SDC,9,Lionel Hollins,PG,6-3,185,1953-10-19,US,7,Arizona State
+1983,13,SDC,23,Hutch Jones,SF,6-8,190,1959-09-01,US,R,"Buffalo State, Vanderbilt"
+1983,13,SDC,13,Lowes Moore,PG,6-1,170,1957-05-05,US,2,West Virginia
+1983,13,SDC,31,Swen Nater,C,6-11,240,1950-01-14,NL,9,UCLA
+1983,13,SDC,9,Randy Smith,SG,6-3,180,1948-12-12,US,11,Buffalo State
+1983,13,SDC,9,Robert Smith,PG,5-11,165,1955-03-10,US,5,UNLV
+1983,13,SDC,32,Bill Walton,C,6-11,210,1952-11-05,US,5,UCLA
+1983,13,SDC,33,Jerome Whitehead,C,6-10,220,1956-09-30,US,4,Marquette
+1983,13,SDC,4,Al Wood,SF,6-6,193,1958-06-02,US,1,UNC

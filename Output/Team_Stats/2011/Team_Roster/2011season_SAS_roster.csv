@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-25,James Anderson,SF,6-6,213,1989-03-25,US,R,Oklahoma State
-45,DeJuan Blair,PF,6-7,270,1989-04-22,US,1,Pitt
-15,Matt Bonner,PF,6-10,235,1980-04-05,US,6,Florida
-21,Tim Duncan,C,6-11,250,1976-04-25,VI,13,Wake Forest
-23,Alonzo Gee,SG,6-6,225,1987-05-29,US,1,Alabama
-20,Manu Ginóbili,SG,6-6,205,1977-07-28,AR,8,
-4,Danny Green,SG,6-6,215,1987-06-22,US,1,UNC
-3,George Hill,PG,6-3,188,1986-05-04,US,2,IUPUI
-12,Othyus Jeffers,SG,6-5,200,1985-08-05,US,1,"University of Illinois at Chicago, Robert Morris University (IL)"
-24,Richard Jefferson,SF,6-7,233,1980-06-21,US,9,Arizona
-34,Antonio McDyess,PF,6-9,220,1974-09-07,US,14,Alabama
-14,Gary Neal,SG,6-4,210,1984-10-03,US,R,"La Salle, Towson University"
-23,Steve Novak,SF,6-10,225,1983-06-13,US,4,Marquette
-33,Larry Owens,SF,6-7,210,1983-01-08,US,R,Oral Roberts
-9,Tony Parker,PG,6-2,185,1982-05-17,BE,9,
-11,Chris Quinn,PG,6-2,185,1983-09-27,US,4,Notre Dame
-1,Bobby Simmons,SF,6-7,210,1980-06-02,US,8,DePaul
-22,Tiago Splitter,C,6-11,245,1985-01-01,BR,R,
-2,Garrett Temple,SG,6-5,195,1986-05-08,US,1,LSU
-5,Ime Udoka,SF,6-6,215,1977-08-09,US,6,"San Francisco, Portland State"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2011,27,SAS,25,James Anderson,SF,6-6,213,1989-03-25,US,R,Oklahoma State
+2011,27,SAS,45,DeJuan Blair,PF,6-7,270,1989-04-22,US,1,Pitt
+2011,27,SAS,15,Matt Bonner,PF,6-10,235,1980-04-05,US,6,Florida
+2011,27,SAS,21,Tim Duncan,C,6-11,250,1976-04-25,VI,13,Wake Forest
+2011,27,SAS,23,Alonzo Gee,SG,6-6,225,1987-05-29,US,1,Alabama
+2011,27,SAS,20,Manu Ginobili,SG,6-6,205,1977-07-28,AR,8,
+2011,27,SAS,4,Danny Green,SG,6-6,215,1987-06-22,US,1,UNC
+2011,27,SAS,3,George Hill,PG,6-3,188,1986-05-04,US,2,IUPUI
+2011,27,SAS,12,Othyus Jeffers,SG,6-5,200,1985-08-05,US,1,"University of Illinois at Chicago, Robert Morris University (IL)"
+2011,27,SAS,24,Richard Jefferson,SF,6-7,233,1980-06-21,US,9,Arizona
+2011,27,SAS,34,Antonio McDyess,PF,6-9,220,1974-09-07,US,14,Alabama
+2011,27,SAS,14,Gary Neal,SG,6-4,210,1984-10-03,US,R,"La Salle, Towson University"
+2011,27,SAS,23,Steve Novak,SF,6-10,225,1983-06-13,US,4,Marquette
+2011,27,SAS,33,Larry Owens,SF,6-7,210,1983-01-08,US,R,Oral Roberts
+2011,27,SAS,9,Tony Parker,PG,6-2,185,1982-05-17,BE,9,
+2011,27,SAS,11,Chris Quinn,PG,6-2,185,1983-09-27,US,4,Notre Dame
+2011,27,SAS,1,Bobby Simmons,SF,6-7,210,1980-06-02,US,8,DePaul
+2011,27,SAS,22,Tiago Splitter,C,6-11,245,1985-01-01,BR,R,
+2011,27,SAS,2,Garrett Temple,SG,6-5,195,1986-05-08,US,1,LSU
+2011,27,SAS,5,Ime Udoka,SF,6-6,215,1977-08-09,US,6,"San Francisco, Portland State"

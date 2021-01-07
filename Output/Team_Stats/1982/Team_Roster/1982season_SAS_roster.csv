@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Gene Banks,SF,6-7,215,1959-05-15,US,R,Duke
-23,Mike Bratz,PG,6-2,185,1955-10-17,US,4,Stanford
-10,Ron Brewer,SG,6-4,180,1955-07-16,US,3,Arkansas
-40,Dave Corzine,C,6-11,250,1956-04-25,US,3,DePaul
-44,George Gervin,SG,6-7,180,1952-04-27,US,9,Eastern Michigan
-30,Paul Griffin,PF,6-9,205,1954-01-20,US,5,Western Michigan
-43,Steve Hayes,C,7-0,205,1955-08-02,US,R,Idaho State University
-52,George Johnson,C,6-11,205,1948-12-18,US,9,Dillard University
-32,Reggie Johnson,PF,6-9,205,1957-06-25,US,1,Tennessee
-24,John Lambert,PF,6-10,225,1953-01-14,US,6,USC
-34,Mike Mitchell,SF,6-7,215,1956-01-01,US,3,Auburn
-0,Johnny Moore,PG,6-1,175,1958-03-03,US,1,Texas
-53,Mark Olberding,PF,6-8,225,1956-04-21,US,6,Minnesota
-21,Roger Phegley,SG,6-6,205,1956-10-16,US,3,Bradley
-15,Ed Rains,SF,6-7,190,1956-12-24,US,R,University of South Alabama
-31,Kevin Restani,PF,6-9,225,1951-12-23,US,7,San Francisco
-43,Rich Yonakor,PF,6-9,220,1958-10-03,US,R,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1982,27,SAS,20,Gene Banks,SF,6-7,215,1959-05-15,US,R,Duke
+1982,27,SAS,23,Mike Bratz,PG,6-2,185,1955-10-17,US,4,Stanford
+1982,27,SAS,10,Ron Brewer,SG,6-4,180,1955-07-16,US,3,Arkansas
+1982,27,SAS,40,Dave Corzine,C,6-11,250,1956-04-25,US,3,DePaul
+1982,27,SAS,44,George Gervin,SG,6-7,180,1952-04-27,US,9,Eastern Michigan
+1982,27,SAS,30,Paul Griffin,PF,6-9,205,1954-01-20,US,5,Western Michigan
+1982,27,SAS,43,Steve Hayes,C,7-0,205,1955-08-02,US,R,Idaho State University
+1982,27,SAS,52,George Johnson,C,6-11,205,1948-12-18,US,9,Dillard University
+1982,27,SAS,32,Reggie Johnson,PF,6-9,205,1957-06-25,US,1,Tennessee
+1982,27,SAS,24,John Lambert,PF,6-10,225,1953-01-14,US,6,USC
+1982,27,SAS,34,Mike Mitchell,SF,6-7,215,1956-01-01,US,3,Auburn
+1982,27,SAS,0,Johnny Moore,PG,6-1,175,1958-03-03,US,1,Texas
+1982,27,SAS,53,Mark Olberding,PF,6-8,225,1956-04-21,US,6,Minnesota
+1982,27,SAS,21,Roger Phegley,SG,6-6,205,1956-10-16,US,3,Bradley
+1982,27,SAS,15,Ed Rains,SF,6-7,190,1956-12-24,US,R,University of South Alabama
+1982,27,SAS,31,Kevin Restani,PF,6-9,225,1951-12-23,US,7,San Francisco
+1982,27,SAS,43,Rich Yonakor,PF,6-9,220,1958-10-03,US,R,UNC

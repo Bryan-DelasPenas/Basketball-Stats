@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-31,Sam Bowie,C,7-1,235,1961-03-17,US,9,Kentucky
-41,Elden Campbell,PF,6-11,215,1968-07-23,US,4,Clemson
-23,Cedric Ceballos,SF,6-6,190,1969-08-02,US,4,Cal State Fullerton
-7,Lester Conner,SG,6-4,180,1959-09-17,US,11,Oregon State
-24,Lloyd Daniels,SG,6-7,205,1967-09-04,US,2,Mount San Antonio College
-12,Vlade Divac,C,7-1,243,1968-02-03,RS,5,
-40,Antonio Harvey,PF,6-11,225,1970-07-06,US,1,"Southern Illinois, Georgia, Pfeiffer University"
-25,Eddie Jones,SG,6-6,190,1971-10-20,US,R,Temple
-8,Randolph Keys,SF,6-7,195,1966-04-19,US,3,University of Southern Mississippi
-30,George Lynch,SF,6-8,218,1970-09-03,US,1,UNC
-2,Anthony Miller,PF,6-9,225,1971-10-22,US,R,Michigan State
-1,Anthony Peeler,SG,6-4,208,1969-11-25,US,2,Missouri
-18,Kurt Rambis,PF,6-8,213,1958-02-25,US,13,Santa Clara
-34,Tony Smith,SG,6-3,185,1968-06-14,US,4,Marquette
-3,Sedale Threatt,PG,6-2,175,1961-09-10,US,11,West Virginia Tech
-9,Nick Van Exel,PG,6-1,170,1971-11-27,US,1,"Trinity Valley CC, Cincinnati"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1995,14,LAL,31,Sam Bowie,C,7-1,235,1961-03-17,US,9,Kentucky
+1995,14,LAL,41,Elden Campbell,PF,6-11,215,1968-07-23,US,4,Clemson
+1995,14,LAL,23,Cedric Ceballos,SF,6-6,190,1969-08-02,US,4,Cal State Fullerton
+1995,14,LAL,7,Lester Conner,SG,6-4,180,1959-09-17,US,11,Oregon State
+1995,14,LAL,24,Lloyd Daniels,SG,6-7,205,1967-09-04,US,2,Mount San Antonio College
+1995,14,LAL,12,Vlade Divac,C,7-1,243,1968-02-03,RS,5,
+1995,14,LAL,40,Antonio Harvey,PF,6-11,225,1970-07-06,US,1,"Southern Illinois, Georgia, Pfeiffer University"
+1995,14,LAL,25,Eddie Jones,SG,6-6,190,1971-10-20,US,R,Temple
+1995,14,LAL,8,Randolph Keys,SF,6-7,195,1966-04-19,US,3,University of Southern Mississippi
+1995,14,LAL,30,George Lynch,SF,6-8,218,1970-09-03,US,1,UNC
+1995,14,LAL,2,Anthony Miller,PF,6-9,225,1971-10-22,US,R,Michigan State
+1995,14,LAL,1,Anthony Peeler,SG,6-4,208,1969-11-25,US,2,Missouri
+1995,14,LAL,18,Kurt Rambis,PF,6-8,213,1958-02-25,US,13,Santa Clara
+1995,14,LAL,34,Tony Smith,SG,6-3,185,1968-06-14,US,4,Marquette
+1995,14,LAL,3,Sedale Threatt,PG,6-2,175,1961-09-10,US,11,West Virginia Tech
+1995,14,LAL,9,Nick Van Exel,PG,6-1,170,1971-11-27,US,1,"Trinity Valley CC, Cincinnati"

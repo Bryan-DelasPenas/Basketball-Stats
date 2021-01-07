@@ -1,21 +1,21 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-18,Blake Ahearn,PG,6-2,190,1984-05-27,US,1,Missouri State University
-15,Matt Bonner,PF,6-10,235,1980-04-05,US,4,Florida
-12,Bruce Bowen,SF,6-7,185,1971-06-14,US,12,Cal State Fullerton
-22,Austin Croshere,PF,6-9,235,1975-05-01,US,11,Providence
-21,Tim Duncan,C,6-11,250,1976-04-25,VI,11,Wake Forest
-33,Desmon Farmer,SG,6-5,220,1981-10-07,US,1,USC
-4,Michael Finley,SF,6-7,215,1973-03-06,US,13,Wisconsin
-20,Manu Ginóbili,SG,6-6,205,1977-07-28,AR,6,
-90,Drew Gooden,PF,6-10,250,1981-09-24,US,6,Kansas
-1,Malik Hairston,SG,6-6,220,1987-02-23,US,R,Oregon
-3,George Hill,PG,6-3,188,1986-05-04,US,R,IUPUI
-8,Roger Mason,SG,6-5,200,1980-09-10,US,4,Virginia
-54,Pops Mensah-Bonsu,PF,6-9,240,1983-09-07,GB,1,George Washington
-7,Fabricio Oberto,C,6-10,245,1975-03-21,AR,3,
-9,Tony Parker,PG,6-2,185,1982-05-17,BE,7,
-40,Kurt Thomas,PF,6-9,230,1972-10-04,US,13,TCU
-35,Anthony Tolliver,PF,6-8,240,1985-06-01,US,R,Creighton
-5,Ime Udoka,SF,6-6,215,1977-08-09,US,4,"San Francisco, Portland State"
-11,Jacque Vaughn,PG,6-1,190,1975-02-11,US,11,Kansas
-2,Marcus Williams,PF,6-7,205,1986-11-18,US,1,Arizona
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2009,27,SAS,18,Blake Ahearn,PG,6-2,190,1984-05-27,US,1,Missouri State University
+2009,27,SAS,15,Matt Bonner,PF,6-10,235,1980-04-05,US,4,Florida
+2009,27,SAS,12,Bruce Bowen,SF,6-7,185,1971-06-14,US,12,Cal State Fullerton
+2009,27,SAS,22,Austin Croshere,PF,6-9,235,1975-05-01,US,11,Providence
+2009,27,SAS,21,Tim Duncan,C,6-11,250,1976-04-25,VI,11,Wake Forest
+2009,27,SAS,33,Desmon Farmer,SG,6-5,220,1981-10-07,US,1,USC
+2009,27,SAS,4,Michael Finley,SF,6-7,215,1973-03-06,US,13,Wisconsin
+2009,27,SAS,20,Manu Ginobili,SG,6-6,205,1977-07-28,AR,6,
+2009,27,SAS,90,Drew Gooden,PF,6-10,250,1981-09-24,US,6,Kansas
+2009,27,SAS,1,Malik Hairston,SG,6-6,220,1987-02-23,US,R,Oregon
+2009,27,SAS,3,George Hill,PG,6-3,188,1986-05-04,US,R,IUPUI
+2009,27,SAS,8,Roger Mason,SG,6-5,200,1980-09-10,US,4,Virginia
+2009,27,SAS,54,Pops Mensah-Bonsu,PF,6-9,240,1983-09-07,GB,1,George Washington
+2009,27,SAS,7,Fabricio Oberto,C,6-10,245,1975-03-21,AR,3,
+2009,27,SAS,9,Tony Parker,PG,6-2,185,1982-05-17,BE,7,
+2009,27,SAS,40,Kurt Thomas,PF,6-9,230,1972-10-04,US,13,TCU
+2009,27,SAS,35,Anthony Tolliver,PF,6-8,240,1985-06-01,US,R,Creighton
+2009,27,SAS,5,Ime Udoka,SF,6-6,215,1977-08-09,US,4,"San Francisco, Portland State"
+2009,27,SAS,11,Jacque Vaughn,PG,6-1,190,1975-02-11,US,11,Kansas
+2009,27,SAS,2,Marcus Williams,PF,6-7,205,1986-11-18,US,1,Arizona

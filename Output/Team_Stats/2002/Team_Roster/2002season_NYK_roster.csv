@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-49,Shandon Anderson,SG,6-6,208,1973-12-31,US,5,Georgia
-23,Marcus Camby,C,6-11,220,1974-03-22,US,5,UMass
-4,Howard Eisley,PG,6-2,177,1972-12-04,US,7,Boston College
-32,Othella Harrington,PF,6-9,235,1974-01-31,US,5,Georgetown
-20,Allan Houston,SG,6-6,200,1971-04-20,US,8,Tennessee
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,14,St. John's
-44,Travis Knight,C,7-0,235,1974-09-13,US,5,UConn
-7,Lavor Postell,SG,6-5,215,1978-02-26,US,1,St. John's
-25,Larry Robinson,SG,6-3,180,1968-01-11,US,6,Centenary (LA)
-50,Felton Spencer,C,7-0,265,1968-01-15,US,11,Louisville
-8,Latrell Sprewell,SF,6-5,190,1970-09-08,US,9,Alabama
-40,Kurt Thomas,C,6-9,230,1972-10-04,US,6,TCU
-21,Charlie Ward,PG,6-2,190,1970-10-12,US,7,Florida State
-35,Clarence Weatherspoon,PF,6-6,240,1970-09-08,US,9,University of Southern Mississippi
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2002,20,NYK,49,Shandon Anderson,SG,6-6,208,1973-12-31,US,5,Georgia
+2002,20,NYK,23,Marcus Camby,C,6-11,220,1974-03-22,US,5,UMass
+2002,20,NYK,4,Howard Eisley,PG,6-2,177,1972-12-04,US,7,Boston College
+2002,20,NYK,32,Othella Harrington,PF,6-9,235,1974-01-31,US,5,Georgetown
+2002,20,NYK,20,Allan Houston,SG,6-6,200,1971-04-20,US,8,Tennessee
+2002,20,NYK,13,Mark Jackson,PG,6-1,180,1965-04-01,US,14,St. John's
+2002,20,NYK,44,Travis Knight,C,7-0,235,1974-09-13,US,5,UConn
+2002,20,NYK,7,Lavor Postell,SG,6-5,215,1978-02-26,US,1,St. John's
+2002,20,NYK,25,Larry Robinson,SG,6-3,180,1968-01-11,US,6,Centenary (LA)
+2002,20,NYK,50,Felton Spencer,C,7-0,265,1968-01-15,US,11,Louisville
+2002,20,NYK,8,Latrell Sprewell,SF,6-5,190,1970-09-08,US,9,Alabama
+2002,20,NYK,40,Kurt Thomas,C,6-9,230,1972-10-04,US,6,TCU
+2002,20,NYK,21,Charlie Ward,PG,6-2,190,1970-10-12,US,7,Florida State
+2002,20,NYK,35,Clarence Weatherspoon,PF,6-6,240,1970-09-08,US,9,University of Southern Mississippi

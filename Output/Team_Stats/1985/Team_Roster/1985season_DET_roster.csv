@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-54,Kent Benson,C,6-10,235,1954-12-27,US,7,Indiana
-0,Tony Campbell,SF,6-7,215,1962-05-07,US,R,Ohio State
-23,Earl Cureton,C,6-9,210,1957-09-03,US,4,"Robert Morris University (PA), Detroit Mercy"
-15,Vinnie Johnson,SG,6-2,200,1956-09-01,US,5,Baylor
-35,Major Jones,PF,6-9,225,1953-07-09,US,5,Albany State University
-40,Bill Laimbeer,C,6-11,245,1957-05-19,US,4,Notre Dame
-25,John Long,SG,6-5,195,1956-08-28,US,6,Detroit Mercy
-34,Sidney Lowe,PG,6-0,195,1960-01-21,US,1,NC State
-14,Lorenzo Romar,PG,6-1,175,1958-11-13,US,4,Washington
-32,Dan Roundfield,PF,6-8,205,1953-05-26,US,9,Central Michigan University
-31,Brook Steppe,SG,6-5,195,1959-11-07,US,2,Georgia Tech
-22,Terry Teagle,SG,6-5,195,1960-04-10,US,2,Baylor
-22,David Thirdkill,SF,6-7,195,1960-04-12,US,2,Bradley
-11,Isiah Thomas,PG,6-1,180,1961-04-30,US,3,Indiana
-7,Kelly Tripucka,SF,6-6,220,1959-02-16,US,3,Notre Dame
-41,Terry Tyler,SF,6-7,215,1956-10-30,US,6,Detroit Mercy
-31,Dale Wilkinson,PF,6-10,220,1960-03-18,US,R,Idaho State University
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1985,9,DET,54,Kent Benson,C,6-10,235,1954-12-27,US,7,Indiana
+1985,9,DET,0,Tony Campbell,SF,6-7,215,1962-05-07,US,R,Ohio State
+1985,9,DET,23,Earl Cureton,C,6-9,210,1957-09-03,US,4,"Robert Morris University (PA), Detroit Mercy"
+1985,9,DET,15,Vinnie Johnson,SG,6-2,200,1956-09-01,US,5,Baylor
+1985,9,DET,35,Major Jones,PF,6-9,225,1953-07-09,US,5,Albany State University
+1985,9,DET,40,Bill Laimbeer,C,6-11,245,1957-05-19,US,4,Notre Dame
+1985,9,DET,25,John Long,SG,6-5,195,1956-08-28,US,6,Detroit Mercy
+1985,9,DET,34,Sidney Lowe,PG,6-0,195,1960-01-21,US,1,NC State
+1985,9,DET,14,Lorenzo Romar,PG,6-1,175,1958-11-13,US,4,Washington
+1985,9,DET,32,Dan Roundfield,PF,6-8,205,1953-05-26,US,9,Central Michigan University
+1985,9,DET,31,Brook Steppe,SG,6-5,195,1959-11-07,US,2,Georgia Tech
+1985,9,DET,22,Terry Teagle,SG,6-5,195,1960-04-10,US,2,Baylor
+1985,9,DET,22,David Thirdkill,SF,6-7,195,1960-04-12,US,2,Bradley
+1985,9,DET,11,Isiah Thomas,PG,6-1,180,1961-04-30,US,3,Indiana
+1985,9,DET,7,Kelly Tripucka,SF,6-6,220,1959-02-16,US,3,Notre Dame
+1985,9,DET,41,Terry Tyler,SF,6-7,215,1956-10-30,US,6,Detroit Mercy
+1985,9,DET,31,Dale Wilkinson,PF,6-10,220,1960-03-18,US,R,Idaho State University

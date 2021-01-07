@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-45,Randy Breuer,C,7-3,230,1960-10-11,US,1,Minnesota
-34,Terry Cummings,PF,6-9,220,1961-03-15,US,2,DePaul
-24,Charles Davis,SF,6-7,215,1958-10-05,US,3,Vanderbilt
-10,Mike Dunleavy,PG,6-3,180,1954-03-21,US,8,South Carolina
-50,Chris Engler,C,6-11,245,1959-03-01,US,2,"Minnesota, Wyoming"
-7,Kenny Fields,SF,6-5,220,1962-02-09,US,R,UCLA
-35,Kevin Grevey,SF,6-5,210,1953-05-12,US,9,Kentucky
-15,Craig Hodges,SG,6-2,190,1960-06-27,US,2,Cal State Long Beach
-53,Alton Lister,C,7-0,240,1958-10-01,US,3,Arizona State
-40,Larry Micheaux,PF,6-9,220,1960-03-24,US,1,Houston
-44,Paul Mokeski,C,7-0,250,1957-01-03,US,5,Kansas
-4,Sidney Moncrief,PG,6-3,180,1957-09-21,US,5,Arkansas
-22,Ricky Pierce,SG,6-4,205,1959-08-19,US,2,Rice University
-25,Paul Pressey,SF,6-5,185,1958-12-24,US,2,Tulsa
-5,Lorenzo Romar,PG,6-1,175,1958-11-13,US,4,Washington
-21,David Thirdkill,SF,6-7,195,1960-04-12,US,2,Bradley
-6,Paul Thompson,SF,6-6,210,1961-05-25,US,1,Tulane
-43,Mark West,C,6-10,230,1960-11-05,US,1,Old Dominion
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1985,17,MIL,45,Randy Breuer,C,7-3,230,1960-10-11,US,1,Minnesota
+1985,17,MIL,34,Terry Cummings,PF,6-9,220,1961-03-15,US,2,DePaul
+1985,17,MIL,24,Charles Davis,SF,6-7,215,1958-10-05,US,3,Vanderbilt
+1985,17,MIL,10,Mike Dunleavy,PG,6-3,180,1954-03-21,US,8,South Carolina
+1985,17,MIL,50,Chris Engler,C,6-11,245,1959-03-01,US,2,"Minnesota, Wyoming"
+1985,17,MIL,7,Kenny Fields,SF,6-5,220,1962-02-09,US,R,UCLA
+1985,17,MIL,35,Kevin Grevey,SF,6-5,210,1953-05-12,US,9,Kentucky
+1985,17,MIL,15,Craig Hodges,SG,6-2,190,1960-06-27,US,2,Cal State Long Beach
+1985,17,MIL,53,Alton Lister,C,7-0,240,1958-10-01,US,3,Arizona State
+1985,17,MIL,40,Larry Micheaux,PF,6-9,220,1960-03-24,US,1,Houston
+1985,17,MIL,44,Paul Mokeski,C,7-0,250,1957-01-03,US,5,Kansas
+1985,17,MIL,4,Sidney Moncrief,PG,6-3,180,1957-09-21,US,5,Arkansas
+1985,17,MIL,22,Ricky Pierce,SG,6-4,205,1959-08-19,US,2,Rice University
+1985,17,MIL,25,Paul Pressey,SF,6-5,185,1958-12-24,US,2,Tulsa
+1985,17,MIL,5,Lorenzo Romar,PG,6-1,175,1958-11-13,US,4,Washington
+1985,17,MIL,21,David Thirdkill,SF,6-7,195,1960-04-12,US,2,Bradley
+1985,17,MIL,6,Paul Thompson,SF,6-6,210,1961-05-25,US,1,Tulane
+1985,17,MIL,43,Mark West,C,6-10,230,1960-11-05,US,1,Old Dominion

@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-13,Maurice Ager,SG,6-5,202,1984-02-09,US,2,Michigan State
-20,Ryan Anderson,PF,6-9,240,1988-05-06,US,R,California
-2,Josh Boone,C,6-10,237,1984-11-21,US,2,UConn
-15,Vince Carter,SG,6-6,220,1977-01-26,US,10,UNC
-55,Keyon Dooling,PG,6-3,196,1980-05-08,US,8,Missouri
-17,Chris Douglas-Roberts,SG,6-7,200,1987-01-08,US,R,Memphis
-34,Devin Harris,PG,6-3,185,1983-02-27,US,4,Wisconsin
-44,Trenton Hassell,SF,6-5,200,1979-03-04,US,7,Austin Peay State University
-22,Jarvis Hayes,SF,6-7,220,1981-08-09,US,5,"Western Carolina University, Georgia"
-9,Yi Jianlian,PF,7-0,240,1987-10-27,CN,1,
-11,Brook Lopez,C,7-0,282,1988-04-01,US,R,Stanford
-14,Eduardo Nájera,PF,6-8,240,1976-07-11,MX,8,Oklahoma
-21,Bobby Simmons,SF,6-7,210,1980-06-02,US,6,DePaul
-6,Stromile Swift,PF,6-9,225,1979-11-21,US,8,LSU
-51,Sean Williams,PF,6-10,235,1986-09-13,US,1,Boston College
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2009,3,NJN,13,Maurice Ager,SG,6-5,202,1984-02-09,US,2,Michigan State
+2009,3,NJN,20,Ryan Anderson,PF,6-9,240,1988-05-06,US,R,California
+2009,3,NJN,2,Josh Boone,C,6-10,237,1984-11-21,US,2,UConn
+2009,3,NJN,15,Vince Carter,SG,6-6,220,1977-01-26,US,10,UNC
+2009,3,NJN,55,Keyon Dooling,PG,6-3,196,1980-05-08,US,8,Missouri
+2009,3,NJN,17,Chris Douglas-Roberts,SG,6-7,200,1987-01-08,US,R,Memphis
+2009,3,NJN,34,Devin Harris,PG,6-3,185,1983-02-27,US,4,Wisconsin
+2009,3,NJN,44,Trenton Hassell,SF,6-5,200,1979-03-04,US,7,Austin Peay State University
+2009,3,NJN,22,Jarvis Hayes,SF,6-7,220,1981-08-09,US,5,"Western Carolina University, Georgia"
+2009,3,NJN,9,Yi Jianlian,PF,7-0,240,1987-10-27,CN,1,
+2009,3,NJN,11,Brook Lopez,C,7-0,282,1988-04-01,US,R,Stanford
+2009,3,NJN,14,Eduardo Najera,PF,6-8,240,1976-07-11,MX,8,Oklahoma
+2009,3,NJN,21,Bobby Simmons,SF,6-7,210,1980-06-02,US,6,DePaul
+2009,3,NJN,6,Stromile Swift,PF,6-9,225,1979-11-21,US,8,LSU
+2009,3,NJN,51,Sean Williams,PF,6-10,235,1986-09-13,US,1,Boston College

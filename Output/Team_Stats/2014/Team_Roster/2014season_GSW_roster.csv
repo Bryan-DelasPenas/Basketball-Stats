@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-57,Hilton Armstrong,C,6-11,235,1984-11-11,US,5,UConn
-40,Harrison Barnes,SF,6-8,225,1992-05-30,US,1,UNC
-20,Kent Bazemore,SG,6-4,195,1989-07-01,US,1,Old Dominion
-25,Steve Blake,PG,6-3,172,1980-02-26,US,10,Maryland
-12,Andrew Bogut,C,7-0,260,1984-11-28,AU,8,Utah
-2,MarShon Brooks,SG,6-5,200,1989-01-26,US,2,Providence
-55,Jordan Crawford,SG,6-4,195,1988-10-23,US,3,"Indiana, Xavier"
-30,Stephen Curry,PG,6-3,185,1988-03-14,US,4,Davidson
-21,Dewayne Dedmon,C,7-0,245,1989-08-12,US,R,USC
-0,Toney Douglas,PG,6-2,195,1986-03-16,US,4,"Auburn, Florida State"
-23,Draymond Green,SF,6-6,230,1990-03-04,US,1,Michigan State
-9,Andre Iguodala,SF,6-6,215,1984-01-28,US,9,Arizona
-1,Ognjen Kuzmić,C,7-1,251,1990-05-16,BA,R,
-10,David Lee,PF,6-9,245,1983-04-29,US,8,Florida
-8,Nemanja Nedović,SG,6-3,192,1991-06-16,RS,R,
-7,Jermaine O'Neal,PF,6-11,226,1978-10-13,US,17,
-5,Marreese Speights,C,6-10,255,1987-08-04,US,5,Florida
-11,Klay Thompson,SG,6-6,215,1990-02-08,US,2,Washington State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2014,10,GSW,57,Hilton Armstrong,C,6-11,235,1984-11-11,US,5,UConn
+2014,10,GSW,40,Harrison Barnes,SF,6-8,225,1992-05-30,US,1,UNC
+2014,10,GSW,20,Kent Bazemore,SG,6-4,195,1989-07-01,US,1,Old Dominion
+2014,10,GSW,25,Steve Blake,PG,6-3,172,1980-02-26,US,10,Maryland
+2014,10,GSW,12,Andrew Bogut,C,7-0,260,1984-11-28,AU,8,Utah
+2014,10,GSW,2,MarShon Brooks,SG,6-5,200,1989-01-26,US,2,Providence
+2014,10,GSW,55,Jordan Crawford,SG,6-4,195,1988-10-23,US,3,"Indiana, Xavier"
+2014,10,GSW,30,Stephen Curry,PG,6-3,185,1988-03-14,US,4,Davidson
+2014,10,GSW,21,Dewayne Dedmon,C,7-0,245,1989-08-12,US,R,USC
+2014,10,GSW,0,Toney Douglas,PG,6-2,195,1986-03-16,US,4,"Auburn, Florida State"
+2014,10,GSW,23,Draymond Green,SF,6-6,230,1990-03-04,US,1,Michigan State
+2014,10,GSW,9,Andre Iguodala,SF,6-6,215,1984-01-28,US,9,Arizona
+2014,10,GSW,1,Ognjen Kuzmic,C,7-1,251,1990-05-16,BA,R,
+2014,10,GSW,10,David Lee,PF,6-9,245,1983-04-29,US,8,Florida
+2014,10,GSW,8,Nemanja Nedovic,SG,6-3,192,1991-06-16,RS,R,
+2014,10,GSW,7,Jermaine O'Neal,PF,6-11,226,1978-10-13,US,17,
+2014,10,GSW,5,Marreese Speights,C,6-10,255,1987-08-04,US,5,Florida
+2014,10,GSW,11,Klay Thompson,SG,6-6,215,1990-02-08,US,2,Washington State

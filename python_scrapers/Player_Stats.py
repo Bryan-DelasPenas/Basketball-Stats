@@ -12,75 +12,10 @@ from requests import get
 import codecs
 import unicodedata, unidecode
 
-from utils import strip_accents
-'''
-Removes accent from characters TODO: Let off at M, still need N - Z
-'''
-def translate(name):
-    
-    special_char = ('Ã³', 'Ã–', 'ÅŸ', 'Ä±', 'Ãº', 'Ã§', 'Å¡', 'Å†', 'Å¡', 'Ä‡', 'Ä', 'Å¾', 'Ã¡', 'Å½','ÄŒ', 'Ä','Ã©', 'Ã', 'A°', 'Aª', 'a°', 'A¼', 'A¨', 'A²', 'È™',
-                    'A¶', 'Å«', 'A¤')
-    
-    # 
-    if any(x in name for x in special_char):
-        if('Biedrin' in name):
-            name = name.replace('Å¡', 'n')
+from utils import translate
 
-        # Case for: Vlatko Cancar
-        elif('Vlatko' in name):
-            name = "Vlatko Cancar"
 
-        #Case for: Guillermo diaz
-        elif('Guillermo' in name):
-            name = "Guillermo Diaz"
 
-        elif('Faverani' in name):
-            name = "Vitor Luiz Faverani"
-
-        elif('Cristiano' in name):
-            name = 'Cristiano Felicio'
-
-        elif('Francisco Garc' in name):
-            name = 'Francisco Garcia'
-
-        elif('Jasikevi' in name):
-            name = 'Sarunas Jasikevicius'
-
-        elif('Kuko' in name):
-            name = 'Toni Kukoc'
-
-        elif('iulionis' in name):
-            name = 'Sarunas Marciulionis'
-
-        else:
-            name = name.replace('Ã³', 'o')
-            name = name.replace('Ã–', 'O')
-            name = name.replace('ÅŸ', 's')
-            name = name.replace('Ä±', 'i')
-            name = name.replace('Ãº', 'u')
-            name = name.replace('Ã§', 'c')
-            name = name.replace('Å†', 's')
-            name = name.replace('Å¡', 's')
-            name = name.replace('Ä‡', 'c')
-            name = name.replace('Ä', 'a')
-            name = name.replace('Ã¡', 'a')
-            name = name.replace('Å¾', 'z')
-            name = name.replace('Å½', 'Z')
-            name = name.replace('aŒ', 'C')
-            name = name.replace('Ã©', 'e')
-            name = name.replace('Ã', 'A')
-            name = name.replace('A°', 'o')
-            name = name.replace('Aª', 'e')
-            name = name.replace('a°', 'I')
-            name = name.replace('A¼', 'u')
-            name = name.replace('A¨', 'e')
-            name = name.replace('È™', 's')
-            name = name.replace('A²', 'o')
-            name = name.replace('A¶', 'o')
-            name = name.replace('Å«', 'u')
-            name = name.replace('A¤', 'a')
-    print(name)
-    return name
 '''
 Creates a dataframe of player's name active from 1980 - 2020
 '''
@@ -108,12 +43,12 @@ def get_player_name(letter):
         df.drop(df_new, inplace = True)
         
         df['PLAYER'] = df['PLAYER'].apply(lambda name: translate(name))
-        
+        return df
         #print(df)
 
 def get_player_stats(season): 
     return 0
 
 def main():
-    get_player_name('m')
+    print(get_player_name('z'))
 main()

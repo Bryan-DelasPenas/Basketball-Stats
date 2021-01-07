@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-13,Maurice Ager,SG,6-5,202,1984-02-09,US,R,Michigan State
-11,J.J. Barea,PG,5-10,180,1984-06-26,PR,R,Northeastern University
-1,Greg Buckner,SG,6-4,210,1976-09-16,US,7,Clemson
-44,Austin Croshere,PF,6-9,235,1975-05-01,US,9,Providence
-25,Erick Dampier,C,6-11,265,1975-07-14,US,10,Mississippi State
-7,DeSagana Diop,C,7-0,300,1982-01-30,SN,5,
-40,Devean George,SF,6-8,220,1977-08-29,US,7,Augsburg College
-34,Devin Harris,PG,6-3,185,1983-02-27,US,2,Wisconsin
-5,Josh Howard,SF,6-7,210,1980-04-28,US,3,Wake Forest
-28,Didier Ilunga-Mbenga,C,7-0,245,1980-12-30,CD,2,
-8,Anthony Johnson,PG,6-3,190,1974-10-02,US,9,College of Charleston
-21,Pops Mensah-Bonsu,PF,6-9,240,1983-09-07,GB,R,George Washington
-41,Dirk Nowitzki,PF,7-0,245,1978-06-19,DE,8,
-42,Jerry Stackhouse,SF,6-6,218,1974-11-05,US,11,UNC
-31,Jason Terry,SG,6-2,185,1977-09-15,US,7,Arizona
-45,Kevin Willis,PF,7-0,220,1962-09-06,US,20,Michigan State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2007,7,DAL,13,Maurice Ager,SG,6-5,202,1984-02-09,US,R,Michigan State
+2007,7,DAL,11,J.J. Barea,PG,5-10,180,1984-06-26,PR,R,Northeastern University
+2007,7,DAL,1,Greg Buckner,SG,6-4,210,1976-09-16,US,7,Clemson
+2007,7,DAL,44,Austin Croshere,PF,6-9,235,1975-05-01,US,9,Providence
+2007,7,DAL,25,Erick Dampier,C,6-11,265,1975-07-14,US,10,Mississippi State
+2007,7,DAL,7,DeSagana Diop,C,7-0,300,1982-01-30,SN,5,
+2007,7,DAL,40,Devean George,SF,6-8,220,1977-08-29,US,7,Augsburg College
+2007,7,DAL,34,Devin Harris,PG,6-3,185,1983-02-27,US,2,Wisconsin
+2007,7,DAL,5,Josh Howard,SF,6-7,210,1980-04-28,US,3,Wake Forest
+2007,7,DAL,28,Didier Ilunga-Mbenga,C,7-0,245,1980-12-30,CD,2,
+2007,7,DAL,8,Anthony Johnson,PG,6-3,190,1974-10-02,US,9,College of Charleston
+2007,7,DAL,21,Pops Mensah-Bonsu,PF,6-9,240,1983-09-07,GB,R,George Washington
+2007,7,DAL,41,Dirk Nowitzki,PF,7-0,245,1978-06-19,DE,8,
+2007,7,DAL,42,Jerry Stackhouse,SF,6-6,218,1974-11-05,US,11,UNC
+2007,7,DAL,31,Jason Terry,SG,6-2,185,1977-09-15,US,7,Arizona
+2007,7,DAL,45,Kevin Willis,PF,7-0,220,1962-09-06,US,20,Michigan State

@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-17,Mike Brown,C,6-9,257,1963-07-19,US,1,George Washington
-40,Dave Corzine,C,6-11,250,1956-04-25,US,9,DePaul
-53,Artis Gilmore,C,7-2,240,1949-09-21,US,16,"Gardner-Webb University, Jacksonville University"
-54,Horace Grant,PF,6-10,215,1965-07-04,US,R,Clemson
-23,Michael Jordan,SG,6-6,198,1963-02-17,US,3,UNC
-34,Charles Oakley,PF,6-8,225,1963-12-18,US,2,Virginia Union University
-5,John Paxson,PG,6-2,185,1960-09-29,US,4,Notre Dame
-33,Scottie Pippen,SF,6-8,210,1965-09-25,US,R,University of Central Arkansas
-6,Brad Sellers,SF,7-0,210,1962-12-17,US,1,"Wisconsin, Ohio State"
-2,Rory Sparrow,PG,6-2,175,1958-06-12,US,7,Villanova
-3,Sedale Threatt,PG,6-2,175,1961-09-10,US,4,West Virginia Tech
-21,Elston Turner,SF,6-5,190,1959-06-10,US,6,Ole Miss
-11,Sam Vincent,PG,6-2,185,1963-05-18,US,2,Michigan State
-31,Granville Waiters,C,6-11,225,1961-01-08,US,4,Ohio State
-11,Tony White,PG,6-2,170,1965-02-15,US,R,Tennessee
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1988,5,CHI,17,Mike Brown,C,6-9,257,1963-07-19,US,1,George Washington
+1988,5,CHI,40,Dave Corzine,C,6-11,250,1956-04-25,US,9,DePaul
+1988,5,CHI,53,Artis Gilmore,C,7-2,240,1949-09-21,US,16,"Gardner-Webb University, Jacksonville University"
+1988,5,CHI,54,Horace Grant,PF,6-10,215,1965-07-04,US,R,Clemson
+1988,5,CHI,23,Michael Jordan,SG,6-6,198,1963-02-17,US,3,UNC
+1988,5,CHI,34,Charles Oakley,PF,6-8,225,1963-12-18,US,2,Virginia Union University
+1988,5,CHI,5,John Paxson,PG,6-2,185,1960-09-29,US,4,Notre Dame
+1988,5,CHI,33,Scottie Pippen,SF,6-8,210,1965-09-25,US,R,University of Central Arkansas
+1988,5,CHI,6,Brad Sellers,SF,7-0,210,1962-12-17,US,1,"Wisconsin, Ohio State"
+1988,5,CHI,2,Rory Sparrow,PG,6-2,175,1958-06-12,US,7,Villanova
+1988,5,CHI,3,Sedale Threatt,PG,6-2,175,1961-09-10,US,4,West Virginia Tech
+1988,5,CHI,21,Elston Turner,SF,6-5,190,1959-06-10,US,6,Ole Miss
+1988,5,CHI,11,Sam Vincent,PG,6-2,185,1963-05-18,US,2,Michigan State
+1988,5,CHI,31,Granville Waiters,C,6-11,225,1961-01-08,US,4,Ohio State
+1988,5,CHI,11,Tony White,PG,6-2,170,1965-02-15,US,R,Tennessee

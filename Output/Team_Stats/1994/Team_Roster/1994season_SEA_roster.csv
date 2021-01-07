@@ -1,15 +1,15 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-17,Vincent Askew,SG,6-6,210,1966-02-28,US,4,Memphis
-44,Michael Cage,C,6-9,224,1962-01-28,US,9,San Diego State
-3,Alphonso Ford,PG,6-1,190,1971-10-31,US,R,Mississippi Valley State University
-13,Kendall Gill,SG,6-5,195,1968-05-25,US,3,Illinois
-50,Ervin Johnson,C,6-11,245,1967-12-21,US,R,New Orleans
-40,Shawn Kemp,PF,6-10,230,1969-11-26,US,4,Trinity Valley CC
-35,Chris King,SF,6-8,215,1969-07-24,US,R,Wake Forest
-25,Rich King,C,7-2,260,1969-04-04,US,2,Nebraska
-10,Nate McMillan,PG,6-5,195,1964-08-03,US,7,NC State
-20,Gary Payton,PG,6-4,180,1968-07-23,US,3,Oregon State
-14,Sam Perkins,PF,6-9,235,1961-06-14,US,9,UNC
-22,Ricky Pierce,SG,6-4,205,1959-08-19,US,11,Rice University
-55,Steve Scheffler,C,6-9,250,1967-09-03,US,3,Purdue
-11,Detlef Schrempf,SF,6-10,235,1963-01-21,DE,8,Washington
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1994,21,SEA,17,Vincent Askew,SG,6-6,210,1966-02-28,US,4,Memphis
+1994,21,SEA,44,Michael Cage,C,6-9,224,1962-01-28,US,9,San Diego State
+1994,21,SEA,3,Alphonso Ford,PG,6-1,190,1971-10-31,US,R,Mississippi Valley State University
+1994,21,SEA,13,Kendall Gill,SG,6-5,195,1968-05-25,US,3,Illinois
+1994,21,SEA,50,Ervin Johnson,C,6-11,245,1967-12-21,US,R,New Orleans
+1994,21,SEA,40,Shawn Kemp,PF,6-10,230,1969-11-26,US,4,Trinity Valley CC
+1994,21,SEA,35,Chris King,SF,6-8,215,1969-07-24,US,R,Wake Forest
+1994,21,SEA,25,Rich King,C,7-2,260,1969-04-04,US,2,Nebraska
+1994,21,SEA,10,Nate McMillan,PG,6-5,195,1964-08-03,US,7,NC State
+1994,21,SEA,20,Gary Payton,PG,6-4,180,1968-07-23,US,3,Oregon State
+1994,21,SEA,14,Sam Perkins,PF,6-9,235,1961-06-14,US,9,UNC
+1994,21,SEA,22,Ricky Pierce,SG,6-4,205,1959-08-19,US,11,Rice University
+1994,21,SEA,55,Steve Scheffler,C,6-9,250,1967-09-03,US,3,Purdue
+1994,21,SEA,11,Detlef Schrempf,SF,6-10,235,1963-01-21,DE,8,Washington

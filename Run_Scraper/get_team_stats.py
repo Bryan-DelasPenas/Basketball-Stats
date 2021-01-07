@@ -69,12 +69,12 @@ def csv_roster(year):
     for team in range(0, len(df['TEAM'])):
 
         # Call the get_team_stats that returns a dataframe a certin team stats from a given year
-        roster_df = get_roster(df.iloc[team, 0], year) 
+        roster_df = get_roster(df.iloc[team, 2], year) 
         
         # Check if the roster_df is not none
         if(roster_df is not None):
              # Create a unique name for the file 
-            file_name = "\\"+ str(year)+ "season" + "_" + str(df.iloc[team, 0]) + "_" + "roster" + ".csv"
+            file_name = "\\"+ str(year)+ "season" + "_" + str(df.iloc[team, 2]) + "_" + "roster" + ".csv"
 
             # Generate the CSV file in the propery directory 
             roster_df.to_csv(final_path + file_name, index = False)
@@ -103,9 +103,9 @@ def csv_team_stats(year, playoffs ,format):
             file_type = "Per_poss"
             string_type = "per_poss"
 
-        elif(format == 'TOTAL'):
-            file_type = "Total"
-            string_type = "total"
+        elif(format == 'TOTALS'):
+            file_type = "Totals"
+            string_type = "totals"
 
         elif(format == 'PER_MINUTE'):
             file_type = "Per_Minute"
@@ -129,9 +129,9 @@ def csv_team_stats(year, playoffs ,format):
             file_type = "Per_poss"
             string_type = "per_poss"
 
-        elif(format == 'TOTAL'):
-            file_type = "Total"
-            string_type = "total"
+        elif(format == 'TOTALS'):
+            file_type = "Totals"
+            string_type = "totals"
 
         elif(format == 'PER_MINUTE'):
             file_type = "Per_Minute"
@@ -167,15 +167,17 @@ def csv_team_stats(year, playoffs ,format):
     else:
         pass
     
+    print(year)
     # Iterate through the len of the team column 
     for team in range(0, len(df['TEAM'])):
-
-        # Call the get_team_stats that returns a dataframe a certin team stats from a given year
-        team_df = get_team_stats(df.iloc[team, 0], year, playoffs, format) 
+      
+        # Call the get_team_stats that returns a dataframe a certin team stats from a given year, 2 is due to TEAM being the 3 column
+        team_df = get_team_stats(df.iloc[team, 2], year, playoffs, format) 
+        
         if(team_df is not None):
             
             # Create a unique name for the file 
-            file_name = "\\"+ str(year)+ "season"+ "_" + str(df.iloc[team, 0]) + "_" + string_playoffs + "_" + string_type + ".csv"
+            file_name = "\\"+ str(year)+ "season"+ "_" + str(df.iloc[team, 2]) + "_" + string_playoffs + "_" + string_type + ".csv"
                 
             # Generate the CSV file in the propery directory 
             team_df.to_csv(final_path + file_name, index = False)
@@ -198,7 +200,7 @@ def get_team_csv():
         # Non-Playoff stats
         csv_team_stats(year, False, 'PER_GAME')
         csv_team_stats(year, False, 'PER_POSS')
-        csv_team_stats(year, False, 'TOTAL')
+        csv_team_stats(year, False, 'TOTALS')
         csv_team_stats(year, False, 'PER_MINUTE')
         csv_team_stats(year, False, 'ADVANCED')
         csv_team_stats(year, False, 'ADJUSTED')
@@ -206,7 +208,7 @@ def get_team_csv():
         # Playoff stats 
         csv_team_stats(year, True, 'PER_GAME')
         csv_team_stats(year, True, 'PER_POSS')
-        csv_team_stats(year, True, 'TOTAL')
+        csv_team_stats(year, True, 'TOTALS')
         csv_team_stats(year, True, 'PER_MINUTE')
         csv_team_stats(year, True, 'ADVANCED')
 
@@ -214,7 +216,7 @@ def get_team_csv():
         csv_roster(year)
 
 def main():
-    #get_team_csv()
-    print(get_roster('GSW',2020))
+    get_team_csv()
+    
 if __name__ == "__main__":
     main()

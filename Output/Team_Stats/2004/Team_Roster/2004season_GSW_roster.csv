@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-9,J.R. Bremer,PG,6-2,185,1980-09-19,US,1,St. Bonaventure
-35,Brian Cardinal,PF,6-8,245,1977-05-02,US,3,Purdue
-40,Calbert Cheaney,SF,6-7,209,1971-07-17,US,10,Indiana
-10,Speedy Claxton,PG,5-11,166,1978-05-08,US,2,Hofstra
-25,Erick Dampier,C,6-11,265,1975-07-14,US,7,Mississippi State
-34,Mike Dunleavy,SF,6-9,230,1980-09-15,US,1,Duke
-31,Adonal Foyle,C,6-10,250,1975-03-09,VC,6,Colgate
-6,Avery Johnson,PG,5-10,175,1965-03-25,US,15,"Cameron University, Southern University and A&M College"
-54,Popeye Jones,PF,6-8,250,1970-06-17,US,10,Murray State
-21,Sean Lampley,SF,6-7,227,1979-09-03,US,1,California
-7,Dan Langhi,SF,6-11,220,1977-11-28,US,3,Vanderbilt
-5,Rusty LaRue,PG,6-2,210,1973-12-10,US,4,Wake Forest
-1,Troy Murphy,PF,6-11,245,1980-05-02,US,2,Notre Dame
-44,Cherokee Parks,C,6-11,235,1972-10-11,US,8,Duke
-2,Mickaël Piétrus,PG,6-6,215,1982-02-07,GP,R,
-23,Jason Richardson,SG,6-6,220,1981-01-20,US,2,Michigan State
-3,Clifford Robinson,PF,6-10,225,1966-12-16,US,14,UConn
-37,Nick Van Exel,PG,6-1,170,1971-11-27,US,10,"Trinity Valley CC, Cincinnati"
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2004,10,GSW,9,J.R. Bremer,PG,6-2,185,1980-09-19,US,1,St. Bonaventure
+2004,10,GSW,35,Brian Cardinal,PF,6-8,245,1977-05-02,US,3,Purdue
+2004,10,GSW,40,Calbert Cheaney,SF,6-7,209,1971-07-17,US,10,Indiana
+2004,10,GSW,10,Speedy Claxton,PG,5-11,166,1978-05-08,US,2,Hofstra
+2004,10,GSW,25,Erick Dampier,C,6-11,265,1975-07-14,US,7,Mississippi State
+2004,10,GSW,34,Mike Dunleavy,SF,6-9,230,1980-09-15,US,1,Duke
+2004,10,GSW,31,Adonal Foyle,C,6-10,250,1975-03-09,VC,6,Colgate
+2004,10,GSW,6,Avery Johnson,PG,5-10,175,1965-03-25,US,15,"Cameron University, Southern University and A&M College"
+2004,10,GSW,54,Popeye Jones,PF,6-8,250,1970-06-17,US,10,Murray State
+2004,10,GSW,21,Sean Lampley,SF,6-7,227,1979-09-03,US,1,California
+2004,10,GSW,7,Dan Langhi,SF,6-11,220,1977-11-28,US,3,Vanderbilt
+2004,10,GSW,5,Rusty LaRue,PG,6-2,210,1973-12-10,US,4,Wake Forest
+2004,10,GSW,1,Troy Murphy,PF,6-11,245,1980-05-02,US,2,Notre Dame
+2004,10,GSW,44,Cherokee Parks,C,6-11,235,1972-10-11,US,8,Duke
+2004,10,GSW,2,Mickael Pietrus,PG,6-6,215,1982-02-07,GP,R,
+2004,10,GSW,23,Jason Richardson,SG,6-6,220,1981-01-20,US,2,Michigan State
+2004,10,GSW,3,Clifford Robinson,PF,6-10,225,1966-12-16,US,14,UConn
+2004,10,GSW,37,Nick Van Exel,PG,6-1,170,1971-11-27,US,10,"Trinity Valley CC, Cincinnati"

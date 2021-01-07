@@ -1,18 +1,18 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-34,Greg Anderson,PF,6-10,230,1964-06-22,US,3,Houston
-40,Frank Brickowski,PF,6-9,240,1959-08-14,US,6,Penn State
-15,Lester Conner,PG,6-4,180,1959-09-17,US,7,Oregon State
-7,Adrian Dantley,SF,6-5,208,1955-02-28,US,14,Notre Dame
-3,Dale Ellis,SG,6-7,205,1960-08-06,US,7,Tennessee
-20,Jeff Grayer,SG,6-5,200,1965-12-17,US,2,Iowa State
-12,Steve Henson,PG,5-11,177,1968-02-02,US,R,Kansas State
-24,Jay Humphries,PG,6-3,185,1962-10-17,US,6,Colorado
-8,Frank Kornet,PF,6-9,225,1967-01-27,US,1,Vanderbilt
-,Larry Krystkowiak,F-C,6-9,220,1964-09-23,US,4,Montana
-44,Brad Lohaus,PF,6-11,230,1964-09-29,US,3,Iowa
-22,Ricky Pierce,SG,6-4,205,1959-08-19,US,8,Rice University
-31,Fred Roberts,PF,6-10,218,1960-08-14,US,7,BYU
-21,Alvin Robertson,SG,6-3,185,1962-07-22,US,6,Arkansas
-10,Danny Schayes,C,6-11,235,1959-05-10,US,9,Syracuse
-43,Jack Sikma,C,6-11,230,1955-11-14,US,13,Illinois Wesleyan University
-7-11,Everette Stephens,PG,6-2,175,1966-10-21,US,1,Purdue
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1991,17,MIL,34,Greg Anderson,PF,6-10,230,1964-06-22,US,3,Houston
+1991,17,MIL,40,Frank Brickowski,PF,6-9,240,1959-08-14,US,6,Penn State
+1991,17,MIL,15,Lester Conner,PG,6-4,180,1959-09-17,US,7,Oregon State
+1991,17,MIL,7,Adrian Dantley,SF,6-5,208,1955-02-28,US,14,Notre Dame
+1991,17,MIL,3,Dale Ellis,SG,6-7,205,1960-08-06,US,7,Tennessee
+1991,17,MIL,20,Jeff Grayer,SG,6-5,200,1965-12-17,US,2,Iowa State
+1991,17,MIL,12,Steve Henson,PG,5-11,177,1968-02-02,US,R,Kansas State
+1991,17,MIL,24,Jay Humphries,PG,6-3,185,1962-10-17,US,6,Colorado
+1991,17,MIL,8,Frank Kornet,PF,6-9,225,1967-01-27,US,1,Vanderbilt
+1991,17,MIL,,Larry Krystkowiak,F-C,6-9,220,1964-09-23,US,4,Montana
+1991,17,MIL,44,Brad Lohaus,PF,6-11,230,1964-09-29,US,3,Iowa
+1991,17,MIL,22,Ricky Pierce,SG,6-4,205,1959-08-19,US,8,Rice University
+1991,17,MIL,31,Fred Roberts,PF,6-10,218,1960-08-14,US,7,BYU
+1991,17,MIL,21,Alvin Robertson,SG,6-3,185,1962-07-22,US,6,Arkansas
+1991,17,MIL,10,Danny Schayes,C,6-11,235,1959-05-10,US,9,Syracuse
+1991,17,MIL,43,Jack Sikma,C,6-11,230,1955-11-14,US,13,Illinois Wesleyan University
+1991,17,MIL,7-11,Everette Stephens,PG,6-2,175,1966-10-21,US,1,Purdue

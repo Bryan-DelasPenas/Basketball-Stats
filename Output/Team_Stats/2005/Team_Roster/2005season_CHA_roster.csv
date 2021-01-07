@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-12,Cory Alexander,SG,6-1,185,1973-06-22,US,6,Virginia
-35,Malik Allen,PF,6-10,255,1978-06-27,US,3,Villanova
-10,Keith Bogans,SG,6-5,215,1980-05-12,US,1,Kentucky
-7,Primož Brezec,C,7-2,252,1979-10-02,SI,3,
-13,Matt Carroll,SG,6-6,212,1980-08-28,US,1,Notre Dame
-2,Melvin Ely,PF,6-10,260,1978-05-02,US,2,Fresno State
-1,Jason Hart,PG,6-3,185,1978-04-29,US,3,Syracuse
-5,Eddie House,SG,6-1,180,1978-05-14,US,4,Arizona State
-24,Jason Kapono,SF,6-8,213,1981-02-04,US,1,UCLA
-22,Brevin Knight,PG,5-10,173,1975-11-08,US,7,Stanford
-50,Emeka Okafor,PF,6-10,252,1982-09-28,US,R,UConn
-21,Bernard Robinson,SG,6-6,210,1980-12-26,US,R,Michigan
-4,Kareem Rush,SG,6-6,215,1980-10-30,US,2,Missouri
-31,Jamal Sampson,PF,6-11,235,1983-05-15,US,2,California
-32,Tamar Slay,SG,6-8,215,1980-04-02,US,2,Marshall
-8,Steve Smith,SG,6-7,200,1969-03-31,US,13,Michigan State
-0,Theron Smith,SF,6-8,225,1980-10-03,US,1,Ball State University
-3,Gerald Wallace,SF,6-7,215,1982-07-23,US,3,Alabama
-55,Jahidi White,C,6-9,290,1976-02-19,US,6,Georgetown
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2005,4,CHA,12,Cory Alexander,SG,6-1,185,1973-06-22,US,6,Virginia
+2005,4,CHA,35,Malik Allen,PF,6-10,255,1978-06-27,US,3,Villanova
+2005,4,CHA,10,Keith Bogans,SG,6-5,215,1980-05-12,US,1,Kentucky
+2005,4,CHA,7,Primoz Brezec,C,7-2,252,1979-10-02,SI,3,
+2005,4,CHA,13,Matt Carroll,SG,6-6,212,1980-08-28,US,1,Notre Dame
+2005,4,CHA,2,Melvin Ely,PF,6-10,260,1978-05-02,US,2,Fresno State
+2005,4,CHA,1,Jason Hart,PG,6-3,185,1978-04-29,US,3,Syracuse
+2005,4,CHA,5,Eddie House,SG,6-1,180,1978-05-14,US,4,Arizona State
+2005,4,CHA,24,Jason Kapono,SF,6-8,213,1981-02-04,US,1,UCLA
+2005,4,CHA,22,Brevin Knight,PG,5-10,173,1975-11-08,US,7,Stanford
+2005,4,CHA,50,Emeka Okafor,PF,6-10,252,1982-09-28,US,R,UConn
+2005,4,CHA,21,Bernard Robinson,SG,6-6,210,1980-12-26,US,R,Michigan
+2005,4,CHA,4,Kareem Rush,SG,6-6,215,1980-10-30,US,2,Missouri
+2005,4,CHA,31,Jamal Sampson,PF,6-11,235,1983-05-15,US,2,California
+2005,4,CHA,32,Tamar Slay,SG,6-8,215,1980-04-02,US,2,Marshall
+2005,4,CHA,8,Steve Smith,SG,6-7,200,1969-03-31,US,13,Michigan State
+2005,4,CHA,0,Theron Smith,SF,6-8,225,1980-10-03,US,1,Ball State University
+2005,4,CHA,3,Gerald Wallace,SF,6-7,215,1982-07-23,US,3,Alabama
+2005,4,CHA,55,Jahidi White,C,6-9,290,1976-02-19,US,6,Georgetown

@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-0,Benoit Benjamin,C,7-0,250,1964-11-22,US,13,Creighton
-52,Matt Geiger,C,7-0,243,1969-09-10,US,6,"Auburn, Georgia Tech"
-44,Harvey Grant,PF,6-8,195,1965-07-04,US,10,"Clemson, Oklahoma"
-40,Tyrone Hill,PF,6-9,240,1968-03-19,US,8,Xavier
-25,Jerald Honeycutt,PF,6-9,245,1974-10-20,US,1,Tulane
-21,Larry Hughes,PG,6-5,184,1979-01-23,US,R,Saint Louis
-3,Allen Iverson,SG,6-0,165,1975-06-07,US,2,Georgetown
-9,George Lynch,SF,6-8,218,1970-09-03,US,5,UNC
-4,Rick Mahorn,PF,6-10,240,1958-09-21,US,17,Hampton
-8,Aaron McKie,SG,6-5,209,1972-10-02,US,4,Temple
-14,Nazr Mohammed,C,6-10,221,1977-09-05,US,R,Kentucky
-11,Doug Overton,PG,6-3,190,1969-08-03,US,6,La Salle
-12,Anthony Parker,SG,6-6,215,1975-06-19,US,1,Bradley
-42,Theo Ratliff,PF,6-10,225,1973-04-17,US,3,Wyoming
-30,Casey Shaw,C,6-11,260,1975-07-20,US,R,Toledo
-20,Eric Snow,PG,6-3,190,1973-04-24,US,3,Michigan State
-1,Tim Thomas,SF,6-10,230,1977-02-26,US,1,Villanova
-55,Scott Williams,C,6-10,230,1968-03-21,US,8,UNC
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1999,23,PHI,0,Benoit Benjamin,C,7-0,250,1964-11-22,US,13,Creighton
+1999,23,PHI,52,Matt Geiger,C,7-0,243,1969-09-10,US,6,"Auburn, Georgia Tech"
+1999,23,PHI,44,Harvey Grant,PF,6-8,195,1965-07-04,US,10,"Clemson, Oklahoma"
+1999,23,PHI,40,Tyrone Hill,PF,6-9,240,1968-03-19,US,8,Xavier
+1999,23,PHI,25,Jerald Honeycutt,PF,6-9,245,1974-10-20,US,1,Tulane
+1999,23,PHI,21,Larry Hughes,PG,6-5,184,1979-01-23,US,R,Saint Louis
+1999,23,PHI,3,Allen Iverson,SG,6-0,165,1975-06-07,US,2,Georgetown
+1999,23,PHI,9,George Lynch,SF,6-8,218,1970-09-03,US,5,UNC
+1999,23,PHI,4,Rick Mahorn,PF,6-10,240,1958-09-21,US,17,Hampton
+1999,23,PHI,8,Aaron McKie,SG,6-5,209,1972-10-02,US,4,Temple
+1999,23,PHI,14,Nazr Mohammed,C,6-10,221,1977-09-05,US,R,Kentucky
+1999,23,PHI,11,Doug Overton,PG,6-3,190,1969-08-03,US,6,La Salle
+1999,23,PHI,12,Anthony Parker,SG,6-6,215,1975-06-19,US,1,Bradley
+1999,23,PHI,42,Theo Ratliff,PF,6-10,225,1973-04-17,US,3,Wyoming
+1999,23,PHI,30,Casey Shaw,C,6-11,260,1975-07-20,US,R,Toledo
+1999,23,PHI,20,Eric Snow,PG,6-3,190,1973-04-24,US,3,Michigan State
+1999,23,PHI,1,Tim Thomas,SF,6-10,230,1977-02-26,US,1,Villanova
+1999,23,PHI,55,Scott Williams,C,6-10,230,1968-03-21,US,8,UNC

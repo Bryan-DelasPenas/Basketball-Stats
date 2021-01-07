@@ -1,20 +1,20 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-17,Ron Brewer,SG,6-4,180,1955-07-16,US,4,Arkansas
-23,Rickey Brown,C,6-10,215,1958-08-20,US,2,Mississippi State
-2,Joe Barry Carroll,C,7-0,225,1958-07-24,US,2,Purdue
-15,Lester Conner,PG,6-4,180,1959-09-17,US,R,Oregon State
-40,Terry Duerod,SG,6-2,180,1956-07-29,US,3,Detroit Mercy
-55,Chris Engler,C,6-11,245,1959-03-01,US,R,"Minnesota, Wyoming"
-21,Sleepy Floyd,PG,6-3,170,1960-03-06,US,R,Georgetown
-21,World B. Free,SG,6-2,185,1953-12-09,US,7,Guilford College
-10,Joe Hassett,SG,6-5,180,1955-09-11,US,5,Providence
-43,Mickey Johnson,PF,6-10,190,1952-08-31,US,8,Aurora University
-35,Larry Kenon,PF,6-9,205,1952-12-13,US,9,Memphis
-32,Lewis Lloyd,SG,6-6,205,1959-02-22,US,1,Drake University
-44,Hank McDowell,PF,6-9,215,1959-11-13,US,1,Memphis
-20,Micheal Ray Richardson,PG,6-5,189,1955-04-11,US,4,Montana
-18,Lorenzo Romar,PG,6-1,175,1958-11-13,US,2,Washington
-45,Purvis Short,SF,6-7,210,1957-07-02,US,4,Jackson State University
-41,Derek Smith,SF,6-6,205,1961-11-01,US,R,Louisville
-13,Larry Smith,PF,6-8,215,1958-01-18,US,2,Alcorn State
-33,Sam Williams,PF,6-8,210,1959-03-07,US,1,Arizona State
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1983,10,GSW,17,Ron Brewer,SG,6-4,180,1955-07-16,US,4,Arkansas
+1983,10,GSW,23,Rickey Brown,C,6-10,215,1958-08-20,US,2,Mississippi State
+1983,10,GSW,2,Joe Barry Carroll,C,7-0,225,1958-07-24,US,2,Purdue
+1983,10,GSW,15,Lester Conner,PG,6-4,180,1959-09-17,US,R,Oregon State
+1983,10,GSW,40,Terry Duerod,SG,6-2,180,1956-07-29,US,3,Detroit Mercy
+1983,10,GSW,55,Chris Engler,C,6-11,245,1959-03-01,US,R,"Minnesota, Wyoming"
+1983,10,GSW,21,Sleepy Floyd,PG,6-3,170,1960-03-06,US,R,Georgetown
+1983,10,GSW,21,World B. Free,SG,6-2,185,1953-12-09,US,7,Guilford College
+1983,10,GSW,10,Joe Hassett,SG,6-5,180,1955-09-11,US,5,Providence
+1983,10,GSW,43,Mickey Johnson,PF,6-10,190,1952-08-31,US,8,Aurora University
+1983,10,GSW,35,Larry Kenon,PF,6-9,205,1952-12-13,US,9,Memphis
+1983,10,GSW,32,Lewis Lloyd,SG,6-6,205,1959-02-22,US,1,Drake University
+1983,10,GSW,44,Hank McDowell,PF,6-9,215,1959-11-13,US,1,Memphis
+1983,10,GSW,20,Micheal Ray Richardson,PG,6-5,189,1955-04-11,US,4,Montana
+1983,10,GSW,18,Lorenzo Romar,PG,6-1,175,1958-11-13,US,2,Washington
+1983,10,GSW,45,Purvis Short,SF,6-7,210,1957-07-02,US,4,Jackson State University
+1983,10,GSW,41,Derek Smith,SF,6-6,205,1961-11-01,US,R,Louisville
+1983,10,GSW,13,Larry Smith,PF,6-8,215,1958-01-18,US,2,Alcorn State
+1983,10,GSW,33,Sam Williams,PF,6-8,210,1959-03-07,US,1,Arizona State

@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Ron Anderson,SF,6-7,215,1958-10-15,US,4,Fresno State
-34,Charles Barkley,PF,6-6,252,1963-02-20,US,4,Auburn
-1,Scott Brooks,PG,5-11,165,1965-07-31,US,R,"TCU, University of California, Irvine"
-10,Maurice Cheeks,PG,6-1,180,1956-09-08,US,10,West Texas A&M University
-54,Ben Coleman,PF,6-9,235,1961-11-14,US,2,"Minnesota, Maryland"
-42,Mike Gminski,C,6-11,250,1959-08-03,US,8,Duke
-33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,R,Bradley
-12,Gerald Henderson,PG,6-2,175,1956-01-16,US,9,VCU
-31,Shelton Jones,SF,6-9,210,1966-04-06,US,R,St. John's
-8,Pete Myers,SG,6-6,180,1963-09-15,US,2,Little Rock
-4,Cliff Robinson,SF,6-9,220,1960-03-13,US,9,USC
-11,Jim Rowinski,C,6-8,250,1961-01-04,US,R,Purdue
-21,Derek Smith,SG,6-6,205,1961-11-01,US,6,Louisville
-23,Bob Thornton,PF,6-10,225,1962-07-10,US,3,"University of California, Irvine"
-44,Chris Welp,C,7-0,245,1964-01-02,DE,1,Washington
-25,David Wingate,SG,6-5,185,1963-12-15,US,2,Georgetown
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1989,23,PHI,20,Ron Anderson,SF,6-7,215,1958-10-15,US,4,Fresno State
+1989,23,PHI,34,Charles Barkley,PF,6-6,252,1963-02-20,US,4,Auburn
+1989,23,PHI,1,Scott Brooks,PG,5-11,165,1965-07-31,US,R,"TCU, University of California, Irvine"
+1989,23,PHI,10,Maurice Cheeks,PG,6-1,180,1956-09-08,US,10,West Texas A&M University
+1989,23,PHI,54,Ben Coleman,PF,6-9,235,1961-11-14,US,2,"Minnesota, Maryland"
+1989,23,PHI,42,Mike Gminski,C,6-11,250,1959-08-03,US,8,Duke
+1989,23,PHI,33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,R,Bradley
+1989,23,PHI,12,Gerald Henderson,PG,6-2,175,1956-01-16,US,9,VCU
+1989,23,PHI,31,Shelton Jones,SF,6-9,210,1966-04-06,US,R,St. John's
+1989,23,PHI,8,Pete Myers,SG,6-6,180,1963-09-15,US,2,Little Rock
+1989,23,PHI,4,Cliff Robinson,SF,6-9,220,1960-03-13,US,9,USC
+1989,23,PHI,11,Jim Rowinski,C,6-8,250,1961-01-04,US,R,Purdue
+1989,23,PHI,21,Derek Smith,SG,6-6,205,1961-11-01,US,6,Louisville
+1989,23,PHI,23,Bob Thornton,PF,6-10,225,1962-07-10,US,3,"University of California, Irvine"
+1989,23,PHI,44,Chris Welp,C,7-0,245,1964-01-02,DE,1,Washington
+1989,23,PHI,25,David Wingate,SG,6-5,185,1963-12-15,US,2,Georgetown

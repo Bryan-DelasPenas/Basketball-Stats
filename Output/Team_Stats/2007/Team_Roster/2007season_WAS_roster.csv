@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-0,Gilbert Arenas,PG,6-3,191,1982-01-06,US,5,Arizona
-32,Andray Blatche,PF,6-11,235,1986-08-22,US,1,
-52,Calvin Booth,C,6-11,230,1976-05-07,US,7,Penn State
-3,Caron Butler,SF,6-7,228,1980-03-13,US,4,UConn
-6,Antonio Daniels,SG,6-4,195,1975-03-19,US,9,Bowling Green
-42,Mike Hall,SF,6-8,230,1984-06-05,US,R,George Washington
-24,Jarvis Hayes,SF,6-7,220,1981-08-09,US,3,"Western Carolina University, Georgia"
-33,Brendan Haywood,C,7-0,268,1979-11-27,US,5,UNC
-4,Antawn Jamison,PF,6-8,223,1976-06-12,US,8,UNC
-54,James Lang,C,6-10,285,1983-10-17,US,R,
-8,Roger Mason,SG,6-5,200,1980-09-10,US,2,Virginia
-51,Michael Ruffin,PF,6-9,246,1977-01-21,US,6,Tulsa
-9,Darius Songaila,PF,6-9,248,1978-02-14,LT,3,Wake Forest
-2,DeShawn Stevenson,SG,6-5,210,1981-04-03,US,6,
-21,Donell Taylor,SG,6-6,180,1982-07-26,US,1,"Okaloosa-Walton Community College, UAB"
-36,Etan Thomas,C,6-9,256,1978-04-01,US,5,Syracuse
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2007,30,WAS,0,Gilbert Arenas,PG,6-3,191,1982-01-06,US,5,Arizona
+2007,30,WAS,32,Andray Blatche,PF,6-11,235,1986-08-22,US,1,
+2007,30,WAS,52,Calvin Booth,C,6-11,230,1976-05-07,US,7,Penn State
+2007,30,WAS,3,Caron Butler,SF,6-7,228,1980-03-13,US,4,UConn
+2007,30,WAS,6,Antonio Daniels,SG,6-4,195,1975-03-19,US,9,Bowling Green
+2007,30,WAS,42,Mike Hall,SF,6-8,230,1984-06-05,US,R,George Washington
+2007,30,WAS,24,Jarvis Hayes,SF,6-7,220,1981-08-09,US,3,"Western Carolina University, Georgia"
+2007,30,WAS,33,Brendan Haywood,C,7-0,268,1979-11-27,US,5,UNC
+2007,30,WAS,4,Antawn Jamison,PF,6-8,223,1976-06-12,US,8,UNC
+2007,30,WAS,54,James Lang,C,6-10,285,1983-10-17,US,R,
+2007,30,WAS,8,Roger Mason,SG,6-5,200,1980-09-10,US,2,Virginia
+2007,30,WAS,51,Michael Ruffin,PF,6-9,246,1977-01-21,US,6,Tulsa
+2007,30,WAS,9,Darius Songaila,PF,6-9,248,1978-02-14,LT,3,Wake Forest
+2007,30,WAS,2,DeShawn Stevenson,SG,6-5,210,1981-04-03,US,6,
+2007,30,WAS,21,Donell Taylor,SG,6-6,180,1982-07-26,US,1,"Okaloosa-Walton Community College, UAB"
+2007,30,WAS,36,Etan Thomas,C,6-9,256,1978-04-01,US,5,Syracuse

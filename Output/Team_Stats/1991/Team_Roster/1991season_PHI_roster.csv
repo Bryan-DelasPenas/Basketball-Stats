@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-20,Ron Anderson,SF,6-7,215,1958-10-15,US,6,Fresno State
-34,Charles Barkley,SF,6-6,252,1963-02-20,US,6,Auburn
-11,Manute Bol,C,7-7,200,1962-10-16,SS,5,University of Bridgeport
-12,Johnny Dawkins,PG,6-2,165,1963-09-28,US,4,Duke
-8,Mario Elie,SG,6-5,210,1963-11-26,US,R,American International College
-22,Jim Farmer,SG,6-4,190,1964-09-23,US,3,Alabama
-35,Armen Gilliam,PF,6-9,230,1964-05-28,US,3,UNLV
-42,Mike Gminski,C,6-11,250,1959-08-03,US,10,Duke
-9,Rickey Green,PG,6-0,170,1954-08-18,US,12,Michigan
-3,Tony Harris,SG,6-3,190,1967-05-13,US,R,"Lamar, New Orleans"
-33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,2,Bradley
-40,Dave Hoppen,C,6-11,235,1964-03-13,US,3,Nebraska
-44,Rick Mahorn,C,6-10,240,1958-09-21,US,10,Hampton
-31,Brian Oliver,SG,6-4,210,1968-06-01,US,R,Georgia Tech
-21,Kenny Payne,SF,6-8,195,1966-11-25,US,1,Louisville
-50,Robert Reid,SF,6-8,205,1955-08-30,US,12,St. Mary's University
-4,Andre Turner,PG,5-11,160,1964-12-13,US,4,Memphis
-55,Jayson Williams,PF,6-9,240,1968-02-22,US,R,St. John's
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1991,23,PHI,20,Ron Anderson,SF,6-7,215,1958-10-15,US,6,Fresno State
+1991,23,PHI,34,Charles Barkley,SF,6-6,252,1963-02-20,US,6,Auburn
+1991,23,PHI,11,Manute Bol,C,7-7,200,1962-10-16,SS,5,University of Bridgeport
+1991,23,PHI,12,Johnny Dawkins,PG,6-2,165,1963-09-28,US,4,Duke
+1991,23,PHI,8,Mario Elie,SG,6-5,210,1963-11-26,US,R,American International College
+1991,23,PHI,22,Jim Farmer,SG,6-4,190,1964-09-23,US,3,Alabama
+1991,23,PHI,35,Armen Gilliam,PF,6-9,230,1964-05-28,US,3,UNLV
+1991,23,PHI,42,Mike Gminski,C,6-11,250,1959-08-03,US,10,Duke
+1991,23,PHI,9,Rickey Green,PG,6-0,170,1954-08-18,US,12,Michigan
+1991,23,PHI,3,Tony Harris,SG,6-3,190,1967-05-13,US,R,"Lamar, New Orleans"
+1991,23,PHI,33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,2,Bradley
+1991,23,PHI,40,Dave Hoppen,C,6-11,235,1964-03-13,US,3,Nebraska
+1991,23,PHI,44,Rick Mahorn,C,6-10,240,1958-09-21,US,10,Hampton
+1991,23,PHI,31,Brian Oliver,SG,6-4,210,1968-06-01,US,R,Georgia Tech
+1991,23,PHI,21,Kenny Payne,SF,6-8,195,1966-11-25,US,1,Louisville
+1991,23,PHI,50,Robert Reid,SF,6-8,205,1955-08-30,US,12,St. Mary's University
+1991,23,PHI,4,Andre Turner,PG,5-11,160,1964-12-13,US,4,Memphis
+1991,23,PHI,55,Jayson Williams,PF,6-9,240,1968-02-22,US,R,St. John's

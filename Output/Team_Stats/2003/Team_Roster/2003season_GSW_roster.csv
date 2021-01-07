@@ -1,17 +1,17 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-0,Gilbert Arenas,PG,6-3,191,1982-01-06,US,1,Arizona
-11,Earl Boykins,PG,5-5,135,1976-06-02,US,4,Eastern Michigan
-25,Erick Dampier,C,6-11,265,1975-07-14,US,6,Mississippi State
-10,Mike Dunleavy,SF,6-9,230,1980-09-15,US,R,Duke
-21,Danny Fortson,PF,6-7,260,1976-03-27,US,5,Cincinnati
-31,Adonal Foyle,C,6-10,250,1975-03-09,VC,5,Colgate
-11,A.J. Guyton,PG,6-1,180,1978-02-12,US,2,Indiana
-33,Antawn Jamison,SF,6-8,223,1976-06-12,US,4,UNC
-34,Chris Mills,PF,6-6,215,1970-01-25,US,9,"Kentucky, Arizona"
-1,Troy Murphy,PF,6-11,245,1980-05-02,US,1,Notre Dame
-2,Dean Oliver,PG,5-11,180,1978-11-05,US,1,Iowa
-23,Jason Richardson,SG,6-6,220,1981-01-20,US,1,Michigan State
-5,Guy Rucker,PF,6-11,265,1977-07-27,US,R,Iowa
-3,Bob Sura,SG,6-5,200,1973-03-25,US,7,Florida State
-18,Óscar Torres,SG,6-6,210,1976-12-18,VE,1,
-4,Jiří Welsch,SF,6-7,208,1980-01-27,CZ,R,
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+2003,10,GSW,0,Gilbert Arenas,PG,6-3,191,1982-01-06,US,1,Arizona
+2003,10,GSW,11,Earl Boykins,PG,5-5,135,1976-06-02,US,4,Eastern Michigan
+2003,10,GSW,25,Erick Dampier,C,6-11,265,1975-07-14,US,6,Mississippi State
+2003,10,GSW,10,Mike Dunleavy,SF,6-9,230,1980-09-15,US,R,Duke
+2003,10,GSW,21,Danny Fortson,PF,6-7,260,1976-03-27,US,5,Cincinnati
+2003,10,GSW,31,Adonal Foyle,C,6-10,250,1975-03-09,VC,5,Colgate
+2003,10,GSW,11,A.J. Guyton,PG,6-1,180,1978-02-12,US,2,Indiana
+2003,10,GSW,33,Antawn Jamison,SF,6-8,223,1976-06-12,US,4,UNC
+2003,10,GSW,34,Chris Mills,PF,6-6,215,1970-01-25,US,9,"Kentucky, Arizona"
+2003,10,GSW,1,Troy Murphy,PF,6-11,245,1980-05-02,US,1,Notre Dame
+2003,10,GSW,2,Dean Oliver,PG,5-11,180,1978-11-05,US,1,Iowa
+2003,10,GSW,23,Jason Richardson,SG,6-6,220,1981-01-20,US,1,Michigan State
+2003,10,GSW,5,Guy Rucker,PF,6-11,265,1977-07-27,US,R,Iowa
+2003,10,GSW,3,Bob Sura,SG,6-5,200,1973-03-25,US,7,Florida State
+2003,10,GSW,18,Oscar Torres,SG,6-6,210,1976-12-18,VE,1,
+2003,10,GSW,4,Jiri Welsch,SF,6-7,208,1980-01-27,CZ,R,

@@ -1,19 +1,19 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-23,Steve Bardo,SG,6-5,190,1968-04-05,US,1,Illinois
-40,Walter Bond,SG,6-5,200,1969-02-01,US,R,Minnesota
-30,Dexter Cambridge,SF,6-7,224,1970-01-29,BS,R,Texas
-44,Radisav Ćurčić,C,6-10,275,1965-09-26,RS,R,
-43,Terry Davis,PF,6-9,225,1967-06-17,US,3,Virginia Union University
-12,Derek Harper,SG,6-4,185,1961-10-13,US,9,Illinois
-35,Donald Hodge,C,7-0,230,1969-02-25,US,1,Temple
-41,Brian Howard,SF,6-6,204,1967-10-19,US,1,NC State
-13,Mike Iuzzolino,PG,5-10,175,1968-01-22,US,1,"Penn State, Saint Francis University"
-24,Jim Jackson,SF,6-6,220,1970-10-14,US,R,Ohio State
-23,Tim Legler,SG,6-4,200,1966-12-26,US,2,La Salle
-20,Tracy Moore,SG,6-4,200,1965-12-28,US,1,Tulsa
-31,Walter Palmer,C,7-1,215,1968-10-23,US,1,Dartmouth College
-45,Sean Rooks,C,6-10,250,1969-09-09,US,R,Arizona
-34,Doug Smith,PF,6-10,220,1969-09-17,US,1,Missouri
-10,Lamont Strothers,SG,6-4,190,1968-05-10,US,1,Christopher Newport University
-52,Randy White,PF,6-8,240,1967-11-04,US,3,Louisiana Tech
-20,Morlon Wiley,PG,6-4,185,1966-09-24,US,4,Cal State Long Beach
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1993,7,DAL,23,Steve Bardo,SG,6-5,190,1968-04-05,US,1,Illinois
+1993,7,DAL,40,Walter Bond,SG,6-5,200,1969-02-01,US,R,Minnesota
+1993,7,DAL,30,Dexter Cambridge,SF,6-7,224,1970-01-29,BS,R,Texas
+1993,7,DAL,44,Radisav Curcic,C,6-10,275,1965-09-26,RS,R,
+1993,7,DAL,43,Terry Davis,PF,6-9,225,1967-06-17,US,3,Virginia Union University
+1993,7,DAL,12,Derek Harper,SG,6-4,185,1961-10-13,US,9,Illinois
+1993,7,DAL,35,Donald Hodge,C,7-0,230,1969-02-25,US,1,Temple
+1993,7,DAL,41,Brian Howard,SF,6-6,204,1967-10-19,US,1,NC State
+1993,7,DAL,13,Mike Iuzzolino,PG,5-10,175,1968-01-22,US,1,"Penn State, Saint Francis University"
+1993,7,DAL,24,Jim Jackson,SF,6-6,220,1970-10-14,US,R,Ohio State
+1993,7,DAL,23,Tim Legler,SG,6-4,200,1966-12-26,US,2,La Salle
+1993,7,DAL,20,Tracy Moore,SG,6-4,200,1965-12-28,US,1,Tulsa
+1993,7,DAL,31,Walter Palmer,C,7-1,215,1968-10-23,US,1,Dartmouth College
+1993,7,DAL,45,Sean Rooks,C,6-10,250,1969-09-09,US,R,Arizona
+1993,7,DAL,34,Doug Smith,PF,6-10,220,1969-09-17,US,1,Missouri
+1993,7,DAL,10,Lamont Strothers,SG,6-4,190,1968-05-10,US,1,Christopher Newport University
+1993,7,DAL,52,Randy White,PF,6-8,240,1967-11-04,US,3,Louisiana Tech
+1993,7,DAL,20,Morlon Wiley,PG,6-4,185,1966-09-24,US,4,Cal State Long Beach

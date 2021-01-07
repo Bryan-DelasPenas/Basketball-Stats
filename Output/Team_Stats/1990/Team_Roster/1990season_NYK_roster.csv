@@ -1,16 +1,16 @@
-NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
-54,Greg Butler,C,6-11,240,1966-03-11,US,1,Stanford
-1,Maurice Cheeks,PG,6-1,180,1956-09-08,US,11,West Texas A&M University
-33,Patrick Ewing,C,7-0,240,1962-08-05,JM,4,Georgetown
-40,Stuart Gray,C,7-0,235,1963-05-27,PA,5,UCLA
-13,Mark Jackson,PG,6-1,180,1965-04-01,US,2,St. John's
-8,Pete Myers,SG,6-6,180,1963-09-15,US,3,Little Rock
-4,Johnny Newman,SF,6-7,190,1963-11-28,US,3,Richmond
-34,Charles Oakley,PF,6-8,225,1963-12-18,US,4,Virginia Union University
-23,Brian Quinnett,SG,6-8,235,1966-05-30,US,R,Washington State
-11,Rod Strickland,PG,6-3,175,1966-07-11,US,1,DePaul
-6,Trent Tucker,SG,6-5,193,1959-12-20,US,7,Minnesota
-55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,9,UCLA
-7,Kenny Walker,PF,6-8,210,1964-08-18,US,3,Kentucky
-45,Eddie Lee Wilkins,C,6-10,220,1962-05-07,US,3,Gardner-Webb University
-21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,4,Chattanooga
+SEASON,TEAM ID,TEAM,NUMBER,PLAYER,POS,HEIGHT,WEIGHT,BIRTH_DATE,NATIONALITY,EXPERIENCE,COLLEGE
+1990,20,NYK,54,Greg Butler,C,6-11,240,1966-03-11,US,1,Stanford
+1990,20,NYK,1,Maurice Cheeks,PG,6-1,180,1956-09-08,US,11,West Texas A&M University
+1990,20,NYK,33,Patrick Ewing,C,7-0,240,1962-08-05,JM,4,Georgetown
+1990,20,NYK,40,Stuart Gray,C,7-0,235,1963-05-27,PA,5,UCLA
+1990,20,NYK,13,Mark Jackson,PG,6-1,180,1965-04-01,US,2,St. John's
+1990,20,NYK,8,Pete Myers,SG,6-6,180,1963-09-15,US,3,Little Rock
+1990,20,NYK,4,Johnny Newman,SF,6-7,190,1963-11-28,US,3,Richmond
+1990,20,NYK,34,Charles Oakley,PF,6-8,225,1963-12-18,US,4,Virginia Union University
+1990,20,NYK,23,Brian Quinnett,SG,6-8,235,1966-05-30,US,R,Washington State
+1990,20,NYK,11,Rod Strickland,PG,6-3,175,1966-07-11,US,1,DePaul
+1990,20,NYK,6,Trent Tucker,SG,6-5,193,1959-12-20,US,7,Minnesota
+1990,20,NYK,55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,9,UCLA
+1990,20,NYK,7,Kenny Walker,PF,6-8,210,1964-08-18,US,3,Kentucky
+1990,20,NYK,45,Eddie Lee Wilkins,C,6-10,220,1962-05-07,US,3,Gardner-Webb University
+1990,20,NYK,21,Gerald Wilkins,SG,6-6,185,1963-09-11,US,4,Chattanooga
