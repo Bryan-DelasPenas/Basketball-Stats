@@ -17,7 +17,7 @@ import sys
 from bs4 import BeautifulSoup
 from requests import get
 
-from Team_Constants import TEAM_TO_ABBRIVATION
+from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID
 from utils import remove_accents
 
 '''
@@ -41,7 +41,22 @@ def get_roster(team, season):
         # Column for the dataframe 
         df.columns = ['NUMBER', 'PLAYER', 'POS', 'HEIGHT', 'WEIGHT', 'BIRTH_DATE', 'NATIONALITY', 'EXPERIENCE', 'COLLEGE']
 
+        # Create a new column called team
+        df['TEAM'] = team
+        
+        # Create a new column called season
+        df['SEASON'] = season
+        
+        # Create a new column for Team ID
+        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+        # Removes accents 
         df['PLAYER'] = df['PLAYER'].apply(lambda name: remove_accents(name, team, season))
+
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
 
         # Converts birth date to datetime 
         df['BIRTH_DATE'] = df['BIRTH_DATE'].apply(lambda x: pd.to_datetime(x))

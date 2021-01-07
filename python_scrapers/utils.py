@@ -2,7 +2,8 @@ from requests import get
 from bs4 import BeautifulSoup
 import pandas as pd
 import unicodedata, unidecode
-
+import unicodedata
+import re 
 
 '''
 This code was based on basketball_reference scraper, removes accents from names 
@@ -32,3 +33,17 @@ def remove_accents(name,team, season):
                 best_match = p
     
     return best_match
+
+def strip_accents(text):
+
+    try:
+        text = unicode(text, 'utf-8')
+    except NameError: # unicode is a default on python 3 
+        pass
+
+    text = unicodedata.normalize('NFD', text)\
+           .encode('ascii', 'ignore')\
+           .decode("utf-8")
+
+    return str(text)
+

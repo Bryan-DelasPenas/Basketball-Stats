@@ -214,7 +214,7 @@ def get_team_csv():
         csv_roster(year)
 
 def main():
-    get_team_csv()
-  
+    #get_team_csv()
+    print(get_roster('GSW',2020))
 if __name__ == "__main__":
     main()
