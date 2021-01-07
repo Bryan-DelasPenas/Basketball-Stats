@@ -87,9 +87,45 @@ def translate(name):
     elif('George Z' in name):
             name = 'George Zidek'
 
+    elif('vis Bert' in name):
+            name = 'Dāvis Bertāns'
+ 
+    elif('Dairis Bert' in name):
+            name = 'Dairis Bertans'
+    
+    elif('Radisav' in name and 'ur' in name):
+            name = 'Radisav Curcic'
+    
+    elif('Aleksandar ' in name and 'evic' in name):
+            name = 'Aleksandar Djordjevic'
+
+    elif('Gordan Giri' in name):
+            name = 'Gordan Giriček'
+
+    elif('Jer' in name and 'me Mo' in name):
+            name = 'Jerome Moiso'
+    
+    elif('Martynas Andriu' in name):
+            name = 'Martynas Andriuskevicius'
+
+    elif('Igor Rako' in name):
+            name = 'Igor Rakocevic'
+    
+    elif('Luka' in name and 'amani' in name):
+            name = 'Luka Samanic'
+    
+    elif('Dario' in name and 'aric' in name):
+            name = 'Dario Saric'
+    elif('Nikola Vu' in name):
+            name = 'Nikola Vucevic'
+    elif('Sasha Vuja' in name):
+            name = 'Sasha Vujacic'
+
+    elif('Welsch' in name and 'Ji' in name):
+            name = 'Jiri Welsch'
+
     # 
     if any(x in name for x in special_char):
-        
         name = name.replace('Ã³', 'o')
         name = name.replace('Ã–', 'O')
         name = name.replace('ÅŸ', 's')
@@ -125,6 +161,7 @@ def translate(name):
         name = name.replace('A“', 'O')
         name = name.replace('A£', 'a')
         name = name.replace('a“', 'e')
+    
     print(name)
     return name
 
