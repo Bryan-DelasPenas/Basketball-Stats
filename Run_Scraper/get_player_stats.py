@@ -1,0 +1,36 @@
+import pandas as pd
+import sys
+import os
+import pathlib 
+from pathlib import Path
+from requests import get
+import unicodedata, unidecode
+sys.path.append('\\Users\\Bryan\\Desktop\\Basketball-Stats\\python_scrapers')
+
+from Player_Stats_Scraper import get_player_name
+from helper import create_output_directory, create_output_child_directory
+
+
+def players_names_csv():
+    letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',]
+    
+    # Check if the proper directories has been made
+    source_directory = "Output"
+    directory_parent = "Player_Stats"
+    directory_child = "Player_Name"
+    create_output_directory(directory_parent)
+    create_output_child_directory(directory_parent,directory_child)
+    
+    output_path = os.path.join(pathlib.Path().absolute(), source_directory ,directory_parent, directory_child)
+    file_name = '\\' + "player_names" + ".csv" 
+    
+    for letter in letters:
+        df = get_player_name(letter)
+        
+        file_name = '\\' + letter +'_'+"player_names" + ".csv"
+        df.to_csv(output_path + file_name, index = False)
+
+def main():
+    players_names_csv()
+
+main()

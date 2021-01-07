@@ -170,7 +170,7 @@ def csv_team_stats(year, playoffs ,format):
     print(year)
     # Iterate through the len of the team column 
     for team in range(0, len(df['TEAM'])):
-      
+        
         # Call the get_team_stats that returns a dataframe a certin team stats from a given year, 2 is due to TEAM being the 3 column
         team_df = get_team_stats(df.iloc[team, 2], year, playoffs, format) 
         

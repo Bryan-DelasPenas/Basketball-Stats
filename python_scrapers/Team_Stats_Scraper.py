@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID
-from utils import strip_accents
+from utils import strip_accents, translate
 
 '''
 Create a dataframe for team roster
@@ -112,13 +112,23 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
 
                 # Drop columns where all values are missing 
                 df = df.dropna(axis='columns',how='all')
-        
             else:
                 # Changes the second column to players 
                 df.columns.values[1] = "PLAYER"
             
-            df['PLAYER'] = df['PLAYER'].apply(lambda name: strip_accents(name))
+            df['PLAYER'] = df['PLAYER'].apply(lambda name: translate(name))
             df.rename(columns = {'Age': 'AGE'})
+            
+
+            if(data_format == 'ADVANCED'):
+                # Drop rows where values are all missing
+                df = df.dropna(how='all')
+
+                # Drop columns where all values are missing 
+                df = df.drop(['Unnamed: 17', 'Unnamed: 22'], axis=1)
+
+            else: 
+                pass
             
             # Drop rk(Rank) which is the first column 
             df = df.drop(['Rk'], axis=1)
@@ -131,9 +141,6 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
         
             # Create a new column for Team ID
             df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
-
-            # Removes accents 
-            df['PLAYER'] = df['PLAYER'].apply(lambda name: strip_accents(name))
 
             # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
             df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]

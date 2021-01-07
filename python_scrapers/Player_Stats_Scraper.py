@@ -9,11 +9,9 @@ import pandas as pd
 import sys
 from bs4 import BeautifulSoup
 from requests import get
-import codecs
 import unicodedata, unidecode
 
 from utils import translate
-
 
 
 '''
@@ -42,13 +40,14 @@ def get_player_name(letter):
         df_new = df[df['TO'] < 1980].index
         df.drop(df_new, inplace = True)
         
+        
+        df['PLAYER'] = df['PLAYER'].apply(lambda x: x.replace('*', ''))
         df['PLAYER'] = df['PLAYER'].apply(lambda name: translate(name))
+        
         return df
-        #print(df)
+        
 
 def get_player_stats(season): 
     return 0
 
-def main():
-    print(get_player_name('z'))
-main()
+
