@@ -11,7 +11,10 @@ from bs4 import BeautifulSoup
 from requests import get
 import unicodedata, unidecode
 import codecs 
+import re 
 from utils import translate
+
+
 
 '''
 Creates a dataframe of player's name active from 1980 - 2020
@@ -81,18 +84,51 @@ def get_player_suffix(name):
     # Get the first initial of last name
     initial = name.split(' ')[1][0].lower()
     suffix = '/players/' + initial + '/' + create_player_suffix(name) + '01.html'
-    print(suffix)
+    
     # Get the url of the player stats
     page = get(f'https://www.basketball-reference.com{suffix}')
+    
 
     # Check if the request can go through 
     while page.status_code == 200:
         soup = BeautifulSoup(page.content, 'html.parser')
         h1 = soup.find('h1', attrs={'itemprop': 'name'})
-      
+        h2 = soup.find("span", itemprop='birthDate')
+        list1 = []
+        print(h2)
         if h1:
             page_name = h1.find('span').text
 
+            # Removes starting and ending \n
+            date = h2.text.strip('\n')
+
+            # Removes middle \n
+            date = date.replace('\n','')
+            date = date.replace(' ','')
+            date = date.strip()
+
+            # This is to get the birthdate of the player 
+            final_date = ""
+
+            # Iterate through the string
+            for index in range(len(date)):
+                
+                # Last case of the comma, just adds to the end
+                if(index == len(date) - 1):
+                    final_date += date[index]
+                
+                # Check if the char is a comma, adds space after new char
+                elif(date[index] == ','):
+                    final_date += date[index] + " "
+                
+                # Check if the current char is not a digit and checks the next iteration if is a digit
+                elif(date[index + 1].isdigit() and not date[index].isdigit() ):
+                    final_date += date[index] + " "
+                
+                # Everything else
+                else:
+                    final_date += date[index]
+            
         # This is for accented characters on the website         
         if(unidecode.unidecode(page_name).lower() == name.lower()):
             
@@ -111,6 +147,6 @@ def get_player_stats(season):
 
 
 def main():
-    print(get_player_suffix('John Wall'))
+    print(get_player_suffix('Charles Jones'))
 
 main()
