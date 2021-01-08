@@ -27,7 +27,7 @@ def strip_accents(text):
     return str(text)
 
 '''
-Removes accent from characters and changes it to proper letter
+Removes accent from characters and changes it to proper letter. This is only for use for the webscraper
 '''
 def translate(name):
     
@@ -128,7 +128,8 @@ def translate(name):
     
     elif('lex Abrines' in name):
             name = 'Alex Abrines'
-    # 
+    
+    # Iterate through the list and change char 
     if any(x in name for x in special_char):
         name = name.replace('Ã³', 'o')
         name = name.replace('Ã–', 'O')
@@ -166,6 +167,5 @@ def translate(name):
         name = name.replace('A£', 'a')
         name = name.replace('a“', 'e')
     
-    print(name)
     return name
 

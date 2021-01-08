@@ -45,9 +45,73 @@ def get_player_name(letter):
         df['PLAYER'] = df['PLAYER'].apply(lambda name: translate(name))
         
         return df
-        
+
+'''
+Creates player suffixes for url 
+'''
+def create_player_suffix(name):
+    
+    # First name is two letters
+    first = name[:2].lower()
+
+    # last name
+    last = name.split(' ')[1:]
+    
+    names = ''.join(last)
+    second = ""
+
+    # Check if the length is less than or equal to 5
+    if len(names) <= 5:
+
+        # Lower case second example Wall = wall
+        second += names[:].lower()
+
+    # Check for names that are greater than 5
+    else:
+
+        # Example Doncic becomes Donci
+        second += names[:5].lower()
+
+    return second + first
+
+'''
+Creates a valid player suffix based on the parameter name
+'''    
+def get_player_suffix(name):
+ 
+    # Get the first initial of last name
+    initial = name.split(' ')[1][0].lower()
+    suffix = '/players/' + initial + '/' + create_player_suffix(name) + '01.html'
+    print(suffix)
+    # Get the url of the player stats
+    page = get(f'https://www.basketball-reference.com{suffix}')
+
+    # Check if the request can go through 
+    while page.status_code == 200:
+        soup = BeautifulSoup(page.content, 'html.parser')
+        h1 = soup.find('h1', attrs={'itemprop': 'name'})
+      
+        if h1:
+            page_name = h1.find('span').text
+
+        # This is for accented characters on the website         
+        if(unidecode.unidecode(page_name).lower() == name.lower()):
+            
+            return suffix
+            
+        else:
+            suffix = suffix[:-6] + str(int(suffix[-6]) + 1 ) + suffix[-5:]
+            page = get(f'https://www.basketball-reference.com{suffix}')
+
+    return None
+    
+    
 
 def get_player_stats(season): 
     return 0
 
 
+def main():
+    print(get_player_suffix('John Wall'))
+
+main()
