@@ -89,9 +89,17 @@ $ python /your/path/Basketball-Stats/Run_Scraper/get_season_stats.py  # Gets sea
 $ python /your/path/Basketball-Stats/Run_Scraper/get_team_stats.py    # Gets team stats from 1980 - current
 $ python /your/path/Basketball-Stats/Run_Scraper/get_player_stats.py  # Gets player stats from 1980 - current
 ``` 
-<p>Where your path is where you decide to store the source directory, <em>Basketball-Stats</em></p>
+<p>Where your path is where you decide to store the source directory, <em>Basketball-Stats</em>.</p>
+
+## Web Scrapers Expected Output
+<p>Inside of the source directory,<em>Basketball-Stats</em>, there will be a directory called <em>Output</em>.<br>
+Inside of <em>Output</em>, should be three directories, corresponding to the name of the scrapers. More information 
+be in a api.md file</p>
+
 
 ### Running the Database 
+<p><strong>IMPORTANT:</strong>For any queries, the names of people with accent has been normalized<br>
+Example: Nikola Jokić will be Nikola Jokic</p>
 <p>TBD</p>
 
 ### Running the Prediction of MVP

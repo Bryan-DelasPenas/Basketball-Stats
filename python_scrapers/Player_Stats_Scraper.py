@@ -10,9 +10,8 @@ import sys
 from bs4 import BeautifulSoup
 from requests import get
 import unicodedata, unidecode
-
+import codecs 
 from utils import translate
-
 
 '''
 Creates a dataframe of player's name active from 1980 - 2020
@@ -27,7 +26,7 @@ def get_player_name(letter):
 
     # Check the status code, if the code is 200, it means the request went through
     if page.status_code == 200: 
-        soup = BeautifulSoup(page.text, 'html.parser')
+        soup = BeautifulSoup(page.content, 'html.parser')
         table = str(soup.find('table'))
         
         # Insert this data into a pandas dataframe
