@@ -313,11 +313,14 @@ def get_team_misc(team,season):
         # Create a new column for Team ID
         df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
+        # Change back into title format
+        df['Team'] = df['Team'].str.title()
+
         # Create a new column called season
         df['Season'] = season
  
         # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
-        df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
+        df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
         df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
@@ -331,7 +334,7 @@ def get_team_misc(team,season):
         df = df.loc[:,~df.columns.duplicated()]
 
         # Searches for the team you want
-        final_df = df[df['TEAM']== team]
+        final_df = df[df['Team ABV']== team]
         
         # Rounds every entry to two decimal places
         final_df = final_df.round(2)
@@ -345,7 +348,7 @@ def get_team_advanced(team, season):
     
     # Get the url of the page for starting purposes
     page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fteams%2F{team}%2F&div=div_{team}')
-
+    
     # Init the dataframe 
     df = None
     
@@ -376,14 +379,25 @@ def get_team_advanced(team, season):
       
         # Apply changes to team and adds TEAM column to df
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+        df['Team ABV'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+        
+        # Create a new column for Team ID
+        df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
         # Change back into title format
         df['Team'] = df['Team'].str.title()
+
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+        df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+        df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+        df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
+        
         # Looks for the season you want   
         final_df = df[df['Season']==(season)]
        
-        
+        # Rounds every entry to two decimal places
+        final_df = final_df.round(2)
+
         return final_df
 
 '''
@@ -403,5 +417,5 @@ def remove_char(string, postion):
     return a + b 
       
 def main():
-    print(get_team_advanced('SAS', 2020))
+    print(get_team_advanced('MEM',2002))
 main()

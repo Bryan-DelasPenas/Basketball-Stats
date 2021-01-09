@@ -15,6 +15,7 @@ from pathlib import Path
 # Import modules 
 from Team_Stats_Scraper import get_roster, get_team_stats, get_team_misc, get_team_advanced
 from Season_Stats_Scraper import get_season_stats
+from Team_Constants import TEAM_DICT
 from helper import create_output_child_directory, create_output_directory
 
 
@@ -227,19 +228,30 @@ def csv_team_stats(year, format):
     
     # Iterate through the len of the team column 
     for team in range(0, len(df['TEAM'])):
-        print(df.iloc[team, 2])
+        
         # Call the scraper function
         if(format == 'Team_Misc' ):
             df_team = get_team_misc(df.iloc[team, 2], year)
         
         elif(format == 'Team_Advanced'):
-            df_team = get_team_advanced(df.iloc[team, 2], year)
+            print(df.iloc[team, 2])
+            # Try to see if the get_team_advanced is valid
+            try:
+                df_team = get_team_advanced(df.iloc[team, 2], year)
+            except:
+                print("Switching to newer team")
+                flag = True
+            # For past teams like SEA, all there stats are in the OKC page    
+            if str(df.iloc[team, 2]) in TEAM_DICT and flag:
+                new_team = TEAM_DICT[str(df.iloc[team, 2])]
+                df_team = get_team_advanced(new_team, year)
+        
         # Check if df_misc exist
         if(df_team is not None):
             
             # Create a unique name for the file 
-            file_name = "\\"+ str(year)+ "_"+ 'Team_Misc' + "_" + str(df.iloc[team, 2]) + "_" + ".csv"
-                
+            file_name = "\\"+ str(year)+ "_"+ format + "_" + str(df.iloc[team, 2]) + "_" + ".csv"
+            
             # Generate the CSV file in the propery directory 
             df_team.to_csv(final_path + file_name, index = False)
 
@@ -256,9 +268,9 @@ def get_team_csv():
     directory_parent = "Team"
     create_output_directory(directory_parent)
 
-    year = 1980
+    
     # Iterate through 1980 to 2020
-    #for year in range(1980, 2021):
+    for year in range(1980, 2021):
 
         # Roster Non-Playoff stats
         #csv_roster_stats(year, False, 'PER_GAME')
@@ -278,9 +290,9 @@ def get_team_csv():
         # Roster Stats
     
 
-        # Team Miscs
-    csv_team_stats(year, 'Team_Misc')
-    csv_team_stats(year, 'Team_Advanced')
+        # Team Stats
+        csv_team_stats(year, 'Team_Misc')
+        csv_team_stats(year, 'Team_Advanced')
 
 def main():
     get_team_csv()
