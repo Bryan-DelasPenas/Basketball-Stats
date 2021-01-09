@@ -70,7 +70,7 @@ def get_roster(team, season):
 '''
 Creates a dataframe for team's pergame with players 
 '''
-def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'): 
+def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'): 
     
     # Lower case data_format for the url
     select = data_format.lower()
@@ -155,3 +155,253 @@ def get_team_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
     else: 
         print('Error 404: Page could not be found')
 
+'''
+Creates a dataframe of everyteam's teams for the season
+'''
+def get_team_stats(team, season, data_format ='PER_GAME'): 
+    
+    # This is the format for the data, 
+    # 3 options: Total, Per game and Per poss
+    if data_format=='TOTAL':
+        select = 'div_team-stats-base'
+    
+    elif data_format=='PER_GAME':
+        select = 'div_team-stats-per_game'
+    
+    elif data_format=='PER_POSS':
+        select = 'div_team-stats-per_poss'
+
+    # Get the url of the page for starting purposes, using widgets.sports-references.com
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
+
+    # Init the dataframe 
+    df = None 
+
+    # Check the status code, if the code is 200, it means the request went through
+    if page.status_code == 200: 
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find('table')
+        
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+        
+        # Since total and per game have league averages we have to add this segement of code 
+        if(data_format != 'PER_POSS'):
+            league_avg_index = df[df['Team']=='League Average'].index[0]
+            df = df[:league_avg_index]
+        else:
+            pass
+        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+
+        # Create a new column for Team ID
+        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+        # Create a new column called season
+        df['SEASON'] = season
+
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+
+        # Drop rk(Rank) and Team 
+        df = df.drop(['Rk', 'Team'], axis=1)
+
+        # Searches for the team you want
+        final_df = df[df['TEAM']== team]
+        
+        # Rounds every entry to two decimal places
+        final_df = final_df.round(2)
+
+        return final_df
+ 
+'''
+Creates a dataframe that contains the stats of teams' oppoenets 
+'''
+def get_opp_stats(team, season, data_format ='PER_GAME'):
+
+    # This is the format for the data, 
+    # 3 options: Total, Per game and Per poss
+    if data_format=='TOTAL':
+        select = 'div_opponent-stats-base'
+    
+    elif data_format=='PER_GAME':
+        select = 'div_opponent-stats-per_game'
+    
+    elif data_format=='PER_POSS':
+        select = 'div_opponent-stats-per_poss'
+
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}')
+    df = None
+
+    # Check the status code, if the code is 200, it means the request went through
+    if page.status_code == 200: 
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find('table')
+    
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+        
+        # Since total and per game have league averages we have to add this segement of code 
+        if(data_format != 'PER_POSS'):
+            league_avg_index = df[df['Team']=='League Average'].index[0]
+            df = df[:league_avg_index]
+        
+        else:
+            pass
+        
+        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+
+        # Create a new column for Team ID
+        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+
+        # Create a new column called season
+        df['SEASON'] = season
+
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
+        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
+        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+        
+        # Drop rank and team from the dataframe
+        df = df.drop(['Rk', 'Team'], axis=1)
+        
+        # Change columns name to add OPP 
+        df.columns = list(map(lambda x: 'OPP_'+x, list(df.columns)))
+        df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
+        
+        # Searches for the team you want
+        final_df = df[df['TEAM']== team]
+        
+        # Rounds every entry to two decimal places
+        final_df = final_df.round(2)
+
+        return final_df
+
+'''
+Create a dataframe for team's misc stats 
+'''
+def get_team_misc(team,season):
+    # Get the url of the page for starting purposes,
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div=div_misc_stats')
+    
+    # Init the dataframe 
+    df = None
+    
+    # Check the status code, if the code is 200, it means the request went through
+    if page.status_code == 200: 
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find('table')
+
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+        
+        df.columns = ['Rk', 'Team', 'Age','W','L','PW','PL', 'MOV', 'SOS', 'SRS', 'ORtg','DRtg', 'NRtg','Pace', 'FTr', '3PAr', 'TS%', 
+                      'eFG%', 'TOV%', 'ORB%', 'FT/FGA', 'eFG%', 'TOV%', 'DRB%', 'FT/FGA', 'Arena', 'Attend.', 'Attend./G']
+        
+        league_avg_index = df[df['Team']=='League Average'].index[0]
+        df = df[:league_avg_index]
+
+        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
+        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+        df['Team ABV'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+
+        # Create a new column for Team ID
+        df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
+
+        # Create a new column called season
+        df['Season'] = season
+ 
+        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+        df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
+        df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+        df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
+
+        # Drop rk(Rank) and Team 
+        df = df.drop(['Rk'], axis=1)
+
+        # Change the name of the columns to be uppercase 
+        df.rename(columns = {'Age': 'AGE', 'Pace': 'PACE', 'Arena': 'ARENA', 'Attend.': 'ATTENDANCE', 'Attend./G': 'ATTENDANCE/G'}, inplace=True)
+
+        # For some reason, there is duplicate column names, this code removes it 
+        df = df.loc[:,~df.columns.duplicated()]
+
+        # Searches for the team you want
+        final_df = df[df['TEAM']== team]
+        
+        # Rounds every entry to two decimal places
+        final_df = final_df.round(2)
+
+        return final_df
+
+'''
+Create dataframe for team advanced stats
+'''
+def get_team_advanced(team, season):
+    
+    # Get the url of the page for starting purposes
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fteams%2F{team}%2F&div=div_{team}')
+
+    # Init the dataframe 
+    df = None
+    
+    # Check the status code, if the code is 200, it means the request went through
+    if page.status_code == 200: 
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find('table')
+
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+
+        # Drop columns where all values are missing 
+        df = df.dropna(axis='columns',how='all')
+
+        # Drop Lg column
+        df = df.drop(['Lg'], axis=1)
+        
+        # Lamba function to get the proper end year
+        df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
+        df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
+        df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
+
+        df['Season'] = df['Season'].apply(pd.to_numeric)
+
+        # Drop players that are didn't play at 1980
+        df_new = df[df['Season'] < 1980].index
+        df.drop(df_new, inplace = True)
+      
+        # Apply changes to team and adds TEAM column to df
+        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
+        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+
+        # Change back into title format
+        df['Team'] = df['Team'].str.title()
+        # Looks for the season you want   
+        final_df = df[df['Season']==(season)]
+       
+        
+        return final_df
+
+'''
+Helper Function that changes season_start-season_end to season_end
+'''
+def remove_char(string, postion):
+    # Characters before the i-th indexed 
+    # is stored in a variable a 
+    a = string[ : postion]  
+      
+    # Characters after the nth indexed 
+    # is stored in a variable b 
+    b = string[postion + 1: ] 
+      
+    # Returning string after removing 
+    # nth indexed character. 
+    return a + b 
+      
+def main():
+    print(get_team_advanced('SAS', 2020))
+main()

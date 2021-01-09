@@ -13,17 +13,17 @@ import pathlib
 from pathlib import Path
 
 # Import modules 
-from Team_Stats_Scraper import get_roster, get_team_stats
-from Season_Stats_Scraper import get_season_team_stats
+from Team_Stats_Scraper import get_roster, get_team_stats, get_team_misc, get_team_advanced
+from Season_Stats_Scraper import get_season_stats
 from helper import create_output_child_directory, create_output_directory
 
 
 '''
 Helper function that creates folders for each season 
 '''
-def create_team_stats_folder():
+def create_team_stats_folder(location_parent, location):
     # The file path
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team_Stats")
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team",location_parent, location)
     
     # If this is false, creates file else just print message
     if(os.path.isdir(os.path.join(output_path, "1980")) == False):
@@ -49,7 +49,7 @@ def csv_roster(year):
     directory_parent = "Team_Stats"
     
     # Dataframe for season stats
-    df = get_season_team_stats(year) 
+    df = get_season_stats(year) 
 
     output_path = None
     final_path = None
@@ -73,7 +73,8 @@ def csv_roster(year):
         
         # Check if the roster_df is not none
         if(roster_df is not None):
-             # Create a unique name for the file 
+            
+            # Create a unique name for the file 
             file_name = "\\"+ str(year)+ "season" + "_" + str(df.iloc[team, 2]) + "_" + "roster" + ".csv"
 
             # Generate the CSV file in the propery directory 
@@ -84,7 +85,7 @@ def csv_roster(year):
 '''
 Function that creates a folder for each team, and creates a csv for there stats and a csv containing team names
 '''
-def csv_team_stats(year, playoffs ,format):
+def csv_roster_stats(year, playoffs ,format):
 
     # The directory parents
     directory_parent = "Team_Stats"
@@ -162,6 +163,7 @@ def csv_team_stats(year, playoffs ,format):
     final_path = os.path.join(output_path, str(year), file_type + "_" + string_playoffs)
 
     if(os.path.isdir(final_path) == False):
+        
         # Create the directory with the final_path
         os.mkdir(final_path)
     else:
@@ -183,37 +185,102 @@ def csv_team_stats(year, playoffs ,format):
             team_df.to_csv(final_path + file_name, index = False)
 
 '''
+Function that creates the csv for team misc stats
+'''
+def csv_team_stats(year, format):
+    
+    # Check if the needed directory has been made  
+    directory_source = "Team"
+    directory_parent = 'Team_Stats'
+    directory_child = format
+    
+    # Dataframe for season stats
+    df = get_season_stats(year) 
+        
+    # Init variables 
+    first_path = None
+    second_path = None
+    final_path = None
+
+    # Our file path 
+    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_parent)
+    if(not os.path.isdir(first_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(first_path)
+    else:
+        pass
+    
+    # Create the final path that has format name
+    second_path = os.path.join(first_path, directory_child)
+    if(not os.path.isdir(second_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(second_path)
+    else:
+        pass
+    
+    # Create the season folders if needed to 
+    create_team_stats_folder(directory_parent, directory_child)
+    
+    final_path = os.path.join(second_path, str(year))
+    
+    # Iterate through the len of the team column 
+    for team in range(0, len(df['TEAM'])):
+        print(df.iloc[team, 2])
+        # Call the scraper function
+        if(format == 'Team_Misc' ):
+            df_team = get_team_misc(df.iloc[team, 2], year)
+        
+        elif(format == 'Team_Advanced'):
+            df_team = get_team_advanced(df.iloc[team, 2], year)
+        # Check if df_misc exist
+        if(df_team is not None):
+            
+            # Create a unique name for the file 
+            file_name = "\\"+ str(year)+ "_"+ 'Team_Misc' + "_" + str(df.iloc[team, 2]) + "_" + ".csv"
+                
+            # Generate the CSV file in the propery directory 
+            df_team.to_csv(final_path + file_name, index = False)
+
+
+
+
+
+'''
 Generates a CSV of each team in its own dir for each team
 '''
 def get_team_csv(): 
     
     # Check if the directory has been made
-    directory_parent = "Team_Stats"
+    directory_parent = "Team"
     create_output_directory(directory_parent)
 
-    # Create the season folders if needed to 
-    create_team_stats_folder()
-
+    year = 1980
     # Iterate through 1980 to 2020
-    for year in range(1980, 2021):
+    #for year in range(1980, 2021):
 
-        # Non-Playoff stats
-        csv_team_stats(year, False, 'PER_GAME')
-        csv_team_stats(year, False, 'PER_POSS')
-        csv_team_stats(year, False, 'TOTALS')
-        csv_team_stats(year, False, 'PER_MINUTE')
-        csv_team_stats(year, False, 'ADVANCED')
-        csv_team_stats(year, False, 'ADJUSTED')
+        # Roster Non-Playoff stats
+        #csv_roster_stats(year, False, 'PER_GAME')
+        #csv_roster_stats(year, False, 'PER_POSS')
+        #csv_roster_stats(year, False, 'TOTALS')
+        #csv_roster_stats(year, False, 'PER_MINUTE')
+        #csv_roster_stats(year, False, 'ADVANCED')
+        #csv_roster_stats(year, False, 'ADJUSTED')
 
-        # Playoff stats 
-        csv_team_stats(year, True, 'PER_GAME')
-        csv_team_stats(year, True, 'PER_POSS')
-        csv_team_stats(year, True, 'TOTALS')
-        csv_team_stats(year, True, 'PER_MINUTE')
-        csv_team_stats(year, True, 'ADVANCED')
+        # Roster Playoff stats 
+        #csv_roster_stats(year, True, 'PER_GAME')
+        #csv_roster_stats(year, True, 'PER_POSS')
+        #csv_roster_stats(year, True, 'TOTALS')
+        #csv_roster_stats(year, True, 'PER_MINUTE')
+        #csv_roster_stats(year, True, 'ADVANCED')
 
-        # Roster 
-        csv_roster(year)
+        # Roster Stats
+    
+
+        # Team Miscs
+    csv_team_stats(year, 'Team_Misc')
+    csv_team_stats(year, 'Team_Advanced')
 
 def main():
     get_team_csv()

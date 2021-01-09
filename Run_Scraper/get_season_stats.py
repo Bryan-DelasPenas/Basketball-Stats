@@ -13,7 +13,7 @@ import pathlib
 from pathlib import Path
 
 # Import modules 
-from Season_Stats_Scraper import get_season_team_stats, get_opp_stats, get_team_name, get_standings, get_team_misc
+from Season_Stats_Scraper import  get_team_name, get_standings
 from helper import create_output_child_directory, create_output_directory
 
 '''
@@ -172,25 +172,6 @@ def csv_standings(year, format):
 
         # Create the csv file
         df.to_csv(output_path + season, index = False)
-
-'''
-Function that creates the csv for team misc stats
-'''
-def csv_team_misc(year):
-    # Check if the needed directory has been made  
-    directory_parent = "Season_Stats"
-    directory_child = "Team_Misc"
-    create_output_child_directory(directory_parent,directory_child)
-
-    # Call the scraper function
-    df = get_team_misc(year)
-    
-    # Our file path 
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent,directory_child)
-
-    file_name = "\\" + str(year) + "team_misc.csv"
-
-    df.to_csv(output_path + file_name, index = False)
 
 '''
 Functions that calls the three functions above that creates the csv 
