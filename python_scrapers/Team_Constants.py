@@ -49,6 +49,8 @@ TEAM_TO_ABBRIVATION = {
     'WASHINGTON BULLETS':                'WAB', # Formerly the Washington Bullets from 1974 to 1997
 }
 
+
+# Does the opposite of TEAM_TO_ABV, takes in an ABV and turns into a team name
 ABV_TO_TEAM = {
     'ALT': 'ATLANTA HAWKS', 
     'BOS': 'BOSTON CELTICS',
