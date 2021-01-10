@@ -49,6 +49,50 @@ TEAM_TO_ABBRIVATION = {
     'WASHINGTON BULLETS':                'WAB', # Formerly the Washington Bullets from 1974 to 1997
 }
 
+ABV_TO_TEAM = {
+    'ALT': 'ATLANTA HAWKS', 
+    'BOS': 'BOSTON CELTICS',
+    'BRK': 'BROOKLYN NETS',  
+    'NJN': 'NEW JERSEY NETS', 
+    'CHO': 'CHARLOTTE HORNETS',
+    'CHA': 'CHARLOTTE BOBCATS',
+    'CHI': 'CHARLOTTE BOBCATS',
+    'CLE': 'CLEVELAND CAVALIERS',
+    'DAL': 'DALLAS MAVERICKS',
+    'DEN': 'DENVER NUGGETS', 
+    'DET': 'DETROIT PISTONS', 
+    'GSW': 'GOLDEN STATE WARRIORS', 
+    'HOU': 'HOUSTON ROCKETS',
+    'IND': 'INDIANA PACERS', 
+    'LAC': 'LOS ANGELES CLIPPERS', 
+    'SDC': 'SAN DIEGO CLIPPERS', 
+    'LAL': 'LOS ANGELES LAKERS', 
+    'MEM': 'MEMPHIS GRIZZLIES',
+    'VAN': 'VANCOUVER GRIZZLIES',                    
+    'MIA': 'MIAMI HEAT',
+    'MIL': 'MILWAUKEE BUCKS',             
+    'MIN': 'MINNESOTA TIMBERWOLVES',              
+    'NOP': 'NEW ORLEANS PELICANS',
+    'NOK': 'NEW ORLEANS/OKLAHOMA CITY HORNETS', 
+    'NOH': 'NEW ORLEANS HORNETS',
+    'NYK': 'NEW YORK KNICKS', 
+    'OKC': 'OKLAHOMA CITY THUNDER',
+    'SEA': 'SEATTLE SUPERSONICS',
+    'ORL': 'ORLANDO MAGIC', 
+    'PHI': 'PHILADELPHIA 76ERS', 
+    'PHO': 'PHOENIX SUNS', 
+    'POR': 'PORTLAND TRAIL BLAZERS', 
+    'SAC': 'SACRAMENTO KINGS', 
+    'KCK': 'KANSAS CITY KINGS',
+    'SAS': 'SAN ANTONIO SPURS', 
+    'TOR': 'TORONTO RAPTORS', 
+    'UTA': 'UTAH JAZZ', 
+    'NOJ': 'NEW ORLEANS JAZZ',
+    'WAS': 'WASHINGTON WIZARDS', 
+    'WAB': 'WASHINGTON BULLETS',
+
+}
+
 # This is for teams id for later use in the database
 TEAM_ID = {
     'ALT': 1, 

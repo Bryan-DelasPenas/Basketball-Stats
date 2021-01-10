@@ -17,7 +17,7 @@ import sys
 from bs4 import BeautifulSoup
 from requests import get
 
-from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID
+from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM
 from utils import strip_accents, translate
 
 '''
@@ -39,28 +39,33 @@ def get_roster(team, season):
         df = pd.read_html(str(table))[0]
 
         # Column for the dataframe 
-        df.columns = ['NUMBER', 'PLAYER', 'POS', 'HEIGHT', 'WEIGHT', 'BIRTH_DATE', 'NATIONALITY', 'EXPERIENCE', 'COLLEGE']
+        df.columns = ['Number', 'Player', 'Pos', 'Height', 'Weight', 'Birth Date', 'Nationality', 'Experience', 'College']
 
         # Create a new column called team
-        df['TEAM'] = team
+        df['Team ABV'] = team
         
         # Create a new column called season
-        df['SEASON'] = season
+        df['Season'] = season
         
+        # Create a new column named team
+        df['Team'] = team
+        df['Team'] = df['Team'].apply(lambda x:ABV_TO_TEAM[x].title())
+
         # Create a new column for Team ID
-        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+        df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
         # Removes accents 
-        df['PLAYER'] = df['PLAYER'].apply(lambda name: strip_accents(name))
+        df['Player'] = df['Player'].apply(lambda name: strip_accents(name))
 
         # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
-        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+        df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
+        df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+        df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+        df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
         # Converts birth date to datetime 
-        df['BIRTH_DATE'] = df['BIRTH_DATE'].apply(lambda x: pd.to_datetime(x))
-        df['NATIONALITY'] = df['NATIONALITY'].str.upper()
+        df['Birth Date'] = df['Birth Date'].apply(lambda x: pd.to_datetime(x))
+        df['Nationality'] = df['Nationality'].str.upper()
         
         return df
 
@@ -417,5 +422,5 @@ def remove_char(string, postion):
     return a + b 
       
 def main():
-    print(get_team_advanced('MEM',2002))
+    print(get_roster('BOS',1980))
 main()
