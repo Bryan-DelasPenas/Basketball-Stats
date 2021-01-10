@@ -126,8 +126,8 @@ Function that creates a folder for each team, and creates a csv for there stats 
 def csv_roster_stats(year, playoffs ,format):
     
     # For checking format
-    playoff_valid = ['PER_GAME', ' PER_POSS','TOTALS','PER_MINUTE', 'ADVANCED']
-    regular_valid = ['PER_GAME', ' PER_POSS','TOTALS','PER_MINUTE', 'ADVANCED', 'ADJUSTED']
+    playoff_valid = ['PER_GAME', 'PER_POSS', 'TOTALS', 'PER_MINUTE', 'ADVANCED']
+    regular_valid = ['PER_GAME', 'PER_POSS', 'TOTALS', 'PER_MINUTE', 'ADVANCED', 'ADJUSTED']
 
    # Directory name 
     directory_source = "Team"
@@ -221,6 +221,9 @@ def csv_roster_stats(year, playoffs ,format):
     else:
         csv_roster_regular_stats(year, format,df, final_path)
 
+'''
+Creates csv file that creates playoff season roster stats
+'''
 def csv_roster_playoff_stats(year, format, season_df, file_path):
 
     string_type = format.title()
@@ -238,7 +241,10 @@ def csv_roster_playoff_stats(year, format, season_df, file_path):
                 
             # Generate the CSV file in the propery directory 
             team_df.to_csv(file_path + file_name, index = False)
-    
+
+'''
+Creates csv file that creates regualar season roster stats
+'''
 def csv_roster_regular_stats(year, format, season_df, file_path):
     string_type = format.title()
     
@@ -335,24 +341,24 @@ def get_team_csv():
     directory_parent = "Team"
     create_output_directory(directory_parent)
 
-    year = 1981
+    
     # Iterate through 1980 to 2020
-    #for year in range(1980, 2021):
-
+    for year in range(1980, 2021):
+        print(year)
         # Roster Non-Playoff stats
-    csv_roster_stats(year, False, 'PER_GAME')
-        #csv_roster_stats(year, False, 'PER_POSS')
-        #csv_roster_stats(year, False, 'TOTALS')
-        #csv_roster_stats(year, False, 'PER_MINUTE')
-        #csv_roster_stats(year, False, 'ADVANCED')
-        #csv_roster_stats(year, False, 'ADJUSTED')
+        csv_roster_stats(year, False, 'PER_GAME')
+        csv_roster_stats(year, False, 'PER_POSS')
+        csv_roster_stats(year, False, 'TOTALS')
+        csv_roster_stats(year, False, 'PER_MINUTE')
+        csv_roster_stats(year, False, 'ADVANCED')
+        csv_roster_stats(year, False, 'ADJUSTED')
 
         # Roster Playoff stats 
-        #csv_roster_stats(year, True, 'PER_GAME')
-        #csv_roster_stats(year, True, 'PER_POSS')
-        #csv_roster_stats(year, True, 'TOTALS')
-        #csv_roster_stats(year, True, 'PER_MINUTE')
-        #csv_roster_stats(year, True, 'ADVANCED')
+        csv_roster_stats(year, True, 'PER_GAME')
+        csv_roster_stats(year, True, 'PER_POSS')
+        csv_roster_stats(year, True, 'TOTALS')
+        csv_roster_stats(year, True, 'PER_MINUTE')
+        csv_roster_stats(year, True, 'ADVANCED')
 
         # Roster Stats
         #csv_team_roster(year)

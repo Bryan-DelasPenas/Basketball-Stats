@@ -420,7 +420,3 @@ def remove_char(string, postion):
     # Returning string after removing 
     # nth indexed character. 
     return a + b 
-      
-def main():
-    print(get_roster('BOS',1980))
-main()
