@@ -410,10 +410,11 @@ def get_team_csv():
         #csv_team_roster(year)
 
         # Team Stats Main
-        #csv_team_stats_main(year, 'Per_Game')
-        #csv_team_stats_main(year, 'Per_Poss')
-        #csv_team_stats_main(year, 'Total')
+        csv_team_stats_main(year, 'Per_Game')
+        csv_team_stats_main(year, 'Per_Poss')
+        csv_team_stats_main(year, 'Total')
         csv_team_stats_main(year, 'Team_Misc')
+        
         # Team Stats Other
         #csv_team_stats(year, 'Team_Advanced')
     
