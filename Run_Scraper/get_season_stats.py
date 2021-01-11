@@ -33,45 +33,6 @@ def csv_team_name(year):
 
     df.to_csv(output_path + file_name, index = False)
 
-'''
-Generates a CSV file of teams per game stats since 1980
-'''
-def csv_season_stats(year, format):
-    
-    # Change format to be uppercase 
-    format = format.upper()
-
-    if(format == 'PER_GAME'):
-        file_name = "Team_Pergame_Stats"
-        string_type = "pergame"
-
-    elif(format == 'PER_POSS'):
-        file_name = "Team_Perposs_Stats"
-        string_type = "perposs"
-
-    elif(format == 'TOTAL'):
-        file_name = "Team_Total_Stats"
-        string_type = "total"
-    
-    else:
-        print("Please select insert the right format")
-        return 0
-
-    # Check if the directory has been made
-    directory_parent = "Season_Stats"
-    create_output_child_directory(directory_parent,file_name)
-
-    df = get_season_team_stats(year, format)
-    df = df.round(2)
-        
-    # Output path for the csv file
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent, file_name)
-        
-    # Create a unique name for the file 
-    season =  "\\"+ str(year)+ "season"+ "_" + string_type + ".csv"
-
-    # Create the csv file
-    df.to_csv(output_path + season, index = False)
 
 '''
 Function that creates the csvs for opponent stats 

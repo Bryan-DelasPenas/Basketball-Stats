@@ -139,19 +139,23 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             df = df.drop(['Rk'], axis=1)
             
             # Create a new column called team
-            df['TEAM'] = team
+            df['Team ABV'] = team
         
+            # Create a new column named team
+            df['Team'] = team
+            df['Team'] = df['Team'].apply(lambda x:ABV_TO_TEAM[x].title())
+
             # Create a new column called season
-            df['SEASON'] = season
+            df['Season'] = season
         
             # Create a new column for Team ID
-            df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+            df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
-            # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
-            df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-            df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
-            df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
-
+             # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+            df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
+            df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+            df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+            df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
             # Rounds every entry to two decimal places
             df = df.round(2)
             
@@ -163,10 +167,12 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
 '''
 Creates a dataframe of everyteam's teams for the season
 '''
-def get_team_stats(team, season, data_format ='PER_GAME'): 
+def get_team_stats(season, data_format ='PER_GAME'): 
     
     # This is the format for the data, 
     # 3 options: Total, Per game and Per poss
+    data_format = data_format.upper()
+
     if data_format=='TOTAL':
         select = 'div_team-stats-base'
     
@@ -206,26 +212,29 @@ def get_team_stats(team, season, data_format ='PER_GAME'):
         # Create a new column called season
         df['SEASON'] = season
 
+        # Changes back Team column to title format 
+        df['Team'] = df['Team'].apply(lambda x: x.title())
+
         # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
         df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
         df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
         df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
 
         # Drop rk(Rank) and Team 
-        df = df.drop(['Rk', 'Team'], axis=1)
+        df = df.drop(['Rk'], axis=1)
 
         # Searches for the team you want
-        final_df = df[df['TEAM']== team]
+        #final_df = df[df['TEAM']== team]
         
         # Rounds every entry to two decimal places
-        final_df = final_df.round(2)
+        df = df.round(2)
 
-        return final_df
+        return df
  
 '''
 Creates a dataframe that contains the stats of teams' oppoenets 
 '''
-def get_opp_stats(team, season, data_format ='PER_GAME'):
+def get_opp_stats(season, data_format ='PER_GAME'):
 
     # This is the format for the data, 
     # 3 options: Total, Per game and Per poss
@@ -279,9 +288,6 @@ def get_opp_stats(team, season, data_format ='PER_GAME'):
         df.columns = list(map(lambda x: 'OPP_'+x, list(df.columns)))
         df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
         
-        # Searches for the team you want
-        final_df = df[df['TEAM']== team]
-        
         # Rounds every entry to two decimal places
         final_df = final_df.round(2)
 
@@ -290,7 +296,7 @@ def get_opp_stats(team, season, data_format ='PER_GAME'):
 '''
 Create a dataframe for team's misc stats 
 '''
-def get_team_misc(team,season):
+def get_team_misc(season):
     # Get the url of the page for starting purposes,
     page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div=div_misc_stats')
     
@@ -332,19 +338,13 @@ def get_team_misc(team,season):
         # Drop rk(Rank) and Team 
         df = df.drop(['Rk'], axis=1)
 
-        # Change the name of the columns to be uppercase 
-        df.rename(columns = {'Age': 'AGE', 'Pace': 'PACE', 'Arena': 'ARENA', 'Attend.': 'ATTENDANCE', 'Attend./G': 'ATTENDANCE/G'}, inplace=True)
-
         # For some reason, there is duplicate column names, this code removes it 
         df = df.loc[:,~df.columns.duplicated()]
 
-        # Searches for the team you want
-        final_df = df[df['Team ABV']== team]
-        
         # Rounds every entry to two decimal places
-        final_df = final_df.round(2)
+        df = df.round(2)
 
-        return final_df
+        return df
 
 '''
 Create dataframe for team advanced stats

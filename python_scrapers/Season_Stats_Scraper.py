@@ -60,64 +60,6 @@ def get_team_name(season):
         
     return df 
 
-'''
-Creates dataframe of season stats for every team
-'''
-def get_season_stats(season, data_format ='PER_GAME'): 
-    
-    # This is the format for the data, 
-    # 3 options: Total, Per game and Per poss
-    if data_format=='TOTAL':
-        select = 'div_team-stats-base'
-    
-    elif data_format=='PER_GAME':
-        select = 'div_team-stats-per_game'
-    
-    elif data_format=='PER_POSS':
-        select = 'div_team-stats-per_poss'
-
-    # Get the url of the page for starting purposes, using widgets.sports-references.com
-    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}.html&div={select}') 
-
-    # Init the dataframe 
-    df = None 
-
-    # Check the status code, if the code is 200, it means the request went through
-    if page.status_code == 200: 
-        soup = BeautifulSoup(page.content, 'html.parser')
-        table = soup.find('table')
-        
-        # Insert this data into a pandas dataframe
-        df = pd.read_html(str(table))[0]
-        
-        # Since total and per game have league averages we have to add this segement of code 
-        if(data_format != 'PER_POSS'):
-            league_avg_index = df[df['Team']=='League Average'].index[0]
-            df = df[:league_avg_index]
-        else:
-            pass
-        # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
-        df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
-
-        # Create a new column for Team ID
-        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
-
-        # Create a new column called season
-        df['SEASON'] = season
-
-        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
-        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
-
-        # Drop rk(Rank) and Team 
-        df = df.drop(['Rk', 'Team'], axis=1)
-
-        # Rounds every entry to two decimal places
-        df = df.round(2)
-
-        return df
 
 ''' 
 Creates a datafrane that returns standings TODO: PUT SEASON ID and TEAM ID
