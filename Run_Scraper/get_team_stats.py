@@ -271,7 +271,7 @@ def csv_team_stats_other(year, format):
     
     # Check if the needed directory has been made  
     directory_source = "Team"
-    directory_parent = 'Team_Stats'
+    directory_parent = 'Team Stats'
     directory_child = format.title()
     
     # Dataframe for season stats
@@ -345,7 +345,7 @@ def csv_team_stats_main(year, format):
     else:
         pass
     directory_source = "Team"
-    directory_grand_parent = 'Team_Stats'
+    directory_grand_parent = 'Team Stats'
     directory_parent = "Team Averages"
     directory_child = format.title()
     
@@ -411,7 +411,7 @@ def csv_opponent_stats(year, format):
 
     # Directory Names
     directory_source = "Team"
-    directory_grand_parent = 'Team_Stats'
+    directory_grand_parent = 'Team Stats'
     directory_parent = "Opponent Averages"
     directory_child = valid[format]
     
@@ -469,8 +469,8 @@ def get_team_csv():
     # Iterate through 1980 to 2020
     for year in range(1980, 2021):
         print(year)
-    
-        '''
+        
+        #'''
         # Roster Non-Playoff stats
         csv_roster_stats(year, False, 'PER_GAME')
         csv_roster_stats(year, False, 'PER_POSS')
@@ -485,17 +485,18 @@ def get_team_csv():
         csv_roster_stats(year, True, 'TOTALS')
         csv_roster_stats(year, True, 'PER_MINUTE')
         csv_roster_stats(year, True, 'ADVANCED')
-        '''
+        #'''
+        
         # Roster Stats
-        #csv_team_roster(year)
+        csv_team_roster(year)
 
-        '''
+        # '''
         # Team Stats Main
         csv_team_stats_main(year, 'Per_Game')
         csv_team_stats_main(year, 'Per_Poss')
         csv_team_stats_main(year, 'Total')
         csv_team_stats_main(year, 'Team_Misc')
-        #'''
+        # '''
 
         # Opponent Stats 
         csv_opponent_stats(year, 'PeR_GaMe')
@@ -503,7 +504,7 @@ def get_team_csv():
         csv_opponent_stats(year, 'Total')
         
         # Team Stats Other
-        #csv_team_stats(year, 'Team_Advanced')
+        csv_team_stats_other(year, 'Team_Advanced')
 
 '''
 Main Function
