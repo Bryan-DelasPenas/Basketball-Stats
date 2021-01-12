@@ -145,7 +145,6 @@ def get_player_suffix(name, birth_date):
             return suffix
             
         else:
-            print(suffix)
             suffix = suffix[:-6] + str(int(suffix[-6]) + 1 ) + suffix[-5:]
             page = get(f'https://www.basketball-reference.com{suffix}')
 
@@ -155,8 +154,55 @@ def get_player_suffix(name, birth_date):
 '''
 
 '''
-def get_player_stats(name, birth_date, format): 
-    return 0
+def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False, career=False): 
+    
+    record = lookup(name, birth_date)
+
+    # Check if it a valid player and birthdate
+    if(record[0][0] == name and record[0][1] == birth_date):
+        pass
+
+    else:
+        print('Player or birthdate is wrong')
+        return None
+
+    # Create suffix for the url
+    suffix = get_player_suffix(name, birth_date).replace('/', '%2F')
+
+    # Type of stat you want
+    selector = format.lower()
+    
+    # Check if the stat wanted is playoff
+    if playoffs:
+        selector = 'playoffs_' + selector
+
+    # Get the url of the table
+    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url={suffix}&div=div_{selector}')
+    
+    # Check if the request went through 
+    if page.status_code == 200:
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find('table')
+
+        df = pd.read_html(str(table))[0]
+        df.rename(columns={'Lg': 'League'}, inplace=True)
+
+        if 'FG.1' in df.columns:
+            df.rename(columns={'FG.1': 'FG%'}, inplace=True)
+        if 'eFG' in df.columns:
+            df.rename(columns={'eFG': 'eFG%'}, inplace=True)
+        if 'FT.1' in df.columns:
+            df.rename(columns={'FT.1': 'FT%'}, inplace=True)
+
+        career_index = df[df['Season']=='Career'].index[0]
+        
+        if career:
+            df = df.iloc[career_index+2:, :]
+        else:
+            df = df.iloc[:career_index, :]
+
+        df = df.reset_index().drop('index', axis=1)
+        return df
 
 '''
 
@@ -175,9 +221,4 @@ def lookup(name, birth_date):
     # Put into a list and return
     record = df_new.values.tolist()
     return record
-def main():
-   
-    start_time = time.time()
-    lookup("Markieff Morris","September 2, 1989")
-    print("--- %s seconds ---" % (time.time() - start_time))
-main()
+

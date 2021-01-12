@@ -32,7 +32,7 @@ Removes accent from characters and changes it to proper letter. This is only for
 def translate(name):
     
     special_char = ('Ã³', 'Ã–', 'ÅŸ', 'Ä±', 'Ãº', 'Ã§', 'Å¡', 'Å†', 'Å¡', 'Ä‡', 'Ä', 'Å¾', 'Ã¡', 'Å½','ÄŒ', 'Ä','Ã©', 'Ã', 'A°', 'Aª', 'a°', 'A¼', 'A¨', 'A²', 'È™',
-                    'A¶', 'Å«', 'A¤', 'a£', 'AŸ', 'A«', 'A½', 'Å„', 'aŸ', 'A“', 'A£', 'a“')
+                    'A¶', 'Å«', 'A¤', 'a£', 'AŸ', 'A«', 'A½', 'Å„', 'aŸ', 'A“', 'A£', 'a“', 'A´', 'A¯')
     
     if('Biedrin' in name):
             name = name.replace('Å¡', 'n')
@@ -96,13 +96,13 @@ def translate(name):
     elif('Radisav' in name and 'ur' in name):
             name = 'Radisav Curcic'
     
-    elif('Aleksandar ' in name and 'evic' in name):
+    elif('Aleksandar ' in name and 'or' in name):
             name = 'Aleksandar Djordjevic'
 
     elif('Gordan Giri' in name):
             name = 'Gordan Giriček'
 
-    elif('Jer' in name and 'me Mo' in name):
+    elif('Mo ' in name and ' so' in name and 'me' in name):
             name = 'Jerome Moiso'
     
     elif('Martynas Andriu' in name):
@@ -129,6 +129,12 @@ def translate(name):
     elif('lex Abrines' in name):
             name = 'Alex Abrines'
     
+    elif('eljko Rebra' in name):
+            name = 'Zeljko Rebraca'
+
+    elif('Marko Mili' in name):
+            name = 'Marko Milic'
+ 
     # Iterate through the list and change char 
     if any(x in name for x in special_char):
         name = name.replace('Ã³', 'o')
@@ -166,6 +172,7 @@ def translate(name):
         name = name.replace('A“', 'O')
         name = name.replace('A£', 'a')
         name = name.replace('a“', 'e')
-    
+        name = name.replace('A´', 'o')
+        name = name.replace('A¯', 'i')
     return name
 

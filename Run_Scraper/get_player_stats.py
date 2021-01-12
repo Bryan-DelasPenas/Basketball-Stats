@@ -9,7 +9,7 @@ import time
 sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
 
 
-from Player_Stats_Scraper import get_player_name
+from Player_Stats_Scraper import get_player_name, get_player_stats
 from helper import create_output_directory, create_output_child_directory
 
 '''
@@ -41,12 +41,50 @@ def players_names_csv():
         else:
             df.to_csv(output_path + file_name, mode='a',header=False, index = False)
 
+'''
 
+'''
+def csv_player_stats(name, birth_date, format, playoff, career):
 
+    directory_child = format.title()
+   
+    output_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', name, directory_child)
+    if(not os.path.isdir(output_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(output_path)
+    
+    df = get_player_stats(name, birth_date,format, playoff, career)
+    file_name = '//'+ name + '_' + format + '.csv'
+
+    df.to_csv(output_path + file_name, index = False)
+    
+    return 0
+
+def get_player_csv():
+    csv_path = path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'Player_Name','player_names.csv')
+    
+    # Convert csv to dataframe
+    df = pd.read_csv(path)
+    
+    record = df.values.tolist()
+
+    for i in range(3000):
+        print(i)
+        player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
+    
+        if(not os.path.isdir(player_path)):
+            print('FUCK')
+            # Create the directory with the final_path
+            os.mkdir(player_path)
+
+            
+        print(record[i][0])
 
 def main():
     #players_names_csv()
     start_time = time.time()
-
+    csv_player_stats("Nikola Jokic", 'February 19, 1995', 'PER_GAME', False, False)
+    #get_player_csv()
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
