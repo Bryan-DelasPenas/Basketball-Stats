@@ -7,10 +7,11 @@
 # Description: 
 # This code gathers the season data for each team 
 import sys 
-sys.path.append('\\Users\\Bryan\\Desktop\\Basketball-Stats\\python_scrapers')
 import os
 import pathlib 
 from pathlib import Path
+
+sys.path.append(str(pathlib.Path().absolute()) + '\\python_scrapers')
 
 # Import modules 
 from Season_Stats_Scraper import  get_team_name, get_standings

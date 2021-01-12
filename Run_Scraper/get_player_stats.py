@@ -5,7 +5,7 @@ import pathlib
 from pathlib import Path
 from requests import get
 import unicodedata, unidecode
-sys.path.append('\\Users\\Bryan\\Desktop\\Basketball-Stats\\python_scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\python_scrapers')
 
 from Player_Stats_Scraper import get_player_name
 from helper import create_output_directory, create_output_child_directory
@@ -38,4 +38,4 @@ def players_names_csv():
 def main():
     players_names_csv()
 
-main()
+#main()

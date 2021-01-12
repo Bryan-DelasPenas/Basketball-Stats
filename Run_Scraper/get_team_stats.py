@@ -7,15 +7,17 @@
 # Description: 
 # This code gathers the season data for each team 
 import sys 
-sys.path.append('\\Users\\Bryan\\Desktop\\Basketball-Stats\\python_scrapers')
 import os
 import pathlib 
 from pathlib import Path
+
+sys.path.append(str(pathlib.Path().absolute()) + '\\python_scrapers')
 
 # Import modules 
 from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
 from Team_Constants import TEAM_DICT
 from helper import create_output_directory
+
 
 '''
 Helper function that creates folders for each season 
