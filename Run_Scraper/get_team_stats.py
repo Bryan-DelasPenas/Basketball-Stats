@@ -13,7 +13,7 @@ import pathlib
 from pathlib import Path
 
 # Import modules 
-from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_team_misc, get_team_advanced
+from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
 from Team_Constants import TEAM_DICT
 from helper import create_output_child_directory, create_output_directory
 
@@ -40,6 +40,9 @@ def create_team_stats_folder_two(location_parent, location):
         print("Files are already created")
         return False
 
+'''
+Helper function to create a folder starting from a grand parent directory
+'''
 def create_team_stats_folder_three(location_grand,location_parent, location):
     # The file path
     output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", location_grand, location_parent, location)
@@ -58,7 +61,6 @@ def create_team_stats_folder_three(location_grand,location_parent, location):
     else:
         print("Files are already created")
         return False
-
 
 '''
 Function that creates csv files of team roster 
@@ -446,6 +448,13 @@ def csv_opponent_stats(year, format):
         pass
     
     print(final_path)
+    df = get_opp_stats(year, format)
+    
+    # Create a unique name for the file 
+    season =  "\\"+ str(year)+ "season" + "_" + format.title() + ".csv"
+
+    # Create the csv file
+    df.to_csv(final_path + season, index = False)
 
 '''
 Generates a CSV of each team in its own dir for each team
@@ -480,7 +489,7 @@ def get_team_csv():
         # Roster Stats
         #csv_team_roster(year)
 
-        #'''
+        '''
         # Team Stats Main
         csv_team_stats_main(year, 'Per_Game')
         csv_team_stats_main(year, 'Per_Poss')
@@ -495,7 +504,10 @@ def get_team_csv():
         
         # Team Stats Other
         #csv_team_stats(year, 'Team_Advanced')
-    
+
+'''
+Main Function
+''' 
 def main():
     get_team_csv()
     

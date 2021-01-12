@@ -236,6 +236,8 @@ Creates a dataframe that contains the stats of teams' oppoenets
 '''
 def get_opp_stats(season, data_format ='PER_GAME'):
 
+    data_format = data_format.upper()
+
     # This is the format for the data, 
     # 3 options: Total, Per game and Per poss
     if data_format=='TOTAL':
@@ -289,9 +291,9 @@ def get_opp_stats(season, data_format ='PER_GAME'):
         df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
         
         # Rounds every entry to two decimal places
-        final_df = final_df.round(2)
+        df = df.round(2)
 
-        return final_df
+        return df
 
 '''
 Create a dataframe for team's misc stats 
