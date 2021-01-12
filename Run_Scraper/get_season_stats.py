@@ -21,62 +21,19 @@ Generates a CSV file of team names for a season
 '''
 def csv_team_name(year):
     # Check if the needed directory has been made  
-    directory_parent = "Season_Stats"
-    directory_child = "Team_Names"
+    directory_parent = "Season"
+    directory_child = "Team Names"
+    
     create_output_child_directory(directory_parent,directory_child)
     
     df = get_team_name(year)
     # Our file path 
     output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent,directory_child)
+    print(output_path)
 
-    file_name = "\\" + str(year) + "teams.csv"
+    file_name = "\\" + str(year) + "_" + "Team_Names.csv"
 
     df.to_csv(output_path + file_name, index = False)
-
-
-'''
-Function that creates the csvs for opponent stats 
-'''
-def csv_season_opp(year, format):
-    
-    # Change format to be uppercase 
-    format = format.upper()
-    
-    if(format == 'PER_GAME'):
-        file_name = "Opp_Pergame_Stats"
-        string_type = "pergame"
-        
-
-    elif(format == 'PER_POSS'):
-        file_name = "Opp_Perposs_Stats"
-        string_type = "perposs"
-
-    elif(format == 'TOTAL'):
-        file_name = "Opp_Total_Stats"
-        string_type = "total"
-    
-    else:
-        print("Please select insert the right format")
-        return 0
-    
-    # Create the directory if not there
-    directory_parent = "Season_Stats"
-    create_output_child_directory(directory_parent,file_name)
-
-    # Call the scraper function
-    df = get_opp_stats(year, format)
-    df = df.round(2)
-    
-    # Output path for the csv file
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent, file_name)
-        
-    # Create a unique name for the file 
-    season =  "\\"+ str(year)+ "season"+ "_" + string_type + ".csv"
-
-    # Create the csv file
-    df.to_csv(output_path + season, index = False)
-
-    return 0
 
 '''
 Function that creates the csv for standings
@@ -139,32 +96,22 @@ Functions that calls the three functions above that creates the csv
 '''
 def get_season_csv():
     # Check if the proper directories has been made
-    directory_parent = "Season_Stats"
+    directory_parent = "Season"
     create_output_directory(directory_parent)
-
+    #year = 1980
     # Iterate through the 1980 and 2020 season
     for year in range(1980, 2021):
         
-        # Season Stats
-        csv_season_stats(year, 'PER_GAME')
-        csv_season_stats(year, 'PER_POSS')
-        csv_season_stats(year, 'TOTAL')
 
         # Team Name
         csv_team_name(year)
         
-        # Team Misc
-        csv_team_misc(year)
+   
 
         # Standing Stats
-        csv_standings(year, 'STANDARD')
-        csv_standings(year, 'EXPANDED_STANDINGS')
-        csv_standings(year, 'TEAM_VS_TEAM')
-
-        # Opponent Stats
-        csv_season_opp(year, 'PER_GAME')
-        csv_season_opp(year, 'PER_POSS')
-        csv_season_opp(year, 'TOTAL') 
+        #csv_standings(year, 'STANDARD')
+        #csv_standings(year, 'EXPANDED_STANDINGS')
+        #csv_standings(year, 'TEAM_VS_TEAM')
 
 '''
 Main function generates csv files for the functions above
