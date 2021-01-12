@@ -5,7 +5,9 @@ import pathlib
 from pathlib import Path
 from requests import get
 import unicodedata, unidecode
-sys.path.append(str(pathlib.Path().absolute()) + '\\Python_scrapers')
+import time
+sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
+
 
 from Player_Stats_Scraper import get_player_name
 from helper import create_output_directory, create_output_child_directory
@@ -18,7 +20,7 @@ def players_names_csv():
     
     # Check if the proper directories has been made
     source_directory = "Output"
-    directory_parent = "Player_Stats"
+    directory_parent = "Player"
     directory_child = "Player_Name"
     
     # Create the directories if needed
@@ -32,10 +34,19 @@ def players_names_csv():
     for letter in letters:
         df = get_player_name(letter)
         
-        file_name = '\\' + letter +'_'+"player_names" + ".csv"
-        df.to_csv(output_path + file_name, index = False)
+        file_name = '\\' + "player_names" + ".csv"
+        
+        if letter == 'a':
+            df.to_csv(output_path + file_name, mode='a', index = False)
+        else:
+            df.to_csv(output_path + file_name, mode='a',header=False, index = False)
+
+
+
 
 def main():
-    players_names_csv()
+    #players_names_csv()
+    start_time = time.time()
 
-#main()
+    print("--- %s seconds ---" % (time.time() - start_time))
+main()

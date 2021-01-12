@@ -12,9 +12,15 @@ from requests import get
 import unicodedata, unidecode
 import codecs 
 import re 
+import os
 from utils import translate
+import pathlib
+from pathlib import Path
+import time
 
-
+from os import chdir
+from glob import glob
+import pandas as pdlib
 
 '''
 Creates a dataframe of player's name active from 1980 - 2020
@@ -36,17 +42,21 @@ def get_player_name(letter):
         df = pd.read_html(str(table))[0]
         
         # Column for the dataframe 
-        df.columns = ['PLAYER', 'FROM', 'TO','POS', 'HEIGHT', 'WEIGHT', 'BIRTH_DATE','COLLEGE']
+        df.columns = ['Player', 'From', 'To','Pos', 'Height', 'Weight', 'Birth_Date','College']
         
         # Drop players that are didn't play at 1980
-        df_new = df[df['TO'] < 1980].index
+        df_new = df[df['To'] < 1980].index
         df.drop(df_new, inplace = True)
         
+        # Remove * and translate accented char to normal ones
+        df['Player'] = df['Player'].apply(lambda x: x.replace('*', ''))
+        df['Player'] = df['Player'].apply(lambda name: translate(name))
         
-        df['PLAYER'] = df['PLAYER'].apply(lambda x: x.replace('*', ''))
-        df['PLAYER'] = df['PLAYER'].apply(lambda name: translate(name))
-        
+        # Drop unneeded columns
+        df = df.drop(['Pos', 'From', 'To','Height', 'Weight', 'College'], axis=1)
+
         return df
+
 
 '''
 Creates player suffixes for url 
@@ -77,9 +87,9 @@ def create_player_suffix(name):
     return second + first
 
 '''
-Creates a valid player suffix based on the parameter name
+Creates a valid player suffix based on the parameter name and birth date
 '''    
-def get_player_suffix(name):
+def get_player_suffix(name, birth_date):
  
     # Get the first initial of last name
     initial = name.split(' ')[1][0].lower()
@@ -95,7 +105,7 @@ def get_player_suffix(name):
         h1 = soup.find('h1', attrs={'itemprop': 'name'})
         h2 = soup.find("span", itemprop='birthDate')
         list1 = []
-        print(h2)
+
         if h1:
             page_name = h1.find('span').text
 
@@ -128,25 +138,46 @@ def get_player_suffix(name):
                 # Everything else
                 else:
                     final_date += date[index]
-            
+        
         # This is for accented characters on the website         
-        if(unidecode.unidecode(page_name).lower() == name.lower()):
-            
+        if(unidecode.unidecode(page_name).lower() == name.lower() and birth_date == final_date):
+
             return suffix
             
         else:
+            print(suffix)
             suffix = suffix[:-6] + str(int(suffix[-6]) + 1 ) + suffix[-5:]
             page = get(f'https://www.basketball-reference.com{suffix}')
 
     return None
     
     
+'''
 
-def get_player_stats(season): 
+'''
+def get_player_stats(name, birth_date, format): 
     return 0
 
+'''
 
+'''
+def lookup(name, birth_date):
+    
+    # Path to csv file
+    path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'Player_Name','player_names.csv')
+
+    # Convert csv to dataframe
+    df = pd.read_csv(path)
+    
+    # Search dataframe for name and birthdate
+    df_new = df.loc[(df['Player'] == name) & (df['Birth_Date'] == birth_date)]
+
+    # Put into a list and return
+    record = df_new.values.tolist()
+    return record
 def main():
-    print(get_player_suffix('Charles Jones'))
-
+   
+    start_time = time.time()
+    lookup("Markieff Morris","September 2, 1989")
+    print("--- %s seconds ---" % (time.time() - start_time))
 main()
