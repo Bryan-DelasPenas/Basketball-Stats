@@ -14,26 +14,26 @@ from pathlib import Path
 
 # Import modules 
 from Season_Stats_Scraper import  get_team_name, get_standings
-from helper import create_output_child_directory, create_output_directory
+from helper import create_output_directory
 
 '''
 Generates a CSV file of team names for a season 
 '''
 def csv_team_name(year):
     # Check if the needed directory has been made  
-    directory_parent = "Season"
-    directory_child = "Team_Names"
+    directory_source = "Season"
+    directory_parent = "Team_Names"
     
-    create_output_child_directory(directory_parent,directory_child)
-    
+    # Get the first file path
+    first_path = first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_parent)
+   
+    # Call the scraper
     df = get_team_name(year)
-    # Our file path 
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent,directory_child)
-    print(output_path)
-
+    
+    # Create a file name
     file_name = "\\" + str(year) + "_" + "Team_Names.csv"
 
-    df.to_csv(output_path + file_name, index = False)
+    df.to_csv(first_path + file_name, index = False)
 
 '''
 Function that creates the csv for standings
@@ -84,9 +84,7 @@ def csv_standings(year, format):
         os.mkdir(final_path)
     else:
         pass
-    print(final_path)
-    
-    
+        
     # If the format is standard get_standings will return two dataframes 
     if format == 'Standard':
         df_east, df_west = get_standings(year, format)
@@ -126,12 +124,15 @@ def csv_standings(year, format):
 Functions that calls the three functions above that creates the csv 
 '''
 def get_season_csv():
+    
     # Check if the proper directories has been made
     directory_parent = "Season"
     create_output_directory(directory_parent)
+    
     #year = 1980
     # Iterate through the 1980 and 2020 season
     for year in range(1980, 2021):
+        print(year)
         
         # Team Name
         csv_team_name(year)

@@ -68,7 +68,7 @@ def get_standings(season, data_format = 'standard'):
 
     # Converts data_format into lower case string 
     data_format = data_format.lower()
-    print(data_format)
+   
     if data_format == 'standard':
 
         page = get(f'https://www.basketball-reference.com/leagues/NBA_{season}_standings.html')
@@ -170,7 +170,7 @@ def get_standings(season, data_format = 'standard'):
             print('Error 404: Page could not be found')
 
     elif data_format == 'expanded_standings':
-        print('Nice')
+        
         select = 'div_expanded_standings'
         page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}_standings.html&div={select}')
         df = None

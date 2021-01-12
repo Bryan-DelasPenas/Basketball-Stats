@@ -17,7 +17,6 @@ from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get
 from Team_Constants import TEAM_DICT
 from helper import create_output_directory
 
-
 '''
 Helper function that creates folders for each season 
 '''
@@ -271,7 +270,7 @@ def csv_team_stats_other(year, format):
     
     # Check if the needed directory has been made  
     directory_source = "Team"
-    directory_parent = 'Team Stats'
+    directory_parent = 'Team_Stats'
     directory_child = format.title()
     
     # Dataframe for season stats
@@ -345,8 +344,8 @@ def csv_team_stats_main(year, format):
     else:
         pass
     directory_source = "Team"
-    directory_grand_parent = 'Team Stats'
-    directory_parent = "Team Averages"
+    directory_grand_parent = 'Team_Stats'
+    directory_parent = "Team_Averages"
     directory_child = format.title()
     
     # Init variables 
@@ -411,8 +410,8 @@ def csv_opponent_stats(year, format):
 
     # Directory Names
     directory_source = "Team"
-    directory_grand_parent = 'Team Stats'
-    directory_parent = "Opponent Averages"
+    directory_grand_parent = 'Team_Stats'
+    directory_parent = "Opponent_Averages"
     directory_child = valid[format]
     
     # Init variables 
@@ -470,7 +469,7 @@ def get_team_csv():
     for year in range(1980, 2021):
         print(year)
         
-        #'''
+        '''
         # Roster Non-Playoff stats
         csv_roster_stats(year, False, 'PER_GAME')
         csv_roster_stats(year, False, 'PER_POSS')
@@ -485,7 +484,7 @@ def get_team_csv():
         csv_roster_stats(year, True, 'TOTALS')
         csv_roster_stats(year, True, 'PER_MINUTE')
         csv_roster_stats(year, True, 'ADVANCED')
-        #'''
+        '''
         
         # Roster Stats
         csv_team_roster(year)
