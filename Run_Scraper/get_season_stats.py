@@ -40,45 +40,81 @@ Function that creates the csv for standings
 '''
 def csv_standings(year, format):
     
+    valid = ['Standard', 'Expanded_Standings', 'Team_Vs_Team']
+
     # Change format to be uppercase 
-    format = format.upper()
+    format = format.title()
 
     # There should only be three formats for the parameter format
-    if format == 'STANDARD':
-        file_name = "Standard_Standings"
-        string_type = "standard_stadings"
-
-    elif format == 'EXPANDED_STANDINGS':
-        file_name = "Expanded_Standings"
-        string_type = "expanded_standings"
-
-    elif format == 'TEAM_VS_TEAM':
-        file_name = "Team_vs_Team"
-        string_type = "team_vs_team"
-
-    else:
+    if format not in valid:
         print("Error: Please look at api.md for proper parameters")
         return None
+    
+    else:
+       pass
 
     # Check if the proper directories has been made
-    directory_parent = "Season_Stats"
-    create_output_child_directory(directory_parent,file_name)
+    directory_source = "Output"
+    directory_grand_parent = "Season"
+    directory_parent = "Standings"
+    directory_child = "Standard Standings"
 
+    first_path =  os.path.join(pathlib.Path().absolute(), directory_source , directory_grand_parent)
+    print(first_path)
+    if(not os.path.isdir(first_path)):
+        # Create the directory with the final_path
+        os.mkdir(first_path)
+    else:
+        pass
+    
+    # Create the final path that has format name
+    second_path = os.path.join(first_path, directory_parent)
+    if(not os.path.isdir(second_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(second_path)
+    else:
+        pass
+
+    # Create the final path that has format name
+    final_path = os.path.join(second_path, directory_child)
+    if(not os.path.isdir(final_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(final_path)
+    else:
+        pass
+    
+    print(final_path)
+    
+    format = format.replace("_", " ")
+   
     # If the format is standard get_standings will return two dataframes 
-    if format == 'STANDARD':
+    if format == 'Standard':
         df_east, df_west = get_standings(year, format)
 
         # Output path for the two csv file
-        output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent, file_name)
+        west_output_path = os.path.join(final_path, "East")
+        east_output_path = os.path.join(final_path, "West")
 
+        if(not os.path.isdir(west_output_path)): 
+            os.mkdir(west_output_path)
+        else:
+            pass
+
+        if (not os.path.isdir(east_output_path)): 
+            os.mkdir(east_output_path) 
+        else:
+            pass
+        
         # Create a unique name for the two file 
-        season_east = "\\"+ str(year)+ "season"+ "_" + "east" + "_" + string_type + ".csv"
-        season_west = "\\"+ str(year)+ "season"+ "_" + "west" + "_" + string_type + ".csv"
+        season_east = "\\"+ str(year)+ "season"+ "_" + "east" + "_" + format + ".csv"
+        season_west = "\\"+ str(year)+ "season"+ "_" + "west" + "_" + format + ".csv"
     
         # Create the two csv file
-        df_east.to_csv(output_path + season_east, index = False)
-        df_west.to_csv(output_path + season_west, index = False)
-    
+        df_east.to_csv(west_output_path + season_east, index = False)
+        df_west.to_csv(east_output_path + season_west, index = False)
+    '''
     else:
         df = get_standings(year, format)
         
@@ -90,7 +126,7 @@ def csv_standings(year, format):
 
         # Create the csv file
         df.to_csv(output_path + season, index = False)
-
+    '''
 '''
 Functions that calls the three functions above that creates the csv 
 '''
@@ -104,12 +140,12 @@ def get_season_csv():
         
 
         # Team Name
-        csv_team_name(year)
+        #csv_team_name(year)
         
    
 
         # Standing Stats
-        #csv_standings(year, 'STANDARD')
+        csv_standings(year, 'STANDARD')
         #csv_standings(year, 'EXPANDED_STANDINGS')
         #csv_standings(year, 'TEAM_VS_TEAM')
 

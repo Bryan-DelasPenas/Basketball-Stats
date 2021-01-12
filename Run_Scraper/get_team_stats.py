@@ -15,7 +15,7 @@ from pathlib import Path
 # Import modules 
 from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
 from Team_Constants import TEAM_DICT
-from helper import create_output_child_directory, create_output_directory
+from helper import create_output_directory
 
 
 '''
