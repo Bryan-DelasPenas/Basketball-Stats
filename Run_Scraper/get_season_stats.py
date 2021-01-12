@@ -11,7 +11,7 @@ import os
 import pathlib 
 from pathlib import Path
 
-sys.path.append(str(pathlib.Path().absolute()) + '\\python_scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
 
 # Import modules 
 from Season_Stats_Scraper import  get_team_name, get_standings

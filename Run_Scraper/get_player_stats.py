@@ -5,7 +5,7 @@ import pathlib
 from pathlib import Path
 from requests import get
 import unicodedata, unidecode
-sys.path.append(str(pathlib.Path().absolute()) + '\\python_scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Python_scrapers')
 
 from Player_Stats_Scraper import get_player_name
 from helper import create_output_directory, create_output_child_directory

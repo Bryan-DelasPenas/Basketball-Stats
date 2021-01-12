@@ -74,10 +74,7 @@ $ conda remove -n yourenvname -all # Deletes your virtual environment
 $ conda install --file requirements.txt
 ```
 
-### Installing the custom modules 
-<p>The custom module has not been built yet.</p>
-
-### Via Github 
+### Downloading custom modules Via Github 
 <p>You can clone this repo and import the libraries at your own discretion.</p>
 
 ## Running the program 
@@ -89,9 +86,10 @@ $ python /your/path/Basketball-Stats/Run_Scraper/get_season_stats.py  # Gets sea
 $ python /your/path/Basketball-Stats/Run_Scraper/get_team_stats.py    # Gets team stats from 1980 - current
 $ python /your/path/Basketball-Stats/Run_Scraper/get_player_stats.py  # Gets player stats from 1980 - current
 ``` 
-<p>Where your path is where you decide to store the source directory, <em>Basketball-Stats</em>.</p>
+<p>Where your path is where you decide to store the source directory, <em>Basketball-Stats</em>. <strong>NOTE:</strong> The file should be ran from
+the root directory, aka <em>Basketball-Stats</em>.</p>
 
-## Web Scrapers Expected Output
+### Web Scrapers Expected Output
 <p>Inside of the source directory,<em>Basketball-Stats</em>, there will be a directory called <em>Output</em>.<br>
 Inside of <em>Output</em>, should be three directories, corresponding to the name of the scrapers. More information 
 be in a api.md file</p>

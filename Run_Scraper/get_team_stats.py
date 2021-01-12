@@ -11,7 +11,7 @@ import os
 import pathlib 
 from pathlib import Path
 
-sys.path.append(str(pathlib.Path().absolute()) + '\\python_scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
 
 # Import modules 
 from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
