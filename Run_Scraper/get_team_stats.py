@@ -136,7 +136,7 @@ def csv_roster_stats(year, playoffs ,format):
     # Change format to be uppercase 
     format = format.upper()
 
-    # Check if you are looking for playoff stats 
+    # Check if it is a valid playoff season stat 
     if(playoffs):
         if(format in playoff_valid):
             pass
@@ -149,7 +149,8 @@ def csv_roster_stats(year, playoffs ,format):
   
         # This is for directory 
         directory_child = "Playoff_Stat"
-        
+    
+    # Check if it is a valid regular season stat
     else:
         if(format in regular_valid):
             pass
@@ -339,11 +340,18 @@ def csv_team_stats_main(year, format):
     else:
         pass
     directory_source = "Team"
-    directory_parent = 'Team_Stats'
-    directory_child = format
+    directory_grand_parent = 'Team_Stats'
+    directory_parent = "Team Averages"
+    directory_child = format.title()
+    
+    # Init variables 
+    first_path = None
+    second_path = None
+    third_path = None
+    final_path = None
 
     # Our file path 
-    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_parent)
+    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_grand_parent)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -351,8 +359,8 @@ def csv_team_stats_main(year, format):
     else:
         pass
     
-    # Create the final path that has format name
-    second_path = os.path.join(first_path, directory_child)
+    # Create the second path that has format name
+    second_path = os.path.join(first_path, directory_parent)
     if(not os.path.isdir(second_path)):
         
         # Create the directory with the final_path
@@ -360,12 +368,32 @@ def csv_team_stats_main(year, format):
     else:
         pass
     
+    # Create the thrid path that has format name
+    third_path = os.path.join(second_path, directory_child)
+    if(not os.path.isdir(third_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(third_path)
+    else:
+        pass
+
     # Create the season folders if needed to 
-    create_team_stats_folder_two(directory_parent, directory_child)
+    create_team_stats_folder_three(directory_grand_parent, directory_parent, directory_child)
     
-    final_path = os.path.join(second_path, str(year))
+    # Creates another path for the year
+    fourth_path = os.path.join(third_path, str(year))
+
+    final_path = os.path.join(fourth_path, format.title())
+    if(not os.path.isdir(final_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(final_path)
+    else:
+        pass
+    
     print(final_path)
     
+    # Check for Team_Misc, it calls a different scraper
     if format == 'Team_Misc':
         df = get_team_misc(year)
     
@@ -391,6 +419,7 @@ def get_team_csv():
     # Iterate through 1980 to 2020
     for year in range(1980, 2021):
         print(year)
+        '''
         # Roster Non-Playoff stats
         csv_roster_stats(year, False, 'PER_GAME')
         csv_roster_stats(year, False, 'PER_POSS')
@@ -405,15 +434,15 @@ def get_team_csv():
         csv_roster_stats(year, True, 'TOTALS')
         csv_roster_stats(year, True, 'PER_MINUTE')
         csv_roster_stats(year, True, 'ADVANCED')
-
+        '''
         # Roster Stats
         #csv_team_roster(year)
 
         # Team Stats Main
-        #csv_team_stats_main(year, 'Per_Game')
-        #csv_team_stats_main(year, 'Per_Poss')
-        #csv_team_stats_main(year, 'Total')
-        #csv_team_stats_main(year, 'Team_Misc')
+        csv_team_stats_main(year, 'Per_Game')
+        csv_team_stats_main(year, 'Per_Poss')
+        csv_team_stats_main(year, 'Total')
+        csv_team_stats_main(year, 'Team_Misc')
         
         # Team Stats Other
         #csv_team_stats(year, 'Team_Advanced')
