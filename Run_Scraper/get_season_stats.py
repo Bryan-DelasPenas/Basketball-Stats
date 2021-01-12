@@ -22,7 +22,7 @@ Generates a CSV file of team names for a season
 def csv_team_name(year):
     # Check if the needed directory has been made  
     directory_parent = "Season"
-    directory_child = "Team Names"
+    directory_child = "Team_Names"
     
     create_output_child_directory(directory_parent,directory_child)
     
@@ -57,10 +57,10 @@ def csv_standings(year, format):
     directory_source = "Output"
     directory_grand_parent = "Season"
     directory_parent = "Standings"
-    directory_child = "Standard Standings"
+    directory_child = format
 
     first_path =  os.path.join(pathlib.Path().absolute(), directory_source , directory_grand_parent)
-    print(first_path)
+
     if(not os.path.isdir(first_path)):
         # Create the directory with the final_path
         os.mkdir(first_path)
@@ -84,11 +84,9 @@ def csv_standings(year, format):
         os.mkdir(final_path)
     else:
         pass
-    
     print(final_path)
     
-    format = format.replace("_", " ")
-   
+    
     # If the format is standard get_standings will return two dataframes 
     if format == 'Standard':
         df_east, df_west = get_standings(year, format)
@@ -114,19 +112,16 @@ def csv_standings(year, format):
         # Create the two csv file
         df_east.to_csv(west_output_path + season_east, index = False)
         df_west.to_csv(east_output_path + season_west, index = False)
-    '''
+    
     else:
         df = get_standings(year, format)
         
-        # Output path for the csv file
-        output_path = os.path.join(pathlib.Path().absolute(), "Output", directory_parent, file_name)
-            
         # Create a unique name for the file 
-        season = "\\"+ str(year)+ "season"+ "_" + string_type + ".csv"
-
+        season = "\\"+ str(year)+ "season"+ "_" + format + ".csv"
+        
         # Create the csv file
-        df.to_csv(output_path + season, index = False)
-    '''
+        df.to_csv(final_path + season, index = False)
+    
 '''
 Functions that calls the three functions above that creates the csv 
 '''
@@ -138,16 +133,13 @@ def get_season_csv():
     # Iterate through the 1980 and 2020 season
     for year in range(1980, 2021):
         
-
         # Team Name
-        #csv_team_name(year)
+        csv_team_name(year)
         
-   
-
         # Standing Stats
         csv_standings(year, 'STANDARD')
-        #csv_standings(year, 'EXPANDED_STANDINGS')
-        #csv_standings(year, 'TEAM_VS_TEAM')
+        csv_standings(year, 'expanded_standings')
+        csv_standings(year, 'TEAM_VS_TEAM')
 
 '''
 Main function generates csv files for the functions above
