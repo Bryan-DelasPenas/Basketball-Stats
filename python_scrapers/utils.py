@@ -100,7 +100,7 @@ def translate(name):
             name = 'Aleksandar Djordjevic'
 
     elif('Gordan Giri' in name):
-            name = 'Gordan Giriček'
+            name = 'Gordan Giricek'
 
     elif('Mo ' in name and ' so' in name and 'me' in name):
             name = 'Jerome Moiso'
@@ -135,6 +135,11 @@ def translate(name):
     elif('Marko Mili' in name):
             name = 'Marko Milic'
  
+    elif('Andris Biedri' in name):
+            name = 'Andris Biedrins'
+ 
+    elif('ngel Delgado' in name):
+            name = 'Angel Delgado'
     # Iterate through the list and change char 
     if any(x in name for x in special_char):
         name = name.replace('Ã³', 'o')
@@ -174,5 +179,6 @@ def translate(name):
         name = name.replace('a“', 'e')
         name = name.replace('A´', 'o')
         name = name.replace('A¯', 'i')
+   
     return name
 

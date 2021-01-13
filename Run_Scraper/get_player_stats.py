@@ -69,22 +69,23 @@ def get_player_csv():
     
     record = df.values.tolist()
 
-    for i in range(3000):
+    # Iterate through the list TODO: run till length there is going to be an error at line 1130 
+    for i in range(1130, len(record)):
         print(i)
+        print(record[i][0])
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
     
         if(not os.path.isdir(player_path)):
-            print('FUCK')
             # Create the directory with the final_path
             os.mkdir(player_path)
 
-            
-        print(record[i][0])
+        csv_player_stats(record[i][0], record[i][1], 'PER_GAME', False, False)
+
 
 def main():
     #players_names_csv()
     start_time = time.time()
-    csv_player_stats("Nikola Jokic", 'February 19, 1995', 'PER_GAME', False, False)
-    #get_player_csv()
+    #csv_player_stats("Nikola Jokic", 'February 19, 1995', 'PER_GAME', False, False)
+    get_player_csv()
     print("--- %s seconds ---" % (time.time() - start_time))
 main()

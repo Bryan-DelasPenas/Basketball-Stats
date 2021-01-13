@@ -62,13 +62,15 @@ def get_player_name(letter):
 Creates player suffixes for url 
 '''
 def create_player_suffix(name):
-    
+
+    name = name.replace(".","")
+     
     # First name is two letters
     first = name[:2].lower()
 
     # last name
     last = name.split(' ')[1:]
-    
+        
     names = ''.join(last)
     second = ""
 
@@ -90,14 +92,79 @@ def create_player_suffix(name):
 Creates a valid player suffix based on the parameter name and birth date
 '''    
 def get_player_suffix(name, birth_date):
- 
-    # Get the first initial of last name
-    initial = name.split(' ')[1][0].lower()
-    suffix = '/players/' + initial + '/' + create_player_suffix(name) + '01.html'
+    
+    # Flag for middle name
+    middle_flag = False
+
+    # Special Case: for name = Jeff Aryes since he changed his name in 2013
+    if(name == "Jeff Ayres" and birth_date == "April 29, 1987" ):
+        sub_name = "Jeff Pendergraph"
+        
+        # Get the first initial of last name
+        initial = sub_name.split(' ')[1][0].lower()
+        suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
+    
+    # Special Case: for J.J Barea, for some reason the url is bareajo01 instead of bareajj01
+    elif(name == "J.J. Barea"):
+        sub_name = "Jose Barea"
+        
+        # Get the first initial of last name
+        initial = sub_name.split(' ')[1][0].lower()
+        suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
+    
+    # Special Case: for Clint Capela, for some reason the url is capelca01 instead of capelc101
+    elif(name == "Clint Capela"):
+        sub_name = "Caint Capela"
+
+        # Get the first initial of last name
+        initial = sub_name.split(' ')[1][0].lower()
+        suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
+    
+    # Special Case: They just combined the middle name with the last name 
+    elif(name == "Nando De Colo"):
+        sub_name = "Nando DeColo"
+
+        # Get the first initial of last name
+        initial = sub_name.split(' ')[1][0].lower()
+        suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
+
+    elif(name == "Vinny Del Negro"):
+        sub_name = "Vinny DelNegro"
+
+        # Get the first initial of last name
+        initial = sub_name.split(' ')[1][0].lower()
+        suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
+
+    elif(name == "Khalid El-Amin"):
+        sub_name = "Khalid ElAmin"
+
+        # Get the first initial of last name
+        initial = sub_name.split(' ')[1][0].lower()
+        suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
+    
+    else:
+        
+        count = 0
+        for character in name:
+            if(character.isspace()):
+                count += 1
+
+        if count == 2:
+            name_list = name.split(' ')
+            name = name_list[0] + ' ' +name_list[2]
+            middle_flag = True
+        elif count == 1:
+            pass 
+
+
+        # Get the first initial of last name
+        initial = name.split(' ')[1][0].lower()
+        suffix = '/players/' + initial + '/' + create_player_suffix(name) + '01.html'
     
     # Get the url of the player stats
     page = get(f'https://www.basketball-reference.com{suffix}')
     
+    print(suffix)
 
     # Check if the request can go through 
     while page.status_code == 200:
@@ -108,7 +175,7 @@ def get_player_suffix(name, birth_date):
 
         if h1:
             page_name = h1.find('span').text
-
+           
             # Removes starting and ending \n
             date = h2.text.strip('\n')
 
@@ -138,12 +205,55 @@ def get_player_suffix(name, birth_date):
                 # Everything else
                 else:
                     final_date += date[index]
-        
+
+        # Special Case: Marvin Bagley does not have III in his name for some reason 
+        if(name == "Marvin Bagley"):
+            name = "Marvin Bagley III"
+
+        # Special Case: LeMark Baker should be Mark Baker 
+        elif(name == "LaMark Baker"):
+            name = "Mark Baker"
+
+        # Special Case: Mohamed Bamba should be Mo Bamba 
+        elif(name == "Mohamed Bamba"):
+            name = "Mo Bamba"
+ 
+        # Special Case: In the table with all players names, it does not have Jr
+        elif(name == "Troy Brown"):
+            name = "Troy Brown Jr."
+
+        # Special Case: In the table with all players names, it does not have Jr
+        elif(name == "Vernon Carey"):
+            name = "Vernon Carey Jr."
+
+         # Special Case: In the table with all players names, it does not have Jr
+        elif(name == "Wendell Carter"):
+            name = "Wendell Carter Jr."
+
+         # Special Case: Lugigi is converted to Gigi
+        elif(name == "Luigi Datome"):
+            name = "Gigi Datome"
+
+        # Special Case: Larry Drew is missing II
+        elif(name == "Larry Drew" and birth_date == "March 5, 1990"):
+            name = "Larry Drew II"
+
+        # Special Case: For some reason for Kiwane Lemorris Garris instead of Kiwane Garris
+        elif(name == "Kiwane Garris"):
+            name = "Kiwane Lemorris Garris"
+
+        # Special Case: Due to having a middle name we remove it early, we add it back here
+        if(middle_flag):
+            name = ""
+            name = name_list[0] + " " + name_list[1] + " " + name_list[2] 
+
+        print(page_name,":" ,name)
+       
         # This is for accented characters on the website         
         if(unidecode.unidecode(page_name).lower() == name.lower() and birth_date == final_date):
 
             return suffix
-            
+        
         else:
             suffix = suffix[:-6] + str(int(suffix[-6]) + 1 ) + suffix[-5:]
             page = get(f'https://www.basketball-reference.com{suffix}')
@@ -222,3 +332,6 @@ def lookup(name, birth_date):
     record = df_new.values.tolist()
     return record
 
+def main():
+    print(get_player_suffix("Khalid El-Amin", "April 25, 1979"))
+main()
