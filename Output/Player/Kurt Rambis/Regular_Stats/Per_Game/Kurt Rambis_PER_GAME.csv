@@ -1,0 +1,20 @@
+Season,Age,Tm,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980-81,22.0,Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece),Did Not Play (other pro league—Greece)
+1981-82,23.0,LAL,NBA,PF,64,43,17.7,1.8,3.6,.518,0.0,0.0,.000,1.8,3.5,.520,.518,0.9,1.8,.504,1.8,3.6,5.4,0.9,0.9,1.2,1.2,2.6,4.6
+1982-83,24.0,LAL,NBA,PF,78,77,23.2,3.0,5.3,.569,0.0,0.0,.000,3.0,5.3,.572,.569,1.5,2.1,.687,2.1,4.7,6.8,1.2,1.3,0.8,1.9,3.0,7.5
+1983-84,25.0,LAL,NBA,PF,47,31,15.8,1.3,2.4,.558,0.0,0.0,,1.3,2.4,.558,.558,0.9,1.4,.636,1.7,3.9,5.7,0.7,0.6,0.3,1.2,2.3,3.6
+1984-85,26.0,LAL,NBA,PF,82,46,19.7,2.2,4.0,.554,0.0,0.0,,2.2,4.0,.554,.554,0.8,1.3,.660,2.0,4.4,6.4,0.8,1.0,0.6,1.2,2.6,5.2
+1985-86,27.0,LAL,NBA,PF,74,74,21.3,2.2,3.6,.595,0.0,0.0,,2.2,3.6,.595,.595,1.2,1.6,.721,2.1,4.9,7.0,0.9,0.9,0.4,1.3,2.7,5.5
+1986-87,28.0,LAL,NBA,PF,78,10,19.4,2.1,4.0,.521,0.0,0.0,,2.1,4.0,.521,.521,1.5,2.0,.764,2.0,3.8,5.8,0.8,0.9,0.5,1.3,2.6,5.7
+1987-88,29.0,LAL,NBA,PF,70,20,12.1,1.5,2.7,.548,0.0,0.0,,1.5,2.7,.548,.548,1.0,1.3,.785,1.5,2.4,3.8,0.8,0.6,0.2,0.8,1.5,4.0
+1988-89,30.0,CHH,NBA,PF,75,75,29.8,4.3,8.4,.518,0.0,0.0,.000,4.3,8.3,.521,.518,2.4,3.3,.734,3.6,5.8,9.4,2.1,1.3,0.8,2.0,2.8,11.1
+1989-90,31.0,TOT,NBA,PF,74,61,25.7,2.6,5.0,.509,0.0,0.0,.000,2.6,5.0,.514,.509,1.1,1.7,.646,2.1,5.0,7.1,1.8,1.4,0.5,1.4,2.8,6.2
+1989-90,31.0,CHH,NBA,PF,16,16,28.0,3.6,7.3,.500,0.0,0.1,.000,3.6,7.2,.504,.500,1.9,3.4,.545,3.0,4.5,7.5,1.8,2.0,0.6,1.8,2.8,9.1
+1989-90,31.0,PHO,NBA,PF,58,45,25.1,2.3,4.4,.514,0.0,0.0,.000,2.3,4.4,.518,.514,0.9,1.2,.722,1.9,5.1,7.0,1.8,1.2,0.5,1.3,2.8,5.4
+1990-91,32.0,PHO,NBA,PF,62,17,14.5,1.3,2.7,.497,0.0,0.0,.000,1.3,2.7,.503,.497,1.0,1.4,.706,1.2,3.0,4.3,1.0,0.4,0.2,0.7,1.7,3.6
+1991-92,33.0,PHO,NBA,PF,28,5,13.6,1.4,2.9,.463,0.0,0.0,,1.4,2.9,.463,.463,0.5,0.6,.778,0.8,3.0,3.8,1.3,0.4,0.5,0.9,1.6,3.2
+1992-93,34.0,TOT,NBA,PF,72,1,11.4,0.9,1.8,.519,0.0,0.0,.000,0.9,1.8,.528,.519,0.6,0.9,.662,1.1,2.1,3.2,0.7,0.6,0.3,0.6,1.7,2.5
+1992-93,34.0,PHO,NBA,PF,5,0,8.2,0.8,1.4,.571,0.0,0.0,,0.8,1.4,.571,.571,0.2,0.4,.500,0.4,0.8,1.2,0.2,0.6,0.0,1.2,0.6,1.8
+1992-93,34.0,SAC,NBA,PF,67,1,11.7,0.9,1.8,.516,0.0,0.0,.000,0.9,1.8,.525,.516,0.6,0.9,.667,1.1,2.2,3.3,0.8,0.6,0.3,0.5,1.8,2.5
+1993-94,35.0,LAL,NBA,PF,50,1,12.7,1.2,2.3,.518,0.0,0.0,.000,1.2,2.3,.522,.518,0.9,1.4,.648,1.7,2.1,3.8,0.6,0.4,0.5,0.5,1.8,3.3
+1994-95,36.0,LAL,NBA,PF,26,1,7.5,0.7,1.3,.514,0.0,0.0,,0.7,1.3,.514,.514,0.3,0.5,.667,0.4,0.9,1.3,0.6,0.1,0.3,0.3,1.3,1.7

@@ -46,14 +46,25 @@ def players_names_csv():
 '''
 def csv_player_stats(name, birth_date, format, playoff, career):
 
+    if(playoff):
+        playoff_string = "Playoff_Stats"
+
+    else:
+        playoff_string = "Regular_Stats"
+
     directory_child = format.title()
    
-    output_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', name, directory_child)
-    if(not os.path.isdir(output_path)):
+    first_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', name, playoff_string)
+    if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
-        os.mkdir(output_path)
+        os.mkdir(first_path)
     
+    output_path = os.path.join(first_path, directory_child)
+    if(not os.path.isdir(output_path)):
+
+        os.mkdir(output_path)
+
     df = get_player_stats(name, birth_date,format, playoff, career)
     file_name = '//'+ name + '_' + format + '.csv'
 
@@ -70,7 +81,7 @@ def get_player_csv():
     record = df.values.tolist()
 
     # Iterate through the list TODO: run till length there is going to be an error at line 1130 
-    for i in range(1130, len(record)):
+    for i in range(len(record)):
         print(i)
         print(record[i][0])
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
@@ -79,7 +90,7 @@ def get_player_csv():
             # Create the directory with the final_path
             os.mkdir(player_path)
 
-        csv_player_stats(record[i][0], record[i][1], 'PER_GAME', False, False)
+        csv_player_stats(record[i][0], record[i][1], 'Totals', False, False)
 
 
 def main():
