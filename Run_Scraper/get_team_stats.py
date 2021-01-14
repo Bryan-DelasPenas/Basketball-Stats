@@ -470,8 +470,7 @@ def get_team_csv():
     # Iterate through 1980 to 2020
     for year in range(1980, 2021):
         print(year)
-        
-        '''
+    
         # Roster Non-Playoff stats
         csv_roster_stats(year, False, 'PER_GAME')
         csv_roster_stats(year, False, 'PER_POSS')
@@ -486,8 +485,7 @@ def get_team_csv():
         csv_roster_stats(year, True, 'TOTALS')
         csv_roster_stats(year, True, 'PER_MINUTE')
         csv_roster_stats(year, True, 'ADVANCED')
-        '''
-        
+    
         # Roster Stats
         csv_team_roster(year)
 

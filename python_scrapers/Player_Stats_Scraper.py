@@ -22,6 +22,8 @@ from os import chdir
 from glob import glob
 import pandas as pdlib
 
+from Team_Stats_Scraper import remove_char
+
 '''
 Creates a dataframe of player's name active from 1980 - 2020
 '''
@@ -515,6 +517,19 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False, career=
             df = df.iloc[:career_index, :]
 
         df = df.reset_index().drop('index', axis=1)
+    
+        # Lamba function to get the proper end year
+        df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
+        df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
+        df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
+
+        # Turn into a int 
+        df['Season'] = df['Season'].apply(pd.to_numeric)
+        
+        # Drop players that are didn't play at 1980
+        df_new = df[df['Season'] < 1980].index
+        df.drop(df_new, inplace = True)
+
         return df
 
 '''
@@ -536,5 +551,5 @@ def lookup(name, birth_date):
     return record
 
 def main():
-    print(get_player_suffix("Jaren Jackson", "September 15, 1999"))
+    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947"))
 main()

@@ -68,7 +68,7 @@ def csv_player_stats(name, birth_date, format, playoff, career):
     df = get_player_stats(name, birth_date,format, playoff, career)
     file_name = '//'+ name + '_' + format + '.csv'
 
-    df.to_csv(output_path + file_name, index = False)
+    #df.to_csv(output_path + file_name, index = False)
     
     return 0
 
@@ -90,13 +90,19 @@ def get_player_csv():
             # Create the directory with the final_path
             os.mkdir(player_path)
 
-        csv_player_stats(record[i][0], record[i][1], 'Totals', False, False)
 
+        # Regualar Season Stat
+        csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, False)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, False)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, False)
+        csv_player_stats(record[i][0], record[i][1], 'Totals', False, False)
+        csv_player_stats(record[i][0], record[i][1], 'Advanced', False, False)
 
 def main():
     #players_names_csv()
     start_time = time.time()
-    #csv_player_stats("Nikola Jokic", 'February 19, 1995', 'PER_GAME', False, False)
-    get_player_csv()
+    csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
+
+    #get_player_csv()
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
