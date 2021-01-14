@@ -467,9 +467,9 @@ def get_player_suffix(name, birth_date):
     
     
 '''
-
+Returns csv of player stats from every year they played from 1980
 '''
-def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False, career=False): 
+def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False): 
     
     record = lookup(name, birth_date)
 
@@ -509,23 +509,20 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False, career=
         if 'FT.1' in df.columns:
             df.rename(columns={'FT.1': 'FT%'}, inplace=True)
 
-        career_index = df[df['Season']=='Career'].index[0]
-        
-        if career:
-            df = df.iloc[career_index+2:, :]
-        else:
-            df = df.iloc[:career_index, :]
-
         df = df.reset_index().drop('index', axis=1)
     
+        # Drops career stats
+        career_index = df[df['Season']=='Career'].index[0]
+        df = df.iloc[:career_index, :]
+        
         # Lamba function to get the proper end year
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
-
+    
         # Turn into a int 
         df['Season'] = df['Season'].apply(pd.to_numeric)
-        
+            
         # Drop players that are didn't play at 1980
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
@@ -533,7 +530,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False, career=
         return df
 
 '''
-
+Looks up a players name and birth_date from player_names.csv
 '''
 def lookup(name, birth_date):
     
@@ -550,6 +547,11 @@ def lookup(name, birth_date):
     record = df_new.values.tolist()
     return record
 
+'''
+Returns a csv a calulated career stats of a player
+'''
+def career_stats(name, birth_date, playoffs = False):
+    return None
 def main():
-    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947"))
+    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'PER_GAME',False))
 main()
