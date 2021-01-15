@@ -53,8 +53,8 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
         playoff_string = "Regular_Stats"
 
     directory_child = format.title()
-   
-    first_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', player_path, playoff_string)
+
+    first_path = os.path.join(player_path, playoff_string)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -66,12 +66,12 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
         os.mkdir(output_path)
 
     df = get_player_stats(name, birth_date,format, playoff)
-    print(output_path)
-    #if(df is not None):
     
-        #file_name = '//'+ name + '_' + format + '.csv'
+    if(df is not None):
+    
+        file_name = '//'+ name + '_' + format + '.csv'
 
-        #df.to_csv(output_path + file_name, index = False)
+        df.to_csv(output_path + file_name, index = False)
     
     return 0
 
@@ -248,15 +248,13 @@ def get_player_csv():
 
         print(record[i][0])
         
-        '''
         # Regualar Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
-        '''
-
+        
         # Playoffs Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
