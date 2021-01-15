@@ -290,7 +290,7 @@ def get_player_suffix(name, birth_date):
     # Get the url of the player stats
     page = get(f'https://www.basketball-reference.com{suffix}')
     
-    print(suffix)
+    #print(suffix)
 
     # Check if the request can go through 
     while page.status_code == 200:
@@ -392,6 +392,10 @@ def get_player_suffix(name, birth_date):
         elif(name == "Kira Lewis" and birth_date == "April 6, 2001"):
             name = "Kira Lewis Jr."
 
+        # Special Case: Add Jr.
+        elif(name == "Kenyon Martin" and birth_date == "January 6, 2001"):
+            name = "Kenyon Martin Jr."
+
         # Special Case: Add III to end of name 
         elif(name == "Frank Mason" and birth_date == "April 3, 1994"):
             name = "Frank Mason III"
@@ -452,7 +456,7 @@ def get_player_suffix(name, birth_date):
             name = ""
             name = name_list[0] + " " + name_list[1] + " " + name_list[2] 
 
-        print(page_name,":" ,name)
+        #print(page_name,":" ,name)
        
         # This is for accented characters on the website         
         if(unidecode.unidecode(page_name).lower() == name.lower() and birth_date == final_date):
@@ -552,6 +556,7 @@ Returns a csv a calulated career stats of a player
 '''
 def career_stats(name, birth_date, playoffs = False):
     return None
+
 def main():
-    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'PER_GAME',False))
-main()
+    print(get_player_stats("Larry Drew", "March 5, 1990", 'PER_GAME',False))
+#main()
