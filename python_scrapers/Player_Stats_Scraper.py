@@ -503,6 +503,10 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         soup = BeautifulSoup(page.content, 'html.parser')
         table = soup.find('table')
 
+        if(table == None):
+            #print("Error: table not found")
+            return None
+
         df = pd.read_html(str(table))[0]
         df.rename(columns={'Lg': 'League'}, inplace=True)
 

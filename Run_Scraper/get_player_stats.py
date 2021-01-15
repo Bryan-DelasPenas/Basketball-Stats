@@ -44,7 +44,7 @@ def players_names_csv():
 '''
 
 '''
-def csv_player_stats(name, birth_date, format, playoff, first_path):
+def csv_player_stats(name, birth_date, format, playoff, player_path):
     print(format)
     if(playoff):
         playoff_string = "Playoff_Stats"
@@ -54,7 +54,7 @@ def csv_player_stats(name, birth_date, format, playoff, first_path):
 
     directory_child = format.title()
    
-    #first_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', name, playoff_string)
+    first_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', player_path, playoff_string)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -66,9 +66,12 @@ def csv_player_stats(name, birth_date, format, playoff, first_path):
         os.mkdir(output_path)
 
     df = get_player_stats(name, birth_date,format, playoff)
-    file_name = '//'+ name + '_' + format + '.csv'
+    print(output_path)
+    #if(df is not None):
+    
+        #file_name = '//'+ name + '_' + format + '.csv'
 
-    df.to_csv(output_path + file_name, index = False)
+        #df.to_csv(output_path + file_name, index = False)
     
     return 0
 
@@ -84,7 +87,7 @@ def get_player_csv():
     record = df.values.tolist()
 
     # Iterate through the list TODO: run till length there is going to be an error at line 1130 
-    for i in range(784, len(record)):
+    for i in range( len(record)):
         print(i)
         print(record[i][0])
         
@@ -243,14 +246,23 @@ def get_player_csv():
             # Create the directory with the final_path
             os.mkdir(player_path)
 
-        print(player_path)
         print(record[i][0])
+        
+        '''
         # Regualar Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
+        '''
+
+        # Playoffs Season Stat
+        csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
 
 def main():
     #players_names_csv()
