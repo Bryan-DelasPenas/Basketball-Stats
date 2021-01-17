@@ -561,6 +561,3 @@ Returns a csv a calulated career stats of a player
 def career_stats(name, birth_date, playoffs = False):
     return None
 
-def main():
-    print(get_player_stats("Larry Drew", "March 5, 1990", 'PER_GAME',False))
-#main()

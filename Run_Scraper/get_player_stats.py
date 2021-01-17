@@ -42,7 +42,7 @@ def players_names_csv():
             df.to_csv(output_path + file_name, mode='a',header=False, index = False)
 
 '''
-
+Get csvs of player stats
 '''
 def csv_player_stats(name, birth_date, format, playoff, player_path):
     print(format)
@@ -76,7 +76,7 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
     return 0
 
 '''
-
+Calls all functions above and puts into its own csvs
 '''
 def get_player_csv():
     csv_path = path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'Player_Name','player_names.csv')
@@ -262,6 +262,9 @@ def get_player_csv():
         csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
 
+'''
+Main function
+'''
 def main():
     #players_names_csv()
     start_time = time.time()
