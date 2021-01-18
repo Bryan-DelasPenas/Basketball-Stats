@@ -568,13 +568,113 @@ def career_stats(name, birth_date, format, playoffs = False):
 
     # Create the  career_df and set it equal for now
     career_df = df 
-    if(format == 'Totals'):
+    
+    # Dataframe does not exist
+    if(career_df is None):
         return None
+
+    if(format == 'Totals'):
+        
+        # Drop unneeded stats 
+        career_df = career_df.drop(['Season', 'Age', 'Tm', 'League', 'Pos', 'Unnamed: 30'], axis=1)
+
+        # Get the total amount of games of player's career
+        career_df['G'] = df['G'].sum()
+
+        # Get the total GS of player's career
+        career_df['GS'] = df['GS'].sum()
+
+         # Get the average minute played
+        career_df['MP'] = df['MP'].sum()
+
+        # Get the average FG
+        career_df['FG'] = df['FG'].sum()
+
+        # Get the average FGA
+        career_df['FGA'] = df['FGA'].sum()
+
+        # Calc the FG%
+        if(df['FG'].sum == 0 or df['FGA'].sum == 0):
+            career_df['FG%'] = 0
+        else:
+            career_df['FG%'] = (df['FG'].sum() / df['FGA'].sum()) 
+        # Get the average 3P
+        career_df['3P'] = df['3P'].sum()
+
+        # Get the average 3PA
+        career_df['3PA'] = df['3PA'].sum() 
+
+        # Calc the 3P perentage
+        # Check if they actually made a single three or attempted a single three
+        if(df['3P'].sum() == 0 or df['3PA'].sum() == 0):
+            career_df['3P%'] = 0
+        else:
+            career_df['3P%'] = (df['3P'].sum() / df['3PA'].sum()) 
+
+         # Get the average 2P 
+        career_df['2P'] = df['2P'].sum()
+
+        # Get the average 2PA attempt
+        career_df['2PA'] = df['2PA'].sum()
+
+        # Get the 2P%
+        if(career_df['2P'].sum() == 0 or df['2PA'].sum() == 0):
+            career_df['2P%'] = 0
+        else:
+            career_df['2P%'] = (df['2P'].sum() / df['2PA'].sum()) 
+
+        # Get the effective FG%
+        career_df['eFG%'] = ((df['FG'].sum() + (0.5 * df['3P'].sum()) ) / df['FGA'].sum()) 
+        
+        # Get the FT 
+        career_df['FT'] = df['FT'].sum()
+
+        # Get the FTA 
+        career_df['FTA'] = df['FTA'].sum()
+       
+        # Get FT%
+        if(df['FT'].sum() == 0 or df['FTA'].sum() == 0):
+            career_df['FT%'] = 0
+        else:
+            career_df['FT%'] = (df['FT'].sum() / df['FTA'].sum()) 
+
+        # Get ORB
+        career_df['ORB'] = df['ORB'].sum()
+
+        # Get DRB
+        career_df['DRB'] = df['DRB'].sum()
+
+        # Get TRB
+        career_df['TRB'] = df['TRB'].sum()
+
+        # Get Ast
+        career_df['AST'] = df['AST'].sum()
+
+        # Get STL
+        career_df['STL'] = df['STL'].sum()
+
+        # Get BLK 
+        career_df['BLK'] = df['BLK'].sum()
+
+        # Get TOV
+        career_df['TOV'] = df['TOV'].sum()
+
+        # Get PF
+        career_df['PF'] = df['PF'].sum()
+
+        # Get PTS
+        career_df['PTS'] = df['PTS'].sum()
+
+        # Get Trp Dbl
+        career_df['Trp Dbl'] = df['Trp Dbl'].sum()
+
+        # Make it a single index 
+        career_df = career_df.drop_duplicates(subset=['G'])
+        career_df = career_df.round(1)
+    
+        return career_df
 
     elif(format == "Advanced"):
-        return None
-
-    elif(format == "Per_Poss"):
         return None
 
     elif(format == 'Adjusted Shooting' and not playoffs):
@@ -582,7 +682,10 @@ def career_stats(name, birth_date, format, playoffs = False):
     
     # This should be for per game and per minute
     else:
+        
         career_df = career_df.drop(['Season', 'Age', 'Tm', 'League', 'Pos'], axis=1)
+        if(format == 'Per_Poss'):
+            career_df = career_df.drop(['Unnamed: 29'], axis=1)
         
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
@@ -590,8 +693,12 @@ def career_stats(name, birth_date, format, playoffs = False):
         # Get the total GS of player's career
         career_df['GS'] = df['GS'].sum()
 
-        # Get the average minute played
-        career_df['MP'] = df['MP'].mean()
+        if(format == 'Per_Poss'):
+            career_df['MP'] = df['MP'].sum()
+
+        else:
+            # Get the average minute played
+            career_df['MP'] = df['MP'].mean()
 
         # Get the average FG
         career_df['FG'] = df['FG'].mean()
@@ -603,7 +710,7 @@ def career_stats(name, birth_date, format, playoffs = False):
         if(df['FG'].mean() == 0 or df['FGA'].mean() == 0):
             career_df['FG%'] = 0
         else:
-            career_df['FG%'] = (df['FG'].mean() / df['FGA'].mean()) * 100
+            career_df['FG%'] = (df['FG'].mean() / df['FGA'].mean())
         
         # Get the average 3P
         career_df['3P'] = df['3P'].mean()
@@ -616,7 +723,7 @@ def career_stats(name, birth_date, format, playoffs = False):
         if(df['3P'].mean() == 0 or df['3PA'].mean() == 0):
             career_df['3P%'] = 0
         else:
-            career_df['3P%'] = (df['3P'].mean() / df['3PA'].mean()) * 100
+            career_df['3P%'] = (df['3P'].mean() / df['3PA'].mean()) 
 
         # Get the average 2P 
         career_df['2P'] = df['2P'].mean()
@@ -628,11 +735,12 @@ def career_stats(name, birth_date, format, playoffs = False):
         if(career_df['2P'].mean() == 0 or df['2PA'].mean() == 0):
             career_df['2P%'] = 0
         else:
-            career_df['2P%'] = (df['2P'].mean() / df['2PA'].mean()) * 100
+            career_df['2P%'] = (df['2P'].mean() / df['2PA'].mean()) 
 
         # Get the effective FG%
-        career_df['eFG%'] = ((df['FG'].mean() + (0.5 * df['3P'].mean()) ) / df['FGA'].mean()) * 100
-        
+       
+        career_df['eFG%'] = ((df['FG'].mean() + (0.5 * df['3P'].mean()) ) / df['FGA'].mean()) 
+       
         # Get the FT 
         career_df['FT'] = df['FT'].mean()
 
@@ -643,7 +751,7 @@ def career_stats(name, birth_date, format, playoffs = False):
         if(df['FT'].mean() == 0 or df['FTA'].mean() == 0):
             career_df['FT%'] = 0
         else:
-            career_df['FT%'] = (df['FT'].mean() / df['FTA'].mean()) * 100
+            career_df['FT%'] = (df['FT'].mean() / df['FTA'].mean()) 
 
         # Get ORB
         career_df['ORB'] = df['ORB'].mean()
@@ -672,19 +780,24 @@ def career_stats(name, birth_date, format, playoffs = False):
         # Get PTS
         career_df['PTS'] = df['PTS'].mean()
 
+        # Only Per_poss has these stats
+        if(format == 'Per_Poss'):
+            career_df['ORtg'] = df['ORtg'].mean()
+            career_df['DRtg'] = df['DRtg'].mean()
+
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
         career_df = career_df.round(1)
         
         # Per Minute does not eFG% 
-        if(format == 'Per_Minute'):
+        if(format == 'Per_Minute' or format == 'Per_Poss'):
             career_df = career_df.drop(['eFG%'], axis=1)
 
         print(career_df)
-        return None
+        return career_df
 
 def main():
     start_time = time.time()
-    career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'per_minute')
+    career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_poss')
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
