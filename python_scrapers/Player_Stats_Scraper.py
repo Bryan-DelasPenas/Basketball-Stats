@@ -16,6 +16,7 @@ import os
 from utils import translate
 import pathlib
 from pathlib import Path
+import numpy as np
 import time
 
 from os import chdir
@@ -556,8 +557,134 @@ def lookup(name, birth_date):
     return record
 
 '''
-Returns a csv a calulated career stats of a player
+Returns a csv a calulated career stats of a player starting from 1980
 '''
-def career_stats(name, birth_date, playoffs = False):
-    return None
+def career_stats(name, birth_date, format, playoffs = False):
 
+    # Gets the player stats dataframe 
+    df = get_player_stats(name, birth_date, format, playoffs)
+    
+    format = format.title()
+
+    # Create the  career_df and set it equal for now
+    career_df = df 
+    if(format == 'Totals'):
+        return None
+
+    elif(format == "Advanced"):
+        return None
+
+    elif(format == "Per_Poss"):
+        return None
+
+    elif(format == 'Adjusted Shooting' and not playoffs):
+        return None
+    
+    # This should be for per game and per minute
+    else:
+        career_df = career_df.drop(['Season', 'Age', 'Tm', 'League', 'Pos'], axis=1)
+        
+        # Get the total amount of games of player's career
+        career_df['G'] = df['G'].sum()
+
+        # Get the total GS of player's career
+        career_df['GS'] = df['GS'].sum()
+
+        # Get the average minute played
+        career_df['MP'] = df['MP'].mean()
+
+        # Get the average FG
+        career_df['FG'] = df['FG'].mean()
+
+        # Get the average FGA
+        career_df['FGA'] = df['FGA'].mean()
+        
+        # Calc the FG%
+        if(df['FG'].mean() == 0 or df['FGA'].mean() == 0):
+            career_df['FG%'] = 0
+        else:
+            career_df['FG%'] = (df['FG'].mean() / df['FGA'].mean()) * 100
+        
+        # Get the average 3P
+        career_df['3P'] = df['3P'].mean()
+
+        # Get the average 3PA
+        career_df['3PA'] = df['3PA'].mean() 
+
+        # Calc the 3P perentage
+        # Check if they actually made a single three or attempted a single three
+        if(df['3P'].mean() == 0 or df['3PA'].mean() == 0):
+            career_df['3P%'] = 0
+        else:
+            career_df['3P%'] = (df['3P'].mean() / df['3PA'].mean()) * 100
+
+        # Get the average 2P 
+        career_df['2P'] = df['2P'].mean()
+
+        # Get the average 2PA attempt
+        career_df['2PA'] = df['2PA'].mean()
+
+        # Get the 2P%
+        if(career_df['2P'].mean() == 0 or df['2PA'].mean() == 0):
+            career_df['2P%'] = 0
+        else:
+            career_df['2P%'] = (df['2P'].mean() / df['2PA'].mean()) * 100
+
+        # Get the effective FG%
+        career_df['eFG%'] = ((df['FG'].mean() + (0.5 * df['3P'].mean()) ) / df['FGA'].mean()) * 100
+        
+        # Get the FT 
+        career_df['FT'] = df['FT'].mean()
+
+        # Get the FTA 
+        career_df['FTA'] = df['FTA'].mean()
+       
+        # Get FT%
+        if(df['FT'].mean() == 0 or df['FTA'].mean() == 0):
+            career_df['FT%'] = 0
+        else:
+            career_df['FT%'] = (df['FT'].mean() / df['FTA'].mean()) * 100
+
+        # Get ORB
+        career_df['ORB'] = df['ORB'].mean()
+
+        # Get DRB
+        career_df['DRB'] = df['DRB'].mean()
+
+        # Get TRB
+        career_df['TRB'] = df['TRB'].mean()
+
+        # Get Ast
+        career_df['AST'] = df['AST'].mean()
+
+        # Get STL
+        career_df['STL'] = df['STL'].mean()
+
+        # Get BLK 
+        career_df['BLK'] = df['BLK'].mean()
+
+        # Get TOV
+        career_df['TOV'] = df['TOV'].mean()
+
+        # Get PF
+        career_df['PF'] = df['PF'].mean()
+
+        # Get PTS
+        career_df['PTS'] = df['PTS'].mean()
+
+        # Make it a single index 
+        career_df = career_df.drop_duplicates(subset=['G'])
+        career_df = career_df.round(1)
+        
+        # Per Minute does not eFG% 
+        if(format == 'Per_Minute'):
+            career_df = career_df.drop(['eFG%'], axis=1)
+
+        print(career_df)
+        return None
+
+def main():
+    start_time = time.time()
+    career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'per_minute')
+    print("--- %s seconds ---" % (time.time() - start_time))
+main()
