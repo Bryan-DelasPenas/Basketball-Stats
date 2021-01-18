@@ -1,5 +1,5 @@
 ########################################################
-# File: Team_Constants.py 
+# File: Player_Scraper.py 
 # Author: Bryan Delas Penas 
 # Email:  bryan.delaspenas0405@gmail.com
 # Date:   12/20/2020
@@ -13,10 +13,8 @@ import unicodedata, unidecode
 import codecs 
 import re 
 import os
-from utils import translate
 import pathlib
 from pathlib import Path
-import numpy as np
 import time
 
 from os import chdir
@@ -24,7 +22,7 @@ from glob import glob
 import pandas as pdlib
 
 from Team_Stats_Scraper import remove_char
-
+from utils import translate
 '''
 Creates a dataframe of player's name active from 1980 - 2020
 '''
@@ -670,12 +668,82 @@ def career_stats(name, birth_date, format, playoffs = False):
 
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
-        career_df = career_df.round(1)
+        career_df = career_df.round(2)
     
         return career_df
 
     elif(format == "Advanced"):
-        return None
+        # Drop unneeded stats 
+        career_df = career_df.drop(['Season', 'Age', 'Tm', 'League', 'Pos','Unnamed: 19','Unnamed: 24'], axis=1)
+        
+        # Get the total amount of games of player's career
+        career_df['G'] = df['G'].sum()
+
+        # Get the total amount of minutes played for career
+        career_df['MP'] = df['MP'].sum()
+
+        # Get the average PER 
+        career_df['PER'] = df['PER'].mean()
+
+        # Get the average TS% 
+        career_df['TS%'] = df['TS%'].mean()
+
+        # Get the average 3PAr
+        career_df['3PAr'] = df['3PAr'].mean()
+
+        # Get the average ORB%
+        career_df['ORB%'] = df['ORB%'].mean()
+
+        # Get the average DRB%
+        career_df['DRB%'] = df['DRB%'].mean()
+
+        # Get the average TRB%
+        career_df['TRB%'] = df['TRB%'].mean()
+
+        # Get the average AST%
+        career_df['AST%'] = df['AST%'].mean()
+
+        # Get the average STL%
+        career_df['STL%'] = df['STL%'].mean()
+
+        # Get the average BLK%
+        career_df['BLK%'] = df['BLK%'].mean()
+
+        # Get the average TOV% 
+        career_df['TOV%'] = df['TOV%'].mean()
+
+        # Get the average USG%
+        career_df['USG%'] = df['USG%'].mean()
+
+        # Get the average OWS
+        career_df['OWS'] = df['OWS'].sum()
+
+        # Get the average DWS
+        career_df['DWS'] = df['DWS'].sum()
+
+        # Get the average WS
+        career_df['WS'] = df['WS'].sum()
+
+        # Get the average WS/48
+        career_df['WS/48'] = df['WS/48'].mean()
+
+        # Get the average OBPM
+        career_df['OBPM'] = df['OBPM'].mean()
+
+        # Get the average DBPM
+        career_df['DBPM'] = df['DBPM'].mean()
+
+        # Get the average BPM 
+        career_df['BPM'] = df['BPM'].mean()
+
+        # Get the average VORP
+        career_df['VORP'] = df['VORP'].mean()
+
+        # Make it a single index 
+        career_df = career_df.drop_duplicates(subset=['G'])
+        career_df = career_df.round(2)
+        
+        return career_df
 
     elif(format == 'Adjusted Shooting' and not playoffs):
         return None
@@ -787,17 +855,16 @@ def career_stats(name, birth_date, format, playoffs = False):
 
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
-        career_df = career_df.round(1)
+        career_df = career_df.round(2)
         
         # Per Minute does not eFG% 
         if(format == 'Per_Minute' or format == 'Per_Poss'):
             career_df = career_df.drop(['eFG%'], axis=1)
 
-        print(career_df)
         return career_df
 
 def main():
     start_time = time.time()
-    career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_poss')
+    career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Advanced')
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
