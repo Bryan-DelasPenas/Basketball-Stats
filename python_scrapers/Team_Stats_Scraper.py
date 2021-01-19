@@ -79,7 +79,7 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
     
     # Lower case data_format for the url
     select = data_format.lower()
-    
+    data_format = data_format.lower()
     # This is a stat only that name doesn't match it in the url 
     if select == 'adjusted':
         select = 'adj-shooting'
@@ -107,25 +107,28 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
         else:
             # Insert this data into a pandas dataframe
             df = pd.read_html(str(table))[0]
-        
+            
             # This is due to Adjusted table being a muti-index for the columns
-            if(data_format == 'ADJUSTED'):
-                df.columns = ['Rk', 'PLAYER','AGE','G','MP', ' ','FG','2P','3P','eFG','FT','TS','FTr','3PAr',' ','FG+','2P+','3P+','eFG+','FT+','TS+','FTr+','3PAr+',' ','FG Add','TS Add']
+            if(data_format == 'adjusted'):
+                df.columns = ['Rk', 'Player','Age','G','MP', ' ','FG','2P','3P','eFG','FT','TS','FTr','3PAr',' ','FG+','2P+','3P+','eFG+','FT+','TS+','FTr+','3PAr+',' ','FG Add','TS Add']
                 
                 # Drop rows where values are all missing
                 df = df.dropna(how='all')
-
+                
                 # Drop columns where all values are missing 
                 df = df.dropna(axis='columns',how='all')
             else:
                 # Changes the second column to players 
-                df.columns.values[1] = "PLAYER"
+                df.columns.values[1] = "Player"
             
-            df['PLAYER'] = df['PLAYER'].apply(lambda name: translate(name))
+            # Remove accents
+            df['Player'] = df['Player'].apply(lambda x: translate(x))
             df.rename(columns = {'Age': 'AGE'})
             
+            # Drop team averages and league averages
+            df = df[:-2]
 
-            if(data_format == 'ADVANCED'):
+            if(data_format == 'advanced'):
                 # Drop rows where values are all missing
                 df = df.dropna(how='all')
 
@@ -151,7 +154,7 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             # Create a new column for Team ID
             df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
-             # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+            # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
             df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
             df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
             df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
@@ -422,3 +425,7 @@ def remove_char(string, postion):
     # Returning string after removing 
     # nth indexed character. 
     return a + b 
+
+def main():
+    print(get_roster_stats('BOS',2019, False, 'Adjusted'))
+#main()

@@ -494,6 +494,8 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
     if playoffs:
         selector = 'playoffs_' + selector
 
+    if format == 'Adjusted Shooting':
+        selector = 'adj_shooting'
     # Get the url of the table
     page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url={suffix}&div=div_{selector}')
     
@@ -502,11 +504,22 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         soup = BeautifulSoup(page.content, 'html.parser')
         table = soup.find('table')
 
+        # Check if the table exists
         if(table == None):
-            #print("Error: table not found")
             return None
-
+        
         df = pd.read_html(str(table))[0]
+        
+        if selector == 'adj_shooting':
+            df.columns = ['Season', 'Age', 'Team', 'Lg', 'Pos', 'G', 'MP', '', 'Player FG', 'Player 2P', 'Player 3P', 'Player eFG', 'Player FT','Player TS', 'Player FTr', 'Player 3PAr', 
+                          '', 'League FG', 'League 2P', 'League 3P', 'League eFG', 'League FT', 'League TS', 'League FTr', 'League 3PAr', '', 'FG+','2P+', '3P+','eFG+','FT+','TS+','FTr+',
+                          '3PAr+','','FG Add','TS Add']
+
+            df = df.drop([''],axis=1)
+            # Change Nan 3p+ to 0 
+            df['3P+'] = df['3P+'].fillna(0)
+
+
         df.rename(columns={'Lg': 'League'}, inplace=True)
 
         if 'FG.1' in df.columns:
@@ -534,6 +547,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
 
+        df = df.round(2)
         return df
 
 '''
@@ -745,7 +759,99 @@ def career_stats(name, birth_date, format, playoffs = False):
         
         return career_df
 
-    elif(format == 'Adjusted Shooting' and not playoffs):
+    elif(format == 'Adjusted Shooting'):
+       
+        career_df = career_df.drop(['Season', 'Age', 'Team', 'League', 'Pos'], axis=1)
+        
+        # Get the total amount of games of player's career
+        career_df['G'] = df['G'].sum()
+
+        # Get the total amount of minute played
+        career_df['MP'] = df['MP'].sum()
+
+        # Get the average player Fg
+        career_df['Player FG'] = df['Player FG'].mean() 
+
+        # Get the average player 2P
+        career_df['Player 2P'] = df['Player 2P'].mean() 
+
+        # Get the average player 3P
+        career_df['Player 3P'] = df['Player 3P'].mean()
+
+        # Get the average player eFg
+        career_df['Player eFG'] = df['Player eFG'].mean()
+
+        # Get the average player free throw
+        career_df['Player FT'] = df['Player FT'].mean()
+
+        # Get the average player true shooting
+        career_df['Player TS'] = df['Player TS'].mean()
+
+        # Get the average player FTr
+        career_df['Player FTr'] = df['Player FTr'].mean()
+
+        # Get the average player 3PAr
+        career_df['Player 3PAr'] = df['Player 3PAr'].mean()
+
+        # Get the average league Fg
+        career_df['League FG'] = df['League FG'].mean() 
+
+        # Get the average league 2P
+        career_df['League 2P'] = df['League 2P'].mean() 
+
+        # Get the average league 3P
+        career_df['League 3P'] = df['League 3P'].mean()
+
+        # Get the average league eFg
+        career_df['League eFG'] = df['League eFG'].mean()
+
+        # Get the average league free throw
+        career_df['League FT'] = df['League FT'].mean()
+
+        # Get the average league true shooting
+        career_df['League TS'] = df['League TS'].mean()
+
+        # Get the average league FTr
+        career_df['League FTr'] = df['League FTr'].mean()
+
+        # Get the average league 3PAr
+        career_df['League 3PAr'] = df['League 3PAr'].mean()
+
+        # Get the average league adjusted FG+
+        career_df['FG+'] = df['FG+'].mean()
+
+        # Get the average league adjusted 2P+
+        career_df['2P+'] = df['2P+'].mean()
+
+        # Get the average league adjusted 3P+
+        career_df['3P+'] = df['3P+'].mean()
+
+        # Get the average league adjusted eFG+
+        career_df['eFG+'] = df['eFG+'].mean()
+
+        # Get the average league adjusted FT+
+        career_df['FT+'] = df['FT+'].mean()
+
+        # Get the average league adjusted TS+
+        career_df['TS+'] = df['TS+'].mean()
+
+        # Get the average league adjusted FTr+
+        career_df['FTr+'] = df['FTr+'].mean()
+
+        # Get the average league adjusted 3PAr+
+        career_df['3PAr+'] = df['3PAr+'].mean()
+
+        # Get the average league adjusted FG Add
+        career_df['FG Add'] = df['FG Add'].sum()
+
+        # Get the average league adjusted TS Add
+        career_df['TS Add'] = df['TS Add'].sum()
+
+        # Make it a single index 
+        career_df = career_df.drop_duplicates(subset=['G'])
+        career_df = career_df.round(2)
+        print(career_df)
+
         return None
     
     # This should be for per game and per minute
@@ -865,6 +971,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
 def main():
     start_time = time.time()
-    career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Advanced')
+    #print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_game'))
+    print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
