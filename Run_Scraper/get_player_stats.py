@@ -86,7 +86,7 @@ def get_player_csv():
     
     record = df.values.tolist()
 
-    # Iterate through the list TODO: run till length there is going to be an error at line 1130 
+    # Iterate through the list 
     for i in range( len(record)):
         print(i)
         print(record[i][0])
@@ -254,13 +254,15 @@ def get_player_csv():
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
-        
+        csv_player_stats(record[i][0], record[i][1], 'Adjusted Shooting', False, player_path)
+
         # Playoffs Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
+
 
 '''
 Main function
@@ -269,7 +271,7 @@ def main():
     #players_names_csv()
     start_time = time.time()
     #csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
-
-    get_player_csv()
+    print(get_player_id())
+    #get_player_csv()
     print("--- %s seconds ---" % (time.time() - start_time))
 main()

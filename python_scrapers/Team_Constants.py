@@ -6,6 +6,10 @@
 # 
 # This file will contain all teams and former teams from 1979, when the 3 pointer was introduced inside of a dictionary
 
+import pandas as pd
+import os
+import pathlib
+from pathlib import Path
 TEAM_TO_ABBRIVATION = {
     'ATLANTA HAWKS':                     'ALT', # Currently the Atlanta Hawks from 1968 to 2020
     'BOSTON CELTICS':                    'BOS', # Currently the Boston Celtics from 1946 to 2020
@@ -152,3 +156,55 @@ TEAM_DICT = {
     'NOK': 'NOH'
 
 }
+
+RIGHT_NAME_DICT = {
+
+    ("Troy Brown", "July 28, 1999")        : "Troy Brown Jr.",
+    ("Vernon Carey", "February 25, 2001")  : "Vernon Carey Jr.",       
+    ("Wendell Carter","April 16, 1999")    : "Wendell Carter Jr.", 
+    ("Larry Drew","March 5, 1990")         : "Larry Drew II",
+    ("Tim Hardaway","March 16, 1992")      : "Tim Hardaway Jr.",
+    ("Jaren Jackson","September 15, 1999") : "Jaren Jackson Jr.",
+    ("Derrick Jones","February 15, 1997")  : "Derrick Jones Jr.",
+    ("Walt Lemon","July 26, 1992")         : "Walt Lemon Jr.",
+    ("Kira Lewis","April 6, 2001")         : "Kira Lewis Jr.",
+    ("Kenyon Martin","January 6, 2001")    : "Kenyon Martin Jr.",
+    ("Frank Mason","April 3, 1994")        : "Frank Mason III",
+    ("Larry Nance","January 1, 1993")      : "Larry Nance Jr.",
+    ("Kelly Oubre","December 9, 1995")     : "Kelly Oubre Jr.",
+    ("Gary Payton","December 1, 1992")     : "Gary Payton II",
+    ("Kevin Porter","May 4, 2000")         : "Kevin Porter Jr.",
+    ("Michael Porter","June 29, 1998")     : "Michael Porter Jr.",
+    ("Glen Rice","January 1, 1991")        : "Glen Rice Jr.",
+    ("Glenn Robinson","January 8, 1994")   : "Glen Robinson III",
+    ("Dennis Smith","November 25, 1997")   : "Dennis Smith Jr.",
+    ("Xavier Tillman","January 12, 1999")  : "Xavier Tillman Sr.",
+    ("Gary Trent","January 18, 1999")      : "Gary Trent Jr.",
+    ("James Webb", "August 19, 1993")      : "James Webb III"
+}
+
+'''
+Creates a dictionary with player name as key and value as a int
+'''
+def get_player_id():
+
+    # Create a new dictionary with the following as key value pair
+    # player name : id_num 
+    player_id = {}
+
+    csv_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'Player_Name','player_names.csv')
+    
+    # Convert csv to dataframe
+    df = pd.read_csv(csv_path)
+    
+    record = df.values.tolist()
+
+    # Iterate through the list 
+    for i in range( len(record)):
+        player_id[record[i][0]] = i
+    
+    return player_id
+
+
+# Global Decloration of Player_id
+PLAYER_ID = get_player_id()

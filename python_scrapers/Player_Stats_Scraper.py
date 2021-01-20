@@ -974,4 +974,4 @@ def main():
     #print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_game'))
     print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
-main()
+#main()

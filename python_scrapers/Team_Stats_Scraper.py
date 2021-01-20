@@ -13,11 +13,12 @@
 # TODO: Work on scraping 
 
 import pandas as pd
+import numpy as np
 import sys
 from bs4 import BeautifulSoup
 from requests import get
 
-from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM
+from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM, RIGHT_NAME_DICT
 from utils import strip_accents, translate
 
 '''
@@ -29,7 +30,7 @@ def get_roster(team, season):
 
     # Init the dataframe  
     df = None 
-
+  
     # Check the status code, if the code is 200, it means the request went through
     if page.status_code == 200: 
         soup = BeautifulSoup(page.content, 'html.parser')
@@ -64,7 +65,7 @@ def get_roster(team, season):
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
         # Converts birth date to datetime 
-        df['Birth Date'] = df['Birth Date'].apply(lambda x: pd.to_datetime(x))
+    
         df['Nationality'] = df['Nationality'].str.upper()
         
         return df
@@ -93,6 +94,7 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
     
     # Init the dataframe 
     df = None 
+    df_roster = get_roster(team, season)
 
     # Check the status code, if the code is 200, it means the request went through
     if page.status_code == 200: 
@@ -125,8 +127,10 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             df['Player'] = df['Player'].apply(lambda x: translate(x))
             df.rename(columns = {'Age': 'AGE'})
             
-            # Drop team averages and league averages
-            df = df[:-2]
+            if(data_format == "adjusted shooting"):
+            
+                # Drop team averages and league averages
+                df = df[:-2]
 
             if(data_format == 'advanced'):
                 # Drop rows where values are all missing
@@ -162,7 +166,29 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             # Rounds every entry to two decimal places
             df = df.round(2)
             
-            return df
+            # Drop unneed compares for roster df
+            df_roster = df_roster.drop(['Season', 'Team ID', 'Team', 'Team ABV', 'Number', 'Pos', 'Height', 'Weight', 'Nationality', 'Experience', 'College'], axis=1)
+            #print(df_roster)
+            
+            # Merge the two dfs 
+            df_merge = pd.merge(df, df_roster, how='inner', on=['Player'])
+            
+            players = df_merge.values.tolist()
+            
+            # Iterate through Players 
+            for x in range(len(players)):
+                string_tuple = (str(players[x][4]), str(players[x][31]))
+
+                # Check if it is a speical name
+                if(string_tuple in RIGHT_NAME_DICT):
+                    players[x][4] = RIGHT_NAME_DICT[string_tuple]
+                    
+            final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+                                                       '3P', '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 
+                                                       'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS/G', 'Birth Date'])
+            # Drop Birth Date
+            final_df = final_df.drop(['Birth Date'],axis=1)
+            return final_df
 
     else: 
         print('Error 404: Page could not be found')
@@ -226,8 +252,7 @@ def get_team_stats(season, data_format ='PER_GAME'):
         # Drop rk(Rank) and Team 
         df = df.drop(['Rk'], axis=1)
 
-        # Searches for the team you want
-        #final_df = df[df['TEAM']== team]
+       
         
         # Rounds every entry to two decimal places
         df = df.round(2)
@@ -273,25 +298,24 @@ def get_opp_stats(season, data_format ='PER_GAME'):
         
         # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+        df['Team ABV'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
 
+        # Change back team to title format 
+        df['Team'] = df['Team'].apply(lambda x: x.title())
+        
         # Create a new column for Team ID
-        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+        df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
         # Create a new column called season
-        df['SEASON'] = season
+        df['Season'] = season
 
         # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
-        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+        df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+        df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+        df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
         
         # Drop rank and team from the dataframe
-        df = df.drop(['Rk', 'Team'], axis=1)
-        
-        # Change columns name to add OPP 
-        df.columns = list(map(lambda x: 'OPP_'+x, list(df.columns)))
-        df.rename(columns={'OPP_TEAM': 'TEAM'}, inplace=True)
+        df = df.drop(['Rk'], axis=1)
         
         # Rounds every entry to two decimal places
         df = df.round(2)
@@ -427,5 +451,6 @@ def remove_char(string, postion):
     return a + b 
 
 def main():
-    print(get_roster_stats('BOS',2019, False, 'Adjusted'))
+    print(get_roster_stats("PHO",2020))
+    #print(get_roster("DAL", 2020))
 #main()
