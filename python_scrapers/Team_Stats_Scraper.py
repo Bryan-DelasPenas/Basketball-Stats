@@ -18,7 +18,7 @@ import sys
 from bs4 import BeautifulSoup
 from requests import get
 
-from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM, RIGHT_NAME_DICT
+from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM, RIGHT_NAME_DICT, PLAYER_ID 
 from utils import strip_accents, translate
 
 '''
@@ -58,9 +58,12 @@ def get_roster(team, season):
         # Removes accents 
         df['Player'] = df['Player'].apply(lambda name: strip_accents(name))
 
-        # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
+        df['Player ID'] = df['Player'].apply(lambda x: PLAYER_ID[x])
+
+        # Rearranges the elements
         df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
         df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+        df = df[ ['Player ID'] + [ col for col in df.columns if col != 'Player ID' ] ]
         df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
@@ -142,7 +145,6 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             elif(data_format == 'per_poss'):
                 df = df.drop(['Unnamed: 27'],axis=1)
                
-
             else: 
                 pass
             
@@ -167,9 +169,9 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
             df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
             df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
+            
             # Rounds every entry to two decimal places
             df = df.round(2)
-            
             
             # Drop unneed compares for roster df
             df_roster = df_roster.drop(['Season', 'Team ID', 'Team', 'Team ABV', 'Number', 'Pos', 'Height', 'Weight', 'Nationality', 'Experience', 'College'], axis=1)
@@ -251,8 +253,27 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
                     # Drop Birth Date
                     final_df = final_df.drop(['Birth Date'],axis=1)
                 
+                final_df['Player ID'] = final_df['Player'].apply(lambda x: PLAYER_ID[x])
+                
+                # Rearrange the elements 
+                final_df = final_df[ ['Team'] + [ col for col in final_df.columns if col != 'Team' ] ]
+                final_df = final_df[ ['Team ABV'] + [ col for col in final_df.columns if col != 'Team ABV' ] ]
+                final_df = final_df[ ['Player ID'] + [ col for col in final_df.columns if col != 'Player ID' ] ]
+                final_df = final_df[ ['Team ID'] + [ col for col in final_df.columns if col != 'Team ID' ] ]
+                final_df = final_df[ ['Season'] + [ col for col in final_df.columns if col != 'Season' ] ]
+                
                 return final_df
             else:
+                
+                df['Player ID'] = df['Player'].apply(lambda x: PLAYER_ID[x])
+
+                # Rearranges the elements
+                df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
+                df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+                df = df[ ['Player ID'] + [ col for col in df.columns if col != 'Player ID' ] ]
+                df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+                df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
+
                 return df
     else: 
         print('Error 404: Page could not be found')
@@ -324,7 +345,7 @@ def get_team_stats(season, data_format ='PER_GAME'):
         return df
  
 '''
-Creates a dataframe that contains the stats of teams' oppoenets 
+Creates a dataframe that contains the stats of teams' oppenets 
 '''
 def get_opp_stats(season, data_format ='PER_GAME'):
 
@@ -515,6 +536,7 @@ def remove_char(string, postion):
     return a + b 
 
 def main():
-    print(get_roster_stats("DAL",2020, False, 'adjusted'))
-    #print(get_roster("DAL", 2020))
+    #print(get_roster_stats("DAL",2020, False, 'adjusted'))
+    #print(PLAYER_ID)
+    print(get_roster("DAL", 2020))
 main()

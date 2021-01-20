@@ -201,6 +201,11 @@ def get_player_id():
 
     # Iterate through the list 
     for i in range( len(record)):
+    
+        name_tuple = (record[i][0], record[i][1])
+
+        if(name_tuple in RIGHT_NAME_DICT):
+            record[i][0] = RIGHT_NAME_DICT[name_tuple]
         player_id[record[i][0]] = i
     
     return player_id
