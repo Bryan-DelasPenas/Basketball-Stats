@@ -548,7 +548,12 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
 
-        df = df.rename(columns={'Tm': 'Team ABV'})
+        if(selector == 'adj_shooting'):
+            df = df.rename(columns={'Team': 'Team ABV'})
+            
+        
+        else:
+            df = df.rename(columns={'Tm': 'Team ABV'})
         df['Team'] = df['Team ABV'].apply(lambda x:ABV_TO_TEAM[x].title())
 
         # Create a new column for Team ID
@@ -711,7 +716,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
     elif(format == "Advanced"):
         # Drop unneeded stats 
-        career_df = career_df.drop(['Season', 'Age', 'Tm', 'League', 'Pos','Unnamed: 19','Unnamed: 24'], axis=1)
+        career_df = career_df.drop(['Season', 'Age', 'Team ABV', 'Team ID','Team', 'League', 'Pos','Unnamed: 19','Unnamed: 24'], axis=1)
         
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
@@ -784,7 +789,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
     elif(format == 'Adjusted Shooting'):
        
-        career_df = career_df.drop(['Season', 'Age', 'Team', 'League', 'Pos'], axis=1)
+        career_df = career_df.drop(['Season', 'Age', 'Team', 'Team ABV', 'Team ID', 'League', 'Pos'], axis=1)
         
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
@@ -880,7 +885,7 @@ def career_stats(name, birth_date, format, playoffs = False):
     # This should be for per game and per minute
     else:
         
-        career_df = career_df.drop(['Season', 'Age', 'Tm', 'League', 'Pos'], axis=1)
+        career_df = career_df.drop(['Season', 'Age', 'Team', 'Team ABV', 'Team ID', 'League', 'Pos'], axis=1)
         if(format == 'Per_Poss'):
             career_df = career_df.drop(['Unnamed: 29'], axis=1)
         
@@ -994,7 +999,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
 def main():
     start_time = time.time()
-    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_game'))
+    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     #print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
