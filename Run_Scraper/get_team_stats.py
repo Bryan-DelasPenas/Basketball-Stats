@@ -306,6 +306,7 @@ def csv_team_stats_other(year, format):
     
     final_path = os.path.join(second_path, str(year))
     format = format.title()
+    
     # Iterate through the len of the team column 
     for team in range(0, len(df['TEAM'])):
         

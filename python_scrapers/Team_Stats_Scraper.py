@@ -113,7 +113,7 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             # This is due to Adjusted table being a muti-index for the columns
             if(data_format == 'adjusted'):
                 df.columns = ['Rk', 'Player','Age','G','MP', ' ','FG','2P','3P','eFG','FT','TS','FTr','3PAr',' ','FG+','2P+','3P+','eFG+','FT+','TS+','FTr+','3PAr+',' ','FG Add','TS Add']
-                
+               
                 # Drop rows where values are all missing
                 df = df.dropna(how='all')
                 
@@ -126,18 +126,22 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             # Remove accents
             df['Player'] = df['Player'].apply(lambda x: translate(x))
             df.rename(columns = {'Age': 'AGE'})
-            
-            if(data_format == "adjusted shooting"):
+            #print(df['Player'])
+            if(data_format == "adjusted"):
             
                 # Drop team averages and league averages
                 df = df[:-2]
 
-            if(data_format == 'advanced'):
+            elif(data_format == 'advanced'):
                 # Drop rows where values are all missing
                 df = df.dropna(how='all')
 
                 # Drop columns where all values are missing 
                 df = df.drop(['Unnamed: 17', 'Unnamed: 22'], axis=1)
+
+            elif(data_format == 'per_poss'):
+                df = df.drop(['Unnamed: 27'],axis=1)
+               
 
             else: 
                 pass
@@ -166,30 +170,90 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             # Rounds every entry to two decimal places
             df = df.round(2)
             
+            
             # Drop unneed compares for roster df
             df_roster = df_roster.drop(['Season', 'Team ID', 'Team', 'Team ABV', 'Number', 'Pos', 'Height', 'Weight', 'Nationality', 'Experience', 'College'], axis=1)
             #print(df_roster)
             
-            # Merge the two dfs 
-            df_merge = pd.merge(df, df_roster, how='inner', on=['Player'])
+            if(data_format != 'adjusted'):
+                # Merge the two dfs 
+                df_merge = pd.merge(df, df_roster, how='inner', on=['Player'])
+                
+                players = df_merge.values.tolist()
             
-            players = df_merge.values.tolist()
-            
-            # Iterate through Players 
-            for x in range(len(players)):
-                string_tuple = (str(players[x][4]), str(players[x][31]))
+                # Iterate through Players 
+                for x in range(len(players)):
+                
+                    print(players[x][4])
 
-                # Check if it is a speical name
-                if(string_tuple in RIGHT_NAME_DICT):
-                    players[x][4] = RIGHT_NAME_DICT[string_tuple]
+                    # Per game and totals
+                    if(data_format == 'per_game' or data_format == 'totals'):
+                        string_tuple = (str(players[x][4]), str(players[x][31]))
+
+                        # Check if it is a speical name
+                        if(string_tuple in RIGHT_NAME_DICT):
+                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
                     
-            final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
-                                                       '3P', '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 
-                                                       'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS/G', 'Birth Date'])
-            # Drop Birth Date
-            final_df = final_df.drop(['Birth Date'],axis=1)
-            return final_df
+                    elif(data_format == 'per_minute'):
+                        string_tuple = (str(players[x][4]), str(players[x][30]))
 
+                        # Check if it is a speical name
+                        if(string_tuple in RIGHT_NAME_DICT):
+                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
+
+                    elif(data_format == 'per_poss'):
+                        string_tuple = (str(players[x][4]), str(players[x][32]))
+                        
+                        # Check if it is a speical name
+                        if(string_tuple in RIGHT_NAME_DICT):
+                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
+
+                    elif(data_format == 'advanced'):
+                        string_tuple = (str(players[x][4]), str(players[x][28]))
+
+                        # Check if it is a speical name
+                        if(string_tuple in RIGHT_NAME_DICT):
+                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
+                
+                if(data_format == 'per_game'):
+                    final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+                                                            '3P', '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 
+                                                            'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS/G', 'Birth Date'])
+                    # Drop Birth Date
+                    final_df = final_df.drop(['Birth Date'],axis=1)
+
+                elif(data_format == 'totals'):
+                    final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+                                                            '3P', '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 
+                                                            'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Birth Date'])
+                    # Drop Birth Date
+                    final_df = final_df.drop(['Birth Date'],axis=1)
+
+                # Per minute does not eFG%    
+                elif(data_format == 'per_minute'):
+                    final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+                                                            '3P', '3PA', '3P%', '2P', '2PA', '2P%','FT', 'FTA', 'FT%', 'ORB', 
+                                                            'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Birth Date'])
+                    # Drop Birth Date
+                    final_df = final_df.drop(['Birth Date'],axis=1)
+                
+                elif(data_format == 'per_poss'):
+                    final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+                                                            '3P', '3PA', '3P%', '2P', '2PA', '2P%','FT', 'FTA', 'FT%', 'ORB', 
+                                                            'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Ortg', 'Drtg','Birth Date'])
+                    # Drop Birth Date
+                    final_df = final_df.drop(['Birth Date'],axis=1)
+
+                elif(data_format == 'advanced'):
+                    final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'MP', 'PER', 'TS%', '3PAr', 'FTr',  
+                                                            'ORB%', 'DRB%', 'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 
+                                                            'DBPM', 'BPM', 'VORP', 'Birth Date'])
+                    # Drop Birth Date
+                    final_df = final_df.drop(['Birth Date'],axis=1)
+                
+                return final_df
+            else:
+                return df
     else: 
         print('Error 404: Page could not be found')
 
@@ -451,6 +515,6 @@ def remove_char(string, postion):
     return a + b 
 
 def main():
-    print(get_roster_stats("PHO",2020))
+    print(get_roster_stats("DAL",2020, False, 'adjusted'))
     #print(get_roster("DAL", 2020))
-#main()
+main()
