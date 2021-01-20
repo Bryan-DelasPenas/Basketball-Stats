@@ -22,6 +22,7 @@ from glob import glob
 import pandas as pdlib
 
 from Team_Stats_Scraper import remove_char
+from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID
 from utils import translate
 '''
 Creates a dataframe of player's name active from 1980 - 2020
@@ -547,6 +548,28 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
 
+        df = df.rename(columns={'Tm': 'Team ABV'})
+        df['Team'] = df['Team ABV'].apply(lambda x:ABV_TO_TEAM[x].title())
+
+        # Create a new column for Team ID
+        df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
+
+        name_tuple = (record[0][0], record[0][1])
+        
+        if(name_tuple in RIGHT_NAME_DICT):
+            record[0][0] = RIGHT_NAME_DICT[name_tuple]
+
+
+        df['Player ID'] = PLAYER_ID[record[0][0]] 
+
+
+        # Rearranges the elements
+        df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
+        df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+        df = df[ ['Player ID'] + [ col for col in df.columns if col != 'Player ID' ] ]
+        df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+        df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
+
         df = df.round(2)
         return df
 
@@ -971,7 +994,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
 def main():
     start_time = time.time()
-    #print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_game'))
-    print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
+    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_game'))
+    #print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
-#main()
+main()

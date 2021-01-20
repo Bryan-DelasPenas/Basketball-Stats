@@ -10,8 +10,9 @@ import pandas as pd
 import os
 import pathlib
 from pathlib import Path
+
 TEAM_TO_ABBRIVATION = {
-    'ATLANTA HAWKS':                     'ALT', # Currently the Atlanta Hawks from 1968 to 2020
+    'ATLANTA HAWKS':                     'ATL', # Currently the Atlanta Hawks from 1968 to 2020
     'BOSTON CELTICS':                    'BOS', # Currently the Boston Celtics from 1946 to 2020
     'BROOKLYN NETS':                     'BRK', # Currently the Brooklyn Nets from 2012 to 2020 
     'NEW JERSEY NETS':                   'NJN', # Former the Brooklyn Nets from 1977 to 2011 
@@ -56,7 +57,7 @@ TEAM_TO_ABBRIVATION = {
 
 # Does the opposite of TEAM_TO_ABV, takes in an ABV and turns into a team name
 ABV_TO_TEAM = {
-    'ALT': 'ATLANTA HAWKS', 
+    'ATL': 'ATLANTA HAWKS', 
     'BOS': 'BOSTON CELTICS',
     'BRK': 'BROOKLYN NETS',  
     'NJN': 'NEW JERSEY NETS', 
@@ -96,12 +97,12 @@ ABV_TO_TEAM = {
     'NOJ': 'NEW ORLEANS JAZZ',
     'WAS': 'WASHINGTON WIZARDS', 
     'WAB': 'WASHINGTON BULLETS',
-
+    'TOT': 'TOTAL AFTER TRADE'
 }
 
 # This is for teams id for later use in the database
 TEAM_ID = {
-    'ALT': 1, 
+    'ATL': 1, 
     'BOS': 2,
     'BRK': 3,  
     'NJN': 3, 
@@ -141,6 +142,7 @@ TEAM_ID = {
     'NOJ': 29,
     'WAS': 30, 
     'WAB': 30,
+    'TOT': 31,
 }
 
 # This dict is used for getting team_advanced stats as they use the most updated team name except
@@ -206,7 +208,7 @@ def get_player_id():
 
         if(name_tuple in RIGHT_NAME_DICT):
             record[i][0] = RIGHT_NAME_DICT[name_tuple]
-        player_id[record[i][0]] = i
+        player_id[record[i][0]] = i + 1
     
     return player_id
 

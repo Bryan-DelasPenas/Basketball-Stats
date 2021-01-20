@@ -535,8 +535,9 @@ def remove_char(string, postion):
     # nth indexed character. 
     return a + b 
 
+
 def main():
     #print(get_roster_stats("DAL",2020, False, 'adjusted'))
     #print(PLAYER_ID)
     print(get_roster("DAL", 2020))
-main()
+#main()
