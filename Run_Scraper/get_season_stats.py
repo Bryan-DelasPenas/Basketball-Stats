@@ -27,7 +27,12 @@ def csv_team_name(year):
     
     # Get the first file path
     first_path = first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_parent)
-   
+    if(not os.path.isdir(first_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(first_path)
+    else:
+        pass
     # Call the scraper
     df = get_team_name(year)
     
@@ -130,7 +135,6 @@ def get_season_csv():
     directory_parent = "Season"
     create_output_directory(directory_parent)
     
-    #year = 1980
     # Iterate through the 1980 and 2020 season
     for year in range(1980, 2021):
         print(year)
