@@ -58,12 +58,10 @@ def get_roster(team, season):
         # Removes accents 
         df['Player'] = df['Player'].apply(lambda name: strip_accents(name))
 
-        df['Player ID'] = df['Player'].apply(lambda x: PLAYER_ID[x])
-
+        
         # Rearranges the elements
         df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
         df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
-        df = df[ ['Player ID'] + [ col for col in df.columns if col != 'Player ID' ] ]
         df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
@@ -71,7 +69,31 @@ def get_roster(team, season):
     
         df['Nationality'] = df['Nationality'].str.upper()
         
-        return df
+        players = df.values.tolist()
+            
+        # Iterate through Players 
+        for x in range(len(players)):
+                
+            name_tuple = (players[x][5], players[x][9])
+        
+            if(name_tuple in RIGHT_NAME_DICT):
+               
+                players[x][5] = RIGHT_NAME_DICT[name_tuple]
+
+        # Remake the dataframe with proper names
+        final_df = pd.DataFrame(players, columns=['Season', 'Team ID', 'Team ABV', 'Team', 'Number', 'Player', 'Pos', 'Height', 'Weight', 'Birth Date', 
+                                                  'Nationality', 'Experience', 'College'])
+
+        final_df['Player ID'] = final_df['Player'].apply(lambda x: PLAYER_ID[x])
+
+        # Rearranges the elements
+        final_df = final_df[ ['Team'] + [ col for col in  final_df.columns if col != 'Team' ] ]
+        final_df = final_df[ ['Team ABV'] + [ col for col in  final_df.columns if col != 'Team ABV' ] ]
+        final_df = final_df[ ['Player ID'] + [ col for col in  final_df.columns if col != 'Player ID' ] ]
+        final_df = final_df[ ['Team ID'] + [ col for col in  final_df.columns if col != 'Team ID' ] ]
+        final_df = final_df[ ['Season'] + [ col for col in  final_df.columns if col != 'Season' ] ]
+        
+        return final_df
 
     else: 
         print('Error 404: Page could not be found')
@@ -186,8 +208,6 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
                 # Iterate through Players 
                 for x in range(len(players)):
                 
-                    print(players[x][4])
-
                     # Per game and totals
                     if(data_format == 'per_game' or data_format == 'totals'):
                         string_tuple = (str(players[x][4]), str(players[x][31]))
@@ -318,26 +338,24 @@ def get_team_stats(season, data_format ='PER_GAME'):
             pass
         # Format the team column to remove * and upper cases it and Create a new column called 'TEAM' convert it to the constant from Team_Constants.py
         df['Team'] = df['Team'].apply(lambda x: x.replace('*', '').upper())
-        df['TEAM'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
+        df['Team ABV'] = df['Team'].apply(lambda x: TEAM_TO_ABBRIVATION[x])
 
         # Create a new column for Team ID
-        df['TEAM ID'] = df['TEAM'].apply(lambda x: TEAM_ID[x])
+        df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
         # Create a new column called season
-        df['SEASON'] = season
+        df['Season'] = season
 
         # Changes back Team column to title format 
         df['Team'] = df['Team'].apply(lambda x: x.title())
 
         # Moves the TEAM column to be the thrid element and TEAM_ID to be second and SEASON to be first
-        df = df[ ['TEAM'] + [ col for col in df.columns if col != 'TEAM' ] ]
-        df = df[ ['TEAM ID'] + [ col for col in df.columns if col != 'TEAM ID' ] ]
-        df = df[ ['SEASON'] + [ col for col in df.columns if col != 'SEASON' ] ]
+        df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
+        df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
+        df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
         # Drop rk(Rank) and Team 
         df = df.drop(['Rk'], axis=1)
-
-       
         
         # Rounds every entry to two decimal places
         df = df.round(2)
@@ -539,5 +557,5 @@ def remove_char(string, postion):
 def main():
     #print(get_roster_stats("DAL",2020, False, 'adjusted'))
     #print(PLAYER_ID)
-    print(get_roster("DAL", 2020))
-#main()
+    print(get_team_stats(2020))
+main()
