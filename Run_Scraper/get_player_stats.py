@@ -46,6 +46,12 @@ Get csvs of player stats
 '''
 def csv_player_stats(name, birth_date, format, playoff, player_path):
     print(format)
+    
+    df = get_player_stats(name, birth_date,format, playoff)
+
+    if(df is None):
+        return None
+
     if(playoff):
         playoff_string = "Playoff_Stats"
 
@@ -65,13 +71,9 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
 
         os.mkdir(output_path)
 
-    df = get_player_stats(name, birth_date,format, playoff)
-    
-    if(df is not None):
-    
-        file_name = '//'+ name + '_' + format + '.csv'
+    file_name = '//'+ name + '_' + format + '.csv'
 
-        df.to_csv(output_path + file_name, index = False)
+    df.to_csv(output_path + file_name, index = False)
     
     return 0
 
@@ -271,7 +273,6 @@ def main():
     #players_names_csv()
     start_time = time.time()
     #csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
-    print(get_player_id())
     #get_player_csv()
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
