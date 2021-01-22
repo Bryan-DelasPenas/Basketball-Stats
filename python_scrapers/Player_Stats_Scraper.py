@@ -36,7 +36,7 @@ def check_abv(string):
         pass
 
 def check_team_id(name):
-    print(name)
+    
     if(name in TEAM_ID):
         new_num = TEAM_ID[name]
         return new_num
@@ -613,7 +613,7 @@ Looks up a players name and birth_date from player_names.csv
 def lookup(name, birth_date):
     
     # Path to csv file
-    path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'Player_Name','player_names.csv')
+    path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player_Name','player_names.csv')
 
     # Convert csv to dataframe
     df = pd.read_csv(path)
@@ -907,9 +907,8 @@ def career_stats(name, birth_date, format, playoffs = False):
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
         career_df = career_df.round(2)
-        print(career_df)
-
-        return None
+       
+        return career_df
     
     # This should be for per game and per minute
     else:

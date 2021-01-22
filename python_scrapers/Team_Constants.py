@@ -11,6 +11,7 @@ import os
 import pathlib
 from pathlib import Path
 
+
 TEAM_TO_ABBRIVATION = {
     'ATLANTA HAWKS':                     'ATL', # Currently the Atlanta Hawks from 1968 to 2020
     'BOSTON CELTICS':                    'BOS', # Currently the Boston Celtics from 1946 to 2020
@@ -192,6 +193,9 @@ RIGHT_NAME_DICT = {
 
 
 
+    
+    
+   
 
 
 '''
@@ -203,7 +207,7 @@ def get_player_id():
     # player name : id_num 
     player_id = {}
 
-    csv_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'Player_Name','player_names.csv')
+    csv_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player_Name','player_names.csv')
     
     # Convert csv to dataframe
     df = pd.read_csv(csv_path)
@@ -224,4 +228,3 @@ def get_player_id():
 
 # Global Decloration of Player_id
 PLAYER_ID = get_player_id()
-#print(PLAYER_ID)
