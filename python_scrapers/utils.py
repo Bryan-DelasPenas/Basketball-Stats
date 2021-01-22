@@ -14,7 +14,15 @@ def strip_accents(text):
     if('Tibor Plei' in text):
         text = 'Tibor Pleiss'
         return text
+    elif('Gu' in text and 'mundsson' in text):
+        text = 'Petur Gudmundsson'
+    
+    elif('Aleksandar' in text and 'or' in text):
+        text = 'Aleksandar Djordjevic'
 
+    elif("Mer " in text and 'ik' in text):
+        text = 'Omer Asik'
+        return text
     try:
         text = unicode(text, 'utf-8')
     except NameError: # unicode is a default on python 3 

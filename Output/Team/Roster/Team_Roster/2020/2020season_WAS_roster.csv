@@ -1,0 +1,24 @@
+Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
+2020,30,200,WAS,Washington Wizards,3,Bradley Beal,SG,6-3,207,"June 28, 1993",US,7,Florida
+2020,30,232,WAS,Washington Wizards,42,Davis Bertans,PF,6-10,225,"November 12, 1992",LV,3,
+2020,30,289,WAS,Washington Wizards,17,Isaac Bonga,SF,6-8,180,"November 8, 1999",DE,1,
+2020,30,402,WAS,Washington Wizards,6,Troy Brown Jr.,SF,6-6,215,"July 28, 1999",US,1,Oregon
+2020,30,410,WAS,Washington Wizards,13,Thomas Bryant,C,6-10,248,"July 31, 1997",US,2,Indiana
+2020,30,530,WAS,Washington Wizards,9,Chris Chiozza,PG,5-11,175,"November 21, 1995",US,1,Florida
+2020,30,1085,WAS,Washington Wizards,22,Jerian Grant,SG,6-4,205,"October 9, 1992",US,4,Notre Dame
+2020,30,1142,WAS,Washington Wizards,8,Rui Hachimura,PF,6-8,230,"February 8, 1998",JP,R,Gonzaga
+2020,30,1815,WAS,Washington Wizards,28,Ian Mahinmi,C,6-11,262,"November 5, 1986",FR,11,
+2020,30,1870,WAS,Washington Wizards,24,Garrison Mathews,SG,6-5,215,"October 24, 1996",US,R,Lipscomb
+2020,30,1958,WAS,Washington Wizards,52,Jordan McRae,SG,6-5,179,"March 28, 1991",US,3,Tennessee
+2020,30,1983,WAS,Washington Wizards,34,C.J. Miles,SF,6-6,220,"March 18, 1987",US,14,
+2020,30,2111,WAS,Washington Wizards,5,Shabazz Napier,PG,6-0,175,"July 14, 1991",US,5,UConn
+2020,30,2252,WAS,Washington Wizards,18,Anzejs Pasecniks,C,7-1,229,"December 20, 1995",LV,R,
+2020,30,2271,WAS,Washington Wizards,20,Gary Payton II,SF,6-3,190,"December 1, 1992",US,3,Oregon State
+2020,30,2480,WAS,Washington Wizards,12,Jerome Robinson,SG,6-4,190,"February 22, 1997",US,1,Boston College
+2020,30,2481,WAS,Washington Wizards,5,Justin Robinson,PG,6-1,195,"October 12, 1997",US,R,Virginia Tech
+2020,30,2574,WAS,Washington Wizards,1,Admiral Schofield,PF,6-5,241,"March 30, 1997",GB,R,Tennessee
+2020,30,2678,WAS,Washington Wizards,14,Ish Smith,PG,6-0,175,"July 5, 1988",US,9,Wake Forest
+2020,30,2846,WAS,Washington Wizards,4,Isaiah Thomas,PG,5-9,185,"February 7, 1989",US,8,Washington
+2020,30,2943,WAS,Washington Wizards,7,Jarrod Uthoff,PF,6-9,221,"May 19, 1993",US,1,Iowa
+2020,30,2994,WAS,Washington Wizards,21,Moritz Wagner,C,6-11,245,"April 26, 1997",DE,1,Michigan
+2020,30,3150,WAS,Washington Wizards,19,Johnathan Williams,PF,6-9,228,"May 22, 1995",US,1,"Missouri, Gonzaga"

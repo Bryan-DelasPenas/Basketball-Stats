@@ -106,7 +106,7 @@ def csv_team_roster(year):
     
     #
     # Iterate through the len of the team column 
-    for team in range(0, len(df['TEAM'])):
+    for team in range(0, len(df['Team ABV'])):
 
         # Call the get_roster that returns a dataframe a certin team stats from a given year
         roster_df = get_roster(df.iloc[team, 2], year) 
@@ -213,8 +213,6 @@ def csv_roster_stats(year, playoffs ,format):
         os.mkdir(final_path)
     else:
         pass
-    
-    print(final_path)
 
     # Dataframe for season stats
     df = get_team_stats(year) 
@@ -232,7 +230,7 @@ def csv_roster_playoff_stats(year, format, season_df, file_path):
     string_type = format.title()
     
     #Iterate through the len of the team column 
-    for team in range(0, len(season_df['TEAM'])):
+    for team in range(0, len(season_df['Team ABV'])):
         
         # Call the get_roster that returns a dataframe a certin team stats from a given year, 2 is due to TEAM being the 3 column
         team_df = get_roster_stats(season_df.iloc[team, 2], year, True, format) 
@@ -252,8 +250,8 @@ def csv_roster_regular_stats(year, format, season_df, file_path):
     string_type = format.title()
     
     #Iterate through the len of the team column 
-    for team in range(0, len(season_df['TEAM'])):
-        
+    for team in range(0, len(season_df['Team ABV'])):
+      
         # Call the roster stats that returns a dataframe a certin team stats from a given year, 2 is due to TEAM being the 3 column
         team_df = get_roster_stats(season_df.iloc[team, 2], year, False, format) 
         
@@ -308,7 +306,7 @@ def csv_team_stats_other(year, format):
     format = format.title()
     
     # Iterate through the len of the team column 
-    for team in range(0, len(df['TEAM'])):
+    for team in range(0, len(df['Team ABV'])):
         
         # Try to see if the get_team_advanced is valid
         try:
@@ -467,9 +465,9 @@ def get_team_csv():
     directory_parent = "Team"
     create_output_directory(directory_parent)
 
-    year = 1980
+    #year = 1980
     # Iterate through 1980 to 2020
-    for year in range(1980, 2021):
+    for year in range(2014, 2021):
         print(year)
     
         # Roster Non-Playoff stats
@@ -478,7 +476,6 @@ def get_team_csv():
         csv_roster_stats(year, False, 'TOTALS')
         csv_roster_stats(year, False, 'PER_MINUTE')
         csv_roster_stats(year, False, 'ADVANCED')
-        csv_roster_stats(year, False, 'ADJUSTED')
 
         # Roster Playoff stats 
         csv_roster_stats(year, True, 'PER_GAME')

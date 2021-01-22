@@ -182,7 +182,12 @@ RIGHT_NAME_DICT = {
     ("Dennis Smith","November 25, 1997")   : "Dennis Smith Jr.",
     ("Xavier Tillman","January 12, 1999")  : "Xavier Tillman Sr.",
     ("Gary Trent","January 18, 1999")      : "Gary Trent Jr.",
-    ("James Webb", "August 19, 1993")      : "James Webb III"
+    ("James Webb", "August 19, 1993")      : "James Webb III",
+    ("Omer Ask", "July 4, 1986")           : "Omer Asik",
+    ("Vitor Luiz Faverani", "May 5, 1988") : "Vitor Faverani"
+    #("Horacio Llamas Grey", "July 17, 1973"): "Horacio Llamas",
+    #("Kiwane Garris", "September 24, 1974")  : "Kiwane Lemorris Garris",
+    #("LaMark Baker", "November 11, 1969")    : "Mark Baker",
 }
 
 '''
@@ -215,3 +220,4 @@ def get_player_id():
 
 # Global Decloration of Player_id
 PLAYER_ID = get_player_id()
+#print(PLAYER_ID)

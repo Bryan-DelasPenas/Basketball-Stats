@@ -24,6 +24,24 @@ import pandas as pdlib
 from Team_Stats_Scraper import remove_char
 from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID
 from utils import translate
+
+'''
+
+'''
+def check_abv(string):
+    if(string in ABV_TO_TEAM):
+        new_string = ABV_TO_TEAM[string]
+        return new_string
+    else:
+        pass
+
+def check_team_id(name):
+    print(name)
+    if(name in TEAM_ID):
+        new_num = TEAM_ID[name]
+        return new_num
+    else:
+        pass
 '''
 Creates a dataframe of player's name active from 1980 - 2020
 '''
@@ -554,19 +572,20 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         
         else:
             df = df.rename(columns={'Tm': 'Team ABV'})
-        df['Team'] = df['Team ABV'].apply(lambda x:ABV_TO_TEAM[x].title())
+        df['Team'] = df['Team ABV'].apply(lambda x: check_abv(x))
 
         # Create a new column for Team ID
-        df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
+        df['Team ID'] = df['Team ABV'].apply(lambda x: check_team_id(x))
+        
+        # Uppercases Team name
+        df['Team'] = df['Team'].apply(lambda x: str(x).title())
 
         name_tuple = (record[0][0], record[0][1])
         
         if(name_tuple in RIGHT_NAME_DICT):
             record[0][0] = RIGHT_NAME_DICT[name_tuple]
 
-
         df['Player ID'] = PLAYER_ID[record[0][0]] 
-
 
         # Rearranges the elements
         df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
@@ -576,6 +595,16 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
         df = df.round(2)
+        
+        # Check for Did Not Play
+        if df['G'].str.contains('Did').any():
+            
+            # Removes all Did not Play
+            df_filter = df[df['G'].str.isnumeric() == True]
+            return df_filter
+        else:
+            pass
+        
         return df
 
 '''
@@ -999,7 +1028,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
 def main():
     start_time = time.time()
-    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
+    print(get_player_stats("Petur Gudmundsson", "October 30, 1958"))
     #print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
 main()
