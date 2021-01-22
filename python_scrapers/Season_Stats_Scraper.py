@@ -290,7 +290,7 @@ def get_standings(season, data_format = 'standard'):
 
     elif data_format == 'team_vs_team':
         select = 'div_team_vs_team'
-        page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_2020_standings.html&div={select}')
+        page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fleagues%2FNBA_{season}_standings.html&div={select}')
         df = None
 
         # Check the status code, if the code is 200, it means the request went through
@@ -328,8 +328,8 @@ def get_standings(season, data_format = 'standard'):
         else: 
             print('Error 404: Page could not be found')
 
-def main():
-    print(get_standings(2006, data_format = 'team_vs_team'))
+#def main():
+    #print(get_standings(2006, data_format = 'team_vs_team'))
     
-main()
+#main()
 

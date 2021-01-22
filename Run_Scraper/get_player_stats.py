@@ -270,7 +270,7 @@ def get_player_csv():
 Main function
 '''
 def main():
-    #players_names_csv()
+    players_names_csv()
     start_time = time.time()
     #csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
     #get_player_csv()

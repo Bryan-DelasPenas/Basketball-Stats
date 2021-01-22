@@ -509,5 +509,5 @@ Main Function
 def main():
     get_team_csv()
     
-if __name__ == "__main__":
+#if __name__ == "__main__":
     main()
