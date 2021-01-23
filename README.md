@@ -82,10 +82,12 @@ $ conda install --file requirements.txt
 <p>To run each of the scrapers, the code below will show how.</p>
 
 ```
-$ python /your/path/Basketball-Stats/Run_Scraper/get_season_stats.py  # Gets season stats from 1980 - current
-$ python /your/path/Basketball-Stats/Run_Scraper/get_team_stats.py    # Gets team stats from 1980 - current
-$ python /your/path/Basketball-Stats/Run_Scraper/get_player_stats.py  # Gets player stats from 1980 - current
+$ python /your/path/BasketBall-Stats/Python_Scrapers/Create_Player_Name # Gets dataframe of player names from 1980 - current 
+$ python /your/path/Basketball-Stats/Run_Scraper/get_season_stats.py    # Gets season stats from 1980 - current
+$ python /your/path/Basketball-Stats/Run_Scraper/get_team_stats.py      # Gets team stats from 1980 - current
+$ python /your/path/Basketball-Stats/Run_Scraper/get_player_stats.py    # Gets player stats from 1980 - current
 ``` 
+<p><strong>NOTE: You must run Create_Player_Name first before any other scraper</strong></p>
 <p>Where your path is where you decide to store the source directory, <em>Basketball-Stats</em>. <strong>NOTE:</strong> The file should be ran from
 the root directory, aka <em>Basketball-Stats</em>.</p>
 
