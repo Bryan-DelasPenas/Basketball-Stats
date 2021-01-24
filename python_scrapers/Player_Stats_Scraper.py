@@ -597,7 +597,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df = df.round(2)
         
         # Check for Did Not Play
-        if df['G'].str.contains('Did').any():
+        if df['G'].astype(str).str.contains('Did').any():
             
             # Removes all Did not Play
             df_filter = df[df['G'].str.isnumeric() == True]
@@ -1027,7 +1027,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
 def main():
     start_time = time.time()
-    print(get_player_stats("Petur Gudmundsson", "October 30, 1958"))
+    #print(get_player_stats("Alaa Abdelnaby", "June 24, 1968"))
     #print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
 main()

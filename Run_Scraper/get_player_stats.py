@@ -13,35 +13,6 @@ from Player_Stats_Scraper import get_player_name, get_player_stats
 from helper import create_output_directory, create_output_child_directory
 
 '''
-Get csvs for players name and other data
-'''
-def players_names_csv():
-    letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-    
-    # Check if the proper directories has been made
-    source_directory = "Output"
-    directory_parent = "Player"
-    directory_child = "Player_Name"
-    
-    # Create the directories if needed
-    create_output_directory(directory_parent)
-    create_output_child_directory(directory_parent,directory_child)
-    
-    # Create the output path and the file name 
-    output_path = os.path.join(pathlib.Path().absolute(), source_directory ,directory_parent, directory_child)
-    file_name = '\\' + "player_names" + ".csv" 
-    
-    for letter in letters:
-        df = get_player_name(letter)
-        
-        file_name = '\\' + "player_names" + ".csv"
-        
-        if letter == 'a':
-            df.to_csv(output_path + file_name, mode='a', index = False)
-        else:
-            df.to_csv(output_path + file_name, mode='a',header=False, index = False)
-
-'''
 Get csvs of player stats
 '''
 def csv_player_stats(name, birth_date, format, playoff, player_path):
@@ -61,6 +32,7 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
     directory_child = format.title()
 
     first_path = os.path.join(player_path, playoff_string)
+    
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -81,12 +53,20 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
 Calls all functions above and puts into its own csvs
 '''
 def get_player_csv():
-    csv_path = path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'Player_Name','player_names.csv')
-    
+    csv_path = path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player_Name','player_names.csv')
+
+    source_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player')
+
+    if(not os.path.isdir(source_path)):
+        
+        # Create the directory with the final_path
+        os.mkdir(source_path)
+
     # Convert csv to dataframe
     df = pd.read_csv(path)
     
     record = df.values.tolist()
+
 
     # Iterate through the list 
     for i in range( len(record)):
@@ -252,27 +232,26 @@ def get_player_csv():
         
         # Regualar Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Adjusted Shooting', False, player_path)
-
+        #csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
+    
         # Playoffs Season Stat
-        csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
 
 
 '''
 Main function
 '''
 def main():
-    players_names_csv()
+    #players_names_csv()
     start_time = time.time()
     #csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
-    #get_player_csv()
+    get_player_csv()
     print("--- %s seconds ---" % (time.time() - start_time))
 main()

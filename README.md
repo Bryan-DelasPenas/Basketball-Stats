@@ -5,6 +5,7 @@
 and machine learning, we can use data from the that can be broken down into three phases
 and a possible fourth phase.</p>
 
+<strong>Current Phase: 1</strong>
 <strong>Phase 1:</strong> Web scraping<br>
 <strong>Phase 2:</strong> Creating the database<br> 
 <strong>Phase 3:</strong> Predicting the MVP based on player stats<br> 
@@ -95,7 +96,6 @@ the root directory, aka <em>Basketball-Stats</em>.</p>
 <p>Inside of the source directory,<em>Basketball-Stats</em>, there will be a directory called <em>Output</em>.<br>
 Inside of <em>Output</em>, should be three directories, corresponding to the name of the scrapers. More information 
 be in a api.md file</p>
-
 
 ### Running the Database 
 <p><strong>IMPORTANT:</strong>For any queries, the names of people with accent has been normalized<br>
