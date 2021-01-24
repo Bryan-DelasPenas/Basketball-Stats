@@ -231,25 +231,25 @@ def get_player_csv():
         print(record[i][0])
         
         # Regualar Season Stat
-        csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
+        #csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
         #csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
         #csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
         #csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
         #csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
     
         # Playoffs Season Stat
-        #csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
 
 
 '''
 Main function
 '''
 def main():
-    #players_names_csv()
+    
     start_time = time.time()
     #csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
     get_player_csv()

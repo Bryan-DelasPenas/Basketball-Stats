@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
+1983,24,2314,PHO,Phoenix Suns,24.0,NBA,PF,1,1,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,0.0,0.0,0.0,-0.01,,-5.3,-3.7,-9.0,0.0
+1984,24,2314,PHO,Phoenix Suns,25.0,NBA,PF,17,253,11.4,0.58,0.02,0.57,11.7,17.2,14.5,6.0,1.0,1.2,20.1,13.3,,0.2,0.2,0.4,0.08,,-0.9,-0.4,-1.4,0.0
+1985,24,2314,PHO,Phoenix Suns,26.0,NBA,SF,3,82,14.0,0.66,0.0,0.74,8.4,20.2,14.0,14.2,0.0,2.0,22.8,18.5,,0.1,-0.1,0.0,0.02,,-1.2,-0.8,-2.0,0.0
