@@ -10,6 +10,7 @@ sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
 
 
 from Player_Stats_Scraper import get_player_name, get_player_stats
+from Team_Constants import RIGHT_NAME_DICT
 from helper import create_output_directory, create_output_child_directory
 
 '''
@@ -69,181 +70,38 @@ def get_player_csv():
 
 
     # Iterate through the list 
-    for i in range( len(record)):
+    for i in range(1179, 1181):
         print(i)
         print(record[i][0])
-        
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
+        name_tuple = (record[i][0], record[i][1])
 
-        if(record[i][0] == "Troy Brown" and record[i][1] == "July 28, 1999"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
+        # Check for special cases, like Jr.
+        if(name_tuple in RIGHT_NAME_DICT):
+            new_string = RIGHT_NAME_DICT[name_tuple]
+            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_string)
 
-        elif(record[i][0] == "Vernon Carey" and record[i][1] == "February 25, 2001"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        elif(record[i][0] == "Wendell Carter" and record[i][1] == "April 16, 1999"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        elif(record[i][0] == "Larry Drew" and record[i][1] == "March 5, 1990"):
-            new_name =  str(record[i][0]) + " II"
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        elif(record[i][0] == "Tim Hardaway" and record[i][1] == "March 16, 1992"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        elif(record[i][0] == "Jaren Jackson" and record[i][1] == "September 15, 1999"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Junior
-        elif(record[i][0] == "Derrick Jones" and record[i][1] == "February 15, 1997"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Junior 
-        elif(record[i][0] == "Walt Lemon" and record[i][1] == "July 26, 1992"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Speicial Case: Add Junior
-        elif(record[i][0] == "Kira Lewis" and record[i][1] == "April 6, 2001"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Jr.
-        elif(record[i][0] == "Kenyon Martin" and record[i][1] == "January 6, 2001"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add III to end of name 
-        elif(record[i][0] == "Frank Mason" and record[i][1] == "April 3, 1994"):
-            new_name =  str(record[i][0]) + " III"
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-        
-        # Speical Case: Add JR
-        elif(record[i][0] == "Larry Nance" and record[i][1] == "January 1, 1993"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Jr.
-        elif(record[i][0] == "Kelly Oubre" and record[i][1] == "December 9, 1995"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add II 
-        elif(record[i][0] == "Gary Payton" and record[i][1] == "December 1, 1992"):
-            new_name =  str(record[i][0]) + " II"
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Jr.
-        elif(record[i][0] == "Kevin Porter" and record[i][1] == "May 4, 2000"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Jr.
-        elif(record[i][0] == "Michael Porter" and record[i][1] == "June 29, 1998"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Jr.
-        elif(record[i][0] == "Glen Rice" and record[i][1] == "January 1, 1991"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add III
-        elif(record[i][0] == "Glenn Robinson" and record[i][1] == "January 8, 1994" ):
-            new_name =  str(record[i][0]) + " III"
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Jr.
-        elif(record[i][0] == "Dennis Smith" and record[i][1] == "November 25, 1997"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Sr. even thou there is no jr? 
-        elif(record[i][0] == "Xavier Tillman" and record[i][1] == "January 12, 1999"):
-            new_name =  str(record[i][0]) + " Sr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: Add Jr. 
-        elif(record[i][0] == "Gary Trent" and record[i][1] == "January 18, 1999"):
-            new_name =  str(record[i][0]) + " Jr."
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        # Special Case: III
-        elif(record[i][0] == "James Webb" and record[i][1] == "August 19, 1993"):
-            new_name =  str(record[i][0]) + " III"
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_name)
-
-            if(not os.path.isdir(player_path)):
-                os.mkdir(player_path)
-
-        elif(not os.path.isdir(player_path)):
+        # Check if the directory of player name was made
+        if(not os.path.isdir(player_path)):
             # Create the directory with the final_path
             os.mkdir(player_path)
-
-        print(record[i][0])
         
+        '''
         # Regualar Season Stat
-        #csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
-        #csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
-    
+        csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
+        csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
+        '''
+        '''
         # Playoffs Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
-
+        '''
 
 '''
 Main function
