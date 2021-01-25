@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
+2016,27,2635,SAS,San Antonio Spurs,26.0,NBA,SG,3.0,26.0,16.7,0.51,0.3,0.2,14.2,4.2,8.9,11.8,4.0,0.0,8.4,21.3,,0.0,0.0,0.1,0.16,,0.4,0.6,1.0,0.0
+2017,27,2635,SAS,San Antonio Spurs,27.0,NBA,SG,15.0,306.0,15.0,0.53,0.27,0.23,3.3,7.5,5.3,15.3,1.5,0.6,6.8,23.2,,0.4,0.2,0.6,0.09,,0.2,0.4,0.6,0.2
+2019,23,2635,PHI,Philadelphia 76Ers,29.0,NBA,SF,7.0,52.0,2.6,0.39,0.33,0.13,4.4,13.8,9.4,6.1,0.9,0.0,15.9,30.7,,-0.2,0.1,-0.2,-0.17,,-7.1,-5.2,-12.3,-0.1

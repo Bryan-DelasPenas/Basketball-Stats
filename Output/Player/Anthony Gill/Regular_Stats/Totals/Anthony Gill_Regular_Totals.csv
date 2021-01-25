@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,30,1034,WAS,Washington Wizards,28.0,NBA,PF,5,0,24,2,4,0.5,1,3,0.33,1,1,1.0,0.62,2,2,1.0,0,5,5,0,1,0,0,2,7

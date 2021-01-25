@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2018,21,905,OKC,Oklahoma City Thunder,19.0,NBA,SG,3.0,0.0,2.0,0.3,0.3,1.0,0.3,0.3,1.0,0.0,0.0,,1.5,0.0,0.0,,0.3,0.0,0.3,0.3,0.0,0.0,0.0,0.7,1.0
+2019,21,905,OKC,Oklahoma City Thunder,20.0,NBA,SG,5.0,5.0,25.6,1.8,5.0,0.36,1.4,3.6,0.39,0.4,1.4,0.29,0.5,0.0,0.0,,0.4,2.0,2.4,1.2,0.4,0.0,1.0,3.8,5.0
+2020,21,905,OKC,Oklahoma City Thunder,21.0,NBA,SF,4.0,1.0,10.5,0.5,2.8,0.18,0.5,2.5,0.2,0.0,0.3,0.0,0.27,0.0,0.0,,0.3,0.8,1.0,0.3,0.3,0.0,0.3,0.8,1.5

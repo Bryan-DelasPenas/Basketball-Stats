@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
+2019,25,2907,POR,Portland Trail Blazers,20.0,NBA,SG,15,111,3.6,0.38,0.42,0.14,1.0,9.4,5.3,6.2,0.4,1.4,7.0,21.7,,-0.3,0.1,-0.2,-0.09,,-6.6,-4.2,-10.8,-0.2
+2020,25,2907,POR,Portland Trail Blazers,21.0,NBA,SF,61,1332,12.9,0.59,0.61,0.1,2.0,5.8,3.9,6.3,1.7,1.0,4.4,15.3,,2.2,0.3,2.5,0.09,,0.5,-0.8,-0.3,0.6
+2021,25,2907,POR,Portland Trail Blazers,22.0,NBA,SG,13,313,10.9,0.55,0.59,0.1,2.0,5.3,3.6,6.7,0.6,0.3,5.3,18.2,,0.3,-0.1,0.2,0.04,,-0.7,-3.3,-4.0,-0.2

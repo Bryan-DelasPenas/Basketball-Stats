@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
+2019,15,3037,MEM,Memphis Grizzlies,24.0,NBA,SF,15.0,174.0,3.3,0.35,0.31,0.2,2.5,17.7,10.0,6.6,1.1,0.5,9.8,15.8,,-0.4,0.2,-0.2,-0.06,,-7.0,-2.1,-9.1,-0.3
+2020,15,3037,MEM,Memphis Grizzlies,25.0,NBA,SF,18.0,105.0,11.2,0.48,0.24,0.24,7.2,12.8,10.0,6.4,2.2,0.8,5.1,15.7,,0.0,0.1,0.1,0.06,,-2.6,0.9,-1.8,0.0
+2021,28,3037,TOR,Toronto Raptors,26.0,NBA,SF,10.0,105.0,6.7,0.34,0.48,0.0,6.0,24.4,15.0,5.0,1.4,7.6,13.8,11.8,,-0.2,0.2,0.0,0.01,,-4.5,0.2,-4.3,-0.1

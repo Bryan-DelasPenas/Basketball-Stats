@@ -563,14 +563,9 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         # Turn into a int 
         df['Season'] = df['Season'].apply(pd.to_numeric)
             
-        # Drop players that are didn't play at 1980
-        df_new = df[df['Season'] < 1980].index
-        df.drop(df_new, inplace = True)
-
         if(selector == 'adj_shooting'):
             df = df.rename(columns={'Team': 'Team ABV'})
-            
-        
+              
         else:
             df = df.rename(columns={'Tm': 'Team ABV'})
         df['Team'] = df['Team ABV'].apply(lambda x: check_abv(x))
@@ -645,6 +640,9 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         else:
             pass
         
+        # Drop Seasons that is before 1980
+        df_new = df[df['Season'] < 1980].index
+        df.drop(df_new, inplace = True)
         return df
 
 '''
@@ -683,9 +681,9 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return None
 
     if(format == 'Totals'):
-        
+       
         # Drop unneeded stats 
-        career_df = career_df.drop(['Season', 'Age', 'Tm', 'League', 'Pos', 'Unnamed: 30'], axis=1)
+        career_df = career_df.drop(['Season', 'Age', 'Team', 'Team ABV', 'League', 'Pos'], axis=1)
 
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
@@ -775,8 +773,12 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         career_df['PTS'] = df['PTS'].sum()
 
         # Get Trp Dbl
-        career_df['Trp Dbl'] = df['Trp Dbl'].sum()
-
+        if 'Trp Dbl' in df.columns:
+            
+            career_df = career_df.drop(['Unnamed: 30'], axis=1)
+            career_df['Trp Dbl'] = df['Trp Dbl'].sum()
+        else:
+            career_df['Trp Dbl'] = 0
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
         career_df = career_df.round(2)
@@ -1067,7 +1069,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
 
 def main():
     start_time = time.time()
-    print(get_career_stats("Petur Gudmundsson", "October 30, 1958", 'Per_Poss'))
-    #print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
+    print(get_career_stats("Tiny Archibald", "September 2, 1948", 'Per_Game'))
+    #print(get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Totals'))
     print("--- %s seconds ---" % (time.time() - start_time))
 #main()
