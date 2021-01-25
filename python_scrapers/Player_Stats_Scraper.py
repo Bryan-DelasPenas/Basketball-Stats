@@ -1070,4 +1070,4 @@ def main():
     print(get_career_stats("Petur Gudmundsson", "October 30, 1958", 'Per_Poss'))
     #print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
-main()
+#main()
