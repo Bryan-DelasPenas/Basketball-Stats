@@ -508,6 +508,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
 
     # Type of stat you want
     selector = format.lower()
+    format = format.upper()
     
     # Check if the stat wanted is playoff
     if playoffs:
@@ -598,10 +599,49 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         
         # Check for Did Not Play
         if df['G'].astype(str).str.contains('Did').any():
-            
+              
             # Removes all Did not Play
             df_filter = df[df['G'].str.isnumeric() == True]
-            return df_filter
+            
+            # Per game only has Did Not Play
+            if(format == 'PER_GAME'):
+
+                # Everything in the dataframe is a string, change it into a int
+                df = df_filter
+                
+                df['Season'] = df['Season'].apply(pd.to_numeric)
+                df['Team ID'] = df['Team ID'].apply(pd.to_numeric)
+                df['Player ID'] = df['Player ID'].apply(pd.to_numeric)
+                df['Age'] = df['Age'].apply(pd.to_numeric)
+                df['G'] = df['G'].apply(pd.to_numeric)
+                df['GS'] = df['GS'].apply(pd.to_numeric)
+                df['MP'] = df['MP'].apply(pd.to_numeric)
+                df['FG'] = df['FG'].apply(pd.to_numeric)
+                df['FGA'] = df['FGA'].apply(pd.to_numeric)
+                df['FG%'] = df['FG%'].apply(pd.to_numeric)
+                df['3P'] = df['3P'].apply(pd.to_numeric)
+                df['3PA'] = df['3PA'].apply(pd.to_numeric)
+                df['3P%'] = df['3P%'].apply(pd.to_numeric)
+                df['2P'] = df['2P'].apply(pd.to_numeric)
+                df['2PA'] = df['2PA'].apply(pd.to_numeric)
+                df['2P%'] = df['2P%'].apply(pd.to_numeric)
+                df['eFG%'] = df['eFG%'].apply(pd.to_numeric)
+                df['FT'] = df['FT'].apply(pd.to_numeric)
+                df['FTA'] = df['FTA'].apply(pd.to_numeric)
+                df['FT%'] = df['FT%'].apply(pd.to_numeric)
+                df['ORB'] = df['ORB'].apply(pd.to_numeric)
+                df['DRB'] = df['DRB'].apply(pd.to_numeric)
+                df['TRB'] = df['TRB'].apply(pd.to_numeric)
+                df['AST'] = df['AST'].apply(pd.to_numeric)
+                df['STL'] = df['STL'].apply(pd.to_numeric)
+                df['BLK'] = df['BLK'].apply(pd.to_numeric)
+                df['TOV'] = df['TOV'].apply(pd.to_numeric)
+                df['PF'] = df['PF'].apply(pd.to_numeric)
+                df['PTS'] = df['PTS'].apply(pd.to_numeric)
+                
+           
+            return df
+        
         else:
             pass
         
@@ -628,7 +668,7 @@ def lookup(name, birth_date):
 '''
 Returns a csv a calulated career stats of a player starting from 1980
 '''
-def career_stats(name, birth_date, format, playoffs = False):
+def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
 
     # Gets the player stats dataframe 
     df = get_player_stats(name, birth_date, format, playoffs)
@@ -919,10 +959,10 @@ def career_stats(name, birth_date, format, playoffs = False):
         
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
-
+    
         # Get the total GS of player's career
         career_df['GS'] = df['GS'].sum()
-
+        
         if(format == 'Per_Poss'):
             career_df['MP'] = df['MP'].sum()
 
@@ -1027,7 +1067,7 @@ def career_stats(name, birth_date, format, playoffs = False):
 
 def main():
     start_time = time.time()
-    #print(get_player_stats("Alaa Abdelnaby", "June 24, 1968"))
+    print(get_career_stats("Petur Gudmundsson", "October 30, 1958", 'Per_Poss'))
     #print(career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Adjusted Shooting'))
     print("--- %s seconds ---" % (time.time() - start_time))
 main()

@@ -51,6 +51,10 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
     return 0
 
 '''
+Get csvs for career stats
+'''
+
+'''
 Calls all functions above and puts into its own csvs
 '''
 def get_player_csv():
