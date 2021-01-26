@@ -1,11 +1,3 @@
-#####################################################
-# File: Team_Constants.py 
-# Author: Bryan Delas Penas 
-# Email:  bryan.delaspenas0405@gmail.com
-# Date:   12/17/2020
-# 
-# This file will contain all teams and former teams from 1979, when the 3 pointer was introduced inside of a dictionary
-
 import pandas as pd
 import os
 import pathlib

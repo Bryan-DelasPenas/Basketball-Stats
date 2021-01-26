@@ -1,32 +1,18 @@
-########################################################
-# File: Player_Scraper.py 
-# Author: Bryan Delas Penas 
-# Email:  bryan.delaspenas0405@gmail.com
-# Date:   12/20/2020
-# 
-
 import pandas as pd
 import sys
 from bs4 import BeautifulSoup
 from requests import get
 import unicodedata, unidecode
-import codecs 
-import re 
 import os
 import pathlib
-from pathlib import Path
 import time
-
-from os import chdir
-from glob import glob
-import pandas as pdlib
 
 from Team_Stats_Scraper import remove_char
 from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID
 from utils import translate
 
 '''
-
+Check if string can be converted to ABV
 '''
 def check_abv(string):
     if(string in ABV_TO_TEAM):
@@ -35,6 +21,9 @@ def check_abv(string):
     else:
         pass
 
+'''
+Checks if team abv is valid
+'''
 def check_team_id(name):
     
     if(name in TEAM_ID):
@@ -42,6 +31,7 @@ def check_team_id(name):
         return new_num
     else:
         pass
+
 '''
 Creates a dataframe of player's name active from 1980 - 2020
 '''
@@ -76,7 +66,6 @@ def get_player_name(letter):
         df = df.drop(['Pos', 'From', 'To','Height', 'Weight', 'College'], axis=1)
 
         return df
-
 
 '''
 Creates player suffixes for url 
@@ -486,8 +475,7 @@ def get_player_suffix(name, birth_date):
             page = get(f'https://www.basketball-reference.com{suffix}')
 
     return None
-    
-    
+        
 '''
 Returns csv of player stats from every year they played from 1980
 '''
@@ -1072,9 +1060,4 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
 
         return career_df
 
-def main():
-    start_time = time.time()
-    print(get_career_stats("Jerrelle Benimon", "August 1, 1991", 'Totals'))
-    #print(get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_Minute'))
-    print("--- %s seconds ---" % (time.time() - start_time))
-#main()
+

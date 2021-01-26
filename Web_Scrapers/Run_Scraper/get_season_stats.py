@@ -1,12 +1,3 @@
-#####################################################
-# File:   get_team_stats.py
-# Author: Bryan Delas Penas 
-# Email:  bryan.delaspenas0405@gmail.com
-# Date:   12/21/2020
-# 
-# Description: 
-# This code gathers the season data for each team 
-import sys 
 import os
 import pathlib 
 from pathlib import Path
