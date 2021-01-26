@@ -701,7 +701,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         career_df['FGA'] = df['FGA'].sum()
 
         # Calc the FG%
-        if(df['FG'].sum == 0 or df['FGA'].sum == 0):
+        if(career_df['FG'].sum() == 0 or career_df['FGA'].sum() == 0):
             career_df['FG%'] = 0
         else:
             career_df['FG%'] = (df['FG'].sum() / df['FGA'].sum()) 
@@ -731,7 +731,10 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df['2P%'] = (df['2P'].sum() / df['2PA'].sum()) 
 
         # Get the effective FG%
-        career_df['eFG%'] = ((df['FG'].sum() + (0.5 * df['3P'].sum()) ) / df['FGA'].sum()) 
+        if(career_df['FGA'].sum() == 0):
+           career_df['eFG%'] = 0
+        else: 
+            career_df['eFG%'] = ((df['FG'].sum() + (0.5 * df['3P'].sum()) ) / df['FGA'].sum()) 
         
         # Get the FT 
         career_df['FT'] = df['FT'].sum()
@@ -857,7 +860,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         career_df = career_df.round(2)
         
         return career_df
-
+    
     elif(format == 'Adjusted Shooting'):
        
         career_df = career_df.drop(['Season', 'Age', 'Team', 'Team ABV', 'Team ID', 'League', 'Pos'], axis=1)
@@ -1010,8 +1013,10 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df['2P%'] = (df['2P'].mean() / df['2PA'].mean()) 
 
         # Get the effective FG%
-       
-        career_df['eFG%'] = ((df['FG'].mean() + (0.5 * df['3P'].mean()) ) / df['FGA'].mean()) 
+        if(career_df['FGA'].sum() == 0):
+           career_df['eFG%'] = 0
+        else: 
+            career_df['eFG%'] = ((df['FG'].sum() + (0.5 * df['3P'].sum()) ) / df['FGA'].sum()) 
        
         # Get the FT 
         career_df['FT'] = df['FT'].mean()
@@ -1060,7 +1065,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
         career_df = career_df.round(2)
-        
+      
         # Per Minute does not eFG% 
         if(format == 'Per_Minute' or format == 'Per_Poss'):
             career_df = career_df.drop(['eFG%'], axis=1)
@@ -1069,7 +1074,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
 
 def main():
     start_time = time.time()
-    print(get_career_stats("Tiny Archibald", "September 2, 1948", 'Per_Game'))
-    #print(get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Totals'))
+    print(get_career_stats("Jerrelle Benimon", "August 1, 1991", 'Totals'))
+    #print(get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", 'Per_Minute'))
     print("--- %s seconds ---" % (time.time() - start_time))
 #main()

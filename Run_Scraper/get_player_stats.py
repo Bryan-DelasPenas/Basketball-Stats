@@ -107,7 +107,7 @@ def get_player_csv():
 
 
     # Iterate through the list 
-    for i in range(len(record)):
+    for i in range(214, len(record)):
         print(i)
         print(record[i][0])
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
