@@ -2,25 +2,25 @@
 
 ## Season Stats Scraper
 ### `get_team_name(season)` 
-Parameters:
-    - `season` - NBA season(only from 1980 to current year)
-Returns:
-A Pandas Dataframe with the following columns 
+Parameters:<br>
+    - `season` - NBA season(only from 1980 to current year)<br>
+Returns:<br>
+A Pandas Dataframe with the following columns<br>
 ```
     ['Season', 'Team ID', 'Team', 'Team ABV'] 
 ```
-Where:
-    - `Season` is the NBA season
-    - `Team ID` is the unique int corresponding to a team
-    - `Team` is the name of the Team
-    - `Team ABV` is the team abbreviation
+Where:<br>
+    - `Season` is the NBA season<br>
+    - `Team ID` is the unique int corresponding to a team<br>
+    - `Team` is the name of the Team<br>
+    - `Team ABV` is the team abbreviation<br>
 
 ### `get_standings(season, data_format)`
-Parameters: 
-    `season`      - NBA season(only from 1980 to current year)
-    `data_format` - One of `'Expanded Standing' | 'Standard' |'Team_Vs_Team'` where default value is `Standard`
-Returns: 
-For `'Expanded Standings'` and `'season'` of 1980 and 1981, it will return a Pandas Dataframe with the following columns 
+Parameters:<br>
+    `season`      - NBA season(only from 1980 to current year)<br>
+    `data_format` - One of `'Expanded Standing' | 'Standard' |'Team_Vs_Team'` where default value is `Standard`<br>
+Returns:<br>
+For `'Expanded Standings'` and `'season'` of 1980 and 1981, it will return a Pandas Dataframe with the following columns
 ```
     ['Season', 'Team ID', 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record',
     'Atlantic Division Record', 'Central Division Record', 'Midwesterm Division Record', 'Pacific Division Record', 'Pre Allstar Record', 'Post Allstar Record',
