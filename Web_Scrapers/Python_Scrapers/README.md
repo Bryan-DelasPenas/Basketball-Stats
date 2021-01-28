@@ -186,7 +186,7 @@ A Pandas Dataframe with the following columns<br>
 For `'Advanced'` a Pandas Dataframe with the following columns<br>
 ```
     ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'MP', 'PER', 'TS%', '3PAr', 'FTr', 'ORB%', 'DRB%', 
-    'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%','USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
+    'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
 ```
 <strong>Where:</strong><br>
     - `Season` is the NBA season<br>
@@ -195,6 +195,30 @@ For `'Advanced'` a Pandas Dataframe with the following columns<br>
     - `Team ABV` is the team abbreviation<br>
     - `Team` is the name of the Team<br>
     - `Player` is the name of the player<br>
+    - `Age` is the age of the player<br>
+    - `G` is the amount of games played<br>
+    - `MP`is the amount of minutes played<br>
+    - `PER`is the measurment of a player's per-minute production<br>
+    - `TS%` is the measurement of shooting efficiency<br>
+    - `3PAr` is the percentage of FG Attempts from the 3 Point line<br>
+    - `FTr` is the number of FT Attempts per Field Goal Attempts<br>
+    - `ORB%` is an estimated percentage of available offensive rebounds a player takes when in game<br>
+    - `DRB%` is an estimated percentage of available defensive rebounds a player takes when in game<br>
+    - `TRB%` is an estimated percentage of available  rebounds a player takes when in game<br>
+    - `AST%` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
+    - `STL%` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
+    - `BLK%` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
+    - `TOV%` is an estimate of turnovers commited per 100 plays<br>
+    - `USG%` is an estimate of percentage of team plays used by a player while in game<br>
+    - `OWS` is an estimate of the number of wins contributed by a player due to his offense<br>
+    - `DWS` is an estimate of the number of wins contributed by a player due to his defense<br>
+    - `WS` is an estimate of the number of wins contributed by a player<br>
+    - `WS/48` is an estimate of the number of wins contributed by a player per 48 minute<br>
+    - `OBPM` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
+    - `DBPM` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
+    - `BPM` is a box score estimate of the points per 100 possessions a player contributed<br>
+    - `VORP` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
+
 
 #### Per_Game
 For `'Per_Game'` a Pandas Dataframe with the following columns<br>
@@ -274,6 +298,11 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
 ### `get_team_advanced(team, season)`
 
 ### `remove_char(string, postion)`
+<strong>Parameters:</strong><br>
+    - `string`   - a string that needs to have a char removes<br>
+    - `postion`  - a int that represents the index of the string<br>
+<strong>Returns:</strong><br>
+A sub-string of the orginal `string` that has a char removed at whatever `postion`<br>
 
 ## Player Stats Scraper 
 ### `check_abv(string)`
