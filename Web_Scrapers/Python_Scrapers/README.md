@@ -314,7 +314,7 @@ For `'Total'` a Pandas Dataframe with the following columns<br>
     '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
 ```
 <strong>Note:</strong><br>
-The following stats, Per_Game`, `Per_Poss`, and `Totals` all have the same columns<br>
+The following stats, `Per_Game`, `Per_Poss`, and `Totals` all have the same columns<br>
 <strong>Where:</strong><br>
     - `Season` is the NBA season<br>
     - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
