@@ -146,7 +146,7 @@ For `'Team vs Team`', it will return a Pandas Dataframe with the following colum
     - `Team ID` is the unique int corresponding to a team<br>
     - `Team ABV` is the team abbreviation<br>
     - `Team` is the name of the Team<br>
-    - 'ABV',....,'ABV' is all the teams for a given season in abbreviation form<br>
+    - `ABV,....,ABV` is all the teams for a given season in abbreviation form<br>
 
 ## Team Stats Scaper
 ### `get_roster(team, season)`
@@ -195,7 +195,7 @@ For `'Advanced'` a Pandas Dataframe with the following columns<br>
     - `Team ABV` is the team abbreviation<br>
     - `Team` is the name of the Team<br>
     - `Player` is the name of the player<br>
-    
+
 #### Per_Game
 For `'Per_Game'` a Pandas Dataframe with the following columns<br>
 ```
@@ -220,7 +220,7 @@ For `'Totals'` a Pandas Dataframe with the following columns<br>
     ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
     '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
 ```
-<strong>Where:</strong><br>
+<strong>Note:</strong><br>
 For the following stats `Per_Game`, `Per_Minute`, `Per_Poss` and `Totals` have almost identical columns except `Per_Game` & `Totals` have<br>
 ```
     ['eFG%]
@@ -229,6 +229,7 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
 ```
     ['Ortg', 'Drtg']
 ```
+<strong>Where:</strong><br>
     - `Season` is the NBA season<br>
     - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
     - `Player ID` is the unique int respective to it's column, corresponding to a player<br> 
