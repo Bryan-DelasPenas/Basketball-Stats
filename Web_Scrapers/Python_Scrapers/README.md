@@ -189,7 +189,13 @@ For `'Advanced'` a Pandas Dataframe with the following columns<br>
     'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%','USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
 ```
 <strong>Where:</strong><br>
-
+    - `Season` is the NBA season<br>
+    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
+    - `Player ID` is the unique int respective to it's column, corresponding to a player<br> 
+    - `Team ABV` is the team abbreviation<br>
+    - `Team` is the name of the Team<br>
+    - `Player` is the name of the player<br>
+    
 #### Per_Game
 For `'Per_Game'` a Pandas Dataframe with the following columns<br>
 ```
