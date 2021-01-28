@@ -289,11 +289,97 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
     - `Ortg` is the Offensive Rating<br>
     - `Drtg` is the Defensive Rating<br>
 
-### `get_team_stats(season, data_format)`
+### `get_team_stats_main(season, data_format)`
+<strong>Parameters:</strong><br>
+    - `season`      - NBA season(only from 1980 to current year)<br>
+    - `data format` - One of `'Per_Game' |'Per_Minute'| 'Totals'` where default value is `Per_Game`<br>
+<strong>Returns:</strong><br>
+
+#### Per Game
+For `'Per_Game'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'G', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+```
+#### Per Poss
+For `'Per_Poss'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'G', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+```
+#### Total
+For `'Total'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'G', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+```
+<strong>Note:</strong><br>
+The following stats, Per_Game`, `Per_Poss`, and `Totals` all have the same columns<br>
+<strong>Where:</strong><br>
+    - `Season` is the NBA season<br>
+    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
+    - `Team ABV` is the team abbreviation<br>
+    - `Team` is the name of the Team<br>
+    - `G` is the amount of games the player played<br>
+    - `MP` is the amount of minutes the player played<br>
+    - `FG` is the amount Field Goals made<br>
+    - `FGA` is the amount of Field Goals Attempted<br>
+    - `FG%` is the percentage of Field Goals Made / Field Goals Attempted<br>
+    - `3P` is the amount of 3 Point Shots Made<br>
+    - `3PA` is the amount of 3 Point Shots Attempted<br>
+    - `3P%` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
+    - `2P` is the amount of 2 Point Made<br>
+    - `2PA` is the amount of 2 Points Attempted<br>
+    - `2P%` is the percentage of 2 Point Made / 2 Points Attemped<br>
+    - `FT` is the amount of Free Throws Made<br>
+    - `FTA` is the amount of Free Throws Attempted<br>
+    - `FT%` is the percentage of Free Throws Made / Free Throws Attempted<br>
+    - `ORB` is the amount of Offensive Rebound<br>
+    - `DRB` is the amount of Defensive Rebound<br>
+    - `TRB` is the amount of Rebound<br>
+    - `AST` is the amount of Assist<br>
+    - `STL` is the amount of Steals<br>
+    - `BLK` is the amount of Blocks<br>
+    - `TOV` is the amount of Turn Overs<br>
+    - `PF` is the amount of Personal Fouls<br>
+    - `PTS` is the amount of Points Scored<br>
 
 ### `get_opp_stats(season, data_format)`
 
 ### `get_team_misc(season)`
+<strong>Parameters:</strong><br>
+    - `season` - NBA season(only from 1980 to current year)<br>
+<strong>Returns:</strong><br>
+A Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'Age', 'W', 'L', 'PW', 'PL', 'MOV', 'SOS', 'SRS', 'ORtg', 'DRtg', 'NRtg', 'Pace', 
+    'FTr', '3PAr', 'TS%', 'ORB%', 'DRB%', 'Arena', 'Attend.', 'Attend./G']
+```
+<strong>Where:</strong><br>
+    - `Season` is the NBA season<br>
+    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
+    - `Team ABV` is the team abbreviation<br>
+    - `Team` is the name of the Team<br>
+    - `Age` is the average age of the player<br>
+    - `W` is the amount of wins for a team<br>
+    - `L` is the amount of loses for a team<br>
+    - `PW` is the Pythagorean wins or expected wins based on points scored and allowed<br>
+    - `PL` is the Pythagorean loses or expected wins based on points scored and allowed<br>
+    - `MOV` is the margin of victory<br>
+    - `SOS` is the Strength of Schedule, a rating of how hard a schedule is<br>
+    - `SRS` is the Simple Rating System, a team rating that takes into account average point differential and strength of schedule<br>
+    - `ORtg` an estiamte of points scored by a team per 100 possessions<br>
+    - `DRtg` an estiamte of points allowed per 100 possessions<br>
+    - `NRtg` an estimate of points differential per 100 possessions<br>
+    - `Pace` an estimate of possessions per 48 minutes<br>
+    - `FTr` is the number of FT Attempts per FG Attempt<br>
+    - `3PAr` Percentage of FG Attempts from 3-Point Range<br>
+    - `TS%` is the measurement of shooting efficiency<br>
+    - `ORB%` is an estimated percentage of available offensive rebounds a player takes when in game<br>
+    - `DRB%` is an estimated percentage of available defensive rebounds a player takes when in game<br>
+    - `Arena` is the Area name for the team<br>
+    - `Attend.` is the amount of people who attend the Area the whole season<br>
+    - `Attend./G` is the average amount of people who attend a game<br>
 
 ### `get_team_advanced(team, season)`
 
@@ -302,7 +388,7 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
     - `string`   - a string that needs to have a char removes<br>
     - `postion`  - a int that represents the index of the string<br>
 <strong>Returns:</strong><br>
-A sub-string of the orginal `string` that has a char removed at whatever `postion`<br>
+A sub-string of the orginal `string` that has a char removed at whatever `postion` is<br>
 
 ## Player Stats Scraper 
 ### `check_abv(string)`

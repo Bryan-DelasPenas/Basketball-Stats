@@ -3,7 +3,7 @@ import os
 import pathlib 
 from pathlib import Path
 
-sys.path.append(str(pathlib.Path().absolute()) + + '\\Web_Scrapers' +'\\Python_Scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
 
 # Import modules 
 from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
@@ -459,47 +459,56 @@ def get_team_csv():
 
     #year = 1980
     # Iterate through 1980 to 2020
-    for year in range(2014, 2021):
+    for year in range(1980, 2021):
         print(year)
     
-        # Roster Non-Playoff stats
+        '''
+        # # Roster Non-Playoff stats
         csv_roster_stats(year, False, 'PER_GAME')
         csv_roster_stats(year, False, 'PER_POSS')
         csv_roster_stats(year, False, 'TOTALS')
         csv_roster_stats(year, False, 'PER_MINUTE')
         csv_roster_stats(year, False, 'ADVANCED')
+        '''
 
-        # Roster Playoff stats 
+        '''
+        # # Roster Playoff stats 
         csv_roster_stats(year, True, 'PER_GAME')
         csv_roster_stats(year, True, 'PER_POSS')
         csv_roster_stats(year, True, 'TOTALS')
         csv_roster_stats(year, True, 'PER_MINUTE')
         csv_roster_stats(year, True, 'ADVANCED')
-    
+        '''
+
+        '''
         # Roster Stats
         csv_team_roster(year)
+        '''
 
-        # '''
+        '''
         # Team Stats Main
         csv_team_stats_main(year, 'Per_Game')
         csv_team_stats_main(year, 'Per_Poss')
         csv_team_stats_main(year, 'Total')
+        '''
         csv_team_stats_main(year, 'Team_Misc')
-        # '''
+        
 
+        '''
         # Opponent Stats 
         csv_opponent_stats(year, 'PeR_GaMe')
         csv_opponent_stats(year, 'Per_Poss')
         csv_opponent_stats(year, 'Total')
-        
+        '''
+        '''
         # Team Stats Other
         csv_team_stats_other(year, 'Team_Advanced')
-
+        '''
 '''
 Main Function
 ''' 
 def main():
     get_team_csv()
     
-#if __name__ == "__main__":
+if __name__ == "__main__":
     main()

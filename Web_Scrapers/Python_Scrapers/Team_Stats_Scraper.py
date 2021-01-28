@@ -446,11 +446,11 @@ def get_team_misc(season):
         df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
-        # Drop rk(Rank) and Team 
-        df = df.drop(['Rk'], axis=1)
-
         # For some reason, there is duplicate column names, this code removes it 
         df = df.loc[:,~df.columns.duplicated()]
+
+        # Drop Not needed columns 
+        df = df.drop(['Rk', 'eFG%', 'TOV%', 'FT/FGA'], axis=1)
 
         # Rounds every entry to two decimal places
         df = df.round(2)
@@ -531,4 +531,3 @@ def remove_char(string, postion):
     # Returning string after removing 
     # nth indexed character. 
     return a + b 
-
