@@ -219,7 +219,6 @@ For `'Advanced'` a Pandas Dataframe with the following columns<br>
     - `BPM` is a box score estimate of the points per 100 possessions a player contributed<br>
     - `VORP` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
 
-
 #### Per_Game
 For `'Per_Game'` a Pandas Dataframe with the following columns<br>
 ```
@@ -345,6 +344,60 @@ The following stats, `Per_Game`, `Per_Poss`, and `Totals` all have the same colu
     - `PTS` is the amount of Points Scored<br>
 
 ### `get_opp_stats(season, data_format)`
+<strong>Parameters:</strong><br>
+    - `season`      - NBA season(only from 1980 to current year)<br>
+    - `data format` - One of `'Per_Game' |'Per_Minute'| 'Totals'` where default value is `Per_Game`<br>
+<strong>Returns:</strong><br>
+
+#### Per Game
+For `'Per_Game'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'G', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+```
+#### Per Poss
+For `'Per_Poss'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'G', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+```
+#### Total
+For `'Total'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'G', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+```
+<strong>Note:</strong><br>
+The following stats, `Per_Game`, `Per_Poss`, and `Totals` all have the same columns<br>
+<strong>Also, These are all opponent averages agaist a certain team</strong><br>
+<strong>Where:</strong><br>
+    - `Season` is the NBA season<br>
+    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
+    - `Team ABV` is the team abbreviation<br>
+    - `Team` is the name of the Team<br>
+    - `G` is the amount of games the player played<br>
+    - `MP` is the amount of minutes the player played<br>
+    - `FG` is the amount Field Goals made<br>
+    - `FGA` is the amount of Field Goals Attempted<br>
+    - `FG%` is the percentage of Field Goals Made / Field Goals Attempted<br>
+    - `3P` is the amount of 3 Point Shots Made<br>
+    - `3PA` is the amount of 3 Point Shots Attempted<br>
+    - `3P%` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
+    - `2P` is the amount of 2 Point Made<br>
+    - `2PA` is the amount of 2 Points Attempted<br>
+    - `2P%` is the percentage of 2 Point Made / 2 Points Attemped<br>
+    - `FT` is the amount of Free Throws Made<br>
+    - `FTA` is the amount of Free Throws Attempted<br>
+    - `FT%` is the percentage of Free Throws Made / Free Throws Attempted<br>
+    - `ORB` is the amount of Offensive Rebound<br>
+    - `DRB` is the amount of Defensive Rebound<br>
+    - `TRB` is the amount of Rebound<br>
+    - `AST` is the amount of Assist<br>
+    - `STL` is the amount of Steals<br>
+    - `BLK` is the amount of Blocks<br>
+    - `TOV` is the amount of Turn Overs<br>
+    - `PF` is the amount of Personal Fouls<br>
+    - `PTS` is the amount of Points Scored<br>
 
 ### `get_team_misc(season)`
 <strong>Parameters:</strong><br>
@@ -382,6 +435,33 @@ A Pandas Dataframe with the following columns<br>
     - `Attend./G` is the average amount of people who attend a game<br>
 
 ### `get_team_advanced(team, season)`
+<strong>Parameters:</strong><br>
+    - `team`   - A team in the NBA for that season, abbreviation<br>
+    - `season` - NBA season(only from 1980 to current year)<br>
+<strong>Returns:</strong><br>
+A pandas dataframe containing the following columns<br>
+```
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'W', 'L', 'W/L%', 'Finish', 'SRS', 'Pace', 'Rel Pace', 'ORtg', 'Rel ORtg', 'DRtg', 'Rel DRtg', 'Playoffs', 'Coaches', 'Top WS']
+```
+<strong>Where:</strong><br>
+    - `Season` is the NBA season<br>
+    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
+    - `Team ABV` is the team abbreviation<br>
+    - `Team` is the name of the Team<br>
+    - `W` is the amount of wins for a team<br>
+    - `L` is the amount of loses for a team<br>
+    - `W/L%` is the percentage of wins divided by loses<br>
+    - `Finish` is the Regular Season finish within the team's respective Division <br>
+    - `SRS` is the team rating determined by average point differential and strength of schedule<br>
+    - `Pace` an estimate of possessions per 48 minutes<br><br>
+    - `Rel Pace` an estimate of a Team's possessions per 48 minutes relative to the league<br>
+    - `ORtg` an estimate of <br>
+    - `Rel Ortg` is the Team's offensive rating relative to the league<br>
+    - `DRtg` an estiamte of points allowed per 100 possessions<br>
+    - `Rel DRtg` is the Team's defensive rating relative to the league<br>
+    - `Playoffs` is where the team was eliminated if they made the playoffs<br>
+    - `Coaches` is the coache of the team<br>
+    - `Top WS` is the player <br>
 
 ### `remove_char(string, postion)`
 <strong>Parameters:</strong><br>
@@ -390,42 +470,107 @@ A Pandas Dataframe with the following columns<br>
 <strong>Returns:</strong><br>
 A sub-string of the orginal `string` that has a char removed at whatever `postion` is<br>
 
+## Create Player Name
+### `player_names_csv()`
+<strong>Parameters:</strong><br>
+    - `None`
+<strong>Returns:</strong><br>
+None, creates a csv containing all Players active from 1980 - current year
+
 ## Player Stats Scraper 
 ### `check_abv(string)`
+<strong>Parameters:</strong><br>
+    - `string`   - a string that represent a team's abbreviation<br>
+<strong>Returns:</strong><br>
+Returns a `new_string`, which is a string value from `TEAM_TO_ABBRIVATION[string]`
 
 ### `check_team_id(name)`
+<strong>Parameters:</strong><br>
+    - `string`   - a string that represent a team's name<br>
+<strong>Returns:</strong><br>
+Returns a `new_num`, which is a int value from `TEAM_ID[name]`
 
 ### `get_player_name(letter)`
+<strong>Parameters:</strong><br>
+    - `string`   - Takes in a letter, iterated to get all players name in the English Alphabet<br>
+<strong>Returns:</strong><br>
+Creates a Pandas Dataframe containing the following columns
+```
+    ['Player', 'Birth Date']
+```
+<strong>Where:</strong><br>
+    - `Player` is the name of the player<br>
+    - `Birth Date` is the date of birth of the player<br>
 
 ### `create_player_suffix(name)`
+<strong>Parameters:</strong><br>
+    - `name`   - Takes in a player's name, first and last<br>
+<strong>Returns:</strong><br>
+Returns a string suffix of the player's first name and last<br> 
+<strong>Example:</strong> Nikola Jokic = jokicni<br>
 
 ### `get_player_suffix(name, birth_date)`
+<strong>Parameters:</strong><br>
+    - `name`      - Takes in the player's name, first and last<br>
+    - `birth_date - Takes in the player's date of birth<br>
+<strong>Returns:</strong><br>
+Returns a string suffix for the url of the player's page by calling `create_player_suffix` and adding 01. If not valid, iterate until 05<br>
+<strong>Example:</strong> Nikola Jokic = jokicni01<br>
 
 ### `get_player_stats(name, birth_date,format, playoffs)`
 
 ### `lookup(name, birth_date)`
+<strong>Parameters:</strong><br>
+    - `name`      - Takes in the player's name, first and last<br>
+    - `birth_date - Takes in the player's date of birth<br>
+<strong>Returns:</strong><br>
+Returns a tuple of `(name, birth_date)` if it exists in `player_names.csv`
 
 ### `get_career_stats(name, birth_date, format, playoffs)`
 
-## Create Player Name
-### `players_names_csv()`
-
 ## Team Constants 
 ### `TEAM_TO_ABBRIVATION`
+Is a dictonary that takes in a team name as a key and converts it into an abbreviation<br>
+<strong>Example</strong> `ATLANTA HAWKS` is converted into `ATL`<br>
 
 ### `ABV_TO_TEAM` 
+Is a dictonary that takes in an abbreviation as a key and converts it into a team name 
+<strong>Example:</strong> `ATL` is converted into `ATLANTA HAWKS`<br>
 
 ### `TEAM_ID`
+Is a dictonary that takes in an abbreviation as a key and converts it into a int corresponding to a unique nba franchise<br>
+<strong>Example:</strong> `CHO` is converted into `4`<br>
+<strong>Example:</strong> `CHA` is converted into `4`<br>
+They contain the same number as they are the same franchise but changed names over the years<br>
 
 ### `TEAM_DICT` 
+Is a dictonary that takes in old franchise abbreviation and converts it to its mondern day counter part<br>
+<strong>Example:</strong>'SEA' is converted into 'OKC'<br>
 
 ### `RIGHT_NAME_DICT` 
+Is a dictonary that takes in a string tuple `(player_name, birth_date)` that converts wrong names into the proper name<br>
+<strong>Example:</strong>'(Tim Hardaway, March 16, 1992)' is converted into `Tim Hardaway Jr.`<br>
 
 ### `get_player_id()`
+<strong>Parameters:</strong><br>
+    - `None`<br>
+<strong>Returns:</strong><br>
+None, it is a helper function for `PLAYER_ID`, as it inserts all key and values into the dictionary<br>
 
 ### `PLAYER_ID`
+Is a dictonary that takes in a NBA players `name` as a key and converts into a unique corresponding to the name
+<strong>Example:</strong>'Tim Hardaway` is converted to `1181`
 
 ## Utils
 ### `strip_accents(text)`
+    - `text` - Takes in a string, for the player's name<br>
+<strong>Returns:</strong><br>
+A `new_string` if the text contains special char or accent<br>
+This is used for the `get_roster`, as they have proper UTF-8 notation <br>
 
 ### `translate(name)`
+<strong>Parameters:</strong><br>
+    - `name` - Takes in a string, for the player's name<br>
+<strong>Returns:</strong><br>
+Creates a `new_string`, if `name` contains special or accented chars, remove it and replace it with english counter part<br>
+This is used for every other function concerning player name, as the UTF-8 when scraped, is incorect<br>
