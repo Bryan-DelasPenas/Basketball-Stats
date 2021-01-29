@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1998,12,280,IND,Indiana Pacers,24.0,NBA,PF,5.0,11.0,-10.3,0.0,0.0,0.0,23.1,41.7,32.8,12.3,0.0,12.9,42.9,30.3,,-0.2,0.0,-0.1,-0.52,,-22.7,-1.2,-23.9,-0.1
-1999,30,280,WAS,Washington Wizards,25.0,NBA,SF,2.0,4.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,0.0,0.0,0.0,-0.02,,-3.0,-1.6,-4.6,0.0
-2001,6,280,CLE,Cleveland Cavaliers,27.0,NBA,PF,6.0,19.0,22.4,0.69,0.0,1.0,18.3,24.3,21.3,0.0,0.0,7.7,14.8,16.1,,0.1,0.0,0.1,0.28,,1.0,0.7,1.7,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1998,12,280,IND,Indiana Pacers,24.0,NBA,PF,5.0,11.0,-10.3,0.0,0.0,0.0,23.1,41.7,32.8,12.3,0.0,12.9,42.9,30.3,-0.2,0.0,-0.1,-0.52,-22.7,-1.2,-23.9,-0.1
+1999,30,280,WAS,Washington Wizards,25.0,NBA,SF,2.0,4.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.02,-3.0,-1.6,-4.6,0.0
+2001,6,280,CLE,Cleveland Cavaliers,27.0,NBA,PF,6.0,19.0,22.4,0.69,0.0,1.0,18.3,24.3,21.3,0.0,0.0,7.7,14.8,16.1,0.1,0.0,0.1,0.28,1.0,0.7,1.7,0.0

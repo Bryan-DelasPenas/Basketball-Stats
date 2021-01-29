@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-2007,8,740,DEN,Denver Nuggets,24.0,NBA,SG,1.0,1.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,0.0,0.0,0.0,-0.02,,-3.9,-1.0,-4.9,0.0
-2008,8,740,DEN,Denver Nuggets,25.0,NBA,SG,3.0,8.0,8.8,0.4,0.4,0.0,0.0,13.8,6.6,0.0,0.0,0.0,0.0,25.9,,0.0,0.0,0.0,-0.09,,-2.4,-3.1,-5.5,0.0
-2009,16,740,MIA,Miami Heat,26.0,NBA,SF,5.0,21.0,2.8,0.26,0.33,0.67,0.0,28.0,15.0,0.0,2.8,0.0,0.0,9.5,,0.0,0.0,0.0,-0.01,,-7.9,1.7,-6.2,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2007,8,740,DEN,Denver Nuggets,24.0,NBA,SG,1.0,1.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.02,-3.9,-1.0,-4.9,0.0
+2008,8,740,DEN,Denver Nuggets,25.0,NBA,SG,3.0,8.0,8.8,0.4,0.4,0.0,0.0,13.8,6.6,0.0,0.0,0.0,0.0,25.9,0.0,0.0,0.0,-0.09,-2.4,-3.1,-5.5,0.0
+2009,16,740,MIA,Miami Heat,26.0,NBA,SF,5.0,21.0,2.8,0.26,0.33,0.67,0.0,28.0,15.0,0.0,2.8,0.0,0.0,9.5,0.0,0.0,0.0,-0.01,-7.9,1.7,-6.2,0.0

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1980,2,516,BOS,Boston Celtics,33.0,NBA,SG,60.0,523.0,7.8,0.4,0.03,0.22,6.7,8.8,7.8,9.3,2.8,1.2,13.7,18.3,,-0.4,0.8,0.4,0.03,,-4.3,1.2,-3.1,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,2.0,516,BOS,Boston Celtics,33.0,NBA,SG,60.0,523.0,7.8,0.4,0.03,0.22,6.7,8.8,7.8,9.3,2.8,1.2,13.7,18.3,-0.4,0.8,0.4,0.03,-4.3,1.2,-3.1,-0.1

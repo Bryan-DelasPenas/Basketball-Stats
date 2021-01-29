@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1984,21,1912,SEA,Seattle Supersonics,23.0,NBA,PF,47.0,520.0,8.7,0.45,0.0,0.41,9.9,15.2,12.6,10.8,1.0,2.0,19.2,14.1,,-0.2,0.5,0.3,0.03,,-3.5,0.4,-3.1,-0.1
-1985,21,1912,SEA,Seattle Supersonics,24.0,NBA,PF,6.0,93.0,4.8,0.64,0.0,0.4,7.5,13.7,10.6,9.8,0.5,1.8,46.0,9.8,,-0.1,0.1,0.0,-0.01,,-4.6,0.9,-3.7,0.0
-1987,6,1912,CLE,Cleveland Cavaliers,26.0,NBA,PF,24.0,279.0,8.7,0.48,0.0,0.63,7.4,15.0,11.2,11.1,1.5,0.8,22.4,15.4,,-0.2,0.3,0.1,0.02,,-3.2,0.8,-2.4,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1984,21,1912,SEA,Seattle Supersonics,23.0,NBA,PF,47.0,520.0,8.7,0.45,0.0,0.41,9.9,15.2,12.6,10.8,1.0,2.0,19.2,14.1,-0.2,0.5,0.3,0.03,-3.5,0.4,-3.1,-0.1
+1985,21,1912,SEA,Seattle Supersonics,24.0,NBA,PF,6.0,93.0,4.8,0.64,0.0,0.4,7.5,13.7,10.6,9.8,0.5,1.8,46.0,9.8,-0.1,0.1,0.0,-0.01,-4.6,0.9,-3.7,0.0
+1987,6,1912,CLE,Cleveland Cavaliers,26.0,NBA,PF,24.0,279.0,8.7,0.48,0.0,0.63,7.4,15.0,11.2,11.1,1.5,0.8,22.4,15.4,-0.2,0.3,0.1,0.02,-3.2,0.8,-2.4,0.0

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-2015,15,15,MEM,Memphis Grizzlies,20.0,NBA,SG,4,10,31.4,0.74,0.33,1.33,0.0,11.3,5.5,0.0,5.2,0.0,0.0,21.7,,0.1,0.0,0.1,0.33,,11.7,7.1,18.8,0.1
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2015,15,15,MEM,Memphis Grizzlies,20.0,NBA,SG,4,10,31.4,0.74,0.33,1.33,0.0,11.3,5.5,0.0,5.2,0.0,0.0,21.7,0.1,0.0,0.1,0.33,11.7,7.1,18.8,0.1

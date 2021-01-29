@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1999,14,1421,LAL,Los Angeles Lakers,23.0,NBA,PG,2.0,12.0,20.6,0.68,0.2,0.4,0.0,28.6,14.6,0.0,0.0,0.0,14.5,25.8,,0.0,0.0,0.0,0.18,,-4.0,-0.2,-4.2,0.0
-2001,18,1421,MIN,Minnesota Timberwolves,25.0,NBA,PG,14.0,59.0,10.7,0.52,0.0,0.17,5.8,5.9,5.8,10.6,2.7,0.0,0.0,14.8,,0.1,0.0,0.2,0.15,,-5.9,1.6,-4.3,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1999,14,1421,LAL,Los Angeles Lakers,23.0,NBA,PG,2.0,12.0,20.6,0.68,0.2,0.4,0.0,28.6,14.6,0.0,0.0,0.0,14.5,25.8,0.0,0.0,0.0,0.18,-4.0,-0.2,-4.2,0.0
+2001,18,1421,MIN,Minnesota Timberwolves,25.0,NBA,PG,14.0,59.0,10.7,0.52,0.0,0.17,5.8,5.9,5.8,10.6,2.7,0.0,0.0,14.8,0.1,0.0,0.2,0.15,-5.9,1.6,-4.3,0.0

@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1989,14,2454,LAL,Los Angeles Lakers,24.0,NBA,PG,47.0,440.0,9.8,0.48,0.05,0.34,3.5,7.1,5.4,30.4,2.5,1.2,30.3,18.9,,-0.5,0.5,0.0,0.0,,-2.9,-0.5,-3.4,-0.2
-1990,13,2454,LAC,Los Angeles Clippers,25.0,NBA,PG,52.0,724.0,9.9,0.47,0.02,0.4,4.8,8.6,6.7,29.4,2.1,0.0,27.6,18.4,,-0.8,0.6,-0.2,-0.01,,-2.8,-1.6,-4.3,-0.4
-1992,13,2454,LAC,Los Angeles Clippers,27.0,NBA,PG,15.0,122.0,7.6,0.43,0.03,0.37,9.1,8.3,8.7,22.6,2.9,0.5,32.8,18.1,,-0.3,0.2,-0.1,-0.04,,-4.8,0.4,-4.4,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1989,14,2454,LAL,Los Angeles Lakers,24.0,NBA,PG,47.0,440.0,9.8,0.48,0.05,0.34,3.5,7.1,5.4,30.4,2.5,1.2,30.3,18.9,-0.5,0.5,0.0,0.0,-2.9,-0.5,-3.4,-0.2
+1990,13,2454,LAC,Los Angeles Clippers,25.0,NBA,PG,52.0,724.0,9.9,0.47,0.02,0.4,4.8,8.6,6.7,29.4,2.1,0.0,27.6,18.4,-0.8,0.6,-0.2,-0.01,-2.8,-1.6,-4.3,-0.4
+1992,13,2454,LAC,Los Angeles Clippers,27.0,NBA,PG,15.0,122.0,7.6,0.43,0.03,0.37,9.1,8.3,8.7,22.6,2.9,0.5,32.8,18.1,-0.3,0.2,-0.1,-0.04,-4.8,0.4,-4.4,-0.1

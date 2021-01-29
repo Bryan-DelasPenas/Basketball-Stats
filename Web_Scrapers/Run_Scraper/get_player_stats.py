@@ -130,16 +130,18 @@ def get_player_csv():
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
         '''
+        csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
+        
         '''
         # Playoffs Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
         '''
+        csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
+        
         '''
         # Career Stats
         csv_career_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
@@ -148,14 +150,14 @@ def get_player_csv():
         csv_career_stats(record[i][0], record[i][1], 'Totals', False, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
         '''
-        #'''
+        '''
         # Playoffs Season Stat
         csv_career_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Totals', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
-        #'''
+        '''
 
 '''
 Main function
@@ -165,5 +167,6 @@ def main():
     start_time = time.time()
     #csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
     get_player_csv()
+    #csv_player_stats("A.C. Green", "October 4, 1963", 'Advanced', False, os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'A.C. Green'))
     print("--- %s seconds ---" % (time.time() - start_time))
 main()

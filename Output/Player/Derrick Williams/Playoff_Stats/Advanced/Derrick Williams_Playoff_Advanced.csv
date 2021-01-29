@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-2017,6,3133,CLE,Cleveland Cavaliers,25.0,NBA,PF,8.0,38.0,17.9,0.66,0.33,0.13,3.2,5.8,4.6,16.4,0.0,2.2,15.9,22.2,,0.1,0.0,0.1,0.12,,4.2,-0.8,3.4,0.1
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2017,6,3133,CLE,Cleveland Cavaliers,25.0,NBA,PF,8.0,38.0,17.9,0.66,0.33,0.13,3.2,5.8,4.6,16.4,0.0,2.2,15.9,22.2,0.1,0.0,0.1,0.12,4.2,-0.8,3.4,0.1

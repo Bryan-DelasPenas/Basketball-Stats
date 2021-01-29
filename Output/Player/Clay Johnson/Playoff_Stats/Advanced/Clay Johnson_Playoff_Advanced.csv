@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1982,14,1475,LAL,Los Angeles Lakers,25.0,NBA,SG,7.0,38.0,8.4,0.61,0.0,0.22,2.9,5.3,4.2,3.1,1.2,0.0,9.2,11.3,,0.1,0.0,0.1,0.1,,-1.6,-1.1,-2.7,0.0
-1983,14,1475,LAL,Los Angeles Lakers,26.0,NBA,SG,7.0,20.0,13.8,0.57,0.14,0.0,11.2,10.8,11.0,6.9,2.4,0.0,12.5,16.3,,0.0,0.0,0.0,0.1,,0.1,-0.3,-0.1,0.0
-1984,21,1475,SEA,Seattle Supersonics,27.0,NBA,SG,3.0,9.0,18.3,0.5,0.25,0.0,12.5,0.0,6.0,17.6,5.9,0.0,0.0,20.2,,0.0,0.0,0.0,0.2,,-1.7,5.4,3.7,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1982,14,1475,LAL,Los Angeles Lakers,25.0,NBA,SG,7.0,38.0,8.4,0.61,0.0,0.22,2.9,5.3,4.2,3.1,1.2,0.0,9.2,11.3,0.1,0.0,0.1,0.1,-1.6,-1.1,-2.7,0.0
+1983,14,1475,LAL,Los Angeles Lakers,26.0,NBA,SG,7.0,20.0,13.8,0.57,0.14,0.0,11.2,10.8,11.0,6.9,2.4,0.0,12.5,16.3,0.0,0.0,0.0,0.1,0.1,-0.3,-0.1,0.0
+1984,21,1475,SEA,Seattle Supersonics,27.0,NBA,SG,3.0,9.0,18.3,0.5,0.25,0.0,12.5,0.0,6.0,17.6,5.9,0.0,0.0,20.2,0.0,0.0,0.0,0.2,-1.7,5.4,3.7,0.0

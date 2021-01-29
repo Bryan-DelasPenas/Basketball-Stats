@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-2018,11,2374,HOU,Houston Rockets,22.0,NBA,C,3,6,16.3,1.0,0.0,0.0,0.0,18.7,9.2,0.0,0.0,0.0,0.0,7.5,,0.0,0.0,0.0,0.18,,2.1,2.5,4.6,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2018,11,2374,HOU,Houston Rockets,22.0,NBA,C,3,6,16.3,1.0,0.0,0.0,0.0,18.7,9.2,0.0,0.0,0.0,0.0,7.5,0.0,0.0,0.0,0.18,2.1,2.5,4.6,0.0

@@ -631,6 +631,11 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         # Drop Seasons that is before 1980
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
+        
+        #
+        if(format == "ADVANCED"):
+            df = df.drop(['Unnamed: 19', 'Unnamed: 24'], axis=1)
+        
         return df
 
 '''
@@ -1059,5 +1064,4 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df = career_df.drop(['eFG%'], axis=1)
 
         return career_df
-
 

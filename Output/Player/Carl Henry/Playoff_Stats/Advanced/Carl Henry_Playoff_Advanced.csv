@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1986,26,1258,SAC,Sacramento Kings,25.0,NBA,SG,1,2,61.3,1.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,,0.0,0.0,0.0,0.3,,46.5,10.0,56.4,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1986,26,1258,SAC,Sacramento Kings,25.0,NBA,SG,1,2,61.3,1.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.3,46.5,10.0,56.4,0.0

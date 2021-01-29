@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1987,7,1410,DAL,Dallas Mavericks,22.0,NBA,PG,8,22,10.6,0.44,0.0,0.89,5.0,9.6,7.4,33.5,2.2,0.0,28.5,32.4,,-0.1,0.0,0.0,-0.1,,-2.8,-2.8,-5.6,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1987,7,1410,DAL,Dallas Mavericks,22.0,NBA,PG,8,22,10.6,0.44,0.0,0.89,5.0,9.6,7.4,33.5,2.2,0.0,28.5,32.4,-0.1,0.0,0.0,-0.1,-2.8,-2.8,-5.6,0.0

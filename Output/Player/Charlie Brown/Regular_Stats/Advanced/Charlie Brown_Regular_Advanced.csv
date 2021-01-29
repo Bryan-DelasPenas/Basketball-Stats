@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-2020,1,371,ATL,Atlanta Hawks,22.0,NBA,SG,10,40,11.0,0.47,0.47,0.26,5.3,5.5,5.4,7.3,2.3,4.2,12.4,25.1,,0.0,0.0,0.0,-0.03,,-1.1,-1.4,-2.5,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,1,371,ATL,Atlanta Hawks,22.0,NBA,SG,10,40,11.0,0.47,0.47,0.26,5.3,5.5,5.4,7.3,2.3,4.2,12.4,25.1,0.0,0.0,0.0,-0.03,-1.1,-1.4,-2.5,0.0

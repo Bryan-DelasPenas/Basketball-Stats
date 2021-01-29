@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1990,17,1326,MIL,Milwaukee Bucks,24.0,NBA,C,2.0,2.0,39.2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.7,,0.0,0.0,0.0,0.29,,18.2,4.2,22.4,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1990,17,1326,MIL,Milwaukee Bucks,24.0,NBA,C,2.0,2.0,39.2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.7,0.0,0.0,0.0,0.29,18.2,4.2,22.4,0.0

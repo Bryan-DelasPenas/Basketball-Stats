@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-2007,11,1786,HOU,Houston Rockets,24.0,NBA,PG,2.0,8.0,-12.7,0.0,1.0,0.0,0.0,0.0,0.0,0.0,6.8,0.0,66.7,18.2,,-0.1,0.0,-0.1,-0.44,,-14.6,-0.1,-14.7,0.0
-2012,5,1786,CHI,Charlotte Bobcats,29.0,NBA,PG,5.0,94.0,11.8,0.53,0.32,0.05,2.4,5.7,4.1,18.5,0.0,0.0,12.8,23.2,,0.0,0.1,0.1,0.06,,1.6,-1.8,-0.2,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2007,11,1786,HOU,Houston Rockets,24.0,NBA,PG,2.0,8.0,-12.7,0.0,1.0,0.0,0.0,0.0,0.0,0.0,6.8,0.0,66.7,18.2,-0.1,0.0,-0.1,-0.44,-14.6,-0.1,-14.7,0.0
+2012,5,1786,CHI,Charlotte Bobcats,29.0,NBA,PG,5.0,94.0,11.8,0.53,0.32,0.05,2.4,5.7,4.1,18.5,0.0,0.0,12.8,23.2,0.0,0.1,0.1,0.06,1.6,-1.8,-0.2,0.0

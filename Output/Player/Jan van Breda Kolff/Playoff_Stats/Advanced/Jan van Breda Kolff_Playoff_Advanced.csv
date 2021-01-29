@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1982,3,2987,NJN,New Jersey Nets,30.0,NBA,SF,2.0,16.0,6.1,0.0,0.0,0.0,0.0,23.1,11.1,0.0,6.2,3.8,50.0,5.4,,0.0,0.0,0.0,-0.0,,-6.0,5.4,-0.6,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1982,3.0,2987,NJN,New Jersey Nets,30.0,NBA,SF,2.0,16.0,6.1,0.0,0.0,0.0,0.0,23.1,11.1,0.0,6.2,3.8,50.0,5.4,0.0,0.0,0.0,-0.0,-6.0,5.4,-0.6,0.0

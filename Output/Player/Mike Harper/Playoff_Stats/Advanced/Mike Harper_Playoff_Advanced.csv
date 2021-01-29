@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,Unnamed: 19,OWS,DWS,WS,WS/48,Unnamed: 24,OBPM,DBPM,BPM,VORP
-1981,25,1190,POR,Portland Trail Blazers,23.0,NBA,PF,1,6,24.3,1.04,0.0,1.0,0.0,19.9,9.6,0.0,0.0,0.0,0.0,10.3,,0.0,0.0,0.0,0.33,,6.0,1.0,7.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1981,25,1190,POR,Portland Trail Blazers,23.0,NBA,PF,1,6,24.3,1.04,0.0,1.0,0.0,19.9,9.6,0.0,0.0,0.0,0.0,10.3,0.0,0.0,0.0,0.33,6.0,1.0,7.0,0.0
