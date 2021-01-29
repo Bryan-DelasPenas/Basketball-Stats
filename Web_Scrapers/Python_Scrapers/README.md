@@ -2,6 +2,89 @@
 
 ## General Basketball Definitions 
 
+### Efficiency Stats
+<strong>Per-Game:</strong> is the amount of any catergory the player gets and divide by the amount of games played
+<strong>Per-Minute:</strong> Is calculated by the total of any category(points, rebounds, etc.) and divided by total minutes played. Common notion is 36 or 40 minute stats<br>
+<strong>Per-Possession:</strong> Instead of taking the number of minutes a player played to a 36 minute number, it compares the number of possessions a player was on the floor for the stat<br>
+<strong>Totals:</strong> Is the total amount of any category<br>
+
+### Equations 
+<strong>Assit Percentage</strong> or AST% =<br>
+```
+    100 * Assits / (((Minutes Played / (Team Minutes Played)) * Team Field Goals) - Field Goals)
+```
+<strong>Block Percentage</strong> or BLK% =<br>
+```
+    100 * (Block * (Team Minutes Played / 5)) / 
+    (Minutes Played * (Opponent Field Goals Attempts - Opponent 3 Points Attempts))
+```
+<strong>Defensive Rebound Percentage</strong> or DRB% =<br>
+```
+    100 * (Defensive Rebound * (Team Minutes Played / 5)) / 
+    (Minutes Played * (Team Defensive Rebound + Opponent Offensive Rebound))
+```
+<strong>Effective Field Goal Perventage</strong> or eFG% =<br>
+```
+    (Field Goals + 0.5 * 3 Points) / Field Goals Attempted
+```
+<strong>Games Behind</strong> or GB =<br>
+```
+    ((First Place Team Wins - Wins) + (Losses - First Place Team Losses)) / 2
+```
+<strong>Game Score</strong> or Game Score =<br>
+```
+    Points + 0.4 * Field Goals - 0.7 * Field Goals Attempts - 0.4*(Free Throw Attempt - Free Throw) + 0.7 * Offensive Rebounds 
+    + 0.3 * Defensive Rebounds + Steals + 0.7 * Assits + 0.7 * Block - 0.4 * Personal Foul - Turn Overs
+```
+<strong>Margin of Victory</strong> or MOV =<br>
+```
+    Points - Opponent Points
+```
+<strong>Offensive Rebound Percentage</strong> or ORB% =<br>
+```
+    100 * (Offensive Rebound * (Team Minutes Played / 5)) 
+    / (Minutes Played * (Team Offensive Rebound + Opponent Defensive Rebound))
+```
+<strong>Pace Factor</strong> or Pace =<br>
+```
+    48 * ((Team Possession + Opponent Possession) / (2 * (Team Minutes Played / 5)))
+```
+<strong>Possession</strong> or Poss =<br>
+```
+    0.5 * ((Team Field Goals Attempts + 0.4 * Team Free Throw Attempts - 1.07 * (Team Offensive Rebounds / (Team Offensive Rebounds + Opponnent Defensive Rebounds)) 
+    * (Team Field Goals Attempts - Team Field Goals) + Team Turnover) + (Opponent Field Goal Attempts + 0.4 * Opponent Free Throw Attempts - 1.07 * 
+    (Opponent Offensive Rebound / (Opponent Offensive + Team Defensive)) * (Opponent Field Goals Attempts - Opponnent Field Goals) + Opponent Turnover))
+```
+<strong>Steal Percentage</strong> or STL% =<br>
+```
+    100 * (Steal * (Team Minutes Played / 5)) / (Minutes Played * Opponent Possession)
+```
+<strong>Turnover Percentage</strong> or TOV% =<br>
+```
+    100 * Turnover / (Field Goals Attempts + 0.44 * Free Throw Attempts + Turnover)
+```
+<strong>Total Rebound Percentage</strong> or TRB% =<br>
+```
+    100 * (Total Rebound * (Team Minute Played / 5)) / (Minute Played * (Team Total Rebound + Opponent Total Rebound))
+```
+<strong>True Shooting Attempts:</strong> or TSA<br>
+```
+    (Field Goals Attempted + 0.44) / FTA
+```
+<strong>True Shooting:</strong> or TS% =<br>
+```
+    (Points) / (2 * True Shooting Attempts)
+```
+<strong>Usage Percentage</strong> or US% =<br>
+```
+    100 * ((Field Goals Attempted + 0.44 * Free Throw Attempted + Turn Overs) * (Team Minutes Played / 5)) 
+    / (Minutes Played * (Team Field Goals + 0.44 * Team Free Throw Attempts + Team Turn Overs))
+```
+<strong>Win-Lost Percentage</strong> or W/L% =<br>
+```
+    Wins / (Wins + Loses)
+```
+
 ## Season Stats Scraper
 ### `get_team_name(season)` 
 <strong>Parameters:</strong><br>
