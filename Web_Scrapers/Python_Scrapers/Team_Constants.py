@@ -216,6 +216,23 @@ RIGHT_PLAYER_SUFIX = {
     ("Metta World Peace", "November 13, 1979")       : "Ron Artes"
 }
 
+WRONG_NAME_LIST = [
+    "Kelly Oubre", 
+    "Derrick Jones", 
+    "Walt Lemon", 
+    "Horacio Llamas Grey",
+    "LaMark Baker", 
+    "Jeffery Taylor",  
+    "Luigi Datome", 
+    "James Webb",
+    "Dennis Smith",
+    "Frank Mason",
+    "Marvin Bagley",
+    "Troy Brown",
+    "Wendell Carter",
+    "Michael Porter"
+    ]
+
 '''
 Creates a dictionary with player name as key and value as a int
 '''

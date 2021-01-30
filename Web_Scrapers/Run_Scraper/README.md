@@ -93,7 +93,7 @@ Creates a sub directory named whatever `format` is inside of `Team_Averages` tha
 
 ### get_team_csv()
 <strong>Parameters:</strong><br>
-    `None`
+    `None`<br>
 </strong>Returns:</strong><br>
 Calls all functions above<br>
 
@@ -101,7 +101,7 @@ Calls all functions above<br>
 ### csv_player_stats(name, birth_date, format, playoff, player_path) 
 <strong>Parameters:</strong><br>
     - `name`       - a string represents name of the player<br>
-    - 'birth_date  - a string represents date of birth<br>
+    - 'birth_date` - a string represents date of birth<br>
     - `format`     - a string represents what format, it could be one of the following `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'`<br>
     - `playoff`    - a boolean that represents if getting playoff stats<br>
     - `player_path - a string represents file path for a player<br>

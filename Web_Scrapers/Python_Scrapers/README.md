@@ -818,7 +818,7 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
     - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
     - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
     - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
-    - `2P` - `Type: float`` is the amount of 2 Point Made<br>
+    - `2P` - `Type: float` is the amount of 2 Point Made<br>
     - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
     - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
     - `FT` - `Type: float` is the amount of Free Throws Made<br>
