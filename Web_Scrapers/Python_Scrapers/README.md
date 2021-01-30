@@ -836,26 +836,30 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
     
 ## Team Constants 
 ### `TEAM_TO_ABBRIVATION`
-Is a dictonary that takes in a team name as a key and converts it into an abbreviation<br>
+Is a dictionary that takes in a team name as a key and converts it into an abbreviation<br>
 <strong>Example</strong> `ATLANTA HAWKS` is converted into `ATL`<br>
 
 ### `ABV_TO_TEAM` 
-Is a dictonary that takes in an abbreviation as a key and converts it into a team name 
+Is a dictionary that takes in an abbreviation as a key and converts it into a team name 
 <strong>Example:</strong> `ATL` is converted into `ATLANTA HAWKS`<br>
 
 ### `TEAM_ID`
-Is a dictonary that takes in an abbreviation as a key and converts it into a int corresponding to a unique nba franchise<br>
+Is a dictionary that takes in an abbreviation as a key and converts it into a int corresponding to a unique nba franchise<br>
 <strong>Example:</strong> `CHO` is converted into `4`<br>
 <strong>Example:</strong> `CHA` is converted into `4`<br>
 They contain the same number as they are the same franchise but changed names over the years<br>
 
 ### `TEAM_DICT` 
-Is a dictonary that takes in old franchise abbreviation and converts it to its mondern day counter part<br>
+Is a dictionary that takes in old franchise abbreviation and converts it to its mondern day counter part<br>
 <strong>Example:</strong> `SEA` is converted into `OKC`<br>
 
 ### `RIGHT_NAME_DICT` 
-Is a dictonary that takes in a string tuple `(player_name, birth_date)` that converts wrong names into the proper name<br>
+Is a dictionary that takes in a string tuple `(player_name, birth_date)` that converts wrong names into the proper name<br>
 <strong>Example:</strong> `(Tim Hardaway, March 16, 1992)` is converted into `Tim Hardaway Jr.`<br>
+
+### `RIGHT_PLAYER_SUFIX`
+Is a dictionary that takes in a string tuple `(player_name, birth_date)` that converts wrong name's suffix into proper names that can become a proper suffix<br>
+<strong>Example:</strong> `(J.J. Barea, June 26, 1984)` is converted into `Jose Barea`
 
 ### `get_player_id()`
 <strong>Parameters:</strong><br>
@@ -864,7 +868,7 @@ Is a dictonary that takes in a string tuple `(player_name, birth_date)` that con
 None, it is a helper function for `PLAYER_ID`, as it inserts all key and values into the dictionary<br>
 
 ### `PLAYER_ID`
-Is a dictonary that takes in a NBA players `name` as a key and converts into a unique corresponding to the name
+Is a dictionary that takes in a NBA players `name` as a key and converts into a unique corresponding to the name
 <strong>Example:</strong> 'Tim Hardaway` is converted to `1181`
 
 ## Utils
