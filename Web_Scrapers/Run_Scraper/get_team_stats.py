@@ -457,9 +457,8 @@ def get_team_csv():
     directory_parent = "Team"
     create_output_directory(directory_parent)
 
-    #year = 1980
     # Iterate through 1980 to 2020
-    for year in range(2018, 2021):
+    for year in range(1980, 2021):
         print(year)
     
         #'''
@@ -480,30 +479,30 @@ def get_team_csv():
         csv_roster_stats(year, True, 'ADVANCED')
         #'''
 
-        '''
+        #'''
         # Roster Stats
         csv_team_roster(year)
-        '''
+        #'''
 
-        '''
+        #'''
         # Team Stats Main
         csv_team_stats_main(year, 'Per_Game')
         csv_team_stats_main(year, 'Per_Poss')
         csv_team_stats_main(year, 'Total')
-        '''
-        #csv_team_stats_main(year, 'Team_Misc')
+        #'''
+        csv_team_stats_main(year, 'Team_Misc')
         
 
-        '''
+        #'''
         # Opponent Stats 
         csv_opponent_stats(year, 'PeR_GaMe')
         csv_opponent_stats(year, 'Per_Poss')
         csv_opponent_stats(year, 'Total')
-        '''
-        '''
+        #'''
+        #'''
         # Team Stats Other
         csv_team_stats_other(year, 'Team_Advanced')
-        '''
+        #'''
 '''
 Main Function
 ''' 
