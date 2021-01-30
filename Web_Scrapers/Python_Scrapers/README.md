@@ -206,8 +206,8 @@ For `'Standard'`, it will return two Pandas Dataframe, for Eastern Conference an
     ['Season', 'Team ID' , 'Team ABV', 'Team', 'W', 'L', 'W/L%', 'GB', 'PS/G', 'PA/G', 'SRS']
 ```
 <strong>Where:</strong><br>
-    - `Season` - `Type: int`, is the NBA season<br>
-    - `Team ID` - `Type: int`, is the unique int corresponding to a team<br>
+    - `Season` - `Type: int` is the NBA season<br>
+    - `Team ID` - `Type: int` is the unique int corresponding to a team<br>
     - `Team` - `Type: string` is the name of the Team<br>
     - `Team ABV` - `Type: string` is the team abbreviation<br>
     - `W` - `Type: int` is the amount of wins a team has<br>
@@ -493,7 +493,7 @@ A Pandas Dataframe with the following columns<br>
     'FTr', '3PAr', 'TS%', 'ORB%', 'DRB%', 'Arena', 'Attend.', 'Attend./G']
 ```
 <strong>Where:</strong><br>
-   - `Season` - `Type: int`, is the NBA season<br>
+    - `Season` - `Type: int`, is the NBA season<br>
     - `Team ID` - `Type: int`, is the unique int corresponding to a team<br>
     - `Team ABV` - `Type: string` is the team abbreviation<br>
     - `Team` - `Type: string` is the name of the Team<br>
@@ -528,24 +528,24 @@ A pandas dataframe containing the following columns<br>
     ['Season', 'Team ID', 'Team ABV', 'Team', 'W', 'L', 'W/L%', 'Finish', 'SRS', 'Pace', 'Rel Pace', 'ORtg', 'Rel ORtg', 'DRtg', 'Rel DRtg', 'Playoffs', 'Coaches', 'Top WS']
 ```
 <strong>Where:</strong><br>
-    - `Season` is the NBA season<br>
-    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
-    - `Team ABV` is the team abbreviation<br>
-    - `Team` is the name of the Team<br>
-    - `W` is the amount of wins for a team<br>
-    - `L` is the amount of loses for a team<br>
-    - `W/L%` is the percentage of wins divided by loses<br>
-    - `Finish` is the Regular Season finish within the team's respective Division <br>
-    - `SRS` is the team rating determined by average point differential and strength of schedule<br>
-    - `Pace` an estimate of possessions per 48 minutes<br>
-    - `Rel Pace` an estimate of a Team's possessions per 48 minutes relative to the league<br>
-    - `ORtg` an estimate of <br>
-    - `Rel Ortg` is the Team's offensive rating relative to the league<br>
-    - `DRtg` an estiamte of points allowed per 100 possessions<br>
-    - `Rel DRtg` is the Team's defensive rating relative to the league<br>
-    - `Playoffs` is where the team was eliminated if they made the playoffs<br>
-    - `Coaches` is the coache of the team<br>
-    - `Top WS` is the player <br>
+    - `Season` - `Type: int` is the NBA season<br>
+    - `Team ID` - `Type: int` is the unique int corresponding to a team<br>
+    - `Team ABV` - `Type: string` is the team abbreviation<br>
+    - `Team` - `Type: string` is the name of the Team<br>
+    - `W` - `Type: int` is the amount of wins for a team<br>
+    - `L` - `Type: int` is the amount of loses for a team<br>
+    - `W/L%` - `Type: float` is the percentage of wins divided by loses<br>
+    - `Finish` - `Type: string` is the Regular Season finish within the team's respective Division <br>
+    - `SRS` - `Type: float` is the team rating determined by average point differential and strength of schedule<br>
+    - `Pace` - `Type: float` an estimate of possessions per 48 minutes<br>
+    - `Rel Pace` - `Type: float` an estimate of a Team's possessions per 48 minutes relative to the league<br>
+    - `ORtg` - `Type: float` an estimate of <br>
+    - `Rel Ortg` - `Type: float` is the Team's offensive rating relative to the league<br>
+    - `DRtg` - `Type: float` an estiamte of points allowed per 100 possessions<br>
+    - `Rel DRtg` - `Type: float` is the Team's defensive rating relative to the league<br>
+    - `Playoffs` - `Type: string` is where the team was eliminated if they made the playoffs<br>
+    - `Coaches` - `Type: string` is the coache of the team<br>
+    - `Top WS` - `Type: string` is the player <br>
 
 ### `remove_char(string, postion)`
 <strong>Parameters:</strong><br>
@@ -576,37 +576,37 @@ Returns a `new_num`, which is a int value from `TEAM_ID[name]`
 
 ### `get_player_name(letter)`
 <strong>Parameters:</strong><br>
-    - `string`   - Takes in a letter, iterated to get all players name in the English Alphabet<br>
+    - `string`   - Takes in a char, iterated to get all players name in the English Alphabet<br>
 <strong>Returns:</strong><br>
 Creates a Pandas Dataframe containing the following columns
 ```
     ['Player', 'Birth Date']
 ```
 <strong>Where:</strong><br>
-    - `Player` is the name of the player<br>
-    - `Birth Date` is the date of birth of the player<br>
+    - `Player` is a string that represents the name of the player<br>
+    - `Birth Date` is a string that represents the date of birth of the player<br>
 
 ### `create_player_suffix(name)`
 <strong>Parameters:</strong><br>
-    - `name`   - Takes in a player's name, first and last<br>
+    - `name`   - is a string that represents the player's name, first and last<br>
 <strong>Returns:</strong><br>
 Returns a string suffix of the player's first name and last<br> 
 <strong>Example:</strong> Nikola Jokic = jokicni<br>
 
 ### `get_player_suffix(name, birth_date)`
 <strong>Parameters:</strong><br>
-    - `name`      - Takes in the player's name, first and last<br>
-    - `birth_date - Takes in the player's date of birth<br>
+    - `name`      - is a string that represents the player's name, first and last<br>
+    - `birth_date - is a string that represents the player's date of birth<br>
 <strong>Returns:</strong><br>
 Returns a string suffix for the url of the player's page by calling `create_player_suffix` and adding 01. If not valid, iterate until 05<br>
 <strong>Example:</strong> Nikola Jokic = jokicni01<br>
 
 ### `get_player_stats(name, birth_date,format, playoffs)`
 <strong>Parameters:</strong><br>
-    - `team`        - is a team in the NBA, takes in a team's abbreviation form<br>
-    - `season`      - NBA season(only from 1980 to current year)<br>
-    - `playoffs`    - check if the regular season or playoffs<br>
-    - `data format` - One of `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
+    - `name`        - is a string that represents the player's name, first and last<br>
+    - `birth_date   - is a string that represents the player's date of birth<br>
+    - `playoffs`    - is a boolean that checks if the regular season or playoffs<br>
+    - `data format` - is a string that could be `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
 <strong>Returns:</strong><br>
 
 #### Advanced 
@@ -616,35 +616,35 @@ For `'Advanced'` a Pandas Dataframe with the following columns<br>
     'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
 ```
 <strong>Where:</strong><br>
-    - `Season` is the NBA season<br>
-    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
-    - `Player ID` is the unique int respective to it's column, corresponding to a player<br> 
-    - `Team ABV` is the team abbreviation<br>
-    - `Team` is the name of the Team<br>
-    - `Player` is the name of the player<br>
-    - `Age` is the age of the player<br>
-    - `G` is the amount of games played<br>
-    - `MP`is the amount of minutes played<br>
-    - `PER`is the measurment of a player's per-minute production<br>
-    - `TS%` is the measurement of shooting efficiency<br>
-    - `3PAr` is the percentage of FG Attempts from the 3 Point line<br>
-    - `FTr` is the number of FT Attempts per Field Goal Attempts<br>
-    - `ORB%` is an estimated percentage of available offensive rebounds a player takes when in game<br>
-    - `DRB%` is an estimated percentage of available defensive rebounds a player takes when in game<br>
-    - `TRB%` is an estimated percentage of available  rebounds a player takes when in game<br>
-    - `AST%` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
-    - `STL%` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
-    - `BLK%` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
-    - `TOV%` is an estimate of turnovers commited per 100 plays<br>
-    - `USG%` is an estimate of percentage of team plays used by a player while in game<br>
-    - `OWS` is an estimate of the number of wins contributed by a player due to his offense<br>
-    - `DWS` is an estimate of the number of wins contributed by a player due to his defense<br>
-    - `WS` is an estimate of the number of wins contributed by a player<br>
-    - `WS/48` is an estimate of the number of wins contributed by a player per 48 minute<br>
-    - `OBPM` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
-    - `DBPM` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
-    - `BPM` is a box score estimate of the points per 100 possessions a player contributed<br>
-    - `VORP` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
+    - `Season` - `Type: string` is the NBA season<br>
+    - `Team ID` - `Type: int` is the unique int respective to it's column, corresponding to a team<br>
+    - `Player ID` - `Type: int` is the unique int respective to it's column, corresponding to a player<br> 
+    - `Team ABV` - `Type: string` is the team abbreviation<br>
+    - `Team` - `Type: string` is the name of the Team<br>
+    - `Player` - `Type: string` is the name of the player<br>
+    - `Age` - `Type: int` is the age of the player<br>
+    - `G` - `Type: int` is the amount of games played<br>
+    - `MP` - `Type: int` is the amount of minutes played<br>
+    - `PER` - `Type: float` is the measurment of a player's per-minute production<br>
+    - `TS%` - `Type: float` is the measurement of shooting efficiency<br>
+    - `3PAr` - `Type: float` is the percentage of FG Attempts from the 3 Point line<br>
+    - `FTr` - `Type: float` is the number of FT Attempts per Field Goal Attempts<br>
+    - `ORB%` - `Type: float` is an estimated percentage of available offensive rebounds a player takes when in game<br>
+    - `DRB%` - `Type: float` is an estimated percentage of available defensive rebounds a player takes when in game<br>
+    - `TRB%` - `Type: float` is an estimated percentage of available  rebounds a player takes when in game<br>
+    - `AST%` - `Type: float` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
+    - `STL%` - `Type: float` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
+    - `BLK%` - `Type: float` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
+    - `TOV%` - `Type: float` is an estimate of turnovers commited per 100 plays<br>
+    - `USG%` - `Type: float` is an estimate of percentage of team plays used by a player while in game<br>
+    - `OWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his offense<br>
+    - `DWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his defense<br>
+    - `WS` - `Type: float` is an estimate of the number of wins contributed by a player<br>
+    - `WS/48` - `Type: float` is an estimate of the number of wins contributed by a player per 48 minute<br>
+    - `OBPM` - `Type: float` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
+    - `DBPM` - `Type: float` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
+    - `BPM` - `Type: float` is a box score estimate of the points per 100 possessions a player contributed<br>
+    - `VORP` - `Type: float` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
 
 #### Per_Game
 For `'Per_Game'` a Pandas Dataframe with the following columns<br>
@@ -687,47 +687,44 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
     - `Team` is the name of the Team<br>
     - `Player` is the name of the player <br>
     - `Age` is the age of the player<br>
-    - `G` is the amount of games the player played<br>
-    - `GS` is the amount of games the player started<br>
-    - `MP` is the amount of minutes the player played<br>
-    - `FG` is the amount Field Goals made<br>
-    - `FGA` is the amount of Field Goals Attempted<br>
-    - `FG%` is the percentage of Field Goals Made / Field Goals Attempted<br>
-    - `3P` is the amount of 3 Point Shots Made<br>
-    - `3PA` is the amount of 3 Point Shots Attempted<br>
-    - `3P%` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
-    - `2P` is the amount of 2 Point Made<br>
-    - `2PA` is the amount of 2 Points Attempted<br>
-    - `2P%` is the percentage of 2 Point Made / 2 Points Attemped<br>
-    - `eFG%` is the percentage calculated by (FG + 0.5 * 3P) / FGA.<br>
-    - `FT` is the amount of Free Throws Made<br>
-    - `FTA` is the amount of Free Throws Attempted<br>
-    - `FT%` is the percentage of Free Throws Made / Free Throws Attempted<br>
-    - `ORB` is the amount of Offensive Rebound<br>
-    - `DRB` is the amount of Defensive Rebound<br>
-    - `TRB` is the amount of Rebound<br>
-    - `AST` is the amount of Assist<br>
-    - `STL` is the amount of Steals<br>
-    - `BLK` is the amount of Blocks<br>
-    - `TOV` is the amount of Turn Overs<br>
-    - `PF` is the amount of Personal Fouls<br>
-    - `PTS` is the amount of Points Scored<br>
-    - `Ortg` is the Offensive Rating<br>
-    - `Drtg` is the Defensive Rating<br>
+    - `G` - `Type: int` is the amount of games the player played<br>
+    - `GS` - `Type: int` is the amount of games the player started<br>
+    - `MP` - `Type: float` is the amount of minutes the player played<br>
+    - `FG` - `Type: float` is the amount Field Goals made<br>
+    - `FGA` - `Type: float` is the amount of Field Goals Attempted<br>
+    - `FG%` - `Type: float` is the percentage of Field Goals Made / Field Goals Attempted<br>
+    - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
+    - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
+    - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
+    - `2P` - `Type: float`` is the amount of 2 Point Made<br>
+    - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
+    - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
+    - `FT` - `Type: float` is the amount of Free Throws Made<br>
+    - `FTA` - `Type: float` is the amount of Free Throws Attempted<br>
+    - `FT%` - `Type: float` is the percentage of Free Throws Made / Free Throws Attempted<br>
+    - `ORB` - `Type: float` is the amount of Offensive Rebound<br>
+    - `DRB` - `Type: float` is the amount of Defensive Rebound<br>
+    - `TRB` - `Type: float` is the amount of Rebound<br>
+    - `AST` - `Type: float` is the amount of Assist<br>
+    - `STL` - `Type: float` is the amount of Steals<br>
+    - `BLK` - `Type: float` is the amount of Blocks<br>
+    - `TOV` - `Type: float` is the amount of Turn Overs<br>
+    - `PF` - `Type: float` is the amount of Personal Fouls<br>
+    - `PTS` - `Type: float` is the amount of Points Scored<br>
 
 ### `lookup(name, birth_date)`
 <strong>Parameters:</strong><br>
-    - `name`      - Takes in the player's name, first and last<br>
-    - `birth_date - Takes in the player's date of birth<br>
+    - `name`      - Takes in a string that represents the player's name, first and last<br>
+    - `birth_date - Takes in a string that represents the player's date of birth<br>
 <strong>Returns:</strong><br>
 Returns a tuple of `(name, birth_date)` if it exists in `player_names.csv`<br>
 
 ### `get_career_stats(name, birth_date, format, playoffs)`
 <strong>Parameters:</strong><br>
-    - `team`        - is a team in the NBA, takes in a team's abbreviation form<br>
-    - `season`      - NBA season(only from 1980 to current year)<br>
-    - `playoffs`    - check if the regular season or playoffs<br>
-    - `data format` - One of `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
+    - `name`        - is a string that represents the player's name, first and last<br>
+    - `birth_date   - is a string that represents the player's date of birth<br>
+    - `playoffs`    - is a boolean that checks if the regular season or playoffs<br>
+    - `data format` - is a string that could be `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
 <strong>Returns:</strong><br>
 
 <strong>Note:</strong><br>
@@ -741,35 +738,35 @@ For `'Advanced'` a Pandas Dataframe with the following columns<br>
     'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
 ```
 <strong>Where:</strong><br>
-    - `Season` is the NBA season<br>
-    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
-    - `Player ID` is the unique int respective to it's column, corresponding to a player<br> 
-    - `Team ABV` is the team abbreviation<br>
-    - `Team` is the name of the Team<br>
-    - `Player` is the name of the player<br>
-    - `Age` is the age of the player<br>
-    - `G` is the amount of games played<br>
-    - `MP`is the amount of minutes played<br>
-    - `PER`is the measurment of a player's per-minute production<br>
-    - `TS%` is the measurement of shooting efficiency<br>
-    - `3PAr` is the percentage of FG Attempts from the 3 Point line<br>
-    - `FTr` is the number of FT Attempts per Field Goal Attempts<br>
-    - `ORB%` is an estimated percentage of available offensive rebounds a player takes when in game<br>
-    - `DRB%` is an estimated percentage of available defensive rebounds a player takes when in game<br>
-    - `TRB%` is an estimated percentage of available  rebounds a player takes when in game<br>
-    - `AST%` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
-    - `STL%` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
-    - `BLK%` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
-    - `TOV%` is an estimate of turnovers commited per 100 plays<br>
-    - `USG%` is an estimate of percentage of team plays used by a player while in game<br>
-    - `OWS` is an estimate of the number of wins contributed by a player due to his offense<br>
-    - `DWS` is an estimate of the number of wins contributed by a player due to his defense<br>
-    - `WS` is an estimate of the number of wins contributed by a player<br>
-    - `WS/48` is an estimate of the number of wins contributed by a player per 48 minute<br>
-    - `OBPM` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
-    - `DBPM` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
-    - `BPM` is a box score estimate of the points per 100 possessions a player contributed<br>
-    - `VORP` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
+    - `Season` - `Type: string` is the NBA season<br>
+    - `Team ID` - `Type: int` is the unique int respective to it's column, corresponding to a team<br>
+    - `Player ID` - `Type: int` is the unique int respective to it's column, corresponding to a player<br> 
+    - `Team ABV` - `Type: string` is the team abbreviation<br>
+    - `Team` - `Type: string` is the name of the Team<br>
+    - `Player` - `Type: string` is the name of the player<br>
+    - `Age` - `Type: int` is the age of the player<br>
+    - `G` - `Type: int` is the amount of games played<br>
+    - `MP` - `Type: int` is the amount of minutes played<br>
+    - `PER` - `Type: float` is the measurment of a player's per-minute production<br>
+    - `TS%` - `Type: float` is the measurement of shooting efficiency<br>
+    - `3PAr` - `Type: float` is the percentage of FG Attempts from the 3 Point line<br>
+    - `FTr` - `Type: float` is the number of FT Attempts per Field Goal Attempts<br>
+    - `ORB%` - `Type: float` is an estimated percentage of available offensive rebounds a player takes when in game<br>
+    - `DRB%` - `Type: float` is an estimated percentage of available defensive rebounds a player takes when in game<br>
+    - `TRB%` - `Type: float` is an estimated percentage of available  rebounds a player takes when in game<br>
+    - `AST%` - `Type: float` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
+    - `STL%` - `Type: float` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
+    - `BLK%` - `Type: float` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
+    - `TOV%` - `Type: float` is an estimate of turnovers commited per 100 plays<br>
+    - `USG%` - `Type: float` is an estimate of percentage of team plays used by a player while in game<br>
+    - `OWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his offense<br>
+    - `DWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his defense<br>
+    - `WS` - `Type: float` is an estimate of the number of wins contributed by a player<br>
+    - `WS/48` - `Type: float` is an estimate of the number of wins contributed by a player per 48 minute<br>
+    - `OBPM` - `Type: float` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
+    - `DBPM` - `Type: float` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
+    - `BPM` - `Type: float` is a box score estimate of the points per 100 possessions a player contributed<br>
+    - `VORP` - `Type: float` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
 
 #### Per_Game
 For `'Per_Game'` a Pandas Dataframe with the following columns<br>
@@ -812,34 +809,31 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
     - `Team` is the name of the Team<br>
     - `Player` is the name of the player <br>
     - `Age` is the age of the player<br>
-    - `G` is the amount of games the player played<br>
-    - `GS` is the amount of games the player started<br>
-    - `MP` is the amount of minutes the player played<br>
-    - `FG` is the amount Field Goals made<br>
-    - `FGA` is the amount of Field Goals Attempted<br>
-    - `FG%` is the percentage of Field Goals Made / Field Goals Attempted<br>
-    - `3P` is the amount of 3 Point Shots Made<br>
-    - `3PA` is the amount of 3 Point Shots Attempted<br>
-    - `3P%` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
-    - `2P` is the amount of 2 Point Made<br>
-    - `2PA` is the amount of 2 Points Attempted<br>
-    - `2P%` is the percentage of 2 Point Made / 2 Points Attemped<br>
-    - `eFG%` is the percentage calculated by (FG + 0.5 * 3P) / FGA.<br>
-    - `FT` is the amount of Free Throws Made<br>
-    - `FTA` is the amount of Free Throws Attempted<br>
-    - `FT%` is the percentage of Free Throws Made / Free Throws Attempted<br>
-    - `ORB` is the amount of Offensive Rebound<br>
-    - `DRB` is the amount of Defensive Rebound<br>
-    - `TRB` is the amount of Rebound<br>
-    - `AST` is the amount of Assist<br>
-    - `STL` is the amount of Steals<br>
-    - `BLK` is the amount of Blocks<br>
-    - `TOV` is the amount of Turn Overs<br>
-    - `PF` is the amount of Personal Fouls<br>
-    - `PTS` is the amount of Points Scored<br>
-    - `Ortg` is the Offensive Rating<br>
-    - `Drtg` is the Defensive Rating<br>
-
+    - `G` - `Type: int` is the amount of games the player played<br>
+    - `GS` - `Type: int` is the amount of games the player started<br>
+    - `MP` - `Type: float` is the amount of minutes the player played<br>
+    - `FG` - `Type: float` is the amount Field Goals made<br>
+    - `FGA` - `Type: float` is the amount of Field Goals Attempted<br>
+    - `FG%` - `Type: float` is the percentage of Field Goals Made / Field Goals Attempted<br>
+    - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
+    - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
+    - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
+    - `2P` - `Type: float`` is the amount of 2 Point Made<br>
+    - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
+    - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
+    - `FT` - `Type: float` is the amount of Free Throws Made<br>
+    - `FTA` - `Type: float` is the amount of Free Throws Attempted<br>
+    - `FT%` - `Type: float` is the percentage of Free Throws Made / Free Throws Attempted<br>
+    - `ORB` - `Type: float` is the amount of Offensive Rebound<br>
+    - `DRB` - `Type: float` is the amount of Defensive Rebound<br>
+    - `TRB` - `Type: float` is the amount of Rebound<br>
+    - `AST` - `Type: float` is the amount of Assist<br>
+    - `STL` - `Type: float` is the amount of Steals<br>
+    - `BLK` - `Type: float` is the amount of Blocks<br>
+    - `TOV` - `Type: float` is the amount of Turn Overs<br>
+    - `PF` - `Type: float` is the amount of Personal Fouls<br>
+    - `PTS` - `Type: float` is the amount of Points Scored<br>
+    
 ## Team Constants 
 ### `TEAM_TO_ABBRIVATION`
 Is a dictonary that takes in a team name as a key and converts it into an abbreviation<br>

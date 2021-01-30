@@ -20,7 +20,7 @@ def strip_accents(text):
     elif('Aleksandar' in text and 'or' in text):
         text = 'Aleksandar Djordjevic'
 
-    elif("Mer " in text and 'ik' in text):
+    elif("mer " in text and 'k' in text and 'A' in text):
         text = 'Omer Asik'
         return text
     try:
@@ -168,7 +168,6 @@ def translate(name):
             name = "Sergio Rodriguez"
     elif('Dario' in name and 'ari' in name):
             name = 'Dario Saric'
-
 
     # Iterate through the list and change char 
     if any(x in name for x in special_char):

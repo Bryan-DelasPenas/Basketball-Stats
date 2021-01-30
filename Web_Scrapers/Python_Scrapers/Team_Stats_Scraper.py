@@ -45,7 +45,6 @@ def get_roster(team, season, orginal = False):
         # Removes accents 
         df['Player'] = df['Player'].apply(lambda name: strip_accents(name))
 
-        
         # Rearranges the elements
         df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
         df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
@@ -57,22 +56,22 @@ def get_roster(team, season, orginal = False):
         df['Nationality'] = df['Nationality'].str.upper()
         
         players = df.values.tolist()
-            
+      
         # Iterate through Players 
         if(orginal == False):
             for x in range(len(players)):
-                    
+                        
                 name_tuple = (players[x][5], players[x][9])
-                
+                    
                 if(name_tuple in RIGHT_NAME_DICT):
-                
+                    
                     players[x][5] = RIGHT_NAME_DICT[name_tuple]
-
+              
         # Remake the dataframe with proper names
         final_df = pd.DataFrame(players, columns=['Season', 'Team ID', 'Team ABV', 'Team', 'Number', 'Player', 'Pos', 'Height', 'Weight', 'Birth Date', 
                                                   'Nationality', 'Experience', 'College'])
 
-        final_df['Player ID'] = final_df['Player'].apply(lambda x: PLAYER_ID[x])
+        final_df['Player ID'] = final_df['Player'].apply(lambda x: 0 if (x == "Kelly Oubre" or "Derrick Jones" or "Walt Lemon") else PLAYER_ID[x])
 
         # Rearranges the elements
         final_df = final_df[ ['Team'] + [ col for col in  final_df.columns if col != 'Team' ] ]
@@ -185,19 +184,19 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
           
             # Drop unneed compares for roster df
             df_roster = df_roster.drop(['Season', 'Team ID', 'Team', 'Team ABV', 'Number', 'Pos', 'Height', 'Weight', 'Nationality', 'Experience', 'College'], axis=1)
-            print(df_roster)
-            print(df)
+           
             if(data_format != 'adjusted'):
                 # Merge the two dfs 
                 df_merge = pd.merge(df, df_roster, how='right', on=['Player'])
-            
+                 
                 # Move Player ID to be 3rd
                 df_merge = df_merge[ ['Team'] + [ col for col in df_merge.columns if col != 'Team' ] ]
                 df_merge = df_merge[ ['Team ABV'] + [ col for col in df_merge.columns if col != 'Team ABV' ] ]
                 df_merge = df_merge[ ['Player ID'] + [ col for col in df_merge.columns if col != 'Player ID' ] ]
                 df_merge = df_merge[ ['Team ID'] + [ col for col in df_merge.columns if col != 'Team ID' ] ]
                 df_merge = df_merge[ ['Season'] + [ col for col in df_merge.columns if col != 'Season' ] ]
-        
+                df_merge = df_merge.sort_values('Player')
+                
                 players = df_merge.values.tolist()
                 for x in range(len(players)):
                     
@@ -236,11 +235,11 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
 
                 # Check format as they all have different columns
                 if(data_format == 'per_game'):
-                        final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+                    final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
                                                                 '3P', '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 
                                                                 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Birth Date'])
-                        # Drop Birth Date
-                        final_df = final_df.drop(['Birth Date'],axis=1)
+                    # Drop Birth Date
+                    final_df = final_df.drop(['Birth Date'],axis=1)
 
                 elif(data_format == 'totals'):
                     final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Player ID','Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
@@ -543,5 +542,5 @@ def remove_char(string, postion):
     return a + b 
 
 def main():
-    print(get_roster_stats('DAL',2020, False, 'Advanced'))
-main()
+    (get_roster_stats('WAS', 2016))
+#main()

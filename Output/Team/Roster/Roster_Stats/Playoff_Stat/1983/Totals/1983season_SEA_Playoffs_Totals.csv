@@ -1,11 +1,11 @@
 Season,Team ID,Player ID,Team ABV,Team,Player,Age,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1983,21,SEA,Seattle Supersonics,Gus Williams,29,2,,81,26,47,0.55,0,2,0.0,26,45,0.58,0.55,13,15,0.87,4,3,7,8,5,0,6,5,65,3140
-1983,21,SEA,Seattle Supersonics,Jack Sikma,27,2,,75,11,31,0.36,0,1,0.0,11,30,0.37,0.36,8,12,0.67,6,20,26,11,2,2,5,7,30,2625
-1983,21,SEA,Seattle Supersonics,David Thompson,28,2,,65,9,25,0.36,0,0,,9,25,0.36,0.36,6,10,0.6,0,0,0,7,1,1,4,7,24,2865
-1983,21,SEA,Seattle Supersonics,Danny Vranes,24,2,,56,6,17,0.35,0,0,,6,17,0.35,0.35,0,0,,9,10,19,1,0,1,1,7,12,2980
-1983,21,SEA,Seattle Supersonics,Lonnie Shelton,27,2,,53,4,23,0.17,0,3,0.0,4,20,0.2,0.17,2,5,0.4,13,8,21,5,1,0,2,7,10,2612
-1983,21,SEA,Seattle Supersonics,James Donaldson,25,2,,47,11,22,0.5,0,0,,11,22,0.5,0.5,2,3,0.67,5,12,17,2,0,3,0,4,24,756
-1983,21,SEA,Seattle Supersonics,Steve Hawes,32,2,,35,5,10,0.5,0,0,,5,10,0.5,0.5,2,3,0.67,1,5,6,2,0,0,3,8,12,1227
-1983,21,SEA,Seattle Supersonics,Fred Brown,34,2,,30,2,9,0.22,0,0,,2,9,0.22,0.22,2,2,1.0,0,3,3,5,1,0,0,3,6,379
-1983,21,SEA,Seattle Supersonics,Greg Kelser,25,2,,19,2,5,0.4,0,0,,2,5,0.4,0.4,0,0,,3,3,6,1,1,0,0,4,4,1591
-1983,21,SEA,Seattle Supersonics,Phil Smith,30,2,,19,3,6,0.5,0,0,,3,6,0.5,0.5,0,0,,0,3,3,1,0,0,2,1,6,2697
+1983,21,3140,SEA,Seattle Supersonics,Gus Williams,29,2,,81,26,47,0.55,0,2,0.0,26,45,0.58,0.55,13,15,0.87,4,3,7,8,5,0,6,5,65
+1983,21,2625,SEA,Seattle Supersonics,Jack Sikma,27,2,,75,11,31,0.36,0,1,0.0,11,30,0.37,0.36,8,12,0.67,6,20,26,11,2,2,5,7,30
+1983,21,2865,SEA,Seattle Supersonics,David Thompson,28,2,,65,9,25,0.36,0,0,,9,25,0.36,0.36,6,10,0.6,0,0,0,7,1,1,4,7,24
+1983,21,2980,SEA,Seattle Supersonics,Danny Vranes,24,2,,56,6,17,0.35,0,0,,6,17,0.35,0.35,0,0,,9,10,19,1,0,1,1,7,12
+1983,21,2612,SEA,Seattle Supersonics,Lonnie Shelton,27,2,,53,4,23,0.17,0,3,0.0,4,20,0.2,0.17,2,5,0.4,13,8,21,5,1,0,2,7,10
+1983,21,756,SEA,Seattle Supersonics,James Donaldson,25,2,,47,11,22,0.5,0,0,,11,22,0.5,0.5,2,3,0.67,5,12,17,2,0,3,0,4,24
+1983,21,1227,SEA,Seattle Supersonics,Steve Hawes,32,2,,35,5,10,0.5,0,0,,5,10,0.5,0.5,2,3,0.67,1,5,6,2,0,0,3,8,12
+1983,21,379,SEA,Seattle Supersonics,Fred Brown,34,2,,30,2,9,0.22,0,0,,2,9,0.22,0.22,2,2,1.0,0,3,3,5,1,0,0,3,6
+1983,21,1591,SEA,Seattle Supersonics,Greg Kelser,25,2,,19,2,5,0.4,0,0,,2,5,0.4,0.4,0,0,,3,3,6,1,1,0,0,4,4
+1983,21,2697,SEA,Seattle Supersonics,Phil Smith,30,2,,19,3,6,0.5,0,0,,3,6,0.5,0.5,0,0,,0,3,3,1,0,0,2,1,6
