@@ -312,6 +312,3 @@ def get_standings(season, data_format = 'standard'):
        
         else: 
             print('Error 404: Page could not be found')
-
-
-

@@ -11,7 +11,7 @@ from utils import strip_accents, translate
 '''
 Create a dataframe for team roster
 '''
-def get_roster(team, season):
+def get_roster(team, season, orginal = False):
     # Get the url of the page for starting purposes,
     page = get(f'https://www.basketball-reference.com/teams/{team}/{season}.html')
 
@@ -59,13 +59,14 @@ def get_roster(team, season):
         players = df.values.tolist()
             
         # Iterate through Players 
-        for x in range(len(players)):
+        if(orginal == False):
+            for x in range(len(players)):
+                    
+                name_tuple = (players[x][5], players[x][9])
                 
-            name_tuple = (players[x][5], players[x][9])
-            
-            if(name_tuple in RIGHT_NAME_DICT):
-               
-                players[x][5] = RIGHT_NAME_DICT[name_tuple]
+                if(name_tuple in RIGHT_NAME_DICT):
+                
+                    players[x][5] = RIGHT_NAME_DICT[name_tuple]
 
         # Remake the dataframe with proper names
         final_df = pd.DataFrame(players, columns=['Season', 'Team ID', 'Team ABV', 'Team', 'Number', 'Player', 'Pos', 'Height', 'Weight', 'Birth Date', 
@@ -106,7 +107,7 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
     
     # Init the dataframe 
     df = None 
-    df_roster = get_roster(team, season)
+    df_roster = get_roster(team, season, True)
 
     # Check the status code, if the code is 200, it means the request went through
     if page.status_code == 200: 
@@ -181,54 +182,65 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             
             # Rounds every entry to two decimal places
             df = df.round(2)
-            
+          
             # Drop unneed compares for roster df
             df_roster = df_roster.drop(['Season', 'Team ID', 'Team', 'Team ABV', 'Number', 'Pos', 'Height', 'Weight', 'Nationality', 'Experience', 'College'], axis=1)
-            
+            print(df_roster)
+            print(df)
             if(data_format != 'adjusted'):
                 # Merge the two dfs 
-                df_merge = pd.merge(df, df_roster, how='inner', on=['Player'])
-                
-                players = df_merge.values.tolist()
+                df_merge = pd.merge(df, df_roster, how='right', on=['Player'])
             
-                # Iterate through Players 
+                # Move Player ID to be 3rd
+                df_merge = df_merge[ ['Team'] + [ col for col in df_merge.columns if col != 'Team' ] ]
+                df_merge = df_merge[ ['Team ABV'] + [ col for col in df_merge.columns if col != 'Team ABV' ] ]
+                df_merge = df_merge[ ['Player ID'] + [ col for col in df_merge.columns if col != 'Player ID' ] ]
+                df_merge = df_merge[ ['Team ID'] + [ col for col in df_merge.columns if col != 'Team ID' ] ]
+                df_merge = df_merge[ ['Season'] + [ col for col in df_merge.columns if col != 'Season' ] ]
+        
+                players = df_merge.values.tolist()
                 for x in range(len(players)):
-                
+                    
                     # Per game and totals
                     if(data_format == 'per_game' or data_format == 'totals'):
-                        string_tuple = (str(players[x][4]), str(players[x][31]))
-
-                        # Check if it is a speical name
-                        if(string_tuple in RIGHT_NAME_DICT):
-                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
-                    
-                    elif(data_format == 'per_minute'):
-                        string_tuple = (str(players[x][4]), str(players[x][30]))
-
-                        # Check if it is a speical name
-                        if(string_tuple in RIGHT_NAME_DICT):
-                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
-
-                    elif(data_format == 'per_poss'):
-                        string_tuple = (str(players[x][4]), str(players[x][32]))
+                        string_tuple = (str(players[x][5]), str(players[x][32]))
                         
                         # Check if it is a speical name
                         if(string_tuple in RIGHT_NAME_DICT):
-                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
+                            players[x][5] = RIGHT_NAME_DICT[string_tuple]
+                            players[x][2] = PLAYER_ID[players[x][5]] 
 
-                    elif(data_format == 'advanced'):
-                        string_tuple = (str(players[x][4]), str(players[x][28]))
+                    elif(data_format == 'per_minute'):
+                        string_tuple = (str(players[x][5]), str(players[x][31]))
 
                         # Check if it is a speical name
                         if(string_tuple in RIGHT_NAME_DICT):
-                            players[x][4] = RIGHT_NAME_DICT[string_tuple]
-               
+                            players[x][5] = RIGHT_NAME_DICT[string_tuple]
+                            players[x][2] = PLAYER_ID[players[x][5]] 
+
+                    elif(data_format == 'per_poss'):
+                        string_tuple = (str(players[x][5]), str(players[x][33]))
+                      
+                        # Check if it is a speical name
+                        if(string_tuple in RIGHT_NAME_DICT):
+                            players[x][5] = RIGHT_NAME_DICT[string_tuple]
+                            players[x][2] = PLAYER_ID[players[x][5]] 
+
+                    elif(data_format == 'advanced'):
+                        string_tuple = (str(players[x][5]), str(players[x][29]))
+                        
+                        # Check if it is a speical name
+                        if(string_tuple in RIGHT_NAME_DICT):
+                            players[x][5] = RIGHT_NAME_DICT[string_tuple] 
+                            players[x][2] = PLAYER_ID[players[x][5]] 
+
+                # Check format as they all have different columns
                 if(data_format == 'per_game'):
-                    final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
-                                                            '3P', '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 
-                                                            'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Birth Date'])
-                    # Drop Birth Date
-                    final_df = final_df.drop(['Birth Date'],axis=1)
+                        final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+                                                                '3P', '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 
+                                                                'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Birth Date'])
+                        # Drop Birth Date
+                        final_df = final_df.drop(['Birth Date'],axis=1)
 
                 elif(data_format == 'totals'):
                     final_df = pd.DataFrame(players, columns= ['Season', 'Team ID', 'Player ID','Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
@@ -258,12 +270,10 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
                                                             'DBPM', 'BPM', 'VORP', 'Birth Date'])
                     # Drop Birth Date
                     final_df = final_df.drop(['Birth Date'],axis=1)
-        
+    
                 return final_df
             else:
                 
-                
-
                 df['Player ID'] = df['Player'].apply(lambda x: PLAYER_ID[x])
 
                 # Rearranges the elements
@@ -531,3 +541,7 @@ def remove_char(string, postion):
     # Returning string after removing 
     # nth indexed character. 
     return a + b 
+
+def main():
+    print(get_roster_stats('DAL',2020, False, 'Advanced'))
+main()
