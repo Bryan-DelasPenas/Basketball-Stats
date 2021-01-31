@@ -108,7 +108,7 @@ def get_player_csv():
 
 
     # Iterate through the list 
-    for i in range(len(record)):
+    for i in range(144, 145):
         print(i)
         print(record[i][0])
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
@@ -124,40 +124,39 @@ def get_player_csv():
             # Create the directory with the final_path
             os.mkdir(player_path)
         
-        '''
+        #'''
         # Regualar Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
-        '''
         csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
         
-        '''
+        #'''
         # Playoffs Season Stat
         csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
         csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
-        '''
+        #'''
         csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
         
-        '''
+        #'''
         # Career Stats
         csv_career_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Totals', False, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
-        '''
-        '''
+        #'''
+        #'''
         # Playoffs Season Stat
         csv_career_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Totals', True, player_path)
         csv_career_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
-        '''
+        #'''
 
 '''
 Main function

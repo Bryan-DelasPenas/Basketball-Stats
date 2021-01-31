@@ -105,9 +105,11 @@ def get_player_suffix(name, birth_date):
     # Flag for middle name
     middle_flag = False
     name_tuple = (name, birth_date)
+    
     # Special Case: for name = Jeff Aryes since he changed his name in 2013
     if(name_tuple in RIGHT_PLAYER_SUFIX):
         sub_name = RIGHT_PLAYER_SUFIX[name_tuple]
+        
         # Get the first initial of last name
         initial = sub_name.split(' ')[1][0].lower()
         suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
@@ -805,4 +807,3 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df = career_df.drop(['eFG%'], axis=1)
 
         return career_df
-

@@ -156,7 +156,7 @@ RIGHT_NAME_DICT = {
 
     ("Marvin Bagley", "March 14, 1999")      : "Marvin Bagley III",
     ("LaMark Baker", "November 11, 1969")    : "Mark Baker",
-    ("Mohamed Bamba", " May 12, 1998")       : "Mo Bamba",
+    ("Mohamed Bamba", "May 12, 1998")       : "Mo Bamba",
     ("Troy Brown", "July 28, 1999")          : "Troy Brown Jr.",
     ("Vernon Carey", "February 25, 2001")    : "Vernon Carey Jr.",       
     ("Wendell Carter", "April 16, 1999")     : "Wendell Carter Jr.", 
@@ -185,7 +185,7 @@ RIGHT_NAME_DICT = {
     ("Omer Ask", "July 4, 1986")             : "Omer Asik",
     ("Vitor Luiz Faverani", "May 5, 1988")   : "Vitor Faverani",
     ("Horacio Llamas Grey", "July 17, 1973") : "Horacio Llamas",
-    ("LaMark Baker", "November 11, 1969")    : "Mark Baker"
+
 }
 
 RIGHT_PLAYER_SUFIX = {
