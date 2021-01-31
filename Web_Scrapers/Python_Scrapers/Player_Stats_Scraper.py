@@ -524,7 +524,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
 
     elif(format == "Advanced"):
         # Drop unneeded stats 
-        career_df = career_df.drop(['Season', 'Age', 'Team ABV', 'Team ID','Team', 'League', 'Pos','Unnamed: 19','Unnamed: 24'], axis=1)
+        career_df = career_df.drop(['Season', 'Age', 'Team ABV', 'Team ID','Team', 'League', 'Pos'], axis=1)
         
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
