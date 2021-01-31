@@ -461,28 +461,28 @@ def get_team_csv():
     for year in range(1980, 2021):
         print(year)
     
-        '''
+        #'''
         # # Roster Non-Playoff stats
         csv_roster_stats(year, False, 'PER_GAME')
         csv_roster_stats(year, False, 'PER_POSS')
         csv_roster_stats(year, False, 'TOTALS')
         csv_roster_stats(year, False, 'PER_MINUTE')
         csv_roster_stats(year, False, 'ADVANCED')
-        '''
+        #'''
 
-        '''
+        #'''
         # # Roster Playoff stats 
         csv_roster_stats(year, True, 'PER_GAME')
         csv_roster_stats(year, True, 'PER_POSS')
         csv_roster_stats(year, True, 'TOTALS')
         csv_roster_stats(year, True, 'PER_MINUTE')
         csv_roster_stats(year, True, 'ADVANCED')
-        '''
+        #'''
 
-        '''
-        # Roster Stats
+        #'''
+        # Roster Names
         csv_team_roster(year)
-        '''
+        #'''
 
         '''
         # Team Stats Main

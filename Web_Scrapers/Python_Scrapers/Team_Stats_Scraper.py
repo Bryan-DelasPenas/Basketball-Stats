@@ -169,7 +169,7 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
 
             # Create a new column called season
             df['Season'] = season
-        
+            
             # Create a new column for Team ID
             df['Team ID'] = df['Team ABV'].apply(lambda x: TEAM_ID[x])
 
@@ -179,9 +179,6 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
             df = df[ ['Team ID'] + [ col for col in df.columns if col != 'Team ID' ] ]
             df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
             
-            # Rounds every entry to two decimal places
-            df = df.round(2)
-          
             # Drop unneed compares for roster df
             df_roster = df_roster.drop(['Season', 'Team ID', 'Team', 'Team ABV', 'Number', 'Pos', 'Height', 'Weight', 'Nationality', 'Experience', 'College'], axis=1)
            
@@ -269,7 +266,13 @@ def get_roster_stats(team,season, playoffs = False, data_format = 'PER_GAME'):
                                                             'DBPM', 'BPM', 'VORP', 'Birth Date'])
                     # Drop Birth Date
                     final_df = final_df.drop(['Birth Date'],axis=1)
-    
+                
+                # Remove players who did not play in the playoffs
+                final_df = final_df[final_df['G'].notna()]
+                final_df = final_df.reset_index(drop=True)
+
+                # Rounds every entry to two decimal places
+                final_df = final_df.round(2)
                 return final_df
             else:
                 
@@ -540,3 +543,4 @@ def remove_char(string, postion):
     # Returning string after removing 
     # nth indexed character. 
     return a + b 
+

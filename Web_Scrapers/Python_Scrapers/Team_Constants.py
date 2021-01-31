@@ -44,7 +44,7 @@ TEAM_TO_ABBRIVATION = {
     'UTAH JAZZ':                         'UTA', # Currently the Utah Jazz from 1979 to 2020 
     'NEW ORLEANS JAZZ' :                 'NOJ',
     'WASHINGTON WIZARDS':                'WAS', # Currently the Washington Wizards from 1998 to 2020 
-    'WASHINGTON BULLETS':                'WAB', # Formerly the Washington Bullets from 1974 to 1997
+    'WASHINGTON BULLETS':                'WSB', # Formerly the Washington Bullets from 1974 to 1997
 }
 
 
@@ -89,7 +89,7 @@ ABV_TO_TEAM = {
     'UTA': 'UTAH JAZZ', 
     'NOJ': 'NEW ORLEANS JAZZ',
     'WAS': 'WASHINGTON WIZARDS', 
-    'WAB': 'WASHINGTON BULLETS',
+    'WSB': 'WASHINGTON BULLETS',
     'TOT': 'TOTAL AFTER TRADE'
 }
 
@@ -134,7 +134,7 @@ TEAM_ID = {
     'UTA': 29, 
     'NOJ': 29,
     'WAS': 30, 
-    'WAB': 30,
+    'WSB': 30,
     'TOT': 31,
 }
 
@@ -146,7 +146,7 @@ TEAM_DICT = {
     'VAN': 'MEM',
     'SEA': 'OKC',
     'NOJ': 'UTA',
-    'WAB': 'WAS',
+    'WSB': 'WAS',
     'NOP': 'NOH',
     'NOK': 'NOH'
 
