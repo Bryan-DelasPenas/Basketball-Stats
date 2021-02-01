@@ -1,4 +1,8 @@
 USE BasketBallDB;
+DROP TABLE IF EXISTS Team_Roster;
+DROP TABLE IF EXISTS Roster;
+DROP TABLE IF EXISTS Team_Vs_Team;
+DROP TABLE IF EXISTS Expanded_Standings;
 DROP TABLE IF EXISTS West_Standings;
 DROP TABLE IF EXISTS East_Standings;
 DROP TABLE IF EXISTS Standard_Standings;
