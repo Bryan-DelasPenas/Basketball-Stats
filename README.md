@@ -16,8 +16,7 @@ basketball-reference.com. There are going to be multiple scrapers that scrap inf
 like season stats, team stats, and finally player stats from 1980 to current date. 
 The scrapers will all output to mutiple csv files in a directory called <em>Output</em>.</p>
 
-<p>Phase 2: By using the mysql workbench and hosting the database on AWS(Amazon Web Services),
-it allows for AWS to handle server provisioning, patching and configuration. Taking the csv files 
+<p>Phase 2: By using the mysql workbench and hosting the locally. Taking the csv files 
 from the first phase, we can add it into a database and write queries for certain stats. For example,
 we can write a query to see who has the total most field goals in a certain year.</p>
 
