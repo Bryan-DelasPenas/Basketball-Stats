@@ -42,90 +42,76 @@ class TestPlayerScraper(unittest.TestCase):
         playoff_totals = os.path.join(playoff_path, "Totals","Kareem Abdul-Jabbar_Playoff_Totals.csv")
         
         # Regular Advanced
-        df_regular_advanced = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", "False")
+        df_regular_advanced = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", False)
         expected_df_regular_advanced = pd.read_csv(regular_advanced)
     
         # Regular Per_Game
-        df_regular_pergame = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", "False")
+        df_regular_pergame = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", False)
         expected_df_regular_pergame = pd.read_csv(regular_pergame)
 
         # Regular Per_Minute
-        df_regular_perminute = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", "False")
+        df_regular_perminute = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", False)
         expected_df_regular_perminute = pd.read_csv(regular_perminute)
 
         # Regular Per_Poss
-        df_regular_perposs = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", "False")
+        df_regular_perposs = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", False)
         expected_df_regular_perposs = pd.read_csv(regular_perposs)
 
         # Regular Totals
-        df_regular_totals = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", "False")
+        df_regular_totals = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", False)
         expected_df_regular_totals = pd.read_csv(regular_totals)
 
         # Playoff Advanced
-        df_playoff_advanced = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", "True")
+        df_playoff_advanced = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", True)
         expected_df_playoff_advanced = pd.read_csv(playoff_advanced)
     
         # Playoff Per_Game
-        df_playoff_pergame = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", "True")
+        df_playoff_pergame = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", True)
         expected_df_playoff_pergame = pd.read_csv(playoff_pergame)
 
         # Playoff Per_Minute
-        df_playoff_perminute = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", "True")
+        df_playoff_perminute = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", True)
         expected_df_playoff_perminute = pd.read_csv(playoff_perminute)
 
         # Playoff Per_Poss
-        df_playoff_perposs = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", "True")
+        df_playoff_perposs = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", True)
         expected_df_playoff_perposs = pd.read_csv(playoff_perposs)
 
         # Playoff Totals
-        df_playoff_totals = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", "True")
+        df_playoff_totals = get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", True)
         expected_df_playoff_totals = pd.read_csv(playoff_totals)
 
-        # Regular Messages
-        message_one = "Regular per_game is not correct" 
-        message_two = "Regular advanced is not correct" 
-        message_three = "Regular per_minute is not correct"
-        message_four = "Regular per_poss is not correct"
-        message_five = "Regular total is not correct"
-
-        # Playoff Messages
-        message_six = "Playoff per_game is not correct" 
-        message_seven = "Playoff advanced is not correct" 
-        message_eight = "Playoff per_minute is not correct"
-        message_nine = "Playoff per_poss is not correct"
-        message_ten = "Playoff total is not correct"
-
-
+        # Check Columns Name 
         # Checks regular advanced 
-        self.assertCountEqual(list(df_regular_advanced.columns), list(expected_df_regular_advanced.columns), message_one)
-
+        pd.testing.assert_frame_equal(df_regular_advanced, expected_df_regular_advanced)
+        
         # Checks regular per_game
-        self.assertCountEqual(list(df_regular_pergame.columns), list(expected_df_regular_pergame.columns), message_two)
-
-        # Checks regular per_minute
-        self.assertCountEqual(list(df_regular_perminute.columns), list(expected_df_regular_perminute.columns), message_three)
-
+        pd.testing.assert_frame_equal(df_regular_pergame, expected_df_regular_pergame)
+        
+        # Checks regular per_minute 
+        pd.testing.assert_frame_equal(df_regular_perminute, expected_df_regular_perminute)
+        
         # Checks regular per_poss
-        self.assertCountEqual(list(df_regular_perposs.columns), list(expected_df_regular_perposs.columns), message_four)
-
+        pd.testing.assert_frame_equal(df_regular_perposs, expected_df_regular_perposs)
+       
         # Checks regular totals
-        self.assertCountEqual(list(df_regular_totals.columns), list(expected_df_regular_totals.columns), message_five)
-     
+        pd.testing.assert_frame_equal(df_regular_totals, expected_df_regular_totals)
+       
         # Checks playoff advanced 
-        self.assertCountEqual(list(df_playoff_advanced.columns), list(expected_df_playoff_advanced.columns), message_six)
-
+        pd.testing.assert_frame_equal(df_playoff_advanced, expected_df_playoff_advanced)
+        
         # Checks playoff per_game
-        self.assertCountEqual(list(df_playoff_pergame.columns), list(expected_df_playoff_pergame.columns), message_seven)
-
+        pd.testing.assert_frame_equal(df_playoff_pergame, expected_df_playoff_pergame)
+        
         # Checks playoff per_minute
-        self.assertCountEqual(list(df_playoff_perminute.columns), list(expected_df_playoff_perminute.columns), message_eight)
-
+        pd.testing.assert_frame_equal(df_playoff_perminute, expected_df_playoff_perminute)
+        
         # Checks playoff per_poss
-        self.assertCountEqual(list(df_playoff_perposs.columns), list(expected_df_playoff_perposs.columns), message_nine)
-
+        pd.testing.assert_frame_equal(df_playoff_perposs, expected_df_playoff_perposs)
+       
         # Checks playoff totals
-        self.assertCountEqual(list(df_playoff_totals.columns), list(expected_df_playoff_totals.columns), message_ten)
-
+        pd.testing.assert_frame_equal(df_playoff_totals, expected_df_playoff_totals)
+    
     def test_get_careeer_stats(self):
         regular_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', "Kareem Abdul-Jabbar", "Career_Regular_Stats") 
         playoff_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', "Kareem Abdul-Jabbar", "Career_Playoff_Stats")
@@ -145,89 +131,75 @@ class TestPlayerScraper(unittest.TestCase):
         playoff_totals = os.path.join(playoff_path, "Totals","Kareem Abdul-Jabbar_career_playoff_Totals.csv")
         
         # Regular Advanced
-        df_regular_advanced = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", "False")
+        df_regular_advanced = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", False)
         expected_df_regular_advanced = pd.read_csv(regular_advanced)
 
         # Regular Per_Game
-        df_regular_pergame = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", "False")
+        df_regular_pergame = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", False)
         expected_df_regular_pergame = pd.read_csv(regular_pergame)
 
         # Regular Per_Minute
-        df_regular_perminute = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", "False")
+        df_regular_perminute = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", False)
         expected_df_regular_perminute = pd.read_csv(regular_perminute)
 
         # Regular Per_Poss
-        df_regular_perposs = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", "False")
+        df_regular_perposs = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", False)
         expected_df_regular_perposs = pd.read_csv(regular_perposs)
 
         # Regular Totals
-        df_regular_totals = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", "False")
+        df_regular_totals = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", False)
         expected_df_regular_totals = pd.read_csv(regular_totals)
 
         # Playoff Advanced
-        df_playoff_advanced = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", "True")
+        df_playoff_advanced = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Advanced", True)
         expected_df_playoff_advanced = pd.read_csv(playoff_advanced)
     
         # Playoff Per_Game
-        df_playoff_pergame = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", "True")
+        df_playoff_pergame = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Game", True)
         expected_df_playoff_pergame = pd.read_csv(playoff_pergame)
 
         # Playoff Per_Minute
-        df_playoff_perminute = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", "True")
+        df_playoff_perminute = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Minute", True)
         expected_df_playoff_perminute = pd.read_csv(playoff_perminute)
 
         # Playoff Per_Poss
-        df_playoff_perposs = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", "True")
+        df_playoff_perposs = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Per_Poss", True)
         expected_df_playoff_perposs = pd.read_csv(playoff_perposs)
 
         # Playoffr Totals
-        df_playoff_totals = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", "True")
+        df_playoff_totals = get_career_stats("Kareem Abdul-Jabbar", "April 16, 1947", "Totals", True)
         expected_df_playoff_totals = pd.read_csv(playoff_totals)
 
-        # Regular Messages
-        message_one = "Regular per_game is not correct" 
-        message_two = "Regular advanced is not correct" 
-        message_three = "Regular per_minute is not correct"
-        message_four = "Regular per_poss is not correct"
-        message_five = "Regular total is not correct"
-
-        # Playoff Messages
-        message_six = "Playoff per_game is not correct" 
-        message_seven = "Playoff advanced is not correct" 
-        message_eight = "Playoff per_minute is not correct"
-        message_nine = "Playoff per_poss is not correct"
-        message_ten = "Playoff total is not correct"
-
-
+        # Check Columns Name 
         # Checks regular advanced 
-        self.assertCountEqual(list(df_regular_advanced.columns), list(expected_df_regular_advanced.columns), message_one)
-
+        pd.testing.assert_frame_equal(df_regular_advanced, expected_df_regular_advanced)
+        
         # Checks regular per_game
-        self.assertCountEqual(list(df_regular_pergame.columns), list(expected_df_regular_pergame.columns), message_two)
-
-        # Checks regular per_minute
-        self.assertCountEqual(list(df_regular_perminute.columns), list(expected_df_regular_perminute.columns), message_three)
-
+        pd.testing.assert_frame_equal(df_regular_pergame, expected_df_regular_pergame)
+        
+        # Checks regular per_minute 
+        pd.testing.assert_frame_equal(df_regular_perminute, expected_df_regular_perminute)
+        
         # Checks regular per_poss
-        self.assertCountEqual(list(df_regular_perposs.columns), list(expected_df_regular_perposs.columns), message_four)
-
+        pd.testing.assert_frame_equal(df_regular_perposs, expected_df_regular_perposs)
+       
         # Checks regular totals
-        self.assertCountEqual(list(df_regular_totals.columns), list(expected_df_regular_totals.columns), message_five)
-     
+        pd.testing.assert_frame_equal(df_regular_totals, expected_df_regular_totals)
+       
         # Checks playoff advanced 
-        self.assertCountEqual(list(df_playoff_advanced.columns), list(expected_df_playoff_advanced.columns), message_six)
-
+        pd.testing.assert_frame_equal(df_playoff_advanced, expected_df_playoff_advanced)
+        
         # Checks playoff per_game
-        self.assertCountEqual(list(df_playoff_pergame.columns), list(expected_df_playoff_pergame.columns), message_seven)
-
+        pd.testing.assert_frame_equal(df_playoff_pergame, expected_df_playoff_pergame)
+        
         # Checks playoff per_minute
-        self.assertCountEqual(list(df_playoff_perminute.columns), list(expected_df_playoff_perminute.columns), message_eight)
-
+        pd.testing.assert_frame_equal(df_playoff_perminute, expected_df_playoff_perminute)
+        
         # Checks playoff per_poss
-        self.assertCountEqual(list(df_playoff_perposs.columns), list(expected_df_playoff_perposs.columns), message_nine)
-
+        pd.testing.assert_frame_equal(df_playoff_perposs, expected_df_playoff_perposs)
+       
         # Checks playoff totals
-        self.assertCountEqual(list(df_playoff_totals.columns), list(expected_df_playoff_totals.columns), message_ten)
-
+        pd.testing.assert_frame_equal(df_playoff_totals, expected_df_playoff_totals)
+    
 if __name__ == '__main__':
     unittest.main()

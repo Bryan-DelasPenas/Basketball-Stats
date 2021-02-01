@@ -5,7 +5,7 @@
 and machine learning, we can use data from the that can be broken down into three phases
 and a possible fourth phase.</p>
 
-<strong>Current Phase: 1</strong>
+<strong>Current Phase: 2</strong><br>
 <strong>Phase 1:</strong> Web scraping<br>
 <strong>Phase 2:</strong> Creating the database<br> 
 <strong>Phase 3:</strong> Predicting the MVP based on player stats<br> 

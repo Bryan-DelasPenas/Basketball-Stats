@@ -545,7 +545,6 @@ A pandas dataframe containing the following columns<br>
     - `Rel DRtg` - `Type: float` is the Team's defensive rating relative to the league<br>
     - `Playoffs` - `Type: string` is where the team was eliminated if they made the playoffs<br>
     - `Coaches` - `Type: string` is the coache of the team<br>
-    - `Top WS` - `Type: string` is the player <br>
 
 ### `remove_char(string, postion)`
 <strong>Parameters:</strong><br>

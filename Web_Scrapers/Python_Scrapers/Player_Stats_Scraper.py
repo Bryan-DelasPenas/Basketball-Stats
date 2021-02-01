@@ -322,7 +322,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
         df = df.round(2)
-        
+
         # Check for Did Not Play
         if df['G'].astype(str).str.contains('Did').any():
               
@@ -374,7 +374,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         # Drop Seasons that is before 1980
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
-        
+        df = df.reset_index(drop=True)
         #
         if(format == "ADVANCED"):
             df = df.drop(['Unnamed: 19', 'Unnamed: 24'], axis=1)
