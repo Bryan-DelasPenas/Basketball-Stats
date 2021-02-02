@@ -1,70 +1,70 @@
 USE BasketballDB;
 
 CREATE TABLE IF NOT EXISTS Season(
-	Season_ID INT NOT NULL UNIQUE, 
-	
+    Season_ID INT NOT NULL UNIQUE, 
+    
     PRIMARY KEY (Season_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021)
 );
 
 CREATE TABLE IF NOT EXISTS Team(
-	Season_ID INT NOT NULL, 
+    Season_ID INT NOT NULL, 
     Team_ID   INT NOT NULL UNIQUE,
     Team_Name VARCHAR(45) NOT NULL,
     Team_ABV  VARCHAR(3) NOT NULL,
-	
+    
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-	CHECK(Season_ID BETWEEN 1980 AND 2021),
-	CHECK(Team_ID BETWEEN 1 and 31),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
     
     UNIQUE(Season_ID, Team_ID)
 );
 
 CREATE TABLE IF NOT EXISTS Player(
-	Player_ID   INT NOT NULL,
+    Player_ID   INT NOT NULL,
     Birth_Date  VARCHAR(30) NOT NULL,
     Player_Name VARCHAR(45) NOT NULL,
-	PRIMARY KEY(Player_ID),
+    PRIMARY KEY(Player_ID),
     CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Standings(
-	Season_ID INT NOT NULL,
+    Season_ID INT NOT NULL,
     Team_ID   INT NOT NULL,
     Team_Name VARCHAR(45) NOT NULL,
-	Team_ABV  VARCHAR(3) NOT NULL,
-	
+    Team_ABV  VARCHAR(3) NOT NULL,
+    
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
-	CHECK(Season_ID BETWEEN 1980 AND 2021),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     
     UNIQUE(Season_ID, Team_ID)
 );
 
 CREATE TABLE IF NOT EXISTS Standard_Standings(
-	Season_ID INT NOT NULL, 
-	Team_ID   INT NOT NULL,
+    Season_ID INT NOT NULL, 
+    Team_ID   INT NOT NULL,
     Team_Name VARCHAR(45) NOT NULL UNIQUE,
-	Team_ABV  VARCHAR(3) NOT NULL UNIQUE,
+    Team_ABV  VARCHAR(3) NOT NULL UNIQUE,
     
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
-	CHECK(Season_ID BETWEEN 1980 AND 2021),
+    FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     
     UNIQUE(Season_ID, Team_ID)
 );
 
 CREATE TABLE IF NOT EXISTS Conference_Standings(
-	Season_ID 				  INT NOT NULL,
+    Season_ID 				  INT NOT NULL,
     Team_ID   				  INT NOT NULL, 
     Team_ABV  				  VARCHAR(3) NOT NULL,
     Team_Name 				  VARCHAR(45) NOT NULL,
-	Wins  					  INT NOT NULL,
+    Wins  					  INT NOT NULL,
     Loses 					  INT NOT NULL,
     Win_Lose_Percentage 	  FLOAT NOT NULL,
     Games_Behind 			  VARCHAR(2) NOT NULL,    
@@ -74,8 +74,8 @@ CREATE TABLE IF NOT EXISTS Conference_Standings(
     East_Or_West              BOOLEAN NOT NULL,
     
     PRIMARY KEY (Season_ID, Team_ID),
-	FOREIGN KEY (Season_ID) REFERENCES Standard_Standings(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Standard_Standings(Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Standard_Standings(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Standard_Standings(Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     
@@ -83,11 +83,11 @@ CREATE TABLE IF NOT EXISTS Conference_Standings(
 );
 
 CREATE TABLE IF NOT EXISTS Expanded_Standings(
-	Season_ID 					INT NOT NULL,
+    Season_ID 					INT NOT NULL,
     Team_ID 					INT NOT NULL,
     Team_ABV 					VARCHAR(3) NOT NULL,
     Team_Name 					VARCHAR(45) NOT NULL,
-	Overall 					VARCHAR(45) NOT NULL,
+    Overall 					VARCHAR(45) NOT NULL,
     Home_Record 				VARCHAR(45) NOT NULL,
     Road_Record 				VARCHAR(45) NOT NULL,
     Eastern_Conference_Record 	VARCHAR(5),
@@ -115,24 +115,24 @@ CREATE TABLE IF NOT EXISTS Expanded_Standings(
     Aug_Record 					VARCHAR(5),
     
     PRIMARY KEY(Season_ID, Team_ID),
-	FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-	CHECK(Team_ID BETWEEN 1 and 31),
+    CHECK(Team_ID BETWEEN 1 and 31),
     
     UNIQUE(Season_ID, Team_ID)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Vs_Team(
-	Season_ID INT NOT NULL, 
-	Team_ID   INT NOT NULL,
+    Season_ID INT NOT NULL, 
+    Team_ID   INT NOT NULL,
     Team_ABV  VARCHAR(3) NOT NULL,
     Team_Name VARCHAR(45) NOT NULL,
     ATL 	  VARCHAR(3),
     BOS 	  VARCHAR(3),
     BRK 	  VARCHAR(3),
-	CHI 	  VARCHAR(3),
-	CHA 	  VARCHAR(3),
+    CHI 	  VARCHAR(3),
+    CHA 	  VARCHAR(3),
     CHO 	  VARCHAR(3),
     CLE 	  VARCHAR(3),
     DAL 	  VARCHAR(3),
@@ -151,7 +151,7 @@ CREATE TABLE IF NOT EXISTS Team_Vs_Team(
     NJN 	  VARCHAR(3),
     NOH 	  VARCHAR(3),
     NOJ 	  VARCHAR(3),
-	NOK 	  VARCHAR(3),
+    NOK 	  VARCHAR(3),
     NOP 	  VARCHAR(3),    
     NYK 	  VARCHAR(3),
     OKC 	  VARCHAR(3),
@@ -171,9 +171,9 @@ CREATE TABLE IF NOT EXISTS Team_Vs_Team(
     
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
-	CHECK(Season_ID BETWEEN 1980 AND 2021),
-	CHECK(Team_ID BETWEEN 1 and 31),
+    FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
     
     UNIQUE(Season_ID, Team_ID)
 );
@@ -208,29 +208,29 @@ CREATE TABLE IF NOT EXISTS Roster(
 
 
 CREATE TABLE IF NOT EXISTS Player_Stats(
-	Season_ID           INT NOT NULL,
+    Season_ID           INT NOT NULL,
     Team_ID             INT NOT NULL,
     Player_ID           INT NOT NULL,
     Team_ABV            VARCHAR(3) NOT NULL,
     Team_Name           VARCHAR(45) NOT NULL,
-	Birth_Date  		VARCHAR(30) NOT NULL,
+    Birth_Date  		VARCHAR(30) NOT NULL,
     Player_Name 		VARCHAR(45) NOT NULL,
 
-	PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-	FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
-	FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
+    PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     CHECK(Player_ID BETWEEN 1 and 3278),
 
-	UNIQUE(Season_ID, Team_ID, Player_ID)
+    UNIQUE(Season_ID, Team_ID, Player_ID)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Advanced(
-	Season_ID                     INT NOT NULL,
+    Season_ID                     INT NOT NULL,
     Team_ID                       INT NOT NULL,
-	Player_ID                     INT NOT NULL,
+    Player_ID                     INT NOT NULL,
     Team_ABV                      VARCHAR(3) NOT NULL,
     Team_Name                     VARCHAR(45) NOT NULL,
     Player_Name                   VARCHAR(45) NOT NULL,
@@ -261,7 +261,7 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
@@ -272,9 +272,9 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Game_Or_Totals(
-	Season_ID                     INT NOT NULL,
+    Season_ID                     INT NOT NULL,
     Team_ID                       INT NOT NULL,
-	Player_ID                     INT NOT NULL,
+    Player_ID                     INT NOT NULL,
     Team_ABV                      VARCHAR(3) NOT NULL,
     Team_Name                     VARCHAR(45) NOT NULL,
     Player_Name                   VARCHAR(45) NOT NULL,
@@ -283,7 +283,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game_Or_Totals(
     
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
@@ -293,18 +293,18 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game_Or_Totals(
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Minute(
-	Season_ID                     INT NOT NULL,
+    Season_ID                     INT NOT NULL,
     Team_ID                       INT NOT NULL,
-	Player_ID                     INT NOT NULL,
+    Player_ID                     INT NOT NULL,
     Team_ABV                      VARCHAR(3) NOT NULL,
     Team_Name                     VARCHAR(45) NOT NULL,
     Player_Name                   VARCHAR(45) NOT NULL,
-	
+    
     Stat_Type                     VARCHAR(45) NOT NULL,
     
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
@@ -314,18 +314,18 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Poss(
-	Season_ID                     INT NOT NULL,
+    Season_ID                     INT NOT NULL,
     Team_ID                       INT NOT NULL,
-	Player_ID                     INT NOT NULL,
+    Player_ID                     INT NOT NULL,
     Team_ABV                      VARCHAR(3) NOT NULL,
     Team_Name                     VARCHAR(45) NOT NULL,
     Player_Name                   VARCHAR(45) NOT NULL,
 
-	Stat_Type                     VARCHAR(45) NOT NULL,
+    Stat_Type                     VARCHAR(45) NOT NULL,
 
-	PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+    PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
