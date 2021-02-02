@@ -263,3 +263,4 @@ def get_player_id():
 
 # Global Decloration of Player_id
 PLAYER_ID = get_player_id()
+print(PLAYER_ID)

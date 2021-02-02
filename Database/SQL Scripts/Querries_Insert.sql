@@ -16,7 +16,7 @@ Select *
 FROM Standard_Standings;
 
 SELECT *
-FROM East_Standings;
+FROM Conference_Standings;
 
 SELECT *
 FROM Expanded_Standings;
@@ -26,6 +26,3 @@ FROM Team_Vs_Team;
 
 SELECT * 
 FROM Roster;
-
-SELECT * 
-FROM Team_Roster;
