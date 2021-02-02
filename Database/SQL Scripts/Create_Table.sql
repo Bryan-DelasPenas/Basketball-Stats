@@ -1,8 +1,8 @@
-USE BasketballDB;
+    USE BasketballDB;
 
 CREATE TABLE IF NOT EXISTS Season(
     Season_ID INT NOT NULL UNIQUE, 
-    
+
     PRIMARY KEY (Season_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021)
 );
@@ -12,12 +12,12 @@ CREATE TABLE IF NOT EXISTS Team(
     Team_ID   INT NOT NULL UNIQUE,
     Team_Name VARCHAR(45) NOT NULL,
     Team_ABV  VARCHAR(3) NOT NULL,
-    
+
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    
+
     UNIQUE(Season_ID, Team_ID)
 );
 
@@ -34,13 +34,13 @@ CREATE TABLE IF NOT EXISTS Standings(
     Team_ID   INT NOT NULL,
     Team_Name VARCHAR(45) NOT NULL,
     Team_ABV  VARCHAR(3) NOT NULL,
-    
+
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    
+
     UNIQUE(Season_ID, Team_ID)
 );
 
@@ -49,13 +49,13 @@ CREATE TABLE IF NOT EXISTS Standard_Standings(
     Team_ID   INT NOT NULL,
     Team_Name VARCHAR(45) NOT NULL UNIQUE,
     Team_ABV  VARCHAR(3) NOT NULL UNIQUE,
-    
+
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    
+
     UNIQUE(Season_ID, Team_ID)
 );
 
@@ -72,13 +72,13 @@ CREATE TABLE IF NOT EXISTS Conference_Standings(
     Opponents_Points_Per_Game FLOAT NOT NULL,
     Simple_Rating_System 	  FLOAT NOT NULL, 
     East_Or_West              BOOLEAN NOT NULL,
-    
+
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Standard_Standings(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Standard_Standings(Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    
+
     UNIQUE(Season_ID, Team_ID)
 );
 
@@ -113,13 +113,13 @@ CREATE TABLE IF NOT EXISTS Expanded_Standings(
     May_Record 					VARCHAR(5),
     Jul_Record 					VARCHAR(5),
     Aug_Record 					VARCHAR(5),
-    
+
     PRIMARY KEY(Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    
+
     UNIQUE(Season_ID, Team_ID)
 );
 
@@ -168,18 +168,18 @@ CREATE TABLE IF NOT EXISTS Team_Vs_Team(
     VAN 	  VARCHAR(3),
     WAS 	  VARCHAR(3), 
     WSB 	  VARCHAR(3),
-    
+
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    
+
     UNIQUE(Season_ID, Team_ID)
 );
 
 CREATE TABLE IF NOT EXISTS Roster(
-	Season_ID           INT NOT NULL,
+    Season_ID           INT NOT NULL,
     Team_ID             INT NOT NULL,
     Player_ID           INT NOT NULL,
     Team_ABV            VARCHAR(3) NOT NULL,
@@ -193,21 +193,212 @@ CREATE TABLE IF NOT EXISTS Roster(
     Player_Nationality  VARCHAR(2),
     Player_Experanice   VARCHAR(2) NOT NULL,
     Player_College_Name VARCHAR(45), 
-    
+
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-	FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
-	FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     CHECK(Player_ID BETWEEN 1 and 3278),
-    
+
     UNIQUE(Season_ID, Team_ID, Player_ID)
 );
 
+CREATE TABLE IF NOT EXISTS Team_Stats(
+    Season_ID           INT NOT NULL,
+    Team_ID             INT NOT NULL,
+    Team_ABV            VARCHAR(3) NOT NULL,
+    Team_Name           VARCHAR(45) NOT NULL,
 
+    PRIMARY KEY (Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
+    UNIQUE(Season_ID, Team_ID)
+);
 
-CREATE TABLE IF NOT EXISTS Player_Stats(
+CREATE TABLE IF NOT EXISTS Team_Advanced(
+    Season_ID           		  INT NOT NULL,
+    Team_ID             		  INT NOT NULL,
+    Team_ABV                      VARCHAR(3) NOT NULL,
+    Team_Name                     VARCHAR(45) NOT NULL,
+    Team_Wins                     INT NOT NULL,
+    Team_Loses                    INT NOT NULL,
+    Win_Lose_Percentage           FLOAT NOT NULL,
+    Team_Finish                   VARCHAR(45),
+    Simple_Rating_System          FLOAT NOT NULL,
+    Pace                          FLOAT NOT NULL,
+    Relative_Pace                 FLOAT NOT NULL,
+    Offensive_Rating              FLOAT NOT NULL,
+    Relative_Offensive_Rating     FLOAT NOT NULL,
+    Defensive_Rating              FLOAT NOT NULL,
+    Relative_Defensive_Rating     FLOAT NOT NULL,
+    Playoffs_Finish               VARCHAR(45),
+    Coaches                       VARCHAR(45),
+
+    PRIMARY KEY (Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
+
+    UNIQUE(Season_ID, Team_ID)
+);
+
+CREATE TABLE IF NOT EXISTS Team_Misc(
+    Season_ID           		  INT NOT NULL,
+    Team_ID             		  INT NOT NULL,
+    Team_ABV                      VARCHAR(3) NOT NULL,
+    Team_Name                     VARCHAR(45) NOT NULL,
+    Team_Average_Age              FLOAT NOT NULL,
+    Team_Wins                     INT NOT NULL,
+    Team_Loses                    INT NOT NULL,
+    Pythagorean_Wins              INT NOT NULL,
+    Pythagorean_Loses             INT NOT NULL,
+    Margin_Of_Victory             FLOAT NOT NULL,
+    Strength_Of_Schedule          FLOAT NOT NULL,
+    Simple_Rating_System          FLOAT NOT NULL,
+    Offensive_Rating              FLOAT NOT NULL,
+    Defensive_Rating              FLOAT NOT NULL,
+    Net_Rating                    FLOAT NOT NULL,
+    Pace                          FLOAT NOT NULL,
+    Free_Throw_Attempt_Rate       FLOAT NOT NULL,
+    Three_Point_Attempt_Rate      FLOAT NOT NULL, 
+    True_Shooting_Percentage      FLOAT NOT NULL,
+    Offensive_Rebound_Percentage  FLOAT NOT NULL,
+    Defensive_Rebound_Percentage  FLOAT NOT NULL,
+    Arena                         VARCHAR(45) NOT NULL,
+    Attend                        INT,
+    Attend_Per_Game               INT, 
+
+    PRIMARY KEY (Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
+
+    UNIQUE(Season_ID, Team_ID)
+);
+
+CREATE TABLE IF NOT EXISTS Team_Per_Game(
+    Season_ID           		    INT NOT NULL,
+    Team_ID             		    INT NOT NULL,
+    Team_ABV                        VARCHAR(3) NOT NULL,
+    Team_Name                       VARCHAR(45) NOT NULL,
+    Games_Played       	            INT NOT NULL, 
+    Minutes_Played                  INT NOT NULL,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebound               FLOAT,
+    Defensive_Rebound               FLOAT,
+    True_Rebound                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Foul                   FLOAT,
+    Points                          FLOAT,
+    Opponent                        BOOLEAN NOT NULL,
+    PRIMARY KEY (Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
+
+    UNIQUE(Season_ID, Team_ID, Opponent)
+);
+
+CREATE TABLE IF NOT EXISTS Team_Per_Poss(
+    Season_ID           		    INT NOT NULL,
+    Team_ID             		    INT NOT NULL,
+    Team_ABV                        VARCHAR(3) NOT NULL,
+    Team_Name                       VARCHAR(45) NOT NULL,
+    Games_Played       	            INT NOT NULL, 
+    Minutes_Played                  INT NOT NULL,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebound               FLOAT,
+    Defensive_Rebound               FLOAT,
+    True_Rebound                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Foul                   FLOAT,
+    Points                          FLOAT,
+    Opponent                        BOOLEAN NOT NULL,
+
+    PRIMARY KEY (Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
+
+    UNIQUE(Season_ID, Team_ID, Opponent)
+);
+
+CREATE TABLE IF NOT EXISTS Team_Totals(
+    Season_ID           		    INT NOT NULL,
+    Team_ID             		    INT NOT NULL,
+    Team_ABV                        VARCHAR(3) NOT NULL,
+    Team_Name                       VARCHAR(45) NOT NULL,
+    Games_Played       	            INT NOT NULL, 
+    Minutes_Played                  INT NOT NULL,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebound               FLOAT,
+    Defensive_Rebound               FLOAT,
+    True_Rebound                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Foul                   FLOAT,
+    Points                          FLOAT,
+    Opponent                        BOOLEAN NOT NULL,
+
+    PRIMARY KEY (Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
+
+    UNIQUE(Season_ID, Team_ID, Opponent)
+    );
+
+    CREATE TABLE IF NOT EXISTS Player_Stats(
     Season_ID           INT NOT NULL,
     Team_ID             INT NOT NULL,
     Player_ID           INT NOT NULL,
@@ -257,8 +448,8 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     Defensive_Box_Score           FLOAT,
     Box_Plus_Minus                FLOAT,
     Value_Over_Replacement        FLOAT,
-    Stat_Type                     VARCHAR(45) NOT NULL, 
-    
+    Stat_Form                     VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
@@ -266,21 +457,48 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     CHECK(Player_ID BETWEEN 1 and 3278),
-    
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Type)
-    
+
+    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
+
 );
 
-CREATE TABLE IF NOT EXISTS Player_Per_Game_Or_Totals(
-    Season_ID                     INT NOT NULL,
-    Team_ID                       INT NOT NULL,
-    Player_ID                     INT NOT NULL,
-    Team_ABV                      VARCHAR(3) NOT NULL,
-    Team_Name                     VARCHAR(45) NOT NULL,
-    Player_Name                   VARCHAR(45) NOT NULL,
-    
-    Stat_Type                     VARCHAR(45) NOT NULL,
-    
+CREATE TABLE IF NOT EXISTS Player_Per_Game(
+    Season_ID                       INT NOT NULL,
+    Team_ID                         INT NOT NULL,
+    Player_ID                       INT NOT NULL,
+    Team_ABV                        VARCHAR(3) NOT NULL,
+    Team_Name                       VARCHAR(45) NOT NULL,
+    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Age                      INT NOT NULL,
+    League                          VARCHAR(3),
+    Player_Postion                  VARCHAR(2),
+    Games_Played       	            INT NOT NULL, 
+    Games_Started                   INT,
+    Minutes_Played                  INT NOT NULL,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Effective_Field_Goal_Percentage FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebound               FLOAT,
+    Defensive_Rebound               FLOAT,
+    True_Rebound                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Foul                   FLOAT,
+    Points                          FLOAT,
+    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
@@ -288,20 +506,46 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game_Or_Totals(
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     CHECK(Player_ID BETWEEN 1 and 3278),
-    
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Type)
+
+    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Minute(
-    Season_ID                     INT NOT NULL,
-    Team_ID                       INT NOT NULL,
-    Player_ID                     INT NOT NULL,
-    Team_ABV                      VARCHAR(3) NOT NULL,
-    Team_Name                     VARCHAR(45) NOT NULL,
-    Player_Name                   VARCHAR(45) NOT NULL,
-    
-    Stat_Type                     VARCHAR(45) NOT NULL,
-    
+    Season_ID                       INT NOT NULL,
+    Team_ID                         INT NOT NULL,
+    Player_ID                       INT NOT NULL,
+    Team_ABV                        VARCHAR(3) NOT NULL,
+    Team_Name                       VARCHAR(45) NOT NULL,
+    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Age                      INT NOT NULL,
+    League                          VARCHAR(3),
+    Player_Postion                  VARCHAR(2),
+    Games_Played       	            INT NOT NULL, 
+    Games_Started                   INT,
+    Minutes_Played                  INT NOT NULL,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebound               FLOAT,
+    Defensive_Rebound               FLOAT,
+    True_Rebound                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Foul                   FLOAT,
+    Points                          FLOAT,
+    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
     FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
@@ -309,19 +553,47 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     CHECK(Player_ID BETWEEN 1 and 3278),
-    
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Type)
+
+    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Poss(
-    Season_ID                     INT NOT NULL,
-    Team_ID                       INT NOT NULL,
-    Player_ID                     INT NOT NULL,
-    Team_ABV                      VARCHAR(3) NOT NULL,
-    Team_Name                     VARCHAR(45) NOT NULL,
-    Player_Name                   VARCHAR(45) NOT NULL,
-
-    Stat_Type                     VARCHAR(45) NOT NULL,
+    Season_ID                       INT NOT NULL,
+    Team_ID                         INT NOT NULL,
+    Player_ID                       INT NOT NULL,
+    Team_ABV                        VARCHAR(3) NOT NULL,
+    Team_Name                       VARCHAR(45) NOT NULL,
+    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Age                      INT NOT NULL,
+    League                          VARCHAR(3),
+    Player_Postion                  VARCHAR(2),
+    Games_Played       	            INT NOT NULL, 
+    Games_Started                   INT,
+    Minutes_Played                  INT NOT NULL,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebound               FLOAT,
+    Defensive_Rebound               FLOAT,
+    True_Rebound                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Foul                   FLOAT,
+    Points                          FLOAT,
+    Offensive_Rating                INT,
+    Defensive_Rating                INT,
+    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
@@ -330,6 +602,55 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
     CHECK(Player_ID BETWEEN 1 and 3278),
-    
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Type)
+
+    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
+);
+
+CREATE TABLE IF NOT EXISTS Player_Per_Totals(
+    Season_ID                       INT NOT NULL,
+    Team_ID                         INT NOT NULL,
+    Player_ID                       INT NOT NULL,
+    Team_ABV                        VARCHAR(3) NOT NULL,
+    Team_Name                       VARCHAR(45) NOT NULL,
+    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Age                      INT NOT NULL,
+    League                          VARCHAR(3),
+    Player_Postion                  VARCHAR(2),
+    Games_Played       	            INT NOT NULL, 
+    Games_Started                   INT,
+    Minutes_Played                  INT NOT NULL,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Effective_Field_Goal_Percentage FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebound               FLOAT,
+    Defensive_Rebound               FLOAT,
+    True_Rebound                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Foul                   FLOAT,
+    Points                          FLOAT,
+    Triple_Double                   INT,
+    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+
+    PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+    FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
+    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
+    FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31),
+    CHECK(Player_ID BETWEEN 1 and 3278),
+
+    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
 );
