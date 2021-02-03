@@ -1,4 +1,4 @@
-    USE BasketballDB;
+USE BasketballDB;
 
 CREATE TABLE IF NOT EXISTS Season(
     Season_ID INT NOT NULL UNIQUE, 
@@ -398,7 +398,7 @@ CREATE TABLE IF NOT EXISTS Team_Totals(
     UNIQUE(Season_ID, Team_ID, Opponent)
     );
 
-    CREATE TABLE IF NOT EXISTS Player_Stats(
+CREATE TABLE IF NOT EXISTS Player_Stats(
     Season_ID           INT NOT NULL,
     Team_ID             INT NOT NULL,
     Player_ID           INT NOT NULL,
