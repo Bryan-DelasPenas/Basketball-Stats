@@ -34,7 +34,36 @@ def test_connection(engine):
         raise Exception("Did not connect to BasketBall Database")
 
 '''
-Function that inserts Season entities into database
+Function that test to see if the table has been created
+'''
+def check_table(tablename):
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    # Test to see if the table exists
+    test = conn.execute(
+    """
+    SHOW TABLES 
+    LIKE %s
+    """, tablename
+    ).fetchall()    
+    trans.commit()
+    
+    # Check if the list is empty 
+    if test:
+        print("Table exists")
+        return True
+    
+    else:
+        print("Table does not exists")
+        return False
+
+'''
+Function that inserts Season Entities into database
 '''
 def insert_season(season_id):
     
@@ -45,22 +74,26 @@ def insert_season(season_id):
     conn = test_connection(engine)
  
     trans = conn.begin()
-  
-    # Test to see if the insertion works
-    try: 
-        # Create a parameterized querry for insertion
-        conn.execute(
-        """
-        INSERT INTO Season(Season_ID)
-        VALUES(%s)
-        """, season_id)
-        trans.commit()
-        print("Insertion into Season was successful")
-    except:
-        raise Exception("Insertion into Season failed")
+
+    # Check if the table exists 
+    if(check_table('Season')):
+        # Test to see if the insertion works
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            INSERT INTO Season(Season_ID)
+            VALUES(%s)
+            """, season_id)
+            trans.commit()
+            print("Insertion into Season was successful")
+        except:
+            raise Exception("Insertion into Season failed")
+    else:
+        raise Exception("Table does not exists")
 
 '''
-Function that inserts Teans entities into database
+Function that inserts Teams Entities into database
 '''
 def insert_team(df):
     # Rename the dataframe 
@@ -74,16 +107,21 @@ def insert_team(df):
     
     trans = conn.begin()
 
-    # Test to see if the insertion works 
-    try:
-        df.to_sql('team', con = engine, if_exists='append', index = False)
-        trans.commit()
-        print("Insertion into Team was successful")
-    
-    except:
-        raise Exception("Insertion into Team failed")
-    
+    if(check_table('Team')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('team', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Team was successful")
+        
+        except:
+            raise Exception("Insertion into Team failed")
+    else:
+        raise Exception("Table does not exists")
 
+'''
+Function that inserts Player Entities into database
+'''
 def insert_player(df):    
     # Connect to sql database 
     engine = create_connection()
@@ -93,27 +131,60 @@ def insert_player(df):
     
     trans = conn.begin()
     
-    # Test to see if the insertion works 
-    try:
-        df.to_sql('player', con = engine, if_exists='append', index = False)
-        trans.commit()
-        print("Insertion into Team was successful")
+    if(check_table('Team')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('player', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Player was successful")
+        
+        except:
+            raise Exception("Insertion into Player failed")
+    else:
+        raise Exception("Table does not exist")
+
+'''
+Function that inserts Standings Entities into database
+'''
+def insert_standings(df):
+    # Rename the dataframe 
+    df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID" , "Team" : "Team_Name", "Team ABV" : "Team_ABV"})
     
-    except:
-        raise Exception("Insertion into Team failed")
+    # Connect to sql database 
+    engine = create_connection()
 
-def insert_standings():
-    return None
+    # Test the connection of the database
+    conn = test_connection(engine)
+    
+    trans = conn.begin()
 
-def insert_standard_standings():
-    return None
+    if(check_table('Standings')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('standings', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Team was successful")
+        
+        except:
+            raise Exception("Insertion into Team failed")
+    else:
+        raise Exception("Table does not exists")
 
+'''
+Function that inserts Conference Standings into database
+'''
 def insert_conference_standings():
     return None
 
+'''
+Function that inserts Expanded Standings into database
+'''
 def insert_expanded_standings():
     return None
 
+'''
+Function that inserts Team Vs Team into database
+'''
 def insert_team_vs_team():
     return None
 
@@ -205,7 +276,20 @@ def insert_all_players():
 
     insert_player(final_df)
     
+'''
+Calls insert_standings to insert all standings from 1980 - 2020
+'''
+def insert_all_standings():
+    path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Team_Names")
+    
+    # Iterate through the years directory
+    for i in range(1980, 2021):
+        print(i)
+        final_path = os.path.join(path, str(i) + "_Team_Names.csv")
+        df = pd.read_csv(final_path)
 
+        insert_standings(df)
+    
 '''
 Main function
 '''
@@ -213,6 +297,7 @@ def main():
     insert_all_season()
     insert_all_team()
     insert_all_players()
-
+    insert_all_standings()
+    #check_table('Season')
 if __name__ == "__main__":
     main()

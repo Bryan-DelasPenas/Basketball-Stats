@@ -12,9 +12,6 @@ FROM Player;
 SELECT *
 FROM Standings;
 
-Select *
-FROM Standard_Standings;
-
 SELECT *
 FROM Conference_Standings;
 
@@ -44,4 +41,8 @@ FROM Team_Per_Poss;
 
 SELECT *
 FROM Team_Totals;
+
+SELECT *
+FROM Standings
+WHERE Season_ID = 2020;
 
