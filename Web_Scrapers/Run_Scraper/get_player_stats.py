@@ -168,4 +168,6 @@ def main():
     get_player_csv()
     #csv_player_stats("A.C. Green", "October 4, 1963", 'Advanced', False, os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'A.C. Green'))
     print("--- %s seconds ---" % (time.time() - start_time))
-main()
+
+if __name__ == "__main__":
+    main()

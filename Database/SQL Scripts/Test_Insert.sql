@@ -1,7 +1,10 @@
 USE BasketBallDB;
 
 INSERT INTO Season(Season_ID)
-VALUES('1980');
+VALUES(1980);
+
+INSERT INTO Season(Season_ID)
+VALUES(1981);
 
 INSERT INTO Team(Season_ID, Team_ID, Team_Name, Team_ABV)
 VALUES(1980, 2, "Boston Celtics", "BOS");
@@ -11,6 +14,9 @@ VALUES(1980, 23, "Philadelphia 76Ers", "PHI");
 
 INSERT INTO Team(Season_ID, Team_ID, Team_Name, Team_ABV)
 VALUES(1980, 14, "Los Angeles Lakers", "LAL");
+
+INSERT INTO Team(Season_ID, Team_ID, Team_Name, Team_ABV)
+VALUES(1981, 2, "Boston Celtics", "BOS");
 
 INSERT INTO Player(Player_ID, Birth_Date, Player_Name)
 VALUE(102, "September 2, 1948", "Tiny Archibald");

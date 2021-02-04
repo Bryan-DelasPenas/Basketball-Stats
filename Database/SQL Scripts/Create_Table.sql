@@ -1,7 +1,7 @@
 USE BasketballDB;
 
 CREATE TABLE IF NOT EXISTS Season(
-    Season_ID INT NOT NULL UNIQUE, 
+    Season_ID INT NOT NULL, 
 
     PRIMARY KEY (Season_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021)
@@ -9,16 +9,15 @@ CREATE TABLE IF NOT EXISTS Season(
 
 CREATE TABLE IF NOT EXISTS Team(
     Season_ID INT NOT NULL, 
-    Team_ID   INT NOT NULL UNIQUE,
+    Team_ID   INT NOT NULL,
     Team_Name VARCHAR(45) NOT NULL,
     Team_ABV  VARCHAR(3) NOT NULL,
-
+	
+    UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
     FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Player(
@@ -30,33 +29,29 @@ CREATE TABLE IF NOT EXISTS Player(
 );
 
 CREATE TABLE IF NOT EXISTS Standings(
-    Season_ID INT NOT NULL,
+    Season_ID INT NOT NULL, 
     Team_ID   INT NOT NULL,
     Team_Name VARCHAR(45) NOT NULL,
     Team_ABV  VARCHAR(3) NOT NULL,
-
+	
+    UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Standard_Standings(
     Season_ID INT NOT NULL, 
     Team_ID   INT NOT NULL,
-    Team_Name VARCHAR(45) NOT NULL UNIQUE,
-    Team_ABV  VARCHAR(3) NOT NULL UNIQUE,
+    Team_Name VARCHAR(45) NOT NULL,
+    Team_ABV  VARCHAR(3) NOT NULL,
 
+	UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
+	FOREIGN KEY (Season_ID, Team_ID) REFERENCES Standings(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Conference_Standings(
@@ -72,14 +67,12 @@ CREATE TABLE IF NOT EXISTS Conference_Standings(
     Opponents_Points_Per_Game FLOAT NOT NULL,
     Simple_Rating_System 	  FLOAT NOT NULL, 
     East_Or_West              BOOLEAN NOT NULL,
-
+	
+    UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Standard_Standings(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Standard_Standings(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Standard_Standings(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Expanded_Standings(
@@ -113,14 +106,12 @@ CREATE TABLE IF NOT EXISTS Expanded_Standings(
     May_Record 					VARCHAR(5),
     Jul_Record 					VARCHAR(5),
     Aug_Record 					VARCHAR(5),
-
+	
+    UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY(Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
+	FOREIGN KEY (Season_ID, Team_ID) REFERENCES Standings(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Vs_Team(
@@ -169,13 +160,12 @@ CREATE TABLE IF NOT EXISTS Team_Vs_Team(
     WAS 	  VARCHAR(3), 
     WSB 	  VARCHAR(3),
 
-    PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Standings(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Standings(Team_ID),
-    CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
 
-    UNIQUE(Season_ID, Team_ID)
+    UNIQUE(Season_ID, Team_ID),
+    PRIMARY KEY (Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Standings(Season_ID, Team_ID),
+    CHECK(Season_ID BETWEEN 1980 AND 2021),
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Roster(
@@ -194,15 +184,14 @@ CREATE TABLE IF NOT EXISTS Roster(
     Player_Experanice   VARCHAR(2) NOT NULL,
     Player_College_Name VARCHAR(45), 
 
+
+	UNIQUE(Season_ID, Team_ID, Player_ID),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278),
-
-    UNIQUE(Season_ID, Team_ID, Player_ID)
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Stats(
@@ -211,12 +200,11 @@ CREATE TABLE IF NOT EXISTS Team_Stats(
     Team_ABV            VARCHAR(3) NOT NULL,
     Team_Name           VARCHAR(45) NOT NULL,
 
+	UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Advanced(
@@ -238,13 +226,11 @@ CREATE TABLE IF NOT EXISTS Team_Advanced(
     Playoffs_Finish               VARCHAR(45),
     Coaches                       VARCHAR(45),
 
+	UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Misc(
@@ -273,13 +259,11 @@ CREATE TABLE IF NOT EXISTS Team_Misc(
     Attend                        INT,
     Attend_Per_Game               INT, 
 
+	UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Per_Game(
@@ -311,13 +295,12 @@ CREATE TABLE IF NOT EXISTS Team_Per_Game(
     Personal_Foul                   FLOAT,
     Points                          FLOAT,
     Opponent                        BOOLEAN NOT NULL,
+   
+	UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID, Opponent)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Per_Poss(
@@ -350,13 +333,11 @@ CREATE TABLE IF NOT EXISTS Team_Per_Poss(
     Points                          FLOAT,
     Opponent                        BOOLEAN NOT NULL,
 
+    UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID, Opponent)
+    CHECK(Team_ID BETWEEN 1 and 31)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Totals(
@@ -389,14 +370,12 @@ CREATE TABLE IF NOT EXISTS Team_Totals(
     Points                          FLOAT,
     Opponent                        BOOLEAN NOT NULL,
 
+    UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-
-    UNIQUE(Season_ID, Team_ID, Opponent)
-    );
+    CHECK(Team_ID BETWEEN 1 and 31)
+);
 
 CREATE TABLE IF NOT EXISTS Player_Stats(
     Season_ID           INT NOT NULL,
@@ -406,16 +385,14 @@ CREATE TABLE IF NOT EXISTS Player_Stats(
     Team_Name           VARCHAR(45) NOT NULL,
     Birth_Date  		VARCHAR(30) NOT NULL,
     Player_Name 		VARCHAR(45) NOT NULL,
-
+	
+    UNIQUE(Season_ID, Team_ID, Player_ID),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Season(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Team(Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278),
-
-    UNIQUE(Season_ID, Team_ID, Player_ID)
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Advanced(
@@ -450,16 +427,12 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     Value_Over_Replacement        FLOAT,
     Stat_Form                     VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
+    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
-    FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
+    FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278),
-
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
-
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Game(
@@ -499,15 +472,12 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game(
     Points                          FLOAT,
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
+	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
-    FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
+    FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278),
-
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Minute(
@@ -546,15 +516,12 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     Points                          FLOAT,
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
+	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
-    FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
+    FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278),
-
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Poss(
@@ -595,15 +562,12 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     Defensive_Rating                INT,
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
+	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
-    FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
+    FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278),
-
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Totals(
@@ -644,13 +608,10 @@ CREATE TABLE IF NOT EXISTS Player_Per_Totals(
     Triple_Double                   INT,
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
+	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
-    FOREIGN KEY (Season_ID) REFERENCES Player_Stats(Season_ID),
-    FOREIGN KEY (Team_ID) REFERENCES Player_Stats(Team_ID),
-    FOREIGN KEY (Player_ID) REFERENCES Player_Stats(Player_ID),
+    FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278),
-
-    UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form)
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );

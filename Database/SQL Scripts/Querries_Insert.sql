@@ -44,3 +44,10 @@ FROM Team_Per_Poss;
 
 SELECT *
 FROM Team_Totals;
+
+SELECT *
+FROM Team
+WHERE Season_ID = 2020;
+
+SELECT *
+FROM Season;

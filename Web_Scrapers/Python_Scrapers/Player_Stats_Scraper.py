@@ -198,6 +198,63 @@ def get_player_suffix(name, birth_date):
         if(name == "Nene Hilario"):
             name = "Nene"
 
+        elif(name == "Dee Brown" and birth_date == "November 29, 1968"):
+            name = "Dee Brown"
+
+        elif(name == "Mark Davis" and birth_date == "June 8, 1963"):
+            name = "Mark Davis"
+
+        elif(name == "Mark Davis" and birth_date == "April 26, 1973"):
+            name = "Mark Davis"
+
+        elif(name == "Mike Dunleavy" and birth_date == "September 15, 1980"):
+            name = "Mike Dunleavy"
+
+        elif(name == "Patrick Ewing" and birth_date == "May 20, 1984"):
+            name = "Patrick Ewing"
+
+        elif(name == "Cedric Henderson" and birth_date == "March 11, 1975"):
+            name = "Cedric Henderson"
+
+        elif(name == "Gerald Henderson" and birth_date == "December 9, 1987"):
+            name = "Gerald Henderson"
+
+        elif(name == "Mike James" and birth_date == "June 23, 1975"):
+            name = "Mike James"
+        
+        elif(name == "Mike James" and birth_date == "August 18, 1990"):
+            name = "Mike James"
+    
+        elif(name == "Chris Johnson" and birth_date == "July 15, 1985"):
+            name = "Chris Johnson"
+
+        elif(name == "Chris Johnson" and birth_date == "April 29, 1990"):
+            name = "Chris Johnson"
+
+        elif(name == "Eddie Johnson"):
+            name = "Eddie Johnson"
+
+        elif(name == "George Johnson"):
+            name = "George Johnson"
+
+        elif(name == "Ken Johnson"):
+            name = "Ken Johnson"
+
+        elif(name == "Bobby Jones"):
+            name = "Bobby Jones"
+
+        elif(name == "Charles Jones"):
+            name = "Charles Jones"
+
+        elif(name == "Mark Jones"):
+            name = "Mark Jones"
+
+        elif(name == "Tony Mitchell"):
+            name = "Tony Mitchell"
+
+        elif(name == "Walker Russell"):
+            name = "Walker Russell"
+
         elif(name_tuple in RIGHT_NAME_DICT):
             name = RIGHT_NAME_DICT[name_tuple]
 
@@ -206,7 +263,7 @@ def get_player_suffix(name, birth_date):
             name = ""
             name = name_list[0] + " " + name_list[1] + " " + name_list[2] 
 
-        #print(page_name,":" ,name)
+        print(page_name,":" ,name)
        
         # This is for accented characters on the website         
         if(unidecode.unidecode(page_name).lower() == name.lower() and birth_date == final_date):
@@ -807,3 +864,4 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df = career_df.drop(['eFG%'], axis=1)
 
         return career_df
+
