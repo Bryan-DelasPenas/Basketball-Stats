@@ -1,7 +1,7 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
 2020,10,214,GSW,Golden State Warriors,10,Dragan Bender,PF,7-0,225,"November 17, 1997",BA,3,
 2020,10,314,GSW,Golden State Warriors,12,Ky Bowman,PG,6-1,187,"June 16, 1997",US,R,Boston College
-2020,10,424,GSW,Golden State Warriors,8-20,Alec Burks,SF,6-6,214,"July 20, 1991",US,8,Colorado
+2020,10,424,GSW,Golden State Warriors,"8, 20",Alec Burks,SF,6-6,214,"July 20, 1991",US,8,Colorado
 2020,10,503,GSW,Golden State Warriors,2,Willie Cauley-Stein,C,7-0,240,"August 18, 1993",US,4,Kentucky
 2020,10,532,GSW,Golden State Warriors,32,Marquese Chriss,PF,6-9,240,"July 2, 1997",US,3,Washington
 2020,10,657,GSW,Golden State Warriors,30,Stephen Curry,PG,6-3,185,"March 14, 1988",US,10,Davidson

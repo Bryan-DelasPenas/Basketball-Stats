@@ -173,8 +173,30 @@ def insert_standings(df):
 '''
 Function that inserts Conference Standings into database
 '''
-def insert_conference_standings():
-    return None
+def insert_conference_standings(df):
+     # Rename the dataframe 
+    df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID" , "Team ABV" : "Team_ABV", "Team" : "Team_Name",
+                            "W" : "Wins", "L" : "Loses", "W/L%" : "Win_Lose_Percentage", "GB" : "Games_Behind", "PS/G" : "Points_Per_Game", 
+                            "PA/G" : "Opponents_Points_Per_Game", "SRS" : "Simple_Rating_System"})
+    
+    # Connect to sql database 
+    engine = create_connection()
+
+    # Test the connection of the database
+    conn = test_connection(engine)
+    
+    trans = conn.begin()
+    if(check_table('Conference_Standings')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('conference_standings', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Team was successful")
+        
+        except:
+            raise Exception("Insertion into Team failed")
+    else:
+        raise Exception("Table does not exists")
 
 '''
 Function that inserts Expanded Standings into database
@@ -188,8 +210,34 @@ Function that inserts Team Vs Team into database
 def insert_team_vs_team():
     return None
 
-def insert_roster():
-    return None
+'''
+Function that inserts Roster into database
+'''
+def insert_roster(df):
+    # Rename the dataframe 
+    df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", "Number" : "Player_Number",
+                            "Player": "Player_Name", "Pos" : "Player_Postion", "Height" : "Player_Height", "Weight" : "Player_Weight", "Birth Date" : "Birth_Date", 
+                            "Nationality" : "Player_Nationality", "Experience" : "Player_Experience", "College" : "Player_College_Name"})
+    
+    # Connect to sql database 
+    engine = create_connection()
+
+    # Test the connection of the database
+    conn = test_connection(engine)
+    
+    trans = conn.begin()
+
+    if(check_table('Roster')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('roster', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Roster was successful")
+        
+        except:
+            raise Exception("Insertion into Roster failed")
+    else:
+        raise Exception("Roster does not exists")
 
 def insert_team_stats():
     return None
@@ -289,7 +337,47 @@ def insert_all_standings():
         df = pd.read_csv(final_path)
 
         insert_standings(df)
+
+'''
+Calls insert_all_conference_standings from 1980 - 2020
+'''
+def insert_all_conference_standings():
+    east_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "Standard", "East")
+    west_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "Standard", "West")
     
+    # Iterate through the years
+    for i in range(1980, 2021):
+        print(i)
+        final_east_path = os.path.join(east_path, str(i) + "season_east_Standard.csv")
+        final_west_path = os.path.join(west_path, str(i) + "season_west_Standard.csv")
+        
+        df_east = pd.read_csv(final_east_path)
+        df_west = pd.read_csv(final_west_path)
+
+        # 0 = east
+        # 1 = west
+        df_east['East_Or_West'] = 0
+        df_west['East_Or_West'] = 1
+       
+        insert_conference_standings(df_east)
+        insert_conference_standings(df_west)
+
+'''
+Calls insert_all_roster from 1980 - 2020
+'''
+def insert_all_roster():
+    path = os.path.join(pathlib.Path().absolute(), "Output","Team", "Roster", "Team_Roster")
+
+    for i in range(1980, 2021):
+        second_path = os.path.join(path, str(i))
+       
+        csv_files = os.listdir(second_path)
+
+        for x in range(len(csv_files)):
+            final_path = os.path.join(second_path, csv_files[x])
+            df = pd.read_csv(final_path)
+            insert_roster(df)
+
 '''
 Main function
 '''
@@ -298,6 +386,7 @@ def main():
     insert_all_team()
     insert_all_players()
     insert_all_standings()
-    #check_table('Season')
+    insert_all_conference_standings()
+    insert_all_roster()
 if __name__ == "__main__":
     main()

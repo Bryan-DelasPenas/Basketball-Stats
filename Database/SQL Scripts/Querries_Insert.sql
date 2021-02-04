@@ -43,6 +43,6 @@ SELECT *
 FROM Team_Totals;
 
 SELECT *
-FROM Standings
+FROM Roster
 WHERE Season_ID = 2020;
 

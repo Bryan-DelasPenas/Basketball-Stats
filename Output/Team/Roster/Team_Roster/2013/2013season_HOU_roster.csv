@@ -17,5 +17,5 @@ Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Dat
 2013,11,2187,HOU,Houston Rockets,14,Tim Ohlbrecht,C,6-11,255,"August 30, 1988",DE,R,
 2013,11,2250,HOU,Houston Rockets,25,Chandler Parsons,SF,6-9,230,"October 25, 1988",US,1,Florida
 2013,11,2257,HOU,Houston Rockets,54,Patrick Patterson,PF,6-8,235,"March 14, 1989",US,2,Kentucky
-2013,11,2487,HOU,Houston Rockets,0-41,Thomas Robinson,PF,6-10,237,"March 17, 1991",US,R,Kansas
+2013,11,2487,HOU,Houston Rockets,"0, 41",Thomas Robinson,PF,6-10,237,"March 17, 1991",US,R,Kansas
 2013,11,2677,HOU,Houston Rockets,4,Greg Smith,C,6-10,250,"January 8, 1991",US,1,Fresno State
