@@ -200,11 +200,22 @@ RIGHT_NAME_DICT = {
     ("Glen Rice", "January 1, 1991")         : "Glen Rice Jr.",
     ("Glenn Robinson", "January 8, 1994")    : "Glen Robinson III",
     ("Walker Russell", "October 6, 1982")    : "Walker Russell Jr.",
+    ("Charles Smith", "July 16, 1965")       : "Charles Daniel Smith",
+    ("Charles Smith", "November 29, 1967")   : "Charles Edward Smith",
+    ("Charles Smith", "August 22, 1975")     : "Charles Cornelius Smith",
+    ("Chris Smith", "May 17, 1970")          : "Chris G. Smith",
     ("Dennis Smith", "November 25, 1997")    : "Dennis Smith Jr.",
-    ("Jeffery Taylor", "May 23, 1989")       : "Jeff Taylor",
+    ("Michael Smith", "May 19, 1965")        : "Michael Smith (1965)",
+    ("Michael Smith", "March 28, 1972")      : "Michael Smith (1972)",
+    ("Jeffery Taylor", "May 23, 1989")       : "Jeff Matthew Taylor",
     ("Xavier Tillman", "January 12, 1999")   : "Xavier Tillman Sr.",
     ("Gary Trent", "January 18, 1999")       : "Gary Trent Jr.",
+    ("Marcus Williams", "December 3, 1985")  : "Marcus Darell Williams",
+    ("Marcus Williams", "November 18, 1986") : "Marcus Eliot Williams",
+    ("Reggie Williams", "September 14, 1986"): "Reginald Leon Williams",
     ("James Webb", "August 19, 1993")        : "James Webb III",
+    ("Chris Wright", "September 30, 1988")   : "Chris Wright (1988)",
+    ("Chris Wright", "November 4, 1989")     : "Chris Wright (1989)",
     ("Omer Ask", "July 4, 1986")             : "Omer Asik",
     ("Vitor Luiz Faverani", "May 5, 1988")   : "Vitor Faverani",
     ("Horacio Llamas Grey", "July 17, 1973") : "Horacio Llamas",
@@ -286,4 +297,3 @@ def get_player_id():
 
 # Global Decloration of Player_id
 PLAYER_ID = get_player_id()
-print(PLAYER_ID)

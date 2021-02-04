@@ -255,6 +255,27 @@ def get_player_suffix(name, birth_date):
         elif(name == "Walker Russell"):
             name = "Walker Russell"
 
+        elif(name == "Charles Smith"):
+            name = "Charles Smith"
+
+        elif(name == "Chris Smith"):
+            name = "Chris Smith"
+
+        elif(name == "Michael Smith"):
+            name = "Michael Smith"
+
+        elif(name == "Jeff Taylor" and birth_date == "May 23, 1989"):
+            name = "Jeff Taylor"
+
+        elif(name == "Marcus Williams"):
+            pass
+
+        elif(name == "Reggie Williams"):
+            pass
+
+        elif(name == "Chris Wright"):
+            pass
+
         elif(name_tuple in RIGHT_NAME_DICT):
             name = RIGHT_NAME_DICT[name_tuple]
 
