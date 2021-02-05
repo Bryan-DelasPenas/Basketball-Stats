@@ -545,3 +545,6 @@ def remove_char(string, postion):
     # nth indexed character. 
     return a + b 
 
+def main():
+    print(get_team_advanced("NJN", 2013))
+main()

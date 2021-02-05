@@ -211,7 +211,7 @@ CREATE TABLE IF NOT EXISTS Team_Advanced(
     Defensive_Rating              FLOAT NOT NULL,
     Relative_Defensive_Rating     FLOAT NOT NULL,
     Playoffs_Finish               VARCHAR(45),
-    Coaches                       VARCHAR(45),
+    Coaches                       VARCHAR(100),
 
 	UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
@@ -283,8 +283,8 @@ CREATE TABLE IF NOT EXISTS Team_Per_Game(
     Points                          FLOAT,
     Opponent                        BOOLEAN NOT NULL,
    
-	UNIQUE(Season_ID, Team_ID),
-    PRIMARY KEY (Season_ID, Team_ID),
+	UNIQUE(Season_ID, Team_ID, Opponent),
+    PRIMARY KEY (Season_ID, Team_ID, Opponent),
     FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31)
@@ -320,8 +320,8 @@ CREATE TABLE IF NOT EXISTS Team_Per_Poss(
     Points                          FLOAT,
     Opponent                        BOOLEAN NOT NULL,
 
-    UNIQUE(Season_ID, Team_ID),
-    PRIMARY KEY (Season_ID, Team_ID),
+	UNIQUE(Season_ID, Team_ID, Opponent),
+    PRIMARY KEY (Season_ID, Team_ID, Opponent),
     FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31)
@@ -357,8 +357,8 @@ CREATE TABLE IF NOT EXISTS Team_Totals(
     Points                          FLOAT,
     Opponent                        BOOLEAN NOT NULL,
 
-    UNIQUE(Season_ID, Team_ID),
-    PRIMARY KEY (Season_ID, Team_ID),
+    UNIQUE(Season_ID, Team_ID, Opponent),
+    PRIMARY KEY (Season_ID, Team_ID, Opponent),
     FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team_Stats(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31)

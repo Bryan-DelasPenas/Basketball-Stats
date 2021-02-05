@@ -139,7 +139,7 @@ TEAM_ID = {
 }
 
 # This dict is used for getting team_advanced stats as they use the most updated team name except
-# for some reason New Jersey Nets and Sacramento Kings
+ 
 TEAM_DICT = {
     'CHO': 'CHA',
     'SDC': 'LAC',
@@ -148,7 +148,9 @@ TEAM_DICT = {
     'NOJ': 'UTA',
     'WSB': 'WAS',
     'NOP': 'NOH',
-    'NOK': 'NOH'
+    'NOK': 'NOH',
+    'KCK': 'SAC',
+    'BRK': 'NJN',
 
 }
 
