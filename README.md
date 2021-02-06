@@ -11,6 +11,9 @@ and a possible fourth phase.</p>
 <strong>Phase 3:</strong> Predicting the MVP based on player stats<br> 
 <strong>Phase 4:</strong> Creating a web application<br>
 
+<strong>Additional Features:</strong><br>
+<p>1) Creating a docker file, and create a docker image per python script</p>
+
 <p>Phase 1: By using the python libraries beautifulsoup, we can scrap data from 
 basketball-reference.com. There are going to be multiple scrapers that scrap information
 like season stats, team stats, and finally player stats from 1980 to current date. 
@@ -24,7 +27,7 @@ we can write a query to see who has the total most field goals in a certain year
 highlight import features, and thus put it into a random forest function. This function should predict who 
 won MVP for a given year.</p>
 
-<p>Phase 4: Using django, creating a web application to for the scrapers, database, and for the mvp prediction.
+<p>Phase 4: Using flask, creating a web application to for the scrapers, database, and for the mvp prediction.
 This is an optional phase that may or may not be created.</p>
 
 ## Setting up the virtual environment using Conda

@@ -8,7 +8,7 @@ import pathlib
 import time
 
 from Team_Stats_Scraper import remove_char
-from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID, RIGHT_PLAYER_SUFIX 
+from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID, RIGHT_PLAYER_SUFIX, SPECIAL_NAME_DICT
 from utils import translate
 
 '''
@@ -101,11 +101,11 @@ def create_player_suffix(name):
 Creates a valid player suffix based on the parameter name and birth date
 '''    
 def get_player_suffix(name, birth_date):
-    
+   
     # Flag for middle name
     middle_flag = False
     name_tuple = (name, birth_date)
-    
+ 
     # Special Case: for name = Jeff Aryes since he changed his name in 2013
     if(name_tuple in RIGHT_PLAYER_SUFIX):
         sub_name = RIGHT_PLAYER_SUFIX[name_tuple]
@@ -192,89 +192,11 @@ def get_player_suffix(name, birth_date):
                 # Everything else
                 else:
                     final_date += date[index]
-
+        
         name_tuple = (name, birth_date)
         # Special Case: For some reason Nene Hilario is just Nene
-        if(name == "Nene Hilario"):
-            name = "Nene"
-
-        elif(name == "Dee Brown" and birth_date == "November 29, 1968"):
-            name = "Dee Brown"
-
-        elif(name == "Mark Davis" and birth_date == "June 8, 1963"):
-            name = "Mark Davis"
-
-        elif(name == "Mark Davis" and birth_date == "April 26, 1973"):
-            name = "Mark Davis"
-
-        elif(name == "Mike Dunleavy" and birth_date == "September 15, 1980"):
-            name = "Mike Dunleavy"
-
-        elif(name == "Patrick Ewing" and birth_date == "May 20, 1984"):
-            name = "Patrick Ewing"
-
-        elif(name == "Cedric Henderson" and birth_date == "March 11, 1975"):
-            name = "Cedric Henderson"
-
-        elif(name == "Gerald Henderson" and birth_date == "December 9, 1987"):
-            name = "Gerald Henderson"
-
-        elif(name == "Mike James" and birth_date == "June 23, 1975"):
-            name = "Mike James"
-        
-        elif(name == "Mike James" and birth_date == "August 18, 1990"):
-            name = "Mike James"
-    
-        elif(name == "Chris Johnson" and birth_date == "July 15, 1985"):
-            name = "Chris Johnson"
-
-        elif(name == "Chris Johnson" and birth_date == "April 29, 1990"):
-            name = "Chris Johnson"
-
-        elif(name == "Eddie Johnson"):
-            name = "Eddie Johnson"
-
-        elif(name == "George Johnson"):
-            name = "George Johnson"
-
-        elif(name == "Ken Johnson"):
-            name = "Ken Johnson"
-
-        elif(name == "Bobby Jones"):
-            name = "Bobby Jones"
-
-        elif(name == "Charles Jones"):
-            name = "Charles Jones"
-
-        elif(name == "Mark Jones"):
-            name = "Mark Jones"
-
-        elif(name == "Tony Mitchell"):
-            name = "Tony Mitchell"
-
-        elif(name == "Walker Russell"):
-            name = "Walker Russell"
-
-        elif(name == "Charles Smith"):
-            name = "Charles Smith"
-
-        elif(name == "Chris Smith"):
-            name = "Chris Smith"
-
-        elif(name == "Michael Smith"):
-            name = "Michael Smith"
-
-        elif(name == "Jeff Taylor" and birth_date == "May 23, 1989"):
-            name = "Jeff Taylor"
-
-        elif(name == "Marcus Williams"):
-            pass
-
-        elif(name == "Reggie Williams"):
-            pass
-
-        elif(name == "Chris Wright"):
-            pass
+        if(name_tuple in SPECIAL_NAME_DICT):
+            name = SPECIAL_NAME_DICT[name_tuple]
 
         elif(name_tuple in RIGHT_NAME_DICT):
             name = RIGHT_NAME_DICT[name_tuple]
@@ -283,16 +205,15 @@ def get_player_suffix(name, birth_date):
         if(middle_flag):
             name = ""
             name = name_list[0] + " " + name_list[1] + " " + name_list[2] 
-
-        print(page_name,":" ,name)
-       
+        #print(page_name, ":", name)
+        #print(final_date, ":", birth_date)
         # This is for accented characters on the website         
         if(unidecode.unidecode(page_name).lower() == name.lower() and birth_date == final_date):
-
             return suffix
         
         else:
             suffix = suffix[:-6] + str(int(suffix[-6]) + 1 ) + suffix[-5:]
+            
             page = get(f'https://www.basketball-reference.com{suffix}')
 
     return None
@@ -303,7 +224,7 @@ Returns csv of player stats from every year they played from 1980
 def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False): 
     
     record = lookup(name, birth_date)
-
+    
     # Check if it a valid player and birthdate
     if(record[0][0] == name and record[0][1] == birth_date):
         pass
@@ -886,3 +807,6 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
 
         return career_df
 
+def main():
+    print(get_player_suffix("Chris Wright"," November 4, 1989"))
+#main()

@@ -644,7 +644,7 @@ def insert_all_team_totals():
         insert_team_totals(opponent_df, 1)
 
 '''
-Main function
+Main function 
 '''
 def main():
     insert_all_season()
@@ -659,6 +659,6 @@ def main():
     insert_all_team_per_game()
     insert_all_team_per_poss()
     insert_all_team_totals()
-    
+
 if __name__ == "__main__":
     main()
