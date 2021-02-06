@@ -312,8 +312,12 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
             record[0][0] = RIGHT_NAME_DICT[name_tuple]
 
         df['Player ID'] = PLAYER_ID[record[0][0]] 
-
+        df['Player Name'] = record[0][0]
+        df['Birth Date'] = record[0][1]
+        
         # Rearranges the elements
+        df = df[ ['Birth Date'] + [ col for col in df.columns if col != 'Birth Date' ] ]
+        df = df[ ['Player Name'] + [ col for col in df.columns if col != 'Player Name' ] ]
         df = df[ ['Team'] + [ col for col in df.columns if col != 'Team' ] ]
         df = df[ ['Team ABV'] + [ col for col in df.columns if col != 'Team ABV' ] ]
         df = df[ ['Player ID'] + [ col for col in df.columns if col != 'Player ID' ] ]
@@ -808,5 +812,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_player_suffix("Chris Wright"," November 4, 1989"))
-#main()
+    print(get_career_stats("Tim Hardaway", "March 16, 1992"))
+main()
