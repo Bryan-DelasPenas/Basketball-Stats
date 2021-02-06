@@ -465,7 +465,7 @@ def insert_all_team():
 '''
 Calls insert_players to insert all player active 1980 - 2020
 '''
-def insert_all_players():
+def insert_all_player():
     path = os.path.join(pathlib.Path().absolute(), "Output", "Player_Name", "player_names.csv")
     df = pd.read_csv(path)
 
@@ -644,21 +644,47 @@ def insert_all_team_totals():
         insert_team_totals(opponent_df, 1)
 
 '''
+
+'''
+def insert_all_player_stats():
+    path = os.path.join(pathlib.Path().absolute(), "Output", "Player_Name", "player_names.csv")
+    stat_path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    df = pd.read_csv(path)
+
+    df = df.values.tolist()
+
+    for x in range(len(df)):
+        name_tuple = (df[x][0], df[x][1])
+
+        if(name_tuple in RIGHT_NAME_DICT):
+            df[x][0] = RIGHT_NAME_DICT[name_tuple]
+
+
+        df[x].append(PLAYER_ID[df[x][0]])
+
+    final_df = pd.DataFrame(df, columns=['Player_Name', 'Birth_Date', 'Player_ID'])
+    final_df = final_df[ ['Player_Name'] + [ col for col in final_df.columns if col != 'Player_Name' ] ]
+    final_df = final_df[ ['Birth_Date'] + [ col for col in final_df.columns if col != 'Birth_Date' ] ]
+    final_df = final_df[ ['Player_ID'] + [ col for col in final_df.columns if col != 'Player_ID' ] ]
+    print(final_df)
+
+'''
 Main function 
 '''
 def main():
-    insert_all_season()
-    insert_all_team()
-    insert_all_players()
-    insert_all_standings()
-    insert_all_conference_standings()
-    insert_all_roster()
-    insert_all_team_stats()
-    insert_all_team_advanced()
-    insert_all_team_misc()
-    insert_all_team_per_game()
-    insert_all_team_per_poss()
-    insert_all_team_totals()
+    #insert_all_season()
+    #insert_all_team()
+    #insert_all_player()
+    #insert_all_standings()
+    #insert_all_conference_standings()
+    #insert_all_roster()
+    #insert_all_team_stats()
+    #insert_all_team_advanced()
+    #insert_all_team_misc()
+    #insert_all_team_per_game()
+    #insert_all_team_per_poss()
+    #insert_all_team_totals()
+    insert_all_player_stats()
 
 if __name__ == "__main__":
     main()
