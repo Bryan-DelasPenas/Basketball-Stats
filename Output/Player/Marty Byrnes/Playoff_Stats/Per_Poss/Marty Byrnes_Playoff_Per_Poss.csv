@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1980,14,446,LAL,Los Angeles Lakers,23.0,NBA,SF,4.0,,8.0,5.9,17.6,0.33,0.0,0.0,,5.9,17.6,0.33,23.5,35.2,0.67,5.9,0.0,5.9,5.9,0.0,0.0,5.9,0.0,35.2,,110.0,113.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1980,14,446,LAL,Los Angeles Lakers,Marty Byrnes,"April 30, 1956",23.0,NBA,SF,4.0,,8.0,5.9,17.6,0.33,0.0,0.0,,5.9,17.6,0.33,23.5,35.2,0.67,5.9,0.0,5.9,5.9,0.0,0.0,5.9,0.0,35.2,,110.0,113.0

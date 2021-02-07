@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2008,9,2780,DET,Detroit Pistons,21.0,NBA,PG,17.0,2.0,380.0,6.4,17.3,0.37,0.3,1.0,0.29,6.1,16.3,0.38,7.6,8.7,0.88,1.6,3.1,4.8,8.7,2.7,0.3,3.4,5.2,20.7,,105.0,107.0
-2009,9,2780,DET,Detroit Pistons,22.0,NBA,PG,4.0,4.0,128.0,10.8,27.5,0.39,0.0,3.6,0.0,10.8,23.9,0.45,5.4,6.3,0.86,0.9,3.2,4.1,9.5,0.0,0.0,2.7,4.1,27.0,,96.0,118.0
-2016,12,2780,IND,Indiana Pacers,29.0,NBA,PG,7.0,0.0,125.0,7.3,18.6,0.4,2.2,4.3,0.5,5.2,14.3,0.36,2.2,3.9,0.56,0.4,6.1,6.5,6.1,1.7,0.4,2.6,3.9,19.0,,97.0,106.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2008,9,2780,DET,Detroit Pistons,Rodney Stuckey,"April 21, 1986",21.0,NBA,PG,17.0,2.0,380.0,6.4,17.3,0.37,0.3,1.0,0.29,6.1,16.3,0.38,7.6,8.7,0.88,1.6,3.1,4.8,8.7,2.7,0.3,3.4,5.2,20.7,,105.0,107.0
+2009,9,2780,DET,Detroit Pistons,Rodney Stuckey,"April 21, 1986",22.0,NBA,PG,4.0,4.0,128.0,10.8,27.5,0.39,0.0,3.6,0.0,10.8,23.9,0.45,5.4,6.3,0.86,0.9,3.2,4.1,9.5,0.0,0.0,2.7,4.1,27.0,,96.0,118.0
+2016,12,2780,IND,Indiana Pacers,Rodney Stuckey,"April 21, 1986",29.0,NBA,PG,7.0,0.0,125.0,7.3,18.6,0.4,2.2,4.3,0.5,5.2,14.3,0.36,2.2,3.9,0.56,0.4,6.1,6.5,6.1,1.7,0.4,2.6,3.9,19.0,,97.0,106.0

@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2020,19,44,NOP,New Orleans Pelicans,21.0,NBA,SG,47,1,12.6,2.1,5.7,0.37,1.0,2.8,0.35,1.1,2.8,0.39,0.46,0.5,0.8,0.68,0.2,1.6,1.8,1.9,0.4,0.2,1.1,1.2,5.7
-2021,19,44,NOP,New Orleans Pelicans,22.0,NBA,SG,18,3,21.3,3.8,9.5,0.4,1.2,4.3,0.28,2.6,5.2,0.5,0.47,1.3,1.7,0.77,0.2,2.7,2.9,2.2,1.3,0.3,1.4,2.0,10.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,19,44,NOP,New Orleans Pelicans,Nickeil Alexander-Walker,"September 2, 1998",21.0,NBA,SG,47,1,12.6,2.1,5.7,0.37,1.0,2.8,0.35,1.1,2.8,0.39,0.46,0.5,0.8,0.68,0.2,1.6,1.8,1.9,0.4,0.2,1.1,1.2,5.7
+2021,19,44,NOP,New Orleans Pelicans,Nickeil Alexander-Walker,"September 2, 1998",22.0,NBA,SG,19,3,21.1,3.7,9.4,0.4,1.2,4.3,0.27,2.6,5.1,0.51,0.46,1.2,1.6,0.77,0.2,2.7,2.9,2.1,1.3,0.4,1.5,1.9,9.8

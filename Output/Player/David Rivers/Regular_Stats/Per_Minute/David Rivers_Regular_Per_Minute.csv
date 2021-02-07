@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1989,14,2454,LAL,Los Angeles Lakers,24.0,NBA,PG,47.0,0.0,440.0,4.0,10.0,0.4,0.1,0.5,0.17,3.9,9.5,0.41,2.9,3.4,0.83,1.1,2.5,3.5,8.7,1.9,0.7,5.0,4.1,11.0
-1990,13,2454,LAC,Los Angeles Clippers,25.0,NBA,PG,52.0,11.0,724.0,4.0,9.8,0.41,0.0,0.2,0.0,4.0,9.5,0.42,2.9,3.9,0.76,1.5,2.7,4.2,7.7,1.5,0.0,4.4,2.6,10.9
-1992,13,2454,LAC,Los Angeles Clippers,27.0,NBA,PG,15.0,0.0,122.0,3.0,8.9,0.33,0.0,0.3,0.0,3.0,8.6,0.34,3.0,3.2,0.91,3.0,2.7,5.6,6.2,2.1,0.3,5.0,4.1,8.9
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1989,14,2454,LAL,Los Angeles Lakers,David Rivers,"January 20, 1965",24.0,NBA,PG,47.0,0.0,440.0,4.0,10.0,0.4,0.1,0.5,0.17,3.9,9.5,0.41,2.9,3.4,0.83,1.1,2.5,3.5,8.7,1.9,0.7,5.0,4.1,11.0
+1990,13,2454,LAC,Los Angeles Clippers,David Rivers,"January 20, 1965",25.0,NBA,PG,52.0,11.0,724.0,4.0,9.8,0.41,0.0,0.2,0.0,4.0,9.5,0.42,2.9,3.9,0.76,1.5,2.7,4.2,7.7,1.5,0.0,4.4,2.6,10.9
+1992,13,2454,LAC,Los Angeles Clippers,David Rivers,"January 20, 1965",27.0,NBA,PG,15.0,0.0,122.0,3.0,8.9,0.33,0.0,0.3,0.0,3.0,8.6,0.34,3.0,3.2,0.91,3.0,2.7,5.6,6.2,2.1,0.3,5.0,4.1,8.9

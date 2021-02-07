@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2019,14,1548,LAL,Los Angeles Lakers,23.0,NBA,SF,6,143,12.1,0.4,0.3,0.06,11.8,23.4,17.7,11.4,2.3,2.9,12.9,11.3,0.0,0.2,0.2,0.08,-2.2,2.4,0.2,0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2019,14,1548,LAL,Los Angeles Lakers,Jemerrio Jones,"April 9, 1995",23.0,NBA,SF,6,143,12.1,0.4,0.3,0.06,11.8,23.4,17.7,11.4,2.3,2.9,12.9,11.3,0.0,0.2,0.2,0.08,-2.2,2.4,0.2,0.1

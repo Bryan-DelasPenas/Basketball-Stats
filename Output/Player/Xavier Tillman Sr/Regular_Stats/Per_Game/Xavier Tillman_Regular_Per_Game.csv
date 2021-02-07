@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2021,15,2885,MEM,Memphis Grizzlies,22.0,NBA,PF,12,5,21.4,3.9,7.3,0.53,0.3,1.2,0.21,3.7,6.2,0.6,0.55,0.8,1.0,0.75,1.3,3.7,5.0,1.7,1.3,0.8,0.6,2.3,8.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,15,2885,MEM,Memphis Grizzlies,Xavier Tillman Sr.,"January 12, 1999",22.0,NBA,PF,12,5,21.4,3.9,7.3,0.53,0.3,1.2,0.21,3.7,6.2,0.6,0.55,0.8,1.0,0.75,1.3,3.7,5.0,1.7,1.3,0.8,0.6,2.3,8.8

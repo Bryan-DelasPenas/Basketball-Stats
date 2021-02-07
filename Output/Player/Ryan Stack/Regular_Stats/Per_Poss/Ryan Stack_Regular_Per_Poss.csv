@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1999,6,2732,CLE,Cleveland Cavaliers,23.0,NBA,PF,18,0,199,3.9,10.3,0.38,0.0,0.0,,3.9,10.3,0.38,5.3,5.6,0.95,5.3,4.2,9.5,1.4,0.6,3.1,2.5,8.7,13.1,,106,104
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1999,6,2732,CLE,Cleveland Cavaliers,Ryan Stack,"July 24, 1975",23.0,NBA,PF,18,0,199,3.9,10.3,0.38,0.0,0.0,,3.9,10.3,0.38,5.3,5.6,0.95,5.3,4.2,9.5,1.4,0.6,3.1,2.5,8.7,13.1,,106,104

@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2019,12,1307,IND,Indiana Pacers,22.0,NBA,PG,3,0,13,7.8,19.4,0.4,3.9,7.8,0.5,3.9,11.6,0.33,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,3.9,11.6,19.4,,76,112
-2020,12,1307,IND,Indiana Pacers,23.0,NBA,PG,4,2,72,8.3,14.5,0.57,2.8,6.2,0.44,5.5,8.3,0.67,2.1,3.4,0.6,0.7,2.8,3.4,6.9,2.8,0.0,2.8,6.9,21.4,,121,117
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2019,12,1307,IND,Indiana Pacers,Aaron Holiday,"September 30, 1996",22.0,NBA,PG,3,0,13,7.8,19.4,0.4,3.9,7.8,0.5,3.9,11.6,0.33,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,3.9,11.6,19.4,,76,112
+2020,12,1307,IND,Indiana Pacers,Aaron Holiday,"September 30, 1996",23.0,NBA,PG,4,2,72,8.3,14.5,0.57,2.8,6.2,0.44,5.5,8.3,0.67,2.1,3.4,0.6,0.7,2.8,3.4,6.9,2.8,0.0,2.8,6.9,21.4,,121,117

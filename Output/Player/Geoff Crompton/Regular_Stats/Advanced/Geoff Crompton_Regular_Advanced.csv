@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1981,25,634,POR,Portland Trail Blazers,25.0,NBA,C,6.0,33.0,11.0,0.44,0.0,0.62,23.0,36.4,29.7,7.4,0.0,3.3,32.9,18.3,-0.1,0.1,0.0,-0.03,-4.1,-0.4,-4.4,0.0
-1982,17,634,MIL,Milwaukee Bucks,26.0,NBA,C,35.0,203.0,3.6,0.36,0.0,0.47,5.9,16.9,11.6,7.6,1.4,3.4,30.6,11.3,-0.4,0.4,0.0,-0.01,-5.8,1.5,-4.3,-0.1
-1983,27,634,SAS,San Antonio Spurs,27.0,NBA,C,14.0,148.0,9.7,0.43,0.0,0.15,13.8,21.3,17.7,5.6,0.9,1.8,12.1,11.1,0.1,0.1,0.2,0.08,-2.6,-0.4,-2.9,0.0
-1984,6,634,CLE,Cleveland Cavaliers,28.0,NBA,C,7.0,23.0,0.9,0.24,0.0,0.75,28.6,15.4,22.2,5.4,2.1,2.6,27.3,26.5,-0.2,0.0,-0.1,-0.25,-5.3,-0.7,-6.0,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1981,25,634,POR,Portland Trail Blazers,Geoff Crompton,"July 4, 1955",25.0,NBA,C,6.0,33.0,11.0,0.44,0.0,0.62,23.0,36.4,29.7,7.4,0.0,3.3,32.9,18.3,-0.1,0.1,0.0,-0.03,-4.1,-0.4,-4.4,0.0
+1982,17,634,MIL,Milwaukee Bucks,Geoff Crompton,"July 4, 1955",26.0,NBA,C,35.0,203.0,3.6,0.36,0.0,0.47,5.9,16.9,11.6,7.6,1.4,3.4,30.6,11.3,-0.4,0.4,0.0,-0.01,-5.8,1.5,-4.3,-0.1
+1983,27,634,SAS,San Antonio Spurs,Geoff Crompton,"July 4, 1955",27.0,NBA,C,14.0,148.0,9.7,0.43,0.0,0.15,13.8,21.3,17.7,5.6,0.9,1.8,12.1,11.1,0.1,0.1,0.2,0.08,-2.6,-0.4,-2.9,0.0
+1984,6,634,CLE,Cleveland Cavaliers,Geoff Crompton,"July 4, 1955",28.0,NBA,C,7.0,23.0,0.9,0.24,0.0,0.75,28.6,15.4,22.2,5.4,2.1,2.6,27.3,26.5,-0.2,0.0,-0.1,-0.25,-5.3,-0.7,-6.0,-0.1

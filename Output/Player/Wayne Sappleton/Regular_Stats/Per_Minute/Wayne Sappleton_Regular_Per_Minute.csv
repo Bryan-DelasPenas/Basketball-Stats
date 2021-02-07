@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1985,3,2558,NJN,New Jersey Nets,24.0,NBA,PF,33,0,298,5.0,10.5,0.47,0.0,0.0,,5.0,10.5,0.47,1.7,4.1,0.41,3.4,5.7,9.1,0.8,0.8,0.5,2.5,6.0,11.6
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1985,3,2558,NJN,New Jersey Nets,Wayne Sappleton,"November 17, 1960",24.0,NBA,PF,33,0,298,5.0,10.5,0.47,0.0,0.0,,5.0,10.5,0.47,1.7,4.1,0.41,3.4,5.7,9.1,0.8,0.8,0.5,2.5,6.0,11.6

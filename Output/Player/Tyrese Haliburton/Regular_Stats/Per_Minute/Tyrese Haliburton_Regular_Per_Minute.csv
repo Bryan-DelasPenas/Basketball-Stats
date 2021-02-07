@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2021,26,1150,SAC,Sacramento Kings,20.0,NBA,PG,19,1,549,5.3,11.3,0.47,2.7,6.4,0.42,2.6,4.9,0.53,0.7,0.8,0.83,1.4,3.3,4.7,6.7,1.4,0.8,2.0,1.6,14.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,26,1150,SAC,Sacramento Kings,Tyrese Haliburton,"February 29, 2000",20.0,NBA,PG,19,1,549,5.3,11.3,0.47,2.7,6.4,0.42,2.6,4.9,0.53,0.7,0.8,0.83,1.4,3.3,4.7,6.7,1.4,0.8,2.0,1.6,14.0

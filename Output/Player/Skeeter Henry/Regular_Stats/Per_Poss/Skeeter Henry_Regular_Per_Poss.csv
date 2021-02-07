@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1994,24,1261,PHO,Phoenix Suns,26.0,NBA,SG,4,0,15,3.3,16.5,0.2,0.0,6.6,0.0,3.3,9.9,0.33,6.6,13.2,0.5,0.0,6.6,6.6,13.2,0.0,0.0,3.3,3.3,13.2,,82,112
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1994,24,1261,PHO,Phoenix Suns,Skeeter Henry,"December 8, 1967",26.0,NBA,SG,4,0,15,3.3,16.5,0.2,0.0,6.6,0.0,3.3,9.9,0.33,6.6,13.2,0.5,0.0,6.6,6.6,13.2,0.0,0.0,3.3,3.3,13.2,,82,112

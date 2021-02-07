@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2003,22,1369,ORL,Orlando Magic,21.0,NBA,C,7.0,0.0,40.0,3.0,10.0,0.3,0.0,0.0,,3.0,10.0,0.3,0.3,0.0,3.0,0.0,1.0,2.0,3.0,1.0,0.0,3.0,1.0,10.0,6.0
-2005,24,1369,PHO,Phoenix Suns,23.0,NBA,C,15.0,0.0,213.0,24.0,43.0,0.56,0.0,0.0,,24.0,43.0,0.56,0.56,12.0,20.0,0.6,17.0,21.0,38.0,3.0,1.0,18.0,8.0,25.0,60.0
-2008,8,1369,DEN,Denver Nuggets,26.0,NBA,C,2.0,0.0,5.0,0.0,1.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2003,22,1369,ORL,Orlando Magic,Steven Hunter,"October 31, 1981",21.0,NBA,C,7.0,0.0,40.0,3.0,10.0,0.3,0.0,0.0,,3.0,10.0,0.3,0.3,0.0,3.0,0.0,1.0,2.0,3.0,1.0,0.0,3.0,1.0,10.0,6.0
+2005,24,1369,PHO,Phoenix Suns,Steven Hunter,"October 31, 1981",23.0,NBA,C,15.0,0.0,213.0,24.0,43.0,0.56,0.0,0.0,,24.0,43.0,0.56,0.56,12.0,20.0,0.6,17.0,21.0,38.0,3.0,1.0,18.0,8.0,25.0,60.0
+2008,8,1369,DEN,Denver Nuggets,Steven Hunter,"October 31, 1981",26.0,NBA,C,2.0,0.0,5.0,0.0,1.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0

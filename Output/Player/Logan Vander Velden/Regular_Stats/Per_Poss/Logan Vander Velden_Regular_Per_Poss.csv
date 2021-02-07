@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1996,13,2952,LAC,Los Angeles Clippers,24.0,NBA,SF,15,0,31,5.0,23.3,0.21,0.0,8.3,0.0,5.0,15.0,0.33,5.0,6.6,0.75,1.7,8.3,10.0,1.7,0.0,0.0,0.0,6.6,15.0,,75,113
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1996,13,2952,LAC,Los Angeles Clippers,Logan Vander Velden,"April 3, 1971",24.0,NBA,SF,15,0,31,5.0,23.3,0.21,0.0,8.3,0.0,5.0,15.0,0.33,5.0,6.6,0.75,1.7,8.3,10.0,1.7,0.0,0.0,0.0,6.6,15.0,,75,113

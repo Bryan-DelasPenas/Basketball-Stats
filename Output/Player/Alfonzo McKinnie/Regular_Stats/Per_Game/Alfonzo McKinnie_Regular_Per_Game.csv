@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2018,28,1946,TOR,Toronto Raptors,25.0,NBA,SF,14.0,0.0,3.8,0.6,1.1,0.53,0.2,0.6,0.33,0.4,0.4,0.83,0.63,0.1,0.2,0.67,0.1,0.4,0.5,0.1,0.1,0.1,0.2,0.6,1.5
-2019,10,1946,GSW,Golden State Warriors,26.0,NBA,SF,72.0,5.0,13.9,1.9,3.8,0.49,0.6,1.6,0.36,1.3,2.2,0.59,0.56,0.4,0.7,0.56,1.1,2.3,3.4,0.4,0.3,0.2,0.4,1.9,4.7
-2020,6,1946,CLE,Cleveland Cavaliers,27.0,NBA,SF,40.0,1.0,14.8,1.8,4.3,0.43,0.4,1.6,0.22,1.5,2.7,0.56,0.47,0.6,0.8,0.71,0.9,1.9,2.8,0.4,0.6,0.2,0.7,1.8,4.6
-2021,14,1946,LAL,Los Angeles Lakers,28.0,NBA,SF,12.0,0.0,3.2,0.7,1.1,0.62,0.3,0.3,0.75,0.4,0.8,0.56,0.73,0.2,0.2,1.0,0.3,0.4,0.8,0.1,0.1,0.0,0.1,0.2,1.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2018,28,1946,TOR,Toronto Raptors,Alfonzo McKinnie,"September 17, 1992",25.0,NBA,SF,14.0,0.0,3.8,0.6,1.1,0.53,0.2,0.6,0.33,0.4,0.4,0.83,0.63,0.1,0.2,0.67,0.1,0.4,0.5,0.1,0.1,0.1,0.2,0.6,1.5
+2019,10,1946,GSW,Golden State Warriors,Alfonzo McKinnie,"September 17, 1992",26.0,NBA,SF,72.0,5.0,13.9,1.9,3.8,0.49,0.6,1.6,0.36,1.3,2.2,0.59,0.56,0.4,0.7,0.56,1.1,2.3,3.4,0.4,0.3,0.2,0.4,1.9,4.7
+2020,6,1946,CLE,Cleveland Cavaliers,Alfonzo McKinnie,"September 17, 1992",27.0,NBA,SF,40.0,1.0,14.8,1.8,4.3,0.43,0.4,1.6,0.22,1.5,2.7,0.56,0.47,0.6,0.8,0.71,0.9,1.9,2.8,0.4,0.6,0.2,0.7,1.8,4.6
+2021,14,1946,LAL,Los Angeles Lakers,Alfonzo McKinnie,"September 17, 1992",28.0,NBA,SF,12.0,0.0,3.2,0.7,1.1,0.62,0.3,0.3,0.75,0.4,0.8,0.56,0.73,0.2,0.2,1.0,0.3,0.4,0.8,0.1,0.1,0.0,0.1,0.2,1.8

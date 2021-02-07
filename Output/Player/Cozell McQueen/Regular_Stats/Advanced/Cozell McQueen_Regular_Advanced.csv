@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1987,9,1957,DET,Detroit Pistons,25.0,NBA,PF,3,7,58.3,1.0,0.0,0.0,47.4,74.7,61.5,0.0,0.0,8.2,0.0,17.3,0.1,0.0,0.1,0.63,21.0,5.1,26.1,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1987,9,1957,DET,Detroit Pistons,Cozell McQueen,"January 18, 1962",25.0,NBA,PF,3,7,58.3,1.0,0.0,0.0,47.4,74.7,61.5,0.0,0.0,8.2,0.0,17.3,0.1,0.0,0.1,0.63,21.0,5.1,26.1,0.0

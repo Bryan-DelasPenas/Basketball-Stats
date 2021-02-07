@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2017,27,717,SAS,San Antonio Spurs,27.0,NBA,C,12.0,3.0,97.0,14.0,23.0,0.61,0.0,0.0,,14.0,23.0,0.61,0.61,17.0,32.0,0.53,21.0,26.0,47.0,3.0,2.0,3.0,8.0,16.0,45.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2017,27,717,SAS,San Antonio Spurs,Dewayne Dedmon,"August 12, 1989",27.0,NBA,C,12.0,3.0,97.0,14.0,23.0,0.61,0.0,0.0,,14.0,23.0,0.61,0.61,17.0,32.0,0.53,21.0,26.0,47.0,3.0,2.0,3.0,8.0,16.0,45.0

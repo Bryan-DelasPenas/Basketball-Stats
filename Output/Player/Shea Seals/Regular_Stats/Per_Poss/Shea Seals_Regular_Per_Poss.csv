@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1998,14,2588,LAL,Los Angeles Lakers,22.0,NBA,SG,4,0,9,5.7,45.6,0.12,0.0,17.1,0.0,5.7,28.5,0.2,11.4,22.8,0.5,17.1,5.7,22.8,0.0,5.7,0.0,0.0,5.7,22.8,,69,98
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1998,14,2588,LAL,Los Angeles Lakers,Shea Seals,"August 26, 1975",22.0,NBA,SG,4,0,9,5.7,45.6,0.12,0.0,17.1,0.0,5.7,28.5,0.2,11.4,22.8,0.5,17.1,5.7,22.8,0.0,5.7,0.0,0.0,5.7,22.8,,69,98

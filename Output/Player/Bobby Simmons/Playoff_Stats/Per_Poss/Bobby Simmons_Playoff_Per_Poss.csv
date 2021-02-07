@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2006,17,2633,MIL,Milwaukee Bucks,25.0,NBA,SF,5.0,5.0,159.0,4.8,14.3,0.33,1.7,4.1,0.42,3.1,10.2,0.3,0.0,0.0,,1.4,4.8,6.1,3.4,3.1,0.3,2.0,3.8,11.3,,85.0,119.0
-2012,13,2633,LAC,Los Angeles Clippers,31.0,NBA,SF,4.0,1.0,32.0,8.4,15.2,0.56,1.7,6.7,0.25,6.7,8.4,0.8,0.0,0.0,,0.0,1.7,1.7,0.0,0.0,0.0,1.7,11.8,18.6,,106.0,115.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2006,17,2633,MIL,Milwaukee Bucks,Bobby Simmons,"June 2, 1980",25.0,NBA,SF,5.0,5.0,159.0,4.8,14.3,0.33,1.7,4.1,0.42,3.1,10.2,0.3,0.0,0.0,,1.4,4.8,6.1,3.4,3.1,0.3,2.0,3.8,11.3,,85.0,119.0
+2012,13,2633,LAC,Los Angeles Clippers,Bobby Simmons,"June 2, 1980",31.0,NBA,SF,4.0,1.0,32.0,8.4,15.2,0.56,1.7,6.7,0.25,6.7,8.4,0.8,0.0,0.0,,0.0,1.7,1.7,0.0,0.0,0.0,1.7,11.8,18.6,,106.0,115.0

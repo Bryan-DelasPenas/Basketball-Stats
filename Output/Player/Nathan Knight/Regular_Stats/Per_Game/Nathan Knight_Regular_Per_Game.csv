@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2021,1,1638,ATL,Atlanta Hawks,23.0,NBA,PF,8,0,5.5,0.9,2.3,0.39,0.4,0.9,0.43,0.5,1.4,0.36,0.47,0.6,0.8,0.83,0.9,0.6,1.5,0.1,0.1,0.4,0.5,0.9,2.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,1,1638,ATL,Atlanta Hawks,Nathan Knight,"September 20, 1997",23.0,NBA,PF,8,0,5.5,0.9,2.3,0.39,0.4,0.9,0.43,0.5,1.4,0.36,0.47,0.6,0.8,0.83,0.9,0.6,1.5,0.1,0.1,0.4,0.5,0.9,2.8

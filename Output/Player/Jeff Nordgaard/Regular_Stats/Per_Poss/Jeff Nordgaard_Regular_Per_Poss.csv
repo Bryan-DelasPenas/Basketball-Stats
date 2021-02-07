@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1998,17,2153,MIL,Milwaukee Bucks,24.0,NBA,PF,13,0,48,5.5,20.0,0.28,0.0,0.0,,5.5,20.0,0.28,8.9,10.0,0.89,4.4,11.1,15.5,3.3,2.2,0.0,3.3,7.8,20.0,,93,102
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1998,17,2153,MIL,Milwaukee Bucks,Jeff Nordgaard,"February 23, 1973",24.0,NBA,PF,13,0,48,5.5,20.0,0.28,0.0,0.0,,5.5,20.0,0.28,8.9,10.0,0.89,4.4,11.1,15.5,3.3,2.2,0.0,3.3,7.8,20.0,,93,102

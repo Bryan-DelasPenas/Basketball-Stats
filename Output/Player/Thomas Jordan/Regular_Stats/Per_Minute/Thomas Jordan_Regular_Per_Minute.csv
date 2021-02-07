@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1993,23,1569,PHI,Philadelphia 76Ers,24.0,NBA,PF,4,0,106,6.1,13.9,0.44,0.0,0.0,,6.1,13.9,0.44,2.7,5.8,0.47,1.7,4.8,6.5,1.0,1.0,1.7,4.1,4.8,14.9
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1993,23,1569,PHI,Philadelphia 76Ers,Thomas Jordan,"May 23, 1968",24.0,NBA,PF,4,0,106,6.1,13.9,0.44,0.0,0.0,,6.1,13.9,0.44,2.7,5.8,0.47,1.7,4.8,6.5,1.0,1.0,1.7,4.1,4.8,14.9

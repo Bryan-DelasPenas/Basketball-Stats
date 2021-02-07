@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2009,25,2495,POR,Portland Trail Blazers,22.0,NBA,PG,5.0,0.0,27.0,4.2,12.7,0.33,0.0,0.0,,4.2,12.7,0.33,0.0,0.0,,2.1,4.2,6.4,14.8,0.0,2.1,4.2,10.6,8.5,,89.0,114.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2009,25,2495,POR,Portland Trail Blazers,Sergio Rodriguez,"June 12, 1986",22.0,NBA,PG,5.0,0.0,27.0,4.2,12.7,0.33,0.0,0.0,,4.2,12.7,0.33,0.0,0.0,,2.1,4.2,6.4,14.8,0.0,2.1,4.2,10.6,8.5,,89.0,114.0

@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2015,3,277,BRK,Brooklyn Nets,25.0,NBA,SF,6.0,206.0,8.3,0.5,0.56,0.12,1.6,10.5,6.0,7.7,1.0,0.9,11.4,15.6,0.0,0.1,0.1,0.02,-1.3,-0.7,-2.0,0.0
-2017,30,277,WAS,Washington Wizards,27.0,NBA,SF,13.0,264.0,13.6,0.57,0.52,0.37,4.4,20.2,12.3,4.9,1.1,0.3,7.3,17.8,0.4,0.2,0.6,0.11,1.3,-1.3,0.0,0.1
-2018,12,277,IND,Indiana Pacers,28.0,NBA,SF,7.0,238.0,7.5,0.51,0.56,0.12,0.5,11.3,6.1,8.2,1.3,0.0,13.2,19.5,-0.2,0.3,0.1,0.02,-2.7,-0.5,-3.2,-0.1
-2019,12,277,IND,Indiana Pacers,29.0,NBA,SF,4.0,148.0,15.2,0.51,0.35,0.27,2.0,16.3,8.5,14.1,2.7,0.0,7.8,23.7,0.0,0.3,0.3,0.08,0.4,1.4,1.9,0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2015,3,277,BRK,Brooklyn Nets,Bojan Bogdanovic,"April 18, 1989",25.0,NBA,SF,6.0,206.0,8.3,0.5,0.56,0.12,1.6,10.5,6.0,7.7,1.0,0.9,11.4,15.6,0.0,0.1,0.1,0.02,-1.3,-0.7,-2.0,0.0
+2017,30,277,WAS,Washington Wizards,Bojan Bogdanovic,"April 18, 1989",27.0,NBA,SF,13.0,264.0,13.6,0.57,0.52,0.37,4.4,20.2,12.3,4.9,1.1,0.3,7.3,17.8,0.4,0.2,0.6,0.11,1.3,-1.3,0.0,0.1
+2018,12,277,IND,Indiana Pacers,Bojan Bogdanovic,"April 18, 1989",28.0,NBA,SF,7.0,238.0,7.5,0.51,0.56,0.12,0.5,11.3,6.1,8.2,1.3,0.0,13.2,19.5,-0.2,0.3,0.1,0.02,-2.7,-0.5,-3.2,-0.1
+2019,12,277,IND,Indiana Pacers,Bojan Bogdanovic,"April 18, 1989",29.0,NBA,SF,4.0,148.0,15.2,0.51,0.35,0.27,2.0,16.3,8.5,14.1,2.7,0.0,7.8,23.7,0.0,0.3,0.3,0.08,0.4,1.4,1.9,0.1

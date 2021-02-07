@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1979,31.0,2552,TOT,Total After Trade,22.0,NBA,SF,46,,10.4,2.3,5.3,0.427,,,,2.3,5.3,0.427,0.427,1.2,1.5,0.794,0.8,1.6,2.4,1.1,0.5,0.1,1.2,1.5,5.7
-1979,27.0,2552,SAS,San Antonio Spurs,22.0,NBA,SF,22,,12.0,2.3,5.8,0.394,,,,2.3,5.8,0.394,0.394,1.5,1.9,0.78,0.6,2.1,2.7,1.6,0.6,0.1,1.5,2.0,6.0
-1979,2.0,2552,BOS,Boston Celtics,22.0,NBA,SF,24,,9.0,2.3,5.0,0.462,,,,2.3,5.0,0.462,0.462,0.9,1.1,0.815,0.9,1.2,2.1,0.7,0.3,0.1,1.0,1.0,5.5
-1981,26.0,2552,KCK,Kansas City Kings,24.0,NBA,SF,23,,8.1,1.5,3.3,0.442,0.0,0.0,,1.5,3.3,0.442,0.442,0.9,1.0,0.909,0.3,0.7,0.9,0.7,0.7,0.0,0.9,0.9,3.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1979,31.0,2552,TOT,Total After Trade,Frankie Sanders,"January 23, 1957",22.0,NBA,SF,46,,10.4,2.3,5.3,0.427,,,,2.3,5.3,0.427,0.427,1.2,1.5,0.794,0.8,1.6,2.4,1.1,0.5,0.1,1.2,1.5,5.7
+1979,27.0,2552,SAS,San Antonio Spurs,Frankie Sanders,"January 23, 1957",22.0,NBA,SF,22,,12.0,2.3,5.8,0.394,,,,2.3,5.8,0.394,0.394,1.5,1.9,0.78,0.6,2.1,2.7,1.6,0.6,0.1,1.5,2.0,6.0
+1979,2.0,2552,BOS,Boston Celtics,Frankie Sanders,"January 23, 1957",22.0,NBA,SF,24,,9.0,2.3,5.0,0.462,,,,2.3,5.0,0.462,0.462,0.9,1.1,0.815,0.9,1.2,2.1,0.7,0.3,0.1,1.0,1.0,5.5
+1981,26.0,2552,KCK,Kansas City Kings,Frankie Sanders,"January 23, 1957",24.0,NBA,SF,23,,8.1,1.5,3.3,0.442,0.0,0.0,,1.5,3.3,0.442,0.442,0.9,1.0,0.909,0.3,0.7,0.9,0.7,0.7,0.0,0.9,0.9,3.8

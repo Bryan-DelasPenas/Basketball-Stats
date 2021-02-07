@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1991,10,1836,GSW,Golden State Warriors,26.0,NBA,SG,9.0,206.0,19.1,0.59,0.01,0.46,4.5,8.6,6.5,18.8,2.6,0.3,12.2,24.1,0.4,0.1,0.5,0.12,2.3,0.2,2.4,0.2
-1992,10,1836,GSW,Golden State Warriors,27.0,NBA,SG,4.0,133.0,21.9,0.65,0.04,0.87,2.4,5.6,3.9,21.6,1.1,0.5,5.8,21.3,0.6,0.0,0.6,0.22,5.1,-0.4,4.7,0.2
-1996,26,1836,SAC,Sacramento Kings,31.0,NBA,SG,4.0,101.0,10.1,0.41,0.62,0.52,4.9,3.7,4.3,23.6,5.2,0.0,21.9,20.4,-0.2,0.2,0.0,0.0,0.0,1.6,1.6,0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1991,10,1836,GSW,Golden State Warriors,Sarunas Marciulionis,"June 13, 1964",26.0,NBA,SG,9.0,206.0,19.1,0.59,0.01,0.46,4.5,8.6,6.5,18.8,2.6,0.3,12.2,24.1,0.4,0.1,0.5,0.12,2.3,0.2,2.4,0.2
+1992,10,1836,GSW,Golden State Warriors,Sarunas Marciulionis,"June 13, 1964",27.0,NBA,SG,4.0,133.0,21.9,0.65,0.04,0.87,2.4,5.6,3.9,21.6,1.1,0.5,5.8,21.3,0.6,0.0,0.6,0.22,5.1,-0.4,4.7,0.2
+1996,26,1836,SAC,Sacramento Kings,Sarunas Marciulionis,"June 13, 1964",31.0,NBA,SG,4.0,101.0,10.1,0.41,0.62,0.52,4.9,3.7,4.3,23.6,5.2,0.0,21.9,20.4,-0.2,0.2,0.0,0.0,0.0,1.6,1.6,0.1

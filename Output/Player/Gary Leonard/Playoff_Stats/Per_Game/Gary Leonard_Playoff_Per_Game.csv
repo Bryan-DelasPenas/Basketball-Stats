@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1991,1,1732,ATL,Atlanta Hawks,23.0,NBA,C,2.0,0.0,2.5,1.0,1.0,1.0,0.0,0.0,,1.0,1.0,1.0,1.0,0.0,0.0,,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1991,1,1732,ATL,Atlanta Hawks,Gary Leonard,"February 16, 1967",23.0,NBA,C,2.0,0.0,2.5,1.0,1.0,1.0,0.0,0.0,,1.0,1.0,1.0,1.0,0.0,0.0,,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0

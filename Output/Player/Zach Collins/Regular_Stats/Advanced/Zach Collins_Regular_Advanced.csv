@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2018,25,576,POR,Portland Trail Blazers,20.0,NBA,C,66,1045,7.5,0.48,0.39,0.14,4.7,18.2,11.5,7.1,0.8,2.4,15.9,15.4,-0.7,1.3,0.6,0.03,-4.5,0.2,-4.3,-0.6
-2019,25,576,POR,Portland Trail Blazers,21.0,NBA,C,77,1356,13.5,0.56,0.3,0.32,8.8,16.5,12.7,7.1,0.9,3.9,14.5,16.6,1.4,1.5,2.9,0.1,-1.5,0.3,-1.2,0.3
-2020,25,576,POR,Portland Trail Blazers,22.0,NBA,PF,11,290,9.9,0.54,0.28,0.12,9.1,15.7,12.4,7.2,0.8,1.5,16.4,12.5,0.2,0.1,0.3,0.05,-1.7,-1.4,-3.1,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2018,25,576,POR,Portland Trail Blazers,Zach Collins,"November 19, 1997",20.0,NBA,C,66,1045,7.5,0.48,0.39,0.14,4.7,18.2,11.5,7.1,0.8,2.4,15.9,15.4,-0.7,1.3,0.6,0.03,-4.5,0.2,-4.3,-0.6
+2019,25,576,POR,Portland Trail Blazers,Zach Collins,"November 19, 1997",21.0,NBA,C,77,1356,13.5,0.56,0.3,0.32,8.8,16.5,12.7,7.1,0.9,3.9,14.5,16.6,1.4,1.5,2.9,0.1,-1.5,0.3,-1.2,0.3
+2020,25,576,POR,Portland Trail Blazers,Zach Collins,"November 19, 1997",22.0,NBA,PF,11,290,9.9,0.54,0.28,0.12,9.1,15.7,12.4,7.2,0.8,1.5,16.4,12.5,0.2,0.1,0.3,0.05,-1.7,-1.4,-3.1,-0.1

@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1991,30,862,WSB,Washington Bullets,23.0,NBA,SG,70,12,1443,6.3,14.3,0.44,0.1,0.8,0.1,6.2,13.5,0.46,2.8,3.9,0.71,1.6,2.0,3.7,4.4,0.6,0.4,2.8,3.2,15.4
-1992,30,862,WSB,Washington Bullets,24.0,NBA,SG,81,6,1665,7.9,18.3,0.43,0.1,0.7,0.18,7.8,17.6,0.44,3.2,3.8,0.84,1.6,2.0,3.6,3.1,0.7,0.2,1.9,3.5,19.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1991,30,862,WSB,Washington Bullets,A.J. English,"July 11, 1967",23.0,NBA,SG,70,12,1443,6.3,14.3,0.44,0.1,0.8,0.1,6.2,13.5,0.46,2.8,3.9,0.71,1.6,2.0,3.7,4.4,0.6,0.4,2.8,3.2,15.4
+1992,30,862,WSB,Washington Bullets,A.J. English,"July 11, 1967",24.0,NBA,SG,81,6,1665,7.9,18.3,0.43,0.1,0.7,0.18,7.8,17.6,0.44,3.2,3.8,0.84,1.6,2.0,3.6,3.1,0.7,0.2,1.9,3.5,19.2

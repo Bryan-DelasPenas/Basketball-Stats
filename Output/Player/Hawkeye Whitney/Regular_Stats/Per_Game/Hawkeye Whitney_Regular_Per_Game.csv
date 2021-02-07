@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1981,26,3105,KCK,Kansas City Kings,23.0,NBA,SG,47,,16.6,3.2,6.5,0.49,0.0,0.1,0.33,3.1,6.4,0.49,0.49,1.1,1.4,0.77,0.6,1.6,2.3,1.4,1.0,0.1,1.0,2.1,7.4
-1982,26,3105,KCK,Kansas City Kings,24.0,NBA,SG,23,4.0,11.6,1.1,3.1,0.35,0.0,0.0,0.0,1.1,3.0,0.36,0.35,0.2,0.3,0.57,0.6,1.2,1.7,0.8,0.5,0.0,0.6,1.3,2.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,26,3105,KCK,Kansas City Kings,Hawkeye Whitney,"June 22, 1957",23.0,NBA,SG,47,,16.6,3.2,6.5,0.49,0.0,0.1,0.33,3.1,6.4,0.49,0.49,1.1,1.4,0.77,0.6,1.6,2.3,1.4,1.0,0.1,1.0,2.1,7.4
+1982,26,3105,KCK,Kansas City Kings,Hawkeye Whitney,"June 22, 1957",24.0,NBA,SG,23,4.0,11.6,1.1,3.1,0.35,0.0,0.0,0.0,1.1,3.0,0.36,0.35,0.2,0.3,0.57,0.6,1.2,1.7,0.8,0.5,0.0,0.6,1.3,2.3

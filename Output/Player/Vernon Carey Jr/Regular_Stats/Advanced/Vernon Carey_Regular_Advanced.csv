@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2021,4,470,CHO,Charlotte Hornets,19.0,NBA,C,3,6,29.9,0.39,0.33,0.67,34.9,18.3,26.8,25.3,0.0,16.8,0.0,27.7,0.0,0.0,0.0,0.2,7.5,-0.1,7.4,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,4,470,CHO,Charlotte Hornets,Vernon Carey Jr.,"February 25, 2001",19.0,NBA,C,3,6,29.8,0.39,0.33,0.67,34.7,18.5,26.9,25.0,0.0,17.0,0.0,27.6,0.0,0.0,0.0,0.19,7.5,-0.1,7.4,0.0

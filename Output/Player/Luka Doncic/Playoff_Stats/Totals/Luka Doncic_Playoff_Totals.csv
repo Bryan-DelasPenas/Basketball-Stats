@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 30,Trp Dbl
-2020,7,757,DAL,Dallas Mavericks,20.0,NBA,PG,6,6,215,64,128,0.5,16,44,0.36,48,84,0.57,0.56,42,64,0.66,4,55,59,52,7,3,31,17,186,,2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 30,Trp Dbl
+2020,7,757,DAL,Dallas Mavericks,Luka Doncic,"February 28, 1999",20.0,NBA,PG,6,6,215,64,128,0.5,16,44,0.36,48,84,0.57,0.56,42,64,0.66,4,55,59,52,7,3,31,17,186,,2

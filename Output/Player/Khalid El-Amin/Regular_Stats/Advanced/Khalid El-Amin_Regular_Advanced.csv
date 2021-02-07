@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2001,5,841,CHI,Chicago Bulls,21.0,NBA,PG,50,936,12.2,0.46,0.27,0.23,2.6,7.9,5.1,27.5,2.8,0.2,13.6,19.7,0.2,0.4,0.6,0.03,-1.7,-0.7,-2.4,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2001,5,841,CHI,Chicago Bulls,Khalid El-Amin,"April 25, 1979",21.0,NBA,PG,50,936,12.2,0.46,0.27,0.23,2.6,7.9,5.1,27.5,2.8,0.2,13.6,19.7,0.2,0.4,0.6,0.03,-1.7,-0.7,-2.4,-0.1

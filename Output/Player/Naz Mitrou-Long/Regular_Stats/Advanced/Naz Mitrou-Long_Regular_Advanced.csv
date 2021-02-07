@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2018,29,2016,UTA,Utah Jazz,24.0,NBA,SG,1.0,1.0,133.8,1.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,0.1,0.0,0.1,2.71,199.4,42.7,242.2,0.0
-2019,29,2016,UTA,Utah Jazz,25.0,NBA,SG,14.0,84.0,2.2,0.38,0.55,0.1,1.3,6.3,3.9,23.3,0.6,0.9,27.7,14.7,-0.2,0.1,-0.1,-0.05,-7.1,-1.6,-8.7,-0.1
-2020,12,2016,IND,Indiana Pacers,26.0,NBA,SG,5.0,47.0,7.8,0.41,0.71,0.0,0.0,16.2,8.2,22.8,1.0,1.9,15.0,18.7,-0.1,0.1,0.0,-0.02,-3.5,2.1,-1.4,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2018,29,2016,UTA,Utah Jazz,Naz Mitrou-Long,"August 3, 1993",24.0,NBA,SG,1.0,1.0,133.8,1.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0,0.1,0.0,0.1,2.71,199.4,42.7,242.2,0.0
+2019,29,2016,UTA,Utah Jazz,Naz Mitrou-Long,"August 3, 1993",25.0,NBA,SG,14.0,84.0,2.2,0.38,0.55,0.1,1.3,6.3,3.9,23.3,0.6,0.9,27.7,14.7,-0.2,0.1,-0.1,-0.05,-7.1,-1.6,-8.7,-0.1
+2020,12,2016,IND,Indiana Pacers,Naz Mitrou-Long,"August 3, 1993",26.0,NBA,SG,5.0,47.0,7.8,0.41,0.71,0.0,0.0,16.2,8.2,22.8,1.0,1.9,15.0,18.7,-0.1,0.1,0.0,-0.02,-3.5,2.1,-1.4,0.0

@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2020,19,1234,NOP,New Orleans Pelicans,19.0,NBA,C,64,1080,17.6,0.69,0.02,0.73,9.5,16.0,12.7,7.2,1.1,4.3,13.4,15.0,2.8,1.1,3.9,0.17,-0.9,0.6,-0.3,0.5
-2021,19,1234,NOP,New Orleans Pelicans,20.0,NBA,C,18,230,14.6,0.65,0.0,0.47,10.8,21.4,16.0,5.5,1.3,3.2,17.4,13.7,0.4,0.2,0.6,0.12,-2.5,0.0,-2.4,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,19,1234,NOP,New Orleans Pelicans,Jaxson Hayes,"May 23, 2000",19.0,NBA,C,64,1080,17.6,0.69,0.02,0.73,9.5,16.0,12.7,7.2,1.1,4.3,13.4,15.0,2.8,1.1,3.9,0.17,-0.9,0.6,-0.3,0.5
+2021,19,1234,NOP,New Orleans Pelicans,Jaxson Hayes,"May 23, 2000",20.0,NBA,C,18,230,14.6,0.65,0.0,0.47,10.8,21.3,16.1,5.5,1.3,3.2,17.4,13.8,0.4,0.2,0.6,0.12,-2.5,0.0,-2.4,0.0

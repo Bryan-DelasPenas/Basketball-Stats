@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2001,30,2956,WAS,Washington Wizards,27.0,NBA,PG,22,0,411,5.8,13.9,0.42,0.0,0.8,0.0,5.8,13.1,0.44,3.8,6.3,0.6,1.9,2.8,4.7,8.3,2.9,0.4,4.7,5.5,15.4,,92,108
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2001,30,2956,WAS,Washington Wizards,David Vanterpool,"March 31, 1973",27.0,NBA,PG,22,0,411,5.8,13.9,0.42,0.0,0.8,0.0,5.8,13.1,0.44,3.8,6.3,0.6,1.9,2.8,4.7,8.3,2.9,0.4,4.7,5.5,15.4,,92,108

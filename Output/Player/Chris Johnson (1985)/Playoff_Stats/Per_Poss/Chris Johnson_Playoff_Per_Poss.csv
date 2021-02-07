@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2011,25,1473,POR,Portland Trail Blazers,25.0,NBA,C,4.0,0.0,19.0,3.0,3.0,1.0,0.0,0.0,,3.0,3.0,1.0,6.1,6.1,1.0,0.0,15.2,15.2,0.0,0.0,6.1,0.0,9.1,12.2,,226.0,104.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2011,25,1473,POR,Portland Trail Blazers,Chris Johnson (1985),"July 15, 1985",25.0,NBA,C,4.0,0.0,19.0,3.0,3.0,1.0,0.0,0.0,,3.0,3.0,1.0,6.1,6.1,1.0,0.0,15.2,15.2,0.0,0.0,6.1,0.0,9.1,12.2,,226.0,104.0

@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2005,5.0,2425,CHI,Chicago Bulls,22.0,NBA,C,19,2,6.9,0.5,1.6,0.333,0.0,0.0,,0.5,1.6,0.333,0.333,0.1,0.2,0.25,0.7,1.3,2.0,0.1,0.2,0.4,0.5,1.8,1.1
-2007,17.0,2425,MIL,Milwaukee Bucks,24.0,NBA,C,27,2,9.0,0.6,1.6,0.349,0.0,0.0,,0.6,1.6,0.349,0.349,0.1,0.4,0.3,0.8,1.9,2.6,0.5,0.2,0.2,0.5,1.7,1.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2005,5.0,2425,CHI,Chicago Bulls,Jared Reiner,"April 8, 1982",22.0,NBA,C,19,2,6.9,0.5,1.6,0.333,0.0,0.0,,0.5,1.6,0.333,0.333,0.1,0.2,0.25,0.7,1.3,2.0,0.1,0.2,0.4,0.5,1.8,1.1
+2007,17.0,2425,MIL,Milwaukee Bucks,Jared Reiner,"April 8, 1982",24.0,NBA,C,27,2,9.0,0.6,1.6,0.349,0.0,0.0,,0.6,1.6,0.349,0.349,0.1,0.4,0.3,0.8,1.9,2.6,0.5,0.2,0.2,0.5,1.7,1.2

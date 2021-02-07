@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1998,10,3128,GSW,Golden State Warriors,22.0,NBA,SG,9.0,140.0,2.9,0.36,0.18,0.08,3.0,8.6,5.7,3.6,2.2,1.5,14.8,18.9,-0.4,0.1,-0.3,-0.09,-8.1,-0.9,-9.1,-0.3
-1999,27,3128,SAS,San Antonio Spurs,23.0,NBA,SG,3.0,4.0,24.4,0.57,,,29.9,0.0,14.0,0.0,0.0,0.0,0.0,20.5,0.0,0.0,0.0,0.33,9.0,-1.6,7.4,0.0
-2003,1,3128,ATL,Atlanta Hawks,27.0,NBA,SF,6.0,19.0,-10.4,0.14,0.14,0.0,12.5,0.0,6.0,0.0,5.6,0.0,30.0,24.1,-0.2,0.0,-0.2,-0.39,-17.7,-4.1,-21.8,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1998,10,3128,GSW,Golden State Warriors,Brandon Williams,"February 27, 1975",22.0,NBA,SG,9.0,140.0,2.9,0.36,0.18,0.08,3.0,8.6,5.7,3.6,2.2,1.5,14.8,18.9,-0.4,0.1,-0.3,-0.09,-8.1,-0.9,-9.1,-0.3
+1999,27,3128,SAS,San Antonio Spurs,Brandon Williams,"February 27, 1975",23.0,NBA,SG,3.0,4.0,24.4,0.57,,,29.9,0.0,14.0,0.0,0.0,0.0,0.0,20.5,0.0,0.0,0.0,0.33,9.0,-1.6,7.4,0.0
+2003,1,3128,ATL,Atlanta Hawks,Brandon Williams,"February 27, 1975",27.0,NBA,SF,6.0,19.0,-10.4,0.14,0.14,0.0,12.5,0.0,6.0,0.0,5.6,0.0,30.0,24.1,-0.2,0.0,-0.2,-0.39,-17.7,-4.1,-21.8,-0.1

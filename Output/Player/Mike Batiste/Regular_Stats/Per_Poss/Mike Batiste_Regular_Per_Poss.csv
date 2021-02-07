@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2003,15,187,MEM,Memphis Grizzlies,25.0,NBA,PF,75,2,1248,8.2,19.4,0.42,0.7,3.4,0.22,7.4,16.0,0.46,2.9,3.7,0.78,3.4,7.3,10.7,2.2,1.7,0.7,2.9,5.0,20.0,,96,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2003,15,187,MEM,Memphis Grizzlies,Mike Batiste,"November 21, 1977",25.0,NBA,PF,75,2,1248,8.2,19.4,0.42,0.7,3.4,0.22,7.4,16.0,0.46,2.9,3.7,0.78,3.4,7.3,10.7,2.2,1.7,0.7,2.9,5.0,20.0,,96,107

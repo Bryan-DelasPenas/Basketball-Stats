@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1990,7,3092,DAL,Dallas Mavericks,22.0,NBA,PF,1,2,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.02,-0.8,-1.4,-2.2,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1990,7,3092,DAL,Dallas Mavericks,Randy White,"November 4, 1967",22.0,NBA,PF,1,2,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.02,-0.8,-1.4,-2.2,0.0

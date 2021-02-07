@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1982,23,831,PHI,Philadelphia 76Ers,22.0,NBA,PG,9.0,32.0,41.1,0.69,0.05,0.45,7.3,10.2,8.8,31.6,4.6,0.0,7.7,34.0,0.2,0.0,0.3,0.44,17.0,4.9,21.9,0.2
-1983,23,831,PHI,Philadelphia 76Ers,23.0,NBA,PG,12.0,101.0,14.6,0.51,0.0,0.53,2.3,7.5,5.0,22.9,2.4,0.0,13.2,18.8,0.2,0.1,0.3,0.14,1.6,0.3,1.9,0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1982,23,831,PHI,Philadelphia 76Ers,Franklin Edwards,"February 2, 1959",22.0,NBA,PG,9.0,32.0,41.1,0.69,0.05,0.45,7.3,10.2,8.8,31.6,4.6,0.0,7.7,34.0,0.2,0.0,0.3,0.44,17.0,4.9,21.9,0.2
+1983,23,831,PHI,Philadelphia 76Ers,Franklin Edwards,"February 2, 1959",23.0,NBA,PG,12.0,101.0,14.6,0.51,0.0,0.53,2.3,7.5,5.0,22.9,2.4,0.0,13.2,18.8,0.2,0.1,0.3,0.14,1.6,0.3,1.9,0.1

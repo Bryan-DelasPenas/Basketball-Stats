@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1994,18,681,MIN,Minnesota Timberwolves,23.0,NBA,SF,68,3,5.5,0.6,1.9,0.32,0.0,0.0,0.33,0.6,1.8,0.32,0.32,0.7,1.0,0.74,0.3,0.5,0.8,0.3,0.2,0.1,0.3,0.5,1.9
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1994,18,681,MIN,Minnesota Timberwolves,Brian Davis,"June 21, 1970",23.0,NBA,SF,68,3,5.5,0.6,1.9,0.32,0.0,0.0,0.33,0.6,1.8,0.32,0.32,0.7,1.0,0.74,0.3,0.5,0.8,0.3,0.2,0.1,0.3,0.5,1.9

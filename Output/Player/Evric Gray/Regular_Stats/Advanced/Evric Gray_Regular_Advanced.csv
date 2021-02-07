@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1997,3,1093,NJN,New Jersey Nets,27.0,NBA,SF,5,42,2.8,0.39,0.27,0.27,2.4,5.5,3.9,7.2,1.2,0.0,15.2,20.1,-0.1,0.0,-0.1,-0.08,-6.3,-2.9,-9.2,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1997,3,1093,NJN,New Jersey Nets,Evric Gray,"December 13, 1969",27.0,NBA,SF,5,42,2.8,0.39,0.27,0.27,2.4,5.5,3.9,7.2,1.2,0.0,15.2,20.1,-0.1,0.0,-0.1,-0.08,-6.3,-2.9,-9.2,-0.1

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2021,22,2191,ORL,Orlando Magic,22.0,NBA,PF,6,109,10.6,0.58,0.47,0.32,4.6,8.1,6.3,14.0,1.8,0.8,15.6,10.0,0.1,0.1,0.2,0.08,-0.9,0.0,-0.9,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,22,2191,ORL,Orlando Magic,Chuma Okeke,"August 18, 1998",22.0,NBA,PF,7,127,10.8,0.57,0.44,0.26,5.6,9.5,7.4,13.1,1.5,0.7,13.5,9.9,0.1,0.1,0.2,0.08,-0.8,-0.3,-1.2,0.0

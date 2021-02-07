@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2018,18,2259,MIN,Minnesota Timberwolves,20.0,NBA,C,1.0,4.0,19.8,0.5,0.0,0.0,0.0,0.0,0.0,0.0,12.5,0.0,0.0,22.1,0.0,0.0,0.0,0.15,-2.2,5.4,3.2,0.0
-2019,23,2259,PHI,Philadelphia 76Ers,21.0,NBA,C,3.0,21.0,10.5,0.32,0.29,0.29,10.4,19.6,15.1,18.7,4.5,0.0,0.0,15.7,0.0,0.0,0.0,0.08,-5.2,3.2,-2.0,0.0
-2020,21,2259,OKC,Oklahoma City Thunder,22.0,NBA,C,5.0,24.0,4.7,0.45,0.4,0.0,4.7,17.9,11.5,12.6,0.0,0.0,16.7,22.0,-0.1,0.0,0.0,-0.06,-6.8,-3.3,-10.1,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2018,18,2259,MIN,Minnesota Timberwolves,Justin Patton,"June 14, 1997",20.0,NBA,C,1.0,4.0,19.8,0.5,0.0,0.0,0.0,0.0,0.0,0.0,12.5,0.0,0.0,22.1,0.0,0.0,0.0,0.15,-2.2,5.4,3.2,0.0
+2019,23,2259,PHI,Philadelphia 76Ers,Justin Patton,"June 14, 1997",21.0,NBA,C,3.0,21.0,10.5,0.32,0.29,0.29,10.4,19.6,15.1,18.7,4.5,0.0,0.0,15.7,0.0,0.0,0.0,0.08,-5.2,3.2,-2.0,0.0
+2020,21,2259,OKC,Oklahoma City Thunder,Justin Patton,"June 14, 1997",22.0,NBA,C,5.0,24.0,4.7,0.45,0.4,0.0,4.7,17.9,11.5,12.6,0.0,0.0,16.7,22.0,-0.1,0.0,0.0,-0.06,-6.8,-3.3,-10.1,0.0

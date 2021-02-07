@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1997,25,760,POR,Portland Trail Blazers,29.0,NBA,SG,8,0,61,8,16,0.5,5,7,0.71,3,9,0.33,0.66,4,5,0.8,1,4,5,5,0,0,5,3,25
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1997,25,760,POR,Portland Trail Blazers,Aleksandar Djordjevic,"August 26, 1967",29.0,NBA,SG,8,0,61,8,16,0.5,5,7,0.71,3,9,0.33,0.66,4,5,0.8,1,4,5,5,0,0,5,3,25

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1986,26,1258,SAC,Sacramento Kings,25.0,NBA,SG,28,0,5.3,1.1,2.4,0.46,0.1,0.4,0.4,1.0,2.0,0.47,0.49,0.4,0.6,0.71,0.3,0.4,0.7,0.1,0.2,0.0,0.3,0.4,2.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1986,26,1258,SAC,Sacramento Kings,Carl Henry,"August 16, 1960",25.0,NBA,SG,28,0,5.3,1.1,2.4,0.46,0.1,0.4,0.4,1.0,2.0,0.47,0.49,0.4,0.6,0.71,0.3,0.4,0.7,0.1,0.2,0.0,0.3,0.4,2.8

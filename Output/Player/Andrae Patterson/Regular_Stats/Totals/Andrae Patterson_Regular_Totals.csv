@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1999,18,2255,MIN,Minnesota Timberwolves,23.0,NBA,PF,35,0,284,43,97,0.44,0,5,0.0,43,92,0.47,0.44,28,36,0.78,30,35,65,15,19,7,22,62,114
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1999,18,2255,MIN,Minnesota Timberwolves,Andrae Patterson,"November 12, 1975",23.0,NBA,PF,35,0,284,43,97,0.44,0,5,0.0,43,92,0.47,0.44,28,36,0.78,30,35,65,15,19,7,22,62,114

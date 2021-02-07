@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2013,9,865,DET,Detroit Pistons,24.0,NBA,SG,41,0,407,3.7,9.9,0.38,1.2,4.4,0.28,2.5,5.5,0.45,1.9,2.6,0.72,0.7,2.6,3.3,2.3,1.4,0.3,1.7,4.1,10.5
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2013,9,865,DET,Detroit Pistons,Kim English,"September 24, 1988",24.0,NBA,SG,41,0,407,3.7,9.9,0.38,1.2,4.4,0.28,2.5,5.5,0.45,1.9,2.6,0.72,0.7,2.6,3.3,2.3,1.4,0.3,1.7,4.1,10.5

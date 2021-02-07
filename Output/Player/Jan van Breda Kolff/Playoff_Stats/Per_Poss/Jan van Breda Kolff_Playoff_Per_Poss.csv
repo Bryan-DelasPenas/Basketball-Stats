@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1982,3.0,2987,NJN,New Jersey Nets,30.0,NBA,SF,2.0,,16.0,0.0,3.1,0.0,0.0,0.0,,0.0,3.1,0.0,0.0,0.0,,0.0,9.3,9.3,0.0,6.2,3.1,3.1,0.0,0.0,,0.0,90.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1982,3.0,2987,NJN,New Jersey Nets,Jan van Breda Kolff,"December 16, 1951",30.0,NBA,SF,2.0,,16.0,0.0,3.1,0.0,0.0,0.0,,0.0,3.1,0.0,0.0,0.0,,0.0,9.3,9.3,0.0,6.2,3.1,3.1,0.0,0.0,,0.0,90.0

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1996,30,3056,WSB,Washington Bullets,24.0,NBA,SF,11,0,58,7.1,20.3,0.35,1.8,5.3,0.33,5.3,15.0,0.35,0.0,0.0,,1.8,4.4,6.2,2.6,3.5,0.0,2.6,6.2,15.9,,82,106
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1996,30,3056,WSB,Washington Bullets,Jeff Webster,"February 19, 1971",24.0,NBA,SF,11,0,58,7.1,20.3,0.35,1.8,5.3,0.33,5.3,15.0,0.35,0.0,0.0,,1.8,4.4,6.2,2.6,3.5,0.0,2.6,6.2,15.9,,82,106

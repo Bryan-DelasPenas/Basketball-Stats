@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2005,3,2840,NJN,New Jersey Nets,29.0,NBA,SF,2.0,0.0,2.0,0.0,26.3,0.0,0.0,0.0,,0.0,26.3,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,121.0
-2006,30,2840,WAS,Washington Wizards,30.0,NBA,SG,3.0,0.0,14.0,0.0,26.7,0.0,0.0,15.3,0.0,0.0,11.4,0.0,7.6,15.3,0.5,0.0,3.8,3.8,0.0,0.0,0.0,0.0,11.4,7.6,,28.0,115.0
-2008,6,2840,CLE,Cleveland Cavaliers,32.0,NBA,SF,3.0,0.0,8.0,7.0,14.0,0.5,7.0,14.0,0.5,0.0,0.0,,0.0,0.0,,0.0,7.0,7.0,7.0,7.0,0.0,0.0,0.0,20.9,,163.0,92.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2005,3,2840,NJN,New Jersey Nets,Billy Thomas,"December 23, 1975",29.0,NBA,SF,2.0,0.0,2.0,0.0,26.3,0.0,0.0,0.0,,0.0,26.3,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,121.0
+2006,30,2840,WAS,Washington Wizards,Billy Thomas,"December 23, 1975",30.0,NBA,SG,3.0,0.0,14.0,0.0,26.7,0.0,0.0,15.3,0.0,0.0,11.4,0.0,7.6,15.3,0.5,0.0,3.8,3.8,0.0,0.0,0.0,0.0,11.4,7.6,,28.0,115.0
+2008,6,2840,CLE,Cleveland Cavaliers,Billy Thomas,"December 23, 1975",32.0,NBA,SF,3.0,0.0,8.0,7.0,14.0,0.5,7.0,14.0,0.5,0.0,0.0,,0.0,0.0,,0.0,7.0,7.0,7.0,7.0,0.0,0.0,0.0,20.9,,163.0,92.0

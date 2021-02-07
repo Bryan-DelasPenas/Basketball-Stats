@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2017,7,406,DAL,Dallas Mavericks,23.0,NBA,SG,54.0,521.0,10.7,0.5,0.67,0.16,5.5,16.2,10.6,13.9,1.7,1.4,14.7,16.0,0.0,0.6,0.6,0.06,-1.7,0.1,-1.6,0.1
-2018,1,406,ATL,Atlanta Hawks,24.0,NBA,SF,4.0,10.0,-4.6,0.0,1.0,0.0,0.0,33.5,16.7,0.0,0.0,0.0,0.0,8.7,0.0,0.0,0.0,-0.18,-8.1,-3.2,-11.3,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2017,7,406,DAL,Dallas Mavericks,Nicolas Brussino,"March 2, 1993",23.0,NBA,SG,54.0,521.0,10.7,0.5,0.67,0.16,5.5,16.2,10.6,13.9,1.7,1.4,14.7,16.0,0.0,0.6,0.6,0.06,-1.7,0.1,-1.6,0.1
+2018,1,406,ATL,Atlanta Hawks,Nicolas Brussino,"March 2, 1993",24.0,NBA,SF,4.0,10.0,-4.6,0.0,1.0,0.0,0.0,33.5,16.7,0.0,0.0,0.0,0.0,8.7,0.0,0.0,0.0,-0.18,-8.1,-3.2,-11.3,0.0

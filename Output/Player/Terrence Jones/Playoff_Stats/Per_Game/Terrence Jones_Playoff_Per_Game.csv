@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2013,11,1560,HOU,Houston Rockets,21.0,NBA,PF,2.0,0.0,17.5,2.0,5.0,0.4,0.0,1.0,0.0,2.0,4.0,0.5,0.4,0.0,1.5,0.0,2.5,5.0,7.5,0.5,0.0,0.5,0.5,1.0,4.0
-2014,11,1560,HOU,Houston Rockets,22.0,NBA,PF,6.0,2.0,23.0,3.3,6.5,0.51,0.0,0.2,0.0,3.3,6.3,0.53,0.51,1.0,2.0,0.5,2.8,3.3,6.2,1.3,0.8,0.5,0.3,2.2,7.7
-2015,11,1560,HOU,Houston Rockets,23.0,NBA,PF,17.0,9.0,23.6,3.9,9.4,0.42,0.2,1.1,0.16,3.8,8.2,0.46,0.43,2.1,3.2,0.67,1.7,3.1,4.8,1.0,0.5,0.7,0.9,1.8,10.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2013,11,1560,HOU,Houston Rockets,Terrence Jones,"January 9, 1992",21.0,NBA,PF,2.0,0.0,17.5,2.0,5.0,0.4,0.0,1.0,0.0,2.0,4.0,0.5,0.4,0.0,1.5,0.0,2.5,5.0,7.5,0.5,0.0,0.5,0.5,1.0,4.0
+2014,11,1560,HOU,Houston Rockets,Terrence Jones,"January 9, 1992",22.0,NBA,PF,6.0,2.0,23.0,3.3,6.5,0.51,0.0,0.2,0.0,3.3,6.3,0.53,0.51,1.0,2.0,0.5,2.8,3.3,6.2,1.3,0.8,0.5,0.3,2.2,7.7
+2015,11,1560,HOU,Houston Rockets,Terrence Jones,"January 9, 1992",23.0,NBA,PF,17.0,9.0,23.6,3.9,9.4,0.42,0.2,1.1,0.16,3.8,8.2,0.46,0.43,2.1,3.2,0.67,1.7,3.1,4.8,1.0,0.5,0.7,0.9,1.8,10.2

@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2011,14,818,LAL,Los Angeles Lakers,21.0,NBA,SG,20,118,19.4,0.51,0.1,0.45,14.9,11.1,13.0,2.8,1.8,3.2,8.9,25.9,0.2,0.2,0.4,0.14,0.1,-2.1,-2.0,0.0
-2012,14,818,LAL,Los Angeles Lakers,22.0,NBA,SG,24,396,8.3,0.46,0.1,0.39,7.7,7.6,7.6,4.6,1.5,1.1,14.7,14.2,0.0,0.3,0.3,0.03,-3.7,-0.5,-4.2,-0.2
-2013,14,818,LAL,Los Angeles Lakers,23.0,NBA,SF,19,197,6.3,0.41,0.3,0.19,5.7,16.9,11.5,7.8,0.8,0.4,12.2,20.4,-0.2,0.1,-0.1,-0.02,-5.3,-2.5,-7.7,-0.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2011,14,818,LAL,Los Angeles Lakers,Devin Ebanks,"October 28, 1989",21.0,NBA,SG,20,118,19.4,0.51,0.1,0.45,14.9,11.1,13.0,2.8,1.8,3.2,8.9,25.9,0.2,0.2,0.4,0.14,0.1,-2.1,-2.0,0.0
+2012,14,818,LAL,Los Angeles Lakers,Devin Ebanks,"October 28, 1989",22.0,NBA,SG,24,396,8.3,0.46,0.1,0.39,7.7,7.6,7.6,4.6,1.5,1.1,14.7,14.2,0.0,0.3,0.3,0.03,-3.7,-0.5,-4.2,-0.2
+2013,14,818,LAL,Los Angeles Lakers,Devin Ebanks,"October 28, 1989",23.0,NBA,SF,19,197,6.3,0.41,0.3,0.19,5.7,16.9,11.5,7.8,0.8,0.4,12.2,20.4,-0.2,0.1,-0.1,-0.02,-5.3,-2.5,-7.7,-0.3

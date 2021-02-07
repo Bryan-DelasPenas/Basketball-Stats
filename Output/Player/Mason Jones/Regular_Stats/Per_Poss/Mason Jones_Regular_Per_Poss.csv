@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2021,11,1554,HOU,Houston Rockets,22.0,NBA,SG,13,1,153,9.2,16.6,0.56,4.6,8.6,0.54,4.6,8.0,0.58,3.4,6.4,0.52,0.9,7.4,8.3,5.8,1.2,0.0,4.9,4.6,26.4,,112,108
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2021,11,1554,HOU,Houston Rockets,Mason Jones,"July 21, 1998",22.0,NBA,SG,13,1,153,9.2,16.6,0.56,4.6,8.6,0.54,4.6,8.0,0.58,3.4,6.4,0.52,0.9,7.4,8.3,5.8,1.2,0.0,4.9,4.6,26.4,,112,108

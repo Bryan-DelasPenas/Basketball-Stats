@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2021,23,1872,PHI,Philadelphia 76Ers,25.0,NBA,SG,8,123,9.9,0.47,0.54,0.12,0.9,5.2,3.1,15.1,0.4,2.1,1.9,17.7,0.1,0.1,0.1,0.06,-1.9,-1.7,-3.6,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,23,1872,PHI,Philadelphia 76Ers,Dakota Mathias,"July 11, 1995",25.0,NBA,SG,8,123,9.9,0.47,0.54,0.12,0.9,5.2,3.1,15.1,0.4,2.1,1.9,17.7,0.1,0.1,0.1,0.06,-1.9,-1.7,-3.6,0.0

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2003,19,38,NOH,New Orleans Hornets,25.0,NBA,PG,5.0,0.0,39.0,7.0,16.0,0.44,1.0,1.0,1.0,6.0,15.0,0.4,0.47,3.0,4.0,0.75,2.0,2.0,4.0,1.0,2.0,0.0,1.0,6.0,18.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2003,19,38,NOH,New Orleans Hornets,Courtney Alexander,"April 27, 1977",25.0,NBA,PG,5.0,0.0,39.0,7.0,16.0,0.44,1.0,1.0,1.0,6.0,15.0,0.4,0.47,3.0,4.0,0.75,2.0,2.0,4.0,1.0,2.0,0.0,1.0,6.0,18.0

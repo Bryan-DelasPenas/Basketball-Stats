@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2016,31,2746,TOT,Total After Trade,28.0,NBA,PF,8.0,0.0,73.0,6.3,18.9,0.33,0.0,0.0,,6.3,18.9,0.33,2.8,8.4,0.33,13.3,6.3,19.7,1.4,0.7,3.5,0.0,8.4,15.4,,101.0,107.0
-2016,13,2746,LAC,Los Angeles Clippers,28.0,NBA,PF,4.0,0.0,12.0,4.2,4.2,1.0,0.0,0.0,,4.2,4.2,1.0,0.0,8.4,0.0,4.2,4.2,8.4,0.0,0.0,8.4,0.0,16.7,8.4,,113.0,101.0
-2016,15,2746,MEM,Memphis Grizzlies,28.0,NBA,PF,4.0,0.0,61.0,6.7,21.9,0.31,0.0,0.0,,6.7,21.9,0.31,3.4,8.4,0.4,15.2,6.7,21.9,1.7,0.8,2.5,0.0,6.7,16.9,,101.0,108.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2016,31,2746,TOT,Total After Trade,Alex Stepheson,"August 7, 1987",28.0,NBA,PF,8.0,0.0,73.0,6.3,18.9,0.33,0.0,0.0,,6.3,18.9,0.33,2.8,8.4,0.33,13.3,6.3,19.7,1.4,0.7,3.5,0.0,8.4,15.4,,101.0,107.0
+2016,13,2746,LAC,Los Angeles Clippers,Alex Stepheson,"August 7, 1987",28.0,NBA,PF,4.0,0.0,12.0,4.2,4.2,1.0,0.0,0.0,,4.2,4.2,1.0,0.0,8.4,0.0,4.2,4.2,8.4,0.0,0.0,8.4,0.0,16.7,8.4,,113.0,101.0
+2016,15,2746,MEM,Memphis Grizzlies,Alex Stepheson,"August 7, 1987",28.0,NBA,PF,4.0,0.0,61.0,6.7,21.9,0.31,0.0,0.0,,6.7,21.9,0.31,3.4,8.4,0.4,15.2,6.7,21.9,1.7,0.8,2.5,0.0,6.7,16.9,,101.0,108.0

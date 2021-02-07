@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1999,11,2018,HOU,Houston Rockets,23.0,NBA,PG,4.0,94.0,12.4,0.71,0.47,0.73,0.0,4.7,2.4,18.6,1.1,0.0,20.1,11.9,0.3,0.0,0.2,0.1,0.2,0.3,0.5,0.1
-2004,11,2018,HOU,Houston Rockets,28.0,NBA,SG,5.0,210.0,8.8,0.45,0.28,0.13,2.9,9.9,6.6,13.0,0.8,1.1,18.5,22.5,-0.2,0.1,-0.1,-0.03,-2.3,-0.3,-2.6,0.0
-2005,26,2018,SAC,Sacramento Kings,29.0,NBA,SG,5.0,159.0,13.9,0.51,0.36,0.1,2.8,8.4,5.4,9.4,2.0,1.0,7.6,22.1,0.1,-0.1,0.1,0.02,1.6,-0.5,1.1,0.1
-2006,13,2018,LAC,Los Angeles Clippers,30.0,NBA,SG,12.0,473.0,9.6,0.51,0.21,0.2,2.7,10.6,7.0,7.4,0.9,0.5,12.9,17.1,0.1,0.3,0.4,0.04,-1.6,-0.6,-2.1,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1999,11,2018,HOU,Houston Rockets,Cuttino Mobley,"September 1, 1975",23.0,NBA,PG,4.0,94.0,12.4,0.71,0.47,0.73,0.0,4.7,2.4,18.6,1.1,0.0,20.1,11.9,0.3,0.0,0.2,0.1,0.2,0.3,0.5,0.1
+2004,11,2018,HOU,Houston Rockets,Cuttino Mobley,"September 1, 1975",28.0,NBA,SG,5.0,210.0,8.8,0.45,0.28,0.13,2.9,9.9,6.6,13.0,0.8,1.1,18.5,22.5,-0.2,0.1,-0.1,-0.03,-2.3,-0.3,-2.6,0.0
+2005,26,2018,SAC,Sacramento Kings,Cuttino Mobley,"September 1, 1975",29.0,NBA,SG,5.0,159.0,13.9,0.51,0.36,0.1,2.8,8.4,5.4,9.4,2.0,1.0,7.6,22.1,0.1,-0.1,0.1,0.02,1.6,-0.5,1.1,0.1
+2006,13,2018,LAC,Los Angeles Clippers,Cuttino Mobley,"September 1, 1975",30.0,NBA,SG,12.0,473.0,9.6,0.51,0.21,0.2,2.7,10.6,7.0,7.4,0.9,0.5,12.9,17.1,0.1,0.3,0.4,0.04,-1.6,-0.6,-2.1,0.0

@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2011,8,983,DEN,Denver Nuggets,22.0,NBA,SF,5.0,148.0,11.9,0.56,0.34,0.48,0.8,12.0,6.4,12.3,1.4,0.0,11.6,18.6,0.1,0.1,0.2,0.06,0.0,0.6,0.6,0.1
-2012,8,983,DEN,Denver Nuggets,23.0,NBA,SF,7.0,222.0,13.4,0.45,0.24,0.26,4.2,12.1,8.2,11.8,1.2,1.3,7.9,22.5,0.2,0.1,0.3,0.06,0.0,-0.8,-0.8,0.1
-2019,13,983,LAC,Los Angeles Clippers,30.0,NBA,SF,6.0,201.0,13.6,0.47,0.39,0.3,4.7,16.5,10.3,12.5,1.9,0.4,8.1,27.9,-0.1,-0.1,-0.1,-0.03,0.6,-3.0,-2.4,0.0
-2020,21,983,OKC,Oklahoma City Thunder,31.0,NBA,PF,7.0,212.0,12.7,0.57,0.47,0.38,2.6,15.7,9.4,5.5,1.1,0.6,14.0,21.8,0.1,0.3,0.3,0.07,-0.2,-0.5,-0.6,0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2011,8,983,DEN,Denver Nuggets,Danilo Gallinari,"August 8, 1988",22.0,NBA,SF,5.0,148.0,11.9,0.56,0.34,0.48,0.8,12.0,6.4,12.3,1.4,0.0,11.6,18.6,0.1,0.1,0.2,0.06,0.0,0.6,0.6,0.1
+2012,8,983,DEN,Denver Nuggets,Danilo Gallinari,"August 8, 1988",23.0,NBA,SF,7.0,222.0,13.4,0.45,0.24,0.26,4.2,12.1,8.2,11.8,1.2,1.3,7.9,22.5,0.2,0.1,0.3,0.06,0.0,-0.8,-0.8,0.1
+2019,13,983,LAC,Los Angeles Clippers,Danilo Gallinari,"August 8, 1988",30.0,NBA,SF,6.0,201.0,13.6,0.47,0.39,0.3,4.7,16.5,10.3,12.5,1.9,0.4,8.1,27.9,-0.1,-0.1,-0.1,-0.03,0.6,-3.0,-2.4,0.0
+2020,21,983,OKC,Oklahoma City Thunder,Danilo Gallinari,"August 8, 1988",31.0,NBA,PF,7.0,212.0,12.7,0.57,0.47,0.38,2.6,15.7,9.4,5.5,1.1,0.6,14.0,21.8,0.1,0.3,0.3,0.07,-0.2,-0.5,-0.6,0.1

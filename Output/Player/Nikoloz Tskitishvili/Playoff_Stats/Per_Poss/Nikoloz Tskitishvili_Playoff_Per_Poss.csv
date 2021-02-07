@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2006,24,2913,PHO,Phoenix Suns,22.0,NBA,SF,4.0,0.0,8.0,0.0,19.5,0.0,0.0,6.5,0.0,0.0,13.0,0.0,6.5,13.0,0.5,0.0,6.5,6.5,13.0,0.0,0.0,6.5,6.5,6.5,,44.0,116.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2006,24,2913,PHO,Phoenix Suns,Nikoloz Tskitishvili,"April 14, 1983",22.0,NBA,SF,4.0,0.0,8.0,0.0,19.5,0.0,0.0,6.5,0.0,0.0,13.0,0.0,6.5,13.0,0.5,0.0,6.5,6.5,13.0,0.0,0.0,6.5,6.5,6.5,,44.0,116.0

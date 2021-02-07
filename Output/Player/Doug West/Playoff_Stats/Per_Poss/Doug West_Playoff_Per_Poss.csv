@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1997,18,3073,MIN,Minnesota Timberwolves,29.0,NBA,SG,3.0,3.0,87.0,7.3,13.5,0.55,0.0,1.2,0.0,7.3,12.2,0.6,5.5,5.5,1.0,0.0,2.4,2.4,3.7,1.2,0.6,0.6,6.7,20.2,,136.0,126.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1997,18,3073,MIN,Minnesota Timberwolves,Doug West,"May 27, 1967",29.0,NBA,SG,3.0,3.0,87.0,7.3,13.5,0.55,0.0,1.2,0.0,7.3,12.2,0.6,5.5,5.5,1.0,0.0,2.4,2.4,3.7,1.2,0.6,0.6,6.7,20.2,,136.0,126.0

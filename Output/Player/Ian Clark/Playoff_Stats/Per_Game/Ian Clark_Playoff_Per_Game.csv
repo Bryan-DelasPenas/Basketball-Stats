@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2016,10,542,GSW,Golden State Warriors,24.0,NBA,SG,16.0,0.0,9.6,1.6,3.3,0.49,0.4,1.1,0.33,1.3,2.2,0.57,0.55,0.5,0.6,0.8,0.1,0.9,1.1,1.0,0.5,0.0,0.6,1.1,4.1
-2017,10,542,GSW,Golden State Warriors,25.0,NBA,SG,16.0,0.0,13.7,2.5,4.9,0.51,0.8,2.3,0.36,1.7,2.7,0.63,0.59,1.0,1.1,0.94,0.3,1.4,1.6,0.7,0.4,0.0,0.7,1.1,6.8
-2018,19,542,NOP,New Orleans Pelicans,26.0,NBA,SG,9.0,0.0,21.1,3.1,7.3,0.42,1.1,3.1,0.36,2.0,4.2,0.47,0.5,0.4,0.4,1.0,0.2,0.9,1.1,1.2,0.9,0.2,1.0,2.2,7.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2016,10,542,GSW,Golden State Warriors,Ian Clark,"March 7, 1991",24.0,NBA,SG,16.0,0.0,9.6,1.6,3.3,0.49,0.4,1.1,0.33,1.3,2.2,0.57,0.55,0.5,0.6,0.8,0.1,0.9,1.1,1.0,0.5,0.0,0.6,1.1,4.1
+2017,10,542,GSW,Golden State Warriors,Ian Clark,"March 7, 1991",25.0,NBA,SG,16.0,0.0,13.7,2.5,4.9,0.51,0.8,2.3,0.36,1.7,2.7,0.63,0.59,1.0,1.1,0.94,0.3,1.4,1.6,0.7,0.4,0.0,0.7,1.1,6.8
+2018,19,542,NOP,New Orleans Pelicans,Ian Clark,"March 7, 1991",26.0,NBA,SG,9.0,0.0,21.1,3.1,7.3,0.42,1.1,3.1,0.36,2.0,4.2,0.47,0.5,0.4,0.4,1.0,0.2,0.9,1.1,1.2,0.9,0.2,1.0,2.2,7.8

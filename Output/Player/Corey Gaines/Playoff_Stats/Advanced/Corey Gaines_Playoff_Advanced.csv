@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1994,20,978,NYK,New York Knicks,28.0,NBA,SG,4.0,28.0,-4.1,0.0,0.25,0.0,0.0,8.8,4.3,10.6,0.0,0.0,0.0,6.6,-0.1,0.0,0.0,-0.07,-10.0,-4.9,-14.9,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1994,20,978,NYK,New York Knicks,Corey Gaines,"June 1, 1965",28.0,NBA,SG,4.0,28.0,-4.1,0.0,0.25,0.0,0.0,8.8,4.3,10.6,0.0,0.0,0.0,6.6,-0.1,0.0,0.0,-0.07,-10.0,-4.9,-14.9,-0.1

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2021,8,2147,DEN,Denver Nuggets,20.0,NBA,PF,10,0,23,8.6,21.5,0.4,2.1,6.4,0.33,6.4,15.0,0.43,0.0,0.0,,4.3,6.4,10.7,0.0,0.0,2.1,0.0,6.4,19.3,,104,115
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2021,8,2147,DEN,Denver Nuggets,Zeke Nnaji,"January 9, 2001",20.0,NBA,PF,10,0,23,8.6,21.5,0.4,2.1,6.4,0.33,6.4,15.0,0.43,0.0,0.0,,4.3,6.4,10.7,0.0,0.0,2.1,0.0,6.4,19.3,,104,115

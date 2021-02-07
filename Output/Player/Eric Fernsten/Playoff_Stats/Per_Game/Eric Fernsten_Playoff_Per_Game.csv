@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1980,2,908,BOS,Boston Celtics,26.0,NBA,PF,5.0,,3.6,0.4,1.2,0.33,0.0,0.0,,0.4,1.2,0.33,0.33,0.4,0.6,0.67,0.6,0.4,1.0,0.0,0.0,0.6,0.4,0.2,1.2
-1981,2,908,BOS,Boston Celtics,27.0,NBA,C,8.0,,1.8,0.0,0.4,0.0,0.0,0.0,,0.0,0.4,0.0,0.0,0.3,0.4,0.67,0.1,0.4,0.5,0.1,0.1,0.0,0.0,0.4,0.3
-1982,2,908,BOS,Boston Celtics,28.0,NBA,C,5.0,,2.2,0.2,0.4,0.5,0.0,0.0,,0.2,0.4,0.5,0.5,0.2,0.4,0.5,0.4,0.0,0.4,0.0,0.0,0.2,0.0,0.0,0.6
-1984,20,908,NYK,New York Knicks,30.0,NBA,PF,2.0,,1.5,0.5,1.0,0.5,0.0,0.0,,0.5,1.0,0.5,0.5,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,2,908,BOS,Boston Celtics,Eric Fernsten,"November 1, 1953",26.0,NBA,PF,5.0,,3.6,0.4,1.2,0.33,0.0,0.0,,0.4,1.2,0.33,0.33,0.4,0.6,0.67,0.6,0.4,1.0,0.0,0.0,0.6,0.4,0.2,1.2
+1981,2,908,BOS,Boston Celtics,Eric Fernsten,"November 1, 1953",27.0,NBA,C,8.0,,1.8,0.0,0.4,0.0,0.0,0.0,,0.0,0.4,0.0,0.0,0.3,0.4,0.67,0.1,0.4,0.5,0.1,0.1,0.0,0.0,0.4,0.3
+1982,2,908,BOS,Boston Celtics,Eric Fernsten,"November 1, 1953",28.0,NBA,C,5.0,,2.2,0.2,0.4,0.5,0.0,0.0,,0.2,0.4,0.5,0.5,0.2,0.4,0.5,0.4,0.0,0.4,0.0,0.0,0.2,0.0,0.0,0.6
+1984,20,908,NYK,New York Knicks,Eric Fernsten,"November 1, 1953",30.0,NBA,PF,2.0,,1.5,0.5,1.0,0.5,0.0,0.0,,0.5,1.0,0.5,0.5,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0

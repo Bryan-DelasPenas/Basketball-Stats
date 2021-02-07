@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1991,26,458,SAC,Sacramento Kings,24.0,NBA,SG,64,678,6.6,0.45,0.01,0.41,4.1,9.1,6.5,13.4,1.6,0.7,18.4,17.9,-0.8,0.4,-0.3,-0.02,-5.7,-0.9,-6.6,-0.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1991,26,458,SAC,Sacramento Kings,Rick Calloway,"December 12, 1966",24.0,NBA,SG,64,678,6.6,0.45,0.01,0.41,4.1,9.1,6.5,13.4,1.6,0.7,18.4,17.9,-0.8,0.4,-0.3,-0.02,-5.7,-0.9,-6.6,-0.8

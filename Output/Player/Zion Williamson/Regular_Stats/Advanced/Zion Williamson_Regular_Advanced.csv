@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2020,19,3188,NOP,New Orleans Pelicans,19.0,NBA,PF,24,668,24.1,0.62,0.04,0.49,10.1,13.7,11.9,13.3,1.1,1.1,11.9,30.5,1.5,0.4,2.0,0.14,3.5,-1.4,2.1,0.7
-2021,19,3188,NOP,New Orleans Pelicans,20.0,NBA,PF,19,622,24.5,0.63,0.04,0.46,9.4,15.7,12.5,13.3,1.6,2.0,11.8,27.7,1.8,0.5,2.3,0.18,3.5,-0.4,3.1,0.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,19,3188,NOP,New Orleans Pelicans,Zion Williamson,"July 6, 2000",19.0,NBA,PF,24,668,24.1,0.62,0.04,0.49,10.1,13.7,11.9,13.3,1.1,1.1,11.9,30.5,1.5,0.4,2.0,0.14,3.5,-1.4,2.1,0.7
+2021,19,3188,NOP,New Orleans Pelicans,Zion Williamson,"July 6, 2000",20.0,NBA,PF,20,654,24.2,0.63,0.04,0.47,9.1,15.3,12.2,13.9,1.5,2.4,12.0,27.6,1.8,0.5,2.4,0.17,3.3,-0.3,2.9,0.8

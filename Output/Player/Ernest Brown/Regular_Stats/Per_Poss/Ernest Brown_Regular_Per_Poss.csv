@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2002,16,378,MIA,Miami Heat,22.0,NBA,C,3,0,21,2.6,15.7,0.17,0.0,0.0,,2.6,15.7,0.17,2.6,10.5,0.25,2.6,13.1,15.7,0.0,0.0,2.6,7.8,10.5,7.8,,35,98
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2002,16,378,MIA,Miami Heat,Ernest Brown,"May 17, 1979",22.0,NBA,C,3,0,21,2.6,15.7,0.17,0.0,0.0,,2.6,15.7,0.17,2.6,10.5,0.25,2.6,13.1,15.7,0.0,0.0,2.6,7.8,10.5,7.8,,35,98

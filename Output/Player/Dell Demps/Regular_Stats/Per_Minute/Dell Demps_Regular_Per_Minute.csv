@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1994,10,730,GSW,Golden State Warriors,23.0,NBA,PG,2.0,0.0,11.0,6.5,19.6,0.33,0.0,0.0,,6.5,19.6,0.33,0.0,6.5,0.0,0.0,0.0,0.0,3.3,6.5,0.0,3.3,3.3,13.1
-1996,27,730,SAS,San Antonio Spurs,25.0,NBA,SG,16.0,0.0,87.0,7.9,13.7,0.58,0.4,0.8,0.5,7.4,12.8,0.58,5.8,7.0,0.82,0.8,2.9,3.7,3.3,1.2,0.4,5.0,4.1,21.9
-1997,22,730,ORL,Orlando Magic,26.0,NBA,SG,2.0,0.0,10.0,0.0,10.8,0.0,0.0,3.6,0.0,0.0,7.2,0.0,7.2,7.2,1.0,0.0,0.0,0.0,0.0,3.6,0.0,0.0,3.6,7.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1994,10,730,GSW,Golden State Warriors,Dell Demps,"February 12, 1970",23.0,NBA,PG,2.0,0.0,11.0,6.5,19.6,0.33,0.0,0.0,,6.5,19.6,0.33,0.0,6.5,0.0,0.0,0.0,0.0,3.3,6.5,0.0,3.3,3.3,13.1
+1996,27,730,SAS,San Antonio Spurs,Dell Demps,"February 12, 1970",25.0,NBA,SG,16.0,0.0,87.0,7.9,13.7,0.58,0.4,0.8,0.5,7.4,12.8,0.58,5.8,7.0,0.82,0.8,2.9,3.7,3.3,1.2,0.4,5.0,4.1,21.9
+1997,22,730,ORL,Orlando Magic,Dell Demps,"February 12, 1970",26.0,NBA,SG,2.0,0.0,10.0,0.0,10.8,0.0,0.0,3.6,0.0,0.0,7.2,0.0,7.2,7.2,1.0,0.0,0.0,0.0,0.0,3.6,0.0,0.0,3.6,7.2

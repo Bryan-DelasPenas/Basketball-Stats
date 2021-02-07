@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1991,18,1051,MIN,Minnesota Timberwolves,23.0,NBA,C,10.0,0.0,2.0,0.5,1.2,0.42,0.0,0.1,0.0,0.5,1.1,0.46,0.42,0.3,0.4,0.75,0.0,0.2,0.2,0.0,0.1,0.4,0.0,0.5,1.3
-1992,11,1051,HOU,Houston Rockets,24.0,NBA,C,1.0,0.0,2.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1991,18,1051,MIN,Minnesota Timberwolves,Dan Godfread,"June 14, 1967",23.0,NBA,C,10.0,0.0,2.0,0.5,1.2,0.42,0.0,0.1,0.0,0.5,1.1,0.46,0.42,0.3,0.4,0.75,0.0,0.2,0.2,0.0,0.1,0.4,0.0,0.5,1.3
+1992,11,1051,HOU,Houston Rockets,Dan Godfread,"June 14, 1967",24.0,NBA,C,1.0,0.0,2.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

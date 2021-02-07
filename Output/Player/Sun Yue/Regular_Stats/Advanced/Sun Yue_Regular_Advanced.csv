@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2009,14,3265,LAL,Los Angeles Lakers,23.0,NBA,SG,10,28,-8.6,0.27,0.55,0.0,0.0,0.0,0.0,9.8,1.8,2.8,21.4,22.0,-0.2,0.0,-0.1,-0.23,-17.2,-2.3,-19.4,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2009,14,3265,LAL,Los Angeles Lakers,Sun Yue,"November 6, 1985",23.0,NBA,SG,10,28,-8.6,0.27,0.55,0.0,0.0,0.0,0.0,9.8,1.8,2.8,21.4,22.0,-0.2,0.0,-0.1,-0.23,-17.2,-2.3,-19.4,-0.1

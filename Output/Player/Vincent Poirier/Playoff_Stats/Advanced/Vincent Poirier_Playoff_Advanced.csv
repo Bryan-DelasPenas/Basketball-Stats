@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2020,2,2324,BOS,Boston Celtics,26.0,NBA,C,1.0,2.0,44.6,,,,0.0,0.0,0.0,63.3,24.9,0.0,,0.0,0.0,0.0,0.0,0.56,17.4,33.0,50.4,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,2,2324,BOS,Boston Celtics,Vincent Poirier,"October 17, 1993",26.0,NBA,C,1.0,2.0,44.6,,,,0.0,0.0,0.0,63.3,24.9,0.0,,0.0,0.0,0.0,0.0,0.56,17.4,33.0,50.4,0.0

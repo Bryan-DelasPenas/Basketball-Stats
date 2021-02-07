@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2011,29,617,UTA,Utah Jazz,24.0,NBA,C,4,0,18,5.9,8.8,0.67,0.0,0.0,,5.9,8.8,0.67,0.0,0.0,,0.0,8.8,8.8,0.0,0.0,2.9,2.9,2.9,11.7,,90,111
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2011,29,617,UTA,Utah Jazz,Marcus Cousin,"December 18, 1986",24.0,NBA,C,4,0,18,5.9,8.8,0.67,0.0,0.0,,5.9,8.8,0.67,0.0,0.0,,0.0,8.8,8.8,0.0,0.0,2.9,2.9,2.9,11.7,,90,111

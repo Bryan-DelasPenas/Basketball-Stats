@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2003,25,1938,POR,Portland Trail Blazers,28.0,NBA,PG,7.0,99.0,8.9,0.38,0.12,0.15,5.9,8.3,7.1,28.7,1.1,0.8,17.8,15.5,0.0,0.0,0.0,-0.02,-2.6,-0.9,-3.5,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2003,25,1938,POR,Portland Trail Blazers,Jeff McInnis,"October 22, 1974",28.0,NBA,PG,7.0,99.0,8.9,0.38,0.12,0.15,5.9,8.3,7.1,28.7,1.1,0.8,17.8,15.5,0.0,0.0,0.0,-0.02,-2.6,-0.9,-3.5,0.0

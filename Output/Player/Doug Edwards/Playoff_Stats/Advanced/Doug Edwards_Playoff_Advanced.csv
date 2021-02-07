@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1994,1,830,ATL,Atlanta Hawks,23.0,NBA,PF,1.0,3.0,12.3,,,,0.0,0.0,0.0,0.0,0.0,24.5,,0.0,0.0,0.0,0.0,0.08,1.8,9.3,11.1,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1994,1,830,ATL,Atlanta Hawks,Doug Edwards,"January 21, 1971",23.0,NBA,PF,1.0,3.0,12.3,,,,0.0,0.0,0.0,0.0,0.0,24.5,,0.0,0.0,0.0,0.0,0.08,1.8,9.3,11.1,0.0

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1992,9,1894,DET,Detroit Pistons,27.0,NBA,SF,1.0,0.0,13.0,12.9,25.8,0.5,0.0,0.0,,12.9,25.8,0.5,0.0,0.0,,4.3,4.3,8.6,0.0,0.0,4.3,8.6,8.6,25.8,,73.0,109.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1992,9,1894,DET,Detroit Pistons,Bob McCann,"April 22, 1964",27.0,NBA,SF,1.0,0.0,13.0,12.9,25.8,0.5,0.0,0.0,,12.9,25.8,0.5,0.0,0.0,,4.3,4.3,8.6,0.0,0.0,4.3,8.6,8.6,25.8,,73.0,109.0

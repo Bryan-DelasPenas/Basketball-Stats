@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2020,28,699,TOR,Toronto Raptors,22.0,NBA,SG,6,0,84,8.1,16.7,0.48,4.6,11.0,0.42,3.5,5.8,0.6,4.0,4.0,1.0,1.2,6.3,7.5,4.0,0.6,0.0,3.5,6.3,24.8,,116,108
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2020,28,699,TOR,Toronto Raptors,Terence Davis,"May 16, 1997",22.0,NBA,SG,6,0,84,8.1,16.7,0.48,4.6,11.0,0.42,3.5,5.8,0.6,4.0,4.0,1.0,1.2,6.3,7.5,4.0,0.6,0.0,3.5,6.3,24.8,,116,108

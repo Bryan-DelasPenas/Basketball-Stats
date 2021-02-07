@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1980,13,480,SDC,San Diego Clippers,26.0,NBA,SG,10.0,134.0,5.9,0.44,0.05,0.22,4.7,5.8,5.2,2.9,1.4,0.4,11.0,13.6,0.0,0.0,0.0,0.0,-4.0,-0.7,-4.6,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,13,480,SDC,San Diego Clippers,Bob Carrington,"July 3, 1953",26.0,NBA,SG,10.0,134.0,5.9,0.44,0.05,0.22,4.7,5.8,5.2,2.9,1.4,0.4,11.0,13.6,0.0,0.0,0.0,0.0,-4.0,-0.7,-4.6,-0.1

@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1995,2,2032,BOS,Boston Celtics,23.0,NBA,C,4.0,4.0,62.0,2.9,6.4,0.46,0.0,0.0,,2.9,6.4,0.46,1.7,3.5,0.5,4.1,1.2,5.2,0.0,0.0,0.0,4.6,7.5,7.5
-1999,9,2032,DET,Detroit Pistons,27.0,NBA,C,5.0,0.0,70.0,1.5,3.1,0.5,0.0,0.0,,1.5,3.1,0.5,0.5,1.0,0.5,1.5,5.1,6.7,0.0,0.0,1.0,0.0,7.7,3.6
-2001,28,2032,TOR,Toronto Raptors,29.0,NBA,C,5.0,0.0,31.0,2.3,5.8,0.4,0.0,0.0,,2.3,5.8,0.4,0.0,0.0,,5.8,5.8,11.6,1.2,0.0,3.5,2.3,7.0,4.6
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1995,2,2032,BOS,Boston Celtics,Eric Montross,"September 23, 1971",23.0,NBA,C,4.0,4.0,62.0,2.9,6.4,0.46,0.0,0.0,,2.9,6.4,0.46,1.7,3.5,0.5,4.1,1.2,5.2,0.0,0.0,0.0,4.6,7.5,7.5
+1999,9,2032,DET,Detroit Pistons,Eric Montross,"September 23, 1971",27.0,NBA,C,5.0,0.0,70.0,1.5,3.1,0.5,0.0,0.0,,1.5,3.1,0.5,0.5,1.0,0.5,1.5,5.1,6.7,0.0,0.0,1.0,0.0,7.7,3.6
+2001,28,2032,TOR,Toronto Raptors,Eric Montross,"September 23, 1971",29.0,NBA,C,5.0,0.0,31.0,2.3,5.8,0.4,0.0,0.0,,2.3,5.8,0.4,0.0,0.0,,5.8,5.8,11.6,1.2,0.0,3.5,2.3,7.0,4.6

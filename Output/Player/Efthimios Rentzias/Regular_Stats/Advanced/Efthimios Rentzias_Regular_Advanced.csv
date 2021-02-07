@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2003,23,2428,PHI,Philadelphia 76Ers,27.0,NBA,C,35,144,10.6,0.41,0.14,0.15,8.0,13.3,10.6,8.0,2.2,1.1,6.0,20.9,0.0,0.2,0.2,0.06,-2.6,-1.2,-3.8,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2003,23,2428,PHI,Philadelphia 76Ers,Efthimios Rentzias,"January 11, 1976",27.0,NBA,C,35,144,10.6,0.41,0.14,0.15,8.0,13.3,10.6,8.0,2.2,1.1,6.0,20.9,0.0,0.2,0.2,0.06,-2.6,-1.2,-3.8,-0.1

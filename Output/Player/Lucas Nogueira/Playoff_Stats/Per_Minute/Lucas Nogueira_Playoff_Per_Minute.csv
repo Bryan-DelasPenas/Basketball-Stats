@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2016,28,2152,TOR,Toronto Raptors,23.0,NBA,C,5,0,29,3.7,5.0,0.75,0.0,0.0,,3.7,5.0,0.75,0.0,0.0,,1.2,8.7,9.9,0.0,0.0,0.0,0.0,3.7,7.4
-2017,28,2152,TOR,Toronto Raptors,24.0,NBA,C,3,0,7,5.1,10.3,0.5,0.0,0.0,,5.1,10.3,0.5,5.1,10.3,0.5,10.3,15.4,25.7,0.0,0.0,0.0,0.0,5.1,15.4
-2018,28,2152,TOR,Toronto Raptors,25.0,NBA,C,5,0,24,0.0,1.5,0.0,0.0,0.0,,0.0,1.5,0.0,1.5,3.0,0.5,0.0,1.5,1.5,1.5,0.0,0.0,4.5,9.0,1.5
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2016,28,2152,TOR,Toronto Raptors,Lucas Nogueira,"July 26, 1992",23.0,NBA,C,5,0,29,3.7,5.0,0.75,0.0,0.0,,3.7,5.0,0.75,0.0,0.0,,1.2,8.7,9.9,0.0,0.0,0.0,0.0,3.7,7.4
+2017,28,2152,TOR,Toronto Raptors,Lucas Nogueira,"July 26, 1992",24.0,NBA,C,3,0,7,5.1,10.3,0.5,0.0,0.0,,5.1,10.3,0.5,5.1,10.3,0.5,10.3,15.4,25.7,0.0,0.0,0.0,0.0,5.1,15.4
+2018,28,2152,TOR,Toronto Raptors,Lucas Nogueira,"July 26, 1992",25.0,NBA,C,5,0,24,0.0,1.5,0.0,0.0,0.0,,0.0,1.5,0.0,1.5,3.0,0.5,0.0,1.5,1.5,1.5,0.0,0.0,4.5,9.0,1.5

@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2002,21,1865,SEA,Seattle Supersonics,24.0,NBA,SF,5.0,5.0,41.0,4.8,11.4,0.42,0.2,0.6,0.33,4.6,10.8,0.43,0.43,2.0,3.4,0.59,1.0,5.2,6.2,1.8,0.8,0.4,1.0,2.2,11.8
-2003,17,1865,MIL,Milwaukee Bucks,25.0,NBA,SF,6.0,6.0,34.0,4.7,9.2,0.51,0.0,0.7,0.0,4.7,8.5,0.55,0.51,3.7,5.2,0.71,1.0,6.0,7.0,0.8,1.0,0.7,1.2,3.2,13.0
-2004,17,1865,MIL,Milwaukee Bucks,26.0,NBA,SF,5.0,5.0,39.6,5.0,14.8,0.34,0.0,0.4,0.0,5.0,14.4,0.35,0.34,4.4,5.2,0.85,0.8,4.0,4.8,2.4,0.8,0.4,2.4,3.2,14.4
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2002,21,1865,SEA,Seattle Supersonics,Desmond Mason,"October 11, 1977",24.0,NBA,SF,5.0,5.0,41.0,4.8,11.4,0.42,0.2,0.6,0.33,4.6,10.8,0.43,0.43,2.0,3.4,0.59,1.0,5.2,6.2,1.8,0.8,0.4,1.0,2.2,11.8
+2003,17,1865,MIL,Milwaukee Bucks,Desmond Mason,"October 11, 1977",25.0,NBA,SF,6.0,6.0,34.0,4.7,9.2,0.51,0.0,0.7,0.0,4.7,8.5,0.55,0.51,3.7,5.2,0.71,1.0,6.0,7.0,0.8,1.0,0.7,1.2,3.2,13.0
+2004,17,1865,MIL,Milwaukee Bucks,Desmond Mason,"October 11, 1977",26.0,NBA,SF,5.0,5.0,39.6,5.0,14.8,0.34,0.0,0.4,0.0,5.0,14.4,0.35,0.34,4.4,5.2,0.85,0.8,4.0,4.8,2.4,0.8,0.4,2.4,3.2,14.4

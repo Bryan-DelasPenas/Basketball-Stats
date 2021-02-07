@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2021,9,2751,DET,Detroit Pistons,19.0,NBA,C,19,337,13.3,0.5,0.02,0.29,15.9,17.8,16.8,5.8,1.2,4.5,11.8,13.0,0.4,0.4,0.7,0.1,-2.9,-1.0,-3.8,-0.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,9,2751,DET,Detroit Pistons,Isaiah Stewart,"May 22, 2001",19.0,NBA,C,20,360,14.1,0.52,0.02,0.29,16.2,18.3,17.2,5.9,1.2,4.7,12.6,13.2,0.4,0.4,0.8,0.11,-2.6,-0.7,-3.4,-0.1

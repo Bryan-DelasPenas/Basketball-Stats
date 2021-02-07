@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2020,26,1445,SAC,Sacramento Kings,22.0,NBA,SG,13,0,141,6.9,13.8,0.5,1.7,6.2,0.28,5.2,7.6,0.68,1.7,2.1,0.83,1.0,5.2,6.2,2.4,1.4,0.3,0.7,6.5,17.2,,121,114
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2020,26,1445,SAC,Sacramento Kings,DaQuan Jeffries,"August 30, 1997",22.0,NBA,SG,13,0,141,6.9,13.8,0.5,1.7,6.2,0.28,5.2,7.6,0.68,1.7,2.1,0.83,1.0,5.2,6.2,2.4,1.4,0.3,0.7,6.5,17.2,,121,114

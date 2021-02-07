@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1984,12,583,IND,Indiana Pacers,23.0,NBA,SF,48,0,446,6.5,13.2,0.5,0.0,0.2,0.0,6.5,12.9,0.51,4.5,7.3,0.62,1.5,3.0,4.5,3.1,1.9,1.5,3.7,4.0,17.6
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1984,12,583,IND,Indiana Pacers,Leroy Combs,"January 1, 1961",23.0,NBA,SF,48,0,446,6.5,13.2,0.5,0.0,0.2,0.0,6.5,12.9,0.51,4.5,7.3,0.62,1.5,3.0,4.5,3.1,1.9,1.5,3.7,4.0,17.6

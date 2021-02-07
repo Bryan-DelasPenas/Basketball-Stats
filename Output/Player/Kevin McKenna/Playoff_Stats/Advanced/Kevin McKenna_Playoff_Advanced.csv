@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1986,30,1939,WSB,Washington Bullets,27.0,NBA,SG,1.0,2.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.01,-5.7,-4.0,-9.7,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1986,30,1939,WSB,Washington Bullets,Kevin McKenna,"January 8, 1959",27.0,NBA,SG,1.0,2.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.01,-5.7,-4.0,-9.7,0.0

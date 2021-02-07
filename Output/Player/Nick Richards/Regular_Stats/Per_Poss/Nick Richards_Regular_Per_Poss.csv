@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2021,4,2437,CHO,Charlotte Hornets,23.0,NBA,PF,5,0,12,8.1,8.1,1.0,0.0,0.0,,8.1,8.1,1.0,4.0,8.1,0.5,4.0,12.1,16.2,0.0,0.0,0.0,0.0,8.1,20.2,,176,112
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2021,4,2437,CHO,Charlotte Hornets,Nick Richards,"November 29, 1997",23.0,NBA,PF,6,0,13,7.4,7.4,1.0,0.0,0.0,,7.4,7.4,1.0,11.2,14.9,0.75,3.7,11.2,14.9,0.0,0.0,0.0,0.0,7.4,26.1,,196,114

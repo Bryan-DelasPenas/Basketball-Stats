@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1980,27,1608,SAS,San Antonio Spurs,28.0,NBA,SF,26,,212,6.6,19.9,0.33,0.0,0.0,,6.6,19.9,0.33,3.7,5.2,0.72,2.5,5.8,8.3,3.9,2.1,0.4,6.2,8.9,17.0,,74,108
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1980,27,1608,SAS,San Antonio Spurs,Irv Kiffin,"August 8, 1951",28.0,NBA,SF,26,,212,6.6,19.9,0.33,0.0,0.0,,6.6,19.9,0.33,3.7,5.2,0.72,2.5,5.8,8.3,3.9,2.1,0.4,6.2,8.9,17.0,,74,108

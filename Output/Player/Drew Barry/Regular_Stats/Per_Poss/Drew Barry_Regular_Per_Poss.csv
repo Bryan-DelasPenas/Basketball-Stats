@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1998,1,175,ATL,Atlanta Hawks,24.0,NBA,PG,27.0,0.0,256.0,3.9,8.1,0.47,1.9,4.5,0.43,1.9,3.6,0.53,2.4,2.8,0.85,1.1,6.4,7.5,10.5,2.1,0.2,6.4,6.0,12.0,,98.0,105.0
-1999,21,175,SEA,Seattle Supersonics,25.0,NBA,SG,17.0,0.0,183.0,2.9,9.4,0.31,2.3,7.0,0.33,0.6,2.3,0.25,2.6,3.8,0.69,0.9,5.0,5.9,8.5,2.0,0.3,3.5,7.0,10.8,,101.0,107.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1998,1,175,ATL,Atlanta Hawks,Drew Barry,"February 17, 1973",24.0,NBA,PG,27.0,0.0,256.0,3.9,8.1,0.47,1.9,4.5,0.43,1.9,3.6,0.53,2.4,2.8,0.85,1.1,6.4,7.5,10.5,2.1,0.2,6.4,6.0,12.0,,98.0,105.0
+1999,21,175,SEA,Seattle Supersonics,Drew Barry,"February 17, 1973",25.0,NBA,SG,17.0,0.0,183.0,2.9,9.4,0.31,2.3,7.0,0.33,0.6,2.3,0.25,2.6,3.8,0.69,0.9,5.0,5.9,8.5,2.0,0.3,3.5,7.0,10.8,,101.0,107.0

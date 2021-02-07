@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2015,22,1833,ORL,Orlando Magic,22.0,NBA,SG,16,7,208,3.4,10.8,0.32,1.0,5.4,0.18,2.5,5.4,0.46,1.2,3.9,0.31,1.2,6.4,7.6,4.2,2.2,0.5,2.2,3.4,9.1,,79,107
-2016,22,1833,ORL,Orlando Magic,23.0,NBA,SG,28,0,249,4.2,14.3,0.3,1.6,6.4,0.25,2.6,7.8,0.33,2.0,4.8,0.42,1.2,6.4,7.6,2.4,2.6,0.2,1.4,5.0,12.0,,81,106
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2015,22,1833,ORL,Orlando Magic,Devyn Marble,"September 21, 1992",22.0,NBA,SG,16,7,208,3.4,10.8,0.32,1.0,5.4,0.18,2.5,5.4,0.46,1.2,3.9,0.31,1.2,6.4,7.6,4.2,2.2,0.5,2.2,3.4,9.1,,79,107
+2016,22,1833,ORL,Orlando Magic,Devyn Marble,"September 21, 1992",23.0,NBA,SG,28,0,249,4.2,14.3,0.3,1.6,6.4,0.25,2.6,7.8,0.33,2.0,4.8,0.42,1.2,6.4,7.6,2.4,2.6,0.2,1.4,5.0,12.0,,81,106

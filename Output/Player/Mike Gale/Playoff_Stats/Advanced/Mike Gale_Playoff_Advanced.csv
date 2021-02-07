@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1980,27.0,981,SAS,San Antonio Spurs,29.0,NBA,PG,3.0,69.0,15.1,0.46,0.2,0.35,1.5,8.2,4.7,32.0,3.6,0.0,11.5,16.0,0.1,0.0,0.1,0.04,-1.8,2.0,0.2,0.0
-1981,25.0,981,POR,Portland Trail Blazers,30.0,NBA,PG,3.0,51.0,9.1,0.25,0.0,0.0,4.3,7.0,5.6,22.3,4.9,0.0,11.1,15.1,-0.1,0.1,0.0,-0.03,-3.9,2.4,-1.5,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,27.0,981,SAS,San Antonio Spurs,Mike Gale,"July 18, 1950",29.0,NBA,PG,3.0,69.0,15.1,0.46,0.2,0.35,1.5,8.2,4.7,32.0,3.6,0.0,11.5,16.0,0.1,0.0,0.1,0.04,-1.8,2.0,0.2,0.0
+1981,25.0,981,POR,Portland Trail Blazers,Mike Gale,"July 18, 1950",30.0,NBA,PG,3.0,51.0,9.1,0.25,0.0,0.0,4.3,7.0,5.6,22.3,4.9,0.0,11.1,15.1,-0.1,0.1,0.0,-0.03,-3.9,2.4,-1.5,0.0

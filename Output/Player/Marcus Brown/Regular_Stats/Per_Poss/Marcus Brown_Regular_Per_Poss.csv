@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1997,25,388,POR,Portland Trail Blazers,22.0,NBA,PG,21.0,0.0,184.0,8.0,20.1,0.4,3.7,9.2,0.41,4.3,10.9,0.4,3.7,5.5,0.68,1.1,3.2,4.3,5.7,2.3,0.6,3.7,7.5,23.5,,105.0,105.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1997,25,388,POR,Portland Trail Blazers,Marcus Brown,"April 3, 1974",22.0,NBA,PG,21.0,0.0,184.0,8.0,20.1,0.4,3.7,9.2,0.41,4.3,10.9,0.4,3.7,5.5,0.68,1.1,3.2,4.3,5.7,2.3,0.6,3.7,7.5,23.5,,105.0,105.0

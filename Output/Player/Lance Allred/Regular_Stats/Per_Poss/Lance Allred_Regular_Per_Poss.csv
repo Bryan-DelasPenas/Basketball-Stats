@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2008,6,56,CLE,Cleveland Cavaliers,26.0,NBA,C,3,0,10,5.3,21.3,0.25,0.0,0.0,,5.3,21.3,0.25,5.3,10.6,0.5,0.0,5.3,5.3,0.0,0.0,0.0,0.0,5.3,16.0,,72,112
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2008,6,56,CLE,Cleveland Cavaliers,Lance Allred,"February 2, 1981",26.0,NBA,C,3,0,10,5.3,21.3,0.25,0.0,0.0,,5.3,21.3,0.25,5.3,10.6,0.5,0.0,5.3,5.3,0.0,0.0,0.0,0.0,5.3,16.0,,72,112

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2018,15,1370,MEM,Memphis Grizzlies,23.0,NBA,PF,4,0,7,21.7,36.1,0.6,0.0,0.0,,21.7,36.1,0.6,0.0,0.0,,14.4,7.2,21.7,0.0,0.0,7.2,7.2,0.0,43.3,,104,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2018,15,1370,MEM,Memphis Grizzlies,Vince Hunter,"August 5, 1994",23.0,NBA,PF,4,0,7,21.7,36.1,0.6,0.0,0.0,,21.7,36.1,0.6,0.0,0.0,,14.4,7.2,21.7,0.0,0.0,7.2,7.2,0.0,43.3,,104,107

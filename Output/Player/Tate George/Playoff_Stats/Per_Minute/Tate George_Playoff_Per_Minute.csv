@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1992,3,1020,NJN,New Jersey Nets,23.0,NBA,SG,4.0,0.0,44.0,5.7,18.8,0.3,0.0,0.0,,5.7,18.8,0.3,0.8,2.5,0.33,0.0,0.0,0.0,6.5,2.5,0.8,3.3,6.5,12.3
-1993,3,1020,NJN,New Jersey Nets,24.0,NBA,PG,2.0,0.0,22.0,3.3,11.5,0.29,0.0,0.0,,3.3,11.5,0.29,0.0,0.0,,1.6,3.3,4.9,9.8,1.6,0.0,1.6,1.6,6.5
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1992,3,1020,NJN,New Jersey Nets,Tate George,"May 29, 1968",23.0,NBA,SG,4.0,0.0,44.0,5.7,18.8,0.3,0.0,0.0,,5.7,18.8,0.3,0.8,2.5,0.33,0.0,0.0,0.0,6.5,2.5,0.8,3.3,6.5,12.3
+1993,3,1020,NJN,New Jersey Nets,Tate George,"May 29, 1968",24.0,NBA,PG,2.0,0.0,22.0,3.3,11.5,0.29,0.0,0.0,,3.3,11.5,0.29,0.0,0.0,,1.6,3.3,4.9,9.8,1.6,0.0,1.6,1.6,6.5

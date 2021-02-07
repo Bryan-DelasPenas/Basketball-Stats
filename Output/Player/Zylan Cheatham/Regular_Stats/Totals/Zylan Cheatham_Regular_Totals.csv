@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2020,19,521,NOP,New Orleans Pelicans,24.0,NBA,PF,4,0,51,6,9,0.67,0,1,0.0,6,8,0.75,0.67,0,0,,3,6,9,3,1,1,4,10,12
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,19,521,NOP,New Orleans Pelicans,Zylan Cheatham,"November 17, 1995",24.0,NBA,PF,4,0,51,6,9,0.67,0,1,0.0,6,8,0.75,0.67,0,0,,3,6,9,3,1,1,4,10,12

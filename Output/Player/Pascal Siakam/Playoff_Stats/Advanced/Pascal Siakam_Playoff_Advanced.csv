@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2017,28,2622,TOR,Toronto Raptors,22.0,NBA,PF,2,10,8.4,0.0,0.0,0.0,24.4,12.0,18.2,13.6,5.2,0.0,0.0,9.4,0.0,0.0,0.0,0.0,-2.4,-0.4,-2.9,0.0
-2018,28,2622,TOR,Toronto Raptors,23.0,NBA,PF,10,179,14.0,0.66,0.1,0.49,6.0,18.9,12.3,6.7,0.3,2.6,12.3,14.4,0.4,0.0,0.4,0.1,-0.6,0.5,-0.1,0.1
-2019,28,2622,TOR,Toronto Raptors,24.0,NBA,PF,24,891,17.2,0.54,0.27,0.23,5.0,16.2,10.6,12.9,1.4,1.9,7.3,23.1,1.1,1.4,2.4,0.13,1.8,0.8,2.6,1.0
-2020,28,2622,TOR,Toronto Raptors,25.0,NBA,PF,11,418,11.0,0.46,0.29,0.25,3.5,18.2,10.7,16.0,1.4,1.0,9.8,23.7,-0.4,0.7,0.4,0.04,-2.1,0.2,-2.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2017,28,2622,TOR,Toronto Raptors,Pascal Siakam,"April 2, 1994",22.0,NBA,PF,2,10,8.4,0.0,0.0,0.0,24.4,12.0,18.2,13.6,5.2,0.0,0.0,9.4,0.0,0.0,0.0,0.0,-2.4,-0.4,-2.9,0.0
+2018,28,2622,TOR,Toronto Raptors,Pascal Siakam,"April 2, 1994",23.0,NBA,PF,10,179,14.0,0.66,0.1,0.49,6.0,18.9,12.3,6.7,0.3,2.6,12.3,14.4,0.4,0.0,0.4,0.1,-0.6,0.5,-0.1,0.1
+2019,28,2622,TOR,Toronto Raptors,Pascal Siakam,"April 2, 1994",24.0,NBA,PF,24,891,17.2,0.54,0.27,0.23,5.0,16.2,10.6,12.9,1.4,1.9,7.3,23.1,1.1,1.4,2.4,0.13,1.8,0.8,2.6,1.0
+2020,28,2622,TOR,Toronto Raptors,Pascal Siakam,"April 2, 1994",25.0,NBA,PF,11,418,11.0,0.46,0.29,0.25,3.5,18.2,10.7,16.0,1.4,1.0,9.8,23.7,-0.4,0.7,0.4,0.04,-2.1,0.2,-2.0,0.0

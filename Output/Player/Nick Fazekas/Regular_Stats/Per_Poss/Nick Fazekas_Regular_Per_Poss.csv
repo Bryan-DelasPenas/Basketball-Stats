@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2008,31,896,TOT,Total After Trade,22.0,NBA,PF,26.0,0.0,269.0,8.9,15.9,0.56,0.0,0.4,0.0,8.9,15.5,0.57,2.9,4.3,0.68,6.6,10.7,17.3,2.1,1.6,2.1,2.5,4.8,20.8,,115.0,105.0
-2008,7,896,DAL,Dallas Mavericks,22.0,NBA,PF,4.0,0.0,9.0,11.8,29.6,0.4,0.0,0.0,,11.8,29.6,0.4,0.0,0.0,,5.9,11.8,17.7,0.0,0.0,0.0,0.0,0.0,23.7,,95.0,107.0
-2008,13,896,LAC,Los Angeles Clippers,22.0,NBA,PF,22.0,0.0,260.0,8.8,15.4,0.57,0.0,0.4,0.0,8.8,15.0,0.59,3.0,4.4,0.68,6.6,10.6,17.2,2.2,1.6,2.2,2.6,5.0,20.7,,116.0,105.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2008,31,896,TOT,Total After Trade,Nick Fazekas,"June 17, 1985",22.0,NBA,PF,26.0,0.0,269.0,8.9,15.9,0.56,0.0,0.4,0.0,8.9,15.5,0.57,2.9,4.3,0.68,6.6,10.7,17.3,2.1,1.6,2.1,2.5,4.8,20.8,,115.0,105.0
+2008,7,896,DAL,Dallas Mavericks,Nick Fazekas,"June 17, 1985",22.0,NBA,PF,4.0,0.0,9.0,11.8,29.6,0.4,0.0,0.0,,11.8,29.6,0.4,0.0,0.0,,5.9,11.8,17.7,0.0,0.0,0.0,0.0,0.0,23.7,,95.0,107.0
+2008,13,896,LAC,Los Angeles Clippers,Nick Fazekas,"June 17, 1985",22.0,NBA,PF,22.0,0.0,260.0,8.8,15.4,0.57,0.0,0.4,0.0,8.8,15.0,0.59,3.0,4.4,0.68,6.6,10.6,17.2,2.2,1.6,2.2,2.6,5.0,20.7,,116.0,105.0

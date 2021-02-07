@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2019,18,2193,MIN,Minnesota Timberwolves,20.0,NBA,SG,74,52,1757,4.0,10.4,0.39,1.2,4.4,0.28,2.8,6.0,0.46,2.4,3.3,0.73,0.8,3.6,4.5,1.9,1.8,0.7,1.3,3.4,11.7
-2020,18,2193,MIN,Minnesota Timberwolves,21.0,NBA,SG,62,28,1547,4.0,9.3,0.43,1.0,3.6,0.27,3.0,5.7,0.53,3.5,4.4,0.8,2.0,4.2,6.2,2.3,1.6,0.6,2.0,3.2,12.4
-2021,18,2193,MIN,Minnesota Timberwolves,22.0,NBA,SG,15,14,338,2.9,8.1,0.36,0.6,3.5,0.18,2.2,4.6,0.49,1.9,2.4,0.78,1.3,3.1,4.4,2.2,1.3,1.2,1.5,3.5,8.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,18,2193,MIN,Minnesota Timberwolves,Josh Okogie,"September 1, 1998",20.0,NBA,SG,74,52,1757,4.0,10.4,0.39,1.2,4.4,0.28,2.8,6.0,0.46,2.4,3.3,0.73,0.8,3.6,4.5,1.9,1.8,0.7,1.3,3.4,11.7
+2020,18,2193,MIN,Minnesota Timberwolves,Josh Okogie,"September 1, 1998",21.0,NBA,SG,62,28,1547,4.0,9.3,0.43,1.0,3.6,0.27,3.0,5.7,0.53,3.5,4.4,0.8,2.0,4.2,6.2,2.3,1.6,0.6,2.0,3.2,12.4
+2021,18,2193,MIN,Minnesota Timberwolves,Josh Okogie,"September 1, 1998",22.0,NBA,SG,16,15,347,2.8,8.2,0.34,0.6,3.4,0.18,2.2,4.8,0.46,1.9,2.4,0.78,1.2,3.1,4.4,2.3,1.5,1.2,1.6,3.4,8.1

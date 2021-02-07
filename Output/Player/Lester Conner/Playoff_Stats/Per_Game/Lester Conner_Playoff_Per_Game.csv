@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1988,11,588,HOU,Houston Rockets,28.0,NBA,PG,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,2.0,2.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,2.0
-1991,17,588,MIL,Milwaukee Bucks,31.0,NBA,PG,1.0,0.0,7.0,1.0,1.0,1.0,0.0,0.0,,1.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,1.0,1.0,2.0
-1993,13,588,LAC,Los Angeles Clippers,33.0,NBA,PG,5.0,0.0,12.8,1.8,2.4,0.75,0.2,0.2,1.0,1.6,2.2,0.73,0.79,0.4,0.4,1.0,0.6,0.8,1.4,2.0,0.6,0.2,0.0,1.0,4.2
-1994,12,588,IND,Indiana Pacers,34.0,NBA,PG,6.0,0.0,3.7,0.3,0.8,0.4,0.0,0.0,,0.3,0.8,0.4,0.4,0.3,0.3,1.0,0.2,0.5,0.7,0.0,0.2,0.0,0.0,0.3,1.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1988,11,588,HOU,Houston Rockets,Lester Conner,"September 17, 1959",28.0,NBA,PG,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,2.0,2.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,2.0
+1991,17,588,MIL,Milwaukee Bucks,Lester Conner,"September 17, 1959",31.0,NBA,PG,1.0,0.0,7.0,1.0,1.0,1.0,0.0,0.0,,1.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,1.0,1.0,2.0
+1993,13,588,LAC,Los Angeles Clippers,Lester Conner,"September 17, 1959",33.0,NBA,PG,5.0,0.0,12.8,1.8,2.4,0.75,0.2,0.2,1.0,1.6,2.2,0.73,0.79,0.4,0.4,1.0,0.6,0.8,1.4,2.0,0.6,0.2,0.0,1.0,4.2
+1994,12,588,IND,Indiana Pacers,Lester Conner,"September 17, 1959",34.0,NBA,PG,6.0,0.0,3.7,0.3,0.8,0.4,0.0,0.0,,0.3,0.8,0.4,0.4,0.3,0.3,1.0,0.2,0.5,0.7,0.0,0.2,0.0,0.0,0.3,1.0

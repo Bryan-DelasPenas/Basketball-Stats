@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2020,28,2857,TOR,Toronto Raptors,25.0,NBA,SG,10,0,84,13,21,0.62,5,12,0.42,8,9,0.89,0.74,0,0,,1,13,14,7,1,1,1,6,31
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,28,2857,TOR,Toronto Raptors,Matt Thomas,"August 4, 1994",25.0,NBA,SG,10,0,84,13,21,0.62,5,12,0.42,8,9,0.89,0.74,0,0,,1,13,14,7,1,1,1,6,31

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2021,23,1459,PHI,Philadelphia 76Ers,21.0,NBA,SG,12,1,194,6.1,15.4,0.4,4.6,11.9,0.39,1.5,3.4,0.43,1.2,1.2,1.0,1.0,3.4,4.4,3.2,1.0,1.0,1.2,4.9,18.0,,116,113
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2021,23,1459,PHI,Philadelphia 76Ers,Isaiah Joe,"July 2, 1999",21.0,NBA,SG,12,1,194,6.1,15.4,0.4,4.6,11.9,0.39,1.5,3.4,0.43,1.2,1.2,1.0,1.0,3.4,4.4,3.2,1.0,1.0,1.2,4.9,18.0,,116,113

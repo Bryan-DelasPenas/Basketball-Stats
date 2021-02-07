@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1991,27,1868,SAS,San Antonio Spurs,23.0,NBA,PF,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2003,29,1868,UTA,Utah Jazz,35.0,NBA,C,5.0,0.0,70.0,10.0,21.0,0.48,0.0,0.0,,10.0,21.0,0.48,0.48,5.0,9.0,0.56,7.0,14.0,21.0,2.0,0.0,4.0,5.0,9.0,25.0
-2005,27,1868,SAS,San Antonio Spurs,37.0,NBA,PF,9.0,0.0,28.0,1.0,6.0,0.17,0.0,0.0,,1.0,6.0,0.17,0.17,1.0,2.0,0.5,4.0,7.0,11.0,0.0,0.0,0.0,0.0,2.0,3.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1991,27,1868,SAS,San Antonio Spurs,Tony Massenburg,"July 31, 1967",23.0,NBA,PF,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2003,29,1868,UTA,Utah Jazz,Tony Massenburg,"July 31, 1967",35.0,NBA,C,5.0,0.0,70.0,10.0,21.0,0.48,0.0,0.0,,10.0,21.0,0.48,0.48,5.0,9.0,0.56,7.0,14.0,21.0,2.0,0.0,4.0,5.0,9.0,25.0
+2005,27,1868,SAS,San Antonio Spurs,Tony Massenburg,"July 31, 1967",37.0,NBA,PF,9.0,0.0,28.0,1.0,6.0,0.17,0.0,0.0,,1.0,6.0,0.17,0.17,1.0,2.0,0.5,4.0,7.0,11.0,0.0,0.0,0.0,0.0,2.0,3.0

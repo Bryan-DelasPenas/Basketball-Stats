@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2020,29,2917,UTA,Utah Jazz,22.0,NBA,SG,2,11,1.6,0.5,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.7,25.5,0.0,0.0,0.0,-0.18,-8.1,-5.1,-13.2,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,29,2917,UTA,Utah Jazz,Rayjon Tucker,"September 24, 1997",22.0,NBA,SG,2,11,1.6,0.5,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.7,25.5,0.0,0.0,0.0,-0.18,-8.1,-5.1,-13.2,0.0

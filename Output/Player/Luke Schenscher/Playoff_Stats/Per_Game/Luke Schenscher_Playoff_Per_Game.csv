@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2006,5,2571,CHI,Chicago Bulls,23.0,NBA,C,3.0,0.0,5.7,0.7,0.7,1.0,0.0,0.0,,0.7,0.7,1.0,1.0,1.0,1.3,0.75,1.0,1.3,2.3,0.0,0.0,0.0,0.3,0.7,2.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2006,5,2571,CHI,Chicago Bulls,Luke Schenscher,"December 31, 1982",23.0,NBA,C,3.0,0.0,5.7,0.7,0.7,1.0,0.0,0.0,,0.7,0.7,1.0,1.0,1.0,1.3,0.75,1.0,1.3,2.3,0.0,0.0,0.0,0.3,0.7,2.3

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2004,18,1222,MIN,Minnesota Timberwolves,24.0,NBA,SG,18.0,472.0,12.5,0.55,0.02,0.13,5.4,5.3,5.4,10.0,1.1,1.1,11.3,14.2,0.8,0.0,0.8,0.08,-0.4,1.0,0.7,0.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2004,18,1222,MIN,Minnesota Timberwolves,Trenton Hassell,"March 4, 1979",24.0,NBA,SG,18.0,472.0,12.5,0.55,0.02,0.13,5.4,5.3,5.4,10.0,1.1,1.1,11.3,14.2,0.8,0.0,0.8,0.08,-0.4,1.0,0.7,0.3

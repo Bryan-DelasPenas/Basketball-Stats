@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1981,31,695,TOT,Total After Trade,22.0,NBA,PF,2.0,,10.0,1.0,5.0,0.2,0.0,0.0,,1.0,5.0,0.2,0.2,1.0,5.0,0.2,2.0,2.0,4.0,0.0,0.0,1.0,0.0,0.0,3.0
-1981,23,695,PHI,Philadelphia 76Ers,22.0,NBA,PF,1.0,,2.0,1.0,1.0,1.0,0.0,0.0,,1.0,1.0,1.0,1.0,0.0,0.0,,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0
-1981,7,695,DAL,Dallas Mavericks,22.0,NBA,PF,1.0,,8.0,0.0,4.0,0.0,0.0,0.0,,0.0,4.0,0.0,0.0,1.0,5.0,0.2,2.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,1.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,31,695,TOT,Total After Trade,Monti Davis,"July 26, 1958",22.0,NBA,PF,2.0,,10.0,1.0,5.0,0.2,0.0,0.0,,1.0,5.0,0.2,0.2,1.0,5.0,0.2,2.0,2.0,4.0,0.0,0.0,1.0,0.0,0.0,3.0
+1981,23,695,PHI,Philadelphia 76Ers,Monti Davis,"July 26, 1958",22.0,NBA,PF,1.0,,2.0,1.0,1.0,1.0,0.0,0.0,,1.0,1.0,1.0,1.0,0.0,0.0,,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0
+1981,7,695,DAL,Dallas Mavericks,Monti Davis,"July 26, 1958",22.0,NBA,PF,1.0,,8.0,0.0,4.0,0.0,0.0,0.0,,0.0,4.0,0.0,0.0,1.0,5.0,0.2,2.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,1.0

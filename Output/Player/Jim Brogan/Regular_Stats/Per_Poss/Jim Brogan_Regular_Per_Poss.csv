@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1982,13,359,SDC,San Diego Clippers,23.0,NBA,SG,63,19,1027,7.6,16.8,0.45,0.4,1.5,0.28,7.2,15.3,0.47,2.8,3.9,0.73,2.8,2.7,5.5,7.2,2.3,0.6,3.8,5.7,18.4,,103,114
-1983,13,359,SDC,San Diego Clippers,24.0,NBA,SG,58,0,466,9.1,21.3,0.43,0.3,1.3,0.23,8.8,20.0,0.44,3.4,4.3,0.79,3.3,2.9,6.2,6.6,2.6,0.9,4.3,7.9,21.9,,99,109
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1982,13,359,SDC,San Diego Clippers,Jim Brogan,"February 24, 1958",23.0,NBA,SG,63,19,1027,7.6,16.8,0.45,0.4,1.5,0.28,7.2,15.3,0.47,2.8,3.9,0.73,2.8,2.7,5.5,7.2,2.3,0.6,3.8,5.7,18.4,,103,114
+1983,13,359,SDC,San Diego Clippers,Jim Brogan,"February 24, 1958",24.0,NBA,SG,58,0,466,9.1,21.3,0.43,0.3,1.3,0.23,8.8,20.0,0.44,3.4,4.3,0.79,3.3,2.9,6.2,6.6,2.6,0.9,4.3,7.9,21.9,,99,109

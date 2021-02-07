@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1996,11,293,HOU,Houston Rockets,23.0,NBA,PG,11.0,131.0,6.2,0.4,0.38,0.22,0.9,6.8,3.9,24.5,2.0,0.5,18.0,22.9,-0.3,0.1,-0.2,-0.06,-7.3,-2.5,-9.8,-0.3
-1997,31,293,TOT,Total After Trade,24.0,NBA,PG,21.0,430.0,8.8,0.54,0.35,0.19,1.9,6.1,4.0,19.1,0.4,0.4,19.2,14.6,0.3,-0.1,0.1,0.01,-2.0,-1.8,-3.7,-0.2
-1997,8,293,DEN,Denver Nuggets,24.0,NBA,PG,5.0,21.0,-5.1,0.62,0.5,0.0,0.0,5.4,2.7,22.3,0.0,0.0,63.6,23.4,-0.2,0.0,-0.2,-0.38,-9.2,-7.6,-16.9,-0.1
-1997,10,293,GSW,Golden State Warriors,24.0,NBA,PG,16.0,409.0,9.5,0.53,0.35,0.2,2.0,6.1,4.1,18.9,0.4,0.4,15.4,14.1,0.4,-0.1,0.3,0.03,-1.6,-1.5,-3.1,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1996,11,293,HOU,Houston Rockets,Melvin Booker,"August 20, 1972",23.0,NBA,PG,11.0,131.0,6.2,0.4,0.38,0.22,0.9,6.8,3.9,24.5,2.0,0.5,18.0,22.9,-0.3,0.1,-0.2,-0.06,-7.3,-2.5,-9.8,-0.3
+1997,31,293,TOT,Total After Trade,Melvin Booker,"August 20, 1972",24.0,NBA,PG,21.0,430.0,8.8,0.54,0.35,0.19,1.9,6.1,4.0,19.1,0.4,0.4,19.2,14.6,0.3,-0.1,0.1,0.01,-2.0,-1.8,-3.7,-0.2
+1997,8,293,DEN,Denver Nuggets,Melvin Booker,"August 20, 1972",24.0,NBA,PG,5.0,21.0,-5.1,0.62,0.5,0.0,0.0,5.4,2.7,22.3,0.0,0.0,63.6,23.4,-0.2,0.0,-0.2,-0.38,-9.2,-7.6,-16.9,-0.1
+1997,10,293,GSW,Golden State Warriors,Melvin Booker,"August 20, 1972",24.0,NBA,PG,16.0,409.0,9.5,0.53,0.35,0.2,2.0,6.1,4.1,18.9,0.4,0.4,15.4,14.1,0.4,-0.1,0.3,0.03,-1.6,-1.5,-3.1,-0.1

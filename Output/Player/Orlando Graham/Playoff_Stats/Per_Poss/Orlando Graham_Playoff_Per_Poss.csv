@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1989,10,1071,GSW,Golden State Warriors,23.0,NBA,PF,2,0,8,5.8,11.7,0.5,0.0,0.0,,5.8,11.7,0.5,5.8,11.7,0.5,0.0,5.8,5.8,0.0,0.0,0.0,5.8,0.0,17.5,,78,118
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1989,10,1071,GSW,Golden State Warriors,Orlando Graham,"May 5, 1965",23.0,NBA,PF,2,0,8,5.8,11.7,0.5,0.0,0.0,,5.8,11.7,0.5,5.8,11.7,0.5,0.0,5.8,5.8,0.0,0.0,0.0,5.8,0.0,17.5,,78,118

@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2007,21,367,SEA,Seattle Supersonics,25.0,NBA,PF,38.0,0.0,7.1,1.1,1.9,0.57,0.0,0.0,0.0,1.1,1.9,0.57,0.57,0.2,0.4,0.6,0.7,1.3,1.9,0.1,0.2,0.1,0.8,0.7,2.4
-2008,15,367,MEM,Memphis Grizzlies,26.0,NBA,PF,33.0,1.0,8.7,1.2,2.4,0.5,0.0,0.0,,1.2,2.4,0.5,0.5,0.7,1.5,0.45,1.1,1.7,2.8,0.2,0.2,0.1,0.4,1.2,3.0
-2009,4,367,CHA,Charlotte Bobcats,27.0,NBA,PF,4.0,0.0,10.3,0.3,1.8,0.14,0.0,0.0,,0.3,1.8,0.14,0.14,0.5,0.5,1.0,1.8,1.3,3.0,0.3,0.3,0.0,1.3,2.3,1.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2007,21,367,SEA,Seattle Supersonics,Andre Brown,"May 12, 1981",25.0,NBA,PF,38.0,0.0,7.1,1.1,1.9,0.57,0.0,0.0,0.0,1.1,1.9,0.57,0.57,0.2,0.4,0.6,0.7,1.3,1.9,0.1,0.2,0.1,0.8,0.7,2.4
+2008,15,367,MEM,Memphis Grizzlies,Andre Brown,"May 12, 1981",26.0,NBA,PF,33.0,1.0,8.7,1.2,2.4,0.5,0.0,0.0,,1.2,2.4,0.5,0.5,0.7,1.5,0.45,1.1,1.7,2.8,0.2,0.2,0.1,0.4,1.2,3.0
+2009,4,367,CHA,Charlotte Bobcats,Andre Brown,"May 12, 1981",27.0,NBA,PF,4.0,0.0,10.3,0.3,1.8,0.14,0.0,0.0,,0.3,1.8,0.14,0.14,0.5,0.5,1.0,1.8,1.3,3.0,0.3,0.3,0.0,1.3,2.3,1.0

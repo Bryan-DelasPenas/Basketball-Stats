@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2019,10,875,GSW,Golden State Warriors,21.0,NBA,SG,7.0,18.0,0.4,0.5,0.4,0.0,0.0,6.2,3.2,7.5,0.0,0.0,28.6,16.9,0.0,0.0,0.0,-0.13,-6.5,-3.2,-9.7,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2019,10,875,GSW,Golden State Warriors,Jacob Evans,"June 18, 1997",21.0,NBA,SG,7.0,18.0,0.4,0.5,0.4,0.0,0.0,6.2,3.2,7.5,0.0,0.0,28.6,16.9,0.0,0.0,0.0,-0.13,-6.5,-3.2,-9.7,0.0

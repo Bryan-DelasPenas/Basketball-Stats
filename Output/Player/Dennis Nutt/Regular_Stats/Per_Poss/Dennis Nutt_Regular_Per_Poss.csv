@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1987,7,2166,DAL,Dallas Mavericks,23.0,NBA,PG,25,0,91,8.4,21.0,0.4,2.6,8.9,0.29,5.8,12.1,0.48,10.5,11.5,0.91,0.5,3.7,4.2,8.4,3.7,0.0,5.2,3.1,29.9,,113,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1987,7,2166,DAL,Dallas Mavericks,Dennis Nutt,"March 25, 1963",23.0,NBA,PG,25,0,91,8.4,21.0,0.4,2.6,8.9,0.29,5.8,12.1,0.48,10.5,11.5,0.91,0.5,3.7,4.2,8.4,3.7,0.0,5.2,3.1,29.9,,113,107

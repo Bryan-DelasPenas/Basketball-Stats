@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1987,21,1628,SEA,Seattle Supersonics,23.0,NBA,PF,8,23,2.1,0.27,0.0,2.0,8.9,21.5,14.6,0.0,0.0,5.5,0.0,6.7,0.0,0.0,0.0,0.0,-8.1,-2.1,-10.2,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1987,21,1628,SEA,Seattle Supersonics,Curtis Kitchen,"January 30, 1964",23.0,NBA,PF,8,23,2.1,0.27,0.0,2.0,8.9,21.5,14.6,0.0,0.0,5.5,0.0,6.7,0.0,0.0,0.0,0.0,-8.1,-2.1,-10.2,0.0

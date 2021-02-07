@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1988,27,258,SAS,San Antonio Spurs,22.0,NBA,PG,10,0,112,6.2,16.8,0.37,0.8,4.5,0.18,5.3,12.3,0.43,2.1,2.5,0.83,0.8,1.6,2.5,7.4,1.2,0.0,3.3,6.6,15.2,,92,117
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1988,27,258,SAS,San Antonio Spurs,Nate Blackwell,"February 15, 1965",22.0,NBA,PG,10,0,112,6.2,16.8,0.37,0.8,4.5,0.18,5.3,12.3,0.43,2.1,2.5,0.83,0.8,1.6,2.5,7.4,1.2,0.0,3.3,6.6,15.2,,92,117

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2021,21,2325,OKC,Oklahoma City Thunder,19.0,NBA,PF,17,0,296,2.8,11.3,0.25,1.2,6.8,0.18,1.6,4.5,0.35,0.0,0.0,,0.6,6.7,7.3,2.6,1.0,2.3,2.7,1.9,6.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,21,2325,OKC,Oklahoma City Thunder,Aleksej Pokusevski,"December 26, 2001",19.0,NBA,PF,17,0,296,2.8,11.3,0.25,1.2,6.8,0.18,1.6,4.5,0.35,0.0,0.0,,0.6,6.7,7.3,2.6,1.0,2.3,2.7,1.9,6.8

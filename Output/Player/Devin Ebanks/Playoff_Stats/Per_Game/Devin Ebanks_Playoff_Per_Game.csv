@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2012,14,818,LAL,Los Angeles Lakers,22.0,NBA,SG,9,6,14.0,1.8,4.3,0.41,0.0,0.3,0.0,1.8,4.0,0.44,0.41,0.6,0.9,0.62,0.8,1.4,2.2,0.7,0.3,0.8,0.2,1.4,4.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2012,14,818,LAL,Los Angeles Lakers,Devin Ebanks,"October 28, 1989",22.0,NBA,SG,9,6,14.0,1.8,4.3,0.41,0.0,0.3,0.0,1.8,4.0,0.44,0.41,0.6,0.9,0.62,0.8,1.4,2.2,0.7,0.3,0.8,0.2,1.4,4.1

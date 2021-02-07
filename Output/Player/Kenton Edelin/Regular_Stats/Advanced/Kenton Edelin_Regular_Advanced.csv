@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1985,12,822,IND,Indiana Pacers,22.0,NBA,SF,10,143,3.3,0.33,0.0,0.62,5.9,13.4,9.6,8.2,1.6,1.6,15.4,5.4,0.0,0.2,0.1,0.04,-5.9,1.8,-4.2,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1985,12,822,IND,Indiana Pacers,Kenton Edelin,"May 24, 1962",22.0,NBA,SF,10,143,3.3,0.33,0.0,0.62,5.9,13.4,9.6,8.2,1.6,1.6,15.4,5.4,0.0,0.2,0.1,0.04,-5.9,1.8,-4.2,-0.1

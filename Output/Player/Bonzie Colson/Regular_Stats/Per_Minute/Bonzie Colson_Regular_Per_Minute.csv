@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2019,17,580,MIL,Milwaukee Bucks,23.0,NBA,SF,8,2,98,4.8,14.3,0.33,1.8,7.7,0.24,2.9,6.6,0.44,2.9,3.3,0.89,2.9,8.1,11.0,1.1,1.8,0.4,1.1,1.1,14.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,17,580,MIL,Milwaukee Bucks,Bonzie Colson,"January 12, 1996",23.0,NBA,SF,8,2,98,4.8,14.3,0.33,1.8,7.7,0.24,2.9,6.6,0.44,2.9,3.3,0.89,2.9,8.1,11.0,1.1,1.8,0.4,1.1,1.1,14.3

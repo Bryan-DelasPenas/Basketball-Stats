@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2018,13,3194,LAC,Los Angeles Clippers,27.0,NBA,SF,15,10,274,6.7,14.4,0.47,4.8,11.2,0.43,2.0,3.2,0.61,0.4,0.7,0.5,0.5,5.1,5.7,1.8,0.9,1.4,1.4,6.0,18.6,,118,112
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2018,13,3194,LAC,Los Angeles Clippers,Jamil Wilson,"November 21, 1990",27.0,NBA,SF,15,10,274,6.7,14.4,0.47,4.8,11.2,0.43,2.0,3.2,0.61,0.4,0.7,0.5,0.5,5.1,5.7,1.8,0.9,1.4,1.4,6.0,18.6,,118,112

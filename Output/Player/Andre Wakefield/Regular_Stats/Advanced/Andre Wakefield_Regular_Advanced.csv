@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1980,29,2997,UTA,Utah Jazz,25.0,NBA,SG,8.0,47.0,-2.0,0.46,0.0,0.2,0.0,9.6,5.0,8.8,1.0,0.0,32.9,22.2,-0.2,0.0,-0.2,-0.19,-6.2,-0.9,-7.1,-0.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,29,2997,UTA,Utah Jazz,Andre Wakefield,"January 11, 1955",25.0,NBA,SG,8.0,47.0,-2.0,0.46,0.0,0.2,0.0,9.6,5.0,8.8,1.0,0.0,32.9,22.2,-0.2,0.0,-0.2,-0.19,-6.2,-0.9,-7.1,-0.2

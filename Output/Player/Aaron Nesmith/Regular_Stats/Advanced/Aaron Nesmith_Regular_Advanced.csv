@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2021,2,2127,BOS,Boston Celtics,21.0,NBA,SF,9,115,2.0,0.45,0.78,0.0,2.9,11.6,7.2,4.5,0.0,1.6,15.9,16.3,-0.2,0.1,-0.1,-0.05,-6.5,-3.2,-9.7,-0.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,2,2127,BOS,Boston Celtics,Aaron Nesmith,"October 16, 1999",21.0,NBA,SF,9,115,2.0,0.45,0.78,0.0,2.9,11.7,7.2,4.5,0.0,1.6,15.9,16.3,-0.2,0.1,-0.1,-0.06,-6.5,-3.2,-9.7,-0.2

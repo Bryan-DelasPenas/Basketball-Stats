@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1992,31,2875,TOT,Total After Trade,23.0,NBA,SG,19.0,0.0,91.0,7.4,19.6,0.38,0.0,0.5,0.0,7.4,19.1,0.39,1.6,4.2,0.38,5.8,4.2,10.1,4.2,3.2,1.6,2.7,4.8,16.5,,89.0,108.0
-1992,22,2875,ORL,Orlando Magic,23.0,NBA,SG,1.0,0.0,15.0,3.3,9.8,0.33,0.0,0.0,,3.3,9.8,0.33,0.0,0.0,,0.0,3.3,3.3,3.3,0.0,0.0,6.5,6.5,6.5,,49.0,116.0
-1992,26,2875,SAC,Sacramento Kings,23.0,NBA,SG,18.0,0.0,76.0,8.2,21.6,0.38,0.0,0.6,0.0,8.2,20.9,0.39,1.9,5.1,0.38,7.0,4.4,11.4,4.4,3.8,1.9,1.9,4.4,18.4,,94.0,107.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1992,31,2875,TOT,Total After Trade,Stephen Thompson,"December 2, 1968",23.0,NBA,SG,19.0,0.0,91.0,7.4,19.6,0.38,0.0,0.5,0.0,7.4,19.1,0.39,1.6,4.2,0.38,5.8,4.2,10.1,4.2,3.2,1.6,2.7,4.8,16.5,,89.0,108.0
+1992,22,2875,ORL,Orlando Magic,Stephen Thompson,"December 2, 1968",23.0,NBA,SG,1.0,0.0,15.0,3.3,9.8,0.33,0.0,0.0,,3.3,9.8,0.33,0.0,0.0,,0.0,3.3,3.3,3.3,0.0,0.0,6.5,6.5,6.5,,49.0,116.0
+1992,26,2875,SAC,Sacramento Kings,Stephen Thompson,"December 2, 1968",23.0,NBA,SG,18.0,0.0,76.0,8.2,21.6,0.38,0.0,0.6,0.0,8.2,20.9,0.39,1.9,5.1,0.38,7.0,4.4,11.4,4.4,3.8,1.9,1.9,4.4,18.4,,94.0,107.0

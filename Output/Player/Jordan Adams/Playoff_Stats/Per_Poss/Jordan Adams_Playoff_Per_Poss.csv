@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2015,15,15,MEM,Memphis Grizzlies,20.0,NBA,SG,4,0,10,10.4,15.7,0.67,5.2,5.2,1.0,5.2,10.4,0.5,10.4,20.9,0.5,0.0,5.2,5.2,0.0,5.2,0.0,0.0,0.0,36.5,,142,100
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2015,15,15,MEM,Memphis Grizzlies,Jordan Adams,"July 8, 1994",20.0,NBA,SG,4,0,10,10.4,15.7,0.67,5.2,5.2,1.0,5.2,10.4,0.5,10.4,20.9,0.5,0.0,5.2,5.2,0.0,5.2,0.0,0.0,0.0,36.5,,142,100

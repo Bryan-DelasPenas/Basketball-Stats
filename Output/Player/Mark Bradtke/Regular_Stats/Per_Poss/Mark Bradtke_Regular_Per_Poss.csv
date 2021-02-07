@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1997,23,328,PHI,Philadelphia 76Ers,28.0,NBA,C,36,0,251,5.0,11.6,0.43,0.0,0.0,,5.0,11.6,0.43,1.8,2.6,0.69,5.2,8.4,13.6,1.4,1.0,1.0,1.8,6.8,11.8,,104,111
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1997,23,328,PHI,Philadelphia 76Ers,Mark Bradtke,"September 27, 1968",28.0,NBA,C,36,0,251,5.0,11.6,0.43,0.0,0.0,,5.0,11.6,0.43,1.8,2.6,0.69,5.2,8.4,13.6,1.4,1.0,1.0,1.8,6.8,11.8,,104,111

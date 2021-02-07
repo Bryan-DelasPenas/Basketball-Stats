@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2008,13,741,LAC,Los Angeles Clippers,22.0,NBA,SG,6,18,9.9,0.4,0.25,1.25,12.7,0.0,6.4,8.5,0.0,0.0,0.0,15.9,0.0,0.0,0.0,0.03,-0.2,-2.7,-2.9,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2008,13,741,LAC,Los Angeles Clippers,Guillermo Diaz,"March 4, 1985",22.0,NBA,SG,6,18,9.9,0.4,0.25,1.25,12.7,0.0,6.4,8.5,0.0,0.0,0.0,15.9,0.0,0.0,0.0,0.03,-0.2,-2.7,-2.9,0.0

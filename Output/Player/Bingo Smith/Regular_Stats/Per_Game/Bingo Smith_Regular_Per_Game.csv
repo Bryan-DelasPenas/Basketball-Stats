@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1980,31.0,2665,TOT,Total After Trade,33.0,NBA,"SF,SG",78.0,,27.2,4.9,11.4,0.43,0.3,1.0,0.28,4.6,10.4,0.45,0.44,1.3,1.5,0.87,1.2,2.1,3.3,1.3,0.8,0.2,1.0,2.7,11.4
-1980,6.0,2665,CLE,Cleveland Cavaliers,33.0,NBA,SG,8.0,,16.9,4.1,9.0,0.46,0.1,0.6,0.2,4.0,8.4,0.48,0.46,0.9,1.0,0.88,0.3,1.5,1.8,0.9,0.4,0.3,1.1,2.6,9.3
-1980,13.0,2665,SDC,San Diego Clippers,33.0,NBA,SF,70.0,,28.4,5.0,11.7,0.43,0.3,1.1,0.29,4.7,10.6,0.44,0.44,1.3,1.5,0.87,1.3,2.2,3.5,1.3,0.8,0.2,1.0,2.7,11.7
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,31.0,2665,TOT,Total After Trade,Bingo Smith,"February 26, 1946",33.0,NBA,"SF,SG",78.0,,27.2,4.9,11.4,0.43,0.3,1.0,0.28,4.6,10.4,0.45,0.44,1.3,1.5,0.87,1.2,2.1,3.3,1.3,0.8,0.2,1.0,2.7,11.4
+1980,6.0,2665,CLE,Cleveland Cavaliers,Bingo Smith,"February 26, 1946",33.0,NBA,SG,8.0,,16.9,4.1,9.0,0.46,0.1,0.6,0.2,4.0,8.4,0.48,0.46,0.9,1.0,0.88,0.3,1.5,1.8,0.9,0.4,0.3,1.1,2.6,9.3
+1980,13.0,2665,SDC,San Diego Clippers,Bingo Smith,"February 26, 1946",33.0,NBA,SF,70.0,,28.4,5.0,11.7,0.43,0.3,1.1,0.29,4.7,10.6,0.44,0.44,1.3,1.5,0.87,1.3,2.2,3.5,1.3,0.8,0.2,1.0,2.7,11.7

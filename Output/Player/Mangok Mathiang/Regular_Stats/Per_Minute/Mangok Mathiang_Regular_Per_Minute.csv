@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2018,4,1871,CHO,Charlotte Hornets,25.0,NBA,C,4,0,20,7.2,12.6,0.57,0.0,0.0,,7.2,12.6,0.57,0.0,1.8,0.0,5.4,12.6,18.0,0.0,1.8,0.0,0.0,9.0,14.4
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2018,4,1871,CHO,Charlotte Hornets,Mangok Mathiang,"October 8, 1992",25.0,NBA,C,4,0,20,7.2,12.6,0.57,0.0,0.0,,7.2,12.6,0.57,0.0,1.8,0.0,5.4,12.6,18.0,0.0,1.8,0.0,0.0,9.0,14.4

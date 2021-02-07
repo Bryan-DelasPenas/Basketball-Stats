@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1990,23,2618,PHI,Philadelphia 76Ers,26.0,NBA,PG,3,0,18,0.0,11.1,0.0,0.0,2.8,0.0,0.0,8.3,0.0,0.0,0.0,,0.0,0.0,0.0,5.5,2.8,2.8,5.5,5.5,0.0,,19,109
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1990,23,2618,PHI,Philadelphia 76Ers,Dexter Shouse,"March 24, 1963",26.0,NBA,PG,3,0,18,0.0,11.1,0.0,0.0,2.8,0.0,0.0,8.3,0.0,0.0,0.0,,0.0,0.0,0.0,5.5,2.8,2.8,5.5,5.5,0.0,,19,109

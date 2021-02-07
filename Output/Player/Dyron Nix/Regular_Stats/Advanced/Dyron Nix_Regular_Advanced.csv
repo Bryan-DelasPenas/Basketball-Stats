@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1990,12,2145,IND,Indiana Pacers,22.0,NBA,SF,20,109,8.2,0.42,0.0,0.41,9.0,18.4,14.0,6.4,1.4,0.5,13.2,21.1,-0.1,0.1,0.0,-0.02,-4.3,-1.5,-5.8,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1990,12,2145,IND,Indiana Pacers,Dyron Nix,"February 11, 1967",22.0,NBA,SF,20,109,8.2,0.42,0.0,0.41,9.0,18.4,14.0,6.4,1.4,0.5,13.2,21.1,-0.1,0.1,0.0,-0.02,-4.3,-1.5,-5.8,-0.1

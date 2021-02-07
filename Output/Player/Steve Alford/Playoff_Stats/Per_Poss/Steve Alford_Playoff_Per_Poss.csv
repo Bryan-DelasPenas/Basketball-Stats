@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1988,7,45,DAL,Dallas Mavericks,23.0,NBA,PG,4.0,0.0,12.0,12.8,34.0,0.38,0.0,8.5,0.0,12.8,25.5,0.5,0.0,0.0,,4.3,4.3,8.5,8.5,0.0,0.0,4.3,0.0,25.5,,90.0,121.0
-1989,10,45,GSW,Golden State Warriors,24.0,NBA,PG,6.0,0.0,52.0,8.1,19.8,0.41,3.6,8.1,0.44,4.5,11.7,0.38,2.7,3.6,0.75,1.8,1.8,3.6,4.5,1.8,0.0,0.9,6.3,22.5,,119.0,118.0
-1990,7,45,DAL,Dallas Mavericks,25.0,NBA,PG,3.0,0.0,42.0,9.4,21.2,0.44,2.4,7.1,0.33,7.1,14.1,0.5,5.9,5.9,1.0,1.2,2.4,3.5,9.4,1.2,0.0,3.5,4.7,27.0,,116.0,118.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1988,7,45,DAL,Dallas Mavericks,Steve Alford,"November 23, 1964",23.0,NBA,PG,4.0,0.0,12.0,12.8,34.0,0.38,0.0,8.5,0.0,12.8,25.5,0.5,0.0,0.0,,4.3,4.3,8.5,8.5,0.0,0.0,4.3,0.0,25.5,,90.0,121.0
+1989,10,45,GSW,Golden State Warriors,Steve Alford,"November 23, 1964",24.0,NBA,PG,6.0,0.0,52.0,8.1,19.8,0.41,3.6,8.1,0.44,4.5,11.7,0.38,2.7,3.6,0.75,1.8,1.8,3.6,4.5,1.8,0.0,0.9,6.3,22.5,,119.0,118.0
+1990,7,45,DAL,Dallas Mavericks,Steve Alford,"November 23, 1964",25.0,NBA,PG,3.0,0.0,42.0,9.4,21.2,0.44,2.4,7.1,0.33,7.1,14.1,0.5,5.9,5.9,1.0,1.2,2.4,3.5,9.4,1.2,0.0,3.5,4.7,27.0,,116.0,118.0

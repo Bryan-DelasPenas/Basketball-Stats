@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1991,18,558,MIN,Minnesota Timberwolves,25.0,NBA,SF,52,320,7.9,0.4,0.01,0.29,14.3,14.4,14.3,1.3,1.0,0.8,5.6,12.1,0.1,0.1,0.2,0.04,-3.9,-3.1,-7.0,-0.4
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1991,18,558,MIN,Minnesota Timberwolves,Richard Coffey,"September 2, 1965",25.0,NBA,SF,52,320,7.9,0.4,0.01,0.29,14.3,14.4,14.3,1.3,1.0,0.8,5.6,12.1,0.1,0.1,0.2,0.04,-3.9,-3.1,-7.0,-0.4

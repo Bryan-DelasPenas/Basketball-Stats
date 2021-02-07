@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2004,31,489,TOT,Total After Trade,27.0,NBA,SG,10.0,0.0,110.0,11.0,35.0,0.31,4.0,11.0,0.36,7.0,24.0,0.29,0.37,16.0,20.0,0.8,2.0,9.0,11.0,4.0,0.0,0.0,9.0,10.0,42.0
-2004,14,489,LAL,Los Angeles Lakers,27.0,NBA,SG,4.0,0.0,50.0,5.0,14.0,0.36,1.0,3.0,0.33,4.0,11.0,0.36,0.39,11.0,12.0,0.92,0.0,3.0,3.0,2.0,0.0,0.0,6.0,5.0,22.0
-2004,19,489,NOH,New Orleans Hornets,27.0,NBA,SG,6.0,0.0,60.0,6.0,21.0,0.29,3.0,8.0,0.38,3.0,13.0,0.23,0.36,5.0,8.0,0.62,2.0,6.0,8.0,2.0,0.0,0.0,3.0,5.0,20.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2004,31,489,TOT,Total After Trade,Maurice Carter,"October 12, 1976",27.0,NBA,SG,10.0,0.0,110.0,11.0,35.0,0.31,4.0,11.0,0.36,7.0,24.0,0.29,0.37,16.0,20.0,0.8,2.0,9.0,11.0,4.0,0.0,0.0,9.0,10.0,42.0
+2004,14,489,LAL,Los Angeles Lakers,Maurice Carter,"October 12, 1976",27.0,NBA,SG,4.0,0.0,50.0,5.0,14.0,0.36,1.0,3.0,0.33,4.0,11.0,0.36,0.39,11.0,12.0,0.92,0.0,3.0,3.0,2.0,0.0,0.0,6.0,5.0,22.0
+2004,19,489,NOH,New Orleans Hornets,Maurice Carter,"October 12, 1976",27.0,NBA,SG,6.0,0.0,60.0,6.0,21.0,0.29,3.0,8.0,0.38,3.0,13.0,0.23,0.36,5.0,8.0,0.62,2.0,6.0,8.0,2.0,0.0,0.0,3.0,5.0,20.0

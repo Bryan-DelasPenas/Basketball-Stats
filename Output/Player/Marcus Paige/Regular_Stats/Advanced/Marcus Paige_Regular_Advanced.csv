@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2018,4,2235,CHO,Charlotte Hornets,24.0,NBA,PG,5,28,9.1,0.4,0.57,0.14,0.0,15.7,7.7,16.1,0.0,0.0,0.0,23.0,0.0,0.0,0.0,-0.01,-5.6,-3.2,-8.8,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2018,4,2235,CHO,Charlotte Hornets,Marcus Paige,"September 11, 1993",24.0,NBA,PG,5,28,9.1,0.4,0.57,0.14,0.0,15.7,7.7,16.1,0.0,0.0,0.0,23.0,0.0,0.0,0.0,-0.01,-5.6,-3.2,-8.8,0.0

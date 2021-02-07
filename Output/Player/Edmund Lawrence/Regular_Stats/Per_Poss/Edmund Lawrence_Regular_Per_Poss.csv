@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1981,9,1706,DET,Detroit Pistons,28.0,NBA,C,3,,19,12.5,20.0,0.62,0.0,0.0,,12.5,20.0,0.62,5.0,10.0,0.5,5.0,5.0,10.0,2.5,2.5,0.0,2.5,15.0,30.0,,119,104
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1981,9,1706,DET,Detroit Pistons,Edmund Lawrence,"December 8, 1952",28.0,NBA,C,3,,19,12.5,20.0,0.62,0.0,0.0,,12.5,20.0,0.62,5.0,10.0,0.5,5.0,5.0,10.0,2.5,2.5,0.0,2.5,15.0,30.0,,119,104

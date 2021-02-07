@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1987,13,1512,LAC,Los Angeles Clippers,24.0,NBA,PF,29,0,234,4.2,9.8,0.42,0.0,0.5,0.0,4.2,9.4,0.44,3.1,5.8,0.53,2.3,4.3,6.6,0.8,1.4,0.3,2.8,8.5,11.4
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1987,13,1512,LAC,Los Angeles Clippers,Steffond Johnson,"November 4, 1962",24.0,NBA,PF,29,0,234,4.2,9.8,0.42,0.0,0.5,0.0,4.2,9.4,0.44,3.1,5.8,0.53,2.3,4.3,6.6,0.8,1.4,0.3,2.8,8.5,11.4

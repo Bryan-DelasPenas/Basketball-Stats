@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2020,2,1695,BOS,Boston Celtics,20.0,NBA,SG,7,0,46,4.3,10.8,0.4,1.1,2.2,0.5,3.2,8.7,0.38,1.1,2.2,0.5,0.0,3.2,3.2,2.2,1.1,0.0,2.2,4.3,10.8,,84,111
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2020,2,1695,BOS,Boston Celtics,Romeo Langford,"October 25, 1999",20.0,NBA,SG,7,0,46,4.3,10.8,0.4,1.1,2.2,0.5,3.2,8.7,0.38,1.1,2.2,0.5,0.0,3.2,3.2,2.2,1.1,0.0,2.2,4.3,10.8,,84,111

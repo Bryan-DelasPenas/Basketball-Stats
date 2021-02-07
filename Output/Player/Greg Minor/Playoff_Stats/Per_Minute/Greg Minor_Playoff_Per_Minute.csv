@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1995,2,2007,BOS,Boston Celtics,23.0,NBA,SG,4,0,37,4.9,12.6,0.38,0.0,0.0,,4.9,12.6,0.38,1.0,1.0,1.0,1.0,0.0,1.0,1.9,1.0,1.0,1.0,2.9,10.7
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1995,2,2007,BOS,Boston Celtics,Greg Minor,"September 18, 1971",23.0,NBA,SG,4,0,37,4.9,12.6,0.38,0.0,0.0,,4.9,12.6,0.38,1.0,1.0,1.0,1.0,0.0,1.0,1.9,1.0,1.0,1.0,2.9,10.7

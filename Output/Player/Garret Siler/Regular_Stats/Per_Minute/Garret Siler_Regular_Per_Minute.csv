@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2011,24,2629,PHO,Phoenix Suns,24.0,NBA,C,21,0,101,6.1,11.0,0.55,0.0,0.0,,6.1,11.0,0.55,3.9,7.8,0.5,5.7,4.3,10.0,1.1,0.4,1.4,3.6,7.1,16.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2011,24,2629,PHO,Phoenix Suns,Garret Siler,"October 25, 1986",24.0,NBA,C,21,0,101,6.1,11.0,0.55,0.0,0.0,,6.1,11.0,0.55,3.9,7.8,0.5,5.7,4.3,10.0,1.1,0.4,1.4,3.6,7.1,16.0

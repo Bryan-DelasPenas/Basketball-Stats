@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1980,14,1310,LAL,Los Angeles Lakers,23.0,NBA,SG,9.0,,32.0,5.6,11.3,0.5,0.0,0.0,,5.6,11.3,0.5,4.5,4.5,1.0,2.3,3.4,5.6,3.4,5.6,0.0,3.4,9.0,15.8
-1981,14,1310,LAL,Los Angeles Lakers,24.0,NBA,SG,1.0,,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,36.0,0.0,0.0
-1982,17,1310,MIL,Milwaukee Bucks,25.0,NBA,SG,1.0,,3.0,12.0,12.0,1.0,0.0,0.0,,12.0,12.0,1.0,0.0,0.0,,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,24.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,14,1310,LAL,Los Angeles Lakers,Brad Holland,"December 6, 1956",23.0,NBA,SG,9.0,,32.0,5.6,11.3,0.5,0.0,0.0,,5.6,11.3,0.5,4.5,4.5,1.0,2.3,3.4,5.6,3.4,5.6,0.0,3.4,9.0,15.8
+1981,14,1310,LAL,Los Angeles Lakers,Brad Holland,"December 6, 1956",24.0,NBA,SG,1.0,,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,36.0,0.0,0.0
+1982,17,1310,MIL,Milwaukee Bucks,Brad Holland,"December 6, 1956",25.0,NBA,SG,1.0,,3.0,12.0,12.0,1.0,0.0,0.0,,12.0,12.0,1.0,0.0,0.0,,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,24.0

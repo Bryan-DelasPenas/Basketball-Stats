@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2015,26,238,SAC,Sacramento Kings,22.0,NBA,C,3,0,3,16.8,33.6,0.5,0.0,0.0,,16.8,33.6,0.5,0.0,0.0,,0.0,16.8,16.8,16.8,0.0,16.8,0.0,0.0,33.6,,124,88
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2015,26,238,SAC,Sacramento Kings,Sim Bhullar,"December 2, 1992",22.0,NBA,C,3,0,3,16.8,33.6,0.5,0.0,0.0,,16.8,33.6,0.5,0.0,0.0,,0.0,16.8,16.8,16.8,0.0,16.8,0.0,0.0,33.6,,124,88

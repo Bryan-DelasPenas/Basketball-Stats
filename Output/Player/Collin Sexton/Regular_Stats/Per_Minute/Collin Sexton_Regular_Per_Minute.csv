@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2019,6,2601,CLE,Cleveland Cavaliers,20.0,NBA,PG,82,72,2605,7.2,16.7,0.43,1.6,4.1,0.4,5.5,12.6,0.44,3.0,3.5,0.84,0.8,2.5,3.3,3.4,0.6,0.1,2.6,2.6,18.9
-2020,6,2601,CLE,Cleveland Cavaliers,21.0,NBA,PG,65,65,2143,8.6,18.2,0.47,1.6,4.3,0.38,7.0,14.0,0.5,3.8,4.5,0.85,1.0,2.4,3.4,3.2,1.1,0.1,2.7,2.4,22.7
-2021,6,2601,CLE,Cleveland Cavaliers,22.0,NBA,SG,17,17,594,9.3,18.5,0.5,1.7,3.8,0.44,7.6,14.7,0.51,4.8,5.8,0.83,0.6,1.9,2.5,4.2,1.0,0.2,2.7,2.8,25.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,6,2601,CLE,Cleveland Cavaliers,Collin Sexton,"January 4, 1999",20.0,NBA,PG,82,72,2605,7.2,16.7,0.43,1.6,4.1,0.4,5.5,12.6,0.44,3.0,3.5,0.84,0.8,2.5,3.3,3.4,0.6,0.1,2.6,2.6,18.9
+2020,6,2601,CLE,Cleveland Cavaliers,Collin Sexton,"January 4, 1999",21.0,NBA,PG,65,65,2143,8.6,18.2,0.47,1.6,4.3,0.38,7.0,14.0,0.5,3.8,4.5,0.85,1.0,2.4,3.4,3.2,1.1,0.1,2.7,2.4,22.7
+2021,6,2601,CLE,Cleveland Cavaliers,Collin Sexton,"January 4, 1999",22.0,NBA,SG,18,18,631,9.1,18.4,0.5,1.7,3.8,0.44,7.5,14.7,0.51,4.7,5.7,0.83,0.6,1.9,2.5,4.2,1.0,0.2,2.6,2.9,24.6

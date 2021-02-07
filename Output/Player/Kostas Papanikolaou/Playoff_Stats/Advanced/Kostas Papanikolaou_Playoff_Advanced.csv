@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2015,11,2240,HOU,Houston Rockets,24.0,NBA,SF,8.0,21.0,-14.0,0.31,0.75,0.5,0.0,9.8,4.9,0.0,0.0,0.0,50.6,19.6,-0.2,0.0,-0.2,-0.4,-17.2,-5.5,-22.7,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2015,11,2240,HOU,Houston Rockets,Kostas Papanikolaou,"July 31, 1990",24.0,NBA,SF,8.0,21.0,-14.0,0.31,0.75,0.5,0.0,9.8,4.9,0.0,0.0,0.0,50.6,19.6,-0.2,0.0,-0.2,-0.4,-17.2,-5.5,-22.7,-0.1

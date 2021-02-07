@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2013,2,627,BOS,Boston Celtics,24.0,NBA,SG,5.0,0.0,59.0,7.0,23.0,0.3,3.0,12.0,0.25,4.0,11.0,0.36,0.37,1.0,2.0,0.5,0.0,3.0,3.0,0.0,2.0,0.0,3.0,3.0,18.0
-2014,10,627,GSW,Golden State Warriors,25.0,NBA,SG,6.0,0.0,57.0,12.0,33.0,0.36,2.0,7.0,0.29,10.0,26.0,0.38,0.39,11.0,14.0,0.79,4.0,5.0,9.0,2.0,1.0,0.0,5.0,7.0,37.0
-2018,19,627,NOP,New Orleans Pelicans,29.0,NBA,SG,2.0,0.0,15.0,8.0,13.0,0.62,3.0,8.0,0.38,5.0,5.0,1.0,0.73,0.0,0.0,,0.0,4.0,4.0,1.0,1.0,0.0,3.0,1.0,19.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2013,2,627,BOS,Boston Celtics,Jordan Crawford,"October 23, 1988",24.0,NBA,SG,5.0,0.0,59.0,7.0,23.0,0.3,3.0,12.0,0.25,4.0,11.0,0.36,0.37,1.0,2.0,0.5,0.0,3.0,3.0,0.0,2.0,0.0,3.0,3.0,18.0
+2014,10,627,GSW,Golden State Warriors,Jordan Crawford,"October 23, 1988",25.0,NBA,SG,6.0,0.0,57.0,12.0,33.0,0.36,2.0,7.0,0.29,10.0,26.0,0.38,0.39,11.0,14.0,0.79,4.0,5.0,9.0,2.0,1.0,0.0,5.0,7.0,37.0
+2018,19,627,NOP,New Orleans Pelicans,Jordan Crawford,"October 23, 1988",29.0,NBA,SG,2.0,0.0,15.0,8.0,13.0,0.62,3.0,8.0,0.38,5.0,5.0,1.0,0.73,0.0,0.0,,0.0,4.0,4.0,1.0,1.0,0.0,3.0,1.0,19.0

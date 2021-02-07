@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1998,26,1130,SAC,Sacramento Kings,23.0,NBA,SF,9,34,7.9,0.47,0.86,0.14,0.0,13.4,6.5,0.0,4.6,2.0,16.8,23.4,-0.1,0.1,0.0,-0.01,-3.9,1.7,-2.2,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1998,26,1130,SAC,Sacramento Kings,Derek Grimm,"August 3, 1974",23.0,NBA,SF,9,34,7.9,0.47,0.86,0.14,0.0,13.4,6.5,0.0,4.6,2.0,16.8,23.4,-0.1,0.1,0.0,-0.01,-3.9,1.7,-2.2,0.0

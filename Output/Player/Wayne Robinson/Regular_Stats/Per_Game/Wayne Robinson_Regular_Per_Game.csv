@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1981,9,2489,DET,Detroit Pistons,22.0,NBA,PF,81,,19.7,2.9,6.3,0.46,0.0,0.1,0.0,2.9,6.2,0.46,0.46,2.2,3.0,0.73,1.4,2.2,3.6,1.4,0.6,0.3,1.8,2.3,7.9
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,9,2489,DET,Detroit Pistons,Wayne Robinson,"April 19, 1958",22.0,NBA,PF,81,,19.7,2.9,6.3,0.46,0.0,0.1,0.0,2.9,6.2,0.46,0.46,2.2,3.0,0.73,1.4,2.2,3.6,1.4,0.6,0.3,1.8,2.3,7.9

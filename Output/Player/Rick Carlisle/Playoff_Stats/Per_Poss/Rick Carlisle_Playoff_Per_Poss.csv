@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1986,2,472,BOS,Boston Celtics,26.0,NBA,SG,10.0,0.0,54.0,7.2,13.6,0.53,0.0,0.0,,7.2,13.6,0.53,2.7,3.6,0.75,2.7,1.8,4.5,7.2,1.8,0.0,2.7,8.1,17.2,,116.0,109.0
-1988,20,472,NYK,New York Knicks,28.0,NBA,SG,2.0,0.0,8.0,6.4,25.4,0.25,0.0,12.7,0.0,6.4,12.7,0.5,0.0,0.0,,6.4,6.4,12.7,0.0,6.4,0.0,0.0,6.4,12.7,,73.0,108.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1986,2,472,BOS,Boston Celtics,Rick Carlisle,"October 27, 1959",26.0,NBA,SG,10.0,0.0,54.0,7.2,13.6,0.53,0.0,0.0,,7.2,13.6,0.53,2.7,3.6,0.75,2.7,1.8,4.5,7.2,1.8,0.0,2.7,8.1,17.2,,116.0,109.0
+1988,20,472,NYK,New York Knicks,Rick Carlisle,"October 27, 1959",28.0,NBA,SG,2.0,0.0,8.0,6.4,25.4,0.25,0.0,12.7,0.0,6.4,12.7,0.5,0.0,0.0,,6.4,6.4,12.7,0.0,6.4,0.0,0.0,6.4,12.7,,73.0,108.0

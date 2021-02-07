@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2014,3,1139,BRK,Brooklyn Nets,25.0,NBA,PG,2.0,0.0,3.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,24.0,48.0,0.5,12.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,24.0
-2015,17,1139,MIL,Milwaukee Bucks,26.0,NBA,PG,1.0,0.0,12.0,3.0,6.0,0.5,0.0,0.0,,3.0,6.0,0.5,0.0,0.0,,0.0,3.0,3.0,3.0,0.0,0.0,0.0,3.0,6.0
-2016,4,1139,CHO,Charlotte Hornets,27.0,NBA,PG,3.0,0.0,12.0,0.0,9.0,0.0,0.0,0.0,,0.0,9.0,0.0,0.0,0.0,,0.0,6.0,6.0,6.0,0.0,0.0,3.0,0.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2014,3,1139,BRK,Brooklyn Nets,Jorge Gutierrez,"December 27, 1988",25.0,NBA,PG,2.0,0.0,3.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,24.0,48.0,0.5,12.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,24.0
+2015,17,1139,MIL,Milwaukee Bucks,Jorge Gutierrez,"December 27, 1988",26.0,NBA,PG,1.0,0.0,12.0,3.0,6.0,0.5,0.0,0.0,,3.0,6.0,0.5,0.0,0.0,,0.0,3.0,3.0,3.0,0.0,0.0,0.0,3.0,6.0
+2016,4,1139,CHO,Charlotte Hornets,Jorge Gutierrez,"December 27, 1988",27.0,NBA,PG,3.0,0.0,12.0,0.0,9.0,0.0,0.0,0.0,,0.0,9.0,0.0,0.0,0.0,,0.0,6.0,6.0,6.0,0.0,0.0,3.0,0.0,0.0

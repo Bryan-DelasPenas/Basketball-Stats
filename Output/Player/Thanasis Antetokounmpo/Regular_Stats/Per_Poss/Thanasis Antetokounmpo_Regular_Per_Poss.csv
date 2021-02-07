@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2016,20,92,NYK,New York Knicks,23.0,NBA,SF,2.0,0.0,6.0,25.7,34.3,0.75,0.0,8.6,0.0,25.7,25.7,1.0,0.0,0.0,,0.0,8.6,8.6,0.0,0.0,0.0,0.0,17.1,51.4,,140.0,110.0
-2020,17,92,MIL,Milwaukee Bucks,27.0,NBA,SF,20.0,2.0,129.0,8.5,17.0,0.5,0.0,3.5,0.0,8.5,13.5,0.63,2.5,6.0,0.41,4.2,4.2,8.5,5.3,2.5,0.7,4.2,6.4,19.5,,98.0,103.0
-2021,17,92,MIL,Milwaukee Bucks,28.0,NBA,SF,15.0,0.0,144.0,5.6,8.5,0.65,0.7,2.3,0.29,4.9,6.2,0.79,0.7,1.0,0.67,4.2,5.9,10.1,4.9,1.6,1.0,4.9,7.8,12.4,,110.0,111.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2016,20,92,NYK,New York Knicks,Thanasis Antetokounmpo,"July 18, 1992",23.0,NBA,SF,2.0,0.0,6.0,25.7,34.3,0.75,0.0,8.6,0.0,25.7,25.7,1.0,0.0,0.0,,0.0,8.6,8.6,0.0,0.0,0.0,0.0,17.1,51.4,,140.0,110.0
+2020,17,92,MIL,Milwaukee Bucks,Thanasis Antetokounmpo,"July 18, 1992",27.0,NBA,SF,20.0,2.0,129.0,8.5,17.0,0.5,0.0,3.5,0.0,8.5,13.5,0.63,2.5,6.0,0.41,4.2,4.2,8.5,5.3,2.5,0.7,4.2,6.4,19.5,,98.0,103.0
+2021,17,92,MIL,Milwaukee Bucks,Thanasis Antetokounmpo,"July 18, 1992",28.0,NBA,SF,15.0,0.0,144.0,5.6,8.5,0.65,0.7,2.3,0.29,4.9,6.2,0.79,0.7,1.0,0.67,4.2,5.9,10.1,4.9,1.6,1.0,4.9,7.8,12.4,,110.0,111.0

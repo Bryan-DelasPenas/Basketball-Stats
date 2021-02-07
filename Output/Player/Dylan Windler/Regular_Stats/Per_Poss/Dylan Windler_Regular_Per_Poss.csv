@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2021,6,3203,CLE,Cleveland Cavaliers,24.0,NBA,SF,9,0,149,5.0,10.0,0.5,2.7,7.0,0.38,2.3,3.0,0.78,2.0,2.3,0.86,0.7,7.0,7.6,2.3,2.7,1.3,2.7,3.3,14.6,,111,108
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2021,6,3203,CLE,Cleveland Cavaliers,Dylan Windler,"September 22, 1996",24.0,NBA,SF,10,0,165,5.1,10.8,0.47,2.4,7.2,0.33,2.7,3.6,0.75,1.8,2.1,0.86,0.6,7.8,8.4,2.4,2.4,1.8,3.0,3.0,14.4,,103,108

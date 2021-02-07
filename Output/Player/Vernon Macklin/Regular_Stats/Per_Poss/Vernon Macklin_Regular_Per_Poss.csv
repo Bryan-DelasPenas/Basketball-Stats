@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2012,9,1803,DET,Detroit Pistons,25.0,NBA,C,23,0,135,7.6,13.9,0.54,0.0,0.0,,7.6,13.9,0.54,3.2,5.6,0.57,5.6,8.0,13.5,2.0,1.6,1.6,1.2,3.6,18.3,,121,105
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2012,9,1803,DET,Detroit Pistons,Vernon Macklin,"September 20, 1986",25.0,NBA,C,23,0,135,7.6,13.9,0.54,0.0,0.0,,7.6,13.9,0.54,3.2,5.6,0.57,5.6,8.0,13.5,2.0,1.6,1.6,1.2,3.6,18.3,,121,105

@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1999,5,218,CHI,Chicago Bulls,20.0,NBA,PG,31.0,1.0,320.0,5.0,13.2,0.38,0.3,1.6,0.21,4.6,11.6,0.4,3.0,4.5,0.68,1.7,2.8,4.5,1.1,1.2,0.9,2.4,5.2,13.3
-2001,5,218,CHI,Chicago Bulls,22.0,NBA,PG,65.0,5.0,857.0,4.8,12.7,0.38,0.9,3.4,0.26,3.9,9.3,0.42,2.4,3.5,0.68,1.6,2.6,4.2,2.9,1.2,0.7,2.6,5.4,12.9
-2003,1,218,ATL,Atlanta Hawks,24.0,NBA,SG,9.0,0.0,152.0,3.1,10.2,0.3,0.5,3.1,0.15,2.6,7.1,0.37,2.8,3.8,0.75,2.4,5.0,7.3,2.4,0.2,0.5,1.4,4.7,9.5
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1999,5,218,CHI,Chicago Bulls,Corey Benjamin,"February 24, 1978",20.0,NBA,PG,31.0,1.0,320.0,5.0,13.2,0.38,0.3,1.6,0.21,4.6,11.6,0.4,3.0,4.5,0.68,1.7,2.8,4.5,1.1,1.2,0.9,2.4,5.2,13.3
+2001,5,218,CHI,Chicago Bulls,Corey Benjamin,"February 24, 1978",22.0,NBA,PG,65.0,5.0,857.0,4.8,12.7,0.38,0.9,3.4,0.26,3.9,9.3,0.42,2.4,3.5,0.68,1.6,2.6,4.2,2.9,1.2,0.7,2.6,5.4,12.9
+2003,1,218,ATL,Atlanta Hawks,Corey Benjamin,"February 24, 1978",24.0,NBA,SG,9.0,0.0,152.0,3.1,10.2,0.3,0.5,3.1,0.15,2.6,7.1,0.37,2.8,3.8,0.75,2.4,5.0,7.3,2.4,0.2,0.5,1.4,4.7,9.5

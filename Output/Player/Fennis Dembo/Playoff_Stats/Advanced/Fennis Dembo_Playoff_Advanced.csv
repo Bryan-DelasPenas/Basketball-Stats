@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1989,9,728,DET,Detroit Pistons,23.0,NBA,SF,2,4,2.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0,22.8,0.0,0.0,0.0,-0.15,-9.7,0.9,-8.8,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1989,9,728,DET,Detroit Pistons,Fennis Dembo,"January 24, 1966",23.0,NBA,SF,2,4,2.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0,22.8,0.0,0.0,0.0,-0.15,-9.7,0.9,-8.8,0.0

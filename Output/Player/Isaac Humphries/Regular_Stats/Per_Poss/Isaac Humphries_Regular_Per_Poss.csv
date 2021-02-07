@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2019,1,1359,ATL,Atlanta Hawks,21.0,NBA,C,5,1,56,5.0,17.3,0.29,2.5,9.1,0.27,2.5,8.3,0.3,0.0,0.0,,3.3,5.8,9.1,0.0,0.8,0.0,0.0,5.8,12.4,,87,117
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2019,1,1359,ATL,Atlanta Hawks,Isaac Humphries,"January 5, 1998",21.0,NBA,C,5,1,56,5.0,17.3,0.29,2.5,9.1,0.27,2.5,8.3,0.3,0.0,0.0,,3.3,5.8,9.1,0.0,0.8,0.0,0.0,5.8,12.4,,87,117

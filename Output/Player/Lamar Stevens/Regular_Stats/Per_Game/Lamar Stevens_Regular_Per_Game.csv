@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2021,6,2749,CLE,Cleveland Cavaliers,23.0,NBA,PF,12,0,13.7,1.7,3.9,0.43,0.1,0.7,0.12,1.6,3.3,0.49,0.44,0.8,1.2,0.71,0.4,2.0,2.4,0.7,0.4,0.3,0.3,0.7,4.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,6,2749,CLE,Cleveland Cavaliers,Lamar Stevens,"July 9, 1997",23.0,NBA,PF,13,0,14.0,1.7,3.8,0.44,0.1,0.6,0.12,1.6,3.2,0.5,0.45,0.8,1.1,0.71,0.4,2.1,2.5,0.8,0.4,0.3,0.4,0.8,4.2

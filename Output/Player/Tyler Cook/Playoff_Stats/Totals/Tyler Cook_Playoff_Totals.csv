@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2020,8,597,DEN,Denver Nuggets,22.0,NBA,SF,1.0,0.0,4.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,8,597,DEN,Denver Nuggets,Tyler Cook,"September 23, 1997",22.0,NBA,SF,1.0,0.0,4.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0

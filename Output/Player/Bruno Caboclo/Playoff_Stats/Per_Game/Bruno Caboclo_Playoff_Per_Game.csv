@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2020,11,448,HOU,Houston Rockets,24.0,NBA,C,2.0,0.0,3.5,0.5,1.0,0.5,0.0,0.5,0.0,0.5,0.5,1.0,0.5,0.0,0.0,,0.0,1.5,1.5,0.0,0.5,0.0,0.0,1.0,1.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,11,448,HOU,Houston Rockets,Bruno Caboclo,"September 21, 1995",24.0,NBA,C,2.0,0.0,3.5,0.5,1.0,0.5,0.0,0.5,0.0,0.5,0.5,1.0,0.5,0.0,0.0,,0.0,1.5,1.5,0.0,0.5,0.0,0.0,1.0,1.0

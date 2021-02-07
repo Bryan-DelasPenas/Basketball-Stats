@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1994,25,2092,POR,Portland Trail Blazers,22.0,NBA,SF,2.0,11.0,25.8,0.5,0.17,0.0,28.6,0.0,15.4,15.6,4.6,0.0,0.0,23.0,0.1,0.0,0.1,0.22,6.2,1.5,7.7,0.0
-1997,30,2092,WSB,Washington Bullets,25.0,NBA,SF,3.0,87.0,28.6,0.73,0.33,0.57,4.7,8.3,6.6,4.5,2.5,1.7,0.0,20.1,0.6,0.0,0.6,0.34,9.0,3.7,12.8,0.3
-2001,28,2092,TOR,Toronto Raptors,29.0,NBA,SF,2.0,5.0,-13.0,0.33,0.67,0.0,0.0,0.0,0.0,0.0,11.0,0.0,40.0,46.9,-0.1,0.0,-0.1,-0.67,-24.4,-0.7,-25.2,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1994,25,2092,POR,Portland Trail Blazers,Tracy Murray,"July 25, 1971",22.0,NBA,SF,2.0,11.0,25.8,0.5,0.17,0.0,28.6,0.0,15.4,15.6,4.6,0.0,0.0,23.0,0.1,0.0,0.1,0.22,6.2,1.5,7.7,0.0
+1997,30,2092,WSB,Washington Bullets,Tracy Murray,"July 25, 1971",25.0,NBA,SF,3.0,87.0,28.6,0.73,0.33,0.57,4.7,8.3,6.6,4.5,2.5,1.7,0.0,20.1,0.6,0.0,0.6,0.34,9.0,3.7,12.8,0.3
+2001,28,2092,TOR,Toronto Raptors,Tracy Murray,"July 25, 1971",29.0,NBA,SF,2.0,5.0,-13.0,0.33,0.67,0.0,0.0,0.0,0.0,0.0,11.0,0.0,40.0,46.9,-0.1,0.0,-0.1,-0.67,-24.4,-0.7,-25.2,0.0

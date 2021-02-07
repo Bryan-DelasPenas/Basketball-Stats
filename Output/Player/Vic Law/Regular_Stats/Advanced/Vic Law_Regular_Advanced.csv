@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2020,22,1704,ORL,Orlando Magic,24.0,NBA,PF,8,62,3.7,0.36,0.39,0.33,3.4,16.2,9.6,6.7,1.6,0.0,8.8,15.8,-0.1,0.1,-0.1,-0.05,-7.1,-2.5,-9.6,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,22,1704,ORL,Orlando Magic,Vic Law,"December 19, 1995",24.0,NBA,PF,8,62,3.7,0.36,0.39,0.33,3.4,16.2,9.6,6.7,1.6,0.0,8.8,15.8,-0.1,0.1,-0.1,-0.05,-7.1,-2.5,-9.6,-0.1

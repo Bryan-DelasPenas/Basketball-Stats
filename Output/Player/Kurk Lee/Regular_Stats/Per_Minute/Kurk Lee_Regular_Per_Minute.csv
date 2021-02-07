@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1991,3,1723,NJN,New Jersey Nets,23.0,NBA,PG,48,0,265,2.6,9.6,0.27,0.4,2.0,0.2,2.2,7.6,0.29,3.4,3.8,0.89,1.0,3.1,4.1,4.6,1.5,0.3,2.7,5.3,9.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1991,3,1723,NJN,New Jersey Nets,Kurk Lee,"June 3, 1967",23.0,NBA,PG,48,0,265,2.6,9.6,0.27,0.4,2.0,0.2,2.2,7.6,0.29,3.4,3.8,0.89,1.0,3.1,4.1,4.6,1.5,0.3,2.7,5.3,9.0

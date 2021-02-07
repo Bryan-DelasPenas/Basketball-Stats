@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1991,10,2890,GSW,Golden State Warriors,25.0,NBA,PF,9.0,116.0,4.6,0.42,0.09,0.33,0.0,18.4,9.1,8.8,1.2,2.2,9.6,15.5,-0.2,0.1,-0.1,-0.04,-5.6,0.5,-5.1,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1991,10,2890,GSW,Golden State Warriors,Tom Tolbert,"October 16, 1965",25.0,NBA,PF,9.0,116.0,4.6,0.42,0.09,0.33,0.0,18.4,9.1,8.8,1.2,2.2,9.6,15.5,-0.2,0.1,-0.1,-0.04,-5.6,0.5,-5.1,-0.1

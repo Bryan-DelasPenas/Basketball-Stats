@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2020,23,2003,PHI,Philadelphia 76Ers,23.0,NBA,SG,4,4,31.5,5.3,11.0,0.48,2.5,6.3,0.4,2.8,4.8,0.58,0.59,1.5,1.8,0.86,0.3,3.0,3.3,2.8,0.5,0.0,1.5,3.3,14.5
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,23,2003,PHI,Philadelphia 76Ers,Shake Milton,"September 26, 1996",23.0,NBA,SG,4,4,31.5,5.3,11.0,0.48,2.5,6.3,0.4,2.8,4.8,0.58,0.59,1.5,1.8,0.86,0.3,3.0,3.3,2.8,0.5,0.0,1.5,3.3,14.5

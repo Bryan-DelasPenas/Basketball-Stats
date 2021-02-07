@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1988,9,2535,DET,Detroit Pistons,27.0,NBA,PG,7.0,0.0,10.0,10.5,26.4,0.4,0.0,0.0,,10.5,26.4,0.4,10.5,10.5,1.0,0.0,0.0,0.0,5.3,5.3,0.0,5.3,5.3,31.6,,100.0,101.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1988,9,2535,DET,Detroit Pistons,Walker Russell,"October 26, 1960",27.0,NBA,PG,7.0,0.0,10.0,10.5,26.4,0.4,0.0,0.0,,10.5,26.4,0.4,10.5,10.5,1.0,0.0,0.0,0.0,5.3,5.3,0.0,5.3,5.3,31.6,,100.0,101.0

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2003,16,1498,MIA,Miami Heat,24.0,NBA,C,16,0,156,5.3,13.0,0.4,0.0,0.0,,5.3,13.0,0.4,0.7,2.1,0.33,1.4,9.8,11.2,0.0,0.4,4.2,2.1,7.0,11.2,,76,100
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2003,16,1498,MIA,Miami Heat,Kenyatta Johnson,"February 1, 1978",24.0,NBA,C,16,0,156,5.3,13.0,0.4,0.0,0.0,,5.3,13.0,0.4,0.7,2.1,0.33,1.4,9.8,11.2,0.0,0.4,4.2,2.1,7.0,11.2,,76,100

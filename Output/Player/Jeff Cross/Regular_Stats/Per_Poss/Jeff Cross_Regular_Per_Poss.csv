@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1986,13,637,LAC,Los Angeles Clippers,24.0,NBA,PF,21,0,128,2.2,8.8,0.25,0.0,0.0,,2.2,8.8,0.25,5.1,9.1,0.56,3.3,7.7,11.0,0.4,0.7,1.1,2.2,13.9,9.5,,82,112
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1986,13,637,LAC,Los Angeles Clippers,Jeff Cross,"September 1, 1961",24.0,NBA,PF,21,0,128,2.2,8.8,0.25,0.0,0.0,,2.2,8.8,0.25,5.1,9.1,0.56,3.3,7.7,11.0,0.4,0.7,1.1,2.2,13.9,9.5,,82,112

@@ -662,11 +662,7 @@ def insert_all_player_stats():
 
         df[x].append(PLAYER_ID[df[x][0]])
 
-    final_df = pd.DataFrame(df, columns=['Player_Name', 'Birth_Date', 'Player_ID'])
-    final_df = final_df[ ['Player_Name'] + [ col for col in final_df.columns if col != 'Player_Name' ] ]
-    final_df = final_df[ ['Birth_Date'] + [ col for col in final_df.columns if col != 'Birth_Date' ] ]
-    final_df = final_df[ ['Player_ID'] + [ col for col in final_df.columns if col != 'Player_ID' ] ]
-    print(final_df)
+    
 
 '''
 Main function 

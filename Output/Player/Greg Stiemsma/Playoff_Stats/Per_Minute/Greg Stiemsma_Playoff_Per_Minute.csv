@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2012,2,2755,BOS,Boston Celtics,26.0,NBA,C,19.0,0.0,143.0,3.0,4.5,0.67,0.0,0.0,,3.0,4.5,0.67,1.0,1.5,0.67,2.3,8.1,10.3,1.3,1.0,2.8,1.0,6.5,7.0
-2015,28,2755,TOR,Toronto Raptors,29.0,NBA,C,1.0,0.0,2.0,36.0,36.0,1.0,0.0,0.0,,36.0,36.0,1.0,18.0,36.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,90.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2012,2,2755,BOS,Boston Celtics,Greg Stiemsma,"September 26, 1985",26.0,NBA,C,19.0,0.0,143.0,3.0,4.5,0.67,0.0,0.0,,3.0,4.5,0.67,1.0,1.5,0.67,2.3,8.1,10.3,1.3,1.0,2.8,1.0,6.5,7.0
+2015,28,2755,TOR,Toronto Raptors,Greg Stiemsma,"September 26, 1985",29.0,NBA,C,1.0,0.0,2.0,36.0,36.0,1.0,0.0,0.0,,36.0,36.0,1.0,18.0,36.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,90.0

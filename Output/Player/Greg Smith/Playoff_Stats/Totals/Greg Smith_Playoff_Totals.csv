@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2013,11,2677,HOU,Houston Rockets,22.0,NBA,C,5.0,1.0,59.0,6.0,9.0,0.67,0.0,0.0,,6.0,9.0,0.67,0.67,6.0,12.0,0.5,7.0,6.0,13.0,0.0,2.0,2.0,4.0,9.0,18.0
-2015,7,2677,DAL,Dallas Mavericks,24.0,NBA,PF,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2013,11,2677,HOU,Houston Rockets,Greg Smith,"January 8, 1991",22.0,NBA,C,5.0,1.0,59.0,6.0,9.0,0.67,0.0,0.0,,6.0,9.0,0.67,0.67,6.0,12.0,0.5,7.0,6.0,13.0,0.0,2.0,2.0,4.0,9.0,18.0
+2015,7,2677,DAL,Dallas Mavericks,Greg Smith,"January 8, 1991",24.0,NBA,PF,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

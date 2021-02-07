@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2021,18,1918,MIN,Minnesota Timberwolves,20.0,NBA,PF,15,243,7.2,0.46,0.47,0.12,4.6,16.4,10.2,7.0,0.8,4.0,10.0,15.6,-0.2,0.2,0.0,0.0,-5.0,-0.8,-5.9,-0.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,18,1918,MIN,Minnesota Timberwolves,Jaden McDaniels,"September 29, 2000",20.0,NBA,PF,16,271,6.4,0.44,0.48,0.11,4.1,16.8,10.2,6.7,0.9,3.9,9.6,14.6,-0.2,0.2,0.0,-0.0,-5.5,-0.7,-6.2,-0.3

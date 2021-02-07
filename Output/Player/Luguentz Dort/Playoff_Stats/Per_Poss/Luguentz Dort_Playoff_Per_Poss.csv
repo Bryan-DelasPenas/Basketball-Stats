@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2020,21,764,OKC,Oklahoma City Thunder,20.0,NBA,SF,6,6,175,7.4,20.8,0.36,3.6,13.7,0.26,3.8,7.1,0.54,2.2,4.1,0.53,1.4,4.7,6.0,1.6,0.5,1.6,4.1,6.9,20.6,,83,110
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2020,21,764,OKC,Oklahoma City Thunder,Luguentz Dort,"April 19, 1999",20.0,NBA,SF,6,6,175,7.4,20.8,0.36,3.6,13.7,0.26,3.8,7.1,0.54,2.2,4.1,0.53,1.4,4.7,6.0,1.6,0.5,1.6,4.1,6.9,20.6,,83,110

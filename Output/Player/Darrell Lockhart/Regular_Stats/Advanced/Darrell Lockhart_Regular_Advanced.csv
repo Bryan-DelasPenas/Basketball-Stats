@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1984,27,1763,SAS,San Antonio Spurs,23.0,NBA,C,2,14,1.6,1.0,0.0,0.0,0.0,22.4,11.4,0.0,0.0,0.0,50.0,11.1,0.0,0.0,0.0,-0.05,-4.8,0.0,-4.9,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1984,27,1763,SAS,San Antonio Spurs,Darrell Lockhart,"September 14, 1960",23.0,NBA,C,2,14,1.6,1.0,0.0,0.0,0.0,22.4,11.4,0.0,0.0,0.0,50.0,11.1,0.0,0.0,0.0,-0.05,-4.8,0.0,-4.9,0.0

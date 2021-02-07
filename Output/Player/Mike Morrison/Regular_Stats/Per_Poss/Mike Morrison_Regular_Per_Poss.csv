@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1990,24,2058,PHO,Phoenix Suns,22.0,NBA,SG,36,1,153,7.2,21.2,0.34,0.6,2.2,0.29,6.5,19.0,0.34,7.5,9.3,0.8,2.2,4.1,6.2,3.4,0.6,0.0,7.2,6.2,22.4,,82,111
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1990,24,2058,PHO,Phoenix Suns,Mike Morrison,"August 16, 1967",22.0,NBA,SG,36,1,153,7.2,21.2,0.34,0.6,2.2,0.29,6.5,19.0,0.34,7.5,9.3,0.8,2.2,4.1,6.2,3.4,0.6,0.0,7.2,6.2,22.4,,82,111

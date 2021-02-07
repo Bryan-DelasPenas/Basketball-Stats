@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2021,8,1341,DEN,Denver Nuggets,21.0,NBA,SG,10,18,0.6,0.36,0.71,0.0,0.0,6.4,3.2,25.6,0.0,0.0,6.7,36.1,-0.1,0.0,-0.1,-0.18,-8.5,-6.9,-15.4,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,8,1341,DEN,Denver Nuggets,Markus Howard,"March 3, 1999",21.0,NBA,SG,10,18,0.6,0.36,0.71,0.0,0.0,6.4,3.2,25.6,0.0,0.0,6.7,36.1,-0.1,0.0,-0.1,-0.18,-8.5,-6.9,-15.4,-0.1

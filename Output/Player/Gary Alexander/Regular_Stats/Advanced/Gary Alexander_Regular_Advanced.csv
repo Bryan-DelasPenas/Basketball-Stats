@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1994,31,39,TOT,Total After Trade,24.0,NBA,PF,11.0,55.0,8.6,0.53,0.0,0.64,14.7,16.8,15.8,5.4,2.9,0.0,30.8,21.0,-0.1,0.1,0.0,-0.03,-6.6,-1.5,-8.1,-0.1
-1994,16,39,MIA,Miami Heat,24.0,NBA,PF,4.0,12.0,0.8,0.35,0.0,1.0,9.4,19.0,14.2,11.5,0.0,0.0,25.8,13.9,0.0,0.0,0.0,-0.09,-7.8,-2.1,-10.0,0.0
-1994,6,39,CLE,Cleveland Cavaliers,24.0,NBA,PF,7.0,43.0,10.7,0.56,0.0,0.58,16.2,16.2,16.2,3.7,3.7,0.0,31.7,23.0,-0.1,0.1,0.0,-0.02,-6.3,-1.4,-7.6,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1994,31,39,TOT,Total After Trade,Gary Alexander,"November 1, 1969",24.0,NBA,PF,11.0,55.0,8.6,0.53,0.0,0.64,14.7,16.8,15.8,5.4,2.9,0.0,30.8,21.0,-0.1,0.1,0.0,-0.03,-6.6,-1.5,-8.1,-0.1
+1994,16,39,MIA,Miami Heat,Gary Alexander,"November 1, 1969",24.0,NBA,PF,4.0,12.0,0.8,0.35,0.0,1.0,9.4,19.0,14.2,11.5,0.0,0.0,25.8,13.9,0.0,0.0,0.0,-0.09,-7.8,-2.1,-10.0,0.0
+1994,6,39,CLE,Cleveland Cavaliers,Gary Alexander,"November 1, 1969",24.0,NBA,PF,7.0,43.0,10.7,0.56,0.0,0.58,16.2,16.2,16.2,3.7,3.7,0.0,31.7,23.0,-0.1,0.1,0.0,-0.02,-6.3,-1.4,-7.6,-0.1

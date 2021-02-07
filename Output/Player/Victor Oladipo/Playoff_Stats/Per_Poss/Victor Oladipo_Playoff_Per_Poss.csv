@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2017,21,2197,OKC,Oklahoma City Thunder,24.0,NBA,SG,5.0,5.0,181.0,5.6,16.4,0.34,1.6,6.7,0.24,4.0,9.7,0.42,1.6,1.6,1.0,0.5,7.0,7.5,2.7,1.9,0.8,1.6,4.6,14.5,,90.0,115.0
-2018,12,2197,IND,Indiana Pacers,25.0,NBA,SG,7.0,7.0,261.0,10.7,25.8,0.42,4.7,11.6,0.4,6.1,14.2,0.43,6.1,8.3,0.73,0.6,11.2,11.8,8.5,3.4,0.6,4.9,2.2,32.2,,106.0,99.0
-2020,12,2197,IND,Indiana Pacers,27.0,NBA,SG,4.0,4.0,123.0,8.9,22.6,0.39,4.8,13.3,0.36,4.0,9.3,0.44,6.1,6.5,0.94,0.0,5.2,5.2,4.0,3.6,0.0,5.7,5.7,28.7,,94.0,114.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2017,21,2197,OKC,Oklahoma City Thunder,Victor Oladipo,"May 4, 1992",24.0,NBA,SG,5.0,5.0,181.0,5.6,16.4,0.34,1.6,6.7,0.24,4.0,9.7,0.42,1.6,1.6,1.0,0.5,7.0,7.5,2.7,1.9,0.8,1.6,4.6,14.5,,90.0,115.0
+2018,12,2197,IND,Indiana Pacers,Victor Oladipo,"May 4, 1992",25.0,NBA,SG,7.0,7.0,261.0,10.7,25.8,0.42,4.7,11.6,0.4,6.1,14.2,0.43,6.1,8.3,0.73,0.6,11.2,11.8,8.5,3.4,0.6,4.9,2.2,32.2,,106.0,99.0
+2020,12,2197,IND,Indiana Pacers,Victor Oladipo,"May 4, 1992",27.0,NBA,SG,4.0,4.0,123.0,8.9,22.6,0.39,4.8,13.3,0.36,4.0,9.3,0.44,6.1,6.5,0.94,0.0,5.2,5.2,4.0,3.6,0.0,5.7,5.7,28.7,,94.0,114.0

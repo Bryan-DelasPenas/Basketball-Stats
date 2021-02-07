@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1986,23,3211,PHI,Philadelphia 76Ers,23.0,NBA,SF,4,0,17,6.4,27.5,0.23,0.0,2.1,0.0,6.4,25.4,0.25,0.0,0.0,,2.1,4.2,6.4,0.0,2.1,0.0,4.2,2.1,12.7
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1986,23,3211,PHI,Philadelphia 76Ers,Voise Winters,"October 12, 1962",23.0,NBA,SF,4,0,17,6.4,27.5,0.23,0.0,2.1,0.0,6.4,25.4,0.25,0.0,0.0,,2.1,4.2,6.4,0.0,2.1,0.0,4.2,2.1,12.7

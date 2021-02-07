@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2020,29,3185,UTA,Utah Jazz,25.0,NBA,PG,10,0,50,4.9,15.6,0.31,1.9,6.8,0.29,2.9,8.8,0.33,1.9,1.9,1.0,1.9,3.9,5.8,5.8,2.9,1.0,2.9,5.8,13.6,,92,108
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2020,29,3185,UTA,Utah Jazz,Nigel Williams-Goss,"September 16, 1994",25.0,NBA,PG,10,0,50,4.9,15.6,0.31,1.9,6.8,0.29,2.9,8.8,0.33,1.9,1.9,1.0,1.9,3.9,5.8,5.8,2.9,1.0,2.9,5.8,13.6,,92,108

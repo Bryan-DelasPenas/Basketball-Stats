@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1993,6,1138,CLE,Cleveland Cavaliers,23.0,NBA,C,4,0,15,3.6,10.8,0.33,0.0,0.0,,3.6,10.8,0.33,0.0,7.2,0.0,3.6,0.0,3.6,0.0,0.0,3.6,7.2,3.6,7.2,,42,113
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1993,6,1138,CLE,Cleveland Cavaliers,Jay Guidinger,"August 18, 1969",23.0,NBA,C,4,0,15,3.6,10.8,0.33,0.0,0.0,,3.6,10.8,0.33,0.0,7.2,0.0,3.6,0.0,3.6,0.0,0.0,3.6,7.2,3.6,7.2,,42,113

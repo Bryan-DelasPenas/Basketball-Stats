@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2021,4,152,CHO,Charlotte Hornets,19.0,NBA,PG,22,2,571,6.4,14.9,0.43,2.0,6.1,0.32,4.4,8.8,0.5,2.9,3.7,0.79,2.0,6.2,8.2,8.3,2.0,0.4,3.7,3.5,17.6
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,4,152,CHO,Charlotte Hornets,LaMelo Ball,"August 22, 2001",19.0,NBA,PG,23,3,610,6.8,15.5,0.44,2.1,6.3,0.33,4.7,9.3,0.51,2.8,3.6,0.79,2.0,5.9,7.9,8.2,1.9,0.5,3.4,3.5,18.5

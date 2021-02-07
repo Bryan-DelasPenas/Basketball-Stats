@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1989,26,1037,SAC,Sacramento Kings,23.0,NBA,C,24,0,84,6,19,0.32,0,0,,6,19,0.32,0.32,13,23,0.56,7,16,23,2,2,4,5,29,25
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1989,26,1037,SAC,Sacramento Kings,Ben Gillery,"September 19, 1965",23.0,NBA,C,24,0,84,6,19,0.32,0,0,,6,19,0.32,0.32,13,23,0.56,7,16,23,2,2,4,5,29,25

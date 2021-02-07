@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1999,1,2614,ATL,Atlanta Hawks,24.0,NBA,SG,4,0,12,0.0,14.6,0.0,0.0,0.0,,0.0,14.6,0.0,0.0,0.0,,9.8,0.0,9.8,9.8,4.9,0.0,0.0,0.0,0.0,,63,101
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1999,1,2614,ATL,Atlanta Hawks,Jeff Sheppard,"September 29, 1974",24.0,NBA,SG,4,0,12,0.0,14.6,0.0,0.0,0.0,,0.0,14.6,0.0,0.0,0.0,,9.8,0.0,9.8,9.8,4.9,0.0,0.0,0.0,0.0,,63,101

@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1987,31,3260,TOT,Total After Trade,23.0,NBA,SG,9.0,72.0,3.0,0.3,0.0,0.1,4.8,7.7,6.2,11.5,3.2,0.8,15.5,14.4,-0.2,0.1,-0.1,-0.05,-7.9,0.6,-7.3,-0.1
-1987,5,3260,CHI,Chicago Bulls,23.0,NBA,SG,5.0,20.0,3.8,0.51,0.0,0.5,0.0,5.8,2.8,0.0,2.5,0.0,17.0,12.4,0.0,0.0,0.0,0.0,-7.9,-0.6,-8.5,0.0
-1987,25,3260,POR,Portland Trail Blazers,23.0,NBA,SG,4.0,52.0,2.6,0.24,0.0,0.0,6.6,8.4,7.5,15.9,3.5,1.1,15.0,15.1,-0.1,0.1,-0.1,-0.07,-7.9,1.0,-6.9,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1987,31,3260,TOT,Total After Trade,Perry Young,"August 4, 1963",23.0,NBA,SG,9.0,72.0,3.0,0.3,0.0,0.1,4.8,7.7,6.2,11.5,3.2,0.8,15.5,14.4,-0.2,0.1,-0.1,-0.05,-7.9,0.6,-7.3,-0.1
+1987,5,3260,CHI,Chicago Bulls,Perry Young,"August 4, 1963",23.0,NBA,SG,5.0,20.0,3.8,0.51,0.0,0.5,0.0,5.8,2.8,0.0,2.5,0.0,17.0,12.4,0.0,0.0,0.0,0.0,-7.9,-0.6,-8.5,0.0
+1987,25,3260,POR,Portland Trail Blazers,Perry Young,"August 4, 1963",23.0,NBA,SG,4.0,52.0,2.6,0.24,0.0,0.0,6.6,8.4,7.5,15.9,3.5,1.1,15.0,15.1,-0.1,0.1,-0.1,-0.07,-7.9,1.0,-6.9,-0.1

@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1981,1,2611,ATL,Atlanta Hawks,23.0,NBA,SF,55,,586,6.1,13.5,0.46,0.0,0.1,0.0,6.1,13.4,0.46,2.2,3.6,0.6,3.6,4.9,8.5,1.7,1.1,0.3,3.7,7.9,14.4
-1982,1,2611,ATL,Atlanta Hawks,24.0,NBA,SF,4,0.0,21,3.4,10.3,0.33,0.0,0.0,,3.4,10.3,0.33,1.7,3.4,0.5,1.7,3.4,5.1,0.0,1.7,0.0,0.0,5.1,8.6
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,1,2611,ATL,Atlanta Hawks,Craig Shelton,"May 1, 1957",23.0,NBA,SF,55,,586,6.1,13.5,0.46,0.0,0.1,0.0,6.1,13.4,0.46,2.2,3.6,0.6,3.6,4.9,8.5,1.7,1.1,0.3,3.7,7.9,14.4
+1982,1,2611,ATL,Atlanta Hawks,Craig Shelton,"May 1, 1957",24.0,NBA,SF,4,0.0,21,3.4,10.3,0.33,0.0,0.0,,3.4,10.3,0.33,1.7,3.4,0.5,1.7,3.4,5.1,0.0,1.7,0.0,0.0,5.1,8.6

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1988,17,3207,MIL,Milwaukee Bucks,23.0,NBA,SF,7,45,-3.4,0.25,0.08,0.15,7.5,10.0,8.8,5.7,1.1,0.0,22.4,16.7,-0.2,0.0,-0.2,-0.16,-11.9,-2.9,-14.8,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1988,17,3207,MIL,Milwaukee Bucks,Rickie Winslow,"July 26, 1964",23.0,NBA,SF,7,45,-3.4,0.25,0.08,0.15,7.5,10.0,8.8,5.7,1.1,0.0,22.4,16.7,-0.2,0.0,-0.2,-0.16,-11.9,-2.9,-14.8,-0.1

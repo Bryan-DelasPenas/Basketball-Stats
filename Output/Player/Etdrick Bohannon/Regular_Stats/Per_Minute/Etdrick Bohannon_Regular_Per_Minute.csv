@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1998,12,280,IND,Indiana Pacers,24.0,NBA,PF,5.0,0.0,11.0,0.0,13.1,0.0,0.0,0.0,,0.0,13.1,0.0,0.0,0.0,,6.5,13.1,19.6,3.3,0.0,6.5,9.8,9.8,0.0
-1999,30,280,WAS,Washington Wizards,25.0,NBA,SF,2.0,0.0,4.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2001,6,280,CLE,Cleveland Cavaliers,27.0,NBA,PF,6.0,0.0,19.0,3.8,7.6,0.5,0.0,0.0,,3.8,7.6,0.5,7.6,7.6,1.0,5.7,7.6,13.3,0.0,0.0,3.8,1.9,7.6,15.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1998,12,280,IND,Indiana Pacers,Etdrick Bohannon,"May 29, 1973",24.0,NBA,PF,5.0,0.0,11.0,0.0,13.1,0.0,0.0,0.0,,0.0,13.1,0.0,0.0,0.0,,6.5,13.1,19.6,3.3,0.0,6.5,9.8,9.8,0.0
+1999,30,280,WAS,Washington Wizards,Etdrick Bohannon,"May 29, 1973",25.0,NBA,SF,2.0,0.0,4.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2001,6,280,CLE,Cleveland Cavaliers,Etdrick Bohannon,"May 29, 1973",27.0,NBA,PF,6.0,0.0,19.0,3.8,7.6,0.5,0.0,0.0,,3.8,7.6,0.5,7.6,7.6,1.0,5.7,7.6,13.3,0.0,0.0,3.8,1.9,7.6,15.2

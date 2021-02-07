@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1992,9,263,DET,Detroit Pistons,25.0,NBA,SG,1.0,10.0,23.5,0.5,0.0,0.0,0.0,11.0,5.8,55.1,16.8,0.0,33.3,14.5,0.0,0.1,0.0,0.21,-0.8,16.2,15.5,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1992,9,263,DET,Detroit Pistons,Lance Blanks,"September 9, 1966",25.0,NBA,SG,1.0,10.0,23.5,0.5,0.0,0.0,0.0,11.0,5.8,55.1,16.8,0.0,33.3,14.5,0.0,0.1,0.0,0.21,-0.8,16.2,15.5,0.0

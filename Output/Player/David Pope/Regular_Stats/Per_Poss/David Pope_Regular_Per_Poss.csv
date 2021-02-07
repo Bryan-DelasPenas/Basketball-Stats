@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1985,26,2332,KCK,Kansas City Kings,22.0,NBA,SF,22.0,0.0,129.0,6.1,18.9,0.32,0.0,0.4,0.0,6.1,18.5,0.33,2.5,4.6,0.54,3.2,3.2,6.4,1.8,1.1,1.1,2.5,10.7,14.6,,80.0,114.0
-1986,21,2332,SEA,Seattle Supersonics,23.0,NBA,SF,11.0,0.0,74.0,6.0,13.3,0.45,0.7,0.7,1.0,5.3,12.7,0.42,1.3,2.7,0.5,4.0,3.3,7.3,2.7,1.3,0.7,1.3,7.3,14.0,,109.0,109.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+1985,26,2332,KCK,Kansas City Kings,David Pope,"April 15, 1962",22.0,NBA,SF,22.0,0.0,129.0,6.1,18.9,0.32,0.0,0.4,0.0,6.1,18.5,0.33,2.5,4.6,0.54,3.2,3.2,6.4,1.8,1.1,1.1,2.5,10.7,14.6,,80.0,114.0
+1986,21,2332,SEA,Seattle Supersonics,David Pope,"April 15, 1962",23.0,NBA,SF,11.0,0.0,74.0,6.0,13.3,0.45,0.7,0.7,1.0,5.3,12.7,0.42,1.3,2.7,0.5,4.0,3.3,7.3,2.7,1.3,0.7,1.3,7.3,14.0,,109.0,109.0

@@ -813,4 +813,4 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
 
 def main():
     print(get_career_stats("Tim Hardaway", "March 16, 1992"))
-main()
+#main()

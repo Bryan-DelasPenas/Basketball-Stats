@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2019,10,734,GSW,Golden State Warriors,22.0,NBA,PF,11,67,19.4,0.65,0.61,0.15,13.3,7.6,10.4,2.2,0.0,1.3,7.9,24.4,0.2,0.0,0.2,0.16,2.6,-5.3,-2.7,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2019,10,734,GSW,Golden State Warriors,Marcus Derrickson,"February 1, 1996",22.0,NBA,PF,11,67,19.4,0.65,0.61,0.15,13.3,7.6,10.4,2.2,0.0,1.3,7.9,24.4,0.2,0.0,0.2,0.16,2.6,-5.3,-2.7,0.0

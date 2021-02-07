@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1980,10,615,GSW,Golden State Warriors,28.0,NBA,SF,24,,160,29,81,0.36,2,9,0.22,27,72,0.38,0.37,8,14,0.57,2,17,19,12,7,1,13,24,68
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,10,615,GSW,Golden State Warriors,John Coughran,"September 12, 1951",28.0,NBA,SF,24,,160,29,81,0.36,2,9,0.22,27,72,0.38,0.37,8,14,0.57,2,17,19,12,7,1,13,24,68

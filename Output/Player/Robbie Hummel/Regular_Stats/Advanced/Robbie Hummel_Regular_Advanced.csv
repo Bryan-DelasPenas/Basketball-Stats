@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2014,18,1357,MIN,Minnesota Timberwolves,24.0,NBA,SF,53,655,9.6,0.49,0.5,0.09,5.7,16.6,11.0,5.0,1.2,0.2,5.2,12.6,0.6,0.6,1.1,0.08,-1.6,-0.4,-2.0,0.0
-2015,18,1357,MIN,Minnesota Timberwolves,25.0,NBA,SF,45,742,9.7,0.54,0.3,0.17,4.6,16.4,10.3,5.6,1.1,1.0,8.9,12.1,0.7,0.1,0.8,0.05,-2.7,-1.4,-4.1,-0.4
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2014,18,1357,MIN,Minnesota Timberwolves,Robbie Hummel,"March 8, 1989",24.0,NBA,SF,53,655,9.6,0.49,0.5,0.09,5.7,16.6,11.0,5.0,1.2,0.2,5.2,12.6,0.6,0.6,1.1,0.08,-1.6,-0.4,-2.0,0.0
+2015,18,1357,MIN,Minnesota Timberwolves,Robbie Hummel,"March 8, 1989",25.0,NBA,SF,45,742,9.7,0.54,0.3,0.17,4.6,16.4,10.3,5.6,1.1,1.0,8.9,12.1,0.7,0.1,0.8,0.05,-2.7,-1.4,-4.1,-0.4

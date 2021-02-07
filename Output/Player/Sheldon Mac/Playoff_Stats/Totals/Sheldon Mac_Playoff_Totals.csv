@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2017,30,1793,WAS,Washington Wizards,24.0,NBA,SG,7,0,17,5,9,0.56,2,5,0.4,3,4,0.75,0.67,2,2,1.0,0,2,2,0,0,0,1,1,14
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2017,30,1793,WAS,Washington Wizards,Sheldon Mac,"December 21, 1992",24.0,NBA,SG,7,0,17,5,9,0.56,2,5,0.4,3,4,0.75,0.67,2,2,1.0,0,2,2,0,0,0,1,1,14

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2006,21,902,SEA,Seattle Supersonics,24.0,NBA,SF,12,0,82,2.6,11.0,0.24,0.4,1.3,0.33,2.2,9.7,0.23,2.2,3.5,0.62,1.3,4.4,5.7,0.9,0.9,1.3,3.5,5.7,7.9
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2006,21,902,SEA,Seattle Supersonics,Noel Felix,"October 4, 1981",24.0,NBA,SF,12,0,82,2.6,11.0,0.24,0.4,1.3,0.33,2.2,9.7,0.23,2.2,3.5,0.62,1.3,4.4,5.7,0.9,0.9,1.3,3.5,5.7,7.9

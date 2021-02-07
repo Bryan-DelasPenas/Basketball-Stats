@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1980,9,874,DET,Detroit Pistons,24.0,NBA,PF,36,381,10.3,0.5,0.13,0.3,7.1,13.6,10.3,12.9,1.6,0.1,18.5,19.6,-0.1,0.2,0.1,0.02,-2.8,-1.2,-4.0,-0.2
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,9,874,DET,Detroit Pistons,Earl Evans,"November 11, 1955",24.0,NBA,PF,36,381,10.3,0.5,0.13,0.3,7.1,13.6,10.3,12.9,1.6,0.1,18.5,19.6,-0.1,0.2,0.1,0.02,-2.8,-1.2,-4.0,-0.2

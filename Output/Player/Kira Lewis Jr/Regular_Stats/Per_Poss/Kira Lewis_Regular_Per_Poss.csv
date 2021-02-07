@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2021,19,1743,NOP,New Orleans Pelicans,19.0,NBA,PG,10,0,88,7.7,23.1,0.33,2.2,6.0,0.36,5.5,17.0,0.32,3.8,5.5,0.7,0.0,2.7,2.7,6.0,1.1,0.5,0.5,3.8,21.4,,100,117
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2021,19,1743,NOP,New Orleans Pelicans,Kira Lewis Jr.,"April 6, 2001",19.0,NBA,PG,10,0,88,7.7,23.1,0.33,2.2,6.1,0.36,5.5,17.1,0.32,3.9,5.5,0.7,0.0,2.8,2.8,6.1,1.1,0.6,0.6,3.9,21.5,,100,117

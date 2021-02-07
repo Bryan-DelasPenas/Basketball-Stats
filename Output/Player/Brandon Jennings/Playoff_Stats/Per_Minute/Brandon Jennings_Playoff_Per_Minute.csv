@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2010,17,1450,MIL,Milwaukee Bucks,20.0,NBA,PG,7.0,7.0,249.0,7.1,17.3,0.41,1.7,5.9,0.29,5.3,11.4,0.47,3.0,3.8,0.81,0.7,2.3,3.0,3.6,1.2,0.6,1.2,2.7,18.9
-2013,17,1450,MIL,Milwaukee Bucks,23.0,NBA,PG,4.0,4.0,133.0,4.6,15.4,0.3,1.6,7.6,0.21,3.0,7.8,0.38,3.5,4.9,0.72,0.3,2.2,2.4,4.3,2.4,0.3,3.0,1.6,14.3
-2017,30,1450,WAS,Washington Wizards,27.0,NBA,PG,13.0,0.0,178.0,2.8,7.3,0.39,0.4,2.6,0.15,2.4,4.7,0.52,1.4,1.6,0.88,1.0,2.8,3.8,4.9,0.4,0.0,1.6,2.6,7.5
-2018,17,1450,MIL,Milwaukee Bucks,28.0,NBA,PG,1.0,0.0,5.0,0.0,14.4,0.0,0.0,14.4,0.0,0.0,0.0,,14.4,14.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,7.2,0.0,14.4
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2010,17,1450,MIL,Milwaukee Bucks,Brandon Jennings,"September 23, 1989",20.0,NBA,PG,7.0,7.0,249.0,7.1,17.3,0.41,1.7,5.9,0.29,5.3,11.4,0.47,3.0,3.8,0.81,0.7,2.3,3.0,3.6,1.2,0.6,1.2,2.7,18.9
+2013,17,1450,MIL,Milwaukee Bucks,Brandon Jennings,"September 23, 1989",23.0,NBA,PG,4.0,4.0,133.0,4.6,15.4,0.3,1.6,7.6,0.21,3.0,7.8,0.38,3.5,4.9,0.72,0.3,2.2,2.4,4.3,2.4,0.3,3.0,1.6,14.3
+2017,30,1450,WAS,Washington Wizards,Brandon Jennings,"September 23, 1989",27.0,NBA,PG,13.0,0.0,178.0,2.8,7.3,0.39,0.4,2.6,0.15,2.4,4.7,0.52,1.4,1.6,0.88,1.0,2.8,3.8,4.9,0.4,0.0,1.6,2.6,7.5
+2018,17,1450,MIL,Milwaukee Bucks,Brandon Jennings,"September 23, 1989",28.0,NBA,PG,1.0,0.0,5.0,0.0,14.4,0.0,0.0,14.4,0.0,0.0,0.0,,14.4,14.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,7.2,0.0,14.4

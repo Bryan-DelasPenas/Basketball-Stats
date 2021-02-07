@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2016,7,76,DAL,Dallas Mavericks,22.0,NBA,SF,5.0,95.0,19.2,0.54,0.35,0.38,10.6,14.1,12.3,13.2,2.2,2.8,10.4,23.5,0.2,0.0,0.1,0.06,2.0,0.7,2.7,0.1
-2018,23,76,PHI,Philadelphia 76Ers,24.0,NBA,SF,7.0,33.0,2.5,0.5,0.88,0.0,3.2,26.3,14.6,0.0,1.5,0.0,20.0,12.7,0.0,0.0,0.0,0.01,-6.9,-0.6,-7.5,0.0
-2020,3,76,BRK,Brooklyn Nets,26.0,NBA,SG,3.0,28.0,20.6,0.69,0.92,0.33,0.0,31.0,14.4,18.6,0.0,3.4,12.7,23.2,0.1,0.0,0.1,0.11,5.1,2.1,7.2,0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2016,7,76,DAL,Dallas Mavericks,Justin Anderson,"November 19, 1993",22.0,NBA,SF,5.0,95.0,19.2,0.54,0.35,0.38,10.6,14.1,12.3,13.2,2.2,2.8,10.4,23.5,0.2,0.0,0.1,0.06,2.0,0.7,2.7,0.1
+2018,23,76,PHI,Philadelphia 76Ers,Justin Anderson,"November 19, 1993",24.0,NBA,SF,7.0,33.0,2.5,0.5,0.88,0.0,3.2,26.3,14.6,0.0,1.5,0.0,20.0,12.7,0.0,0.0,0.0,0.01,-6.9,-0.6,-7.5,0.0
+2020,3,76,BRK,Brooklyn Nets,Justin Anderson,"November 19, 1993",26.0,NBA,SG,3.0,28.0,20.6,0.69,0.92,0.33,0.0,31.0,14.4,18.6,0.0,3.4,12.7,23.2,0.1,0.0,0.1,0.11,5.1,2.1,7.2,0.1

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2013,7,28,DAL,Dallas Mavericks,26.0,NBA,PG,3,9,15.3,0.62,0.5,0.0,0.0,12.1,6.2,19.4,0.0,0.0,0.0,20.3,0.0,0.0,0.0,0.2,-3.1,0.1,-3.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2013,7,28,DAL,Dallas Mavericks,Josh Akognon,"February 10, 1986",26.0,NBA,PG,3,9,15.3,0.62,0.5,0.0,0.0,12.1,6.2,19.4,0.0,0.0,0.0,20.3,0.0,0.0,0.0,0.2,-3.1,0.1,-3.0,0.0

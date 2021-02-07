@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2012,2,3176,BOS,Boston Celtics,25.0,NBA,C,2.0,0.0,6.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,9.1,9.1,0.0,0.0,0.0,9.1,9.1,0.0,,0.0,103.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2012,2,3176,BOS,Boston Celtics,Sean Williams,"September 13, 1986",25.0,NBA,C,2.0,0.0,6.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,9.1,9.1,0.0,0.0,0.0,9.1,9.1,0.0,,0.0,103.0

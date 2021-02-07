@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1995,23,59,PHI,Philadelphia 76Ers,22.0,NBA,C,64.0,1032.0,11.6,0.48,0.02,0.46,11.0,13.8,12.4,5.1,2.0,2.5,14.6,15.7,0.0,1.0,1.0,0.04,-2.5,-0.1,-2.6,-0.2
-1996,23,59,PHI,Philadelphia 76Ers,23.0,NBA,C,73.0,1614.0,11.8,0.52,0.01,0.29,8.8,12.9,10.8,6.5,1.8,2.4,11.9,13.7,1.0,0.8,1.7,0.05,-2.5,-0.2,-2.8,-0.3
-1997,1,59,ATL,Atlanta Hawks,24.0,NBA,C,2.0,11.0,-9.0,0.0,0.0,0.4,33.3,10.6,21.7,0.0,0.0,0.0,0.0,25.2,-0.1,0.0,-0.1,-0.42,-9.5,-12.1,-21.6,-0.1
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1995,23,59,PHI,Philadelphia 76Ers,Derrick Alston,"August 20, 1972",22.0,NBA,C,64.0,1032.0,11.6,0.48,0.02,0.46,11.0,13.8,12.4,5.1,2.0,2.5,14.6,15.7,0.0,1.0,1.0,0.04,-2.5,-0.1,-2.6,-0.2
+1996,23,59,PHI,Philadelphia 76Ers,Derrick Alston,"August 20, 1972",23.0,NBA,C,73.0,1614.0,11.8,0.52,0.01,0.29,8.8,12.9,10.8,6.5,1.8,2.4,11.9,13.7,1.0,0.8,1.7,0.05,-2.5,-0.2,-2.8,-0.3
+1997,1,59,ATL,Atlanta Hawks,Derrick Alston,"August 20, 1972",24.0,NBA,C,2.0,11.0,-9.0,0.0,0.0,0.4,33.3,10.6,21.7,0.0,0.0,0.0,0.0,25.2,-0.1,0.0,-0.1,-0.42,-9.5,-12.1,-21.6,-0.1

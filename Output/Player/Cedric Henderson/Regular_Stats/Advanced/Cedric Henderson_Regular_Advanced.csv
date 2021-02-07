@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1987,31,1248,TOT,Total After Trade,21.0,NBA,PF,8.0,16.0,15.3,0.59,0.0,0.38,20.5,34.9,27.5,0.0,0.0,0.0,30.0,34.2,0.0,0.0,0.0,-0.02,-6.1,-2.5,-8.6,0.0
-1987,1,1248,ATL,Atlanta Hawks,21.0,NBA,PF,6.0,10.0,11.1,0.46,0.0,0.2,21.8,10.7,16.2,0.0,0.0,0.0,15.5,26.5,0.0,0.0,0.0,0.02,-4.8,-3.5,-8.3,0.0
-1987,17,1248,MIL,Milwaukee Bucks,21.0,NBA,PF,2.0,6.0,22.2,0.77,0.0,0.67,18.3,75.1,46.4,0.0,0.0,0.0,43.6,46.9,0.0,0.0,0.0,-0.07,-8.1,-0.9,-9.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1987,31,1248,TOT,Total After Trade,Cedric Henderson,"October 3, 1965",21.0,NBA,PF,8.0,16.0,15.3,0.59,0.0,0.38,20.5,34.9,27.5,0.0,0.0,0.0,30.0,34.2,0.0,0.0,0.0,-0.02,-6.1,-2.5,-8.6,0.0
+1987,1,1248,ATL,Atlanta Hawks,Cedric Henderson,"October 3, 1965",21.0,NBA,PF,6.0,10.0,11.1,0.46,0.0,0.2,21.8,10.7,16.2,0.0,0.0,0.0,15.5,26.5,0.0,0.0,0.0,0.02,-4.8,-3.5,-8.3,0.0
+1987,17,1248,MIL,Milwaukee Bucks,Cedric Henderson,"October 3, 1965",21.0,NBA,PF,2.0,6.0,22.2,0.77,0.0,0.67,18.3,75.1,46.4,0.0,0.0,0.0,43.6,46.9,0.0,0.0,0.0,-0.07,-8.1,-0.9,-9.0,0.0

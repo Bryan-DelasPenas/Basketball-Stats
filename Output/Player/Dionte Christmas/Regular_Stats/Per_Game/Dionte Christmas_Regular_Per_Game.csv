@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2014,24,534,PHO,Phoenix Suns,27.0,NBA,SF,31,0,6.4,0.7,2.0,0.36,0.3,1.0,0.29,0.4,1.0,0.42,0.43,0.6,0.8,0.75,0.4,0.8,1.2,0.3,0.1,0.1,0.2,0.6,2.3
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2014,24,534,PHO,Phoenix Suns,Dionte Christmas,"September 15, 1986",27.0,NBA,SF,31,0,6.4,0.7,2.0,0.36,0.3,1.0,0.29,0.4,1.0,0.42,0.43,0.6,0.8,0.75,0.4,0.8,1.2,0.3,0.1,0.1,0.2,0.6,2.3

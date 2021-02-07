@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1981,5,3232,CHI,Chicago Bulls,23.0,NBA,PG,64.0,945.0,8.9,0.54,0.02,0.31,2.8,10.8,6.9,15.7,2.9,0.4,29.4,13.3,-0.4,1.0,0.7,0.04,-3.3,1.4,-1.9,0.0
-1982,29,3232,UTA,Utah Jazz,24.0,NBA,PG,5.0,22.0,1.9,0.4,0.0,0.0,4.8,0.0,2.4,16.3,0.0,0.0,28.6,12.7,0.0,0.0,0.0,-0.1,-4.5,-0.5,-5.0,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1981,5,3232,CHI,Chicago Bulls,Sam Worthen,"January 17, 1958",23.0,NBA,PG,64.0,945.0,8.9,0.54,0.02,0.31,2.8,10.8,6.9,15.7,2.9,0.4,29.4,13.3,-0.4,1.0,0.7,0.04,-3.3,1.4,-1.9,0.0
+1982,29,3232,UTA,Utah Jazz,Sam Worthen,"January 17, 1958",24.0,NBA,PG,5.0,22.0,1.9,0.4,0.0,0.0,4.8,0.0,2.4,16.3,0.0,0.0,28.6,12.7,0.0,0.0,0.0,-0.1,-4.5,-0.5,-5.0,0.0

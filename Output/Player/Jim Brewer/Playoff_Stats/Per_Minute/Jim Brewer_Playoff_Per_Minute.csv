@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-1980,25,344,POR,Portland Trail Blazers,28.0,NBA,PF,3.0,,67.0,5.4,5.4,1.0,0.0,0.0,,5.4,5.4,1.0,0.5,1.6,0.33,3.2,5.4,8.6,1.6,2.7,1.1,0.5,3.2,11.3
-1981,14,344,LAL,Los Angeles Lakers,29.0,NBA,PF,3.0,,7.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,5.1,5.1,0.0,0.0,0.0,0.0,5.1,0.0
-1982,14,344,LAL,Los Angeles Lakers,30.0,NBA,PF,8.0,,57.0,1.9,3.8,0.5,0.0,0.0,,1.9,3.8,0.5,0.0,0.0,,2.5,4.4,6.9,2.5,1.3,3.8,2.5,3.2,3.8
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,25,344,POR,Portland Trail Blazers,Jim Brewer,"December 3, 1951",28.0,NBA,PF,3.0,,67.0,5.4,5.4,1.0,0.0,0.0,,5.4,5.4,1.0,0.5,1.6,0.33,3.2,5.4,8.6,1.6,2.7,1.1,0.5,3.2,11.3
+1981,14,344,LAL,Los Angeles Lakers,Jim Brewer,"December 3, 1951",29.0,NBA,PF,3.0,,7.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,5.1,5.1,0.0,0.0,0.0,0.0,5.1,0.0
+1982,14,344,LAL,Los Angeles Lakers,Jim Brewer,"December 3, 1951",30.0,NBA,PF,8.0,,57.0,1.9,3.8,0.5,0.0,0.0,,1.9,3.8,0.5,0.0,0.0,,2.5,4.4,6.9,2.5,1.3,3.8,2.5,3.2,3.8

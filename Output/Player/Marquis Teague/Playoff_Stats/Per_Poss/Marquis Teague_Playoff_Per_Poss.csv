@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2013,5,2824,CHI,Chicago Bulls,19.0,NBA,PG,8.0,0.0,72.0,3.8,13.0,0.29,0.0,3.8,0.0,3.8,9.2,0.42,0.0,0.0,,0.0,2.3,2.3,9.2,1.5,0.8,1.5,7.6,7.6,,83.0,113.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2013,5,2824,CHI,Chicago Bulls,Marquis Teague,"February 28, 1993",19.0,NBA,PG,8.0,0.0,72.0,3.8,13.0,0.29,0.0,3.8,0.0,3.8,9.2,0.42,0.0,0.0,,0.0,2.3,2.3,9.2,1.5,0.8,1.5,7.6,7.6,,83.0,113.0

@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1991,27,1282,SAS,San Antonio Spurs,22.0,NBA,SF,3.0,13.0,-4.1,0.0,0.0,0.0,0.0,0.0,0.0,9.1,0.0,0.0,0.0,6.4,0.0,0.0,0.0,-0.12,-6.8,-3.1,-9.9,0.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1991,27,1282,SAS,San Antonio Spurs,Sean Higgins,"December 30, 1968",22.0,NBA,SF,3.0,13.0,-4.1,0.0,0.0,0.0,0.0,0.0,0.0,9.1,0.0,0.0,0.0,6.4,0.0,0.0,0.0,-0.12,-6.8,-3.1,-9.9,0.0

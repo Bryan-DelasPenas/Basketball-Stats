@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1980,10.0,1295,GSW,Golden State Warriors,30.0,NBA,PF,49.0,708.0,8.7,0.47,0.0,0.38,8.9,19.5,14.0,8.6,1.4,2.0,22.0,15.6,-0.5,0.8,0.3,0.02,-4.5,0.3,-4.2,-0.4
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,10.0,1295,GSW,Golden State Warriors,Darnell Hillman,"August 29, 1949",30.0,NBA,PF,49.0,708.0,8.7,0.47,0.0,0.38,8.9,19.5,14.0,8.6,1.4,2.0,22.0,15.6,-0.5,0.8,0.3,0.02,-4.5,0.3,-4.2,-0.4

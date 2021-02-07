@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2013,22,1535,ORL,Orlando Magic,22.0,NBA,SF,63,803,8.4,0.48,0.16,0.23,2.4,12.4,7.4,3.0,1.2,2.1,11.1,15.3,-0.3,0.4,0.1,0.01,-3.8,-0.8,-4.5,-0.5
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2013,22,1535,ORL,Orlando Magic,DeQuan Jones,"June 20, 1990",22.0,NBA,SF,63,803,8.4,0.48,0.16,0.23,2.4,12.4,7.4,3.0,1.2,2.1,11.1,15.3,-0.3,0.4,0.1,0.01,-3.8,-0.8,-4.5,-0.5
