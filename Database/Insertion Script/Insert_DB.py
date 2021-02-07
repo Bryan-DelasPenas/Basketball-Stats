@@ -389,7 +389,7 @@ def insert_team_per_poss(df, opponent):
         raise Exception("Table does not exists")
 
 '''
-Function that inserts Team_totals into database
+Function that inserts Team_Totals into database
 '''
 def insert_team_totals(df, opponent):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", "G" : "Games_Played", "MP" : "Minutes_Played",
@@ -420,8 +420,33 @@ def insert_team_totals(df, opponent):
     else:
         raise Exception("Table does not exists")
 
-def insert_player_stats():
-    return None
+'''
+Function that inserts Player_Stats into database
+'''
+def insert_player_stats(df):
+    df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", 
+                            "Birth Date" : "Birth_Date", "Player Name" : "Player_Name"})
+    
+    # Connect to sql database 
+    engine = create_connection()
+
+    # Test the connection of the database
+    conn = test_connection(engine)
+    
+    trans = conn.begin()
+
+    if(check_table('Player_Stats')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('player_stats', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Player_Stats was successful")
+        
+        except:
+            raise Exception("Insertion into Player_Stats failed")
+    else:
+        raise Exception("Table does not exists")
+   
 
 def insert_player_advanced():
     return None
@@ -644,42 +669,38 @@ def insert_all_team_totals():
         insert_team_totals(opponent_df, 1)
 
 '''
-
+Calls insert_player_stats from 1980 - 2020
 '''
 def insert_all_player_stats():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player_Name", "player_names.csv")
-    stat_path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
-    df = pd.read_csv(path)
+    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
 
-    df = df.values.tolist()
+    player_directories = os.listdir(path)
+    for x in range(len(player_directories)):
+        second_path = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", player_directories[x] + "_Regular_Per_Game.csv")
+        df = pd.read_csv(second_path)
+        df = df.drop(['Age', 'League', 'Pos', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%', '2P','2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF','PTS'], axis=1)
+        df = df[['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Birth Date', 'Player Name']]
+        
+        df_filter = df[df['Season'] <= 2020]
 
-    for x in range(len(df)):
-        name_tuple = (df[x][0], df[x][1])
-
-        if(name_tuple in RIGHT_NAME_DICT):
-            df[x][0] = RIGHT_NAME_DICT[name_tuple]
-
-
-        df[x].append(PLAYER_ID[df[x][0]])
-
-    
+        insert_player_stats(df_filter)
 
 '''
 Main function 
 '''
 def main():
-    #insert_all_season()
-    #insert_all_team()
-    #insert_all_player()
-    #insert_all_standings()
-    #insert_all_conference_standings()
-    #insert_all_roster()
-    #insert_all_team_stats()
-    #insert_all_team_advanced()
-    #insert_all_team_misc()
-    #insert_all_team_per_game()
-    #insert_all_team_per_poss()
-    #insert_all_team_totals()
+    insert_all_season()
+    insert_all_team()
+    insert_all_player()
+    insert_all_standings()
+    insert_all_conference_standings()
+    insert_all_roster()
+    insert_all_team_stats()
+    insert_all_team_advanced()
+    insert_all_team_misc()
+    insert_all_team_per_game()
+    insert_all_team_per_poss()
+    insert_all_team_totals()
     insert_all_player_stats()
 
 if __name__ == "__main__":
