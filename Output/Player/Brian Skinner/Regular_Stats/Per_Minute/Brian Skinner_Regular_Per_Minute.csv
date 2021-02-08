@@ -1,5 +1,6 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
 1999,13,2655,LAC,Los Angeles Clippers,Brian Skinner,"May 19, 1976",22.0,NBA,PF,21.0,0.0,258.0,4.6,9.9,0.46,0.0,0.0,,4.6,9.9,0.46,2.8,4.6,0.61,2.8,4.6,7.4,0.1,1.4,1.8,2.7,2.8,12.0
+2000,13,2655,LAC,Los Angeles Clippers,Brian Skinner,"May 19, 1976",23.0,NBA,PF,33.0,9.0,775.0,3.2,6.2,0.51,0.0,0.0,,3.2,6.2,0.51,2.0,3.0,0.66,2.9,6.4,9.3,0.5,0.7,2.0,1.7,3.5,8.3
 2001,13,2655,LAC,Los Angeles Clippers,Brian Skinner,"May 19, 1976",24.0,NBA,PF,39.0,23.0,584.0,3.9,9.9,0.4,0.0,0.0,,3.9,9.9,0.4,2.0,3.6,0.54,3.4,7.0,10.4,1.1,0.9,0.7,2.0,3.8,9.9
 2002,6,2655,CLE,Cleveland Cavaliers,Brian Skinner,"May 19, 1976",25.0,NBA,PF,65.0,8.0,1107.0,2.9,5.3,0.54,0.0,0.0,,2.9,5.3,0.54,1.6,2.6,0.61,3.0,6.1,9.1,0.6,0.8,2.0,1.4,4.2,7.3
 2003,23,2655,PHI,Philadelphia 76Ers,Brian Skinner,"May 19, 1976",26.0,NBA,PF,77.0,9.0,1381.0,4.7,8.6,0.55,0.0,0.0,,4.7,8.6,0.55,2.5,4.2,0.6,3.5,6.0,9.5,0.5,1.2,1.4,1.6,4.6,12.0

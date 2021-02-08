@@ -1,4 +1,5 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2000,6,1987,CLE,Cleveland Cavaliers,Andre Miller,"March 19, 1976",23.0,NBA,PG,82.0,36.0,2093.0,8.1,18.1,0.45,0.2,1.2,0.2,7.9,16.9,0.47,5.4,7.0,0.77,2.0,4.7,6.7,11.4,2.0,0.4,4.0,4.6,21.9,,107.0,105.0
 2001,6,1987,CLE,Cleveland Cavaliers,Andre Miller,"March 19, 1976",24.0,NBA,PG,82.0,82.0,2848.0,8.4,18.5,0.45,0.3,1.2,0.27,8.0,17.3,0.46,6.9,8.3,0.83,1.7,4.9,6.7,12.1,2.2,0.5,4.9,4.2,23.9,,109.0,106.0
 2002,6,1987,CLE,Cleveland Cavaliers,Andre Miller,"March 19, 1976",25.0,NBA,PG,81.0,81.0,3023.0,8.3,18.4,0.45,0.4,1.5,0.25,7.9,16.8,0.47,6.4,7.9,0.82,1.9,4.8,6.7,15.5,2.2,0.6,4.3,4.0,23.5,,115.0,109.0
 2003,13,1987,LAC,Los Angeles Clippers,Andre Miller,"March 19, 1976",26.0,NBA,PG,80.0,80.0,2913.0,6.8,16.7,0.41,0.4,1.9,0.21,6.4,14.8,0.43,5.6,7.1,0.8,1.5,4.2,5.7,9.7,1.8,0.2,3.7,3.7,19.6,,105.0,109.0

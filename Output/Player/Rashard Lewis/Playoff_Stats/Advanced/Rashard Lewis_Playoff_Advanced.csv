@@ -1,4 +1,5 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2000,21,1747,SEA,Seattle Supersonics,Rashard Lewis,"August 8, 1979",20.0,NBA,SF,5.0,157.0,18.2,0.57,0.32,0.34,8.5,14.6,11.4,3.4,1.7,1.4,12.9,22.8,0.3,0.1,0.4,0.13,2.6,-0.4,2.2,0.2
 2002,21,1747,SEA,Seattle Supersonics,Rashard Lewis,"August 8, 1979",22.0,NBA,SF,3.0,79.0,15.5,0.5,0.19,0.41,5.7,10.7,8.1,4.5,0.7,0.0,5.0,24.5,0.2,0.0,0.1,0.07,1.0,-2.6,-1.6,0.0
 2005,21,1747,SEA,Seattle Supersonics,Rashard Lewis,"August 8, 1979",25.0,NBA,SF,8.0,312.0,13.1,0.53,0.24,0.47,4.5,12.3,8.5,6.9,0.5,0.8,11.1,21.3,0.4,0.0,0.4,0.07,0.6,-2.2,-1.5,0.0
 2008,22,1747,ORL,Orlando Magic,Rashard Lewis,"August 8, 1979",28.0,NBA,PF,10.0,417.0,18.3,0.54,0.42,0.24,6.9,13.3,10.1,14.4,1.4,0.9,11.3,23.2,0.8,0.3,1.1,0.13,3.7,0.3,4.0,0.6

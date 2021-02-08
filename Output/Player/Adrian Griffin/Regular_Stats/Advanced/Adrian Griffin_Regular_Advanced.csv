@@ -1,4 +1,5 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2000,2,1124,BOS,Boston Celtics,Adrian Griffin,"July 4, 1974",25.0,NBA,SG,72.0,1927.0,12.6,0.5,0.14,0.38,7.2,15.2,11.0,13.4,3.1,0.6,16.2,13.0,1.8,2.1,3.9,0.1,-0.9,1.4,0.6,1.3
 2001,2,1124,BOS,Boston Celtics,Adrian Griffin,"July 4, 1974",26.0,NBA,SF,44.0,377.0,10.5,0.43,0.27,0.25,8.0,19.4,13.5,11.7,2.5,1.0,14.3,15.1,0.0,0.5,0.4,0.06,-2.5,0.1,-2.4,0.0
 2002,7,1124,DAL,Dallas Mavericks,Adrian Griffin,"July 4, 1974",27.0,NBA,SG,58.0,1383.0,14.2,0.55,0.15,0.14,5.6,12.7,9.2,11.3,2.8,0.6,9.9,13.8,2.3,1.2,3.5,0.12,-0.3,1.6,1.3,1.1
 2003,7,1124,DAL,Dallas Mavericks,Adrian Griffin,"July 4, 1974",28.0,NBA,SG,74.0,1373.0,11.5,0.46,0.07,0.1,7.1,14.1,10.6,11.0,2.9,0.3,11.8,13.2,0.9,1.9,2.9,0.1,-2.1,1.8,-0.3,0.6

@@ -1,5 +1,6 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
 1999,25,3062,POR,Portland Trail Blazers,Bonzi Wells,"September 28, 1976",22.0,NBA,SF,7.0,0.0,35.0,11.3,20.6,0.55,1.0,3.1,0.33,10.3,17.5,0.59,8.2,18.5,0.44,4.1,5.1,9.3,3.1,1.0,1.0,6.2,5.1,31.9
+2000,25,3062,POR,Portland Trail Blazers,Bonzi Wells,"September 28, 1976",23.0,NBA,SF,66.0,0.0,1162.0,7.3,14.9,0.49,0.6,1.6,0.38,6.7,13.2,0.51,2.7,4.0,0.68,2.4,3.2,5.6,3.0,2.1,0.4,3.0,4.7,18.0
 2001,25,3062,POR,Portland Trail Blazers,Bonzi Wells,"September 28, 1976",24.0,NBA,SF,75.0,46.0,1995.0,7.0,13.1,0.53,0.3,0.9,0.34,6.7,12.2,0.55,2.9,4.3,0.66,2.2,4.5,6.6,3.8,1.7,0.4,3.0,3.7,17.1
 2002,25,3062,POR,Portland Trail Blazers,Bonzi Wells,"September 28, 1976",25.0,NBA,SG,74.0,69.0,2348.0,7.5,15.9,0.47,1.0,2.6,0.38,6.5,13.3,0.49,3.3,4.4,0.74,1.9,5.0,6.8,3.1,1.7,0.4,2.9,3.2,19.2
 2003,25,3062,POR,Portland Trail Blazers,Bonzi Wells,"September 28, 1976",26.0,NBA,SG,75.0,65.0,2396.0,6.6,14.9,0.44,0.6,2.0,0.29,6.0,12.9,0.46,3.4,4.7,0.72,1.5,4.4,5.9,3.7,1.8,0.3,3.2,3.3,17.1

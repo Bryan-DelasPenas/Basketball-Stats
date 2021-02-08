@@ -289,7 +289,8 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
-    
+        df['Season'] = df['Season'].replace(['1900'], '2000')
+       
         # Turn into a int 
         df['Season'] = df['Season'].apply(pd.to_numeric)
             
@@ -812,5 +813,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_career_stats("Tim Hardaway", "March 16, 1992"))
-#main()
+    print(get_player_stats("Aaron Williams", 'October 2, 1971'))
+main()

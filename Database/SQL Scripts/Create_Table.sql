@@ -373,13 +373,13 @@ CREATE TABLE IF NOT EXISTS Player_Stats(
     Birth_Date  		VARCHAR(30) NOT NULL,
     Player_Name 		VARCHAR(45) NOT NULL,
 	
-    UNIQUE(Season_ID, Team_ID, Player_ID),
+    CONSTRAINT Player_Stats_UNIQUE_Chk UNIQUE(Season_ID, Team_ID, Player_ID),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
     FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
-    CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CONSTRAINT Player_Stats_Season_ID_Chk CHECK (Season_ID BETWEEN 1980 AND 2021),
+    CONSTRAINT Player_Stats_Team_ID_Chk CHECK(Team_ID BETWEEN 1 and 31),
+    CONSTRAINT Player_Stats_Player_ID_Chk CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Advanced(

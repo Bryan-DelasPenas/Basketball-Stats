@@ -1,5 +1,6 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
 1999,10,1432,GSW,Golden State Warriors,Antawn Jamison,"June 12, 1976",22.0,NBA,SF,47.0,24.0,22.5,3.8,8.4,0.45,0.1,0.2,0.3,3.7,8.2,0.46,0.46,1.9,3.3,0.59,2.8,3.6,6.4,0.7,0.8,0.3,1.4,2.2,9.6
+2000,10,1432,GSW,Golden State Warriors,Antawn Jamison,"June 12, 1976",23.0,NBA,SF,43.0,41.0,36.2,8.3,17.6,0.47,0.0,0.2,0.29,8.2,17.4,0.47,0.47,3.0,4.8,0.61,4.0,4.3,8.3,2.1,0.7,0.3,2.6,2.7,19.6
 2001,10,1432,GSW,Golden State Warriors,Antawn Jamison,"June 12, 1976",24.0,NBA,SF,82.0,82.0,41.4,9.8,22.1,0.44,0.8,2.5,0.3,9.0,19.6,0.46,0.46,4.7,6.5,0.72,3.4,5.3,8.7,2.0,1.4,0.3,2.4,2.7,24.9
 2002,10,1432,GSW,Golden State Warriors,Antawn Jamison,"June 12, 1976",25.0,NBA,SF,82.0,82.0,37.0,7.5,16.8,0.45,0.8,2.6,0.32,6.7,14.2,0.47,0.47,3.9,5.4,0.73,2.6,4.2,6.8,2.0,0.9,0.5,2.0,2.3,19.7
 2003,10,1432,GSW,Golden State Warriors,Antawn Jamison,"June 12, 1976",26.0,NBA,SF,82.0,82.0,39.3,8.4,17.9,0.47,0.8,2.5,0.31,7.6,15.4,0.5,0.49,4.6,5.8,0.79,2.4,4.7,7.0,1.9,0.9,0.5,2.2,2.4,22.2

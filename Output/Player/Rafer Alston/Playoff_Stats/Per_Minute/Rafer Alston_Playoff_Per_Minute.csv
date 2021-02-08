@@ -1,4 +1,5 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2000,17,60,MIL,Milwaukee Bucks,Rafer Alston,"July 24, 1976",23.0,NBA,PG,4.0,0.0,16.0,0.0,6.8,0.0,0.0,2.3,0.0,0.0,4.5,0.0,0.0,4.5,0.0,0.0,0.0,0.0,2.3,0.0,0.0,2.3,0.0,0.0
 2001,17,60,MIL,Milwaukee Bucks,Rafer Alston,"July 24, 1976",24.0,NBA,PG,5.0,0.0,8.0,0.0,4.5,0.0,0.0,0.0,,0.0,4.5,0.0,0.0,0.0,,0.0,0.0,0.0,4.5,0.0,0.0,9.0,0.0,0.0
 2004,16,60,MIA,Miami Heat,Rafer Alston,"July 24, 1976",27.0,NBA,PG,13.0,0.0,295.0,3.5,11.1,0.32,1.5,6.3,0.23,2.1,4.8,0.44,2.6,3.1,0.84,0.5,3.1,3.5,2.7,0.6,0.1,1.2,2.7,11.1
 2007,11,60,HOU,Houston Rockets,Rafer Alston,"July 24, 1976",30.0,NBA,PG,7.0,7.0,309.0,2.9,8.6,0.34,1.9,5.8,0.32,1.0,2.8,0.38,1.2,1.5,0.77,0.7,4.9,5.6,4.1,1.5,0.3,2.0,2.7,8.9

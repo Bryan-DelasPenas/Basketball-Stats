@@ -1,4 +1,5 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
+2000,28,492,TOR,Toronto Raptors,Vince Carter,"January 26, 1977",23.0,NBA,SF,3.0,3.0,119.0,7.0,23.4,0.3,0.5,4.7,0.1,6.6,18.8,0.35,12.7,14.5,0.87,4.2,4.2,8.4,8.9,1.4,1.9,3.8,5.6,27.2,,104.0,103.0
 2001,28,492,TOR,Toronto Raptors,Vince Carter,"January 26, 1977",24.0,NBA,SF,12.0,12.0,539.0,12.5,28.7,0.44,2.6,6.3,0.41,9.9,22.4,0.44,5.9,7.6,0.78,3.8,4.2,8.0,5.7,2.0,2.0,2.8,4.6,33.5,,112.0,106.0
 2005,3,492,NJN,New Jersey Nets,Vince Carter,"January 26, 1977",28.0,NBA,SF,4.0,4.0,179.0,10.3,28.2,0.36,1.8,5.6,0.32,8.5,22.6,0.38,9.1,10.6,0.86,2.6,7.3,10.0,6.7,2.6,0.0,4.4,5.0,31.4,,99.0,111.0
 2006,3,492,NJN,New Jersey Nets,Vince Carter,"January 26, 1977",29.0,NBA,SG,11.0,11.0,450.0,13.6,29.4,0.46,1.7,7.0,0.24,11.9,22.4,0.53,10.4,13.0,0.8,1.9,7.4,9.3,7.0,2.4,0.7,3.1,4.1,39.3,,115.0,105.0

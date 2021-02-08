@@ -1,2 +1,3 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
 1996,2,1163,BOS,Boston Celtics,Thomas Hamilton,"April 3, 1975",20.0,NBA,C,11.0,70.0,4.3,0.32,0.0,0.58,15.6,19.7,17.6,2.1,0.0,9.0,18.8,29.5,-0.4,0.1,-0.3,-0.21,-11.3,-3.4,-14.7,-0.2
+2000,11,1163,HOU,Houston Rockets,Thomas Hamilton,"April 3, 1975",24.0,NBA,C,22.0,273.0,11.4,0.46,0.0,0.29,13.0,23.7,18.5,8.7,0.7,3.3,23.9,18.8,-0.3,0.3,0.0,0.0,-3.5,-0.5,-4.0,-0.1

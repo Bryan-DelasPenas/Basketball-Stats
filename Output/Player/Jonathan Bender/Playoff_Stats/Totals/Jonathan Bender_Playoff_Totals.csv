@@ -1,4 +1,5 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2000,12,215,IND,Indiana Pacers,Jonathan Bender,"January 30, 1981",19.0,NBA,SF,9.0,0.0,21.0,4.0,6.0,0.67,1.0,1.0,1.0,3.0,5.0,0.6,0.75,3.0,6.0,0.5,0.0,3.0,3.0,0.0,1.0,0.0,0.0,2.0,12.0
 2001,12,215,IND,Indiana Pacers,Jonathan Bender,"January 30, 1981",20.0,NBA,SF,1.0,0.0,4.0,0.0,1.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
 2002,12,215,IND,Indiana Pacers,Jonathan Bender,"January 30, 1981",21.0,NBA,SF,5.0,0.0,45.0,3.0,6.0,0.5,0.0,1.0,0.0,3.0,5.0,0.6,0.5,0.0,0.0,,0.0,4.0,4.0,2.0,2.0,3.0,5.0,6.0,6.0
 2003,12,215,IND,Indiana Pacers,Jonathan Bender,"January 30, 1981",22.0,NBA,SF,3.0,0.0,34.0,5.0,15.0,0.33,3.0,9.0,0.33,2.0,6.0,0.33,0.43,4.0,6.0,0.67,3.0,4.0,7.0,0.0,0.0,2.0,0.0,2.0,17.0
