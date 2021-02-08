@@ -9,58 +9,8 @@ import pathlib
 from pathlib import Path
 
 sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
-from Team_Constants import RIGHT_NAME_DICT, PLAYER_ID
-
-'''
-Creates database connection and returns the engine
-'''
-def create_connection():
-    connection_url = 'mysql+pymysql://bryan:bdelasp1@localhost:3306/BasketBallDB'
-    engine = sal.create_engine(connection_url)
-    
-    return engine
-
-'''
-Function that tests the connection of the database
-'''
-def test_connection(engine):
-    # Test the connection of the database
-    try:
-        conn = engine.connect()
-        print("Connected to BasketBall Database")
-        return conn
-
-    except:
-        raise Exception("Did not connect to BasketBall Database")
-
-'''
-Function that test to see if the table has been created
-'''
-def check_table(tablename):
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
-    trans = conn.begin()
-    
-    # Test to see if the table exists
-    test = conn.execute(
-    """
-    SHOW TABLES 
-    LIKE %s
-    """, tablename
-    ).fetchall()    
-    trans.commit()
-    
-    # Check if the list is empty 
-    if test:
-        print("Table exists")
-        return True
-    
-    else:
-        print("Table does not exists")
-        return False
+from Team_Constants import RIGHT_NAME_DICT, PLAYER_ID, REVERSE_RIGHT_DICT
+from Helper_DB import test_connection, create_connection, check_table
 
 '''
 Function that inserts Season Entities into database
@@ -676,7 +626,11 @@ def insert_all_player_stats():
 
     player_directories = os.listdir(path)
     for x in range(len(player_directories)):
-        second_path = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", player_directories[x] + "_Regular_Per_Game.csv")
+        
+        if(player_directories[x] in REVERSE_RIGHT_DICT):
+            second_path = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Per_Game.csv")
+        else:
+            second_path = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", player_directories[x] + "_Regular_Per_Game.csv")
         df = pd.read_csv(second_path)
         df = df.drop(['Age', 'League', 'Pos', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%', '2P','2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF','PTS'], axis=1)
         df = df[['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Birth Date', 'Player Name']]
@@ -684,6 +638,14 @@ def insert_all_player_stats():
         df_filter = df[df['Season'] <= 2020]
 
         insert_player_stats(df_filter)
+
+'''
+Calls insert_player_advanced
+'''
+def insert_all_player_advanced():
+    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    
+    player_directories = os.listdir(path)
 
 '''
 Main function 

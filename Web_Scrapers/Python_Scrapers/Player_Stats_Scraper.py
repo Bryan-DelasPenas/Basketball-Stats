@@ -300,13 +300,14 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         else:
             df = df.rename(columns={'Tm': 'Team ABV'})
         df['Team'] = df['Team ABV'].apply(lambda x: check_abv(x))
-
+        df['Team ABV'] = df['Team ABV'].replace(['CHH'], 'CHO')
+        
         # Create a new column for Team ID
         df['Team ID'] = df['Team ABV'].apply(lambda x: check_team_id(x))
         
         # Uppercases Team name
         df['Team'] = df['Team'].apply(lambda x: str(x).title())
-
+        
         name_tuple = (record[0][0], record[0][1])
         
         if(name_tuple in RIGHT_NAME_DICT):
@@ -368,10 +369,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
                 df['TOV'] = df['TOV'].apply(pd.to_numeric)
                 df['PF'] = df['PF'].apply(pd.to_numeric)
                 df['PTS'] = df['PTS'].apply(pd.to_numeric)
-                
-           
-            return df
-        
+                    
         else:
             pass
         
@@ -379,6 +377,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
         df = df.reset_index(drop=True)
+       
         #
         if(format == "ADVANCED"):
             df = df.drop(['Unnamed: 19', 'Unnamed: 24'], axis=1)
@@ -813,5 +812,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_player_stats("Aaron Williams", 'October 2, 1971'))
+    print(get_player_stats('Jared Dudley', 'July 10, 1985'))
 main()

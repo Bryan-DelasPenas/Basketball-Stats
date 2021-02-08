@@ -1,3 +1,3 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1992,27.0,2789,SAS,San Antonio Spurs,Greg Sutton,"December 3, 1967",24.0,NBA,PG,2.0,0.0,15.0,6.8,20.4,0.33,0.0,6.8,0.0,6.8,13.6,0.5,10.2,10.2,1.0,0.0,0.0,0.0,6.8,3.4,3.4,0.0,10.2,23.9,,123.0,119.0
-1995,,2789,CHH,None,Greg Sutton,"December 3, 1967",27.0,NBA,PG,3.0,0.0,23.0,0.0,17.2,0.0,0.0,12.3,0.0,0.0,4.9,0.0,0.0,0.0,,7.4,4.9,12.3,7.4,0.0,0.0,2.5,2.5,0.0,,44.0,116.0
+1992,27,2789,SAS,San Antonio Spurs,Greg Sutton,"December 3, 1967",24.0,NBA,PG,2.0,0.0,15.0,6.8,20.4,0.33,0.0,6.8,0.0,6.8,13.6,0.5,10.2,10.2,1.0,0.0,0.0,0.0,6.8,3.4,3.4,0.0,10.2,23.9,,123.0,119.0
+1995,4,2789,CHO,Charlotte Hornets,Greg Sutton,"December 3, 1967",27.0,NBA,PG,3.0,0.0,23.0,0.0,17.2,0.0,0.0,12.3,0.0,0.0,4.9,0.0,0.0,0.0,,7.4,4.9,12.3,7.4,0.0,0.0,2.5,2.5,0.0,,44.0,116.0

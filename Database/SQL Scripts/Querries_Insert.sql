@@ -43,6 +43,6 @@ SELECT *
 FROM Team_Totals;
 
 SELECT *
-FROM Team_Stats
-WHERE Season_ID = 1980;
+FROM Team
+WHERE Season_ID = 1994;
 
