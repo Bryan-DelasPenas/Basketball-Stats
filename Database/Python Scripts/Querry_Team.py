@@ -28,7 +28,7 @@ def querry_all_team_single_pk(format, id_one, id_two = None):
 
     elif(format == "team"):
         selector = "Team_ID"
-
+    
     # Connect to sql database
     engine = create_connection()
     
@@ -41,31 +41,60 @@ def querry_all_team_single_pk(format, id_one, id_two = None):
     if(check_table('Team')):
         
         # Only one pk value was inputed
-        if(id_two is None):
+        if(selector == "Season_ID" and id_two is None):
             try:
                 # Create a parameterized querry 
                 querry = conn.execute(
                 """
                 SELECT *
                 FROM Team
-                WHERE %s = %s
-                """, selector, id_one)
+                WHERE Season_ID = %s
+                """,  id_one)
                 trans.commit()
                 print("Querry_Team_Single_Pk was successful ")
-      
+                
+            except:
+                raise Exception("Querry_Team_Single_Pk failed")
+        
+        elif(selector == "Season_ID" and id_two):
+            try:
+                # Create a parameterized querry 
+                querry = conn.execute(
+                """
+                SELECT *
+                FROM Team
+                WHERE Season_ID BETWEEN %s AND %s
+                """,  id_one, id_two)
+                trans.commit()
+                print("Querry_Team_Single_Pk was successful ")
+                
             except:
                 raise Exception("Querry_Team_Single_Pk failed")
 
-        # Two pk values was inputed 
-        else:
+        elif(selector == "Team_ID" and id_two is None):
             try:
                 # Create a parameterized querry 
                 querry = conn.execute(
                 """
                 SELECT *
                 FROM Team
-                WHERE %s BETWEEN %s AND %s
-                """, selector, id_one, id_two)
+                WHERE Team_ID = %s
+                """, id_one)
+                trans.commit()
+                print("Querry_Team_Single_Pk was successful ")
+            except:
+                raise Exception("Querry_Team_Single_Pk failed")
+    
+        # Two pk values was inputed 
+        elif(selector == "Team_ID" and id_two):
+            try:
+                # Create a parameterized querry 
+                querry = conn.execute(
+                """
+                SELECT *
+                FROM Team
+                WHERE Team_ID BETWEEN %s AND %s
+                """, id_one, id_two)
                 trans.commit()
                 print("Querry_Team_Single_Pk was successful ")
             except:
@@ -75,6 +104,7 @@ def querry_all_team_single_pk(format, id_one, id_two = None):
     
     df = pd.DataFrame(querry.fetchall())
     df.columns = querry.keys()
+    return df
 
 '''
 Input: s_id_one = first season_id value
@@ -145,8 +175,11 @@ def querry_all_team_double_pk(s_id_one, t_id_one, s_id_two = None, t_id_two = No
     else:
         raise Exception("Table Team not Found")
 
-
-
+'''
+Input: format = either Team_Name or ABV
+       string = either a Team_Name or Team_ABV
+Returns all column inside of Teams based on Team_Name or Team_ABV
+'''
 def querry_all_teams_name_or_abv(format, string):
     # Connect to sql database
     engine = create_connection()
@@ -157,5 +190,38 @@ def querry_all_teams_name_or_abv(format, string):
     trans = conn.begin()
 
     # Check if the table exists 
-    #if(check_table('Team')):
+    if(check_table('Team')):
+        if(format == 'abv'):
+            try:
+                # Create a parameterized querry 
+                querry = conn.execute(
+                """
+                SELECT *
+                FROM Team
+                WHERE Team_ABV = %s 
+                """, string)
+                trans.commit()
+                print("Querry_All_Teams_Name_Or_Abv was Successful ")
+            except:
+                raise Exception("Querry_All_Teams_Name_Or_Abv Failed")
+        elif(format == 'name'):
+            try:
+                # Create a parameterized querry 
+                querry = conn.execute(
+                """
+                SELECT *
+                FROM Team
+                WHERE Team_Name = %s 
+                """, string)
+                trans.commit()
+                print("Querry_All_Teams_Name_Or_Abv was Successful ")
+            except:
+                raise Exception("Querry_All_Teams_Name_Or_Abv Failed")
+    else:
+        raise Exception("Table was not Found")
 
+
+def main():
+    df = querry_all_team_single_pk('Team', 1, 5)
+   
+main()

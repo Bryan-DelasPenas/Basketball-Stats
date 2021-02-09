@@ -389,10 +389,13 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     Team_ABV                      VARCHAR(3) NOT NULL,
     Team_Name                     VARCHAR(45) NOT NULL,
     Player_Name                   VARCHAR(45) NOT NULL,
+    Birth_Date                    VARCHAR(45) NOT NULL,
     Player_Age                    VARCHAR(45) NOT NULL, 
-    Games_Played       	          INT NOT NULL, 
-    Minutes_Played                INT NOT NULL,
-    Per_Minute_Production         FLOAT NOT NULL,
+    League                        VARCHAR(3),
+    Player_Postion                VARCHAR(20),
+    Games_Played       	          INT, 
+    Minutes_Played                INT,
+    Per_Minute_Production         FLOAT,
     True_Shooting_Percent         FLOAT, 
     Three_Points_Attempted        FLOAT,
     Free_Throws_Per_Field_Goals   FLOAT,
@@ -412,7 +415,7 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     Defensive_Box_Score           FLOAT,
     Box_Plus_Minus                FLOAT,
     Value_Over_Replacement        FLOAT,
-    Stat_Form                     VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                     BOOLEAN NOT NULL,  -- Career | Regular | Playoffs
 
     UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
@@ -429,6 +432,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game(
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
     Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
     Player_Postion                  VARCHAR(2),
@@ -474,6 +478,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
     Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
     Player_Postion                  VARCHAR(2),
@@ -518,6 +523,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
     Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
     Player_Postion                  VARCHAR(2),
@@ -564,12 +570,13 @@ CREATE TABLE IF NOT EXISTS Player_Per_Totals(
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
     Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
-    Player_Postion                  VARCHAR(2),
-    Games_Played       	            INT NOT NULL, 
+    Player_Postion                  VARCHAR(10),
+    Games_Played       	            INT, 
     Games_Started                   INT,
-    Minutes_Played                  INT NOT NULL,
+    Minutes_Played                  INT,
     Field_Goals_Made                FLOAT,
     Field_Goals_Attempted           FLOAT,
     Field_Goals_Percentage          FLOAT,
@@ -602,3 +609,48 @@ CREATE TABLE IF NOT EXISTS Player_Per_Totals(
     CHECK(Team_ID BETWEEN 1 and 31),
     CHECK(Player_ID BETWEEN 1 and 3278)
 );
+
+CREATE TABLE IF NOT EXISTS Player_Career_Stats(
+	Player_ID           INT NOT NULL,
+    Birth_Date  		VARCHAR(30) NOT NULL,
+    Player_Name 		VARCHAR(45) NOT NULL,
+	
+    PRIMARY KEY (Player_ID),
+    FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
+    CONSTRAINT CHECK(Player_ID BETWEEN 1 and 3278)
+);
+
+CREATE TABLE IF NOT EXISTS Player_Career_Advanced(
+	Player_ID                     INT NOT NULL,
+    Player_Name                   VARCHAR(45) NOT NULL,
+    Birth_Date                    VARCHAR(45) NOT NULL,
+    Games_Played       	          INT, 
+    Minutes_Played                INT,
+    Per_Minute_Production         FLOAT,
+    True_Shooting_Percent         FLOAT, 
+    Three_Points_Attempted        FLOAT,
+    Free_Throws_Per_Field_Goals   FLOAT,
+    Offensive_Rebound_Percentage  FLOAT,
+    Defensive_Rebound_Percentage  FLOAT,
+    True_Rebound_Percentage       FLOAT, 
+    Assit_Percentage              FLOAT,
+    Steal_Percentage              FLOAT,
+    Block_Percentage              FLOAT,
+    Turn_Over_Percentage          FLOAT,
+    Usage_Percentage              FLOAT,
+    Offensive_Win_Shares          FLOAT, 
+    Defensive_Win_Shares          FLOAT, 
+    Win_Shares                    FLOAT,
+    Win_Shares_Fourty_Eight       FLOAT,
+    Offensive_Box_Score           FLOAT,
+    Defensive_Box_Score           FLOAT,
+    Box_Plus_Minus                FLOAT,
+    Value_Over_Replacement        FLOAT,
+    Stat_Form                     BOOLEAN NOT NULL,  --  Regular | Playoffs
+	
+	UNIQUE(Player_ID, Stat_Form),
+	PRIMARY KEY (Player_ID),
+	FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID), 
+	CHECK(Player_ID BETWEEN 1 and 3278)
+);
+    
