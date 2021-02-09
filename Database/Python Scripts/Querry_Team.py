@@ -219,9 +219,3 @@ def querry_all_teams_name_or_abv(format, string):
                 raise Exception("Querry_All_Teams_Name_Or_Abv Failed")
     else:
         raise Exception("Table was not Found")
-
-
-def main():
-    df = querry_all_team_single_pk('Team', 1, 5)
-   
-main()

@@ -1,4 +1,7 @@
 USE BasketBallDB;
+DROP TABLE IF EXISTS Player_Career_Per_Poss;
+DROP TABLE IF EXISTS Player_Career_Per_Minute;
+DROP TABLE IF EXISTS Player_Career_Per_Game;
 DROP TABLE IF EXISTS Player_Career_Advanced;
 DROP TABLE IF EXISTS Player_Career_Stats;
 DROP TABLE IF EXISTS Player_Per_Totals;
