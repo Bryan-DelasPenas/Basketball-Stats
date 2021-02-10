@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2005,31,146,TOT,Total After Trade,Maurice Baker,"July 28, 1979",25.0,NBA,PG,5.0,0.0,19.0,0.0,2.8,0.0,0.0,0.0,,0.0,2.8,0.0,0.0,0.0,,2.8,2.8,5.6,2.8,2.8,0.0,2.8,8.4,0.0,,48.0,109.0
-2005,13,146,LAC,Los Angeles Clippers,Maurice Baker,"July 28, 1979",25.0,NBA,PG,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,116.0
-2005,25,146,POR,Portland Trail Blazers,Maurice Baker,"July 28, 1979",25.0,NBA,PG,4.0,0.0,18.0,0.0,3.0,0.0,0.0,0.0,,0.0,3.0,0.0,0.0,0.0,,3.0,3.0,5.9,3.0,3.0,0.0,3.0,8.9,0.0,,48.0,109.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2005,31,146,TOT,Total After Trade,Maurice Baker,"July 28, 1979",25.0,NBA,PG,5.0,0.0,19.0,0.0,2.8,0.0,0.0,0.0,,0.0,2.8,0.0,0.0,0.0,,2.8,2.8,5.6,2.8,2.8,0.0,2.8,8.4,0.0,48.0,109.0
+2005,13,146,LAC,Los Angeles Clippers,Maurice Baker,"July 28, 1979",25.0,NBA,PG,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,116.0
+2005,25,146,POR,Portland Trail Blazers,Maurice Baker,"July 28, 1979",25.0,NBA,PG,4.0,0.0,18.0,0.0,3.0,0.0,0.0,0.0,,0.0,3.0,0.0,0.0,0.0,,3.0,3.0,5.9,3.0,3.0,0.0,3.0,8.9,0.0,48.0,109.0

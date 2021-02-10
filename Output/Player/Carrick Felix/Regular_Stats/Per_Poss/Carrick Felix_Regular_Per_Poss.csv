@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2014,6,901,CLE,Cleveland Cavaliers,Carrick Felix,"August 17, 1990",23.0,NBA,SG,7,0,38,9.5,19.0,0.5,2.7,6.8,0.4,6.8,12.2,0.56,4.1,5.4,0.75,1.4,6.8,8.1,5.4,0.0,0.0,5.4,5.4,25.8,,104,112
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2014,6,901,CLE,Cleveland Cavaliers,Carrick Felix,"August 17, 1990",23.0,NBA,SG,7,0,38,9.5,19.0,0.5,2.7,6.8,0.4,6.8,12.2,0.56,4.1,5.4,0.75,1.4,6.8,8.1,5.4,0.0,0.0,5.4,5.4,25.8,104,112

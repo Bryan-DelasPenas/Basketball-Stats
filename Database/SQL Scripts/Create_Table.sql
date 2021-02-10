@@ -563,7 +563,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     CHECK(Player_ID BETWEEN 1 and 3278)
 );
 
-CREATE TABLE IF NOT EXISTS Player_Per_Totals(
+CREATE TABLE IF NOT EXISTS Player_Totals(
     Season_ID                       INT NOT NULL,
     Team_ID                         INT NOT NULL,
     Player_ID                       INT NOT NULL,
@@ -728,7 +728,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
 );
 
 CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
- Player_ID                       INT NOT NULL,
+	Player_ID                       INT NOT NULL,
     Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
     Birth_Date                      VARCHAR(45) NOT NULL,
     Games_Played       	            INT NOT NULL, 
@@ -763,4 +763,42 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
     PRIMARY KEY (Player_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
     CHECK(Player_ID BETWEEN 1 and 3278) 
+);
+
+CREATE TABLE IF NOT EXISTS Player_Career_Totals(
+	Player_ID                       INT NOT NULL,
+    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Birth_Date                      VARCHAR(45) NOT NULL,
+    Games_Played       	            INT, 
+    Games_Started                   INT,
+    Minutes_Played                  INT,
+    Field_Goals_Made                FLOAT,
+    Field_Goals_Attempted           FLOAT,
+    Field_Goals_Percentage          FLOAT,
+    Three_Points_Made               FLOAT,
+    Three_Points_Attempted          FLOAT,
+    Three_Points_Percentage         FLOAT,
+    Two_Points_Made                 FLOAT, 
+    Two_Points_Attempted            FLOAT,
+    Two_Points_Percentage           FLOAT,
+    Effective_Field_Goal_Percentage FLOAT,
+    Free_Throws_Made                FLOAT,
+    Free_Throws_Attempted           FLOAT,
+    Free_Throws_Percentage          FLOAT,
+    Offensive_Rebounds               FLOAT,
+    Defensive_Rebounds               FLOAT,
+    True_Rebounds                    FLOAT,
+    Assists                         FLOAT,
+    Steals                          FLOAT,
+    Blocks                          FLOAT,
+    Turn_Over                       FLOAT,
+    Personal_Fouls                   FLOAT,
+    Points                          FLOAT,
+    Triple_Double                   INT,
+    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+
+	UNIQUE(Player_ID, Stat_Form),
+    PRIMARY KEY (Player_ID),
+    FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
+    CHECK(Player_ID BETWEEN 1 and 3278)
 );

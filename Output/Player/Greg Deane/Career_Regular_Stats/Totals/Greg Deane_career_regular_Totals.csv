@@ -1,2 +1,2 @@
-Team ID,Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
-29,716,Greg Deane,"December 6, 1957",7,0.0,48,2,11,0.18,1,1,1.0,1,10,0.1,0.23,5,7,0.71,2,4,6,6,0,0,3,3,10,0
+Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
+716,Greg Deane,"December 6, 1957",7,0.0,48,2,11,0.18,1,1,1.0,1,10,0.1,0.23,5,7,0.71,2,4,6,6,0,0,3,3,10,0

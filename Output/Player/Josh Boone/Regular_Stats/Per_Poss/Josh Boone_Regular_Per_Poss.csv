@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2007,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",22.0,NBA,PF,61,0,669,7.8,13.4,0.58,0.0,0.0,,7.8,13.4,0.58,4.4,8.1,0.54,5.0,8.8,13.8,0.8,0.9,1.6,2.6,7.4,19.9,,111,105
-2008,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",23.0,NBA,PF,70,53,1773,7.0,12.8,0.55,0.0,0.0,,7.0,12.8,0.55,2.9,6.4,0.46,5.7,9.4,15.1,1.6,1.1,1.8,2.0,4.6,17.0,,110,108
-2009,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",24.0,NBA,C,62,7,995,6.1,11.5,0.53,0.0,0.0,,6.1,11.5,0.53,1.7,4.6,0.38,5.6,8.3,13.8,1.7,1.2,2.6,1.7,5.7,13.8,,110,109
-2010,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",25.0,NBA,PF,63,28,1045,5.9,11.2,0.52,0.0,0.0,,5.9,11.2,0.52,1.0,2.9,0.33,6.2,9.6,15.8,1.5,1.5,2.4,1.9,5.6,12.7,,107,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2007,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",22.0,NBA,PF,61,0,669,7.8,13.4,0.58,0.0,0.0,,7.8,13.4,0.58,4.4,8.1,0.54,5.0,8.8,13.8,0.8,0.9,1.6,2.6,7.4,19.9,111,105
+2008,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",23.0,NBA,PF,70,53,1773,7.0,12.8,0.55,0.0,0.0,,7.0,12.8,0.55,2.9,6.4,0.46,5.7,9.4,15.1,1.6,1.1,1.8,2.0,4.6,17.0,110,108
+2009,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",24.0,NBA,C,62,7,995,6.1,11.5,0.53,0.0,0.0,,6.1,11.5,0.53,1.7,4.6,0.38,5.6,8.3,13.8,1.7,1.2,2.6,1.7,5.7,13.8,110,109
+2010,3,295,NJN,New Jersey Nets,Josh Boone,"November 21, 1984",25.0,NBA,PF,63,28,1045,5.9,11.2,0.52,0.0,0.0,,5.9,11.2,0.52,1.0,2.9,0.33,6.2,9.6,15.8,1.5,1.5,2.4,1.9,5.6,12.7,107,107

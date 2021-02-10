@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2020,31,974,TOT,Total After Trade,Wenyen Gabriel,"March 26, 1997",22.0,NBA,PF,30.0,1.0,235.0,4.3,9.8,0.44,1.2,4.1,0.3,3.1,5.7,0.54,3.1,4.5,0.68,4.3,6.3,10.6,1.6,2.2,1.4,3.3,7.9,12.8,,103.0,112.0
-2020,26,974,SAC,Sacramento Kings,Wenyen Gabriel,"March 26, 1997",22.0,NBA,PF,11.0,0.0,61.0,4.8,13.5,0.35,0.8,6.4,0.12,4.0,7.2,0.56,4.8,8.0,0.6,3.2,4.8,8.0,2.4,2.4,1.6,4.0,5.6,15.1,,87.0,110.0
-2020,25,974,POR,Portland Trail Blazers,Wenyen Gabriel,"March 26, 1997",22.0,NBA,PF,19.0,1.0,174.0,4.1,8.5,0.48,1.4,3.3,0.42,2.7,5.2,0.53,2.5,3.3,0.75,4.7,6.8,11.5,1.4,2.2,1.4,3.0,8.8,12.1,,112.0,112.0
-2021,19,974,NOP,New Orleans Pelicans,Wenyen Gabriel,"March 26, 1997",23.0,NBA,PF,2.0,0.0,8.0,0.0,18.2,0.0,0.0,6.1,0.0,0.0,12.1,0.0,0.0,0.0,,6.1,12.1,18.2,6.1,0.0,0.0,0.0,0.0,0.0,,46.0,115.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2020,31,974,TOT,Total After Trade,Wenyen Gabriel,"March 26, 1997",22.0,NBA,PF,30.0,1.0,235.0,4.3,9.8,0.44,1.2,4.1,0.3,3.1,5.7,0.54,3.1,4.5,0.68,4.3,6.3,10.6,1.6,2.2,1.4,3.3,7.9,12.8,103.0,112.0
+2020,26,974,SAC,Sacramento Kings,Wenyen Gabriel,"March 26, 1997",22.0,NBA,PF,11.0,0.0,61.0,4.8,13.5,0.35,0.8,6.4,0.12,4.0,7.2,0.56,4.8,8.0,0.6,3.2,4.8,8.0,2.4,2.4,1.6,4.0,5.6,15.1,87.0,110.0
+2020,25,974,POR,Portland Trail Blazers,Wenyen Gabriel,"March 26, 1997",22.0,NBA,PF,19.0,1.0,174.0,4.1,8.5,0.48,1.4,3.3,0.42,2.7,5.2,0.53,2.5,3.3,0.75,4.7,6.8,11.5,1.4,2.2,1.4,3.0,8.8,12.1,112.0,112.0
+2021,19,974,NOP,New Orleans Pelicans,Wenyen Gabriel,"March 26, 1997",23.0,NBA,PF,3.0,0.0,10.0,0.0,14.6,0.0,0.0,4.9,0.0,0.0,9.7,0.0,0.0,0.0,,4.9,14.6,19.4,4.9,0.0,0.0,0.0,0.0,0.0,46.0,113.0

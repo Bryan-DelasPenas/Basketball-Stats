@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2010,13,654,LAC,Los Angeles Clippers,JamesOn Curry,"January 7, 1986",24.0,NBA,PG,1,0,0,,,,,,,,,,,,,,,,,,,,,,,,
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2010,13,654,LAC,Los Angeles Clippers,JamesOn Curry,"January 7, 1986",24.0,NBA,PG,1,0,0,,,,,,,,,,,,,,,,,,,,,,,

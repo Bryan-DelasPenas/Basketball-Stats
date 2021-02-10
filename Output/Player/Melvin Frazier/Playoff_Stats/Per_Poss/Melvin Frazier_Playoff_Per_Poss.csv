@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2019,22,958,ORL,Orlando Magic,Melvin Frazier,"August 30, 1996",22.0,NBA,SG,3,0,15,6.7,16.7,0.4,0.0,0.0,,6.7,16.7,0.4,3.3,6.7,0.5,3.3,10.0,13.4,0.0,3.3,0.0,0.0,0.0,16.7,,95,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2019,22,958,ORL,Orlando Magic,Melvin Frazier,"August 30, 1996",22.0,NBA,SG,3,0,15,6.7,16.7,0.4,0.0,0.0,,6.7,16.7,0.4,3.3,6.7,0.5,3.3,10.0,13.4,0.0,3.3,0.0,0.0,0.0,16.7,95,107

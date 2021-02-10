@@ -1,2 +1,2 @@
-Team ID,Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
-1,371,Charlie Brown,"February 2, 1997",10,0,40,6,19,0.32,3,9,0.33,3,10,0.3,0.39,5,5,1.0,2,2,4,2,2,2,3,3,20,0
+Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
+371,Charlie Brown,"February 2, 1997",10,0,40,6,19,0.32,3,9,0.33,3,10,0.3,0.39,5,5,1.0,2,2,4,2,2,2,3,3,20,0

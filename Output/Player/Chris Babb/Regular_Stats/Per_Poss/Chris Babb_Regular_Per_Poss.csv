@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2014,2,132,BOS,Boston Celtics,Chris Babb,"February 14, 1990",23.0,NBA,SG,14,0,132,3.1,11.7,0.27,2.3,10.5,0.22,0.8,1.2,0.67,0.0,0.0,,1.6,5.1,6.6,1.2,2.3,0.0,1.2,5.1,8.6,,82,108
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2014,2,132,BOS,Boston Celtics,Chris Babb,"February 14, 1990",23.0,NBA,SG,14,0,132,3.1,11.7,0.27,2.3,10.5,0.22,0.8,1.2,0.67,0.0,0.0,,1.6,5.1,6.6,1.2,2.3,0.0,1.2,5.1,8.6,82,108

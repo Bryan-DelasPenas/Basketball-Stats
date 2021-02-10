@@ -1,6 +1,6 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1990,22,88,ORL,Orlando Magic,Michael Ansley,"February 8, 1967",22.0,NBA,SF,72.0,5.0,1221.0,8.7,17.6,0.5,0.0,0.0,,8.7,17.6,0.5,6.2,8.6,0.72,7.1,6.6,13.7,1.5,0.9,0.6,1.9,5.7,23.6,,120.0,115.0
-1991,22,88,ORL,Orlando Magic,Michael Ansley,"February 8, 1967",23.0,NBA,SF,67.0,1.0,877.0,7.9,14.5,0.55,0.0,0.0,,7.9,14.5,0.55,5.0,7.0,0.72,6.7,7.2,13.9,1.4,1.5,0.4,1.8,6.9,20.9,,126.0,109.0
-1992,31,88,TOT,Total After Trade,Michael Ansley,"February 8, 1967",24.0,NBA,SF,10.0,0.0,45.0,8.9,20.0,0.44,0.0,0.0,,8.9,20.0,0.44,5.6,6.7,0.83,2.2,4.4,6.7,2.2,0.0,0.0,3.3,7.8,23.3,,100.0,116.0
-1992,23,88,PHI,Philadelphia 76Ers,Michael Ansley,"February 8, 1967",24.0,NBA,SF,8.0,0.0,32.0,8.0,17.6,0.46,0.0,0.0,,8.0,17.6,0.46,8.0,9.6,0.83,3.2,3.2,6.4,3.2,0.0,0.0,4.8,9.6,24.0,,103.0,116.0
-1992,4,88,CHO,Charlotte Hornets,Michael Ansley,"February 8, 1967",24.0,NBA,SF,2.0,0.0,13.0,10.9,25.4,0.43,0.0,0.0,,10.9,25.4,0.43,0.0,0.0,,0.0,7.3,7.3,0.0,0.0,0.0,0.0,3.6,21.8,,92.0,114.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1990,22,88,ORL,Orlando Magic,Michael Ansley,"February 8, 1967",22.0,NBA,SF,72.0,5.0,1221.0,8.7,17.6,0.5,0.0,0.0,,8.7,17.6,0.5,6.2,8.6,0.72,7.1,6.6,13.7,1.5,0.9,0.6,1.9,5.7,23.6,120.0,115.0
+1991,22,88,ORL,Orlando Magic,Michael Ansley,"February 8, 1967",23.0,NBA,SF,67.0,1.0,877.0,7.9,14.5,0.55,0.0,0.0,,7.9,14.5,0.55,5.0,7.0,0.72,6.7,7.2,13.9,1.4,1.5,0.4,1.8,6.9,20.9,126.0,109.0
+1992,31,88,TOT,Total After Trade,Michael Ansley,"February 8, 1967",24.0,NBA,SF,10.0,0.0,45.0,8.9,20.0,0.44,0.0,0.0,,8.9,20.0,0.44,5.6,6.7,0.83,2.2,4.4,6.7,2.2,0.0,0.0,3.3,7.8,23.3,100.0,116.0
+1992,23,88,PHI,Philadelphia 76Ers,Michael Ansley,"February 8, 1967",24.0,NBA,SF,8.0,0.0,32.0,8.0,17.6,0.46,0.0,0.0,,8.0,17.6,0.46,8.0,9.6,0.83,3.2,3.2,6.4,3.2,0.0,0.0,4.8,9.6,24.0,103.0,116.0
+1992,4,88,CHO,Charlotte Hornets,Michael Ansley,"February 8, 1967",24.0,NBA,SF,2.0,0.0,13.0,10.9,25.4,0.43,0.0,0.0,,10.9,25.4,0.43,0.0,0.0,,0.0,7.3,7.3,0.0,0.0,0.0,0.0,3.6,21.8,92.0,114.0

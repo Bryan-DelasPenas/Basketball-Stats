@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1985,20,507,NYK,New York Knicks,Ron Cavenall,"April 30, 1959",25.0,NBA,C,53.0,2.0,653.0,2.1,6.4,0.33,0.0,0.0,,2.1,6.4,0.33,1.6,2.9,0.56,3.9,8.3,12.3,1.4,0.9,3.1,3.3,9.1,5.8,,76.0,107.0
-1989,3,507,NJN,New Jersey Nets,Ron Cavenall,"April 30, 1959",29.0,NBA,C,5.0,0.0,16.0,6.0,9.0,0.67,0.0,0.0,,6.0,9.0,0.67,6.0,15.0,0.4,0.0,6.0,6.0,0.0,0.0,6.0,6.0,6.0,18.0,,79.0,108.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1985,20,507,NYK,New York Knicks,Ron Cavenall,"April 30, 1959",25.0,NBA,C,53.0,2.0,653.0,2.1,6.4,0.33,0.0,0.0,,2.1,6.4,0.33,1.6,2.9,0.56,3.9,8.3,12.3,1.4,0.9,3.1,3.3,9.1,5.8,76.0,107.0
+1989,3,507,NJN,New Jersey Nets,Ron Cavenall,"April 30, 1959",29.0,NBA,C,5.0,0.0,16.0,6.0,9.0,0.67,0.0,0.0,,6.0,9.0,0.67,6.0,15.0,0.4,0.0,6.0,6.0,0.0,0.0,6.0,6.0,6.0,18.0,79.0,108.0

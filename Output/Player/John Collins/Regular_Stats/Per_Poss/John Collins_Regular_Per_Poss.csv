@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2018,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",20.0,NBA,PF,74,26,1785,8.6,14.9,0.58,0.4,1.3,0.34,8.2,13.6,0.6,3.6,5.1,0.72,4.8,10.0,14.8,2.7,1.3,2.2,2.9,5.9,21.3,,117,108
-2019,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",21.0,NBA,PF,61,59,1829,11.7,21.0,0.56,1.4,4.0,0.35,10.4,17.0,0.61,5.1,6.7,0.76,5.5,9.5,15.0,3.1,0.6,1.0,3.0,5.0,30.0,,122,115
-2020,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",22.0,NBA,PF,41,41,1363,12.1,20.7,0.58,2.0,5.0,0.4,10.1,15.7,0.64,4.1,5.1,0.8,4.0,10.3,14.2,2.1,1.1,2.3,2.6,4.7,30.3,,124,112
-2021,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",23.0,NBA,PF,23,23,728,10.8,19.6,0.55,2.3,5.5,0.41,8.5,14.1,0.6,3.5,4.2,0.82,3.2,8.7,11.9,2.5,0.7,1.6,2.1,5.1,27.3,,124,111
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2018,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",20.0,NBA,PF,74,26,1785,8.6,14.9,0.58,0.4,1.3,0.34,8.2,13.6,0.6,3.6,5.1,0.72,4.8,10.0,14.8,2.7,1.3,2.2,2.9,5.9,21.3,117,108
+2019,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",21.0,NBA,PF,61,59,1829,11.7,21.0,0.56,1.4,4.0,0.35,10.4,17.0,0.61,5.1,6.7,0.76,5.5,9.5,15.0,3.1,0.6,1.0,3.0,5.0,30.0,122,115
+2020,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",22.0,NBA,PF,41,41,1363,12.1,20.7,0.58,2.0,5.0,0.4,10.1,15.7,0.64,4.1,5.1,0.8,4.0,10.3,14.2,2.1,1.1,2.3,2.6,4.7,30.3,124,112
+2021,1,573,ATL,Atlanta Hawks,John Collins,"September 23, 1997",23.0,NBA,PF,23,23,728,10.8,19.6,0.55,2.3,5.5,0.41,8.5,14.1,0.6,3.5,4.2,0.82,3.2,8.7,11.9,2.5,0.7,1.6,2.1,5.1,27.3,124,111

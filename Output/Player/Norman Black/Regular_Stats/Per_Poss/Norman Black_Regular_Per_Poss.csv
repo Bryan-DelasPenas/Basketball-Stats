@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1981,9,252,DET,Detroit Pistons,Norman Black,"November 12, 1957",23.0,NBA,SG,3,,28,5.1,16.9,0.3,0.0,0.0,,5.1,16.9,0.3,3.4,13.5,0.25,0.0,3.4,3.4,3.4,1.7,0.0,1.7,3.4,13.5,,68,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1981,9,252,DET,Detroit Pistons,Norman Black,"November 12, 1957",23.0,NBA,SG,3,,28,5.1,16.9,0.3,0.0,0.0,,5.1,16.9,0.3,3.4,13.5,0.25,0.0,3.4,3.4,3.4,1.7,0.0,1.7,3.4,13.5,68,107

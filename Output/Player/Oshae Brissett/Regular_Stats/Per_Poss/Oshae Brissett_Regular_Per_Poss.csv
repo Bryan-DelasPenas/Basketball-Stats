@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2020,28,353,TOR,Toronto Raptors,Oshae Brissett,"June 20, 1998",21.0,NBA,SF,19,0,135,4.6,12.7,0.36,1.1,5.3,0.2,3.5,7.4,0.48,2.8,3.5,0.8,3.2,6.0,9.2,2.5,1.4,0.4,2.5,6.3,13.0,,96,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2020,28,353,TOR,Toronto Raptors,Oshae Brissett,"June 20, 1998",21.0,NBA,SF,19,0,135,4.6,12.7,0.36,1.1,5.3,0.2,3.5,7.4,0.48,2.8,3.5,0.8,3.2,6.0,9.2,2.5,1.4,0.4,2.5,6.3,13.0,96,107

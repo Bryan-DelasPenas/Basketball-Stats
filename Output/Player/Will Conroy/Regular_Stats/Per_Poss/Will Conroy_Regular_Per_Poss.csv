@@ -1,6 +1,6 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2007,31,589,TOT,Total After Trade,Will Conroy,"December 8, 1982",24.0,NBA,"PG,SG",7.0,0.0,52.0,0.0,3.0,0.0,0.0,0.0,,0.0,3.0,0.0,0.0,4.0,0.0,3.0,4.0,7.0,9.1,0.0,0.0,2.0,7.0,0.0,,72.0,114.0
-2007,15,589,MEM,Memphis Grizzlies,Will Conroy,"December 8, 1982",24.0,NBA,SG,3.0,0.0,17.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,3.0,3.0,6.0,3.0,0.0,0.0,0.0,3.0,0.0,,215.0,119.0
-2007,13,589,LAC,Los Angeles Clippers,Will Conroy,"December 8, 1982",24.0,NBA,PG,4.0,0.0,35.0,0.0,4.5,0.0,0.0,0.0,,0.0,4.5,0.0,0.0,6.0,0.0,3.0,4.5,7.6,12.1,0.0,0.0,3.0,9.1,0.0,,62.0,112.0
-2010,11,589,HOU,Houston Rockets,Will Conroy,"December 8, 1982",27.0,NBA,PG,5.0,0.0,36.0,4.3,14.2,0.3,0.0,4.3,0.0,4.3,9.9,0.43,0.0,2.8,0.0,0.0,4.3,4.3,9.9,0.0,0.0,5.7,7.1,8.5,,63.0,113.0
-2013,18,589,MIN,Minnesota Timberwolves,Will Conroy,"December 8, 1982",30.0,NBA,PG,4.0,0.0,20.0,0.0,23.3,0.0,0.0,7.8,0.0,0.0,15.5,0.0,2.6,5.2,0.5,2.6,0.0,2.6,0.0,0.0,0.0,0.0,2.6,2.6,,21.0,115.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2007,31,589,TOT,Total After Trade,Will Conroy,"December 8, 1982",24.0,NBA,"PG,SG",7.0,0.0,52.0,0.0,3.0,0.0,0.0,0.0,,0.0,3.0,0.0,0.0,4.0,0.0,3.0,4.0,7.0,9.1,0.0,0.0,2.0,7.0,0.0,72.0,114.0
+2007,15,589,MEM,Memphis Grizzlies,Will Conroy,"December 8, 1982",24.0,NBA,SG,3.0,0.0,17.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,3.0,3.0,6.0,3.0,0.0,0.0,0.0,3.0,0.0,215.0,119.0
+2007,13,589,LAC,Los Angeles Clippers,Will Conroy,"December 8, 1982",24.0,NBA,PG,4.0,0.0,35.0,0.0,4.5,0.0,0.0,0.0,,0.0,4.5,0.0,0.0,6.0,0.0,3.0,4.5,7.6,12.1,0.0,0.0,3.0,9.1,0.0,62.0,112.0
+2010,11,589,HOU,Houston Rockets,Will Conroy,"December 8, 1982",27.0,NBA,PG,5.0,0.0,36.0,4.3,14.2,0.3,0.0,4.3,0.0,4.3,9.9,0.43,0.0,2.8,0.0,0.0,4.3,4.3,9.9,0.0,0.0,5.7,7.1,8.5,63.0,113.0
+2013,18,589,MIN,Minnesota Timberwolves,Will Conroy,"December 8, 1982",30.0,NBA,PG,4.0,0.0,20.0,0.0,23.3,0.0,0.0,7.8,0.0,0.0,15.5,0.0,2.6,5.2,0.5,2.6,0.0,2.6,0.0,0.0,0.0,0.0,2.6,2.6,21.0,115.0

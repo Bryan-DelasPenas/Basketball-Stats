@@ -235,7 +235,7 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
 
     # Create suffix for the url
     suffix = get_player_suffix(name, birth_date).replace('/', '%2F')
-
+    #print(suffix)
     # Type of stat you want
     selector = format.lower()
     format = format.upper()
@@ -377,11 +377,16 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         df_new = df[df['Season'] < 1980].index
         df.drop(df_new, inplace = True)
         df = df.reset_index(drop=True)
-       
+        
         #
         if(format == "ADVANCED"):
             df = df.drop(['Unnamed: 19', 'Unnamed: 24'], axis=1)
         
+        elif(format == "TOTALS" and 'Trp Dbl' in df.columns):
+            df = df.drop(['Unnamed: 30'], axis=1)
+        
+        elif(format == "PER_POSS" and 'Unnamed: 29' in df.columns):
+            df = df.drop(['Unnamed: 29'], axis=1)
         return df
 
 '''
@@ -422,7 +427,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
     if(format == 'Totals'):
        
         # Drop unneeded stats 
-        career_df = career_df.drop(['Season', 'Age', 'Team', 'Team ABV', 'League', 'Pos'], axis=1)
+        career_df = career_df.drop(['Season', 'Age', 'Team ID','Team', 'Team ABV', 'League', 'Pos'], axis=1)
 
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
@@ -517,7 +522,6 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         # Get Trp Dbl
         if 'Trp Dbl' in df.columns:
             
-            career_df = career_df.drop(['Unnamed: 30'], axis=1)
             career_df['Trp Dbl'] = df['Trp Dbl'].sum()
         else:
             career_df['Trp Dbl'] = 0
@@ -698,9 +702,7 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
     else:
         
         career_df = career_df.drop(['Season', 'Age', 'Team', 'Team ABV', 'Team ID', 'League', 'Pos'], axis=1)
-        if(format == 'Per_Poss'):
-            career_df = career_df.drop(['Unnamed: 29'], axis=1)
-        
+       
         # Get the total amount of games of player's career
         career_df['G'] = df['G'].sum()
     
@@ -812,5 +814,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_player_stats('Jared Dudley', 'July 10, 1985'))
+    print(get_player_stats('Geno Carlisle', 'August 13, 1976', 'Advanced'))
 main()

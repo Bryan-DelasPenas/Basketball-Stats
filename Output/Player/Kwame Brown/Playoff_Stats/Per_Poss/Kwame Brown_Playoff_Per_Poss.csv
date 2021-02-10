@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2005,30,385,WAS,Washington Wizards,Kwame Brown,"March 10, 1982",22.0,NBA,PF,3.0,0.0,60.0,4.2,10.9,0.38,0.0,0.0,,4.2,10.9,0.38,4.2,7.6,0.56,3.4,9.3,12.6,2.5,0.0,1.7,1.7,4.2,12.6,,99.0,109.0
-2006,14,385,LAL,Los Angeles Lakers,Kwame Brown,"March 10, 1982",23.0,NBA,C,7.0,7.0,225.0,7.9,15.1,0.52,0.0,0.0,,7.9,15.1,0.52,5.1,7.2,0.71,4.0,6.7,10.7,1.6,0.5,1.4,2.8,4.9,20.9,,113.0,115.0
-2007,14,385,LAL,Los Angeles Lakers,Kwame Brown,"March 10, 1982",24.0,NBA,C,5.0,5.0,133.0,7.3,13.8,0.53,0.0,0.0,,7.3,13.8,0.53,1.9,3.4,0.56,5.0,5.7,10.7,0.4,0.4,1.5,3.4,6.1,16.4,,101.0,116.0
-2009,9,385,DET,Detroit Pistons,Kwame Brown,"March 10, 1982",26.0,NBA,C,3.0,0.0,48.0,3.6,9.6,0.38,0.0,0.0,,3.6,9.6,0.38,3.6,4.8,0.75,7.2,10.8,18.0,0.0,0.0,3.6,3.6,14.4,10.8,,90.0,108.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2005,30,385,WAS,Washington Wizards,Kwame Brown,"March 10, 1982",22.0,NBA,PF,3.0,0.0,60.0,4.2,10.9,0.38,0.0,0.0,,4.2,10.9,0.38,4.2,7.6,0.56,3.4,9.3,12.6,2.5,0.0,1.7,1.7,4.2,12.6,99.0,109.0
+2006,14,385,LAL,Los Angeles Lakers,Kwame Brown,"March 10, 1982",23.0,NBA,C,7.0,7.0,225.0,7.9,15.1,0.52,0.0,0.0,,7.9,15.1,0.52,5.1,7.2,0.71,4.0,6.7,10.7,1.6,0.5,1.4,2.8,4.9,20.9,113.0,115.0
+2007,14,385,LAL,Los Angeles Lakers,Kwame Brown,"March 10, 1982",24.0,NBA,C,5.0,5.0,133.0,7.3,13.8,0.53,0.0,0.0,,7.3,13.8,0.53,1.9,3.4,0.56,5.0,5.7,10.7,0.4,0.4,1.5,3.4,6.1,16.4,101.0,116.0
+2009,9,385,DET,Detroit Pistons,Kwame Brown,"March 10, 1982",26.0,NBA,C,3.0,0.0,48.0,3.6,9.6,0.38,0.0,0.0,,3.6,9.6,0.38,3.6,4.8,0.75,7.2,10.8,18.0,0.0,0.0,3.6,3.6,14.4,10.8,90.0,108.0

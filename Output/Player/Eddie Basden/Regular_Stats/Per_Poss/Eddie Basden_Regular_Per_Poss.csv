@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2006,5,179,CHI,Chicago Bulls,Eddie Basden,"February 15, 1983",22.0,NBA,SF,19,0,141,5.5,13.6,0.4,0.4,2.6,0.14,5.1,11.0,0.47,2.9,3.7,0.8,2.6,7.7,10.3,2.9,3.3,0.7,3.3,6.2,14.3,,92,99
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2006,5,179,CHI,Chicago Bulls,Eddie Basden,"February 15, 1983",22.0,NBA,SF,19,0,141,5.5,13.6,0.4,0.4,2.6,0.14,5.1,11.0,0.47,2.9,3.7,0.8,2.6,7.7,10.3,2.9,3.3,0.7,3.3,6.2,14.3,92,99

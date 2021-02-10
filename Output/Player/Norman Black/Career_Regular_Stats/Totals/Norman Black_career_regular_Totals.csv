@@ -1,2 +1,2 @@
-Team ID,Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
-9,252,Norman Black,"November 12, 1957",3,0.0,28,3,10,0.3,0,0,0,3,10,0.3,0.3,2,8,0.25,0,2,2,2,1,0,1,2,8,0
+Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
+252,Norman Black,"November 12, 1957",3,0.0,28,3,10,0.3,0,0,0,3,10,0.3,0.3,2,8,0.25,0,2,2,2,1,0,1,2,8,0

@@ -1,6 +1,6 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2005,30,104,WAS,Washington Wizards,Gilbert Arenas,"January 6, 1982",23.0,NBA,PG,10.0,10.0,450.0,8.2,21.8,0.38,2.0,8.6,0.23,6.2,13.1,0.47,8.1,10.5,0.77,0.9,4.9,5.8,7.0,2.4,0.7,4.4,3.8,26.5,,102.0,109.0
-2006,30,104,WAS,Washington Wizards,Gilbert Arenas,"January 6, 1982",24.0,NBA,PG,6.0,6.0,284.0,12.2,26.3,0.46,3.8,8.7,0.44,8.5,17.7,0.48,10.2,13.2,0.77,1.3,4.9,6.2,6.0,2.4,0.8,3.8,4.0,38.4,,119.0,108.0
-2008,30,104,WAS,Washington Wizards,Gilbert Arenas,"January 6, 1982",26.0,NBA,PG,4.0,2.0,94.0,8.1,20.9,0.39,2.9,7.0,0.42,5.2,13.9,0.38,5.8,7.0,0.83,0.0,4.1,4.1,6.4,1.2,0.0,4.6,7.6,25.0,,98.0,113.0
-2011,22,104,ORL,Orlando Magic,Gilbert Arenas,"January 6, 1982",29.0,NBA,PG,5.0,0.0,81.0,12.3,28.7,0.43,2.1,8.2,0.25,10.3,20.5,0.5,2.7,4.1,0.67,2.7,6.8,9.6,8.2,0.7,0.7,4.1,9.6,29.4,,102.0,102.0
-2012,15,104,MEM,Memphis Grizzlies,Gilbert Arenas,"January 6, 1982",30.0,NBA,PG,6.0,0.0,23.0,4.8,19.0,0.25,0.0,9.5,0.0,4.8,9.5,0.5,0.0,0.0,,0.0,2.4,2.4,2.4,0.0,0.0,2.4,14.3,9.5,,57.0,108.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2005,30,104,WAS,Washington Wizards,Gilbert Arenas,"January 6, 1982",23.0,NBA,PG,10.0,10.0,450.0,8.2,21.8,0.38,2.0,8.6,0.23,6.2,13.1,0.47,8.1,10.5,0.77,0.9,4.9,5.8,7.0,2.4,0.7,4.4,3.8,26.5,102.0,109.0
+2006,30,104,WAS,Washington Wizards,Gilbert Arenas,"January 6, 1982",24.0,NBA,PG,6.0,6.0,284.0,12.2,26.3,0.46,3.8,8.7,0.44,8.5,17.7,0.48,10.2,13.2,0.77,1.3,4.9,6.2,6.0,2.4,0.8,3.8,4.0,38.4,119.0,108.0
+2008,30,104,WAS,Washington Wizards,Gilbert Arenas,"January 6, 1982",26.0,NBA,PG,4.0,2.0,94.0,8.1,20.9,0.39,2.9,7.0,0.42,5.2,13.9,0.38,5.8,7.0,0.83,0.0,4.1,4.1,6.4,1.2,0.0,4.6,7.6,25.0,98.0,113.0
+2011,22,104,ORL,Orlando Magic,Gilbert Arenas,"January 6, 1982",29.0,NBA,PG,5.0,0.0,81.0,12.3,28.7,0.43,2.1,8.2,0.25,10.3,20.5,0.5,2.7,4.1,0.67,2.7,6.8,9.6,8.2,0.7,0.7,4.1,9.6,29.4,102.0,102.0
+2012,15,104,MEM,Memphis Grizzlies,Gilbert Arenas,"January 6, 1982",30.0,NBA,PG,6.0,0.0,23.0,4.8,19.0,0.25,0.0,9.5,0.0,4.8,9.5,0.5,0.0,0.0,,0.0,2.4,2.4,2.4,0.0,0.0,2.4,14.3,9.5,57.0,108.0

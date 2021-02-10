@@ -1,2 +1,2 @@
-Team ID,Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
-5,144,Cameron Bairstow,"December 7, 1990",36,3,167,16,54,0.3,1,5,0.2,15,49,0.31,0.31,11,13,0.85,10,26,36,7,4,4,7,27,44,0
+Player ID,Player Name,Birth Date,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Trp Dbl
+144,Cameron Bairstow,"December 7, 1990",36,3,167,16,54,0.3,1,5,0.2,15,49,0.31,0.31,11,13,0.85,10,26,36,7,4,4,7,27,44,0

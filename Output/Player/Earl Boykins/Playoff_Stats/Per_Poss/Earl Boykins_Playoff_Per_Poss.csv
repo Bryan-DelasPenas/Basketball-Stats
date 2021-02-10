@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2004,8,316,DEN,Denver Nuggets,Earl Boykins,"June 2, 1976",27.0,NBA,SG,5.0,0.0,121.0,12.2,27.4,0.44,2.2,6.1,0.36,10.0,21.3,0.47,2.6,3.0,0.86,2.6,2.6,5.2,8.3,2.2,0.4,2.6,2.6,29.1,,111.0,105.0
-2005,8,316,DEN,Denver Nuggets,Earl Boykins,"June 2, 1976",28.0,NBA,PG,5.0,1.0,152.0,9.4,23.7,0.4,0.0,2.4,0.0,9.4,21.2,0.44,5.9,6.6,0.9,0.7,1.0,1.7,6.6,1.4,0.3,3.1,4.5,24.7,,95.0,113.0
-2006,8,316,DEN,Denver Nuggets,Earl Boykins,"June 2, 1976",29.0,NBA,PG,5.0,0.0,140.0,7.1,22.0,0.32,1.5,7.1,0.21,5.6,14.9,0.38,4.8,6.3,0.76,1.1,1.5,2.6,7.5,1.5,0.0,1.1,2.2,20.5,,98.0,107.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2004,8,316,DEN,Denver Nuggets,Earl Boykins,"June 2, 1976",27.0,NBA,SG,5.0,0.0,121.0,12.2,27.4,0.44,2.2,6.1,0.36,10.0,21.3,0.47,2.6,3.0,0.86,2.6,2.6,5.2,8.3,2.2,0.4,2.6,2.6,29.1,111.0,105.0
+2005,8,316,DEN,Denver Nuggets,Earl Boykins,"June 2, 1976",28.0,NBA,PG,5.0,1.0,152.0,9.4,23.7,0.4,0.0,2.4,0.0,9.4,21.2,0.44,5.9,6.6,0.9,0.7,1.0,1.7,6.6,1.4,0.3,3.1,4.5,24.7,95.0,113.0
+2006,8,316,DEN,Denver Nuggets,Earl Boykins,"June 2, 1976",29.0,NBA,PG,5.0,0.0,140.0,7.1,22.0,0.32,1.5,7.1,0.21,5.6,14.9,0.38,4.8,6.3,0.76,1.1,1.5,2.6,7.5,1.5,0.0,1.1,2.2,20.5,98.0,107.0

@@ -1,5 +1,5 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2017,19,737,NOP,New Orleans Pelicans,Cheick Diallo,"September 13, 1996",20.0,NBA,PF,17.0,0.0,199.0,8.9,18.7,0.47,0.0,0.0,,8.9,18.7,0.47,3.7,5.2,0.71,5.7,12.3,18.0,1.0,1.0,1.7,1.7,4.2,21.4,,107.0,105.0
-2018,19,737,NOP,New Orleans Pelicans,Cheick Diallo,"September 13, 1996",21.0,NBA,PF,52.0,0.0,581.0,8.4,14.5,0.58,0.0,0.0,,8.4,14.5,0.58,4.1,5.4,0.76,3.9,13.5,17.3,1.6,0.9,1.7,2.3,6.7,20.9,,118.0,105.0
-2019,19,737,NOP,New Orleans Pelicans,Cheick Diallo,"September 13, 1996",22.0,NBA,PF,64.0,1.0,896.0,8.7,14.1,0.62,0.1,0.2,0.25,8.7,13.8,0.62,2.6,3.5,0.75,3.9,13.3,17.2,1.7,1.5,1.7,2.5,5.9,20.1,,119.0,108.0
-2020,24,737,PHO,Phoenix Suns,Cheick Diallo,"September 13, 1996",23.0,NBA,C,47.0,2.0,479.0,9.1,14.0,0.65,0.1,0.3,0.33,9.0,13.7,0.66,3.4,3.9,0.87,3.0,10.0,13.0,2.2,1.1,1.2,3.2,5.4,21.7,,119.0,110.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2017,19,737,NOP,New Orleans Pelicans,Cheick Diallo,"September 13, 1996",20.0,NBA,PF,17.0,0.0,199.0,8.9,18.7,0.47,0.0,0.0,,8.9,18.7,0.47,3.7,5.2,0.71,5.7,12.3,18.0,1.0,1.0,1.7,1.7,4.2,21.4,107.0,105.0
+2018,19,737,NOP,New Orleans Pelicans,Cheick Diallo,"September 13, 1996",21.0,NBA,PF,52.0,0.0,581.0,8.4,14.5,0.58,0.0,0.0,,8.4,14.5,0.58,4.1,5.4,0.76,3.9,13.5,17.3,1.6,0.9,1.7,2.3,6.7,20.9,118.0,105.0
+2019,19,737,NOP,New Orleans Pelicans,Cheick Diallo,"September 13, 1996",22.0,NBA,PF,64.0,1.0,896.0,8.7,14.1,0.62,0.1,0.2,0.25,8.7,13.8,0.62,2.6,3.5,0.75,3.9,13.3,17.2,1.7,1.5,1.7,2.5,5.9,20.1,119.0,108.0
+2020,24,737,PHO,Phoenix Suns,Cheick Diallo,"September 13, 1996",23.0,NBA,C,47.0,2.0,479.0,9.1,14.0,0.65,0.1,0.3,0.33,9.0,13.7,0.66,3.4,3.9,0.87,3.0,10.0,13.0,2.2,1.1,1.2,3.2,5.4,21.7,119.0,110.0

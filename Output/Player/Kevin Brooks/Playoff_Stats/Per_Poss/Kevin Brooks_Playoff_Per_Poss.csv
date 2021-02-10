@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-1994,8,363,DEN,Denver Nuggets,Kevin Brooks,"October 12, 1969",24.0,NBA,SF,2,0,5,21.9,76.8,0.29,0.0,11.0,0.0,21.9,65.8,0.33,11.0,21.9,0.5,11.0,11.0,21.9,0.0,0.0,0.0,0.0,0.0,54.9,,79,107
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1994,8,363,DEN,Denver Nuggets,Kevin Brooks,"October 12, 1969",24.0,NBA,SF,2,0,5,21.9,76.8,0.29,0.0,11.0,0.0,21.9,65.8,0.33,11.0,21.9,0.5,11.0,11.0,21.9,0.0,0.0,0.0,0.0,0.0,54.9,79,107

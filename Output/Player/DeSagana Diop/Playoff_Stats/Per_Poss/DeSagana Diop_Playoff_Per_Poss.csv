@@ -1,3 +1,3 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2006,7,752,DAL,Dallas Mavericks,DeSagana Diop,"January 30, 1982",24.0,NBA,C,22.0,18.0,407.0,3.2,5.2,0.62,0.0,0.0,,3.2,5.2,0.62,1.5,2.4,0.61,5.3,9.2,14.5,0.3,1.9,3.7,1.5,10.7,7.8,,125.0,100.0
-2007,7,752,DAL,Dallas Mavericks,DeSagana Diop,"January 30, 1982",25.0,NBA,C,6.0,3.0,140.0,3.3,5.5,0.6,0.0,0.0,,3.3,5.5,0.6,1.1,2.6,0.43,5.9,9.2,15.1,0.7,1.1,3.7,1.5,7.7,7.7,,119.0,109.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2006,7,752,DAL,Dallas Mavericks,DeSagana Diop,"January 30, 1982",24.0,NBA,C,22.0,18.0,407.0,3.2,5.2,0.62,0.0,0.0,,3.2,5.2,0.62,1.5,2.4,0.61,5.3,9.2,14.5,0.3,1.9,3.7,1.5,10.7,7.8,125.0,100.0
+2007,7,752,DAL,Dallas Mavericks,DeSagana Diop,"January 30, 1982",25.0,NBA,C,6.0,3.0,140.0,3.3,5.5,0.6,0.0,0.0,,3.3,5.5,0.6,1.1,2.6,0.43,5.9,9.2,15.1,0.7,1.1,3.7,1.5,7.7,7.7,119.0,109.0

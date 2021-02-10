@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2017,27,232,SAS,San Antonio Spurs,Davis Bertans,"November 12, 1992",24.0,NBA,PF,13.0,0.0,112.0,5.5,12.4,0.44,3.7,9.2,0.4,1.8,3.2,0.57,1.8,2.8,0.67,2.3,6.9,9.2,1.4,1.4,1.8,2.8,3.2,16.6,,110.0,112.0
-2018,27,232,SAS,San Antonio Spurs,Davis Bertans,"November 12, 1992",25.0,NBA,PF,5.0,0.0,82.0,1.9,11.3,0.17,1.9,10.0,0.19,0.0,1.3,0.0,5.0,6.9,0.73,0.6,6.3,6.9,3.8,1.3,0.0,0.6,6.3,10.7,,89.0,115.0
-2019,27,232,SAS,San Antonio Spurs,Davis Bertans,"November 12, 1992",26.0,NBA,PF,5.0,0.0,79.0,3.3,9.9,0.33,2.0,7.3,0.27,1.3,2.6,0.5,2.0,3.3,0.6,0.0,5.3,5.3,3.3,0.0,0.7,0.7,6.6,10.6,,103.0,118.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2017,27,232,SAS,San Antonio Spurs,Davis Bertans,"November 12, 1992",24.0,NBA,PF,13.0,0.0,112.0,5.5,12.4,0.44,3.7,9.2,0.4,1.8,3.2,0.57,1.8,2.8,0.67,2.3,6.9,9.2,1.4,1.4,1.8,2.8,3.2,16.6,110.0,112.0
+2018,27,232,SAS,San Antonio Spurs,Davis Bertans,"November 12, 1992",25.0,NBA,PF,5.0,0.0,82.0,1.9,11.3,0.17,1.9,10.0,0.19,0.0,1.3,0.0,5.0,6.9,0.73,0.6,6.3,6.9,3.8,1.3,0.0,0.6,6.3,10.7,89.0,115.0
+2019,27,232,SAS,San Antonio Spurs,Davis Bertans,"November 12, 1992",26.0,NBA,PF,5.0,0.0,79.0,3.3,9.9,0.33,2.0,7.3,0.27,1.3,2.6,0.5,2.0,3.3,0.6,0.0,5.3,5.3,3.3,0.0,0.7,0.7,6.6,10.6,103.0,118.0

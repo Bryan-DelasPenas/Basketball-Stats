@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2017,29,285,UTA,Utah Jazz,Joel Bolomboy,"January 28, 1994",23.0,NBA,PF,2.0,0.0,9.0,11.6,17.4,0.67,0.0,0.0,,11.6,17.4,0.67,0.0,0.0,,0.0,11.6,11.6,0.0,0.0,5.8,0.0,0.0,23.2,,126.0,106.0
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2017,29,285,UTA,Utah Jazz,Joel Bolomboy,"January 28, 1994",23.0,NBA,PF,2.0,0.0,9.0,11.6,17.4,0.67,0.0,0.0,,11.6,17.4,0.67,0.0,0.0,,0.0,11.6,11.6,0.0,0.0,5.8,0.0,0.0,23.2,126.0,106.0

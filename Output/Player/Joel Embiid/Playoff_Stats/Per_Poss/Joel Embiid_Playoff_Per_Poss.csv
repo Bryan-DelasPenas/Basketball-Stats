@@ -1,4 +1,4 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2018,23,858,PHI,Philadelphia 76Ers,Joel Embiid,"March 16, 1994",23.0,NBA,C,8,8,278,10.6,24.4,0.44,1.4,5.1,0.28,9.2,19.3,0.48,7.6,10.8,0.7,4.1,13.8,17.9,4.2,1.2,2.5,5.1,5.5,30.3,,101,102
-2019,23,858,PHI,Philadelphia 76Ers,Joel Embiid,"March 16, 1994",24.0,NBA,C,11,11,334,9.9,23.1,0.43,1.7,5.7,0.31,8.1,17.4,0.47,10.8,13.1,0.82,3.1,13.7,16.7,5.4,1.2,3.6,5.8,4.9,32.3,,106,100
-2020,23,858,PHI,Philadelphia 76Ers,Joel Embiid,"March 16, 1994",25.0,NBA,C,4,4,145,11.8,25.7,0.46,1.4,5.6,0.25,10.4,20.2,0.52,16.7,20.5,0.81,3.8,13.2,17.0,1.7,2.1,1.7,5.2,6.3,41.7,,115,111
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2018,23,858,PHI,Philadelphia 76Ers,Joel Embiid,"March 16, 1994",23.0,NBA,C,8,8,278,10.6,24.4,0.44,1.4,5.1,0.28,9.2,19.3,0.48,7.6,10.8,0.7,4.1,13.8,17.9,4.2,1.2,2.5,5.1,5.5,30.3,101,102
+2019,23,858,PHI,Philadelphia 76Ers,Joel Embiid,"March 16, 1994",24.0,NBA,C,11,11,334,9.9,23.1,0.43,1.7,5.7,0.31,8.1,17.4,0.47,10.8,13.1,0.82,3.1,13.7,16.7,5.4,1.2,3.6,5.8,4.9,32.3,106,100
+2020,23,858,PHI,Philadelphia 76Ers,Joel Embiid,"March 16, 1994",25.0,NBA,C,4,4,145,11.8,25.7,0.46,1.4,5.6,0.25,10.4,20.2,0.52,16.7,20.5,0.81,3.8,13.2,17.0,1.7,2.1,1.7,5.2,6.3,41.7,115,111

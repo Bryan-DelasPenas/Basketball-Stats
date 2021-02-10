@@ -1,2 +1,2 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Unnamed: 29,ORtg,DRtg
-2021,29,131,UTA,Utah Jazz,Udoka Azubuike,"September 17, 1999",21.0,NBA,C,12,0,49,4.0,7.0,0.57,0.0,0.0,,4.0,7.0,0.57,4.0,6.0,0.67,4.0,9.0,13.0,0.0,1.0,4.0,3.0,8.0,12.0,,108,104
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2021,29,131,UTA,Utah Jazz,Udoka Azubuike,"September 17, 1999",21.0,NBA,C,12,0,49,4.0,7.0,0.57,0.0,0.0,,4.0,7.0,0.57,4.0,6.0,0.67,4.0,9.0,13.0,0.0,1.0,4.0,3.0,8.0,12.0,108,104
