@@ -531,8 +531,38 @@ def insert_player_per_poss(df, format):
     else:
         raise Exception("Table does not exists")
 
-def insert_player_per_totals():
-    return None
+'''
+Function that inserts Player_Totals into database
+'''
+def insert_player_totals(df, format):
+    df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", 
+                            "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "Age" : "Player_Age", "League" : "League", "Pos" : "Player_Postion", "G" : "Games_Played",
+                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
+                            "2P%" : "Two_Points_Percentage", "eFG%" : "Effective_Field_Goal_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
+                            "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
+                            "STL" : "Steals", "BLK" : "Blocks", "TOV" : "Turn_Over", "PF" : "Personal_Fouls", "PTS" : "Points", "Trp Dbl" : "Triple_Double"})
+    df['Stat_Form'] = format
+    
+    # Connect to sql database 
+    engine = create_connection()
+
+    # Test the connection of the database
+    conn = test_connection(engine)
+    
+    trans = conn.begin()
+
+    if(check_table('Player_Totals')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('player_totals', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Player_Totals was successful")
+        
+        except:
+            raise Exception("Insertion into Player_Totals failed")
+    else:
+        raise Exception("Table does not exists")
 
 '''
 Function that inserts Player_Stats into database
@@ -687,6 +717,39 @@ def insert_player_career_per_poss(df, format):
         
         except:
             raise Exception("Insertion into Player_Career_Per_Poss failed")
+    else:
+        raise Exception("Table does not exists")
+    
+'''
+Function that inserts Player_Career_Totals
+'''
+def insert_player_career_totals(df, format):
+    df = df.rename(columns={"Player ID" : "Player_ID", "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "G" : "Games_Played",
+                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
+                            "2P%" : "Two_Points_Percentage", "eFG%" : "Effective_Field_Goal_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
+                            "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
+                            "STL" : "Steals", "BLK" : "Blocks", "TOV" : "Turn_Over", "PF" : "Personal_Fouls", "PTS" : "Points", "Trp Dbl" : "Triple_Double"})
+    df['Stat_Form'] = format
+    df = df.drop(['Team ID'], axis=1)
+    
+    # Connect to sql database 
+    engine = create_connection()
+
+    # Test the connection of the database
+    conn = test_connection(engine)
+    
+    trans = conn.begin()
+
+    if(check_table('Player_Career_Totals')):
+        # Test to see if the insertion works 
+        try:
+            df.to_sql('player_career_totals', con = engine, if_exists='append', index = False)
+            trans.commit()
+            print("Insertion into Player_Career_Totals was successful")
+        
+        except:
+            raise Exception("Insertion into Player_Career_Totals failed")
     else:
         raise Exception("Table does not exists")
 
@@ -1124,6 +1187,56 @@ def insert_all_player_per_poss():
         else:
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_per_poss(df_career_playoff, 1)
+
+'''
+Calls insert_player_per_totals and insert_player_career_per_totals from 1980 - 2020
+'''
+def insert_all_player_totals():
+    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    
+    player_directories = os.listdir(path)
+    for x in range(len(player_directories)):
+        if(player_directories[x] in REVERSE_RIGHT_DICT):
+            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Totals.csv")
+            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_regular_Totals.csv")
+            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_Playoff_Per_Poss.csv")
+            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_playoff_Totals.csv")
+
+        else:
+            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Totals",player_directories[x] + "_Regular_Totals.csv")
+            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Totals", player_directories[x] + "_career_regular_Totals.csv")
+            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Totals", player_directories[x] + "_Playoff_Per_Poss.csv")
+            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Totals", player_directories[x] + "_career_playoff_Totals.csv")
+
+        
+        df_reg = pd.read_csv(reg)
+        df_reg_filter = df_reg[df_reg['Season'] <= 2020]
+
+        df_career_reg = pd.read_csv(career_reg)
+    
+        '''
+        0 - regular stats
+        1 - playoff stats
+        '''
+        insert_player_totals(df_reg_filter, 0)
+        insert_player_career_totals(df_career_reg, 0)
+
+        # Check if they make the playoffs
+        if(not os.path.isdir(playoff)):
+            pass
+        
+        else:
+            df_playoff = pd.read_csv(playoff)
+            df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
+            insert_player_totals(df_playoff, 1)
+
+        if(not os.path.isdir(career_playoff)):
+            pass
+        
+        else:
+            df_career_playoff = pd.read_csv(career_playoff)
+            insert_player_career_totals(df_career_playoff, 1)
+
 '''
 Main function 
 '''
@@ -1146,6 +1259,7 @@ def main():
     #insert_all_player_advanced()
     #insert_all_player_per_game()
     #insert_all_player_per_minute()
-    insert_all_player_per_poss()
+    #insert_all_player_per_poss()
+    insert_all_player_totals()
 if __name__ == "__main__":
     main()
