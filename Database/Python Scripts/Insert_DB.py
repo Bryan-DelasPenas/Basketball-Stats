@@ -2,7 +2,7 @@ import pyodbc
 import sqlalchemy as sal
 from sqlalchemy import create_engine
 import pandas as pd
-
+import time
 import sys
 import os
 import pathlib 
@@ -147,18 +147,6 @@ def insert_conference_standings(df):
             raise Exception("Insertion into Team failed")
     else:
         raise Exception("Table does not exists")
-
-'''
-Function that inserts Expanded Standings into database
-'''
-def insert_expanded_standings():
-    return None
-
-'''
-Function that inserts Team Vs Team into database
-'''
-def insert_team_vs_team():
-    return None
 
 '''
 Function that inserts Roster into database
@@ -509,7 +497,6 @@ def insert_player_per_poss(df, format):
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
                             "STL" : "Steals", "BLK" : "Blocks", "TOV" : "Turn_Over", "PF" : "Personal_Fouls", "PTS" : "Points", "ORtg" : "Offensive_Rating", "DRtg" : "Defensive_Rating"})
     df['Stat_Form'] = format
-    df = df.drop(['Unnamed: 29'], axis=1)
 
     # Connect to sql database 
     engine = create_connection()
@@ -731,7 +718,6 @@ def insert_player_career_totals(df, format):
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
                             "STL" : "Steals", "BLK" : "Blocks", "TOV" : "Turn_Over", "PF" : "Personal_Fouls", "PTS" : "Points", "Trp Dbl" : "Triple_Double"})
     df['Stat_Form'] = format
-    df = df.drop(['Team ID'], axis=1)
     
     # Connect to sql database 
     engine = create_connection()
@@ -1241,10 +1227,11 @@ def insert_all_player_totals():
 Main function 
 '''
 def main():
+    start_time = time.time()
+
     insert_all_season()
     insert_all_team()
     insert_all_player()
-    '''
     insert_all_standings()
     insert_all_conference_standings()
     insert_all_roster()
@@ -1254,12 +1241,13 @@ def main():
     insert_all_team_per_game()
     insert_all_team_per_poss()
     insert_all_team_totals()
-    '''
     insert_all_player_stats()
-    #insert_all_player_advanced()
-    #insert_all_player_per_game()
-    #insert_all_player_per_minute()
-    #insert_all_player_per_poss()
+    insert_all_player_advanced()
+    insert_all_player_per_game()
+    insert_all_player_per_minute()
+    insert_all_player_per_poss()
     insert_all_player_totals()
+
+    print("--- %s seconds ---" % (time.time() - start_time))
 if __name__ == "__main__":
     main()

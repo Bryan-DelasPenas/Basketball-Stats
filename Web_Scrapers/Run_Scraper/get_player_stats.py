@@ -107,7 +107,7 @@ def get_player_csv():
     record = df.values.tolist()
 
     # Iterate through the list 
-    for i in range(2330, len(record)):
+    for i in range(119, len(record)):
         print(i)
         print(record[i][0])
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
