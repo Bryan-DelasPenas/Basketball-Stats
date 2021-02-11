@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1988,17,2775,MIL,Milwaukee Bucks,John Stroeder,"July 24, 1958",29.0,NBA,PF,41.0,271.0,7.0,0.42,0.02,0.38,10.0,19.6,14.8,9.9,0.5,2.6,20.7,18.1,-0.4,0.3,-0.1,-0.01,-6.0,-0.1,-6.1,-0.3
+1989,31,2775,TOT,Total After Trade,John Stroeder,"July 24, 1958",30.0,NBA,PF,5.0,22.0,13.2,0.4,0.0,0.0,22.8,40.7,31.8,16.3,0.0,5.0,37.5,13.8,0.0,0.0,0.0,0.04,-2.7,0.2,-2.5,0.0
+1989,27,2775,SAS,San Antonio Spurs,John Stroeder,"July 24, 1958",30.0,NBA,PF,1.0,2.0,-38.8,,,,0.0,0.0,0.0,0.0,0.0,0.0,100.0,19.4,0.0,0.0,0.0,-0.65,-43.8,-3.1,-46.9,0.0
+1989,10,2775,GSW,Golden State Warriors,John Stroeder,"July 24, 1958",30.0,NBA,PF,4.0,20.0,18.4,0.4,0.0,0.0,25.1,44.8,35.0,17.9,0.0,5.5,28.6,13.3,0.0,0.0,0.0,0.11,1.4,0.5,1.9,0.0

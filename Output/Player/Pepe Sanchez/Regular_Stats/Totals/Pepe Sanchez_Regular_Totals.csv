@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2001,31,2551,TOT,Total After Trade,Pepe Sanchez,"May 8, 1977",23.0,NBA,PG,29.0,0.0,150.0,9.0,28.0,0.32,0.0,1.0,0.0,9.0,27.0,0.33,0.32,2.0,2.0,1.0,3.0,12.0,15.0,41.0,11.0,1.0,6.0,21.0,20.0
+2001,1,2551,ATL,Atlanta Hawks,Pepe Sanchez,"May 8, 1977",23.0,NBA,PG,5.0,0.0,34.0,0.0,7.0,0.0,0.0,0.0,,0.0,7.0,0.0,0.0,0.0,0.0,,1.0,0.0,1.0,5.0,2.0,0.0,3.0,3.0,0.0
+2001,23,2551,PHI,Philadelphia 76Ers,Pepe Sanchez,"May 8, 1977",23.0,NBA,PG,24.0,0.0,116.0,9.0,21.0,0.43,0.0,1.0,0.0,9.0,20.0,0.45,0.43,2.0,2.0,1.0,2.0,12.0,14.0,36.0,9.0,1.0,3.0,18.0,20.0
+2003,9,2551,DET,Detroit Pistons,Pepe Sanchez,"May 8, 1977",25.0,NBA,PG,9.0,0.0,37.0,0.0,5.0,0.0,0.0,0.0,,0.0,5.0,0.0,0.0,0.0,0.0,,4.0,2.0,6.0,8.0,5.0,0.0,2.0,3.0,0.0

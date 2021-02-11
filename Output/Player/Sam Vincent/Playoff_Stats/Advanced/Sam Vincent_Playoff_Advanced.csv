@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1986,2,2973,BOS,Boston Celtics,Sam Vincent,"May 18, 1963",22.0,NBA,SG,9.0,41.0,5.3,0.36,0.04,0.21,2.9,15.1,9.5,17.2,2.4,0.0,11.5,35.6,-0.2,0.1,-0.1,-0.11,-10.1,-2.3,-12.4,-0.1
+1987,2,2973,BOS,Boston Celtics,Sam Vincent,"May 18, 1963",23.0,NBA,PG,17.0,141.0,13.4,0.52,0.04,0.62,2.6,7.3,5.1,18.9,1.1,0.8,12.3,24.9,0.1,0.0,0.1,0.04,-0.8,-1.9,-2.7,0.0
+1988,5,2973,CHI,Chicago Bulls,Sam Vincent,"May 18, 1963",24.0,NBA,PG,10.0,251.0,8.3,0.42,0.03,0.23,2.6,5.9,4.2,27.5,1.6,0.2,18.2,25.9,-0.6,0.3,-0.3,-0.06,-2.8,-1.7,-4.4,-0.2
+1989,5,2973,CHI,Chicago Bulls,Sam Vincent,"May 18, 1963",25.0,NBA,PG,16.0,113.0,7.7,0.38,0.06,0.36,4.3,3.9,4.1,25.3,1.4,0.6,13.6,17.8,-0.1,0.1,0.0,-0.0,-1.9,-1.7,-3.6,0.0

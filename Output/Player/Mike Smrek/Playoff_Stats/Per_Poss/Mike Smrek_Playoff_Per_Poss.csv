@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1986,5,2711,CHI,Chicago Bulls,Mike Smrek,"August 31, 1962",23.0,NBA,C,3.0,0.0,5.0,0.0,9.8,0.0,0.0,0.0,,0.0,9.8,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,9.8,0.0,19.6,0.0,0.0,119.0
+1987,14,2711,LAL,Los Angeles Lakers,Mike Smrek,"August 31, 1962",24.0,NBA,C,10.0,0.0,33.0,2.9,14.5,0.2,0.0,0.0,,2.9,14.5,0.2,5.8,8.7,0.67,4.3,5.8,10.1,0.0,0.0,8.7,1.4,21.7,11.6,83.0,105.0
+1988,14,2711,LAL,Los Angeles Lakers,Mike Smrek,"August 31, 1962",25.0,NBA,C,8.0,0.0,34.0,1.5,7.6,0.2,0.0,0.0,,1.5,7.6,0.2,1.5,4.6,0.33,1.5,7.6,9.2,0.0,1.5,4.6,3.1,6.1,4.6,48.0,107.0

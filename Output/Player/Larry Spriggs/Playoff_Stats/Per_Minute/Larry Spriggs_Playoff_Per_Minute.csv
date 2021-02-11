@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1982,11,2731,HOU,Houston Rockets,Larry Spriggs,"September 8, 1959",22.0,NBA,SF,2.0,,9.0,12.0,16.0,0.75,0.0,0.0,,12.0,16.0,0.75,0.0,4.0,0.0,0.0,4.0,4.0,8.0,0.0,0.0,0.0,12.0,24.0
+1984,14,2731,LAL,Los Angeles Lakers,Larry Spriggs,"September 8, 1959",24.0,NBA,SF,9.0,,45.0,5.6,15.2,0.37,0.0,0.0,,5.6,15.2,0.37,8.8,8.8,1.0,3.2,4.0,7.2,2.4,0.0,0.8,5.6,8.8,20.0
+1985,14,2731,LAL,Los Angeles Lakers,Larry Spriggs,"September 8, 1959",25.0,NBA,PF,16.0,0.0,230.0,6.3,12.1,0.52,0.0,0.3,0.0,6.3,11.7,0.53,2.8,4.5,0.62,2.5,5.5,8.0,5.2,0.6,0.8,4.1,5.6,15.3
+1986,14,2731,LAL,Los Angeles Lakers,Larry Spriggs,"September 8, 1959",26.0,NBA,SF,3.0,0.0,13.0,13.8,16.6,0.83,0.0,0.0,,13.8,16.6,0.83,27.7,27.7,1.0,2.8,16.6,19.4,5.5,2.8,0.0,0.0,0.0,55.4

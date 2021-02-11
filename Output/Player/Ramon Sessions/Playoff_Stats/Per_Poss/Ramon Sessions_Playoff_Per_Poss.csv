@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2012,14,2598,LAL,Los Angeles Lakers,Ramon Sessions,"April 11, 1986",25.0,NBA,PG,12.0,12.0,380.0,6.1,16.1,0.38,0.6,3.5,0.16,5.5,12.6,0.44,3.7,5.0,0.74,0.4,4.7,5.1,6.1,0.6,0.1,3.1,3.8,16.4,94.0,115.0
+2015,30,2598,WAS,Washington Wizards,Ramon Sessions,"April 11, 1986",28.0,NBA,PG,10.0,3.0,218.0,6.1,16.3,0.37,2.3,5.8,0.4,3.7,10.5,0.36,3.0,4.4,0.68,0.5,5.1,5.6,5.4,0.9,0.2,2.3,3.3,17.5,100.0,106.0

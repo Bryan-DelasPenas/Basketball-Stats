@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2014,21,2456,OKC,Oklahoma City Thunder,Andre Roberson,"December 4, 1991",22.0,NBA,SG,2,0,9,0,3,0.0,0,0,,0,3,0.0,0.0,0,0,,0,2,2,0,0,0,0,0,0
+2016,21,2456,OKC,Oklahoma City Thunder,Andre Roberson,"December 4, 1991",24.0,NBA,SG,18,18,471,40,86,0.46,12,37,0.32,28,49,0.57,0.54,8,20,0.4,25,76,101,14,23,19,11,45,100
+2017,21,2456,OKC,Oklahoma City Thunder,Andre Roberson,"December 4, 1991",25.0,NBA,SF,5,5,185,24,46,0.52,7,17,0.41,17,29,0.59,0.6,3,21,0.14,18,13,31,9,12,17,7,15,58
+2020,21,2456,OKC,Oklahoma City Thunder,Andre Roberson,"December 4, 1991",28.0,NBA,SF,1,0,3,0,1,0.0,0,1,0.0,0,0,,0.0,0,0,,0,0,0,0,0,0,0,1,0

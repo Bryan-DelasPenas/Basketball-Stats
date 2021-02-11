@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,31,2720,TOT,Total After Trade,Ray Spalding,"March 11, 1997",21.0,NBA,PF,14.0,3.0,148.0,25.0,47.0,0.53,0.0,3.0,0.0,25.0,44.0,0.57,0.53,4.0,12.0,0.33,15.0,33.0,48.0,5.0,9.0,8.0,9.0,23.0,54.0
+2019,7,2720,DAL,Dallas Mavericks,Ray Spalding,"March 11, 1997",21.0,NBA,PF,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2019,24,2720,PHO,Phoenix Suns,Ray Spalding,"March 11, 1997",21.0,NBA,PF,13.0,3.0,147.0,25.0,47.0,0.53,0.0,3.0,0.0,25.0,44.0,0.57,0.53,4.0,12.0,0.33,15.0,33.0,48.0,5.0,9.0,8.0,9.0,23.0,54.0

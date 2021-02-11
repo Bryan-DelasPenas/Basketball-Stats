@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1984,6,2874,CLE,Cleveland Cavaliers,Paul Thompson,"May 25, 1961",22.0,NBA,SF,82.0,1731.0,14.9,0.51,0.06,0.22,7.6,13.1,10.2,10.5,2.0,1.3,9.1,19.3,2.0,1.8,3.7,0.1,0.3,0.4,0.7,1.2
+1985,31,2874,TOT,Total After Trade,Paul Thompson,"May 25, 1961",23.0,NBA,SF,49.0,942.0,13.4,0.46,0.06,0.19,6.6,11.7,9.1,12.1,2.8,1.5,10.3,23.7,-0.2,1.3,1.1,0.06,-1.3,1.3,0.0,0.5
+1985,6,2874,CLE,Cleveland Cavaliers,Paul Thompson,"May 25, 1961",23.0,NBA,SF,33.0,715.0,13.6,0.46,0.06,0.15,5.5,12.1,8.8,12.1,2.7,1.5,10.0,23.6,-0.2,0.9,0.7,0.05,-1.0,1.4,0.5,0.5
+1985,17,2874,MIL,Milwaukee Bucks,Paul Thompson,"May 25, 1961",23.0,NBA,SF,16.0,227.0,12.8,0.44,0.07,0.32,10.3,10.2,10.3,12.3,3.2,1.3,11.1,24.2,0.0,0.4,0.4,0.08,-2.5,1.0,-1.6,0.0
+1986,23,2874,PHI,Philadelphia 76Ers,Paul Thompson,"May 25, 1961",24.0,NBA,SF,23.0,432.0,9.3,0.42,0.06,0.22,7.0,9.3,8.2,7.9,1.7,2.2,12.3,22.6,-0.4,0.4,0.1,0.01,-3.4,-0.5,-3.9,-0.2

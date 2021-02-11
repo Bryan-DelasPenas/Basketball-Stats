@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2006,18,3235,MIN,Minnesota Timberwolves,Bracey Wright,"July 1, 1984",21.0,NBA,SG,7,135,12.1,0.53,0.33,0.31,2.7,13.0,8.0,6.5,0.4,0.0,12.1,23.2,0.1,0.1,0.2,0.05,-0.5,-2.2,-2.7,0.0
+2007,18,3235,MIN,Minnesota Timberwolves,Bracey Wright,"July 1, 1984",22.0,NBA,SG,19,190,13.8,0.49,0.33,0.3,4.5,8.6,6.6,12.7,2.5,0.4,8.1,18.1,0.2,0.2,0.3,0.08,-0.8,-0.1,-0.9,0.1

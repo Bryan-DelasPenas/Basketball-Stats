@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2017,23,2353,PHI,Philadelphia 76Ers,Alex Poythress,"September 6, 1993",23.0,NBA,PF,6.0,1.0,157.0,7.8,16.8,0.46,1.9,5.9,0.32,5.9,10.9,0.54,2.5,3.1,0.8,3.4,5.6,9.0,1.6,0.9,0.6,0.9,4.3,19.9,115.0,112.0
+2018,12,2353,IND,Indiana Pacers,Alex Poythress,"September 6, 1993",24.0,NBA,PF,25.0,0.0,104.0,5.3,12.5,0.42,1.9,5.3,0.36,3.4,7.2,0.47,0.0,0.0,,3.4,4.8,8.2,1.0,1.4,0.5,1.0,7.7,12.5,108.0,110.0
+2019,1,2353,ATL,Atlanta Hawks,Alex Poythress,"September 6, 1993",25.0,NBA,PF,21.0,1.0,305.0,6.1,12.3,0.49,1.4,3.5,0.39,4.7,8.8,0.53,2.7,4.4,0.62,4.4,7.1,11.5,2.6,0.6,1.5,2.0,7.1,16.2,117.0,115.0

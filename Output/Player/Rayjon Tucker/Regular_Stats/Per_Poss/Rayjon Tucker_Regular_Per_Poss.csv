@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2020,29,2917,UTA,Utah Jazz,Rayjon Tucker,"September 24, 1997",22.0,NBA,SG,20,0,161,6.0,13.0,0.46,0.9,5.1,0.18,5.1,7.9,0.65,5.7,7.0,0.83,0.9,5.1,6.0,1.5,0.3,0.3,2.4,3.0,18.7,109,114

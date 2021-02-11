@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1993,8,3069,DEN,Denver Nuggets,Robert Werdann,"September 12, 1970",22.0,NBA,C,28.0,0.0,149.0,18.0,59.0,0.3,0.0,1.0,0.0,18.0,58.0,0.31,0.3,17.0,31.0,0.55,23.0,29.0,52.0,7.0,6.0,4.0,12.0,38.0,53.0
+1996,3,3069,NJN,New Jersey Nets,Robert Werdann,"September 12, 1970",25.0,NBA,C,13.0,0.0,93.0,16.0,32.0,0.5,0.0,0.0,,16.0,32.0,0.5,0.5,7.0,13.0,0.54,5.0,18.0,23.0,2.0,5.0,3.0,6.0,17.0,39.0
+1997,3,3069,NJN,New Jersey Nets,Robert Werdann,"September 12, 1970",26.0,NBA,C,6.0,0.0,31.0,3.0,7.0,0.43,0.0,0.0,,3.0,7.0,0.43,0.43,3.0,3.0,1.0,3.0,3.0,6.0,0.0,2.0,1.0,2.0,10.0,9.0

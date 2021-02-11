@@ -1,0 +1,8 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2010,10,3170,GSW,Golden State Warriors,Reginald Leon Williams,"September 14, 1986",23.0,NBA,SF,24.0,10.0,782.0,140.0,283.0,0.5,33.0,92.0,0.36,107.0,191.0,0.56,0.55,52.0,62.0,0.84,18.0,92.0,110.0,66.0,23.0,6.0,29.0,49.0,365.0
+2011,10,3170,GSW,Golden State Warriors,Reginald Leon Williams,"September 14, 1986",24.0,NBA,SF,80.0,9.0,1626.0,268.0,572.0,0.47,102.0,241.0,0.42,166.0,331.0,0.5,0.56,100.0,134.0,0.75,45.0,171.0,216.0,121.0,28.0,3.0,57.0,124.0,738.0
+2012,4,3170,CHA,Charlotte Bobcats,Reginald Leon Williams,"September 14, 1986",25.0,NBA,SF,33.0,13.0,747.0,106.0,255.0,0.42,33.0,107.0,0.31,73.0,148.0,0.49,0.48,29.0,40.0,0.72,27.0,66.0,93.0,60.0,20.0,3.0,33.0,34.0,274.0
+2013,4,3170,CHA,Charlotte Bobcats,Reginald Leon Williams,"September 14, 1986",26.0,NBA,SF,40.0,0.0,380.0,57.0,132.0,0.43,22.0,72.0,0.31,35.0,60.0,0.58,0.52,10.0,21.0,0.48,8.0,43.0,51.0,39.0,12.0,1.0,19.0,19.0,146.0
+2014,21,3170,OKC,Oklahoma City Thunder,Reginald Leon Williams,"September 14, 1986",27.0,NBA,SF,3.0,0.0,17.0,5.0,9.0,0.56,1.0,3.0,0.33,4.0,6.0,0.67,0.61,0.0,0.0,,0.0,0.0,0.0,1.0,1.0,0.0,2.0,1.0,11.0
+2015,27,3170,SAS,San Antonio Spurs,Reginald Leon Williams,"September 14, 1986",28.0,NBA,SF,20.0,0.0,105.0,15.0,39.0,0.38,3.0,19.0,0.16,12.0,20.0,0.6,0.42,4.0,4.0,1.0,5.0,12.0,17.0,10.0,1.0,0.0,2.0,12.0,37.0
+2017,19,3170,NOP,New Orleans Pelicans,Reginald Leon Williams,"September 14, 1986",30.0,NBA,SF,6.0,0.0,79.0,8.0,23.0,0.35,5.0,11.0,0.46,3.0,12.0,0.25,0.46,6.0,7.0,0.86,2.0,4.0,6.0,4.0,3.0,0.0,0.0,2.0,27.0

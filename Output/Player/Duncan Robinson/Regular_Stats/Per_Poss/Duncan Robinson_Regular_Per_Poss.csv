@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2019,16,2473,MIA,Miami Heat,Duncan Robinson,"April 22, 1994",24.0,NBA,SF,15,1,161,5.5,14.0,0.39,3.0,10.6,0.29,2.4,3.3,0.73,1.2,1.8,0.67,0.6,5.2,5.8,1.5,1.5,0.0,1.2,3.3,15.2,102,111
+2020,16,2473,MIA,Miami Heat,Duncan Robinson,"April 22, 1994",25.0,NBA,SG,73,68,2166,7.3,15.5,0.47,6.1,13.7,0.45,1.2,1.8,0.65,1.5,1.6,0.93,0.2,5.0,5.2,2.3,0.8,0.4,1.6,4.3,22.2,122,113
+2021,16,2473,MIA,Miami Heat,Duncan Robinson,"April 22, 1994",26.0,NBA,SF,24,24,801,5.8,14.0,0.41,4.7,12.0,0.39,1.0,1.9,0.53,2.1,2.5,0.85,0.1,5.5,5.6,2.4,0.5,0.4,2.3,3.0,18.4,106,114

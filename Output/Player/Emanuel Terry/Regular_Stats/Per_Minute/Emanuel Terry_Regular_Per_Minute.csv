@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,31,2831,TOT,Total After Trade,Emanuel Terry,"August 21, 1996",22.0,NBA,PF,3.0,0.0,23.0,6.3,11.0,0.57,0.0,0.0,,6.3,11.0,0.57,3.1,6.3,0.5,4.7,6.3,11.0,3.1,4.7,0.0,3.1,6.3,15.7
+2019,24,2831,PHO,Phoenix Suns,Emanuel Terry,"August 21, 1996",22.0,NBA,PF,2.0,0.0,20.0,7.2,10.8,0.67,0.0,0.0,,7.2,10.8,0.67,1.8,3.6,0.5,3.6,7.2,10.8,1.8,5.4,0.0,3.6,7.2,16.2
+2019,16,2831,MIA,Miami Heat,Emanuel Terry,"August 21, 1996",22.0,NBA,PF,1.0,0.0,3.0,0.0,12.0,0.0,0.0,0.0,,0.0,12.0,0.0,12.0,24.0,0.5,12.0,0.0,12.0,12.0,0.0,0.0,0.0,0.0,12.0

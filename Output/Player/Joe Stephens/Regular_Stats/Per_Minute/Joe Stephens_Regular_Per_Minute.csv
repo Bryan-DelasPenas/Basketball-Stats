@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1997,11,2744,HOU,Houston Rockets,Joe Stephens,"January 28, 1973",24.0,NBA,PF,2.0,0.0,9.0,4.0,20.0,0.2,4.0,12.0,0.33,0.0,8.0,0.0,0.0,0.0,,8.0,4.0,12.0,0.0,12.0,0.0,12.0,12.0,12.0
+1998,11,2744,HOU,Houston Rockets,Joe Stephens,"January 28, 1973",25.0,NBA,SF,7.0,0.0,37.0,9.7,27.2,0.36,2.9,9.7,0.3,6.8,17.5,0.39,3.9,5.8,0.67,2.9,2.9,5.8,1.0,1.9,0.0,1.9,1.9,26.3
+2000,15,2744,VAN,Vancouver Grizzlies,Joe Stephens,"January 28, 1973",27.0,NBA,SF,13.0,0.0,181.0,3.8,10.1,0.37,0.0,1.6,0.0,3.8,8.6,0.44,0.6,0.8,0.75,2.6,4.6,7.2,2.2,1.4,0.6,1.2,1.8,8.2

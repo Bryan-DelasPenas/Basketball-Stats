@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1991,12,3153,IND,Indiana Pacers,Kenny Williams,"June 9, 1969",21.0,NBA,PF,2,2,-25.7,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.3,0.0,0.0,0.0,-0.56,-22.8,-7.7,-30.4,0.0
+1992,12,3153,IND,Indiana Pacers,Kenny Williams,"June 9, 1969",22.0,NBA,SF,1,1,49.9,,,,0.0,0.0,0.0,0.0,51.2,0.0,,0.0,0.0,0.0,0.0,0.53,11.4,37.1,48.6,0.0
+1993,12,3153,IND,Indiana Pacers,Kenny Williams,"June 9, 1969",23.0,NBA,SF,2,11,10.0,0.53,0.0,2.0,0.0,0.0,0.0,27.5,0.0,12.1,34.7,12.4,0.0,0.0,0.0,-0.04,-0.8,7.6,6.7,0.0
+1994,12,3153,IND,Indiana Pacers,Kenny Williams,"June 9, 1969",24.0,NBA,SF,12,91,7.3,0.39,0.0,0.08,8.3,14.0,11.3,9.3,3.0,2.5,16.2,15.6,-0.1,0.2,0.1,0.05,-4.8,2.1,-2.7,0.0

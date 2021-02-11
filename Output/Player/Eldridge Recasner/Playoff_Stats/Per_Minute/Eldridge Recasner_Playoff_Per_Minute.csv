@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1996,11,2408,HOU,Houston Rockets,Eldridge Recasner,"December 14, 1967",28.0,NBA,SG,1.0,0.0,8.0,0.0,13.5,0.0,0.0,4.5,0.0,0.0,9.0,0.0,0.0,0.0,,0.0,4.5,4.5,9.0,0.0,0.0,4.5,0.0,0.0
+1997,1,2408,ATL,Atlanta Hawks,Eldridge Recasner,"December 14, 1967",29.0,NBA,SG,10.0,0.0,121.0,3.3,7.7,0.42,1.2,3.3,0.36,2.1,4.5,0.47,1.5,2.4,0.62,0.9,2.4,3.3,2.7,0.6,0.0,2.1,2.7,9.2
+1998,1,2408,ATL,Atlanta Hawks,Eldridge Recasner,"December 14, 1967",30.0,NBA,SG,4.0,0.0,89.0,4.0,10.1,0.4,2.8,4.9,0.58,1.2,5.3,0.23,0.8,0.8,1.0,0.0,1.6,1.6,3.2,0.8,0.0,0.8,2.8,11.7
+2001,4,2408,CHO,Charlotte Hornets,Eldridge Recasner,"December 14, 1967",33.0,NBA,PG,2.0,0.0,9.0,0.0,4.0,0.0,0.0,0.0,,0.0,4.0,0.0,12.0,16.0,0.75,0.0,4.0,4.0,8.0,0.0,0.0,4.0,0.0,12.0

@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1999,16,3047,MIA,Miami Heat,Clarence Weatherspoon,"September 8, 1970",28.0,NBA,SF,5.0,0.0,22.4,1.8,5.2,0.35,0.0,0.0,,1.8,5.2,0.35,0.35,2.2,3.4,0.65,0.8,3.4,4.2,0.4,1.4,0.2,0.6,1.6,5.8
+2000,16,3047,MIA,Miami Heat,Clarence Weatherspoon,"September 8, 1970",29.0,NBA,PF,10.0,0.0,17.0,2.5,6.0,0.42,0.0,0.0,,2.5,6.0,0.42,0.42,1.4,2.4,0.58,1.8,2.3,4.1,0.1,0.4,0.3,0.8,2.3,6.4
+2004,11,3047,HOU,Houston Rockets,Clarence Weatherspoon,"September 8, 1970",33.0,NBA,PF,2.0,0.0,11.0,1.0,2.5,0.4,0.0,0.0,,1.0,2.5,0.4,0.4,1.5,3.0,0.5,1.0,1.0,2.0,0.0,0.0,0.0,0.0,1.5,3.5
+2005,11,3047,HOU,Houston Rockets,Clarence Weatherspoon,"September 8, 1970",34.0,NBA,PF,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0

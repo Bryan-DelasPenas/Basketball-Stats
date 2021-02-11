@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2013,4,2814,CHA,Charlotte Bobcats,Jeff Matthew Taylor,"May 23, 1989",23.0,NBA,SF,77,29,1507,6.0,13.9,0.43,1.8,5.4,0.34,4.1,8.5,0.49,2.6,3.6,0.73,1.8,3.4,5.2,2.2,1.6,0.5,1.7,4.7,16.4,107,114
+2014,4,2814,CHA,Charlotte Bobcats,Jeff Matthew Taylor,"May 23, 1989",24.0,NBA,SF,26,8,629,6.8,18.0,0.38,1.5,5.5,0.27,5.3,12.5,0.42,2.1,3.9,0.55,1.2,3.7,5.0,1.8,1.1,0.4,2.1,5.1,17.2,86,107
+2015,4,2814,CHO,Charlotte Hornets,Jeff Matthew Taylor,"May 23, 1989",25.0,NBA,SF,29,13,430,5.4,13.7,0.4,1.3,4.3,0.31,4.1,9.4,0.44,3.1,4.9,0.63,1.7,4.7,6.4,2.6,1.4,0.1,2.3,4.3,15.3,95,106

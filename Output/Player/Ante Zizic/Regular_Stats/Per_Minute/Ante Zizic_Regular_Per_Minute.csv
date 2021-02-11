@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2018,6,3276,CLE,Cleveland Cavaliers,Ante Zizic,"January 4, 1997",21.0,NBA,C,32,2,214,8.2,11.3,0.73,0.0,0.0,,8.2,11.3,0.73,3.5,4.9,0.72,4.0,6.1,10.1,0.8,0.3,2.2,1.9,5.0,20.0
+2019,6,3276,CLE,Cleveland Cavaliers,Ante Zizic,"January 4, 1997",22.0,NBA,C,59,25,1082,6.1,11.0,0.55,0.0,0.0,,6.1,11.0,0.55,3.1,4.4,0.7,3.6,7.1,10.6,1.8,0.4,0.7,2.0,3.8,15.3
+2020,6,3276,CLE,Cleveland Cavaliers,Ante Zizic,"January 4, 1997",23.0,NBA,C,22,0,221,6.7,11.7,0.57,0.0,0.0,,6.7,11.7,0.57,2.3,3.1,0.74,2.9,7.8,10.8,1.0,1.1,0.8,1.6,4.4,15.6

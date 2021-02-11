@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1990,29,2524,UTA,Utah Jazz,Delaney Rudd,"November 8, 1962",27.0,NBA,PG,5.0,0.0,45.0,9.0,25.9,0.35,1.1,7.9,0.14,7.9,18.0,0.44,1.1,2.3,0.5,1.1,2.3,3.4,14.6,1.1,0.0,3.4,11.3,20.3,92.0,115.0
+1991,29,2524,UTA,Utah Jazz,Delaney Rudd,"November 8, 1962",28.0,NBA,PG,9.0,0.0,58.0,7.8,18.2,0.43,3.5,10.4,0.33,4.3,7.8,0.56,1.7,3.5,0.5,1.7,0.0,1.7,14.7,2.6,0.0,2.6,5.2,20.8,117.0,110.0
+1992,29,2524,UTA,Utah Jazz,Delaney Rudd,"November 8, 1962",29.0,NBA,SG,10.0,0.0,84.0,6.4,13.3,0.48,1.3,4.4,0.29,5.1,8.9,0.57,1.9,2.5,0.75,0.0,2.5,2.5,12.1,1.9,0.0,2.5,7.0,15.9,118.0,116.0

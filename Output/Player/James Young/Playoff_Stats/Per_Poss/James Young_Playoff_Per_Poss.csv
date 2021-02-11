@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2016,2,3255,BOS,Boston Celtics,James Young,"August 16, 1995",20.0,NBA,SG,3.0,0.0,10.0,4.9,14.6,0.33,0.0,4.9,0.0,4.9,9.8,0.5,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,4.9,4.9,9.8,49.0,109.0
+2017,2,3255,BOS,Boston Celtics,James Young,"August 16, 1995",21.0,NBA,SG,10.0,0.0,39.0,6.6,19.7,0.33,6.6,18.3,0.36,0.0,1.3,0.0,0.0,0.0,,1.3,7.9,9.2,3.9,0.0,0.0,1.3,2.6,19.7,103.0,118.0
