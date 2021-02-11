@@ -1,8 +1,8 @@
 import os
 import pathlib 
 from pathlib import Path
-
-sys.path.append(str(pathlib.Path().absolute()) + + '\\Web_Scrapers' +'\\Python_Scrapers')
+import sys
+sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
 
 # Import modules 
 from Season_Stats_Scraper import  get_team_name, get_standings
@@ -37,7 +37,7 @@ Function that creates the csv for standings
 '''
 def csv_standings(year, format):
     
-    valid = ['Standard', 'Expanded_Standings', 'Team_Vs_Team']
+    valid = ['Standard']
 
     # Change format to be uppercase 
     format = format.title()
@@ -54,7 +54,6 @@ def csv_standings(year, format):
     directory_source = "Output"
     directory_grand_parent = "Season"
     directory_parent = "Standings"
-    directory_child = format
 
     first_path =  os.path.join(pathlib.Path().absolute(), directory_source , directory_grand_parent)
 
@@ -73,22 +72,13 @@ def csv_standings(year, format):
     else:
         pass
 
-    # Create the final path that has format name
-    final_path = os.path.join(second_path, directory_child)
-    if(not os.path.isdir(final_path)):
-        
-        # Create the directory with the final_path
-        os.mkdir(final_path)
-    else:
-        pass
-        
     # If the format is standard get_standings will return two dataframes 
     if format == 'Standard':
         df_east, df_west = get_standings(year, format)
 
         # Output path for the two csv file
-        west_output_path = os.path.join(final_path, "East")
-        east_output_path = os.path.join(final_path, "West")
+        west_output_path = os.path.join(second_path, "East")
+        east_output_path = os.path.join(second_path, "West")
 
         if(not os.path.isdir(west_output_path)): 
             os.mkdir(west_output_path)
@@ -108,15 +98,6 @@ def csv_standings(year, format):
         df_east.to_csv(west_output_path + season_east, index = False)
         df_west.to_csv(east_output_path + season_west, index = False)
     
-    else:
-        df = get_standings(year, format)
-        
-        # Create a unique name for the file 
-        season = "\\"+ str(year)+ "season"+ "_" + format + ".csv"
-        
-        # Create the csv file
-        df.to_csv(final_path + season, index = False)
-    
 '''
 Functions that calls the three functions above that creates the csv 
 '''
@@ -131,12 +112,10 @@ def get_season_csv():
         print(year)
         
         # Team Name
-        csv_team_name(year)
+        #csv_team_name(year)
         
         # Standing Stats
         csv_standings(year, 'STANDARD')
-        csv_standings(year, 'expanded_standings')
-        csv_standings(year, 'TEAM_VS_TEAM')
 
 '''
 Main function generates csv files for the functions above
