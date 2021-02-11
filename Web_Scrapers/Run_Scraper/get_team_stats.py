@@ -34,11 +34,11 @@ def create_team_stats_folder_two(location_parent, location):
         return False
 
 '''
-Helper function to create a folder starting from a grand parent directory
+Helper function to create a folder 
 '''
-def create_team_stats_folder_three(location_grand,location_parent, location):
+def create_team_stats_folder(location):
     # The file path
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", location_grand, location_parent, location)
+    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", location)
     
     # If this is false, creates file else just print message
     if(os.path.isdir(os.path.join(output_path, "1980")) == False):
@@ -63,14 +63,12 @@ def csv_team_roster(year):
     # Directory name 
     directory_source = "Team"
     directory_parent = 'Roster'
-    directory_child = "Team_Roster"
 
     # Dataframe for season stats
     df = get_team_stats(year) 
 
     # Init variables 
     first_path = None
-    second_path = None
     final_path = None
 
     # Our file path 
@@ -81,22 +79,11 @@ def csv_team_roster(year):
         os.mkdir(first_path)
     else:
         pass
+     
+    final_path = os.path.join(first_path, str(year))
+    if(not os.path.isdir(final_path)):
+        create_team_stats_folder("Roster")
     
-    # Create the final path that has format name
-    second_path = os.path.join(first_path, directory_child)
-    if(not os.path.isdir(second_path)):
-        
-        # Create the directory with the final_path
-        os.mkdir(second_path)
-    else:
-        pass
-    
-    # Create the season folders if needed to 
-    create_team_stats_folder_two(directory_parent, directory_child)
-    
-    final_path = os.path.join(second_path, str(year))
-    
-    #
     # Iterate through the len of the team column 
     for team in range(0, len(df['Team ABV'])):
 
@@ -113,7 +100,7 @@ def csv_team_roster(year):
             roster_df.to_csv(final_path + file_name, index = False)
         else:
             pass
-
+        
 '''
 Function that creates the csv for team misc stats
 '''
@@ -320,10 +307,9 @@ def get_team_csv():
     for year in range(1980, 2021):
         print(year)
     
-        '''
         # Roster Names
         csv_team_roster(year)
-        '''
+        
 
         '''
         # Team Stats Main
