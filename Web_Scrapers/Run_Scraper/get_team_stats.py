@@ -6,7 +6,7 @@ from pathlib import Path
 sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
 
 # Import modules 
-from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
+from Team_Stats_Scraper import get_roster, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
 from Team_Constants import TEAM_DICT
 from helper import create_output_directory
 
@@ -113,147 +113,6 @@ def csv_team_roster(year):
             roster_df.to_csv(final_path + file_name, index = False)
         else:
             pass
-
-'''
-Function that creates a folder for each team, and creates a csv for there stats and a csv containing team names
-'''
-def csv_roster_stats(year, playoffs ,format):
-    
-    # For checking format
-    playoff_valid = ['PER_GAME', 'PER_POSS', 'TOTALS', 'PER_MINUTE', 'ADVANCED']
-    regular_valid = ['PER_GAME', 'PER_POSS', 'TOTALS', 'PER_MINUTE', 'ADVANCED', 'ADJUSTED']
-
-   # Directory name 
-    directory_source = "Team"
-    directory_grand_parent = 'Roster'
-    directory_parent = "Roster_Stats"
-    
-    # Change format to be uppercase 
-    format = format.upper()
-
-    # Check if it is a valid playoff season stat 
-    if(playoffs):
-        if(format in playoff_valid):
-            pass
-        else:
-            print("Wrong Format")
-            return None
-        
-        # This is for file name
-        string_playoffs = "Playoffs"
-  
-        # This is for directory 
-        directory_child = "Playoff_Stat"
-    
-    # Check if it is a valid regular season stat
-    else:
-        if(format in regular_valid):
-            pass
-        else:
-            print("Wrong Format")
-            return None
-        
-        # This is for file name
-        string_playoffs = "Regular"
-
-        # This is for the directory 
-        directory_child = "Regular_Stat"
-        
-   # Init variables 
-    first_path = None
-    second_path = None
-    third_path = None
-    final_path = None
-
-    # Our file path 
-    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_grand_parent)
-    if(not os.path.isdir(first_path)):
-        
-        # Create the directory with the final_path
-        os.mkdir(first_path)
-    else:
-        pass
-    
-    # Create the second path that has format name
-    second_path = os.path.join(first_path, directory_parent)
-    if(not os.path.isdir(second_path)):
-        
-        # Create the directory with the final_path
-        os.mkdir(second_path)
-    else:
-        pass
-    
-    # Create the thrid path that has format name
-    third_path = os.path.join(second_path, directory_child)
-    if(not os.path.isdir(third_path)):
-        
-        # Create the directory with the final_path
-        os.mkdir(third_path)
-    else:
-        pass
-
-    # Create the season folders if needed to 
-    create_team_stats_folder_three(directory_grand_parent, directory_parent, directory_child)
-    
-    # Creates another path for the year
-    fourth_path = os.path.join(third_path, str(year))
-
-    final_path = os.path.join(fourth_path, format.title())
-    if(not os.path.isdir(final_path)):
-        
-        # Create the directory with the final_path
-        os.mkdir(final_path)
-    else:
-        pass
-
-    # Dataframe for season stats
-    df = get_team_stats(year) 
-    if playoffs:
-        csv_roster_playoff_stats(year, format,df, final_path)
-
-    else:
-        csv_roster_regular_stats(year, format,df, final_path)
-
-'''
-Creates csv file that creates playoff season roster stats
-'''
-def csv_roster_playoff_stats(year, format, season_df, file_path):
-
-    string_type = format.title()
-    
-    #Iterate through the len of the team column 
-    for team in range(0, len(season_df['Team ABV'])):
-        
-        # Call the get_roster that returns a dataframe a certin team stats from a given year, 2 is due to TEAM being the 3 column
-        team_df = get_roster_stats(season_df.iloc[team, 2], year, True, format) 
-        
-        if(team_df is not None):
-            
-            # Create a unique name for the file 
-            file_name = "\\"+ str(year)+ "season"+ "_" + str(season_df.iloc[team, 2]) + "_" + "Playoffs" + "_" + string_type + ".csv"
-                
-            # Generate the CSV file in the propery directory 
-            team_df.to_csv(file_path + file_name, index = False)
-
-'''
-Creates csv file that creates regualar season roster stats
-'''
-def csv_roster_regular_stats(year, format, season_df, file_path):
-    string_type = format.title()
-    
-    #Iterate through the len of the team column 
-    for team in range(0, len(season_df['Team ABV'])):
-      
-        # Call the roster stats that returns a dataframe a certin team stats from a given year, 2 is due to TEAM being the 3 column
-        team_df = get_roster_stats(season_df.iloc[team, 2], year, False, format) 
-        
-        if(team_df is not None):
-            
-            # Create a unique name for the file 
-            file_name = "\\"+ str(year)+ "season"+ "_" + str(season_df.iloc[team, 2]) + "_" + "Regular" + "_" + string_type + ".csv"
-                
-            # Generate the CSV file in the propery directory 
-            team_df.to_csv(file_path + file_name, index = False)
 
 '''
 Function that creates the csv for team misc stats
@@ -462,24 +321,6 @@ def get_team_csv():
         print(year)
     
         '''
-        # # Roster Non-Playoff stats
-        csv_roster_stats(year, False, 'PER_GAME')
-        csv_roster_stats(year, False, 'PER_POSS')
-        csv_roster_stats(year, False, 'TOTALS')
-        csv_roster_stats(year, False, 'PER_MINUTE')
-        csv_roster_stats(year, False, 'ADVANCED')
-        '''
-
-        '''
-        # # Roster Playoff stats 
-        csv_roster_stats(year, True, 'PER_GAME')
-        csv_roster_stats(year, True, 'PER_POSS')
-        csv_roster_stats(year, True, 'TOTALS')
-        csv_roster_stats(year, True, 'PER_MINUTE')
-        csv_roster_stats(year, True, 'ADVANCED')
-        '''
-
-        '''
         # Roster Names
         csv_team_roster(year)
         '''
@@ -499,10 +340,10 @@ def get_team_csv():
         csv_opponent_stats(year, 'Per_Poss')
         csv_opponent_stats(year, 'Total')
         '''
-        #'''
+        '''
         # Team Stats Other
         csv_team_stats_other(year, 'Team_Advanced')
-        #'''
+        '''
 '''
 Main Function
 ''' 
