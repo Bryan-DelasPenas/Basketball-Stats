@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1985,5,1513,CHI,Chicago Bulls,Steve Johnson,"November 3, 1957",27.0,NBA,C,3.0,0.0,22.0,4.5,15.7,0.29,0.0,0.0,,4.5,15.7,0.29,4.5,4.5,1.0,6.7,4.5,11.2,4.5,0.0,0.0,4.5,9.0,13.5,89.0,119.0
+1986,27,1513,SAS,San Antonio Spurs,Steve Johnson,"November 3, 1957",28.0,NBA,C,3.0,0.0,53.0,4.5,13.4,0.33,0.0,0.0,,4.5,13.4,0.33,4.5,9.8,0.46,1.8,3.6,5.4,1.8,0.0,0.9,5.4,12.5,13.4,65.0,126.0
+1987,25,1513,POR,Portland Trail Blazers,Steve Johnson,"November 3, 1957",29.0,NBA,C,4.0,4.0,137.0,9.9,21.6,0.46,0.0,0.0,,9.9,21.6,0.46,9.6,15.2,0.63,6.0,8.1,14.2,0.7,0.7,0.4,3.2,5.3,29.4,109.0,115.0
+1989,25,1513,POR,Portland Trail Blazers,Steve Johnson,"November 3, 1957",31.0,NBA,C,3.0,0.0,34.0,2.9,11.6,0.25,0.0,0.0,,2.9,11.6,0.25,4.3,4.3,1.0,1.4,7.2,8.7,0.0,2.9,0.0,4.3,10.1,10.1,68.0,118.0

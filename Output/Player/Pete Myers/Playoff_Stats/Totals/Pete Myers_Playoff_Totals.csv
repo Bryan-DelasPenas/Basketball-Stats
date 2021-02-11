@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1987,5,2099,CHI,Chicago Bulls,Pete Myers,"September 15, 1963",23.0,NBA,SG,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1989,20,2099,NYK,New York Knicks,Pete Myers,"September 15, 1963",25.0,NBA,SG,4.0,0.0,14.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,4.0,6.0,0.67,1.0,2.0,3.0,1.0,0.0,1.0,0.0,2.0,4.0
+1994,5,2099,CHI,Chicago Bulls,Pete Myers,"September 15, 1963",30.0,NBA,SG,10.0,10.0,235.0,29.0,56.0,0.52,0.0,4.0,0.0,29.0,52.0,0.56,0.52,12.0,21.0,0.57,10.0,9.0,19.0,28.0,8.0,4.0,17.0,21.0,70.0
+1995,5,2099,CHI,Chicago Bulls,Pete Myers,"September 15, 1963",31.0,NBA,SG,9.0,0.0,79.0,5.0,14.0,0.36,1.0,2.0,0.5,4.0,12.0,0.33,0.39,2.0,6.0,0.33,6.0,4.0,10.0,8.0,4.0,1.0,4.0,10.0,13.0

@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,11,2081,HOU,Houston Rockets,Calvin Murphy,"May 9, 1948",31.0,NBA,SG,7,265,14.9,0.58,0.04,0.12,1.7,2.6,2.2,15.4,2.1,0.0,12.3,20.5,0.5,-0.1,0.4,0.08,-0.1,0.3,0.2,0.1
+1981,11,2081,HOU,Houston Rockets,Calvin Murphy,"May 9, 1948",32.0,NBA,PG,19,540,18.4,0.55,0.02,0.21,1.4,3.8,2.5,19.2,2.5,0.0,11.8,28.4,1.0,0.3,1.4,0.12,1.8,0.0,1.7,0.5
+1982,11,2081,HOU,Houston Rockets,Calvin Murphy,"May 9, 1948",33.0,NBA,PG,3,57,2.0,0.33,0.14,0.36,3.3,1.9,2.6,10.7,1.0,0.0,13.6,22.9,-0.2,0.0,-0.2,-0.13,-7.5,-2.8,-10.4,-0.1

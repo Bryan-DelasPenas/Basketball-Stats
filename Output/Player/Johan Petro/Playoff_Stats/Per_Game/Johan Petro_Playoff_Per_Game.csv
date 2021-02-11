@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2009,8,2295,DEN,Denver Nuggets,Johan Petro,"January 27, 1986",23.0,NBA,C,10.0,0.0,2.6,0.2,0.9,0.22,0.0,0.0,,0.2,0.9,0.22,0.22,0.5,0.8,0.62,0.2,0.4,0.6,0.1,0.0,0.1,0.1,0.4,0.9
+2010,8,2295,DEN,Denver Nuggets,Johan Petro,"January 27, 1986",24.0,NBA,C,6.0,1.0,7.5,1.0,1.8,0.55,0.0,0.0,,1.0,1.8,0.55,0.55,0.2,0.3,0.5,0.3,1.5,1.8,0.2,0.2,0.5,0.5,2.2,2.2
+2013,1,2295,ATL,Atlanta Hawks,Johan Petro,"January 27, 1986",27.0,NBA,C,6.0,4.0,16.8,2.3,4.5,0.52,0.0,0.0,,2.3,4.5,0.52,0.52,0.2,0.3,0.5,0.7,3.0,3.7,0.7,0.2,0.7,0.5,3.0,4.8

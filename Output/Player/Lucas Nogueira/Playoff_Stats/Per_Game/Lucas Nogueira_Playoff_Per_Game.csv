@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2016,28,2152,TOR,Toronto Raptors,Lucas Nogueira,"July 26, 1992",23.0,NBA,C,5,0,5.8,0.6,0.8,0.75,0.0,0.0,,0.6,0.8,0.75,0.75,0.0,0.0,,0.2,1.4,1.6,0.0,0.0,0.0,0.0,0.6,1.2
+2017,28,2152,TOR,Toronto Raptors,Lucas Nogueira,"July 26, 1992",24.0,NBA,C,3,0,2.3,0.3,0.7,0.5,0.0,0.0,,0.3,0.7,0.5,0.5,0.3,0.7,0.5,0.7,1.0,1.7,0.0,0.0,0.0,0.0,0.3,1.0
+2018,28,2152,TOR,Toronto Raptors,Lucas Nogueira,"July 26, 1992",25.0,NBA,C,5,0,4.8,0.0,0.2,0.0,0.0,0.0,,0.0,0.2,0.0,0.0,0.2,0.4,0.5,0.0,0.2,0.2,0.2,0.0,0.0,0.6,1.2,0.2

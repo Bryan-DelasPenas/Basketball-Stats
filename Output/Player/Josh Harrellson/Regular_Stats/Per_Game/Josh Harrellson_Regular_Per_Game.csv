@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2012,20,1194,NYK,New York Knicks,Josh Harrellson,"February 12, 1989",22.0,NBA,PF,37.0,4.0,14.6,1.7,4.0,0.42,0.5,1.6,0.34,1.2,2.4,0.48,0.49,0.4,0.7,0.62,1.3,2.6,3.9,0.3,0.6,0.5,0.5,1.3,4.4
+2013,16,1194,MIA,Miami Heat,Josh Harrellson,"February 12, 1989",23.0,NBA,C,6.0,0.0,5.2,0.7,1.5,0.44,0.2,0.8,0.2,0.5,0.7,0.75,0.5,0.2,0.3,0.5,0.5,0.7,1.2,0.0,0.2,0.2,0.5,0.7,1.7
+2014,9,1194,DET,Detroit Pistons,Josh Harrellson,"February 12, 1989",24.0,NBA,C,32.0,0.0,9.9,1.2,2.6,0.46,0.4,1.0,0.39,0.8,1.6,0.51,0.54,0.2,0.2,0.71,0.9,1.4,2.4,0.5,0.2,0.5,0.3,1.4,2.9

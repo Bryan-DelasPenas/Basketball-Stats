@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2009,26,1117,SAC,Sacramento Kings,Donte Greene,"February 21, 1988",20.0,NBA,SF,55,4,725,3.8,11.7,0.33,1.3,5.0,0.26,2.5,6.8,0.38,1.4,1.7,0.85,0.9,3.3,4.3,1.5,0.8,0.7,1.8,3.4,10.4
+2010,26,1117,SAC,Sacramento Kings,Donte Greene,"February 21, 1988",21.0,NBA,SF,76,50,1630,5.4,12.2,0.44,1.5,4.0,0.38,3.9,8.2,0.47,2.0,3.1,0.64,1.2,4.0,5.2,1.6,0.9,1.2,2.1,3.3,14.3
+2011,26,1117,SAC,Sacramento Kings,Donte Greene,"February 21, 1988",22.0,NBA,SF,69,21,1127,5.0,12.3,0.4,1.4,4.9,0.29,3.5,7.4,0.48,1.4,2.1,0.66,1.6,3.1,4.7,1.5,1.1,0.6,1.9,2.8,12.8
+2012,26,1117,SAC,Sacramento Kings,Donte Greene,"February 21, 1988",23.0,NBA,PF,53,7,777,5.0,12.3,0.41,1.2,4.9,0.24,3.8,7.5,0.52,2.0,2.5,0.8,0.9,5.3,6.2,1.6,0.8,1.3,1.5,3.1,13.2

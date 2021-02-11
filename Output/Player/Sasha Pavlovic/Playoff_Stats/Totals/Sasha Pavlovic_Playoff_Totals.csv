@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2006,6,2263,CLE,Cleveland Cavaliers,Sasha Pavlovic,"November 15, 1983",22.0,NBA,SG,3.0,0.0,4.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+2007,6,2263,CLE,Cleveland Cavaliers,Sasha Pavlovic,"November 15, 1983",23.0,NBA,SG,20.0,20.0,616.0,72.0,189.0,0.38,20.0,58.0,0.34,52.0,131.0,0.4,0.43,19.0,36.0,0.53,13.0,38.0,51.0,32.0,19.0,5.0,36.0,64.0,183.0
+2008,6,2263,CLE,Cleveland Cavaliers,Sasha Pavlovic,"November 15, 1983",24.0,NBA,SG,8.0,0.0,111.0,10.0,26.0,0.38,4.0,9.0,0.44,6.0,17.0,0.35,0.46,4.0,6.0,0.67,6.0,4.0,10.0,1.0,2.0,0.0,2.0,17.0,28.0
+2009,6,2263,CLE,Cleveland Cavaliers,Sasha Pavlovic,"November 15, 1983",25.0,NBA,SF,11.0,0.0,91.0,10.0,20.0,0.5,2.0,8.0,0.25,8.0,12.0,0.67,0.55,1.0,3.0,0.33,1.0,14.0,15.0,4.0,4.0,0.0,3.0,9.0,23.0
+2012,2,2263,BOS,Boston Celtics,Sasha Pavlovic,"November 15, 1983",28.0,NBA,SF,10.0,0.0,40.0,3.0,9.0,0.33,1.0,5.0,0.2,2.0,4.0,0.5,0.39,0.0,0.0,,2.0,3.0,5.0,1.0,1.0,1.0,4.0,4.0,7.0

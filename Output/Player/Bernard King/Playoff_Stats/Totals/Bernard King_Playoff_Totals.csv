@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1983,20,1615,NYK,New York Knicks,Bernard King,"December 4, 1956",26.0,NBA,SF,6.0,,184.0,56.0,97.0,0.58,1.0,3.0,0.33,55.0,94.0,0.58,0.58,28.0,35.0,0.8,8.0,16.0,24.0,13.0,2.0,0.0,10.0,16.0,141.0
+1984,20,1615,NYK,New York Knicks,Bernard King,"December 4, 1956",27.0,NBA,SF,12.0,,477.0,162.0,282.0,0.57,0.0,1.0,0.0,162.0,281.0,0.58,0.57,93.0,123.0,0.76,28.0,46.0,74.0,36.0,14.0,6.0,31.0,48.0,417.0
+1988,30,1615,WSB,Washington Bullets,Bernard King,"December 4, 1956",31.0,NBA,SF,5.0,4.0,168.0,26.0,53.0,0.49,0.0,0.0,,26.0,53.0,0.49,0.49,17.0,21.0,0.81,3.0,8.0,11.0,9.0,3.0,0.0,14.0,17.0,69.0
+1993,3,1615,NJN,New Jersey Nets,Bernard King,"December 4, 1956",36.0,NBA,SF,3.0,1.0,24.0,4.0,7.0,0.57,0.0,0.0,,4.0,7.0,0.57,0.57,0.0,0.0,,1.0,0.0,1.0,0.0,1.0,0.0,1.0,3.0,8.0

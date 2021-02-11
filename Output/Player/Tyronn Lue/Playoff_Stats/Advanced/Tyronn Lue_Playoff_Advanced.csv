@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1999,14,1787,LAL,Los Angeles Lakers,Tyronn Lue,"May 3, 1977",21.0,NBA,PG,3.0,33.0,10.3,0.41,0.12,0.0,0.0,7.4,3.5,34.8,3.2,0.0,19.0,28.9,-0.1,0.0,-0.1,-0.11,-2.5,-1.7,-4.2,0.0
+2001,14,1787,LAL,Los Angeles Lakers,Tyronn Lue,"May 3, 1977",23.0,NBA,PG,15.0,131.0,8.9,0.46,0.45,0.17,0.9,7.3,4.1,10.7,4.8,0.6,20.4,13.2,-0.1,0.3,0.2,0.08,-3.0,3.1,0.1,0.1
+2008,7,1787,DAL,Dallas Mavericks,Tyronn Lue,"May 3, 1977",30.0,NBA,PG,2.0,2.0,18.4,0.0,0.0,0.0,52.9,0.0,27.8,75.9,0.0,0.0,0.0,23.2,0.0,0.0,0.0,-0.13,9.5,-5.6,3.8,0.0
+2009,22,1787,ORL,Orlando Magic,Tyronn Lue,"May 3, 1977",31.0,NBA,PG,1.0,4.0,59.7,1.25,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.2,0.0,0.0,0.0,0.42,27.4,3.9,31.3,0.0

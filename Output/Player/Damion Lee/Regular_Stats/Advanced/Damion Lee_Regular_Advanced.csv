@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2018,1,1719,ATL,Atlanta Hawks,Damion Lee,"October 21, 1992",25.0,NBA,SG,15.0,404.0,12.0,0.49,0.4,0.19,3.0,16.6,9.8,11.2,2.3,0.2,7.8,19.3,0.0,0.4,0.4,0.05,-2.3,0.4,-1.9,0.0
+2019,10,1719,GSW,Golden State Warriors,Damion Lee,"October 21, 1992",26.0,NBA,SG,32.0,375.0,11.9,0.58,0.54,0.17,2.4,15.3,9.1,4.5,1.6,0.0,7.4,16.8,0.3,0.4,0.7,0.09,-1.2,-1.1,-2.2,0.0
+2020,10,1719,GSW,Golden State Warriors,Damion Lee,"October 21, 1992",27.0,NBA,SG,49.0,1423.0,12.7,0.55,0.47,0.25,2.4,16.3,9.1,14.4,1.7,0.4,10.6,19.0,0.9,0.8,1.7,0.06,-1.5,-0.8,-2.3,-0.1
+2021,10,1719,GSW,Golden State Warriors,Damion Lee,"October 21, 1992",28.0,NBA,SG,25.0,473.0,13.0,0.66,0.78,0.17,2.7,16.6,9.8,10.3,1.5,0.4,6.6,12.1,0.9,0.5,1.4,0.14,-0.1,0.3,0.2,0.3

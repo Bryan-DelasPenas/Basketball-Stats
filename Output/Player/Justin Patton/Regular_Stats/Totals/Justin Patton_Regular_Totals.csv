@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2018,18,2259,MIN,Minnesota Timberwolves,Justin Patton,"June 14, 1997",20.0,NBA,C,1.0,0.0,4.0,1.0,2.0,0.5,0.0,0.0,,1.0,2.0,0.5,0.5,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0
+2019,23,2259,PHI,Philadelphia 76Ers,Justin Patton,"June 14, 1997",21.0,NBA,C,3.0,0.0,21.0,2.0,7.0,0.29,0.0,2.0,0.0,2.0,5.0,0.4,0.29,1.0,2.0,0.5,2.0,4.0,6.0,3.0,2.0,0.0,0.0,5.0,5.0
+2020,21,2259,OKC,Oklahoma City Thunder,Justin Patton,"June 14, 1997",22.0,NBA,C,5.0,0.0,24.0,4.0,10.0,0.4,1.0,4.0,0.25,3.0,6.0,0.5,0.45,0.0,0.0,,1.0,4.0,5.0,2.0,0.0,0.0,2.0,4.0,9.0

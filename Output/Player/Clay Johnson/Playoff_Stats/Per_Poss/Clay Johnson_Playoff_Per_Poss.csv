@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1982,14,1475,LAL,Los Angeles Lakers,Clay Johnson,"July 18, 1956",25.0,NBA,SG,7.0,,38.0,6.1,11.0,0.56,0.0,0.0,,6.1,11.0,0.56,2.4,2.4,1.0,1.2,2.4,3.7,1.2,1.2,0.0,1.2,7.3,14.7,123.0,111.0
+1983,14,1475,LAL,Los Angeles Lakers,Clay Johnson,"July 18, 1956",26.0,NBA,SG,7.0,,20.0,9.5,16.7,0.57,0.0,2.4,0.0,9.5,14.3,0.67,0.0,0.0,,4.8,4.8,9.5,2.4,2.4,0.0,2.4,7.1,19.1,112.0,108.0
+1984,21,1475,SEA,Seattle Supersonics,Clay Johnson,"July 18, 1956",27.0,NBA,SG,3.0,,9.0,11.8,23.6,0.5,0.0,5.9,0.0,11.8,17.7,0.67,0.0,0.0,,5.9,0.0,5.9,5.9,5.9,0.0,0.0,17.7,23.6,120.0,102.0

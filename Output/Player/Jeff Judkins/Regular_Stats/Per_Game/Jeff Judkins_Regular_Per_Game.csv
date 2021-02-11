@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,2,1575,BOS,Boston Celtics,Jeff Judkins,"March 23, 1956",23.0,NBA,SF,65.0,0.0,10.4,2.1,4.2,0.5,0.2,0.4,0.41,2.0,3.8,0.51,0.52,1.0,1.2,0.82,0.5,0.5,1.0,0.7,0.4,0.1,0.8,1.4,5.4
+1981,29,1575,UTA,Utah Jazz,Jeff Judkins,"March 23, 1956",24.0,NBA,SF,62.0,,10.7,1.5,3.5,0.43,0.1,0.5,0.32,1.3,3.0,0.44,0.45,0.7,0.8,0.88,0.5,1.0,1.5,1.0,0.3,0.0,0.5,1.4,3.8
+1982,9,1575,DET,Detroit Pistons,Jeff Judkins,"March 23, 1956",25.0,NBA,SF,30.0,0.0,8.4,1.0,2.7,0.38,0.0,0.3,0.1,1.0,2.4,0.42,0.39,0.5,0.9,0.62,0.5,0.7,1.1,0.5,0.2,0.2,0.3,1.1,2.6
+1983,25,1575,POR,Portland Trail Blazers,Jeff Judkins,"March 23, 1956",26.0,NBA,SF,34.0,0.0,9.1,1.1,2.6,0.44,0.1,0.2,0.25,1.1,2.4,0.46,0.46,0.7,0.9,0.83,0.5,0.7,1.3,0.5,0.4,0.1,0.5,1.1,3.1

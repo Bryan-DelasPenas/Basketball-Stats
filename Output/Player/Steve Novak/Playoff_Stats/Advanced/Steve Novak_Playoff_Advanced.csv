@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2008,11,2159,HOU,Houston Rockets,Steve Novak,"June 13, 1983",24.0,NBA,SF,3.0,21.0,20.3,1.0,0.75,0.0,5.2,5.5,5.3,0.0,0.0,3.8,0.0,9.1,0.1,0.0,0.1,0.25,6.1,1.2,7.3,0.0
+2011,27,2159,SAS,San Antonio Spurs,Steve Novak,"June 13, 1983",27.0,NBA,SF,1.0,6.0,2.5,,,,0.0,19.9,9.7,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.03,-3.1,-2.2,-5.3,0.0
+2012,20,2159,NYK,New York Knicks,Steve Novak,"June 13, 1983",28.0,NBA,PF,5.0,95.0,4.8,0.67,0.78,0.0,3.7,16.0,9.6,0.0,0.0,1.0,25.0,6.0,0.0,0.0,0.0,0.01,-1.1,-0.7,-1.8,0.0
+2013,20,2159,NYK,New York Knicks,Steve Novak,"June 13, 1983",29.0,NBA,SF,9.0,50.0,15.1,0.69,0.69,0.0,4.4,5.1,4.7,0.0,1.1,0.0,0.0,12.5,0.2,0.1,0.2,0.21,3.2,0.2,3.4,0.1
+2014,28,2159,TOR,Toronto Raptors,Steve Novak,"June 13, 1983",30.0,NBA,PF,4.0,15.0,-1.4,0.0,1.0,0.0,0.0,39.0,20.3,9.8,0.0,0.0,0.0,9.4,-0.1,0.0,0.0,-0.14,-6.5,-1.5,-8.0,0.0

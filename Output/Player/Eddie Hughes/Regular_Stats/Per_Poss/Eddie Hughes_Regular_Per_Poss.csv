@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1988,29,1352,UTA,Utah Jazz,Eddie Hughes,"May 26, 1960",27.0,NBA,PG,11.0,0.0,42.0,5.6,14.6,0.38,1.1,6.8,0.17,4.5,7.9,0.57,6.8,6.8,1.0,3.4,1.1,4.5,9.0,0.0,0.0,6.8,5.6,19.1,99.0,112.0
+1989,8,1352,DEN,Denver Nuggets,Eddie Hughes,"May 26, 1960",28.0,NBA,PG,26.0,1.0,224.0,5.6,12.8,0.44,1.4,4.4,0.32,4.2,8.4,0.5,1.4,2.4,0.58,1.2,2.6,3.8,7.0,3.4,0.4,2.2,6.0,14.0,107.0,106.0
+1990,8,1352,DEN,Denver Nuggets,Eddie Hughes,"May 26, 1960",29.0,NBA,PG,60.0,7.0,892.0,4.2,10.3,0.41,1.0,2.5,0.41,3.2,7.8,0.41,1.2,1.7,0.68,0.8,2.8,3.6,5.9,2.5,0.1,2.0,4.4,10.7,101.0,108.0

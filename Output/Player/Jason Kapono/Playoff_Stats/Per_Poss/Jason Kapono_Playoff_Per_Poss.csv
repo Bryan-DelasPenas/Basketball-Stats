@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2006,16,1580,MIA,Miami Heat,Jason Kapono,"February 4, 1981",24.0,NBA,SF,1.0,0.0,2.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,111.0
+2007,16,1580,MIA,Miami Heat,Jason Kapono,"February 4, 1981",25.0,NBA,SF,4.0,1.0,77.0,5.4,11.6,0.47,1.4,2.7,0.5,4.1,8.8,0.46,1.4,1.4,1.0,0.0,3.4,3.4,1.4,1.4,0.0,0.7,6.1,13.6,109.0,112.0
+2008,28,1580,TOR,Toronto Raptors,Jason Kapono,"February 4, 1981",26.0,NBA,SF,5.0,0.0,152.0,10.8,18.5,0.58,4.5,8.4,0.54,6.3,10.1,0.62,1.0,1.4,0.75,0.7,3.8,4.5,1.4,0.7,0.0,0.7,3.1,27.3,134.0,120.0

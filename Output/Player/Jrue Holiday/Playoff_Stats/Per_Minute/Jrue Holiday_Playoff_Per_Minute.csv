@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2011,23,1308,PHI,Philadelphia 76Ers,Jrue Holiday,"June 12, 1990",20.0,NBA,PG,5.0,5.0,188.0,4.6,11.1,0.41,2.1,4.0,0.52,2.5,7.1,0.35,2.3,2.9,0.8,0.6,3.1,3.6,5.4,1.9,0.4,2.1,1.9,13.6
+2012,23,1308,PHI,Philadelphia 76Ers,Jrue Holiday,"June 12, 1990",21.0,NBA,PG,13.0,13.0,494.0,5.4,13.0,0.41,1.5,3.6,0.41,3.9,9.5,0.42,2.8,3.2,0.86,1.2,3.2,4.4,4.9,1.5,0.6,1.9,1.7,15.0
+2015,19,1308,NOP,New Orleans Pelicans,Jrue Holiday,"June 12, 1990",24.0,NBA,PG,3.0,0.0,55.0,4.6,12.4,0.37,0.7,2.6,0.25,3.9,9.8,0.4,2.6,2.6,1.0,1.3,0.7,2.0,8.5,1.3,0.7,3.3,2.0,12.4
+2018,19,1308,NOP,New Orleans Pelicans,Jrue Holiday,"June 12, 1990",27.0,NBA,SG,9.0,9.0,348.0,9.1,17.6,0.52,1.7,5.2,0.32,7.4,12.4,0.6,2.2,3.1,0.7,0.9,4.3,5.3,5.9,1.0,0.5,2.4,2.3,22.0

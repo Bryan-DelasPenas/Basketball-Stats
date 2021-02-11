@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1990,31,1280,TOT,Total After Trade,Mike Higgins,"February 17, 1967",22.0,NBA,SF,11.0,50.0,10.9,0.56,0.0,1.25,4.4,4.5,4.3,7.0,1.9,2.4,7.5,10.6,0.1,0.1,0.1,0.13,-1.5,1.3,-0.3,0.0
+1990,14,1280,LAL,Los Angeles Lakers,Mike Higgins,"February 17, 1967",22.0,NBA,SF,6.0,18.0,7.5,0.57,,,6.6,0.0,3.2,6.4,2.8,6.6,0.0,2.1,0.0,0.0,0.0,0.13,-1.9,5.4,3.5,0.0
+1990,8,1280,DEN,Denver Nuggets,Mike Higgins,"February 17, 1967",22.0,NBA,SF,5.0,32.0,12.9,0.56,0.0,1.0,3.1,7.0,4.9,7.4,1.4,0.0,8.0,15.3,0.1,0.0,0.1,0.13,-1.3,-1.1,-2.4,0.0
+1991,26,1280,SAC,Sacramento Kings,Mike Higgins,"February 17, 1967",23.0,NBA,SF,7.0,61.0,4.1,0.61,0.0,0.7,7.2,1.9,4.6,4.8,0.0,2.1,23.4,12.2,0.0,0.0,0.0,0.02,-6.3,-1.7,-8.0,-0.1

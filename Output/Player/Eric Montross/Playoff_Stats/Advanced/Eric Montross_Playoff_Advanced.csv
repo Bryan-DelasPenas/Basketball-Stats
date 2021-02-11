@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1995,2,2032,BOS,Boston Celtics,Eric Montross,"September 23, 1971",23.0,NBA,C,4.0,62.0,-1.2,0.48,0.0,0.55,12.5,3.7,8.1,0.0,0.0,0.0,37.0,15.7,-0.2,0.0,-0.2,-0.15,-10.7,-3.6,-14.3,-0.2
+1999,9,2032,DET,Detroit Pistons,Eric Montross,"September 23, 1971",27.0,NBA,C,5.0,70.0,4.4,0.51,0.0,0.33,5.5,20.2,12.5,0.0,0.0,2.5,0.0,5.1,0.1,0.0,0.1,0.08,-5.3,0.3,-5.0,-0.1
+2000,9,2032,DET,Detroit Pistons,Eric Montross,"September 23, 1971",28.0,NBA,C,2.0,5.0,-1.0,,,,0.0,52.4,25.4,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.11,-9.0,1.8,-7.2,0.0
+2001,28,2032,TOR,Toronto Raptors,Eric Montross,"September 23, 1971",29.0,NBA,C,5.0,31.0,8.7,0.4,0.0,0.0,19.1,20.6,19.8,4.8,0.0,7.3,28.6,10.6,0.0,0.0,0.0,0.04,-5.4,-1.9,-7.3,0.0

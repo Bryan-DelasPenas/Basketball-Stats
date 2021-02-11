@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1983,25,2155,POR,Portland Trail Blazers,Audie Norris,"December 18, 1960",22.0,NBA,C,30,0,311,4.0,9.6,0.41,0.0,0.0,,4.0,9.6,0.41,2.1,4.6,0.47,3.8,6.7,10.5,3.7,2.0,0.3,5.0,9.3,10.1,79,103
+1984,25,2155,POR,Portland Trail Blazers,Audie Norris,"December 18, 1960",23.0,NBA,C,79,1,1157,5.1,10.1,0.5,0.0,0.0,,5.1,10.1,0.5,4.3,6.1,0.7,3.4,7.2,10.5,3.1,1.2,1.4,4.7,9.5,14.4,98,107
+1985,25,2155,POR,Portland Trail Blazers,Audie Norris,"December 18, 1960",24.0,NBA,C,78,13,1117,5.5,10.2,0.54,0.0,0.1,0.0,5.5,10.0,0.55,5.6,8.4,0.66,3.7,6.6,10.4,2.0,1.7,1.4,4.2,9.2,16.6,105,106

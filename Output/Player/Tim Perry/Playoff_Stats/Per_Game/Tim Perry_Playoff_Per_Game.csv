@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1989,24,2289,PHO,Phoenix Suns,Tim Perry,"June 4, 1965",23.0,NBA,C,4.0,0.0,4.3,0.5,1.0,0.5,0.0,0.0,,0.5,1.0,0.5,0.5,0.0,0.5,0.0,0.3,0.3,0.5,0.0,0.5,0.3,0.3,0.3,1.0
+1990,24,2289,PHO,Phoenix Suns,Tim Perry,"June 4, 1965",24.0,NBA,C,11.0,0.0,9.1,1.2,2.3,0.52,0.0,0.0,,1.2,2.3,0.52,0.52,0.7,1.6,0.44,0.9,1.0,1.9,0.2,0.3,0.5,0.5,1.7,3.1
+1992,24,2289,PHO,Phoenix Suns,Tim Perry,"June 4, 1965",26.0,NBA,PF,8.0,8.0,23.1,4.8,7.9,0.6,0.0,0.0,,4.8,7.9,0.6,0.6,2.9,4.0,0.72,1.5,3.4,4.9,1.4,0.4,0.8,1.8,3.0,12.4

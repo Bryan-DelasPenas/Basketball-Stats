@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1988,17,1658,MIL,Milwaukee Bucks,Larry Krystkowiak,"September 23, 1964",23.0,NBA,PF,5.0,5.0,163.0,13.0,29.0,0.45,0.0,0.0,,13.0,29.0,0.45,0.45,16.0,18.0,0.89,13.0,21.0,34.0,7.0,4.0,0.0,5.0,17.0,42.0
+1989,17,1658,MIL,Milwaukee Bucks,Larry Krystkowiak,"September 23, 1964",24.0,NBA,PF,8.0,8.0,239.0,29.0,68.0,0.43,0.0,2.0,0.0,29.0,66.0,0.44,0.43,27.0,31.0,0.87,14.0,31.0,45.0,12.0,2.0,1.0,16.0,22.0,85.0
+1991,17,1658,MIL,Milwaukee Bucks,Larry Krystkowiak,"September 23, 1964",26.0,NBA,,3.0,0.0,25.0,1.0,6.0,0.17,0.0,0.0,,1.0,6.0,0.17,0.17,0.0,0.0,,0.0,3.0,3.0,2.0,1.0,0.0,0.0,3.0,2.0
+1993,29,1658,UTA,Utah Jazz,Larry Krystkowiak,"September 23, 1964",28.0,NBA,PF,1.0,0.0,8.0,0.0,1.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0,,1.0,1.0,2.0,0.0,0.0,0.0,1.0,1.0,0.0
+1994,22,1658,ORL,Orlando Magic,Larry Krystkowiak,"September 23, 1964",29.0,NBA,PF,3.0,3.0,92.0,7.0,18.0,0.39,0.0,0.0,,7.0,18.0,0.39,0.39,4.0,4.0,1.0,7.0,18.0,25.0,9.0,3.0,2.0,2.0,10.0,18.0

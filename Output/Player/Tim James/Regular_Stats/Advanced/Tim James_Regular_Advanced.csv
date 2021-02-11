@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2000,16,1431,MIA,Miami Heat,Tim James,"December 26, 1976",23.0,NBA,SF,4.0,23.0,12.6,0.36,0.0,0.21,15.9,4.8,10.1,16.3,0.0,9.5,11.5,35.1,-0.1,0.0,-0.1,-0.1,-2.5,-2.5,-5.0,0.0
+2001,4,1431,CHO,Charlotte Hornets,Tim James,"December 26, 1976",24.0,NBA,SF,30.0,197.0,5.8,0.39,0.06,0.27,8.7,11.5,10.1,6.5,0.5,1.9,12.1,15.5,-0.1,0.2,0.1,0.02,-5.9,-1.1,-6.9,-0.2
+2002,23,1431,PHI,Philadelphia 76Ers,Tim James,"December 26, 1976",25.0,NBA,SF,9.0,41.0,4.8,0.38,0.0,0.46,14.0,5.5,9.7,4.1,0.0,1.9,16.1,20.8,-0.1,0.0,-0.1,-0.06,-5.6,-3.1,-8.7,-0.1

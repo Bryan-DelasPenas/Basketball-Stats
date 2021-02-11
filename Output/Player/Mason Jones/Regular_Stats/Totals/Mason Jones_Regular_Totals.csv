@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2021,11,1554,HOU,Houston Rockets,Mason Jones,"July 21, 1998",22.0,NBA,SG,15,1,170,32,61,0.52,17,33,0.52,15,28,0.54,0.66,11,21,0.52,3,26,29,21,4,0,17,16,92

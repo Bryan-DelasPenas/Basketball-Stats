@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,5,1373,CHI,Chicago Bulls,Chandler Hutchison,"April 26, 1996",22.0,NBA,SF,44,14,895,3.9,8.4,0.46,0.6,2.0,0.28,3.3,6.4,0.52,0.9,1.5,0.6,1.2,6.2,7.4,1.4,0.9,0.2,1.0,2.4,9.2
+2020,5,1373,CHI,Chicago Bulls,Chandler Hutchison,"April 26, 1996",23.0,NBA,SF,28,10,527,5.5,12.0,0.46,0.8,2.6,0.32,4.6,9.4,0.5,3.1,5.3,0.59,1.2,6.1,7.4,1.8,1.8,0.5,1.8,3.2,14.9
+2021,5,1373,CHI,Chicago Bulls,Chandler Hutchison,"April 26, 1996",24.0,NBA,SF,7,0,64,2.8,10.1,0.28,0.6,1.7,0.33,2.3,8.4,0.27,1.1,1.1,1.0,0.6,10.7,11.3,2.3,0.6,0.0,2.8,5.1,7.3

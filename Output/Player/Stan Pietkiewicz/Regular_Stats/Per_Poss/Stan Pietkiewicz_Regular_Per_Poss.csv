@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1980,13,2306,SDC,San Diego Clippers,Stan Pietkiewicz,"July 14, 1956",23.0,NBA,PG,50.0,,577.0,7.5,14.7,0.51,0.7,3.0,0.25,6.7,11.7,0.57,3.0,3.8,0.8,2.1,1.6,3.7,7.7,2.1,0.3,4.2,4.3,18.7,110.0,112.0
+1981,31,2306,TOT,Total After Trade,Stan Pietkiewicz,"July 14, 1956",24.0,NBA,SG,42.0,,461.0,6.0,14.6,0.41,2.0,5.1,0.4,4.0,9.5,0.42,1.2,1.5,0.79,1.4,3.1,4.4,8.1,1.6,0.2,2.3,3.0,15.2,107.0,112.0
+1981,13,2306,SDC,San Diego Clippers,Stan Pietkiewicz,"July 14, 1956",24.0,NBA,SG,6.0,,30.0,3.2,8.0,0.4,0.0,0.0,,3.2,8.0,0.4,0.0,0.0,,0.0,1.6,1.6,3.2,0.0,0.0,8.0,3.2,6.4,46.0,115.0
+1981,7,2306,DAL,Dallas Mavericks,Stan Pietkiewicz,"July 14, 1956",24.0,NBA,SG,36.0,,431.0,6.2,15.0,0.41,2.1,5.4,0.4,4.1,9.6,0.42,1.2,1.6,0.79,1.5,3.2,4.6,8.5,1.7,0.2,1.9,2.9,15.8,111.0,112.0
