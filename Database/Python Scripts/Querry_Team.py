@@ -174,6 +174,9 @@ def querry_all_team_double_pk(s_id_one, t_id_one, s_id_two = None, t_id_two = No
                 raise Exception("Querry_Team_Double_Pk Failed")
     else:
         raise Exception("Table Team not Found")
+    df = pd.DataFrame(querry.fetchall())
+    df.columns = querry.keys()
+    return df
 
 '''
 Input: format = either Team_Name or ABV
@@ -219,3 +222,6 @@ def querry_all_teams_name_or_abv(format, string):
                 raise Exception("Querry_All_Teams_Name_Or_Abv Failed")
     else:
         raise Exception("Table was not Found")
+    df = pd.DataFrame(querry.fetchall())
+    df.columns = querry.keys()
+    return df

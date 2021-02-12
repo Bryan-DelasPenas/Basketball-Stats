@@ -1,3 +1,5 @@
+Use BasketballDB;
+DROP PROCEDURE IF EXISTS Truncate_If_Exist;
 DELIMITER $$
 
 CREATE PROCEDURE Truncate_If_Exist(IN Tbl_Name VARCHAR(150) )
@@ -11,5 +13,5 @@ CREATE PROCEDURE Truncate_If_Exist(IN Tbl_Name VARCHAR(150) )
   END $$
 
 DELIMITER ;
-DROP PROCEDURE IF EXISTS Truncate_If_Exist;
+
 

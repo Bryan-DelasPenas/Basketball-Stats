@@ -26,6 +26,32 @@ def test_connection(engine):
         raise Exception("Did not connect to BasketBall Database")
 
 '''
+Function that gives all privileges to basketballDB
+'''
+def grant_privileges(user):
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    try:
+        conn.execute(
+        """
+       
+        """
+        )
+        trans.commit()
+        conn.close()
+        print("Grant Privileges")
+    except:
+        raise Exception("Grant Privileges failed")
+
+
+
+'''
 Function that test to see if the table has been created
 '''
 def check_table(tablename):
@@ -44,7 +70,7 @@ def check_table(tablename):
     """, tablename
     ).fetchall()    
     trans.commit()
-    
+    conn.close()
     # Check if the list is empty 
     if test:
         print("Table exists")
@@ -52,6 +78,33 @@ def check_table(tablename):
     
     else:
         print("Table does not exists")
+        return False
+
+'''
+Function that checks to  see if the stored procedure is inside the querry
+'''
+def check_procedure(procedure):
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    test = conn.execute(
+    """
+    SHOW PROCEDURE STATUS LIKE %s
+
+    """, procedure
+    ).fetchall()
+    trans.commit()
+    conn.close()
+    if test:
+        print("Procedure Exists")
+        return True
+    else:
+        print("Procedure does not Exist")
         return False
 
 '''
@@ -78,6 +131,7 @@ def querry_all(tablename):
             FROM %s;
             """, tablename)
             trans.commit()
+            conn.close()
             print("Querry all was successful")
         except:
             raise Exception("Querry all failed")
@@ -90,3 +144,4 @@ def querry_all(tablename):
 
     # Return the pandas dataframe
     return df
+

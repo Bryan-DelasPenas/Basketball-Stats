@@ -36,6 +36,7 @@ def insert_season(season_id):
             VALUES(%s)
             """, season_id)
             trans.commit()
+            conn.close()
             print("Insertion into Season was successful")
         except:
             raise Exception("Insertion into Season failed")
@@ -62,6 +63,7 @@ def insert_team(df):
         try:
             df.to_sql('team', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team was successful")
         
         except:
@@ -86,6 +88,7 @@ def insert_player(df):
         try:
             df.to_sql('player', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player was successful")
         
         except:
@@ -113,6 +116,7 @@ def insert_standings(df):
         try:
             df.to_sql('standings', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team was successful")
         
         except:
@@ -141,6 +145,7 @@ def insert_conference_standings(df):
         try:
             df.to_sql('conference_standings', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team was successful")
         
         except:
@@ -170,6 +175,7 @@ def insert_roster(df):
         try:
             df.to_sql('roster', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Roster was successful")
         
         except:
@@ -197,6 +203,7 @@ def insert_team_stats(df):
         try:
             df.to_sql('team_stats', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team_Stats was successful")
         
         except:
@@ -226,6 +233,7 @@ def insert_team_advanced(df):
         try:
             df.to_sql('team_advanced', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team_Advanced was successful")
         
         except:
@@ -255,6 +263,7 @@ def insert_team_misc(df):
         try:
             df.to_sql('team_misc', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team_Misc was successful")
         
         except:
@@ -287,6 +296,7 @@ def insert_team_per_game(df, opponent):
         try:
             df.to_sql('team_per_game', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team_Per_Game was successful")
         
         except:
@@ -319,6 +329,7 @@ def insert_team_per_poss(df, opponent):
         try:
             df.to_sql('team_per_poss', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team_Per_Poss was successful")
         
         except:
@@ -351,6 +362,7 @@ def insert_team_totals(df, opponent):
         try:
             df.to_sql('team_totals', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Team_Totals was successful")
         
         except:
@@ -378,6 +390,7 @@ def insert_player_stats(df):
         try:
             df.to_sql('player_stats', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Stats was successful")
         
         except:
@@ -412,6 +425,7 @@ def insert_player_advanced(df, format):
         try:
             df.to_sql('player_advanced', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Advanced was successful")
         
         except:
@@ -445,6 +459,7 @@ def insert_player_per_game(df, format):
         try:
             df.to_sql('player_per_game', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Per_Game was successful")
         
         except:
@@ -478,6 +493,7 @@ def insert_player_per_minute(df, format):
         try:
             df.to_sql('player_per_minute', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Per_Minute was successful")
         
         except:
@@ -511,6 +527,7 @@ def insert_player_per_poss(df, format):
         try:
             df.to_sql('player_per_poss', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Per_Poss was successful")
         
         except:
@@ -544,6 +561,7 @@ def insert_player_totals(df, format):
         try:
             df.to_sql('player_totals', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Totals was successful")
         
         except:
@@ -570,6 +588,7 @@ def insert_player_career_stats(df):
         try:
             df.to_sql('player_career_stats', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Career_Stats was successful")
         
         except:
@@ -604,6 +623,7 @@ def insert_player_career_advanced(df, format):
         try:
             df.to_sql('player_career_advanced', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Career_Advanced was successful")
         
         except:
@@ -636,6 +656,7 @@ def insert_player_career_per_game(df, format):
         try:
             df.to_sql('player_career_per_game', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Career_Per_Game was successful")
         
         except:
@@ -668,6 +689,7 @@ def insert_player_career_per_minute(df, format):
         try:
             df.to_sql('player_career_per_minute', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Career_Per_Minute was successful")
         
         except:
@@ -700,6 +722,7 @@ def insert_player_career_per_poss(df, format):
         try:
             df.to_sql('player_career_per_poss', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Per_Poss was successful")
         
         except:
@@ -732,6 +755,7 @@ def insert_player_career_totals(df, format):
         try:
             df.to_sql('player_career_totals', con = engine, if_exists='append', index = False)
             trans.commit()
+            conn.close()
             print("Insertion into Player_Career_Totals was successful")
         
         except:
@@ -1224,9 +1248,9 @@ def insert_all_player_totals():
             insert_player_career_totals(df_career_playoff, 1)
 
 '''
-Main function 
+Calls all insert functions 
 '''
-def main():
+def insert_all():
     start_time = time.time()
 
     insert_all_season()
@@ -1249,5 +1273,13 @@ def main():
     insert_all_player_totals()
 
     print("--- %s seconds ---" % (time.time() - start_time))
+
+'''
+Main function 
+'''
+def main():
+
+    insert_all()
+    
 if __name__ == "__main__":
     main()
