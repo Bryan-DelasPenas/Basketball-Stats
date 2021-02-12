@@ -34,7 +34,7 @@ def drop_all_table():
         raise Exception("There is no procedure named drop_all_tables")
 
 '''
-Function that drops a procedure based on an input parameter
+Function that drops a procedure drop_table
 '''
 def drop_procedure_drop_table():
     # Connect to sql database
@@ -60,6 +60,9 @@ def drop_procedure_drop_table():
     else:
         raise Exception("Procedure drop_all_tables does not exists")
 
+'''
+Function that drops procedure truncate_if_exists
+'''
 def drop_procedure_truncate_if_exist():
     # Connect to sql database
     engine = create_connection()

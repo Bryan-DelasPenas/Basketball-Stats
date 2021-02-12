@@ -19,37 +19,10 @@ def test_connection(engine):
     # Test the connection of the database
     try:
         conn = engine.connect()
-        print("Connected to BasketBall Database")
         return conn
 
     except:
         raise Exception("Did not connect to BasketBall Database")
-
-'''
-Function that gives all privileges to basketballDB
-'''
-def grant_privileges(user):
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    try:
-        conn.execute(
-        """
-       
-        """
-        )
-        trans.commit()
-        conn.close()
-        print("Grant Privileges")
-    except:
-        raise Exception("Grant Privileges failed")
-
-
 
 '''
 Function that test to see if the table has been created
