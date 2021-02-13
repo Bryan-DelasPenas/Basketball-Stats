@@ -24,8 +24,8 @@ from the first phase, we can add it into a database and write queries for certai
 we can write a query to see who has the total most field goals in a certain year.</p>
 
 <p>Phase 3: Using the database, we can retrieve player stats for a given year. With these stats, we can 
-highlight import features, and thus put it into a random forest function. This function should predict who 
-won MVP for a given year.</p>
+highlight import features, and thus put it into a random forest function. This function should the import stats, 
+then we can use Linear Regression to predict who won MVP for a given year.</p>
 
 <p>Phase 4: Using flask, creating a web application to for the scrapers, database, and for the mvp prediction.
 This is an optional phase that may or may not be created.</p>
