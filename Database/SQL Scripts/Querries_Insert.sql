@@ -45,4 +45,3 @@ FROM Team_Totals;
 SELECT *
 FROM Team
 WHERE Season_ID = 1994;
-
