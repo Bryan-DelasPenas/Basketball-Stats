@@ -3,32 +3,16 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 import pandas as pd
 
-from Helper_DB import test_connection, create_connection, check_table
+from Helper_DB import test_connection, create_connection, check_procedure
+
 
 '''
-Team Querries
+Create Procedures
 '''
 '''
-Select * querries
+Function that creates procedure that queries teams based on Season_ID
 '''
-'''
-Input: format = the primary keys of the 
-       id_one = first value of the primary key
-       id_two = second value of the primary key if range is wanted(using Between)
-Returns all columns inside of Teams based on a single primary key
-'''
-def querry_all_team_single_pk(format, id_one, id_two = None):
-    
-    # Lower case format 
-    format = format.lower()
-
-    # Check if it is either Season ID 
-    if(format == "season"):
-        selector = "Season_ID"
-
-    elif(format == "team"):
-        selector = "Team_ID"
-    
+def create_querry_all_team_sid():
     # Connect to sql database
     engine = create_connection()
     
@@ -37,83 +21,30 @@ def querry_all_team_single_pk(format, id_one, id_two = None):
  
     trans = conn.begin()
 
-    # Check if the table exists 
-    if(check_table('Team')):
-        
-        # Only one pk value was inputed
-        if(selector == "Season_ID" and id_two is None):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Season_ID = %s
-                """,  id_one)
-                trans.commit()
-                print("Querry_Team_Single_Pk was successful ")
-                
-            except:
-                raise Exception("Querry_Team_Single_Pk failed")
-        
-        elif(selector == "Season_ID" and id_two):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Season_ID BETWEEN %s AND %s
-                """,  id_one, id_two)
-                trans.commit()
-                print("Querry_Team_Single_Pk was successful ")
-                
-            except:
-                raise Exception("Querry_Team_Single_Pk failed")
-
-        elif(selector == "Team_ID" and id_two is None):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Team_ID = %s
-                """, id_one)
-                trans.commit()
-                print("Querry_Team_Single_Pk was successful ")
-            except:
-                raise Exception("Querry_Team_Single_Pk failed")
-    
-        # Two pk values was inputed 
-        elif(selector == "Team_ID" and id_two):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Team_ID BETWEEN %s AND %s
-                """, id_one, id_two)
-                trans.commit()
-                print("Querry_Team_Single_Pk was successful ")
-            except:
-                raise Exception("Querry_Team_Single_Pk failed")
+    if not check_procedure('querry_all_team_sid'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            CREATE PROCEDURE querry_all_team_sid(s_id int)
+            BEGIN
+               SELECT Season_ID
+               FROM Season
+               Where Season_ID = s_id;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Querry_All_Team_Sid was Successful")
+        except:
+            raise Exception("Create Procedure Querry_All_Team_Sid Failed")
     else:
-        raise Exception("Table does not exists")
-    
-    df = pd.DataFrame(querry.fetchall())
-    df.columns = querry.keys()
-    return df
+        raise Exception("Procedure Querry_All_Team_Sid does  exists")
 
 '''
-Input: s_id_one = first season_id value
-       s_id_two = second season_id value passed if wanting a range(using Between)
-       t_id_one = first team_id value
-       t_id_two = second team_id value pass if wanting a range(using Between)
-Returns all column inside of Teams based on two primary keys
+Function that creates procedure that queries teams based on Team_ID
 '''
-def querry_all_team_double_pk(s_id_one, t_id_one, s_id_two = None, t_id_two = None):
+def create_querry_all_team_tid():
     # Connect to sql database
     engine = create_connection()
     
@@ -122,68 +53,30 @@ def querry_all_team_double_pk(s_id_one, t_id_one, s_id_two = None, t_id_two = No
  
     trans = conn.begin()
 
-    # Check if the table exists 
-    if(check_table('Team')):
-
-        # s_id_two == None and t_id_two != None
-        if(s_id_two is None and t_id_two is not None):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Season_ID = %s 
-                AND Team_ID BETWEEN %s, %s 
-                """, s_id_one, t_id_one, t_id_two)
-                trans.commit()
-                print("Querry_Team_Single_Pk was Successful ")
-            except:
-                raise Exception("Querry_Team_Double_Pk Failed")
-
-        # s_id_two != None and t_id_two == None
-        elif(s_id_two is not None and t_id_one is None):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Team_ID = %s 
-                AND Season_ID BETWEEN %s, %s 
-                """, t_id_one, s_id_one, s_id_two)
-                trans.commit()
-                print("Querry_Team_Single_Pk was Successful ")
-            except:
-                raise Exception("Querry_Team_Double_Pk Failed")
-        
-        # s_id_two == None and t_id_two == None
-        else:
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Season_ID = %s 
-                AND Team_ID = %s 
-                """, t_id_one, s_id_one)
-                trans.commit()
-                print("Querry_Team_Single_Pk was Successful ")
-            except:
-                raise Exception("Querry_Team_Double_Pk Failed")
+    if not check_procedure('querry_all_team_tid'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            CREATE PROCEDURE querry_all_team_tid(t_id int)
+            BEGIN
+               SELECT Team_ID
+               FROM Season
+               Where Team_ID = t_id;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Querry_All_Team_Sid was Successful")
+        except:
+            raise Exception("Create Procedure Querry_All_Team_Tid Failed")
     else:
-        raise Exception("Table Team not Found")
-    df = pd.DataFrame(querry.fetchall())
-    df.columns = querry.keys()
-    return df
+        raise Exception("Procedure Querry_All_Team_Tid does  exists")
 
 '''
-Input: format = either Team_Name or ABV
-       string = either a Team_Name or Team_ABV
-Returns all column inside of Teams based on Team_Name or Team_ABV
+Function that creates procedure that queries teams based on Name
 '''
-def querry_all_teams_name_or_abv(format, string):
+def create_querry_all_teams_name():
     # Connect to sql database
     engine = create_connection()
     
@@ -192,36 +85,189 @@ def querry_all_teams_name_or_abv(format, string):
  
     trans = conn.begin()
 
-    # Check if the table exists 
-    if(check_table('Team')):
-        if(format == 'abv'):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Team_ABV = %s 
-                """, string)
-                trans.commit()
-                print("Querry_All_Teams_Name_Or_Abv was Successful ")
-            except:
-                raise Exception("Querry_All_Teams_Name_Or_Abv Failed")
-        elif(format == 'name'):
-            try:
-                # Create a parameterized querry 
-                querry = conn.execute(
-                """
-                SELECT *
-                FROM Team
-                WHERE Team_Name = %s 
-                """, string)
-                trans.commit()
-                print("Querry_All_Teams_Name_Or_Abv was Successful ")
-            except:
-                raise Exception("Querry_All_Teams_Name_Or_Abv Failed")
+    if not check_procedure('querry_all_team_name'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            CREATE PROCEDURE querry_all_team_name(name VARCHAR(45))
+            BEGIN
+               SELECT Team_Name
+               FROM Season
+               Where Team_Name = name;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Querry_All_Team_Name was Successful")
+        except:
+            raise Exception("Create Procedure Querry_All_Team_Name Failed")
     else:
-        raise Exception("Table was not Found")
-    df = pd.DataFrame(querry.fetchall())
-    df.columns = querry.keys()
-    return df
+        raise Exception("Procedure Querry_All_Team_Name does exists")
+
+'''
+Function that creates procedure that queries teams based ABV
+'''
+def create_querry_all_teams_ABV():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('querry_all_team_abv'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            CREATE PROCEDURE querry_all_team_ABV(abv VARCHAR(3))
+            BEGIN
+               SELECT Team_ABV
+               FROM Season
+               Where Team_ABV = abv;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Querry_All_Team_ABV was Successful")
+        except:
+            raise Exception("Create Procedure Querry_All_Team_ABV Failed")
+    else:
+        raise Exception("Procedure Querry_All_Team_ABV does exists")
+
+'''
+Function that creates all procedures
+'''
+def create_team_query():
+    create_querry_all_team_sid()
+    create_querry_all_team_tid()
+    create_querry_all_teams_name()
+    create_querry_all_teams_ABV()
+
+'''
+Drop Procedures
+'''
+'''
+
+'''
+def drop_querry_all_team_sid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('querry_all_team_sid'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS querry_all_team_sid
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Querry_All_Team_Sid was Successful")
+        except:
+            raise Exception("Deletion of Procedure Querry_All_Team_Sid Failed")
+    else:
+        raise Exception("Procedure Querry_All_Team_Sid does not Exists")
+
+'''
+
+'''
+def drop_querry_all_team_tid():
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('querry_all_team_tid'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS querry_all_team_tid
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Querry_All_Team_Tid was Successful")
+        except:
+            raise Exception("Deletion of Procedure Querry_All_Team_Tid Failed")
+    else:
+        raise Exception("Procedure Querry_All_Team_Tid does not Exists")
+
+'''
+
+'''
+def drop_querry_all_team_name():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('querry_all_team_name'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS querry_all_team_name
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Querry_All_Team_Name was Successful")
+        except:
+            raise Exception("Deletion of Procedure Querry_All_Team_Name Failed")
+    else:
+        raise Exception("Procedure Querry_All_Team_Name does not Exists")
+
+'''
+
+'''
+def drop_querry_all_team_ABV():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('querry_all_team_abv'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS querry_all_team_abv
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Querry_All_Team_ABV was Successful")
+        except:
+            raise Exception("Deletion of Procedure Querry_All_Team_ABV Failed")
+    else:
+        raise Exception("Procedure Querry_All_Team_ABV does not Exists")
+
+'''
+
+'''
+def drop_team_query():
+    drop_querry_all_team_sid()
+    drop_querry_all_team_tid()
+    drop_querry_all_team_name()
+    drop_querry_all_team_ABV()
+
+def main():
+    create_team_query()
+    drop_team_query()
+main()

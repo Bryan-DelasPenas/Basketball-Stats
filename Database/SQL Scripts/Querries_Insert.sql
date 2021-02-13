@@ -15,12 +15,6 @@ FROM Standings;
 SELECT *
 FROM Conference_Standings;
 
-SELECT *
-FROM Expanded_Standings;
-
-SELECT * 
-FROM Team_Vs_Team;
-
 SELECT * 
 FROM Roster;
 
@@ -45,3 +39,4 @@ FROM Team_Totals;
 SELECT *
 FROM Team
 WHERE Season_ID = 1994;
+
