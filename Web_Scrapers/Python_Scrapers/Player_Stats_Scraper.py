@@ -46,8 +46,8 @@ def get_player_name(letter):
     # Check the status code, if the code is 200, it means the request went through
     if page.status_code == 200: 
         soup = BeautifulSoup(page.content, 'html.parser')
-        table = str(soup.find('table'))
-        
+        table = soup.find('table')
+
         # Insert this data into a pandas dataframe
         df = pd.read_html(str(table))[0]
         
@@ -716,7 +716,3 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df = career_df.drop(['eFG%'], axis=1)
 
         return career_df
-
-def main():
-    print(get_player_stats('Geno Carlisle', 'August 13, 1976', 'Advanced'))
-main()

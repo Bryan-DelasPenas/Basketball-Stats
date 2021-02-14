@@ -18,18 +18,17 @@ Get csvs of player stats
 '''
 def csv_player_stats(name, birth_date, format, playoff, player_path):
     print(format)
-    
-    df = get_player_stats(name, birth_date,format, playoff)
-
-    if(df is None):
-        return None
-
-    if(playoff):
+    if playoff:
         playoff_string = "Playoff_Stats"
         playoff_name = "Playoff"
     else:
         playoff_string = "Regular_Stats"
         playoff_name = "Regular"
+    
+    df = get_player_stats(name, birth_date, format, playoff)
+
+    if(df is None):
+        return None
 
     directory_child = format.title()
 
@@ -45,9 +44,9 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
 
         os.mkdir(output_path)
 
-    file_name = '//'+ name + '_' + playoff_name + '_' +format + '.csv'
-
-    df.to_csv(output_path + file_name, index = False)
+    file_name = '//'+ name + '_' + playoff_name + '_' + format + '.csv'
+    if(not os.path.isfile(file_name)):
+        df.to_csv(output_path + file_name, index = False)
     
     return 0
 
@@ -83,8 +82,8 @@ def csv_career_stats(name, birth_date, format, playoff, player_path):
         os.mkdir(output_path)
 
     file_name = '//'+ name + '_'  + 'career'+ '_' + playoff_name+ '_' + format + '.csv'
-
-    df.to_csv(output_path + file_name, index = False)
+    if(not os.path.isfile(file_name)):
+        df.to_csv(output_path + file_name, index = False)
     
     return 0
 
@@ -107,7 +106,7 @@ def get_player_csv():
     record = df.values.tolist()
 
     # Iterate through the list 
-    for i in range(119, len(record)):
+    for i in range(len(record)):
         print(i)
         print(record[i][0])
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
@@ -163,9 +162,7 @@ Main function
 def main():
     
     start_time = time.time()
-    #csv_player_stats("Kareem Abdul-Jabbar", 'April 16, 1947', 'PER_GAME', False, False)
     get_player_csv()
-    #csv_player_stats("A.C. Green", "October 4, 1963", 'Advanced', False, os.path.join(pathlib.Path().absolute(), 'Output', 'Player', 'A.C. Green'))
     print("--- %s seconds ---" % (time.time() - start_time))
 
 if __name__ == "__main__":

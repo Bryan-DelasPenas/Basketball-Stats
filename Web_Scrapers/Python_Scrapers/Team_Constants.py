@@ -276,7 +276,6 @@ REVERSE_RIGHT_DICT = {
     "Gary Payton II"          : "Gary Payton",
     "Kevin Porter Jr"        : "Kevin Porter",
     "Michael Porter Jr"      : "Michael Porter",
-    #"Efthimios Rentzias"      : "Efthimi Rentzias",
     "Glen Rice Jr"           : "Glen Rice",
     "Glenn Robinson III"      : "Glenn Robinson",
     "Walker Russell Jr"      : "Walker Russell",
@@ -331,23 +330,6 @@ RIGHT_PLAYER_SUFIX = {
     ("Mo Williams", "December 19, 1982")             : "Maurice Williams",
     ("Metta World Peace", "November 13, 1979")       : "Ron Artes"
 }
-
-WRONG_NAME_LIST = [
-    "Kelly Oubre", 
-    "Derrick Jones", 
-    "Walt Lemon", 
-    "Horacio Llamas Grey",
-    "LaMark Baker", 
-    "Jeffery Taylor",  
-    "Luigi Datome", 
-    "James Webb",
-    "Dennis Smith",
-    "Frank Mason",
-    "Marvin Bagley",
-    "Troy Brown",
-    "Wendell Carter",
-    "Michael Porter"
-    ]
 
 # If the name is correct but the page name is not correct
 SPECIAL_NAME_DICT = {

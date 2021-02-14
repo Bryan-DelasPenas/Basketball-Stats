@@ -4,7 +4,7 @@ import sys
 from bs4 import BeautifulSoup
 from requests import get
 
-from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM, RIGHT_NAME_DICT, PLAYER_ID, WRONG_NAME_LIST
+from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM, RIGHT_NAME_DICT, PLAYER_ID
 from utils import strip_accents, translate
 
 
@@ -71,7 +71,7 @@ def get_roster(team, season, orginal = False):
         final_df = pd.DataFrame(players, columns=['Season', 'Team ID', 'Team ABV', 'Team', 'Number', 'Player', 'Pos', 'Height', 'Weight', 'Birth Date', 
                                                   'Nationality', 'Experience', 'College'])
 
-        final_df['Player ID'] = final_df['Player'].apply(lambda x: 0 if (x in WRONG_NAME_LIST) else PLAYER_ID[x])
+        final_df['Player ID'] = final_df['Player'].apply(lambda x: PLAYER_ID[x])
 
         # Rearranges the elements
         final_df = final_df[ ['Team'] + [ col for col in  final_df.columns if col != 'Team' ] ]
