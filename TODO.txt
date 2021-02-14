@@ -1,0 +1,34 @@
+For database
+
+Create and Delete
+
+Create Table Script:        Done
+General Procedures Script:  Done
+Insertion Script:           Done
+Queries:                    In Progress
+
+For Queries:                            Amount 
+Season:                   NA          | 0
+Team:                     Done        | 5
+Player:                   Done        | 2
+Standings                 NA          | 0
+Conference Standings:     In Progress | 8 
+Roster:                   In Progress |
+Team Stats:               NA          |
+Team Advanced:            In Progress |
+Team Misc:                In Progress | 
+Team Per Game:            In Progress |
+Team Per Minute:          In Prorgess |
+Team Totals:              In Progress |
+Player Stats:             NA          |
+Player Advanced:          In Progress | 
+Player Per Game:          In Progress |
+Player Per Minute:        In Progress |
+Player Per Poss:          In Progress | 
+Player Totals:            In Progress |
+Player Career Stats:      NA          |
+Player Career Advanced:   In Progress |
+Player Career Per Game:   In Progress |
+Player Career Per Minute: In Progress |
+Player Career Per Poss:   In Progress | 
+Player Career Totals:     In Progress |
