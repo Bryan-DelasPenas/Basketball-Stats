@@ -12,8 +12,8 @@ Season:                   NA          | 0
 Team:                     Done        | 5
 Player:                   Done        | 2
 Standings                 NA          | 0
-Conference Standings:     In Progress | 8 
-Roster:                   In Progress |
+Conference Standings:     Done        | 8 
+Roster:                   In Progress | 10
 Team Stats:               NA          |
 Team Advanced:            In Progress |
 Team Misc:                In Progress | 
