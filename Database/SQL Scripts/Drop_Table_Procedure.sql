@@ -2,7 +2,7 @@ USE BasketBallDB;
 DROP PROCEDURE IF EXISTS `drop_all_tables`;
 
 DELIMITER $$
-CREATE PROCEDURE `drop_all_tables`()
+CREATE PROCEDURE drop_all_tables()
 BEGIN
     DECLARE _done INT DEFAULT FALSE;
     DECLARE _tableName VARCHAR(255);

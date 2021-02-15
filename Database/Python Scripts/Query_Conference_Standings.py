@@ -169,6 +169,38 @@ def create_query_all_cs_win():
         raise Exception("Procedure Query_All_CS_Win does exists")
 
 '''
+Function that create procedure to query all conference standings based on win-lost percentage
+'''
+def create_query_all_cs_wl():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_all_cs_wl'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            CREATE PROCEDURE query_all_cs_wl(wl FLOAT)
+            BEGIN
+               SELECT *
+               FROM Conference Standings
+               Where Win_Lost_Percentage >= wl;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_All_CS_WL was Successful")
+        except:
+            raise Exception("Create Procedure Query_All_CS_WL Failed")
+    else:
+        raise Exception("Procedure Query_All_CS_WL does exists")
+
+'''
 Function that creates procedure to query all conference standings based on a season_id and east or west
 '''
 def create_query_all_cs_sid_ew():
@@ -282,6 +314,7 @@ def create_cs_query():
     create_query_all_cs_name()
     create_query_all_cs_ABV()
     create_query_all_cs_win()
+    create_query_all_cs_wl()
     create_query_all_cs_sid_ew()
     create_query_cs_win()
     create_query_cs_win_ew()
@@ -425,6 +458,33 @@ def drop_query_all_cs_win():
         raise Exception("Procedure Query_All_CS_Win does not Exists")
 
 '''
+Function that drops query_all_cs_wl()
+'''
+def drop_query_all_cs_wl():
+     # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('query_all_cs_wl'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS query_all_cs_wl
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Query_CS_WL was Successful")
+        except:
+            raise Exception("Deletion of Procedure Query_CS_WL Failed")
+    else:
+        raise Exception("Procedure Query_CS_WL does not Exists") 
+
+'''
 Function that drops query_all_cs_sid_ew
 '''
 def drop_query_all_cs_sid_ew():
@@ -478,6 +538,7 @@ def drop_query_cs_win():
     else:
         raise Exception("Procedure Query_CS_Win does not Exists")
 
+
 '''
 Function that drops query_cs_win_ew
 '''
@@ -514,6 +575,7 @@ def drop_cs_query():
     drop_query_all_cs_name()
     drop_query_all_cs_ABV()
     drop_query_all_cs_win()
+    drop_query_all_cs_wl()
     drop_query_all_cs_sid_ew()
     drop_query_cs_win()
     drop_query_cs_win_ew()
@@ -522,6 +584,7 @@ def drop_cs_query():
 Main Function for Testing
 '''
 def main():
+   
     create_cs_query()
     drop_cs_query()
 

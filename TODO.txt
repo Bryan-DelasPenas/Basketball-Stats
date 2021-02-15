@@ -13,9 +13,9 @@ Team:                     Done        | 5
 Player:                   Done        | 2
 Standings                 NA          | 0
 Conference Standings:     Done        | 8 
-Roster:                   In Progress | 10
-Team Stats:               NA          |
-Team Advanced:            In Progress |
+Roster:                   Done        | 11
+Team Stats:               In Progress | 12
+Team Advanced:            In Progress | 
 Team Misc:                In Progress | 
 Team Per Game:            In Progress |
 Team Per Minute:          In Prorgess |

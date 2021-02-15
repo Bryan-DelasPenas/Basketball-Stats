@@ -834,8 +834,8 @@ def insert_all_standings():
 Calls insert_conference_standings from 1980 - 2020
 '''
 def insert_all_conference_standings():
-    east_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "Standard", "East")
-    west_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "Standard", "West")
+    east_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "East")
+    west_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "West")
     
     # Iterate through the years
     for i in range(1980, 2021):
@@ -858,7 +858,7 @@ def insert_all_conference_standings():
 Calls insert_roster from 1980 - 2020
 '''
 def insert_all_roster():
-    path = os.path.join(pathlib.Path().absolute(), "Output","Team", "Roster", "Team_Roster")
+    path = os.path.join(pathlib.Path().absolute(), "Output","Team", "Roster")
 
     for i in range(1980, 2021):
         second_path = os.path.join(path, str(i))

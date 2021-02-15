@@ -108,7 +108,7 @@ def create_query_all_team_sid_tid():
 '''
 Function that creates procedure that queries all teams based on Team Name
 '''
-def create_query_all_teams_name():
+def create_query_all_team_name():
     # Connect to sql database
     engine = create_connection()
     
@@ -140,7 +140,7 @@ def create_query_all_teams_name():
 '''
 Function that creates procedure that queries all teams based Team ABV
 '''
-def create_query_all_teams_ABV():
+def create_query_all_team_ABV():
     # Connect to sql database
     engine = create_connection()
     
@@ -176,8 +176,8 @@ def create_team_query():
     create_query_all_team_sid()
     create_query_all_team_tid()
     create_query_all_team_sid_tid()
-    create_query_all_teams_name()
-    create_query_all_teams_ABV()
+    create_query_all_team_name()
+    create_query_all_team_ABV()
 
 '''
 Drop Procedures

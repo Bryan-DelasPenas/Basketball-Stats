@@ -80,41 +80,4 @@ def check_procedure(procedure):
         print("Procedure does not Exist")
         return False
 
-'''
-Input: tablename: The name of the table you want to querry from
-Returns all columns of tablename
-'''
-def querry_all(tablename):
-
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    # Check if the table exists 
-    if(check_table(tablename.title())):
-        try: 
-            # Create a parameterized querry for insertion
-            querry_all = conn.execute(
-            """
-            SELECT * 
-            FROM %s;
-            """, tablename)
-            trans.commit()
-            conn.close()
-            print("Querry all was successful")
-        except:
-            raise Exception("Querry all failed")
-    else:
-        raise Exception("Table does not exists")
-    
-    # Convert the querry result into a pandas dataframe
-    df = pd.Dataframe(querry_all.fetchall())
-    df.columns = querry_all.keys()
-
-    # Return the pandas dataframe
-    return df
 
