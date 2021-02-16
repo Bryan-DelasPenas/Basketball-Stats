@@ -40,3 +40,5 @@ SELECT *
 FROM Team
 WHERE Season_ID = 1994;
 
+SELECT *
+FROM Team_Per_Game
