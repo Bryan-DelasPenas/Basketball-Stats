@@ -308,7 +308,7 @@ def get_team_csv():
         print(year)
     
         # Roster Names
-        csv_team_roster(year)
+        #csv_team_roster(year)
         
 
         '''
@@ -326,10 +326,10 @@ def get_team_csv():
         csv_opponent_stats(year, 'Per_Poss')
         csv_opponent_stats(year, 'Total')
         '''
-        '''
+        
         # Team Stats Other
         csv_team_stats_other(year, 'Team_Advanced')
-        '''
+        
 '''
 Main Function
 ''' 

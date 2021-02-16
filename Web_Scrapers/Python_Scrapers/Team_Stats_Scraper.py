@@ -294,7 +294,8 @@ def get_team_advanced(team, season):
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
         df['Season'] = df['Season'].apply(lambda x: remove_char(x, 2) if len(x) != 4 else x)
-
+        df['Season'] = df['Season'].replace(['1900'], '2000')
+        
         df['Season'] = df['Season'].apply(pd.to_numeric)
 
         # Drop players that are didn't play at 1980
@@ -341,3 +342,6 @@ def remove_char(string, postion):
     # nth indexed character. 
     return a + b 
 
+def main():
+    print(get_team_advanced("BOS", 2000))
+main()
