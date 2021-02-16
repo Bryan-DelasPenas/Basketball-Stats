@@ -7,7 +7,7 @@ General Procedures Script:  Done
 Insertion Script:           Done
 Queries:                    In Progress
 
-For Queries:                            Amount 
+For Queries:                            Amount (Totals: 48) 
 Season:                   NA          | 0
 Team:                     Done        | 5
 Player:                   Done        | 2
@@ -16,17 +16,17 @@ Conference Standings:     Done        | 8
 Roster:                   Done        | 11
 Team Stats:               Done        | 12
 Team Advanced:            Done        | 5
-Team Misc:                In Progress | 
+Team Misc:                In Progress | 5
 Team Per Game:            In Progress |
 Team Per Minute:          In Prorgess |
 Team Totals:              In Progress |
-Player Stats:             NA          |
+Player Stats:             In Progress |
 Player Advanced:          In Progress | 
 Player Per Game:          In Progress |
 Player Per Minute:        In Progress |
 Player Per Poss:          In Progress | 
 Player Totals:            In Progress |
-Player Career Stats:      NA          |
+Player Career Stats:      In Progress |
 Player Career Advanced:   In Progress |
 Player Career Per Game:   In Progress |
 Player Career Per Minute: In Progress |
