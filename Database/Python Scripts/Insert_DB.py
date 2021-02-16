@@ -439,7 +439,7 @@ Function that inserts Player_Per_Game
 def insert_player_per_game(df, format):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", 
                             "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "Age" : "Player_Age", "League" : "League", "Pos" : "Player_Postion", "G" : "Games_Played",
-                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "eFG%" : "Effective_Field_Goal_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
@@ -473,7 +473,7 @@ Function that inserts Player_Per_Minute
 def insert_player_per_minute(df, format):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", 
                             "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "Age" : "Player_Age", "League" : "League", "Pos" : "Player_Postion", "G" : "Games_Played",
-                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
@@ -507,7 +507,7 @@ Function that inserts Player_Per_Poss
 def insert_player_per_poss(df, format):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", 
                             "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "Age" : "Player_Age", "League" : "League", "Pos" : "Player_Postion", "G" : "Games_Played",
-                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
@@ -541,7 +541,7 @@ Function that inserts Player_Totals into database
 def insert_player_totals(df, format):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", 
                             "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "Age" : "Player_Age", "League" : "League", "Pos" : "Player_Postion", "G" : "Games_Played",
-                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started ", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "eFG%" : "Effective_Field_Goal_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
@@ -636,7 +636,7 @@ Function that inserts Player_Career_Per_Game
 '''
 def insert_player_career_per_game(df, format):
     df = df.rename(columns={"Player ID" : "Player_ID", "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "G" : "Games_Played",
-                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "eFG%" : "Effective_Field_Goal_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
@@ -669,7 +669,7 @@ Function that inserts Player_Career_Per_Minute
 '''
 def insert_player_career_per_minute(df, format):
     df = df.rename(columns={"Player ID" : "Player_ID", "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "G" : "Games_Played",
-                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
@@ -702,7 +702,7 @@ Function that inserts Player_Career_Per_Poss
 '''
 def insert_player_career_per_poss(df, format):
     df = df.rename(columns={"Player ID" : "Player_ID", "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "G" : "Games_Played",
-                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",
@@ -735,7 +735,7 @@ Function that inserts Player_Career_Totals
 '''
 def insert_player_career_totals(df, format):
     df = df.rename(columns={"Player ID" : "Player_ID", "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "G" : "Games_Played",
-                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Made", "FG%" : "Field_Goals_Percentage",
+                            "GS" : "Games_Started", "MP" : "Minutes_Played", "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage",
                             "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted", "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted",
                             "2P%" : "Two_Points_Percentage", "eFG%" : "Effective_Field_Goal_Percentage", "FT" : "Free_Throws_Made","FTA" : "Free_Throws_Attempted",
                             "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebounds", "DRB" : "Defensive_Rebounds", "TRB" : "True_Rebounds", "AST" : "Assists",

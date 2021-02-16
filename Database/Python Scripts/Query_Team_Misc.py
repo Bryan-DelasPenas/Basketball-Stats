@@ -9,7 +9,7 @@ from Helper_DB import test_connection, create_connection, check_procedure
 Create Procedures
 '''
 '''
-Function that creates procedure that queries all team_advanced based on Season_ID
+Function that creates procedure that queries all team_misc based on Season_ID
 '''
 def create_query_all_team_misc_sid():
     # Connect to sql database
@@ -41,7 +41,7 @@ def create_query_all_team_misc_sid():
         raise Exception("Procedure Query_All_Team_Misc_Sid does exists")
 
 '''
-Function that creates procedure that queries all team_advanced based on Team_ID
+Function that creates procedure that queries all team_misc based on Team_ID
 '''
 def create_query_all_team_misc_tid():
     # Connect to sql database
@@ -73,7 +73,7 @@ def create_query_all_team_misc_tid():
         raise Exception("Procedure Query_All_Team_Misc_Tid does exists")
 
 '''
-Function that creates procedure that queries all team_advanced based on Team_ID and Season_ID
+Function that creates procedure that queries all team_misc based on Team_ID and Season_ID
 '''
 def create_query_all_team_misc_sid_tid():
     # Connect to sql database
@@ -106,7 +106,7 @@ def create_query_all_team_misc_sid_tid():
         raise Exception("Procedure Query_All_Team_Misc_Sid_Tid does  exists")
 
 '''
-Function that creates procedure that queries all team_advanced based on Team Name
+Function that creates procedure that queries all team_misc based on Team Name
 '''
 def create_query_all_team_misc_name():
     # Connect to sql database
@@ -138,7 +138,7 @@ def create_query_all_team_misc_name():
         raise Exception("Procedure Query_All_Team_Misc_Name does exists")
 
 '''
-Function that creates procedure that queries all team_advanced based Team ABV
+Function that creates procedure that queries all team_misc based Team ABV
 '''
 def create_query_all_team_misc_ABV():
     # Connect to sql database
@@ -319,7 +319,7 @@ def drop_query_all_team_misc_ABV():
         raise Exception("Procedure Query_All_Team_Misc_ABV does not Exists")
 
 '''
-Function that drops  all procedure team_advanced stored procedures 
+Function that drops  all procedure team_misc stored procedures 
 '''
 def drop_team_misc_query():
     drop_query_all_team_misc_sid()

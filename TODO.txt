@@ -10,16 +10,16 @@ Queries:                    In Progress
 For Queries:                            Amount (Totals: 48) 
 Season:                   NA          | 0
 Team:                     Done        | 5
-Player:                   Done        | 2
+Player:                   Done        | 3
 Standings                 NA          | 0
 Conference Standings:     Done        | 8 
 Roster:                   Done        | 11
 Team Stats:               Done        | 12
 Team Advanced:            Done        | 5
-Team Misc:                In Progress | 5
-Team Per Game:            In Progress |
-Team Per Minute:          In Prorgess |
-Team Totals:              In Progress |
+Team Misc:                Done        | 5
+Team Per Game:            Done        | 5
+Team Per Minute:          Done        | 5
+Team Totals:              Done        | 5
 Player Stats:             In Progress |
 Player Advanced:          In Progress | 
 Player Per Game:          In Progress |

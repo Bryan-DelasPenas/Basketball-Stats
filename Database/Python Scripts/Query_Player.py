@@ -71,7 +71,39 @@ def create_query_all_player_name_dob():
         except:
             raise Exception("Create Procedure Query_All_Player_Name_dob Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Name_dob does  exists")
+        raise Exception("Procedure Query_All_Player_Name_dob does exists")
+
+'''
+Function that creates procedure that queries Player for Player_ID based on Player_name
+'''
+def create_query_player_name():
+      # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_name'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_name(name varchar(100))
+            BEGIN
+               SELECT Player_ID
+               FROM Player
+               Where Player_Name = name;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Name was Successful")
+        except:
+            raise Exception("Create Procedure Query_Player_Name Failed")
+    else:
+        raise Exception("Procedure Query_Player_Name does  exists")
 
 '''
 Function that calls all player query creation
@@ -79,6 +111,7 @@ Function that calls all player query creation
 def create_player_query():
     create_query_all_player_pid()
     create_query_all_player_name_dob()
+    create_query_player_name()
 
 '''
 Drop Procedures
@@ -138,11 +171,39 @@ def drop_query_all_player_name_dob():
         raise Exception("Procedure Query_All_Player_Name_DOB does not Exists")
 
 '''
+Function that drops procedure query_player_name
+'''
+def drop_query_player_name():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('query_player_name'):
+        try: 
+            # Create a parameterized querry for insertion
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS query_player_name
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Query_Player_Name was Successful")
+        except:
+            raise Exception("Deletion of Procedure Query_Player_Name Failed")
+    else:
+        raise Exception("Procedure Query_Player_Name does not Exists")
+
+'''
 Function that calls all drop player query
 '''
 def drop_player_query():
     drop_query_all_player_pid()
     drop_query_all_player_name_dob()
+    drop_query_player_name()
 
 '''
 Main Function 
