@@ -77,7 +77,7 @@ def create_query_all_player_name_dob():
 Function that creates procedure that queries Player for Player_ID based on Player_name
 '''
 def create_query_player_name():
-      # Connect to sql database
+    # Connect to sql database
     engine = create_connection()
     
     # Test the connection of the database

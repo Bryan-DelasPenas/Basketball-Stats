@@ -20,7 +20,7 @@ Team Misc:                Done        | 5
 Team Per Game:            Done        | 5
 Team Per Minute:          Done        | 5
 Team Totals:              Done        | 5
-Player Stats:             In Progress |
+Player Stats:             In Progress | 12
 Player Advanced:          In Progress | 
 Player Per Game:          In Progress |
 Player Per Minute:        In Progress |
