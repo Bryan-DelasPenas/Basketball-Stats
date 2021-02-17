@@ -380,6 +380,23 @@ SPECIAL_NAME_DICT = {
 }
 
 '''
+This is for players who didn't play in the reg season but in the playoffs for a given year
+'''
+DATABASE_DICT = {
+        'Dorell Wright' : [[2016, 16, 3241, 'MIA', 'Miami Heat', 'December 2, 1985', 'Dorell Wright']],    
+        'Dwayne Jones': [[2013, 10, 1539, 'GSW', 'Golden State Warriors', 'June 9, 1983', 'Dwayne Jones']],
+        'Ed Sherod': [[1982, 3, 2615, 'NJN', 'New Jersey Nets', 'September 13, 1959', 'Ed Sherod']],
+        'Jaylen Adams': [[2020, 25, 14, 'POR', 'Portland Trail Blazers', 'May 4, 1996', 'Jaylen Adams']],
+        'John Holland': [[2016, 2, 1311, 'BOS', 'Boston Celtics', 'November 6, 1988', 'John Holland']],
+        'Larry Krystkowiak': [[1991, 17, 1658, 'MIL', 'Milwaukee Bucks', 'September 23, 1964', 'Larry Krystkowiak']],
+        'Mike Brown': [[1998, 24, 390, 'PHO', 'Phoenix Suns', 'July 19, 1963', 'Mike Brown']],
+        'Mike Mitchell': [[1990, 27, 2011, 'SAS', 'San Antonio Spurs', 'January 1, 1956', 'Mike Mitchell']],
+        'Scott Machado': [[2013, 10, 1796, 'GSW', 'Golden State Warriors', 'June 8, 1990', 'Scott Machado']],
+        'Tracy McGrady': [[2013, 27, 1933, 'SAS', 'San Antonio Spurs', 'May 24, 1979', 'Tracy McGrady']],
+        'Ty Lawson': [[2018, 30, 1708, 'WAS', 'Washington Wizards', 'November 3, 1987', 'Ty Lawson']]
+}
+
+'''
 Creates a dictionary with player name as key and value as a int
 '''
 def get_player_id():

@@ -371,7 +371,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-    PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+    PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
@@ -416,7 +416,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-    PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+    PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
@@ -463,7 +463,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-    PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+    PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
@@ -510,7 +510,7 @@ CREATE TABLE IF NOT EXISTS Player_Totals(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-    PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+    PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
@@ -593,7 +593,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
-    PRIMARY KEY (Player_ID),
+    PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
     CHECK(Player_ID BETWEEN 1 and 3278)
 );
@@ -629,7 +629,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
-    PRIMARY KEY (Player_ID),
+    PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
     CHECK(Player_ID BETWEEN 1 and 3278) 
 );
@@ -667,7 +667,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
-    PRIMARY KEY (Player_ID),
+    PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
     CHECK(Player_ID BETWEEN 1 and 3278) 
 );
@@ -705,7 +705,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Totals(
     Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
-    PRIMARY KEY (Player_ID),
+    PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
     CHECK(Player_ID BETWEEN 1 and 3278)
 );
