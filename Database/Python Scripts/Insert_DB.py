@@ -9,7 +9,7 @@ import pathlib
 from pathlib import Path
 
 sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
-from Team_Constants import RIGHT_NAME_DICT, PLAYER_ID, REVERSE_RIGHT_DICT
+from Team_Constants import RIGHT_NAME_DICT, PLAYER_ID, REVERSE_RIGHT_DICT, DATABASE_DICT
 from Helper_DB import test_connection, create_connection, check_table
 
 '''
@@ -979,22 +979,28 @@ def insert_all_player_stats():
     path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
 
     player_directories = os.listdir(path)
-    for x in range(len(player_directories)):
+    for player in player_directories:
         
         # Reverse of RIGHT_NAME_DICT Tim Hardaway Jr : Tim Hardaway
-        if(player_directories[x] in REVERSE_RIGHT_DICT):
-            second_path = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Per_Game.csv")
-            career_path = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_regular_Per_Game.csv")
+        if(player in REVERSE_RIGHT_DICT):
+            second_path = os.path.join(path, player, "Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player] + "_Regular_Per_Game.csv")
+            career_path = os.path.join(path, player, "Career_Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player] + "_career_regular_Per_Game.csv")
         
         else:
-            second_path = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", player_directories[x] + "_Regular_Per_Game.csv")
-            career_path = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Game", player_directories[x] + "_career_regular_Per_Game.csv")
+            second_path = os.path.join(path, player, "Regular_Stats", "Per_Game", player + "_Regular_Per_Game.csv")
+            career_path = os.path.join(path, player, "Career_Regular_Stats", "Per_Game", player + "_career_regular_Per_Game.csv")
         
         # For regular stats
         df = pd.read_csv(second_path)
         df = df.drop(['Age', 'League', 'Pos', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%', '2P','2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF','PTS'], axis=1)
         df = df[['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Birth Date', 'Player Name']]
         df_filter = df[df['Season'] <= 2020]
+
+        if(df['Player Name'][0] in DATABASE_DICT):
+            data = DATABASE_DICT[df['Player Name'][0]]
+            df_new = pd.DataFrame(data, columns=['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Birth Date', 'Player Name'])
+            df_filter = df_filter.append(df_new)
+            df_filter = df_filter.reset_index(drop=True)
 
         # Only need Player_ID, Birth_Date and Player_Name
         df_career = pd.read_csv(career_path)
@@ -1011,18 +1017,18 @@ def insert_all_player_advanced():
     path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
     
     player_directories = os.listdir(path)
-    for x in range(len(player_directories)):
-        if(player_directories[x] in REVERSE_RIGHT_DICT):
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Advanced", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Advanced.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Advanced", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_regular_Advanced.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Advanced", REVERSE_RIGHT_DICT[player_directories[x]] + "_Playoff_Advanced.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Advanced", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_playoff_Advanced.csv")
+    for player in player_directories:
+        if(player in REVERSE_RIGHT_DICT):
+            reg = os.path.join(path, player, "Regular_Stats", "Advanced", REVERSE_RIGHT_DICT[player] + "_Regular_Advanced.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Advanced", REVERSE_RIGHT_DICT[player] + "_career_regular_Advanced.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Advanced", REVERSE_RIGHT_DICT[player] + "_Playoff_Advanced.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Advanced", REVERSE_RIGHT_DICT[player] + "_career_playoff_Advanced.csv")
 
         else:
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Advanced", player_directories[x] + "_Regular_Advanced.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Advanced", player_directories[x] + "_career_regular_Advanced.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Advanced", player_directories[x] + "_Playoff_Advanced.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Advanced", player_directories[x] + "_career_playoff_Advanced.csv")
+            reg = os.path.join(path, player, "Regular_Stats", "Advanced", player + "_Regular_Advanced.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Advanced", player + "_career_regular_Advanced.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Advanced", player + "_Playoff_Advanced.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Advanced", player + "_career_playoff_Advanced.csv")
         
         df_reg = pd.read_csv(reg)
         df_reg_filter = df_reg[df_reg['Season'] <= 2020]
@@ -1059,47 +1065,42 @@ def insert_all_player_per_game():
     path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
     
     player_directories = os.listdir(path)
-    for x in range(len(player_directories)):
-        if(player_directories[x] in REVERSE_RIGHT_DICT):
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Per_Game.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_regular_Per_Game.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Per_Game", REVERSE_RIGHT_DICT[player_directories[x]] + "_Playoff_Per_Game.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Per_Game", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_playoff_Per_Game.csv")
+    for player in player_directories:
+        if(player in REVERSE_RIGHT_DICT):
+            reg = os.path.join(path, player, "Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player] + "_Regular_Per_Game.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Per_Game", REVERSE_RIGHT_DICT[player] + "_career_regular_Per_Game.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Per_Game", REVERSE_RIGHT_DICT[player] + "_Playoff_Per_Game.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Per_Game", REVERSE_RIGHT_DICT[player] + "_career_playoff_Per_Game.csv")
 
         else:
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Game", player_directories[x] + "_Regular_Per_Game.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Game", player_directories[x] + "_career_regular_Per_Game.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Per_Game", player_directories[x] + "_Playoff_Per_Game.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Per_Game", player_directories[x] + "_career_playoff_Per_Game.csv")
+            reg = os.path.join(path, player, "Regular_Stats", "Per_Game", player + "_Regular_Per_Game.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Per_Game", player + "_career_regular_Per_Game.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Per_Game", player + "_Playoff_Per_Game.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Per_Game", player + "_career_playoff_Per_Game.csv")
         
         df_reg = pd.read_csv(reg)
         df_reg_filter = df_reg[df_reg['Season'] <= 2020]
 
         df_career_reg = pd.read_csv(career_reg)
-    
+      
         '''
         0 - regular stats
         1 - playoff stats
         '''
         insert_player_per_game(df_reg_filter, 0)
         insert_player_career_per_game(df_career_reg, 0)
-
+   
         # Check if they make the playoffs
-        if(not os.path.isdir(playoff)):
-            pass
-        
-        else:
+        if(os.path.isfile(playoff)):
             df_playoff = pd.read_csv(playoff)
             df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
-            insert_player_per_game(df_playoff, 1)
+     
+            insert_player_per_game(df_playoff_filter, 1)
 
-        if(not os.path.isdir(career_playoff)):
-            pass
-        
-        else:
+        if(os.path.isfile(career_playoff)):
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_per_game(df_career_playoff, 1)
-
+        
 '''
 Calls insert_player_per_minute and insert_player_career_per_minute from 1980 - 2020
 '''
@@ -1107,18 +1108,18 @@ def insert_all_player_per_minute():
     path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
     
     player_directories = os.listdir(path)
-    for x in range(len(player_directories)):
-        if(player_directories[x] in REVERSE_RIGHT_DICT):
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Per_Minute.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_regular_Per_Minute.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player_directories[x]] + "_Playoff_Per_Minute.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_playoff_Per_Minute.csv")
+    for player in player_directories:
+        if(player in REVERSE_RIGHT_DICT):
+            reg = os.path.join(path, player, "Regular_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player] + "_Regular_Per_Minute.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player] + "_career_regular_Per_Minute.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player] + "_Playoff_Per_Minute.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Per_Minute", REVERSE_RIGHT_DICT[player] + "_career_playoff_Per_Minute.csv")
 
         else:
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Minute", player_directories[x] + "_Regular_Per_Minute.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Minute", player_directories[x] + "_career_regular_Per_Minute.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Per_Minute", player_directories[x] + "_Playoff_Per_Minute.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Per_Minute", player_directories[x] + "_career_playoff_Per_Minute.csv")
+            reg = os.path.join(path, player, "Regular_Stats", "Per_Minute", player + "_Regular_Per_Minute.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Per_Minute", player + "_career_regular_Per_Minute.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Per_Minute", player + "_Playoff_Per_Minute.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Per_Minute", player + "_career_playoff_Per_Minute.csv")
 
         
         df_reg = pd.read_csv(reg)
@@ -1134,21 +1135,17 @@ def insert_all_player_per_minute():
         insert_player_career_per_minute(df_career_reg, 0)
 
         # Check if they make the playoffs
-        if(not os.path.isdir(playoff)):
-            pass
-        
-        else:
+        if(os.path.isfile(playoff)):
             df_playoff = pd.read_csv(playoff)
             df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
-            insert_player_per_minute(df_playoff, 1)
-
-        if(not os.path.isdir(career_playoff)):
-            pass
+            insert_player_per_minute(df_playoff_filter, 1)
         
-        else:
+     
+
+        if(os.path.isfile(career_playoff)):
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_per_minute(df_career_playoff, 1)
-
+        
 '''
 Calls insert_player_per_poss and insert_player_career_per_poss from 1980 - 2020
 '''
@@ -1156,18 +1153,18 @@ def insert_all_player_per_poss():
     path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
     
     player_directories = os.listdir(path)
-    for x in range(len(player_directories)):
-        if(player_directories[x] in REVERSE_RIGHT_DICT):
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Per_Poss.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_regular_Per_Poss.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player_directories[x]] + "_Playoff_Per_Poss.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_playoff_Per_Poss.csv")
+    for player in player_directories:
+        if(player in REVERSE_RIGHT_DICT):
+            reg = os.path.join(path, player, "Regular_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player] + "_Regular_Per_Poss.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player] + "_career_regular_Per_Poss.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player] + "_Playoff_Per_Poss.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Per_Poss", REVERSE_RIGHT_DICT[player] + "_career_playoff_Per_Poss.csv")
 
         else:
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Per_Poss",player_directories[x] + "_Regular_Per_Poss.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Per_Poss", player_directories[x] + "_career_regular_Per_Poss.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Per_Poss", player_directories[x] + "_Playoff_Per_Poss.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Per_Poss", player_directories[x] + "_career_playoff_Per_Poss.csv")
+            reg = os.path.join(path, player, "Regular_Stats", "Per_Poss",player + "_Regular_Per_Poss.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Per_Poss", player + "_career_regular_Per_Poss.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Per_Poss", player + "_Playoff_Per_Poss.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Per_Poss", player + "_career_playoff_Per_Poss.csv")
 
         
         df_reg = pd.read_csv(reg)
@@ -1183,20 +1180,15 @@ def insert_all_player_per_poss():
         insert_player_career_per_poss(df_career_reg, 0)
 
         # Check if they make the playoffs
-        if(not os.path.isdir(playoff)):
-            pass
-        
-        else:
+        if(os.path.isfile(playoff)):
             df_playoff = pd.read_csv(playoff)
             df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
-            insert_player_per_poss(df_playoff, 1)
-
-        if(not os.path.isdir(career_playoff)):
-            pass
+            insert_player_per_poss(df_playoff_filter, 1)
         
-        else:
+        if(os.path.isfile(career_playoff)):
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_per_poss(df_career_playoff, 1)
+
 
 '''
 Calls insert_player_per_totals and insert_player_career_per_totals from 1980 - 2020
@@ -1205,18 +1197,18 @@ def insert_all_player_totals():
     path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
     
     player_directories = os.listdir(path)
-    for x in range(len(player_directories)):
-        if(player_directories[x] in REVERSE_RIGHT_DICT):
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_Regular_Totals.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_regular_Totals.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_Playoff_Per_Poss.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Totals", REVERSE_RIGHT_DICT[player_directories[x]] + "_career_playoff_Totals.csv")
+    for player in player_directories:
+        if(player in REVERSE_RIGHT_DICT):
+            reg = os.path.join(path, player, "Regular_Stats", "Totals", REVERSE_RIGHT_DICT[player] + "_Regular_Totals.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Totals", REVERSE_RIGHT_DICT[player] + "_career_regular_Totals.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Totals", REVERSE_RIGHT_DICT[player] + "_Playoff_Totals.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Totals", REVERSE_RIGHT_DICT[player] + "_career_playoff_Totals.csv")
 
         else:
-            reg = os.path.join(path, player_directories[x], "Regular_Stats", "Totals",player_directories[x] + "_Regular_Totals.csv")
-            career_reg = os.path.join(path, player_directories[x], "Career_Regular_Stats", "Totals", player_directories[x] + "_career_regular_Totals.csv")
-            playoff = os.path.join(path, player_directories[x], "Playoff_Stats", "Totals", player_directories[x] + "_Playoff_Per_Poss.csv")
-            career_playoff = os.path.join(path, player_directories[x], "Career_Playoff_Stats", "Totals", player_directories[x] + "_career_playoff_Totals.csv")
+            reg = os.path.join(path, player, "Regular_Stats", "Totals",player + "_Regular_Totals.csv")
+            career_reg = os.path.join(path, player, "Career_Regular_Stats", "Totals", player + "_career_regular_Totals.csv")
+            playoff = os.path.join(path, player, "Playoff_Stats", "Totals", player + "_Playoff_Totals.csv")
+            career_playoff = os.path.join(path, player, "Career_Playoff_Stats", "Totals", player + "_career_playoff_Totals.csv")
 
         
         df_reg = pd.read_csv(reg)
@@ -1232,18 +1224,12 @@ def insert_all_player_totals():
         insert_player_career_totals(df_career_reg, 0)
 
         # Check if they make the playoffs
-        if(not os.path.isdir(playoff)):
-            pass
-        
-        else:
+        if(os.path.isdir(playoff)):
             df_playoff = pd.read_csv(playoff)
             df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
-            insert_player_totals(df_playoff, 1)
+            insert_player_totals(df_playoff_filter, 1)
 
-        if(not os.path.isdir(career_playoff)):
-            pass
-        
-        else:
+        if(os.path.isdir(career_playoff)):
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_totals(df_career_playoff, 1)
 
@@ -1278,8 +1264,8 @@ def insert_all():
 Main function 
 '''
 def main():
-
+    #insert_all_player_stats()
     insert_all()
-    
+  
 if __name__ == "__main__":
     main()
