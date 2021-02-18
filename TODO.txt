@@ -17,16 +17,16 @@ Roster:                   Done        | 11
 Team Stats:               Done        | 12
 Team Advanced:            Done        | 5
 Team Misc:                Done        | 5
-Team Per Game:            Done        | 5
-Team Per Minute:          Done        | 5
-Team Totals:              Done        | 5
+Team Per Game:            Done        | 10
+Team Per Minute:          Done        | 10
+Team Totals:              Done        | 10
 Player Stats:             In Progress | 18
-Player Advanced:          In Progress | 6
-Player Per Game:          In Progress | 6
-Player Per Minute:        In Progress | 6
-Player Per Poss:          In Progress | 6
-Player Totals:            In Progress | 6
-Player Career Stats:      In Progress |
+Player Advanced:          In Progress | 12
+Player Per Game:          In Progress | 12
+Player Per Minute:        In Progress | 12
+Player Per Poss:          In Progress | 12
+Player Totals:            In Progress | 12
+Player Career Stats:      In Progress | 12
 Player Career Advanced:   In Progress |
 Player Career Per Game:   In Progress |
 Player Career Per Minute: In Progress |
