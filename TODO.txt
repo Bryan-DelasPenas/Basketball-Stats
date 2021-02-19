@@ -6,29 +6,33 @@ Create Table Script:        Done
 General Procedures Script:  Done
 Insertion Script:           Done
 Queries:                    In Progress
+Unit Testing                In Progress
+Complete User Manual        In Progress
 
-For Queries:                            Amount (Totals: 48) 
+For Queries:                            Amount (Totals: 48) (Add queries for 5 major stats, Points, Assits, Rebounds, Blocks, and Steals)
 Season:                   NA          | 0
 Team:                     Done        | 5
 Player:                   Done        | 3
 Standings                 NA          | 0
 Conference Standings:     Done        | 8 
 Roster:                   Done        | 11
-Team Stats:               Done        | 12 REDO SOME QUERIES
+Team Stats:               Done        | 12 
 Team Advanced:            Done        | 5
 Team Misc:                Done        | 5
 Team Per Game:            Done        | 10
 Team Per Minute:          Done        | 10
 Team Totals:              Done        | 10 
-Player Stats:             In Progress | 18 
-Player Advanced:          In Progress | 12 REDO SOME QUERIES
-Player Per Game:          In Progress | 12
-Player Per Minute:        In Progress | 12
-Player Per Poss:          In Progress | 12
-Player Totals:            In Progress | 12
-Player Career Stats:      In Progress | 12
+Player Stats:             Done        | 18 
+Player Advanced:          Done        | 12 
+Player Per Game:          Done        | 12
+Player Per Minute:        Done        | 12
+Player Per Poss:          Done        | 12
+Player Totals:            Done        | 12
+Player Career Stats:      In Progress | 12 NEED TO REDO
 Player Career Advanced:   In Progress |
 Player Career Per Game:   In Progress |
 Player Career Per Minute: In Progress |
 Player Career Per Poss:   In Progress | 
 Player Career Totals:     In Progress |
+
+PLAN for graphs, only Stats will have graphs
