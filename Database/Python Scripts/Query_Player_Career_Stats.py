@@ -359,7 +359,7 @@ def drop_query_player_career_stats_one_both_pid():
             # Create a parameterized query for insertion
             conn.execute(
             """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_both_one_pid
+            DROP PROCEDURE IF EXISTS query_player_career_stats_one_both_pid
             """)
             trans.commit()
             conn.close()
@@ -439,6 +439,8 @@ def drop_player_career_stats_query():
 Main Function for Testing
 '''
 def main():
+    
+
     create_player_career_stats_query()
     drop_player_career_stats_query()
 main()

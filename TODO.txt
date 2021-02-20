@@ -28,11 +28,11 @@ Player Per Game:          Done        | 12
 Player Per Minute:        Done        | 12
 Player Per Poss:          Done        | 12
 Player Totals:            Done        | 12
-Player Career Stats:      In Progress | 12 NEED TO REDO
-Player Career Advanced:   In Progress |
-Player Career Per Game:   In Progress |
-Player Career Per Minute: In Progress |
-Player Career Per Poss:   In Progress | 
-Player Career Totals:     In Progress |
+Player Career Stats:      In Progress | 6
+Player Career Advanced:   In Progress | 4
+Player Career Per Game:   In Progress | 4
+Player Career Per Minute: In Progress | 4
+Player Career Per Poss:   In Progress | 4 
+Player Career Totals:     In Progress | 4
 
 PLAN for graphs, only Stats will have graphs
