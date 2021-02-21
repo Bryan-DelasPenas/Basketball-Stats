@@ -5,7 +5,7 @@ Create and Delete
 Create Table Script:        Done
 General Procedures Script:  Done
 Insertion Script:           Done
-Queries:                    In Progress
+Queries:                    Done
 Unit Testing                In Progress
 Complete User Manual        In Progress
 
@@ -28,11 +28,11 @@ Player Per Game:          Done        | 12
 Player Per Minute:        Done        | 12
 Player Per Poss:          Done        | 12
 Player Totals:            Done        | 12
-Player Career Stats:      In Progress | 6
-Player Career Advanced:   In Progress | 4
-Player Career Per Game:   In Progress | 4
-Player Career Per Minute: In Progress | 4
-Player Career Per Poss:   In Progress | 4 
-Player Career Totals:     In Progress | 4
+Player Career Stats:      Done        | 6
+Player Career Advanced:   Done        | 4
+Player Career Per Game:   Done        | 4
+Player Career Per Minute: Done        | 4
+Player Career Per Poss:   Done        | 4 
+Player Career Totals:     Done        | 4
 
 PLAN for graphs, only Stats will have graphs

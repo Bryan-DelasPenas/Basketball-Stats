@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM, RIGHT_NAME_DICT, PLAYER_ID
-from utils import strip_accents, translate
+from utils import remove_char, strip_accents
 
 
 '''
@@ -326,22 +326,5 @@ def get_team_advanced(team, season):
         final_df = final_df.reset_index(drop=True)
         return final_df
 
-'''
-Helper Function that changes season_start-season_end to season_end
-'''
-def remove_char(string, postion):
-    # Characters before the i-th indexed 
-    # is stored in a variable a 
-    a = string[ : postion]  
-      
-    # Characters after the nth indexed 
-    # is stored in a variable b 
-    b = string[postion + 1: ] 
-      
-    # Returning string after removing 
-    # nth indexed character. 
-    return a + b 
 
-def main():
-    print(get_team_advanced("BOS", 2000))
-main()
+

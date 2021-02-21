@@ -7,9 +7,8 @@ import os
 import pathlib
 import time
 
-from Team_Stats_Scraper import remove_char
 from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID, RIGHT_PLAYER_SUFIX, SPECIAL_NAME_DICT
-from utils import translate
+from utils import strip_accents, remove_char
 
 '''
 Check if string can be converted to ABV
@@ -32,40 +31,6 @@ def check_team_id(name):
     else:
         pass
 
-'''
-Creates a dataframe of player's name active from 1980 - 2020
-'''
-def get_player_name(letter):
-    
-    # Get the url of the website
-    page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fplayers%2F{letter}%2F&div=div_players')
-
-    # Init the dataframe
-    df = None
-
-    # Check the status code, if the code is 200, it means the request went through
-    if page.status_code == 200: 
-        soup = BeautifulSoup(page.content, 'html.parser')
-        table = soup.find('table')
-
-        # Insert this data into a pandas dataframe
-        df = pd.read_html(str(table))[0]
-        
-        # Column for the dataframe 
-        df.columns = ['Player', 'From', 'To','Pos', 'Height', 'Weight', 'Birth_Date','College']
-        
-        # Drop players that are didn't play at 1980
-        df_new = df[df['To'] < 1980].index
-        df.drop(df_new, inplace = True)
-        
-        # Remove * and translate accented char to normal ones
-        df['Player'] = df['Player'].apply(lambda x: x.replace('*', ''))
-        df['Player'] = df['Player'].apply(lambda name: translate(name))
-        
-        # Drop unneeded columns
-        df = df.drop(['Pos', 'From', 'To','Height', 'Weight', 'College'], axis=1)
-
-        return df
 
 '''
 Creates player suffixes for url 
