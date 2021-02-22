@@ -9,9 +9,11 @@ import time
 sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
 
 
-from Player_Stats_Scraper import get_player_name, get_player_stats, get_career_stats
+from Player_Stats_Scraper import get_player_stats, get_career_stats
+from Create_Player_Name import get_player_name
 from Team_Constants import RIGHT_NAME_DICT
 from helper import create_output_directory, create_output_child_directory
+
 
 '''
 Get csvs of player stats
@@ -106,7 +108,7 @@ def get_player_csv():
     record = df.values.tolist()
 
     # Iterate through the list 
-    for i in range(len(record)):
+    for i in range(891, len(record)):
         print(i)
         print(record[i][0])
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])

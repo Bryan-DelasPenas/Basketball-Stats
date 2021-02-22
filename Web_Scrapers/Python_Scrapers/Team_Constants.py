@@ -329,6 +329,7 @@ RIGHT_PLAYER_SUFIX = {
     ("Henry Walker", "October 9, 1987")              : "Bill Walker",
     ("Mo Williams", "December 19, 1982")             : "Maurice Williams",
     ("Metta World Peace", "November 13, 1979")       : "Ron Artes"
+
 }
 
 # If the name is correct but the page name is not correct
@@ -377,6 +378,7 @@ SPECIAL_NAME_DICT = {
     ("Reggie Williams", "September 14, 1986") : "Reggie Williams",
     ("Chris Wright", "September 30, 1988")    : "Chris Wright",
     ("Chris Wright", "November 4, 1989")      : "Chris Wright",
+    ("Vitor Faverani", "May 5, 1988" )        : "Vitor Luiz Faverani"
 }
 
 '''

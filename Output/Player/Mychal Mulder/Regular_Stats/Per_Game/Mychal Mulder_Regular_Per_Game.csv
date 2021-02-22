@@ -1,3 +1,3 @@
 Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
-2020,10,2073,GSW,Golden State Warriors,Mychal Mulder,"June 12, 1994",25.0,NBA,SF,7,3,29.1,3.7,9.6,0.39,2.3,7.4,0.31,1.4,2.1,0.67,0.51,1.3,1.7,0.75,0.4,2.9,3.3,1.1,0.3,0.1,0.7,2.9,11.0
-2021,10,2073,GSW,Golden State Warriors,Mychal Mulder,"June 12, 1994",26.0,NBA,PG,24,0,10.1,1.2,2.6,0.47,1.0,2.3,0.43,0.3,0.3,0.75,0.65,0.3,0.5,0.64,0.0,0.8,0.8,0.4,0.3,0.3,0.2,0.8,3.7
+2020,10,2075,GSW,Golden State Warriors,Mychal Mulder,"June 12, 1994",25.0,NBA,SF,7,3,29.1,3.7,9.6,0.39,2.3,7.4,0.31,1.4,2.1,0.67,0.51,1.3,1.7,0.75,0.4,2.9,3.3,1.1,0.3,0.1,0.7,2.9,11.0
+2021,10,2075,GSW,Golden State Warriors,Mychal Mulder,"June 12, 1994",26.0,NBA,PG,30,2,11.1,1.5,3.2,0.46,1.2,2.7,0.43,0.3,0.4,0.69,0.65,0.3,0.4,0.62,0.0,1.0,1.0,0.5,0.2,0.2,0.3,0.9,4.4
