@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS Player(
     Birth_Date  VARCHAR(30) NOT NULL,
     Player_Name VARCHAR(45) NOT NULL,
     PRIMARY KEY(Player_ID),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Standings(
@@ -85,7 +85,7 @@ CREATE TABLE IF NOT EXISTS Roster(
     FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Team_Stats(
@@ -286,7 +286,7 @@ CREATE TABLE IF NOT EXISTS Player_Stats(
     FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
     CONSTRAINT Player_Stats_Season_ID_Chk CHECK (Season_ID BETWEEN 1980 AND 2021),
     CONSTRAINT Player_Stats_Team_ID_Chk CHECK(Team_ID BETWEEN 1 and 31),
-    CONSTRAINT Player_Stats_Player_ID_Chk CHECK(Player_ID BETWEEN 1 and 3278)
+    CONSTRAINT Player_Stats_Player_ID_Chk CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Advanced(
@@ -329,7 +329,7 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Game(
@@ -375,7 +375,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game(
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Minute(
@@ -420,7 +420,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Per_Poss(
@@ -467,7 +467,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Totals(
@@ -514,7 +514,7 @@ CREATE TABLE IF NOT EXISTS Player_Totals(
     FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Career_Stats(
@@ -524,7 +524,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Stats(
 	
     PRIMARY KEY (Player_ID),
     FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
-    CONSTRAINT CHECK(Player_ID BETWEEN 1 and 3278)
+    CONSTRAINT CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Career_Advanced(
@@ -558,7 +558,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Advanced(
 	UNIQUE(Player_ID, Stat_Form),
 	PRIMARY KEY (Player_ID),
 	FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID), 
-	CHECK(Player_ID BETWEEN 1 and 3278)
+	CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
@@ -595,7 +595,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
 CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
@@ -631,7 +631,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-    CHECK(Player_ID BETWEEN 1 and 3278) 
+    CHECK(Player_ID BETWEEN 1 and 3281) 
 );
 
 CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
@@ -669,7 +669,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-    CHECK(Player_ID BETWEEN 1 and 3278) 
+    CHECK(Player_ID BETWEEN 1 and 3281) 
 );
 
 CREATE TABLE IF NOT EXISTS Player_Career_Totals(
@@ -707,5 +707,5 @@ CREATE TABLE IF NOT EXISTS Player_Career_Totals(
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
     FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-    CHECK(Player_ID BETWEEN 1 and 3278)
+    CHECK(Player_ID BETWEEN 1 and 3281)
 );

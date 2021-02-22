@@ -103,7 +103,7 @@ def create_player_table():
             Birth_Date  VARCHAR(30) NOT NULL,
             Player_Name VARCHAR(45) NOT NULL,
             PRIMARY KEY(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -244,7 +244,7 @@ def create_roster_table():
             FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -634,7 +634,7 @@ def create_player_stats_table():
             FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
             CONSTRAINT Player_Stats_Season_ID_Chk CHECK (Season_ID BETWEEN 1980 AND 2021),
             CONSTRAINT Player_Stats_Team_ID_Chk CHECK(Team_ID BETWEEN 1 and 31),
-            CONSTRAINT Player_Stats_Player_ID_Chk CHECK(Player_ID BETWEEN 1 and 3278)
+            CONSTRAINT Player_Stats_Player_ID_Chk CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -704,7 +704,7 @@ def create_player_advanced_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -777,7 +777,7 @@ def create_player_per_game_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -849,7 +849,7 @@ def create_player_per_minute_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -923,7 +923,7 @@ def create_player_per_poss_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -997,7 +997,7 @@ def create_player_totals_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -1034,7 +1034,7 @@ def create_player_career_stats_table():
             
             PRIMARY KEY (Player_ID),
             FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
-            CONSTRAINT CHECK(Player_ID BETWEEN 1 and 3278)
+            CONSTRAINT CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -1095,7 +1095,7 @@ def create_player_career_advanced_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID), 
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -1159,7 +1159,7 @@ def create_player_career_per_game_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
@@ -1222,7 +1222,7 @@ def create_player_career_per_minute_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3278) 
+            CHECK(Player_ID BETWEEN 1 and 3281) 
             )
             """)
             trans.commit()
@@ -1287,7 +1287,7 @@ def create_player_career_per_poss_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3278) 
+            CHECK(Player_ID BETWEEN 1 and 3281) 
             )
             """)
             trans.commit()
@@ -1352,7 +1352,7 @@ def create_player_career_totals_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3278)
+            CHECK(Player_ID BETWEEN 1 and 3281)
             )
             """)
             trans.commit()
