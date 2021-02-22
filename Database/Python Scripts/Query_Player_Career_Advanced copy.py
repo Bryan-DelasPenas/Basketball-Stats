@@ -170,7 +170,7 @@ def drop_query_player_career_per_game_pid():
 
     if check_procedure('query_player_career_per_game_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_per_game_pid
@@ -197,7 +197,7 @@ def drop_query_player_career_per_game_pname():
 
     if check_procedure('query_player_career_per_game_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_per_game_pname
@@ -228,7 +228,7 @@ def drop_query_player_career_per_game_both_pid():
 
     if check_procedure('query_player_career_per_game_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_per_game_both_pid
@@ -255,7 +255,7 @@ def drop_query_player_career_per_game_both_pname():
 
     if check_procedure('query_player_career_per_game_both_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_per_game_both_pname

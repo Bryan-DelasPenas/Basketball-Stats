@@ -64,7 +64,7 @@ def create_query_player_career_stats_two_pid():
 
     if not check_procedure('query_player_career_stats_two_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_two_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
@@ -102,7 +102,7 @@ def create_query_player_career_stats_three_pid():
 
     if not check_procedure('query_player_career_stats_three_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_three_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
@@ -143,7 +143,7 @@ def create_query_player_career_stats_one_both_pid():
 
     if not check_procedure('query_player_career_stats_one_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_one_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
@@ -179,7 +179,7 @@ def create_query_player_career_stats_two_both_pid():
 
     if not check_procedure('query_player_career_stats_two_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_two_both_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, IN val longtext)
@@ -215,7 +215,7 @@ def create_query_player_career_stats_three_both_pid():
 
     if not check_procedure('query_player_career_stats_three_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_three_both_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT,
@@ -271,7 +271,7 @@ def drop_query_player_career_stats_one_pid():
 
     if check_procedure('query_player_career_stats_one_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_stats_one_pid
@@ -298,7 +298,7 @@ def drop_query_player_career_stats_two_pid():
 
     if check_procedure('query_player_career_stats_two_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_stats_two_pid
@@ -325,7 +325,7 @@ def drop_query_player_career_stats_three_pid():
 
     if check_procedure('query_player_career_stats_three_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_stats_three_pid
@@ -356,7 +356,7 @@ def drop_query_player_career_stats_one_both_pid():
 
     if check_procedure('query_player_career_stats_one_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_stats_one_both_pid
@@ -383,7 +383,7 @@ def drop_query_player_career_stats_two_both_pid():
 
     if check_procedure('query_player_career_stats_two_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_stats_two_both_pid
@@ -410,7 +410,7 @@ def drop_query_player_career_stats_three_both_pid():
 
     if check_procedure('query_player_career_stats_three_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_career_stats_three_both_pid

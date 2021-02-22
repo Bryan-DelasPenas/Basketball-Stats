@@ -22,7 +22,7 @@ def create_query_all_roster_sid():
 
     if not check_procedure('query_all_roster_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_sid(s_id int)
@@ -54,7 +54,7 @@ def create_query_all_roster_tid():
 
     if not check_procedure('query_all_roster_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_tid(t_id int)
@@ -86,7 +86,7 @@ def create_query_all_roster_pid():
 
     if not check_procedure('query_all_roster_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_pid(p_id int)
@@ -118,7 +118,7 @@ def create_query_all_roster_pname():
 
     if not check_procedure('query_all_roster_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_pname(pname varchar(45))
@@ -150,7 +150,7 @@ def create_query_all_roster_tname():
 
     if not check_procedure('query_all_roster_tname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_tname(tname varchar(45))
@@ -182,7 +182,7 @@ def create_query_all_roster_abv():
 
     if not check_procedure('query_all_roster_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_abv(abv varchar(3))
@@ -214,7 +214,7 @@ def create_query_all_roster_college():
 
     if not check_procedure('query_all_roster_college'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_college(college varchar(100))
@@ -246,7 +246,7 @@ def create_query_all_roster_sid_tid():
 
     if not check_procedure('query_all_roster_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_sid_tid(s_id int, t_id int)
@@ -279,7 +279,7 @@ def create_query_all_tid_pid():
 
     if not check_procedure('query_all_roster_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_tid_pid(t_id int, p_id int)
@@ -312,7 +312,7 @@ def create_query_all_roster_sid_tid_pid():
 
     if not check_procedure('query_all_roster_sid_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_roster_sid_tid_pid(s_id int, t_id int, p_id int)
@@ -364,7 +364,7 @@ def drop_query_all_roster_sid():
 
     if check_procedure('query_all_roster_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_sid
@@ -391,7 +391,7 @@ def drop_query_all_roster_tid():
 
     if check_procedure('query_all_roster_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_tid
@@ -418,7 +418,7 @@ def drop_query_all_roster_pid():
 
     if check_procedure('query_all_roster_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_pid
@@ -445,7 +445,7 @@ def drop_query_all_roster_pname():
 
     if check_procedure('query_all_roster_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_pname
@@ -472,7 +472,7 @@ def drop_query_all_roster_tname():
 
     if check_procedure('query_all_roster_tname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_tname
@@ -499,7 +499,7 @@ def drop_query_all_roster_abv():
 
     if check_procedure('query_all_roster_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_abv
@@ -526,7 +526,7 @@ def drop_query_all_roster_college():
 
     if check_procedure('query_all_roster_college'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_college
@@ -553,7 +553,7 @@ def drop_query_all_roster_sid_tid():
 
     if check_procedure('query_all_roster_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_sid_tid
@@ -580,7 +580,7 @@ def drop_query_all_tid_pid():
 
     if check_procedure('query_all_roster_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_tid_pid
@@ -607,7 +607,7 @@ def drop_query_all_roster_sid_tid_pid():
 
     if check_procedure('query_all_roster_sid_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_roster_sid_tid_pid

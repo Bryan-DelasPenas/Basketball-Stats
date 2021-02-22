@@ -16,13 +16,13 @@ Player:                   Done        | 3
 Standings                 NA          | 0
 Conference Standings:     Done        | 8 
 Roster:                   Done        | 11
-Team Stats:               Done        | 12 
+Team Stats:               Done        | 13 
 Team Advanced:            Done        | 5
 Team Misc:                Done        | 5
 Team Per Game:            Done        | 10
 Team Per Minute:          Done        | 10
 Team Totals:              Done        | 10 
-Player Stats:             Done        | 18 
+Player Stats:             Done        | 19 
 Player Advanced:          Done        | 12 
 Player Per Game:          Done        | 12
 Player Per Minute:        Done        | 12

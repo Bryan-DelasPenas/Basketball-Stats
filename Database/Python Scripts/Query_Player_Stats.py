@@ -13,7 +13,7 @@ Create Procedures based on regular or playoffs
 Create Procedures based on player_ID
 '''
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID
 '''
 def create_query_player_stats_one_pid():
     # Connect to sql database
@@ -26,7 +26,7 @@ def create_query_player_stats_one_pid():
 
     if not check_procedure('query_player_stats_one_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
@@ -51,7 +51,7 @@ def create_query_player_stats_one_pid():
         raise Exception("Procedure Query_Player_Stats_One_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID
+Function that creates procedure for that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID
 '''
 def create_query_player_stats_two_pid():
     # Connect to sql database
@@ -64,7 +64,7 @@ def create_query_player_stats_two_pid():
 
     if not check_procedure('query_player_stats_two_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
@@ -89,7 +89,7 @@ def create_query_player_stats_two_pid():
         raise Exception("Procedure Query_Player_Stats_Two_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID
+Function that creates procedure for that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID
 '''
 def create_query_player_stats_three_pid():
     # Connect to sql database
@@ -102,7 +102,7 @@ def create_query_player_stats_three_pid():
 
     if not check_procedure('query_player_stats_three_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
@@ -127,10 +127,47 @@ def create_query_player_stats_three_pid():
         raise Exception("Procedure Query_Player_Stats_Three_Pid does exists") 
 
 '''
+Function that creates procedure for player; This does not work for Player_Advanced
+'''
+def create_query_player_stats_primary_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_primary_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_primary_pid(IN tbl_name VARCHAR(100), IN val_one INT, IN val_two INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
+                    FROM ', tbl_name, 
+                    ' WHERE Player_ID = '  , val_one,
+                    ' AND Stat_Form = ',val_two);
+                PREPARE stmt1 FROM @s;
+                EXECUTE stmt1;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Primary_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Primary_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Primary_Pid does exists") 
+
+'''
 Create procedures based on Team_ID and Player_ID
 '''
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_one_tid_pid():
     # Connect to sql database
@@ -143,7 +180,7 @@ def create_query_player_stats_one_tid_pid():
 
     if not check_procedure('query_player_stats_one_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_tid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
@@ -169,7 +206,7 @@ def create_query_player_stats_one_tid_pid():
         raise Exception("Procedure Query_Player_Stats_One_Tid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_two_tid_pid():
     # Connect to sql database
@@ -182,7 +219,7 @@ def create_query_player_stats_two_tid_pid():
 
     if not check_procedure('query_player_stats_two_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
@@ -208,7 +245,7 @@ def create_query_player_stats_two_tid_pid():
         raise Exception("Procedure Query_Player_Stats_Two_Tid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_three_tid_pid():
     # Connect to sql database
@@ -221,7 +258,7 @@ def create_query_player_stats_three_tid_pid():
 
     if not check_procedure('query_player_stats_three_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
@@ -250,7 +287,7 @@ def create_query_player_stats_three_tid_pid():
 Create procedure based on Season_ID and Player_ID
 '''
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
 '''
 def create_query_player_stats_one_sid_pid():
     # Connect to sql database
@@ -263,7 +300,7 @@ def create_query_player_stats_one_sid_pid():
 
     if not check_procedure('query_player_stats_one_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_sid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
@@ -289,7 +326,7 @@ def create_query_player_stats_one_sid_pid():
         raise Exception("Procedure Query_Player_Stats_One_Sid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
 '''
 def create_query_player_stats_two_sid_pid():
     # Connect to sql database
@@ -302,7 +339,7 @@ def create_query_player_stats_two_sid_pid():
 
     if not check_procedure('query_player_stats_two_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
@@ -328,7 +365,7 @@ def create_query_player_stats_two_sid_pid():
         raise Exception("Procedure Query_Player_Stats_Two_Tid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
 '''
 def create_query_player_stats_three_sid_pid():
     # Connect to sql database
@@ -341,7 +378,7 @@ def create_query_player_stats_three_sid_pid():
 
     if not check_procedure('query_player_stats_three_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
@@ -375,7 +412,7 @@ Create procedure for playoffs and reg
 Create procedure based on Player_ID
 '''
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID 
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID 
 '''
 def create_query_player_stats_one_both_pid():
     # Connect to sql database
@@ -388,7 +425,7 @@ def create_query_player_stats_one_both_pid():
 
     if not check_procedure('query_player_stats_one_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
@@ -411,7 +448,7 @@ def create_query_player_stats_one_both_pid():
         raise Exception("Procedure Query_Player_Stats_One_Both_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID 
+Function that creates procedure for that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID 
 '''
 def create_query_player_stats_two_both_pid():
     # Connect to sql database
@@ -424,7 +461,7 @@ def create_query_player_stats_two_both_pid():
 
     if not check_procedure('query_player_stats_two_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_both_pid(IN select_one LONGTEXT, select_two LONGTEXT ,IN tbl_name longtext, IN val longtext)
@@ -447,7 +484,7 @@ def create_query_player_stats_two_both_pid():
         raise Exception("Procedure Query_Player_Stats_Two_Both_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID 
+Function that creates procedure for that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID 
 '''
 def create_query_player_stats_three_both_pid():
     # Connect to sql database
@@ -460,7 +497,7 @@ def create_query_player_stats_three_both_pid():
 
     if not check_procedure('query_player_stats_three_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
@@ -486,7 +523,7 @@ def create_query_player_stats_three_both_pid():
 Create procedure based on Team_ID and Player_ID
 '''
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_one_both_tid_pid():
     # Connect to sql database
@@ -499,7 +536,7 @@ def create_query_player_stats_one_both_tid_pid():
 
     if not check_procedure('query_player_stats_one_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_both_tid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
@@ -524,7 +561,7 @@ def create_query_player_stats_one_both_tid_pid():
         raise Exception("Procedure Query_Player_Stats_One_Both_Tid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_two_both_tid_pid():
     # Connect to sql database
@@ -537,7 +574,7 @@ def create_query_player_stats_two_both_tid_pid():
 
     if not check_procedure('query_player_stats_two_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_both_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
@@ -562,7 +599,7 @@ def create_query_player_stats_two_both_tid_pid():
         raise Exception("Procedure Query_Player_Stats_Two_Both_Tid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_three_both_tid_pid():
     # Connect to sql database
@@ -575,7 +612,7 @@ def create_query_player_stats_three_both_tid_pid():
 
     if not check_procedure('query_player_stats_three_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_both_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
@@ -603,7 +640,7 @@ def create_query_player_stats_three_both_tid_pid():
 Create procedure based on Season_ID and Player_ID
 '''
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
+Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Season_ID
 '''
 def create_query_player_stats_one_both_sid_pid():
     # Connect to sql database
@@ -616,7 +653,7 @@ def create_query_player_stats_one_both_sid_pid():
 
     if not check_procedure('query_player_stats_one_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_both_sid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
@@ -641,7 +678,7 @@ def create_query_player_stats_one_both_sid_pid():
         raise Exception("Procedure Query_Player_Stats_One_Both_Sid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID and Season_ID
+Function that creates procedure for that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID and Season_ID
 '''
 def create_query_player_stats_two_both_sid_pid():
     # Connect to sql database
@@ -654,7 +691,7 @@ def create_query_player_stats_two_both_sid_pid():
 
     if not check_procedure('query_player_stats_two_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_both_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
@@ -679,7 +716,7 @@ def create_query_player_stats_two_both_sid_pid():
         raise Exception("Procedure Query_Player_Stats_Two_Both_Sid_Pid does exists")
 
 '''
-Function that creates procdure for team that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID and Season_ID
+Function that creates procedure for that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID and Season_ID
 '''
 def create_query_player_stats_three_both_sid_pid():
     # Connect to sql database
@@ -692,7 +729,7 @@ def create_query_player_stats_three_both_sid_pid():
 
     if not check_procedure('query_player_stats_three_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_both_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
@@ -723,6 +760,7 @@ def create_player_stats_query():
     create_query_player_stats_one_pid()
     create_query_player_stats_two_pid()
     create_query_player_stats_three_pid()
+    create_query_player_stats_primary_pid()
 
     create_query_player_stats_one_tid_pid()
     create_query_player_stats_two_tid_pid()
@@ -768,7 +806,7 @@ def drop_query_player_stats_one_pid():
 
     if check_procedure('query_player_stats_one_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_one_pid
@@ -795,7 +833,7 @@ def drop_query_player_stats_two_pid():
 
     if check_procedure('query_player_stats_two_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_two_pid
@@ -822,7 +860,7 @@ def drop_query_player_stats_three_pid():
 
     if check_procedure('query_player_stats_three_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_three_pid
@@ -834,6 +872,33 @@ def drop_query_player_stats_three_pid():
             raise Exception("Deletion of Procedure Query_Player_Stats_Three_Pid Failed")
     else:
         raise Exception("Procedure Query_Player_Stats_Three_Pid does not Exists")
+
+'''
+Drop Procedure query_player_stats_primary_pid
+'''
+def drop_query_player_stats_primary_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('query_player_stats_primary_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS query_player_stats_primary_pid
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Query_Player_Stats_Primary_Pid was Successful")
+        except:
+            raise Exception("Deletion of Procedure Query_Player_Stats_Primary_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Primary_Pid does not Exists")
 
 '''
 Drop Procedures based on Team_ID and Player_ID
@@ -852,7 +917,7 @@ def drop_query_player_stats_one_tid_pid():
 
     if check_procedure('query_player_stats_one_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_one_tid_pid
@@ -879,7 +944,7 @@ def drop_query_player_stats_two_tid_pid():
 
     if check_procedure('query_player_stats_two_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_two_tid_pid
@@ -906,7 +971,7 @@ def drop_query_player_stats_three_tid_pid():
 
     if check_procedure('query_player_stats_three_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_three_tid_pid
@@ -918,7 +983,6 @@ def drop_query_player_stats_three_tid_pid():
             raise Exception("Deletion of Procedure Query_Player_Stats_Three_Tid_Pid Failed")
     else:
         raise Exception("Procedure Query_Player_Stats_Three_Tid_Pid does not Exists")
-
 
 '''
 Drop Procedure based on Team_ID and Player_ID
@@ -937,7 +1001,7 @@ def drop_query_player_stats_one_tid_pid():
 
     if check_procedure('query_player_stats_one_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_one_tid_pid
@@ -964,7 +1028,7 @@ def drop_query_player_stats_two_tid_pid():
 
     if check_procedure('query_player_stats_two_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_two_tid_pid
@@ -991,7 +1055,7 @@ def drop_query_player_stats_three_tid_pid():
 
     if check_procedure('query_player_stats_three_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_three_tid_pid
@@ -1021,7 +1085,7 @@ def drop_query_player_stats_one_sid_pid():
 
     if check_procedure('query_player_stats_one_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_one_sid_pid
@@ -1048,7 +1112,7 @@ def drop_query_player_stats_two_sid_pid():
 
     if check_procedure('query_player_stats_two_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_two_sid_pid
@@ -1075,7 +1139,7 @@ def drop_query_player_stats_three_sid_pid():
 
     if check_procedure('query_player_stats_three_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_three_sid_pid
@@ -1110,7 +1174,7 @@ def drop_query_player_stats_one_both_pid():
 
     if check_procedure('query_player_stats_one_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_one_both_pid
@@ -1137,7 +1201,7 @@ def drop_query_player_stats_two_both_pid():
 
     if check_procedure('query_player_stats_two_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_two_both_pid
@@ -1164,7 +1228,7 @@ def drop_query_player_stats_three_both_pid():
 
     if check_procedure('query_player_stats_three_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_three_both_pid
@@ -1194,7 +1258,7 @@ def drop_query_player_stats_one_both_tid_pid():
 
     if check_procedure('query_player_stats_one_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_one_both_tid_pid
@@ -1221,7 +1285,7 @@ def drop_query_player_stats_two_both_tid_pid():
 
     if check_procedure('query_player_stats_two_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_two_both_tid_pid
@@ -1248,7 +1312,7 @@ def drop_query_player_stats_three_both_tid_pid():
 
     if check_procedure('query_player_stats_three_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_three_both_tid_pid
@@ -1278,7 +1342,7 @@ def drop_query_player_stats_one_both_sid_pid():
 
     if check_procedure('query_player_stats_one_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_one_both_sid_pid
@@ -1305,7 +1369,7 @@ def drop_query_player_stats_two_both_sid_pid():
 
     if check_procedure('query_player_stats_two_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_two_both_sid_pid
@@ -1332,7 +1396,7 @@ def drop_query_player_stats_three_both_sid_pid():
 
     if check_procedure('query_player_stats_three_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_player_stats_three_both_sid_pid
@@ -1352,6 +1416,7 @@ def drop_player_stats_query():
     drop_query_player_stats_one_pid()
     drop_query_player_stats_two_pid()
     drop_query_player_stats_three_pid()
+    drop_query_player_stats_primary_pid()
 
     drop_query_player_stats_one_tid_pid()
     drop_query_player_stats_two_tid_pid()

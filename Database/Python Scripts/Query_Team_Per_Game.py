@@ -26,7 +26,7 @@ def create_query_all_team_per_game_sid():
 
     if not check_procedure('query_all_team_per_game_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_sid(opp int, s_id int)
@@ -59,7 +59,7 @@ def create_query_all_team_per_game_tid():
 
     if not check_procedure('query_all_team_per_game_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_tid(opp int, t_id int)
@@ -92,7 +92,7 @@ def create_query_all_team_per_game_sid_tid():
 
     if not check_procedure('query_all_team_per_game_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_sid_tid(opp int, s_id int, t_id int)
@@ -126,7 +126,7 @@ def create_query_all_team_per_game_name():
 
     if not check_procedure('query_all_team_per_game_name'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_name(opp int, name VARCHAR(45))
@@ -159,7 +159,7 @@ def create_query_all_team_per_game_ABV():
 
     if not check_procedure('query_all_team_per_game_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_ABV(opp int, abv VARCHAR(3))
@@ -196,7 +196,7 @@ def create_query_all_team_per_game_both_sid():
 
     if not check_procedure('query_all_team_per_game_both_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_both_sid(s_id int)
@@ -228,7 +228,7 @@ def create_query_all_team_per_game_both_tid():
 
     if not check_procedure('query_all_team_per_game_both_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_both_tid(t_id int)
@@ -260,7 +260,7 @@ def create_query_all_team_per_game_both_sid_tid():
 
     if not check_procedure('query_all_team_per_game_both_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_both_sid_tid(s_id int, t_id int)
@@ -293,7 +293,7 @@ def create_query_all_team_per_game_both_name():
 
     if not check_procedure('query_all_team_per_game_both_name'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_both_name(name VARCHAR(45))
@@ -325,7 +325,7 @@ def create_query_all_team_per_game_both_ABV():
 
     if not check_procedure('query_all_team_per_game_both_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_per_game_both_ABV(abv VARCHAR(3))
@@ -380,7 +380,7 @@ def drop_query_all_team_per_game_sid():
 
     if check_procedure('query_all_team_per_game_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_sid
@@ -408,7 +408,7 @@ def drop_query_all_team_per_game_tid():
 
     if check_procedure('query_all_team_per_game_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_tid
@@ -435,7 +435,7 @@ def drop_query_all_team_per_game_sid_tid():
 
     if check_procedure('query_all_team_per_game_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_sid_tid
@@ -462,7 +462,7 @@ def drop_query_all_team_per_game_name():
 
     if check_procedure('query_all_team_per_game_name'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_name
@@ -489,7 +489,7 @@ def drop_query_all_team_per_game_ABV():
 
     if check_procedure('query_all_team_per_game_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_abv
@@ -520,7 +520,7 @@ def drop_query_all_team_per_game_both_sid():
 
     if check_procedure('query_all_team_per_game_both_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_both_sid
@@ -548,7 +548,7 @@ def drop_query_all_team_per_game_both_tid():
 
     if check_procedure('query_all_team_per_game_both_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_both_tid
@@ -575,7 +575,7 @@ def drop_query_all_team_per_game_both_sid_tid():
 
     if check_procedure('query_all_team_per_game_both_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_both_sid_tid
@@ -602,7 +602,7 @@ def drop_query_all_team_per_game_both_name():
 
     if check_procedure('query_all_team_per_game_both_name'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_both_name
@@ -629,7 +629,7 @@ def drop_query_all_team_per_game_both_ABV():
 
     if check_procedure('query_all_team_per_game_both_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_per_game_both_abv

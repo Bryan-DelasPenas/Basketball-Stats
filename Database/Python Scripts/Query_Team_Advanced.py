@@ -22,7 +22,7 @@ def create_query_all_team_advanced_sid():
 
     if not check_procedure('query_all_team_advanced_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_advanced_sid(s_id int)
@@ -54,7 +54,7 @@ def create_query_all_team_advanced_tid():
 
     if not check_procedure('query_all_team_advanced_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_advanced_tid(t_id int)
@@ -86,7 +86,7 @@ def create_query_all_team_advanced_sid_tid():
 
     if not check_procedure('query_all_team_advanced_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_advanced_sid_tid(s_id int, t_id int)
@@ -119,7 +119,7 @@ def create_query_all_team_advanced_name():
 
     if not check_procedure('query_all_team_advanced_name'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_advanced_name(name VARCHAR(45))
@@ -151,7 +151,7 @@ def create_query_all_team_advanced_ABV():
 
     if not check_procedure('query_all_team_advanced_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_team_advanced_ABV(abv VARCHAR(3))
@@ -196,7 +196,7 @@ def drop_query_all_team_advanced_sid():
 
     if check_procedure('query_all_team_advanced_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_advanced_sid
@@ -224,7 +224,7 @@ def drop_query_all_team_advanced_tid():
 
     if check_procedure('query_all_team_advanced_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_advanced_tid
@@ -251,7 +251,7 @@ def drop_query_all_team_advanced_sid_tid():
 
     if check_procedure('query_all_team_advanced_sid_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_advanced_sid_tid
@@ -278,7 +278,7 @@ def drop_query_all_team_advanced_name():
 
     if check_procedure('query_all_team_advanced_name'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_advanced_name
@@ -305,7 +305,7 @@ def drop_query_all_team_advanced_ABV():
 
     if check_procedure('query_all_team_advanced_abv'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_team_advanced_abv

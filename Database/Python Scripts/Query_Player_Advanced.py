@@ -22,7 +22,7 @@ def create_query_all_player_advanced_pid():
 
     if not check_procedure('query_all_player_advanced_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_pid(format int, p_id int)
@@ -55,7 +55,7 @@ def create_query_all_player_advanced_sid_pid():
 
     if not check_procedure('query_all_player_advanced_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_sid_pid(format int, s_id int, p_id int)
@@ -89,7 +89,7 @@ def create_query_all_player_advanced_tid_pid():
 
     if not check_procedure('query_all_player_advanced_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_tid_pid(format int, t_id int, p_id int)
@@ -123,7 +123,7 @@ def create_query_all_player_advanced_pname():
 
     if not check_procedure('query_all_player_advanced_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_pname(format int, pname LONGTEXT)
@@ -156,7 +156,7 @@ def create_query_all_player_advanced_pname_sid():
 
     if not check_procedure('query_all_player_advanced_pname_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_pname_sid(format int, pname LONGTEXT, s_id INT)
@@ -190,7 +190,7 @@ def create_query_all_player_advanced_pname_tid():
 
     if not check_procedure('query_all_player_advanced_pname_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_pname_tid(format INT,pname LONGTEXT, t_id INT)
@@ -227,7 +227,7 @@ def create_query_all_player_advanced_both_pid():
 
     if not check_procedure('query_all_player_advanced_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_both_pid(p_id int)
@@ -259,7 +259,7 @@ def create_query_all_player_advanced_both_sid_pid():
 
     if not check_procedure('query_all_player_advanced_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_both_sid_pid(s_id int, p_id int)
@@ -292,7 +292,7 @@ def create_query_all_player_advanced_both_tid_pid():
 
     if not check_procedure('query_all_player_advanced_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_both_tid_pid(t_id int, p_id int)
@@ -325,7 +325,7 @@ def create_query_all_player_advanced_both_pname():
 
     if not check_procedure('query_all_player_advanced_both_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_both_pname(pname LONGTEXT)
@@ -357,7 +357,7 @@ def create_query_all_player_advanced_both_pname_sid():
 
     if not check_procedure('query_all_player_advanced_both_pname_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_both_pname_sid(pname LONGTEXT, s_id INT)
@@ -390,7 +390,7 @@ def create_query_all_player_advanced_both_pname_tid():
 
     if not check_procedure('query_all_player_advanced_both_pname_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             CREATE PROCEDURE query_all_player_advanced_both_pname_tid(pname LONGTEXT, t_id INT)
@@ -445,7 +445,7 @@ def drop_query_all_player_advanced_pid():
 
     if check_procedure('query_all_player_advanced_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_pid
@@ -472,7 +472,7 @@ def drop_query_all_player_advanced_sid_pid():
 
     if check_procedure('query_all_player_advanced_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_sid_pid
@@ -499,7 +499,7 @@ def drop_query_all_player_advanced_tid_pid():
 
     if check_procedure('query_all_player_advanced_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_tid_pid
@@ -526,7 +526,7 @@ def drop_query_all_player_advanced_pname():
 
     if check_procedure('query_all_player_advanced_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_pname
@@ -553,7 +553,7 @@ def drop_query_all_player_advanced_pname_sid():
 
     if check_procedure('query_all_player_advanced_pname_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_pname_sid
@@ -580,7 +580,7 @@ def drop_query_all_player_advanced_pname_tid():
 
     if check_procedure('query_all_player_advanced_pname_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_pname_tid
@@ -610,7 +610,7 @@ def drop_query_all_player_advanced_both_pid():
 
     if check_procedure('query_all_player_advanced_both_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_both_pid
@@ -637,7 +637,7 @@ def drop_query_all_player_advanced_both_sid_pid():
 
     if check_procedure('query_all_player_advanced_both_sid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_both_sid_pid
@@ -664,7 +664,7 @@ def drop_query_all_player_advanced_both_tid_pid():
 
     if check_procedure('query_all_player_advanced_both_tid_pid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_both_tid_pid
@@ -691,7 +691,7 @@ def drop_query_all_player_advanced_both_pname():
 
     if check_procedure('query_all_player_advanced_both_pname'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_both_pname
@@ -718,7 +718,7 @@ def drop_query_all_player_advanced_both_pname_sid():
 
     if check_procedure('query_all_player_advanced_both_pname_sid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_both_pname_sid
@@ -745,7 +745,7 @@ def drop_query_all_player_advanced_both_pname_tid():
 
     if check_procedure('query_all_player_advanced_both_pname_tid'):
         try: 
-            # Create a parameterized query for insertion
+            # Create a procedure
             conn.execute(
             """
             DROP PROCEDURE IF EXISTS query_all_player_advanced_both_pname_tid
