@@ -368,7 +368,7 @@ def create_query_team_stats_primary_pid():
             CREATE PROCEDURE query_team_stats_primary_pid(IN tbl_name VARCHAR(100), IN val_one INT, IN val_two INT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Team_Name, Points, Assists, True_Rebound, Steals, Blocks
+                    'SELECT Season_ID, Team_ID, Team_Name, Points, Assists, True_Rebounds, Steals, Blocks
                     FROM ', tbl_name, 
                     ' WHERE Team_ID = '  , val_one,
                     ' AND Opponent = ',val_two);

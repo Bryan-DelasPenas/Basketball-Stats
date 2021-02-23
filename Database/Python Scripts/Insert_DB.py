@@ -278,7 +278,7 @@ def insert_team_per_game(df, opponent):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", "G" : "Games_Played", "MP" : "Minutes_Played",
                             "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage", "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted",
                             "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted", "2P%" : "Two_Points_Percentage", "FT" : "Free_Throws_Made", 
-                            "FTA" : "Free_Throws_Attempted", "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebound", "DRB" : "Defensive_Rebound", "TRB" : "True_Rebound", 
+                            "FTA" : "Free_Throws_Attempted", "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebound", "DRB" : "Defensive_Rebound", "TRB" : "True_Rebounds", 
                             "AST" : "Assists", "STL" : "Steals", "BLK" : "Blocks", "TOV" : "Turn_Over", "PF" : "Personal_Foul", "PTS" : "Points"})
     
     df['Opponent'] = opponent
@@ -311,7 +311,7 @@ def insert_team_per_poss(df, opponent):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", "G" : "Games_Played", "MP" : "Minutes_Played",
                             "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage", "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted",
                             "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted", "2P%" : "Two_Points_Percentage", "FT" : "Free_Throws_Made", 
-                            "FTA" : "Free_Throws_Attempted", "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebound", "DRB" : "Defensive_Rebound", "TRB" : "True_Rebound", 
+                            "FTA" : "Free_Throws_Attempted", "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebound", "DRB" : "Defensive_Rebound", "TRB" : "True_Rebounds", 
                             "AST" : "Assists", "STL" : "Steals", "BLK" : "Blocks", "TOV" : "Turn_Over", "PF" : "Personal_Foul", "PTS" : "Points"})
     
     df['Opponent'] = opponent
@@ -344,7 +344,7 @@ def insert_team_totals(df, opponent):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", "G" : "Games_Played", "MP" : "Minutes_Played",
                             "FG" : "Field_Goals_Made", "FGA" : "Field_Goals_Attempted", "FG%" : "Field_Goals_Percentage", "3P" : "Three_Points_Made", "3PA" : "Three_Points_Attempted",
                             "3P%" : "Three_Points_Percentage", "2P" : "Two_Points_Made", "2PA" : "Two_Points_Attempted", "2P%" : "Two_Points_Percentage", "FT" : "Free_Throws_Made", 
-                            "FTA" : "Free_Throws_Attempted", "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebound", "DRB" : "Defensive_Rebound", "TRB" : "True_Rebound", 
+                            "FTA" : "Free_Throws_Attempted", "FT%" : "Free_Throws_Percentage", "ORB" : "Offensive_Rebound", "DRB" : "Defensive_Rebound", "TRB" : "True_Rebounds", 
                             "AST" : "Assists", "STL" : "Steals", "BLK" : "Blocks", "TOV" : "Turn_Over", "PF" : "Personal_Foul", "PTS" : "Points"})
     
     df['Opponent'] = opponent
@@ -406,7 +406,7 @@ def insert_player_advanced(df, format):
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID", "Player ID" : "Player_ID", "Team ABV" : "Team_ABV", "Team" : "Team_Name", 
                             "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "Age" : "Player_Age", "League" : "League", "Pos" : "Player_Postion", "G" : "Games_Played", "MP" : "Minutes_Played",
                             "PER" : "Per_Minute_Production", "TS%" : "True_Shooting_Percent", "3PAr" : "Three_Points_Attempted", "FTr" : "Free_Throws_Per_Field_Goals",
-                            "ORB%" : "Offensive_Rebound_Percentage", "DRB%" : "Defensive_Rebound_Percentage", "TRB%" : "True_Rebound_Percentage", "AST%" : "Assit_Percentage",
+                            "ORB%" : "Offensive_Rebound_Percentage", "DRB%" : "Defensive_Rebound_Percentage", "TRB%" : "True_Rebounds_Percentage", "AST%" : "Assit_Percentage",
                             "STL%" : "Steal_Percentage", "BLK%" : "Block_Percentage", "TOV%" : "Turn_Over_Percentage", "USG%" : "Usage_Percentage", "OWS" : "Offensive_Win_Shares",
                             "DWS" : "Defensive_Win_Shares", "WS" : "Win_Shares", "WS/48" : "Win_Shares_Fourty_Eight", "OBPM" : "Offensive_Box_Score", "DBPM" : "Defensive_Box_Score",
                             "BPM" : "Box_Plus_Minus", "VORP" : "Value_Over_Replacement"})
@@ -604,7 +604,7 @@ def insert_player_career_advanced(df, format):
     
     df = df.rename(columns={"Player ID" : "Player_ID", "Player Name" : "Player_Name", "Birth Date" : "Birth_Date", "G" : "Games_Played", "MP" : "Minutes_Played",
                             "PER" : "Per_Minute_Production", "TS%" : "True_Shooting_Percent", "3PAr" : "Three_Points_Attempted", "FTr" : "Free_Throws_Per_Field_Goals",
-                            "ORB%" : "Offensive_Rebound_Percentage", "DRB%" : "Defensive_Rebound_Percentage", "TRB%" : "True_Rebound_Percentage", "AST%" : "Assit_Percentage",
+                            "ORB%" : "Offensive_Rebound_Percentage", "DRB%" : "Defensive_Rebound_Percentage", "TRB%" : "True_Rebounds_Percentage", "AST%" : "Assit_Percentage",
                             "STL%" : "Steal_Percentage", "BLK%" : "Block_Percentage", "TOV%" : "Turn_Over_Percentage", "USG%" : "Usage_Percentage", "OWS" : "Offensive_Win_Shares",
                             "DWS" : "Defensive_Win_Shares", "WS" : "Win_Shares", "WS/48" : "Win_Shares_Fourty_Eight", "OBPM" : "Offensive_Box_Score", "DBPM" : "Defensive_Box_Score",
                             "BPM" : "Box_Plus_Minus", "VORP" : "Value_Over_Replacement"})
@@ -997,6 +997,7 @@ def insert_all_player_stats():
         df_filter = df[df['Season'] <= 2020]
 
         if(df['Player Name'][0] in DATABASE_DICT):
+            print("OKKKKKKK")
             data = DATABASE_DICT[df['Player Name'][0]]
             df_new = pd.DataFrame(data, columns=['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Birth Date', 'Player Name'])
             df_filter = df_filter.append(df_new)
@@ -1250,7 +1251,7 @@ def insert_all():
     insert_all_team_misc()
     insert_all_team_per_game()
     insert_all_team_per_poss()
-    insert_all_team_totals()
+    insert_all_team_totals()  
     insert_all_player_stats()
     insert_all_player_advanced()
     insert_all_player_per_game()
@@ -1264,7 +1265,7 @@ def insert_all():
 Main function 
 '''
 def main():
-    #insert_all_player_stats()
+    
     insert_all()
   
 if __name__ == "__main__":

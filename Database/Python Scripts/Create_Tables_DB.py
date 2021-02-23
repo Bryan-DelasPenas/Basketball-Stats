@@ -448,7 +448,7 @@ def create_team_per_game_table():
             Free_Throws_Percentage          FLOAT,
             Offensive_Rebound               FLOAT,
             Defensive_Rebound               FLOAT,
-            True_Rebound                    FLOAT,
+            True_Rebounds                    FLOAT,
             Assists                         FLOAT,
             Steals                          FLOAT,
             Blocks                          FLOAT,
@@ -512,7 +512,7 @@ def create_team_per_poss_table():
             Free_Throws_Percentage          FLOAT,
             Offensive_Rebound               FLOAT,
             Defensive_Rebound               FLOAT,
-            True_Rebound                    FLOAT,
+            True_Rebounds                    FLOAT,
             Assists                         FLOAT,
             Steals                          FLOAT,
             Blocks                          FLOAT,
@@ -576,7 +576,7 @@ def create_team_totals_table():
             Free_Throws_Percentage          FLOAT,
             Offensive_Rebound               FLOAT,
             Defensive_Rebound               FLOAT,
-            True_Rebound                    FLOAT,
+            True_Rebounds                    FLOAT,
             Assists                         FLOAT,
             Steals                          FLOAT,
             Blocks                          FLOAT,
@@ -683,7 +683,7 @@ def create_player_advanced_table():
             Free_Throws_Per_Field_Goals   FLOAT,
             Offensive_Rebound_Percentage  FLOAT,
             Defensive_Rebound_Percentage  FLOAT,
-            True_Rebound_Percentage       FLOAT, 
+            True_Rebounds_Percentage       FLOAT, 
             Assit_Percentage              FLOAT,
             Steal_Percentage              FLOAT,
             Block_Percentage              FLOAT,
@@ -700,7 +700,7 @@ def create_player_advanced_table():
             Stat_Form                     BOOLEAN NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-            PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+            PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
@@ -773,7 +773,7 @@ def create_player_per_game_table():
             Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-            PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+            PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
@@ -845,7 +845,7 @@ def create_player_per_minute_table():
             Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-            PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+            PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
@@ -919,7 +919,7 @@ def create_player_per_poss_table():
             Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-            PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+            PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
@@ -993,7 +993,7 @@ def create_player_totals_table():
             Stat_Form                       VARCHAR(45) NOT NULL, 
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
-            PRIMARY KEY (Season_ID, Team_ID, Player_ID),
+            PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
@@ -1076,7 +1076,7 @@ def create_player_career_advanced_table():
             Free_Throws_Per_Field_Goals   FLOAT,
             Offensive_Rebound_Percentage  FLOAT,
             Defensive_Rebound_Percentage  FLOAT,
-            True_Rebound_Percentage       FLOAT, 
+            True_Rebounds_Percentage       FLOAT, 
             Assit_Percentage              FLOAT,
             Steal_Percentage              FLOAT,
             Block_Percentage              FLOAT,
@@ -1093,7 +1093,7 @@ def create_player_career_advanced_table():
             Stat_Form                     BOOLEAN NOT NULL,  --  Regular | Playoffs
             
             UNIQUE(Player_ID, Stat_Form),
-            PRIMARY KEY (Player_ID),
+            PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID), 
             CHECK(Player_ID BETWEEN 1 and 3281)
             )
@@ -1157,7 +1157,7 @@ def create_player_career_per_game_table():
             Stat_Form                       VARCHAR(45) NOT NULL,  
 
             UNIQUE(Player_ID, Stat_Form),
-            PRIMARY KEY (Player_ID),
+            PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
             CHECK(Player_ID BETWEEN 1 and 3281)
             )
@@ -1220,7 +1220,7 @@ def create_player_career_per_minute_table():
             Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Player_ID, Stat_Form),
-            PRIMARY KEY (Player_ID),
+            PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
             CHECK(Player_ID BETWEEN 1 and 3281) 
             )
@@ -1285,7 +1285,7 @@ def create_player_career_per_poss_table():
             Stat_Form                       VARCHAR(45) NOT NULL,  
             
             UNIQUE(Player_ID, Stat_Form),
-            PRIMARY KEY (Player_ID),
+            PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
             CHECK(Player_ID BETWEEN 1 and 3281) 
             )
@@ -1350,7 +1350,7 @@ def create_player_career_totals_table():
             Stat_Form                       VARCHAR(45) NOT NULL, 
 
             UNIQUE(Player_ID, Stat_Form),
-            PRIMARY KEY (Player_ID),
+            PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
             CHECK(Player_ID BETWEEN 1 and 3281)
             )
