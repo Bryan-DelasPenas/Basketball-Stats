@@ -5,12 +5,12 @@ import numpy as np
 sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
 import os
 import unittest
-from Team_Stats_Scraper import get_roster, get_roster_stats, get_team_stats, get_opp_stats, get_team_misc, get_team_advanced
+from Team_Stats_Scraper import get_roster, get_team_stats, get_opp_stats, get_team_misc, get_team_advanced
 
 class TestTeamScraper(unittest.TestCase):
     
     def test_get_roster(self):
-        regular_path = regular_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Team', "Roster", "Team_Roster", "2020", "2020season_DAL_roster.csv")
+        regular_path = regular_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Team', "Roster", "2020", "2020season_DAL_roster.csv")
         df = get_roster("DAL", 2020)
         expected_df = pd.read_csv(regular_path)
 

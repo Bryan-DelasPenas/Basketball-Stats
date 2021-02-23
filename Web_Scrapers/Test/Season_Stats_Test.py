@@ -17,7 +17,7 @@ class TestSeasonScraper(unittest.TestCase):
         self.assertCountEqual(list(df), list(expected_df), message)
 
     def test_get_standings(self):
-        standard_path = os.path.join(pathlib.Path().absolute(), 'Output', "Season", "Standings", "Standard")
+        standard_path = os.path.join(pathlib.Path().absolute(), 'Output', "Season", "Standings")
     
      
         df_east, df_west = get_standings(2020)
