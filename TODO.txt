@@ -35,4 +35,6 @@ Player Career Per Minute: Done        | 4
 Player Career Per Poss:   Done        | 4 
 Player Career Totals:     Done        | 4
 
-PLAN for graphs, only Stats will have graphs
+PLAN for graphs, only Stats will have graphs. 
+
+Make unit test work if there is data in the database, if not, send an error message 

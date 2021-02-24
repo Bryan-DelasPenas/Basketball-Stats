@@ -3,7 +3,9 @@ import os
 import pathlib
 from pathlib import Path
 
-
+'''
+Takes in Team Name and converts name into Three letter string
+'''
 TEAM_TO_ABBRIVATION = {
     'ATLANTA HAWKS':                     'ATL', # Currently the Atlanta Hawks from 1968 to 2020
     'BOSTON CELTICS':                    'BOS', # Currently the Boston Celtics from 1946 to 2020
@@ -47,8 +49,9 @@ TEAM_TO_ABBRIVATION = {
     'WASHINGTON BULLETS':                'WSB', # Formerly the Washington Bullets from 1974 to 1997
 }
 
-
-# Does the opposite of TEAM_TO_ABV, takes in an ABV and turns into a team name
+'''
+Does the opposite of TEAM_TO_ABV, takes in an ABV and turns into a team name
+'''
 ABV_TO_TEAM = {
     'ATL': 'ATLANTA HAWKS', 
     'BOS': 'BOSTON CELTICS',
@@ -94,7 +97,9 @@ ABV_TO_TEAM = {
     'TOT': 'TOTAL AFTER TRADE'
 }
 
-# This is for teams id for later use in the database
+'''
+This is for teams id for later use in the database
+'''
 TEAM_ID = {
     'ATL': 1, 
     'BOS': 2,
@@ -140,8 +145,9 @@ TEAM_ID = {
     'TOT': 31,
 }
 
-# This dict is used for getting team_advanced stats as they use the most updated team name except
- 
+'''
+This dict is used for getting team_advanced stats as they use the most updated team name except
+'''
 TEAM_DICT = {
     'CHO': 'CHA',
     'SDC': 'LAC',
@@ -153,9 +159,11 @@ TEAM_DICT = {
     'NOK': 'NOH',
     'KCK': 'SAC',
     'BRK': 'NJN',
-
 }
 
+'''
+Converts wrong name into the proper name, example is adding JR. to names
+'''
 RIGHT_NAME_DICT = {
 
     ("Marvin Bagley", "March 14, 1999")      : "Marvin Bagley III",
@@ -301,6 +309,9 @@ REVERSE_RIGHT_DICT = {
    
 }
 
+'''
+Special cases when the name does not match the URL generated
+'''
 RIGHT_PLAYER_SUFIX = {
 
     ("Jeff Ayres", "April 29, 1987")                 : "Jeff Pendergraph",
@@ -331,7 +342,9 @@ RIGHT_PLAYER_SUFIX = {
 
 }
 
-# If the name is correct but the page name is not correct
+'''
+If the name is correct but the page name is not correct 
+'''
 SPECIAL_NAME_DICT = {
     ("Nene Hilario", "September 13, 1982")    : "Nene",
     ("Dee Brown", "November 29, 1968")        : "Dee Brown",
@@ -425,5 +438,7 @@ def get_player_id():
     return player_id
 
 
-# Global Decloration of Player_id
+'''
+Global Dict for Player's ID
+'''
 PLAYER_ID = get_player_id()
