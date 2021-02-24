@@ -2,7 +2,10 @@ import pyodbc
 import sqlalchemy as sal
 from sqlalchemy import create_engine
 import pandas as pd
+import pathlib
+import sys
 
+sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts')
 from Helper_DB import test_connection, create_connection, check_procedure
 
 '''
