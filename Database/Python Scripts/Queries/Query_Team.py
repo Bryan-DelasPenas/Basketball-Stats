@@ -28,7 +28,7 @@ def create_query_all_team_sid():
             # Create a parameterized query for insertion
             conn.execute(
             """
-            CREATE PROCEDURE query_all_team_sid(s_id int)
+            CREATE PROCEDURE query_all_team_sid(s_id INT)
             BEGIN
                SELECT *
                FROM Team
@@ -188,7 +188,7 @@ def create_query_team_abv():
             # Create a parameterized query for insertion
             conn.execute(
             """
-            CREATE PROCEDURE query_team_abv(name VARCHAR(100))
+            CREATE PROCEDURE query_team_abv(abv VARCHAR(100))
             BEGIN
                SELECT DISTINCT Team_ID
                FROM Team
@@ -212,6 +212,7 @@ def create_team_query():
     create_query_all_team_name()
     create_query_all_team_ABV()
     create_query_team_name()
+    create_query_team_abv()
 
 '''
 Drop Procedures
@@ -389,12 +390,12 @@ def drop_team_query():
     drop_query_all_team_name()
     drop_query_all_team_ABV()
     drop_query_team_name()
-
+    drops_query_team_abv()
 '''
 Main function for testing
 '''
 def main():
     
     create_team_query()
-    drop_team_query()
+    #drop_team_query()
 main()

@@ -997,7 +997,6 @@ def insert_all_player_stats():
         df_filter = df[df['Season'] <= 2020]
 
         if(df['Player Name'][0] in DATABASE_DICT):
-            print("OKKKKKKK")
             data = DATABASE_DICT[df['Player Name'][0]]
             df_new = pd.DataFrame(data, columns=['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Birth Date', 'Player Name'])
             df_filter = df_filter.append(df_new)

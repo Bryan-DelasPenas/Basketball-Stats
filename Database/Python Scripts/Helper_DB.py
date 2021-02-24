@@ -54,7 +54,7 @@ def check_table(tablename):
         return False
 
 '''
-Function that checks to  see if the stored procedure is inside the querry
+Function that checks to see if the stored procedure is inside the querry
 '''
 def check_procedure(procedure):
     # Connect to sql database
@@ -79,5 +79,3 @@ def check_procedure(procedure):
     else:
         print("Procedure does not Exist")
         return False
-
-
