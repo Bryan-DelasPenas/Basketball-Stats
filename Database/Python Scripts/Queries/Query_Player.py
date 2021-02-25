@@ -60,12 +60,12 @@ def create_query_all_player_name_dob():
             # Create a parameterized querry for insertion
             conn.execute(
             """
-            CREATE PROCEDURE query_all_player_name_dob(name varchar(45), abv varchar(3))
+            CREATE PROCEDURE query_all_player_name_dob(name varchar(45), dob VARCHAR(30))
             BEGIN
                SELECT *
                FROM Player
                Where Player_Name = name 
-               AND Player_ABV = abv;
+               AND Birth_Date = dob;
             END
             """)
             trans.commit()
@@ -213,7 +213,7 @@ Main Function
 '''
 def main():
     create_player_query()
-    drop_player_query()
+    #drop_player_query()
 
 main()
 

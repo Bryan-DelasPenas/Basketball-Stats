@@ -11,7 +11,7 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-from Create_Tables_DB import create_season_table, create_team_table
+
 
 '''
 Class that will Team_Queries, Assuming that the data has been inserted correctly and the procedures are created
