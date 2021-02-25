@@ -397,5 +397,5 @@ Main function for testing
 def main():
     
     create_team_query()
-    #drop_team_query()
+    drop_team_query()
 main()
