@@ -695,7 +695,7 @@ def insert_player_career_per_poss(df, format):
             df.to_sql('player_career_per_poss', con = engine, if_exists='append', index = False)
             trans.commit()
             conn.close()
-            print("Insertion into Player_Per_Poss was successful")
+            print("Insertion into Player_Career_Per_Poss was successful")
         
         except:
             raise Exception("Insertion into Player_Career_Per_Poss failed")

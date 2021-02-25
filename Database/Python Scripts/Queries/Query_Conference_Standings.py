@@ -31,7 +31,7 @@ def create_query_all_cs_sid():
             CREATE PROCEDURE query_all_cs_sid(s_id int)
             BEGIN
                SELECT *
-               FROM Conference Standings
+               FROM Conference_Standings
                Where Season_ID = s_id;
             END
             """)
@@ -63,7 +63,7 @@ def create_query_all_cs_tid():
             CREATE PROCEDURE query_all_cs_tid(t_id int)
             BEGIN
                SELECT *
-               FROM Conference Standings
+               FROM Conference_Standings
                Where Team_ID = t_id;
             END
             """)
@@ -95,7 +95,7 @@ def create_query_all_cs_name():
             CREATE PROCEDURE query_all_cs_name(name varchar(45))
             BEGIN
                SELECT *
-               FROM Conference Standings
+               FROM Conference_Standings
                Where Team_Name = name;
             END
             """)
@@ -124,10 +124,10 @@ def create_query_all_cs_ABV():
             # Create a parameterized querry for insertion
             conn.execute(
             """
-            CREATE PROCEDURE query_all_cs_abv(name varchar(3))
+            CREATE PROCEDURE query_all_cs_abv(abv varchar(3))
             BEGIN
                SELECT *
-               FROM Conference Standings
+               FROM Conference_Standings
                Where Team_ABV = abv;
             END
             """)
@@ -159,7 +159,7 @@ def create_query_all_cs_win():
             CREATE PROCEDURE query_all_cs_win(wins_amount int)
             BEGIN
                SELECT *
-               FROM Conference Standings
+               FROM Conference_Standings
                Where Wins >= wins_amount;
             END
             """)
@@ -191,8 +191,8 @@ def create_query_all_cs_wl():
             CREATE PROCEDURE query_all_cs_wl(wl FLOAT)
             BEGIN
                SELECT *
-               FROM Conference Standings
-               Where Win_Lost_Percentage >= wl;
+               FROM Conference_Standings
+               Where Win_Lose_Percentage >= wl;
             END
             """)
             trans.commit()
@@ -223,7 +223,7 @@ def create_query_all_cs_sid_ew():
             CREATE PROCEDURE query_all_cs_sid_ew(s_id int, e_w bit)
             BEGIN
                SELECT *
-               FROM Conference Standings
+               FROM Conference_Standings
                Where Season_ID = s_id
                AND East_Or_West = e_w;
             END
@@ -253,14 +253,12 @@ def create_query_cs_win():
             # Create a parameterized querry for insertion
             conn.execute(
             """
-            CREATE PROCEDURE query_cs_win(s_id int, t_id int, name varchar(45), win_num int)
+            CREATE PROCEDURE query_cs_win(s_id int, t_id int)
             BEGIN
-               SELECT Season_ID, Team_ID, Team_Name, Wins
-               FROM Conference Standings
+               SELECT Season_ID, Team_ID, Team_ABV, Team_Name, Wins
+               FROM Conference_Standings
                Where Season_ID = s_id
-               AND Team_ID = t_id
-               AND Team_Name = name
-               AND Wins >= win_num;
+               AND Team_ID = t_id;
             END
             """)
             trans.commit()
@@ -271,45 +269,9 @@ def create_query_cs_win():
     else:
         raise Exception("Procedure Query_CS_Win does exists")
 
-'''
-Function that creates procedure to query Season_ID, Team_ID, Team_Name, Wins based on Season_ID, Team_ID, Team_Name, Wins and east or west
-'''
-def create_query_cs_win_ew():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if not check_procedure('query_cs_win_ew'):
-        try: 
-            # Create a parameterized querry for insertion
-            conn.execute(
-            """
-            CREATE PROCEDURE query_cs_win_ew(s_id int, t_id int, name varchar(45), win_num int, e_w bit)
-            BEGIN
-               SELECT Season_ID, Team_ID, Team_Name, Wins
-               FROM Conference Standings
-               Where Season_ID = s_id
-               AND Team_ID = t_id
-               AND Team_Name = name
-               AND Wins >= win_num
-               AND East_or_West = e_w;
-            
-            END
-            """)
-            trans.commit()
-            conn.close()
-            print("Creation of procedure Query_CS_Win_EW was Successful")
-        except:
-            raise Exception("Create Procedure Query_CS_Win_EW Failed")
-    else:
-        raise Exception("Procedure Query_CS_Win_EW does exists")
 
 '''
-Function that creates all procedure query for Conference Standings
+Function that creates all procedure query for Conference_Standings
 '''
 def create_cs_query():
     create_query_all_cs_sid()
@@ -320,7 +282,6 @@ def create_cs_query():
     create_query_all_cs_wl()
     create_query_all_cs_sid_ew()
     create_query_cs_win()
-    create_query_cs_win_ew()
 
 '''
 Drop Procedures
@@ -543,34 +504,7 @@ def drop_query_cs_win():
 
 
 '''
-Function that drops query_cs_win_ew
-'''
-def drop_query_cs_win_ew():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_cs_win_ew'):
-        try: 
-            # Create a parameterized querry for insertion
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_cs_win_ew
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_CS_Win_EW was Successful")
-        except:
-            raise Exception("Deletion of Procedure Query_CS_Win_EW Failed")
-    else:
-        raise Exception("Procedure Query_CS_Win_EW does not Exists")
-
-'''
-Function that drops all procedures for Conference Standings
+Function that drops all procedures for Conference_Standings
 '''
 def drop_cs_query():
     drop_query_all_cs_sid()
@@ -581,7 +515,7 @@ def drop_cs_query():
     drop_query_all_cs_wl()
     drop_query_all_cs_sid_ew()
     drop_query_cs_win()
-    drop_query_cs_win_ew()
+   
 
 '''
 Main Function for Testing
@@ -589,6 +523,6 @@ Main Function for Testing
 def main():
    
     create_cs_query()
-    drop_cs_query()
+    #drop_cs_query()
 
 main()

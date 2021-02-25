@@ -13,8 +13,7 @@ For Queries:                            Amount
 Season:                   NA          | 0  | UNIT TEST DONE?: NA
 Team:                     Done        | 5  | UNIT TEST DONE?: Done
 Player:                   Done        | 3  | UNIT TEST DONE?: Done
-Standings                 NA          | 0  | UNIT TEST DONE?: In Progress
-Conference Standings:     Done        | 8  | UNIT TEST DONE?: In Progress
+Conference Standings:     Done        | 8  | UNIT TEST DONE?: Done
 Roster:                   Done        | 11 | UNIT TEST DONE?: In Progress
 Team Stats:               Done        | 13 | UNIT TEST DONE?: In Progress
 Team Advanced:            Done        | 5  | UNIT TEST DONE?: In Progress
