@@ -115,46 +115,6 @@ def create_player_table():
         raise Exception("Player Table does already exists")
 
 '''
-Function that creates Standings enitiy table
-'''
-def create_standings_table():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    # Check if the table exists, if not create table
-    if not check_table('Standings'):
-        # Test to see if the insertion works
-        try: 
-            # Create a parameterized querry for insertion
-            conn.execute(
-            """
-            CREATE TABLE IF NOT EXISTS Standings(
-            Season_ID INT NOT NULL, 
-            Team_ID   INT NOT NULL,
-            Team_Name VARCHAR(45) NOT NULL,
-            Team_ABV  VARCHAR(3) NOT NULL,
-            
-            UNIQUE(Season_ID, Team_ID),
-            PRIMARY KEY (Season_ID, Team_ID),
-            FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
-            CHECK(Season_ID BETWEEN 1980 AND 2021),
-            CHECK(Team_ID BETWEEN 1 and 31)
-            )
-            """)
-            trans.commit()
-            conn.close()
-            print("Standings Table creation was successful")
-        except:
-            raise Exception("Standings Table creation failed")
-    else:
-        raise Exception("Standings Table does already exists")
-
-'''
 Function that creates Conference Standings enitiy table
 '''
 def create_conference_standings_table():
@@ -189,7 +149,7 @@ def create_conference_standings_table():
             
             UNIQUE(Season_ID, Team_ID),
             PRIMARY KEY (Season_ID, Team_ID),
-            FOREIGN KEY (Season_ID, Team_ID) REFERENCES Standings(Season_ID, Team_ID),
+            FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31)
             )
@@ -1372,7 +1332,6 @@ def create_all():
     create_player_table()
     
     # Standings
-    create_standings_table()
     create_conference_standings_table()
     
     # Roster

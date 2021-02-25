@@ -97,34 +97,6 @@ def insert_player(df):
         raise Exception("Table does not exist")
 
 '''
-Function that inserts Standings Entities into database
-'''
-def insert_standings(df):
-    # Rename the dataframe 
-    df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID" , "Team" : "Team_Name", "Team ABV" : "Team_ABV"})
-    
-    # Connect to sql database 
-    engine = create_connection()
-
-    # Test the connection of the database
-    conn = test_connection(engine)
-    
-    trans = conn.begin()
-
-    if(check_table('Standings')):
-        # Test to see if the insertion works 
-        try:
-            df.to_sql('standings', con = engine, if_exists='append', index = False)
-            trans.commit()
-            conn.close()
-            print("Insertion into Team was successful")
-        
-        except:
-            raise Exception("Insertion into Team failed")
-    else:
-        raise Exception("Table does not exists")
-
-'''
 Function that inserts Conference Standings into database
 '''
 def insert_conference_standings(df):
@@ -817,20 +789,6 @@ def insert_all_player():
     insert_player(final_df)
     
 '''
-Calls insert_standings to insert all standings from 1980 - 2020
-'''
-def insert_all_standings():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Team_Names")
-    
-    # Iterate through the years directory
-    for i in range(1980, 2021):
-        print(i)
-        final_path = os.path.join(path, str(i) + "_Team_Names.csv")
-        df = pd.read_csv(final_path)
-
-        insert_standings(df)
-
-'''
 Calls insert_conference_standings from 1980 - 2020
 '''
 def insert_all_conference_standings():
@@ -1242,7 +1200,6 @@ def insert_all():
     insert_all_season()
     insert_all_team()
     insert_all_player()
-    insert_all_standings()
     insert_all_conference_standings()
     insert_all_roster()
     insert_all_team_stats()

@@ -9,31 +9,31 @@ Queries:                    Done
 Unit Testing                In Progress
 Complete User Manual        In Progress
 
-For Queries:                            Amount (Totals: 48) (Add queries for 5 major stats, Points, Assits, Rebounds, Blocks, and Steals)
-Season:                   NA          | 0
-Team:                     Done        | 5
-Player:                   Done        | 3
-Standings                 NA          | 0
-Conference Standings:     Done        | 8 
-Roster:                   Done        | 11
-Team Stats:               Done        | 13 
-Team Advanced:            Done        | 5
-Team Misc:                Done        | 5
-Team Per Game:            Done        | 10
-Team Per Minute:          Done        | 10
-Team Totals:              Done        | 10 
-Player Stats:             Done        | 19 
-Player Advanced:          Done        | 12 
-Player Per Game:          Done        | 12
-Player Per Minute:        Done        | 12
-Player Per Poss:          Done        | 12
-Player Totals:            Done        | 12
-Player Career Stats:      Done        | 6
-Player Career Advanced:   Done        | 4
-Player Career Per Game:   Done        | 4
-Player Career Per Minute: Done        | 4
-Player Career Per Poss:   Done        | 4 
-Player Career Totals:     Done        | 4
+For Queries:                            Amount 
+Season:                   NA          | 0  | UNIT TEST DONE?: NA
+Team:                     Done        | 5  | UNIT TEST DONE?: Done
+Player:                   Done        | 3  | UNIT TEST DONE?: Done
+Standings                 NA          | 0  | UNIT TEST DONE?: In Progress
+Conference Standings:     Done        | 8  | UNIT TEST DONE?: In Progress
+Roster:                   Done        | 11 | UNIT TEST DONE?: In Progress
+Team Stats:               Done        | 13 | UNIT TEST DONE?: In Progress
+Team Advanced:            Done        | 5  | UNIT TEST DONE?: In Progress
+Team Misc:                Done        | 5  | UNIT TEST DONE?: In Progress
+Team Per Game:            Done        | 10 | UNIT TEST DONE?: In Progress
+Team Per Minute:          Done        | 10 | UNIT TEST DONE?: In Progress
+Team Totals:              Done        | 10 | UNIT TEST DONE?: In Progress
+Player Stats:             Done        | 19 | UNIT TEST DONE?: In Progress
+Player Advanced:          Done        | 12 | UNIT TEST DONE?: In Progress
+Player Per Game:          Done        | 12 | UNIT TEST DONE?: In Progress
+Player Per Minute:        Done        | 12 | UNIT TEST DONE?: In Progress
+Player Per Poss:          Done        | 12 | UNIT TEST DONE?: In Progress
+Player Totals:            Done        | 12 | UNIT TEST DONE?: In Progress
+Player Career Stats:      Done        | 6  | UNIT TEST DONE?: In Progress
+Player Career Advanced:   Done        | 4  | UNIT TEST DONE?: In Progress
+Player Career Per Game:   Done        | 4  | UNIT TEST DONE?: In Progress
+Player Career Per Minute: Done        | 4  | UNIT TEST DONE?: In Progress
+Player Career Per Poss:   Done        | 4  | UNIT TEST DONE?: In Progress
+Player Career Totals:     Done        | 4  | UNIT TEST DONE?: In Progress
 
 PLAN for graphs, only Stats will have graphs. 
 

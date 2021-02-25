@@ -28,19 +28,6 @@ CREATE TABLE IF NOT EXISTS Player(
     CHECK(Player_ID BETWEEN 1 and 3281)
 );
 
-CREATE TABLE IF NOT EXISTS Standings(
-    Season_ID INT NOT NULL, 
-    Team_ID   INT NOT NULL,
-    Team_Name VARCHAR(45) NOT NULL,
-    Team_ABV  VARCHAR(3) NOT NULL,
-	
-    UNIQUE(Season_ID, Team_ID),
-    PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
-    CHECK(Season_ID BETWEEN 1980 AND 2021),
-    CHECK(Team_ID BETWEEN 1 and 31)
-);
-
 CREATE TABLE IF NOT EXISTS Conference_Standings(
     Season_ID 				  INT NOT NULL,
     Team_ID   				  INT NOT NULL, 
@@ -57,7 +44,7 @@ CREATE TABLE IF NOT EXISTS Conference_Standings(
 	
     UNIQUE(Season_ID, Team_ID),
     PRIMARY KEY (Season_ID, Team_ID),
-    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Standings(Season_ID, Team_ID),
+    FOREIGN KEY (Season_ID, Team_ID) REFERENCES Team(Season_ID, Team_ID),
     CHECK(Season_ID BETWEEN 1980 AND 2021),
     CHECK(Team_ID BETWEEN 1 and 31)
 );
