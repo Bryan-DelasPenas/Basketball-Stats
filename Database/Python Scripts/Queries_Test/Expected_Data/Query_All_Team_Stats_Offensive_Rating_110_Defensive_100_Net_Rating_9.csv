@@ -1,0 +1,15 @@
+Season_ID,Team_ID,Team_Name,Offensive_Rating,Defensive_Rating,Net_Rating
+1986,2,"Boston Celtics",111.8,102.6,9.2
+1987,14,"Los Angeles Lakers",115.6,106.5,9.1
+1991,5,"Chicago Bulls",114.6,105.2,9.4
+1992,5,"Chicago Bulls",115.5,104.5,11
+1994,21,"Seattle Supersonics",111.1,101.5,9.6
+1996,5,"Chicago Bulls",115.2,101.8,13.4
+1997,5,"Chicago Bulls",114.4,102.4,12
+1997,29,"Utah Jazz",113.6,104,9.6
+2009,6,"Cleveland Cavaliers",112.4,102.4,10
+2013,21,"Oklahoma City Thunder",112.4,102.6,9.8
+2015,10,"Golden State Warriors",111.6,101.4,10.2
+2016,10,"Golden State Warriors",114.5,103.8,10.7
+2017,10,"Golden State Warriors",115.6,104,11.6
+2020,17,"Milwaukee Bucks",112.4,102.9,9.5

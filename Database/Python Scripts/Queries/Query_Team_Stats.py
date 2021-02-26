@@ -28,12 +28,12 @@ def create_query_team_stats_minor_one():
             # Create a procedure
             conn.execute(
             """
-            CREATE PROCEDURE query_team_stats_minor_one(IN select_one LONGTEXT, IN tbl_name longtext, IN col_one longtext, IN val longtext)
+            CREATE PROCEDURE query_team_stats_minor_one(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID,Team_Name, ',select_one, 
+                    'SELECT Season_ID, Team_ID, Team_Name, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE ', col_one,' = '  , val);
+                    ' WHERE ', select_one,' >= '  , val);
                 PREPARE stmt1 FROM @s;
                 EXECUTE stmt1;
                 DEALLOCATE PREPARE stmt1;
@@ -65,12 +65,13 @@ def create_query_team_stats_minor_two():
             conn.execute(
             """
             CREATE PROCEDURE query_team_stats_minor_two(IN select_one LONGTEXT, IN select_two longtext, 
-            IN tbl_name longtext, IN col_one longtext, IN val longtext)
+            IN tbl_name longtext, IN val_one longtext, IN val_two longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID,Team_Name, ',select_one, ',' ,select_two, 
+                    'SELECT Season_ID, Team_ID, Team_Name, ',select_one, ',' ,select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE ', col_one,' = '  , val);
+                    ' WHERE ', select_one,' >= '  ,val_one,
+                    ' AND ', select_two, ' >= ', val_two );
                 PREPARE stmt1 FROM @s;
                 EXECUTE stmt1;
                 DEALLOCATE PREPARE stmt1;
@@ -102,12 +103,14 @@ def create_query_team_stats_minor_three():
             conn.execute(
             """
             CREATE PROCEDURE query_team_stats_minor_three(IN select_one LONGTEXT, IN select_two longtext, IN select_three longtext, 
-            IN tbl_name longtext, IN col_one longtext, IN val longtext)
+            IN tbl_name longtext, IN val_one LONGTEXT, IN val_two longtext, IN val_three longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID,Team_Name, ',select_one, ',' ,select_two, ',', select_three,
+                    'SELECT Season_ID, Team_ID, Team_Name, ',select_one, ',' ,select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE ', col_one,' = '  , val);
+                    ' WHERE ', select_one,' >= '  ,val_one,
+                    ' AND ', select_two, ' >= ', val_two, 
+                    ' AND ', select_three, '>= ', val_three);
                 PREPARE stmt1 FROM @s;
                 EXECUTE stmt1;
                 DEALLOCATE PREPARE stmt1;
@@ -900,5 +903,5 @@ Main function for testing
 '''
 def main():
     create_team_stats_query()
-    drop_team_stats_query()
+    #drop_team_stats_query()
 main()

@@ -523,6 +523,6 @@ Main Function for Testing
 def main():
    
     create_cs_query()
-    #drop_cs_query()
+    drop_cs_query()
 
 main()

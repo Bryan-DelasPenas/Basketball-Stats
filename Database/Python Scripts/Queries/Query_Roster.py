@@ -644,5 +644,5 @@ Main Function for testing
 def main():
    
     create_roster_query()
-    #drop_roster_query()
+    drop_roster_query()
 main()

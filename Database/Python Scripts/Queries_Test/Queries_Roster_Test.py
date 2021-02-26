@@ -63,7 +63,6 @@ class TestQueryRoster(unittest.TestCase):
                 'Birth_Date', 'Player_Nationality', 'Player_Experience', 'Player_College_Name'])
         pd.testing.assert_frame_equal(df_result, df_expected)
     
-    
     def test_create_query_all_roster_pid(self):
         
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Roster_Kareem_Abdul_Jabbar.csv')
@@ -118,7 +117,6 @@ class TestQueryRoster(unittest.TestCase):
                 'Birth_Date', 'Player_Nationality', 'Player_Experience', 'Player_College_Name'])
     
         pd.testing.assert_frame_equal(df_result, df_expected)
-    
     
     def test_create_query_all_roster_tname(self):
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Roster_Boston_Celtics.csv')

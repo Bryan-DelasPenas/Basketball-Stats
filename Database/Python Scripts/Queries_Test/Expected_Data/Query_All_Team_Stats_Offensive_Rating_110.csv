@@ -1,0 +1,235 @@
+Season_ID,Team_ID,Team_Name,Offensive_Rating
+1982,8,"Denver Nuggets",114.3
+1982,14,"Los Angeles Lakers",110.2
+1983,14,"Los Angeles Lakers",110.5
+1983,27,"San Antonio Spurs",110.1
+1984,2,"Boston Celtics",110.9
+1984,7,"Dallas Mavericks",110
+1984,8,"Denver Nuggets",111.3
+1984,9,"Detroit Pistons",111.5
+1984,14,"Los Angeles Lakers",110.9
+1984,25,"Portland Trail Blazers",111.2
+1984,27,"San Antonio Spurs",111.2
+1985,2,"Boston Celtics",112.8
+1985,7,"Dallas Mavericks",111.5
+1985,8,"Denver Nuggets",110.7
+1985,14,"Los Angeles Lakers",114.1
+1985,17,"Milwaukee Bucks",110.5
+1985,23,"Philadelphia 76Ers",111.3
+1985,25,"Portland Trail Blazers",110.4
+1986,2,"Boston Celtics",111.8
+1986,7,"Dallas Mavericks",112.1
+1986,11,"Houston Rockets",110.1
+1986,14,"Los Angeles Lakers",113.3
+1986,17,"Milwaukee Bucks",111.4
+1987,1,"Atlanta Hawks",112.6
+1987,2,"Boston Celtics",113.5
+1987,7,"Dallas Mavericks",114.9
+1987,14,"Los Angeles Lakers",115.6
+1987,21,"Seattle Supersonics",110.7
+1987,25,"Portland Trail Blazers",111.5
+1988,1,"Atlanta Hawks",111.3
+1988,2,"Boston Celtics",115.4
+1988,7,"Dallas Mavericks",112.2
+1988,8,"Denver Nuggets",110.1
+1988,9,"Detroit Pistons",110.5
+1988,14,"Los Angeles Lakers",113.1
+1988,21,"Seattle Supersonics",110.2
+1988,25,"Portland Trail Blazers",111.8
+1989,1,"Atlanta Hawks",112.2
+1989,2,"Boston Celtics",110.8
+1989,6,"Cleveland Cavaliers",110.6
+1989,9,"Detroit Pistons",110.8
+1989,14,"Los Angeles Lakers",113.8
+1989,17,"Milwaukee Bucks",110.1
+1989,20,"New York Knicks",111.1
+1989,21,"Seattle Supersonics",111.5
+1989,23,"Philadelphia 76Ers",113
+1989,24,"Phoenix Suns",113.1
+1990,1,"Atlanta Hawks",113
+1990,2,"Boston Celtics",112
+1990,5,"Chicago Bulls",112.3
+1990,12,"Indiana Pacers",111.5
+1990,14,"Los Angeles Lakers",114
+1990,21,"Seattle Supersonics",110.9
+1990,23,"Philadelphia 76Ers",113.5
+1990,24,"Phoenix Suns",113.1
+1990,25,"Portland Trail Blazers",110.5
+1990,29,"Utah Jazz",110.3
+1991,1,"Atlanta Hawks",110.9
+1991,2,"Boston Celtics",112.6
+1991,5,"Chicago Bulls",114.6
+1991,10,"Golden State Warriors",111.9
+1991,12,"Indiana Pacers",111.7
+1991,14,"Los Angeles Lakers",112.1
+1991,24,"Phoenix Suns",112.6
+1991,25,"Portland Trail Blazers",112.8
+1992,2,"Boston Celtics",110.8
+1992,5,"Chicago Bulls",115.5
+1992,6,"Cleveland Cavaliers",113.9
+1992,10,"Golden State Warriors",113.6
+1992,12,"Indiana Pacers",111.7
+1992,21,"Seattle Supersonics",110.7
+1992,24,"Phoenix Suns",112.1
+1992,25,"Portland Trail Blazers",111.4
+1992,29,"Utah Jazz",112.2
+1993,5,"Chicago Bulls",112.9
+1993,6,"Cleveland Cavaliers",112.7
+1993,12,"Indiana Pacers",111.9
+1993,21,"Seattle Supersonics",112.3
+1993,24,"Phoenix Suns",113.3
+1994,21,"Seattle Supersonics",111.1
+1994,22,"Orlando Magic",110.8
+1994,24,"Phoenix Suns",111.7
+1994,27,"San Antonio Spurs",110.4
+1995,21,"Seattle Supersonics",114.8
+1995,22,"Orlando Magic",115.1
+1995,24,"Phoenix Suns",114.5
+1995,27,"San Antonio Spurs",111.7
+1995,29,"Utah Jazz",114.3
+1996,4,"Charlotte Hornets",111.2
+1996,5,"Chicago Bulls",115.2
+1996,12,"Indiana Pacers",110.8
+1996,14,"Los Angeles Lakers",111.4
+1996,21,"Seattle Supersonics",110.3
+1996,22,"Orlando Magic",112.9
+1996,24,"Phoenix Suns",110.3
+1996,27,"San Antonio Spurs",110.2
+1996,29,"Utah Jazz",113.3
+1997,4,"Charlotte Hornets",110.9
+1997,5,"Chicago Bulls",114.4
+1997,9,"Detroit Pistons",110.6
+1997,21,"Seattle Supersonics",111.2
+1997,29,"Utah Jazz",113.6
+1998,14,"Los Angeles Lakers",111.9
+1998,21,"Seattle Supersonics",111.6
+1998,29,"Utah Jazz",112.7
+2002,7,"Dallas Mavericks",112.2
+2003,7,"Dallas Mavericks",110.7
+2004,7,"Dallas Mavericks",112.1
+2004,26,"Sacramento Kings",110.3
+2005,7,"Dallas Mavericks",110.3
+2005,16,"Miami Heat",110.2
+2005,21,"Seattle Supersonics",112.2
+2005,24,"Phoenix Suns",114.5
+2005,26,"Sacramento Kings",110.5
+2006,7,"Dallas Mavericks",111.8
+2006,9,"Detroit Pistons",110.8
+2006,21,"Seattle Supersonics",111.1
+2006,24,"Phoenix Suns",111.5
+2007,7,"Dallas Mavericks",111.3
+2007,24,"Phoenix Suns",113.9
+2007,29,"Utah Jazz",110.1
+2007,30,"Washington Wizards",110.1
+2008,2,"Boston Celtics",110.2
+2008,7,"Dallas Mavericks",111.1
+2008,8,"Denver Nuggets",110
+2008,9,"Detroit Pistons",111.4
+2008,10,"Golden State Warriors",111.8
+2008,14,"Los Angeles Lakers",113
+2008,19,"New Orleans Hornets",111.5
+2008,22,"Orlando Magic",111.3
+2008,24,"Phoenix Suns",113.3
+2008,28,"Toronto Raptors",110.2
+2008,29,"Utah Jazz",113.8
+2009,2,"Boston Celtics",110.5
+2009,6,"Cleveland Cavaliers",112.4
+2009,7,"Dallas Mavericks",110.5
+2009,8,"Denver Nuggets",110.4
+2009,14,"Los Angeles Lakers",112.8
+2009,24,"Phoenix Suns",113.6
+2009,25,"Portland Trail Blazers",113.9
+2009,29,"Utah Jazz",110.1
+2010,1,"Atlanta Hawks",111.9
+2010,6,"Cleveland Cavaliers",111.2
+2010,8,"Denver Nuggets",111.8
+2010,22,"Orlando Magic",111.4
+2010,24,"Phoenix Suns",115.3
+2010,25,"Portland Trail Blazers",110.8
+2010,27,"San Antonio Spurs",110
+2010,28,"Toronto Raptors",111.3
+2010,29,"Utah Jazz",110.7
+2011,8,"Denver Nuggets",112.3
+2011,11,"Houston Rockets",111.3
+2011,14,"Los Angeles Lakers",111
+2011,16,"Miami Heat",111.7
+2011,20,"New York Knicks",110.9
+2011,21,"Oklahoma City Thunder",111.2
+2011,27,"San Antonio Spurs",111.8
+2012,27,"San Antonio Spurs",110.9
+2013,8,"Denver Nuggets",110.4
+2013,13,"Los Angeles Clippers",110.6
+2013,16,"Miami Heat",112.3
+2013,20,"New York Knicks",111.1
+2013,21,"Oklahoma City Thunder",112.4
+2014,7,"Dallas Mavericks",111.2
+2014,11,"Houston Rockets",111
+2014,13,"Los Angeles Clippers",112.1
+2014,16,"Miami Heat",110.9
+2014,21,"Oklahoma City Thunder",110.5
+2014,25,"Portland Trail Blazers",111.5
+2014,27,"San Antonio Spurs",110.5
+2015,6,"Cleveland Cavaliers",111.1
+2015,10,"Golden State Warriors",111.6
+2015,13,"Los Angeles Clippers",112.4
+2015,28,"Toronto Raptors",111
+2016,6,"Cleveland Cavaliers",110.9
+2016,10,"Golden State Warriors",114.5
+2016,21,"Oklahoma City Thunder",113.1
+2016,27,"San Antonio Spurs",110.3
+2016,28,"Toronto Raptors",110
+2017,2,"Boston Celtics",111.2
+2017,6,"Cleveland Cavaliers",113.6
+2017,8,"Denver Nuggets",113.2
+2017,10,"Golden State Warriors",115.6
+2017,11,"Houston Rockets",114.7
+2017,13,"Los Angeles Clippers",112.7
+2017,18,"Minnesota Timberwolves",110.8
+2017,25,"Portland Trail Blazers",110.3
+2017,27,"San Antonio Spurs",111.1
+2017,28,"Toronto Raptors",112.3
+2017,30,"Washington Wizards",111.2
+2018,6,"Cleveland Cavaliers",112.9
+2018,8,"Denver Nuggets",112.5
+2018,10,"Golden State Warriors",113.6
+2018,11,"Houston Rockets",114.7
+2018,13,"Los Angeles Clippers",110.3
+2018,18,"Minnesota Timberwolves",113.4
+2018,21,"Oklahoma City Thunder",110.7
+2018,28,"Toronto Raptors",113.8
+2019,2,"Boston Celtics",112.2
+2019,4,"Charlotte Hornets",111.4
+2019,8,"Denver Nuggets",113
+2019,10,"Golden State Warriors",115.9
+2019,11,"Houston Rockets",115.5
+2019,13,"Los Angeles Clippers",112.4
+2019,17,"Milwaukee Bucks",113.8
+2019,18,"Minnesota Timberwolves",111.4
+2019,19,"New Orleans Pelicans",111.4
+2019,21,"Oklahoma City Thunder",110.3
+2019,23,"Philadelphia 76Ers",112.6
+2019,25,"Portland Trail Blazers",114.7
+2019,26,"Sacramento Kings",110.4
+2019,27,"San Antonio Spurs",112.9
+2019,28,"Toronto Raptors",113.1
+2019,29,"Utah Jazz",110.9
+2019,30,"Washington Wizards",111.1
+2020,2,"Boston Celtics",113.3
+2020,7,"Dallas Mavericks",116.7
+2020,8,"Denver Nuggets",113.1
+2020,11,"Houston Rockets",112.9
+2020,12,"Indiana Pacers",110
+2020,13,"Los Angeles Clippers",113.9
+2020,14,"Los Angeles Lakers",112
+2020,16,"Miami Heat",112.5
+2020,17,"Milwaukee Bucks",112.4
+2020,19,"New Orleans Pelicans",110.7
+2020,21,"Oklahoma City Thunder",110.8
+2020,23,"Philadelphia 76Ers",111.3
+2020,24,"Phoenix Suns",111.7
+2020,25,"Portland Trail Blazers",113.7
+2020,26,"Sacramento Kings",110.2
+2020,27,"San Antonio Spurs",112.4
+2020,28,"Toronto Raptors",111.1
+2020,29,"Utah Jazz",112.3
+2020,30,"Washington Wizards",110.9
