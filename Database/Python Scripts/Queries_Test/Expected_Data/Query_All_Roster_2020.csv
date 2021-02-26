@@ -1,0 +1,593 @@
+Season_ID,Team_ID,Player_ID,Team_ABV,Team_Name,Player_Number,Player_Name,Player_Postion,Player_Height,Player_Weight,Birth_Date,Player_Nationality,Player_Experience,Player_College_Name
+2020,1,213,ATL,"Atlanta Hawks",95,"DeAndre' Bembry",SG,6-5,210,"July 4, 1994",US,3,"Saint Joseph's"
+2020,1,371,ATL,"Atlanta Hawks",4,"Charlie Brown",SG,6-6,199,"February 2, 1997",US,R,"Saint Joseph's"
+2020,1,492,ATL,"Atlanta Hawks",15,"Vince Carter",PF,6-6,220,"January 26, 1977",US,21,UNC
+2020,1,573,ATL,"Atlanta Hawks",20,"John Collins",PF,6-9,235,"September 23, 1997",US,2,"Wake Forest"
+2020,1,622,ATL,"Atlanta Hawks",33,"Allen Crabbe",SG,6-5,212,"April 9, 1992",US,6,California
+2020,1,717,ATL,"Atlanta Hawks",14,"Dewayne Dedmon",C,7-0,245,"August 12, 1989",US,6,USC
+2020,1,907,ATL,"Atlanta Hawks",24,"Bruno Fernando",C,6-9,240,"August 15, 1998",AO,R,Maryland
+2020,1,1059,ATL,"Atlanta Hawks",0,"Brandon Goodwin",PG,6-0,180,"October 2, 1995",US,1,"Central Florida, Florida Gulf Coast"
+2020,1,1074,ATL,"Atlanta Hawks",2,"Treveon Graham",SF,6-5,219,"October 28, 1993",US,3,VCU
+2020,1,1349,ATL,"Atlanta Hawks",3,"Kevin Huerter",SG,6-7,190,"August 27, 1998",US,1,Maryland
+2020,1,1366,ATL,"Atlanta Hawks",12,"De'Andre Hunter",SF,6-8,225,"December 2, 1997",US,R,Virginia
+2020,1,1534,ATL,"Atlanta Hawks",30,"Damian Jones",C,6-11,245,"June 30, 1995",US,3,Vanderbilt
+2020,1,1731,ATL,"Atlanta Hawks",25,"Alex Len",C,7-0,250,"June 16, 1993",UA,6,Maryland
+2020,1,2248,ATL,"Atlanta Hawks",5,"Jabari Parker",PF,6-8,245,"March 15, 1995",US,5,Duke
+2020,1,2253,ATL,"Atlanta Hawks",31,"Chandler Parsons",PF,6-9,230,"October 25, 1988",US,8,Florida
+2020,1,2413,ATL,"Atlanta Hawks",22,"Cam Reddish",SF,6-8,218,"September 1, 1999",US,R,Duke
+2020,1,2826,ATL,"Atlanta Hawks",0,"Jeff Teague",PG,6-3,195,"June 10, 1988",US,10,"Wake Forest"
+2020,1,2927,ATL,"Atlanta Hawks",1,"Evan Turner",SG,6-6,220,"October 27, 1988",US,9,"Ohio State"
+2020,1,3015,ATL,"Atlanta Hawks",8,"Tyrone Wallace",SG,6-5,198,"June 10, 1994",US,2,California
+2020,1,3046,ATL,"Atlanta Hawks",2,"Paul Watson",SF,6-6,210,"December 30, 1994",US,R,"Fresno State"
+2020,1,3267,ATL,"Atlanta Hawks",11,"Trae Young",PG,6-1,180,"September 19, 1998",US,1,Oklahoma
+2020,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,"October 24, 1996",US,3,California
+2020,2,828,BOS,"Boston Celtics",4,"Carsen Edwards",SG,5-11,200,"March 12, 1998",US,R,Purdue
+2020,2,888,BOS,"Boston Celtics",99,"Tacko Fall",C,7-5,311,"December 10, 1995",SN,R,"Central Florida"
+2020,2,1105,BOS,"Boston Celtics",43,"Javonte Green",SG,6-4,205,"July 23, 1993",US,R,Radford
+2020,2,1239,BOS,"Boston Celtics",20,"Gordon Hayward",SF,6-7,225,"March 23, 1990",US,9,Butler
+2020,2,1580,BOS,"Boston Celtics",11,"Enes Kanter",C,6-10,250,"May 20, 1992",CH,8,NULL
+2020,2,1696,BOS,"Boston Celtics",45,"Romeo Langford",SG,6-4,216,"October 25, 1999",US,R,Indiana
+2020,2,2190,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,"December 5, 1994",US,2,"Duke, SMU"
+2020,2,2327,BOS,"Boston Celtics",77,"Vincent Poirier",C,7-0,235,"October 17, 1993",FR,R,NULL
+2020,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,"March 6, 1994",US,5,"Oklahoma State"
+2020,2,2809,BOS,"Boston Celtics",0,"Jayson Tatum",PF,6-8,210,"March 3, 1998",US,2,Duke
+2020,2,2838,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,"April 4, 1992",DE,2,NULL
+2020,2,3005,BOS,"Boston Celtics",8,"Kemba Walker",PG,6-0,184,"May 8, 1990",US,8,UConn
+2020,2,3023,BOS,"Boston Celtics",9,"Brad Wanamaker",PG,6-3,210,"July 25, 1989",US,1,Pitt
+2020,2,3041,BOS,"Boston Celtics",51,"Tremont Waters",PG,5-10,175,"January 10, 1998",US,R,LSU
+2020,2,3142,BOS,"Boston Celtics",12,"Grant Williams",PF,6-6,236,"November 30, 1998",US,R,Tennessee
+2020,2,3176,BOS,"Boston Celtics",44,"Robert Williams",C,6-8,237,"October 17, 1997",US,1,"Texas A&M"
+2020,3,48,BRK,"Brooklyn Nets",31,"Jarrett Allen",C,6-11,243,"April 21, 1998",US,2,Texas
+2020,3,76,BRK,"Brooklyn Nets",10,"Justin Anderson",SG,6-6,230,"November 19, 1993",US,4,Virginia
+2020,3,515,BRK,"Brooklyn Nets",21,"Wilson Chandler",PF,6-8,235,"May 10, 1987",US,11,DePaul
+2020,3,530,BRK,"Brooklyn Nets",4,"Chris Chiozza",PG,5-11,175,"November 21, 1995",US,1,Florida
+2020,3,550,BRK,"Brooklyn Nets",33,"Nicolas Claxton",C,6-11,215,"April 17, 1999",US,R,Georgia
+2020,3,625,BRK,"Brooklyn Nets",1,"Jamal Crawford",SG,6-5,185,"March 20, 1980",US,19,Michigan
+2020,3,750,BRK,"Brooklyn Nets","8, 26","Spencer Dinwiddie",PG,6-5,215,"April 6, 1993",US,5,Colorado
+2020,3,844,BRK,"Brooklyn Nets",4,"Henry Ellenson",C,6-10,240,"January 13, 1997",US,3,Marquette
+2020,3,1153,BRK,"Brooklyn Nets",45,"Donta Hall",C,6-9,232,"August 7, 1997",US,R,Alabama
+2020,3,1204,BRK,"Brooklyn Nets",12,"Joe Harris",SF,6-6,220,"September 6, 1991",US,5,Virginia
+2020,3,1387,BRK,"Brooklyn Nets",11,"Kyrie Irving",PG,6-2,195,"March 23, 1992",AU,8,Duke
+2020,3,1516,BRK,"Brooklyn Nets",8,"Tyler Johnson",SG,6-3,186,"May 7, 1992",US,5,"Fresno State"
+2020,3,1565,BRK,"Brooklyn Nets",6,"DeAndre Jordan",C,6-11,265,"July 21, 1988",US,11,"Texas A&M"
+2020,3,1665,BRK,"Brooklyn Nets",00,"Rodions Kurucs",PF,6-9,228,"February 5, 1998",LV,1,NULL
+2020,3,1711,BRK,"Brooklyn Nets",22,"Caris LeVert",SG,6-6,205,"August 25, 1994",US,3,Michigan
+2020,3,1789,BRK,"Brooklyn Nets",9,"Timothe Luwawu-Cabarrot",SF,6-7,220,"May 9, 1995",FR,3,NULL
+2020,3,1859,BRK,"Brooklyn Nets",0,"Jeremiah Martin",PG,6-3,185,"June 19, 1996",US,R,Memphis
+2020,3,2096,BRK,"Brooklyn Nets",13,"Dzanan Musa",SF,6-9,217,"May 8, 1999",BA,1,NULL
+2020,3,2169,BRK,"Brooklyn Nets",0,"David Nwaba",SF,6-5,219,"January 14, 1993",US,3,"Cal Poly"
+2020,3,2314,BRK,"Brooklyn Nets",1,"Theo Pinson",SG,6-5,212,"November 5, 1995",US,1,UNC
+2020,3,2367,BRK,"Brooklyn Nets",2,"Taurean Prince",PF,6-7,218,"March 22, 1994",US,3,Baylor
+2020,3,2623,BRK,"Brooklyn Nets",10,"Iman Shumpert",SF,6-5,215,"June 26, 1990",US,8,"Georgia Tech"
+2020,3,2830,BRK,"Brooklyn Nets",17,"Garrett Temple",SG,6-5,195,"May 8, 1986",US,9,LSU
+2020,3,2858,BRK,"Brooklyn Nets",42,"Lance Thomas",PF,6-8,240,"April 24, 1988",US,8,Duke
+2020,4,135,CHO,"Charlotte Hornets",7,"Dwayne Bacon",SG,6-6,221,"August 30, 1995",US,2,"Florida State"
+2020,4,193,CHO,"Charlotte Hornets",5,"Nicolas Batum",SF,6-8,230,"December 14, 1988",FR,11,NULL
+2020,4,249,CHO,"Charlotte Hornets",8,"Bismack Biyombo",C,6-8,255,"August 28, 1992",CD,8,NULL
+2020,4,351,CHO,"Charlotte Hornets",0,"Miles Bridges",SF,6-6,225,"March 21, 1998",US,1,"Michigan State"
+2020,4,519,CHO,"Charlotte Hornets",31,"Joe Chealey",PG,6-3,190,"November 1, 1995",US,1,"College of Charleston"
+2020,4,1068,CHO,"Charlotte Hornets",4,"Devonte' Graham",PG,6-1,195,"February 22, 1995",US,1,Kansas
+2020,4,1268,CHO,"Charlotte Hornets",9,"Willy Hernangomez",C,6-11,250,"May 27, 1994",ES,3,NULL
+2020,4,1608,CHO,"Charlotte Hornets",14,"Michael Kidd-Gilchrist",PF,6-6,232,"September 26, 1993",US,7,Kentucky
+2020,4,1851,CHO,"Charlotte Hornets",10,"Caleb Martin",SF,6-5,205,"September 28, 1995",US,R,"NC State, Nevada"
+2020,4,1853,CHO,"Charlotte Hornets",11,"Cody Martin",SF,6-5,205,"September 28, 1995",US,R,"NC State, Nevada"
+2020,4,1921,CHO,"Charlotte Hornets",6,"Jalen McDaniels",SF,6-9,205,"January 31, 1998",US,R,"San Diego State"
+2020,4,2029,CHO,"Charlotte Hornets",1,"Malik Monk",SG,6-3,200,"February 4, 1998",US,2,Kentucky
+2020,4,2524,CHO,"Charlotte Hornets",3,"Terry Rozier",PG,6-1,190,"March 17, 1994",US,4,Louisville
+2020,4,3037,CHO,"Charlotte Hornets",25,"P.J. Washington",PF,6-7,230,"August 23, 1998",US,R,Kentucky
+2020,4,3163,CHO,"Charlotte Hornets",2,"Marvin Williams",PF,6-8,237,"June 19, 1986",US,14,UNC
+2020,4,3269,CHO,"Charlotte Hornets",40,"Cody Zeller",C,6-11,240,"October 5, 1992",US,6,Indiana
+2020,5,103,CHI,"Chicago Bulls",51,"Ryan Arcidiacono",PG,6-3,195,"March 26, 1994",US,2,Villanova
+2020,5,493,CHI,"Chicago Bulls",34,"Wendell Carter Jr.",C,6-10,270,"April 16, 1999",US,1,Duke
+2020,5,803,CHI,"Chicago Bulls",32,"Kris Dunn",PG,6-3,205,"March 18, 1994",US,3,Providence
+2020,5,900,CHI,"Chicago Bulls",6,"Cristiano Felicio",C,6-11,270,"July 7, 1992",BR,4,NULL
+2020,5,976,CHI,"Chicago Bulls",12,"Daniel Gafford",C,6-10,234,"October 1, 1998",US,R,Arkansas
+2020,5,1215,CHI,"Chicago Bulls",3,"Shaquille Harrison",SG,6-7,190,"October 6, 1993",US,2,Tulsa
+2020,5,1374,CHI,"Chicago Bulls",15,"Chandler Hutchison",SF,6-6,210,"April 26, 1996",US,1,"Boise State"
+2020,5,1650,CHI,"Chicago Bulls",2,"Luke Kornet",C,7-2,250,"July 15, 1995",US,2,Vanderbilt
+2020,5,1674,CHI,"Chicago Bulls",8,"Zach LaVine",SG,6-5,200,"March 10, 1995",US,5,UCLA
+2020,5,1840,CHI,"Chicago Bulls",24,"Lauri Markkanen",PF,7-0,240,"May 22, 1997",FI,2,Arizona
+2020,5,2025,CHI,"Chicago Bulls",20,"Adam Mokoka",SF,6-4,190,"July 18, 1998",FR,R,NULL
+2020,5,2343,CHI,"Chicago Bulls",22,"Otto Porter",SF,6-8,198,"June 3, 1993",US,6,Georgetown
+2020,5,2565,CHI,"Chicago Bulls",31,"Tomas Satoransky",SG,6-7,210,"October 30, 1991",CZ,3,NULL
+2020,5,2782,CHI,"Chicago Bulls",28,"Max Strus",SF,6-5,215,"March 28, 1996",US,R,"Lewis (IL), DePaul"
+2020,5,2950,CHI,"Chicago Bulls",45,"Denzel Valentine",SF,6-4,220,"November 16, 1993",US,2,"Michigan State"
+2020,5,3087,CHI,"Chicago Bulls",0,"Coby White",PG,6-5,195,"February 16, 2000",US,R,UNC
+2020,5,3265,CHI,"Chicago Bulls",21,"Thaddeus Young",PF,6-8,235,"June 21, 1988",US,12,"Georgia Tech"
+2020,6,284,CLE,"Cleveland Cavaliers",5,"Marques Bolden",C,6-10,249,"April 17, 1998",US,R,Duke
+2020,6,546,CLE,"Cleveland Cavaliers",8,"Jordan Clarkson",SG,6-4,194,"June 7, 1992",US,5,"Tulsa, Missouri"
+2020,6,597,CLE,"Cleveland Cavaliers",21,"Tyler Cook",PF,6-8,255,"September 23, 1997",US,R,Iowa
+2020,6,727,CLE,"Cleveland Cavaliers",18,"Matthew Dellavedova",PG,6-3,200,"September 8, 1990",AU,6,"Saint Mary's"
+2020,6,790,CLE,"Cleveland Cavaliers",3,"Andre Drummond",C,6-10,279,"August 10, 1993",US,7,UConn
+2020,6,885,CLE,"Cleveland Cavaliers",1,"Dante Exum",SG,6-5,214,"July 13, 1995",AU,4,NULL
+2020,6,992,CLE,"Cleveland Cavaliers",10,"Darius Garland",SG,6-1,192,"January 26, 2000",US,R,Vanderbilt
+2020,6,1264,CLE,"Cleveland Cavaliers",31,"John Henson",C,6-9,219,"December 28, 1990",US,7,UNC
+2020,6,1637,CLE,"Cleveland Cavaliers",20,"Brandon Knight",SG,6-2,182,"December 2, 1991",US,7,Kentucky
+2020,6,1780,CLE,"Cleveland Cavaliers",0,"Kevin Love",PF,6-8,251,"September 7, 1988",US,11,UCLA
+2020,6,1807,CLE,"Cleveland Cavaliers",55,"J.P. Macura",SG,6-5,203,"June 5, 1995",US,1,Xavier
+2020,6,1948,CLE,"Cleveland Cavaliers",28,"Alfonzo McKinnie",SF,6-7,215,"September 17, 1992",US,2,"Green Bay"
+2020,6,2036,CLE,"Cleveland Cavaliers",31,"Matt Mooney",SG,6-3,199,"February 7, 1997",US,R,"Air Force, South Dakota, Texas Tech"
+2020,6,2112,CLE,"Cleveland Cavaliers",22,"Larry Nance Jr.",PF,6-7,245,"January 1, 1993",US,4,Wyoming
+2020,6,2139,CLE,"Cleveland Cavaliers",14,"Malik Newman",SG,6-3,190,"February 21, 1997",US,R,"Mississippi State, Kansas"
+2020,6,2217,CLE,"Cleveland Cavaliers",16,"Cedi Osman",SF,6-7,230,"April 8, 1995",MK,2,NULL
+2020,6,2341,CLE,"Cleveland Cavaliers",4,"Kevin Porter Jr.",SF,6-4,203,"May 4, 2000",US,R,USC
+2020,6,2604,CLE,"Cleveland Cavaliers",2,"Collin Sexton",PG,6-1,190,"January 4, 1999",US,1,Alabama
+2020,6,2879,CLE,"Cleveland Cavaliers",13,"Tristan Thompson",PF,6-9,254,"March 13, 1991",CA,8,Texas
+2020,6,2991,CLE,"Cleveland Cavaliers",32,"Dean Wade",PF,6-9,228,"November 20, 1996",US,R,"Kansas State"
+2020,6,3279,CLE,"Cleveland Cavaliers",41,"Ante Zizic",C,6-10,266,"January 4, 1997",HR,2,NULL
+2020,7,163,DAL,"Dallas Mavericks",5,"J.J. Barea",PG,5-10,180,"June 26, 1984",PR,13,"Northeastern University"
+2020,7,358,DAL,"Dallas Mavericks",45,"Ryan Broekhoff",SF,6-6,215,"August 23, 1990",AU,1,Valparaiso
+2020,7,404,DAL,"Dallas Mavericks",13,"Jalen Brunson",PG,6-1,190,"August 31, 1996",US,1,Villanova
+2020,7,422,DAL,"Dallas Mavericks",32,"Trey Burke",PG,6-0,185,"November 12, 1992",US,6,Michigan
+2020,7,503,DAL,"Dallas Mavericks",33,"Willie Cauley-Stein",C,7-0,240,"August 18, 1993",US,4,Kentucky
+2020,7,555,DAL,"Dallas Mavericks",3,"Antonius Cleveland",SG,6-5,195,"February 2, 1994",US,1,"SE Missouri State"
+2020,7,656,DAL,"Dallas Mavericks",30,"Seth Curry",SG,6-2,185,"August 23, 1990",US,5,"Liberty, Duke"
+2020,7,757,DAL,"Dallas Mavericks",77,"Luka Doncic",PG,6-7,230,"February 28, 1999",SI,1,NULL
+2020,7,917,DAL,"Dallas Mavericks",10,"Dorian Finney-Smith",PF,6-7,220,"May 4, 1993",US,3,Florida
+2020,7,1182,DAL,"Dallas Mavericks",11,"Tim Hardaway Jr.",SG,6-5,205,"March 16, 1992",US,6,Michigan
+2020,7,1406,DAL,"Dallas Mavericks",44,"Justin Jackson",PF,6-8,220,"March 28, 1995",US,2,UNC
+2020,7,1608,DAL,"Dallas Mavericks",9,"Michael Kidd-Gilchrist",PF,6-6,232,"September 26, 1993",US,7,Kentucky
+2020,7,1632,DAL,"Dallas Mavericks",42,"Maxi Kleber",PF,6-10,240,"January 29, 1992",DE,2,NULL
+2020,7,1719,DAL,"Dallas Mavericks",1,"Courtney Lee",SG,6-5,215,"October 3, 1985",US,11,"Western Kentucky"
+2020,7,1839,DAL,"Dallas Mavericks",51,"Boban Marjanovic",C,7-4,290,"August 15, 1988",RS,4,NULL
+2020,7,2346,DAL,"Dallas Mavericks",6,"Kristaps Porzingis",C,7-3,240,"August 2, 1995",LV,3,NULL
+2020,7,2351,DAL,"Dallas Mavericks",7,"Dwight Powell",C,6-10,240,"July 20, 1991",CA,5,Stanford
+2020,7,2409,DAL,"Dallas Mavericks",23,"Josh Reaves",SF,6-4,214,"June 4, 1997",US,R,"Penn State"
+2020,7,3243,DAL,"Dallas Mavericks",55,"Delon Wright",PG,6-5,185,"April 26, 1992",US,4,Utah
+2020,8,178,DEN,"Denver Nuggets",5,"Will Barton",SF,6-6,181,"January 6, 1991",US,7,Memphis
+2020,8,185,DEN,"Denver Nuggets",6,"Keita Bates-Diop",SF,6-8,229,"January 23, 1996",US,1,"Ohio State"
+2020,8,202,DEN,"Denver Nuggets",25,"Malik Beasley",SG,6-4,187,"November 26, 1996",US,3,"Florida State"
+2020,8,281,DEN,"Denver Nuggets",10,"Bol Bol",PF,7-2,220,"November 16, 1999",SD,R,Oregon
+2020,8,466,DEN,"Denver Nuggets",31,"Vlatko Cancar",PF,6-8,236,"April 10, 1997",SI,R,NULL
+2020,8,597,DEN,"Denver Nuggets",25,"Tyler Cook",SF,6-8,255,"September 23, 1997",US,R,Iowa
+2020,8,623,DEN,"Denver Nuggets",3,"Torrey Craig",SF,6-7,221,"December 19, 1990",US,2,"USC Upstate"
+2020,8,667,DEN,"Denver Nuggets",30,"Troy Daniels",SG,6-4,200,"July 15, 1991",US,6,VCU
+2020,8,777,DEN,"Denver Nuggets",35,"PJ Dozier",SG,6-6,205,"October 25, 1996",US,2,"South Carolina"
+2020,8,1084,DEN,"Denver Nuggets",9,"Jerami Grant",PF,6-8,210,"March 12, 1994",US,5,Syracuse
+2020,8,1202,DEN,"Denver Nuggets",14,"Gary Harris",SG,6-4,210,"September 14, 1994",US,5,"Michigan State"
+2020,8,1267,DEN,"Denver Nuggets",41,"Juan Hernangomez",PF,6-9,214,"September 28, 1995",ES,3,NULL
+2020,8,1522,DEN,"Denver Nuggets",15,"Nikola Jokic",C,6-11,284,"February 19, 1995",RS,4,NULL
+2020,8,1960,DEN,"Denver Nuggets",52,"Jordan McRae",SG,6-5,179,"March 28, 1991",US,3,Tennessee
+2020,8,2004,DEN,"Denver Nuggets",4,"Paul Millsap",PF,6-7,257,"February 10, 1985",US,13,"Louisiana Tech"
+2020,8,2056,DEN,"Denver Nuggets",11,"Monte Morris",PG,6-2,183,"June 27, 1995",US,2,"Iowa State"
+2020,8,2091,DEN,"Denver Nuggets",27,"Jamal Murray",PG,6-3,215,"February 23, 1997",CA,3,Kentucky
+2020,8,2322,DEN,"Denver Nuggets","7, 24","Mason Plumlee",C,6-11,254,"March 5, 1990",US,6,Duke
+2020,8,2342,DEN,"Denver Nuggets",1,"Michael Porter Jr.",SF,6-10,218,"June 29, 1998",US,R,Missouri
+2020,8,2956,DEN,"Denver Nuggets",6,"Jarred Vanderbilt",PF,6-9,214,"April 3, 1999",US,1,Kentucky
+2020,8,2981,DEN,"Denver Nuggets",32,"Noah Vonleh",C,6-10,257,"August 24, 1995",US,5,Indiana
+2020,9,287,DET,"Detroit Pistons",18,"Jordan Bone",PG,6-2,180,"November 5, 1997",US,R,Tennessee
+2020,9,370,DET,"Detroit Pistons",6,"Bruce Brown",PG,6-4,202,"August 15, 1996",US,1,"Miami (FL)"
+2020,9,774,DET,"Detroit Pistons",45,"Sekou Doumbouya",PF,6-8,230,"December 23, 2000",GN,R,NULL
+2020,9,790,DET,"Detroit Pistons",0,"Andre Drummond",C,6-10,279,"August 10, 1993",US,7,UConn
+2020,9,960,DET,"Detroit Pistons",12,"Tim Frazier",PG,6-0,170,"November 1, 1990",US,5,"Penn State"
+2020,9,984,DET,"Detroit Pistons",9,"Langston Galloway",SG,6-1,200,"December 9, 1991",US,5,"Saint Joseph's"
+2020,9,1125,DET,"Detroit Pistons",23,"Blake Griffin",PF,6-9,250,"March 16, 1989",US,9,Oklahoma
+2020,9,1153,DET,"Detroit Pistons",42,"Donta Hall",PF,6-9,232,"August 7, 1997",US,R,Alabama
+2020,9,1264,DET,"Detroit Pistons",31,"John Henson",C,6-9,219,"December 28, 1990",US,7,UNC
+2020,9,1416,DET,"Detroit Pistons",1,"Reggie Jackson",PG,6-2,208,"April 16, 1990",IT,8,"Boston College"
+2020,9,1595,DET,"Detroit Pistons",5,"Luke Kennard",SG,6-5,206,"June 24, 1996",US,2,Duke
+2020,9,1622,DET,"Detroit Pistons",14,"Louis King",SF,6-7,205,"April 6, 1999",US,R,Oregon
+2020,9,1637,DET,"Detroit Pistons",20,"Brandon Knight",PG,6-2,182,"December 2, 1991",US,7,Kentucky
+2020,9,1820,DET,"Detroit Pistons",7,"Thon Maker",C,7-0,221,"February 25, 1997",SS,3,NULL
+2020,9,1960,DET,"Detroit Pistons",52,"Jordan McRae",SG,6-5,179,"March 28, 1991",US,3,Tennessee
+2020,9,2055,DET,"Detroit Pistons","8, 88","Markieff Morris",PF,6-9,245,"September 2, 1989",US,8,Kansas
+2020,9,2102,DET,"Detroit Pistons",19,"Sviatoslav Mykhailiuk",SF,6-7,205,"June 10, 1997",UA,1,Kansas
+2020,9,2508,DET,"Detroit Pistons",25,"Derrick Rose",PG,6-2,200,"October 4, 1988",US,10,Memphis
+2020,9,2715,DET,"Detroit Pistons",17,"Tony Snell",SF,6-6,213,"November 10, 1991",US,6,"New Mexico"
+2020,9,2856,DET,"Detroit Pistons",13,"Khyri Thomas",SG,6-3,210,"May 8, 1996",US,1,Creighton
+2020,9,3020,DET,"Detroit Pistons",12,"Derrick Walton",PG,6-0,189,"April 3, 1995",US,1,Michigan
+2020,9,3223,DET,"Detroit Pistons",35,"Christian Wood",PF,6-10,214,"September 27, 1995",US,3,UNLV
+2020,10,214,GSW,"Golden State Warriors",10,"Dragan Bender",PF,7-0,225,"November 17, 1997",BA,3,NULL
+2020,10,314,GSW,"Golden State Warriors",12,"Ky Bowman",PG,6-1,187,"June 16, 1997",US,R,"Boston College"
+2020,10,424,GSW,"Golden State Warriors","8, 20","Alec Burks",SF,6-6,214,"July 20, 1991",US,8,Colorado
+2020,10,503,GSW,"Golden State Warriors",2,"Willie Cauley-Stein",C,7-0,240,"August 18, 1993",US,4,Kentucky
+2020,10,532,GSW,"Golden State Warriors",32,"Marquese Chriss",PF,6-9,240,"July 2, 1997",US,3,Washington
+2020,10,657,GSW,"Golden State Warriors",30,"Stephen Curry",PG,6-3,185,"March 14, 1988",US,10,Davidson
+2020,10,875,GSW,"Golden State Warriors",10,"Jacob Evans",SG,6-4,210,"June 18, 1997",US,1,Cincinnati
+2020,10,1101,GSW,"Golden State Warriors",23,"Draymond Green",PF,6-6,230,"March 4, 1990",US,7,"Michigan State"
+2020,10,1720,GSW,"Golden State Warriors",1,"Damion Lee",SG,6-5,210,"October 21, 1992",US,2,"Drexel, Louisville"
+2020,10,1774,GSW,"Golden State Warriors",5,"Kevon Looney",C,6-9,222,"February 6, 1996",US,4,UCLA
+2020,10,2075,GSW,"Golden State Warriors",15,"Mychal Mulder",SF,6-3,184,"June 12, 1994",CA,R,"Vincennes, Kentucky"
+2020,10,2160,GSW,"Golden State Warriors",21,"Zach Norvell",SG,6-5,206,"December 9, 1997",US,R,Gonzaga
+2020,10,2245,GSW,"Golden State Warriors",20,"Jeremy Pargo",PG,6-2,219,"March 17, 1986",US,2,Gonzaga
+2020,10,2254,GSW,"Golden State Warriors",7,"Eric Paschall",PF,6-6,255,"November 4, 1996",US,R,"Fordham, Villanova"
+2020,10,2334,GSW,"Golden State Warriors",3,"Jordan Poole",SG,6-4,194,"June 19, 1999",US,R,Michigan
+2020,10,2394,GSW,"Golden State Warriors",25,"Chasson Randle",PG,6-2,185,"February 5, 1993",US,2,Stanford
+2020,10,2479,GSW,"Golden State Warriors",22,"Glenn Robinson III",SF,6-6,222,"January 8, 1994",US,5,Michigan
+2020,10,2537,GSW,"Golden State Warriors",0,"D'Angelo Russell",PG,6-4,193,"February 23, 1996",US,4,"Ohio State"
+2020,10,2665,GSW,"Golden State Warriors",6,"Alen Smailagic",C,6-10,215,"August 18, 2000",RS,R,NULL
+2020,10,2728,GSW,"Golden State Warriors",4,"Omari Spellman",C,6-8,245,"July 21, 1997",US,1,Villanova
+2020,10,2902,GSW,"Golden State Warriors",95,"Juan Toscano-Anderson",SG,6-6,209,"April 10, 1993",US,R,Marquette
+2020,10,3111,GSW,"Golden State Warriors",22,"Andrew Wiggins",SF,6-7,197,"February 23, 1995",CA,5,Kansas
+2020,11,83,HOU,"Houston Rockets",33,"Ryan Anderson",C,6-9,240,"May 6, 1988",US,11,California
+2020,11,448,HOU,"Houston Rockets",5,"Bruno Caboclo",C,6-9,218,"September 21, 1995",BR,5,NULL
+2020,11,467,HOU,"Houston Rockets",15,"Clint Capela",C,6-10,240,"May 18, 1994",CH,5,NULL
+2020,11,481,HOU,"Houston Rockets",9,"DeMarre Carroll",C,6-6,215,"July 27, 1986",US,10,"Vanderbilt, Missouri"
+2020,11,514,HOU,"Houston Rockets",19,"Tyson Chandler",C,7-0,235,"October 2, 1982",US,18,NULL
+2020,11,541,HOU,"Houston Rockets",6,"Gary Clark",PF,6-6,225,"November 16, 1994",US,1,Cincinnati
+2020,11,554,HOU,"Houston Rockets",3,"Chris Clemons",SG,5-9,180,"July 23, 1997",US,R,Campbell
+2020,11,619,HOU,"Houston Rockets",33,"Robert Covington",C,6-7,209,"December 14, 1990",US,6,"Tennessee State"
+2020,11,959,HOU,"Houston Rockets",21,"Michael Frazier",SG,6-3,200,"March 8, 1994",US,R,Florida
+2020,11,1063,HOU,"Houston Rockets",10,"Eric Gordon",SF,6-3,215,"December 25, 1988",US,11,Indiana
+2020,11,1106,HOU,"Houston Rockets",32,"Jeff Green",C,6-8,235,"August 28, 1986",US,11,Georgetown
+2020,11,1183,HOU,"Houston Rockets",13,"James Harden",SG,6-5,220,"August 26, 1989",US,10,"Arizona State"
+2020,11,1218,HOU,"Houston Rockets",55,"Isaiah Hartenstein",C,7-0,250,"May 5, 1998",US,1,NULL
+2020,11,1333,HOU,"Houston Rockets",4,"Danuel House",SF,6-6,220,"June 7, 1993",US,3,"Texas A&M"
+2020,11,1344,HOU,"Houston Rockets",52,"William Howard",PF,6-8,207,"October 25, 1993",FR,R,NULL
+2020,11,1891,HOU,"Houston Rockets",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,11,UCLA
+2020,11,1950,HOU,"Houston Rockets",16,"Ben McLemore",SF,6-3,195,"February 11, 1993",US,6,Kansas
+2020,11,2456,HOU,"Houston Rockets",25,"Austin Rivers",SG,6-4,200,"August 1, 1992",US,7,Duke
+2020,11,2593,HOU,"Houston Rockets",18,"Thabo Sefolosha",PF,6-6,215,"May 2, 1984",CH,13,NULL
+2020,11,2919,HOU,"Houston Rockets",17,"P.J. Tucker",PF,6-5,245,"May 5, 1985",US,8,Texas
+2020,11,3079,HOU,"Houston Rockets",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,11,UCLA
+2020,12,248,IND,"Indiana Pacers",88,"Goga Bitadze",C,6-11,250,"July 20, 1999",GE,R,NULL
+2020,12,308,IND,"Indiana Pacers",10,"Brian Bowen",SF,6-6,190,"October 2, 1998",US,R,NULL
+2020,12,360,IND,"Indiana Pacers",7,"Malcolm Brogdon",PG,6-5,229,"December 11, 1992",US,3,Virginia
+2020,12,1308,IND,"Indiana Pacers",3,"Aaron Holiday",PG,6-0,185,"September 30, 1996",US,1,UCLA
+2020,12,1310,IND,"Indiana Pacers",8,"Justin Holiday",SF,6-6,180,"April 5, 1989",US,6,Washington
+2020,12,1463,IND,"Indiana Pacers",24,"Alize Johnson",PF,6-7,212,"April 22, 1996",US,1,"Missouri State"
+2020,12,1681,IND,"Indiana Pacers",26,"Jeremy Lamb",SG,6-5,180,"May 30, 1992",US,7,UConn
+2020,12,1712,IND,"Indiana Pacers",22,"T.J. Leaf",PF,6-10,222,"April 30, 1997",IL,2,UCLA
+2020,12,1908,IND,"Indiana Pacers",9,"T.J. McConnell",PG,6-1,190,"March 25, 1992",US,4,"Duquesne, Arizona"
+2020,12,1923,IND,"Indiana Pacers",20,"Doug McDermott",PF,6-7,225,"January 3, 1992",US,5,Creighton
+2020,12,2018,IND,"Indiana Pacers",15,"Naz Mitrou-Long",SG,6-3,218,"August 3, 1993",CA,2,"Iowa State"
+2020,12,2200,IND,"Indiana Pacers",4,"Victor Oladipo",SG,6-4,213,"May 4, 1992",US,6,Indiana
+2020,12,2541,IND,"Indiana Pacers",11,"Domantas Sabonis",PF,6-11,240,"May 3, 1996",US,3,Gonzaga
+2020,12,2550,IND,"Indiana Pacers",14,"JaKarr Sampson",PF,6-7,214,"March 20, 1993",US,4,"St. John's"
+2020,12,2786,IND,"Indiana Pacers",5,"Edmond Sumner",SG,6-4,196,"December 31, 1995",US,2,Xavier
+2020,12,2931,IND,"Indiana Pacers",33,"Myles Turner",C,6-11,250,"March 24, 1996",US,4,Texas
+2020,12,3027,IND,"Indiana Pacers",1,"T.J. Warren",SF,6-8,220,"September 5, 1993",US,5,"NC State"
+2020,13,235,LAC,"Los Angeles Clippers",21,"Patrick Beverley",PG,6-1,180,"July 12, 1988",US,7,Arkansas
+2020,13,557,LAC,"Los Angeles Clippers",7,"Amir Coffey",SG,6-7,210,"June 17, 1997",US,R,Minnesota
+2020,13,1019,LAC,"Los Angeles Clippers",13,"Paul George",SF,6-8,220,"May 2, 1990",US,9,"Fresno State"
+2020,13,1104,LAC,"Los Angeles Clippers",4,"JaMychal Green",PF,6-8,227,"June 21, 1990",US,5,Alabama
+2020,13,1186,LAC,"Los Angeles Clippers","8, 11","Maurice Harkless",PF,6-7,220,"May 11, 1993",US,7,"St. John's"
+2020,13,1194,LAC,"Los Angeles Clippers",5,"Montrezl Harrell",C,6-7,240,"January 26, 1994",US,4,Louisville
+2020,13,1416,LAC,"Los Angeles Clippers",1,"Reggie Jackson",SG,6-2,208,"April 16, 1990",IT,8,"Boston College"
+2020,13,1577,LAC,"Los Angeles Clippers",25,"Mfiondu Kabengele",C,6-9,250,"August 14, 1997",CA,R,"Florida State"
+2020,13,1734,LAC,"Los Angeles Clippers",2,"Kawhi Leonard",SF,6-7,225,"June 29, 1991",US,8,"San Diego State"
+2020,13,1828,LAC,"Los Angeles Clippers",14,"Terance Mann",SF,6-5,215,"October 18, 1996",US,R,"Florida State"
+2020,13,1936,LAC,"Los Angeles Clippers",19,"Rodney McGruder",SG,6-4,205,"July 29, 1991",US,3,"Kansas State"
+2020,13,2054,LAC,"Los Angeles Clippers",31,"Marcus Morris",PF,6-8,218,"September 2, 1989",US,8,Kansas
+2020,13,2068,LAC,"Los Angeles Clippers",15,"Johnathan Motley",PF,6-8,230,"May 4, 1995",US,2,Baylor
+2020,13,2150,LAC,"Los Angeles Clippers",55,"Joakim Noah",C,6-11,230,"February 25, 1985",US,12,Florida
+2020,13,2260,LAC,"Los Angeles Clippers",54,"Patrick Patterson",PF,6-8,235,"March 14, 1989",US,9,Kentucky
+2020,13,2483,LAC,"Los Angeles Clippers",1,"Jerome Robinson",SG,6-4,190,"February 22, 1997",US,1,"Boston College"
+2020,13,2607,LAC,"Los Angeles Clippers",20,"Landry Shamet",SG,6-4,190,"March 13, 1997",US,1,"Wichita State"
+2020,13,3020,LAC,"Los Angeles Clippers",10,"Derrick Walton",PG,6-0,189,"April 3, 1995",US,1,Michigan
+2020,13,3160,LAC,"Los Angeles Clippers",23,"Lou Williams",PG,6-1,175,"October 27, 1986",US,14,NULL
+2020,13,3281,LAC,"Los Angeles Clippers",40,"Ivica Zubac",C,7-0,240,"March 18, 1997",BA,3,NULL
+2020,14,91,LAL,"Los Angeles Lakers",37,"Kostas Antetokounmpo",PF,6-10,200,"November 20, 1997",GR,1,Dayton
+2020,14,322,LAL,"Los Angeles Lakers",11,"Avery Bradley",SG,6-3,180,"November 26, 1990",US,9,Texas
+2020,14,449,LAL,"Los Angeles Lakers",12,"Devontae Cacok",C,6-7,240,"October 8, 1996",US,R,"UNC Wilmington"
+2020,14,455,LAL,"Los Angeles Lakers",1,"Kentavious Caldwell-Pope",SG,6-5,204,"February 18, 1993",US,6,Georgia
+2020,14,496,LAL,"Los Angeles Lakers",4,"Alex Caruso",PG,6-4,186,"February 28, 1994",US,2,"Texas A&M"
+2020,14,596,LAL,"Los Angeles Lakers","2, 28","Quinn Cook",PG,6-1,180,"March 23, 1993",US,3,Duke
+2020,14,667,LAL,"Los Angeles Lakers",30,"Troy Daniels",SG,6-4,200,"July 15, 1991",US,6,VCU
+2020,14,676,LAL,"Los Angeles Lakers",3,"Anthony Davis",PF,6-10,253,"March 11, 1993",US,7,Kentucky
+2020,14,793,LAL,"Los Angeles Lakers",10,"Jared Dudley",PF,6-6,237,"July 10, 1985",US,12,"Boston College"
+2020,14,1099,LAL,"Los Angeles Lakers",14,"Danny Green",SG,6-6,215,"June 22, 1987",US,10,UNC
+2020,14,1332,LAL,"Los Angeles Lakers",5,"Talen Horton-Tucker",SG,6-4,234,"November 25, 2000",US,R,"Iowa State"
+2020,14,1339,LAL,"Los Angeles Lakers",39,"Dwight Howard",C,6-10,265,"December 8, 1985",US,15,NULL
+2020,14,1429,LAL,"Los Angeles Lakers",23,"LeBron James",PG,6-9,250,"December 30, 1984",US,16,NULL
+2020,14,1668,LAL,"Los Angeles Lakers",0,"Kyle Kuzma",PF,6-10,221,"July 24, 1995",US,2,Utah
+2020,14,1932,LAL,"Los Angeles Lakers",7,"JaVale McGee",C,7-0,270,"January 19, 1988",US,11,Nevada
+2020,14,2055,LAL,"Los Angeles Lakers",88,"Markieff Morris",PF,6-9,245,"September 2, 1989",US,8,Kansas
+2020,14,2160,LAL,"Los Angeles Lakers",21,"Zach Norvell",SG,6-5,206,"December 9, 1997",US,R,Gonzaga
+2020,14,2506,LAL,"Los Angeles Lakers",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,13,Kentucky
+2020,14,2682,LAL,"Los Angeles Lakers",21,"J.R. Smith",SG,6-6,225,"September 9, 1985",US,15,NULL
+2020,14,2998,LAL,"Los Angeles Lakers",18,"Dion Waiters",SG,6-3,215,"December 10, 1991",US,7,Syracuse
+2020,15,47,MEM,"Memphis Grizzlies",3,"Grayson Allen",SG,6-4,198,"October 8, 1995",US,1,Duke
+2020,15,78,MEM,"Memphis Grizzlies",1,"Kyle Anderson",SF,6-9,230,"September 20, 1993",US,5,UCLA
+2020,15,210,MEM,"Memphis Grizzlies",2,"Jordan Bell",C,6-8,216,"January 7, 1995",US,2,Oregon
+2020,15,362,MEM,"Memphis Grizzlies",24,"Dillon Brooks",SG,6-7,225,"January 22, 1996",CA,2,Oregon
+2020,15,448,MEM,"Memphis Grizzlies",5,"Bruno Caboclo",C,6-9,218,"September 21, 1995",BR,5,NULL
+2020,15,544,MEM,"Memphis Grizzlies",15,"Brandon Clarke",PF,6-8,215,"September 19, 1996",CA,R,"San Jose State, Gonzaga"
+2020,15,641,MEM,"Memphis Grizzlies",99,"Jae Crowder",SF,6-6,235,"July 6, 1990",US,7,Marquette
+2020,15,746,MEM,"Memphis Grizzlies",14,"Gorgui Dieng",C,6-10,252,"January 18, 1990",SN,6,Louisville
+2020,15,1135,MEM,"Memphis Grizzlies",23,"Marko Guduric",SG,6-6,201,"March 8, 1995",RS,R,NULL
+2020,15,1172,MEM,"Memphis Grizzlies",5,"Dusty Hannahs",SG,6-3,210,"September 2, 1993",US,1,"Texas Tech, Arkansas"
+2020,15,1292,MEM,"Memphis Grizzlies",44,"Solomon Hill",PF,6-6,226,"March 18, 1991",US,6,Arizona
+2020,15,1402,MEM,"Memphis Grizzlies",13,"Jaren Jackson Jr.",C,6-11,242,"September 15, 1999",US,1,"Michigan State"
+2020,15,1405,MEM,"Memphis Grizzlies",20,"Josh Jackson",SF,6-8,207,"February 10, 1997",US,2,Kansas
+2020,15,1563,MEM,"Memphis Grizzlies",21,"Tyus Jones",PG,6-0,196,"May 10, 1996",US,4,Duke
+2020,15,1646,MEM,"Memphis Grizzlies",46,"John Konchar",SG,6-5,210,"March 22, 1996",US,R,"Purdue-Fort Wayne"
+2020,15,1970,MEM,"Memphis Grizzlies",0,"De'Anthony Melton",PG,6-2,200,"May 28, 1998",US,1,USC
+2020,15,2045,MEM,"Memphis Grizzlies",12,"Ja Morant",PG,6-3,174,"August 10, 1999",US,R,"Murray State"
+2020,15,2894,MEM,"Memphis Grizzlies",44,"Anthony Tolliver",PF,6-8,240,"June 1, 1985",US,11,Creighton
+2020,15,2946,MEM,"Memphis Grizzlies",19,"Jarrod Uthoff",PF,6-9,221,"May 19, 1993",US,1,Iowa
+2020,15,2948,MEM,"Memphis Grizzlies",17,"Jonas Valanciunas",C,6-11,265,"May 6, 1992",LT,7,NULL
+2020,15,3040,MEM,"Memphis Grizzlies",18,"Yuta Watanabe",SF,6-9,215,"October 13, 1994",JP,1,"George Washington"
+2020,16,19,MIA,"Miami Heat",13,"Bam Adebayo",PF,6-9,255,"July 18, 1997",US,2,Kentucky
+2020,16,41,MIA,"Miami Heat",17,"Kyle Alexander",C,6-11,220,"October 21, 1996",CA,R,Tennessee
+2020,16,439,MIA,"Miami Heat",22,"Jimmy Butler",SF,6-7,230,"September 14, 1989",US,8,Marquette
+2020,16,641,MIA,"Miami Heat",99,"Jae Crowder",PF,6-6,235,"July 6, 1990",US,7,Marquette
+2020,16,779,MIA,"Miami Heat",7,"Goran Dragic",PG,6-3,190,"May 6, 1986",SI,11,NULL
+2020,16,1222,MIA,"Miami Heat",40,"Udonis Haslem",C,6-8,235,"June 9, 1980",US,16,Florida
+2020,16,1272,MIA,"Miami Heat",14,"Tyler Herro",SG,6-5,195,"January 20, 2000",US,R,Kentucky
+2020,16,1292,MIA,"Miami Heat",44,"Solomon Hill",PF,6-6,226,"March 18, 1991",US,6,Arizona
+2020,16,1377,MIA,"Miami Heat",28,"Andre Iguodala",SF,6-6,215,"January 28, 1984",US,15,Arizona
+2020,16,1493,MIA,"Miami Heat",16,"James Johnson",PF,6-7,240,"February 20, 1987",US,10,"Wake Forest"
+2020,16,1537,MIA,"Miami Heat",5,"Derrick Jones Jr.",SF,6-5,210,"February 15, 1997",US,3,UNLV
+2020,16,1735,MIA,"Miami Heat",0,"Meyers Leonard",C,7-0,260,"February 27, 1992",US,7,Illinois
+2020,16,1805,MIA,"Miami Heat",15,"Daryl Macon",PG,6-2,185,"November 29, 1995",US,1,Arkansas
+2020,16,2165,MIA,"Miami Heat",25,"Kendrick Nunn",PG,6-2,190,"August 3, 1995",US,R,"Illinois, Oakland"
+2020,16,2198,MIA,"Miami Heat",4,"KZ Okpala",PF,6-8,215,"April 28, 1999",US,R,Stanford
+2020,16,2210,MIA,"Miami Heat",9,"Kelly Olynyk",C,6-11,240,"April 19, 1991",CA,6,Gonzaga
+2020,16,2476,MIA,"Miami Heat",55,"Duncan Robinson",SG,6-7,215,"April 22, 1994",US,1,"Williams, Michigan"
+2020,16,2633,MIA,"Miami Heat",30,"Chris Silva",PF,6-8,234,"September 19, 1996",GA,R,"South Carolina"
+2020,16,2974,MIA,"Miami Heat",2,"Gabe Vincent",PG,6-3,200,"June 14, 1996",US,R,"UC Santa Barbara"
+2020,16,2998,MIA,"Miami Heat",11,"Dion Waiters",SG,6-3,215,"December 10, 1991",US,7,Syracuse
+2020,16,3209,MIA,"Miami Heat",20,"Justise Winslow",SG,6-6,222,"March 26, 1996",US,4,Duke
+2020,17,90,MIL,"Milwaukee Bucks",34,"Giannis Antetokounmpo",PF,6-11,242,"December 6, 1994",GR,6,NULL
+2020,17,92,MIL,"Milwaukee Bucks",43,"Thanasis Antetokounmpo",SF,6-6,219,"July 18, 1992",GR,1,NULL
+2020,17,214,MIL,"Milwaukee Bucks",17,"Dragan Bender",C,7-0,225,"November 17, 1997",BA,3,NULL
+2020,17,267,MIL,"Milwaukee Bucks",6,"Eric Bledsoe",PG,6-1,214,"December 9, 1989",US,9,Kentucky
+2020,17,399,MIL,"Milwaukee Bucks",23,"Sterling Brown",SF,6-5,219,"February 10, 1995",US,2,SMU
+2020,17,587,MIL,"Milwaukee Bucks",24,"Pat Connaughton",SG,6-5,209,"January 6, 1993",US,4,"Notre Dame"
+2020,17,735,MIL,"Milwaukee Bucks",0,"Donte DiVincenzo",SG,6-4,203,"January 31, 1997",US,1,Villanova
+2020,17,1289,MIL,"Milwaukee Bucks",3,"George Hill",PG,6-4,188,"May 4, 1986",US,11,IUPUI
+2020,17,1381,MIL,"Milwaukee Bucks",7,"Ersan Ilyasova",PF,6-9,235,"May 15, 1987",TR,11,NULL
+2020,17,1652,MIL,"Milwaukee Bucks",26,"Kyle Korver",SF,6-7,212,"March 17, 1981",US,16,Creighton
+2020,17,1775,MIL,"Milwaukee Bucks",11,"Brook Lopez",C,7-0,282,"April 1, 1988",US,11,Stanford
+2020,17,1778,MIL,"Milwaukee Bucks",42,"Robin Lopez",C,7-0,281,"April 1, 1988",US,11,Stanford
+2020,17,1868,MIL,"Milwaukee Bucks",15,"Frank Mason III",PG,5-11,190,"April 3, 1994",US,2,Kansas
+2020,17,1876,MIL,"Milwaukee Bucks",9,"Wesley Matthews",SG,6-4,220,"October 14, 1986",US,10,Marquette
+2020,17,1981,MIL,"Milwaukee Bucks",22,"Khris Middleton",SF,6-7,222,"August 12, 1991",US,7,"Texas A&M"
+2020,17,3163,MIL,"Milwaukee Bucks",20,"Marvin Williams",PF,6-8,237,"June 19, 1986",US,14,UNC
+2020,17,3196,MIL,"Milwaukee Bucks",5,"D.J. Wilson",PF,6-10,231,"February 19, 1996",US,2,Michigan
+2020,18,185,MIN,"Minnesota Timberwolves",31,"Keita Bates-Diop",PF,6-8,229,"January 23, 1996",US,1,"Ohio State"
+2020,18,202,MIN,"Minnesota Timberwolves",5,"Malik Beasley",SG,6-4,187,"November 26, 1996",US,3,"Florida State"
+2020,18,210,MIN,"Minnesota Timberwolves",7,"Jordan Bell",C,6-8,216,"January 7, 1995",US,2,Oregon
+2020,18,619,MIN,"Minnesota Timberwolves",33,"Robert Covington",PF,6-7,209,"December 14, 1990",US,6,"Tennessee State"
+2020,18,622,MIN,"Minnesota Timberwolves",9,"Allen Crabbe",SF,6-5,212,"April 9, 1992",US,6,California
+2020,18,642,MIN,"Minnesota Timberwolves",23,"Jarrett Culver",SG,6-6,195,"February 20, 1999",US,R,"Texas Tech"
+2020,18,746,MIN,"Minnesota Timberwolves",5,"Gorgui Dieng",C,6-10,252,"January 18, 1990",SN,6,Louisville
+2020,18,875,MIN,"Minnesota Timberwolves",12,"Jacob Evans",SG,6-4,210,"June 18, 1997",US,1,Cincinnati
+2020,18,1074,MIN,"Minnesota Timberwolves",12,"Treveon Graham",SF,6-5,219,"October 28, 1993",US,3,VCU
+2020,18,1267,MIN,"Minnesota Timberwolves",41,"Juan Hernangomez",PF,6-9,214,"September 28, 1995",ES,3,NULL
+2020,18,1493,MIN,"Minnesota Timberwolves",16,"James Johnson",C,6-7,240,"February 20, 1987",US,10,"Wake Forest"
+2020,18,1710,MIN,"Minnesota Timberwolves",10,"Jake Layman",SF,6-8,209,"March 7, 1994",US,3,Maryland
+2020,18,1860,MIN,"Minnesota Timberwolves",30,"Kelan Martin",SF,6-5,230,"August 3, 1995",US,R,Butler
+2020,18,1949,MIN,"Minnesota Timberwolves",6,"Jordan McLaughlin",PG,5-11,185,"April 9, 1996",US,R,USC
+2020,18,2113,MIN,"Minnesota Timberwolves",13,"Shabazz Napier",PG,6-0,175,"July 14, 1991",US,5,UConn
+2020,18,2162,MIN,"Minnesota Timberwolves",4,"Jaylen Nowell",SG,6-4,201,"July 9, 1999",US,R,Washington
+2020,18,2195,MIN,"Minnesota Timberwolves",20,"Josh Okogie",SG,6-4,213,"September 1, 1998",NG,1,"Georgia Tech"
+2020,18,2425,MIN,"Minnesota Timberwolves",11,"Naz Reid",C,6-9,264,"August 26, 1999",US,R,LSU
+2020,18,2537,MIN,"Minnesota Timberwolves",0,"D'Angelo Russell",PG,6-4,193,"February 23, 1996",US,4,"Ohio State"
+2020,18,2826,MIN,"Minnesota Timberwolves",0,"Jeff Teague",PG,6-3,195,"June 10, 1988",US,10,"Wake Forest"
+2020,18,2906,MIN,"Minnesota Timberwolves",32,"Karl-Anthony Towns",C,6-11,248,"November 15, 1995",US,4,Kentucky
+2020,18,2956,MIN,"Minnesota Timberwolves",3,"Jarred Vanderbilt",PF,6-9,214,"April 3, 1999",US,1,Kentucky
+2020,18,2981,MIN,"Minnesota Timberwolves",1,"Noah Vonleh",C,6-10,257,"August 24, 1995",US,5,Indiana
+2020,18,3111,MIN,"Minnesota Timberwolves",22,"Andrew Wiggins",SF,6-7,197,"February 23, 1995",CA,5,Kansas
+2020,19,44,NOP,"New Orleans Pelicans",0,"Nickeil Alexander-Walker",SG,6-6,205,"September 2, 1998",CA,R,"Virginia Tech"
+2020,19,153,NOP,"New Orleans Pelicans",2,"Lonzo Ball",PG,6-6,190,"October 27, 1997",US,2,UCLA
+2020,19,521,NOP,"New Orleans Pelicans",45,"Zylan Cheatham",PF,6-5,220,"November 17, 1995",US,R,"San Diego State, Arizona State"
+2020,19,895,NOP,"New Orleans Pelicans",22,"Derrick Favors",C,6-8,265,"July 15, 1991",US,9,"Georgia Tech"
+2020,19,1094,NOP,"New Orleans Pelicans",5,"Josh Gray",PG,6-0,180,"September 9, 1993",US,1,LSU
+2020,19,1217,NOP,"New Orleans Pelicans",3,"Josh Hart",SF,6-5,215,"March 6, 1995",US,2,Villanova
+2020,19,1235,NOP,"New Orleans Pelicans",10,"Jaxson Hayes",C,6-11,220,"May 23, 2000",US,R,Texas
+2020,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",SG,6-3,205,"June 12, 1990",US,10,UCLA
+2020,19,1385,NOP,"New Orleans Pelicans",14,"Brandon Ingram",PF,6-8,190,"September 2, 1997",US,3,Duke
+2020,19,1400,NOP,"New Orleans Pelicans",15,"Frank Jackson",PG,6-3,205,"May 4, 1998",US,1,Duke
+2020,19,1968,NOP,"New Orleans Pelicans",20,"Nicolo Melli",C,6-9,236,"January 26, 1991",IT,R,NULL
+2020,19,2039,NOP,"New Orleans Pelicans",55,"E'Twaun Moore",SG,6-3,191,"February 25, 1989",US,8,Purdue
+2020,19,2192,NOP,"New Orleans Pelicans","8, 9","Jahlil Okafor",C,6-10,270,"December 15, 1995",US,4,Duke
+2020,19,2414,NOP,"New Orleans Pelicans",4,"J.J. Redick",SG,6-3,200,"June 24, 1984",US,13,Duke
+2020,19,2883,NOP,"New Orleans Pelicans",12,"Sindarius Thornwell",SF,6-4,215,"November 15, 1994",US,2,"South Carolina"
+2020,19,3157,NOP,"New Orleans Pelicans",34,"Kenrich Williams",PF,6-6,210,"December 2, 1994",US,1,TCU
+2020,19,3191,NOP,"New Orleans Pelicans",1,"Zion Williamson",PF,6-7,284,"July 6, 2000",US,R,Duke
+2020,20,50,NYK,"New York Knicks",0,"Kadeem Allen",PG,6-1,200,"January 15, 1993",US,2,Arizona
+2020,20,171,NYK,"New York Knicks",9,"RJ Barrett",SG,6-6,214,"June 14, 2000",CA,R,Duke
+2020,20,338,NYK,"New York Knicks",17,"Ignas Brazdeikis",SF,6-6,221,"January 8, 1999",LT,R,Michigan
+2020,20,420,NYK,"New York Knicks",25,"Reggie Bullock",SG,6-6,205,"March 16, 1991",US,6,UNC
+2020,20,765,NYK,"New York Knicks",21,"Damyean Dotson",SG,6-5,210,"May 6, 1994",US,2,"Oregon, Houston"
+2020,20,845,NYK,"New York Knicks",2,"Wayne Ellington",SG,6-4,207,"November 29, 1987",US,10,UNC
+2020,20,1029,NYK,"New York Knicks",67,"Taj Gibson",C,6-9,232,"June 24, 1985",US,10,USC
+2020,20,1186,NYK,"New York Knicks",3,"Maurice Harkless",SF,6-7,220,"May 11, 1993",US,7,"St. John's"
+2020,20,1643,NYK,"New York Knicks",20,"Kevin Knox",SF,6-7,215,"August 11, 1999",US,1,Kentucky
+2020,20,2054,NYK,"New York Knicks",13,"Marcus Morris",SF,6-8,218,"September 2, 1989",US,8,Kansas
+2020,20,2164,NYK,"New York Knicks",11,"Frank Ntilikina",PG,6-4,200,"July 28, 1998",BE,2,NULL
+2020,20,2272,NYK,"New York Knicks",6,"Elfrid Payton",PG,6-3,195,"February 22, 1994",US,5,Louisiana
+2020,20,2345,NYK,"New York Knicks",1,"Bobby Portis",PF,6-10,250,"February 10, 1995",US,4,Arkansas
+2020,20,2395,NYK,"New York Knicks",30,"Julius Randle",PF,6-8,250,"November 29, 1994",US,5,Kentucky
+2020,20,2486,NYK,"New York Knicks",23,"Mitchell Robinson",C,7-0,240,"April 1, 1998",US,1,"Western Kentucky"
+2020,20,2676,NYK,"New York Knicks",5,"Dennis Smith Jr.",PG,6-2,205,"November 25, 1997",US,2,"NC State"
+2020,20,2912,NYK,"New York Knicks",14,"Allonzo Trier",SG,6-4,200,"January 17, 1996",US,1,Arizona
+2020,21,17,OKC,"Oklahoma City Thunder",12,"Steven Adams",C,6-11,265,"July 20, 1993",NZ,6,Pitt
+2020,21,199,OKC,"Oklahoma City Thunder",7,"Darius Bazley",PF,6-8,208,"June 12, 2000",US,R,NULL
+2020,21,432,OKC,"Oklahoma City Thunder",30,"Deonte Burton",SF,6-4,240,"January 31, 1994",US,1,"Marquette, Iowa State"
+2020,21,738,OKC,"Oklahoma City Thunder",6,"Hamidou Diallo",SF,6-5,202,"July 31, 1998",US,1,Kentucky
+2020,21,764,OKC,"Oklahoma City Thunder",5,"Luguentz Dort",SF,6-3,215,"April 19, 1999",CA,R,"Arizona State"
+2020,21,905,OKC,"Oklahoma City Thunder",23,"Terrance Ferguson",SF,6-6,190,"May 17, 1998",US,2,NULL
+2020,21,983,OKC,"Oklahoma City Thunder",8,"Danilo Gallinari",PF,6-10,233,"August 8, 1988",IT,10,NULL
+2020,21,1033,OKC,"Oklahoma City Thunder",2,"Shai Gilgeous-Alexander",SG,6-6,180,"July 12, 1998",CA,1,Kentucky
+2020,21,1152,OKC,"Oklahoma City Thunder",14,"Devon Hall",PG,6-2,215,"July 7, 1995",US,R,Virginia
+2020,21,1274,OKC,"Oklahoma City Thunder",15,"Kevin Hervey",PF,6-9,230,"July 9, 1996",US,R,"UT Arlington"
+2020,21,2097,OKC,"Oklahoma City Thunder",33,"Mike Muscala",C,6-10,240,"July 1, 1991",US,6,Bucknell
+2020,21,2108,OKC,"Oklahoma City Thunder",11,"Abdel Nader",SF,6-5,225,"September 25, 1993",EG,2,"Northern Illinois, Iowa State"
+2020,21,2153,OKC,"Oklahoma City Thunder",9,"Nerlens Noel",C,6-11,220,"April 10, 1994",US,5,Kentucky
+2020,21,2262,OKC,"Oklahoma City Thunder",13,"Justin Patton",C,6-11,241,"June 14, 1997",US,2,Creighton
+2020,21,2264,OKC,"Oklahoma City Thunder",3,"Chris Paul",PG,6-0,175,"May 6, 1985",US,14,"Wake Forest"
+2020,21,2459,OKC,"Oklahoma City Thunder",21,"Andre Roberson",SF,6-7,210,"December 4, 1991",US,5,Colorado
+2020,21,2495,OKC,"Oklahoma City Thunder",22,"Isaiah Roby",PF,6-8,230,"February 3, 1998",US,R,Nebraska
+2020,21,2579,OKC,"Oklahoma City Thunder",17,"Dennis Schroder",PG,6-3,172,"September 15, 1993",DE,6,NULL
+2020,22,64,ORL,"Orlando Magic",2,"Al-Farouq Aminu",PF,6-8,220,"September 21, 1990",US,9,"Wake Forest"
+2020,22,119,ORL,"Orlando Magic",14,"D.J. Augustin",PG,5-11,183,"November 10, 1987",US,11,Texas
+2020,22,155,ORL,"Orlando Magic",5,"Mo Bamba",C,7-0,231,"May 12, 1998",US,1,Texas
+2020,22,244,ORL,"Orlando Magic",24,"Khem Birch",C,6-9,233,"September 28, 1992",CA,2,"Pitt, UNLV"
+2020,22,494,ORL,"Orlando Magic",7,"Michael Carter-Williams",SG,6-5,190,"October 10, 1991",US,6,Syracuse
+2020,22,541,ORL,"Orlando Magic",12,"Gary Clark",SF,6-6,225,"November 16, 1994",US,1,Cincinnati
+2020,22,866,ORL,"Orlando Magic",11,"James Ennis",SG,6-6,215,"July 1, 1990",US,5,"Cal State Long Beach"
+2020,22,948,ORL,"Orlando Magic",10,"Evan Fournier",SF,6-7,205,"October 29, 1992",FR,7,NULL
+2020,22,958,ORL,"Orlando Magic",35,"Melvin Frazier",SG,6-5,215,"August 30, 1996",US,1,Tulane
+2020,22,971,ORL,"Orlando Magic",20,"Markelle Fultz",PG,6-3,209,"May 29, 1998",US,2,Washington
+2020,22,1060,ORL,"Orlando Magic",00,"Aaron Gordon",PF,6-8,235,"September 16, 1995",US,5,Arizona
+2020,22,1388,ORL,"Orlando Magic",1,"Jonathan Isaac",PF,6-11,230,"October 3, 1997",US,2,"Florida State"
+2020,22,1393,ORL,"Orlando Magic",25,"Wesley Iwundu",SF,6-6,195,"December 20, 1994",US,2,"Kansas State"
+2020,22,1442,ORL,"Orlando Magic",11,"Amile Jefferson",PF,6-9,222,"May 7, 1993",US,1,Duke
+2020,22,1468,ORL,"Orlando Magic",13,"B.J. Johnson",SF,6-7,200,"December 21, 1995",US,1,"Syracuse, La Salle"
+2020,22,1705,ORL,"Orlando Magic",23,"Vic Law",PF,6-7,200,"December 19, 1995",US,R,Northwestern
+2020,22,1812,ORL,"Orlando Magic",4,"Josh Magette",PG,6-1,160,"November 28, 1989",US,1,Alabama-Huntsville
+2020,22,2513,ORL,"Orlando Magic","8, 31","Terrence Ross",SG,6-6,206,"February 5, 1991",US,7,Washington
+2020,22,2988,ORL,"Orlando Magic",9,"Nikola Vucevic",C,6-11,260,"October 24, 1990",CH,8,USC
+2020,23,283,PHI,"Philadelphia 76Ers",43,"Jonah Bolden",C,6-8,220,"January 2, 1996",AU,1,UCLA
+2020,23,422,PHI,"Philadelphia 76Ers",23,"Trey Burke",PG,6-0,185,"November 12, 1992",US,6,Michigan
+2020,23,424,PHI,"Philadelphia 76Ers",20,"Alec Burks",SG,6-6,214,"July 20, 1991",US,8,Colorado
+2020,23,858,PHI,"Philadelphia 76Ers",21,"Joel Embiid",C,7-0,280,"March 16, 1994",CM,3,Kansas
+2020,23,866,PHI,"Philadelphia 76Ers",11,"James Ennis",SF,6-6,215,"July 1, 1990",US,5,"Cal State Long Beach"
+2020,23,1210,PHI,"Philadelphia 76Ers",12,"Tobias Harris",PF,6-8,226,"July 15, 1992",US,8,Tennessee
+2020,23,1326,PHI,"Philadelphia 76Ers",42,"Al Horford",C,6-9,240,"June 3, 1986",DO,12,Florida
+2020,23,1648,PHI,"Philadelphia 76Ers",30,"Furkan Korkmaz",SG,6-7,202,"July 24, 1997",TR,2,NULL
+2020,23,2005,PHI,"Philadelphia 76Ers",18,"Shake Milton",SG,6-5,205,"September 26, 1996",US,1,SMU
+2020,23,2132,PHI,"Philadelphia 76Ers",19,"Raul Neto",PG,6-1,180,"May 19, 1992",BR,4,NULL
+2020,23,2181,PHI,"Philadelphia 76Ers",9,"Kyle O'Quinn",C,6-9,250,"March 26, 1990",US,7,"Norfolk State"
+2020,23,2279,PHI,"Philadelphia 76Ers",14,"Norvel Pelle",C,6-10,231,"February 3, 1993",AG,R,NULL
+2020,23,2444,PHI,"Philadelphia 76Ers",0,"Josh Richardson",SG,6-5,200,"September 15, 1993",US,4,Tennessee
+2020,23,2479,PHI,"Philadelphia 76Ers",40,"Glenn Robinson III",SF,6-6,222,"January 8, 1994",US,5,Michigan
+2020,23,2588,PHI,"Philadelphia 76Ers",1,"Mike Scott",PF,6-7,237,"July 16, 1988",US,7,Virginia
+2020,23,2613,PHI,"Philadelphia 76Ers",35,"Marial Shayok",SG,6-5,198,"July 26, 1995",CA,R,"Virginia, Iowa State"
+2020,23,2635,PHI,"Philadelphia 76Ers",25,"Ben Simmons",PG,6-11,240,"July 20, 1996",AU,2,LSU
+2020,23,2712,PHI,"Philadelphia 76Ers",5,"Zhaire Smith",SF,6-3,205,"June 4, 1999",US,1,"Texas Tech"
+2020,23,2886,PHI,"Philadelphia 76Ers",22,"Matisse Thybulle",SG,6-5,200,"March 4, 1997",US,R,Washington
+2020,24,129,PHO,"Phoenix Suns",22,"Deandre Ayton",C,6-11,250,"July 23, 1998",BS,1,Arizona
+2020,24,196,PHO,"Phoenix Suns",46,"Aron Baynes",C,6-10,260,"December 9, 1986",NZ,7,"Washington State"
+2020,24,283,PHO,"Phoenix Suns",43,"Jonah Bolden",C,6-8,220,"January 2, 1996",AU,1,UCLA
+2020,24,292,PHO,"Phoenix Suns",1,"Devin Booker",SG,6-5,206,"October 30, 1996",US,4,Kentucky
+2020,24,350,PHO,"Phoenix Suns",25,"Mikal Bridges",SF,6-6,209,"August 30, 1996",US,1,Villanova
+2020,24,488,PHO,"Phoenix Suns",4,"Jevon Carter",PG,6-1,200,"September 14, 1995",US,1,"West Virginia"
+2020,24,737,PHO,"Phoenix Suns",14,"Cheick Diallo",C,6-8,219,"September 13, 1996",ML,3,Kansas
+2020,24,1189,PHO,"Phoenix Suns",12,"Jared Harper",PG,5-10,175,"September 14, 1997",US,R,Auburn
+2020,24,1456,PHO,"Phoenix Suns",10,"Ty Jerome",SG,6-5,195,"July 8, 1997",US,R,Virginia
+2020,24,1471,PHO,"Phoenix Suns",23,"Cameron Johnson",PF,6-8,210,"March 3, 1996",US,R,"Pitt, UNC"
+2020,24,1516,PHO,"Phoenix Suns",16,"Tyler Johnson",PG,6-3,186,"May 7, 1992",US,5,"Fresno State"
+2020,24,1579,PHO,"Phoenix Suns",8,"Frank Kaminsky",C,7-0,240,"April 4, 1993",US,4,Wisconsin
+2020,24,1716,PHO,"Phoenix Suns",0,"Jalen Lecque",SG,6-4,185,"June 13, 2000",US,R,NULL
+2020,24,2194,PHO,"Phoenix Suns",2,"Elie Okobo",PG,6-3,190,"October 23, 1997",FR,1,NULL
+2020,24,2221,PHO,"Phoenix Suns",3,"Kelly Oubre Jr.",SF,6-7,203,"December 9, 1995",US,4,Kansas
+2020,24,2230,PHO,"Phoenix Suns",41,"Tariq Owens",PF,6-10,205,"June 30, 1995",US,R,"Tennessee, St. John's, Texas Tech"
+2020,24,2270,PHO,"Phoenix Suns",15,"Cameron Payne",SG,6-1,183,"August 8, 1994",US,4,"Murray State"
+2020,24,2525,PHO,"Phoenix Suns",11,"Ricky Rubio",PG,6-3,190,"October 21, 1990",ES,8,NULL
+2020,24,2562,PHO,"Phoenix Suns",20,"Dario Saric",PF,6-10,225,"April 8, 1994",HR,3,NULL
+2020,25,14,POR,"Portland Trail Blazers",10,"Jaylen Adams",PG,6-0,225,"May 4, 1996",US,1,"St. Bonaventure"
+2020,25,93,POR,"Portland Trail Blazers",0,"Carmelo Anthony",PF,6-7,238,"May 29, 1984",US,16,Syracuse
+2020,25,105,POR,"Portland Trail Blazers",8,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,15,UCLA
+2020,25,198,POR,"Portland Trail Blazers",24,"Kent Bazemore",SF,6-4,195,"July 1, 1989",US,7,"Old Dominion"
+2020,25,391,POR,"Portland Trail Blazers",4,"Moses Brown",C,7-2,245,"October 13, 1999",US,R,UCLA
+2020,25,576,POR,"Portland Trail Blazers",33,"Zach Collins",PF,6-11,250,"November 19, 1997",US,2,Gonzaga
+2020,25,974,POR,"Portland Trail Blazers",35,"Wenyen Gabriel",PF,6-9,205,"March 26, 1997",SD,R,Kentucky
+2020,25,1275,POR,"Portland Trail Blazers",44,"Mario Hezonja",PF,6-8,220,"February 25, 1995",HR,4,NULL
+2020,25,1301,POR,"Portland Trail Blazers",6,"Jaylen Hoard",PF,6-8,216,"March 30, 1999",FR,R,"Wake Forest"
+2020,25,1321,POR,"Portland Trail Blazers",5,"Rodney Hood",SF,6-8,208,"October 20, 1992",US,5,"Mississippi State, Duke"
+2020,25,1675,POR,"Portland Trail Blazers",17,"Skal Labissiere",C,6-10,235,"March 18, 1996",HT,3,Kentucky
+2020,25,1753,POR,"Portland Trail Blazers",0,"Damian Lillard",PG,6-2,195,"July 15, 1990",US,7,"Weber State"
+2020,25,1757,POR,"Portland Trail Blazers",9,"Nassir Little",PF,6-5,220,"February 11, 2000",US,R,UNC
+2020,25,1907,POR,"Portland Trail Blazers",3,"CJ McCollum",SG,6-3,190,"September 19, 1991",US,6,Lehigh
+2020,25,2167,POR,"Portland Trail Blazers",27,"Jusuf Nurkic",C,6-11,290,"August 23, 1994",BA,5,NULL
+2020,25,2642,POR,"Portland Trail Blazers",1,"Anfernee Simons",SG,6-3,181,"June 8, 1999",US,1,NULL
+2020,25,2793,POR,"Portland Trail Blazers",50,"Caleb Swanigan",PF,6-9,260,"April 18, 1997",US,2,Purdue
+2020,25,2894,POR,"Portland Trail Blazers",43,"Anthony Tolliver",PF,6-8,240,"June 1, 1985",US,11,Creighton
+2020,25,2910,POR,"Portland Trail Blazers",2,"Gary Trent Jr.",SF,6-5,209,"January 18, 1999",US,1,Duke
+2020,25,3105,POR,"Portland Trail Blazers",21,"Hassan Whiteside",C,7-0,265,"June 13, 1989",US,7,Marshall
+2020,26,105,SAC,"Sacramento Kings",0,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,15,UCLA
+2020,26,138,SAC,"Sacramento Kings",35,"Marvin Bagley III",C,6-11,235,"March 14, 1999",US,1,Duke
+2020,26,167,SAC,"Sacramento Kings",40,"Harrison Barnes",PF,6-8,225,"May 30, 1992",US,7,UNC
+2020,26,198,SAC,"Sacramento Kings",26,"Kent Bazemore",SF,6-4,195,"July 1, 1989",US,7,"Old Dominion"
+2020,26,250,SAC,"Sacramento Kings",88,"Nemanja Bjelica",PF,6-10,234,"May 9, 1988",RS,4,NULL
+2020,26,276,SAC,"Sacramento Kings",8,"Bogdan Bogdanovic",SG,6-6,220,"August 18, 1992",RS,2,NULL
+2020,26,342,SAC,"Sacramento Kings",13,"Corey Brewer",PF,6-9,186,"March 5, 1986",US,12,Florida
+2020,26,717,SAC,"Sacramento Kings",13,"Dewayne Dedmon",C,7-0,245,"August 12, 1989",US,6,USC
+2020,26,911,SAC,"Sacramento Kings",3,"Yogi Ferrell",PG,6-0,178,"May 9, 1993",US,3,Indiana
+2020,26,950,SAC,"Sacramento Kings",5,"De'Aaron Fox",PG,6-3,185,"December 20, 1997",US,2,Kentucky
+2020,26,974,SAC,"Sacramento Kings",32,"Wenyen Gabriel",PF,6-9,205,"March 26, 1997",SD,R,Kentucky
+2020,26,1032,SAC,"Sacramento Kings",20,"Harry Giles",C,6-11,240,"April 22, 1998",US,1,Duke
+2020,26,1140,SAC,"Sacramento Kings",7,"Kyle Guy",SG,6-1,167,"August 11, 1997",US,R,Virginia
+2020,26,1279,SAC,"Sacramento Kings",24,"Buddy Hield",SG,6-4,220,"December 17, 1992",BS,3,Oklahoma
+2020,26,1316,SAC,"Sacramento Kings",22,"Richaun Holmes",C,6-10,235,"October 15, 1993",US,4,"Bowling Green"
+2020,26,1428,SAC,"Sacramento Kings",10,"Justin James",SF,6-7,190,"January 24, 1997",US,R,Wyoming
+2020,26,1446,SAC,"Sacramento Kings",19,"DaQuan Jeffries",SG,6-5,230,"August 30, 1997",US,R,"Oral Roberts, Tulsa"
+2020,26,1572,SAC,"Sacramento Kings",9,"Cory Joseph",PG,6-3,200,"August 20, 1991",CA,8,Texas
+2020,26,1731,SAC,"Sacramento Kings",25,"Alex Len",C,7-0,250,"June 16, 1993",UA,6,Maryland
+2020,26,1983,SAC,"Sacramento Kings",42,"Eric Mika",C,6-10,230,"January 5, 1995",US,R,BYU
+2020,26,2248,SAC,"Sacramento Kings",33,"Jabari Parker",PF,6-8,245,"March 15, 1995",US,5,Duke
+2020,26,2793,SAC,"Sacramento Kings",50,"Caleb Swanigan",C,6-9,260,"April 18, 1997",US,2,Purdue
+2020,26,2894,SAC,"Sacramento Kings",43,"Anthony Tolliver",PF,6-8,240,"June 1, 1985",US,11,Creighton
+2020,27,34,SAS,"San Antonio Spurs",12,"LaMarcus Aldridge",C,6-11,250,"July 19, 1985",US,13,Texas
+2020,27,208,SAS,"San Antonio Spurs",18,"Marco Belinelli",SG,6-5,220,"March 25, 1986",IT,12,NULL
+2020,27,481,SAS,"San Antonio Spurs",77,"DeMarre Carroll",SF,6-6,215,"July 27, 1986",US,10,"Vanderbilt, Missouri"
+2020,27,715,SAS,"San Antonio Spurs",10,"DeMar DeRozan",SF,6-6,220,"August 7, 1989",US,10,USC
+2020,27,872,SAS,"San Antonio Spurs",14,"Drew Eubanks",C,6-9,245,"February 1, 1997",US,1,"Oregon State"
+2020,27,930,SAS,"San Antonio Spurs",11,"Bryn Forbes",SG,6-2,205,"July 23, 1993",US,3,"Michigan State"
+2020,27,1011,SAS,"San Antonio Spurs",22,"Rudy Gay",PF,6-8,250,"August 17, 1986",US,13,UConn
+2020,27,1497,SAS,"San Antonio Spurs",3,"Keldon Johnson",SF,6-5,220,"October 11, 1999",US,R,Kentucky
+2020,27,1791,SAS,"San Antonio Spurs",41,"Trey Lyles",PF,6-9,234,"November 5, 1995",CA,4,Kentucky
+2020,27,1976,SAS,"San Antonio Spurs",7,"Chimezie Metu",C,6-9,225,"March 22, 1997",US,1,USC
+2020,27,2001,SAS,"San Antonio Spurs",8,"Patty Mills",PG,6-1,180,"August 11, 1988",AU,10,"Saint Mary's"
+2020,27,2090,SAS,"San Antonio Spurs",5,"Dejounte Murray",PG,6-4,180,"September 19, 1996",US,2,Washington
+2020,27,2326,SAS,"San Antonio Spurs",25,"Jakob Poeltl",C,7-1,245,"October 15, 1995",AT,3,Utah
+2020,27,2547,SAS,"San Antonio Spurs",19,"Luka Samanic",PF,6-10,227,"January 9, 2000",HR,R,NULL
+2020,27,3007,SAS,"San Antonio Spurs",1,"Lonnie Walker",SG,6-4,204,"December 14, 1998",US,1,"Miami (FL)"
+2020,27,3052,SAS,"San Antonio Spurs",15,"Quinndary Weatherspoon",SG,6-3,205,"September 10, 1996",US,R,"Mississippi State"
+2020,27,3089,SAS,"San Antonio Spurs",4,"Derrick White",SG,6-4,190,"July 2, 1994",US,2,"Colorado-Colorado Springs, Colorado"
+2020,27,3271,SAS,"San Antonio Spurs",40,"Tyler Zeller",C,7-0,253,"January 17, 1990",US,7,UNC
+2020,28,98,TOR,"Toronto Raptors",3,"OG Anunoby",SF,6-7,232,"July 17, 1997",GB,2,Indiana
+2020,28,305,TOR,"Toronto Raptors",25,"Chris Boucher",C,6-9,200,"January 11, 1993",LC,2,Oregon
+2020,28,353,TOR,"Toronto Raptors",12,"Oshae Brissett",SF,6-7,210,"June 20, 1998",CA,R,Syracuse
+2020,28,699,TOR,"Toronto Raptors",0,"Terence Davis",SG,6-4,201,"May 16, 1997",US,R,"Ole Miss"
+2020,28,1007,TOR,"Toronto Raptors",33,"Marc Gasol",C,6-11,255,"January 29, 1985",ES,11,NULL
+2020,28,1266,TOR,"Toronto Raptors",20,"Dewan Hernandez",C,6-10,235,"December 9, 1996",US,R,"Miami (FL)"
+2020,28,1315,TOR,"Toronto Raptors",4,"Rondae Hollis-Jefferson",PF,6-6,217,"January 3, 1995",US,4,Arizona
+2020,28,1376,TOR,"Toronto Raptors",9,"Serge Ibaka",C,6-10,235,"September 18, 1989",CG,10,NULL
+2020,28,1512,TOR,"Toronto Raptors",5,"Stanley Johnson",PF,6-6,242,"May 29, 1996",US,4,Arizona
+2020,28,1782,TOR,"Toronto Raptors",7,"Kyle Lowry",PG,6-0,196,"March 25, 1986",US,13,Villanova
+2020,28,1903,TOR,"Toronto Raptors",22,"Patrick McCaw",SF,6-7,181,"October 25, 1995",US,3,UNLV
+2020,28,1995,TOR,"Toronto Raptors",13,"Malcolm Miller",SF,6-7,210,"March 6, 1993",US,2,"Holy Cross"
+2020,28,2333,TOR,"Toronto Raptors",11,"Shamorie Ponds",PG,6-0,180,"June 29, 1998",US,R,"St. John's"
+2020,28,2354,TOR,"Toronto Raptors",24,"Norman Powell",SG,6-3,215,"May 25, 1993",US,4,UCLA
+2020,28,2625,TOR,"Toronto Raptors",43,"Pascal Siakam",PF,6-9,230,"April 2, 1994",CM,3,"New Mexico State"
+2020,28,2860,TOR,"Toronto Raptors",21,"Matt Thomas",SG,6-4,190,"August 4, 1994",US,R,"Iowa State"
+2020,28,2954,TOR,"Toronto Raptors",23,"Fred VanVleet",SG,6-1,197,"February 25, 1994",US,3,"Wichita State"
+2020,28,3046,TOR,"Toronto Raptors",1,"Paul Watson",SF,6-6,210,"December 30, 1994",US,R,"Fresno State"
+2020,29,277,UTA,"Utah Jazz",44,"Bojan Bogdanovic",SF,6-8,226,"April 18, 1989",BA,5,NULL
+2020,29,327,UTA,"Utah Jazz",13,"Tony Bradley",C,6-10,248,"January 8, 1998",US,2,UNC
+2020,29,336,UTA,"Utah Jazz",5,"Jarrell Brantley",PF,6-5,250,"June 7, 1996",US,R,"College of Charleston"
+2020,29,546,UTA,"Utah Jazz",00,"Jordan Clarkson",SG,6-4,194,"June 7, 1992",US,5,"Tulsa, Missouri"
+2020,29,585,UTA,"Utah Jazz",10,"Mike Conley",PG,6-1,175,"October 11, 1987",US,12,"Ohio State"
+2020,29,685,UTA,"Utah Jazz",17,"Ed Davis",C,6-9,218,"June 5, 1989",US,9,UNC
+2020,29,885,UTA,"Utah Jazz",11,"Dante Exum",SG,6-5,214,"July 13, 1995",AU,4,NULL
+2020,29,1050,UTA,"Utah Jazz",27,"Rudy Gobert",C,7-0,258,"June 26, 1992",FR,6,NULL
+2020,29,1106,UTA,"Utah Jazz",22,"Jeff Green",PF,6-8,235,"August 28, 1986",US,11,Georgetown
+2020,29,1382,UTA,"Utah Jazz",2,"Joe Ingles",PF,6-7,220,"October 2, 1987",AU,5,NULL
+2020,29,1606,UTA,"Utah Jazz",15,"Stanton Kidd",SG,6-6,215,"March 18, 1992",US,R,"South Plains College, NC Central, Colorado State"
+2020,29,2012,UTA,"Utah Jazz",45,"Donovan Mitchell",SG,6-0,215,"September 7, 1996",US,2,Louisville
+2020,29,2048,UTA,"Utah Jazz",16,"Juwan Morgan",PF,6-7,232,"April 17, 1997",US,R,Indiana
+2020,29,2073,UTA,"Utah Jazz","8, 15","Emmanuel Mudiay",PG,6-3,200,"March 5, 1996",CD,4,NULL
+2020,29,2140,UTA,"Utah Jazz",31,"Georges Niang",PF,6-7,230,"June 17, 1993",US,3,"Iowa State"
+2020,29,2180,UTA,"Utah Jazz",23,"Royce O'Neale",SF,6-4,226,"June 5, 1993",US,2,"Denver, Baylor"
+2020,29,2211,UTA,"Utah Jazz","24, 81","Miye Oni",SF,6-5,206,"August 4, 1997",US,R,Yale
+2020,29,2920,UTA,"Utah Jazz",6,"Rayjon Tucker",SG,6-5,210,"September 24, 1997",US,R,"Florida Gulf Coast, Little Rock"
+2020,29,3188,UTA,"Utah Jazz",0,"Nigel Williams-Goss",PG,6-2,190,"September 16, 1994",US,R,"Gonzaga, Washington"
+2020,29,3251,UTA,"Utah Jazz",3,"Justin Wright-Foreman",PG,6-0,190,"October 27, 1997",US,R,Hofstra
+2020,30,200,WAS,"Washington Wizards",3,"Bradley Beal",SG,6-3,207,"June 28, 1993",US,7,Florida
+2020,30,232,WAS,"Washington Wizards",42,"Davis Bertans",PF,6-10,225,"November 12, 1992",LV,3,NULL
+2020,30,289,WAS,"Washington Wizards",17,"Isaac Bonga",SF,6-8,180,"November 8, 1999",DE,1,NULL
+2020,30,402,WAS,"Washington Wizards",6,"Troy Brown Jr.",SF,6-6,215,"July 28, 1999",US,1,Oregon
+2020,30,410,WAS,"Washington Wizards",13,"Thomas Bryant",C,6-10,248,"July 31, 1997",US,2,Indiana
+2020,30,530,WAS,"Washington Wizards",9,"Chris Chiozza",PG,5-11,175,"November 21, 1995",US,1,Florida
+2020,30,1085,WAS,"Washington Wizards",22,"Jerian Grant",SG,6-4,205,"October 9, 1992",US,4,"Notre Dame"
+2020,30,1142,WAS,"Washington Wizards",8,"Rui Hachimura",PF,6-8,230,"February 8, 1998",JP,R,Gonzaga
+2020,30,1816,WAS,"Washington Wizards",28,"Ian Mahinmi",C,6-11,262,"November 5, 1986",FR,11,NULL
+2020,30,1872,WAS,"Washington Wizards",24,"Garrison Mathews",SG,6-5,215,"October 24, 1996",US,R,Lipscomb
+2020,30,1960,WAS,"Washington Wizards",52,"Jordan McRae",SG,6-5,179,"March 28, 1991",US,3,Tennessee
+2020,30,1985,WAS,"Washington Wizards",34,"C.J. Miles",SF,6-6,220,"March 18, 1987",US,14,NULL
+2020,30,2113,WAS,"Washington Wizards",5,"Shabazz Napier",PG,6-0,175,"July 14, 1991",US,5,UConn
+2020,30,2255,WAS,"Washington Wizards",18,"Anzejs Pasecniks",C,7-1,229,"December 20, 1995",LV,R,NULL
+2020,30,2274,WAS,"Washington Wizards",20,"Gary Payton II",SF,6-3,190,"December 1, 1992",US,3,"Oregon State"
+2020,30,2483,WAS,"Washington Wizards",12,"Jerome Robinson",SG,6-4,190,"February 22, 1997",US,1,"Boston College"
+2020,30,2484,WAS,"Washington Wizards",5,"Justin Robinson",PG,6-1,195,"October 12, 1997",US,R,"Virginia Tech"
+2020,30,2577,WAS,"Washington Wizards",1,"Admiral Schofield",PF,6-5,241,"March 30, 1997",GB,R,Tennessee
+2020,30,2681,WAS,"Washington Wizards",14,"Ish Smith",PG,6-0,175,"July 5, 1988",US,9,"Wake Forest"
+2020,30,2849,WAS,"Washington Wizards",4,"Isaiah Thomas",PG,5-9,185,"February 7, 1989",US,8,Washington
+2020,30,2946,WAS,"Washington Wizards",7,"Jarrod Uthoff",PF,6-9,221,"May 19, 1993",US,1,Iowa
+2020,30,2997,WAS,"Washington Wizards",21,"Moritz Wagner",C,6-11,245,"April 26, 1997",DE,1,Michigan
+2020,30,3153,WAS,"Washington Wizards",19,"Johnathan Williams",PF,6-9,228,"May 22, 1995",US,1,"Missouri, Gonzaga"

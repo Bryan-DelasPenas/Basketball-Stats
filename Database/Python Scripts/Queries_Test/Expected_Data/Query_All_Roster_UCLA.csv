@@ -1,0 +1,490 @@
+Season_ID,Team_ID,Player_ID,Team_ABV,Team_Name,Player_Number,Player_Name,Player_Postion,Player_Height,Player_Weight,Birth_Date,Player_Nationality,Player_Experience,Player_College_Name
+1980,5,1119,CHI,"Chicago Bulls",34,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,R,UCLA
+1980,9,1162,DET,"Detroit Pistons",24,"Roy Hamilton",PG,6-2,180,"July 20, 1957",US,R,UCLA
+1980,10,2907,GSW,"Golden State Warriors",11,"Raymond Townsend",SG,6-3,175,"December 20, 1955",US,1,UCLA
+1980,13,2115,SDC,"San Diego Clippers",31,"Swen Nater",C,6-11,240,"January 14, 1950",NL,6,UCLA
+1980,13,3019,SDC,"San Diego Clippers",32,"Bill Walton",C,6-11,210,"November 5, 1952",US,4,UCLA
+1980,13,3110,SDC,"San Diego Clippers",21,"Sidney Wicks",PF,6-8,225,"September 19, 1949",US,8,UCLA
+1980,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,10,UCLA
+1980,14,1311,LAL,"Los Angeles Lakers",14,"Brad Holland",SG,6-3,180,"December 6, 1956",US,R,UCLA
+1980,14,3119,LAL,"Los Angeles Lakers",52,"Jamaal Wilkes",SF,6-6,190,"May 2, 1953",US,5,UCLA
+1980,17,1505,MIL,"Milwaukee Bucks",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,2,UCLA
+1980,17,1978,MIL,"Milwaukee Bucks",7,"Dave Meyers",PF,6-8,215,"April 21, 1953",US,3,UCLA
+1980,17,3039,MIL,"Milwaukee Bucks",31,"Richard Washington",PF,6-11,220,"July 15, 1955",US,3,UCLA
+1980,23,239,PHI,"Philadelphia 76Ers",14,"Henry Bibby",PG,6-1,185,"November 24, 1949",US,7,UCLA
+1981,5,1119,CHI,"Chicago Bulls",34,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,1,UCLA
+1981,5,3120,CHI,"Chicago Bulls",32,"James Wilkes",SF,6-7,195,"April 1, 1958",US,R,UCLA
+1981,6,3039,CLE,"Cleveland Cavaliers",31,"Richard Washington",PF,6-11,220,"July 15, 1955",US,4,UCLA
+1981,7,57,DAL,"Dallas Mavericks",32,"Darrell Allums",PF,6-9,220,"September 12, 1958",US,R,UCLA
+1981,7,789,DAL,"Dallas Mavericks",52,"Ralph Drollinger",C,7-2,250,"April 20, 1954",US,R,UCLA
+1981,7,3039,DAL,"Dallas Mavericks",31,"Richard Washington",PF,6-11,220,"July 15, 1955",US,4,UCLA
+1981,8,2957,DEN,"Denver Nuggets",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,R,UCLA
+1981,13,239,SDC,"San Diego Clippers","10, 15","Henry Bibby",PG,6-1,185,"November 24, 1949",US,8,UCLA
+1981,13,2115,SDC,"San Diego Clippers",31,"Swen Nater",C,6-11,240,"January 14, 1950",NL,7,UCLA
+1981,13,3110,SDC,"San Diego Clippers",21,"Sidney Wicks",PF,6-8,225,"September 19, 1949",US,9,UCLA
+1981,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,11,UCLA
+1981,14,1311,LAL,"Los Angeles Lakers",14,"Brad Holland",SG,6-3,180,"December 6, 1956",US,1,UCLA
+1981,14,3119,LAL,"Los Angeles Lakers",52,"Jamaal Wilkes",SF,6-6,190,"May 2, 1953",US,6,UCLA
+1981,17,1505,MIL,"Milwaukee Bucks",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,3,UCLA
+1981,25,1162,POR,"Portland Trail Blazers",23,"Roy Hamilton",PG,6-2,180,"July 20, 1957",US,1,UCLA
+1981,30,1899,WSB,"Washington Bullets",33,"Andre McCarter",PG,6-3,190,"August 25, 1953",US,2,UCLA
+1982,5,1119,CHI,"Chicago Bulls",34,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,2,UCLA
+1982,5,3120,CHI,"Chicago Bulls",32,"James Wilkes",SF,6-7,195,"April 1, 1958",US,1,UCLA
+1982,6,3039,CLE,"Cleveland Cavaliers",31,"Richard Washington",PF,6-11,220,"July 15, 1955",US,5,UCLA
+1982,8,2957,DEN,"Denver Nuggets",55,"Kiki Vandeweghe",PF,6-8,220,"August 1, 1958",DE,1,UCLA
+1982,12,2907,IND,"Indiana Pacers",11,"Raymond Townsend",SG,6-3,175,"December 20, 1955",US,2,UCLA
+1982,13,2115,SDC,"San Diego Clippers",31,"Swen Nater",C,6-11,240,"January 14, 1950",NL,8,UCLA
+1982,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,12,UCLA
+1982,14,3119,LAL,"Los Angeles Lakers",52,"Jamaal Wilkes",SF,6-6,190,"May 2, 1953",US,7,UCLA
+1982,17,1311,MIL,"Milwaukee Bucks",15,"Brad Holland",SG,6-3,180,"December 6, 1956",US,2,UCLA
+1982,17,1505,MIL,"Milwaukee Bucks",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,4,UCLA
+1982,30,1311,WSB,"Washington Bullets",14,"Brad Holland",SG,6-3,180,"December 6, 1956",US,2,UCLA
+1983,5,1119,CHI,"Chicago Bulls",34,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,3,UCLA
+1983,8,2957,DEN,"Denver Nuggets",55,"Kiki Vandeweghe",PF,6-8,220,"August 1, 1958",DE,2,UCLA
+1983,9,3120,DET,"Detroit Pistons",34,"James Wilkes",SF,6-7,195,"April 1, 1958",US,2,UCLA
+1983,13,2115,SDC,"San Diego Clippers",31,"Swen Nater",C,6-11,240,"January 14, 1950",NL,9,UCLA
+1983,13,3019,SDC,"San Diego Clippers",32,"Bill Walton",C,6-11,210,"November 5, 1952",US,5,UCLA
+1983,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,13,UCLA
+1983,14,3119,LAL,"Los Angeles Lakers",52,"Jamaal Wilkes",SF,6-6,190,"May 2, 1953",US,8,UCLA
+1983,17,1505,MIL,"Milwaukee Bucks",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,5,UCLA
+1983,27,2559,SAS,"San Antonio Spurs",35,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,R,UCLA
+1983,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,R,UCLA
+1984,5,1119,CHI,"Chicago Bulls",34,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,4,UCLA
+1984,8,2957,DEN,"Denver Nuggets",55,"Kiki Vandeweghe",PF,6-8,220,"August 1, 1958",DE,3,UCLA
+1984,13,3019,SDC,"San Diego Clippers",32,"Bill Walton",C,6-11,210,"November 5, 1952",US,6,UCLA
+1984,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,14,UCLA
+1984,14,2115,LAL,"Los Angeles Lakers",41,"Swen Nater",C,6-11,240,"January 14, 1950",NL,10,UCLA
+1984,14,3119,LAL,"Los Angeles Lakers",52,"Jamaal Wilkes",SF,6-6,190,"May 2, 1953",US,9,UCLA
+1984,17,1505,MIL,"Milwaukee Bucks",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,6,UCLA
+1984,24,946,PHO,"Phoenix Suns",10,"Rod Foster",PG,6-1,160,"October 10, 1960",US,R,UCLA
+1984,24,2559,PHO,"Phoenix Suns",7,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,1,UCLA
+1984,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,1,UCLA
+1984,30,712,WSB,"Washington Bullets",25,"Darren Daye",SF,6-8,220,"November 30, 1960",US,R,UCLA
+1985,5,1119,CHI,"Chicago Bulls",10,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,5,UCLA
+1985,12,1095,IND,"Indiana Pacers",55,"Stuart Gray",C,7-0,235,"May 27, 1963",PA,R,UCLA
+1985,12,1414,IND,"Indiana Pacers",2,"Ralph Jackson",PG,6-2,190,"October 26, 1962",US,R,UCLA
+1985,13,1505,LAC,"Los Angeles Clippers",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,7,UCLA
+1985,13,3019,LAC,"Los Angeles Clippers",32,"Bill Walton",C,6-11,210,"November 5, 1952",US,7,UCLA
+1985,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,15,UCLA
+1985,14,3119,LAL,"Los Angeles Lakers",52,"Jamaal Wilkes",SF,6-6,190,"May 2, 1953",US,10,UCLA
+1985,17,914,MIL,"Milwaukee Bucks",7,"Kenny Fields",SF,6-5,220,"February 9, 1962",US,R,UCLA
+1985,24,946,PHO,"Phoenix Suns",10,"Rod Foster",PG,6-1,160,"October 10, 1960",US,1,UCLA
+1985,24,1317,PHO,"Phoenix Suns",15,"Michael Holton",SG,6-4,185,"August 4, 1961",US,R,UCLA
+1985,24,2559,PHO,"Phoenix Suns",11,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,2,UCLA
+1985,25,2957,POR,"Portland Trail Blazers",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,4,UCLA
+1985,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,2,UCLA
+1985,30,712,WSB,"Washington Bullets",25,"Darren Daye",SF,6-8,220,"November 30, 1960",US,1,UCLA
+1986,2,3019,BOS,"Boston Celtics",5,"Bill Walton",C,6-11,210,"November 5, 1952",US,8,UCLA
+1986,5,1317,CHI,"Chicago Bulls","10, 32","Michael Holton",PG,6-4,185,"August 4, 1961",US,1,UCLA
+1986,12,1095,IND,"Indiana Pacers",55,"Stuart Gray",C,7-0,235,"May 27, 1963",PA,1,UCLA
+1986,13,1505,LAC,"Los Angeles Clippers",8,"Marques Johnson",SG,6-7,218,"February 8, 1956",US,8,UCLA
+1986,13,3119,LAC,"Los Angeles Clippers",52,"Jamaal Wilkes",SF,6-6,190,"May 2, 1953",US,11,UCLA
+1986,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,16,UCLA
+1986,17,914,MIL,"Milwaukee Bucks",7,"Kenny Fields",SF,6-5,220,"February 9, 1962",US,1,UCLA
+1986,24,946,PHO,"Phoenix Suns",10,"Rod Foster",PG,6-1,160,"October 10, 1960",US,2,UCLA
+1986,24,1317,PHO,"Phoenix Suns",15,"Michael Holton",SG,6-4,185,"August 4, 1961",US,1,UCLA
+1986,24,2559,PHO,"Phoenix Suns",11,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,3,UCLA
+1986,25,2957,POR,"Portland Trail Blazers",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,5,UCLA
+1986,27,1119,SAS,"San Antonio Spurs",10,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,6,UCLA
+1986,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,3,UCLA
+1986,30,712,WSB,"Washington Bullets",25,"Darren Daye",SF,6-8,220,"November 30, 1960",US,2,UCLA
+1987,2,712,BOS,"Boston Celtics",20,"Darren Daye",SF,6-8,220,"November 30, 1960",US,3,UCLA
+1987,2,3019,BOS,"Boston Celtics",5,"Bill Walton",C,6-11,210,"November 5, 1952",US,9,UCLA
+1987,5,712,CHI,"Chicago Bulls",30,"Darren Daye",SF,6-8,220,"November 30, 1960",US,3,UCLA
+1987,12,1095,IND,"Indiana Pacers",55,"Stuart Gray",C,7-0,235,"May 27, 1963",PA,2,UCLA
+1987,13,914,LAC,"Los Angeles Clippers",54,"Kenny Fields",SF,6-5,220,"February 9, 1962",US,2,UCLA
+1987,13,1505,LAC,"Los Angeles Clippers",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,9,UCLA
+1987,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,17,UCLA
+1987,17,914,MIL,"Milwaukee Bucks",54,"Kenny Fields",SF,6-5,220,"February 9, 1962",US,2,UCLA
+1987,20,3239,NYK,"New York Knicks",8,"Brad Wright",PF,6-11,225,"March 26, 1962",US,R,UCLA
+1987,24,2559,PHO,"Phoenix Suns",11,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,4,UCLA
+1987,25,1317,POR,"Portland Trail Blazers",6,"Michael Holton",PG,6-4,185,"August 4, 1961",US,2,UCLA
+1987,25,2957,POR,"Portland Trail Blazers",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,6,UCLA
+1987,27,1119,SAS,"San Antonio Spurs",10,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,7,UCLA
+1987,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,4,UCLA
+1988,2,712,BOS,"Boston Celtics",20,"Darren Daye",SF,6-8,220,"November 30, 1960",US,4,UCLA
+1988,6,2559,CLE,"Cleveland Cavaliers",11,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,5,UCLA
+1988,8,3239,DEN,"Denver Nuggets",35,"Brad Wright",PF,6-11,225,"March 26, 1962",US,1,UCLA
+1988,12,1095,IND,"Indiana Pacers",55,"Stuart Gray",C,7-0,235,"May 27, 1963",PA,3,UCLA
+1988,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,R,UCLA
+1988,13,914,LAC,"Los Angeles Clippers",54,"Kenny Fields",SF,6-5,220,"February 9, 1962",US,3,UCLA
+1988,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,18,UCLA
+1988,24,2559,PHO,"Phoenix Suns",11,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,5,UCLA
+1988,25,1317,POR,"Portland Trail Blazers",6,"Michael Holton",PG,6-4,185,"August 4, 1961",US,3,UCLA
+1988,25,2957,POR,"Portland Trail Blazers",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,7,UCLA
+1988,27,1119,SAS,"San Antonio Spurs",10,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,8,UCLA
+1988,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,5,UCLA
+1989,5,1150,CHI,"Chicago Bulls",15,"Jack Haley",PF,6-10,240,"January 27, 1964",US,R,UCLA
+1989,6,2559,CLE,"Cleveland Cavaliers",11,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,6,UCLA
+1989,8,1119,DEN,"Denver Nuggets",22,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,9,UCLA
+1989,12,1095,IND,"Indiana Pacers",55,"Stuart Gray",C,7-0,235,"May 27, 1963",PA,4,UCLA
+1989,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,1,UCLA
+1989,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,19,UCLA
+1989,20,2957,NYK,"New York Knicks",55,"Kiki Vandeweghe",PF,6-8,220,"August 1, 1958",DE,8,UCLA
+1989,25,2957,POR,"Portland Trail Blazers",55,"Kiki Vandeweghe",PF,6-8,220,"August 1, 1958",DE,8,UCLA
+1989,27,1119,SAS,"San Antonio Spurs",10,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,9,UCLA
+1989,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,6,UCLA
+1990,3,1150,NJN,"New Jersey Nets",44,"Jack Haley",PF,6-10,240,"January 27, 1964",US,1,UCLA
+1990,5,1150,CHI,"Chicago Bulls",15,"Jack Haley",PF,6-10,240,"January 27, 1964",US,1,UCLA
+1990,9,1119,DET,"Detroit Pistons",33,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,10,UCLA
+1990,10,1505,GSW,"Golden State Warriors",8,"Marques Johnson",SF,6-7,218,"February 8, 1956",US,10,UCLA
+1990,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,2,UCLA
+1990,12,2559,IND,"Indiana Pacers",33,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,7,UCLA
+1990,18,2448,MIN,"Minnesota Timberwolves",24,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,R,UCLA
+1990,20,1095,NYK,"New York Knicks",40,"Stuart Gray",C,7-0,235,"May 27, 1963",PA,5,UCLA
+1990,20,2957,NYK,"New York Knicks",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,9,UCLA
+1990,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,7,UCLA
+1991,1,3203,ATL,"Atlanta Hawks",44,"Trevor Wilson",PF,6-7,210,"March 16, 1968",US,R,UCLA
+1991,3,1150,NJN,"New Jersey Nets",54,"Jack Haley",PF,6-10,240,"January 27, 1964",US,2,UCLA
+1991,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,3,UCLA
+1991,12,2559,IND,"Indiana Pacers",33,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,8,UCLA
+1991,18,2448,MIN,"Minnesota Timberwolves",24,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,1,UCLA
+1991,20,1095,NYK,"New York Knicks",40,"Stuart Gray",C,7-0,235,"May 27, 1963",PA,6,UCLA
+1991,20,2957,NYK,"New York Knicks",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,10,UCLA
+1991,27,1119,SAS,"San Antonio Spurs",33,"Dave Greenwood",PF,6-9,222,"May 27, 1957",US,11,UCLA
+1991,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,8,UCLA
+1992,6,2559,CLE,"Cleveland Cavaliers",33,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,9,UCLA
+1992,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,4,UCLA
+1992,12,2559,IND,"Indiana Pacers",33,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,9,UCLA
+1992,14,1150,LAL,"Los Angeles Lakers",54,"Jack Haley",C,6-10,240,"January 27, 1964",US,3,UCLA
+1992,14,2228,LAL,"Los Angeles Lakers",25,"Keith Owens",SF,6-7,225,"May 31, 1969",US,R,UCLA
+1992,18,2448,MIN,"Minnesota Timberwolves",24,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,2,UCLA
+1992,20,2957,NYK,"New York Knicks",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,11,UCLA
+1992,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,9,UCLA
+1993,6,2559,CLE,"Cleveland Cavaliers",33,"Mike Sanders",SF,6-6,210,"May 7, 1960",US,10,UCLA
+1993,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,5,UCLA
+1993,12,2448,IND,"Indiana Pacers",24,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,3,UCLA
+1993,13,2957,LAC,"Los Angeles Clippers",55,"Kiki Vandeweghe",SF,6-8,220,"August 1, 1958",DE,12,UCLA
+1993,25,2094,POR,"Portland Trail Blazers",31,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,R,UCLA
+1993,29,816,UTA,"Utah Jazz",53,"Mark Eaton",C,7-4,275,"January 24, 1957",US,10,UCLA
+1993,30,1796,WSB,"Washington Bullets",34,"Don MacLean",PF,6-10,235,"January 16, 1970",US,R,UCLA
+1994,6,1810,CLE,"Cleveland Cavaliers",12,"Gerald Madkins",SG,6-4,200,"April 18, 1969",US,R,UCLA
+1994,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,6,UCLA
+1994,12,2448,IND,"Indiana Pacers",24,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,4,UCLA
+1994,14,3203,LAL,"Los Angeles Lakers",7,"Trevor Wilson",PF,6-7,210,"March 16, 1968",US,1,UCLA
+1994,25,2094,POR,"Portland Trail Blazers",31,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,1,UCLA
+1994,26,3203,SAC,"Sacramento Kings",21,"Trevor Wilson",PF,6-7,210,"March 16, 1968",US,1,UCLA
+1994,27,1150,SAS,"San Antonio Spurs",54,"Jack Haley",PF,6-10,240,"January 27, 1964",US,4,UCLA
+1994,30,440,WSB,"Washington Bullets",32,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,R,UCLA
+1994,30,1796,WSB,"Washington Bullets",34,"Don MacLean",SF,6-10,235,"January 16, 1970",US,1,UCLA
+1995,6,1810,CLE,"Cleveland Cavaliers",12,"Gerald Madkins",SG,6-4,200,"April 18, 1969",US,1,UCLA
+1995,11,2094,HOU,"Houston Rockets",31,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,2,UCLA
+1995,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,7,UCLA
+1995,13,2448,LAC,"Los Angeles Clippers",2,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,5,UCLA
+1995,18,1855,MIN,"Minnesota Timberwolves",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,R,UCLA
+1995,25,2094,POR,"Portland Trail Blazers",31,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,2,UCLA
+1995,26,3203,SAC,"Sacramento Kings",21,"Trevor Wilson",PF,6-7,210,"March 16, 1968",US,2,UCLA
+1995,27,1150,SAS,"San Antonio Spurs",54,"Jack Haley",PF,6-10,240,"January 27, 1964",US,5,UCLA
+1995,30,440,WSB,"Washington Bullets",32,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,1,UCLA
+1995,30,1796,WSB,"Washington Bullets",34,"Don MacLean",PF,6-10,235,"January 16, 1970",US,2,UCLA
+1996,3,2173,NJN,"New Jersey Nets",31,"Ed O'Bannon",SG,6-8,222,"August 14, 1972",US,R,UCLA
+1996,5,1150,CHI,"Chicago Bulls",54,"Jack Haley",C,6-10,240,"January 27, 1964",US,6,UCLA
+1996,8,1796,DEN,"Denver Nuggets",7,"Don MacLean",SF,6-10,235,"January 16, 1970",US,3,UCLA
+1996,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,8,UCLA
+1996,13,2448,LAC,"Los Angeles Clippers",2,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,6,UCLA
+1996,15,1855,VAN,"Vancouver Grizzlies",5,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,1,UCLA
+1996,18,1855,MIN,"Minnesota Timberwolves",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,1,UCLA
+1996,23,3203,PHI,"Philadelphia 76Ers",30,"Trevor Wilson",PF,6-7,210,"March 16, 1968",US,3,UCLA
+1996,26,824,SAC,"Sacramento Kings",5,"Tyus Edney",PG,5-10,152,"February 14, 1973",US,R,UCLA
+1996,28,2094,TOR,"Toronto Raptors",35,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,3,UCLA
+1996,30,440,WSB,"Washington Bullets",32,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,2,UCLA
+1997,3,1150,NJN,"New Jersey Nets",54,"Jack Haley",C,6-10,240,"January 27, 1964",US,7,UCLA
+1997,3,2173,NJN,"New Jersey Nets",31,"Ed O'Bannon",SF,6-8,222,"August 14, 1972",US,1,UCLA
+1997,7,2173,DAL,"Dallas Mavericks",31,"Ed O'Bannon",SF,6-8,222,"August 14, 1972",US,1,UCLA
+1997,8,3275,DEN,"Denver Nuggets",25,"George Zidek",C,7-0,250,"August 2, 1973",CZ,1,UCLA
+1997,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,9,UCLA
+1997,13,1855,LAC,"Los Angeles Clippers",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,2,UCLA
+1997,13,2448,LAC,"Los Angeles Clippers",2,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,7,UCLA
+1997,23,1796,PHI,"Philadelphia 76Ers",25,"Don MacLean",SF,6-10,235,"January 16, 1970",US,4,UCLA
+1997,25,440,POR,"Portland Trail Blazers",6,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,3,UCLA
+1997,26,824,SAC,"Sacramento Kings",5,"Tyus Edney",PG,5-10,152,"February 14, 1973",US,1,UCLA
+1997,30,2094,WSB,"Washington Bullets",35,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,4,UCLA
+1998,2,824,BOS,"Boston Celtics",20,"Tyus Edney",PG,5-10,152,"February 14, 1973",US,2,UCLA
+1998,3,1150,NJN,"New Jersey Nets",54,"Jack Haley",C,6-10,240,"January 27, 1964",US,8,UCLA
+1998,3,1796,NJN,"New Jersey Nets",24,"Don MacLean",SF,6-10,235,"January 16, 1970",US,5,UCLA
+1998,6,440,CLE,"Cleveland Cavaliers",6,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,4,UCLA
+1998,8,3275,DEN,"Denver Nuggets",25,"George Zidek",C,7-0,250,"August 2, 1973",CZ,2,UCLA
+1998,9,2172,DET,"Detroit Pistons",5,"Charles O'Bannon",SG,6-5,209,"February 22, 1975",US,R,UCLA
+1998,10,1810,GSW,"Golden State Warriors",2,"Gerald Madkins",SG,6-4,200,"April 18, 1969",US,2,UCLA
+1998,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,10,UCLA
+1998,13,1855,LAC,"Los Angeles Clippers",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,3,UCLA
+1998,13,2448,LAC,"Los Angeles Clippers",24,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,8,UCLA
+1998,21,3275,SEA,"Seattle Supersonics",52,"George Zidek",C,7-0,250,"August 2, 1973",CZ,2,UCLA
+1998,30,2094,WAS,"Washington Wizards",35,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,5,UCLA
+1999,6,440,CLE,"Cleveland Cavaliers",6,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,5,UCLA
+1999,9,2172,DET,"Detroit Pistons",5,"Charles O'Bannon",SG,6-5,209,"February 22, 1975",US,1,UCLA
+1999,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,11,UCLA
+1999,13,1855,LAC,"Los Angeles Clippers",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,4,UCLA
+1999,13,2448,LAC,"Los Angeles Clippers",24,"Pooh Richardson",PG,6-1,180,"May 14, 1966",US,9,UCLA
+1999,15,1254,VAN,"Vancouver Grizzlies",52,"J.R. Henderson",SF,6-8,226,"October 30, 1976",US,R,UCLA
+1999,21,1796,SEA,"Seattle Supersonics",24,"Don MacLean",PF,6-10,235,"January 16, 1970",US,6,UCLA
+1999,21,1911,SEA,"Seattle Supersonics",34,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,R,UCLA
+1999,24,143,PHO,"Phoenix Suns",12,"Toby Bailey",SG,6-6,213,"November 19, 1975",US,R,UCLA
+1999,30,2094,WAS,"Washington Wizards",35,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,6,UCLA
+2000,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,12,UCLA
+2000,21,1911,SEA,"Seattle Supersonics",34,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,1,UCLA
+2000,24,143,PHO,"Phoenix Suns",12,"Toby Bailey",SG,6-6,213,"November 19, 1975",US,1,UCLA
+2000,24,1796,PHO,"Phoenix Suns",25,"Don MacLean",PF,6-10,235,"January 16, 1970",US,7,UCLA
+2000,26,1855,SAC,"Sacramento Kings",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,5,UCLA
+2000,30,2094,WAS,"Washington Wizards",30,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,7,UCLA
+2001,2,2023,BOS,"Boston Celtics",5,"Jerome Moiso",C,6-10,235,"June 15, 1978",FR,R,UCLA
+2001,8,2094,DEN,"Denver Nuggets",3,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,8,UCLA
+2001,12,824,IND,"Indiana Pacers",2,"Tyus Edney",PG,5-10,152,"February 14, 1973",US,3,UCLA
+2001,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,13,UCLA
+2001,16,1796,MIA,"Miami Heat",7,"Don MacLean",SF,6-10,235,"January 16, 1970",US,8,UCLA
+2001,21,1911,SEA,"Seattle Supersonics",34,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,2,UCLA
+2001,26,1855,SAC,"Sacramento Kings",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,6,UCLA
+2001,28,2094,TOR,"Toronto Raptors",3,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,8,UCLA
+2002,7,1855,DAL,"Dallas Mavericks",2,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,7,UCLA
+2002,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,14,UCLA
+2002,14,1911,LAL,"Los Angeles Lakers",6,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,3,UCLA
+2002,21,3044,SEA,"Seattle Supersonics",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,R,UCLA
+2002,25,440,POR,"Portland Trail Blazers",23,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,6,UCLA
+2002,28,2094,TOR,"Toronto Raptors",35,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,9,UCLA
+2003,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,15,UCLA
+2003,14,2094,LAL,"Los Angeles Lakers",30,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,10,UCLA
+2003,15,3044,MEM,"Memphis Grizzlies",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,1,UCLA
+2003,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,R,UCLA
+2003,19,678,NOH,"New Orleans Hornets",1,"Baron Davis",PG,6-3,209,"April 13, 1979",US,3,UCLA
+2003,19,2023,NOH,"New Orleans Hornets",6,"Jerome Moiso",C,6-10,235,"June 15, 1978",FR,2,UCLA
+2003,28,1911,TOR,"Toronto Raptors",4,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,4,UCLA
+2004,6,1581,CLE,"Cleveland Cavaliers",24,"Jason Kapono",SF,6-8,213,"February 4, 1981",US,R,UCLA
+2004,6,1911,CLE,"Cleveland Cavaliers",32,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,5,UCLA
+2004,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,16,UCLA
+2004,13,169,LAC,"Los Angeles Clippers",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,R,UCLA
+2004,15,3044,MEM,"Memphis Grizzlies",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,2,UCLA
+2004,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,1,UCLA
+2004,18,1855,MIN,"Minnesota Timberwolves",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,8,UCLA
+2004,19,678,NOH,"New Orleans Hornets",1,"Baron Davis",PG,6-3,209,"April 13, 1979",US,4,UCLA
+2004,25,2094,POR,"Portland Trail Blazers",35,"Tracy Murray",SF,6-7,225,"July 25, 1971",US,11,UCLA
+2004,28,2023,TOR,"Toronto Raptors",6,"Jerome Moiso",PF,6-10,235,"June 15, 1978",FR,3,UCLA
+2004,30,440,WAS,"Washington Wizards",32,"Mitchell Butler",SG,6-5,210,"December 15, 1970",US,7,UCLA
+2005,1,1911,ATL,"Atlanta Hawks",34,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,6,UCLA
+2005,3,2023,NJN,"New Jersey Nets",7,"Jerome Moiso",C,6-10,235,"June 15, 1978",FR,4,UCLA
+2005,4,1581,CHA,"Charlotte Bobcats",24,"Jason Kapono",SF,6-8,213,"February 4, 1981",US,1,UCLA
+2005,6,2023,CLE,"Cleveland Cavaliers",6,"Jerome Moiso",PF,6-10,235,"June 15, 1978",FR,4,UCLA
+2005,10,678,GSW,"Golden State Warriors",5,"Baron Davis",PG,6-3,209,"April 13, 1979",US,5,UCLA
+2005,12,1999,IND,"Indiana Pacers",31,"Reggie Miller",SG,6-7,185,"August 24, 1965",US,17,UCLA
+2005,13,1855,LAC,"Los Angeles Clippers",15,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,9,UCLA
+2005,15,3044,MEM,"Memphis Grizzlies",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,3,UCLA
+2005,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,2,UCLA
+2005,19,678,NOH,"New Orleans Hornets",1,"Baron Davis",PG,6-3,209,"April 13, 1979",US,5,UCLA
+2005,20,105,NYK,"New York Knicks",21,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,R,UCLA
+2005,26,169,SAC,"Sacramento Kings",9,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,1,UCLA
+2005,28,2023,TOR,"Toronto Raptors",6,"Jerome Moiso",C,6-10,235,"June 15, 1978",FR,4,UCLA
+2006,8,3044,DEN,"Denver Nuggets",8,"Earl Watson",PG,6-1,195,"June 12, 1979",US,4,UCLA
+2006,10,678,GSW,"Golden State Warriors",5,"Baron Davis",PG,6-3,209,"April 13, 1979",US,6,UCLA
+2006,16,1581,MIA,"Miami Heat",24,"Jason Kapono",SF,6-8,213,"February 4, 1981",US,2,UCLA
+2006,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,3,UCLA
+2006,20,105,NYK,"New York Knicks",21,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,1,UCLA
+2006,20,169,NYK,"New York Knicks",9,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,2,UCLA
+2006,21,3044,SEA,"Seattle Supersonics",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,4,UCLA
+2006,22,105,ORL,"Orlando Magic",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,1,UCLA
+2006,23,169,PHI,"Philadelphia 76Ers",21,"Matt Barnes",PF,6-7,226,"March 9, 1980",US,2,UCLA
+2006,24,2869,PHO,"Phoenix Suns",1,"Dijon Thompson",SG,6-7,195,"February 23, 1983",US,R,UCLA
+2006,28,1855,TOR,"Toronto Raptors",2,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,10,UCLA
+2007,1,318,ATL,"Atlanta Hawks",6,"Cedric Bozeman",SG,6-6,207,"March 7, 1983",US,R,UCLA
+2007,1,2869,ATL,"Atlanta Hawks",7,"Dijon Thompson",SF,6-7,195,"February 23, 1983",US,1,UCLA
+2007,4,1314,CHA,"Charlotte Bobcats",1,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,R,UCLA
+2007,10,169,GSW,"Golden State Warriors",22,"Matt Barnes",PF,6-7,226,"March 9, 1980",US,3,UCLA
+2007,10,678,GSW,"Golden State Warriors",5,"Baron Davis",PG,6-3,209,"April 13, 1979",US,7,UCLA
+2007,14,890,LAL,"Los Angeles Lakers",5,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,R,UCLA
+2007,16,1581,MIA,"Miami Heat",24,"Jason Kapono",SF,6-8,213,"February 4, 1981",US,3,UCLA
+2007,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,4,UCLA
+2007,21,3044,SEA,"Seattle Supersonics",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,5,UCLA
+2007,22,105,ORL,"Orlando Magic",1,"Trevor Ariza",SG,6-8,215,"June 30, 1985",US,2,UCLA
+2007,28,1855,TOR,"Toronto Raptors",2,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,11,UCLA
+2008,4,1314,CHA,"Charlotte Bobcats",15,"Ryan Hollins",PF,7-0,240,"October 10, 1984",US,1,UCLA
+2008,8,1911,DEN,"Denver Nuggets",34,"Jelani McCoy",C,6-10,245,"December 6, 1977",US,7,UCLA
+2008,9,22,DET,"Detroit Pistons",28,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,R,UCLA
+2008,10,169,GSW,"Golden State Warriors",22,"Matt Barnes",PF,6-7,226,"March 9, 1980",US,4,UCLA
+2008,10,678,GSW,"Golden State Warriors",5,"Baron Davis",PG,6-3,209,"April 13, 1979",US,8,UCLA
+2008,14,105,LAL,"Los Angeles Lakers",3,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,3,UCLA
+2008,14,890,LAL,"Los Angeles Lakers",5,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,1,UCLA
+2008,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,5,UCLA
+2008,21,3044,SEA,"Seattle Supersonics",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,6,UCLA
+2008,22,105,ORL,"Orlando Magic",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,3,UCLA
+2008,28,1581,TOR,"Toronto Raptors",24,"Jason Kapono",SF,6-8,213,"February 4, 1981",US,4,UCLA
+2008,28,1855,TOR,"Toronto Raptors",2,"Darrick Martin",PG,5-11,170,"March 6, 1971",US,12,UCLA
+2009,4,1314,CHA,"Charlotte Bobcats",15,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,2,UCLA
+2009,7,1314,DAL,"Dallas Mavericks",1,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,2,UCLA
+2009,9,22,DET,"Detroit Pistons",28,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,1,UCLA
+2009,13,678,LAC,"Los Angeles Clippers",1,"Baron Davis",PG,6-3,209,"April 13, 1979",US,9,UCLA
+2009,14,105,LAL,"Los Angeles Lakers",3,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,4,UCLA
+2009,14,890,LAL,"Los Angeles Lakers",5,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,2,UCLA
+2009,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,6,UCLA
+2009,17,1891,MIL,"Milwaukee Bucks",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,R,UCLA
+2009,18,1780,MIN,"Minnesota Timberwolves",42,"Kevin Love",C,6-8,251,"September 7, 1988",US,R,UCLA
+2009,21,3044,OKC,"Oklahoma City Thunder",25,"Earl Watson",PG,6-1,195,"June 12, 1979",US,7,UCLA
+2009,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,R,UCLA
+2009,24,169,PHO,"Phoenix Suns",22,"Matt Barnes",PF,6-7,226,"March 9, 1980",US,5,UCLA
+2009,28,1581,TOR,"Toronto Raptors",24,"Jason Kapono",SG,6-8,213,"February 4, 1981",US,5,UCLA
+2010,8,22,DEN,"Denver Nuggets",6,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,2,UCLA
+2010,11,105,HOU,"Houston Rockets",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,5,UCLA
+2010,12,3044,IND,"Indiana Pacers",2,"Earl Watson",PG,6-1,195,"June 12, 1979",US,8,UCLA
+2010,13,678,LAC,"Los Angeles Clippers",1,"Baron Davis",PG,6-3,209,"April 13, 1979",US,10,UCLA
+2010,14,890,LAL,"Los Angeles Lakers",1,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,3,UCLA
+2010,17,975,MIL,"Milwaukee Bucks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,7,UCLA
+2010,17,1891,MIL,"Milwaukee Bucks",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,1,UCLA
+2010,18,1314,MIN,"Minnesota Timberwolves",1,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,3,UCLA
+2010,18,1780,MIN,"Minnesota Timberwolves",42,"Kevin Love",PF,6-8,251,"September 7, 1988",US,1,UCLA
+2010,19,578,NOH,"New Orleans Hornets",2,"Darren Collison",PG,6-0,175,"August 23, 1987",US,R,UCLA
+2010,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,1,UCLA
+2010,22,169,ORL,"Orlando Magic",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,6,UCLA
+2010,23,1309,PHI,"Philadelphia 76Ers",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,R,UCLA
+2010,23,1581,PHI,"Philadelphia 76Ers",72,"Jason Kapono",SF,6-8,213,"February 4, 1981",US,6,UCLA
+2011,3,890,NJN,"New Jersey Nets",2,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,4,UCLA
+2011,3,975,NJN,"New Jersey Nets",50,"Dan Gadzuric",PF,6-11,240,"February 2, 1978",NL,8,UCLA
+2011,6,678,CLE,"Cleveland Cavaliers",85,"Baron Davis",PG,6-3,209,"April 13, 1979",US,11,UCLA
+2011,6,1314,CLE,"Cleveland Cavaliers",5,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,4,UCLA
+2011,8,22,DEN,"Denver Nuggets",6,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,3,UCLA
+2011,10,975,GSW,"Golden State Warriors",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,8,UCLA
+2011,12,578,IND,"Indiana Pacers",2,"Darren Collison",PG,6-0,175,"August 23, 1987",US,1,UCLA
+2011,13,678,LAC,"Los Angeles Clippers",5,"Baron Davis",PG,6-3,209,"April 13, 1979",US,11,UCLA
+2011,14,169,LAL,"Los Angeles Lakers",9,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,7,UCLA
+2011,17,1891,MIL,"Milwaukee Bucks",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,2,UCLA
+2011,18,1780,MIN,"Minnesota Timberwolves",42,"Kevin Love",PF,6-8,251,"September 7, 1988",US,2,UCLA
+2011,19,105,NOH,"New Orleans Hornets",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,6,UCLA
+2011,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,2,UCLA
+2011,23,1309,PHI,"Philadelphia 76Ers",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,1,UCLA
+2011,23,1581,PHI,"Philadelphia 76Ers",72,"Jason Kapono",SF,6-8,213,"February 4, 1981",US,7,UCLA
+2011,29,3044,UTA,"Utah Jazz",11,"Earl Watson",PG,6-1,195,"June 12, 1979",US,9,UCLA
+2012,2,1314,BOS,"Boston Celtics",50,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,5,UCLA
+2012,3,890,NJN,"New Jersey Nets",2,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,5,UCLA
+2012,6,1314,CLE,"Cleveland Cavaliers",5,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,5,UCLA
+2012,8,22,DEN,"Denver Nuggets",6,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,4,UCLA
+2012,12,578,IND,"Indiana Pacers",2,"Darren Collison",PG,6-0,175,"August 23, 1987",US,2,UCLA
+2012,14,169,LAL,"Los Angeles Lakers",9,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,8,UCLA
+2012,14,1581,LAL,"Los Angeles Lakers",28,"Jason Kapono",SG,6-8,213,"February 4, 1981",US,8,UCLA
+2012,17,1891,MIL,"Milwaukee Bucks",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,3,UCLA
+2012,18,1725,MIN,"Minnesota Timberwolves",3,"Malcolm Lee",SG,6-5,200,"May 22, 1990",US,R,UCLA
+2012,18,1780,MIN,"Minnesota Timberwolves",42,"Kevin Love",PF,6-8,251,"September 7, 1988",US,3,UCLA
+2012,19,105,NOH,"New Orleans Hornets",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,7,UCLA
+2012,20,678,NYK,"New York Knicks",85,"Baron Davis",PG,6-3,209,"April 13, 1979",US,12,UCLA
+2012,20,975,NYK,"New York Knicks",50,"Dan Gadzuric",C,6-11,240,"February 2, 1978",NL,9,UCLA
+2012,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,3,UCLA
+2012,23,1309,PHI,"Philadelphia 76Ers",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,2,UCLA
+2012,26,1319,SAC,"Sacramento Kings",3,"Tyler Honeycutt",SF,6-8,188,"July 15, 1990",US,R,UCLA
+2012,29,3044,UTA,"Utah Jazz",11,"Earl Watson",PG,6-1,195,"June 12, 1979",US,10,UCLA
+2013,7,578,DAL,"Dallas Mavericks",4,"Darren Collison",PG,6-0,175,"August 23, 1987",US,3,UCLA
+2013,13,169,LAC,"Los Angeles Clippers",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,9,UCLA
+2013,13,1314,LAC,"Los Angeles Clippers",15,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,6,UCLA
+2013,17,1891,MIL,"Milwaukee Bucks",12,"Luc Mbah a Moute",SF,6-8,230,"September 9, 1986",CM,4,UCLA
+2013,18,1725,MIN,"Minnesota Timberwolves",8,"Malcolm Lee",SG,6-5,200,"May 22, 1990",US,1,UCLA
+2013,18,1780,MIN,"Minnesota Timberwolves",42,"Kevin Love",PF,6-8,251,"September 7, 1988",US,4,UCLA
+2013,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,4,UCLA
+2013,22,22,ORL,"Orlando Magic",4,"Arron Afflalo",SF,6-5,210,"October 15, 1985",US,5,UCLA
+2013,23,1309,PHI,"Philadelphia 76Ers",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,3,UCLA
+2013,26,1319,SAC,"Sacramento Kings",9,"Tyler Honeycutt",SF,6-8,188,"July 15, 1990",US,1,UCLA
+2013,29,3044,UTA,"Utah Jazz",11,"Earl Watson",PG,6-1,195,"June 12, 1979",US,11,UCLA
+2013,30,105,WAS,"Washington Wizards",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,8,UCLA
+2014,13,169,LAC,"Los Angeles Clippers",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,10,UCLA
+2014,13,578,LAC,"Los Angeles Clippers",2,"Darren Collison",PG,6-0,175,"August 23, 1987",US,4,UCLA
+2014,13,1314,LAC,"Los Angeles Clippers",15,"Ryan Hollins",PF,7-0,240,"October 10, 1984",US,7,UCLA
+2014,14,890,LAL,"Los Angeles Lakers",1,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,6,UCLA
+2014,18,1780,MIN,"Minnesota Timberwolves",42,"Kevin Love",PF,6-8,251,"September 7, 1988",US,5,UCLA
+2014,18,1891,MIN,"Minnesota Timberwolves",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,5,UCLA
+2014,18,2074,MIN,"Minnesota Timberwolves",15,"Shabazz Muhammad",SG,6-6,223,"November 13, 1992",US,R,UCLA
+2014,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,4,UCLA
+2014,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,5,UCLA
+2014,22,22,ORL,"Orlando Magic",4,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,6,UCLA
+2014,25,3044,POR,"Portland Trail Blazers",17,"Earl Watson",PG,6-1,195,"June 12, 1979",US,12,UCLA
+2014,26,1891,SAC,"Sacramento Kings",33,"Luc Mbah a Moute",SF,6-8,230,"September 9, 1986",CM,5,UCLA
+2014,30,105,WAS,"Washington Wizards",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,9,UCLA
+2015,6,1780,CLE,"Cleveland Cavaliers",0,"Kevin Love",PF,6-8,251,"September 7, 1988",US,6,UCLA
+2015,8,22,DEN,"Denver Nuggets",10,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,7,UCLA
+2015,11,105,HOU,"Houston Rockets",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,10,UCLA
+2015,13,169,LAC,"Los Angeles Clippers",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,11,UCLA
+2015,13,890,LAC,"Los Angeles Clippers",1,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,7,UCLA
+2015,15,15,MEM,"Memphis Grizzlies",3,"Jordan Adams",SG,6-5,209,"July 8, 1994",US,R,UCLA
+2015,18,1674,MIN,"Minnesota Timberwolves",8,"Zach LaVine",PG,6-5,200,"March 10, 1995",US,R,UCLA
+2015,18,2074,MIN,"Minnesota Timberwolves",15,"Shabazz Muhammad",SG,6-6,223,"November 13, 1992",US,1,UCLA
+2015,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,5,UCLA
+2015,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,6,UCLA
+2015,23,1725,PHI,"Philadelphia 76Ers",11,"Malcolm Lee",SG,6-5,200,"May 22, 1990",US,2,UCLA
+2015,23,1891,PHI,"Philadelphia 76Ers",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,6,UCLA
+2015,25,22,POR,"Portland Trail Blazers",4,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,7,UCLA
+2015,26,578,SAC,"Sacramento Kings",7,"Darren Collison",PG,6-0,175,"August 23, 1987",US,5,UCLA
+2015,26,1314,SAC,"Sacramento Kings",5,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,8,UCLA
+2015,27,78,SAS,"San Antonio Spurs",1,"Kyle Anderson",SF,6-9,230,"September 20, 1993",US,R,UCLA
+2016,6,1780,CLE,"Cleveland Cavaliers",0,"Kevin Love",PF,6-8,251,"September 7, 1988",US,7,UCLA
+2016,10,1774,GSW,"Golden State Warriors",36,"Kevon Looney",PF,6-9,222,"February 6, 1996",US,R,UCLA
+2016,11,105,HOU,"Houston Rockets",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,11,UCLA
+2016,13,1891,LAC,"Los Angeles Clippers",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,7,UCLA
+2016,15,15,MEM,"Memphis Grizzlies",3,"Jordan Adams",SG,6-5,209,"July 8, 1994",US,1,UCLA
+2016,15,169,MEM,"Memphis Grizzlies",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,12,UCLA
+2016,15,890,MEM,"Memphis Grizzlies",4,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,8,UCLA
+2016,15,1314,MEM,"Memphis Grizzlies",20,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,9,UCLA
+2016,18,1674,MIN,"Minnesota Timberwolves",8,"Zach LaVine",SG,6-5,200,"March 10, 1995",US,1,UCLA
+2016,18,2074,MIN,"Minnesota Timberwolves",15,"Shabazz Muhammad",SF,6-6,223,"November 13, 1992",US,2,UCLA
+2016,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,6,UCLA
+2016,20,22,NYK,"New York Knicks",4,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,8,UCLA
+2016,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,7,UCLA
+2016,26,578,SAC,"Sacramento Kings",7,"Darren Collison",PG,6-0,175,"August 23, 1987",US,6,UCLA
+2016,27,78,SAS,"San Antonio Spurs",1,"Kyle Anderson",SF,6-9,230,"September 20, 1993",US,1,UCLA
+2016,28,2354,TOR,"Toronto Raptors",24,"Norman Powell",SG,6-3,215,"May 25, 1993",US,R,UCLA
+2016,30,1314,WAS,"Washington Wizards",15,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,9,UCLA
+2017,6,1780,CLE,"Cleveland Cavaliers",0,"Kevin Love",PF,6-8,251,"September 7, 1988",US,8,UCLA
+2017,10,169,GSW,"Golden State Warriors",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,13,UCLA
+2017,10,1774,GSW,"Golden State Warriors",5,"Kevon Looney",C,6-9,222,"February 6, 1996",US,1,UCLA
+2017,11,105,HOU,"Houston Rockets",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,12,UCLA
+2017,13,1891,LAC,"Los Angeles Clippers",12,"Luc Mbah a Moute",SF,6-8,230,"September 9, 1986",CM,8,UCLA
+2017,18,1674,MIN,"Minnesota Timberwolves",8,"Zach LaVine",SG,6-5,200,"March 10, 1995",US,2,UCLA
+2017,18,2074,MIN,"Minnesota Timberwolves",15,"Shabazz Muhammad",SF,6-6,223,"November 13, 1992",US,3,UCLA
+2017,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",PG,6-3,205,"June 12, 1990",US,7,UCLA
+2017,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,8,UCLA
+2017,26,22,SAC,"Sacramento Kings",40,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,9,UCLA
+2017,26,169,SAC,"Sacramento Kings",22,"Matt Barnes",SF,6-7,226,"March 9, 1980",US,13,UCLA
+2017,26,578,SAC,"Sacramento Kings",7,"Darren Collison",PG,6-0,175,"August 23, 1987",US,7,UCLA
+2017,26,890,SAC,"Sacramento Kings",20,"Jordan Farmar",PG,6-2,180,"November 30, 1986",US,9,UCLA
+2017,27,78,SAS,"San Antonio Spurs",1,"Kyle Anderson",SF,6-9,230,"September 20, 1993",US,2,UCLA
+2017,28,2354,TOR,"Toronto Raptors",24,"Norman Powell",SG,6-3,215,"May 25, 1993",US,1,UCLA
+2018,5,1674,CHI,"Chicago Bulls",8,"Zach LaVine",SG,6-5,200,"March 10, 1995",US,3,UCLA
+2018,6,1780,CLE,"Cleveland Cavaliers",0,"Kevin Love",C,6-8,251,"September 7, 1988",US,9,UCLA
+2018,10,1774,GSW,"Golden State Warriors",5,"Kevon Looney",C,6-9,222,"February 6, 1996",US,2,UCLA
+2018,11,105,HOU,"Houston Rockets",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,13,UCLA
+2018,11,1891,HOU,"Houston Rockets",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,9,UCLA
+2018,12,87,IND,"Indiana Pacers",13,"Ike Anigbogu",C,6-10,250,"October 17, 1998",US,R,UCLA
+2018,12,578,IND,"Indiana Pacers",2,"Darren Collison",PG,6-0,175,"August 23, 1987",US,8,UCLA
+2018,12,1712,IND,"Indiana Pacers",22,"T.J. Leaf",PF,6-10,222,"April 30, 1997",IL,R,UCLA
+2018,14,153,LAL,"Los Angeles Lakers",2,"Lonzo Ball",PG,6-6,190,"October 27, 1997",US,R,UCLA
+2018,17,2074,MIL,"Milwaukee Bucks",15,"Shabazz Muhammad",SG,6-6,223,"November 13, 1992",US,4,UCLA
+2018,18,2074,MIN,"Minnesota Timberwolves",15,"Shabazz Muhammad",SF,6-6,223,"November 13, 1992",US,4,UCLA
+2018,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",SG,6-3,205,"June 12, 1990",US,8,UCLA
+2018,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,9,UCLA
+2018,22,22,ORL,"Orlando Magic",4,"Arron Afflalo",SG,6-5,210,"October 15, 1985",US,10,UCLA
+2018,27,78,SAS,"San Antonio Spurs",1,"Kyle Anderson",SF,6-9,230,"September 20, 1993",US,3,UCLA
+2018,28,2354,TOR,"Toronto Raptors",24,"Norman Powell",SG,6-3,215,"May 25, 1993",US,2,UCLA
+2019,5,1674,CHI,"Chicago Bulls",8,"Zach LaVine",SG,6-5,200,"March 10, 1995",US,4,UCLA
+2019,6,1780,CLE,"Cleveland Cavaliers",0,"Kevin Love",PF,6-8,251,"September 7, 1988",US,10,UCLA
+2019,8,3069,DEN,"Denver Nuggets",45,"Thomas Welsh",C,7-0,255,"February 3, 1996",US,R,UCLA
+2019,10,1774,GSW,"Golden State Warriors",5,"Kevon Looney",C,6-9,222,"February 6, 1996",US,3,UCLA
+2019,12,87,IND,"Indiana Pacers",13,"Ike Anigbogu",C,6-10,250,"October 17, 1998",US,1,UCLA
+2019,12,578,IND,"Indiana Pacers",2,"Darren Collison",PG,6-0,175,"August 23, 1987",US,9,UCLA
+2019,12,1308,IND,"Indiana Pacers",3,"Aaron Holiday",PG,6-0,185,"September 30, 1996",US,R,UCLA
+2019,12,1712,IND,"Indiana Pacers",22,"T.J. Leaf",PF,6-10,222,"April 30, 1997",IL,1,UCLA
+2019,13,1891,LAC,"Los Angeles Clippers",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,10,UCLA
+2019,14,153,LAL,"Los Angeles Lakers",2,"Lonzo Ball",PG,6-6,190,"October 27, 1997",US,1,UCLA
+2019,15,78,MEM,"Memphis Grizzlies",1,"Kyle Anderson",SF,6-9,230,"September 20, 1993",US,4,UCLA
+2019,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",SG,6-3,205,"June 12, 1990",US,9,UCLA
+2019,21,3079,OKC,"Oklahoma City Thunder",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,10,UCLA
+2019,23,283,PHI,"Philadelphia 76Ers",43,"Jonah Bolden",PF,6-8,220,"January 2, 1996",AU,R,UCLA
+2019,24,105,PHO,"Phoenix Suns",3,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,14,UCLA
+2019,28,2354,TOR,"Toronto Raptors",24,"Norman Powell",SG,6-3,215,"May 25, 1993",US,3,UCLA
+2019,30,105,WAS,"Washington Wizards",1,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,14,UCLA
+2020,5,1674,CHI,"Chicago Bulls",8,"Zach LaVine",SG,6-5,200,"March 10, 1995",US,5,UCLA
+2020,6,1780,CLE,"Cleveland Cavaliers",0,"Kevin Love",PF,6-8,251,"September 7, 1988",US,11,UCLA
+2020,10,1774,GSW,"Golden State Warriors",5,"Kevon Looney",C,6-9,222,"February 6, 1996",US,4,UCLA
+2020,11,1891,HOU,"Houston Rockets",12,"Luc Mbah a Moute",PF,6-8,230,"September 9, 1986",CM,11,UCLA
+2020,11,3079,HOU,"Houston Rockets",0,"Russell Westbrook",PG,6-3,200,"November 12, 1988",US,11,UCLA
+2020,12,1308,IND,"Indiana Pacers",3,"Aaron Holiday",PG,6-0,185,"September 30, 1996",US,1,UCLA
+2020,12,1712,IND,"Indiana Pacers",22,"T.J. Leaf",PF,6-10,222,"April 30, 1997",IL,2,UCLA
+2020,15,78,MEM,"Memphis Grizzlies",1,"Kyle Anderson",SF,6-9,230,"September 20, 1993",US,5,UCLA
+2020,19,153,NOP,"New Orleans Pelicans",2,"Lonzo Ball",PG,6-6,190,"October 27, 1997",US,2,UCLA
+2020,19,1309,NOP,"New Orleans Pelicans",11,"Jrue Holiday",SG,6-3,205,"June 12, 1990",US,10,UCLA
+2020,23,283,PHI,"Philadelphia 76Ers",43,"Jonah Bolden",C,6-8,220,"January 2, 1996",AU,1,UCLA
+2020,24,283,PHO,"Phoenix Suns",43,"Jonah Bolden",C,6-8,220,"January 2, 1996",AU,1,UCLA
+2020,25,105,POR,"Portland Trail Blazers",8,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,15,UCLA
+2020,25,391,POR,"Portland Trail Blazers",4,"Moses Brown",C,7-2,245,"October 13, 1999",US,R,UCLA
+2020,26,105,SAC,"Sacramento Kings",0,"Trevor Ariza",SF,6-8,215,"June 30, 1985",US,15,UCLA
+2020,28,2354,TOR,"Toronto Raptors",24,"Norman Powell",SG,6-3,215,"May 25, 1993",US,4,UCLA

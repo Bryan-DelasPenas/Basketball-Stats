@@ -192,7 +192,7 @@ def create_query_all_roster_abv():
             BEGIN
                SELECT *
                FROM Roster
-               Where Player_ABV = abv;
+               Where Team_ABV = abv;
             END
             """)
             trans.commit()
@@ -644,5 +644,5 @@ Main Function for testing
 def main():
    
     create_roster_query()
-    drop_roster_query()
+    #drop_roster_query()
 main()
