@@ -378,7 +378,7 @@ def drop_query_all_roster_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Sid does not Exists")
+        print("Procedure Query_All_Roster_Sid does not Exists")
 
 '''
 Function that drops query_all_roster_sid
@@ -405,7 +405,7 @@ def drop_query_all_roster_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Tid does not Exists")
+        print("Procedure Query_All_Roster_Tid does not Exists")
 
 '''
 Function that drops query_all_roster_pid
@@ -432,7 +432,7 @@ def drop_query_all_roster_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Pid does not Exists")
+        print("Procedure Query_All_Roster_Pid does not Exists")
 
 '''
 Function that drop query query_all_roster_pname
@@ -459,7 +459,7 @@ def drop_query_all_roster_pname():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Pname Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Pname does not Exists")
+        print("Procedure Query_All_Roster_Pname does not Exists")
 
 '''
 Function that drop query query_all_roster_tname
@@ -486,7 +486,7 @@ def drop_query_all_roster_tname():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Tname Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Tname does not Exists") 
+        print("Procedure Query_All_Roster_Tname does not Exists") 
 
 '''
 Function that drop query query_all_roster_abv
@@ -513,7 +513,7 @@ def drop_query_all_roster_abv():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Abv Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Tname does not Exists") 
+        print("Procedure Query_All_Roster_Tname does not Exists") 
 
 '''
 Function that drop query query_all_roster_college
@@ -540,7 +540,7 @@ def drop_query_all_roster_college():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_College Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_College does not Exists") 
+        print("Procedure Query_All_Roster_College does not Exists") 
 
 '''
 Function that drop query query_all_roster_sid_tid
@@ -567,7 +567,7 @@ def drop_query_all_roster_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Sid_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Sid_Tid does not Exists")
+        print("Procedure Query_All_Roster_Sid_Tid does not Exists")
 
 '''
 Function that drop query query_all_tid_pid
@@ -594,7 +594,7 @@ def drop_query_all_tid_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Tid_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Tid_Pid does not Exists")
+        print("Procedure Query_All_Roster_Tid_Pid does not Exists")
 
 '''
 Function that drop query query_all_roster_sid_tid
@@ -621,7 +621,7 @@ def drop_query_all_roster_sid_tid_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Roster_Sid_Tid_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Roster_Sid_Tid_Pid does not Exists")
+        print("Procedure Query_All_Roster_Sid_Tid_Pid does not Exists")
 
 '''
 Function that drop query for roster
@@ -637,12 +637,3 @@ def drop_roster_query():
     drop_query_all_roster_sid_tid()
     drop_query_all_tid_pid()
     drop_query_all_roster_sid_tid_pid()
-
-'''
-Main Function for testing
-'''
-def main():
-   
-    create_roster_query()
-    drop_roster_query()
-main()

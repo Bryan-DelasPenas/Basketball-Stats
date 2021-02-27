@@ -311,7 +311,7 @@ def drop_query_all_cs_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_CS_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_CS_Sid does not Exists")
+        print("Procedure Query_All_CS_Sid does not Exists")
 
 '''
 Function that drops query_all_cs_tid
@@ -338,7 +338,7 @@ def drop_query_all_cs_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_CS_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_CS_Tid does not Exists")
+        print("Procedure Query_All_CS_Tid does not Exists")
 
 '''
 Function that drops query_all_cs_name
@@ -365,7 +365,7 @@ def drop_query_all_cs_name():
         except:
             raise Exception("Deletion of Procedure Query_All_CS_Name Failed")
     else:
-        raise Exception("Procedure Query_All_CS_Name does not Exists")
+        print("Procedure Query_All_CS_Name does not Exists")
 
 '''
 Function that drops query_all_cs_ABV
@@ -392,7 +392,7 @@ def drop_query_all_cs_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_CS_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_CS_ABV does not Exists")
+        print("Procedure Query_All_CS_ABV does not Exists")
 
 '''
 Function that drops query_all_cs_win
@@ -419,7 +419,7 @@ def drop_query_all_cs_win():
         except:
             raise Exception("Deletion of Procedure Query_All_CS_Win Failed")
     else:
-        raise Exception("Procedure Query_All_CS_Win does not Exists")
+        print("Procedure Query_All_CS_Win does not Exists")
 
 '''
 Function that drops query_all_cs_wl()
@@ -446,7 +446,7 @@ def drop_query_all_cs_wl():
         except:
             raise Exception("Deletion of Procedure Query_CS_WL Failed")
     else:
-        raise Exception("Procedure Query_CS_WL does not Exists") 
+        print("Procedure Query_CS_WL does not Exists") 
 
 '''
 Function that drops query_all_cs_sid_ew
@@ -473,7 +473,7 @@ def drop_query_all_cs_sid_ew():
         except:
             raise Exception("Deletion of ProcedureQuery_All_CS_Sid_EW Failed")
     else:
-        raise Exception("Procedure Query_All_CS_Sid_EW does not Exists")
+        print("Procedure Query_All_CS_Sid_EW does not Exists")
 
 '''
 Function that drops query_cs_win
@@ -500,8 +500,7 @@ def drop_query_cs_win():
         except:
             raise Exception("Deletion of Procedure Query_CS_Win Failed")
     else:
-        raise Exception("Procedure Query_CS_Win does not Exists")
-
+        print("Procedure Query_CS_Win does not Exists")
 
 '''
 Function that drops all procedures for Conference_Standings
@@ -517,12 +516,3 @@ def drop_cs_query():
     drop_query_cs_win()
    
 
-'''
-Main Function for Testing
-'''
-def main():
-   
-    create_cs_query()
-    drop_cs_query()
-
-main()

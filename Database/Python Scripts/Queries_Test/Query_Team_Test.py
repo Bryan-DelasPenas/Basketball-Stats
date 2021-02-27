@@ -5,18 +5,26 @@ import pathlib
 import os
 import unittest
 sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts')
-
+sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts' + '\\Queries')
 import pyodbc
 import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-
+from Query_Team import create_team_query, drop_team_query
 
 '''
 Class that will Team_Queries, Assuming that the data has been inserted correctly and the procedures are created
 '''
 class TestQueryTeam(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        # Drop Procedures 
+        drop_team_query()
+
+        # Create Procedures
+        create_team_query()
 
     def test_create_query_all_team_sid(self):
 

@@ -242,7 +242,7 @@ def drop_query_all_team_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Sid does not Exists")
+        print("Procedure Query_All_Team_Sid does not Exists")
 
 '''
 Function that drops query_all_team_Tid
@@ -270,7 +270,7 @@ def drop_query_all_team_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Tid does not Exists")
+        print("Procedure Query_All_Team_Tid does not Exists")
 
 '''
 Function that drops query_all_team_Name
@@ -297,7 +297,7 @@ def drop_query_all_team_name():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Name Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Name does not Exists")
+        print("Procedure Query_All_Team_Name does not Exists")
 
 '''
 Function that drops query_all_team_ABV
@@ -324,7 +324,7 @@ def drop_query_all_team_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_Team_ABV does not Exists")
+        print("Procedure Query_All_Team_ABV does not Exists")
 
 '''
 Function that drops query_team_name
@@ -351,7 +351,7 @@ def drop_query_team_name():
         except:
             raise Exception("Deletion of Procedure Query_Team_Name Failed")
     else:
-        raise Exception("Procedure Query_Team_Name does not Exists")
+        print("Procedure Query_Team_Name does not Exists")
 
 '''
 Function that drops query_team_abv
@@ -378,7 +378,7 @@ def drops_query_team_abv():
         except:
             raise Exception("Deletion of Procedure Query_Team_ABV Failed")
     else:
-        raise Exception("Procedure Query_Team_ABV does not Exists")
+        print("Procedure Query_Team_ABV does not Exists")
 
 '''
 Function that drops all procedures
@@ -391,11 +391,3 @@ def drop_team_query():
     drop_query_all_team_ABV()
     drop_query_team_name()
     drops_query_team_abv()
-'''
-Main function for testing
-'''
-def main():
-    
-    create_team_query()
-    drop_team_query()
-main()

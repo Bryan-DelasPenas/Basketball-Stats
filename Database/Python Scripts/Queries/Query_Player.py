@@ -144,7 +144,7 @@ def drop_query_all_player_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Pid does not Exists")
+        print("Procedure Query_All_Player_Pid does not Exists")
 
 '''
 Function that drops procedure query_all_player_name_dob
@@ -171,7 +171,7 @@ def drop_query_all_player_name_dob():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Name_DOB Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Name_DOB does not Exists")
+        print("Procedure Query_All_Player_Name_DOB does not Exists")
 
 '''
 Function that drops procedure query_player_name
@@ -198,7 +198,7 @@ def drop_query_player_name():
         except:
             raise Exception("Deletion of Procedure Query_Player_Name Failed")
     else:
-        raise Exception("Procedure Query_Player_Name does not Exists")
+        print("Procedure Query_Player_Name does not Exists")
 
 '''
 Function that calls all drop player query
@@ -208,12 +208,4 @@ def drop_player_query():
     drop_query_all_player_name_dob()
     drop_query_player_name()
 
-'''
-Main Function 
-'''
-def main():
-    create_player_query()
-    #drop_player_query()
-
-main()
 

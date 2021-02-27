@@ -5,17 +5,25 @@ import pathlib
 import os
 import unittest
 sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts')
-
+sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts' + '\\Queries')
 import pyodbc
 import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-
+from Query_Roster import create_roster_query, drop_roster_query
 '''
 Class that will Roster_Queries, Assuming that the data has been inserted correctly and the procedures are created
 '''
 class TestQueryRoster(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        # Drop Procedures 
+        drop_roster_query()
+
+        # Create Procedures
+        create_roster_query()
 
     def test_create_query_all_roster_sid(self):
         
