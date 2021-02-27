@@ -1,0 +1,68 @@
+Season_ID,Team_ID,Opponent,Team_Name,Field_Goals_Made,Field_Goals_Attempted,Field_Goals_Percentage
+1980,2,0,"Boston Celtics",44.1,90.1,0.49
+1980,6,1,"Cleveland Cavaliers",46.5,92.8,0.5
+1980,8,1,"Denver Nuggets",45.6,92.6,0.49
+1980,9,1,"Detroit Pistons",46.9,94.6,0.5
+1980,11,1,"Houston Rockets",44.6,90,0.5
+1980,12,1,"Indiana Pacers",45,92,0.49
+1980,13,1,"San Diego Clippers",45.8,91.6,0.5
+1980,17,0,"Milwaukee Bucks",44.9,92.1,0.49
+1980,20,0,"New York Knicks",46.4,93.6,0.5
+1980,20,1,"New York Knicks",45.2,91.4,0.5
+1980,27,0,"San Antonio Spurs",47,94.4,0.5
+1980,27,1,"San Antonio Spurs",48.8,97.5,0.5
+1981,8,1,"Denver Nuggets",49.5,97.8,0.51
+1981,14,0,"Los Angeles Lakers",46.1,90,0.51
+1981,17,0,"Milwaukee Bucks",45.4,91.1,0.5
+1981,25,0,"Portland Trail Blazers",45.6,91.9,0.5
+1982,5,1,"Chicago Bulls",44.6,90.1,0.5
+1982,8,0,"Denver Nuggets",48.5,93.4,0.52
+1982,8,1,"Denver Nuggets",52,99.3,0.52
+1982,14,0,"Los Angeles Lakers",47.8,92.5,0.52
+1982,14,1,"Los Angeles Lakers",45.7,93.6,0.49
+1982,27,0,"San Antonio Spurs",45.1,92.8,0.49
+1982,29,0,"Utah Jazz",44.9,90.8,0.49
+1982,29,1,"Utah Jazz",46.8,91.8,0.51
+1983,2,0,"Boston Celtics",45.3,92,0.49
+1983,5,1,"Chicago Bulls",46.5,94,0.5
+1983,7,0,"Dallas Mavericks",44.8,92.1,0.49
+1983,7,1,"Dallas Mavericks",45.8,91.2,0.5
+1983,8,0,"Denver Nuggets",48.2,97.5,0.49
+1983,8,1,"Denver Nuggets",50,99,0.5
+1983,9,1,"Detroit Pistons",46.4,93.6,0.5
+1983,14,0,"Los Angeles Lakers",48.3,91.6,0.53
+1983,14,1,"Los Angeles Lakers",45.5,92.9,0.49
+1983,26,0,"Kansas City Kings",45.4,91.3,0.5
+1984,8,0,"Denver Nuggets",48,97.4,0.49
+1984,8,1,"Denver Nuggets",49,94.5,0.52
+1984,11,0,"Houston Rockets",45.5,91.9,0.5
+1984,13,1,"San Diego Clippers",46,90.3,0.51
+1984,27,0,"San Antonio Spurs",47.7,94.2,0.51
+1984,27,1,"San Antonio Spurs",48.7,96.5,0.5
+1985,3,0,"New Jersey Nets",44.5,90.8,0.49
+1985,8,0,"Denver Nuggets",47.3,97.3,0.49
+1985,8,1,"Denver Nuggets",46,90,0.51
+1985,9,1,"Detroit Pistons",45.1,90.9,0.5
+1985,11,0,"Houston Rockets",45.7,90.7,0.5
+1985,13,1,"Los Angeles Clippers",45.6,93,0.49
+1985,25,1,"Portland Trail Blazers",45.1,91.4,0.49
+1985,26,1,"Kansas City Kings",46.4,91,0.51
+1986,7,1,"Dallas Mavericks",47.1,93.8,0.5
+1986,8,1,"Denver Nuggets",44.4,90.3,0.49
+1986,10,1,"Golden State Warriors",47.1,90.6,0.52
+1986,11,0,"Houston Rockets",45.8,93.5,0.49
+1986,11,1,"Houston Rockets",44.4,90.3,0.49
+1986,13,1,"Los Angeles Clippers",46.9,92.5,0.51
+1987,26,1,"Sacramento Kings",44.6,91.1,0.49
+1988,25,0,"Portland Trail Blazers",44.6,91,0.49
+1988,26,1,"Sacramento Kings",45.3,91,0.5
+1988,27,0,"San Antonio Spurs",45.2,92.2,0.49
+1988,27,1,"San Antonio Spurs",47,93.6,0.5
+1989,8,1,"Denver Nuggets",45.1,91.3,0.5
+1989,20,0,"New York Knicks",45.1,92.8,0.49
+1989,24,0,"Phoenix Suns",45.8,92,0.5
+1990,22,1,"Orlando Magic",47.1,94.6,0.5
+1991,8,1,"Denver Nuggets",49.7,97.1,0.51
+1992,4,1,"Charlotte Hornets",45.3,91.4,0.5
+1992,10,0,"Golden State Warriors",45.9,90.6,0.51
+1993,23,1,"Philadelphia 76Ers",44.7,92,0.49

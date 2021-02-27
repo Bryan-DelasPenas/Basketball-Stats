@@ -1,0 +1,229 @@
+Season_ID,Team_ID,Opponent,Team_Name,Field_Goals_Made,Field_Goals_Attempted
+1980,2,0,"Boston Celtics",44.1,90.1
+1980,3,0,"New Jersey Nets",42.1,91.5
+1980,3,1,"New Jersey Nets",42.4,90.6
+1980,6,0,"Cleveland Cavaliers",46.5,98.1
+1980,6,1,"Cleveland Cavaliers",46.5,92.8
+1980,8,0,"Denver Nuggets",42.2,91.1
+1980,8,1,"Denver Nuggets",45.6,92.6
+1980,9,0,"Detroit Pistons",44.4,92.6
+1980,9,1,"Detroit Pistons",46.9,94.6
+1980,11,0,"Houston Rockets",43.9,91.4
+1980,11,1,"Houston Rockets",44.6,90
+1980,12,0,"Indiana Pacers",44.4,93.8
+1980,12,1,"Indiana Pacers",45,92
+1980,13,0,"San Diego Clippers",43,91.4
+1980,13,1,"San Diego Clippers",45.8,91.6
+1980,14,1,"Los Angeles Lakers",45.4,96.6
+1980,17,0,"Milwaukee Bucks",44.9,92.1
+1980,17,1,"Milwaukee Bucks",42.1,91.3
+1980,20,0,"New York Knicks",46.4,93.6
+1980,20,1,"New York Knicks",45.2,91.4
+1980,21,0,"Seattle Supersonics",43.3,92.3
+1980,21,1,"Seattle Supersonics",41.6,90.5
+1980,23,1,"Philadelphia 76Ers",42,92.2
+1980,24,1,"Phoenix Suns",43.5,91.2
+1980,26,0,"Kansas City Kings",43.7,91.3
+1980,27,0,"San Antonio Spurs",47,94.4
+1980,27,1,"San Antonio Spurs",48.8,97.5
+1980,30,0,"Washington Bullets",43.6,95.1
+1980,30,1,"Washington Bullets",44.1,94.8
+1981,6,0,"Cleveland Cavaliers",43.4,92.8
+1981,8,0,"Denver Nuggets",46.1,97.1
+1981,8,1,"Denver Nuggets",49.5,97.8
+1981,14,0,"Los Angeles Lakers",46.1,90
+1981,14,1,"Los Angeles Lakers",43.7,93.9
+1981,17,0,"Milwaukee Bucks",45.4,91.1
+1981,21,1,"Seattle Supersonics",42.1,90.5
+1981,25,0,"Portland Trail Blazers",45.6,91.9
+1981,27,1,"San Antonio Spurs",43.7,92.5
+1981,30,0,"Washington Bullets",43.3,91.7
+1981,30,1,"Washington Bullets",42.9,91.4
+1982,2,1,"Boston Celtics",42.6,90.6
+1982,5,1,"Chicago Bulls",44.6,90.1
+1982,8,0,"Denver Nuggets",48.5,93.4
+1982,8,1,"Denver Nuggets",52,99.3
+1982,9,0,"Detroit Pistons",43.4,90.1
+1982,14,0,"Los Angeles Lakers",47.8,92.5
+1982,14,1,"Los Angeles Lakers",45.7,93.6
+1982,21,1,"Seattle Supersonics",41.6,90.3
+1982,27,0,"San Antonio Spurs",45.1,92.8
+1982,27,1,"San Antonio Spurs",43.5,90.1
+1982,29,0,"Utah Jazz",44.9,90.8
+1982,29,1,"Utah Jazz",46.8,91.8
+1983,2,0,"Boston Celtics",45.3,92
+1983,2,1,"Boston Celtics",42.4,90.3
+1983,5,1,"Chicago Bulls",46.5,94
+1983,7,0,"Dallas Mavericks",44.8,92.1
+1983,7,1,"Dallas Mavericks",45.8,91.2
+1983,8,0,"Denver Nuggets",48.2,97.5
+1983,8,1,"Denver Nuggets",50,99
+1983,9,0,"Detroit Pistons",44.2,92.7
+1983,9,1,"Detroit Pistons",46.4,93.6
+1983,10,0,"Golden State Warriors",44.2,91.6
+1983,11,0,"Houston Rockets",40.7,90.8
+1983,12,0,"Indiana Pacers",45.2,94.2
+1983,13,0,"San Diego Clippers",44.2,93.1
+1983,14,0,"Los Angeles Lakers",48.3,91.6
+1983,14,1,"Los Angeles Lakers",45.5,92.9
+1983,21,1,"Seattle Supersonics",43.2,93.9
+1983,23,1,"Philadelphia 76Ers",42,91.1
+1983,26,0,"Kansas City Kings",45.4,91.3
+1983,27,1,"San Antonio Spurs",44.6,91.8
+1983,29,1,"Utah Jazz",46.3,96.7
+1984,8,0,"Denver Nuggets",48,97.4
+1984,8,1,"Denver Nuggets",49,94.5
+1984,9,0,"Detroit Pistons",46.3,96.5
+1984,10,0,"Golden State Warriors",42.9,91.9
+1984,11,0,"Houston Rockets",45.5,91.9
+1984,11,1,"Houston Rockets",43.7,90.4
+1984,13,1,"San Diego Clippers",46,90.3
+1984,14,1,"Los Angeles Lakers",44.8,92.7
+1984,27,0,"San Antonio Spurs",47.7,94.2
+1984,27,1,"San Antonio Spurs",48.7,96.5
+1984,29,1,"Utah Jazz",45.7,96
+1985,2,1,"Boston Celtics",44.4,93.2
+1985,3,0,"New Jersey Nets",44.5,90.8
+1985,6,1,"Cleveland Cavaliers",43.3,90.4
+1985,8,0,"Denver Nuggets",47.3,97.3
+1985,8,1,"Denver Nuggets",46,90
+1985,9,0,"Detroit Pistons",46.8,97.5
+1985,9,1,"Detroit Pistons",45.1,90.9
+1985,10,0,"Golden State Warriors",42.7,92.1
+1985,11,0,"Houston Rockets",45.7,90.7
+1985,13,1,"Los Angeles Clippers",45.6,93
+1985,14,1,"Los Angeles Lakers",44.7,93.2
+1985,25,1,"Portland Trail Blazers",45.1,91.4
+1985,26,1,"Kansas City Kings",46.4,91
+1985,29,1,"Utah Jazz",43.1,92.7
+1985,30,0,"Washington Bullets",43.1,90
+1986,2,1,"Boston Celtics",42,91.2
+1986,7,1,"Dallas Mavericks",47.1,93.8
+1986,8,0,"Denver Nuggets",45.2,96
+1986,8,1,"Denver Nuggets",44.4,90.3
+1986,9,0,"Detroit Pistons",45.8,94.5
+1986,10,0,"Golden State Warriors",44.5,92.3
+1986,10,1,"Golden State Warriors",47.1,90.6
+1986,11,0,"Houston Rockets",45.8,93.5
+1986,11,1,"Houston Rockets",44.4,90.3
+1986,13,1,"Los Angeles Clippers",46.9,92.5
+1986,14,1,"Los Angeles Lakers",43.6,90.9
+1987,2,1,"Boston Celtics",42.3,91.5
+1987,6,1,"Cleveland Cavaliers",43.4,90.7
+1987,7,1,"Dallas Mavericks",43.7,91.5
+1987,8,0,"Denver Nuggets",45.7,97
+1987,10,0,"Golden State Warriors",43.3,90.4
+1987,14,1,"Los Angeles Lakers",42.9,91.8
+1987,21,0,"Seattle Supersonics",43.8,90.9
+1987,25,1,"Portland Trail Blazers",44.5,91.7
+1987,26,0,"Sacramento Kings",43,90.4
+1987,26,1,"Sacramento Kings",44.6,91.1
+1987,27,0,"San Antonio Spurs",43.1,90.9
+1987,29,0,"Utah Jazz",42.5,91.6
+1987,30,0,"Washington Bullets",40.9,90.2
+1987,30,1,"Washington Bullets",43,90.9
+1988,7,1,"Dallas Mavericks",42.3,90.1
+1988,8,0,"Denver Nuggets",46,97.1
+1988,10,0,"Golden State Warriors",42.2,90.3
+1988,11,1,"Houston Rockets",42.1,90.5
+1988,14,1,"Los Angeles Lakers",43.3,91.1
+1988,21,0,"Seattle Supersonics",43.2,90.8
+1988,25,0,"Portland Trail Blazers",44.6,91
+1988,26,1,"Sacramento Kings",45.3,91
+1988,27,0,"San Antonio Spurs",45.2,92.2
+1988,27,1,"San Antonio Spurs",47,93.6
+1989,4,0,"Charlotte Hornets",41.8,90.6
+1989,8,0,"Denver Nuggets",46.5,99.3
+1989,8,1,"Denver Nuggets",45.1,91.3
+1989,10,0,"Golden State Warriors",45.5,97.3
+1989,10,1,"Golden State Warriors",45,97.6
+1989,12,1,"Indiana Pacers",42.1,90.2
+1989,13,0,"Los Angeles Clippers",43,90.6
+1989,13,1,"Los Angeles Clippers",45.7,94.4
+1989,14,1,"Los Angeles Lakers",43.2,92
+1989,20,0,"New York Knicks",45.1,92.8
+1989,21,0,"Seattle Supersonics",43.5,91.2
+1989,24,0,"Phoenix Suns",45.8,92
+1989,24,1,"Phoenix Suns",43.8,94.3
+1989,25,0,"Portland Trail Blazers",45.1,95.1
+1989,26,1,"Sacramento Kings",43.8,90.5
+1989,27,0,"San Antonio Spurs",42.3,90.4
+1989,30,0,"Washington Bullets",42.9,92.6
+1990,2,1,"Boston Celtics",41.9,90
+1990,8,0,"Denver Nuggets",45.3,97.7
+1990,10,1,"Golden State Warriors",45.9,96.2
+1990,20,1,"New York Knicks",42.6,90.6
+1990,22,0,"Orlando Magic",42.2,91.8
+1990,22,1,"Orlando Magic",47.1,94.6
+1990,24,1,"Phoenix Suns",43,92.5
+1990,25,0,"Portland Trail Blazers",43.6,92
+1990,30,0,"Washington Bullets",43.9,92.5
+1990,30,1,"Washington Bullets",42.8,90.3
+1991,2,1,"Boston Celtics",41.7,92.2
+1991,3,0,"New Jersey Nets",40.4,91
+1991,8,0,"Denver Nuggets",47.6,108.1
+1991,8,1,"Denver Nuggets",49.7,97.1
+1991,23,1,"Philadelphia 76Ers",43.1,90.6
+1991,24,1,"Phoenix Suns",42.2,91.5
+1992,1,0,"Atlanta Hawks",42.6,91.2
+1992,3,0,"New Jersey Nets",42.4,92.4
+1992,4,0,"Charlotte Hornets",44.1,92.3
+1992,4,1,"Charlotte Hornets",45.3,91.4
+1992,6,1,"Cleveland Cavaliers",42.6,90.7
+1992,10,0,"Golden State Warriors",45.9,90.6
+1992,10,1,"Golden State Warriors",44.1,91.5
+1992,24,1,"Phoenix Suns",41.8,91.2
+1992,26,1,"Sacramento Kings",43.4,90.5
+1993,4,1,"Charlotte Hornets",44.3,93.9
+1993,23,1,"Philadelphia 76Ers",44.7,92
+1994,13,1,"Los Angeles Clippers",42.8,90.5
+1994,25,0,"Portland Trail Blazers",41.1,90.6
+1999,26,1,"Sacramento Kings",40.2,90
+2005,24,1,"Phoenix Suns",40.6,91.3
+2008,10,0,"Golden State Warriors",41.5,90.3
+2008,24,1,"Phoenix Suns",41.1,90
+2017,3,1,"Brooklyn Nets",41.6,90.8
+2018,10,1,"Golden State Warriors",40.2,90
+2018,19,1,"New Orleans Pelicans",41.7,91.9
+2019,1,0,"Atlanta Hawks",41.4,91.8
+2019,1,1,"Atlanta Hawks",42.8,90.5
+2019,2,0,"Boston Celtics",42.1,90.5
+2019,3,1,"Brooklyn Nets",42.2,92.5
+2019,8,0,"Denver Nuggets",41.9,90
+2019,10,1,"Golden State Warriors",40.4,91.1
+2019,13,1,"Los Angeles Clippers",41.7,91.3
+2019,14,0,"Los Angeles Lakers",42.6,90.5
+2019,14,1,"Los Angeles Lakers",41.9,92.8
+2019,17,0,"Milwaukee Bucks",43.4,91.1
+2019,17,1,"Milwaukee Bucks",40.5,93.5
+2019,18,0,"Minnesota Timberwolves",41.6,91.3
+2019,18,1,"Minnesota Timberwolves",42.1,90.1
+2019,19,0,"New Orleans Pelicans",43.7,92.2
+2019,19,1,"New Orleans Pelicans",43.3,92.8
+2019,21,0,"Oklahoma City Thunder",42.6,94
+2019,23,1,"Philadelphia 76Ers",41.7,91.5
+2019,25,0,"Portland Trail Blazers",42.3,90.6
+2019,25,1,"Portland Trail Blazers",41.1,90
+2019,26,0,"Sacramento Kings",43.2,93.1
+2019,26,1,"Sacramento Kings",42.3,90.6
+2019,30,0,"Washington Wizards",42.1,90.1
+2019,30,1,"Washington Wizards",43.4,90.5
+2020,1,0,"Atlanta Hawks",40.6,90.6
+2020,1,1,"Atlanta Hawks",43.3,90.7
+2020,3,0,"Brooklyn Nets",40.4,90.3
+2020,3,1,"Brooklyn Nets",41.4,92.9
+2020,7,0,"Dallas Mavericks",41.7,90.3
+2020,7,1,"Dallas Mavericks",41.9,91.6
+2020,11,0,"Houston Rockets",40.8,90.4
+2020,11,1,"Houston Rockets",42.3,91.5
+2020,15,0,"Memphis Grizzlies",42.5,90.9
+2020,15,1,"Memphis Grizzlies",40.6,90.3
+2020,17,0,"Milwaukee Bucks",43.3,90.9
+2020,18,0,"Minnesota Timberwolves",40.4,91.6
+2020,18,1,"Minnesota Timberwolves",43.1,90.4
+2020,19,0,"New Orleans Pelicans",42.6,91.6
+2020,19,1,"New Orleans Pelicans",42.7,91.8
+2020,25,0,"Portland Trail Blazers",42.2,91.2
+2020,25,1,"Portland Trail Blazers",41.8,91.6
+2020,27,1,"San Antonio Spurs",42.3,90.2
+2020,30,0,"Washington Wizards",41.5,90.9
