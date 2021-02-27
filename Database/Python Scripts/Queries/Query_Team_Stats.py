@@ -643,7 +643,7 @@ def drop_query_team_stats_minor_one():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Minor_One Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Minor_One does not Exists")
+        print("Procedure Query_Team_Stat_Minor_One does not Exists")
     
 '''
 Drop Procedure query_team_stats_minor_two
@@ -670,7 +670,7 @@ def drop_query_team_stats_minor_two():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Minor_Two Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Minor_Two does not Exists")
+        print("Procedure Query_Team_Stat_Minor_Two does not Exists")
 
 '''
 Drop Procedure query_team_stats_minor_three
@@ -697,7 +697,7 @@ def drop_query_team_stats_minor_three():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Minor_Three Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Minor_Three does not Exists")
+        print("Procedure Query_Team_Stat_Minor_Three does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_one
@@ -724,7 +724,7 @@ def drop_query_team_stats_major_one():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_One Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_One does not Exists")
+        print("Procedure Query_Team_Stat_Major_One does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_two
@@ -751,7 +751,7 @@ def drop_query_team_stats_major_two():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_Two Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_Two does not Exists")
+        print("Procedure Query_Team_Stat_Major_Two does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_three
@@ -778,7 +778,7 @@ def drop_query_team_stats_major_three():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_Three Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_Three does not Exists")
+        print("Procedure Query_Team_Stat_Major_Three does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_one
@@ -805,7 +805,7 @@ def drop_query_team_stats_major_op_one():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_OP_One Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_OP_One does not Exists")
+        print("Procedure Query_Team_Stat_Major_OP_One does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_two
@@ -832,7 +832,7 @@ def drop_query_team_stats_major_op_two():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_OP_Two Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_OP_Two does not Exists")
+        print("Procedure Query_Team_Stat_Major_OP_Two does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_three
@@ -859,7 +859,7 @@ def drop_query_team_stats_major_op_three():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_OP_Three Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_OP_Three does not Exists")
+        print("Procedure Query_Team_Stat_Major_OP_Three does not Exists")
 
 '''
 Drop Procedure query_team_stats_primary_sid
@@ -886,7 +886,7 @@ def drop_query_team_stats_primary_sid():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stats_Primary_Sid Failed")
     else:
-        raise Exception("Procedure Query_Team_Stats_Primary_Sid does not Exists")
+        print("Procedure Query_Team_Stats_Primary_Sid does not Exists")
 
 '''
 Drop Procedure query_team_stats_primary_tid
@@ -913,7 +913,7 @@ def drop_query_team_stats_primary_tid():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stats_Primary_Tid Failed")
     else:
-        raise Exception("Procedure Query_Team_Stats_Primary_Tid does not Exists")
+        print("Procedure Query_Team_Stats_Primary_Tid does not Exists")
 
 '''
 Drop Procedure query_team_stats_primary_sid_tid
@@ -940,7 +940,7 @@ def drop_query_team_stats_primary_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stats_Primary_Sid_Tid Failed")
     else:
-        raise Exception("Procedure Query_Team_Stats_Primary_Sid_Tid does not Exists")
+        print("Procedure Query_Team_Stats_Primary_Sid_Tid does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_one
@@ -967,7 +967,7 @@ def drop_query_team_stats_major_compare_one():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_Compare_One Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_Compare_One does not Exists")
+        print("Procedure Query_Team_Stat_Major_Compare_One does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_two
@@ -994,7 +994,7 @@ def drop_query_team_stats_major_compare_two():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_Compare_Two Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_Compare_Two does not Exists")
+        print("Procedure Query_Team_Stat_Major_Compare_Two does not Exists")
 
 '''
 Drop Procedure query_team_stats_major_three
@@ -1021,7 +1021,7 @@ def drop_query_team_stats_major_compare_three():
         except:
             raise Exception("Deletion of Procedure Query_Team_Stat_Major_Compare_Three Failed")
     else:
-        raise Exception("Procedure Query_Team_Stat_Major_Compare_Three does not Exists")
+        print("Procedure Query_Team_Stat_Major_Compare_Three does not Exists")
 
 '''
 Drop All procedures for Team_Stat
@@ -1047,11 +1047,3 @@ def drop_team_stats_query():
     drop_query_team_stats_major_compare_two()
     drop_query_team_stats_major_compare_three()
 
-'''
-Main function for testing 
-'''
-def main():
-  
-    create_team_stats_query()
-    #drop_team_stats_query()
-main()

@@ -5,18 +5,27 @@ import pathlib
 import os
 import unittest
 sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts' + '\\Queries')
 
 import pyodbc
 import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-
+from Query_Team_Stats import create_team_stats_query, drop_team_stats_query
 '''
-Class that will Team_Stat_Queries, Assuming that the data has been inserted correctly and the procedures are created
+Class that will Team_Stat_Queries, Assuming that the data has been inserted correctly 
 '''
 class TestQueryTeamStat(unittest.TestCase):
+   
+    @classmethod
+    def setUpClass(cls):
+        # Drop Procedures 
+        drop_team_stats_query()
 
+        # Create Procedures
+        create_team_stats_query()
+  
     def test_create_query_team_stats_minor_one(self):
         # Create path to csv file    
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Stats_Offensive_Rating_110.csv')
@@ -291,7 +300,6 @@ class TestQueryTeamStat(unittest.TestCase):
         df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Field_Goals_Made', 'Field_Goals_Attempted', 'Field_Goals_Percentage'])
    
         pd.testing.assert_frame_equal(df_result, df_expected)
-    
     
     def test_create_query_team_stats_primary_sid(self):
         # Create path to csv file    
