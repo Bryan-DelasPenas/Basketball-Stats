@@ -6,8 +6,10 @@ from pathlib import Path
 from requests import get
 import unicodedata, unidecode
 import time
-sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
-
+sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
+print("f")
+print(Path(__file__).parent.parent)
+print("FFFWF")
 
 from Player_Stats_Scraper import get_player_stats, get_career_stats
 from Create_Player_Name import get_player_name

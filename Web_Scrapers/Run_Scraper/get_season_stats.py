@@ -2,7 +2,7 @@ import os
 import pathlib 
 from pathlib import Path
 import sys
-sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
+sys.path.append(str(pathlib.Path().absolute())  + '\\Python_Scrapers')
 
 # Import modules 
 from Season_Stats_Scraper import  get_team_name, get_standings
@@ -115,7 +115,7 @@ def get_season_csv():
         csv_team_name(year)
         
         # Standing Stats
-        #csv_standings(year, 'STANDARD')
+        csv_standings(year, 'STANDARD')
 
 '''
 Main function generates csv files for the functions above

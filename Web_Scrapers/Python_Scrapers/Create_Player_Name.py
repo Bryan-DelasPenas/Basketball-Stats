@@ -16,7 +16,6 @@ Creates a dataframe of player's name active from 1980 - 2020
 def get_player_name(letter):
     
     # Get the url of the website
-    #page = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fplayers%2F{letter}%2F&div=div_players')
     page = get(f'https://www.basketball-reference.com/players/{letter}/')
 
     # Init the dataframe
@@ -62,7 +61,8 @@ def players_names_csv():
 
     # Create the output path and the file name 
     first_path = os.path.join(pathlib.Path().absolute(), source_directory)
-    
+    print("First path is ")
+    print(first_path)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
