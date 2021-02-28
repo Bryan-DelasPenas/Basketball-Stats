@@ -112,10 +112,10 @@ def get_season_csv():
         print(year)
         
         # Team Name
-        #csv_team_name(year)
+        csv_team_name(year)
         
         # Standing Stats
-        csv_standings(year, 'STANDARD')
+        #csv_standings(year, 'STANDARD')
 
 '''
 Main function generates csv files for the functions above

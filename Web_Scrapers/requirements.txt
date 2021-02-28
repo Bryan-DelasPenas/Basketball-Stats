@@ -1,0 +1,5 @@
+beautifulsoup4==4.9.3
+lxml==4.6.2
+pandas==1.2.2
+requests==2.25.1
+unidecode==1.1.2

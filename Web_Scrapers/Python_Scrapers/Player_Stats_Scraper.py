@@ -681,3 +681,4 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df = career_df.drop(['eFG%'], axis=1)
 
         return career_df
+
