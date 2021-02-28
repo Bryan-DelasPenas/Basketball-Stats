@@ -117,11 +117,3 @@ def get_season_csv():
         # Standing Stats
         csv_standings(year, 'STANDARD')
 
-'''
-Main function generates csv files for the functions above
-'''
-def main():
-    get_season_csv()
-    
-if __name__ == "__main__":
-    main()

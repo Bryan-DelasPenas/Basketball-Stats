@@ -107,12 +107,11 @@ def get_player_csv():
     record = df.values.tolist()
 
     # Iterate through the list 
-    for i in range(891, len(record)):
-        print(i)
-        print(record[i][0])
-        player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', record[i][0])
-        name_tuple = (record[i][0], record[i][1])
-
+    for player in record:
+        print(player[0])
+        
+        player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', player[0])
+        name_tuple = (player[0], player[1])
         # Check for special cases, like Jr.
         if(name_tuple in RIGHT_NAME_DICT):
             new_string = RIGHT_NAME_DICT[name_tuple]
@@ -122,49 +121,33 @@ def get_player_csv():
         if(not os.path.isdir(player_path)):
             # Create the directory with the final_path
             os.mkdir(player_path)
-        
-        #'''
+         
         # Regualar Season Stat
-        csv_player_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Totals', False, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
+        csv_player_stats(player[0], player[1], 'Per_Game', False, player_path)
+        csv_player_stats(player[0], player[1], 'Per_Minute', False, player_path)
+        csv_player_stats(player[0], player[1], 'Per_Poss', False, player_path)
+        csv_player_stats(player[0], player[1], 'Totals', False, player_path)
+        csv_player_stats(player[0], player[1], 'Advanced', False, player_path)
         
-        #'''
         # Playoffs Season Stat
-        csv_player_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
-        csv_player_stats(record[i][0], record[i][1], 'Totals', True, player_path)
-        #'''
-        csv_player_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
+        csv_player_stats(player[0], player[1], 'Per_Game', True, player_path)
+        csv_player_stats(player[0], player[1], 'Per_Minute', True, player_path)
+        csv_player_stats(player[0], player[1], 'Per_Poss', True, player_path)
+        csv_player_stats(player[0], player[1], 'Totals', True, player_path)
         
-        #'''
+        csv_player_stats(player[0], player[1], 'Advanced', True, player_path)
+        
         # Career Stats
-        csv_career_stats(record[i][0], record[i][1], 'Per_Game', False, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Per_Minute', False, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Per_Poss', False, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Totals', False, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Advanced', False, player_path)
-        #'''
-        #'''
+        csv_career_stats(player[0], player[1], 'Per_Game', False, player_path)
+        csv_career_stats(player[0], player[1], 'Per_Minute', False, player_path)
+        csv_career_stats(player[0], player[1], 'Per_Poss', False, player_path)
+        csv_career_stats(player[0], player[1], 'Totals', False, player_path)
+        csv_career_stats(player[0], player[1], 'Advanced', False, player_path)
+        
+        
         # Playoffs Season Stat
-        csv_career_stats(record[i][0], record[i][1], 'Per_Game', True, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Per_Minute', True, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Per_Poss', True, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Totals', True, player_path)
-        csv_career_stats(record[i][0], record[i][1], 'Advanced', True, player_path)
-        #'''
-
-'''
-Main function
-'''
-def main():
-    
-    start_time = time.time()
-    get_player_csv()
-    print("--- %s seconds ---" % (time.time() - start_time))
-
-if __name__ == "__main__":
-    main()
+        csv_career_stats(player[0], player[1], 'Per_Game', True, player_path)
+        csv_career_stats(player[0], player[1], 'Per_Minute', True, player_path)
+        csv_career_stats(player[0], player[1], 'Per_Poss', True, player_path)
+        csv_career_stats(player[0], player[1], 'Totals', True, player_path)
+        csv_career_stats(player[0], player[1], 'Advanced', True, player_path)

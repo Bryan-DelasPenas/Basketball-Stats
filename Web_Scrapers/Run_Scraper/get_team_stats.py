@@ -322,11 +322,3 @@ def get_team_csv():
         # Team Stats Other
         csv_team_stats_other(year, 'Team_Advanced')
         csv_team_stats_main(year, 'Team_Misc')
-'''
-Main Function
-''' 
-def main():
-    get_team_csv()
-    
-if __name__ == "__main__":
-    main()

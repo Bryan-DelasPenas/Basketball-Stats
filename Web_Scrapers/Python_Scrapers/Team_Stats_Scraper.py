@@ -52,7 +52,6 @@ def get_roster(team, season, orginal = False):
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
 
         # Converts birth date to datetime 
-    
         df['Nationality'] = df['Nationality'].str.upper()
         
         players = df.values.tolist()
