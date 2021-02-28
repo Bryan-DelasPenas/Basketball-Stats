@@ -61,8 +61,7 @@ def players_names_csv():
 
     # Create the output path and the file name 
     first_path = os.path.join(pathlib.Path().absolute(), source_directory)
-    print("First path is ")
-    print(first_path)
+    
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -80,6 +79,7 @@ def players_names_csv():
     if(not os.path.isfile(second_path + file_name)):
     
         for letter in letters:
+            print(letter)
             df = get_player_name(letter)
             
             file_name = '\\' + "player_names" + ".csv"

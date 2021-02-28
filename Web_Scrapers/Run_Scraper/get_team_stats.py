@@ -285,7 +285,6 @@ def csv_opponent_stats(year, format):
     else:
         pass
     
-    print(final_path)
     df = get_opp_stats(year, format)
     
     # Create a unique name for the file 
@@ -310,26 +309,19 @@ def get_team_csv():
         # Roster Names
         csv_team_roster(year)
         
-
-        '''
         # Team Stats Main
         csv_team_stats_main(year, 'Per_Game')
         csv_team_stats_main(year, 'Per_Poss')
         csv_team_stats_main(year, 'Total')
-        '''
-        #csv_team_stats_main(year, 'Team_Misc')
-        
-
-        '''
+       
         # Opponent Stats 
         csv_opponent_stats(year, 'PeR_GaMe')
         csv_opponent_stats(year, 'Per_Poss')
         csv_opponent_stats(year, 'Total')
-        '''
         
         # Team Stats Other
-        #csv_team_stats_other(year, 'Team_Advanced')
-        
+        csv_team_stats_other(year, 'Team_Advanced')
+        csv_team_stats_main(year, 'Team_Misc')
 '''
 Main Function
 ''' 

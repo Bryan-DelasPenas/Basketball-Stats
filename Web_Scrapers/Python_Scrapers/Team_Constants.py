@@ -442,3 +442,4 @@ def get_player_id():
 Global Dict for Player's ID
 '''
 PLAYER_ID = get_player_id()
+print(PLAYER_ID)
