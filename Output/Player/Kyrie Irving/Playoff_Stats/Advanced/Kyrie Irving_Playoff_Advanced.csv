@@ -1,5 +1,0 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2015,6,1387,CLE,Cleveland Cavaliers,Kyrie Irving,"March 23, 1992",22.0,NBA,PG,13.0,464.0,20.9,0.57,0.32,0.37,2.4,8.6,5.6,20.1,1.9,2.0,8.5,23.0,1.5,0.5,2.0,0.21,4.5,0.7,5.2,0.8
-2016,6,1387,CLE,Cleveland Cavaliers,Kyrie Irving,"March 23, 1992",23.0,NBA,PG,21.0,774.0,24.4,0.57,0.27,0.21,2.3,7.1,4.7,23.5,2.5,1.6,9.4,30.4,2.6,0.8,3.4,0.21,5.4,0.6,6.0,1.6
-2017,6,1387,CLE,Cleveland Cavaliers,Kyrie Irving,"March 23, 1992",24.0,NBA,PG,18.0,653.0,21.3,0.57,0.32,0.23,2.4,6.5,4.6,24.7,1.7,1.0,10.6,31.1,1.6,0.4,2.0,0.15,4.0,-1.8,2.2,0.7
-2019,2,1387,BOS,Boston Celtics,Kyrie Irving,"March 23, 1992",26.0,NBA,PG,9.0,330.0,15.4,0.49,0.32,0.22,1.6,10.3,6.2,35.8,1.7,1.1,12.5,29.8,-0.1,0.5,0.4,0.06,2.1,0.3,2.5,0.4

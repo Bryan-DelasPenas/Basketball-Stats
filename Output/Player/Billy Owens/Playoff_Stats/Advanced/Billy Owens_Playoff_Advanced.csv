@@ -1,4 +1,0 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-1992,10,2226,GSW,Golden State Warriors,Billy Owens,"May 1, 1969",22.0,NBA,PF,4.0,157.0,18.3,0.56,0.0,0.47,9.0,15.7,12.1,11.9,2.5,0.8,8.0,19.5,0.3,0.1,0.4,0.13,2.8,0.0,2.8,0.2
-1994,10,2226,GSW,Golden State Warriors,Billy Owens,"May 1, 1969",24.0,NBA,PF,3.0,127.0,17.7,0.53,0.02,0.24,11.6,16.3,14.1,13.1,1.5,0.9,11.2,20.3,0.3,-0.2,0.1,0.05,1.4,-1.5,-0.1,0.1
-1996,26,2226,SAC,Sacramento Kings,Billy Owens,"May 1, 1969",26.0,NBA,SF,4.0,131.0,8.1,0.45,0.12,0.18,4.7,19.7,12.3,19.4,1.6,0.7,23.1,16.5,-0.2,0.2,0.0,0.01,-3.3,1.1,-2.2,0.0
