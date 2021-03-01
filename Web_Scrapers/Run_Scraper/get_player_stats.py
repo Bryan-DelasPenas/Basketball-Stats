@@ -151,3 +151,12 @@ def get_player_csv():
         csv_career_stats(player[0], player[1], 'Per_Poss', True, player_path)
         csv_career_stats(player[0], player[1], 'Totals', True, player_path)
         csv_career_stats(player[0], player[1], 'Advanced', True, player_path)
+
+def main():
+
+    start_time = time.time()
+    get_player_csv()
+    print("--- %s seconds ---" % (time.time() - start_time))
+
+if __name__ == "__main__":
+    main()

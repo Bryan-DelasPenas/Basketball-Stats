@@ -1,7 +1,7 @@
 import sys 
 import os
 import pathlib 
-from pathlib import Path
+import time
 
 sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
 
@@ -322,3 +322,12 @@ def get_team_csv():
         # Team Stats Other
         csv_team_stats_other(year, 'Team_Advanced')
         csv_team_stats_main(year, 'Team_Misc')
+
+def main():
+
+    start_time = time.time()
+    get_team_csv()
+    print("--- %s seconds ---" % (time.time() - start_time))
+
+if __name__ == "__main__":
+    main()

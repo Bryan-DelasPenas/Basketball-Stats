@@ -2,6 +2,7 @@ import os
 import pathlib 
 from pathlib import Path
 import sys
+import time
 sys.path.append(str(pathlib.Path().absolute())  + '\\Python_Scrapers')
 
 # Import modules 
@@ -117,3 +118,11 @@ def get_season_csv():
         # Standing Stats
         csv_standings(year, 'STANDARD')
 
+def main():
+
+    start_time = time.time()
+    get_season_csv()
+    print("--- %s seconds ---" % (time.time() - start_time))
+
+if __name__ == "__main__":
+    main()
