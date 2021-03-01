@@ -47,7 +47,7 @@ def get_team_name(season):
     return df 
 
 ''' 
-Creates a datafrane that returns standings TODO: PUT SEASON ID and TEAM ID
+Creates a datafrane that returns standings 
 '''
 def get_standings(season, data_format = 'standard'):
 

@@ -210,7 +210,7 @@ def drop_query_all_team_advanced_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Advanced_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Advanced_Sid does not Exists")
+        print("Procedure Query_All_Team_Advanced_Sid does not Exists")
 
 '''
 Function that drops query_all_team_advanced_Tid
@@ -238,7 +238,7 @@ def drop_query_all_team_advanced_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Advanced_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Advanced_Tid does not Exists")
+        print("Procedure Query_All_Team_Advanced_Tid does not Exists")
 
 '''
 Function that drop query_all_team_advanced_Sid_Tid
@@ -265,7 +265,7 @@ def drop_query_all_team_advanced_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Advanced_Sid_Tid  Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Advanced_Sid_Tid does not Exists")
+        print("Procedure Query_All_Team_Advanced_Sid_Tid does not Exists")
 
 '''
 Function that drops query_all_team_Name
@@ -292,7 +292,7 @@ def drop_query_all_team_advanced_name():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Advanced_Name Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Advanced_Name does not Exists")
+        print("Procedure Query_All_Team_Advanced_Name does not Exists")
 
 '''
 Function that drops query_all_team_advanced_ABV
@@ -319,7 +319,7 @@ def drop_query_all_team_advanced_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Advanced_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Advanced_ABV does not Exists")
+        print("Procedure Query_All_Team_Advanced_ABV does not Exists")
 
 '''
 Function that drops  all procedure team_advanced stored procedures 
@@ -331,10 +331,3 @@ def drop_team_advanced_query():
     drop_query_all_team_advanced_name()
     drop_query_all_team_advanced_ABV()
 
-'''
-Main Function, for testing
-'''
-def main():
-    create_team_advanced_query()
-    drop_team_advanced_query()
-main()

@@ -420,6 +420,9 @@ def get_player_id():
     player_id = {}
 
     csv_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player_Name','player_names.csv')
+    if(not os.path.isfile(csv_path)):
+        csv_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers','Output', 'Player_Name','player_names.csv')
+
     
     # Convert csv to dataframe
     df = pd.read_csv(csv_path)

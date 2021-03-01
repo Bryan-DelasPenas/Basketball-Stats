@@ -29,7 +29,7 @@ class TestQueryTeam(unittest.TestCase):
     def test_create_query_all_team_sid(self):
 
         # Create path to csv file    
-        path = os.path.join(pathlib.Path().absolute(), 'Output', 'Season', 'Team_Names', '2020_Team_Names.csv')
+        path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', 'Output', 'Season', 'Team_Names', '2020_Team_Names.csv')
 
         df_expected = pd.read_csv(path)
         df_expected = df_expected.rename(columns={'Season' : 'Season_ID', 'Team ID' : 'Team_ID', 'Team' : 'Team_Name', 'Team ABV' : 'Team_ABV'})

@@ -9,6 +9,7 @@ import pathlib
 from pathlib import Path
 
 sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
+
 from Team_Constants import RIGHT_NAME_DICT, PLAYER_ID, REVERSE_RIGHT_DICT, DATABASE_DICT
 from Helper_DB import test_connection, create_connection, check_table
 
@@ -750,7 +751,7 @@ def insert_all_season():
 Calls insert_team to insert all teams from 1980 - 2020
 '''
 def insert_all_team():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Team_Names")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Season", "Team_Names")
     
     # Iterate through the years directory
     for i in range(1980, 2021):
@@ -767,7 +768,7 @@ def insert_all_team():
 Calls insert_players to insert all player active 1980 - 2020
 '''
 def insert_all_player():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player_Name", "player_names.csv")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Player_Name", "player_names.csv")
     df = pd.read_csv(path)
 
     df = df.values.tolist()
@@ -792,8 +793,8 @@ def insert_all_player():
 Calls insert_conference_standings from 1980 - 2020
 '''
 def insert_all_conference_standings():
-    east_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "East")
-    west_path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Standings", "West")
+    east_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Season", "Standings", "East")
+    west_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Season", "Standings", "West")
     
     # Iterate through the years
     for i in range(1980, 2021):
@@ -816,7 +817,7 @@ def insert_all_conference_standings():
 Calls insert_roster from 1980 - 2020
 '''
 def insert_all_roster():
-    path = os.path.join(pathlib.Path().absolute(), "Output","Team", "Roster")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output","Team", "Roster")
 
     for i in range(1980, 2021):
         second_path = os.path.join(path, str(i))
@@ -832,7 +833,7 @@ def insert_all_roster():
 Call insert_standings from 1980 - 2020
 '''
 def insert_all_team_stats():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Season", "Team_Names")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Season", "Team_Names")
     
     # Iterate through the years directory
     for i in range(1980, 2021):
@@ -847,7 +848,7 @@ def insert_all_team_stats():
 Call insert_team_advanced from 1980 - 2020
 '''
 def insert_all_team_advanced():
-    path = os.path.join(pathlib.Path().absolute(), "Output","Team", "Team_Stats", "Team_Advanced")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output","Team", "Team_Stats", "Team_Advanced")
 
     for i in range(1980, 2021):
         second_path = os.path.join(path, str(i))
@@ -863,7 +864,7 @@ def insert_all_team_advanced():
 Call insert_team_misc from 1980 - 2020
 '''
 def insert_all_team_misc():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Team", "Team_Stats", "Team_Averages", "Team_Misc")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Team", "Team_Stats", "Team_Averages", "Team_Misc")
     
     # Iterate through the years directory
     for i in range(1980, 2021):
@@ -877,8 +878,8 @@ def insert_all_team_misc():
 Call insert_team_per_game from 1980 - 2020
 '''
 def insert_all_team_per_game():
-    regular_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", "Team_Stats", "Team_Averages", "Per_Game")
-    opponent_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", "Team_Stats", "Opponent_Averages", "Opp_Per_Game")
+    regular_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Team", "Team_Stats", "Team_Averages", "Per_Game")
+    opponent_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Team", "Team_Stats", "Opponent_Averages", "Opp_Per_Game")
 
     # Iterate through the years directory
     for i in range(1980, 2021):
@@ -896,8 +897,8 @@ def insert_all_team_per_game():
 Calls insert_team_per_poss from 1980 - 2020
 '''
 def insert_all_team_per_poss():
-    regular_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", "Team_Stats", "Team_Averages", "Per_Poss")
-    opponent_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", "Team_Stats", "Opponent_Averages", "Opp_Per_Poss")
+    regular_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Team", "Team_Stats", "Team_Averages", "Per_Poss")
+    opponent_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Team", "Team_Stats", "Opponent_Averages", "Opp_Per_Poss")
 
     # Iterate through the years directory
     for i in range(1980, 2021):
@@ -915,8 +916,8 @@ def insert_all_team_per_poss():
 Calls insert_team_totals from 1980 - 2020
 '''
 def insert_all_team_totals():
-    regular_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", "Team_Stats", "Team_Averages", "Total")
-    opponent_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", "Team_Stats", "Opponent_Averages", "Opp_Total")
+    regular_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Team", "Team_Stats", "Team_Averages", "Total")
+    opponent_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Team", "Team_Stats", "Opponent_Averages", "Opp_Total")
 
     # Iterate through the years directory
     for i in range(1980, 2021):
@@ -934,7 +935,7 @@ def insert_all_team_totals():
 Calls insert_player_stats and insert_player_career from 1980 - 2020
 '''
 def insert_all_player_stats():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Player")
 
     player_directories = os.listdir(path)
     for player in player_directories:
@@ -972,7 +973,7 @@ def insert_all_player_stats():
 Calls insert_player_advanced and insert_player_career_advanced from 1980 - 2020
 '''
 def insert_all_player_advanced():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Player")
     
     player_directories = os.listdir(path)
     for player in player_directories:
@@ -1020,7 +1021,7 @@ def insert_all_player_advanced():
 Calls insert_player_per_game and insert_player_career_per_game from 1980 - 2020
 '''
 def insert_all_player_per_game():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Player")
     
     player_directories = os.listdir(path)
     for player in player_directories:
@@ -1063,7 +1064,7 @@ def insert_all_player_per_game():
 Calls insert_player_per_minute and insert_player_career_per_minute from 1980 - 2020
 '''
 def insert_all_player_per_minute():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Player")
     
     player_directories = os.listdir(path)
     for player in player_directories:
@@ -1108,7 +1109,7 @@ def insert_all_player_per_minute():
 Calls insert_player_per_poss and insert_player_career_per_poss from 1980 - 2020
 '''
 def insert_all_player_per_poss():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Player")
     
     player_directories = os.listdir(path)
     for player in player_directories:
@@ -1152,7 +1153,7 @@ def insert_all_player_per_poss():
 Calls insert_player_per_totals and insert_player_career_per_totals from 1980 - 2020
 '''
 def insert_all_player_totals():
-    path = os.path.join(pathlib.Path().absolute(), "Output", "Player")
+    path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Player")
     
     player_directories = os.listdir(path)
     for player in player_directories:
