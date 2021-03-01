@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2000,18,125,MIN,Minnesota Timberwolves,William Avery,"August 8, 1979",20.0,NBA,PG,59,1,484,6.1,19.6,0.31,1.9,6.8,0.29,4.1,12.8,0.32,2.6,3.9,0.67,0.9,3.5,4.3,9.5,1.5,0.2,4.5,6.5,16.6,84,107
+2001,18,125,MIN,Minnesota Timberwolves,William Avery,"August 8, 1979",21.0,NBA,PG,55,0,463,6.2,16.3,0.38,1.8,6.7,0.27,4.4,9.6,0.46,3.2,4.1,0.78,0.6,2.7,3.3,8.5,1.5,0.5,5.1,5.4,17.4,91,108
+2002,18,125,MIN,Minnesota Timberwolves,William Avery,"August 8, 1979",22.0,NBA,PG,28,0,258,5.3,18.5,0.29,1.2,7.2,0.17,4.1,11.3,0.36,2.7,3.9,0.68,0.8,4.1,4.9,7.4,1.4,0.0,3.9,3.5,14.6,81,108

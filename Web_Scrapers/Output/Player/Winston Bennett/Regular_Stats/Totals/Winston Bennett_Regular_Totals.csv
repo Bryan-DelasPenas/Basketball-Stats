@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1990,6,224,CLE,Cleveland Cavaliers,Winston Bennett,"February 9, 1965",24.0,NBA,SF,55.0,34.0,990.0,137.0,286.0,0.48,0.0,0.0,,137.0,286.0,0.48,0.48,64.0,96.0,0.67,84.0,104.0,188.0,54.0,23.0,10.0,62.0,133.0,338.0
+1991,6,224,CLE,Cleveland Cavaliers,Winston Bennett,"February 9, 1965",25.0,NBA,SF,27.0,13.0,334.0,40.0,107.0,0.37,0.0,0.0,,40.0,107.0,0.37,0.37,35.0,47.0,0.74,30.0,34.0,64.0,28.0,8.0,2.0,20.0,50.0,115.0
+1992,31,224,TOT,Total After Trade,Winston Bennett,"February 9, 1965",26.0,NBA,SF,54.0,45.0,833.0,80.0,211.0,0.38,0.0,1.0,0.0,80.0,210.0,0.38,0.38,35.0,50.0,0.7,63.0,99.0,162.0,38.0,19.0,9.0,33.0,122.0,195.0
+1992,6,224,CLE,Cleveland Cavaliers,Winston Bennett,"February 9, 1965",26.0,NBA,SF,52.0,45.0,831.0,79.0,209.0,0.38,0.0,1.0,0.0,79.0,208.0,0.38,0.38,35.0,50.0,0.7,62.0,99.0,161.0,38.0,19.0,9.0,33.0,121.0,193.0
+1992,16,224,MIA,Miami Heat,Winston Bennett,"February 9, 1965",26.0,NBA,SF,2.0,0.0,2.0,1.0,2.0,0.5,0.0,0.0,,1.0,2.0,0.5,0.5,0.0,0.0,,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,2.0

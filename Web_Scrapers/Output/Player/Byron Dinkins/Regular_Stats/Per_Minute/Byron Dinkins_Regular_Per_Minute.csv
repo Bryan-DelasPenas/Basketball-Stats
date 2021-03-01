@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1990,11,749,HOU,Houston Rockets,Byron Dinkins,"June 15, 1967",22.0,NBA,PG,33.0,0.0,362.0,4.4,10.8,0.4,0.1,0.9,0.11,4.3,9.9,0.43,2.6,3.0,0.87,1.3,2.7,4.0,7.5,1.9,0.2,3.7,3.0,11.4
+1991,31,749,TOT,Total After Trade,Byron Dinkins,"June 15, 1967",23.0,NBA,PG,12.0,0.0,149.0,3.4,8.2,0.41,0.0,0.0,,3.4,8.2,0.41,1.9,2.2,0.89,0.0,2.9,2.9,4.6,0.5,0.0,3.1,3.6,8.7
+1991,27,749,SAS,San Antonio Spurs,Byron Dinkins,"June 15, 1967",23.0,NBA,PG,10.0,0.0,144.0,3.2,8.2,0.39,0.0,0.0,,3.2,8.2,0.39,2.0,2.3,0.89,0.0,2.7,2.7,4.7,0.5,0.0,3.2,3.0,8.5
+1991,12,749,IND,Indiana Pacers,Byron Dinkins,"June 15, 1967",23.0,NBA,PG,2.0,0.0,5.0,7.2,7.2,1.0,0.0,0.0,,7.2,7.2,1.0,0.0,0.0,,0.0,7.2,7.2,0.0,0.0,0.0,0.0,21.6,14.4

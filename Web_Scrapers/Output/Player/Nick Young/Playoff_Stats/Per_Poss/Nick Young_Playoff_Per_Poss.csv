@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2008,30,3262,WAS,Washington Wizards,Nick Young,"June 1, 1985",22.0,NBA,SG,4.0,0.0,17.0,3.2,28.9,0.11,0.0,6.4,0.0,3.2,22.5,0.14,9.6,12.9,0.75,3.2,3.2,6.4,3.2,6.4,0.0,3.2,3.2,16.1,58.0,102.0
+2012,13,3262,LAC,Los Angeles Clippers,Nick Young,"June 1, 1985",26.0,NBA,SG,11.0,0.0,200.0,7.8,18.1,0.43,4.6,8.9,0.52,3.2,9.2,0.35,4.3,4.9,0.89,0.3,3.0,3.2,0.8,0.8,1.1,1.9,5.4,24.6,114.0,112.0
+2018,10,3262,GSW,Golden State Warriors,Nick Young,"June 1, 1985",32.0,NBA,SG,20.0,2.0,205.0,3.9,12.9,0.3,3.4,11.4,0.3,0.5,1.5,0.33,1.5,1.9,0.75,0.2,2.7,2.9,1.0,0.2,0.0,0.5,4.4,12.6,96.0,111.0

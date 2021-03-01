@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2018,23,619,PHI,Philadelphia 76Ers,Robert Covington,"December 14, 1990",27.0,NBA,SF,10.0,8.0,281.0,4.7,14.5,0.32,2.6,8.4,0.31,2.1,6.1,0.34,2.1,2.8,0.75,2.1,7.2,9.3,4.4,1.9,1.6,1.9,5.3,14.2,100.0,105.0
+2020,11,619,HOU,Houston Rockets,Robert Covington,"December 14, 1990",29.0,NBA,C,12.0,12.0,379.0,6.0,12.2,0.5,4.4,8.7,0.5,1.7,3.5,0.48,0.8,0.9,0.86,1.0,6.7,7.7,2.1,3.9,1.7,1.5,5.8,17.2,122.0,102.0

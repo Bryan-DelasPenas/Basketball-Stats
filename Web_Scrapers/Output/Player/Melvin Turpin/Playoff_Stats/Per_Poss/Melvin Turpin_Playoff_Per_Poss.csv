@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1985,6,2933,CLE,Cleveland Cavaliers,Melvin Turpin,"December 28, 1960",24.0,NBA,C,4.0,0.0,45.0,12.6,19.9,0.63,0.0,0.0,,12.6,19.9,0.63,1.0,2.1,0.5,3.1,5.2,8.4,0.0,4.2,1.0,5.2,3.1,26.2,100.0,106.0
+1988,29,2933,UTA,Utah Jazz,Melvin Turpin,"December 28, 1960",27.0,NBA,C,7.0,0.0,31.0,4.9,14.7,0.33,0.0,0.0,,4.9,14.7,0.33,3.3,3.3,1.0,4.9,4.9,9.8,3.3,1.6,6.5,3.3,8.1,13.0,90.0,105.0

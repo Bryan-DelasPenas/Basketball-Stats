@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,12,324,IND,Indiana Pacers,Dudley Bradley,"March 19, 1957",23.0,NBA,SG,2.0,,19.0,3.0,9.0,0.33,1.0,1.0,1.0,2.0,8.0,0.25,0.39,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,0.0,5.0,4.0,9.0
+1982,24,324,PHO,Phoenix Suns,Dudley Bradley,"March 19, 1957",24.0,NBA,SG,7.0,,24.0,2.0,8.0,0.25,0.0,0.0,,2.0,8.0,0.25,0.25,1.0,1.0,1.0,0.0,1.0,1.0,5.0,1.0,1.0,5.0,3.0,5.0
+1985,30,324,WSB,Washington Bullets,Dudley Bradley,"March 19, 1957",27.0,NBA,SG,4.0,0.0,41.0,5.0,9.0,0.56,1.0,5.0,0.2,4.0,4.0,1.0,0.61,3.0,4.0,0.75,2.0,4.0,6.0,6.0,2.0,0.0,5.0,5.0,14.0
+1986,30,324,WSB,Washington Bullets,Dudley Bradley,"March 19, 1957",28.0,NBA,SG,5.0,0.0,82.0,12.0,29.0,0.41,3.0,10.0,0.3,9.0,19.0,0.47,0.47,6.0,9.0,0.67,2.0,3.0,5.0,7.0,5.0,0.0,7.0,14.0,33.0
+1987,17,324,MIL,Milwaukee Bucks,Dudley Bradley,"March 19, 1957",29.0,NBA,SG,12.0,0.0,46.0,4.0,11.0,0.36,0.0,6.0,0.0,4.0,5.0,0.8,0.36,1.0,2.0,0.5,0.0,0.0,0.0,2.0,3.0,0.0,1.0,9.0,9.0

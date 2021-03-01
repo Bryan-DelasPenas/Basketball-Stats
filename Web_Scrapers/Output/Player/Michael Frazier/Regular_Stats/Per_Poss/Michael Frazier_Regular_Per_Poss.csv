@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2020,11,959,HOU,Houston Rockets,Michael Frazier,"March 8, 1994",25.0,NBA,SG,13,0,145,2.2,9.3,0.24,1.3,7.3,0.17,1.0,1.9,0.5,2.9,4.5,0.64,0.3,2.9,3.2,0.6,0.6,0.0,1.6,7.0,8.6,76,116

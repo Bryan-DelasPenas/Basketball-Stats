@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2015,12,3109,IND,Indiana Pacers,Shayne Whittington,"March 27, 1991",23.0,NBA,PF,20,0,108,9.1,20.0,0.45,0.5,2.9,0.17,8.6,17.2,0.5,8.6,11.0,0.78,4.8,9.1,13.8,2.9,2.4,1.0,2.4,8.6,27.2,114,100
+2016,12,3109,IND,Indiana Pacers,Shayne Whittington,"March 27, 1991",24.0,NBA,PF,7,0,41,6.1,13.3,0.46,0.0,2.4,0.0,6.1,10.9,0.56,1.2,2.4,0.5,6.1,8.5,14.5,3.6,1.2,1.2,6.1,8.5,13.3,84,103

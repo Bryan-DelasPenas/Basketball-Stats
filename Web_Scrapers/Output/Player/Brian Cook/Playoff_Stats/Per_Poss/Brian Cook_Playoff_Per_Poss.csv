@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2004,14,591,LAL,Los Angeles Lakers,Brian Cook,"December 4, 1980",23.0,NBA,C,13.0,0.0,46.0,6.0,18.1,0.33,0.0,0.0,,6.0,18.1,0.33,2.4,2.4,1.0,3.6,10.8,14.5,1.2,1.2,0.0,3.6,8.4,14.5,75.0,99.0
+2006,14,591,LAL,Los Angeles Lakers,Brian Cook,"December 4, 1980",25.0,NBA,PF,7.0,0.0,78.0,12.1,30.9,0.39,2.7,7.4,0.36,9.4,23.5,0.4,2.7,2.7,1.0,7.4,7.4,14.8,5.4,0.7,0.0,2.0,10.1,29.5,108.0,116.0
+2007,14,591,LAL,Los Angeles Lakers,Brian Cook,"December 4, 1980",26.0,NBA,PF,5.0,0.0,51.0,6.0,17.9,0.33,3.0,7.0,0.43,3.0,11.0,0.27,3.0,3.0,1.0,2.0,4.0,6.0,0.0,0.0,1.0,2.0,13.0,17.9,99.0,118.0
+2009,11,591,HOU,Houston Rockets,Brian Cook,"December 4, 1980",28.0,NBA,PF,6.0,0.0,32.0,6.9,25.8,0.27,3.4,15.5,0.22,3.4,10.3,0.33,0.0,0.0,,5.2,15.5,20.6,5.2,3.4,1.7,6.9,6.9,17.2,70.0,96.0

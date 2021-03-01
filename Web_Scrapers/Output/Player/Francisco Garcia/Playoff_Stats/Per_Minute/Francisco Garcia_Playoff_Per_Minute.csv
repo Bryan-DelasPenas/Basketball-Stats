@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2006,26,989,SAC,Sacramento Kings,Francisco Garcia,"December 31, 1981",24.0,NBA,SF,6.0,0.0,41.0,4.4,9.7,0.46,0.9,3.5,0.25,3.5,6.1,0.57,1.8,1.8,1.0,0.0,1.8,1.8,0.9,1.8,1.8,0.0,4.4,11.4
+2013,11,989,HOU,Houston Rockets,Francisco Garcia,"December 31, 1981",31.0,NBA,SF,6.0,3.0,164.0,4.8,11.0,0.44,3.7,8.1,0.46,1.1,2.9,0.38,0.7,1.1,0.6,0.7,3.7,4.4,2.0,0.9,1.1,0.9,4.6,14.0
+2014,11,989,HOU,Houston Rockets,Francisco Garcia,"December 31, 1981",32.0,NBA,SF,2.0,0.0,22.0,3.3,9.8,0.33,0.0,4.9,0.0,3.3,4.9,0.67,4.9,6.5,0.75,1.6,1.6,3.3,0.0,0.0,0.0,0.0,4.9,11.5

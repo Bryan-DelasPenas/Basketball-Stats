@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2021,8,1342,DEN,Denver Nuggets,Markus Howard,"March 3, 1999",21.0,NBA,SG,17,0,55,5.4,27.8,0.19,2.7,19.7,0.14,2.7,8.1,0.33,0.9,1.8,0.5,0.0,4.5,4.5,5.4,1.8,0.0,3.6,6.3,14.4,58,115

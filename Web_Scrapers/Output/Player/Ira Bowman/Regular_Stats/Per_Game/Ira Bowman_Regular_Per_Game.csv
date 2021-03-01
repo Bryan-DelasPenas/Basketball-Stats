@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2000,23,313,PHI,Philadelphia 76Ers,Ira Bowman,"June 11, 1973",26.0,NBA,SG,11.0,0.0,1.8,0.2,0.2,1.0,0.0,0.0,,0.2,0.2,1.0,1.0,0.1,0.2,0.5,0.0,0.2,0.2,0.1,0.1,0.0,0.1,0.0,0.5
+2001,1,313,ATL,Atlanta Hawks,Ira Bowman,"June 11, 1973",27.0,NBA,PG,3.0,0.0,6.3,0.0,0.7,0.0,0.0,0.0,,0.0,0.7,0.0,0.0,0.0,0.0,,0.3,0.3,0.7,2.3,0.0,0.0,0.3,0.0,0.0
+2002,23,313,PHI,Philadelphia 76Ers,Ira Bowman,"June 11, 1973",28.0,NBA,SG,3.0,0.0,9.7,1.7,2.3,0.71,0.0,0.3,0.0,1.7,2.0,0.83,0.71,0.0,0.0,,0.0,0.3,0.3,0.3,0.7,0.0,0.0,1.0,3.3

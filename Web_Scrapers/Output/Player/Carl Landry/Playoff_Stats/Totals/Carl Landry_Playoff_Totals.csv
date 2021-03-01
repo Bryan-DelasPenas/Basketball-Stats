@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2008,11,1687,HOU,Houston Rockets,Carl Landry,"September 19, 1983",24.0,NBA,PF,6.0,0.0,106.0,11.0,26.0,0.42,0.0,0.0,,11.0,26.0,0.42,0.42,12.0,16.0,0.75,15.0,13.0,28.0,0.0,7.0,3.0,2.0,8.0,34.0
+2009,11,1687,HOU,Houston Rockets,Carl Landry,"September 19, 1983",25.0,NBA,PF,13.0,0.0,240.0,39.0,70.0,0.56,0.0,2.0,0.0,39.0,68.0,0.57,0.56,19.0,33.0,0.58,16.0,35.0,51.0,3.0,4.0,5.0,14.0,27.0,97.0
+2011,19,1687,NOH,New Orleans Hornets,Carl Landry,"September 19, 1983",27.0,NBA,PF,6.0,6.0,213.0,31.0,68.0,0.46,0.0,0.0,,31.0,68.0,0.46,0.46,33.0,36.0,0.92,11.0,19.0,30.0,6.0,4.0,3.0,12.0,25.0,95.0
+2013,10,1687,GSW,Golden State Warriors,Carl Landry,"September 19, 1983",29.0,NBA,PF,12.0,3.0,246.0,52.0,100.0,0.52,0.0,0.0,,52.0,100.0,0.52,0.52,38.0,52.0,0.73,22.0,40.0,62.0,17.0,7.0,2.0,19.0,29.0,142.0

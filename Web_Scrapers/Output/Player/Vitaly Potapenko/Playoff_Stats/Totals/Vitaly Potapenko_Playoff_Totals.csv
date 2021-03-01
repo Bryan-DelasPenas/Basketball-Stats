@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1998,6,2349,CLE,Cleveland Cavaliers,Vitaly Potapenko,"March 21, 1975",22.0,NBA,C,4.0,0.0,70.0,6.0,15.0,0.4,0.0,0.0,,6.0,15.0,0.4,0.4,5.0,10.0,0.5,3.0,8.0,11.0,3.0,2.0,0.0,6.0,8.0,17.0
+2005,21,2349,SEA,Seattle Supersonics,Vitaly Potapenko,"March 21, 1975",29.0,NBA,C,5.0,0.0,37.0,5.0,10.0,0.5,0.0,0.0,,5.0,10.0,0.5,0.5,0.0,0.0,,3.0,4.0,7.0,0.0,0.0,0.0,0.0,8.0,10.0
+2006,26,2349,SAC,Sacramento Kings,Vitaly Potapenko,"March 21, 1975",30.0,NBA,C,4.0,0.0,9.0,2.0,4.0,0.5,0.0,0.0,,2.0,4.0,0.5,0.5,0.0,0.0,,1.0,0.0,1.0,0.0,1.0,0.0,0.0,2.0,4.0

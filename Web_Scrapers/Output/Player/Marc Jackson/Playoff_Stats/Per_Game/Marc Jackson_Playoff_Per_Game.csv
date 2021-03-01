@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2002,18,1408,MIN,Minnesota Timberwolves,Marc Jackson,"January 16, 1975",27.0,NBA,C,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+2003,18,1408,MIN,Minnesota Timberwolves,Marc Jackson,"January 16, 1975",28.0,NBA,C,6.0,0.0,18.3,2.8,5.3,0.53,0.0,0.2,0.0,2.8,5.2,0.55,0.53,2.7,3.2,0.84,1.7,3.8,5.5,1.3,0.3,0.2,1.5,3.2,8.3
+2005,23,1408,PHI,Philadelphia 76Ers,Marc Jackson,"January 16, 1975",30.0,NBA,C,5.0,0.0,13.0,1.0,4.0,0.25,0.0,0.0,,1.0,4.0,0.25,0.25,1.4,2.2,0.64,0.6,1.0,1.6,0.0,0.4,0.4,1.2,1.8,3.4

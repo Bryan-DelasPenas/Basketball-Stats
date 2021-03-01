@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2007,27,3092,SAS,San Antonio Spurs,James White,"October 21, 1982",24.0,NBA,SG,6.0,137.0,12.1,0.52,0.17,0.37,2.8,14.4,8.8,5.8,1.2,0.5,9.5,18.2,0.1,0.2,0.3,0.11,-2.7,-1.3,-4.0,-0.1
+2009,11,3092,HOU,Houston Rockets,James White,"October 21, 1982",26.0,NBA,SF,4.0,11.0,14.6,0.7,0.4,0.0,0.0,0.0,0.0,19.2,4.8,6.6,37.5,33.8,0.0,0.0,0.0,-0.07,-3.0,5.4,2.4,0.0
+2013,20,3092,NYK,New York Knicks,James White,"October 21, 1982",30.0,NBA,SF,57.0,435.0,9.1,0.5,0.35,0.16,1.3,12.0,6.5,10.3,1.6,0.8,12.0,15.2,0.1,0.3,0.5,0.05,-3.3,0.2,-3.1,-0.1

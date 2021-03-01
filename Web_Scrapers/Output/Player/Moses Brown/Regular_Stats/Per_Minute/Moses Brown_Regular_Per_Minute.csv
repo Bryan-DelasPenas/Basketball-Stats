@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,25,391,POR,Portland Trail Blazers,Moses Brown,"October 13, 1999",20.0,NBA,C,9.0,0.0,33.0,4.4,10.9,0.4,0.0,0.0,,4.4,10.9,0.4,3.3,8.7,0.38,3.3,12.0,15.3,1.1,1.1,1.1,3.3,7.6,12.0
+2021,21,391,OKC,Oklahoma City Thunder,Moses Brown,"October 13, 1999",21.0,NBA,C,7.0,0.0,31.0,8.1,11.6,0.7,0.0,0.0,,8.1,11.6,0.7,8.1,16.3,0.5,4.6,12.8,17.4,3.5,1.2,4.6,1.2,4.6,24.4

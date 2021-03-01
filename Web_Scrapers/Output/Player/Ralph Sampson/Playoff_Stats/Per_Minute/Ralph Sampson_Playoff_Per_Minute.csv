@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1985,11,2552,HOU,Houston Rockets,Ralph Sampson,"July 7, 1960",24.0,NBA,PF,5.0,5.0,193.0,8.0,18.7,0.43,0.2,0.2,1.0,7.8,18.5,0.42,3.5,6.9,0.51,4.7,10.8,15.5,1.3,0.4,1.5,3.2,4.3,19.8
+1986,11,2552,HOU,Houston Rockets,Ralph Sampson,"July 7, 1960",25.0,NBA,PF,20.0,20.0,741.0,7.6,14.6,0.52,0.0,0.0,1.0,7.5,14.6,0.52,4.2,5.7,0.73,3.2,7.2,10.4,3.9,1.5,1.7,3.4,3.8,19.4
+1987,11,2552,HOU,Houston Rockets,Ralph Sampson,"July 7, 1960",26.0,NBA,PF,10.0,10.0,330.0,8.2,15.9,0.51,0.1,0.2,0.5,8.1,15.7,0.51,3.8,4.7,0.81,2.9,6.7,9.6,2.3,0.2,1.3,3.4,5.1,20.3
+1989,10,2552,GSW,Golden State Warriors,Ralph Sampson,"July 7, 1960",28.0,NBA,C,3.0,1.0,43.0,7.5,18.4,0.41,0.0,3.3,0.0,7.5,15.1,0.5,1.7,3.3,0.5,5.0,6.7,11.7,0.8,0.8,1.7,3.3,6.7,16.7

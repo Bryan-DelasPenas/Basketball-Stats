@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1985,12,809,IND,Indiana Pacers,Devin Durrant,"October 20, 1960",24.0,NBA,SF,59.0,8.0,756.0,6.9,16.6,0.42,0.0,0.2,0.0,6.9,16.4,0.42,4.4,6.2,0.71,3.0,4.5,7.5,4.8,1.1,0.6,4.7,6.4,18.1,92.0,110.0
+1986,24,809,PHO,Phoenix Suns,Devin Durrant,"October 20, 1960",25.0,NBA,SF,4.0,0.0,51.0,7.2,18.9,0.38,0.0,0.0,,7.2,18.9,0.38,0.9,3.6,0.25,1.8,5.4,7.2,4.5,2.7,0.0,3.6,9.0,15.3,78.0,106.0

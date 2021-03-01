@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1985,23,3226,PHI,Philadelphia 76Ers,Leon Wood,"March 25, 1962",22.0,NBA,PG,5.0,15.0,18.8,0.56,0.11,0.89,0.0,7.4,3.7,22.5,0.0,0.0,19.3,42.5,0.0,0.0,0.0,0.04,3.3,-3.6,-0.3,0.0
+1986,30,3226,WSB,Washington Bullets,Leon Wood,"March 25, 1962",23.0,NBA,PG,1.0,2.0,36.9,0.42,0.2,0.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,-0.07,22.4,-13.5,9.0,0.0
+1988,1,3226,ATL,Atlanta Hawks,Leon Wood,"March 25, 1962",25.0,NBA,PG,4.0,4.0,38.9,1.5,1.0,0.0,0.0,0.0,0.0,39.2,0.0,0.0,0.0,11.0,0.0,0.0,0.0,0.49,22.7,1.6,24.3,0.0

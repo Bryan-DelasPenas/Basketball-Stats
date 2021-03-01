@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2013,25,548,POR,Portland Trail Blazers,Victor Claver,"August 30, 1988",24.0,NBA,SF,49,16,812,4.8,12.2,0.39,1.6,5.6,0.29,3.2,6.6,0.48,0.9,1.9,0.47,2.0,5.7,7.7,2.8,1.7,0.8,2.8,4.9,12.1,89,110
+2014,25,548,POR,Portland Trail Blazers,Victor Claver,"August 30, 1988",25.0,NBA,SF,21,0,184,4.7,11.5,0.4,0.8,4.9,0.17,3.8,6.6,0.58,2.7,3.0,0.91,2.5,8.2,10.7,3.3,0.8,0.8,3.0,4.4,12.9,99,108
+2015,25,548,POR,Portland Trail Blazers,Victor Claver,"August 30, 1988",26.0,NBA,SF,10,0,76,6.0,13.4,0.45,4.0,7.4,0.55,2.0,6.0,0.33,0.0,0.0,,2.0,11.4,13.4,0.7,0.7,0.7,2.7,8.0,16.1,102,103

@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1995,3,670,NJN,New Jersey Nets,Yinka Dare,"October 10, 1972",22.0,NBA,C,1,0,3,0,1,0.0,0,0,,0,1,0.0,0.0,0,0,,0,1,1,0,0,0,1,2,0
+1996,3,670,NJN,New Jersey Nets,Yinka Dare,"October 10, 1972",23.0,NBA,C,58,23,626,63,144,0.44,0,0,,63,144,0.44,0.44,38,62,0.61,56,125,181,0,8,40,72,117,164
+1997,3,670,NJN,New Jersey Nets,Yinka Dare,"October 10, 1972",24.0,NBA,C,41,2,313,19,54,0.35,0,0,,19,54,0.35,0.35,19,37,0.51,35,47,82,3,4,28,21,51,57
+1998,3,670,NJN,New Jersey Nets,Yinka Dare,"October 10, 1972",25.0,NBA,C,10,0,60,4,18,0.22,0,0,,4,18,0.22,0.22,4,8,0.5,10,7,17,1,0,2,2,9,12

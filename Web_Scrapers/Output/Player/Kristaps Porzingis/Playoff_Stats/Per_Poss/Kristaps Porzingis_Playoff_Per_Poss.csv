@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2020,7,2346,DAL,Dallas Mavericks,Kristaps Porzingis,"August 2, 1995",24.0,NBA,C,3.0,3.0,94.0,10.5,20.0,0.52,4.5,8.5,0.53,6.0,11.5,0.52,10.0,11.5,0.87,1.5,11.5,13.0,1.0,0.0,1.5,1.5,4.5,35.5,137.0,122.0

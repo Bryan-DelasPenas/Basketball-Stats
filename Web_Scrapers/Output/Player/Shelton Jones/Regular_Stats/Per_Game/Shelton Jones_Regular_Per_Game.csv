@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1989,31,1559,TOT,Total After Trade,Shelton Jones,"April 6, 1966",22.0,NBA,SF,51.0,34.0,13.4,1.8,4.1,0.44,0.0,0.0,0.0,1.8,4.1,0.45,0.44,1.1,1.6,0.72,0.6,1.6,2.2,0.8,0.4,0.3,0.9,1.1,4.8
+1989,27,1559,SAS,San Antonio Spurs,Shelton Jones,"April 6, 1966",22.0,NBA,SF,7.0,0.0,13.1,1.3,3.6,0.36,0.0,0.0,,1.3,3.6,0.36,0.36,1.1,1.9,0.62,0.9,1.4,2.3,1.0,0.3,0.3,1.0,1.1,3.7
+1989,10,1559,GSW,Golden State Warriors,Shelton Jones,"April 6, 1966",22.0,NBA,SF,2.0,0.0,6.5,1.5,2.5,0.6,0.0,0.0,,1.5,2.5,0.6,0.6,0.0,0.0,,1.0,0.0,1.0,1.0,1.5,0.0,0.5,0.0,3.0
+1989,23,1559,PHI,Philadelphia 76Ers,Shelton Jones,"April 6, 1966",22.0,NBA,SF,42.0,34.0,13.7,1.9,4.3,0.45,0.0,0.0,0.0,1.9,4.2,0.46,0.45,1.2,1.6,0.75,0.6,1.7,2.3,0.8,0.4,0.3,0.9,1.2,5.0

@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1993,4,223,CHO,Charlotte Hornets,Tony Bennett,"June 1, 1969",23.0,NBA,PG,75,2,857,6.1,14.5,0.42,1.5,4.5,0.32,4.7,10.1,0.47,1.7,2.3,0.73,0.7,2.9,3.5,7.6,1.7,0.0,2.8,6.1,15.4,103,113
+1994,4,223,CHO,Charlotte Hornets,Tony Bennett,"June 1, 1969",24.0,NBA,PG,74,5,983,5.3,13.2,0.4,1.4,3.8,0.36,3.9,9.4,0.42,0.6,0.8,0.73,0.8,3.7,4.5,8.2,2.0,0.1,2.0,4.2,12.4,103,111
+1995,4,223,CHO,Charlotte Hornets,Tony Bennett,"June 1, 1969",25.0,NBA,PG,3,0,46,6.9,14.9,0.46,2.3,10.3,0.22,4.6,4.6,1.0,0.0,0.0,,0.0,2.3,2.3,4.6,0.0,0.0,3.4,6.9,16.0,94,114

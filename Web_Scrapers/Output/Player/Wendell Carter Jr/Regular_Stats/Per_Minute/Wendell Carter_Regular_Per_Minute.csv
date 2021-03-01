@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,5,493,CHI,Chicago Bulls,Wendell Carter Jr.,"April 16, 1999",19.0,NBA,C,44,44,1110,5.8,12.0,0.48,0.2,1.0,0.19,5.6,11.0,0.51,2.9,3.6,0.8,2.8,7.1,10.0,2.5,0.8,1.9,2.1,4.9,14.8
+2020,5,493,CHI,Chicago Bulls,Wendell Carter Jr.,"April 16, 1999",20.0,NBA,C,43,43,1256,5.2,9.8,0.53,0.2,0.8,0.21,5.1,9.0,0.56,3.2,4.4,0.74,4.0,7.6,11.6,1.5,0.9,1.0,2.1,4.6,13.9
+2021,5,493,CHI,Chicago Bulls,Wendell Carter Jr.,"April 16, 1999",21.0,NBA,C,21,21,568,6.4,11.6,0.55,0.4,1.2,0.32,6.0,10.4,0.58,3.7,5.1,0.74,2.5,7.7,10.2,2.9,1.0,1.1,2.7,4.2,16.9

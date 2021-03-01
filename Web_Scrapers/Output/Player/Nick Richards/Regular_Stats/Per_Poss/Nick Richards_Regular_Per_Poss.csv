@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2021,4,2440,CHO,Charlotte Hornets,Nick Richards,"November 29, 1997",23.0,NBA,PF,8,0,23,6.3,12.5,0.5,0.0,0.0,,6.3,12.5,0.5,10.4,12.5,0.83,4.2,8.4,12.5,0.0,0.0,0.0,2.1,8.4,23.0,127,116

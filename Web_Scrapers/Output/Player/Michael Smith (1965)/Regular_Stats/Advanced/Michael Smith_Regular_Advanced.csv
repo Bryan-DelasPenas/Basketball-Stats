@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1990,2,2695,BOS,Boston Celtics,Michael Smith (1965),"May 19, 1965",24.0,NBA,PF,65.0,620.0,14.2,0.52,0.1,0.22,7.5,10.2,8.9,18.6,0.7,0.1,14.7,25.0,0.3,0.4,0.7,0.06,-0.8,-2.5,-3.3,-0.2
+1991,2,2695,BOS,Boston Celtics,Michael Smith (1965),"May 19, 1965",25.0,NBA,PF,47.0,389.0,14.3,0.51,0.12,0.14,6.5,9.2,7.9,16.1,0.8,0.3,14.9,26.9,0.1,0.2,0.3,0.04,-0.7,-3.0,-3.7,-0.2
+1995,13,2695,LAC,Los Angeles Clippers,Michael Smith (1965),"May 19, 1965",29.0,NBA,PF,29.0,319.0,13.3,0.52,0.06,0.22,4.5,17.0,10.3,11.0,1.0,0.5,10.9,22.5,0.2,0.2,0.3,0.05,-2.0,-2.0,-4.0,-0.2

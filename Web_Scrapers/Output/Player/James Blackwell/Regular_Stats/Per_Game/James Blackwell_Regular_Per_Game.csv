@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1995,31,257,TOT,Total After Trade,James Blackwell,"February 25, 1968",26.0,NBA,PG,13.0,0.0,6.2,0.6,1.0,0.62,0.0,0.0,,0.6,1.0,0.62,0.62,0.2,0.2,0.67,0.2,0.7,0.8,0.8,0.3,0.0,0.4,0.6,1.4
+1995,4,257,CHO,Charlotte Hornets,James Blackwell,"February 25, 1968",26.0,NBA,PG,4.0,0.0,4.8,0.5,0.8,0.67,0.0,0.0,,0.5,0.8,0.67,0.67,0.0,0.0,,0.0,0.8,0.8,1.3,0.3,0.0,0.5,0.3,1.0
+1995,2,257,BOS,Boston Celtics,James Blackwell,"February 25, 1968",26.0,NBA,PG,9.0,0.0,6.8,0.7,1.1,0.6,0.0,0.0,,0.7,1.1,0.6,0.6,0.2,0.3,0.67,0.2,0.7,0.9,0.7,0.3,0.0,0.3,0.8,1.6

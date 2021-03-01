@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1987,14,332,LAL,Los Angeles Lakers,Adrian Branch,"November 17, 1963",23.0,NBA,SF,32.0,0.0,219.0,48.0,96.0,0.5,0.0,2.0,0.0,48.0,94.0,0.51,0.5,42.0,54.0,0.78,23.0,30.0,53.0,16.0,16.0,3.0,24.0,39.0,138.0
+1988,3,332,NJN,New Jersey Nets,Adrian Branch,"November 17, 1963",24.0,NBA,SF,20.0,3.0,308.0,56.0,134.0,0.42,1.0,5.0,0.2,55.0,129.0,0.43,0.42,20.0,23.0,0.87,20.0,28.0,48.0,16.0,16.0,11.0,29.0,41.0,133.0
+1989,25,332,POR,Portland Trail Blazers,Adrian Branch,"November 17, 1963",25.0,NBA,SF,67.0,4.0,811.0,202.0,436.0,0.46,7.0,31.0,0.23,195.0,405.0,0.48,0.47,87.0,120.0,0.72,63.0,69.0,132.0,60.0,45.0,3.0,64.0,99.0,498.0
+1990,18,332,MIN,Minnesota Timberwolves,Adrian Branch,"November 17, 1963",26.0,NBA,SF,11.0,0.0,91.0,25.0,61.0,0.41,1.0,1.0,1.0,24.0,60.0,0.4,0.42,14.0,22.0,0.64,8.0,12.0,20.0,4.0,6.0,0.0,8.0,14.0,65.0

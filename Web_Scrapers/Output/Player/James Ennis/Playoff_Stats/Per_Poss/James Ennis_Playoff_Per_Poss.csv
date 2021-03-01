@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2017,15,866,MEM,Memphis Grizzlies,James Ennis,"July 1, 1990",26.0,NBA,SF,6.0,4.0,159.0,5.6,13.4,0.42,2.1,6.7,0.32,3.5,6.7,0.53,4.2,4.9,0.86,2.8,6.0,8.8,2.5,1.8,0.7,2.5,7.0,17.6,111.0,119.0
+2019,23,866,PHI,Philadelphia 76Ers,James Ennis,"July 1, 1990",28.0,NBA,SF,11.0,0.0,232.0,6.5,13.4,0.48,1.9,6.7,0.28,4.6,6.7,0.69,2.5,4.0,0.63,3.3,5.4,8.8,2.5,0.8,0.6,2.1,6.5,17.4,114.0,110.0
+2020,22,866,ORL,Orlando Magic,James Ennis,"July 1, 1990",29.0,NBA,SG,5.0,5.0,119.0,4.6,13.5,0.34,1.5,6.2,0.25,3.1,7.3,0.42,2.7,3.5,0.78,2.3,8.9,11.2,2.3,1.9,0.8,2.3,7.3,13.5,89.0,109.0

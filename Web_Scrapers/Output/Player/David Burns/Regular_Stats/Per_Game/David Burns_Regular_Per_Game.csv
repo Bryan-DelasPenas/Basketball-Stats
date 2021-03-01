@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1982,31,428,TOT,Total After Trade,David Burns,"July 3, 1958",23.0,NBA,PG,9.0,1.0,9.7,0.8,1.8,0.44,0.0,0.0,,0.8,1.8,0.44,0.44,1.0,1.7,0.6,0.1,0.4,0.6,1.7,0.3,0.0,1.4,1.9,2.6
+1982,3,428,NJN,New Jersey Nets,David Burns,"July 3, 1958",23.0,NBA,PG,3.0,0.0,11.3,0.7,1.7,0.4,0.0,0.0,,0.7,1.7,0.4,0.4,1.0,2.0,0.5,0.0,0.7,0.7,1.3,0.3,0.0,1.7,1.3,2.3
+1982,8,428,DEN,Denver Nuggets,David Burns,"July 3, 1958",23.0,NBA,PG,6.0,1.0,8.8,0.8,1.8,0.46,0.0,0.0,,0.8,1.8,0.46,0.46,1.0,1.5,0.67,0.2,0.3,0.5,1.8,0.3,0.0,1.3,2.2,2.7

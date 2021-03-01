@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1987,10,482,GSW,Golden State Warriors,Joe Barry Carroll,"July 24, 1958",28.0,NBA,C,10.0,10.0,334.0,8.0,17.6,0.45,0.0,0.1,0.0,8.0,17.5,0.46,4.4,5.5,0.8,1.7,5.3,7.0,2.0,1.5,2.7,3.3,4.5,20.4
+1988,11,482,HOU,Houston Rockets,Joe Barry Carroll,"July 24, 1958",29.0,NBA,C,4.0,4.0,116.0,5.6,14.6,0.38,0.0,0.0,,5.6,14.6,0.38,2.5,3.1,0.8,2.5,3.4,5.9,0.6,0.9,0.3,1.6,3.7,13.7
+1990,8,482,DEN,Denver Nuggets,Joe Barry Carroll,"July 24, 1958",31.0,NBA,C,3.0,3.0,46.0,7.0,12.5,0.56,0.0,0.0,,7.0,12.5,0.56,1.6,1.6,1.0,0.8,6.3,7.0,2.3,0.8,3.9,0.8,4.7,15.7
+1991,24,482,PHO,Phoenix Suns,Joe Barry Carroll,"July 24, 1958",32.0,NBA,C,2.0,0.0,15.0,9.6,19.2,0.5,0.0,0.0,,9.6,19.2,0.5,0.0,2.4,0.0,0.0,2.4,2.4,4.8,0.0,2.4,2.4,0.0,19.2

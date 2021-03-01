@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1985,24,3261,PHO,Phoenix Suns,Michael Young,"January 2, 1961",24.0,NBA,SF,2.0,11.0,5.8,0.33,0.17,0.0,10.5,10.1,10.3,0.0,0.0,0.0,0.0,22.2,0.0,0.0,0.0,-0.07,-2.5,-5.6,-8.0,0.0
+1986,23,3261,PHI,Philadelphia 76Ers,Michael Young,"January 2, 1961",25.0,NBA,SF,2.0,2.0,-32.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.3,0.0,0.0,0.0,-0.82,-28.9,-19.1,-48.0,0.0
+1990,13,3261,LAC,Los Angeles Clippers,Michael Young,"January 2, 1961",29.0,NBA,SF,45.0,459.0,16.0,0.52,0.13,0.2,9.1,12.3,10.7,8.2,2.6,0.4,6.6,20.5,0.6,0.5,1.1,0.12,0.4,0.0,0.4,0.3

@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,25,2910,POR,Portland Trail Blazers,Gary Trent Jr.,"January 18, 1999",20.0,NBA,SG,15,1,7.4,1.1,3.3,0.32,0.3,1.4,0.24,0.7,1.9,0.38,0.37,0.2,0.5,0.43,0.1,0.7,0.7,0.3,0.1,0.1,0.3,0.3,2.7
+2020,25,2910,POR,Portland Trail Blazers,Gary Trent Jr.,"January 18, 1999",21.0,NBA,SF,61,8,21.8,3.2,7.2,0.44,1.8,4.4,0.42,1.4,2.8,0.49,0.57,0.6,0.7,0.82,0.4,1.2,1.6,1.0,0.8,0.3,0.3,1.5,8.9
+2021,25,2910,POR,Portland Trail Blazers,Gary Trent Jr.,"January 18, 1999",22.0,NBA,SG,30,17,30.9,5.6,13.2,0.42,3.2,7.8,0.42,2.4,5.4,0.44,0.55,1.0,1.3,0.75,0.5,1.6,2.1,1.4,0.7,0.2,0.7,1.5,15.4

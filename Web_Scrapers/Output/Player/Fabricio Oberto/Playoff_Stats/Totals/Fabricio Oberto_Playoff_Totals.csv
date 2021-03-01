@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2006,27,2184,SAS,San Antonio Spurs,Fabricio Oberto,"March 21, 1975",30.0,NBA,C,7.0,0.0,34.0,3.0,9.0,0.33,0.0,0.0,,3.0,9.0,0.33,0.33,1.0,4.0,0.25,3.0,3.0,6.0,1.0,1.0,3.0,2.0,7.0,7.0
+2007,27,2184,SAS,San Antonio Spurs,Fabricio Oberto,"March 21, 1975",31.0,NBA,C,20.0,12.0,415.0,50.0,80.0,0.62,0.0,1.0,0.0,50.0,79.0,0.63,0.62,12.0,21.0,0.57,41.0,57.0,98.0,14.0,6.0,4.0,10.0,54.0,112.0
+2008,27,2184,SAS,San Antonio Spurs,Fabricio Oberto,"March 21, 1975",32.0,NBA,C,17.0,9.0,331.0,28.0,46.0,0.61,0.0,0.0,,28.0,46.0,0.61,0.61,7.0,10.0,0.7,15.0,56.0,71.0,20.0,6.0,5.0,14.0,48.0,63.0
+2009,27,2184,SAS,San Antonio Spurs,Fabricio Oberto,"March 21, 1975",33.0,NBA,C,2.0,0.0,22.0,4.0,6.0,0.67,0.0,0.0,,4.0,6.0,0.67,0.67,4.0,4.0,1.0,2.0,2.0,4.0,0.0,2.0,0.0,2.0,2.0,12.0

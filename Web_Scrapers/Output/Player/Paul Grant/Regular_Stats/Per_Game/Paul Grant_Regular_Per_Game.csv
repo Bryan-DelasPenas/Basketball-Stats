@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1999,31.0,1087,TOT,Total After Trade,Paul Grant,"January 6, 1974",25.0,NBA,C,6,0,2.2,0.3,1.0,0.333,0.0,0.0,,0.3,1.0,0.333,0.333,0.0,0.0,,0.2,0.0,0.2,0.0,0.2,0.0,0.3,0.7,0.7
+1999,18.0,1087,MIN,Minnesota Timberwolves,Paul Grant,"January 6, 1974",25.0,NBA,C,4,0,2.0,0.3,1.0,0.25,0.0,0.0,,0.3,1.0,0.25,0.25,0.0,0.0,,0.3,0.0,0.3,0.0,0.0,0.0,0.3,1.0,0.5
+1999,17.0,1087,MIL,Milwaukee Bucks,Paul Grant,"January 6, 1974",25.0,NBA,C,2,0,2.5,0.5,1.0,0.5,0.0,0.0,,0.5,1.0,0.5,0.5,0.0,0.0,,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.0,1.0
+2004,29.0,1087,UTA,Utah Jazz,Paul Grant,"January 6, 1974",30.0,NBA,C,10,0,9.8,1.1,2.3,0.478,0.0,0.0,,1.1,2.3,0.478,0.478,0.3,0.8,0.375,0.7,1.0,1.7,0.3,0.1,0.1,0.7,1.7,2.5

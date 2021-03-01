@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2011,12,1961,IND,Indiana Pacers,Josh McRoberts,"February 28, 1987",23.0,NBA,PF,5.0,0.0,79.0,8.0,24.0,0.33,0.0,1.0,0.0,8.0,23.0,0.35,0.33,9.0,11.0,0.82,8.0,10.0,18.0,6.0,4.0,1.0,5.0,17.0,25.0
+2012,14,1961,LAL,Los Angeles Lakers,Josh McRoberts,"February 28, 1987",24.0,NBA,PF,6.0,0.0,16.0,1.0,4.0,0.25,0.0,1.0,0.0,1.0,3.0,0.33,0.25,0.0,0.0,,0.0,4.0,4.0,1.0,0.0,1.0,2.0,1.0,2.0
+2014,4,1961,CHA,Charlotte Bobcats,Josh McRoberts,"February 28, 1987",26.0,NBA,PF,4.0,4.0,154.0,15.0,33.0,0.46,8.0,17.0,0.47,7.0,16.0,0.44,0.58,8.0,10.0,0.8,1.0,26.0,27.0,15.0,4.0,1.0,6.0,13.0,46.0
+2016,16,1961,MIA,Miami Heat,Josh McRoberts,"February 28, 1987",28.0,NBA,PF,10.0,0.0,134.0,16.0,34.0,0.47,0.0,7.0,0.0,16.0,27.0,0.59,0.47,6.0,6.0,1.0,7.0,19.0,26.0,9.0,5.0,5.0,4.0,20.0,38.0

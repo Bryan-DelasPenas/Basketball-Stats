@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2000,16,1434,MIA,Miami Heat,Harold Jamison,"November 20, 1976",23.0,NBA,PF,12.0,0.0,74.0,7.0,20.0,0.35,0.0,0.0,,7.0,20.0,0.35,0.35,4.0,18.0,0.22,16.0,5.0,21.0,4.0,2.0,1.0,4.0,17.0,18.0
+2002,13,1434,LAC,Los Angeles Clippers,Harold Jamison,"November 20, 1976",25.0,NBA,PF,25.0,2.0,176.0,22.0,43.0,0.51,0.0,0.0,,22.0,43.0,0.51,0.51,10.0,15.0,0.67,24.0,15.0,39.0,6.0,5.0,1.0,6.0,23.0,54.0

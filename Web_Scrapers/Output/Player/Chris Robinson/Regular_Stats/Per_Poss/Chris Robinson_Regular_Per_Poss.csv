@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1997,15,2471,VAN,Vancouver Grizzlies,Chris Robinson,"April 2, 1974",22.0,NBA,SG,41.0,6.0,681.0,5.5,14.5,0.38,2.7,7.1,0.38,2.8,7.4,0.38,1.3,2.1,0.62,1.8,3.8,5.7,5.2,2.2,0.7,2.7,6.8,15.0,99.0,113.0
+1998,31,2471,TOT,Total After Trade,Chris Robinson,"April 2, 1974",23.0,NBA,SG,35.0,0.0,414.0,8.2,21.9,0.37,3.0,8.3,0.36,5.2,13.6,0.38,1.0,2.0,0.5,1.1,4.7,5.8,4.9,2.4,0.5,4.2,6.3,20.4,87.0,109.0
+1998,15,2471,VAN,Vancouver Grizzlies,Chris Robinson,"April 2, 1974",23.0,NBA,SG,16.0,0.0,143.0,8.4,23.0,0.36,2.6,8.7,0.29,5.8,14.2,0.41,0.4,0.7,0.5,0.0,4.7,4.7,3.6,2.6,0.4,5.5,7.7,19.7,76.0,111.0
+1998,26,2471,SAC,Sacramento Kings,Chris Robinson,"April 2, 1974",23.0,NBA,SG,19.0,0.0,271.0,8.1,21.3,0.38,3.3,8.1,0.4,4.8,13.3,0.36,1.3,2.7,0.5,1.7,4.6,6.3,5.6,2.3,0.6,3.5,5.6,20.8,93.0,107.0

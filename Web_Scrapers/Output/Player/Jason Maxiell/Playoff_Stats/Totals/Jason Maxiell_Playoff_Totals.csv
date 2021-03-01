@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2007,9,1879,DET,Detroit Pistons,Jason Maxiell,"February 18, 1983",23.0,NBA,C,14.0,0.0,146.0,22.0,33.0,0.67,0.0,1.0,0.0,22.0,32.0,0.69,0.67,12.0,23.0,0.52,11.0,22.0,33.0,2.0,4.0,9.0,7.0,21.0,56.0
+2008,9,1879,DET,Detroit Pistons,Jason Maxiell,"February 18, 1983",24.0,NBA,C,17.0,6.0,371.0,40.0,64.0,0.62,0.0,0.0,,40.0,64.0,0.62,0.62,15.0,32.0,0.47,21.0,47.0,68.0,16.0,15.0,22.0,11.0,48.0,95.0
+2009,9,1879,DET,Detroit Pistons,Jason Maxiell,"February 18, 1983",25.0,NBA,C,4.0,0.0,64.0,5.0,10.0,0.5,0.0,0.0,,5.0,10.0,0.5,0.5,5.0,9.0,0.56,7.0,6.0,13.0,2.0,1.0,1.0,1.0,5.0,15.0

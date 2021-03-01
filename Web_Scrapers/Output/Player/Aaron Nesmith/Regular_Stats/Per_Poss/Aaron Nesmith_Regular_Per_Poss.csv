@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2021,2,2129,BOS,Boston Celtics,Aaron Nesmith,"October 16, 1999",21.0,NBA,SF,18,0,281,4.3,11.0,0.4,3.0,8.4,0.35,1.4,2.6,0.53,1.4,2.1,0.67,1.7,5.9,7.7,1.2,0.5,0.9,1.9,6.4,13.0,105,115

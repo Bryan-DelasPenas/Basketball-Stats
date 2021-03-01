@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1989,31,692,TOT,Total After Trade,Mark Giles Davis,"June 8, 1963",25.0,NBA,SF,33.0,258.0,15.0,0.54,0.1,0.33,7.1,9.6,8.3,8.1,2.5,1.2,9.3,20.7,0.4,0.3,0.7,0.13,-0.8,0.3,-0.5,0.1
+1989,24,692,PHO,Phoenix Suns,Mark Giles Davis,"June 8, 1963",25.0,NBA,SF,2.0,7.0,5.9,0.34,0.2,0.4,15.9,0.0,7.6,0.0,0.0,0.0,0.0,33.3,0.0,0.0,0.0,-0.05,-6.3,-7.4,-13.7,0.0
+1989,17,692,MIL,Milwaukee Bucks,Mark Giles Davis,"June 8, 1963",25.0,NBA,SF,31.0,251.0,15.3,0.55,0.09,0.33,6.8,9.8,8.3,8.3,2.5,1.2,9.7,20.4,0.4,0.3,0.7,0.14,-0.7,0.5,-0.2,0.1

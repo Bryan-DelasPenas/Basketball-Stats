@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,10,6,GSW,Golden State Warriors,Tom Abernethy,"May 6, 1954",25.0,NBA,PF,67.0,1222.0,11.0,0.51,0.0,0.26,5.4,12.0,8.6,9.3,1.4,0.6,9.9,13.3,1.2,0.8,2.0,0.08,-1.0,-0.2,-1.2,0.2
+1981,31,6,TOT,Total After Trade,Tom Abernethy,"May 6, 1954",26.0,NBA,SF,39.0,298.0,8.0,0.46,0.02,0.37,7.1,10.6,8.8,8.0,1.1,0.6,10.4,10.3,0.2,0.2,0.4,0.06,-2.2,-0.4,-2.6,0.0
+1981,10,6,GSW,Golden State Warriors,Tom Abernethy,"May 6, 1954",26.0,NBA,SF,10.0,39.0,3.2,0.46,0.0,1.0,2.8,20.2,11.4,2.9,1.2,0.0,31.6,6.4,0.0,0.0,0.0,-0.0,-4.4,0.0,-4.4,0.0
+1981,12,6,IND,Indiana Pacers,Tom Abernethy,"May 6, 1954",26.0,NBA,SF,29.0,259.0,8.7,0.46,0.02,0.34,7.8,9.1,8.4,8.8,1.1,0.7,8.5,10.9,0.2,0.2,0.4,0.07,-1.9,-0.4,-2.4,0.0

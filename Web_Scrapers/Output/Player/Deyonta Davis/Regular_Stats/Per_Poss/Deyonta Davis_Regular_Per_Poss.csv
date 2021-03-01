@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2017,15,684,MEM,Memphis Grizzlies,Deyonta Davis,"December 2, 1996",20.0,NBA,C,36.0,0.0,238.0,5.2,10.3,0.51,0.0,0.0,,5.2,10.3,0.51,2.2,3.9,0.56,4.4,8.7,13.1,0.4,0.7,3.7,1.7,8.7,12.7,107.0,105.0
+2018,15,684,MEM,Memphis Grizzlies,Deyonta Davis,"December 2, 1996",21.0,NBA,C,62.0,6.0,943.0,8.6,14.2,0.61,0.0,0.0,,8.6,14.2,0.61,2.0,3.1,0.67,4.0,9.4,13.4,2.1,0.8,2.1,1.7,6.7,19.3,122.0,110.0
+2019,1,684,ATL,Atlanta Hawks,Deyonta Davis,"December 2, 1996",22.0,NBA,C,9.0,0.0,118.0,5.9,8.6,0.68,0.0,0.4,0.0,5.9,8.2,0.71,2.3,3.9,0.6,3.9,10.2,14.1,2.0,1.2,2.0,1.2,4.7,14.1,136.0,112.0

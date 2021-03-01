@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1989,29,2215,UTA,Utah Jazz,Jose Ortiz,"October 25, 1963",25.0,NBA,PF,51,15,327,6.1,13.8,0.44,0.0,0.1,0.0,6.1,13.7,0.44,3.4,5.7,0.6,3.3,3.1,6.4,1.2,0.9,0.8,4.0,4.4,15.5
+1990,29,2215,UTA,Utah Jazz,Jose Ortiz,"October 25, 1963",26.0,NBA,PF,13,0,64,10.7,23.6,0.45,0.6,1.1,0.5,10.1,22.5,0.45,1.7,2.8,0.6,4.5,3.9,8.4,3.9,1.1,0.6,2.8,8.4,23.6

@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,8,2462,DEN,Denver Nuggets,Anthony Roberts,"April 15, 1955",24.0,NBA,SF,23.0,,486.0,69.0,181.0,0.38,0.0,1.0,0.0,69.0,180.0,0.38,0.38,39.0,60.0,0.65,54.0,55.0,109.0,20.0,13.0,3.0,28.0,52.0,177.0
+1981,30,2462,WSB,Washington Bullets,Anthony Roberts,"April 15, 1955",25.0,NBA,SF,26.0,,350.0,54.0,144.0,0.38,0.0,0.0,,54.0,144.0,0.38,0.38,19.0,29.0,0.66,18.0,50.0,68.0,20.0,11.0,0.0,28.0,52.0,127.0
+1984,8,2462,DEN,Denver Nuggets,Anthony Roberts,"April 15, 1955",28.0,NBA,SF,19.0,0.0,197.0,34.0,91.0,0.37,0.0,0.0,,34.0,91.0,0.37,0.37,13.0,18.0,0.72,20.0,31.0,51.0,13.0,5.0,1.0,17.0,43.0,81.0

@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1980,6,475,CLE,Cleveland Cavaliers,Austin Carr,"March 10, 1948",31.0,NBA,SG,77.0,,1595.0,11.1,23.9,0.46,0.1,0.2,0.33,11.1,23.7,0.47,3.6,4.9,0.74,2.3,2.4,4.7,4.3,1.1,0.1,3.1,3.4,25.9,103.0,110.0
+1981,31,475,TOT,Total After Trade,Austin Carr,"March 10, 1948",32.0,NBA,SG,47.0,,657.0,6.2,16.8,0.37,0.0,0.5,0.0,6.2,16.3,0.38,2.4,3.9,0.63,1.6,2.8,4.4,4.2,1.1,0.1,2.9,3.8,14.9,85.0,108.0
+1981,7,475,DAL,Dallas Mavericks,Austin Carr,"March 10, 1948",32.0,NBA,SG,8.0,,77.0,4.4,17.7,0.25,0.0,0.0,,4.4,17.7,0.25,1.3,2.5,0.5,2.5,3.2,5.7,5.7,0.6,0.0,5.7,6.3,10.1,60.0,114.0
+1981,30,475,WSB,Washington Bullets,Austin Carr,"March 10, 1948",32.0,NBA,SG,39.0,,580.0,6.5,16.7,0.39,0.0,0.6,0.0,6.5,16.1,0.4,2.6,4.0,0.64,1.5,2.7,4.2,4.0,1.1,0.2,2.6,3.5,15.5,89.0,107.0

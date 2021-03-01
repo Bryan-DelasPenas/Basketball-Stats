@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1999,17,2478,MIL,Milwaukee Bucks,Glenn Robinson,"January 10, 1973",26.0,NBA,SF,3.0,118.0,18.1,0.53,0.16,0.35,4.1,21.4,12.8,8.4,1.4,1.6,14.5,27.8,0.1,-0.1,0.0,0.02,2.0,-1.8,0.2,0.1
+2000,17,2478,MIL,Milwaukee Bucks,Glenn Robinson,"January 10, 1973",27.0,NBA,SF,5.0,174.0,11.2,0.45,0.09,0.16,0.0,13.0,6.8,12.4,2.5,1.7,15.0,26.4,-0.3,0.2,-0.1,-0.02,-2.2,-0.3,-2.6,0.0
+2001,17,2478,MIL,Milwaukee Bucks,Glenn Robinson,"January 10, 1973",28.0,NBA,SF,18.0,687.0,16.9,0.5,0.19,0.17,4.3,13.6,9.2,16.7,0.9,2.4,11.7,26.5,0.6,0.5,1.2,0.08,2.6,-1.1,1.6,0.6
+2005,27,2478,SAS,San Antonio Spurs,Glenn Robinson,"January 10, 1973",32.0,NBA,SF,13.0,113.0,11.7,0.48,0.22,0.38,2.2,19.6,11.1,1.5,1.5,4.4,10.3,24.3,0.0,0.2,0.2,0.07,-3.8,1.6,-2.2,0.0

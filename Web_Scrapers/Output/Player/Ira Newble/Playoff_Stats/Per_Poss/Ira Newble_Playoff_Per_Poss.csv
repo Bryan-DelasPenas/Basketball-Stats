@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2006,6,2136,CLE,Cleveland Cavaliers,Ira Newble,"January 20, 1975",31.0,NBA,SG,5.0,0.0,11.0,15.3,15.3,1.0,5.1,5.1,1.0,10.2,10.2,1.0,0.0,0.0,,5.1,5.1,10.2,0.0,5.1,0.0,5.1,5.1,35.6,146.0,102.0
+2007,6,2136,CLE,Cleveland Cavaliers,Ira Newble,"January 20, 1975",32.0,NBA,SF,6.0,0.0,10.0,0.0,11.2,0.0,0.0,11.2,0.0,0.0,0.0,,0.0,0.0,,0.0,5.6,5.6,5.6,0.0,0.0,0.0,16.8,0.0,29.0,105.0
+2008,14,2136,LAL,Los Angeles Lakers,Ira Newble,"January 20, 1975",33.0,NBA,SF,1.0,0.0,1.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,118.0

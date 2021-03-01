@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2018,13,3133,LAC,Los Angeles Clippers,C.J. Williams,"February 6, 1990",27.0,NBA,SG,38.0,17.0,18.6,2.3,5.2,0.44,0.6,2.1,0.28,1.7,3.1,0.55,0.5,0.3,0.4,0.81,0.3,1.2,1.5,1.1,0.8,0.3,0.5,1.7,5.5
+2019,18,3133,MIN,Minnesota Timberwolves,C.J. Williams,"February 6, 1990",28.0,NBA,SG,15.0,0.0,8.5,1.1,2.3,0.49,0.3,1.1,0.31,0.8,1.3,0.63,0.56,0.0,0.1,0.0,0.1,0.5,0.5,0.8,0.4,0.0,0.3,1.1,2.6

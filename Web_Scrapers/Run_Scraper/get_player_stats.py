@@ -92,6 +92,7 @@ def csv_career_stats(name, birth_date, format, playoff, player_path):
 Calls all functions above and puts into its own csvs
 '''
 def get_player_csv():
+    count = 1
     csv_path = path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player_Name','player_names.csv')
 
     source_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player')
@@ -108,6 +109,7 @@ def get_player_csv():
 
     # Iterate through the list 
     for player in record:
+        print(count)
         print(player[0])
         
         player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', player[0])
@@ -151,7 +153,7 @@ def get_player_csv():
         csv_career_stats(player[0], player[1], 'Per_Poss', True, player_path)
         csv_career_stats(player[0], player[1], 'Totals', True, player_path)
         csv_career_stats(player[0], player[1], 'Advanced', True, player_path)
-
+        count += 1
 def main():
 
     start_time = time.time()

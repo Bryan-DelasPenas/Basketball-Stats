@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2015,3,389,BRK,Brooklyn Nets,Markel Brown,"January 29, 1992",23.0,NBA,SG,47.0,29.0,781.0,3.5,9.7,0.36,0.8,3.0,0.27,2.7,6.7,0.4,2.2,2.6,0.82,0.7,4.2,4.9,1.8,1.4,0.6,1.2,2.6,10.0
+2016,3,389,BRK,Brooklyn Nets,Markel Brown,"January 29, 1992",24.0,NBA,SG,62.0,6.0,982.0,4.7,11.8,0.39,1.4,4.4,0.31,3.3,7.4,0.44,2.6,3.4,0.76,0.8,3.6,4.5,3.3,1.4,0.5,2.0,3.4,13.3
+2018,11,389,HOU,Houston Rockets,Markel Brown,"January 29, 1992",26.0,NBA,SG,4.0,0.0,31.0,2.3,8.1,0.29,1.2,5.8,0.2,1.2,2.3,0.5,0.0,0.0,,1.2,4.6,5.8,2.3,0.0,0.0,2.3,7.0,5.8

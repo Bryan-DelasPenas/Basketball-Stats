@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2013,11,2253,HOU,Houston Rockets,Chandler Parsons,"October 25, 1988",24.0,NBA,SF,6.0,6.0,39.7,7.0,15.5,0.45,2.7,6.7,0.4,4.3,8.8,0.49,0.54,1.5,2.3,0.64,1.2,5.3,6.5,3.7,0.2,0.3,3.0,3.2,18.2
+2014,11,2253,HOU,Houston Rockets,Chandler Parsons,"October 25, 1988",25.0,NBA,SF,6.0,6.0,41.7,7.7,17.5,0.44,2.2,6.0,0.36,5.5,11.5,0.48,0.5,1.8,2.5,0.73,1.0,5.8,6.8,2.3,0.7,0.3,0.8,3.2,19.3
+2015,7,2253,DAL,Dallas Mavericks,Chandler Parsons,"October 25, 1988",26.0,NBA,SF,1.0,1.0,37.0,5.0,15.0,0.33,0.0,4.0,0.0,5.0,11.0,0.46,0.33,0.0,0.0,,0.0,6.0,6.0,2.0,0.0,0.0,1.0,1.0,10.0

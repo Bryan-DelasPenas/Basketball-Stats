@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1990,11,454,HOU,Houston Rockets,Adrian Caldwell,"July 4, 1966",23.0,NBA,PF,1.0,1.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.02,-2.8,-0.5,-3.3,0.0
+1996,12,454,IND,Indiana Pacers,Adrian Caldwell,"July 4, 1966",29.0,NBA,PF,1.0,3.0,37.4,1.0,0.0,0.0,0.0,38.0,20.5,0.0,0.0,0.0,0.0,15.9,0.0,0.0,0.0,0.37,14.2,2.3,16.5,0.0

@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1996,18,693,MIN,Minnesota Timberwolves,Mark Anthony Davis,"April 26, 1973",22.0,NBA,SF,57.0,571.0,10.9,0.47,0.09,0.78,11.7,14.5,13.1,12.6,3.6,2.9,25.4,20.8,-0.8,0.8,-0.1,-0.0,-4.2,1.0,-3.2,-0.2
+1997,23,693,PHI,Philadelphia 76Ers,Mark Anthony Davis,"April 26, 1973",23.0,NBA,SF,75.0,1705.0,13.7,0.52,0.17,0.31,8.6,12.1,10.3,12.9,2.5,1.3,16.2,18.0,1.3,1.0,2.3,0.06,-1.5,0.0,-1.4,0.2
+1998,23,693,PHI,Philadelphia 76Ers,Mark Anthony Davis,"April 26, 1973",24.0,NBA,SF,71.0,906.0,10.9,0.49,0.02,0.41,8.1,12.0,10.0,13.5,2.9,1.5,24.0,18.8,-0.8,1.0,0.2,0.01,-2.6,0.6,-2.0,0.0
+1999,16,693,MIA,Miami Heat,Mark Anthony Davis,"April 26, 1973",25.0,NBA,SF,4.0,35.0,-3.1,0.52,0.0,1.0,7.4,16.1,12.1,4.6,1.6,0.0,44.8,22.1,-0.1,0.1,-0.1,-0.12,-15.0,-2.4,-17.3,-0.1
+2000,10,693,GSW,Golden State Warriors,Mark Anthony Davis,"April 26, 1973",26.0,NBA,SF,23.0,464.0,9.8,0.45,0.02,0.34,6.6,12.8,9.5,12.8,2.7,0.6,20.2,17.9,-0.4,0.3,-0.1,-0.01,-3.9,-0.8,-4.6,-0.3

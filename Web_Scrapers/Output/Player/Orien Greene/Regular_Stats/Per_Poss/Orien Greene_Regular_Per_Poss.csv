@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2006,2,1118,BOS,Boston Celtics,Orien Greene,"February 4, 1982",23.0,NBA,PG,80.0,5.0,1235.0,4.2,10.7,0.4,0.4,1.7,0.22,3.8,9.0,0.43,1.9,2.9,0.66,1.6,4.6,6.1,5.4,3.2,0.4,4.6,7.6,10.7,83.0,105.0
+2007,12,1118,IND,Indiana Pacers,Orien Greene,"February 4, 1982",24.0,NBA,SG,41.0,0.0,254.0,4.7,12.7,0.37,0.4,2.2,0.18,4.3,10.4,0.41,3.1,5.1,0.6,2.5,6.5,9.0,4.5,3.5,0.8,5.7,7.8,12.9,78.0,102.0
+2008,26,1118,SAC,Sacramento Kings,Orien Greene,"February 4, 1982",25.0,NBA,SG,7.0,2.0,61.0,2.5,9.1,0.27,0.0,0.8,0.0,2.5,8.3,0.3,0.0,0.0,,0.0,5.0,5.0,2.5,2.5,0.8,5.8,7.5,5.0,42.0,109.0
+2011,3,1118,NJN,New Jersey Nets,Orien Greene,"February 4, 1982",28.0,NBA,SG,3.0,0.0,5.0,10.7,21.4,0.5,0.0,0.0,,10.7,21.4,0.5,10.7,21.4,0.5,0.0,0.0,0.0,10.7,10.7,0.0,0.0,0.0,32.0,121.0,95.0

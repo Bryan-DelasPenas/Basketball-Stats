@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1994,8,1167,DEN,Denver Nuggets,Tom Hammonds,"March 27, 1967",26.0,NBA,PF,8.0,0.0,49.0,2.2,10.1,0.22,0.0,0.0,,2.2,10.1,0.22,5.6,6.7,0.83,5.6,9.0,14.6,2.2,0.0,0.0,1.1,6.7,10.1,104.0,109.0
+1995,8,1167,DEN,Denver Nuggets,Tom Hammonds,"March 27, 1967",27.0,NBA,PF,3.0,0.0,44.0,10.8,16.8,0.64,0.0,0.0,,10.8,16.8,0.64,2.4,7.2,0.33,3.6,4.8,8.4,1.2,0.0,2.4,4.8,14.4,24.1,98.0,121.0
+1998,18,1167,MIN,Minnesota Timberwolves,Tom Hammonds,"March 27, 1967",30.0,NBA,PF,5.0,1.0,113.0,5.9,13.8,0.43,0.0,0.0,,5.9,13.8,0.43,5.9,7.9,0.75,4.9,5.9,10.8,1.0,0.0,0.5,2.0,8.9,17.7,109.0,116.0
+1999,18,1167,MIN,Minnesota Timberwolves,Tom Hammonds,"March 27, 1967",31.0,NBA,PF,4.0,0.0,18.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,12.6,12.6,1.0,0.0,6.3,6.3,0.0,0.0,0.0,3.2,12.6,12.6,149.0,107.0
+2000,18,1167,MIN,Minnesota Timberwolves,Tom Hammonds,"March 27, 1967",32.0,NBA,PF,1.0,0.0,2.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,115.0

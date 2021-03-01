@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1981,20,3171,NYK,New York Knicks,Ray Williams,"October 14, 1954",26.0,NBA,PG,2.0,84.0,12.4,0.47,0.07,0.27,3.7,7.2,5.3,20.3,2.4,0.0,16.4,27.4,-0.1,0.1,0.0,0.0,-0.4,-0.6,-1.0,0.0
+1982,3,3171,NJN,New Jersey Nets,Ray Williams,"October 14, 1954",27.0,NBA,SG,2.0,77.0,10.7,0.35,0.11,0.11,11.9,6.4,9.2,30.9,2.6,0.0,10.9,30.7,-0.2,0.1,-0.1,-0.06,-1.4,-1.5,-2.8,0.0
+1984,20,3171,NYK,New York Knicks,Ray Williams,"October 14, 1954",29.0,NBA,SG,11.0,310.0,11.6,0.42,0.09,0.3,2.9,11.2,7.1,40.4,2.7,0.2,21.8,25.2,-0.5,0.3,-0.2,-0.04,-1.4,-0.3,-1.7,0.0
+1985,2,3171,BOS,Boston Celtics,Ray Williams,"October 14, 1954",30.0,NBA,PG,19.0,278.0,10.9,0.47,0.13,0.22,5.6,8.7,7.2,29.5,2.0,0.2,20.6,23.2,-0.2,0.3,0.1,0.01,-2.3,0.1,-2.1,0.0

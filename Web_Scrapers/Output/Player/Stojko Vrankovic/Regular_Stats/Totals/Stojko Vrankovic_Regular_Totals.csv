@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1991,2,2985,BOS,Boston Celtics,Stojko Vrankovic,"January 22, 1964",27.0,NBA,C,31.0,0.0,166.0,24.0,52.0,0.46,0.0,0.0,,24.0,52.0,0.46,0.46,10.0,18.0,0.56,15.0,36.0,51.0,4.0,1.0,29.0,24.0,43.0,58.0
+1992,2,2985,BOS,Boston Celtics,Stojko Vrankovic,"January 22, 1964",28.0,NBA,C,19.0,0.0,110.0,15.0,32.0,0.47,0.0,0.0,,15.0,32.0,0.47,0.47,7.0,12.0,0.58,8.0,20.0,28.0,5.0,0.0,17.0,10.0,22.0,37.0
+1997,18,2985,MIN,Minnesota Timberwolves,Stojko Vrankovic,"January 22, 1964",33.0,NBA,C,53.0,35.0,766.0,78.0,139.0,0.56,0.0,0.0,,78.0,139.0,0.56,0.56,25.0,37.0,0.68,57.0,111.0,168.0,14.0,10.0,67.0,52.0,121.0,181.0
+1998,13,2985,LAC,Los Angeles Clippers,Stojko Vrankovic,"January 22, 1964",34.0,NBA,C,65.0,38.0,996.0,79.0,186.0,0.42,0.0,0.0,,79.0,186.0,0.42,0.42,37.0,65.0,0.57,71.0,192.0,263.0,36.0,11.0,66.0,46.0,130.0,195.0
+1999,13,2985,LAC,Los Angeles Clippers,Stojko Vrankovic,"January 22, 1964",35.0,NBA,C,2.0,0.0,12.0,1.0,4.0,0.25,0.0,0.0,,1.0,4.0,0.25,0.25,0.0,0.0,,4.0,2.0,6.0,0.0,0.0,0.0,0.0,2.0,2.0

@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,20,2446,NYK,New York Knicks,Micheal Ray Richardson,"April 11, 1955",25.0,NBA,SG,2.0,,86.0,8.0,33.0,0.24,0.0,4.0,0.0,8.0,29.0,0.28,0.24,7.0,12.0,0.58,6.0,13.0,19.0,11.0,7.0,0.0,8.0,8.0,23.0
+1983,3,2446,NJN,New Jersey Nets,Micheal Ray Richardson,"April 11, 1955",27.0,NBA,PG,2.0,,58.0,8.0,21.0,0.38,0.0,1.0,0.0,8.0,20.0,0.4,0.38,3.0,5.0,0.6,2.0,6.0,8.0,5.0,5.0,0.0,4.0,3.0,19.0
+1984,3,2446,NJN,New Jersey Nets,Micheal Ray Richardson,"April 11, 1955",28.0,NBA,PG,11.0,,443.0,69.0,169.0,0.41,6.0,22.0,0.27,63.0,147.0,0.43,0.43,41.0,56.0,0.73,20.0,34.0,54.0,79.0,34.0,4.0,30.0,40.0,185.0
+1985,3,2446,NJN,New Jersey Nets,Micheal Ray Richardson,"April 11, 1955",29.0,NBA,PG,3.0,3.0,125.0,23.0,57.0,0.4,0.0,2.0,0.0,23.0,55.0,0.42,0.4,9.0,14.0,0.64,4.0,14.0,18.0,34.0,4.0,0.0,8.0,12.0,55.0

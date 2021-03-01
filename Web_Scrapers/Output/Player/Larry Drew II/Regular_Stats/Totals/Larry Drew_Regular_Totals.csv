@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2015,23,785,PHI,Philadelphia 76Ers,Larry Drew II,"March 5, 1990",24.0,NBA,PG,12.0,1.0,219.0,20.0,58.0,0.34,4.0,26.0,0.15,16.0,32.0,0.5,0.38,2.0,3.0,0.67,1.0,14.0,15.0,45.0,6.0,0.0,25.0,13.0,46.0
+2018,31,785,TOT,Total After Trade,Larry Drew II,"March 5, 1990",27.0,NBA,PG,10.0,0.0,70.0,7.0,24.0,0.29,3.0,9.0,0.33,4.0,15.0,0.27,0.35,0.0,0.0,,3.0,0.0,3.0,10.0,0.0,0.0,3.0,6.0,17.0
+2018,23,785,PHI,Philadelphia 76Ers,Larry Drew II,"March 5, 1990",27.0,NBA,PG,3.0,0.0,15.0,1.0,7.0,0.14,0.0,3.0,0.0,1.0,4.0,0.25,0.14,0.0,0.0,,1.0,0.0,1.0,2.0,0.0,0.0,1.0,2.0,2.0
+2018,19,785,NOP,New Orleans Pelicans,Larry Drew II,"March 5, 1990",27.0,NBA,PG,7.0,0.0,55.0,6.0,17.0,0.35,3.0,6.0,0.5,3.0,11.0,0.27,0.44,0.0,0.0,,2.0,0.0,2.0,8.0,0.0,0.0,2.0,4.0,15.0

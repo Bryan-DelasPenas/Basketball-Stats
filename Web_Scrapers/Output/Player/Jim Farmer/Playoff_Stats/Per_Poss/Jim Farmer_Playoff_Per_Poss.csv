@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1988,7,892,DAL,Dallas Mavericks,Jim Farmer,"September 23, 1964",23.0,NBA,SG,3.0,0.0,11.0,9.3,27.8,0.33,0.0,0.0,,9.3,27.8,0.33,0.0,0.0,,13.9,4.6,18.6,4.6,0.0,0.0,9.3,9.3,18.6,77.0,120.0
+1989,29,892,UTA,Utah Jazz,Jim Farmer,"September 23, 1964",24.0,NBA,SG,2.0,0.0,3.0,0.0,32.1,0.0,0.0,16.1,0.0,0.0,16.1,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,123.0

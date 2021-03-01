@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,31,383,TOT,Total After Trade,John Brown,"December 14, 1951",28.0,NBA,SF,32.0,385.0,5.1,0.44,0.0,0.46,7.4,12.7,10.0,6.3,0.4,0.6,18.7,16.5,-0.3,0.4,0.1,0.01,-5.0,-0.9,-5.9,-0.5
+1980,29,383,UTA,Utah Jazz,John Brown,"December 14, 1951",28.0,NBA,SF,4.0,24.0,-0.5,0.23,0.0,0.57,25.4,18.8,21.9,19.5,0.0,0.0,36.3,24.6,-0.1,0.0,-0.1,-0.27,-5.0,-0.8,-5.7,-0.1
+1980,1,383,ATL,Atlanta Hawks,John Brown,"December 14, 1951",28.0,NBA,SF,28.0,361.0,5.4,0.46,0.0,0.45,6.2,12.3,9.2,5.4,0.4,0.7,17.0,16.0,-0.1,0.4,0.2,0.03,-5.0,-0.9,-5.9,-0.4

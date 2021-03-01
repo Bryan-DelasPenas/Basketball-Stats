@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1980,14.0,1242,LAL,Los Angeles Lakers,Spencer Haywood,"April 22, 1949",30.0,NBA,PF,76,,20.3,3.8,7.8,0.487,0.0,0.1,0.25,3.8,7.7,0.489,0.488,2.1,2.7,0.772,1.7,2.8,4.6,1.2,0.5,0.8,1.8,2.6,9.7
+1982,30.0,1242,WSB,Washington Bullets,Spencer Haywood,"April 22, 1949",32.0,NBA,PF,76,63.0,27.4,5.2,10.9,0.476,0.0,0.0,0.0,5.2,10.9,0.478,0.476,2.9,3.4,0.842,1.9,3.7,5.6,0.8,0.6,0.9,2.3,3.3,13.3
+1983,30.0,1242,WSB,Washington Bullets,Spencer Haywood,"April 22, 1949",33.0,NBA,PF,38,25.0,20.4,3.3,8.2,0.401,0.0,0.0,0.0,3.3,8.2,0.402,0.401,1.7,2.3,0.724,2.0,2.8,4.8,0.8,0.3,0.7,1.8,2.5,8.2

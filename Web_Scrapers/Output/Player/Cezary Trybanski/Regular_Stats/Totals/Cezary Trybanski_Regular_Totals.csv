@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2003,15,2914,MEM,Memphis Grizzlies,Cezary Trybanski,"September 22, 1979",23.0,NBA,C,15.0,0.0,86.0,5.0,20.0,0.25,0.0,0.0,,5.0,20.0,0.25,0.25,4.0,10.0,0.4,6.0,8.0,14.0,1.0,0.0,6.0,8.0,13.0,14.0
+2004,31,2914,TOT,Total After Trade,Cezary Trybanski,"September 22, 1979",24.0,NBA,C,7.0,0.0,15.0,0.0,4.0,0.0,0.0,0.0,,0.0,4.0,0.0,0.0,1.0,2.0,0.5,0.0,1.0,1.0,0.0,1.0,1.0,2.0,3.0,1.0
+2004,24,2914,PHO,Phoenix Suns,Cezary Trybanski,"September 22, 1979",24.0,NBA,C,4.0,0.0,10.0,0.0,2.0,0.0,0.0,0.0,,0.0,2.0,0.0,0.0,0.0,0.0,,0.0,1.0,1.0,0.0,0.0,1.0,2.0,1.0,0.0
+2004,20,2914,NYK,New York Knicks,Cezary Trybanski,"September 22, 1979",24.0,NBA,C,3.0,0.0,5.0,0.0,2.0,0.0,0.0,0.0,,0.0,2.0,0.0,0.0,1.0,2.0,0.5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,1.0

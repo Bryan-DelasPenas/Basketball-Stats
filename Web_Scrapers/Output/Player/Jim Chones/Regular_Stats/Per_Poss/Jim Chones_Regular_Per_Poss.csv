@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1980,14.0,531,LAL,Los Angeles Lakers,Jim Chones,"November 30, 1949",30.0,NBA,C,82.0,,2394.0,7.2,14.6,0.49,0.0,0.0,0.0,7.2,14.6,0.49,2.4,3.3,0.74,2.8,8.1,10.9,2.9,1.1,1.3,3.4,5.2,16.7,100.0,104.0
+1981,14.0,531,LAL,Los Angeles Lakers,Jim Chones,"November 30, 1949",31.0,NBA,PF,82.0,,2562.0,6.9,13.7,0.5,0.0,0.1,0.0,6.9,13.6,0.51,2.3,3.5,0.65,3.3,8.7,12.0,2.8,0.7,1.8,2.9,5.9,16.1,103.0,104.0
+1982,30.0,531,WSB,Washington Bullets,Jim Chones,"November 30, 1949",32.0,NBA,C,59.0,13.0,867.0,4.1,9.5,0.43,0.0,0.0,,4.1,9.5,0.43,2.0,2.6,0.78,2.2,8.1,10.3,3.6,0.8,1.8,2.3,6.4,10.3,98.0,102.0

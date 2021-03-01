@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1984,21,2789,SEA,Seattle Supersonics,Jon Sundvold,"July 2, 1961",22.0,NBA,PG,3.0,,22.0,7.2,19.3,0.38,0.0,7.2,0.0,7.2,12.1,0.6,4.8,4.8,1.0,2.4,2.4,4.8,12.1,0.0,0.0,2.4,2.4,19.3,107.0,113.0
+1986,27,2789,SAS,San Antonio Spurs,Jon Sundvold,"July 2, 1961",24.0,NBA,PG,3.0,0.0,43.0,7.7,19.9,0.39,1.1,6.6,0.17,6.6,13.2,0.5,1.1,1.1,1.0,0.0,1.1,1.1,5.5,0.0,0.0,5.5,1.1,17.7,73.0,129.0
+1988,27,2789,SAS,San Antonio Spurs,Jon Sundvold,"July 2, 1961",26.0,NBA,PG,3.0,3.0,90.0,7.6,15.2,0.5,1.5,4.5,0.33,6.1,10.6,0.57,1.0,1.5,0.67,0.5,1.5,2.0,7.6,2.0,0.0,1.5,1.5,17.7,118.0,117.0
+1992,16,2789,MIA,Miami Heat,Jon Sundvold,"July 2, 1961",30.0,NBA,PG,1.0,0.0,2.0,0.0,25.9,0.0,0.0,0.0,,0.0,25.9,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.9,0.0,0.0,133.0

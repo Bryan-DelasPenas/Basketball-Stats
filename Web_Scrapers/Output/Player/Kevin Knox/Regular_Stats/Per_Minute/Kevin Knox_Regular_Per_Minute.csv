@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,20,1643,NYK,New York Knicks,Kevin Knox,"August 11, 1999",19.0,NBA,PF,75,57,2158,5.6,15.2,0.37,2.1,6.1,0.34,3.6,9.2,0.39,2.7,3.8,0.72,1.0,4.6,5.6,1.4,0.7,0.4,1.9,2.9,16.1
+2020,20,1643,NYK,New York Knicks,Kevin Knox,"August 11, 1999",20.0,NBA,SF,65,4,1166,4.4,12.4,0.36,2.0,6.1,0.33,2.4,6.2,0.39,2.0,3.1,0.65,0.9,4.8,5.7,1.9,0.7,0.9,1.4,3.3,12.9
+2021,20,1643,NYK,New York Knicks,Kevin Knox,"August 11, 1999",21.0,NBA,SF,25,0,378,4.3,10.9,0.4,2.5,6.4,0.39,1.8,4.5,0.4,1.0,1.1,0.83,0.9,3.7,4.6,1.6,0.8,0.6,1.5,3.1,12.0

@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2007,6,398,CLE,Cleveland Cavaliers,Shannon Brown,"November 29, 1985",21.0,NBA,SG,1.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2009,14,398,LAL,Los Angeles Lakers,Shannon Brown,"November 29, 1985",23.0,NBA,SG,21.0,0.0,276.0,36.0,83.0,0.43,12.0,25.0,0.48,24.0,58.0,0.41,0.51,19.0,24.0,0.79,8.0,17.0,25.0,13.0,10.0,2.0,10.0,27.0,103.0
+2010,14,398,LAL,Los Angeles Lakers,Shannon Brown,"November 29, 1985",24.0,NBA,SG,23.0,0.0,324.0,42.0,107.0,0.39,9.0,32.0,0.28,33.0,75.0,0.44,0.44,20.0,28.0,0.71,7.0,22.0,29.0,20.0,10.0,7.0,13.0,37.0,113.0
+2011,14,398,LAL,Los Angeles Lakers,Shannon Brown,"November 29, 1985",25.0,NBA,SG,10.0,0.0,166.0,28.0,61.0,0.46,7.0,25.0,0.28,21.0,36.0,0.58,0.52,9.0,14.0,0.64,5.0,14.0,19.0,7.0,6.0,2.0,9.0,10.0,72.0

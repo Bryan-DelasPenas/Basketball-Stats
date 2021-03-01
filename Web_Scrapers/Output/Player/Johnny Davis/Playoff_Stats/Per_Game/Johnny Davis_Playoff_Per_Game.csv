@@ -1,0 +1,6 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,12,690,IND,Indiana Pacers,Johnny Davis,"October 21, 1955",25.0,NBA,PG,2.0,,37.0,7.0,17.5,0.4,0.0,0.5,0.0,7.0,17.0,0.41,0.4,6.0,6.5,0.92,1.0,3.0,4.0,5.5,1.0,0.0,0.5,3.0,20.0
+1983,1,690,ATL,Atlanta Hawks,Johnny Davis,"October 21, 1955",27.0,NBA,SG,3.0,,37.7,7.0,17.3,0.4,0.0,0.3,0.0,7.0,17.0,0.41,0.4,3.0,3.3,0.9,0.3,1.3,1.7,9.0,0.0,0.0,1.7,2.0,17.0
+1984,1,690,ATL,Atlanta Hawks,Johnny Davis,"October 21, 1955",28.0,NBA,PG,5.0,,26.2,4.4,11.0,0.4,0.0,0.0,,4.4,11.0,0.4,0.4,1.2,1.2,1.0,0.4,1.6,2.0,4.8,0.2,0.0,0.8,2.0,10.0
+1985,6,690,CLE,Cleveland Cavaliers,Johnny Davis,"October 21, 1955",29.0,NBA,PG,3.0,0.0,16.7,4.0,5.3,0.75,0.0,0.3,0.0,4.0,5.0,0.8,0.75,1.3,1.7,0.8,0.3,1.7,2.0,5.0,1.7,0.0,0.7,1.7,9.3
+1986,1,690,ATL,Atlanta Hawks,Johnny Davis,"October 21, 1955",30.0,NBA,SG,8.0,0.0,8.1,1.1,3.1,0.36,0.0,0.0,,1.1,3.1,0.36,0.36,0.5,0.5,1.0,0.3,0.5,0.8,1.9,0.3,0.0,0.6,0.8,2.8

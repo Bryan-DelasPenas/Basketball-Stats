@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2021,9,2754,DET,Detroit Pistons,Isaiah Stewart,"May 22, 2001",19.0,NBA,C,31,2,558,6.2,11.6,0.54,0.1,0.4,0.2,6.1,11.2,0.55,1.9,2.8,0.69,6.7,8.8,15.5,1.8,1.5,2.6,2.5,7.1,14.5,115,109
