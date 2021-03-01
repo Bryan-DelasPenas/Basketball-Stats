@@ -16,7 +16,7 @@ from Query_Team_Advanced import create_team_advanced_query, drop_team_advanced_q
 '''
 Class that will Team_Stat_Queries, Assuming that the data has been inserted correctly 
 '''
-class TestQueryTeamStat(unittest.TestCase):
+class TestQueryTeamAdvanced(unittest.TestCase):
    
     @classmethod
     def setUpClass(cls):

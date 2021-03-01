@@ -1,0 +1,2 @@
+Season_ID,Team_ID,Team_ABV,Team_Name,Team_Average_Age,Team_Wins,Team_Loses,Pythagorean_Wins,Pythagorean_Loses,Margin_Of_Victory,Strength_Of_Schedule,Simple_Rating_System,Offensive_Rating,Defensive_Rating,Net_Rating,Pace,Free_Throw_Attempt_Rate,Three_Point_Attempt_Rate,True_Shooting_Percentage,Offensive_Rebound_Percentage,Defensive_Rebound_Percentage,Arena,Attend,Attend_Per_Game
+2020,2,BOS,"Boston Celtics",25.3,48,24,50,22,6.31,-0.47,5.83,113.3,107,6.3,99.5,0.26,0.39,0.57,23.9,77.4,"TD Garden",610864,19090

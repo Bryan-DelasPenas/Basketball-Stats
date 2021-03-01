@@ -210,7 +210,7 @@ def drop_query_all_team_misc_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Misc_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Misc_Sid does not Exists")
+        print("Procedure Query_All_Team_Misc_Sid does not Exists")
 
 '''
 Function that drops query_all_team_misc_Tid
@@ -238,7 +238,7 @@ def drop_query_all_team_misc_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Misc_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Misc_Tid does not Exists")
+        print("Procedure Query_All_Team_Misc_Tid does not Exists")
 
 '''
 Function that drop query_all_team_misc_Sid_Tid
@@ -265,7 +265,7 @@ def drop_query_all_team_misc_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Misc_Sid_Tid  Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Misc_Sid_Tid does not Exists")
+        print("Procedure Query_All_Team_Misc_Sid_Tid does not Exists")
 
 '''
 Function that drops query_all_team_Name
@@ -292,7 +292,7 @@ def drop_query_all_team_misc_name():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Misc_Name Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Misc_Name does not Exists")
+        print("Procedure Query_All_Team_Misc_Name does not Exists")
 
 '''
 Function that drops query_all_team_misc_ABV
@@ -319,7 +319,7 @@ def drop_query_all_team_misc_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Misc_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Misc_ABV does not Exists")
+        print("Procedure Query_All_Team_Misc_ABV does not Exists")
 
 '''
 Function that drops  all procedure team_misc stored procedures 
@@ -330,11 +330,3 @@ def drop_team_misc_query():
     drop_query_all_team_misc_sid_tid()
     drop_query_all_team_misc_name()
     drop_query_all_team_misc_ABV()
-
-'''
-Main Function, for testing
-'''
-def main():
-    create_team_misc_query()
-    drop_team_misc_query()
-main()
