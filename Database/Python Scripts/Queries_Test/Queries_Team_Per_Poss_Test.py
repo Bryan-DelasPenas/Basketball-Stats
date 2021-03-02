@@ -11,23 +11,23 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-from Query_Team_Per_Game import create_team_per_game_query, drop_team_per_game_query
+from Query_Team_Per_Poss import create_team_per_poss_query, drop_team_per_poss_query
 '''
 Class that will Team_Stat_Queries, Assuming that the data has been inserted correctly 
 '''
-class TestQueryTeamPerGame(unittest.TestCase):
+class TestQueryTeamPerPoss(unittest.TestCase):
    
     @classmethod
     def setUpClass(cls):
         # Drop Procedures 
-        drop_team_per_game_query()
+        drop_team_per_poss_query()
 
         # Create Procedures
-        create_team_per_game_query()
+        create_team_per_poss_query()
 
-    def test_create_query_all_team_per_game_sid(self):
+    def test_create_query_all_team_per_poss_sid(self):
         # Create path to csv file    
-        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Game_2020.csv')
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Poss_2020.csv')
         df_expected = pd.read_csv(path)
         
         df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float, 'Field_Goals_Percentage' : float, 'Three_Points_Made' : float, 
@@ -45,7 +45,7 @@ class TestQueryTeamPerGame(unittest.TestCase):
         # Using the year 2020
         result = conn.execute(
         """
-        CALL query_all_team_per_game_sid(%s, %s)
+        CALL query_all_team_per_poss_sid(%s, %s)
         """, [0, 2020]
         ).fetchall()
         
@@ -56,9 +56,9 @@ class TestQueryTeamPerGame(unittest.TestCase):
         
         pd.testing.assert_frame_equal(df_result, df_expected)
 
-    def test_create_query_all_team_per_game_tid(self):
+    def test_create_query_all_team_per_poss_tid(self):
         # Create path to csv file    
-        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Game_Boston_Celtics.csv')
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Poss_Boston_Celtics.csv')
         df_expected = pd.read_csv(path)
         
         df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float, 'Field_Goals_Percentage' : float, 'Three_Points_Made' : float, 
@@ -76,7 +76,7 @@ class TestQueryTeamPerGame(unittest.TestCase):
         # Using the year 2020
         result = conn.execute(
         """
-        CALL query_all_team_per_game_tid(%s, %s)
+        CALL query_all_team_per_poss_tid(%s, %s)
         """, [0, 2]
         ).fetchall()
      
@@ -87,9 +87,9 @@ class TestQueryTeamPerGame(unittest.TestCase):
    
         pd.testing.assert_frame_equal(df_result, df_expected)
     
-    def test_create_query_all_team_per_game_sid_tid(self):
+    def test_create_query_all_team_per_poss_sid_tid(self):
         # Create path to csv file    
-        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Game_2020_Boston_Celtics.csv')
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Poss_2020_Boston_Celtics.csv')
         df_expected = pd.read_csv(path)
         
         df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float, 'Field_Goals_Percentage' : float, 'Three_Points_Made' : float, 
@@ -107,7 +107,7 @@ class TestQueryTeamPerGame(unittest.TestCase):
         # Using the year 2020
         result = conn.execute(
         """
-        CALL query_all_team_per_game_sid_tid(%s, %s, %s)
+        CALL query_all_team_per_poss_sid_tid(%s, %s, %s)
         """, [0, 2020, 2]
         ).fetchall()
      
@@ -118,9 +118,9 @@ class TestQueryTeamPerGame(unittest.TestCase):
    
         pd.testing.assert_frame_equal(df_result, df_expected)
     
-    def test_create_query_all_team_per_game_name(self):
+    def test_create_query_all_team_per_poss_name(self):
         # Create path to csv file    
-        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Game_Boston_Celtics.csv')
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Poss_Boston_Celtics.csv')
         df_expected = pd.read_csv(path)
         
         df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float, 'Field_Goals_Percentage' : float, 'Three_Points_Made' : float, 
@@ -138,7 +138,7 @@ class TestQueryTeamPerGame(unittest.TestCase):
         # Using the year 2020
         result = conn.execute(
         """
-        CALL query_all_team_per_game_name(%s, %s)
+        CALL query_all_team_per_poss_name(%s, %s)
         """, [0, "Boston Celtics"]
         ).fetchall()
      
@@ -149,9 +149,9 @@ class TestQueryTeamPerGame(unittest.TestCase):
    
         pd.testing.assert_frame_equal(df_result, df_expected)
     
-    def test_create_query_all_team_per_game_ABV(self):
+    def test_create_query_all_team_per_poss_ABV(self):
         # Create path to csv file    
-        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Game_Boston_Celtics.csv')
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Team_Per_Poss_Boston_Celtics.csv')
         df_expected = pd.read_csv(path)
         
         df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float, 'Field_Goals_Percentage' : float, 'Three_Points_Made' : float, 
@@ -169,7 +169,7 @@ class TestQueryTeamPerGame(unittest.TestCase):
         # Using the year 2020
         result = conn.execute(
         """
-        CALL query_all_team_per_game_abv(%s, %s)
+        CALL query_all_team_per_poss_abv(%s, %s)
         """, [0, 'BOS']
         ).fetchall()
      

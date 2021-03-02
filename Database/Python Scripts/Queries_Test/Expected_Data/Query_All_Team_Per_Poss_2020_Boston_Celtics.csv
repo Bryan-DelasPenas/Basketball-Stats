@@ -1,0 +1,2 @@
+Season_ID,Team_ID,Team_ABV,Team_Name,Games_Played,Minutes_Played,Field_Goals_Made,Field_Goals_Attempted,Field_Goals_Percentage,Three_Points_Made,Three_Points_Attempted,Three_Points_Percentage,Two_Points_Made,Two_Points_Attempted,Two_Points_Percentage,Free_Throws_Made,Free_Throws_Attempted,Free_Throws_Percentage,Offensive_Rebound,Defensive_Rebound,True_Rebounds,Assists,Steals,Blocks,Turn_Over,Personal_Foul,Points,Opponent
+2020,2,BOS,"Boston Celtics",72,17430,41.1,89.3,0.46,12.5,34.4,0.36,28.6,54.8,0.52,18.5,23.1,0.8,10.6,35.3,45.9,22.9,8.2,5.6,13.8,21.5,113.3,0
