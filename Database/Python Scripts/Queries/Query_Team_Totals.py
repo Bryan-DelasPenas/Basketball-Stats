@@ -394,7 +394,7 @@ def drop_query_all_team_totals_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Sid does not Exists")
+        print("Procedure Query_All_Team_Totals_Sid does not Exists")
 
 '''
 Function that drops query_all_team_totals_Tid
@@ -422,7 +422,7 @@ def drop_query_all_team_totals_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Tid does not Exists")
+        print("Procedure Query_All_Team_Totals_Tid does not Exists")
 
 '''
 Function that drop query_all_team_totals_Sid_Tid
@@ -449,7 +449,7 @@ def drop_query_all_team_totals_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Sid_Tid  Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Sid_Tid does not Exists")
+        print("Procedure Query_All_Team_Totals_Sid_Tid does not Exists")
 
 '''
 Function that drops query_all_team_Name
@@ -476,7 +476,7 @@ def drop_query_all_team_totals_name():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Name Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Name does not Exists")
+        print("Procedure Query_All_Team_Totals_Name does not Exists")
 
 '''
 Function that drops query_all_team_totals_ABV
@@ -503,7 +503,7 @@ def drop_query_all_team_totals_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_ABV does not Exists")
+        print("Procedure Query_All_Team_Totals_ABV does not Exists")
 
 
 '''
@@ -534,7 +534,7 @@ def drop_query_all_team_totals_both_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Both_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Both_Sid does not Exists")
+        print("Procedure Query_All_Team_Totals_Both_Sid does not Exists")
 
 '''
 Function that drops query_all_team_totals_Tid
@@ -562,7 +562,7 @@ def drop_query_all_team_totals_both_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Both_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Both_Tid does not Exists")
+        print("Procedure Query_All_Team_Totals_Both_Tid does not Exists")
 
 '''
 Function that drop query_all_team_totals_Sid_Tid
@@ -589,7 +589,7 @@ def drop_query_all_team_totals_both_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Both_Sid_Tid  Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Both_Sid_Tid does not Exists")
+        print("Procedure Query_All_Team_Totals_Both_Sid_Tid does not Exists")
 
 '''
 Function that drops query_all_team_Name
@@ -616,7 +616,7 @@ def drop_query_all_team_totals_both_name():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Both_Name Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Both_Name does not Exists")
+        print("Procedure Query_All_Team_Totals_Both_Name does not Exists")
 
 '''
 Function that drops query_all_team_totals_ABV
@@ -643,7 +643,7 @@ def drop_query_all_team_totals_both_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Totals_Both_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Totals_Both_ABV does not Exists")
+        print("Procedure Query_All_Team_Totals_Both_ABV does not Exists")
 
 '''
 Function that drops  all procedure team_advanced stored procedures 
@@ -665,6 +665,6 @@ def drop_team_totals_query():
 Main Function, for testing
 '''
 def main():
-    create_team_totals_query()
+    #create_team_totals_query()
     drop_team_totals_query()
 main()

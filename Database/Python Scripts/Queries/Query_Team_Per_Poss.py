@@ -394,7 +394,7 @@ def drop_query_all_team_per_poss_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Sid does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Sid does not Exists")
 
 '''
 Function that drops query_all_team_per_poss_Tid
@@ -422,7 +422,7 @@ def drop_query_all_team_per_poss_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Tid does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Tid does not Exists")
 
 '''
 Function that drop query_all_team_per_poss_Sid_Tid
@@ -449,7 +449,7 @@ def drop_query_all_team_per_poss_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Sid_Tid  Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Sid_Tid does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Sid_Tid does not Exists")
 
 '''
 Function that drops query_all_team_Name
@@ -476,7 +476,7 @@ def drop_query_all_team_per_poss_name():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Name Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Name does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Name does not Exists")
 
 '''
 Function that drops query_all_team_per_poss_ABV
@@ -503,7 +503,7 @@ def drop_query_all_team_per_poss_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_ABV does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_ABV does not Exists")
 
 
 '''
@@ -534,7 +534,7 @@ def drop_query_all_team_per_poss_both_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Both_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Both_Sid does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Both_Sid does not Exists")
 
 '''
 Function that drops query_all_team_per_poss_Tid
@@ -562,7 +562,7 @@ def drop_query_all_team_per_poss_both_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Both_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Both_Tid does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Both_Tid does not Exists")
 
 '''
 Function that drop query_all_team_per_poss_Sid_Tid
@@ -589,7 +589,7 @@ def drop_query_all_team_per_poss_both_sid_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Both_Sid_Tid  Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Both_Sid_Tid does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Both_Sid_Tid does not Exists")
 
 '''
 Function that drops query_all_team_Name
@@ -616,7 +616,7 @@ def drop_query_all_team_per_poss_both_name():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Both_Name Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Both_Name does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Both_Name does not Exists")
 
 '''
 Function that drops query_all_team_per_poss_ABV
@@ -643,7 +643,7 @@ def drop_query_all_team_per_poss_both_ABV():
         except:
             raise Exception("Deletion of Procedure Query_All_Team_Per_Poss_Both_ABV Failed")
     else:
-        raise Exception("Procedure Query_All_Team_Per_Poss_Both_ABV does not Exists")
+        print("Procedure Query_All_Team_Per_Poss_Both_ABV does not Exists")
 
 '''
 Function that drops  all procedure team_advanced stored procedures 
@@ -660,11 +660,3 @@ def drop_team_per_poss_query():
     drop_query_all_team_per_poss_both_sid_tid()
     drop_query_all_team_per_poss_both_name()
     drop_query_all_team_per_poss_both_ABV()
-
-'''
-Main Function, for testing
-'''
-def main():
-    create_team_per_poss_query()
-    drop_team_per_poss_query()
-main()
