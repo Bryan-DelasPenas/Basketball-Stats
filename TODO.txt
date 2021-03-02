@@ -18,7 +18,7 @@ Roster:                   Done        | 10 | UNIT TEST DONE?: Done
 Team Stats:               Done        | 16 | UNIT TEST DONE?: Done
 Team Advanced:            Done        | 5  | UNIT TEST DONE?: Done
 Team Misc:                Done        | 5  | UNIT TEST DONE?: Done
-Team Per Game:            Done        | 10 | UNIT TEST DONE?: Half
+Team Per Game:            Done        | 10 | UNIT TEST DONE?: Done
 Team Per Poss:            Done        | 10 | UNIT TEST DONE?: Done
 Team Totals:              Done        | 10 | UNIT TEST DONE?: Done
 Player Stats:             Done        | 19 | UNIT TEST DONE?: In Progress
