@@ -12,7 +12,7 @@ and a possible fourth phase.</p>
 <strong>Phase 4:</strong> Creating a web application<br>
 
 <strong>Additional Features:</strong><br>
-<p>1) Creating a docker file, and create a docker image per python script</p>
+<p>1) Creating a docker file, and create a docker container for the local database</p>
 
 <p>Phase 1: By using the python libraries beautifulsoup, we can scrap data from 
 basketball-reference.com. There are going to be multiple scrapers that scrap information
