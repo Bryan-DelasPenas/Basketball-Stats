@@ -184,7 +184,7 @@ def drop_query_player_career_per_minute_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Minute_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Minute_Pid does not Exists")
+        print("Procedure Query_Player_Career_Per_Minute_Pid does not Exists")
 
 '''
 Drop Procedure query_player_career_per_minute_pname
@@ -211,7 +211,7 @@ def drop_query_player_career_per_minute_pname():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Minute_Pname Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Minute_Pname does not Exists")
+        print("Procedure Query_Player_Career_Per_Minute_Pname does not Exists")
 
 '''
 Drop Procedure for reg and playoffs 
@@ -242,7 +242,7 @@ def drop_query_player_career_per_minute_both_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Minute_Both_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Minute_Both_Pid does not Exists")
+        print("Procedure Query_Player_Career_Per_Minute_Both_Pid does not Exists")
 
 '''
 Drop Procedure query_player_career_per_minute_pname
@@ -269,7 +269,7 @@ def drop_query_player_career_per_minute_both_pname():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Minute_Both_Pname Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Minute_Both_Pname does not Exists")
+        print("Procedure Query_Player_Career_Per_Minute_Both_Pname does not Exists")
 
 '''
 Drop all Procedures for Player_Career_Per_Minute
@@ -280,10 +280,3 @@ def drop_player_career_per_minute_query():
     drop_query_player_career_per_minute_both_pid()
     drop_query_player_career_per_minute_both_pname()
 
-'''
-Main Function for Testing
-'''
-def main():
-    create_player_career_per_minute_query()
-    drop_player_career_per_minute_query()
-main()

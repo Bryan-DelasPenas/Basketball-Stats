@@ -184,7 +184,7 @@ def drop_query_player_career_advanced_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Advanced_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Advanced_Pid does not Exists")
+        print("Procedure Query_Player_Career_Advanced_Pid does not Exists")
 
 '''
 Drop Procedure query_player_career_advanced_pname
@@ -211,7 +211,7 @@ def drop_query_player_career_advanced_pname():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Advanced_Pname Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Advanced_Pname does not Exists")
+        print("Procedure Query_Player_Career_Advanced_Pname does not Exists")
 
 '''
 Drop Procedure for reg and playoffs 
@@ -242,7 +242,7 @@ def drop_query_player_career_advanced_both_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Advanced_Both_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Advanced_Both_Pid does not Exists")
+        print("Procedure Query_Player_Career_Advanced_Both_Pid does not Exists")
 
 '''
 Drop Procedure query_player_career_advanced_pname
@@ -269,7 +269,7 @@ def drop_query_player_career_advanced_both_pname():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Advanced_Both_Pname Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Advanced_Both_Pname does not Exists")
+        print("Procedure Query_Player_Career_Advanced_Both_Pname does not Exists")
 
 '''
 Drop all Procedures for Player_Career_Advanced
@@ -280,10 +280,3 @@ def drop_player_career_advanced_query():
     drop_query_player_career_advanced_both_pid()
     drop_query_player_career_advanced_both_pname()
 
-'''
-Main Function for Testing
-'''
-def main():
-    create_player_career_advanced_query()
-    drop_player_career_advanced_query()
-main()

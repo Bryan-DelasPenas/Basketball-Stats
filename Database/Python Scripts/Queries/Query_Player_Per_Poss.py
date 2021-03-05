@@ -459,7 +459,7 @@ def drop_query_all_player_per_poss_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Pid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Pid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_sid_pid
@@ -486,7 +486,7 @@ def drop_query_all_player_per_poss_sid_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Sid_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Sid_Pid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Sid_Pid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_tid_pid
@@ -513,7 +513,7 @@ def drop_query_all_player_per_poss_tid_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Tid_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Tid_Pid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Tid_Pid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_pname
@@ -540,7 +540,7 @@ def drop_query_all_player_per_poss_pname():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Pname Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Pname does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Pname does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_pname_sid
@@ -567,7 +567,7 @@ def drop_query_all_player_per_poss_pname_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Pname_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Pname_Sid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Pname_Sid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_pname_tid
@@ -594,7 +594,7 @@ def drop_query_all_player_per_poss_pname_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Pname_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Pname_Tid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Pname_Tid does not Exists")
 
 '''
 Drop Procedures based on reg and regular
@@ -624,7 +624,7 @@ def drop_query_all_player_per_poss_both_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Both_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Both_Pid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Both_Pid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_sid_pid
@@ -651,7 +651,7 @@ def drop_query_all_player_per_poss_both_sid_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Both_Sid_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Both_Sid_Pid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Both_Sid_Pid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_tid_pid
@@ -678,7 +678,7 @@ def drop_query_all_player_per_poss_both_tid_pid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Both_Tid_Pid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Both_Tid_Pid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Both_Tid_Pid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_pname
@@ -705,7 +705,7 @@ def drop_query_all_player_per_poss_both_pname():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Both_Pname Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Both_Pname does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Both_Pname does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_pname_sid
@@ -732,7 +732,7 @@ def drop_query_all_player_per_poss_both_pname_sid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Both_Pname_Sid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Both_Pname_Sid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Both_Pname_Sid does not Exists")
 
 '''
 Drop Procedure that query_all_player_per_poss_pname_tid
@@ -759,7 +759,7 @@ def drop_query_all_player_per_poss_both_pname_tid():
         except:
             raise Exception("Deletion of Procedure Query_All_Player_Per_Poss_Both_Pname_Tid Failed")
     else:
-        raise Exception("Procedure Query_All_Player_Per_Poss_Pname_Both_Tid does not Exists")
+        print("Procedure Query_All_Player_Per_Poss_Pname_Both_Tid does not Exists")
 
 
 '''
@@ -779,11 +779,3 @@ def drop_player_per_poss_query():
     drop_query_all_player_per_poss_both_pname()
     drop_query_all_player_per_poss_both_pname_sid()
     drop_query_all_player_per_poss_both_pname_tid()
-
-'''
-Main Function for Testing
-'''
-def main():
-    create_player_per_poss_query()
-    drop_player_per_poss_query()
-main()

@@ -285,7 +285,7 @@ def drop_query_player_career_stats_one_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Stats_One_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Stats_One_Pid does not Exists")
+        print("Procedure Query_Player_Career_Stats_One_Pid does not Exists")
 
 '''
 Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID
@@ -312,7 +312,7 @@ def drop_query_player_career_stats_two_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Stats_Two_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Stats_Two_Pid does not Exists")
+        print("Procedure Query_Player_Career_Stats_Two_Pid does not Exists")
 
 '''
 Function that creates procdure for team that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID
@@ -339,7 +339,7 @@ def drop_query_player_career_stats_three_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Stats_Three_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Stats_Three_Pid does not Exists")
+        print("Procedure Query_Player_Career_Stats_Three_Pid does not Exists")
 
 '''
 Drop Procedures based on playoff and reg
@@ -370,7 +370,7 @@ def drop_query_player_career_stats_one_both_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Stats_One_Both_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Stats_One_Both_Pid does not Exists")
+        print("Procedure Query_Player_Career_Stats_One_Both_Pid does not Exists")
 
 '''
 Drop Procedure query_player_stats_two_both_pid
@@ -397,7 +397,7 @@ def drop_query_player_career_stats_two_both_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Stats_Two_Both_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Stats_Two_Both_Pid does not Exists")
+        print("Procedure Query_Player_Career_Stats_Two_Both_Pid does not Exists")
 
 '''
 Drop Procedure query_player_stats_three_both_pid
@@ -424,7 +424,7 @@ def drop_query_player_career_stats_three_both_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Stats_Three_Both_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Stats_Three_Both_Pid does not Exists")
+        print("Procedure Query_Player_Career_Stats_Three_Both_Pid does not Exists")
 
 '''
 Drop Procedure all Player_Career_Stats
@@ -437,13 +437,3 @@ def drop_player_career_stats_query():
     drop_query_player_career_stats_one_both_pid()
     drop_query_player_career_stats_two_both_pid()
     drop_query_player_career_stats_three_both_pid()
-
-'''
-Main Function for Testing
-'''
-def main():
-    
-
-    create_player_career_stats_query()
-    drop_player_career_stats_query()
-main()

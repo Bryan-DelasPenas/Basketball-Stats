@@ -184,7 +184,7 @@ def drop_query_player_career_per_poss_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Poss_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Poss_Pid does not Exists")
+        print("Procedure Query_Player_Career_Per_Poss_Pid does not Exists")
 
 '''
 Drop Procedure query_player_career_per_poss_pname
@@ -211,7 +211,7 @@ def drop_query_player_career_per_poss_pname():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Poss_Pname Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Poss_Pname does not Exists")
+        print("Procedure Query_Player_Career_Per_Poss_Pname does not Exists")
 
 '''
 Drop Procedure for reg and playoffs 
@@ -242,7 +242,7 @@ def drop_query_player_career_per_poss_both_pid():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Poss_Both_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Poss_Both_Pid does not Exists")
+        print("Procedure Query_Player_Career_Per_Poss_Both_Pid does not Exists")
 
 '''
 Drop Procedure query_player_career_per_poss_pname
@@ -269,7 +269,7 @@ def drop_query_player_career_per_poss_both_pname():
         except:
             raise Exception("Deletion of Procedure Query_Player_Career_Per_Poss_Both_Pname Failed")
     else:
-        raise Exception("Procedure Query_Player_Career_Per_Poss_Both_Pname does not Exists")
+        print("Procedure Query_Player_Career_Per_Poss_Both_Pname does not Exists")
 
 '''
 Drop all Procedures for Player_Career_Per_Poss
@@ -279,11 +279,3 @@ def drop_player_career_per_poss_query():
     drop_query_player_career_per_poss_pname()
     drop_query_player_career_per_poss_both_pid()
     drop_query_player_career_per_poss_both_pname()
-
-'''
-Main Function for Testing
-'''
-def main():
-    create_player_career_per_poss_query()
-    drop_player_career_per_poss_query()
-main()
