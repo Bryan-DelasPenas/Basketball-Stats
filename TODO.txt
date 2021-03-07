@@ -9,6 +9,10 @@ Queries:                    Done
 Unit Testing                In Progress
 Complete User Manual        In Progress
 
+Create_All_Queries: Done
+Drop_All_Queries:   Done
+Call_Queries:       In Progress
+
 For Queries:                          Amount 
 Season:                   NA          | 0  | UNIT TEST DONE?: NA
 Team:                     Done        | 5  | UNIT TEST DONE?: Done

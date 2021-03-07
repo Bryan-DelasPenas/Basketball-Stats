@@ -660,11 +660,3 @@ def drop_team_totals_query():
     drop_query_all_team_totals_both_sid_tid()
     drop_query_all_team_totals_both_name()
     drop_query_all_team_totals_both_ABV()
-
-'''
-Main Function, for testing
-'''
-def main():
-    #create_team_totals_query()
-    drop_team_totals_query()
-main()
