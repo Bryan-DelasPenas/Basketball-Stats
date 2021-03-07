@@ -60,7 +60,7 @@ def players_names_csv():
     # Create the directories if needed
 
     # Create the output path and the file name 
-    first_path = os.path.join(pathlib.Path().absolute(), source_directory)
+    first_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", source_directory)
     
     if(not os.path.isdir(first_path)):
         

@@ -358,7 +358,7 @@ Looks up a players name and birth_date from player_names.csv
 def lookup(name, birth_date):
     
     # Path to csv file
-    path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player_Name','player_names.csv')
+    path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', 'Output', 'Player_Name','player_names.csv')
 
     # Convert csv to dataframe
     df = pd.read_csv(path)

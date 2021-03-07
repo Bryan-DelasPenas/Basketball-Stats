@@ -3,7 +3,7 @@ import pathlib
 from pathlib import Path
 import sys
 import time
-sys.path.append(str(pathlib.Path().absolute())  + '\\Python_Scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' + '\\Python_Scrapers')
 
 # Import modules 
 from Season_Stats_Scraper import  get_team_name, get_standings
@@ -18,7 +18,7 @@ def csv_team_name(year):
     directory_parent = "Team_Names"
     
     # Get the first file path
-    first_path = first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_parent)
+    first_path = first_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", directory_source , directory_parent)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -52,7 +52,7 @@ def csv_standings(year, format):
        pass
 
     # Check if the proper directories has been made
-    directory_source = "Output"
+    directory_source = "Web_Scrapers\Output"
     directory_grand_parent = "Season"
     directory_parent = "Standings"
 

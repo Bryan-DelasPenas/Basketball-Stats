@@ -6,7 +6,7 @@ from pathlib import Path
 from requests import get
 import unicodedata, unidecode
 import time
-sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' + '\\Python_Scrapers')
 
 from Player_Stats_Scraper import get_player_stats, get_career_stats
 from Create_Player_Name import get_player_name
@@ -27,7 +27,7 @@ def csv_player_stats(name, birth_date, format, playoff, player_path):
         playoff_name = "Regular"
     
     df = get_player_stats(name, birth_date, format, playoff)
-
+    
     if(df is None):
         return None
 
@@ -93,9 +93,9 @@ Calls all functions above and puts into its own csvs
 '''
 def get_player_csv():
     count = 1
-    csv_path = path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player_Name','player_names.csv')
+    csv_path = path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', 'Output', 'Player_Name','player_names.csv')
 
-    source_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player')
+    source_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', 'Output', 'Player')
 
     if(not os.path.isdir(source_path)):
         
@@ -112,12 +112,12 @@ def get_player_csv():
         print(count)
         print(player[0])
         
-        player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', player[0])
+        player_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', 'Output', 'Player', player[0])
         name_tuple = (player[0], player[1])
         # Check for special cases, like Jr.
         if(name_tuple in RIGHT_NAME_DICT):
             new_string = RIGHT_NAME_DICT[name_tuple]
-            player_path = os.path.join(pathlib.Path().absolute(), 'Output', 'Player', new_string)
+            player_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers','Output', 'Player', new_string)
 
         # Check if the directory of player name was made
         if(not os.path.isdir(player_path)):

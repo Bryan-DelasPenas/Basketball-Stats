@@ -3,7 +3,7 @@ import os
 import pathlib 
 import time
 
-sys.path.append(str(pathlib.Path().absolute()) + '\\Python_Scrapers')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' + '\\Python_Scrapers')
 
 # Import modules 
 from Team_Stats_Scraper import get_roster, get_team_stats, get_team_misc, get_opp_stats, get_team_advanced
@@ -16,7 +16,7 @@ Helper function that creates folders for each season
 '''
 def create_team_stats_folder_two(location_parent, location):
     # The file path
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team",location_parent, location)
+    output_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', "Output", "Team",location_parent, location)
     
     # If this is false, creates file else just print message
     if(os.path.isdir(os.path.join(output_path, "1980")) == False):
@@ -38,7 +38,7 @@ Helper function to create a folder
 '''
 def create_team_stats_folder(location):
     # The file path
-    output_path = os.path.join(pathlib.Path().absolute(), "Output", "Team", location)
+    output_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', "Output", "Team", location)
     
     # If this is false, creates file else just print message
     if(os.path.isdir(os.path.join(output_path, "1980")) == False):
@@ -72,7 +72,7 @@ def csv_team_roster(year):
     final_path = None
 
     # Our file path 
-    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_parent)
+    first_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', "Output", directory_source , directory_parent)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -120,7 +120,7 @@ def csv_team_stats_other(year, format):
     final_path = None
 
     # Our file path 
-    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_parent)
+    first_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', "Output", directory_source , directory_parent)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -193,7 +193,7 @@ def csv_team_stats_main(year, format):
     final_path = None
 
     # Our file path 
-    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_grand_parent)
+    first_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', "Output", directory_source , directory_grand_parent)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
@@ -259,7 +259,7 @@ def csv_opponent_stats(year, format):
     final_path = None
 
     # Our file path 
-    first_path = os.path.join(pathlib.Path().absolute(), "Output", directory_source , directory_grand_parent)
+    first_path = os.path.join(pathlib.Path().absolute(), 'Web_Scrapers', "Output", directory_source , directory_grand_parent)
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the final_path
