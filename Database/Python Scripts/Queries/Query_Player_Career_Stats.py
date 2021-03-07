@@ -33,7 +33,7 @@ def create_query_player_career_stats_one_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_one_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -71,7 +71,7 @@ def create_query_player_career_stats_two_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_two_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
@@ -109,7 +109,7 @@ def create_query_player_career_stats_three_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_career_stats_three_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two, ',', select_three,

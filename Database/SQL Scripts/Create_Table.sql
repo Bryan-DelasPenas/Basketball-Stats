@@ -309,7 +309,7 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     Defensive_Box_Score           FLOAT,
     Box_Plus_Minus                FLOAT,
     Value_Over_Replacement        FLOAT,
-    Stat_Form                     BOOLEAN NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                     BOOLEAN,  -- Career | Regular | Playoffs
 
     UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
@@ -355,7 +355,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game(
     Turn_Over                       FLOAT,
     Personal_Fouls                  FLOAT,
     Points                          FLOAT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -400,7 +400,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     Turn_Over                       FLOAT,
     Personal_Fouls                   FLOAT,
     Points                          FLOAT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -447,7 +447,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     Points                          FLOAT,
     Offensive_Rating                INT,
     Defensive_Rating                INT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+	Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -494,7 +494,7 @@ CREATE TABLE IF NOT EXISTS Player_Totals(
     Personal_Fouls                   FLOAT,
     Points                          FLOAT,
     Triple_Double                   INT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -540,7 +540,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Advanced(
     Defensive_Box_Score           FLOAT,
     Box_Plus_Minus                FLOAT,
     Value_Over_Replacement        FLOAT,
-    Stat_Form                     BOOLEAN NOT NULL,  --  Regular | Playoffs
+    Stat_Form                     BOOLEAN,  --  Regular | Playoffs
 	
 	UNIQUE(Player_ID, Stat_Form),
 	PRIMARY KEY (Player_ID),
@@ -577,7 +577,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
     Turn_Over                       FLOAT,
     Personal_Fouls                  FLOAT,
     Points                          FLOAT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
@@ -613,7 +613,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
     Turn_Over                       FLOAT,
     Personal_Fouls                  FLOAT,
     Points                          FLOAT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
@@ -651,7 +651,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
     Points                          FLOAT,
 	Offensive_Rating                INT,
     Defensive_Rating                INT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
@@ -689,7 +689,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Totals(
     Personal_Fouls                   FLOAT,
     Points                          FLOAT,
     Triple_Double                   INT,
-    Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),

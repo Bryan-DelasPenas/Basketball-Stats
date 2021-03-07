@@ -536,7 +536,7 @@ def create_team_totals_table():
             Free_Throws_Percentage          FLOAT,
             Offensive_Rebound               FLOAT,
             Defensive_Rebound               FLOAT,
-            True_Rebounds                    FLOAT,
+            True_Rebounds                   FLOAT,
             Assists                         FLOAT,
             Steals                          FLOAT,
             Blocks                          FLOAT,
@@ -730,7 +730,7 @@ def create_player_per_game_table():
             Turn_Over                       FLOAT,
             Personal_Fouls                  FLOAT,
             Points                          FLOAT,
-            Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+            Stat_Form                       BOOLEAN NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
             PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -802,7 +802,7 @@ def create_player_per_minute_table():
             Turn_Over                       FLOAT,
             Personal_Fouls                  FLOAT,
             Points                          FLOAT,
-            Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+            Stat_Form                       BOOLEAN NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
             PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -876,7 +876,7 @@ def create_player_per_poss_table():
             Points                          FLOAT,
             Offensive_Rating                INT,
             Defensive_Rating                INT,
-            Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+            Stat_Form                       BOOLEAN NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
             PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -950,7 +950,7 @@ def create_player_totals_table():
             Personal_Fouls                  FLOAT,
             Points                          FLOAT,
             Triple_Double                   INT,
-            Stat_Form                       VARCHAR(45) NOT NULL, 
+            Stat_Form                       BOOLEAN NOT NULL, 
 
             UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
             PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -1114,7 +1114,7 @@ def create_player_career_per_game_table():
             Turn_Over                       FLOAT,
             Personal_Fouls                  FLOAT,
             Points                          FLOAT,
-            Stat_Form                       VARCHAR(45) NOT NULL,  
+            Stat_Form                       BOOLEAN NOT NULL,  
 
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
@@ -1177,7 +1177,7 @@ def create_player_career_per_minute_table():
             Turn_Over                       FLOAT,
             Personal_Fouls                  FLOAT,
             Points                          FLOAT,
-            Stat_Form                       VARCHAR(45) NOT NULL,  -- Career | Regular | Playoffs
+            Stat_Form                       BOOLEAN NOT NULL,  -- Career | Regular | Playoffs
 
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
@@ -1242,7 +1242,7 @@ def create_player_career_per_poss_table():
             Points                          FLOAT,
             Offensive_Rating                INT,
             Defensive_Rating                INT,
-            Stat_Form                       VARCHAR(45) NOT NULL,  
+            Stat_Form                       BOOLEAN NOT NULL,  
             
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
@@ -1307,7 +1307,7 @@ def create_player_career_totals_table():
             Personal_Fouls                  FLOAT,
             Points                          FLOAT,
             Triple_Double                   INT,
-            Stat_Form                       VARCHAR(45) NOT NULL, 
+            Stat_Form                       BOOLEAN NOT NULL, 
 
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
