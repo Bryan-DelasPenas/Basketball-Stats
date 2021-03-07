@@ -7,7 +7,7 @@ import pandas as pd
 Creates database connection and returns the engine
 '''
 def create_connection():
-    connection_url = 'mysql+pymysql://root:password@127.0.0.1:3306/BasketBallDB'
+    connection_url = 'mysql+pymysql://bryan:bdelasp1@localhost:3306/BasketBallDB'
     engine = sal.create_engine(connection_url)
     
     return engine

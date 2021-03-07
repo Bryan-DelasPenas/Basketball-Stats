@@ -50,7 +50,7 @@ Function that inserts Teams Entities into database
 def insert_team(df):
     # Rename the dataframe 
     df = df.rename(columns={"Season" : "Season_ID",  "Team ID" : "Team_ID" , "Team" : "Team_Name", "Team ABV" : "Team_ABV"})
-    
+
     # Connect to sql database 
     engine = create_connection()
 
@@ -62,7 +62,7 @@ def insert_team(df):
     if(check_table('Team')):
         # Test to see if the insertion works 
         try:
-            df.to_sql('team', con = engine, if_exists='append', index = False)
+            df.to_sql('team', con = engine, if_exists='append', index = False,  schema="BasketBallDB")
             trans.commit()
             conn.close()
             print("Insertion into Team was successful")
@@ -930,7 +930,7 @@ def insert_all_team_totals():
 
         insert_team_totals(regular_df, 0)
         insert_team_totals(opponent_df, 1)
-
+        
 '''
 Calls insert_player_stats and insert_player_career from 1980 - 2020
 '''
@@ -1197,10 +1197,12 @@ Calls all insert functions
 '''
 def insert_all():
     start_time = time.time()
-
+    engine = create_connection()
+    
     insert_all_season()
     insert_all_team()
     insert_all_player()
+    
     insert_all_conference_standings()
     insert_all_roster()
     insert_all_team_stats()
@@ -1209,13 +1211,14 @@ def insert_all():
     insert_all_team_per_game()
     insert_all_team_per_poss()
     insert_all_team_totals()  
+    
     insert_all_player_stats()
     insert_all_player_advanced()
     insert_all_player_per_game()
     insert_all_player_per_minute()
     insert_all_player_per_poss()
     insert_all_player_totals()
-
+    
     print("--- %s seconds ---" % (time.time() - start_time))
 
 '''

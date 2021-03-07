@@ -324,6 +324,3 @@ def get_team_advanced(team, season):
         final_df = final_df.drop(["Top WS"], axis=1)
         final_df = final_df.reset_index(drop=True)
         return final_df
-
-
-

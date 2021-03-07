@@ -28,14 +28,15 @@ def create_query_team_stats_minor_one():
             # Create a procedure
             conn.execute(
             """
-            CREATE PROCEDURE query_team_stats_minor_one(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
+            CREATE PROCEDURE query_team_stats_minor_one(IN select_one LONGTEXT, IN tbl_name longtext, IN val int)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Team_Name, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE ', select_one,' >= '  , val);
+                    ' WHERE ', select_one,' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val = val
+                EXECUTE stmt1 USING @val;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
