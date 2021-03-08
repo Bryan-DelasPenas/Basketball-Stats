@@ -35,7 +35,7 @@ def create_query_team_stats_minor_one():
                     ' FROM ', tbl_name, 
                     ' WHERE ', select_one,' >= ?');
                 PREPARE stmt1 FROM @s;
-                SET @val = val
+                SET @val = val;
                 EXECUTE stmt1 USING @val;
                 DEALLOCATE PREPARE stmt1;
             END
@@ -71,10 +71,12 @@ def create_query_team_stats_minor_two():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Team_Name, ',select_one, ',' ,select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE ', select_one,' >= '  ,val_one,
-                    ' AND ', select_two, ' >= ', val_two );
+                    ' WHERE ', select_one,' >= ?  
+                     AND ', select_two, ' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -109,11 +111,14 @@ def create_query_team_stats_minor_three():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Team_Name, ',select_one, ',' ,select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE ', select_one,' >= '  ,val_one,
-                    ' AND ', select_two, ' >= ', val_two, 
-                    ' AND ', select_three, '>= ', val_three);
+                    ' WHERE ', select_one,' >= ?  
+                     AND ', select_two, ' >= ?  
+                     AND ', select_three, '>= ? ');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -151,9 +156,10 @@ def create_query_team_stats_major_one():
                     'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, 
                     ' FROM ', tbl_name, 
                     ' WHERE Opponent = 0 
-                    AND ', select_one,' >= '  , val);
+                    AND ', select_one,' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val = val;
+                EXECUTE stmt1 USING @val;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -188,10 +194,12 @@ def create_query_team_stats_major_two():
                     'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, ',' ,select_two,
                     ' FROM ', tbl_name, 
                     ' WHERE Opponent = 0 
-                    AND ', select_one,' >= '  , val_one, 
-                    ' AND ', select_two, ' >= ', val_two);
+                    AND ', select_one,' >= ? 
+                     AND ', select_two, ' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -227,11 +235,14 @@ def create_query_team_stats_major_three():
                     'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, ',' ,select_two, ',',select_three,
                     ' FROM ', tbl_name, 
                     ' WHERE Opponent = 0 
-                    AND ', select_one,' >= '  , val_one,
-                    ' AND ', select_two,' >= ', val_two, 
-                    ' AND ', select_three,' >= ',val_three);
+                    AND ', select_one,' >= ?  
+                     AND ', select_two,' >= ?
+                     AND ', select_three,' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -269,9 +280,10 @@ def create_query_team_stats_major_op_one():
                     'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, 
                     ' FROM ', tbl_name, 
                     ' WHERE Opponent = 0 
-                    AND ', select_one,' >= '  , val);
+                    AND ', select_one,' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val = val;
+                EXECUTE stmt1 USING @val;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -287,7 +299,7 @@ def create_query_team_stats_major_op_one():
 Function that creates procedure for team that queries op Season_ID, Team_Name and two addtional inputs from a input table, based on Season_ID or Team_ID
 '''
 def create_query_team_stats_major_op_two():
-        # Connect to sql database
+    # Connect to sql database
     engine = create_connection()
     
     # Test the connection of the database
@@ -306,10 +318,12 @@ def create_query_team_stats_major_op_two():
                     'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, ',' ,select_two,
                     ' FROM ', tbl_name, 
                     ' WHERE Opponent = 1 
-                    AND ', select_one,' >= '  , val_one, 
-                    ' AND ', select_two, ' >= ', val_two);
+                    AND ', select_one,' >= ?    
+                    AND ', select_two, ' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -345,11 +359,14 @@ def create_query_team_stats_major_op_three():
                     'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, ',' ,select_two, ',',select_three,
                     ' FROM ', tbl_name, 
                     ' WHERE Opponent = 1 
-                    AND ', select_one,' >= '  , val_one,
-                    ' AND ', select_two,' >= ', val_two, 
-                    ' AND ', select_three,' >= ',val_three);
+                    AND ', select_one,' >= ? 
+                    AND ', select_two,' >= ? 
+                    AND ', select_three,' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -386,10 +403,12 @@ def create_query_team_stats_primary_sid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Opponent, Team_Name, Points, Assists, True_Rebounds, Steals, Blocks
                     FROM ', tbl_name, 
-                    ' WHERE Season_ID = ', val_one, 
-                    ' AND Opponent = ',val_two);
+                    ' WHERE Season_ID = ?  
+                    AND Opponent = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -423,10 +442,12 @@ def create_query_team_stats_primary_tid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Opponent, Team_Name, Points, Assists, True_Rebounds, Steals, Blocks
                     FROM ', tbl_name, 
-                    ' WHERE Team_ID = '  , val_one,
-                    ' AND Opponent = ',val_two);
+                    ' WHERE Team_ID = ?  
+                    AND Opponent = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -460,11 +481,14 @@ def create_query_team_stats_primary_sid_tid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Opponent, Team_Name, Points, Assists, True_Rebounds, Steals, Blocks
                     FROM ', tbl_name, 
-                    ' WHERE Season_ID = ', val_one, 
-                    ' AND Team_ID = '  , val_two,
-                    ' AND Opponent = ',val_three);
+                    ' WHERE Season_ID = ?  
+                      AND Team_ID = ? 
+                      AND Opponent = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -501,9 +525,10 @@ def create_query_team_stats_major_compare_one():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Opponent, Team_Name, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE ', select_one,' >= '  , val);
+                    ' WHERE ', select_one,' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val = val;
+                EXECUTE stmt1 USING @val;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -538,10 +563,12 @@ def create_query_team_stats_major_compare_two():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Opponent, Team_Name,  ',select_one, ',' ,select_two, 
                     ' FROM ', tbl_name, 
-                    ' WHERE ', select_one,' >= '  , val_one, 
-                    ' AND ', select_two, ' >= ', val_two);
+                    ' WHERE ', select_one,' >= ?  
+                      AND ', select_two, ' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -576,11 +603,14 @@ def create_query_team_stats_major_compare_three():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Opponent, Team_Name, ',select_one, ',' ,select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE ', select_one,' >= ', val_one, 
-                    ' AND ', select_two, ' >= ', val_two,
-                    ' AND ', select_three,' >= ', val_three );
+                    ' WHERE ', select_one,' >= ? 
+                     AND ', select_two, ' >= ?
+                     AND ', select_three,' >= ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
