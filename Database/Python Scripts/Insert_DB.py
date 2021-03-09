@@ -1099,8 +1099,6 @@ def insert_all_player_per_minute():
             df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
             insert_player_per_minute(df_playoff_filter, 1)
         
-     
-
         if(os.path.isfile(career_playoff)):
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_per_minute(df_career_playoff, 1)
@@ -1174,7 +1172,7 @@ def insert_all_player_totals():
         df_reg_filter = df_reg[df_reg['Season'] <= 2020]
 
         df_career_reg = pd.read_csv(career_reg)
-    
+        
         '''
         0 - regular stats
         1 - playoff stats
@@ -1183,12 +1181,12 @@ def insert_all_player_totals():
         insert_player_career_totals(df_career_reg, 0)
 
         # Check if they make the playoffs
-        if(os.path.isdir(playoff)):
+        if(os.path.isfile(playoff)):
             df_playoff = pd.read_csv(playoff)
             df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
             insert_player_totals(df_playoff_filter, 1)
 
-        if(os.path.isdir(career_playoff)):
+        if(os.path.isfile(career_playoff)):
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_totals(df_career_playoff, 1)
 
@@ -1197,7 +1195,6 @@ Calls all insert functions
 '''
 def insert_all():
     start_time = time.time()
-    engine = create_connection()
     
     insert_all_season()
     insert_all_team()
