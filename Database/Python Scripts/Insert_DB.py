@@ -1002,18 +1002,12 @@ def insert_all_player_advanced():
         insert_player_career_advanced(df_career_reg, 0)
 
         # Check if they make the playoffs
-        if(not os.path.isdir(playoff)):
-            pass
-        
-        else:
+        if(os.path.isfile(playoff)):
             df_playoff = pd.read_csv(playoff)
             df_playoff_filter = df_playoff[df_playoff['Season'] <= 2020]
             insert_player_advanced(df_playoff, 1)
 
-        if(not os.path.isdir(career_playoff)):
-            pass
-        
-        else:
+        if(os.path.isfile(career_playoff)):
             df_career_playoff = pd.read_csv(career_playoff)
             insert_player_career_advanced(df_career_playoff, 1)
 

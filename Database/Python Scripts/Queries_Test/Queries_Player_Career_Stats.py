@@ -127,6 +127,7 @@ class TestQueryPlayerCareerStats(unittest.TestCase):
        
         df_result = pd.DataFrame(result, columns=['Player_ID', 'Player_Name', 'Field_Goals_Made', 'Field_Goals_Attempted'])
         pd.testing.assert_frame_equal(df_result, df_expected)
+    
     def test_create_query_player_career_stats_three_both_pid(self):
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Player_Career_Kareem_Abdul_Jabbar_Both_FGM_FGA_FGP.csv')
         df_expected = pd.read_csv(path)
