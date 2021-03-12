@@ -32,9 +32,9 @@ Player Per Minute:        Done        | 12 | UNIT TEST DONE?: In Progress
 Player Per Poss:          Done        | 12 | UNIT TEST DONE?: In Progress
 Player Totals:            Done        | 12 | UNIT TEST DONE?: In Progress
 Player Career Stats:      Done        | 6  | UNIT TEST DONE?: Done
-Player Career Advanced:   Done        | 4  | UNIT TEST DONE?: In Progress
-Player Career Per Game:   Done        | 4  | UNIT TEST DONE?: In Progress
-Player Career Per Minute: Done        | 4  | UNIT TEST DONE?: In Progress
+Player Career Advanced:   Done        | 4  | UNIT TEST DONE?: Done
+Player Career Per Game:   Done        | 4  | UNIT TEST DONE?: Done
+Player Career Per Minute: Done        | 4  | UNIT TEST DONE?: Done
 Player Career Per Poss:   Done        | 4  | UNIT TEST DONE?: In Progress
 Player Career Totals:     Done        | 4  | UNIT TEST DONE?: In Progress
 
