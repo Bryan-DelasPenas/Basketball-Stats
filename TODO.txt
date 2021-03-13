@@ -35,8 +35,8 @@ Player Career Stats:      Done        | 6  | UNIT TEST DONE?: Done
 Player Career Advanced:   Done        | 4  | UNIT TEST DONE?: Done
 Player Career Per Game:   Done        | 4  | UNIT TEST DONE?: Done
 Player Career Per Minute: Done        | 4  | UNIT TEST DONE?: Done
-Player Career Per Poss:   Done        | 4  | UNIT TEST DONE?: In Progress
-Player Career Totals:     Done        | 4  | UNIT TEST DONE?: In Progress
+Player Career Per Poss:   Done        | 4  | UNIT TEST DONE?: Done
+Player Career Totals:     Done        | 4  | UNIT TEST DONE?: Done
 
 PLAN for graphs, only Stats will have graphs. 
 
