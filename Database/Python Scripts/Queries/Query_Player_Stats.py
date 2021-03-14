@@ -38,10 +38,12 @@ def create_query_player_stats_one_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Stat_Form = ',val_two);
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -76,10 +78,12 @@ def create_query_player_stats_two_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Stat_Form = ',val_two);
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -114,10 +118,12 @@ def create_query_player_stats_three_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Stat_Form = ',val_two);
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -130,7 +136,7 @@ def create_query_player_stats_three_pid():
         raise Exception("Procedure Query_Player_Stats_Three_Pid does exists") 
 
 '''
-Function that creates procedure for player; This does not work for Player_Advanced
+Function that creates procedure for that queries Season_ID, Team_Name and five major stats, from a inputed table, based on player_ID
 '''
 def create_query_player_stats_primary_pid():
     # Connect to sql database
@@ -150,11 +156,13 @@ def create_query_player_stats_primary_pid():
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
-                    FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Stat_Form = ',val_two);
+                    ' FROM ', tbl_name, 
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -192,11 +200,14 @@ def create_query_player_stats_one_tid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Team_ID = ' , val_two, 
-                    ' AND Stat_Form = ',val_three);
+                    ' WHERE Stat_Form = ? 
+                    AND Team_ID = ?
+                    AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -207,9 +218,9 @@ def create_query_player_stats_one_tid_pid():
             raise Exception("Creation Procedure Query_Player_Stats_One_Tid_Pid Failed")
     else:
         raise Exception("Procedure Query_Player_Stats_One_Tid_Pid does exists")
-
+        
 '''
-Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_two_tid_pid():
     # Connect to sql database
@@ -231,11 +242,14 @@ def create_query_player_stats_two_tid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Team_ID = ' , val_two, 
-                    ' AND Stat_Form = ',val_three);
+                    ' WHERE Stat_Form = ? 
+                    AND Team_ID = ?
+                    AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -248,7 +262,7 @@ def create_query_player_stats_two_tid_pid():
         raise Exception("Procedure Query_Player_Stats_Two_Tid_Pid does exists")
 
 '''
-Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and Team_ID
+Function that creates procedure for that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID and Team_ID
 '''
 def create_query_player_stats_three_tid_pid():
     # Connect to sql database
@@ -270,11 +284,14 @@ def create_query_player_stats_three_tid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Team_ID = ' , val_two, 
-                    ' AND Stat_Form = ',val_three);
+                    ' WHERE Stat_Form = ? 
+                    AND Team_ID = ?
+                    AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -285,6 +302,47 @@ def create_query_player_stats_three_tid_pid():
             raise Exception("Creation Procedure Query_Player_Stats_Three_Tid_Pid Failed")
     else:
         raise Exception("Procedure Query_Player_Stats_Three_Tid_Pid does exists")
+
+'''
+Function that creates procedure for that queries Season_ID, Team_Name and Player_ID and 5 major stats category from a inputed table.
+'''
+def create_query_player_stats_primary_tid_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_primary_tid_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_primary_tid_pid(IN tbl_name VARCHAR(100), IN val_one INT, IN val_two INT, IN val_three INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
+                    ' FROM ', tbl_name, 
+                    ' WHERE Stat_Form = ? 
+                    AND Team_ID = ?
+                    AND Player_ID = ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Primary_Tid_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Primary_Tid_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Primary_Tid_Pid does exists") 
 
 '''
 Create procedure based on Season_ID and Player_ID
@@ -312,11 +370,14 @@ def create_query_player_stats_one_sid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Season_ID = ' , val_two, 
-                    ' AND Stat_Form = ',val_three);
+                    ' WHERE Stat_Form = ? 
+                    AND Season_ID = ?
+                    AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -351,11 +412,14 @@ def create_query_player_stats_two_sid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Season_ID = ' , val_two, 
-                    ' AND Stat_Form = ',val_three);
+                    ' WHERE Stat_Form = ? 
+                    AND Season_ID = ?
+                    AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -390,11 +454,14 @@ def create_query_player_stats_three_sid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Season_ID = ' , val_two, 
-                    ' AND Stat_Form = ',val_three);
+                    ' WHERE Stat_Form = ? 
+                    AND Season_ID = ?
+                    AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -406,6 +473,46 @@ def create_query_player_stats_three_sid_pid():
     else:
         raise Exception("Procedure Query_Player_Stats_Three_Sid_Pid does exists")
 
+'''
+Function that creates procedure for that queries Season_ID, Team_Name and Player_ID and 5 major stats category from a inputed table.
+'''
+def create_query_player_stats_primary_sid_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_primary_sid_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_primary_sid_pid(IN tbl_name VARCHAR(100), IN val_one INT, IN val_two INT, IN val_three INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
+                    ' FROM ', tbl_name, 
+                    ' WHERE Stat_Form = ? 
+                    AND Season_ID = ?
+                    AND Player_ID = ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Primary_Tid_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Primary_Tid_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Primary_Tid_Pid does exists") 
 
 '''
 Create procedure for playoffs and reg
@@ -436,9 +543,10 @@ def create_query_player_stats_one_both_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val);
+                    ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                EXECUTE stmt1 USING @val_one;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -472,9 +580,10 @@ def create_query_player_stats_two_both_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',' ,select_two, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val);
+                    ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                EXECUTE stmt1 USING @val_one;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -508,9 +617,10 @@ def create_query_player_stats_three_both_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',' ,select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val);
+                    ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                EXECUTE stmt1 USING @val_one;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -521,6 +631,43 @@ def create_query_player_stats_three_both_pid():
             raise Exception("Creation Procedure Query_Player_Stats_Three_Both_Pid Failed")
     else:
         raise Exception("Procedure Query_Player_Stats_Three_Both_Pid does exists")
+
+'''
+Function that creates procedure for that queries Season_ID, Team_Name and Player_ID and 5 major stats category from a inputed table.
+'''
+def create_query_player_stats_primary_both_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_primary_both_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_primary_both_pid(IN tbl_name VARCHAR(100), IN val_one INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
+                    ' FROM ', tbl_name, 
+                    ' WHERE PLAYER_ID = ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                EXECUTE stmt1 USING @val_one;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Primary_Both_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Both_Primary_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Primary_Both_Pid does exists") 
 
 '''
 Create procedure based on Team_ID and Player_ID
@@ -548,10 +695,12 @@ def create_query_player_stats_one_both_tid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' WHERE Team_ID = ', val_two);
+                    ' WHERE Player_ID = ?
+                     AND Team_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -586,10 +735,12 @@ def create_query_player_stats_two_both_tid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',',select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' WHERE Team_ID = ', val_two);
+                    ' WHERE Player_ID = ?
+                     AND Team_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -624,10 +775,12 @@ def create_query_player_stats_three_both_tid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',',select_two, ',',select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' WHERE Team_ID = ', val_two);
+                    ' WHERE Player_ID = ?
+                     AND Team_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -638,6 +791,45 @@ def create_query_player_stats_three_both_tid_pid():
             raise Exception("Creation Procedure Query_Player_Stats_Three_Both_Tid_Pid Failed")
     else:
         raise Exception("Procedure Query_Player_Stats_Three_Both_Tid_Pid does exists")
+
+'''
+Function that creates procedure for that queries Season_ID, Team_Name and Player_ID and 5 major stats category from a inputed table.
+'''
+def create_query_player_stats_primary_both_tid_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_primary_both_tid_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_primary_both_tid_pid(IN tbl_name VARCHAR(100), IN val_one INT, IN val_two INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
+                    ' FROM ', tbl_name, 
+                    ' WHERE Team_ID = ? 
+                    AND Player_ID = ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Primary_Both_Tid_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Primary_Both_Tid_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Primary_Both_Tid_Pid does exists") 
 
 '''
 Create procedure based on Season_ID and Player_ID
@@ -665,10 +857,12 @@ def create_query_player_stats_one_both_sid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' WHERE Season_ID = ', val_two);
+                    ' WHERE Season_ID = ?
+                     AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -703,10 +897,12 @@ def create_query_player_stats_two_both_sid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',',select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' WHERE Season_ID = ', val_two);
+                    ' WHERE Season_ID = ?
+                     AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -741,10 +937,12 @@ def create_query_player_stats_three_both_sid_pid():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',',select_two, ',',select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' WHERE Team_ID = ', val_two);
+                    ' WHERE Season_ID = ?
+                     AND Player_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -757,33 +955,119 @@ def create_query_player_stats_three_both_sid_pid():
         raise Exception("Procedure Query_Player_Stats_Three_Both_Sid_Pid does exists")
 
 '''
+Function that creates procedure for that queries Season_ID, Team_Name and Player_ID and 5 major stats category from a inputed table.
+'''
+def create_query_player_stats_primary_both_sid_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_primary_both_sid_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_primary_both_sid_pid(IN tbl_name VARCHAR(100), IN val_one INT, IN val_two INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
+                    ' FROM ', tbl_name, 
+                    ' WHERE Season_ID = ?
+                    AND Player_ID = ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Primary_Both_Tid_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Primary_Both_Tid_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Primary_Both_Tid_Pid does exists") 
+
+'''
 Create all Player_Stats Procedures
 '''
 def create_player_stats_query():
+    # 8
     create_query_player_stats_one_pid()
     create_query_player_stats_two_pid()
     create_query_player_stats_three_pid()
     create_query_player_stats_primary_pid()
+    '''
+    create_query_player_stats_one_above_pid()
+    create_query_player_stats_two_above_pid()
+    create_query_player_stats_three_above_pid()
+    create_query_player_stats_primary_above_pid()
+    '''
 
+    # 16
     create_query_player_stats_one_tid_pid()
     create_query_player_stats_two_tid_pid()
     create_query_player_stats_three_tid_pid()
+    create_query_player_stats_primary_tid_pid()
+    '''
+    create_query_player_stats_one_above_tid_pid()
+    create_query_player_stats_two_above_tid_pid()
+    create_query_player_stats_three_above_tid_pid()
+    #create_query_player_stats_primary_above_tid_pid()
+    '''
 
+    # 24
     create_query_player_stats_one_sid_pid()
     create_query_player_stats_two_sid_pid()
     create_query_player_stats_three_sid_pid()
+    create_query_player_stats_primary_sid_pid()
+    '''
+    create_query_player_stats_one_above_sid_pid()
+    create_query_player_stats_two_above_sid_pid()
+    create_query_player_stats_three_above_sid_pid()
+    #create_query_player_stats_primary_above_sid_pid()
+    '''
 
+    # 32
     create_query_player_stats_one_both_pid()
     create_query_player_stats_two_both_pid()
     create_query_player_stats_three_both_pid()
+    create_query_player_stats_primary_both_pid()
+    '''
+    create_query_player_stats_one_both_above_pid()
+    create_query_player_stats_two_both_above_pid()
+    create_query_player_stats_three_both_above_pid()
+    #create_query_player_stats_primary_both_above_pid()
+    '''
 
+    #40
     create_query_player_stats_one_both_tid_pid()
     create_query_player_stats_two_both_tid_pid()
     create_query_player_stats_three_both_tid_pid()
+    create_query_player_stats_primary_both_tid_pid()
+    '''
+    create_query_player_stats_one_both_above_tid_pid()
+    create_query_player_stats_two_both_above_tid_pid()
+    create_query_player_stats_three_both_above_tid_pid()
+    #create_query_player_stats_primary_both_above_tid_pid()
+    '''
 
+    #48
     create_query_player_stats_one_both_sid_pid()
     create_query_player_stats_two_both_sid_pid()
     create_query_player_stats_three_both_sid_pid()
+    create_query_player_stats_primary_both_sid_pid()
+    '''
+    create_query_player_stats_one_both_above_sid_pid()
+    create_query_player_stats_two_both_above_sid_pid()
+    create_query_player_stats_three_both_above_sid_pid()
+    #create_query_player_stats_primary_both_above_sid_pid()
+    '''
 
 '''
 Drop procedures

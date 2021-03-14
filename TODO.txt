@@ -19,19 +19,19 @@ Team:                     Done        | 5  | UNIT TEST DONE?: Done
 Player:                   Done        | 3  | UNIT TEST DONE?: Done
 Conference Standings:     Done        | 8  | UNIT TEST DONE?: Done
 Roster:                   Done        | 10 | UNIT TEST DONE?: Done
-Team Stats:               Done        | 16 | UNIT TEST DONE?: Done
+Team Stats:               Done        | 16 | UNIT TEST DONE?: Done        | Completed the parameterized stored procedures 
 Team Advanced:            Done        | 5  | UNIT TEST DONE?: Done
 Team Misc:                Done        | 5  | UNIT TEST DONE?: Done
 Team Per Game:            Done        | 10 | UNIT TEST DONE?: Done
 Team Per Poss:            Done        | 10 | UNIT TEST DONE?: Done
 Team Totals:              Done        | 10 | UNIT TEST DONE?: Done
-Player Stats:             Done        | 19 | UNIT TEST DONE?: In Progress
+Player Stats:             In Progress | 48 | UNIT TEST DONE?: In Progress | Still need to create parameterized stored procedures
 Player Advanced:          Done        | 12 | UNIT TEST DONE?: In Progress
 Player Per Game:          Done        | 12 | UNIT TEST DONE?: In Progress
 Player Per Minute:        Done        | 12 | UNIT TEST DONE?: In Progress
 Player Per Poss:          Done        | 12 | UNIT TEST DONE?: In Progress
 Player Totals:            Done        | 12 | UNIT TEST DONE?: In Progress
-Player Career Stats:      Done        | 6  | UNIT TEST DONE?: Done
+Player Career Stats:      In Progress | 6  | UNIT TEST DONE?: Done        | Still need to create prarmeterized stored procedures
 Player Career Advanced:   Done        | 4  | UNIT TEST DONE?: Done
 Player Career Per Game:   Done        | 4  | UNIT TEST DONE?: Done
 Player Career Per Minute: Done        | 4  | UNIT TEST DONE?: Done

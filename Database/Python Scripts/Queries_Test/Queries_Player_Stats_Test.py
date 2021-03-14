@@ -23,5 +23,7 @@ class TestQueryPlayerStats(unittest.TestCase):
         # Create Procedures
         create_player_stats_query()
 
+    
+
 if __name__ == '__main__':
     unittest.main()
