@@ -181,25 +181,133 @@ Create Procedures based on Player_ID and if the stat is above an input
 Function that creates procedure for that queries Season_ID, Team_Name and one addtional input, from a inputed table, based on player_ID and an input value 
 '''
 def create_query_player_stats_one_above_pid():
-    return None
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_one_above_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_one_above_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
+            IN val INT, IN val_two INT, IN val_three INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
+                    ' FROM ', tbl_name, 
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?
+                    AND ',select_one, ' >= ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_One_Above_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_One_Above_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_One_Above_Pid does exists")
 
 '''
 Function that creates procedure for that queries Season_ID, Team_Name and two addtional input, from a inputed table, based on player_ID and an input value 
 '''
 def create_query_player_stats_two_above_pid():
-    return None
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if not check_procedure('query_player_stats_two_above_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_two_above_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
+            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
+                    ' FROM ', tbl_name, 
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?
+                    AND ',select_one, ' >= ? 
+                    AND ',select_two, ' >= ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                SET @val_four = val_four;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three, @val_four;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Two_Above_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Two_Above_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Two_Above_Pid does exists")
 
 '''
 Function that creates procedure for that queries Season_ID, Team_Name and three addtional input, from a inputed table, based on player_ID and an input value 
 '''
 def create_query_player_stats_three_above_pid():
-    return None
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
 
-'''
-Function that creates procedure for that queries Season_ID, Team_Name and five major stats, from a inputed table, based on player_ID and input value
-'''
-def create_query_player_stats_primary_above_pid():
-    return None
+    if not check_procedure('query_player_stats_three_above_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            CREATE PROCEDURE query_player_stats_three_above_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
+            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
+            BEGIN
+                SET @s=CONCAT(
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three, 
+                    ' FROM ', tbl_name, 
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?
+                    AND ',select_one, ' >= ? 
+                    AND ',select_two, ' >= ?
+                    AND ',select_three, ' >= ?');
+                PREPARE stmt1 FROM @s;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                SET @val_three = val_three;
+                SET @val_four = val_four;
+                SET @val_five = val_five;
+                EXECUTE stmt1 USING @val_one, @val_two, @val_three, @val_four, @val_five;
+                DEALLOCATE PREPARE stmt1;
+            END
+            """)
+            trans.commit()
+            conn.close()
+            print("Creation of procedure Query_Player_Stats_Three_Above_Pid was Successful")
+        except:
+            raise Exception("Creation Procedure Query_Player_Stats_Three_Above_Pid Failed")
+    else:
+        raise Exception("Procedure Query_Player_Stats_Three_Above_Pid does exists")
 
 '''
 Create procedures based on Team_ID and Player_ID
@@ -1029,12 +1137,10 @@ def create_player_stats_query():
     create_query_player_stats_two_pid()
     create_query_player_stats_three_pid()
     create_query_player_stats_primary_pid()
-    '''
+    
     create_query_player_stats_one_above_pid()
     create_query_player_stats_two_above_pid()
     create_query_player_stats_three_above_pid()
-    create_query_player_stats_primary_above_pid()
-    '''
 
     # 16
     create_query_player_stats_one_tid_pid()
@@ -1213,6 +1319,87 @@ def drop_query_player_stats_primary_pid():
             raise Exception("Deletion of Procedure Query_Player_Stats_Primary_Pid Failed")
     else:
         print("Procedure Query_Player_Stats_Primary_Pid does not Exists")
+
+'''
+Drop Procedure query_player_stats_one_above_pid
+'''
+def drop_query_player_stats_one_above_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('query_player_stats_one_above_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS query_player_stats_one_above_pid
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Query_Player_Stats_One_Above_Pid was Successful")
+        except:
+            raise Exception("Deletion of Procedure Query_Player_Stats_One_Above_Pid Failed")
+    else:
+        print("Procedure Query_Player_Stats_One_Above_Pid does not Exists")
+
+'''
+Drop Procedure query_player_stats_two_above_pid
+'''
+def drop_query_player_stats_two_above_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('query_player_stats_two_above_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS query_player_stats_two_above_pid
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Query_Player_Stats_Two_Above_Pid was Successful")
+        except:
+            raise Exception("Deletion of Procedure Query_Player_Stats_Two_Above_Pid Failed")
+    else:
+        print("Procedure Query_Player_Stats_Two_Above_Pid does not Exists")
+
+'''
+Drop Procedure query_player_stats_three_above_pid
+'''
+def drop_query_player_stats_three_above_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('query_player_stats_three_above_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS query_player_stats_three_above_pid
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Query_Player_Stats_Three_Above_Pid was Successful")
+        except:
+            raise Exception("Deletion of Procedure Query_Player_Stats_Three_Above_Pid Failed")
+    else:
+        print("Procedure Query_Player_Stats_Three_Above_Pid does not Exists")
 
 '''
 Drop Procedures based on Team_ID and Player_ID
@@ -1781,6 +1968,10 @@ def drop_player_stats_query():
     drop_query_player_stats_two_pid()
     drop_query_player_stats_three_pid()
     drop_query_player_stats_primary_pid()
+
+    drop_query_player_stats_one_above_pid()
+    drop_query_player_stats_two_above_pid()
+    drop_query_player_stats_three_above_pid()
 
     drop_query_player_stats_one_tid_pid()
     drop_query_player_stats_two_tid_pid()
