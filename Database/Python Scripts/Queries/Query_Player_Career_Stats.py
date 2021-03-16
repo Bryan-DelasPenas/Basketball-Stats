@@ -444,7 +444,7 @@ def create_query_player_career_stats_primary_both_pid():
             CREATE PROCEDURE query_player_career_stats_primary_both_pid(IN tbl_name VARCHAR(100), IN val_one INT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
+                    'SELECT Player_ID, Player_Name, Stat_Form, Points, Assists, True_Rebounds, Steals, Blocks
                      FROM ', tbl_name, 
                     ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
@@ -482,7 +482,7 @@ def create_query_player_career_stats_one_both_above_pid():
             IN val_one INT, IN val_two INT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
+                    'SELECT Player_ID, Player_Name, Stat_Form,',select_one, 
                     ' FROM ', tbl_name, 
                     ' WHERE PLAYER_ID = ?
                     AND ',select_one, ' >= ?');
@@ -522,7 +522,7 @@ def create_query_player_career_stats_two_both_above_pid():
             IN val_one INT, IN val_two INT, IN val_three INT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
+                    'SELECT Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
                     ' FROM ', tbl_name, 
                     ' WHERE PLAYER_ID = ?
                     AND ',select_one, ' >= ? 
@@ -564,7 +564,7 @@ def create_query_player_career_stats_three_both_above_pid():
             IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three,
+                    'SELECT Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three,
                     ' FROM ', tbl_name, 
                     ' WHERE PLAYER_ID = ?
                     AND ',select_one, ' >= ? 
@@ -595,18 +595,12 @@ def create_player_career_stats_query():
     create_query_player_career_stats_two_pid()
     create_query_player_career_stats_three_pid()
     create_query_player_career_stats_primary_pid()
-    create_query_player_career_stats_one_above_pid()
-    create_query_player_career_stats_two_above_pid()
-    create_query_player_career_stats_three_above_pid()
 
     create_query_player_career_stats_one_both_pid()
     create_query_player_career_stats_two_both_pid()
     create_query_player_career_stats_three_both_pid()
     create_query_player_career_stats_primary_both_pid()
-    create_query_player_career_stats_one_both_above_pid()
-    create_query_player_career_stats_two_both_above_pid()
-    create_query_player_career_stats_three_both_above_pid()
-    
+
 '''
 Drop Procedures
 '''
@@ -696,114 +690,6 @@ def drop_query_player_career_stats_three_pid():
         print("Procedure Query_Player_Career_Stats_Three_Pid does not Exists")
 
 '''
-Drop Procedure query_player_career_stats_primary_both_pid
-'''
-def drop_query_player_career_stats_primary_both_pid():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_player_career_stats_primary_both_pid'):
-        try: 
-            # Create a procedure
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_primary_both_pid
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_Player_Stats_Primary_Both_Pid was Successful")
-        except:
-            raise Exception("Deletion of Procedure Query_Player_Stats_Primary_Both_Pid Failed")
-    else:
-        print("Procedure Query_Player_Stats_Primary_Both_Pid does not Exists")
-
-'''
-Drop Procedure query_player_career_stats_one_both_above_pid
-'''
-def drop_query_player_career_stats_one_both_above_pid():
-     # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_player_career_stats_one_both_above_pid'):
-        try: 
-            # Create a procedure
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_one_both_above_pid
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_Player_Stats_One_Both_Above_Pid was Successful")
-        except:
-            raise Exception("Deletion of ProcedureQuery_Player_Stats_One_Both_Above_Pid Failed")
-    else:
-        print("Procedure Query_Player_Stats_One_Both_Above_Pid does not Exists")
-
-'''
-Drop Procedure query_player_career_stats_two_both_above_pid
-'''
-def drop_query_player_career_stats_two_both_above_pid():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_player_career_stats_two_both_above_pid'):
-        try: 
-            # Create a procedure
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_two_both_above_pid
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_Player_Stats_Two_Both_Above_Pid was Successful")
-        except:
-            raise Exception("Deletion of ProcedureQuery_Player_Stats_Two_Both_Above_Pid Failed")
-    else:
-        print("Procedure Query_Player_Stats_Two_Both_Above_Pid does not Exists")
-
-'''
-Drop Procedure query_player_career_stats_three_both_above_pid
-'''
-def drop_query_player_career_stats_three_both_above_pid():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_player_career_stats_three_both_above_pid'):
-        try: 
-            # Create a procedure
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_three_both_above_pid
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_Player_Stats_Three_Both_Above_Pid was Successful")
-        except:
-            raise Exception("Deletion of ProcedureQuery_Player_Stats_Three_Both_Above_Pid Failed")
-    else:
-        print("Procedure Query_Player_Stats_Three_Both_Above_Pid does not Exists")
-        
-'''
 Drop Procedure query_player_career_stats_primary_pid
 '''
 def drop_query_player_career_stats_primary_pid():
@@ -829,87 +715,6 @@ def drop_query_player_career_stats_primary_pid():
             raise Exception("Deletion of Procedure Query_Player_Stats_Primary_Pid Failed")
     else:
         print("Procedure Query_Player_Stats_Primary_Pid does not Exists")
-
-'''
-Drop Procedure query_player_career_stats_one_above_pid
-'''
-def drop_query_player_career_stats_one_above_pid():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_player_career_stats_one_above_pid'):
-        try: 
-            # Create a procedure
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_one_above_pid
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_Player_Stats_One_Above_Pid was Successful")
-        except:
-            raise Exception("Deletion of Procedure Query_Player_Stats_One_Above_Pid Failed")
-    else:
-        print("Procedure Query_Player_Stats_One_Above_Pid does not Exists")
-
-'''
-Drop Procedure query_player_career_stats_two_above_pid
-'''
-def drop_query_player_career_stats_two_above_pid():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_player_career_stats_two_above_pid'):
-        try: 
-            # Create a procedure
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_two_above_pid
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_Player_Stats_Two_Above_Pid was Successful")
-        except:
-            raise Exception("Deletion of Procedure Query_Player_Stats_Two_Above_Pid Failed")
-    else:
-        print("Procedure Query_Player_Stats_Two_Above_Pid does not Exists")
-
-'''
-Drop Procedure query_player_career_stats_three_above_pid
-'''
-def drop_query_player_career_stats_three_above_pid():
-    # Connect to sql database
-    engine = create_connection()
-    
-    # Test the connection of the database
-    conn = test_connection(engine)
- 
-    trans = conn.begin()
-
-    if check_procedure('query_player_career_stats_three_above_pid'):
-        try: 
-            # Create a procedure
-            conn.execute(
-            """
-            DROP PROCEDURE IF EXISTS query_player_career_stats_three_above_pid
-            """)
-            trans.commit()
-            conn.close()
-            print("Deletion of procedure Query_Player_Stats_Three_Above_Pid was Successful")
-        except:
-            raise Exception("Deletion of Procedure Query_Player_Stats_Three_Above_Pid Failed")
-    else:
-        print("Procedure Query_Player_Stats_Three_Above_Pid does not Exists")
 
 
 '''
@@ -997,6 +802,33 @@ def drop_query_player_career_stats_three_both_pid():
         print("Procedure Query_Player_Career_Stats_Three_Both_Pid does not Exists")
 
 '''
+Drop Procedure query_player_career_stats_primary_both_pid
+'''
+def drop_query_player_career_stats_primary_both_pid():
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+ 
+    trans = conn.begin()
+
+    if check_procedure('query_player_career_stats_primary_both_pid'):
+        try: 
+            # Create a procedure
+            conn.execute(
+            """
+            DROP PROCEDURE IF EXISTS query_player_career_stats_primary_both_pid
+            """)
+            trans.commit()
+            conn.close()
+            print("Deletion of procedure Query_Player_Stats_Primary_Both_Pid was Successful")
+        except:
+            raise Exception("Deletion of Procedure Query_Player_Stats_Primary_Both_Pid Failed")
+    else:
+        print("Procedure Query_Player_Stats_Primary_Both_Pid does not Exists")
+ 
+'''
 Drop Procedure all Player_Career_Stats
 '''
 def drop_player_career_stats_query():
@@ -1004,14 +836,8 @@ def drop_player_career_stats_query():
     drop_query_player_career_stats_two_pid()
     drop_query_player_career_stats_three_pid()
     drop_query_player_career_stats_primary_pid()
-    drop_query_player_career_stats_one_above_pid()
-    drop_query_player_career_stats_two_above_pid()
-    drop_query_player_career_stats_three_above_pid()
 
     drop_query_player_career_stats_one_both_pid()
     drop_query_player_career_stats_two_both_pid()
     drop_query_player_career_stats_three_both_pid()
     drop_query_player_career_stats_primary_both_pid()
-    drop_query_player_career_stats_one_both_above_pid()
-    drop_query_player_career_stats_two_both_above_pid()
-    drop_query_player_career_stats_three_both_above_pid()

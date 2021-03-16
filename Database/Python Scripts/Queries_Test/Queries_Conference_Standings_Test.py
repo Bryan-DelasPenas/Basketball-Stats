@@ -72,8 +72,7 @@ class TestQueryConferenceStandings(unittest.TestCase):
                 'Games_Behind', 'Points_Per_Game', 'Opponents_Points_Per_Game', 'Simple_Rating_System', 'East_Or_West'])
       
         pd.testing.assert_frame_equal(df_result, df_expected)
-
-    
+  
     def test_create_query_all_cs_name(self):
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_CS_Boston_Celtics.csv')
         df_expected = pd.read_csv(path)
@@ -120,7 +119,6 @@ class TestQueryConferenceStandings(unittest.TestCase):
       
         pd.testing.assert_frame_equal(df_result, df_expected)
 
-    
     def test_create_query_all_cs_win(self):
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_CS_60wins.csv')
         df_expected = pd.read_csv(path)
@@ -144,7 +142,6 @@ class TestQueryConferenceStandings(unittest.TestCase):
       
         pd.testing.assert_frame_equal(df_result, df_expected)
 
-    
     def test_create_query_all_cs_wl(self):
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_CS_80_percent.csv')
         df_expected = pd.read_csv(path)
@@ -168,7 +165,6 @@ class TestQueryConferenceStandings(unittest.TestCase):
       
         pd.testing.assert_frame_equal(df_result, df_expected)
 
-    
     def test_create_query_all_cs_sid_ew(self):
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_CS_2020_East.csv')
         df_expected = pd.read_csv(path)
