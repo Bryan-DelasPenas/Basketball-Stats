@@ -3061,10 +3061,3 @@ def drop_player_stats_query():
     drop_query_player_stats_one_both_above_sid_pid()
     drop_query_player_stats_two_both_above_sid_pid()
     drop_query_player_stats_three_both_above_sid_pid()
-
-def main(): 
-    drop_player_stats_query()
-    create_player_stats_query()
-    drop_player_stats_query()
-
-main()

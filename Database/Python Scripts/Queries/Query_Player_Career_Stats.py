@@ -38,10 +38,12 @@ def create_query_player_career_stats_one_pid():
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, Stat_Form,',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Stat_Form = ',val_two);
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -76,10 +78,12 @@ def create_query_player_career_stats_two_pid():
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Stat_Form = ',val_two);
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -114,10 +118,12 @@ def create_query_player_career_stats_three_pid():
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two, ',', select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val_one,
-                    ' AND Stat_Form = ',val_two);
+                    ' WHERE Stat_Form = ? 
+                    AND PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                SET @val_two = val_two;
+                EXECUTE stmt1 USING @val_one, @val_two;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -154,9 +160,10 @@ def create_query_player_career_stats_one_both_pid():
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val);
+                    ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                EXECUTE stmt1 USING @val_one;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -190,9 +197,10 @@ def create_query_player_career_stats_two_both_pid():
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, ',select_one, ',',select_two,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val);
+                    ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                EXECUTE stmt1 USING @val_one;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -227,9 +235,10 @@ def create_query_player_career_stats_three_both_pid():
                 SET @s=CONCAT(
                     'SELECT Player_ID, Player_Name, ',select_one, ',',select_two, ',',select_three,
                     ' FROM ', tbl_name, 
-                    ' WHERE Player_ID = '  , val);
+                    ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
-                EXECUTE stmt1;
+                SET @val_one = val_one;
+                EXECUTE stmt1 USING @val_one;
                 DEALLOCATE PREPARE stmt1;
             END
             """)
@@ -248,11 +257,18 @@ def create_player_career_stats_query():
     create_query_player_career_stats_one_pid()
     create_query_player_career_stats_two_pid()
     create_query_player_career_stats_three_pid()
+    create_query_player_career_stats_primary_pid()
+    create_query_player_career_stats_one_above_pid()
+    create_query_player_career_stats_two_above_pid()
+    create_query_player_career_stats_three_above_pid()
 
     create_query_player_career_stats_one_both_pid()
     create_query_player_career_stats_two_both_pid()
     create_query_player_career_stats_three_both_pid()
-
+    create_query_player_career_stats_primary_both_pid()
+    create_query_player_career_stats_one_both_above_pid()
+    create_query_player_career_stats_two_both_above_pid()
+    create_query_player_career_stats_three_both_above_pid()
 '''
 Drop Procedures
 '''
@@ -373,7 +389,7 @@ def drop_query_player_career_stats_one_both_pid():
         print("Procedure Query_Player_Career_Stats_One_Both_Pid does not Exists")
 
 '''
-Drop Procedure query_player_stats_two_both_pid
+Drop Procedure query_player_career_stats_two_both_pid
 '''
 def drop_query_player_career_stats_two_both_pid():
     # Connect to sql database
@@ -400,7 +416,7 @@ def drop_query_player_career_stats_two_both_pid():
         print("Procedure Query_Player_Career_Stats_Two_Both_Pid does not Exists")
 
 '''
-Drop Procedure query_player_stats_three_both_pid
+Drop Procedure query_player_career_stats_three_both_pid
 '''
 def drop_query_player_career_stats_three_both_pid():
     # Connect to sql database
@@ -433,7 +449,15 @@ def drop_player_career_stats_query():
     drop_query_player_career_stats_one_pid()
     drop_query_player_career_stats_two_pid()
     drop_query_player_career_stats_three_pid()
+    drop_query_player_career_stats_primary_pid()
+    drop_query_player_career_stats_one_above_pid()
+    drop_query_player_career_stats_two_above_pid()
+    drop_query_player_career_stats_three_above_pid()
 
     drop_query_player_career_stats_one_both_pid()
     drop_query_player_career_stats_two_both_pid()
     drop_query_player_career_stats_three_both_pid()
+    drop_query_player_career_stats_primary_both_pid()
+    drop_query_player_career_stats_one_both_above_pid()
+    drop_query_player_career_stats_two_both_above_pid()
+    drop_query_player_career_stats_three_both_above_pid()
