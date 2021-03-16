@@ -27,7 +27,7 @@ class TestQueryPlayerCareerStats(unittest.TestCase):
         path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_All_Player_Career_Kareem_Abdul_Jabbar_FGM.csv')
         df_expected = pd.read_csv(path)
         df_expected = df_expected.astype({'Field_Goals_Made' : float})
-        
+       
         # Connect to sql database
         engine = create_connection()
         
@@ -38,7 +38,7 @@ class TestQueryPlayerCareerStats(unittest.TestCase):
         result = conn.execute(
         """
         CALL query_player_career_stats_one_pid(%s, %s, %s, %s)
-        """, ['Field_Goals_Made', 'Player_Career_Totals', 2, 0]
+        """, ['Field_Goals_Made', 'Player_Career_Totals', 0, 2]
         ).fetchall()
        
         df_result = pd.DataFrame(result, columns=['Player_ID', 'Player_Name', 'Stat_Form', 'Field_Goals_Made'])
@@ -59,7 +59,7 @@ class TestQueryPlayerCareerStats(unittest.TestCase):
         result = conn.execute(
         """
         CALL query_player_career_stats_two_pid(%s, %s, %s, %s, %s)
-        """, ['Field_Goals_Made', 'Field_Goals_Attempted','Player_Career_Totals', 2, 0]
+        """, ['Field_Goals_Made', 'Field_Goals_Attempted','Player_Career_Totals', 0, 2]
         ).fetchall()
        
         df_result = pd.DataFrame(result, columns=['Player_ID', 'Player_Name', 'Stat_Form', 'Field_Goals_Made', 'Field_Goals_Attempted'])
@@ -80,7 +80,7 @@ class TestQueryPlayerCareerStats(unittest.TestCase):
         result = conn.execute(
         """
         CALL query_player_career_stats_three_pid(%s, %s, %s, %s, %s, %s)
-        """, ['Field_Goals_Made', 'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Player_Career_Totals', 2, 0]
+        """, ['Field_Goals_Made', 'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Player_Career_Totals', 0, 2]
         ).fetchall()
        
         df_result = pd.DataFrame(result, columns=['Player_ID', 'Player_Name', 'Stat_Form', 'Field_Goals_Made', 'Field_Goals_Attempted', 'Field_Goals_Percentage'])

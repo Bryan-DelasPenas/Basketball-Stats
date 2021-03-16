@@ -33,7 +33,7 @@ def create_query_player_stats_one_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -195,7 +195,7 @@ def create_query_player_stats_one_above_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_above_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT)
+            IN val_one INT, IN val_two INT, IN val_three INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -237,7 +237,7 @@ def create_query_player_stats_two_above_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_above_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
@@ -281,7 +281,7 @@ def create_query_player_stats_three_above_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_above_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three, 
@@ -330,7 +330,7 @@ def create_query_player_stats_one_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_tid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -372,7 +372,7 @@ def create_query_player_stats_two_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
@@ -414,7 +414,7 @@ def create_query_player_stats_three_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two, ',', select_three,
@@ -497,7 +497,7 @@ def create_query_player_stats_one_above_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_above_tid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT)
+            IN val_one INT, IN val_two INT, IN val_three INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -541,7 +541,7 @@ def create_query_player_stats_two_above_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_above_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
@@ -587,7 +587,7 @@ def create_query_player_stats_three_above_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_above_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT, IN val_six INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT, IN val_six INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three, 
@@ -638,7 +638,7 @@ def create_query_player_stats_one_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_sid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -680,7 +680,7 @@ def create_query_player_stats_two_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
@@ -722,7 +722,7 @@ def create_query_player_stats_three_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
+            IN val_one LONGTEXT, IN val_two LONGTEXT, IN val_three LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two, ',', select_three,
@@ -805,7 +805,7 @@ def create_query_player_stats_one_above_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_above_sid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT)
+            IN val_one INT, IN val_two INT, IN val_three INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -849,7 +849,7 @@ def create_query_player_stats_two_above_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_above_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
@@ -895,7 +895,7 @@ def create_query_player_stats_three_above_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_above_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT, IN val_six INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT, IN val_six INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three, 
@@ -949,7 +949,7 @@ def create_query_player_stats_one_both_pid():
             # Create a procedure
             conn.execute(
             """
-            CREATE PROCEDURE query_player_stats_one_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
+            CREATE PROCEDURE query_player_stats_one_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val_one longtext)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, 
@@ -986,7 +986,7 @@ def create_query_player_stats_two_both_pid():
             # Create a procedure
             conn.execute(
             """
-            CREATE PROCEDURE query_player_stats_two_both_pid(IN select_one LONGTEXT, select_two LONGTEXT ,IN tbl_name longtext, IN val longtext)
+            CREATE PROCEDURE query_player_stats_two_both_pid(IN select_one LONGTEXT, select_two LONGTEXT ,IN tbl_name longtext, IN val_one longtext)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',' ,select_two, 
@@ -1023,7 +1023,7 @@ def create_query_player_stats_three_both_pid():
             # Create a procedure
             conn.execute(
             """
-            CREATE PROCEDURE query_player_stats_three_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
+            CREATE PROCEDURE query_player_stats_three_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val_one longtext)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',' ,select_two, ',', select_three,
@@ -1098,7 +1098,7 @@ def create_query_player_stats_one_both_above_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_both_above_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT)
+            IN val_one INT, IN val_two INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -1138,7 +1138,7 @@ def create_query_player_stats_two_both_above_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_both_above_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT)
+            IN val_one INT, IN val_two INT, IN val_three INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
@@ -1180,7 +1180,7 @@ def create_query_player_stats_three_both_above_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_both_above_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three,
@@ -1386,7 +1386,7 @@ def create_query_player_stats_one_both_above_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_both_above_tid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT)
+            IN val_one INT, IN val_two INT, IN val_three INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -1428,7 +1428,7 @@ def create_query_player_stats_two_both_above_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_both_above_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
@@ -1472,7 +1472,7 @@ def create_query_player_stats_three_both_above_tid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_both_above_tid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three,
@@ -1680,7 +1680,7 @@ def create_query_player_stats_one_both_above_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_one_both_above_sid_pid(IN select_one LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT)
+            IN val_one INT, IN val_two INT, IN val_three INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, 
@@ -1722,7 +1722,7 @@ def create_query_player_stats_two_both_above_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_both_above_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two,
@@ -1766,7 +1766,7 @@ def create_query_player_stats_three_both_above_sid_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_three_both_above_sid_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, 
-            IN val INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
+            IN val_one INT, IN val_two INT, IN val_three INT, IN val_four INT, IN val_five INT)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',',select_two, ',',select_three,
