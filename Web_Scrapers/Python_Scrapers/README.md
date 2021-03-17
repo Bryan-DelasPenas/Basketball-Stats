@@ -85,7 +85,7 @@
     Wins / (Wins + Loses)
 ```
 
-## Season Stats Scraper
+## Season Scraper
 ### `get_team_name(season)` 
 <strong>Parameters:</strong><br>
     - `season` - is a string that represents NBA season(only from 1980 to current year)<br>
@@ -103,102 +103,8 @@ A Pandas Dataframe with the following columns<br>
 ### `get_standings(season, data_format)`
 <strong>Parameters:</strong><br>
     `season`      - NBA season(only from 1980 to current year)<br>
-    `data_format` - One of `'Expanded Standing' | 'Standard' |'Team_Vs_Team'` where default value is `Standard`<br>
+    `data_format` - One of `'Standard'` where default value is `Standard`<br>
 <strong>Returns:</strong><br>
-
-#### For Expanded Standings
-For `'Expanded Standings'` and `'season'` of 1980 and 1981, it will return a Pandas Dataframe with the following columns
-```
-    ['Season', 'Team ID', 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record',
-    'Atlantic Division Record', 'Central Division Record', 'Midwesterm Division Record', 'Pacific Division Record', 'Pre Allstar Record', 'Post Allstar Record',
-    '3 Point Margin', '10 Point Margin', 'Oct Record', 'Nov Record', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record']
-```
-For `'Expanded Standings'` and `'season'` between 1988 and 1997, it will return a Pandas Dataframe with the following columns 
-```
-    ['Season', 'Team ID, 'Team ABV' 'Team',  'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Midwesterm Division Record', 'Pacific Division Record', 'Pre Allstar Record', 'Post Allstar Record','3 Point Margin', '10 Point Margin', 
-    'Nov Record', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record', 'Apr Record']
-```
-For `'Expanded Standings'` and `'season'` of 1999, it will return a Pandas Dataframe with the following columns 
-```
-    [''Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Midwesterm Division Record', 'Pacific Division Record', '3 Point Margin', '10 Point Margin', 'Feb Record', 'Mar Record', 'Apr Record', 
-    'May Record']
-```
-For `'Expanded Standings'` and `'season'` of 2000, it will return a Pandas Dataframe with the following columns 
-```
-    ['Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Midwesterm Division Record', 'Pacific Division Record', 'Pre Allstar Record', 'Post Allstar Record','3 Point Margin', '10 Point Margin', 
-    'Nov Record', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record', 'Apr Record']
-```
-For `'Expanded Standings'` and `'season'` of 2005 or 2006, it will return a Pandas Dataframe with the following columns 
-```
-    ['Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Southeastern Division Record', 'Northwestern Division Record', 'Pacific Division Record', 'Southwestern Division Record', 
-    'Pre Allstar Record', 'Post Allstar Record','3 Point Margin', '10 Point Margin', 'Nov Record', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record', 'Apr Record']
-```
-For `'Expanded Standings'` and `'season'` of 2012, it will return a Pandas Dataframe with the following columns 
-```
-    ['Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Southeastern Division Record', 'Northwestern Division Record', 'Pacific Division Record', 'Southwestern Division Record', 
-    'Pre Allstar Record', 'Post Allstar Record','3 Point Margin', '10 Point Margin', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record', 'Apr Record']
-```
-For `'Expanded Standings'` and `'season'` of 2007 between 2019 excluding 2012, it will return a Pandas Dataframe with the following columns
-```
-    ['Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Southeastern Division Record', 'Northwestern Division Record', 'Pacific Division Record', 'Southwestern Division Record', 
-    'Pre Allstar Record', 'Post Allstar Record','3 Point Margin', '10 Point Margin', 'Oct Record', 'Nov Record', 'Dec Record', 'Jan Record', 'Feb Record', 
-    'Mar Record', 'Apr Record']
-```
-For `'Expanded Standings'` and `'season'` of 2020, it will return a Pandas Dataframe with the following columns
-```
-    ['Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Southeastern Division Record', 'Northwestern Division Record', 'Pacific Division Record', 'Southwestern Division Record', 
-    'Pre Allstar Record', 'Post Allstar Record', '3 Point Margin', '10 Point Margin', 'Oct Record', 'Nov Record', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record', 
-    'Jul Record', 'Aug Record']
-```
-For `'Expanded Standings'` and `'season'` of 2021, it will return a Pandas Dataframe with the following columns
-```
-    ['Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Southeastern Division Record', 'Northwestern Division Record', 'Pacific Division Record', 'Southwestern Division Record', 
-    'Pre Allstar Record', 'Post Allstar Record','3 Point Margin', '10 Point Margin', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record']
-```
-For `'Expanded Standings'` and `'season'` it not any above, it will return a Pandas Dataframe with the following columns
-```
-    ['Season', 'Team ID, 'Team ABV', 'Team', 'Overall', 'Home Record', 'Road Record', 'Eastern Conference Record', 'Western Conference Record', 'Atlantic Division Record',
-    'Central Division Record', 'Midwesterm Division Record', 'Pacific Division Record', 'Pre Allstar Record', 'Post Allstar Record','3 Point Margin', '10 Point Margin', 
-    'Oct Record', 'Nov Record', 'Dec Record', 'Jan Record', 'Feb Record', 'Mar Record', 'Apr Record']
-```
-<strong>Where:</strong><br>
-    - `Season` - `Type: int`, is the NBA season<br>
-    - `Team ID` - `Type: int`, is the unique int corresponding to a team<br>
-    - `Team` - `Type: string` is the name of the Team<br>
-    - `Team ABV` - `Type: string` is the team abbreviation<br>
-    - `Overall` - `Type: int` is the overall record of a team<br>
-    - `Home Record` - `Type: int` is the record when playing at home
-    - `Road Record` - `Type: int` is the record when not playing at home<br>
-    - `Eastern Conference Record` - `Type: int` is the record against Eastern Conference Teams<br>
-    - `Western Conference Record` - `Type: int` is the record against Western Conference Teams<br>
-    - `Atlantic Division Record` - `Type: int` is the record against Alatantic Division Teams<br>
-    - `Central Division Record` - `Type: int` is the record against Central Division Teams<br>
-    - `Midwesterm Division Record` - `Type: int` is the record against Midwestern Division Teams<br>
-    - `Pacific Division Record` - `Type: int` is the record against Pacific Division Teams<br>
-    - `Southeastern Division Record` - `Type: int` is the record against Southeastern Division Teams<br>
-    - `Southwestern Division Record` - `Type: int` is the record against Southwestern Division Teams<br>
-    - `Northwestern Division Record` - `Type: int` is the record against Northwestern Division Teams<br>
-    - `Pre Allstar Record` - `Type: int` is a team's record before the Allstar games<br>
-    - `Post Allstar Record` - `Type: int` is a team's record after Allstar games<br>
-    - `3 Point Margin` - `Type: int` is a team's record when they win a game with a point difference of 3 or greater <br>
-    - `10 Point Margin` - `Type: int` is a team's record when they win a game with a point difference of 10 or greater<br>
-    - `Oct Record` - `Type: int` is a team's record in the month of Oct<br>
-    - `Nov Record` - `Type: int` is a team's record in the month of Nov<br>
-    - `Dec Record` - `Type: int` is a team's record in the month of Dec<br>
-    - `Jan Record` - `Type: int` is a team's record in the month of Jan<br>
-    - `Feb Record` - `Type: int` is a team's record in the month of Feb<br>
-    - `Apr Record` - `Type: int` is a team's record in the month of Apr<br>
-    - `May Record` - `Type: int` is a team's record in the month of May<br>
-    - `Jul Record` - `Type: int` is a team's record in the month of Jul<br>
-    - `Aug Record` - `Type: int` is a team's record in the month of Aug<br>
 
 #### Standard 
 For `'Standard'`, it will return two Pandas Dataframe, for Eastern Conference and Western Conference respectively but both will have the following columns
@@ -218,20 +124,7 @@ For `'Standard'`, it will return two Pandas Dataframe, for Eastern Conference an
     - `PA/G` - `Type: float` is the Opponents Points per Game<br>
     - `SRS` - `Type: float` is the team rating determined by average point differential and strength of schedule<br>
 
-#### Team vs Team
-For `'Team vs Team`', it will return a Pandas Dataframe with the following columns
-```
-    ['Season', 'Team ID', 'Team ABV', 'Team', 'ABV',....,'ABV' ]
-```
-<strong>Note:</strong> `ABV` is all the teams' abbreviation in the league for a given season<br> 
-<strong>Where:</strong><br>
-    - `Season` - `Type: int`, is the NBA season<br>
-    - `Team ID` - `Type: int`, is the unique int corresponding to a team<br>
-    - `Team` - `Type: string` is the name of the Team<br>
-    - `Team ABV` - `Type: string` is the team abbreviation<br>
-    - `ABV,....,ABV` - `Type: string` is all the teams for a given season in abbreviation form<br>
-
-## Team Stats Scaper
+## Team Scraper 
 ### `get_roster(team, season)`
 <strong>Parameters:</strong><br>
     - `team`   - a string that represents a team in the NBA, takes in a team's abbreviation form<br>
@@ -239,7 +132,8 @@ For `'Team vs Team`', it will return a Pandas Dataframe with the following colum
 <strong>Returns:</strong><br>
 A Pandas Dataframe with the following columns<br>
 ```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', Number', 'Player', 'Pos', 'Height', 'Weight', 'Birth Date', 'Nationality' , 'Experience', 'College']
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', Number', 'Player', 'Pos', 'Height', 'Weight', 'Birth Date',
+    'Nationality' , 'Experience', 'College']
 ```
 <strong>Where:</strong><br>
     - `Season` - `Type: int`, is the NBA season<br>
@@ -256,121 +150,6 @@ A Pandas Dataframe with the following columns<br>
     - `Nationality` - `Type: string` is the player's country of origin, in abbreviation form<br>
     - `Experience` - `Type: int` is the amount years the player's been in the leaue<br>
     - `College` - `Type: string` if player went to college, this is the name of the college<br>
-
-### `get_roster_stats(team,season, playoffs, data_format)`
-<strong>Parameters:</strong><br>
-    - `team`        - a string that represents a team in the NBA, takes in a team's abbreviation form<br>
-    - `season`      - a string that represents NBA season(only from 1980 to current year)<br>
-    - `playoffs`    - a boolean that represents check if the regular season or playoffs<br>
-    - `data format` - a string that represents One of `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
-<strong>Returns:</strong><br>
-
-#### Advanced 
-For `'Advanced'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'MP', 'PER', 'TS%', '3PAr', 'FTr', 'ORB%', 'DRB%', 
-    'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
-```
-<strong>Where:</strong><br>
-    - `Season` - `Type: int`, is the NBA season<br>
-    - `Team ID` - `Type: int`, is the unique int corresponding to a team<br>
-    - `Player ID` - `Type: int` is the unique int respective to it's column, corresponding to a player<br> 
-    - `Team ABV` - `Type: string` is the team abbreviation<br>
-    - `Team` - `Type: string` is the name of the Team<br>
-    - `Player` - `Type: string` is the name of the player<br>
-    - `Age` - `Type: int` is the age of the player<br>
-    - `G` - `Type: int` is the amount of games played<br>
-    - `MP` - `Type: float` is the amount of minutes played<br>
-    - `PER` - `Type: float` is the measurment of a player's per-minute production<br>
-    - `TS%` - `Type: float` is the measurement of shooting efficiency<br>
-    - `3PAr` - `Type: float` is the percentage of FG Attempts from the 3 Point line<br>
-    - `FTr` - `Type: float` is the number of FT Attempts per Field Goal Attempts<br>
-    - `ORB%` - `Type: float` is an estimated percentage of available offensive rebounds a player takes when in game<br>
-    - `DRB%` - `Type: float` is an estimated percentage of available defensive rebounds a player takes when in game<br>
-    - `TRB%` - `Type: float` is an estimated percentage of available  rebounds a player takes when in game<br>
-    - `AST%` - `Type: float` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
-    - `STL%` - `Type: float` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
-    - `BLK%` - `Type: float` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
-    - `TOV%` - `Type: float` is an estimate of turnovers commited per 100 plays<br>
-    - `USG%` - `Type: float` is an estimate of percentage of team plays used by a player while in game<br>
-    - `OWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his offense<br>
-    - `DWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his defense<br>
-    - `WS` - `Type: float` is an estimate of the number of wins contributed by a player<br>
-    - `WS/48` - `Type: float` is an estimate of the number of wins contributed by a player per 48 minute<br>
-    - `OBPM` - `Type: float` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
-    - `DBPM` - `Type: float` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
-    - `BPM` - `Type: float` is a box score estimate of the points per 100 possessions a player contributed<br>
-    - `VORP` - `Type: float` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
-
-#### Per_Game
-For `'Per_Game'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
-```
-#### Per_Minute
-For `'Per_Minute'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
-```
-#### Per_Poss
-For `'Per_Poss'` a Pandas Dataframe with the following columns<br>
-```
-     ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Ortg', 'Drtg']
-```
-#### Totals
-For `'Totals'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
-```
-<strong>Note:</strong><br>
-For the following stats `Per_Game`, `Per_Minute`, `Per_Poss` and `Totals` have almost identical columns except `Per_Game` & `Totals` have<br>
-```
-    ['eFG%]
-```
-While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
-```
-    ['Ortg', 'Drtg']
-```
-
-<strong>Where:</strong><br>
-    - `Season` - `Type: int`, is the NBA season<br>
-    - `Team ID` - `Type: int`, is the unique int corresponding to a team<br>
-    - `Player ID` - `Type: int` is the unique int respective to it's column, corresponding to a player<br> 
-    - `Team ABV` - `Type: string` is the team abbreviation<br>
-    - `Team` - `Type: string` is the name of the Team<br>
-    - `Player` - `Type: string` is the name of the player<br>
-    - `Age` - `Type: int` is the age of the player<br>
-    - `G` - `Type: int` is the amount of games played<br>
-    - `GS` - `Type: float` is the amount of games the player started<br>
-    - `MP` - `Type: float` is the amount of minutes the player played<br>
-    - `FG` - `Type: float` is the amount Field Goals made<br>
-    - `FGA` - `Type: float` is the amount of Field Goals Attempted<br>
-    - `FG%` - `Type: float` is the percentage of Field Goals Made / Field Goals Attempted<br>
-    - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
-    - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
-    - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
-    - `2P` - `Type: float` is the amount of 2 Point Made<br>
-    - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
-    - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
-    - `eFG%` - `Type: float` is the percentage calculated by (FG + 0.5 * 3P) / FGA.<br>
-    - `FT` - `Type: float` is the amount of Free Throws Made<br>
-    - `FTA` - `Type: float` is the amount of Free Throws Attempted<br>
-    - `FT%` - `Type: float` is the percentage of Free Throws Made / Free Throws Attempted<br>
-    - `ORB` - `Type: float` is the amount of Offensive Rebound<br>
-    - `DRB` - `Type: float` is the amount of Defensive Rebound<br>
-    - `TRB` - `Type: float` is the amount of Rebound<br>
-    - `AST` - `Type: float` is the amount of Assist<br>
-    - `STL` - `Type: float` is the amount of Steals<br>
-    - `BLK` - `Type: float` is the amount of Blocks<br>
-    - `TOV` - `Type: float` is the amount of Turn Overs<br>
-    - `PF` - `Type: float` is the amount of Personal Fouls<br>
-    - `PTS` - `Type: float` is the amount of Points Scored<br>
-    - `Ortg` - `Type: float` is the Offensive Rating<br>
-    - `Drtg` - `Type: float` is the Defensive Rating<br>
 
 ### `get_team_stats_main(season, data_format)`
 <strong>Parameters:</strong><br>
@@ -411,7 +190,7 @@ The following stats, `Per_Game`, `Per_Poss`, and `Totals` all have the same colu
     - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
     - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
     - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
-    - `2P` - `Type: float`` is the amount of 2 Point Made<br>
+    - `2P` - `Type: float` is the amount of 2 Point Made<br>
     - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
     - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
     - `FT` - `Type: float` is the amount of Free Throws Made<br>
@@ -467,7 +246,7 @@ The following stats, `Per_Game`, `Per_Poss`, and `Totals` all have the same colu
     - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
     - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
     - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
-    - `2P` - `Type: float`` is the amount of 2 Point Made<br>
+    - `2P` - `Type: float` is the amount of 2 Point Made<br>
     - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
     - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
     - `FT` - `Type: float` is the amount of Free Throws Made<br>
@@ -489,8 +268,8 @@ The following stats, `Per_Game`, `Per_Poss`, and `Totals` all have the same colu
 <strong>Returns:</strong><br>
 A Pandas Dataframe with the following columns<br>
 ```
-    ['Season', 'Team ID', 'Team ABV', 'Team', 'Age', 'W', 'L', 'PW', 'PL', 'MOV', 'SOS', 'SRS', 'ORtg', 'DRtg', 'NRtg', 'Pace', 
-    'FTr', '3PAr', 'TS%', 'ORB%', 'DRB%', 'Arena', 'Attend.', 'Attend./G']
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'Age', 'W', 'L', 'PW', 'PL', 'MOV', 'SOS', 'SRS', 'ORtg', 'DRtg', 'NRtg', 
+    'Pace', 'FTr', '3PAr', 'TS%', 'ORB%', 'DRB%', 'Arena', 'Attend.', 'Attend./G']
 ```
 <strong>Where:</strong><br>
     - `Season` - `Type: int`, is the NBA season<br>
@@ -525,7 +304,8 @@ A Pandas Dataframe with the following columns<br>
 <strong>Returns:</strong><br>
 A pandas dataframe containing the following columns<br>
 ```
-    ['Season', 'Team ID', 'Team ABV', 'Team', 'W', 'L', 'W/L%', 'Finish', 'SRS', 'Pace', 'Rel Pace', 'ORtg', 'Rel ORtg', 'DRtg', 'Rel DRtg', 'Playoffs', 'Coaches', 'Top WS']
+    ['Season', 'Team ID', 'Team ABV', 'Team', 'W', 'L', 'W/L%', 'Finish', 'SRS', 'Pace', 'Rel Pace', 'ORtg', 'Rel ORtg', 
+    'DRtg', 'Rel DRtg', 'Playoffs', 'Coaches', 'Top WS']
 ```
 <strong>Where:</strong><br>
     - `Season` - `Type: int` is the NBA season<br>
@@ -553,14 +333,7 @@ A pandas dataframe containing the following columns<br>
 <strong>Returns:</strong><br>
 A sub-string of the orginal `string` that has a char removed at whatever `postion` is<br>
 
-## Create Player Name
-### `player_names_csv()`
-<strong>Parameters:</strong><br>
-    - `None`<br>
-<strong>Returns:</strong><br>
-None, creates a csv containing all Players active from 1980 - current year
-
-## Player Stats Scraper 
+## Player Scraper
 ### `check_abv(string)`
 <strong>Parameters:</strong><br>
     - `string`   - a string that represent a team's abbreviation<br>
@@ -573,18 +346,6 @@ Returns a `new_string`, which is a string value from `TEAM_TO_ABBRIVATION[string
 <strong>Returns:</strong><br>
 Returns a `new_num`, which is a int value from `TEAM_ID[name]`
 
-### `get_player_name(letter)`
-<strong>Parameters:</strong><br>
-    - `string`   - Takes in a char, iterated to get all players name in the English Alphabet<br>
-<strong>Returns:</strong><br>
-Creates a Pandas Dataframe containing the following columns
-```
-    ['Player', 'Birth Date']
-```
-<strong>Where:</strong><br>
-    - `Player` is a string that represents the name of the player<br>
-    - `Birth Date` is a string that represents the date of birth of the player<br>
-
 ### `create_player_suffix(name)`
 <strong>Parameters:</strong><br>
     - `name`   - is a string that represents the player's name, first and last<br>
@@ -595,7 +356,7 @@ Returns a string suffix of the player's first name and last<br>
 ### `get_player_suffix(name, birth_date)`
 <strong>Parameters:</strong><br>
     - `name`      - is a string that represents the player's name, first and last<br>
-    - `birth_date - is a string that represents the player's date of birth<br>
+    - `birth_date` - is a string that represents the player's date of birth<br>
 <strong>Returns:</strong><br>
 Returns a string suffix for the url of the player's page by calling `create_player_suffix` and adding 01. If not valid, iterate until 05<br>
 <strong>Example:</strong> Nikola Jokic = jokicni01<br>
@@ -603,7 +364,7 @@ Returns a string suffix for the url of the player's page by calling `create_play
 ### `get_player_stats(name, birth_date,format, playoffs)`
 <strong>Parameters:</strong><br>
     - `name`        - is a string that represents the player's name, first and last<br>
-    - `birth_date   - is a string that represents the player's date of birth<br>
+    - `birth_date`   - is a string that represents the player's date of birth<br>
     - `playoffs`    - is a boolean that checks if the regular season or playoffs<br>
     - `data format` - is a string that could be `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
 <strong>Returns:</strong><br>
@@ -611,8 +372,9 @@ Returns a string suffix for the url of the player's page by calling `create_play
 #### Advanced 
 For `'Advanced'` a Pandas Dataframe with the following columns<br>
 ```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'MP', 'PER', 'TS%', '3PAr', 'FTr', 'ORB%', 'DRB%', 
-    'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'MP', 'PER', 'TS%', '3PAr', 
+    'FTr', 'ORB%', 'DRB%', 'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 
+    'DBPM', 'BPM', 'VORP']
 ```
 <strong>Where:</strong><br>
     - `Season` - `Type: string` is the NBA season<br>
@@ -648,148 +410,30 @@ For `'Advanced'` a Pandas Dataframe with the following columns<br>
 #### Per_Game
 For `'Per_Game'` a Pandas Dataframe with the following columns<br>
 ```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', 
+    '3PA', '3P%','2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 
+    'PF', 'PTS']
 ```
 #### Per_Minute
 For `'Per_Minute'` a Pandas Dataframe with the following columns<br>
 ```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P',
+    '3PA', '3P%','2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 
+    'PF', 'PTS']
 ```
 #### Per_Poss
 For `'Per_Poss'` a Pandas Dataframe with the following columns<br>
 ```
-     ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Ortg', 'Drtg']
+     ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', 
+     '3PA', '3P%','2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 
+     'PTS', 'Ortg', 'Drtg']
 ```
 #### Totals
 For `'Totals'` a Pandas Dataframe with the following columns<br>
 ```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
-```
-<strong>Note:</strong><br>
-For the following stats `Per_Game`, `Per_Minute`, `Per_Poss` and `Totals` have almost identical columns except `Per_Game` & `Totals` have<br>
-```
-    ['eFG%]
-```
-While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
-```
-    ['Ortg', 'Drtg']
-```
-<strong>Where:</strong><br>
-    - `Season` is the NBA season<br>
-    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
-    - `Player ID` is the unique int respective to it's column, corresponding to a player<br> 
-    - `Team ABV` is the team abbreviation<br>
-    - `Team` is the name of the Team<br>
-    - `Player` is the name of the player <br>
-    - `Age` is the age of the player<br>
-    - `G` - `Type: int` is the amount of games the player played<br>
-    - `GS` - `Type: int` is the amount of games the player started<br>
-    - `MP` - `Type: float` is the amount of minutes the player played<br>
-    - `FG` - `Type: float` is the amount Field Goals made<br>
-    - `FGA` - `Type: float` is the amount of Field Goals Attempted<br>
-    - `FG%` - `Type: float` is the percentage of Field Goals Made / Field Goals Attempted<br>
-    - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
-    - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
-    - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
-    - `2P` - `Type: float`` is the amount of 2 Point Made<br>
-    - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
-    - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
-    - `FT` - `Type: float` is the amount of Free Throws Made<br>
-    - `FTA` - `Type: float` is the amount of Free Throws Attempted<br>
-    - `FT%` - `Type: float` is the percentage of Free Throws Made / Free Throws Attempted<br>
-    - `ORB` - `Type: float` is the amount of Offensive Rebound<br>
-    - `DRB` - `Type: float` is the amount of Defensive Rebound<br>
-    - `TRB` - `Type: float` is the amount of Rebound<br>
-    - `AST` - `Type: float` is the amount of Assist<br>
-    - `STL` - `Type: float` is the amount of Steals<br>
-    - `BLK` - `Type: float` is the amount of Blocks<br>
-    - `TOV` - `Type: float` is the amount of Turn Overs<br>
-    - `PF` - `Type: float` is the amount of Personal Fouls<br>
-    - `PTS` - `Type: float` is the amount of Points Scored<br>
-
-### `lookup(name, birth_date)`
-<strong>Parameters:</strong><br>
-    - `name`      - Takes in a string that represents the player's name, first and last<br>
-    - `birth_date - Takes in a string that represents the player's date of birth<br>
-<strong>Returns:</strong><br>
-Returns a tuple of `(name, birth_date)` if it exists in `player_names.csv`<br>
-
-### `get_career_stats(name, birth_date, format, playoffs)`
-<strong>Parameters:</strong><br>
-    - `name`        - is a string that represents the player's name, first and last<br>
-    - `birth_date   - is a string that represents the player's date of birth<br>
-    - `playoffs`    - is a boolean that checks if the regular season or playoffs<br>
-    - `data format` - is a string that could be `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
-<strong>Returns:</strong><br>
-
-<strong>Note:</strong><br>
-Career Averages are the average of each column, the only one that is different is `Totals`, where it is the sum of every column<br>
-For `Advanced`, All winshares are sumed up instead of averaged<br> 
-
-#### Advanced 
-For `'Advanced'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'MP', 'PER', 'TS%', '3PAr', 'FTr', 'ORB%', 'DRB%', 
-    'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 'OBPM', 'DBPM', 'BPM', 'VORP']
-```
-<strong>Where:</strong><br>
-    - `Season` - `Type: string` is the NBA season<br>
-    - `Team ID` - `Type: int` is the unique int respective to it's column, corresponding to a team<br>
-    - `Player ID` - `Type: int` is the unique int respective to it's column, corresponding to a player<br> 
-    - `Team ABV` - `Type: string` is the team abbreviation<br>
-    - `Team` - `Type: string` is the name of the Team<br>
-    - `Player` - `Type: string` is the name of the player<br>
-    - `Age` - `Type: int` is the age of the player<br>
-    - `G` - `Type: int` is the amount of games played<br>
-    - `MP` - `Type: int` is the amount of minutes played<br>
-    - `PER` - `Type: float` is the measurment of a player's per-minute production<br>
-    - `TS%` - `Type: float` is the measurement of shooting efficiency<br>
-    - `3PAr` - `Type: float` is the percentage of FG Attempts from the 3 Point line<br>
-    - `FTr` - `Type: float` is the number of FT Attempts per Field Goal Attempts<br>
-    - `ORB%` - `Type: float` is an estimated percentage of available offensive rebounds a player takes when in game<br>
-    - `DRB%` - `Type: float` is an estimated percentage of available defensive rebounds a player takes when in game<br>
-    - `TRB%` - `Type: float` is an estimated percentage of available  rebounds a player takes when in game<br>
-    - `AST%` - `Type: float` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
-    - `STL%` - `Type: float` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
-    - `BLK%` - `Type: float` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
-    - `TOV%` - `Type: float` is an estimate of turnovers commited per 100 plays<br>
-    - `USG%` - `Type: float` is an estimate of percentage of team plays used by a player while in game<br>
-    - `OWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his offense<br>
-    - `DWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his defense<br>
-    - `WS` - `Type: float` is an estimate of the number of wins contributed by a player<br>
-    - `WS/48` - `Type: float` is an estimate of the number of wins contributed by a player per 48 minute<br>
-    - `OBPM` - `Type: float` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
-    - `DBPM` - `Type: float` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
-    - `BPM` - `Type: float` is a box score estimate of the points per 100 possessions a player contributed<br>
-    - `VORP` - `Type: float` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
-
-#### Per_Game
-For `'Per_Game'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
-```
-#### Per_Minute
-For `'Per_Minute'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
-```
-#### Per_Poss
-For `'Per_Poss'` a Pandas Dataframe with the following columns<br>
-```
-     ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'Ortg', 'Drtg']
-```
-#### Totals
-For `'Totals'` a Pandas Dataframe with the following columns<br>
-```
-    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
-    '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', 
+    '3P', '3PA', '3P%','2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 
+    'BLK', 'TOV', 'PF', 'PTS']
 ```
 <strong>Note:</strong><br>
 For the following stats `Per_Game`, `Per_Minute`, `Per_Poss` and `Totals` have almost identical columns except `Per_Game` & `Totals` have<br>
@@ -832,7 +476,134 @@ While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
     - `TOV` - `Type: float` is the amount of Turn Overs<br>
     - `PF` - `Type: float` is the amount of Personal Fouls<br>
     - `PTS` - `Type: float` is the amount of Points Scored<br>
-    
+
+### `lookup(name, birth_date)`
+<strong>Parameters:</strong><br>
+    - `name`      - Takes in a string that represents the player's name, first and last<br>
+    - `birth_date` - Takes in a string that represents the player's date of birth<br>
+<strong>Returns:</strong><br>
+Returns a tuple of `(name, birth_date)` if it exists in `player_names.csv`<br>
+
+### `get_career_stats(name, birth_date, format, playoffs)`
+<strong>Parameters:</strong><br>
+    - `name`        - is a string that represents the player's name, first and last<br>
+    - `birth_date`   - is a string that represents the player's date of birth<br>
+    - `playoffs`    - is a boolean that checks if the regular season or playoffs<br>
+    - `data format` - is a string that could be `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'` where default value is `Per_Game`<br>
+<strong>Returns:</strong><br>
+
+<strong>Note:</strong><br>
+Career Averages are the average of each column, the only one that is different is `Totals`, where it is the sum of every column<br>
+For `Advanced`, All winshares are sumed up instead of averaged<br> 
+
+#### Advanced 
+For `'Advanced'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'MP', 'PER', 'TS%', '3PAr', 
+    'FTr', 'ORB%','DRB%', 'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS', 'WS/48', 
+    'OBPM', 'DBPM', 'BPM', 'VORP']
+```
+<strong>Where:</strong><br>
+    - `Season` - `Type: string` is the NBA season<br>
+    - `Team ID` - `Type: int` is the unique int respective to it's column, corresponding to a team<br>
+    - `Player ID` - `Type: int` is the unique int respective to it's column, corresponding to a player<br> 
+    - `Team ABV` - `Type: string` is the team abbreviation<br>
+    - `Team` - `Type: string` is the name of the Team<br>
+    - `Player` - `Type: string` is the name of the player<br>
+    - `Age` - `Type: int` is the age of the player<br>
+    - `G` - `Type: int` is the amount of games played<br>
+    - `MP` - `Type: int` is the amount of minutes played<br>
+    - `PER` - `Type: float` is the measurment of a player's per-minute production<br>
+    - `TS%` - `Type: float` is the measurement of shooting efficiency<br>
+    - `3PAr` - `Type: float` is the percentage of FG Attempts from the 3 Point line<br>
+    - `FTr` - `Type: float` is the number of FT Attempts per Field Goal Attempts<br>
+    - `ORB%` - `Type: float` is an estimated percentage of available offensive rebounds a player takes when in game<br>
+    - `DRB%` - `Type: float` is an estimated percentage of available defensive rebounds a player takes when in game<br>
+    - `TRB%` - `Type: float` is an estimated percentage of available  rebounds a player takes when in game<br>
+    - `AST%` - `Type: float` is an estimated percentage of teammate Field Goals a palyer assited while in game<br>
+    - `STL%` - `Type: float` is an estimate percentage of opponent possessions that end with a steal by player while in game<br>
+    - `BLK%` - `Type: float` is an estimate of the percentage of opponent Field Goal Attempts blocked by player while in game<br>
+    - `TOV%` - `Type: float` is an estimate of turnovers commited per 100 plays<br>
+    - `USG%` - `Type: float` is an estimate of percentage of team plays used by a player while in game<br>
+    - `OWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his offense<br>
+    - `DWS` - `Type: float` is an estimate of the number of wins contributed by a player due to his defense<br>
+    - `WS` - `Type: float` is an estimate of the number of wins contributed by a player<br>
+    - `WS/48` - `Type: float` is an estimate of the number of wins contributed by a player per 48 minute<br>
+    - `OBPM` - `Type: float` is a box score estimate of the offensive points per 100 possessions a player contributed<br>
+    - `DBPM` - `Type: float` is a box score estimate of the defensive points per 100 possessions a player contributed<br>
+    - `BPM` - `Type: float` is a box score estimate of the points per 100 possessions a player contributed<br>
+    - `VORP` - `Type: float` is a box score estimate of the points per 100 Team possessions that a play contributed<br>
+
+#### Per_Game
+For `'Per_Game'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', 
+    '3PA','3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 
+    'PF', 'PTS']
+```
+#### Per_Minute
+For `'Per_Minute'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', 
+    '3PA','3P%', '2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 
+    'PF', 'PTS']
+```
+#### Per_Poss
+For `'Per_Poss'` a Pandas Dataframe with the following columns<br>
+```
+     ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', 
+     '3PA','3P%','2P', '2PA', '2P%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 
+     'PTS', 'Ortg', 'Drtg']
+```
+#### Totals
+For `'Totals'` a Pandas Dataframe with the following columns<br>
+```
+    ['Season', 'Team ID', 'Player ID', 'Team ABV', 'Team', 'Player', 'Age', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', 
+    '3PA', '3P%', '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 
+    'PF', 'PTS']
+```
+<strong>Note:</strong><br>
+For the following stats `Per_Game`, `Per_Minute`, `Per_Poss` and `Totals` have almost identical columns except `Per_Game` & `Totals` have<br>
+```
+    ['eFG%]
+```
+While `Per_Minute` && `Per_Poss` do not have it, Also `Per_Poss` contains<br>
+```
+    ['Ortg', 'Drtg']
+```
+<strong>Where:</strong><br>
+    - `Season` is the NBA season<br>
+    - `Team ID` is the unique int respective to it's column, corresponding to a team<br>
+    - `Player ID` is the unique int respective to it's column, corresponding to a player<br> 
+    - `Team ABV` is the team abbreviation<br>
+    - `Team` is the name of the Team<br>
+    - `Player` is the name of the player <br>
+    - `Age` is the age of the player<br>
+    - `G` - `Type: int` is the amount of games the player played<br>
+    - `GS` - `Type: int` is the amount of games the player started<br>
+    - `MP` - `Type: float` is the amount of minutes the player played<br>
+    - `FG` - `Type: float` is the amount Field Goals made<br>
+    - `FGA` - `Type: float` is the amount of Field Goals Attempted<br>
+    - `FG%` - `Type: float` is the percentage of Field Goals Made / Field Goals Attempted<br>
+    - `3P` - `Type: float` is the amount of 3 Point Shots Made<br>
+    - `3PA` - `Type: float` is the amount of 3 Point Shots Attempted<br>
+    - `3P%` - `Type: float` is the percentage of 3 Points Made / 3 Point Shot Attempted<br>
+    - `2P` - `Type: float` is the amount of 2 Point Made<br>
+    - `2PA` - `Type: float` is the amount of 2 Points Attempted<br>
+    - `2P%` - `Type: float` is the percentage of 2 Point Made / 2 Points Attemped<br>
+    - `FT` - `Type: float` is the amount of Free Throws Made<br>
+    - `FTA` - `Type: float` is the amount of Free Throws Attempted<br>
+    - `FT%` - `Type: float` is the percentage of Free Throws Made / Free Throws Attempted<br>
+    - `ORB` - `Type: float` is the amount of Offensive Rebound<br>
+    - `DRB` - `Type: float` is the amount of Defensive Rebound<br>
+    - `TRB` - `Type: float` is the amount of Rebound<br>
+    - `AST` - `Type: float` is the amount of Assist<br>
+    - `STL` - `Type: float` is the amount of Steals<br>
+    - `BLK` - `Type: float` is the amount of Blocks<br>
+    - `TOV` - `Type: float` is the amount of Turn Overs<br>
+    - `PF` - `Type: float` is the amount of Personal Fouls<br>
+    - `PTS` - `Type: float` is the amount of Points Scored<br>
+
 ## Team Constants 
 ### `TEAM_TO_ABBRIVATION`
 Is a dictionary that takes in a team name as a key and converts it into an abbreviation<br>
@@ -856,9 +627,21 @@ Is a dictionary that takes in old franchise abbreviation and converts it to its 
 Is a dictionary that takes in a string tuple `(player_name, birth_date)` that converts wrong names into the proper name<br>
 <strong>Example:</strong> `(Tim Hardaway, March 16, 1992)` is converted into `Tim Hardaway Jr.`<br>
 
+### `REVERSE_RIGHT_DICT`
+Is a dictionary that takes in a proper name, or `name` that converts into the wrong version<br>
+<strong>Example:</strong>`Marvin Bagley III` is convert into `Marvin Bagley`<br>
+
 ### `RIGHT_PLAYER_SUFIX`
 Is a dictionary that takes in a string tuple `(player_name, birth_date)` that converts wrong name's suffix into proper names that can become a proper suffix<br>
 <strong>Example:</strong> `(J.J. Barea, June 26, 1984)` is converted into `Jose Barea`
+
+### `SPECIAL_NAME_DICT`
+Is a dictionary that takes in a string tuple `(player_name, birth_date)` that converts into a new name, this is used for duplicate names<br>
+<strong>Example:</strong> `(Nene Hilario, September 13, 1982)` is converted into `Nene`
+
+### `DATABASE_DICT`
+Is a dictionary that takes in a string `name`, that converts into a 2-d list that can be inserted into the databases<br>
+<strong>Example:</strong> `(Dorell Wright)` is converted into `[[2016, 16, 3244, 'MIA', 'Miami Heat', 'December 2, 1985', 'Dorell Wright']]`
 
 ### `get_player_id()`
 <strong>Parameters:</strong><br>
@@ -868,9 +651,28 @@ None, it is a helper function for `PLAYER_ID`, as it inserts all key and values 
 
 ### `PLAYER_ID`
 Is a dictionary that takes in a NBA players `name` as a key and converts into a unique corresponding to the name
-<strong>Example:</strong> 'Tim Hardaway` is converted to `1181`
+<strong>Example:</strong> 'Tim Hardaway` is converted to `1183`
 
-## Utils
+## Create Player Names
+### `get_player_name(letter)`
+<strong>Parameters:</strong><br>
+    - `string`   - Takes in a char, iterated to get all players name in the English Alphabet<br>
+<strong>Returns:</strong><br>
+Creates a Pandas Dataframe containing the following columns
+```
+    ['Player', 'Birth Date']
+```
+<strong>Where:</strong><br>
+    - `player` is a string that represents the name of the player<br>
+    - `birth date` is a string that represents the date of birth of the player<br>
+    
+### `player_names_csv()`
+<strong>Parameters:</strong><br>
+    - `None`<br>
+<strong>Returns:</strong><br>
+None, creates a csv containing all Players active from 1980 - current year
+
+## Utlis
 ### `strip_accents(text)`
 <strong>Parameters:</strong><br>
     - `text` - Takes in a string, for the player's name<br>
@@ -878,10 +680,3 @@ Is a dictionary that takes in a NBA players `name` as a key and converts into a 
 <strong>Returns:</strong><br>
 A `new_string` if the text contains special char or accent<br>
 This is used for the `get_roster`, as they have proper UTF-8 notation <br>
-
-### `translate(name)`
-<strong>Parameters:</strong><br>
-    - `name` - Takes in a string, for the player's name<br>
-<strong>Returns:</strong><br>
-Creates a `new_string`, if `name` contains special or accented chars, remove it and replace it with english counter part<br>
-This is used for every other function concerning player name, as the UTF-8 when scraped, is incorect<br>

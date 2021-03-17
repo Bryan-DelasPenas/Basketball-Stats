@@ -1,4 +1,5 @@
-# Run Scraper API
+## Running The Scrapers
+
 ## Get Season Stats
 ### csv_team_name(year)
 <strong>Parameters:</strong><br>
@@ -43,33 +44,6 @@ None, creates a new sub directory which `location_parent` is the parent director
 None, creates a file path `Roster_Stats` in `Roster`. Then creates mutiple directories based on year,<br> 
 and creates a csv containing team's roster inside of the year directory<br> 
 
-### csv_roster_stats(year, playoffs ,format) 
-<strong>Parameters:</strong><br>
-    - `year`       - a string that represents NBA season(only from 1980 to current year)<br>
-    - 'birth_date  - a string represents date of birth<br>
-    - `format`     - a string represents what format, it could be one of the following `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'`<br>
-
-</strong>Returns:</strong><br>
-None, creates a sub directory based on playoffs, called `Regular_Stat` or `Playoff_Stat` and called either the two functions below<br>
-
-### csv_roster_playoff_stats(year, format, season_df, file_path)
-<strong>Parameters:</strong><br>
-    - `year`       - a string that represents NBA season(only from 1980 to current year)<br>
-    - `format`     - a string represents what format, it could be one of the following `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'`<br>
-    - `season_df`  - a dataframe of containing Teams for a given season<br>
-    - `file_path   - a string represents file path for roster playoff stats<br>
-</strong>Returns:</strong><br>
-None, inserts a csv of playoff stats based on `format` inside of the corresponding `year` directory<br> 
-
-### csv_roster_regular_stats(year, format, season_df, file_path) 
-<strong>Parameters:</strong><br>
-    - `year`       - a string that represents NBA season(only from 1980 to current year)<br>
-    - `format`     - a string represents what format, it could be one of the following `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'`<br>
-    - `season_df`  - a dataframe of containing Teams for a given season<br>
-    - `file_path   - a string represents file path for roster regular stats<br>
-</strong>Returns:</strong><br>
-None, inserts a csv of regular stats based on `format` inside of the corresponding `year` directory<br> 
-
 ### csv_team_stats_other(year, format)
 <strong>Parameters:</strong><br>
     - `year`       - a string that represents NBA season(only from 1980 to current year)<br>
@@ -101,10 +75,10 @@ Calls all functions above<br>
 ### csv_player_stats(name, birth_date, format, playoff, player_path) 
 <strong>Parameters:</strong><br>
     - `name`       - a string represents name of the player<br>
-    - 'birth_date` - a string represents date of birth<br>
+    - `birth_date` - a string represents date of birth<br>
     - `format`     - a string represents what format, it could be one of the following `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'`<br>
     - `playoff`    - a boolean that represents if getting playoff stats<br>
-    - `player_path - a string represents file path for a player<br>
+    - `player_path` - a string represents file path for a player<br>
 </strong>Returns:</strong><br>
 None, creates sub directory in `Player` that is named after `format`, then creates either `Regular_Stats` or `Playoffs_Stats`.<br>
 In the sub directory creates a csv of players stats for every year they played.<br>
@@ -112,10 +86,10 @@ In the sub directory creates a csv of players stats for every year they played.<
 ### csv_career_stats(name, birth_date, format, playoff, player_path)
 <strong>Parameters:</strong><br>
     - `name`       - a string represents name of the player<br>
-    - 'birth_date  - a string represents date of birth<br>
-    - `format`     - a string represents what format, it could be one of the following `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'`<bn>
+    - `birth_date`  - a string represents date of birth<br>
+    - `format`     - a string represents what format, it could be one of the following `'Advanced' | 'Per_Game' |'Per_Minute'| Per_Poss | 'Totals'`<br>
     - `playoff`    - a boolean that represents if getting playoff stats<br>
-    - `player_path - a string represents file path for a player<br>
+    - `player_path` - a string represents file path for a player<br>
 </strong>Returns:</strong><br>
 None, creates sub directory in `Player` that is named after `format`, then creates either `Career_Regular_Stats` or `Career_Playoffs_Stats`.<br>
 In the sub directory creates a csv of player's career.<br>
