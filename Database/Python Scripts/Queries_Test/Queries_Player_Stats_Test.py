@@ -13,7 +13,7 @@ from sqlalchemy import create_engine
 from Helper_DB import create_connection, test_connection, check_table
 from Query_Player_Stats import drop_player_stats_query, create_player_stats_query
 
-class TestQueryPlayerStats(unittest.TestCase):
+class TestQueryPlayerTotals(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
@@ -22,8 +22,6 @@ class TestQueryPlayerStats(unittest.TestCase):
 
         # Create Procedures
         create_player_stats_query()
-
     
-
 if __name__ == '__main__':
     unittest.main()

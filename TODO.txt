@@ -27,10 +27,10 @@ Team Per Poss:            Done        | 10 | UNIT TEST DONE?: Done
 Team Totals:              Done        | 10 | UNIT TEST DONE?: Done
 Player Stats:             Done        | 42 | UNIT TEST DONE?: In Progress | Completed the parameterized stored procedures
 Player Advanced:          Done        | 12 | UNIT TEST DONE?: In Progress
-Player Per Game:          Done        | 12 | UNIT TEST DONE?: In Progress
+Player Per Game:          Done        | 12 | UNIT TEST DONE?: Done
 Player Per Minute:        Done        | 12 | UNIT TEST DONE?: In Progress
 Player Per Poss:          Done        | 12 | UNIT TEST DONE?: In Progress
-Player Totals:            Done        | 12 | UNIT TEST DONE?: In Progress
+Player Totals:            Done        | 12 | UNIT TEST DONE?: Done
 Player Career Stats:      Done        | 8  | UNIT TEST DONE?: In Progress | Completed the parmeterized stored procedures
 Player Career Advanced:   Done        | 4  | UNIT TEST DONE?: Done
 Player Career Per Game:   Done        | 4  | UNIT TEST DONE?: Done
