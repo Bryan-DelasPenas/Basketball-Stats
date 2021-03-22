@@ -73,7 +73,7 @@ def create_query_player_stats_two_pid():
             conn.execute(
             """
             CREATE PROCEDURE query_player_stats_two_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN tbl_name longtext, 
-            IN val_one longtext, value_two longtext)
+            IN val_one longtext, val_two longtext)
             BEGIN
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',', select_two,
