@@ -6,6 +6,7 @@ import unicodedata, unidecode
 import os
 import pathlib
 import time
+import numpy as np
 
 from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID, RIGHT_PLAYER_SUFIX, SPECIAL_NAME_DICT
 from utils import strip_accents, remove_char
@@ -30,7 +31,6 @@ def check_team_id(name):
         return new_num
     else:
         pass
-
 
 '''
 Creates player suffixes for url 
@@ -393,99 +393,100 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         career_df = career_df.drop(['Season', 'Age', 'Team ID','Team', 'Team ABV', 'League', 'Pos'], axis=1)
 
         # Get the total amount of games of player's career
-        career_df['G'] = df['G'].sum()
+        career_df['G'] = np.sum(df['G'])
 
         # Get the total GS of player's career
-        career_df['GS'] = df['GS'].sum()
+        career_df['GS'] = np.sum(df['GS'])
 
          # Get the average minute played
-        career_df['MP'] = df['MP'].sum()
+        career_df['MP'] = np.sum(df['MP'])
 
         # Get the average FG
-        career_df['FG'] = df['FG'].sum()
+        career_df['FG'] = np.sum(df['FG'])
 
         # Get the average FGA
-        career_df['FGA'] = df['FGA'].sum()
+        career_df['FGA'] = np.sum(df['FGA'])
 
         # Calc the FG%
-        if(career_df['FG'].sum() == 0 or career_df['FGA'].sum() == 0):
+        if(np.sum(career_df['FG']) == 0 or np.sum(career_df['FGA']) == 0):
             career_df['FG%'] = 0
         else:
-            career_df['FG%'] = (df['FG'].sum() / df['FGA'].sum()) 
+            career_df['FG%'] = (np.sum(df['FG']) / np.sum(df['FGA'])) 
+        
         # Get the average 3P
-        career_df['3P'] = df['3P'].sum()
+        career_df['3P'] = np.sum(df['3P'])
 
         # Get the average 3PA
-        career_df['3PA'] = df['3PA'].sum() 
+        career_df['3PA'] = np.sum(df['3PA']) 
 
         # Calc the 3P perentage
         # Check if they actually made a single three or attempted a single three
-        if(df['3P'].sum() == 0 or df['3PA'].sum() == 0):
+        if(np.sum(df['3P']) == 0 or np.sum(df['3PA']) == 0):
             career_df['3P%'] = 0
         else:
-            career_df['3P%'] = (df['3P'].sum() / df['3PA'].sum()) 
+            career_df['3P%'] = (np.sum(df['3P']) / np.sum(df['3PA'])) 
 
-         # Get the average 2P 
-        career_df['2P'] = df['2P'].sum()
+        # Get the average 2P 
+        career_df['2P'] = np.sum(df['2P'])
 
         # Get the average 2PA attempt
-        career_df['2PA'] = df['2PA'].sum()
+        career_df['2PA'] = np.sum(df['2PA'])
 
         # Get the 2P%
-        if(career_df['2P'].sum() == 0 or df['2PA'].sum() == 0):
+        if(np.sum(career_df['2P']) == 0 or np.sum(df['2PA']) == 0):
             career_df['2P%'] = 0
         else:
-            career_df['2P%'] = (df['2P'].sum() / df['2PA'].sum()) 
+            career_df['2P%'] = (np.sum(df['2P']) / np.sum(df['2PA'])) 
 
         # Get the effective FG%
-        if(career_df['FGA'].sum() == 0):
+        if(np.sum(career_df['FGA']) == 0):
            career_df['eFG%'] = 0
         else: 
-            career_df['eFG%'] = ((df['FG'].sum() + (0.5 * df['3P'].sum()) ) / df['FGA'].sum()) 
+            career_df['eFG%'] = ((np.sum(df['FG']) + (0.5 * np.sum(df['3P'])) ) / np.sum(df['FGA'])) 
         
         # Get the FT 
-        career_df['FT'] = df['FT'].sum()
+        career_df['FT'] = np.sum(df['FT'])
 
         # Get the FTA 
-        career_df['FTA'] = df['FTA'].sum()
+        career_df['FTA'] = np.sum(df['FTA'])
        
         # Get FT%
-        if(df['FT'].sum() == 0 or df['FTA'].sum() == 0):
+        if(np.sum(df['FT']) == 0 or np.sum(df['FTA']) == 0):
             career_df['FT%'] = 0
         else:
-            career_df['FT%'] = (df['FT'].sum() / df['FTA'].sum()) 
+            career_df['FT%'] = (np.sum(df['FT']) / np.sum(df['FTA'])) 
 
         # Get ORB
-        career_df['ORB'] = df['ORB'].sum()
+        career_df['ORB'] = np.sum(df['ORB'])
 
         # Get DRB
-        career_df['DRB'] = df['DRB'].sum()
+        career_df['DRB'] = np.sum(df['DRB'])
 
         # Get TRB
-        career_df['TRB'] = df['TRB'].sum()
+        career_df['TRB'] = np.sum(df['TRB'])
 
         # Get Ast
-        career_df['AST'] = df['AST'].sum()
+        career_df['AST'] = np.sum(df['AST'])
 
         # Get STL
-        career_df['STL'] = df['STL'].sum()
+        career_df['STL'] = np.sum(df['STL'])
 
         # Get BLK 
-        career_df['BLK'] = df['BLK'].sum()
+        career_df['BLK'] = np.sum(df['BLK'])
 
         # Get TOV
-        career_df['TOV'] = df['TOV'].sum()
+        career_df['TOV'] = np.sum(df['TOV'])
 
         # Get PF
-        career_df['PF'] = df['PF'].sum()
+        career_df['PF'] = np.sum(df['PF'])
 
         # Get PTS
-        career_df['PTS'] = df['PTS'].sum()
+        career_df['PTS'] = np.sum(df['PTS'])
 
         # Get Trp Dbl
         if 'Trp Dbl' in df.columns:
             
-            career_df['Trp Dbl'] = df['Trp Dbl'].sum()
+            career_df['Trp Dbl'] = np.sum(df['Trp Dbl'])
         else:
             career_df['Trp Dbl'] = 0
         # Make it a single index 
@@ -499,67 +500,67 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         career_df = career_df.drop(['Season', 'Age', 'Team ABV', 'Team ID','Team', 'League', 'Pos'], axis=1)
         
         # Get the total amount of games of player's career
-        career_df['G'] = df['G'].sum()
+        career_df['G'] = np.sum(df['G'])
 
         # Get the total amount of minutes played for career
-        career_df['MP'] = df['MP'].sum()
+        career_df['MP'] = np.sum(df['MP'])
 
         # Get the average PER 
-        career_df['PER'] = df['PER'].mean()
+        career_df['PER'] = np.mean(df['PER'])
 
         # Get the average TS% 
-        career_df['TS%'] = df['TS%'].mean()
+        career_df['TS%'] = np.mean(df['TS%'])
 
         # Get the average 3PAr
-        career_df['3PAr'] = df['3PAr'].mean()
+        career_df['3PAr'] = np.mean(df['3PAr'])
 
         # Get the average ORB%
-        career_df['ORB%'] = df['ORB%'].mean()
+        career_df['ORB%'] = np.mean(df['ORB%'])
 
         # Get the average DRB%
-        career_df['DRB%'] = df['DRB%'].mean()
+        career_df['DRB%'] = np.mean(df['DRB%'])
 
         # Get the average TRB%
-        career_df['TRB%'] = df['TRB%'].mean()
+        career_df['TRB%'] = np.mean(df['TRB%'])
 
         # Get the average AST%
-        career_df['AST%'] = df['AST%'].mean()
+        career_df['AST%'] = np.mean(df['AST%'])
 
         # Get the average STL%
-        career_df['STL%'] = df['STL%'].mean()
+        career_df['STL%'] = np.mean(df['STL%'])
 
         # Get the average BLK%
-        career_df['BLK%'] = df['BLK%'].mean()
+        career_df['BLK%'] = np.mean(df['BLK%'])
 
         # Get the average TOV% 
-        career_df['TOV%'] = df['TOV%'].mean()
+        career_df['TOV%'] = np.mean(df['TOV%'])
 
         # Get the average USG%
-        career_df['USG%'] = df['USG%'].mean()
+        career_df['USG%'] = np.mean(df['USG%'])
 
         # Get the average OWS
-        career_df['OWS'] = df['OWS'].sum()
+        career_df['OWS'] = np.mean(df['OWS'])
 
         # Get the average DWS
-        career_df['DWS'] = df['DWS'].sum()
+        career_df['DWS'] = np.mean(df['DWS'])
 
         # Get the average WS
-        career_df['WS'] = df['WS'].sum()
+        career_df['WS'] = np.sum(df['WS'])
 
         # Get the average WS/48
-        career_df['WS/48'] = df['WS/48'].mean()
+        career_df['WS/48'] = np.mean(df['WS/48'])
 
         # Get the average OBPM
-        career_df['OBPM'] = df['OBPM'].mean()
+        career_df['OBPM'] = np.mean(df['OBPM'])
 
         # Get the average DBPM
-        career_df['DBPM'] = df['DBPM'].mean()
+        career_df['DBPM'] = np.mean(df['DBPM'])
 
         # Get the average BPM 
-        career_df['BPM'] = df['BPM'].mean()
+        career_df['BPM'] = np.mean(df['BPM'])
 
         # Get the average VORP
-        career_df['VORP'] = df['VORP'].mean()
+        career_df['VORP'] = np.mean(df['VORP'])
 
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
@@ -573,104 +574,105 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         career_df = career_df.drop(['Season', 'Age', 'Team', 'Team ABV', 'Team ID', 'League', 'Pos'], axis=1)
        
         # Get the total amount of games of player's career
-        career_df['G'] = df['G'].sum()
+        career_df['G'] = np.sum(df['G'])
     
         # Get the total GS of player's career
-        career_df['GS'] = df['GS'].sum()
+        career_df['GS'] = np.sum(df['GS'])
         
         if(format == 'Per_Poss'):
             career_df['MP'] = df['MP'].sum()
 
         else:
             # Get the average minute played
-            career_df['MP'] = df['MP'].mean()
+            career_df['MP'] = np.mean(df['MP'])
 
         # Get the average FG
-        career_df['FG'] = df['FG'].mean()
+        career_df['FG'] = np.mean(df['FG'])
 
         # Get the average FGA
-        career_df['FGA'] = df['FGA'].mean()
+        career_df['FGA'] = np.mean(df['FGA'])
         
         # Calc the FG%
-        if(df['FG'].mean() == 0 or df['FGA'].mean() == 0):
+        if(np.mean(df['FG']) == 0 or np.mean(df['FGA']) == 0):
             career_df['FG%'] = 0
         else:
-            career_df['FG%'] = (df['FG'].mean() / df['FGA'].mean())
+            career_df['FG%'] = (np.mean(df['FG']) / np.mean(df['FGA']))
         
         # Get the average 3P
-        career_df['3P'] = df['3P'].mean()
+        career_df['3P'] = np.mean(df['3P'])
 
         # Get the average 3PA
-        career_df['3PA'] = df['3PA'].mean() 
+        career_df['3PA'] = np.mean(df['3PA']) 
 
         # Calc the 3P perentage
         # Check if they actually made a single three or attempted a single three
-        if(df['3P'].mean() == 0 or df['3PA'].mean() == 0):
+        if(np.mean(df['3P']) == 0 or np.mean(df['3PA']) == 0):
             career_df['3P%'] = 0
         else:
-            career_df['3P%'] = (df['3P'].mean() / df['3PA'].mean()) 
+            career_df['3P%'] = (np.mean(df['3P']) / np.mean(df['3PA'])) 
 
         # Get the average 2P 
-        career_df['2P'] = df['2P'].mean()
+        career_df['2P'] = np.mean(df['2P'])
 
         # Get the average 2PA attempt
-        career_df['2PA'] = df['2PA'].mean()
+        career_df['2PA'] = np.mean(df['2PA'])
 
         # Get the 2P%
-        if(career_df['2P'].mean() == 0 or df['2PA'].mean() == 0):
+        if(np.mean(career_df['2P']) == 0 or np.mean(df['2PA']) == 0):
             career_df['2P%'] = 0
+        
         else:
-            career_df['2P%'] = (df['2P'].mean() / df['2PA'].mean()) 
+            career_df['2P%'] = (np.mean(df['2P']) / np.mean(df['2PA'])) 
 
         # Get the effective FG%
-        if(career_df['FGA'].sum() == 0):
+        if(np.sum(career_df['FGA']) == 0):
            career_df['eFG%'] = 0
         else: 
-            career_df['eFG%'] = ((df['FG'].sum() + (0.5 * df['3P'].sum()) ) / df['FGA'].sum()) 
+            career_df['eFG%'] = ((np.sum(df['FG']) + (0.5 * np.sum(df['3P']) ) / np.sum(df['FGA'])))
        
         # Get the FT 
-        career_df['FT'] = df['FT'].mean()
+        career_df['FT'] = np.mean(df['FT'])
 
         # Get the FTA 
-        career_df['FTA'] = df['FTA'].mean()
+        career_df['FTA'] = np.mean(df['FTA'])
        
         # Get FT%
-        if(df['FT'].mean() == 0 or df['FTA'].mean() == 0):
+        if(np.mean(df['FT']) == 0 or np.mean(df['FTA']) == 0):
             career_df['FT%'] = 0
         else:
-            career_df['FT%'] = (df['FT'].mean() / df['FTA'].mean()) 
+            career_df['FT%'] = (np.mean(df['FT']) / np.mean(df['FTA'])) 
 
         # Get ORB
-        career_df['ORB'] = df['ORB'].mean()
+        career_df['ORB'] = np.mean(df['ORB'])
 
         # Get DRB
-        career_df['DRB'] = df['DRB'].mean()
+        career_df['DRB'] = np.mean(df['DRB'])
 
         # Get TRB
-        career_df['TRB'] = df['TRB'].mean()
+        career_df['TRB'] = np.mean(df['TRB'])
 
         # Get Ast
-        career_df['AST'] = df['AST'].mean()
+        career_df['AST'] = np.mean(df['AST'])
 
         # Get STL
-        career_df['STL'] = df['STL'].mean()
+        career_df['STL'] = np.mean(df['STL'])
 
         # Get BLK 
-        career_df['BLK'] = df['BLK'].mean()
+        career_df['BLK'] = np.mean(df['BLK'])
 
         # Get TOV
-        career_df['TOV'] = df['TOV'].mean()
+        career_df['TOV'] = np.mean(df['TOV'])
 
         # Get PF
-        career_df['PF'] = df['PF'].mean()
+        career_df['PF'] = np.mean(df['PF'])
 
         # Get PTS
-        career_df['PTS'] = df['PTS'].mean()
+        career_df['PTS'] = np.mean(df['PTS'])
 
         # Only Per_poss has these stats
         if(format == 'Per_Poss'):
-            career_df['ORtg'] = df['ORtg'].mean()
-            career_df['DRtg'] = df['DRtg'].mean()
+            career_df['ORtg'] = np.mean(df['ORtg'])
+            career_df['DRtg'] = np.mean(df['DRtg'])
 
         # Make it a single index 
         career_df = career_df.drop_duplicates(subset=['G'])
@@ -681,4 +683,3 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
             career_df = career_df.drop(['eFG%'], axis=1)
 
         return career_df
-
