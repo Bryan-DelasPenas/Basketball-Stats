@@ -363,6 +363,9 @@ def lookup(name, birth_date):
     # Convert csv to dataframe
     df = pd.read_csv(path)
     
+    # Changes the name to be upper case
+    name = name.title()
+
     # Search dataframe for name and birthdate
     df_new = df.loc[(df['Player'] == name) & (df['Birth_Date'] == birth_date)]
 
