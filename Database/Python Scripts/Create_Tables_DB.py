@@ -632,7 +632,7 @@ def create_player_advanced_table():
             Team_Name                     VARCHAR(45) NOT NULL,
             Player_Name                   VARCHAR(45) NOT NULL,
             Birth_Date                    VARCHAR(45) NOT NULL,
-            Player_Age                    VARCHAR(45) NOT NULL, 
+            Player_Age                    INT NOT NULL, 
             League                        VARCHAR(3),
             Player_Postion                VARCHAR(20),
             Games_Played       	          INT, 
