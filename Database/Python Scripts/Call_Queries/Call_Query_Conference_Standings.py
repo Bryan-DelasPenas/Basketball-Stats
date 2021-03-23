@@ -12,6 +12,7 @@ from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
 from Regular_Expression import season_id_regex, team_id_regex, team_name_regex, team_abv_regex, games_amount_regex, percentage_regex, binary_regex
+from Constants import VALID_SID_TEAM_IDS
 '''
 Function to call query_all_cs_sid
 '''
@@ -238,6 +239,10 @@ def call_query_cs_win(season_id, team_id):
     if(team_id_regex(team_id)):
         return None
 
+    # Check if valid team_id from a given year
+    if(not team_id in VALID_SID_TEAM_IDS[season_id]):
+        return None
+
     # Connect to sql database
     engine = create_connection()
 
@@ -257,7 +262,3 @@ def call_query_cs_win(season_id, team_id):
     columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Wins'])  
 
     return df_result
-
-def main():
-    print(call_query_cs_win(2019, 140))
-main()
