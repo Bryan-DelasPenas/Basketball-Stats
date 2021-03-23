@@ -13,30 +13,30 @@ Create_All_Queries: Done
 Drop_All_Queries:   Done
 Call_Queries:       In Progress
 
-For Queries:                          Amount 
-Season:                   NA          | 0  | UNIT TEST DONE?: NA
-Team:                     Done        | 5  | UNIT TEST DONE?: Done
-Player:                   Done        | 3  | UNIT TEST DONE?: Done
-Conference Standings:     Done        | 8  | UNIT TEST DONE?: Done
-Roster:                   Done        | 10 | UNIT TEST DONE?: Done
-Team Stats:               Done        | 16 | UNIT TEST DONE?: Done | Completed the parameterized stored procedures 
-Team Advanced:            Done        | 5  | UNIT TEST DONE?: Done
-Team Misc:                Done        | 5  | UNIT TEST DONE?: Done
-Team Per Game:            Done        | 10 | UNIT TEST DONE?: Done
-Team Per Poss:            Done        | 10 | UNIT TEST DONE?: Done
-Team Totals:              Done        | 10 | UNIT TEST DONE?: Done
-Player Stats:             Done        | 42 | UNIT TEST DONE?: In Progress | Completed the parameterized stored procedures
-Player Advanced:          Done        | 12 | UNIT TEST DONE?: Done
-Player Per Game:          Done        | 12 | UNIT TEST DONE?: Done
-Player Per Minute:        Done        | 12 | UNIT TEST DONE?: Done
-Player Per Poss:          Done        | 12 | UNIT TEST DONE?: Done
-Player Totals:            Done        | 12 | UNIT TEST DONE?: Done
-Player Career Stats:      Done        | 8  | UNIT TEST DONE?: Done | Completed the parmeterized stored procedures
-Player Career Advanced:   Done        | 4  | UNIT TEST DONE?: Done
-Player Career Per Game:   Done        | 4  | UNIT TEST DONE?: Done
-Player Career Per Minute: Done        | 4  | UNIT TEST DONE?: Done
-Player Career Per Poss:   Done        | 4  | UNIT TEST DONE?: Done
-Player Career Totals:     Done        | 4  | UNIT TEST DONE?: Done
+For Queries:                          Amount CALL
+Season:                   NA          | 0  | IN PROGRESS   UNIT TEST DONE?: NA
+Team:                     Done        | 5  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player:                   Done        | 3  | IN PROGRESS   UNIT TEST DONE?: Restart
+Conference Standings:     Done        | 8  | IN PROGRESS   UNIT TEST DONE?: Restart
+Roster:                   Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
+Team Stats:               Done        | 16 | IN PROGRESS   UNIT TEST DONE?: Restart 
+Team Advanced:            Done        | 5  | IN PROGRESS   UNIT TEST DONE?: Restart
+Team Misc:                Done        | 5  | IN PROGRESS   UNIT TEST DONE?: Restart
+Team Per Game:            Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
+Team Per Poss:            Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
+Team Totals:              Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Stats:             Done        | 42 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Advanced:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Per Game:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Per Minute:        Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Per Poss:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Totals:            Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Career Stats:      Done        | 8  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Career Advanced:   Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Career Per Game:   Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Career Per Minute: Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Career Per Poss:   Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Career Totals:     Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
 
 PLAN for graphs, only Stats will have graphs. 
 
