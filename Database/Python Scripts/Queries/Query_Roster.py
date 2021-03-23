@@ -271,7 +271,7 @@ def create_query_all_roster_sid_tid():
 '''
 Function that creates procedure that queries Roster based on Player_ID and Team_ID
 '''
-def create_query_all_tid_pid():
+def create_query_all_roster_tid_pid():
     # Connect to sql database
     engine = create_connection()
     
@@ -347,7 +347,7 @@ def create_roster_query():
     create_query_all_roster_abv()
     create_query_all_roster_college()
     create_query_all_roster_sid_tid()
-    create_query_all_tid_pid()
+    create_query_all_roster_tid_pid()
     create_query_all_roster_sid_tid_pid()
 
 '''
@@ -570,9 +570,9 @@ def drop_query_all_roster_sid_tid():
         print("Procedure Query_All_Roster_Sid_Tid does not Exists")
 
 '''
-Function that drop query query_all_tid_pid
+Function that drop query query_all_roster_tid_pid
 '''
-def drop_query_all_tid_pid():
+def drop_query_all_roster_tid_pid():
     # Connect to sql database
     engine = create_connection()
     
@@ -635,5 +635,5 @@ def drop_roster_query():
     drop_query_all_roster_abv()
     drop_query_all_roster_college()
     drop_query_all_roster_sid_tid()
-    drop_query_all_tid_pid()
+    drop_query_all_roster_tid_pid()
     drop_query_all_roster_sid_tid_pid()
