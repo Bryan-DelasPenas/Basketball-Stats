@@ -223,16 +223,6 @@ def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False):
         
         df = pd.read_html(str(table))[0]
         
-        if selector == 'adj_shooting':
-            df.columns = ['Season', 'Age', 'Team', 'Lg', 'Pos', 'G', 'MP', '', 'Player FG', 'Player 2P', 'Player 3P', 'Player eFG', 'Player FT','Player TS', 'Player FTr', 'Player 3PAr', 
-                          '', 'League FG', 'League 2P', 'League 3P', 'League eFG', 'League FT', 'League TS', 'League FTr', 'League 3PAr', '', 'FG+','2P+', '3P+','eFG+','FT+','TS+','FTr+',
-                          '3PAr+','','FG Add','TS Add']
-
-            df = df.drop([''],axis=1)
-            # Change Nan 3p+ to 0 
-            df['3P+'] = df['3P+'].fillna(0)
-
-
         df.rename(columns={'Lg': 'League'}, inplace=True)
 
         if 'FG.1' in df.columns:
@@ -684,5 +674,8 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         # Per Minute does not eFG% 
         if(format == 'Per_Minute' or format == 'Per_Poss'):
             career_df = career_df.drop(['eFG%'], axis=1)
-
         return career_df
+
+def main():
+    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947"))
+main()

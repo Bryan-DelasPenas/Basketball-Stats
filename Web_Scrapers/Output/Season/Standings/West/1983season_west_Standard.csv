@@ -1,13 +1,13 @@
 Season,Team ID,Team ABV,Team,W,L,W/L%,GB,PS/G,PA/G,SRS
-1983,27,SAS,San Antonio Spurs,53,29,.646,—,114.3,110.7,3.10
-1983,8,DEN,Denver Nuggets,45,37,.549,8.0,123.2,122.6,0.27
-1983,26,KCK,Kansas City Kings,45,37,.549,8.0,113.8,112.3,1.04
-1983,7,DAL,Dallas Mavericks,38,44,.463,15.0,112.7,113.1,-0.70
-1983,29,UTA,Utah Jazz,30,52,.366,23.0,109.0,113.2,-4.22
-1983,11,HOU,Houston Rockets,14,68,.171,39.0,99.3,110.9,-11.12
-1983,14,LAL,Los Angeles Lakers,58,24,.707,—,115.0,109.5,5.06
-1983,24,PHO,Phoenix Suns,53,29,.646,5.0,107.0,102.0,4.61
-1983,21,SEA,Seattle Supersonics,48,34,.585,10.0,110.0,106.8,2.88
-1983,25,POR,Portland Trail Blazers,46,36,.561,12.0,107.4,105.3,1.88
-1983,10,GSW,Golden State Warriors,30,52,.366,28.0,108.6,112.3,-3.48
-1983,13,SDC,San Diego Clippers,25,57,.305,33.0,108.6,113.4,-4.61
+1983,27,SAS,San Antonio Spurs,53,29,0.65,—,114.3,110.7,3.1
+1983,8,DEN,Denver Nuggets,45,37,0.55,8.0,123.2,122.6,0.27
+1983,26,KCK,Kansas City Kings,45,37,0.55,8.0,113.8,112.3,1.04
+1983,7,DAL,Dallas Mavericks,38,44,0.46,15.0,112.7,113.1,-0.7
+1983,29,UTA,Utah Jazz,30,52,0.37,23.0,109.0,113.2,-4.22
+1983,11,HOU,Houston Rockets,14,68,0.17,39.0,99.3,110.9,-11.12
+1983,14,LAL,Los Angeles Lakers,58,24,0.71,—,115.0,109.5,5.06
+1983,24,PHO,Phoenix Suns,53,29,0.65,5.0,107.0,102.0,4.61
+1983,21,SEA,Seattle Supersonics,48,34,0.58,10.0,110.0,106.8,2.88
+1983,25,POR,Portland Trail Blazers,46,36,0.56,12.0,107.4,105.3,1.88
+1983,10,GSW,Golden State Warriors,30,52,0.37,28.0,108.6,112.3,-3.48
+1983,13,SDC,San Diego Clippers,25,57,0.3,33.0,108.6,113.4,-4.61

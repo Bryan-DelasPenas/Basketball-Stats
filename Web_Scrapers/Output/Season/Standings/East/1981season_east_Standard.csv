@@ -1,12 +1,12 @@
 Season,Team ID,Team ABV,Team,W,L,W/L%,GB,PS/G,PA/G,SRS
-1981,2,BOS,Boston Celtics,62,20,.756,—,109.9,104.0,6.05
-1981,23,PHI,Philadelphia 76Ers,62,20,.756,—,111.7,103.8,7.76
-1981,20,NYK,New York Knicks,50,32,.610,12.0,107.9,106.3,2.00
-1981,30,WSB,Washington Bullets,39,43,.476,23.0,105.6,105.6,0.42
-1981,3,NJN,New Jersey Nets,24,58,.293,38.0,106.9,113.0,-5.15
-1981,17,MIL,Milwaukee Bucks,60,22,.732,—,113.1,105.9,7.14
-1981,5,CHI,Chicago Bulls,45,37,.549,15.0,109.0,107.0,2.34
-1981,12,IND,Indiana Pacers,44,38,.537,16.0,107.6,106.2,1.72
-1981,1,ATL,Atlanta Hawks,31,51,.378,29.0,104.9,108.0,-2.37
-1981,6,CLE,Cleveland Cavaliers,28,54,.341,32.0,105.7,110.6,-4.15
-1981,9,DET,Detroit Pistons,21,61,.256,39.0,99.7,106.0,-5.58
+1981,2,BOS,Boston Celtics,62,20,0.76,—,109.9,104.0,6.05
+1981,23,PHI,Philadelphia 76Ers,62,20,0.76,—,111.7,103.8,7.76
+1981,20,NYK,New York Knicks,50,32,0.61,12.0,107.9,106.3,2.0
+1981,30,WSB,Washington Bullets,39,43,0.48,23.0,105.6,105.6,0.42
+1981,3,NJN,New Jersey Nets,24,58,0.29,38.0,106.9,113.0,-5.15
+1981,17,MIL,Milwaukee Bucks,60,22,0.73,—,113.1,105.9,7.14
+1981,5,CHI,Chicago Bulls,45,37,0.55,15.0,109.0,107.0,2.34
+1981,12,IND,Indiana Pacers,44,38,0.54,16.0,107.6,106.2,1.72
+1981,1,ATL,Atlanta Hawks,31,51,0.38,29.0,104.9,108.0,-2.37
+1981,6,CLE,Cleveland Cavaliers,28,54,0.34,32.0,105.7,110.6,-4.15
+1981,9,DET,Detroit Pistons,21,61,0.26,39.0,99.7,106.0,-5.58

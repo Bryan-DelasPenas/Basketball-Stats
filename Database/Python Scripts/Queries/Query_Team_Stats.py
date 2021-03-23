@@ -279,7 +279,7 @@ def create_query_team_stats_major_op_one():
                 SET @s=CONCAT(
                     'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, 
                     ' FROM ', tbl_name, 
-                    ' WHERE Opponent = 0 
+                    ' WHERE Opponent = 1 
                     AND ', select_one,' >= ?');
                 PREPARE stmt1 FROM @s;
                 SET @val = val;

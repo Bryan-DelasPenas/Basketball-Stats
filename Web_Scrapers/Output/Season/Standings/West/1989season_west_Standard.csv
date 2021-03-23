@@ -1,14 +1,14 @@
 Season,Team ID,Team ABV,Team,W,L,W/L%,GB,PS/G,PA/G,SRS
-1989,29,UTA,Utah Jazz,51,31,.622,—,104.7,99.7,4.01
-1989,11,HOU,Houston Rockets,45,37,.549,6.0,108.5,107.5,0.22
-1989,8,DEN,Denver Nuggets,44,38,.537,7.0,118.0,116.3,0.91
-1989,7,DAL,Dallas Mavericks,38,44,.463,13.0,103.5,104.7,-1.79
-1989,27,SAS,San Antonio Spurs,21,61,.256,30.0,105.5,112.8,-7.45
-1989,16,MIA,Miami Heat,15,67,.183,36.0,97.8,109.0,-11.13
-1989,14,LAL,Los Angeles Lakers,57,25,.695,—,114.7,107.5,6.38
-1989,24,PHO,Phoenix Suns,55,27,.671,2.0,118.6,110.9,6.84
-1989,21,SEA,Seattle Supersonics,47,35,.573,10.0,112.1,109.2,2.44
-1989,10,GSW,Golden State Warriors,43,39,.524,14.0,116.6,116.9,-0.59
-1989,25,POR,Portland Trail Blazers,39,43,.476,18.0,114.6,113.1,0.92
-1989,26,SAC,Sacramento Kings,27,55,.329,30.0,105.5,111.0,-5.35
-1989,13,LAC,Los Angeles Clippers,21,61,.256,36.0,106.2,116.2,-9.50
+1989,29,UTA,Utah Jazz,51,31,0.62,—,104.7,99.7,4.01
+1989,11,HOU,Houston Rockets,45,37,0.55,6.0,108.5,107.5,0.22
+1989,8,DEN,Denver Nuggets,44,38,0.54,7.0,118.0,116.3,0.91
+1989,7,DAL,Dallas Mavericks,38,44,0.46,13.0,103.5,104.7,-1.79
+1989,27,SAS,San Antonio Spurs,21,61,0.26,30.0,105.5,112.8,-7.45
+1989,16,MIA,Miami Heat,15,67,0.18,36.0,97.8,109.0,-11.13
+1989,14,LAL,Los Angeles Lakers,57,25,0.7,—,114.7,107.5,6.38
+1989,24,PHO,Phoenix Suns,55,27,0.67,2.0,118.6,110.9,6.84
+1989,21,SEA,Seattle Supersonics,47,35,0.57,10.0,112.1,109.2,2.44
+1989,10,GSW,Golden State Warriors,43,39,0.52,14.0,116.6,116.9,-0.59
+1989,25,POR,Portland Trail Blazers,39,43,0.48,18.0,114.6,113.1,0.92
+1989,26,SAC,Sacramento Kings,27,55,0.33,30.0,105.5,111.0,-5.35
+1989,13,LAC,Los Angeles Clippers,21,61,0.26,36.0,106.2,116.2,-9.5

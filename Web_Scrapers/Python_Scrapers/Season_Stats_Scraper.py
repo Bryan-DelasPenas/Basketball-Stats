@@ -104,6 +104,9 @@ def get_standings(season, data_format = 'standard'):
                 df_east['Team'] = df_east['Team'].apply(lambda x: x.title())
                 df_west['Team'] = df_west['Team'].apply(lambda x: x.title())
 
+                df_east = df_east.astype({'W': int, 'L': int, 'W/L%':float, 'PS/G':float, 'PA/G': float, 'SRS':float})
+                df_west = df_west.astype({'W': int, 'L': int, 'W/L%':float, 'PS/G':float, 'PA/G': float, 'SRS':float})
+
                 # Round each entry to the second decimal place
                 df_east = df_east.round(2)
                 df_west = df_west.round(2)
@@ -153,17 +156,18 @@ def get_standings(season, data_format = 'standard'):
                 df_east['Team'] = df_east['Team'].apply(lambda x: x.title())
                 df_west['Team'] = df_west['Team'].apply(lambda x: x.title())
 
+                df_east = df_east.astype({'W': int, 'L': int, 'W/L%':float, 'PS/G':float, 'PA/G': float, 'SRS':float})
+                df_west = df_west.astype({'W': int, 'L': int, 'W/L%':float, 'PS/G':float, 'PA/G': float, 'SRS':float})
+               
                 # Round each entry to the second decimal place
                 df_east = df_east.round(2)
                 df_west = df_west.round(2)
-
-                # Round each entry to the second decimal place
-                df_east = df_east.round(2)
-                df_west = df_west.round(2)
-
+                
                 return df_east, df_west
 
         else: 
             print('Error 404: Page could not be found')
 
-  
+def main():
+    print(get_standings(1990))
+main()

@@ -1,6 +1,9 @@
 import re
 
 '''
+Regex for ints
+'''
+'''
 Regex for season_id parameter
 '''
 def season_id_regex(season_id):
@@ -32,8 +35,21 @@ def player_id_regex(player_id):
     if(not re.match("^([1-9]|[1-9][0-9]|[1-9][0-9][0-9]|[1-3][0-1][0-9][0-9]|32[0-7][0-9]|328[0-1])$", player_id_string)):
         print("Please enter a valid int from 1 - 3281")
         return None
-    return None
 
+'''
+Regex for amount of games parameter
+'''
+def games_amount_regex(games_amount):
+    # Convert games_amount_regex to a string
+    # Check if the parameter games_amount is between 0 - 82
+    games_amount_string = str(games_amount)
+    if(not re.match("[1-7][0-9]|8[0-2]", games_amount_string)):
+        print("Please enter a valid number between 0 - 82")
+        return None
+
+'''
+Regex for strings
+'''
 '''
 Regex for team_name parameter
 '''
@@ -67,7 +83,6 @@ def player_name_regrex(player_name):
         print("Please enter a valid player name that may contain special chars")
         return None
 
-# This is for testing purposes
 def main():
-    player_name_regrex("")
+    games_amount_regex(-1)
 main()

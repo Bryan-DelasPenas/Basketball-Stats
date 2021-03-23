@@ -1,16 +1,16 @@
 Season,Team ID,Team ABV,Team,W,L,W/L%,GB,PS/G,PA/G,SRS
-2015,25,POR,Portland Trail Blazers,51,31,.622,—,102.8,98.6,4.41
-2015,21,OKC,Oklahoma City Thunder,45,37,.549,6.0,104.0,101.8,2.47
-2015,29,UTA,Utah Jazz,38,44,.463,13.0,95.1,94.9,0.71
-2015,8,DEN,Denver Nuggets,30,52,.366,21.0,101.5,105.0,-3.07
-2015,18,MIN,Minnesota Timberwolves,16,66,.195,35.0,97.8,106.5,-8.00
-2015,10,GSW,Golden State Warriors,67,15,.817,—,110.0,99.9,10.01
-2015,13,LAC,Los Angeles Clippers,56,26,.683,11.0,106.7,100.1,6.80
-2015,24,PHO,Phoenix Suns,39,43,.476,28.0,102.4,103.3,-0.38
-2015,26,SAC,Sacramento Kings,29,53,.354,38.0,101.3,105.0,-3.07
-2015,14,LAL,Los Angeles Lakers,21,61,.256,46.0,98.5,105.3,-6.17
-2015,11,HOU,Houston Rockets,56,26,.683,—,103.9,100.5,3.82
-2015,15,MEM,Memphis Grizzlies,55,27,.671,1.0,98.3,95.1,3.62
-2015,27,SAS,San Antonio Spurs,55,27,.671,1.0,103.2,97.0,6.34
-2015,7,DAL,Dallas Mavericks,50,32,.610,6.0,105.2,102.3,3.36
-2015,19,NOP,New Orleans Pelicans,45,37,.549,11.0,99.4,98.6,1.13
+2015,25,POR,Portland Trail Blazers,51,31,0.62,—,102.8,98.6,4.41
+2015,21,OKC,Oklahoma City Thunder,45,37,0.55,6.0,104.0,101.8,2.47
+2015,29,UTA,Utah Jazz,38,44,0.46,13.0,95.1,94.9,0.71
+2015,8,DEN,Denver Nuggets,30,52,0.37,21.0,101.5,105.0,-3.07
+2015,18,MIN,Minnesota Timberwolves,16,66,0.2,35.0,97.8,106.5,-8.0
+2015,10,GSW,Golden State Warriors,67,15,0.82,—,110.0,99.9,10.01
+2015,13,LAC,Los Angeles Clippers,56,26,0.68,11.0,106.7,100.1,6.8
+2015,24,PHO,Phoenix Suns,39,43,0.48,28.0,102.4,103.3,-0.38
+2015,26,SAC,Sacramento Kings,29,53,0.35,38.0,101.3,105.0,-3.07
+2015,14,LAL,Los Angeles Lakers,21,61,0.26,46.0,98.5,105.3,-6.17
+2015,11,HOU,Houston Rockets,56,26,0.68,—,103.9,100.5,3.82
+2015,15,MEM,Memphis Grizzlies,55,27,0.67,1.0,98.3,95.1,3.62
+2015,27,SAS,San Antonio Spurs,55,27,0.67,1.0,103.2,97.0,6.34
+2015,7,DAL,Dallas Mavericks,50,32,0.61,6.0,105.2,102.3,3.36
+2015,19,NOP,New Orleans Pelicans,45,37,0.55,11.0,99.4,98.6,1.13

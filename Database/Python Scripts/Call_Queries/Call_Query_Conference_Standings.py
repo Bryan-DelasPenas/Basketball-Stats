@@ -12,7 +12,7 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-from Common_Regular_Expression import season_id_regrex, team_id_regrex
+from Common_Regular_Expression import season_id_regrex, team_id_regrex, team_name_regex, team_abv_regex, games_amount_regex
 
 '''
 Function to call query_all_cs_tid
@@ -76,14 +76,89 @@ def call_query_all_cs_tid(team_id):
 '''
 Function to call query_all_cs_name
 '''
-def call_query_all_cs_name():
-    return None
+def call_query_all_cs_name(team_name):
+    # Compare team_name with regular expression 
+    team_name_regex(team_name)
+    
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    # Execute the Query 
+    result = conn.execute(
+    """
+    CALL query_all_cs_name(%s)
+    """, team_name
+    ).fetchall()
+    
+    # Convert Query Result into a dataframe  
+    df_result = pd.DataFrame(result, 
+    columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Wins', 'Loses', 'Win_Lose_Percentage', 
+            'Games_Behind', 'Points_Per_Game', 'Opponents_Points_Per_Game', 'Simple_Rating_System', 'East_Or_West'])
 
-def call_query_all_cs_ABV():
-    return None
+    # Return the dataframe
+    return df_result
 
-def call_query_all_cs_win():
-    return None
+'''
+Function to call query_all_cs_ABV
+'''
+def call_query_all_cs_ABV(team_abv):
+    # Compare team_name with regular expression 
+    team_abv_regex(team_abv)
+    
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    # Execute the Query 
+    result = conn.execute(
+    """
+    CALL query_all_cs_name(%s)
+    """, team_abv
+    ).fetchall()
+    
+    # Convert Query Result into a dataframe  
+    df_result = pd.DataFrame(result, 
+    columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Wins', 'Loses', 'Win_Lose_Percentage', 
+            'Games_Behind', 'Points_Per_Game', 'Opponents_Points_Per_Game', 'Simple_Rating_System', 'East_Or_West'])
+
+    # Return the dataframe
+    return df_result
+
+'''
+Function to call query_all_cs_win
+'''
+def call_query_all_cs_win(wins_amount):
+    # Compare team_name with regular expression 
+    games_amount_regex(wins_amount)
+    
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    # Execute the Query 
+    result = conn.execute(
+    """
+    CALL query_all_cs_win(%s)
+    """, wins_amount
+    ).fetchall()
+    
+    # Convert Query Result into a dataframe  
+    df_result = pd.DataFrame(result, 
+    columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Wins', 'Loses', 'Win_Lose_Percentage', 
+            'Games_Behind', 'Points_Per_Game', 'Opponents_Points_Per_Game', 'Simple_Rating_System', 'East_Or_West'])
+
+    # Return the dataframe
+    return df_result
 
 def call_query_all_cs_wl():
     return None

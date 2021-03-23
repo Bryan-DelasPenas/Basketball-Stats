@@ -1,13 +1,13 @@
 Season,Team ID,Team ABV,Team,W,L,W/L%,GB,PS/G,PA/G,SRS
-1988,8,DEN,Denver Nuggets,54,28,.659,—,116.7,112.7,3.32
-1988,7,DAL,Dallas Mavericks,53,29,.646,1.0,109.3,104.9,3.59
-1988,29,UTA,Utah Jazz,47,35,.573,7.0,108.5,104.8,2.96
-1988,11,HOU,Houston Rockets,46,36,.561,8.0,109.0,107.6,0.82
-1988,27,SAS,San Antonio Spurs,31,51,.378,23.0,113.6,118.5,-5.02
-1988,26,SAC,Sacramento Kings,24,58,.293,30.0,108.0,113.7,-5.84
-1988,14,LAL,Los Angeles Lakers,62,20,.756,—,112.8,107.0,4.81
-1988,25,POR,Portland Trail Blazers,53,29,.646,9.0,116.1,111.5,3.59
-1988,21,SEA,Seattle Supersonics,44,38,.537,18.0,111.4,109.3,1.29
-1988,24,PHO,Phoenix Suns,28,54,.341,34.0,108.5,113.0,-4.80
-1988,10,GSW,Golden State Warriors,20,62,.244,42.0,107.0,115.3,-8.38
-1988,13,LAC,Los Angeles Clippers,17,65,.207,45.0,98.8,109.1,-10.24
+1988,8,DEN,Denver Nuggets,54,28,0.66,—,116.7,112.7,3.32
+1988,7,DAL,Dallas Mavericks,53,29,0.65,1.0,109.3,104.9,3.59
+1988,29,UTA,Utah Jazz,47,35,0.57,7.0,108.5,104.8,2.96
+1988,11,HOU,Houston Rockets,46,36,0.56,8.0,109.0,107.6,0.82
+1988,27,SAS,San Antonio Spurs,31,51,0.38,23.0,113.6,118.5,-5.02
+1988,26,SAC,Sacramento Kings,24,58,0.29,30.0,108.0,113.7,-5.84
+1988,14,LAL,Los Angeles Lakers,62,20,0.76,—,112.8,107.0,4.81
+1988,25,POR,Portland Trail Blazers,53,29,0.65,9.0,116.1,111.5,3.59
+1988,21,SEA,Seattle Supersonics,44,38,0.54,18.0,111.4,109.3,1.29
+1988,24,PHO,Phoenix Suns,28,54,0.34,34.0,108.5,113.0,-4.8
+1988,10,GSW,Golden State Warriors,20,62,0.24,42.0,107.0,115.3,-8.38
+1988,13,LAC,Los Angeles Clippers,17,65,0.21,45.0,98.8,109.1,-10.24
