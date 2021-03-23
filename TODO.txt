@@ -16,7 +16,7 @@ Call_Queries:       In Progress
 For Queries:                          Amount CALL
 Season:                   NA          | 0  | IN PROGRESS   UNIT TEST DONE?: NA
 Team:                     Done        | 5  | Done          UNIT TEST DONE?: Restart
-Player:                   Done        | 3  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player:                   Done        | 3  | Done          UNIT TEST DONE?: Restart
 Conference Standings:     Done        | 8  | Done          UNIT TEST DONE?: Restart
 Roster:                   Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
 Team Stats:               Done        | 16 | IN PROGRESS   UNIT TEST DONE?: Restart 

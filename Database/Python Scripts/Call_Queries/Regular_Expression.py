@@ -89,7 +89,7 @@ def team_name_regex(team_name):
         return True
 
 '''
-Regrex for team_abv parameter
+Regex for team_abv parameter
 '''
 def team_abv_regex(abv):
     # Convert abv into a valid string in Python
@@ -100,7 +100,7 @@ def team_abv_regex(abv):
         return True
 
 '''
-Regrex for player_name parameter
+Regex for player_name parameter
 '''
 def player_name_regrex(player_name):
     # Convert player_name into a valid string in Python
@@ -110,3 +110,6 @@ def player_name_regrex(player_name):
         print("Please enter a valid player name that may contain special chars")
         return True
 
+'''
+Regex for date of births  
+'''
