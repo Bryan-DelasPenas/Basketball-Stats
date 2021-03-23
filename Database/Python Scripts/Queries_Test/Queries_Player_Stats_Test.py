@@ -174,13 +174,68 @@ class TestQueryPlayerTotals(unittest.TestCase):
         pd.testing.assert_frame_equal(df_result, df_expected)
 
     def test_query_player_stats_one_tid_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Kareem_Abdul_Jabbar_Reg_FGM.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float})
+       
+        # Connect to sql database
+        engine = create_connection()
+        
+        # Test the connection of the database
+        conn = test_connection(engine)
+        trans = conn.begin()
+        
+        result = conn.execute(
+        """
+        CALL query_player_stats_one_pid(%s, %s, %s, %s)
+        """, ['Field_Goals_Made', 'Player_Totals', 0, 2]
+        ).fetchall()
+       
+        df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Field_Goals_Made'])
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
     def test_query_player_stats_two_tid_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Kareem_Abdul_Jabbar_Reg_Lakers_FGM_FGA.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float})
+        
+        # Connect to sql database
+        engine = create_connection()
+        
+        # Test the connection of the database
+        conn = test_connection(engine)
+        trans = conn.begin()
+        
+        result = conn.execute(
+        """
+        CALL query_player_stats_two_tid_pid(%s, %s, %s, %s, %s, %s)
+        """, ['Field_Goals_Made', 'Field_Goals_Attempted','Player_Totals', 0, 14, 2]
+        ).fetchall()
+       
+        df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Field_Goals_Made', 'Field_Goals_Attempted'])
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
     def test_query_player_stats_three_tid_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Kareem_Abdul_Jabbar_Reg_Lakers_FGM_FGA_FG%.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float})
+        
+        # Connect to sql database
+        engine = create_connection()
+        
+        # Test the connection of the database
+        conn = test_connection(engine)
+        trans = conn.begin()
+        
+        result = conn.execute(
+        """
+        CALL query_player_stats_three_tid_pid(%s, %s, %s, %s, %s, %s, %s)
+        """, ['Field_Goals_Made','Field_Goals_Attempted','Field_Goals_Percentage' ,'Player_Totals', 0, 14, 2]
+        ).fetchall()
+       
+        df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Field_Goals_Made', 'Field_Goals_Attempted',
+        'Field_Goals_Percentage'])
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
     def test_query_player_stats_primary_tid_pid(self):
         return None
