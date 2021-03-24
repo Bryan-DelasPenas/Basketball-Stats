@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import pathlib
 from pathlib import Path
+from datetime import datetime
 
 from bs4 import BeautifulSoup
 from requests import get
@@ -9,6 +10,16 @@ import unicodedata, unidecode
 
 from utils import strip_accents
 
+'''
+
+'''
+def proper_dates(date):
+    # Removes the comma 
+    date = date.replace(',','')
+    
+    # Changes into YYYY-MM-DD
+    datetime_object = datetime.strptime(date, "%B %d %Y").strftime('%Y-%m-%d')
+    return str(datetime_object)
 
 '''
 Creates a dataframe of player's name active from 1980 - 2020
@@ -40,7 +51,8 @@ def get_player_name(letter):
         # Remove * and translate accented char to normal ones
         df['Player'] = df['Player'].apply(lambda x: x.replace('*', ''))
         df['Player'] = df['Player'].apply(lambda name: strip_accents(name))
-        
+        df['Birth_Date'] = df['Birth_Date'].apply(lambda date: proper_dates(date))
+
         # Drop unneeded columns
         df = df.drop(['Pos', 'From', 'To','Height', 'Weight', 'College'], axis=1)
         
@@ -93,5 +105,6 @@ def players_names_csv():
         pass
 
 def main():
+    
     players_names_csv()
 main()
