@@ -70,7 +70,7 @@ def get_player_suffix(name, birth_date):
     # Flag for middle name
     middle_flag = False
     name_tuple = (name, birth_date)
- 
+    
     # Special Case: for name = Jeff Aryes since he changed his name in 2013
     if(name_tuple in RIGHT_PLAYER_SUFIX):
         sub_name = RIGHT_PLAYER_SUFIX[name_tuple]
@@ -78,7 +78,7 @@ def get_player_suffix(name, birth_date):
         # Get the first initial of last name
         initial = sub_name.split(' ')[1][0].lower()
         suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
-    
+       
     # Special case, he does not start at 01 but 02
     elif(name == "P.J. Hairston" or name == "Markus Howard" or name == "Xavier Munford" or name == "Cherokee Parks" or name == "Tony Smith"):
         initial = name.split(' ')[1][0].lower()
@@ -176,7 +176,7 @@ def get_player_suffix(name, birth_date):
             name = ""
             name = name_list[0] + " " + name_list[1] + " " + name_list[2] 
         #print(page_name, ":", name)
-        print(final_date, ":", birth_date)
+        #print(final_date, ":", birth_date)
         
         # This is for accented characters on the website         
         if(unidecode.unidecode(page_name).lower() == name.lower() and birth_date == final_date):
@@ -360,13 +360,14 @@ def lookup(name, birth_date):
     df = pd.read_csv(path)
     
     # Changes the name to be upper case
-    name = name.title()
-
+    #name = name.title()
+   
     # Search dataframe for name and birthdate
     df_new = df.loc[(df['Player'] == name) & (df['Birth_Date'] == birth_date)]
 
     # Put into a list and return
     record = df_new.values.tolist()
+    
     return record
 
 '''
@@ -683,5 +684,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_player_suffix("Kareem Abdul-Jabbar", "1947-04-16"))
+    print(get_player_suffix("Jeff Ayres", "1987-04-29"))
 main()

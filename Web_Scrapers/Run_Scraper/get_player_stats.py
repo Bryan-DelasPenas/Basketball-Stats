@@ -154,6 +154,7 @@ def get_player_csv():
         csv_career_stats(player[0], player[1], 'Totals', True, player_path)
         csv_career_stats(player[0], player[1], 'Advanced', True, player_path)
         count += 1
+        
 def main():
 
     start_time = time.time()
