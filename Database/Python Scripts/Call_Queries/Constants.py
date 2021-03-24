@@ -17,6 +17,7 @@ UPDATE_NAME = {
 }
 '''
 
+
 def create_sid_team_id_dict():
     
     team_id_dict = {}
@@ -43,14 +44,14 @@ def played_for_team():
 
     for team in team_csv:
         # Convert file name into dataframes
-        df = pd.read_csv(path + "\\" + team)
+        df_played = pd.read_csv(path + "\\" + team)
+    
+        team_id_list = df_played['Team_ID'].tolist()
+        player_id_list = df_played['Player_ID'].tolist()
 
-        team_abv_list = df['Team_ABV'].tolist()
-        player_name_list = df['Player_Name'].tolist()
-
-        temp_dict[team_abv_list[0]] = player_name_list 
-
+        temp_dict[team_id_list[0]] = player_id_list 
+        
     return temp_dict
 
-PLAYED_FOR_TEAM_ABV = played_for_team()
+PLAYED_FOR_TEAM_ID = played_for_team()
 VALID_SID_TEAM_IDS = create_sid_team_id_dict()
