@@ -9,7 +9,7 @@ import time
 import numpy as np
 
 from Team_Constants import ABV_TO_TEAM, TEAM_ID, RIGHT_NAME_DICT, PLAYER_ID, RIGHT_PLAYER_SUFIX, SPECIAL_NAME_DICT
-from utils import strip_accents, remove_char
+from utils import strip_accents, remove_char, proper_dates
 
 '''
 Check if string can be converted to ABV
@@ -158,6 +158,11 @@ def get_player_suffix(name, birth_date):
                 else:
                     final_date += date[index]
         
+        # Remove the comma
+        # Change it to format YYYY-MM-DD
+        final_date = final_date.replace(',','')
+        final_date = proper_dates(final_date)
+        
         name_tuple = (name, birth_date)
         # Special Case: For some reason Nene Hilario is just Nene
         if(name_tuple in SPECIAL_NAME_DICT):
@@ -171,7 +176,8 @@ def get_player_suffix(name, birth_date):
             name = ""
             name = name_list[0] + " " + name_list[1] + " " + name_list[2] 
         #print(page_name, ":", name)
-        #print(final_date, ":", birth_date)
+        print(final_date, ":", birth_date)
+        
         # This is for accented characters on the website         
         if(unidecode.unidecode(page_name).lower() == name.lower() and birth_date == final_date):
             return suffix
@@ -677,5 +683,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_player_stats("Kareem Abdul-Jabbar", "April 16, 1947"))
+    print(get_player_suffix("Kareem Abdul-Jabbar", "1947-04-16"))
 main()

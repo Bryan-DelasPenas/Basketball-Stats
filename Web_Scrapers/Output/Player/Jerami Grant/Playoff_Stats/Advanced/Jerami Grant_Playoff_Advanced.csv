@@ -1,5 +1,0 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2017,21,1084,OKC,Oklahoma City Thunder,Jerami Grant,"March 12, 1994",22.0,NBA,PF,5.0,111.0,16.2,0.68,0.19,0.23,6.4,12.4,9.2,5.7,0.4,1.7,8.1,14.3,0.3,0.0,0.3,0.13,1.2,-0.3,0.9,0.1
-2018,21,1084,OKC,Oklahoma City Thunder,Jerami Grant,"March 12, 1994",23.0,NBA,PF,6.0,133.0,11.3,0.54,0.23,0.31,6.4,9.4,7.9,7.1,1.5,2.1,13.1,15.1,0.1,0.1,0.2,0.07,-1.4,-0.2,-1.6,0.0
-2019,21,1084,OKC,Oklahoma City Thunder,Jerami Grant,"March 12, 1994",24.0,NBA,PF,5.0,176.0,13.2,0.63,0.5,0.32,3.6,13.8,8.6,3.4,0.8,4.8,8.0,12.1,0.3,0.1,0.4,0.11,0.6,1.9,2.5,0.2
-2020,8,1084,DEN,Denver Nuggets,Jerami Grant,"March 12, 1994",25.0,NBA,PF,19.0,653.0,9.0,0.56,0.54,0.31,1.5,10.0,5.7,5.5,0.9,2.2,11.2,15.6,0.3,0.2,0.5,0.03,-1.7,-1.1,-2.8,-0.1

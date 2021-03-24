@@ -1,6 +1,0 @@
-Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
-2014,28,2513,TOR,Toronto Raptors,Terrence Ross,"February 5, 1991",22.0,NBA,SG,7.0,158.0,0.9,0.36,0.51,0.11,0.8,9.6,5.4,2.1,2.1,1.7,14.0,17.0,-0.5,0.2,-0.3,-0.1,-6.5,-1.2,-7.7,-0.2
-2015,28,2513,TOR,Toronto Raptors,Terrence Ross,"February 5, 1991",23.0,NBA,SF,4.0,107.0,7.7,0.48,0.62,0.0,0.0,6.8,3.2,5.8,1.4,3.2,6.5,13.0,0.0,0.0,0.0,-0.02,-0.6,-0.5,-1.2,0.0
-2016,28,2513,TOR,Toronto Raptors,Terrence Ross,"February 5, 1991",24.0,NBA,SF,20.0,335.0,10.0,0.49,0.54,0.17,1.4,10.7,5.7,5.8,2.1,1.3,11.1,19.9,-0.1,0.3,0.2,0.02,-0.4,0.2,-0.2,0.1
-2019,22,2513,ORL,Orlando Magic,Terrence Ross,"February 5, 1991",27.0,NBA,SG,5.0,146.0,11.2,0.54,0.65,0.32,0.7,13.7,6.7,9.0,2.1,1.3,14.0,21.7,-0.1,0.1,0.0,0.02,-0.2,1.1,0.9,0.1
-2020,22,2513,ORL,Orlando Magic,Terrence Ross,"February 5, 1991",28.0,NBA,SG,5.0,135.0,13.9,0.58,0.47,0.22,0.7,16.8,8.4,6.7,1.4,0.8,10.2,24.7,0.0,0.1,0.1,0.05,-0.6,0.1,-0.4,0.1
