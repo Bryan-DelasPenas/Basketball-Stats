@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2015,1,97,ATL,Atlanta Hawks,6,Pero Antic,C,6-11,260,"July 29, 1982",MK,1,
-2015,1,198,ATL,Atlanta Hawks,24,Kent Bazemore,SG,6-4,195,"July 1, 1989",US,2,Old Dominion
-2015,1,333,ATL,Atlanta Hawks,7,Elton Brand,C,6-8,275,"March 11, 1979",US,15,Duke
-2015,1,481,ATL,Atlanta Hawks,5,DeMarre Carroll,SF,6-6,215,"July 27, 1986",US,5,"Vanderbilt, Missouri"
-2015,1,711,ATL,Atlanta Hawks,3,Austin Daye,SF,6-11,220,"June 5, 1988",US,5,Gonzaga
-2015,1,1326,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,"June 3, 1986",DO,7,Florida
-2015,1,1450,ATL,Atlanta Hawks,12,John Jenkins,SG,6-4,215,"March 6, 1991",US,2,Vanderbilt
-2015,1,1652,ATL,Atlanta Hawks,26,Kyle Korver,SG,6-7,212,"March 17, 1981",US,11,Creighton
-2015,1,1801,ATL,Atlanta Hawks,8,Shelvin Mack,PG,6-3,203,"April 22, 1990",US,3,Butler
-2015,1,2004,ATL,Atlanta Hawks,4,Paul Millsap,PF,6-7,257,"February 10, 1985",US,8,Louisiana Tech
-2015,1,2097,ATL,Atlanta Hawks,31,Mike Muscala,PF,6-10,240,"July 1, 1991",US,1,Bucknell
-2015,1,2269,ATL,Atlanta Hawks,33,Adreian Payne,PF,6-10,237,"February 19, 1991",US,R,Michigan State
-2015,1,2579,ATL,Atlanta Hawks,17,Dennis Schroder,PG,6-3,172,"September 15, 1993",DE,1,
-2015,1,2588,ATL,Atlanta Hawks,32,Mike Scott,PF,6-7,237,"July 16, 1988",US,2,Virginia
-2015,1,2593,ATL,Atlanta Hawks,25,Thabo Sefolosha,SF,6-6,215,"May 2, 1984",CH,8,
-2015,1,2826,ATL,Atlanta Hawks,0,Jeff Teague,PG,6-3,195,"June 10, 1988",US,5,Wake Forest
+2015,1,97,ATL,Atlanta Hawks,6,Pero Antic,C,6-11,260,1982-07-29,MK,1,
+2015,1,198,ATL,Atlanta Hawks,24,Kent Bazemore,SG,6-4,195,1989-07-01,US,2,Old Dominion
+2015,1,333,ATL,Atlanta Hawks,7,Elton Brand,C,6-8,275,1979-03-11,US,15,Duke
+2015,1,481,ATL,Atlanta Hawks,5,DeMarre Carroll,SF,6-6,215,1986-07-27,US,5,"Vanderbilt, Missouri"
+2015,1,712,ATL,Atlanta Hawks,3,Austin Daye,SF,6-11,220,1988-06-05,US,5,Gonzaga
+2015,1,1328,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,1986-06-03,DO,7,Florida
+2015,1,1452,ATL,Atlanta Hawks,12,John Jenkins,SG,6-4,215,1991-03-06,US,2,Vanderbilt
+2015,1,1654,ATL,Atlanta Hawks,26,Kyle Korver,SG,6-7,212,1981-03-17,US,11,Creighton
+2015,1,1804,ATL,Atlanta Hawks,8,Shelvin Mack,PG,6-3,203,1990-04-22,US,3,Butler
+2015,1,2007,ATL,Atlanta Hawks,4,Paul Millsap,PF,6-7,257,1985-02-10,US,8,Louisiana Tech
+2015,1,2100,ATL,Atlanta Hawks,31,Mike Muscala,PF,6-10,240,1991-07-01,US,1,Bucknell
+2015,1,2272,ATL,Atlanta Hawks,33,Adreian Payne,PF,6-10,237,1991-02-19,US,R,Michigan State
+2015,1,2583,ATL,Atlanta Hawks,17,Dennis Schroder,PG,6-3,172,1993-09-15,DE,1,
+2015,1,2592,ATL,Atlanta Hawks,32,Mike Scott,PF,6-7,237,1988-07-16,US,2,Virginia
+2015,1,2597,ATL,Atlanta Hawks,25,Thabo Sefolosha,SF,6-6,215,1984-05-02,CH,8,
+2015,1,2830,ATL,Atlanta Hawks,0,Jeff Teague,PG,6-3,195,1988-06-10,US,5,Wake Forest

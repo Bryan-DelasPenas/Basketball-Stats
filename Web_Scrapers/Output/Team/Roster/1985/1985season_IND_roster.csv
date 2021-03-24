@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1985,12,401,IND,Indiana Pacers,8,Tony Brown,SF,6-6,185,"July 29, 1960",US,R,Arkansas
-1985,12,809,IND,Indiana Pacers,7,Devin Durrant,SF,6-7,200,"October 20, 1960",US,R,BYU
-1985,12,822,IND,Indiana Pacers,25,Kenton Edelin,SF,6-8,205,"May 24, 1962",DE,R,Virginia
-1985,12,922,IND,Indiana Pacers,10,Vern Fleming,PG,6-5,185,"February 4, 1962",US,R,Georgia
-1985,12,996,IND,Indiana Pacers,20,Bill Garnett,PF,6-9,225,"April 22, 1960",US,2,Wyoming
-1985,12,1095,IND,Indiana Pacers,55,Stuart Gray,C,7-0,235,"May 27, 1963",PA,R,UCLA
-1985,12,1414,IND,Indiana Pacers,2,Ralph Jackson,PG,6-2,190,"October 26, 1962",US,R,UCLA
-1985,12,1590,IND,Indiana Pacers,33,Clark Kellogg,PF,6-7,225,"July 2, 1961",US,2,Ohio State
-1985,12,1592,IND,Indiana Pacers,11,Greg Kelser,SF,6-7,190,"September 17, 1957",US,5,Michigan State
-1985,12,2627,IND,Indiana Pacers,14,Jerry Sichting,PG,6-1,168,"November 29, 1956",US,4,Purdue
-1985,12,2739,IND,Indiana Pacers,43,Terence Stansbury,SG,6-5,170,"February 27, 1961",US,R,Temple
-1985,12,2759,IND,Indiana Pacers,40,Steve Stipanovich,C,6-11,245,"November 17, 1960",US,1,Missouri
-1985,12,2853,IND,Indiana Pacers,19,Jim Thomas,SG,6-3,190,"October 19, 1960",US,1,Indiana
-1985,12,2999,IND,Indiana Pacers,31,Granville Waiters,C,6-11,225,"January 8, 1961",US,1,Ohio State
-1985,12,3145,IND,Indiana Pacers,32,Herb Williams,C,6-10,242,"February 16, 1958",US,3,Ohio State
+1985,12,401,IND,Indiana Pacers,8,Tony Brown,SF,6-6,185,1960-07-29,US,R,Arkansas
+1985,12,811,IND,Indiana Pacers,7,Devin Durrant,SF,6-7,200,1960-10-20,US,R,BYU
+1985,12,824,IND,Indiana Pacers,25,Kenton Edelin,SF,6-8,205,1962-05-24,DE,R,Virginia
+1985,12,924,IND,Indiana Pacers,10,Vern Fleming,PG,6-5,185,1962-02-04,US,R,Georgia
+1985,12,998,IND,Indiana Pacers,20,Bill Garnett,PF,6-9,225,1960-04-22,US,2,Wyoming
+1985,12,1097,IND,Indiana Pacers,55,Stuart Gray,C,7-0,235,1963-05-27,PA,R,UCLA
+1985,12,1416,IND,Indiana Pacers,2,Ralph Jackson,PG,6-2,190,1962-10-26,US,R,UCLA
+1985,12,1592,IND,Indiana Pacers,33,Clark Kellogg,PF,6-7,225,1961-07-02,US,2,Ohio State
+1985,12,1594,IND,Indiana Pacers,11,Greg Kelser,SF,6-7,190,1957-09-17,US,5,Michigan State
+1985,12,2631,IND,Indiana Pacers,14,Jerry Sichting,PG,6-1,168,1956-11-29,US,4,Purdue
+1985,12,2743,IND,Indiana Pacers,43,Terence Stansbury,SG,6-5,170,1961-02-27,US,R,Temple
+1985,12,2763,IND,Indiana Pacers,40,Steve Stipanovich,C,6-11,245,1960-11-17,US,1,Missouri
+1985,12,2857,IND,Indiana Pacers,19,Jim Thomas,SG,6-3,190,1960-10-19,US,1,Indiana
+1985,12,3004,IND,Indiana Pacers,31,Granville Waiters,C,6-11,225,1961-01-08,US,1,Ohio State
+1985,12,3151,IND,Indiana Pacers,32,Herb Williams,C,6-10,242,1958-02-16,US,3,Ohio State

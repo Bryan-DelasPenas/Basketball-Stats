@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2001,2,77,BOS,Boston Celtics,7,Kenny Anderson,PG,6-0,168,"October 9, 1970",US,9,Georgia Tech
-2001,2,188,BOS,Boston Celtics,4,Tony Battie,C,6-11,230,"February 11, 1976",US,3,Texas Tech
-2001,2,271,BOS,Boston Celtics,30,Mark Blount,C,7-0,230,"November 30, 1975",US,R,Pitt
-2001,2,394,BOS,Boston Celtics,11,Randy Brown,PG,6-2,190,"May 22, 1968",US,9,"Houston, New Mexico State"
-2001,2,405,BOS,Boston Celtics,40,Rick Brunson,PG,6-4,190,"June 14, 1972",US,3,Temple
-2001,2,476,BOS,Boston Celtics,43,Chris Carr,SG,6-5,207,"March 12, 1974",US,5,Southern Illinois
-2001,2,1124,BOS,Boston Celtics,44,Adrian Griffin,SF,6-5,217,"July 4, 1974",US,1,Seton Hall
-2001,2,1269,BOS,Boston Celtics,12,Chris Herren,PG,6-2,197,"September 27, 1975",US,1,"Boston College, Fresno State"
-2001,2,1901,BOS,Boston Celtics,0,Walter McCarty,PF,6-10,230,"February 1, 1974",US,4,Kentucky
-2001,2,2023,BOS,Boston Celtics,5,Jerome Moiso,C,6-10,235,"June 15, 1978",FR,R,UCLA
-2001,2,2224,BOS,Boston Celtics,9,Doug Overton,PG,6-3,190,"August 3, 1969",US,8,La Salle
-2001,2,2239,BOS,Boston Celtics,9,Milt Palacio,PG,6-3,195,"February 7, 1978",US,1,"Midland College, Colorado State"
-2001,2,2307,BOS,Boston Celtics,34,Paul Pierce,SF,6-7,235,"October 13, 1977",US,2,Kansas
-2001,2,2349,BOS,Boston Celtics,52,Vitaly Potapenko,C,6-10,280,"March 21, 1975",UA,4,Wright State University
-2001,2,2760,BOS,Boston Celtics,20,Bryant Stith,SG,6-5,208,"December 10, 1970",US,8,Virginia
-2001,2,3001,BOS,Boston Celtics,8,Antoine Walker,PF,6-8,224,"August 12, 1976",US,4,Kentucky
-2001,2,3139,BOS,Boston Celtics,55,Eric Williams,SF,6-8,220,"July 17, 1972",US,5,Providence
+2001,2,77,BOS,Boston Celtics,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,9,Georgia Tech
+2001,2,188,BOS,Boston Celtics,4,Tony Battie,C,6-11,230,1976-02-11,US,3,Texas Tech
+2001,2,271,BOS,Boston Celtics,30,Mark Blount,C,7-0,230,1975-11-30,US,R,Pitt
+2001,2,394,BOS,Boston Celtics,11,Randy Brown,PG,6-2,190,1968-05-22,US,9,"Houston, New Mexico State"
+2001,2,405,BOS,Boston Celtics,40,Rick Brunson,PG,6-4,190,1972-06-14,US,3,Temple
+2001,2,476,BOS,Boston Celtics,43,Chris Carr,SG,6-5,207,1974-03-12,US,5,Southern Illinois
+2001,2,1126,BOS,Boston Celtics,44,Adrian Griffin,SF,6-5,217,1974-07-04,US,1,Seton Hall
+2001,2,1271,BOS,Boston Celtics,12,Chris Herren,PG,6-2,197,1975-09-27,US,1,"Boston College, Fresno State"
+2001,2,1904,BOS,Boston Celtics,0,Walter McCarty,PF,6-10,230,1974-02-01,US,4,Kentucky
+2001,2,2026,BOS,Boston Celtics,5,Jerome Moiso,C,6-10,235,1978-06-15,FR,R,UCLA
+2001,2,2227,BOS,Boston Celtics,9,Doug Overton,PG,6-3,190,1969-08-03,US,8,La Salle
+2001,2,2242,BOS,Boston Celtics,9,Milt Palacio,PG,6-3,195,1978-02-07,US,1,"Midland College, Colorado State"
+2001,2,2310,BOS,Boston Celtics,34,Paul Pierce,SF,6-7,235,1977-10-13,US,2,Kansas
+2001,2,2353,BOS,Boston Celtics,52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,4,Wright State University
+2001,2,2764,BOS,Boston Celtics,20,Bryant Stith,SG,6-5,208,1970-12-10,US,8,Virginia
+2001,2,3006,BOS,Boston Celtics,8,Antoine Walker,PF,6-8,224,1976-08-12,US,4,Kentucky
+2001,2,3145,BOS,Boston Celtics,55,Eric Williams,SF,6-8,220,1972-07-17,US,5,Providence

@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2015,30,200,WAS,Washington Wizards,3,Bradley Beal,SG,6-3,207,"June 28, 1993",US,2,Florida
-2015,30,259,WAS,Washington Wizards,45,DeJuan Blair,PF,6-7,270,"April 22, 1989",US,5,Pitt
-2015,30,441,WAS,Washington Wizards,8,Rasual Butler,SF,6-7,215,"May 23, 1979",US,11,La Salle
-2015,30,445,WAS,Washington Wizards,1,Will Bynum,SG,6-0,185,"January 4, 1983",US,7,"Arizona, Georgia Tech"
-2015,30,1056,WAS,Washington Wizards,90,Drew Gooden,PF,6-10,250,"September 24, 1981",US,12,Kansas
-2015,30,1065,WAS,Washington Wizards,4,Marcin Gortat,C,6-11,240,"February 17, 1984",PL,7,
-2015,30,1287,WAS,Washington Wizards,42,Nene Hilario,PF,6-11,250,"September 13, 1982",BR,12,
-2015,30,1362,WAS,Washington Wizards,43,Kris Humphries,PF,6-9,235,"February 6, 1985",US,10,Minnesota
-2015,30,1989,WAS,Washington Wizards,24,Andre Miller,PG,6-3,200,"March 19, 1976",US,15,Utah
-2015,30,2095,WAS,Washington Wizards,1,Toure' Murry,SG,6-5,195,"November 8, 1989",US,1,Wichita State
-2015,30,2307,WAS,Washington Wizards,34,Paul Pierce,SF,6-7,235,"October 13, 1977",US,16,Kansas
-2015,30,2343,WAS,Washington Wizards,22,Otto Porter,SF,6-8,198,"June 3, 1993",US,1,Georgetown
-2015,30,2438,WAS,Washington Wizards,14,Glen Rice Jr.,SG,6-6,206,"January 1, 1991",US,1,Georgia Tech
-2015,30,2599,WAS,Washington Wizards,13,Kevin Seraphin,C,6-9,285,"December 7, 1989",GF,4,
-2015,30,2601,WAS,Washington Wizards,7,Ramon Sessions,PG,6-3,190,"April 11, 1986",US,7,Nevada
-2015,30,2830,WAS,Washington Wizards,17,Garrett Temple,SG,6-5,195,"May 8, 1986",US,4,LSU
-2015,30,3010,WAS,Washington Wizards,2,John Wall,PG,6-3,210,"September 6, 1990",US,4,Kentucky
-2015,30,3060,WAS,Washington Wizards,9,Martell Webster,SF,6-7,230,"December 4, 1986",US,9,
+2015,30,200,WAS,Washington Wizards,3,Bradley Beal,SG,6-3,207,1993-06-28,US,2,Florida
+2015,30,259,WAS,Washington Wizards,45,DeJuan Blair,PF,6-7,270,1989-04-22,US,5,Pitt
+2015,30,441,WAS,Washington Wizards,8,Rasual Butler,SF,6-7,215,1979-05-23,US,11,La Salle
+2015,30,445,WAS,Washington Wizards,1,Will Bynum,SG,6-0,185,1983-01-04,US,7,"Arizona, Georgia Tech"
+2015,30,1058,WAS,Washington Wizards,90,Drew Gooden,PF,6-10,250,1981-09-24,US,12,Kansas
+2015,30,1067,WAS,Washington Wizards,4,Marcin Gortat,C,6-11,240,1984-02-17,PL,7,
+2015,30,1289,WAS,Washington Wizards,42,Nene Hilario,PF,6-11,250,1982-09-13,BR,12,
+2015,30,1364,WAS,Washington Wizards,43,Kris Humphries,PF,6-9,235,1985-02-06,US,10,Minnesota
+2015,30,1992,WAS,Washington Wizards,24,Andre Miller,PG,6-3,200,1976-03-19,US,15,Utah
+2015,30,2098,WAS,Washington Wizards,1,Toure' Murry,SG,6-5,195,1989-11-08,US,1,Wichita State
+2015,30,2310,WAS,Washington Wizards,34,Paul Pierce,SF,6-7,235,1977-10-13,US,16,Kansas
+2015,30,2347,WAS,Washington Wizards,22,Otto Porter,SF,6-8,198,1993-06-03,US,1,Georgetown
+2015,30,2442,WAS,Washington Wizards,14,Glen Rice,SG,6-6,206,1991-01-01,US,1,Georgia Tech
+2015,30,2603,WAS,Washington Wizards,13,Kevin Seraphin,C,6-9,285,1989-12-07,GF,4,
+2015,30,2605,WAS,Washington Wizards,7,Ramon Sessions,PG,6-3,190,1986-04-11,US,7,Nevada
+2015,30,2834,WAS,Washington Wizards,17,Garrett Temple,SG,6-5,195,1986-05-08,US,4,LSU
+2015,30,3015,WAS,Washington Wizards,2,John Wall,PG,6-3,210,1990-09-06,US,4,Kentucky
+2015,30,3065,WAS,Washington Wizards,9,Martell Webster,SF,6-7,230,1986-12-04,US,9,

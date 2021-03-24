@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2013,3,265,BRK,Brooklyn Nets,0,Andray Blatche,C,6-11,235,"August 22, 1986",US,7,
-2013,3,275,BRK,Brooklyn Nets,10,Keith Bogans,SG,6-5,215,"May 12, 1980",US,9,Kentucky
-2013,3,364,BRK,Brooklyn Nets,9,MarShon Brooks,SG,6-5,200,"January 26, 1989",US,1,Providence
-2013,3,527,BRK,Brooklyn Nets,2,Josh Childress,SF,6-8,210,"June 20, 1983",US,6,Stanford
-2013,3,880,BRK,Brooklyn Nets,30,Reggie Evans,PF,6-8,245,"May 18, 1980",US,10,Iowa
-2013,3,1362,BRK,Brooklyn Nets,43,Kris Humphries,PF,6-9,235,"February 6, 1985",US,8,Minnesota
-2013,3,1425,BRK,Brooklyn Nets,14,Damion James,SF,6-7,225,"October 7, 1987",US,2,Texas
-2013,3,1494,BRK,Brooklyn Nets,7,Joe Johnson,SG,6-7,240,"June 29, 1981",US,11,Arkansas
-2013,3,1574,BRK,Brooklyn Nets,24,Kris Joseph,SF,6-7,210,"December 17, 1988",CA,R,Syracuse
-2013,3,1775,BRK,Brooklyn Nets,11,Brook Lopez,C,7-0,282,"April 1, 1988",US,4,Stanford
-2013,3,2616,BRK,Brooklyn Nets,20,Tornike Shengelia,SF,6-9,217,"October 5, 1991",GE,R,
-2013,3,2736,BRK,Brooklyn Nets,42,Jerry Stackhouse,SF,6-6,218,"November 5, 1974",US,17,UNC
-2013,3,2823,BRK,Brooklyn Nets,41,Tyshawn Taylor,PG,6-3,185,"April 12, 1990",US,R,Kansas
-2013,3,2828,BRK,Brooklyn Nets,33,Mirza Teletovic,PF,6-9,242,"September 18, 1985",BA,R,
-2013,3,3012,BRK,Brooklyn Nets,45,Gerald Wallace,SF,6-7,215,"July 23, 1982",US,11,Alabama
-2013,3,3043,BRK,Brooklyn Nets,1,C.J. Watson,PG,6-2,175,"April 17, 1984",US,5,Tennessee
-2013,3,3135,BRK,Brooklyn Nets,8,Deron Williams,PG,6-3,200,"June 26, 1984",US,7,Illinois
+2013,3,265,BRK,Brooklyn Nets,0,Andray Blatche,C,6-11,235,1986-08-22,US,7,
+2013,3,275,BRK,Brooklyn Nets,10,Keith Bogans,SG,6-5,215,1980-05-12,US,9,Kentucky
+2013,3,364,BRK,Brooklyn Nets,9,MarShon Brooks,SG,6-5,200,1989-01-26,US,1,Providence
+2013,3,527,BRK,Brooklyn Nets,2,Josh Childress,SF,6-8,210,1983-06-20,US,6,Stanford
+2013,3,882,BRK,Brooklyn Nets,30,Reggie Evans,PF,6-8,245,1980-05-18,US,10,Iowa
+2013,3,1364,BRK,Brooklyn Nets,43,Kris Humphries,PF,6-9,235,1985-02-06,US,8,Minnesota
+2013,3,1427,BRK,Brooklyn Nets,14,Damion James,SF,6-7,225,1987-10-07,US,2,Texas
+2013,3,1496,BRK,Brooklyn Nets,7,Joe Johnson,SG,6-7,240,1981-06-29,US,11,Arkansas
+2013,3,1576,BRK,Brooklyn Nets,24,Kris Joseph,SF,6-7,210,1988-12-17,CA,R,Syracuse
+2013,3,1778,BRK,Brooklyn Nets,11,Brook Lopez,C,7-0,282,1988-04-01,US,4,Stanford
+2013,3,2620,BRK,Brooklyn Nets,20,Tornike Shengelia,SF,6-9,217,1991-10-05,GE,R,
+2013,3,2740,BRK,Brooklyn Nets,42,Jerry Stackhouse,SF,6-6,218,1974-11-05,US,17,UNC
+2013,3,2827,BRK,Brooklyn Nets,41,Tyshawn Taylor,PG,6-3,185,1990-04-12,US,R,Kansas
+2013,3,2832,BRK,Brooklyn Nets,33,Mirza Teletovic,PF,6-9,242,1985-09-18,BA,R,
+2013,3,3017,BRK,Brooklyn Nets,45,Gerald Wallace,SF,6-7,215,1982-07-23,US,11,Alabama
+2013,3,3048,BRK,Brooklyn Nets,1,C.J. Watson,PG,6-2,175,1984-04-17,US,5,Tennessee
+2013,3,3141,BRK,Brooklyn Nets,8,Deron Williams,PG,6-3,200,1984-06-26,US,7,Illinois

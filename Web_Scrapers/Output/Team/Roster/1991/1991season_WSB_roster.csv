@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1991,30,31,WSB,Washington Bullets,31,Mark Alarie,PF,6-8,217,"December 11, 1963",US,4,Duke
-1991,30,813,WSB,Washington Bullets,21,Ledell Eackles,SG,6-5,220,"November 24, 1966",US,2,New Orleans
-1991,30,854,WSB,Washington Bullets,43,Pervis Ellison,C,6-9,210,"April 3, 1967",US,1,Louisville
-1991,30,862,WSB,Washington Bullets,14,A.J. English,SG,6-3,175,"July 11, 1967",US,R,Virginia Union University
-1991,30,944,WSB,Washington Bullets,42,Greg Foster,PF,6-11,240,"October 3, 1968",US,R,"UCLA, Texas-El Paso"
-1991,30,1082,WSB,Washington Bullets,44,Harvey Grant,PF,6-8,195,"July 4, 1965",US,2,"Clemson, Oklahoma"
-1991,30,1167,WSB,Washington Bullets,12,Tom Hammonds,PF,6-9,215,"March 27, 1967",US,1,Georgia Tech
-1991,30,1386,WSB,Washington Bullets,32,Byron Irvin,SG,6-5,190,"December 2, 1966",US,1,"Arkansas, Missouri"
-1991,30,1530,WSB,Washington Bullets,23,Charles Jones,C,6-9,215,"April 3, 1957",US,7,Albany State University
-1991,30,1616,WSB,Washington Bullets,30,Bernard King,SF,6-7,205,"December 4, 1956",US,12,Tennessee
-1991,30,2485,WSB,Washington Bullets,2,Larry Robinson,SG,6-3,180,"January 11, 1968",US,R,Centenary (LA)
-1991,30,2674,WSB,Washington Bullets,22,Clinton Smith,SG,6-6,210,"January 19, 1964",US,1,"Ohio State, Cleveland State University"
-1991,30,3002,WSB,Washington Bullets,5,Darrell Walker,PG,6-4,180,"March 9, 1961",US,7,Arkansas
-1991,30,3152,WSB,Washington Bullets,34,John Williams,SF,6-8,235,"October 26, 1966",US,4,LSU
-1991,30,3233,WSB,Washington Bullets,3,Haywoode Workman,PG,6-2,180,"January 23, 1966",US,1,"Winston-Salem State, Oral Roberts"
+1991,30,31,WSB,Washington Bullets,31,Mark Alarie,PF,6-8,217,1963-12-11,US,4,Duke
+1991,30,815,WSB,Washington Bullets,21,Ledell Eackles,SG,6-5,220,1966-11-24,US,2,New Orleans
+1991,30,856,WSB,Washington Bullets,43,Pervis Ellison,C,6-9,210,1967-04-03,US,1,Louisville
+1991,30,864,WSB,Washington Bullets,14,A.J. English,SG,6-3,175,1967-07-11,US,R,Virginia Union University
+1991,30,946,WSB,Washington Bullets,42,Greg Foster,PF,6-11,240,1968-10-03,US,R,"UCLA, Texas-El Paso"
+1991,30,1084,WSB,Washington Bullets,44,Harvey Grant,PF,6-8,195,1965-07-04,US,2,"Clemson, Oklahoma"
+1991,30,1169,WSB,Washington Bullets,12,Tom Hammonds,PF,6-9,215,1967-03-27,US,1,Georgia Tech
+1991,30,1388,WSB,Washington Bullets,32,Byron Irvin,SG,6-5,190,1966-12-02,US,1,"Arkansas, Missouri"
+1991,30,1534,WSB,Washington Bullets,23,Charles Jones,C,6-9,215,1957-04-03,US,7,Albany State University
+1991,30,1618,WSB,Washington Bullets,30,Bernard King,SF,6-7,205,1956-12-04,US,12,Tennessee
+1991,30,2489,WSB,Washington Bullets,2,Larry Robinson,SG,6-3,180,1968-01-11,US,R,Centenary (LA)
+1991,30,2678,WSB,Washington Bullets,22,Clinton Smith,SG,6-6,210,1964-01-19,US,1,"Ohio State, Cleveland State University"
+1991,30,3007,WSB,Washington Bullets,5,Darrell Walker,PG,6-4,180,1961-03-09,US,7,Arkansas
+1991,30,3158,WSB,Washington Bullets,34,John Williams,SF,6-8,235,1966-10-26,US,4,LSU
+1991,30,3239,WSB,Washington Bullets,3,Haywoode Workman,PG,6-2,180,1966-01-23,US,1,"Winston-Salem State, Oral Roberts"

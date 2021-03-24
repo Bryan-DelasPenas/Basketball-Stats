@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2000,5,89,CHI,Chicago Bulls,22,Chris Anstey,C,7-0,249,"January 1, 1975",AU,2,
-2000,5,107,CHI,Chicago Bulls,11,B.J. Armstrong,PG,6-2,175,"September 9, 1967",US,10,Iowa
-2000,5,218,CHI,Chicago Bulls,25,Corey Benjamin,SG,6-6,200,"February 24, 1978",US,1,Oregon State
-2000,5,333,CHI,Chicago Bulls,42,Elton Brand,PF,6-8,275,"March 11, 1979",US,R,Duke
-2000,5,394,CHI,Chicago Bulls,1,Randy Brown,PG,6-2,190,"May 22, 1968",US,8,"Houston, New Mexico State"
-2000,5,476,CHI,Chicago Bulls,43,Chris Carr,SF,6-5,207,"March 12, 1974",US,4,Southern Illinois
-2000,5,673,CHI,Chicago Bulls,18,Kornel David,SF,6-9,235,"October 22, 1971",HU,1,
-2000,5,1229,CHI,Chicago Bulls,3,Hersey Hawkins,SG,6-3,190,"September 29, 1966",US,11,Bradley
-2000,5,1306,CHI,Chicago Bulls,20,Fred Hoiberg,SG,6-4,203,"October 15, 1972",US,4,Iowa State
-2000,5,1602,CHI,Chicago Bulls,6,Lari Ketner,PF,6-9,277,"February 1, 1977",US,R,UMass
-2000,5,1662,CHI,Chicago Bulls,7,Toni Kukoc,SF,6-10,192,"September 18, 1968",HR,6,
-2000,5,1673,CHI,Chicago Bulls,5,Rusty LaRue,PG,6-2,210,"December 10, 1973",US,2,Wake Forest
-2000,5,1825,CHI,Chicago Bulls,12,Matt Maloney,PG,6-3,192,"December 6, 1971",US,3,"Vanderbilt, Penn"
-2000,5,2285,CHI,Chicago Bulls,32,Will Perdue,C,7-0,240,"August 29, 1965",US,11,Vanderbilt
-2000,5,2421,CHI,Chicago Bulls,6,Khalid Reeves,PG,6-3,199,"July 15, 1972",US,5,Arizona
-2000,5,2529,CHI,Chicago Bulls,51,Michael Ruffin,PF,6-9,246,"January 21, 1977",US,R,Tulsa
-2000,5,2643,CHI,Chicago Bulls,8,Dickey Simpkins,PF,6-9,248,"April 6, 1972",US,5,Providence
-2000,5,2740,CHI,Chicago Bulls,9,John Starks,SG,6-3,180,"August 10, 1965",US,10,Oklahoma State
-2000,5,3194,CHI,Chicago Bulls,9,Dedric Willoughby,PG,6-3,180,"May 27, 1974",US,R,"New Orleans, Iowa State"
-2000,5,3234,CHI,Chicago Bulls,15,Metta World Peace,SF,6-6,260,"November 13, 1979",US,R,St. John's
+2000,5,89,CHI,Chicago Bulls,22,Chris Anstey,C,7-0,249,1975-01-01,AU,2,
+2000,5,107,CHI,Chicago Bulls,11,B.J. Armstrong,PG,6-2,175,1967-09-09,US,10,Iowa
+2000,5,218,CHI,Chicago Bulls,25,Corey Benjamin,SG,6-6,200,1978-02-24,US,1,Oregon State
+2000,5,333,CHI,Chicago Bulls,42,Elton Brand,PF,6-8,275,1979-03-11,US,R,Duke
+2000,5,394,CHI,Chicago Bulls,1,Randy Brown,PG,6-2,190,1968-05-22,US,8,"Houston, New Mexico State"
+2000,5,476,CHI,Chicago Bulls,43,Chris Carr,SF,6-5,207,1974-03-12,US,4,Southern Illinois
+2000,5,674,CHI,Chicago Bulls,18,Kornel David,SF,6-9,235,1971-10-22,HU,1,
+2000,5,1231,CHI,Chicago Bulls,3,Hersey Hawkins,SG,6-3,190,1966-09-29,US,11,Bradley
+2000,5,1308,CHI,Chicago Bulls,20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,4,Iowa State
+2000,5,1604,CHI,Chicago Bulls,6,Lari Ketner,PF,6-9,277,1977-02-01,US,R,UMass
+2000,5,1664,CHI,Chicago Bulls,7,Toni Kukoc,SF,6-10,192,1968-09-18,HR,6,
+2000,5,1675,CHI,Chicago Bulls,5,Rusty LaRue,PG,6-2,210,1973-12-10,US,2,Wake Forest
+2000,5,1828,CHI,Chicago Bulls,12,Matt Maloney,PG,6-3,192,1971-12-06,US,3,"Vanderbilt, Penn"
+2000,5,2288,CHI,Chicago Bulls,32,Will Perdue,C,7-0,240,1965-08-29,US,11,Vanderbilt
+2000,5,2425,CHI,Chicago Bulls,6,Khalid Reeves,PG,6-3,199,1972-07-15,US,5,Arizona
+2000,5,2533,CHI,Chicago Bulls,51,Michael Ruffin,PF,6-9,246,1977-01-21,US,R,Tulsa
+2000,5,2647,CHI,Chicago Bulls,8,Dickey Simpkins,PF,6-9,248,1972-04-06,US,5,Providence
+2000,5,2744,CHI,Chicago Bulls,9,John Starks,SG,6-3,180,1965-08-10,US,10,Oklahoma State
+2000,5,3200,CHI,Chicago Bulls,9,Dedric Willoughby,PG,6-3,180,1974-05-27,US,R,"New Orleans, Iowa State"
+2000,5,3240,CHI,Chicago Bulls,15,Metta World Peace,SF,6-6,260,1979-11-13,US,R,St. John's

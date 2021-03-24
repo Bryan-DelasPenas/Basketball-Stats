@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2015,16,66,MIA,Miami Heat,11,Chris Andersen,C,6-10,245,"July 7, 1978",US,12,Blinn College
-2015,16,203,MIA,Miami Heat,30,Michael Beasley,PF,6-9,235,"January 9, 1989",US,6,Kansas State
-2015,16,302,MIA,Miami Heat,1,Chris Bosh,C,6-11,235,"March 24, 1984",US,11,Georgia Tech
-2015,16,398,MIA,Miami Heat,26,Shannon Brown,SG,6-4,205,"November 29, 1985",US,8,Michigan State
-2015,16,511,MIA,Miami Heat,15,Mario Chalmers,PG,6-2,190,"May 19, 1986",US,6,Kansas
-2015,16,561,MIA,Miami Heat,30,Norris Cole,PG,6-2,175,"October 13, 1988",US,3,Cleveland State University
-2015,16,703,MIA,Miami Heat,24,Andre Dawkins,SG,6-5,215,"September 19, 1991",US,R,Duke
-2015,16,731,MIA,Miami Heat,9,Luol Deng,SF,6-9,237,"April 16, 1985",SS,10,Duke
-2015,16,779,MIA,Miami Heat,7,Goran Dragic,PG,6-3,190,"May 6, 1986",SI,6,
-2015,16,780,MIA,Miami Heat,12,Zoran Dragic,SG,6-5,200,"June 22, 1989",SI,R,
-2015,16,866,MIA,Miami Heat,32,James Ennis,SF,6-6,215,"July 1, 1990",US,R,Cal State Long Beach
-2015,16,1077,MIA,Miami Heat,22,Danny Granger,SF,6-9,222,"April 20, 1983",US,9,"Bradley, New Mexico"
-2015,16,1160,MIA,Miami Heat,7,Justin Hamilton,C,7-0,260,"April 1, 1990",US,1,"Iowa State, LSU"
-2015,16,1222,MIA,Miami Heat,40,Udonis Haslem,PF,6-8,235,"June 9, 1980",US,11,Florida
-2015,16,1516,MIA,Miami Heat,8,Tyler Johnson,SG,6-3,186,"May 7, 1992",US,R,Fresno State
-2015,16,1961,MIA,Miami Heat,4,Josh McRoberts,PF,6-10,240,"February 28, 1987",US,7,Duke
-2015,16,2113,MIA,Miami Heat,13,Shabazz Napier,PG,6-0,175,"July 14, 1991",US,R,UConn
-2015,16,2992,MIA,Miami Heat,3,Dwyane Wade,SG,6-4,220,"January 17, 1982",US,11,Marquette
-2015,16,3004,MIA,Miami Heat,5,Henry Walker,SF,6-6,220,"October 9, 1987",US,4,Kansas State
-2015,16,3105,MIA,Miami Heat,21,Hassan Whiteside,C,7-0,265,"June 13, 1989",US,2,Marshall
-2015,16,3181,MIA,Miami Heat,43,Shawne Williams,SF,6-9,225,"February 16, 1986",US,6,Memphis
+2015,16,66,MIA,Miami Heat,11,Chris Andersen,C,6-10,245,1978-07-07,US,12,Blinn College
+2015,16,203,MIA,Miami Heat,30,Michael Beasley,PF,6-9,235,1989-01-09,US,6,Kansas State
+2015,16,302,MIA,Miami Heat,1,Chris Bosh,C,6-11,235,1984-03-24,US,11,Georgia Tech
+2015,16,398,MIA,Miami Heat,26,Shannon Brown,SG,6-4,205,1985-11-29,US,8,Michigan State
+2015,16,511,MIA,Miami Heat,15,Mario Chalmers,PG,6-2,190,1986-05-19,US,6,Kansas
+2015,16,561,MIA,Miami Heat,30,Norris Cole,PG,6-2,175,1988-10-13,US,3,Cleveland State University
+2015,16,704,MIA,Miami Heat,24,Andre Dawkins,SG,6-5,215,1991-09-19,US,R,Duke
+2015,16,732,MIA,Miami Heat,9,Luol Deng,SF,6-9,237,1985-04-16,SS,10,Duke
+2015,16,781,MIA,Miami Heat,7,Goran Dragic,PG,6-3,190,1986-05-06,SI,6,
+2015,16,782,MIA,Miami Heat,12,Zoran Dragic,SG,6-5,200,1989-06-22,SI,R,
+2015,16,868,MIA,Miami Heat,32,James Ennis,SF,6-6,215,1990-07-01,US,R,Cal State Long Beach
+2015,16,1079,MIA,Miami Heat,22,Danny Granger,SF,6-9,222,1983-04-20,US,9,"Bradley, New Mexico"
+2015,16,1162,MIA,Miami Heat,7,Justin Hamilton,C,7-0,260,1990-04-01,US,1,"Iowa State, LSU"
+2015,16,1224,MIA,Miami Heat,40,Udonis Haslem,PF,6-8,235,1980-06-09,US,11,Florida
+2015,16,1518,MIA,Miami Heat,8,Tyler Johnson,SG,6-3,186,1992-05-07,US,R,Fresno State
+2015,16,1964,MIA,Miami Heat,4,Josh McRoberts,PF,6-10,240,1987-02-28,US,7,Duke
+2015,16,2116,MIA,Miami Heat,13,Shabazz Napier,PG,6-0,175,1991-07-14,US,R,UConn
+2015,16,2997,MIA,Miami Heat,3,Dwyane Wade,SG,6-4,220,1982-01-17,US,11,Marquette
+2015,16,3009,MIA,Miami Heat,5,Henry Walker,SF,6-6,220,1987-10-09,US,4,Kansas State
+2015,16,3110,MIA,Miami Heat,21,Hassan Whiteside,C,7-0,265,1989-06-13,US,2,Marshall
+2015,16,3187,MIA,Miami Heat,43,Shawne Williams,SF,6-9,225,1986-02-16,US,6,Memphis

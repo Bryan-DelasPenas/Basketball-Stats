@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,10,161,GSW,Golden State Warriors,19,Leandro Barbosa,SG,6-3,194,"November 28, 1982",BR,12,
-2016,10,167,GSW,Golden State Warriors,40,Harrison Barnes,SF,6-8,225,"May 30, 1992",US,3,UNC
-2016,10,279,GSW,Golden State Warriors,12,Andrew Bogut,C,7-0,260,"November 28, 1984",AU,10,Utah
-2016,10,542,GSW,Golden State Warriors,21,Ian Clark,SG,6-3,175,"March 7, 1991",US,2,Belmont
-2016,10,657,GSW,Golden State Warriors,30,Stephen Curry,PG,6-3,185,"March 14, 1988",US,6,Davidson
-2016,10,887,GSW,Golden State Warriors,31,Festus Ezeli,C,6-11,255,"October 21, 1989",NG,2,Vanderbilt
-2016,10,1101,GSW,Golden State Warriors,23,Draymond Green,PF,6-6,230,"March 4, 1990",US,3,Michigan State
-2016,10,1377,GSW,Golden State Warriors,9,Andre Iguodala,SF,6-6,215,"January 28, 1984",US,11,Arizona
-2016,10,1759,GSW,Golden State Warriors,34,Shaun Livingston,PG,6-7,192,"September 11, 1985",US,10,
-2016,10,1774,GSW,Golden State Warriors,36,Kevon Looney,PF,6-9,222,"February 6, 1996",US,R,UCLA
-2016,10,1893,GSW,Golden State Warriors,20,James Michael McAdoo,PF,6-9,230,"January 4, 1993",US,1,UNC
-2016,10,2533,GSW,Golden State Warriors,4,Brandon Rush,SG,6-6,220,"July 7, 1985",US,7,Kansas
-2016,10,2727,GSW,Golden State Warriors,5,Marreese Speights,C,6-10,255,"August 4, 1987",US,7,Florida
-2016,10,2871,GSW,Golden State Warriors,1,Jason Thompson,C,6-11,250,"July 21, 1986",US,7,Rider University
-2016,10,2873,GSW,Golden State Warriors,11,Klay Thompson,SG,6-6,215,"February 8, 1990",US,4,Washington State
-2016,10,2961,GSW,Golden State Warriors,18,Anderson Varejao,C,6-10,273,"September 28, 1982",BR,11,
+2016,10,161,GSW,Golden State Warriors,19,Leandro Barbosa,SG,6-3,194,1982-11-28,BR,12,
+2016,10,167,GSW,Golden State Warriors,40,Harrison Barnes,SF,6-8,225,1992-05-30,US,3,UNC
+2016,10,279,GSW,Golden State Warriors,12,Andrew Bogut,C,7-0,260,1984-11-28,AU,10,Utah
+2016,10,542,GSW,Golden State Warriors,21,Ian Clark,SG,6-3,175,1991-03-07,US,2,Belmont
+2016,10,657,GSW,Golden State Warriors,30,Stephen Curry,PG,6-3,185,1988-03-14,US,6,Davidson
+2016,10,889,GSW,Golden State Warriors,31,Festus Ezeli,C,6-11,255,1989-10-21,NG,2,Vanderbilt
+2016,10,1103,GSW,Golden State Warriors,23,Draymond Green,PF,6-6,230,1990-03-04,US,3,Michigan State
+2016,10,1379,GSW,Golden State Warriors,9,Andre Iguodala,SF,6-6,215,1984-01-28,US,11,Arizona
+2016,10,1762,GSW,Golden State Warriors,34,Shaun Livingston,PG,6-7,192,1985-09-11,US,10,
+2016,10,1777,GSW,Golden State Warriors,36,Kevon Looney,PF,6-9,222,1996-02-06,US,R,UCLA
+2016,10,1896,GSW,Golden State Warriors,20,James Michael McAdoo,PF,6-9,230,1993-01-04,US,1,UNC
+2016,10,2537,GSW,Golden State Warriors,4,Brandon Rush,SG,6-6,220,1985-07-07,US,7,Kansas
+2016,10,2731,GSW,Golden State Warriors,5,Marreese Speights,C,6-10,255,1987-08-04,US,7,Florida
+2016,10,2875,GSW,Golden State Warriors,1,Jason Thompson,C,6-11,250,1986-07-21,US,7,Rider University
+2016,10,2877,GSW,Golden State Warriors,11,Klay Thompson,SG,6-6,215,1990-02-08,US,4,Washington State
+2016,10,2966,GSW,Golden State Warriors,18,Anderson Varejao,C,6-10,273,1982-09-28,BR,11,

@@ -1,24 +1,24 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,26,11,SAC,Sacramento Kings,5,Quincy Acy,SF,6-7,240,"October 6, 1990",US,1,Baylor
-2014,26,618,SAC,Sacramento Kings,15,DeMarcus Cousins,C,6-10,270,"August 13, 1990",US,3,Kentucky
-2014,26,647,SAC,Sacramento Kings,9,Jared Cunningham,SG,6-4,195,"May 22, 1991",US,1,Oregon State
-2014,26,880,SAC,Sacramento Kings,30,Reggie Evans,PF,6-8,245,"May 18, 1980",US,11,Iowa
-2014,26,963,SAC,Sacramento Kings,7,Jimmer Fredette,SG,6-2,195,"February 25, 1989",US,2,BYU
-2014,26,1011,SAC,Sacramento Kings,8,Rudy Gay,SF,6-8,250,"August 17, 1986",US,7,UConn
-2014,26,1090,SAC,Sacramento Kings,33,Aaron Gray,C,7-0,270,"December 7, 1984",US,6,Pitt
-2014,26,1232,SAC,Sacramento Kings,42,Chuck Hayes,C,6-6,240,"June 11, 1983",US,8,Kentucky
-2014,26,1510,SAC,Sacramento Kings,0,Orlando Johnson,SG,6-5,220,"March 11, 1989",US,1,"Loyola Marymount, UC Santa Barbara"
-2014,26,1687,SAC,Sacramento Kings,24,Carl Landry,PF,6-9,248,"September 19, 1983",US,6,Purdue
-2014,26,1891,SAC,Sacramento Kings,33,Luc Mbah a Moute,SF,6-8,230,"September 9, 1986",CM,5,UCLA
-2014,26,1895,SAC,Sacramento Kings,3,Ray McCallum,PG,6-3,190,"June 12, 1991",US,R,Detroit Mercy
-2014,26,1950,SAC,Sacramento Kings,16,Ben McLemore,SG,6-3,195,"February 11, 1993",US,R,Kansas
-2014,26,2103,SAC,Sacramento Kings,55,Hamady N'Diaye,C,7-0,235,"January 12, 1987",SN,2,Rutgers University
-2014,26,2223,SAC,Sacramento Kings,25,Travis Outlaw,SF,6-9,210,"September 18, 1984",US,10,
-2014,26,2260,SAC,Sacramento Kings,9,Patrick Patterson,PF,6-8,235,"March 14, 1989",US,3,Kentucky
-2014,26,2544,SAC,Sacramento Kings,5,John Salmons,SF,6-7,210,"December 12, 1979",US,11,Miami (FL)
-2014,26,2849,SAC,Sacramento Kings,22,Isaiah Thomas,PG,5-9,185,"February 7, 1989",US,2,Washington
-2014,26,2871,SAC,Sacramento Kings,34,Jason Thompson,PF,6-11,250,"July 21, 1986",US,5,Rider University
-2014,26,2882,SAC,Sacramento Kings,23,Marcus Thornton,SG,6-4,205,"June 5, 1987",US,4,LSU
-2014,26,2963,SAC,Sacramento Kings,10,Greivis Vasquez,PG,6-6,217,"January 16, 1987",VE,3,Maryland
-2014,26,3098,SAC,Sacramento Kings,35,Royce White,PF,6-8,270,"April 10, 1991",US,R,Iowa State
-2014,26,3136,SAC,Sacramento Kings,13,Derrick Williams,SF,6-8,240,"May 25, 1991",US,2,Arizona
+2014,26,11,SAC,Sacramento Kings,5,Quincy Acy,SF,6-7,240,1990-10-06,US,1,Baylor
+2014,26,618,SAC,Sacramento Kings,15,DeMarcus Cousins,C,6-10,270,1990-08-13,US,3,Kentucky
+2014,26,647,SAC,Sacramento Kings,9,Jared Cunningham,SG,6-4,195,1991-05-22,US,1,Oregon State
+2014,26,882,SAC,Sacramento Kings,30,Reggie Evans,PF,6-8,245,1980-05-18,US,11,Iowa
+2014,26,965,SAC,Sacramento Kings,7,Jimmer Fredette,SG,6-2,195,1989-02-25,US,2,BYU
+2014,26,1013,SAC,Sacramento Kings,8,Rudy Gay,SF,6-8,250,1986-08-17,US,7,UConn
+2014,26,1092,SAC,Sacramento Kings,33,Aaron Gray,C,7-0,270,1984-12-07,US,6,Pitt
+2014,26,1234,SAC,Sacramento Kings,42,Chuck Hayes,C,6-6,240,1983-06-11,US,8,Kentucky
+2014,26,1512,SAC,Sacramento Kings,0,Orlando Johnson,SG,6-5,220,1989-03-11,US,1,"Loyola Marymount, UC Santa Barbara"
+2014,26,1690,SAC,Sacramento Kings,24,Carl Landry,PF,6-9,248,1983-09-19,US,6,Purdue
+2014,26,1894,SAC,Sacramento Kings,33,Luc Mbah a Moute,SF,6-8,230,1986-09-09,CM,5,UCLA
+2014,26,1898,SAC,Sacramento Kings,3,Ray McCallum,PG,6-3,190,1991-06-12,US,R,Detroit Mercy
+2014,26,1953,SAC,Sacramento Kings,16,Ben McLemore,SG,6-3,195,1993-02-11,US,R,Kansas
+2014,26,2106,SAC,Sacramento Kings,55,Hamady N'Diaye,C,7-0,235,1987-01-12,SN,2,Rutgers University
+2014,26,2226,SAC,Sacramento Kings,25,Travis Outlaw,SF,6-9,210,1984-09-18,US,10,
+2014,26,2263,SAC,Sacramento Kings,9,Patrick Patterson,PF,6-8,235,1989-03-14,US,3,Kentucky
+2014,26,2548,SAC,Sacramento Kings,5,John Salmons,SF,6-7,210,1979-12-12,US,11,Miami (FL)
+2014,26,2853,SAC,Sacramento Kings,22,Isaiah Thomas,PG,5-9,185,1989-02-07,US,2,Washington
+2014,26,2875,SAC,Sacramento Kings,34,Jason Thompson,PF,6-11,250,1986-07-21,US,5,Rider University
+2014,26,2886,SAC,Sacramento Kings,23,Marcus Thornton,SG,6-4,205,1987-06-05,US,4,LSU
+2014,26,2968,SAC,Sacramento Kings,10,Greivis Vasquez,PG,6-6,217,1987-01-16,VE,3,Maryland
+2014,26,3103,SAC,Sacramento Kings,35,Royce White,PF,6-8,270,1991-04-10,US,R,Iowa State
+2014,26,3142,SAC,Sacramento Kings,13,Derrick Williams,SF,6-8,240,1991-05-25,US,2,Arizona

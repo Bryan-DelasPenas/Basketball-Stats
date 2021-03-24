@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2000,14,408,LAL,Los Angeles Lakers,8,Kobe Bryant,SG,6-6,212,"August 23, 1978",US,3,
-2000,14,509,LAL,Los Angeles Lakers,11,John Celestand,PG,6-4,178,"March 6, 1977",US,R,Villanova
-2000,14,919,LAL,Los Angeles Lakers,2,Derek Fisher,PG,6-1,200,"August 9, 1974",US,3,Little Rock
-2000,14,951,LAL,Los Angeles Lakers,17,Rick Fox,SF,6-7,230,"July 24, 1969",CA,8,UNC
-2000,14,1018,LAL,Los Angeles Lakers,3,Devean George,SF,6-8,220,"August 29, 1977",US,R,Augsburg College
-2000,14,1098,LAL,Los Angeles Lakers,45,A.C. Green,PF,6-9,220,"October 4, 1963",US,14,Oregon State
-2000,14,1192,LAL,Los Angeles Lakers,4,Ron Harper,PG,6-6,185,"January 20, 1964",US,13,Miami University
-2000,14,1330,LAL,Los Angeles Lakers,5,Robert Horry,PF,6-10,240,"August 25, 1970",US,7,Alabama
-2000,14,1422,LAL,Los Angeles Lakers,7,Sam Jacobson,PG,6-4,215,"July 22, 1975",US,1,Minnesota
-2000,14,1642,LAL,Los Angeles Lakers,40,Travis Knight,C,7-0,235,"September 13, 1974",US,3,UConn
-2000,14,1788,LAL,Los Angeles Lakers,10,Tyronn Lue,PG,6-0,175,"May 3, 1977",US,1,Nebraska
-2000,14,2179,LAL,Los Angeles Lakers,34,Shaquille O'Neal,C,7-1,325,"March 6, 1972",US,7,LSU
-2000,14,2437,LAL,Los Angeles Lakers,41,Glen Rice,SF,6-7,215,"May 28, 1967",US,10,Michigan
-2000,14,2543,LAL,Los Angeles Lakers,16,John Salley,C,6-11,230,"May 16, 1964",US,10,Georgia Tech
-2000,14,2611,LAL,Los Angeles Lakers,20,Brian Shaw,SG,6-6,190,"March 22, 1966",US,10,"Saint Mary's, UC Santa Barbara"
+2000,14,408,LAL,Los Angeles Lakers,8,Kobe Bryant,SG,6-6,212,1978-08-23,US,3,
+2000,14,509,LAL,Los Angeles Lakers,11,John Celestand,PG,6-4,178,1977-03-06,US,R,Villanova
+2000,14,921,LAL,Los Angeles Lakers,2,Derek Fisher,PG,6-1,200,1974-08-09,US,3,Little Rock
+2000,14,953,LAL,Los Angeles Lakers,17,Rick Fox,SF,6-7,230,1969-07-24,CA,8,UNC
+2000,14,1020,LAL,Los Angeles Lakers,3,Devean George,SF,6-8,220,1977-08-29,US,R,Augsburg College
+2000,14,1100,LAL,Los Angeles Lakers,45,A.C. Green,PF,6-9,220,1963-10-04,US,14,Oregon State
+2000,14,1194,LAL,Los Angeles Lakers,4,Ron Harper,PG,6-6,185,1964-01-20,US,13,Miami University
+2000,14,1332,LAL,Los Angeles Lakers,5,Robert Horry,PF,6-10,240,1970-08-25,US,7,Alabama
+2000,14,1424,LAL,Los Angeles Lakers,7,Sam Jacobson,PG,6-4,215,1975-07-22,US,1,Minnesota
+2000,14,1644,LAL,Los Angeles Lakers,40,Travis Knight,C,7-0,235,1974-09-13,US,3,UConn
+2000,14,1791,LAL,Los Angeles Lakers,10,Tyronn Lue,PG,6-0,175,1977-05-03,US,1,Nebraska
+2000,14,2182,LAL,Los Angeles Lakers,34,Shaquille O'Neal,C,7-1,325,1972-03-06,US,7,LSU
+2000,14,2442,LAL,Los Angeles Lakers,41,Glen Rice,SF,6-7,215,1967-05-28,US,10,Michigan
+2000,14,2547,LAL,Los Angeles Lakers,16,John Salley,C,6-11,230,1964-05-16,US,10,Georgia Tech
+2000,14,2615,LAL,Los Angeles Lakers,20,Brian Shaw,SG,6-6,190,1966-03-22,US,10,"Saint Mary's, UC Santa Barbara"

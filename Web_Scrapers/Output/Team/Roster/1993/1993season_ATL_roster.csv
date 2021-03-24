@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1993,1,118,ATL,Atlanta Hawks,2,Stacey Augmon,SG,6-8,205,"August 1, 1968",US,1,UNLV
-1993,1,266,ATL,Atlanta Hawks,10,Mookie Blaylock,PG,6-0,180,"March 20, 1967",US,3,"Midland College, Oklahoma"
-1993,1,341,ATL,Atlanta Hawks,45,Randy Breuer,C,7-3,230,"October 11, 1960",US,9,Minnesota
-1993,1,910,ATL,Atlanta Hawks,33,Duane Ferrell,SF,6-7,209,"February 28, 1965",US,4,Georgia Tech
-1993,1,944,ATL,Atlanta Hawks,44,Greg Foster,PF,6-11,240,"October 3, 1968",US,2,"UCLA, Texas-El Paso"
-1993,1,1072,ATL,Atlanta Hawks,25,Paul Graham,SG,6-6,200,"November 28, 1967",US,1,Ohio University
-1993,1,1265,ATL,Atlanta Hawks,12,Steve Henson,PG,5-11,177,"February 2, 1968",US,2,Kansas State
-1993,1,1587,ATL,Atlanta Hawks,31,Adam Keefe,PF,6-9,230,"February 22, 1970",US,R,Stanford
-1993,1,1645,ATL,Atlanta Hawks,32,Jon Koncak,C,7-0,250,"May 17, 1963",US,7,SMU
-1993,1,1890,ATL,Atlanta Hawks,1,Travis Mays,PG,6-2,190,"June 19, 1968",US,2,Texas
-1993,1,2401,ATL,Atlanta Hawks,41,Blair Rasmussen,C,7-0,250,"November 13, 1962",US,7,Oregon
-1993,1,2556,ATL,Atlanta Hawks,34,Jeff Sanders,PF,6-8,225,"January 14, 1966",US,3,Georgia Southern University
-1993,1,2729,ATL,Atlanta Hawks,24,Andre Spencer,SF,6-6,210,"July 20, 1964",US,R,Northern Arizona University
-1993,1,2761,ATL,Atlanta Hawks,43,Alex Stivrins,PF,6-8,220,"November 29, 1962",US,1,"Creighton, Colorado"
-1993,1,3117,ATL,Atlanta Hawks,11,Morlon Wiley,PG,6-4,185,"September 24, 1966",US,4,Cal State Long Beach
-1993,1,3122,ATL,Atlanta Hawks,21,Dominique Wilkins,SF,6-8,215,"January 12, 1960",FR,10,Georgia
-1993,1,3192,ATL,Atlanta Hawks,42,Kevin Willis,PF,7-0,220,"September 6, 1962",US,7,Michigan State
+1993,1,118,ATL,Atlanta Hawks,2,Stacey Augmon,SG,6-8,205,1968-08-01,US,1,UNLV
+1993,1,266,ATL,Atlanta Hawks,10,Mookie Blaylock,PG,6-0,180,1967-03-20,US,3,"Midland College, Oklahoma"
+1993,1,341,ATL,Atlanta Hawks,45,Randy Breuer,C,7-3,230,1960-10-11,US,9,Minnesota
+1993,1,912,ATL,Atlanta Hawks,33,Duane Ferrell,SF,6-7,209,1965-02-28,US,4,Georgia Tech
+1993,1,946,ATL,Atlanta Hawks,44,Greg Foster,PF,6-11,240,1968-10-03,US,2,"UCLA, Texas-El Paso"
+1993,1,1074,ATL,Atlanta Hawks,25,Paul Graham,SG,6-6,200,1967-11-28,US,1,Ohio University
+1993,1,1267,ATL,Atlanta Hawks,12,Steve Henson,PG,5-11,177,1968-02-02,US,2,Kansas State
+1993,1,1589,ATL,Atlanta Hawks,31,Adam Keefe,PF,6-9,230,1970-02-22,US,R,Stanford
+1993,1,1647,ATL,Atlanta Hawks,32,Jon Koncak,C,7-0,250,1963-05-17,US,7,SMU
+1993,1,1893,ATL,Atlanta Hawks,1,Travis Mays,PG,6-2,190,1968-06-19,US,2,Texas
+1993,1,2405,ATL,Atlanta Hawks,41,Blair Rasmussen,C,7-0,250,1962-11-13,US,7,Oregon
+1993,1,2560,ATL,Atlanta Hawks,34,Jeff Sanders,PF,6-8,225,1966-01-14,US,3,Georgia Southern University
+1993,1,2733,ATL,Atlanta Hawks,24,Andre Spencer,SF,6-6,210,1964-07-20,US,R,Northern Arizona University
+1993,1,2765,ATL,Atlanta Hawks,43,Alex Stivrins,PF,6-8,220,1962-11-29,US,1,"Creighton, Colorado"
+1993,1,3123,ATL,Atlanta Hawks,11,Morlon Wiley,PG,6-4,185,1966-09-24,US,4,Cal State Long Beach
+1993,1,3128,ATL,Atlanta Hawks,21,Dominique Wilkins,SF,6-8,215,1960-01-12,FR,10,Georgia
+1993,1,3198,ATL,Atlanta Hawks,42,Kevin Willis,PF,7-0,220,1962-09-06,US,7,Michigan State

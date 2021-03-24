@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1999,20,405,NYK,New York Knicks,11,Rick Brunson,PG,6-4,190,"June 14, 1972",US,1,Temple
-1999,20,461,NYK,New York Knicks,23,Marcus Camby,C,6-11,220,"March 22, 1974",US,2,UMass
-1999,20,529,NYK,New York Knicks,1,Chris Childs,PG,6-3,195,"November 20, 1967",US,4,Boise State
-1999,20,679,NYK,New York Knicks,4,Ben Davis,PF,6-9,240,"December 26, 1972",US,2,"Kansas, Arizona"
-1999,20,792,NYK,New York Knicks,14,Chris Dudley,C,6-11,235,"February 22, 1965",US,11,Yale
-1999,20,883,NYK,New York Knicks,33,Patrick Ewing,C,7-0,240,"August 5, 1962",JM,13,Georgetown
-1999,20,1335,NYK,New York Knicks,20,Allan Houston,SG,6-6,200,"April 20, 1971",US,5,Tennessee
-1999,20,1501,NYK,New York Knicks,2,Larry Johnson,PF,6-6,250,"March 14, 1969",US,7,UNLV
-1999,20,2586,NYK,New York Knicks,3,Dennis Scott,SF,6-8,229,"September 5, 1968",US,8,Georgia Tech
-1999,20,2733,NYK,New York Knicks,8,Latrell Sprewell,SF,6-5,190,"September 8, 1970",US,6,Alabama
-1999,20,2857,NYK,New York Knicks,40,Kurt Thomas,PF,6-9,230,"October 4, 1972",US,3,TCU
-1999,20,3024,NYK,New York Knicks,21,Charlie Ward,PG,6-2,190,"October 12, 1970",US,4,Florida State
-1999,20,3145,NYK,New York Knicks,32,Herb Williams,C,6-10,242,"February 16, 1958",US,17,Ohio State
-1999,20,3207,NYK,New York Knicks,25,David Wingate,SG,6-5,185,"December 15, 1963",US,12,Georgetown
+1999,20,405,NYK,New York Knicks,11,Rick Brunson,PG,6-4,190,1972-06-14,US,1,Temple
+1999,20,461,NYK,New York Knicks,23,Marcus Camby,C,6-11,220,1974-03-22,US,2,UMass
+1999,20,529,NYK,New York Knicks,1,Chris Childs,PG,6-3,195,1967-11-20,US,4,Boise State
+1999,20,680,NYK,New York Knicks,4,Ben Davis,PF,6-9,240,1972-12-26,US,2,"Kansas, Arizona"
+1999,20,794,NYK,New York Knicks,14,Chris Dudley,C,6-11,235,1965-02-22,US,11,Yale
+1999,20,886,NYK,New York Knicks,33,Patrick Ewing,C,7-0,240,1962-08-05,JM,13,Georgetown
+1999,20,1337,NYK,New York Knicks,20,Allan Houston,SG,6-6,200,1971-04-20,US,5,Tennessee
+1999,20,1503,NYK,New York Knicks,2,Larry Johnson,PF,6-6,250,1969-03-14,US,7,UNLV
+1999,20,2590,NYK,New York Knicks,3,Dennis Scott,SF,6-8,229,1968-09-05,US,8,Georgia Tech
+1999,20,2737,NYK,New York Knicks,8,Latrell Sprewell,SF,6-5,190,1970-09-08,US,6,Alabama
+1999,20,2861,NYK,New York Knicks,40,Kurt Thomas,PF,6-9,230,1972-10-04,US,3,TCU
+1999,20,3029,NYK,New York Knicks,21,Charlie Ward,PG,6-2,190,1970-10-12,US,4,Florida State
+1999,20,3151,NYK,New York Knicks,32,Herb Williams,C,6-10,242,1958-02-16,US,17,Ohio State
+1999,20,3213,NYK,New York Knicks,25,David Wingate,SG,6-5,185,1963-12-15,US,12,Georgetown

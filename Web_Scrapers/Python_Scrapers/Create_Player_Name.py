@@ -8,18 +8,7 @@ from bs4 import BeautifulSoup
 from requests import get
 import unicodedata, unidecode
 
-from utils import strip_accents
-
-'''
-
-'''
-def proper_dates(date):
-    # Removes the comma 
-    date = date.replace(',','')
-    
-    # Changes into YYYY-MM-DD
-    datetime_object = datetime.strptime(date, "%B %d %Y").strftime('%Y-%m-%d')
-    return str(datetime_object)
+from utils import strip_accents, proper_dates
 
 '''
 Creates a dataframe of player's name active from 1980 - 2020

@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1997,6,334,CLE,Cleveland Cavaliers,1,Terrell Brandon,PG,5-11,180,"May 20, 1970",US,5,Oregon
-1997,6,912,CLE,Cleveland Cavaliers,35,Danny Ferry,PF,6-10,230,"October 17, 1966",US,6,Duke
-1997,6,1014,CLE,Cleveland Cavaliers,2,Reggie Geary,PG,6-2,187,"August 31, 1973",US,R,Arizona
-1997,6,1294,CLE,Cleveland Cavaliers,32,Tyrone Hill,C,6-9,240,"March 19, 1968",US,6,Xavier
-1997,6,1692,CLE,Cleveland Cavaliers,21,Antonio Lang,PF,6-8,205,"May 15, 1972",US,2,Duke
-1997,6,1843,CLE,Cleveland Cavaliers,33,Donny Marshall,SF,6-7,230,"July 17, 1972",US,1,UConn
-1997,6,2000,CLE,Cleveland Cavaliers,24,Chris Mills,SF,6-6,215,"January 25, 1970",US,3,"Kentucky, Arizona"
-1997,6,2305,CLE,Cleveland Cavaliers,14,Bobby Phills,SG,6-5,210,"December 20, 1969",US,5,Southern University and A&M College
-1997,6,2349,CLE,Cleveland Cavaliers,52,Vitaly Potapenko,C,6-10,280,"March 21, 1975",UA,R,Wright State University
-1997,6,2589,CLE,Cleveland Cavaliers,44,Shawnelle Scott,C,6-10,250,"June 16, 1972",US,R,St. John's
-1997,6,2790,CLE,Cleveland Cavaliers,3,Bob Sura,SG,6-5,200,"March 25, 1973",US,1,Florida State
-1997,6,2845,CLE,Cleveland Cavaliers,23,Carl Thomas,SG,6-4,175,"October 3, 1969",US,1,Eastern Michigan
-1997,6,3078,CLE,Cleveland Cavaliers,41,Mark West,C,6-10,230,"November 5, 1960",US,13,Old Dominion
+1997,6,334,CLE,Cleveland Cavaliers,1,Terrell Brandon,PG,5-11,180,1970-05-20,US,5,Oregon
+1997,6,914,CLE,Cleveland Cavaliers,35,Danny Ferry,PF,6-10,230,1966-10-17,US,6,Duke
+1997,6,1016,CLE,Cleveland Cavaliers,2,Reggie Geary,PG,6-2,187,1973-08-31,US,R,Arizona
+1997,6,1296,CLE,Cleveland Cavaliers,32,Tyrone Hill,C,6-9,240,1968-03-19,US,6,Xavier
+1997,6,1695,CLE,Cleveland Cavaliers,21,Antonio Lang,PF,6-8,205,1972-05-15,US,2,Duke
+1997,6,1846,CLE,Cleveland Cavaliers,33,Donny Marshall,SF,6-7,230,1972-07-17,US,1,UConn
+1997,6,2003,CLE,Cleveland Cavaliers,24,Chris Mills,SF,6-6,215,1970-01-25,US,3,"Kentucky, Arizona"
+1997,6,2308,CLE,Cleveland Cavaliers,14,Bobby Phills,SG,6-5,210,1969-12-20,US,5,Southern University and A&M College
+1997,6,2353,CLE,Cleveland Cavaliers,52,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,R,Wright State University
+1997,6,2593,CLE,Cleveland Cavaliers,44,Shawnelle Scott,C,6-10,250,1972-06-16,US,R,St. John's
+1997,6,2794,CLE,Cleveland Cavaliers,3,Bob Sura,SG,6-5,200,1973-03-25,US,1,Florida State
+1997,6,2849,CLE,Cleveland Cavaliers,23,Carl Thomas,SG,6-4,175,1969-10-03,US,1,Eastern Michigan
+1997,6,3083,CLE,Cleveland Cavaliers,41,Mark West,C,6-10,230,1960-11-05,US,13,Old Dominion

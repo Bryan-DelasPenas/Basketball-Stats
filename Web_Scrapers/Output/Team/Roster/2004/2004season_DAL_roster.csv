@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2004,7,234,DAL,Dallas Mavericks,3,Travis Best,PG,5-11,182,"July 12, 1972",US,8,Georgia Tech
-2004,7,326,DAL,Dallas Mavericks,44,Shawn Bradley,C,7-6,235,"March 22, 1972",DE,10,BYU
-2004,7,666,DAL,Dallas Mavericks,6,Marquis Daniels,SG,6-6,200,"January 7, 1981",US,R,Auburn
-2004,7,726,DAL,Dallas Mavericks,7,Tony Delk,SG,6-1,189,"January 28, 1974",US,7,Kentucky
-2004,7,916,DAL,Dallas Mavericks,4,Michael Finley,SG,6-7,215,"March 6, 1973",US,8,Wisconsin
-2004,7,943,DAL,Dallas Mavericks,21,Danny Fortson,C,6-7,260,"March 27, 1976",US,6,Cincinnati
-2004,7,1340,DAL,Dallas Mavericks,5,Josh Howard,SF,6-7,210,"April 28, 1980",US,R,Wake Forest
-2004,7,1433,DAL,Dallas Mavericks,33,Antawn Jamison,SF,6-8,223,"June 12, 1976",US,5,UNC
-2004,7,2105,DAL,Dallas Mavericks,34,Mamadou N'Diaye,C,7-0,255,"June 16, 1975",SN,3,Auburn
-2004,7,2110,DAL,Dallas Mavericks,14,Eduardo Najera,SF,6-8,240,"July 11, 1976",MX,3,Oklahoma
-2004,7,2114,DAL,Dallas Mavericks,13,Steve Nash,PG,6-3,195,"February 7, 1974",ZA,7,Santa Clara
-2004,7,2163,DAL,Dallas Mavericks,41,Dirk Nowitzki,C,7-0,245,"June 19, 1978",DE,5,
-2004,7,3001,DAL,Dallas Mavericks,8,Antoine Walker,PF,6-8,224,"August 12, 1976",US,7,Kentucky
-2004,7,3178,DAL,Dallas Mavericks,42,Scott Williams,C,6-10,230,"March 21, 1968",US,13,UNC
+2004,7,234,DAL,Dallas Mavericks,3,Travis Best,PG,5-11,182,1972-07-12,US,8,Georgia Tech
+2004,7,326,DAL,Dallas Mavericks,44,Shawn Bradley,C,7-6,235,1972-03-22,DE,10,BYU
+2004,7,666,DAL,Dallas Mavericks,6,Marquis Daniels,SG,6-6,200,1981-01-07,US,R,Auburn
+2004,7,727,DAL,Dallas Mavericks,7,Tony Delk,SG,6-1,189,1974-01-28,US,7,Kentucky
+2004,7,918,DAL,Dallas Mavericks,4,Michael Finley,SG,6-7,215,1973-03-06,US,8,Wisconsin
+2004,7,945,DAL,Dallas Mavericks,21,Danny Fortson,C,6-7,260,1976-03-27,US,6,Cincinnati
+2004,7,1342,DAL,Dallas Mavericks,5,Josh Howard,SF,6-7,210,1980-04-28,US,R,Wake Forest
+2004,7,1435,DAL,Dallas Mavericks,33,Antawn Jamison,SF,6-8,223,1976-06-12,US,5,UNC
+2004,7,2108,DAL,Dallas Mavericks,34,Mamadou N'Diaye,C,7-0,255,1975-06-16,SN,3,Auburn
+2004,7,2113,DAL,Dallas Mavericks,14,Eduardo Najera,SF,6-8,240,1976-07-11,MX,3,Oklahoma
+2004,7,2117,DAL,Dallas Mavericks,13,Steve Nash,PG,6-3,195,1974-02-07,ZA,7,Santa Clara
+2004,7,2166,DAL,Dallas Mavericks,41,Dirk Nowitzki,C,7-0,245,1978-06-19,DE,5,
+2004,7,3006,DAL,Dallas Mavericks,8,Antoine Walker,PF,6-8,224,1976-08-12,US,7,Kentucky
+2004,7,3184,DAL,Dallas Mavericks,42,Scott Williams,C,6-10,230,1968-03-21,US,13,UNC

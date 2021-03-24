@@ -1,24 +1,24 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2001,1,307,ATL,Atlanta Hawks,3,Cal Bowdler,SF,6-10,245,"March 31, 1977",US,1,Old Dominion
-2001,1,313,ATL,Atlanta Hawks,30,Ira Bowman,PG,6-5,195,"June 11, 1973",US,1,"Providence, Penn"
-2001,1,581,ATL,Atlanta Hawks,2,Sean Colson,PG,6-0,175,"July 1, 1975",US,R,"Rhode Island, UNC Charlotte"
-2001,1,624,ATL,Atlanta Hawks,4,Chris Crawford,PF,6-9,235,"May 13, 1975",US,3,Marquette
-2001,1,1047,ATL,Atlanta Hawks,5,Dion Glover,SG,6-5,228,"October 22, 1978",US,1,Georgia Tech
-2001,1,1248,ATL,Atlanta Hawks,44,Alan Henderson,PF,6-9,235,"December 2, 1972",US,5,Indiana
-2001,1,1404,ATL,Atlanta Hawks,22,Jim Jackson,SF,6-6,220,"October 14, 1970",US,8,Ohio State
-2001,1,1465,ATL,Atlanta Hawks,10,Anthony Johnson,PG,6-3,190,"October 2, 1974",US,3,College of Charleston
-2001,1,1483,ATL,Atlanta Hawks,1,DerMarr Johnson,SF,6-9,201,"May 5, 1980",US,R,Cincinnati
-2001,1,1638,ATL,Atlanta Hawks,22,Brevin Knight,PG,5-10,173,"November 8, 1975",US,3,Stanford
-2001,1,1662,ATL,Atlanta Hawks,7,Toni Kukoc,SF,6-10,192,"September 18, 1968",HR,7,
-2001,1,1825,ATL,Atlanta Hawks,12,Matt Maloney,PG,6-3,192,"December 6, 1971",US,4,"Vanderbilt, Penn"
-2001,1,1952,ATL,Atlanta Hawks,7,Roshown McLeod,SF,6-8,221,"November 17, 1975",US,2,"St. John's, Duke"
-2001,1,1990,ATL,Atlanta Hawks,34,Anthony Miller,PF,6-9,225,"October 22, 1971",US,6,Michigan State
-2001,1,2022,ATL,Atlanta Hawks,14,Nazr Mohammed,C,6-10,221,"September 5, 1977",US,2,Kentucky
-2001,1,2069,ATL,Atlanta Hawks,13,Hanno Mottola,SF,6-11,247,"September 9, 1976",FI,R,Utah
-2001,1,2099,ATL,Atlanta Hawks,55,Dikembe Mutombo,C,7-2,245,"June 25, 1966",CD,9,Georgetown
-2001,1,2241,ATL,Atlanta Hawks,24,Andy Panko,SF,6-9,222,"November 27, 1977",US,R,Lebanon Valley College
-2001,1,2485,ATL,Atlanta Hawks,20,Larry Robinson,PG,6-3,180,"January 11, 1968",US,5,Centenary (LA)
-2001,1,2554,ATL,Atlanta Hawks,24,Pepe Sanchez,PG,6-4,195,"May 8, 1977",AR,R,Temple
-2001,1,2710,ATL,Atlanta Hawks,14,Tony Smith,SG,6-3,185,"June 14, 1968",US,8,Marquette
-2001,1,2835,ATL,Atlanta Hawks,31,Jason Terry,SG,6-2,185,"September 15, 1977",US,1,Arizona
-2001,1,3248,ATL,Atlanta Hawks,42,Lorenzen Wright,C,6-11,225,"November 4, 1975",US,4,Memphis
+2001,1,307,ATL,Atlanta Hawks,3,Cal Bowdler,SF,6-10,245,1977-03-31,US,1,Old Dominion
+2001,1,313,ATL,Atlanta Hawks,30,Ira Bowman,PG,6-5,195,1973-06-11,US,1,"Providence, Penn"
+2001,1,581,ATL,Atlanta Hawks,2,Sean Colson,PG,6-0,175,1975-07-01,US,R,"Rhode Island, UNC Charlotte"
+2001,1,624,ATL,Atlanta Hawks,4,Chris Crawford,PF,6-9,235,1975-05-13,US,3,Marquette
+2001,1,1049,ATL,Atlanta Hawks,5,Dion Glover,SG,6-5,228,1978-10-22,US,1,Georgia Tech
+2001,1,1250,ATL,Atlanta Hawks,44,Alan Henderson,PF,6-9,235,1972-12-02,US,5,Indiana
+2001,1,1406,ATL,Atlanta Hawks,22,Jim Jackson,SF,6-6,220,1970-10-14,US,8,Ohio State
+2001,1,1467,ATL,Atlanta Hawks,10,Anthony Johnson,PG,6-3,190,1974-10-02,US,3,College of Charleston
+2001,1,1485,ATL,Atlanta Hawks,1,DerMarr Johnson,SF,6-9,201,1980-05-05,US,R,Cincinnati
+2001,1,1640,ATL,Atlanta Hawks,22,Brevin Knight,PG,5-10,173,1975-11-08,US,3,Stanford
+2001,1,1664,ATL,Atlanta Hawks,7,Toni Kukoc,SF,6-10,192,1968-09-18,HR,7,
+2001,1,1828,ATL,Atlanta Hawks,12,Matt Maloney,PG,6-3,192,1971-12-06,US,4,"Vanderbilt, Penn"
+2001,1,1955,ATL,Atlanta Hawks,7,Roshown McLeod,SF,6-8,221,1975-11-17,US,2,"St. John's, Duke"
+2001,1,1993,ATL,Atlanta Hawks,34,Anthony Miller,PF,6-9,225,1971-10-22,US,6,Michigan State
+2001,1,2025,ATL,Atlanta Hawks,14,Nazr Mohammed,C,6-10,221,1977-09-05,US,2,Kentucky
+2001,1,2072,ATL,Atlanta Hawks,13,Hanno Mottola,SF,6-11,247,1976-09-09,FI,R,Utah
+2001,1,2102,ATL,Atlanta Hawks,55,Dikembe Mutombo,C,7-2,245,1966-06-25,CD,9,Georgetown
+2001,1,2244,ATL,Atlanta Hawks,24,Andy Panko,SF,6-9,222,1977-11-27,US,R,Lebanon Valley College
+2001,1,2489,ATL,Atlanta Hawks,20,Larry Robinson,PG,6-3,180,1968-01-11,US,5,Centenary (LA)
+2001,1,2558,ATL,Atlanta Hawks,24,Pepe Sanchez,PG,6-4,195,1977-05-08,AR,R,Temple
+2001,1,2714,ATL,Atlanta Hawks,14,Tony Smith,SG,6-3,185,1968-06-14,US,8,Marquette
+2001,1,2839,ATL,Atlanta Hawks,31,Jason Terry,SG,6-2,185,1977-09-15,US,1,Arizona
+2001,1,3254,ATL,Atlanta Hawks,42,Lorenzen Wright,C,6-11,225,1975-11-04,US,4,Memphis

@@ -1,29 +1,29 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,15,15,MEM,Memphis Grizzlies,3,Jordan Adams,SG,6-5,209,"July 8, 1994",US,1,UCLA
-2016,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,"January 11, 1982",US,11,"Butler County Community College, Oklahoma State"
-2016,15,66,MEM,Memphis Grizzlies,7,Chris Andersen,C,6-10,245,"July 7, 1978",US,13,Blinn College
-2016,15,169,MEM,Memphis Grizzlies,22,Matt Barnes,SF,6-7,226,"March 9, 1980",US,12,UCLA
-2016,15,492,MEM,Memphis Grizzlies,15,Vince Carter,SG,6-6,220,"January 26, 1977",US,17,UNC
-2016,15,511,MEM,Memphis Grizzlies,6,Mario Chalmers,PG,6-2,190,"May 19, 1986",US,7,Kansas
-2016,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,"October 11, 1987",US,8,Ohio State
-2016,15,613,MEM,Memphis Grizzlies,8,Bryce Cotton,PG,6-1,165,"August 11, 1992",US,1,Providence
-2016,15,866,MEM,Memphis Grizzlies,8,James Ennis,SF,6-6,215,"July 1, 1990",US,1,Cal State Long Beach
-2016,15,890,MEM,Memphis Grizzlies,4,Jordan Farmar,PG,6-2,180,"November 30, 1986",US,8,UCLA
-2016,15,1007,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,"January 29, 1985",ES,7,
-2016,15,1104,MEM,Memphis Grizzlies,0,JaMychal Green,PF,6-8,227,"June 21, 1990",US,1,Alabama
-2016,15,1106,MEM,Memphis Grizzlies,32,Jeff Green,SF,6-8,235,"August 28, 1986",US,7,Georgetown
-2016,15,1148,MEM,Memphis Grizzlies,19,P.J. Hairston,SF,6-6,230,"December 24, 1992",US,1,UNC
-2016,15,1314,MEM,Memphis Grizzlies,20,Ryan Hollins,C,7-0,240,"October 10, 1984",US,9,UCLA
-2016,15,1719,MEM,Memphis Grizzlies,5,Courtney Lee,SG,6-5,215,"October 3, 1985",US,7,Western Kentucky
-2016,15,1857,MEM,Memphis Grizzlies,10,Jarell Martin,PF,6-10,239,"May 24, 1994",US,R,LSU
-2016,15,1895,MEM,Memphis Grizzlies,5,Ray McCallum,PG,6-3,190,"June 12, 1991",US,2,Detroit Mercy
-2016,15,2079,MEM,Memphis Grizzlies,14,Xavier Munford,SG,6-2,180,"June 1, 1992",US,R,Rhode Island
-2016,15,2398,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,"July 16, 1981",US,14,Michigan State
-2016,15,2704,MEM,Memphis Grizzlies,2,Russ Smith,PG,6-0,165,"April 19, 1991",US,1,Louisville
-2016,15,2748,MEM,Memphis Grizzlies,1,Lance Stephenson,SF,6-6,230,"September 5, 1990",US,5,Cincinnati
-2016,15,2749,MEM,Memphis Grizzlies,35,Alex Stepheson,PF,6-10,270,"August 7, 1987",US,R,"UNC, USC"
-2016,15,2767,MEM,Memphis Grizzlies,1,Jarnell Stokes,C,6-9,263,"January 7, 1994",US,1,Tennessee
-2016,15,2941,MEM,Memphis Grizzlies,19,Beno Udrih,PG,6-3,205,"July 5, 1982",SI,11,
-2016,15,3058,MEM,Memphis Grizzlies,2,Briante Weber,PG,6-2,165,"December 29, 1992",US,R,VCU
-2016,15,3138,MEM,Memphis Grizzlies,25,Elliot Williams,PG,6-5,190,"June 20, 1989",US,3,"Duke, Memphis"
-2016,15,3240,MEM,Memphis Grizzlies,34,Brandan Wright,PF,6-10,210,"October 5, 1987",US,7,UNC
+2016,15,15,MEM,Memphis Grizzlies,3,Jordan Adams,SG,6-5,209,1994-07-08,US,1,UCLA
+2016,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,1982-01-11,US,11,"Butler County Community College, Oklahoma State"
+2016,15,66,MEM,Memphis Grizzlies,7,Chris Andersen,C,6-10,245,1978-07-07,US,13,Blinn College
+2016,15,169,MEM,Memphis Grizzlies,22,Matt Barnes,SF,6-7,226,1980-03-09,US,12,UCLA
+2016,15,492,MEM,Memphis Grizzlies,15,Vince Carter,SG,6-6,220,1977-01-26,US,17,UNC
+2016,15,511,MEM,Memphis Grizzlies,6,Mario Chalmers,PG,6-2,190,1986-05-19,US,7,Kansas
+2016,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,1987-10-11,US,8,Ohio State
+2016,15,613,MEM,Memphis Grizzlies,8,Bryce Cotton,PG,6-1,165,1992-08-11,US,1,Providence
+2016,15,868,MEM,Memphis Grizzlies,8,James Ennis,SF,6-6,215,1990-07-01,US,1,Cal State Long Beach
+2016,15,892,MEM,Memphis Grizzlies,4,Jordan Farmar,PG,6-2,180,1986-11-30,US,8,UCLA
+2016,15,1009,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,1985-01-29,ES,7,
+2016,15,1106,MEM,Memphis Grizzlies,0,JaMychal Green,PF,6-8,227,1990-06-21,US,1,Alabama
+2016,15,1108,MEM,Memphis Grizzlies,32,Jeff Green,SF,6-8,235,1986-08-28,US,7,Georgetown
+2016,15,1150,MEM,Memphis Grizzlies,19,P.J. Hairston,SF,6-6,230,1992-12-24,US,1,UNC
+2016,15,1316,MEM,Memphis Grizzlies,20,Ryan Hollins,C,7-0,240,1984-10-10,US,9,UCLA
+2016,15,1722,MEM,Memphis Grizzlies,5,Courtney Lee,SG,6-5,215,1985-10-03,US,7,Western Kentucky
+2016,15,1860,MEM,Memphis Grizzlies,10,Jarell Martin,PF,6-10,239,1994-05-24,US,R,LSU
+2016,15,1898,MEM,Memphis Grizzlies,5,Ray McCallum,PG,6-3,190,1991-06-12,US,2,Detroit Mercy
+2016,15,2082,MEM,Memphis Grizzlies,14,Xavier Munford,SG,6-2,180,1992-06-01,US,R,Rhode Island
+2016,15,2402,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,1981-07-16,US,14,Michigan State
+2016,15,2708,MEM,Memphis Grizzlies,2,Russ Smith,PG,6-0,165,1991-04-19,US,1,Louisville
+2016,15,2752,MEM,Memphis Grizzlies,1,Lance Stephenson,SF,6-6,230,1990-09-05,US,5,Cincinnati
+2016,15,2753,MEM,Memphis Grizzlies,35,Alex Stepheson,PF,6-10,270,1987-08-07,US,R,"UNC, USC"
+2016,15,2771,MEM,Memphis Grizzlies,1,Jarnell Stokes,C,6-9,263,1994-01-07,US,1,Tennessee
+2016,15,2946,MEM,Memphis Grizzlies,19,Beno Udrih,PG,6-3,205,1982-07-05,SI,11,
+2016,15,3063,MEM,Memphis Grizzlies,2,Briante Weber,PG,6-2,165,1992-12-29,US,R,VCU
+2016,15,3144,MEM,Memphis Grizzlies,25,Elliot Williams,PG,6-5,190,1989-06-20,US,3,"Duke, Memphis"
+2016,15,3246,MEM,Memphis Grizzlies,34,Brandan Wright,PF,6-10,210,1987-10-05,US,7,UNC

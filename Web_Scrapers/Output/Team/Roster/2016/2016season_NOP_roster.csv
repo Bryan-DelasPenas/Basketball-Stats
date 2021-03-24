@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,19,27,NOP,New Orleans Pelicans,42,Alexis Ajinca,C,7-2,248,"May 6, 1988",FR,5,
-2016,19,83,NOP,New Orleans Pelicans,33,Ryan Anderson,PF,6-9,240,"May 6, 1988",US,7,California
-2016,19,114,NOP,New Orleans Pelicans,3,Omer Asik,C,7-0,255,"July 4, 1986",TR,5,
-2016,19,133,NOP,New Orleans Pelicans,8,Luke Babbitt,SF,6-9,225,"June 20, 1989",US,5,Nevada
-2016,19,561,NOP,New Orleans Pelicans,30,Norris Cole,PG,6-2,175,"October 13, 1988",US,4,Cleveland State University
-2016,19,646,NOP,New Orleans Pelicans,44,Dante Cunningham,SF,6-8,230,"April 22, 1987",US,6,Villanova
-2016,19,676,NOP,New Orleans Pelicans,23,Anthony Davis,C,6-10,253,"March 11, 1993",US,3,Kentucky
-2016,19,719,NOP,New Orleans Pelicans,31,Bryce Dejean-Jones,SG,6-6,209,"August 21, 1992",US,R,"USC, UNLV, Iowa State"
-2016,19,772,NOP,New Orleans Pelicans,16,Toney Douglas,PG,6-2,195,"March 16, 1986",US,6,"Auburn, Florida State"
-2016,19,866,NOP,New Orleans Pelicans,4,James Ennis,SF,6-6,215,"July 1, 1990",US,1,Cal State Long Beach
-2016,19,881,NOP,New Orleans Pelicans,1,Tyreke Evans,SG,6-6,220,"September 19, 1989",US,6,Memphis
-2016,19,960,NOP,New Orleans Pelicans,2,Tim Frazier,PG,6-0,170,"November 1, 1990",US,1,Penn State
-2016,19,963,NOP,New Orleans Pelicans,32,Jimmer Fredette,SG,6-2,195,"February 25, 1989",US,4,BYU
-2016,19,1015,NOP,New Orleans Pelicans,15,Alonzo Gee,SF,6-6,225,"May 29, 1987",US,6,Alabama
-2016,19,1063,NOP,New Orleans Pelicans,10,Eric Gordon,SG,6-3,215,"December 25, 1988",US,7,Indiana
-2016,19,1159,NOP,New Orleans Pelicans,25,Jordan Hamilton,SF,6-7,220,"October 6, 1990",US,4,Texas
-2016,19,1309,NOP,New Orleans Pelicans,11,Jrue Holiday,PG,6-3,205,"June 12, 1990",US,6,UCLA
-2016,19,1510,NOP,New Orleans Pelicans,0,Orlando Johnson,SG,6-5,220,"March 11, 1989",US,2,"Loyola Marymount, UC Santa Barbara"
-2016,19,2286,NOP,New Orleans Pelicans,5,Kendrick Perkins,C,6-10,270,"November 10, 1984",US,12,
-2016,19,2487,NOP,New Orleans Pelicans,2,Nate Robinson,PG,5-9,180,"May 31, 1984",US,10,Washington
-2016,19,2681,NOP,New Orleans Pelicans,4,Ish Smith,PG,6-0,175,"July 5, 1988",US,5,Wake Forest
+2016,19,27,NOP,New Orleans Pelicans,42,Alexis Ajinca,C,7-2,248,1988-05-06,FR,5,
+2016,19,83,NOP,New Orleans Pelicans,33,Ryan Anderson,PF,6-9,240,1988-05-06,US,7,California
+2016,19,114,NOP,New Orleans Pelicans,3,Omer Asik,C,7-0,255,1986-07-04,TR,5,
+2016,19,133,NOP,New Orleans Pelicans,8,Luke Babbitt,SF,6-9,225,1989-06-20,US,5,Nevada
+2016,19,561,NOP,New Orleans Pelicans,30,Norris Cole,PG,6-2,175,1988-10-13,US,4,Cleveland State University
+2016,19,646,NOP,New Orleans Pelicans,44,Dante Cunningham,SF,6-8,230,1987-04-22,US,6,Villanova
+2016,19,677,NOP,New Orleans Pelicans,23,Anthony Davis,C,6-10,253,1993-03-11,US,3,Kentucky
+2016,19,720,NOP,New Orleans Pelicans,31,Bryce Dejean-Jones,SG,6-6,209,1992-08-21,US,R,"USC, UNLV, Iowa State"
+2016,19,774,NOP,New Orleans Pelicans,16,Toney Douglas,PG,6-2,195,1986-03-16,US,6,"Auburn, Florida State"
+2016,19,868,NOP,New Orleans Pelicans,4,James Ennis,SF,6-6,215,1990-07-01,US,1,Cal State Long Beach
+2016,19,883,NOP,New Orleans Pelicans,1,Tyreke Evans,SG,6-6,220,1989-09-19,US,6,Memphis
+2016,19,962,NOP,New Orleans Pelicans,2,Tim Frazier,PG,6-0,170,1990-11-01,US,1,Penn State
+2016,19,965,NOP,New Orleans Pelicans,32,Jimmer Fredette,SG,6-2,195,1989-02-25,US,4,BYU
+2016,19,1017,NOP,New Orleans Pelicans,15,Alonzo Gee,SF,6-6,225,1987-05-29,US,6,Alabama
+2016,19,1065,NOP,New Orleans Pelicans,10,Eric Gordon,SG,6-3,215,1988-12-25,US,7,Indiana
+2016,19,1161,NOP,New Orleans Pelicans,25,Jordan Hamilton,SF,6-7,220,1990-10-06,US,4,Texas
+2016,19,1311,NOP,New Orleans Pelicans,11,Jrue Holiday,PG,6-3,205,1990-06-12,US,6,UCLA
+2016,19,1512,NOP,New Orleans Pelicans,0,Orlando Johnson,SG,6-5,220,1989-03-11,US,2,"Loyola Marymount, UC Santa Barbara"
+2016,19,2289,NOP,New Orleans Pelicans,5,Kendrick Perkins,C,6-10,270,1984-11-10,US,12,
+2016,19,2491,NOP,New Orleans Pelicans,2,Nate Robinson,PG,5-9,180,1984-05-31,US,10,Washington
+2016,19,2685,NOP,New Orleans Pelicans,4,Ish Smith,PG,6-0,175,1988-07-05,US,5,Wake Forest

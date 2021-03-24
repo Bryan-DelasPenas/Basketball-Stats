@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1993,8,3,DEN,Denver Nuggets,3,Mahmoud Abdul-Rauf,PG,6-1,162,"March 9, 1969",US,2,LSU
-1993,8,363,DEN,Denver Nuggets,43,Kevin Brooks,SF,6-6,200,"October 12, 1969",US,1,Louisiana
-1993,8,851,DEN,Denver Nuggets,20,LaPhonso Ellis,PF,6-8,240,"May 5, 1970",US,R,Notre Dame
-1993,8,1167,DEN,Denver Nuggets,21,Tom Hammonds,PF,6-9,215,"March 27, 1967",US,3,Georgia Tech
-1993,8,1225,DEN,Denver Nuggets,10,Scott Hastings,C,6-10,235,"June 3, 1960",US,10,Arkansas
-1993,8,1750,DEN,Denver Nuggets,30,Marcus Liberty,SF,6-8,205,"October 27, 1968",US,2,Illinois
-1993,8,1751,DEN,Denver Nuggets,21,Todd Lichti,SG,6-4,205,"January 8, 1967",US,3,Stanford
-1993,8,1806,DEN,Denver Nuggets,1,Mark Macon,PG,6-5,185,"April 14, 1969",US,1,Temple
-1993,8,2099,DEN,Denver Nuggets,55,Dikembe Mutombo,C,7-2,245,"June 25, 1966",CD,1,Georgetown
-1993,8,2235,DEN,Denver Nuggets,12,Robert Pack,PG,6-2,180,"February 3, 1969",US,1,USC
-1993,8,2324,DEN,Denver Nuggets,45,Gary Plummer,PF,6-9,215,"February 21, 1962",US,1,Boston University
-1993,8,2760,DEN,Denver Nuggets,23,Bryant Stith,SG,6-5,208,"December 10, 1970",US,R,Virginia
-1993,8,3072,DEN,Denver Nuggets,28,Robert Werdann,C,6-11,250,"September 12, 1970",US,R,St. John's
-1993,8,3172,DEN,Denver Nuggets,34,Reggie Williams,SF,6-7,190,"March 5, 1964",US,5,Georgetown
+1993,8,3,DEN,Denver Nuggets,3,Mahmoud Abdul-Rauf,PG,6-1,162,1969-03-09,US,2,LSU
+1993,8,363,DEN,Denver Nuggets,43,Kevin Brooks,SF,6-6,200,1969-10-12,US,1,Louisiana
+1993,8,853,DEN,Denver Nuggets,20,LaPhonso Ellis,PF,6-8,240,1970-05-05,US,R,Notre Dame
+1993,8,1169,DEN,Denver Nuggets,21,Tom Hammonds,PF,6-9,215,1967-03-27,US,3,Georgia Tech
+1993,8,1227,DEN,Denver Nuggets,10,Scott Hastings,C,6-10,235,1960-06-03,US,10,Arkansas
+1993,8,1753,DEN,Denver Nuggets,30,Marcus Liberty,SF,6-8,205,1968-10-27,US,2,Illinois
+1993,8,1754,DEN,Denver Nuggets,21,Todd Lichti,SG,6-4,205,1967-01-08,US,3,Stanford
+1993,8,1809,DEN,Denver Nuggets,1,Mark Macon,PG,6-5,185,1969-04-14,US,1,Temple
+1993,8,2102,DEN,Denver Nuggets,55,Dikembe Mutombo,C,7-2,245,1966-06-25,CD,1,Georgetown
+1993,8,2238,DEN,Denver Nuggets,12,Robert Pack,PG,6-2,180,1969-02-03,US,1,USC
+1993,8,2327,DEN,Denver Nuggets,45,Gary Plummer,PF,6-9,215,1962-02-21,US,1,Boston University
+1993,8,2764,DEN,Denver Nuggets,23,Bryant Stith,SG,6-5,208,1970-12-10,US,R,Virginia
+1993,8,3077,DEN,Denver Nuggets,28,Robert Werdann,C,6-11,250,1970-09-12,US,R,St. John's
+1993,8,3179,DEN,Denver Nuggets,34,Reggie Williams,SF,6-7,190,1964-03-05,US,5,Georgetown

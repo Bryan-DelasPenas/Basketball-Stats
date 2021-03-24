@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1990,6,224,CLE,Cleveland Cavaliers,20,Winston Bennett,SF,6-7,210,"February 9, 1965",US,R,Kentucky
-1990,6,372,CLE,Cleveland Cavaliers,52,Chucky Brown,SF,6-7,214,"February 29, 1968",US,R,NC State
-1990,6,525,CLE,Cleveland Cavaliers,33,Derrick Chievous,SF,6-7,195,"July 3, 1967",US,1,Missouri
-1990,6,672,CLE,Cleveland Cavaliers,43,Brad Daugherty,C,7-0,245,"October 19, 1965",US,3,UNC
-1990,6,792,CLE,Cleveland Cavaliers,24,Chris Dudley,PF,6-11,235,"February 22, 1965",US,2,Yale
-1990,6,838,CLE,Cleveland Cavaliers,3,Craig Ehlo,SG,6-6,180,"August 11, 1961",US,6,Washington State
-1990,6,1192,CLE,Cleveland Cavaliers,4,Ron Harper,SG,6-6,185,"January 20, 1964",US,3,Miami University
-1990,6,1599,CLE,Cleveland Cavaliers,5,Steve Kerr,PG,6-3,175,"September 27, 1965",LB,1,Arizona
-1990,6,1603,CLE,Cleveland Cavaliers,31,Randolph Keys,SF,6-7,195,"April 19, 1966",US,1,Southern Miss
-1990,6,2024,CLE,Cleveland Cavaliers,44,Paul Mokeski,C,7-0,250,"January 3, 1957",US,10,Kansas
-1990,6,2063,CLE,Cleveland Cavaliers,23,John Morton,SG,6-3,180,"May 18, 1967",US,R,Seton Hall
-1990,6,2111,CLE,Cleveland Cavaliers,22,Larry Nance,PF,6-10,205,"February 12, 1959",US,8,Clemson
-1990,6,2363,CLE,Cleveland Cavaliers,25,Mark Price,PG,6-0,170,"February 15, 1964",US,3,Georgia Tech
-1990,6,2504,CLE,Cleveland Cavaliers,30,Tree Rollins,C,7-1,235,"June 16, 1955",US,12,Clemson
-1990,6,2979,CLE,Cleveland Cavaliers,54,Gary Voce,PF,6-9,240,"November 24, 1965",JM,R,Notre Dame
-1990,6,3146,CLE,Cleveland Cavaliers,18,Hot Rod Williams,PF,6-11,215,"August 9, 1962",US,3,Tulane
-1990,6,3172,CLE,Cleveland Cavaliers,2,Reggie Williams,SF,6-7,190,"March 5, 1964",US,2,Georgetown
+1990,6,224,CLE,Cleveland Cavaliers,20,Winston Bennett,SF,6-7,210,1965-02-09,US,R,Kentucky
+1990,6,372,CLE,Cleveland Cavaliers,52,Chucky Brown,SF,6-7,214,1968-02-29,US,R,NC State
+1990,6,525,CLE,Cleveland Cavaliers,33,Derrick Chievous,SF,6-7,195,1967-07-03,US,1,Missouri
+1990,6,673,CLE,Cleveland Cavaliers,43,Brad Daugherty,C,7-0,245,1965-10-19,US,3,UNC
+1990,6,794,CLE,Cleveland Cavaliers,24,Chris Dudley,PF,6-11,235,1965-02-22,US,2,Yale
+1990,6,840,CLE,Cleveland Cavaliers,3,Craig Ehlo,SG,6-6,180,1961-08-11,US,6,Washington State
+1990,6,1194,CLE,Cleveland Cavaliers,4,Ron Harper,SG,6-6,185,1964-01-20,US,3,Miami University
+1990,6,1601,CLE,Cleveland Cavaliers,5,Steve Kerr,PG,6-3,175,1965-09-27,LB,1,Arizona
+1990,6,1605,CLE,Cleveland Cavaliers,31,Randolph Keys,SF,6-7,195,1966-04-19,US,1,Southern Miss
+1990,6,2027,CLE,Cleveland Cavaliers,44,Paul Mokeski,C,7-0,250,1957-01-03,US,10,Kansas
+1990,6,2066,CLE,Cleveland Cavaliers,23,John Morton,SG,6-3,180,1967-05-18,US,R,Seton Hall
+1990,6,2115,CLE,Cleveland Cavaliers,22,Larry Nance,PF,6-10,205,1959-02-12,US,8,Clemson
+1990,6,2367,CLE,Cleveland Cavaliers,25,Mark Price,PG,6-0,170,1964-02-15,US,3,Georgia Tech
+1990,6,2508,CLE,Cleveland Cavaliers,30,Tree Rollins,C,7-1,235,1955-06-16,US,12,Clemson
+1990,6,2984,CLE,Cleveland Cavaliers,54,Gary Voce,PF,6-9,240,1965-11-24,JM,R,Notre Dame
+1990,6,3152,CLE,Cleveland Cavaliers,18,Hot Rod Williams,PF,6-11,215,1962-08-09,US,3,Tulane
+1990,6,3179,CLE,Cleveland Cavaliers,2,Reggie Williams,SF,6-7,190,1964-03-05,US,2,Georgetown

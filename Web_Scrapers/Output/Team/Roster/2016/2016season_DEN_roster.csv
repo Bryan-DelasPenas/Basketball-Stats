@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,8,112,DEN,Denver Nuggets,0,Darrell Arthur,PF,6-9,235,"March 25, 1988",US,6,Kansas
-2016,8,119,DEN,Denver Nuggets,12,D.J. Augustin,PG,5-11,183,"November 10, 1987",US,7,Texas
-2016,8,178,DEN,Denver Nuggets,5,Will Barton,SG,6-6,181,"January 6, 1991",US,3,Memphis
-2016,8,889,DEN,Denver Nuggets,35,Kenneth Faried,PF,6-8,220,"November 19, 1989",US,4,Morehead State University
-2016,8,952,DEN,Denver Nuggets,4,Randy Foye,SG,6-4,213,"September 24, 1983",US,9,Villanova
-2016,8,983,DEN,Denver Nuggets,8,Danilo Gallinari,SF,6-10,233,"August 8, 1988",IT,6,
-2016,8,1102,DEN,Denver Nuggets,11,Erick Green,PG,6-4,185,"May 9, 1991",US,1,Virginia Tech
-2016,8,1202,DEN,Denver Nuggets,14,Gary Harris,SG,6-4,210,"September 14, 1994",US,1,Michigan State
-2016,8,1278,DEN,Denver Nuggets,7,J.J. Hickson,C,6-9,242,"September 4, 1988",US,7,NC State
-2016,8,1522,DEN,Denver Nuggets,15,Nikola Jokic,C,6-11,284,"February 19, 1995",RS,R,
-2016,8,1611,DEN,Denver Nuggets,6,Sean Kilpatrick,SG,6-4,210,"January 6, 1990",US,1,Cincinnati
-2016,8,1703,DEN,Denver Nuggets,77,Joffrey Lauvergne,C,6-11,220,"September 30, 1991",FR,1,
-2016,8,1996,DEN,Denver Nuggets,3,Mike Miller,SF,6-8,218,"February 19, 1980",US,15,Florida
-2016,8,2073,DEN,Denver Nuggets,0,Emmanuel Mudiay,PG,6-3,200,"March 5, 1996",CD,R,
-2016,8,2126,DEN,Denver Nuggets,1,Jameer Nelson,PG,6-0,190,"February 9, 1982",US,11,Saint Joseph's
-2016,8,2167,DEN,Denver Nuggets,23,Jusuf Nurkic,C,6-11,290,"August 23, 1994",BA,1,
-2016,8,2243,DEN,Denver Nuggets,16,Kostas Papanikolaou,SF,6-8,225,"July 31, 1990",GR,1,
-2016,8,2550,DEN,Denver Nuggets,9,JaKarr Sampson,SF,6-7,214,"March 20, 1993",US,1,St. John's
-2016,8,2903,DEN,Denver Nuggets,6,Axel Toupane,SF,6-7,197,"July 23, 1992",FR,R,
+2016,8,112,DEN,Denver Nuggets,0,Darrell Arthur,PF,6-9,235,1988-03-25,US,6,Kansas
+2016,8,119,DEN,Denver Nuggets,12,D.J. Augustin,PG,5-11,183,1987-11-10,US,7,Texas
+2016,8,178,DEN,Denver Nuggets,5,Will Barton,SG,6-6,181,1991-01-06,US,3,Memphis
+2016,8,891,DEN,Denver Nuggets,35,Kenneth Faried,PF,6-8,220,1989-11-19,US,4,Morehead State University
+2016,8,954,DEN,Denver Nuggets,4,Randy Foye,SG,6-4,213,1983-09-24,US,9,Villanova
+2016,8,985,DEN,Denver Nuggets,8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,6,
+2016,8,1104,DEN,Denver Nuggets,11,Erick Green,PG,6-4,185,1991-05-09,US,1,Virginia Tech
+2016,8,1204,DEN,Denver Nuggets,14,Gary Harris,SG,6-4,210,1994-09-14,US,1,Michigan State
+2016,8,1280,DEN,Denver Nuggets,7,J.J. Hickson,C,6-9,242,1988-09-04,US,7,NC State
+2016,8,1524,DEN,Denver Nuggets,15,Nikola Jokic,C,6-11,284,1995-02-19,RS,R,
+2016,8,1613,DEN,Denver Nuggets,6,Sean Kilpatrick,SG,6-4,210,1990-01-06,US,1,Cincinnati
+2016,8,1706,DEN,Denver Nuggets,77,Joffrey Lauvergne,C,6-11,220,1991-09-30,FR,1,
+2016,8,1999,DEN,Denver Nuggets,3,Mike Miller,SF,6-8,218,1980-02-19,US,15,Florida
+2016,8,2076,DEN,Denver Nuggets,0,Emmanuel Mudiay,PG,6-3,200,1996-03-05,CD,R,
+2016,8,2129,DEN,Denver Nuggets,1,Jameer Nelson,PG,6-0,190,1982-02-09,US,11,Saint Joseph's
+2016,8,2170,DEN,Denver Nuggets,23,Jusuf Nurkic,C,6-11,290,1994-08-23,BA,1,
+2016,8,2246,DEN,Denver Nuggets,16,Kostas Papanikolaou,SF,6-8,225,1990-07-31,GR,1,
+2016,8,2554,DEN,Denver Nuggets,9,JaKarr Sampson,SF,6-7,214,1993-03-20,US,1,St. John's
+2016,8,2908,DEN,Denver Nuggets,6,Axel Toupane,SF,6-7,197,1992-07-23,FR,R,

@@ -1,23 +1,23 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2018,3,11,BRK,Brooklyn Nets,13,Quincy Acy,PF,6-7,240,"October 6, 1990",US,5,Baylor
-2018,3,48,BRK,Brooklyn Nets,31,Jarrett Allen,C,6-11,243,"April 21, 1998",US,R,Texas
-2018,3,294,BRK,Brooklyn Nets,35,Trevor Booker,PF,6-8,228,"November 25, 1987",US,7,Clemson
-2018,3,481,BRK,Brooklyn Nets,9,DeMarre Carroll,PF,6-6,215,"July 27, 1986",US,8,"Vanderbilt, Missouri"
-2018,3,622,BRK,Brooklyn Nets,33,Allen Crabbe,SG,6-5,212,"April 9, 1992",US,4,California
-2018,3,646,BRK,Brooklyn Nets,44,Dante Cunningham,SF,6-8,230,"April 22, 1987",US,8,Villanova
-2018,3,750,BRK,Brooklyn Nets,8,Spencer Dinwiddie,PG,6-5,215,"April 6, 1993",US,3,Colorado
-2018,3,776,BRK,Brooklyn Nets,14,Milton Doyle,SG,6-4,185,"October 31, 1993",US,R,Loyola Chicago
-2018,3,1204,BRK,Brooklyn Nets,12,Joe Harris,SG,6-6,220,"September 6, 1991",US,3,Virginia
-2018,3,1315,BRK,Brooklyn Nets,24,Rondae Hollis-Jefferson,SF,6-6,217,"January 3, 1995",US,2,Arizona
-2018,3,1611,BRK,Brooklyn Nets,6,Sean Kilpatrick,SG,6-4,210,"January 6, 1990",US,3,Cincinnati
-2018,3,1711,BRK,Brooklyn Nets,22,Caris LeVert,SF,6-6,205,"August 25, 1994",US,1,Michigan
-2018,3,1754,BRK,Brooklyn Nets,7,Jeremy Lin,PG,6-3,200,"August 23, 1988",US,7,Harvard University
-2018,3,2072,BRK,Brooklyn Nets,20,Timofey Mozgov,C,7-1,275,"July 16, 1986",RU,7,
-2018,3,2192,BRK,Brooklyn Nets,4,Jahlil Okafor,C,6-10,270,"December 15, 1995",US,2,Duke
-2018,3,2537,BRK,Brooklyn Nets,1,D'Angelo Russell,PG,6-4,193,"February 23, 1996",US,2,Ohio State
-2018,3,2741,BRK,Brooklyn Nets,2,Nik Stauskas,SG,6-6,205,"October 7, 1993",CA,3,Michigan
-2018,3,2967,BRK,Brooklyn Nets,17,Rashad Vaughn,SG,6-6,202,"August 16, 1996",US,2,UNLV
-2018,3,3054,BRK,Brooklyn Nets,0,James Webb III,SF,6-9,202,"August 19, 1993",US,R,Boise State
-2018,3,3102,BRK,Brooklyn Nets,15,Isaiah Whitehead,PG,6-4,213,"March 8, 1995",US,1,Seton Hall
-2018,3,3115,BRK,Brooklyn Nets,21,Jacob Wiley,PF,6-7,215,"September 4, 1994",US,R,Eastern Washington
-2018,3,3271,BRK,Brooklyn Nets,44,Tyler Zeller,C,7-0,253,"January 17, 1990",US,5,UNC
+2018,3,11,BRK,Brooklyn Nets,13,Quincy Acy,PF,6-7,240,1990-10-06,US,5,Baylor
+2018,3,48,BRK,Brooklyn Nets,31,Jarrett Allen,C,6-11,243,1998-04-21,US,R,Texas
+2018,3,294,BRK,Brooklyn Nets,35,Trevor Booker,PF,6-8,228,1987-11-25,US,7,Clemson
+2018,3,481,BRK,Brooklyn Nets,9,DeMarre Carroll,PF,6-6,215,1986-07-27,US,8,"Vanderbilt, Missouri"
+2018,3,622,BRK,Brooklyn Nets,33,Allen Crabbe,SG,6-5,212,1992-04-09,US,4,California
+2018,3,646,BRK,Brooklyn Nets,44,Dante Cunningham,SF,6-8,230,1987-04-22,US,8,Villanova
+2018,3,752,BRK,Brooklyn Nets,8,Spencer Dinwiddie,PG,6-5,215,1993-04-06,US,3,Colorado
+2018,3,778,BRK,Brooklyn Nets,14,Milton Doyle,SG,6-4,185,1993-10-31,US,R,Loyola Chicago
+2018,3,1206,BRK,Brooklyn Nets,12,Joe Harris,SG,6-6,220,1991-09-06,US,3,Virginia
+2018,3,1317,BRK,Brooklyn Nets,24,Rondae Hollis-Jefferson,SF,6-6,217,1995-01-03,US,2,Arizona
+2018,3,1613,BRK,Brooklyn Nets,6,Sean Kilpatrick,SG,6-4,210,1990-01-06,US,3,Cincinnati
+2018,3,1714,BRK,Brooklyn Nets,22,Caris LeVert,SF,6-6,205,1994-08-25,US,1,Michigan
+2018,3,1757,BRK,Brooklyn Nets,7,Jeremy Lin,PG,6-3,200,1988-08-23,US,7,Harvard University
+2018,3,2075,BRK,Brooklyn Nets,20,Timofey Mozgov,C,7-1,275,1986-07-16,RU,7,
+2018,3,2195,BRK,Brooklyn Nets,4,Jahlil Okafor,C,6-10,270,1995-12-15,US,2,Duke
+2018,3,2541,BRK,Brooklyn Nets,1,D'Angelo Russell,PG,6-4,193,1996-02-23,US,2,Ohio State
+2018,3,2745,BRK,Brooklyn Nets,2,Nik Stauskas,SG,6-6,205,1993-10-07,CA,3,Michigan
+2018,3,2972,BRK,Brooklyn Nets,17,Rashad Vaughn,SG,6-6,202,1996-08-16,US,2,UNLV
+2018,3,3059,BRK,Brooklyn Nets,0,James Webb,SF,6-9,202,1993-08-19,US,R,Boise State
+2018,3,3107,BRK,Brooklyn Nets,15,Isaiah Whitehead,PG,6-4,213,1995-03-08,US,1,Seton Hall
+2018,3,3121,BRK,Brooklyn Nets,21,Jacob Wiley,PF,6-7,215,1994-09-04,US,R,Eastern Washington
+2018,3,3277,BRK,Brooklyn Nets,44,Tyler Zeller,C,7-0,253,1990-01-17,US,5,UNC

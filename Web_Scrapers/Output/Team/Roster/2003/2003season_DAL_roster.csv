@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2003,7,4,DAL,Dallas Mavericks,9,Tariq Abdul-Wahad,SG,6-6,223,"November 3, 1974",FR,5,"Michigan, San Jose State"
-2003,7,211,DAL,Dallas Mavericks,11,Raja Bell,SG,6-5,204,"September 19, 1976",VI,2,"Boston University, Florida International University"
-2003,7,326,DAL,Dallas Mavericks,44,Shawn Bradley,C,7-6,235,"March 22, 1972",DE,9,BYU
-2003,7,870,DAL,Dallas Mavericks,42,Evan Eschmeyer,C,6-11,255,"May 30, 1975",US,3,Northwestern
-2003,7,916,DAL,Dallas Mavericks,4,Michael Finley,SF,6-7,215,"March 6, 1973",US,7,Wisconsin
-2003,7,1124,DAL,Dallas Mavericks,7,Adrian Griffin,SG,6-5,217,"July 4, 1974",US,3,Seton Hall
-2003,7,1196,DAL,Dallas Mavericks,21,Adam Harrington,SG,6-5,200,"July 5, 1980",US,R,"NC State, Auburn"
-2003,7,1467,DAL,Dallas Mavericks,6,Avery Johnson,PG,5-10,175,"March 25, 1965",US,14,"Cameron University, Southern University and A&M College"
-2003,7,1558,DAL,Dallas Mavericks,54,Popeye Jones,PF,6-8,250,"June 17, 1970",US,9,Murray State
-2003,7,1671,DAL,Dallas Mavericks,45,Raef LaFrentz,C,6-11,240,"May 29, 1976",US,4,Kansas
-2003,7,2110,DAL,Dallas Mavericks,14,Eduardo Najera,SF,6-8,240,"July 11, 1976",MX,2,Oklahoma
-2003,7,2114,DAL,Dallas Mavericks,13,Steve Nash,PG,6-3,195,"February 7, 1974",ZA,6,Santa Clara
-2003,7,2163,DAL,Dallas Mavericks,41,Dirk Nowitzki,PF,7-0,245,"June 19, 1978",DE,4,
-2003,7,2453,DAL,Dallas Mavericks,17,Antoine Rigaudeau,SG,6-7,210,"December 17, 1971",FR,R,
-2003,7,2776,DAL,Dallas Mavericks,30,Mark Strickland,SF,6-9,210,"July 14, 1970",US,7,Temple
-2003,7,2952,DAL,Dallas Mavericks,31,Nick Van Exel,SG,6-1,170,"November 27, 1971",US,9,"Trinity Valley CC, Cincinnati"
-2003,7,3187,DAL,Dallas Mavericks,43,Walt Williams,SF,6-8,219,"April 16, 1970",US,10,Maryland
+2003,7,4,DAL,Dallas Mavericks,9,Tariq Abdul-Wahad,SG,6-6,223,1974-11-03,FR,5,"Michigan, San Jose State"
+2003,7,211,DAL,Dallas Mavericks,11,Raja Bell,SG,6-5,204,1976-09-19,VI,2,"Boston University, Florida International University"
+2003,7,326,DAL,Dallas Mavericks,44,Shawn Bradley,C,7-6,235,1972-03-22,DE,9,BYU
+2003,7,872,DAL,Dallas Mavericks,42,Evan Eschmeyer,C,6-11,255,1975-05-30,US,3,Northwestern
+2003,7,918,DAL,Dallas Mavericks,4,Michael Finley,SF,6-7,215,1973-03-06,US,7,Wisconsin
+2003,7,1126,DAL,Dallas Mavericks,7,Adrian Griffin,SG,6-5,217,1974-07-04,US,3,Seton Hall
+2003,7,1198,DAL,Dallas Mavericks,21,Adam Harrington,SG,6-5,200,1980-07-05,US,R,"NC State, Auburn"
+2003,7,1469,DAL,Dallas Mavericks,6,Avery Johnson,PG,5-10,175,1965-03-25,US,14,"Cameron University, Southern University and A&M College"
+2003,7,1560,DAL,Dallas Mavericks,54,Popeye Jones,PF,6-8,250,1970-06-17,US,9,Murray State
+2003,7,1673,DAL,Dallas Mavericks,45,Raef LaFrentz,C,6-11,240,1976-05-29,US,4,Kansas
+2003,7,2113,DAL,Dallas Mavericks,14,Eduardo Najera,SF,6-8,240,1976-07-11,MX,2,Oklahoma
+2003,7,2117,DAL,Dallas Mavericks,13,Steve Nash,PG,6-3,195,1974-02-07,ZA,6,Santa Clara
+2003,7,2166,DAL,Dallas Mavericks,41,Dirk Nowitzki,PF,7-0,245,1978-06-19,DE,4,
+2003,7,2457,DAL,Dallas Mavericks,17,Antoine Rigaudeau,SG,6-7,210,1971-12-17,FR,R,
+2003,7,2780,DAL,Dallas Mavericks,30,Mark Strickland,SF,6-9,210,1970-07-14,US,7,Temple
+2003,7,2957,DAL,Dallas Mavericks,31,Nick Van Exel,SG,6-1,170,1971-11-27,US,9,"Trinity Valley CC, Cincinnati"
+2003,7,3193,DAL,Dallas Mavericks,43,Walt Williams,SF,6-8,219,1970-04-16,US,10,Maryland

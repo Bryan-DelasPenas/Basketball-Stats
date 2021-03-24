@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1994,3,77,NJN,New Jersey Nets,7,Kenny Anderson,PG,6-0,168,"October 9, 1970",US,2,Georgia Tech
-1994,3,82,NJN,New Jersey Nets,22,Ron Anderson,SF,6-7,215,"October 15, 1958",US,9,Fresno State
-1994,3,217,NJN,New Jersey Nets,0,Benoit Benjamin,C,7-0,250,"November 22, 1964",US,8,Creighton
-1994,3,393,NJN,New Jersey Nets,42,P.J. Brown,C,6-11,225,"October 14, 1969",US,R,Louisiana Tech
-1994,3,563,NJN,New Jersey Nets,44,Derrick Coleman,PF,6-10,230,"June 21, 1967",US,3,Syracuse
-1994,3,835,NJN,New Jersey Nets,21,Kevin Edwards,SG,6-3,190,"October 30, 1965",US,5,DePaul
-1994,3,1038,NJN,New Jersey Nets,43,Armen Gilliam,PF,6-9,230,"May 28, 1964",US,6,UNLV
-1994,3,1423,NJN,New Jersey Nets,24,Dave Jamerson,SG,6-5,190,"August 13, 1967",US,2,Ohio University
-1994,3,1817,NJN,New Jersey Nets,4,Rick Mahorn,PF,6-10,240,"September 21, 1958",US,12,Hampton
-1994,3,2050,NJN,New Jersey Nets,34,Chris Morris,SF,6-8,210,"January 20, 1966",US,5,Auburn
-1994,3,2138,NJN,New Jersey Nets,20,Johnny Newman,SF,6-7,190,"November 28, 1963",US,7,Richmond
-1994,3,2489,NJN,New Jersey Nets,20,Rumeal Robinson,PG,6-2,195,"November 13, 1966",JM,3,Michigan
-1994,3,2575,NJN,New Jersey Nets,33,Dwayne Schintzius,C,7-1,260,"October 14, 1968",US,3,Florida
-1994,3,3018,NJN,New Jersey Nets,2,Rex Walters,SG,6-4,190,"March 12, 1970",US,R,"Northwestern, Kansas"
-1994,3,3073,NJN,New Jersey Nets,1,David Wesley,PG,6-0,190,"November 14, 1970",US,R,Baylor
-1994,3,3150,NJN,New Jersey Nets,55,Jayson Williams,PF,6-9,240,"February 22, 1968",US,3,St. John's
+1994,3,77,NJN,New Jersey Nets,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,2,Georgia Tech
+1994,3,82,NJN,New Jersey Nets,22,Ron Anderson,SF,6-7,215,1958-10-15,US,9,Fresno State
+1994,3,217,NJN,New Jersey Nets,0,Benoit Benjamin,C,7-0,250,1964-11-22,US,8,Creighton
+1994,3,393,NJN,New Jersey Nets,42,P.J. Brown,C,6-11,225,1969-10-14,US,R,Louisiana Tech
+1994,3,563,NJN,New Jersey Nets,44,Derrick Coleman,PF,6-10,230,1967-06-21,US,3,Syracuse
+1994,3,837,NJN,New Jersey Nets,21,Kevin Edwards,SG,6-3,190,1965-10-30,US,5,DePaul
+1994,3,1040,NJN,New Jersey Nets,43,Armen Gilliam,PF,6-9,230,1964-05-28,US,6,UNLV
+1994,3,1425,NJN,New Jersey Nets,24,Dave Jamerson,SG,6-5,190,1967-08-13,US,2,Ohio University
+1994,3,1820,NJN,New Jersey Nets,4,Rick Mahorn,PF,6-10,240,1958-09-21,US,12,Hampton
+1994,3,2053,NJN,New Jersey Nets,34,Chris Morris,SF,6-8,210,1966-01-20,US,5,Auburn
+1994,3,2141,NJN,New Jersey Nets,20,Johnny Newman,SF,6-7,190,1963-11-28,US,7,Richmond
+1994,3,2493,NJN,New Jersey Nets,20,Rumeal Robinson,PG,6-2,195,1966-11-13,JM,3,Michigan
+1994,3,2579,NJN,New Jersey Nets,33,Dwayne Schintzius,C,7-1,260,1968-10-14,US,3,Florida
+1994,3,3023,NJN,New Jersey Nets,2,Rex Walters,SG,6-4,190,1970-03-12,US,R,"Northwestern, Kansas"
+1994,3,3078,NJN,New Jersey Nets,1,David Wesley,PG,6-0,190,1970-11-14,US,R,Baylor
+1994,3,3156,NJN,New Jersey Nets,55,Jayson Williams,PF,6-9,240,1968-02-22,US,3,St. John's

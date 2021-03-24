@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1993,14,217,LAL,Los Angeles Lakers,0,Benoit Benjamin,C,7-0,250,"November 22, 1964",US,7,Creighton
-1993,14,255,LAL,Los Angeles Lakers,30,Alex Blackwell,SF,6-6,250,"June 27, 1970",US,R,Monmouth University
-1993,14,463,LAL,Los Angeles Lakers,41,Elden Campbell,PF,6-11,215,"July 23, 1968",US,2,Clemson
-1993,14,533,LAL,Los Angeles Lakers,35,Doug Christie,SG,6-6,200,"May 9, 1970",US,R,Pepperdine
-1993,14,601,LAL,Los Angeles Lakers,5,Duane Cooper,PG,6-1,185,"June 25, 1969",US,R,USC
-1993,14,753,LAL,Los Angeles Lakers,12,Vlade Divac,C,7-1,243,"February 3, 1968",RS,3,
-1993,14,832,LAL,Los Angeles Lakers,53,James Edwards,C,7-0,225,"November 22, 1955",US,15,Washington
-1993,14,1098,LAL,Los Angeles Lakers,45,A.C. Green,PF,6-9,220,"October 4, 1963",US,7,Oregon State
-1993,14,2277,LAL,Los Angeles Lakers,1,Anthony Peeler,SG,6-4,208,"November 25, 1969",US,R,Missouri
-1993,14,2287,LAL,Los Angeles Lakers,14,Sam Perkins,PF,6-9,235,"June 14, 1961",US,8,UNC
-1993,14,2584,LAL,Los Angeles Lakers,4,Byron Scott,SG,6-3,195,"March 28, 1961",US,9,Arizona State
-1993,14,2710,LAL,Los Angeles Lakers,34,Tony Smith,SG,6-3,185,"June 14, 1968",US,2,Marquette
-1993,14,2885,LAL,Los Angeles Lakers,3,Sedale Threatt,PG,6-2,175,"September 10, 1961",US,9,West Virginia Tech
-1993,14,3236,LAL,Los Angeles Lakers,42,James Worthy,SF,6-9,225,"February 27, 1961",US,10,UNC
+1993,14,217,LAL,Los Angeles Lakers,0,Benoit Benjamin,C,7-0,250,1964-11-22,US,7,Creighton
+1993,14,255,LAL,Los Angeles Lakers,30,Alex Blackwell,SF,6-6,250,1970-06-27,US,R,Monmouth University
+1993,14,463,LAL,Los Angeles Lakers,41,Elden Campbell,PF,6-11,215,1968-07-23,US,2,Clemson
+1993,14,533,LAL,Los Angeles Lakers,35,Doug Christie,SG,6-6,200,1970-05-09,US,R,Pepperdine
+1993,14,601,LAL,Los Angeles Lakers,5,Duane Cooper,PG,6-1,185,1969-06-25,US,R,USC
+1993,14,755,LAL,Los Angeles Lakers,12,Vlade Divac,C,7-1,243,1968-02-03,RS,3,
+1993,14,834,LAL,Los Angeles Lakers,53,James Edwards,C,7-0,225,1955-11-22,US,15,Washington
+1993,14,1100,LAL,Los Angeles Lakers,45,A.C. Green,PF,6-9,220,1963-10-04,US,7,Oregon State
+1993,14,2280,LAL,Los Angeles Lakers,1,Anthony Peeler,SG,6-4,208,1969-11-25,US,R,Missouri
+1993,14,2290,LAL,Los Angeles Lakers,14,Sam Perkins,PF,6-9,235,1961-06-14,US,8,UNC
+1993,14,2588,LAL,Los Angeles Lakers,4,Byron Scott,SG,6-3,195,1961-03-28,US,9,Arizona State
+1993,14,2714,LAL,Los Angeles Lakers,34,Tony Smith,SG,6-3,185,1968-06-14,US,2,Marquette
+1993,14,2889,LAL,Los Angeles Lakers,3,Sedale Threatt,PG,6-2,175,1961-09-10,US,9,West Virginia Tech
+1993,14,3242,LAL,Los Angeles Lakers,42,James Worthy,SF,6-9,225,1961-02-27,US,10,UNC

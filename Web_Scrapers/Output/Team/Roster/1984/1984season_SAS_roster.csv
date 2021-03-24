@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1984,27,157,SAS,San Antonio Spurs,20,Gene Banks,PF,6-7,215,"May 15, 1959",US,2,Duke
-1984,27,192,SAS,San Antonio Spurs,45,Dave Batton,C,6-10,240,"March 26, 1956",US,1,Notre Dame
-1984,27,345,SAS,San Antonio Spurs,10,Ron Brewer,SG,6-4,180,"July 16, 1955",US,5,Arkansas
-1984,27,823,SAS,San Antonio Spurs,10,Keith Edmonson,SG,6-5,195,"September 28, 1960",US,1,Purdue
-1984,27,1024,SAS,San Antonio Spurs,44,George Gervin,SG,6-7,180,"April 27, 1952",US,11,Eastern Michigan
-1984,27,1039,SAS,San Antonio Spurs,53,Artis Gilmore,C,7-2,240,"September 21, 1949",US,12,"Gardner-Webb University, Jacksonville University"
-1984,27,1544,SAS,San Antonio Spurs,42,Edgar Jones,PF,6-10,225,"June 17, 1956",US,3,Nevada
-1984,27,1755,SAS,San Antonio Spurs,25,Steve Lingenfelter,PF,6-9,225,"June 10, 1958",US,1,"Minnesota, South Dakota State"
-1984,27,1764,SAS,San Antonio Spurs,32,Darrell Lockhart,C,6-9,245,"September 14, 1960",US,R,Auburn
-1984,27,1784,SAS,San Antonio Spurs,15,John Lucas,PG,6-3,175,"October 31, 1953",US,7,Maryland
-1984,27,1955,SAS,San Antonio Spurs,31,Mark McNamara,C,6-11,235,"June 8, 1959",US,1,"Santa Clara, California"
-1984,27,1991,SAS,San Antonio Spurs,41,Bob Miller,PF,6-10,230,"July 9, 1956",US,R,Cincinnati
-1984,27,2013,SAS,San Antonio Spurs,34,Mike Mitchell,SF,6-7,215,"January 1, 1956",US,5,Auburn
-1984,27,2040,SAS,San Antonio Spurs,0,Johnny Moore,PG,6-1,175,"March 3, 1958",US,3,Texas
-1984,27,2268,SAS,San Antonio Spurs,4,John Paxson,PG,6-2,185,"September 29, 1960",US,R,Notre Dame
-1984,27,2301,SAS,San Antonio Spurs,21,Roger Phegley,SG,6-6,205,"October 16, 1956",US,5,Bradley
-1984,27,2464,SAS,San Antonio Spurs,11,Fred Roberts,PF,6-10,218,"August 14, 1960",US,R,BYU
-1984,27,2494,SAS,San Antonio Spurs,25,Dave Robisch,C,6-10,235,"December 22, 1949",US,12,Kansas
-1984,27,3064,SAS,San Antonio Spurs,25,Brant Weidner,PF,6-9,230,"October 28, 1960",US,R,William & Mary
-1984,27,3158,SAS,San Antonio Spurs,12,Kevin Williams,SG,6-2,175,"September 11, 1961",US,R,"TCU, St. John's"
+1984,27,157,SAS,San Antonio Spurs,20,Gene Banks,PF,6-7,215,1959-05-15,US,2,Duke
+1984,27,192,SAS,San Antonio Spurs,45,Dave Batton,C,6-10,240,1956-03-26,US,1,Notre Dame
+1984,27,345,SAS,San Antonio Spurs,10,Ron Brewer,SG,6-4,180,1955-07-16,US,5,Arkansas
+1984,27,825,SAS,San Antonio Spurs,10,Keith Edmonson,SG,6-5,195,1960-09-28,US,1,Purdue
+1984,27,1026,SAS,San Antonio Spurs,44,George Gervin,SG,6-7,180,1952-04-27,US,11,Eastern Michigan
+1984,27,1041,SAS,San Antonio Spurs,53,Artis Gilmore,C,7-2,240,1949-09-21,US,12,"Gardner-Webb University, Jacksonville University"
+1984,27,1546,SAS,San Antonio Spurs,42,Edgar Jones,PF,6-10,225,1956-06-17,US,3,Nevada
+1984,27,1758,SAS,San Antonio Spurs,25,Steve Lingenfelter,PF,6-9,225,1958-06-10,US,1,"Minnesota, South Dakota State"
+1984,27,1767,SAS,San Antonio Spurs,32,Darrell Lockhart,C,6-9,245,1960-09-14,US,R,Auburn
+1984,27,1787,SAS,San Antonio Spurs,15,John Lucas,PG,6-3,175,1953-10-31,US,7,Maryland
+1984,27,1958,SAS,San Antonio Spurs,31,Mark McNamara,C,6-11,235,1959-06-08,US,1,"Santa Clara, California"
+1984,27,1994,SAS,San Antonio Spurs,41,Bob Miller,PF,6-10,230,1956-07-09,US,R,Cincinnati
+1984,27,2016,SAS,San Antonio Spurs,34,Mike Mitchell,SF,6-7,215,1956-01-01,US,5,Auburn
+1984,27,2043,SAS,San Antonio Spurs,0,Johnny Moore,PG,6-1,175,1958-03-03,US,3,Texas
+1984,27,2271,SAS,San Antonio Spurs,4,John Paxson,PG,6-2,185,1960-09-29,US,R,Notre Dame
+1984,27,2304,SAS,San Antonio Spurs,21,Roger Phegley,SG,6-6,205,1956-10-16,US,5,Bradley
+1984,27,2468,SAS,San Antonio Spurs,11,Fred Roberts,PF,6-10,218,1960-08-14,US,R,BYU
+1984,27,2498,SAS,San Antonio Spurs,25,Dave Robisch,C,6-10,235,1949-12-22,US,12,Kansas
+1984,27,3069,SAS,San Antonio Spurs,25,Brant Weidner,PF,6-9,230,1960-10-28,US,R,William & Mary
+1984,27,3164,SAS,San Antonio Spurs,12,Kevin Williams,SG,6-2,175,1961-09-11,US,R,"TCU, St. John's"

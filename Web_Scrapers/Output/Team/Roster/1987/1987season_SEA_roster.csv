@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1987,21,512,SEA,Seattle Supersonics,24,Tom Chambers,PF,6-10,220,"June 21, 1959",US,5,Utah
-1987,21,849,SEA,Seattle Supersonics,3,Dale Ellis,SG,6-7,205,"August 6, 1960",US,3,Tennessee
-1987,21,1252,SEA,Seattle Supersonics,15,Gerald Henderson,PG,6-2,175,"January 16, 1956",US,7,VCU
-1987,21,1477,SEA,Seattle Supersonics,45,Clemon Johnson,C,6-10,240,"September 12, 1956",US,8,Florida A&M
-1987,21,1484,SEA,Seattle Supersonics,15,Edward Lee Johnson,SG,6-2,180,"February 24, 1955",US,9,Auburn
-1987,21,1629,SEA,Seattle Supersonics,42,Curtis Kitchen,PF,6-9,235,"January 30, 1964",US,R,South Florida
-1987,21,1756,SEA,Seattle Supersonics,53,Alton Lister,C,7-0,240,"October 1, 1958",US,5,Arizona State
-1987,21,1786,SEA,Seattle Supersonics,20,Maurice Lucas,PF,6-9,215,"February 18, 1952",US,12,Marquette
-1987,21,1919,SEA,Seattle Supersonics,34,Xavier McDaniel,SF,6-7,205,"June 4, 1963",US,1,Wichita State
-1987,21,1953,SEA,Seattle Supersonics,10,Nate McMillan,PG,6-5,195,"August 3, 1964",US,R,NC State
-1987,21,2303,SEA,Seattle Supersonics,25,Michael Phelps,SG,6-4,180,"October 3, 1961",US,1,Alcorn State
-1987,21,2576,SEA,Seattle Supersonics,40,Russ Schoene,PF,6-10,210,"April 16, 1960",US,1,Chattanooga
-1987,21,2739,SEA,Seattle Supersonics,44,Terence Stansbury,SG,6-5,170,"February 27, 1961",US,2,Temple
-1987,21,3158,SEA,Seattle Supersonics,30,Kevin Williams,SG,6-2,175,"September 11, 1961",US,2,"TCU, St. John's"
-1987,21,3257,SEA,Seattle Supersonics,22,Danny Young,PG,6-3,175,"July 26, 1962",US,2,Wake Forest
+1987,21,512,SEA,Seattle Supersonics,24,Tom Chambers,PF,6-10,220,1959-06-21,US,5,Utah
+1987,21,851,SEA,Seattle Supersonics,3,Dale Ellis,SG,6-7,205,1960-08-06,US,3,Tennessee
+1987,21,1255,SEA,Seattle Supersonics,15,Gerald Henderson,PG,6-2,175,1956-01-16,US,7,VCU
+1987,21,1479,SEA,Seattle Supersonics,45,Clemon Johnson,C,6-10,240,1956-09-12,US,8,Florida A&M
+1987,21,1487,SEA,Seattle Supersonics,15,Eddie Johnson,SG,6-2,180,1955-02-24,US,9,Auburn
+1987,21,1631,SEA,Seattle Supersonics,42,Curtis Kitchen,PF,6-9,235,1964-01-30,US,R,South Florida
+1987,21,1759,SEA,Seattle Supersonics,53,Alton Lister,C,7-0,240,1958-10-01,US,5,Arizona State
+1987,21,1789,SEA,Seattle Supersonics,20,Maurice Lucas,PF,6-9,215,1952-02-18,US,12,Marquette
+1987,21,1922,SEA,Seattle Supersonics,34,Xavier McDaniel,SF,6-7,205,1963-06-04,US,1,Wichita State
+1987,21,1956,SEA,Seattle Supersonics,10,Nate McMillan,PG,6-5,195,1964-08-03,US,R,NC State
+1987,21,2306,SEA,Seattle Supersonics,25,Michael Phelps,SG,6-4,180,1961-10-03,US,1,Alcorn State
+1987,21,2580,SEA,Seattle Supersonics,40,Russ Schoene,PF,6-10,210,1960-04-16,US,1,Chattanooga
+1987,21,2743,SEA,Seattle Supersonics,44,Terence Stansbury,SG,6-5,170,1961-02-27,US,2,Temple
+1987,21,3164,SEA,Seattle Supersonics,30,Kevin Williams,SG,6-2,175,1961-09-11,US,2,"TCU, St. John's"
+1987,21,3263,SEA,Seattle Supersonics,22,Danny Young,PG,6-3,175,1962-07-26,US,2,Wake Forest

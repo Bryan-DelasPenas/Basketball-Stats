@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2007,25,34,POR,Portland Trail Blazers,12,LaMarcus Aldridge,C,6-11,250,"July 19, 1985",US,R,Texas
-2007,25,742,POR,Portland Trail Blazers,2,Dan Dickau,PG,6-0,190,"September 16, 1978",US,4,"Washington, Gonzaga"
-2007,25,754,POR,Portland Trail Blazers,3,Juan Dixon,SG,6-3,164,"October 9, 1978",US,4,Maryland
-2007,25,1073,POR,Portland Trail Blazers,24,Stephen Graham,SG,6-6,215,"June 11, 1982",US,1,"Central Florida, Oklahoma State"
-2007,25,1394,POR,Portland Trail Blazers,1,Jarrett Jack,PG,6-3,200,"October 28, 1983",US,1,Georgia Tech
-2007,25,1545,POR,Portland Trail Blazers,0,Fred Jones,SG,6-4,210,"March 11, 1979",US,4,Oregon
-2007,25,1671,POR,Portland Trail Blazers,9,Raef LaFrentz,PF,6-11,240,"May 29, 1976",US,8,Kansas
-2007,25,1815,POR,Portland Trail Blazers,21,Jamaal Magloire,C,6-11,259,"May 21, 1978",CA,6,Kentucky
-2007,25,2223,POR,Portland Trail Blazers,25,Travis Outlaw,PF,6-9,210,"September 18, 1984",US,3,
-2007,25,2373,POR,Portland Trail Blazers,10,Joel Przybilla,C,7-1,255,"October 10, 1979",US,6,Minnesota
-2007,25,2398,POR,Portland Trail Blazers,50,Zach Randolph,PF,6-9,250,"July 16, 1981",US,5,Michigan State
-2007,25,2443,POR,Portland Trail Blazers,3,Jeremy Richardson,SF,6-6,185,"February 11, 1984",US,R,Delta State University
-2007,25,2498,POR,Portland Trail Blazers,11,Sergio Rodriguez,PG,6-3,176,"June 12, 1986",ES,R,
-2007,25,2521,POR,Portland Trail Blazers,7,Brandon Roy,SG,6-6,215,"July 23, 1984",US,R,Washington
-2007,25,2574,POR,Portland Trail Blazers,24,Luke Schenscher,C,7-1,255,"December 31, 1982",AU,1,Georgia Tech
-2007,25,2940,POR,Portland Trail Blazers,5,Ime Udoka,SF,6-6,215,"August 9, 1977",US,2,"San Francisco, Portland State"
-2007,25,3060,POR,Portland Trail Blazers,8,Martell Webster,SF,6-7,230,"December 4, 1986",US,1,
+2007,25,34,POR,Portland Trail Blazers,12,LaMarcus Aldridge,C,6-11,250,1985-07-19,US,R,Texas
+2007,25,744,POR,Portland Trail Blazers,2,Dan Dickau,PG,6-0,190,1978-09-16,US,4,"Washington, Gonzaga"
+2007,25,756,POR,Portland Trail Blazers,3,Juan Dixon,SG,6-3,164,1978-10-09,US,4,Maryland
+2007,25,1075,POR,Portland Trail Blazers,24,Stephen Graham,SG,6-6,215,1982-06-11,US,1,"Central Florida, Oklahoma State"
+2007,25,1396,POR,Portland Trail Blazers,1,Jarrett Jack,PG,6-3,200,1983-10-28,US,1,Georgia Tech
+2007,25,1547,POR,Portland Trail Blazers,0,Fred Jones,SG,6-4,210,1979-03-11,US,4,Oregon
+2007,25,1673,POR,Portland Trail Blazers,9,Raef LaFrentz,PF,6-11,240,1976-05-29,US,8,Kansas
+2007,25,1818,POR,Portland Trail Blazers,21,Jamaal Magloire,C,6-11,259,1978-05-21,CA,6,Kentucky
+2007,25,2226,POR,Portland Trail Blazers,25,Travis Outlaw,PF,6-9,210,1984-09-18,US,3,
+2007,25,2377,POR,Portland Trail Blazers,10,Joel Przybilla,C,7-1,255,1979-10-10,US,6,Minnesota
+2007,25,2402,POR,Portland Trail Blazers,50,Zach Randolph,PF,6-9,250,1981-07-16,US,5,Michigan State
+2007,25,2447,POR,Portland Trail Blazers,3,Jeremy Richardson,SF,6-6,185,1984-02-11,US,R,Delta State University
+2007,25,2502,POR,Portland Trail Blazers,11,Sergio Rodriguez,PG,6-3,176,1986-06-12,ES,R,
+2007,25,2525,POR,Portland Trail Blazers,7,Brandon Roy,SG,6-6,215,1984-07-23,US,R,Washington
+2007,25,2578,POR,Portland Trail Blazers,24,Luke Schenscher,C,7-1,255,1982-12-31,AU,1,Georgia Tech
+2007,25,2945,POR,Portland Trail Blazers,5,Ime Udoka,SF,6-6,215,1977-08-09,US,2,"San Francisco, Portland State"
+2007,25,3065,POR,Portland Trail Blazers,8,Martell Webster,SF,6-7,230,1986-12-04,US,1,

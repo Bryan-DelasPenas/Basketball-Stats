@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2012,11,21,HOU,Houston Rockets,8,Jeff Adrien,PF,6-7,245,"February 10, 1986",US,1,UConn
-2012,11,316,HOU,Houston Rockets,6,Earl Boykins,PG,5-5,135,"June 2, 1976",US,12,Eastern Michigan
-2012,11,416,HOU,Houston Rockets,10,Chase Budinger,SF,6-7,209,"May 22, 1988",US,2,Arizona
-2012,11,461,HOU,Houston Rockets,29,Marcus Camby,C,6-11,220,"March 22, 1974",US,15,UMass
-2012,11,660,HOU,Houston Rockets,21,Samuel Dalembert,C,6-11,255,"May 10, 1981",HT,9,Seton Hall
-2012,11,779,HOU,Houston Rockets,3,Goran Dragic,PG,6-3,190,"May 6, 1986",SI,3,
-2012,11,926,HOU,Houston Rockets,9,Jonny Flynn,PG,6-0,185,"February 6, 1989",US,2,Syracuse
-2012,11,942,HOU,Houston Rockets,9,Courtney Fortson,PG,5-11,185,"May 23, 1988",US,R,Arkansas
-2012,11,1291,HOU,Houston Rockets,27,Jordan Hill,C,6-10,235,"July 27, 1987",US,2,Arizona
-2012,11,1719,HOU,Houston Rockets,5,Courtney Lee,SG,6-5,215,"October 3, 1985",US,3,Western Kentucky
-2012,11,1782,HOU,Houston Rockets,7,Kyle Lowry,PG,6-0,196,"March 25, 1986",US,5,Villanova
-2012,11,1863,HOU,Houston Rockets,12,Kevin Martin,SG,6-7,199,"February 1, 1983",US,7,Western Carolina University
-2012,11,2054,HOU,Houston Rockets,2,Marcus Morris,PF,6-8,218,"September 2, 1989",US,R,Kansas
-2012,11,2253,HOU,Houston Rockets,25,Chandler Parsons,SF,6-9,230,"October 25, 1988",US,R,Florida
-2012,11,2260,HOU,Houston Rockets,54,Patrick Patterson,PF,6-8,235,"March 14, 1989",US,1,Kentucky
-2012,11,2581,HOU,Houston Rockets,4,Luis Scola,PF,6-9,240,"April 30, 1980",AR,4,
-2012,11,2680,HOU,Houston Rockets,0,Greg Smith,C,6-10,250,"January 8, 1991",US,R,Fresno State
-2012,11,2837,HOU,Houston Rockets,32,Hasheem Thabeet,C,7-3,263,"February 16, 1987",TZ,2,UConn
-2012,11,3184,HOU,Houston Rockets,1,Terrence Williams,SG,6-6,220,"June 28, 1987",US,2,Louisville
+2012,11,21,HOU,Houston Rockets,8,Jeff Adrien,PF,6-7,245,1986-02-10,US,1,UConn
+2012,11,316,HOU,Houston Rockets,6,Earl Boykins,PG,5-5,135,1976-06-02,US,12,Eastern Michigan
+2012,11,416,HOU,Houston Rockets,10,Chase Budinger,SF,6-7,209,1988-05-22,US,2,Arizona
+2012,11,461,HOU,Houston Rockets,29,Marcus Camby,C,6-11,220,1974-03-22,US,15,UMass
+2012,11,660,HOU,Houston Rockets,21,Samuel Dalembert,C,6-11,255,1981-05-10,HT,9,Seton Hall
+2012,11,781,HOU,Houston Rockets,3,Goran Dragic,PG,6-3,190,1986-05-06,SI,3,
+2012,11,928,HOU,Houston Rockets,9,Jonny Flynn,PG,6-0,185,1989-02-06,US,2,Syracuse
+2012,11,944,HOU,Houston Rockets,9,Courtney Fortson,PG,5-11,185,1988-05-23,US,R,Arkansas
+2012,11,1293,HOU,Houston Rockets,27,Jordan Hill,C,6-10,235,1987-07-27,US,2,Arizona
+2012,11,1722,HOU,Houston Rockets,5,Courtney Lee,SG,6-5,215,1985-10-03,US,3,Western Kentucky
+2012,11,1785,HOU,Houston Rockets,7,Kyle Lowry,PG,6-0,196,1986-03-25,US,5,Villanova
+2012,11,1866,HOU,Houston Rockets,12,Kevin Martin,SG,6-7,199,1983-02-01,US,7,Western Carolina University
+2012,11,2057,HOU,Houston Rockets,2,Marcus Morris,PF,6-8,218,1989-09-02,US,R,Kansas
+2012,11,2256,HOU,Houston Rockets,25,Chandler Parsons,SF,6-9,230,1988-10-25,US,R,Florida
+2012,11,2263,HOU,Houston Rockets,54,Patrick Patterson,PF,6-8,235,1989-03-14,US,1,Kentucky
+2012,11,2585,HOU,Houston Rockets,4,Luis Scola,PF,6-9,240,1980-04-30,AR,4,
+2012,11,2684,HOU,Houston Rockets,0,Greg Smith,C,6-10,250,1991-01-08,US,R,Fresno State
+2012,11,2841,HOU,Houston Rockets,32,Hasheem Thabeet,C,7-3,263,1987-02-16,TZ,2,UConn
+2012,11,3190,HOU,Houston Rockets,1,Terrence Williams,SG,6-6,220,1987-06-28,US,2,Louisville

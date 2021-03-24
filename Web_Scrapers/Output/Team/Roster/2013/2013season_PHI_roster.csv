@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2013,23,51,PHI,Philadelphia 76Ers,50,Lavoy Allen,C,6-9,260,"February 4, 1989",US,1,Temple
-2013,23,385,PHI,Philadelphia 76Ers,54,Kwame Brown,C,6-11,270,"March 10, 1982",US,11,
-2013,23,1227,PHI,Philadelphia 76Ers,0,Spencer Hawes,C,7-1,245,"April 28, 1988",US,5,Washington
-2013,23,1309,PHI,Philadelphia 76Ers,11,Jrue Holiday,PG,6-3,205,"June 12, 1990",US,3,UCLA
-2013,23,1310,PHI,Philadelphia 76Ers,14,Justin Holiday,SG,6-6,180,"April 5, 1989",US,R,Washington
-2013,23,1392,PHI,Philadelphia 76Ers,7,Royal Ivey,SG,6-3,200,"December 20, 1981",US,8,Texas
-2013,23,1448,PHI,Philadelphia 76Ers,31,Charles Jenkins,PG,6-3,220,"February 28, 1989",US,1,Hofstra
-2013,23,1801,PHI,Philadelphia 76Ers,14,Shelvin Mack,SG,6-3,203,"April 22, 1990",US,1,Butler
-2013,23,2070,PHI,Philadelphia 76Ers,5,Arnett Moultrie,PF,6-11,249,"November 18, 1990",US,R,"Texas-El Paso, Mississippi State"
-2013,23,2245,PHI,Philadelphia 76Ers,0,Jeremy Pargo,SG,6-2,219,"March 17, 1986",US,1,Gonzaga
-2013,23,2442,PHI,Philadelphia 76Ers,23,Jason Richardson,SG,6-6,220,"January 20, 1981",US,11,Michigan State
-2013,23,2927,PHI,Philadelphia 76Ers,12,Evan Turner,SF,6-6,220,"October 27, 1988",US,2,Ohio State
-2013,23,3047,PHI,Philadelphia 76Ers,18,Maalik Wayns,PG,6-2,200,"May 2, 1991",US,R,Villanova
-2013,23,3121,PHI,Philadelphia 76Ers,8,Damien Wilkins,SG,6-6,225,"January 11, 1980",US,8,"NC State, Georgia"
-2013,23,3244,PHI,Philadelphia 76Ers,4,Dorell Wright,SF,6-9,205,"December 2, 1985",US,8,
-2013,23,3262,PHI,Philadelphia 76Ers,1,Nick Young,SG,6-7,210,"June 1, 1985",US,5,USC
-2013,23,3265,PHI,Philadelphia 76Ers,21,Thaddeus Young,PF,6-8,235,"June 21, 1988",US,5,Georgia Tech
+2013,23,51,PHI,Philadelphia 76Ers,50,Lavoy Allen,C,6-9,260,1989-02-04,US,1,Temple
+2013,23,385,PHI,Philadelphia 76Ers,54,Kwame Brown,C,6-11,270,1982-03-10,US,11,
+2013,23,1229,PHI,Philadelphia 76Ers,0,Spencer Hawes,C,7-1,245,1988-04-28,US,5,Washington
+2013,23,1311,PHI,Philadelphia 76Ers,11,Jrue Holiday,PG,6-3,205,1990-06-12,US,3,UCLA
+2013,23,1312,PHI,Philadelphia 76Ers,14,Justin Holiday,SG,6-6,180,1989-04-05,US,R,Washington
+2013,23,1394,PHI,Philadelphia 76Ers,7,Royal Ivey,SG,6-3,200,1981-12-20,US,8,Texas
+2013,23,1450,PHI,Philadelphia 76Ers,31,Charles Jenkins,PG,6-3,220,1989-02-28,US,1,Hofstra
+2013,23,1804,PHI,Philadelphia 76Ers,14,Shelvin Mack,SG,6-3,203,1990-04-22,US,1,Butler
+2013,23,2073,PHI,Philadelphia 76Ers,5,Arnett Moultrie,PF,6-11,249,1990-11-18,US,R,"Texas-El Paso, Mississippi State"
+2013,23,2248,PHI,Philadelphia 76Ers,0,Jeremy Pargo,SG,6-2,219,1986-03-17,US,1,Gonzaga
+2013,23,2446,PHI,Philadelphia 76Ers,23,Jason Richardson,SG,6-6,220,1981-01-20,US,11,Michigan State
+2013,23,2932,PHI,Philadelphia 76Ers,12,Evan Turner,SF,6-6,220,1988-10-27,US,2,Ohio State
+2013,23,3052,PHI,Philadelphia 76Ers,18,Maalik Wayns,PG,6-2,200,1991-05-02,US,R,Villanova
+2013,23,3127,PHI,Philadelphia 76Ers,8,Damien Wilkins,SG,6-6,225,1980-01-11,US,8,"NC State, Georgia"
+2013,23,3250,PHI,Philadelphia 76Ers,4,Dorell Wright,SF,6-9,205,1985-12-02,US,8,
+2013,23,3268,PHI,Philadelphia 76Ers,1,Nick Young,SG,6-7,210,1985-06-01,US,5,USC
+2013,23,3271,PHI,Philadelphia 76Ers,21,Thaddeus Young,PF,6-8,235,1988-06-21,US,5,Georgia Tech

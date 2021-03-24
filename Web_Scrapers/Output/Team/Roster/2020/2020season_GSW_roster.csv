@@ -1,23 +1,23 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2020,10,214,GSW,Golden State Warriors,10,Dragan Bender,PF,7-0,225,"November 17, 1997",BA,3,
-2020,10,314,GSW,Golden State Warriors,12,Ky Bowman,PG,6-1,187,"June 16, 1997",US,R,Boston College
-2020,10,424,GSW,Golden State Warriors,"8, 20",Alec Burks,SF,6-6,214,"July 20, 1991",US,8,Colorado
-2020,10,503,GSW,Golden State Warriors,2,Willie Cauley-Stein,C,7-0,240,"August 18, 1993",US,4,Kentucky
-2020,10,532,GSW,Golden State Warriors,32,Marquese Chriss,PF,6-9,240,"July 2, 1997",US,3,Washington
-2020,10,657,GSW,Golden State Warriors,30,Stephen Curry,PG,6-3,185,"March 14, 1988",US,10,Davidson
-2020,10,875,GSW,Golden State Warriors,10,Jacob Evans,SG,6-4,210,"June 18, 1997",US,1,Cincinnati
-2020,10,1101,GSW,Golden State Warriors,23,Draymond Green,PF,6-6,230,"March 4, 1990",US,7,Michigan State
-2020,10,1720,GSW,Golden State Warriors,1,Damion Lee,SG,6-5,210,"October 21, 1992",US,2,"Drexel, Louisville"
-2020,10,1774,GSW,Golden State Warriors,5,Kevon Looney,C,6-9,222,"February 6, 1996",US,4,UCLA
-2020,10,2075,GSW,Golden State Warriors,15,Mychal Mulder,SF,6-3,184,"June 12, 1994",CA,R,"Vincennes, Kentucky"
-2020,10,2160,GSW,Golden State Warriors,21,Zach Norvell,SG,6-5,206,"December 9, 1997",US,R,Gonzaga
-2020,10,2245,GSW,Golden State Warriors,20,Jeremy Pargo,PG,6-2,219,"March 17, 1986",US,2,Gonzaga
-2020,10,2254,GSW,Golden State Warriors,7,Eric Paschall,PF,6-6,255,"November 4, 1996",US,R,"Fordham, Villanova"
-2020,10,2334,GSW,Golden State Warriors,3,Jordan Poole,SG,6-4,194,"June 19, 1999",US,R,Michigan
-2020,10,2394,GSW,Golden State Warriors,25,Chasson Randle,PG,6-2,185,"February 5, 1993",US,2,Stanford
-2020,10,2479,GSW,Golden State Warriors,22,Glenn Robinson III,SF,6-6,222,"January 8, 1994",US,5,Michigan
-2020,10,2537,GSW,Golden State Warriors,0,D'Angelo Russell,PG,6-4,193,"February 23, 1996",US,4,Ohio State
-2020,10,2665,GSW,Golden State Warriors,6,Alen Smailagic,C,6-10,215,"August 18, 2000",RS,R,
-2020,10,2728,GSW,Golden State Warriors,4,Omari Spellman,C,6-8,245,"July 21, 1997",US,1,Villanova
-2020,10,2902,GSW,Golden State Warriors,95,Juan Toscano-Anderson,SG,6-6,209,"April 10, 1993",US,R,Marquette
-2020,10,3111,GSW,Golden State Warriors,22,Andrew Wiggins,SF,6-7,197,"February 23, 1995",CA,5,Kansas
+2020,10,214,GSW,Golden State Warriors,10,Dragan Bender,PF,7-0,225,1997-11-17,BA,3,
+2020,10,314,GSW,Golden State Warriors,12,Ky Bowman,PG,6-1,187,1997-06-16,US,R,Boston College
+2020,10,424,GSW,Golden State Warriors,"8, 20",Alec Burks,SF,6-6,214,1991-07-20,US,8,Colorado
+2020,10,503,GSW,Golden State Warriors,2,Willie Cauley-Stein,C,7-0,240,1993-08-18,US,4,Kentucky
+2020,10,532,GSW,Golden State Warriors,32,Marquese Chriss,PF,6-9,240,1997-07-02,US,3,Washington
+2020,10,657,GSW,Golden State Warriors,30,Stephen Curry,PG,6-3,185,1988-03-14,US,10,Davidson
+2020,10,877,GSW,Golden State Warriors,10,Jacob Evans,SG,6-4,210,1997-06-18,US,1,Cincinnati
+2020,10,1103,GSW,Golden State Warriors,23,Draymond Green,PF,6-6,230,1990-03-04,US,7,Michigan State
+2020,10,1723,GSW,Golden State Warriors,1,Damion Lee,SG,6-5,210,1992-10-21,US,2,"Drexel, Louisville"
+2020,10,1777,GSW,Golden State Warriors,5,Kevon Looney,C,6-9,222,1996-02-06,US,4,UCLA
+2020,10,2078,GSW,Golden State Warriors,15,Mychal Mulder,SF,6-3,184,1994-06-12,CA,R,"Vincennes, Kentucky"
+2020,10,2163,GSW,Golden State Warriors,21,Zach Norvell,SG,6-5,206,1997-12-09,US,R,Gonzaga
+2020,10,2248,GSW,Golden State Warriors,20,Jeremy Pargo,PG,6-2,219,1986-03-17,US,2,Gonzaga
+2020,10,2257,GSW,Golden State Warriors,7,Eric Paschall,PF,6-6,255,1996-11-04,US,R,"Fordham, Villanova"
+2020,10,2337,GSW,Golden State Warriors,3,Jordan Poole,SG,6-4,194,1999-06-19,US,R,Michigan
+2020,10,2398,GSW,Golden State Warriors,25,Chasson Randle,PG,6-2,185,1993-02-05,US,2,Stanford
+2020,10,2483,GSW,Golden State Warriors,22,Glenn Robinson,SF,6-6,222,1994-01-08,US,5,Michigan
+2020,10,2541,GSW,Golden State Warriors,0,D'Angelo Russell,PG,6-4,193,1996-02-23,US,4,Ohio State
+2020,10,2669,GSW,Golden State Warriors,6,Alen Smailagic,C,6-10,215,2000-08-18,RS,R,
+2020,10,2732,GSW,Golden State Warriors,4,Omari Spellman,C,6-8,245,1997-07-21,US,1,Villanova
+2020,10,2907,GSW,Golden State Warriors,95,Juan Toscano-Anderson,SG,6-6,209,1993-04-10,US,R,Marquette
+2020,10,3117,GSW,Golden State Warriors,22,Andrew Wiggins,SF,6-7,197,1995-02-23,CA,5,Kansas

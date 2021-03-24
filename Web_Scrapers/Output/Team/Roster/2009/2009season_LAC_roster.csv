@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2009,13,9,LAC,Los Angeles Clippers,3,Alex Acker,SG,6-5,185,"January 21, 1983",US,1,Pepperdine
-2009,13,461,LAC,Los Angeles Clippers,23,Marcus Camby,C,6-11,220,"March 22, 1974",US,12,UMass
-2009,13,574,LAC,Los Angeles Clippers,25,Mardy Collins,PG,6-6,220,"August 4, 1984",US,2,Temple
-2009,13,678,LAC,Los Angeles Clippers,1,Baron Davis,PG,6-3,209,"April 13, 1979",US,9,UCLA
-2009,13,696,LAC,Los Angeles Clippers,40,Paul Davis,PF,6-11,270,"July 21, 1984",US,2,Michigan State
-2009,13,697,LAC,Los Angeles Clippers,31,Ricky Davis,SG,6-6,195,"September 23, 1979",US,10,Iowa
-2009,13,1063,LAC,Los Angeles Clippers,10,Eric Gordon,SG,6-3,215,"December 25, 1988",US,R,Indiana
-2009,13,1216,LAC,Los Angeles Clippers,6,Jason Hart,PG,6-3,185,"April 29, 1978",US,7,Syracuse
-2009,13,1545,LAC,Los Angeles Clippers,2,Fred Jones,SF,6-4,210,"March 11, 1979",US,6,Oregon
-2009,13,1565,LAC,Los Angeles Clippers,9,DeAndre Jordan,C,6-11,265,"July 21, 1988",US,R,Texas A&M
-2009,13,1578,LAC,Los Angeles Clippers,35,Chris Kaman,C,7-0,265,"April 28, 1982",US,5,Central Michigan University
-2009,13,2020,LAC,Los Angeles Clippers,5,Cuttino Mobley,SG,6-4,190,"September 1, 1975",US,10,Rhode Island
-2009,13,2161,LAC,Los Angeles Clippers,20,Steve Novak,PF,6-10,225,"June 13, 1983",US,2,Marquette
-2009,13,2398,LAC,Los Angeles Clippers,50,Zach Randolph,PF,6-9,250,"July 16, 1981",US,7,Michigan State
-2009,13,2548,LAC,Los Angeles Clippers,34,Cheikh Samb,C,7-1,245,"October 22, 1984",SN,1,
-2009,13,2658,LAC,Los Angeles Clippers,8,Brian Skinner,PF,6-9,255,"May 19, 1976",US,10,Baylor
-2009,13,2822,LAC,Los Angeles Clippers,4,Mike Taylor,PG,6-2,165,"January 21, 1986",US,R,Iowa State
-2009,13,2861,LAC,Los Angeles Clippers,2,Tim Thomas,PF,6-10,230,"February 26, 1977",US,11,Villanova
-2009,13,2880,LAC,Los Angeles Clippers,12,Al Thornton,SF,6-8,220,"December 7, 1983",US,1,Florida State
+2009,13,9,LAC,Los Angeles Clippers,3,Alex Acker,SG,6-5,185,1983-01-21,US,1,Pepperdine
+2009,13,461,LAC,Los Angeles Clippers,23,Marcus Camby,C,6-11,220,1974-03-22,US,12,UMass
+2009,13,574,LAC,Los Angeles Clippers,25,Mardy Collins,PG,6-6,220,1984-08-04,US,2,Temple
+2009,13,679,LAC,Los Angeles Clippers,1,Baron Davis,PG,6-3,209,1979-04-13,US,9,UCLA
+2009,13,697,LAC,Los Angeles Clippers,40,Paul Davis,PF,6-11,270,1984-07-21,US,2,Michigan State
+2009,13,698,LAC,Los Angeles Clippers,31,Ricky Davis,SG,6-6,195,1979-09-23,US,10,Iowa
+2009,13,1065,LAC,Los Angeles Clippers,10,Eric Gordon,SG,6-3,215,1988-12-25,US,R,Indiana
+2009,13,1218,LAC,Los Angeles Clippers,6,Jason Hart,PG,6-3,185,1978-04-29,US,7,Syracuse
+2009,13,1547,LAC,Los Angeles Clippers,2,Fred Jones,SF,6-4,210,1979-03-11,US,6,Oregon
+2009,13,1567,LAC,Los Angeles Clippers,9,DeAndre Jordan,C,6-11,265,1988-07-21,US,R,Texas A&M
+2009,13,1580,LAC,Los Angeles Clippers,35,Chris Kaman,C,7-0,265,1982-04-28,US,5,Central Michigan University
+2009,13,2023,LAC,Los Angeles Clippers,5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,10,Rhode Island
+2009,13,2164,LAC,Los Angeles Clippers,20,Steve Novak,PF,6-10,225,1983-06-13,US,2,Marquette
+2009,13,2402,LAC,Los Angeles Clippers,50,Zach Randolph,PF,6-9,250,1981-07-16,US,7,Michigan State
+2009,13,2552,LAC,Los Angeles Clippers,34,Cheikh Samb,C,7-1,245,1984-10-22,SN,1,
+2009,13,2662,LAC,Los Angeles Clippers,8,Brian Skinner,PF,6-9,255,1976-05-19,US,10,Baylor
+2009,13,2826,LAC,Los Angeles Clippers,4,Mike Taylor,PG,6-2,165,1986-01-21,US,R,Iowa State
+2009,13,2865,LAC,Los Angeles Clippers,2,Tim Thomas,PF,6-10,230,1977-02-26,US,11,Villanova
+2009,13,2884,LAC,Los Angeles Clippers,12,Al Thornton,SF,6-8,220,1983-12-07,US,1,Florida State

@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2020,5,103,CHI,Chicago Bulls,51,Ryan Arcidiacono,PG,6-3,195,"March 26, 1994",US,2,Villanova
-2020,5,493,CHI,Chicago Bulls,34,Wendell Carter Jr.,C,6-10,270,"April 16, 1999",US,1,Duke
-2020,5,803,CHI,Chicago Bulls,32,Kris Dunn,PG,6-3,205,"March 18, 1994",US,3,Providence
-2020,5,900,CHI,Chicago Bulls,6,Cristiano Felicio,C,6-11,270,"July 7, 1992",BR,4,
-2020,5,976,CHI,Chicago Bulls,12,Daniel Gafford,C,6-10,234,"October 1, 1998",US,R,Arkansas
-2020,5,1215,CHI,Chicago Bulls,3,Shaquille Harrison,SG,6-7,190,"October 6, 1993",US,2,Tulsa
-2020,5,1374,CHI,Chicago Bulls,15,Chandler Hutchison,SF,6-6,210,"April 26, 1996",US,1,Boise State
-2020,5,1650,CHI,Chicago Bulls,2,Luke Kornet,C,7-2,250,"July 15, 1995",US,2,Vanderbilt
-2020,5,1674,CHI,Chicago Bulls,8,Zach LaVine,SG,6-5,200,"March 10, 1995",US,5,UCLA
-2020,5,1840,CHI,Chicago Bulls,24,Lauri Markkanen,PF,7-0,240,"May 22, 1997",FI,2,Arizona
-2020,5,2025,CHI,Chicago Bulls,20,Adam Mokoka,SF,6-4,190,"July 18, 1998",FR,R,
-2020,5,2343,CHI,Chicago Bulls,22,Otto Porter,SF,6-8,198,"June 3, 1993",US,6,Georgetown
-2020,5,2565,CHI,Chicago Bulls,31,Tomas Satoransky,SG,6-7,210,"October 30, 1991",CZ,3,
-2020,5,2782,CHI,Chicago Bulls,28,Max Strus,SF,6-5,215,"March 28, 1996",US,R,"Lewis (IL), DePaul"
-2020,5,2950,CHI,Chicago Bulls,45,Denzel Valentine,SF,6-4,220,"November 16, 1993",US,2,Michigan State
-2020,5,3087,CHI,Chicago Bulls,0,Coby White,PG,6-5,195,"February 16, 2000",US,R,UNC
-2020,5,3265,CHI,Chicago Bulls,21,Thaddeus Young,PF,6-8,235,"June 21, 1988",US,12,Georgia Tech
+2020,5,103,CHI,Chicago Bulls,51,Ryan Arcidiacono,PG,6-3,195,1994-03-26,US,2,Villanova
+2020,5,493,CHI,Chicago Bulls,34,Wendell Carter,C,6-10,270,1999-04-16,US,1,Duke
+2020,5,805,CHI,Chicago Bulls,32,Kris Dunn,PG,6-3,205,1994-03-18,US,3,Providence
+2020,5,902,CHI,Chicago Bulls,6,Cristiano Felicio,C,6-11,270,1992-07-07,BR,4,
+2020,5,978,CHI,Chicago Bulls,12,Daniel Gafford,C,6-10,234,1998-10-01,US,R,Arkansas
+2020,5,1217,CHI,Chicago Bulls,3,Shaquille Harrison,SG,6-7,190,1993-10-06,US,2,Tulsa
+2020,5,1376,CHI,Chicago Bulls,15,Chandler Hutchison,SF,6-6,210,1996-04-26,US,1,Boise State
+2020,5,1652,CHI,Chicago Bulls,2,Luke Kornet,C,7-2,250,1995-07-15,US,2,Vanderbilt
+2020,5,1676,CHI,Chicago Bulls,8,Zach LaVine,SG,6-5,200,1995-03-10,US,5,UCLA
+2020,5,1843,CHI,Chicago Bulls,24,Lauri Markkanen,PF,7-0,240,1997-05-22,FI,2,Arizona
+2020,5,2028,CHI,Chicago Bulls,20,Adam Mokoka,SF,6-4,190,1998-07-18,FR,R,
+2020,5,2347,CHI,Chicago Bulls,22,Otto Porter,SF,6-8,198,1993-06-03,US,6,Georgetown
+2020,5,2569,CHI,Chicago Bulls,31,Tomas Satoransky,SG,6-7,210,1991-10-30,CZ,3,
+2020,5,2786,CHI,Chicago Bulls,28,Max Strus,SF,6-5,215,1996-03-28,US,R,"Lewis (IL), DePaul"
+2020,5,2955,CHI,Chicago Bulls,45,Denzel Valentine,SF,6-4,220,1993-11-16,US,2,Michigan State
+2020,5,3092,CHI,Chicago Bulls,0,Coby White,PG,6-5,195,2000-02-16,US,R,UNC
+2020,5,3271,CHI,Chicago Bulls,21,Thaddeus Young,PF,6-8,235,1988-06-21,US,12,Georgia Tech

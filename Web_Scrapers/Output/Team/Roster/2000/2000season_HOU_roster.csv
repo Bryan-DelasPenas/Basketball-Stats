@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2000,11,84,HOU,Houston Rockets,40,Shandon Anderson,SF,6-6,208,"December 31, 1973",US,3,Georgia
-2000,11,165,HOU,Houston Rockets,4,Charles Barkley,PF,6-6,252,"February 20, 1963",US,15,Auburn
-2000,11,419,HOU,Houston Rockets,50,Matt Bullard,PF,6-10,215,"June 5, 1967",US,8,"Colorado, Iowa"
-2000,11,501,HOU,Houston Rockets,13,Kelvin Cato,C,6-11,255,"August 26, 1974",US,2,"University of South Alabama, Iowa State"
-2000,11,651,HOU,Houston Rockets,15,Bill Curley,PF,6-9,220,"May 29, 1972",US,3,Boston College
-2000,11,782,HOU,Houston Rockets,11,Bryce Drew,PG,6-2,185,"September 21, 1974",US,1,Valparaiso
-2000,11,955,HOU,Houston Rockets,3,Steve Francis,PG,6-3,195,"February 21, 1977",US,R,Maryland
-2000,11,1091,HOU,Houston Rockets,9,Devin Gray,SF,6-7,240,"May 31, 1972",US,1,Clemson
-2000,11,1164,HOU,Houston Rockets,30,Thomas Hamilton,C,7-2,330,"April 3, 1975",US,1,Pitt
-2000,11,1870,HOU,Houston Rockets,44,Tony Massenburg,PF,6-9,220,"July 31, 1967",US,7,Maryland
-2000,11,1990,HOU,Houston Rockets,2,Anthony Miller,PF,6-9,225,"October 22, 1971",US,5,Michigan State
-2000,11,2020,HOU,Houston Rockets,5,Cuttino Mobley,SG,6-4,190,"September 1, 1975",US,1,Rhode Island
-2000,11,2158,HOU,Houston Rockets,12,Moochie Norris,PG,6-1,175,"July 27, 1973",US,2,"Auburn, University of West Florida"
-2000,11,2201,HOU,Houston Rockets,34,Hakeem Olajuwon,C,7-0,255,"January 21, 1963",NG,15,Houston
-2000,11,2500,HOU,Houston Rockets,6,Carlos Rogers,C,6-11,220,"February 6, 1971",US,5,"Little Rock, Tennessee State"
-2000,11,2855,HOU,Houston Rockets,21,Kenny Thomas,PF,6-7,261,"July 25, 1977",US,R,New Mexico
-2000,11,3187,HOU,Houston Rockets,42,Walt Williams,SF,6-8,219,"April 16, 1970",US,7,Maryland
+2000,11,84,HOU,Houston Rockets,40,Shandon Anderson,SF,6-6,208,1973-12-31,US,3,Georgia
+2000,11,165,HOU,Houston Rockets,4,Charles Barkley,PF,6-6,252,1963-02-20,US,15,Auburn
+2000,11,419,HOU,Houston Rockets,50,Matt Bullard,PF,6-10,215,1967-06-05,US,8,"Colorado, Iowa"
+2000,11,501,HOU,Houston Rockets,13,Kelvin Cato,C,6-11,255,1974-08-26,US,2,"University of South Alabama, Iowa State"
+2000,11,651,HOU,Houston Rockets,15,Bill Curley,PF,6-9,220,1972-05-29,US,3,Boston College
+2000,11,784,HOU,Houston Rockets,11,Bryce Drew,PG,6-2,185,1974-09-21,US,1,Valparaiso
+2000,11,957,HOU,Houston Rockets,3,Steve Francis,PG,6-3,195,1977-02-21,US,R,Maryland
+2000,11,1093,HOU,Houston Rockets,9,Devin Gray,SF,6-7,240,1972-05-31,US,1,Clemson
+2000,11,1166,HOU,Houston Rockets,30,Thomas Hamilton,C,7-2,330,1975-04-03,US,1,Pitt
+2000,11,1873,HOU,Houston Rockets,44,Tony Massenburg,PF,6-9,220,1967-07-31,US,7,Maryland
+2000,11,1993,HOU,Houston Rockets,2,Anthony Miller,PF,6-9,225,1971-10-22,US,5,Michigan State
+2000,11,2023,HOU,Houston Rockets,5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,1,Rhode Island
+2000,11,2161,HOU,Houston Rockets,12,Moochie Norris,PG,6-1,175,1973-07-27,US,2,"Auburn, University of West Florida"
+2000,11,2204,HOU,Houston Rockets,34,Hakeem Olajuwon,C,7-0,255,1963-01-21,NG,15,Houston
+2000,11,2504,HOU,Houston Rockets,6,Carlos Rogers,C,6-11,220,1971-02-06,US,5,"Little Rock, Tennessee State"
+2000,11,2859,HOU,Houston Rockets,21,Kenny Thomas,PF,6-7,261,1977-07-25,US,R,New Mexico
+2000,11,3193,HOU,Houston Rockets,42,Walt Williams,SF,6-8,219,1970-04-16,US,7,Maryland

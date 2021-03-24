@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2020,27,34,SAS,San Antonio Spurs,12,LaMarcus Aldridge,C,6-11,250,"July 19, 1985",US,13,Texas
-2020,27,208,SAS,San Antonio Spurs,18,Marco Belinelli,SG,6-5,220,"March 25, 1986",IT,12,
-2020,27,481,SAS,San Antonio Spurs,77,DeMarre Carroll,SF,6-6,215,"July 27, 1986",US,10,"Vanderbilt, Missouri"
-2020,27,715,SAS,San Antonio Spurs,10,DeMar DeRozan,SF,6-6,220,"August 7, 1989",US,10,USC
-2020,27,872,SAS,San Antonio Spurs,14,Drew Eubanks,C,6-9,245,"February 1, 1997",US,1,Oregon State
-2020,27,930,SAS,San Antonio Spurs,11,Bryn Forbes,SG,6-2,205,"July 23, 1993",US,3,Michigan State
-2020,27,1011,SAS,San Antonio Spurs,22,Rudy Gay,PF,6-8,250,"August 17, 1986",US,13,UConn
-2020,27,1497,SAS,San Antonio Spurs,3,Keldon Johnson,SF,6-5,220,"October 11, 1999",US,R,Kentucky
-2020,27,1791,SAS,San Antonio Spurs,41,Trey Lyles,PF,6-9,234,"November 5, 1995",CA,4,Kentucky
-2020,27,1976,SAS,San Antonio Spurs,7,Chimezie Metu,C,6-9,225,"March 22, 1997",US,1,USC
-2020,27,2001,SAS,San Antonio Spurs,8,Patty Mills,PG,6-1,180,"August 11, 1988",AU,10,Saint Mary's
-2020,27,2090,SAS,San Antonio Spurs,5,Dejounte Murray,PG,6-4,180,"September 19, 1996",US,2,Washington
-2020,27,2326,SAS,San Antonio Spurs,25,Jakob Poeltl,C,7-1,245,"October 15, 1995",AT,3,Utah
-2020,27,2547,SAS,San Antonio Spurs,19,Luka Samanic,PF,6-10,227,"January 9, 2000",HR,R,
-2020,27,3007,SAS,San Antonio Spurs,1,Lonnie Walker,SG,6-4,204,"December 14, 1998",US,1,Miami (FL)
-2020,27,3052,SAS,San Antonio Spurs,15,Quinndary Weatherspoon,SG,6-3,205,"September 10, 1996",US,R,Mississippi State
-2020,27,3089,SAS,San Antonio Spurs,4,Derrick White,SG,6-4,190,"July 2, 1994",US,2,"Colorado-Colorado Springs, Colorado"
-2020,27,3271,SAS,San Antonio Spurs,40,Tyler Zeller,C,7-0,253,"January 17, 1990",US,7,UNC
+2020,27,34,SAS,San Antonio Spurs,12,LaMarcus Aldridge,C,6-11,250,1985-07-19,US,13,Texas
+2020,27,208,SAS,San Antonio Spurs,18,Marco Belinelli,SG,6-5,220,1986-03-25,IT,12,
+2020,27,481,SAS,San Antonio Spurs,77,DeMarre Carroll,SF,6-6,215,1986-07-27,US,10,"Vanderbilt, Missouri"
+2020,27,716,SAS,San Antonio Spurs,10,DeMar DeRozan,SF,6-6,220,1989-08-07,US,10,USC
+2020,27,874,SAS,San Antonio Spurs,14,Drew Eubanks,C,6-9,245,1997-02-01,US,1,Oregon State
+2020,27,932,SAS,San Antonio Spurs,11,Bryn Forbes,SG,6-2,205,1993-07-23,US,3,Michigan State
+2020,27,1013,SAS,San Antonio Spurs,22,Rudy Gay,PF,6-8,250,1986-08-17,US,13,UConn
+2020,27,1499,SAS,San Antonio Spurs,3,Keldon Johnson,SF,6-5,220,1999-10-11,US,R,Kentucky
+2020,27,1794,SAS,San Antonio Spurs,41,Trey Lyles,PF,6-9,234,1995-11-05,CA,4,Kentucky
+2020,27,1979,SAS,San Antonio Spurs,7,Chimezie Metu,C,6-9,225,1997-03-22,US,1,USC
+2020,27,2004,SAS,San Antonio Spurs,8,Patty Mills,PG,6-1,180,1988-08-11,AU,10,Saint Mary's
+2020,27,2093,SAS,San Antonio Spurs,5,Dejounte Murray,PG,6-4,180,1996-09-19,US,2,Washington
+2020,27,2329,SAS,San Antonio Spurs,25,Jakob Poeltl,C,7-1,245,1995-10-15,AT,3,Utah
+2020,27,2551,SAS,San Antonio Spurs,19,Luka Samanic,PF,6-10,227,2000-01-09,HR,R,
+2020,27,3012,SAS,San Antonio Spurs,1,Lonnie Walker,SG,6-4,204,1998-12-14,US,1,Miami (FL)
+2020,27,3057,SAS,San Antonio Spurs,15,Quinndary Weatherspoon,SG,6-3,205,1996-09-10,US,R,Mississippi State
+2020,27,3094,SAS,San Antonio Spurs,4,Derrick White,SG,6-4,190,1994-07-02,US,2,"Colorado-Colorado Springs, Colorado"
+2020,27,3277,SAS,San Antonio Spurs,40,Tyler Zeller,C,7-0,253,1990-01-17,US,7,UNC

@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1983,23,74,PHI,Philadelphia 76Ers,7,J.J. Anderson,SF,6-8,195,"September 23, 1960",US,R,Bradley
-1983,23,522,PHI,Philadelphia 76Ers,10,Maurice Cheeks,PG,6-1,180,"September 8, 1956",US,4,West Texas A&M University
-1983,23,650,PHI,Philadelphia 76Ers,25,Earl Cureton,C,6-9,210,"September 3, 1957",US,2,"Robert Morris University (PA), Detroit Mercy"
-1983,23,831,PHI,Philadelphia 76Ers,14,Franklin Edwards,PG,6-1,170,"February 2, 1959",US,1,Cleveland State University
-1983,23,869,PHI,Philadelphia 76Ers,6,Julius Erving,SF,6-7,210,"February 22, 1950",US,11,UMass
-1983,23,1375,PHI,Philadelphia 76Ers,8,Marc Iavaroni,PF,6-8,210,"September 15, 1956",US,R,Virginia
-1983,23,1477,PHI,Philadelphia 76Ers,45,Clemon Johnson,C,6-10,240,"September 12, 1956",US,4,Florida A&M
-1983,23,1511,PHI,Philadelphia 76Ers,33,Reggie Johnson,SF,6-9,205,"June 25, 1957",US,2,Tennessee
-1983,23,1527,PHI,Philadelphia 76Ers,24,Robert Jones,PF,6-9,210,"December 18, 1951",US,8,UNC
-1983,23,1824,PHI,Philadelphia 76Ers,2,Moses Malone,C,6-10,215,"March 23, 1955",US,8,
-1983,23,1955,PHI,Philadelphia 76Ers,31,Mark McNamara,C,6-11,235,"June 8, 1959",US,R,"Santa Clara, California"
-1983,23,2441,PHI,Philadelphia 76Ers,4,Clint Richardson,SG,6-3,195,"August 7, 1956",US,3,Seattle University
-1983,23,2576,PHI,Philadelphia 76Ers,3,Russ Schoene,PF,6-10,210,"April 16, 1960",US,R,Chattanooga
-1983,23,2896,PHI,Philadelphia 76Ers,22,Andrew Toney,SG,6-3,178,"November 23, 1957",US,2,Louisiana
+1983,23,74,PHI,Philadelphia 76Ers,7,J.J. Anderson,SF,6-8,195,1960-09-23,US,R,Bradley
+1983,23,522,PHI,Philadelphia 76Ers,10,Maurice Cheeks,PG,6-1,180,1956-09-08,US,4,West Texas A&M University
+1983,23,650,PHI,Philadelphia 76Ers,25,Earl Cureton,C,6-9,210,1957-09-03,US,2,"Robert Morris University (PA), Detroit Mercy"
+1983,23,833,PHI,Philadelphia 76Ers,14,Franklin Edwards,PG,6-1,170,1959-02-02,US,1,Cleveland State University
+1983,23,871,PHI,Philadelphia 76Ers,6,Julius Erving,SF,6-7,210,1950-02-22,US,11,UMass
+1983,23,1377,PHI,Philadelphia 76Ers,8,Marc Iavaroni,PF,6-8,210,1956-09-15,US,R,Virginia
+1983,23,1479,PHI,Philadelphia 76Ers,45,Clemon Johnson,C,6-10,240,1956-09-12,US,4,Florida A&M
+1983,23,1513,PHI,Philadelphia 76Ers,33,Reggie Johnson,SF,6-9,205,1957-06-25,US,2,Tennessee
+1983,23,1530,PHI,Philadelphia 76Ers,24,Bobby Jones,PF,6-9,210,1951-12-18,US,8,UNC
+1983,23,1827,PHI,Philadelphia 76Ers,2,Moses Malone,C,6-10,215,1955-03-23,US,8,
+1983,23,1958,PHI,Philadelphia 76Ers,31,Mark McNamara,C,6-11,235,1959-06-08,US,R,"Santa Clara, California"
+1983,23,2445,PHI,Philadelphia 76Ers,4,Clint Richardson,SG,6-3,195,1956-08-07,US,3,Seattle University
+1983,23,2580,PHI,Philadelphia 76Ers,3,Russ Schoene,PF,6-10,210,1960-04-16,US,R,Chattanooga
+1983,23,2901,PHI,Philadelphia 76Ers,22,Andrew Toney,SG,6-3,178,1957-11-23,US,2,Louisiana

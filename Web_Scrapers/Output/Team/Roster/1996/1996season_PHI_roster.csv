@@ -1,25 +1,25 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1996,23,59,PHI,Philadelphia 76Ers,21,Derrick Alston,C,6-11,225,"August 20, 1972",US,1,Duquesne
-1996,23,220,PHI,Philadelphia 76Ers,5,Elmer Bennett,PG,6-0,170,"February 13, 1970",US,1,Notre Dame
-1996,23,326,PHI,Philadelphia 76Ers,76,Shawn Bradley,C,7-6,235,"March 22, 1972",DE,2,BYU
-1996,23,390,PHI,Philadelphia 76Ers,40,Mike Brown,C,6-9,257,"July 19, 1963",US,9,George Washington
-1996,23,563,PHI,Philadelphia 76Ers,44,Derrick Coleman,PF,6-10,230,"June 21, 1967",US,5,Syracuse
-1996,23,798,PHI,Philadelphia 76Ers,7,Richard Dumas,PF,6-7,200,"May 19, 1969",US,2,Oklahoma State
-1996,23,1069,PHI,Philadelphia 76Ers,20,Greg Graham,SG,6-4,174,"November 26, 1970",US,2,Indiana
-1996,23,1081,PHI,Philadelphia 76Ers,3,Greg Grant,PG,5-7,140,"August 29, 1966",US,5,Trenton State University
-1996,23,1283,PHI,Philadelphia 76Ers,9,Sean Higgins,SF,6-9,205,"December 30, 1968",US,4,Michigan
-1996,23,1822,PHI,Philadelphia 76Ers,25,Jeff Malone,SG,6-4,205,"June 28, 1961",US,12,Mississippi State
-1996,23,1870,PHI,Philadelphia 76Ers,30,Tony Massenburg,PF,6-9,220,"July 31, 1967",US,3,Maryland
-1996,23,1881,PHI,Philadelphia 76Ers,11,Vernon Maxwell,PG,6-4,180,"September 12, 1965",US,7,Florida
-1996,23,2292,PHI,Philadelphia 76Ers,23,Tim Perry,PF,6-9,200,"June 4, 1965",US,7,Temple
-1996,23,2311,PHI,Philadelphia 76Ers,54,Ed Pinckney,PF,6-9,195,"March 27, 1963",US,10,Villanova
-1996,23,2530,PHI,Philadelphia 76Ers,8,Trevor Ruffin,PG,6-1,185,"September 26, 1970",US,1,Hawaii
-1996,23,2656,PHI,Philadelphia 76Ers,5,Scott Skiles,PG,6-1,180,"March 5, 1964",US,9,Michigan State
-1996,23,2736,PHI,Philadelphia 76Ers,42,Jerry Stackhouse,SG,6-6,218,"November 5, 1974",US,R,UNC
-1996,23,2792,PHI,Philadelphia 76Ers,20,Greg Sutton,PG,6-2,170,"December 3, 1967",US,2,Oral Roberts
-1996,23,2874,PHI,Philadelphia 76Ers,41,LaSalle Thompson,C,6-10,245,"June 23, 1961",US,13,Texas
-1996,23,3018,PHI,Philadelphia 76Ers,23,Rex Walters,SG,6-4,190,"March 12, 1970",US,2,"Northwestern, Kansas"
-1996,23,3050,PHI,Philadelphia 76Ers,35,Clarence Weatherspoon,SF,6-6,240,"September 8, 1970",US,3,Southern Miss
-1996,23,3178,PHI,Philadelphia 76Ers,55,Scott Williams,PF,6-10,230,"March 21, 1968",US,5,UNC
-1996,23,3203,PHI,Philadelphia 76Ers,30,Trevor Wilson,PF,6-7,210,"March 16, 1968",US,3,UCLA
-1996,23,3250,PHI,Philadelphia 76Ers,4,Sharone Wright,C,6-11,260,"January 30, 1973",US,1,Clemson
+1996,23,59,PHI,Philadelphia 76Ers,21,Derrick Alston,C,6-11,225,1972-08-20,US,1,Duquesne
+1996,23,220,PHI,Philadelphia 76Ers,5,Elmer Bennett,PG,6-0,170,1970-02-13,US,1,Notre Dame
+1996,23,326,PHI,Philadelphia 76Ers,76,Shawn Bradley,C,7-6,235,1972-03-22,DE,2,BYU
+1996,23,390,PHI,Philadelphia 76Ers,40,Mike Brown,C,6-9,257,1963-07-19,US,9,George Washington
+1996,23,563,PHI,Philadelphia 76Ers,44,Derrick Coleman,PF,6-10,230,1967-06-21,US,5,Syracuse
+1996,23,800,PHI,Philadelphia 76Ers,7,Richard Dumas,PF,6-7,200,1969-05-19,US,2,Oklahoma State
+1996,23,1071,PHI,Philadelphia 76Ers,20,Greg Graham,SG,6-4,174,1970-11-26,US,2,Indiana
+1996,23,1083,PHI,Philadelphia 76Ers,3,Greg Grant,PG,5-7,140,1966-08-29,US,5,Trenton State University
+1996,23,1285,PHI,Philadelphia 76Ers,9,Sean Higgins,SF,6-9,205,1968-12-30,US,4,Michigan
+1996,23,1825,PHI,Philadelphia 76Ers,25,Jeff Malone,SG,6-4,205,1961-06-28,US,12,Mississippi State
+1996,23,1873,PHI,Philadelphia 76Ers,30,Tony Massenburg,PF,6-9,220,1967-07-31,US,3,Maryland
+1996,23,1884,PHI,Philadelphia 76Ers,11,Vernon Maxwell,PG,6-4,180,1965-09-12,US,7,Florida
+1996,23,2295,PHI,Philadelphia 76Ers,23,Tim Perry,PF,6-9,200,1965-06-04,US,7,Temple
+1996,23,2314,PHI,Philadelphia 76Ers,54,Ed Pinckney,PF,6-9,195,1963-03-27,US,10,Villanova
+1996,23,2534,PHI,Philadelphia 76Ers,8,Trevor Ruffin,PG,6-1,185,1970-09-26,US,1,Hawaii
+1996,23,2660,PHI,Philadelphia 76Ers,5,Scott Skiles,PG,6-1,180,1964-03-05,US,9,Michigan State
+1996,23,2740,PHI,Philadelphia 76Ers,42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,R,UNC
+1996,23,2796,PHI,Philadelphia 76Ers,20,Greg Sutton,PG,6-2,170,1967-12-03,US,2,Oral Roberts
+1996,23,2878,PHI,Philadelphia 76Ers,41,LaSalle Thompson,C,6-10,245,1961-06-23,US,13,Texas
+1996,23,3023,PHI,Philadelphia 76Ers,23,Rex Walters,SG,6-4,190,1970-03-12,US,2,"Northwestern, Kansas"
+1996,23,3055,PHI,Philadelphia 76Ers,35,Clarence Weatherspoon,SF,6-6,240,1970-09-08,US,3,Southern Miss
+1996,23,3184,PHI,Philadelphia 76Ers,55,Scott Williams,PF,6-10,230,1968-03-21,US,5,UNC
+1996,23,3209,PHI,Philadelphia 76Ers,30,Trevor Wilson,PF,6-7,210,1968-03-16,US,3,UCLA
+1996,23,3256,PHI,Philadelphia 76Ers,4,Sharone Wright,C,6-11,260,1973-01-30,US,1,Clemson

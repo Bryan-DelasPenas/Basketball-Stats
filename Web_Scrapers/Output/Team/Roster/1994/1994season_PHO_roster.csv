@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1994,24,26,PHO,Phoenix Suns,22,Danny Ainge,SG,6-4,175,"March 17, 1959",US,12,BYU
-1994,24,165,PHO,Phoenix Suns,34,Charles Barkley,PF,6-6,252,"February 20, 1963",US,9,Auburn
-1994,24,508,PHO,Phoenix Suns,23,Cedric Ceballos,SF,6-6,190,"August 2, 1969",US,3,Cal State Fullerton
-1994,24,601,PHO,Phoenix Suns,10,Duane Cooper,PG,6-1,185,"June 25, 1969",US,1,USC
-1994,24,616,PHO,Phoenix Suns,40,Joe Courtney,PF,6-8,235,"October 17, 1969",US,1,"Mississippi State, Southern Miss"
-1994,24,1098,PHO,Phoenix Suns,45,A.C. Green,PF,6-9,220,"October 4, 1963",US,8,Oregon State
-1994,24,1262,PHO,Phoenix Suns,4,Skeeter Henry,SG,6-7,190,"December 8, 1967",US,R,"Midland College, Oklahoma"
-1994,24,1488,PHO,Phoenix Suns,3,Frank Johnson,PG,6-1,185,"November 23, 1958",US,9,Wake Forest
-1994,24,1500,PHO,Phoenix Suns,7,Kevin Johnson,PG,6-1,180,"March 4, 1966",US,6,California
-1994,24,1633,PHO,Phoenix Suns,35,Joe Kleine,C,6-11,255,"January 4, 1962",US,8,"Notre Dame, Arkansas"
-1994,24,1640,PHO,Phoenix Suns,32,Negele Knight,PG,6-1,175,"March 6, 1967",US,3,Dayton
-1994,24,1802,PHO,Phoenix Suns,27,Malcolm Mackey,C,6-9,248,"July 11, 1970",US,R,Georgia Tech
-1994,24,1818,PHO,Phoenix Suns,9,Dan Majerle,SG,6-6,215,"September 9, 1965",US,5,Central Michigan University
-1994,24,1997,PHO,Phoenix Suns,25,Oliver Miller,C,6-9,280,"April 6, 1970",US,1,Arkansas
-1994,24,2098,PHO,Phoenix Suns,0,Jerrod Mustaf,PF,6-10,238,"October 28, 1969",US,3,Maryland
-1994,24,2290,PHO,Phoenix Suns,2,Elliot Perry,PG,6-0,150,"March 28, 1969",US,1,Memphis
-1994,24,3078,PHO,Phoenix Suns,41,Mark West,C,6-10,230,"November 5, 1960",US,10,Old Dominion
+1994,24,26,PHO,Phoenix Suns,22,Danny Ainge,SG,6-4,175,1959-03-17,US,12,BYU
+1994,24,165,PHO,Phoenix Suns,34,Charles Barkley,PF,6-6,252,1963-02-20,US,9,Auburn
+1994,24,508,PHO,Phoenix Suns,23,Cedric Ceballos,SF,6-6,190,1969-08-02,US,3,Cal State Fullerton
+1994,24,601,PHO,Phoenix Suns,10,Duane Cooper,PG,6-1,185,1969-06-25,US,1,USC
+1994,24,616,PHO,Phoenix Suns,40,Joe Courtney,PF,6-8,235,1969-10-17,US,1,"Mississippi State, Southern Miss"
+1994,24,1100,PHO,Phoenix Suns,45,A.C. Green,PF,6-9,220,1963-10-04,US,8,Oregon State
+1994,24,1264,PHO,Phoenix Suns,4,Skeeter Henry,SG,6-7,190,1967-12-08,US,R,"Midland College, Oklahoma"
+1994,24,1490,PHO,Phoenix Suns,3,Frank Johnson,PG,6-1,185,1958-11-23,US,9,Wake Forest
+1994,24,1502,PHO,Phoenix Suns,7,Kevin Johnson,PG,6-1,180,1966-03-04,US,6,California
+1994,24,1635,PHO,Phoenix Suns,35,Joe Kleine,C,6-11,255,1962-01-04,US,8,"Notre Dame, Arkansas"
+1994,24,1642,PHO,Phoenix Suns,32,Negele Knight,PG,6-1,175,1967-03-06,US,3,Dayton
+1994,24,1805,PHO,Phoenix Suns,27,Malcolm Mackey,C,6-9,248,1970-07-11,US,R,Georgia Tech
+1994,24,1821,PHO,Phoenix Suns,9,Dan Majerle,SG,6-6,215,1965-09-09,US,5,Central Michigan University
+1994,24,2000,PHO,Phoenix Suns,25,Oliver Miller,C,6-9,280,1970-04-06,US,1,Arkansas
+1994,24,2101,PHO,Phoenix Suns,0,Jerrod Mustaf,PF,6-10,238,1969-10-28,US,3,Maryland
+1994,24,2293,PHO,Phoenix Suns,2,Elliot Perry,PG,6-0,150,1969-03-28,US,1,Memphis
+1994,24,3083,PHO,Phoenix Suns,41,Mark West,C,6-10,230,1960-11-05,US,10,Old Dominion

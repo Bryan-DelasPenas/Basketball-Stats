@@ -1,23 +1,23 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2020,9,287,DET,Detroit Pistons,18,Jordan Bone,PG,6-2,180,"November 5, 1997",US,R,Tennessee
-2020,9,370,DET,Detroit Pistons,6,Bruce Brown,PG,6-4,202,"August 15, 1996",US,1,Miami (FL)
-2020,9,774,DET,Detroit Pistons,45,Sekou Doumbouya,PF,6-8,230,"December 23, 2000",GN,R,
-2020,9,790,DET,Detroit Pistons,0,Andre Drummond,C,6-10,279,"August 10, 1993",US,7,UConn
-2020,9,960,DET,Detroit Pistons,12,Tim Frazier,PG,6-0,170,"November 1, 1990",US,5,Penn State
-2020,9,984,DET,Detroit Pistons,9,Langston Galloway,SG,6-1,200,"December 9, 1991",US,5,Saint Joseph's
-2020,9,1125,DET,Detroit Pistons,23,Blake Griffin,PF,6-9,250,"March 16, 1989",US,9,Oklahoma
-2020,9,1153,DET,Detroit Pistons,42,Donta Hall,PF,6-9,232,"August 7, 1997",US,R,Alabama
-2020,9,1264,DET,Detroit Pistons,31,John Henson,C,6-9,219,"December 28, 1990",US,7,UNC
-2020,9,1416,DET,Detroit Pistons,1,Reggie Jackson,PG,6-2,208,"April 16, 1990",IT,8,Boston College
-2020,9,1595,DET,Detroit Pistons,5,Luke Kennard,SG,6-5,206,"June 24, 1996",US,2,Duke
-2020,9,1622,DET,Detroit Pistons,14,Louis King,SF,6-7,205,"April 6, 1999",US,R,Oregon
-2020,9,1637,DET,Detroit Pistons,20,Brandon Knight,PG,6-2,182,"December 2, 1991",US,7,Kentucky
-2020,9,1820,DET,Detroit Pistons,7,Thon Maker,C,7-0,221,"February 25, 1997",SS,3,
-2020,9,1960,DET,Detroit Pistons,52,Jordan McRae,SG,6-5,179,"March 28, 1991",US,3,Tennessee
-2020,9,2055,DET,Detroit Pistons,"8, 88",Markieff Morris,PF,6-9,245,"September 2, 1989",US,8,Kansas
-2020,9,2102,DET,Detroit Pistons,19,Sviatoslav Mykhailiuk,SF,6-7,205,"June 10, 1997",UA,1,Kansas
-2020,9,2508,DET,Detroit Pistons,25,Derrick Rose,PG,6-2,200,"October 4, 1988",US,10,Memphis
-2020,9,2715,DET,Detroit Pistons,17,Tony Snell,SF,6-6,213,"November 10, 1991",US,6,New Mexico
-2020,9,2856,DET,Detroit Pistons,13,Khyri Thomas,SG,6-3,210,"May 8, 1996",US,1,Creighton
-2020,9,3020,DET,Detroit Pistons,12,Derrick Walton,PG,6-0,189,"April 3, 1995",US,1,Michigan
-2020,9,3223,DET,Detroit Pistons,35,Christian Wood,PF,6-10,214,"September 27, 1995",US,3,UNLV
+2020,9,287,DET,Detroit Pistons,18,Jordan Bone,PG,6-2,180,1997-11-05,US,R,Tennessee
+2020,9,370,DET,Detroit Pistons,6,Bruce Brown,PG,6-4,202,1996-08-15,US,1,Miami (FL)
+2020,9,776,DET,Detroit Pistons,45,Sekou Doumbouya,PF,6-8,230,2000-12-23,GN,R,
+2020,9,792,DET,Detroit Pistons,0,Andre Drummond,C,6-10,279,1993-08-10,US,7,UConn
+2020,9,962,DET,Detroit Pistons,12,Tim Frazier,PG,6-0,170,1990-11-01,US,5,Penn State
+2020,9,986,DET,Detroit Pistons,9,Langston Galloway,SG,6-1,200,1991-12-09,US,5,Saint Joseph's
+2020,9,1127,DET,Detroit Pistons,23,Blake Griffin,PF,6-10,250,1989-03-16,US,9,Oklahoma
+2020,9,1155,DET,Detroit Pistons,42,Donta Hall,PF,6-9,232,1997-08-07,US,R,Alabama
+2020,9,1266,DET,Detroit Pistons,31,John Henson,C,6-9,219,1990-12-28,US,7,UNC
+2020,9,1418,DET,Detroit Pistons,1,Reggie Jackson,PG,6-2,208,1990-04-16,IT,8,Boston College
+2020,9,1597,DET,Detroit Pistons,5,Luke Kennard,SG,6-5,206,1996-06-24,US,2,Duke
+2020,9,1624,DET,Detroit Pistons,14,Louis King,SF,6-7,205,1999-04-06,US,R,Oregon
+2020,9,1639,DET,Detroit Pistons,20,Brandon Knight,PG,6-2,182,1991-12-02,US,7,Kentucky
+2020,9,1823,DET,Detroit Pistons,7,Thon Maker,C,7-0,221,1997-02-25,SS,3,
+2020,9,1963,DET,Detroit Pistons,52,Jordan McRae,SG,6-5,179,1991-03-28,US,3,Tennessee
+2020,9,2058,DET,Detroit Pistons,"8, 88",Markieff Morris,PF,6-9,245,1989-09-02,US,8,Kansas
+2020,9,2105,DET,Detroit Pistons,19,Sviatoslav Mykhailiuk,SF,6-7,205,1997-06-10,UA,1,Kansas
+2020,9,2512,DET,Detroit Pistons,25,Derrick Rose,PG,6-2,200,1988-10-04,US,10,Memphis
+2020,9,2719,DET,Detroit Pistons,17,Tony Snell,SF,6-6,213,1991-11-10,US,6,New Mexico
+2020,9,2860,DET,Detroit Pistons,13,Khyri Thomas,SG,6-3,210,1996-05-08,US,1,Creighton
+2020,9,3025,DET,Detroit Pistons,12,Derrick Walton,PG,6-0,189,1995-04-03,US,1,Michigan
+2020,9,3229,DET,Detroit Pistons,35,Christian Wood,PF,6-10,214,1995-09-27,US,3,UNLV

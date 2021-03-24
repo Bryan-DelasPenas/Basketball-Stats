@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1987,8,31,DEN,Denver Nuggets,32,Mark Alarie,PF,6-8,217,"December 11, 1963",US,R,Duke
-1987,8,604,DEN,Denver Nuggets,42,Wayne Cooper,C,6-10,220,"November 16, 1956",US,8,New Orleans
-1987,8,804,DEN,Denver Nuggets,23,T.R. Dunn,SG,6-4,192,"February 1, 1955",US,9,Alabama
-1987,8,863,DEN,Denver Nuggets,2,Alex English,SF,6-7,190,"January 5, 1954",US,10,South Carolina
-1987,8,879,DEN,Denver Nuggets,5,Mike Evans,SG,6-1,170,"April 19, 1955",US,7,Kansas State
-1987,8,1178,DEN,Denver Nuggets,24,Bill Hanzlik,PF,6-7,185,"December 6, 1957",US,6,Notre Dame
-1987,8,1741,DEN,Denver Nuggets,12,Fat Lever,PG,6-3,170,"August 18, 1960",US,4,Arizona State
-1987,8,1864,DEN,Denver Nuggets,11,Maurice Martin,SF,6-6,200,"July 2, 1964",US,R,Saint Joseph's
-1987,8,2117,DEN,Denver Nuggets,33,Calvin Natt,PF,6-6,220,"January 8, 1957",US,7,Louisiana-Monroe
-1987,8,2401,DEN,Denver Nuggets,41,Blair Rasmussen,C,7-0,250,"November 13, 1962",US,1,Oregon
-1987,8,2571,DEN,Denver Nuggets,34,Danny Schayes,C,6-11,235,"May 10, 1959",US,5,Syracuse
-1987,8,2699,DEN,Denver Nuggets,22,Otis Smith,SG,6-5,210,"January 30, 1964",US,R,Jacksonville University
-1987,8,3002,DEN,Denver Nuggets,4,Darrell Walker,PG,6-4,180,"March 9, 1961",US,3,Arkansas
-1987,8,3170,DEN,Denver Nuggets,31,Pete Williams,PF,6-7,190,"March 10, 1965",US,1,Arizona
+1987,8,31,DEN,Denver Nuggets,32,Mark Alarie,PF,6-8,217,1963-12-11,US,R,Duke
+1987,8,604,DEN,Denver Nuggets,42,Wayne Cooper,C,6-10,220,1956-11-16,US,8,New Orleans
+1987,8,806,DEN,Denver Nuggets,23,T.R. Dunn,SG,6-4,192,1955-02-01,US,9,Alabama
+1987,8,865,DEN,Denver Nuggets,2,Alex English,SF,6-7,190,1954-01-05,US,10,South Carolina
+1987,8,881,DEN,Denver Nuggets,5,Mike Evans,SG,6-1,170,1955-04-19,US,7,Kansas State
+1987,8,1180,DEN,Denver Nuggets,24,Bill Hanzlik,PF,6-7,185,1957-12-06,US,6,Notre Dame
+1987,8,1744,DEN,Denver Nuggets,12,Fat Lever,PG,6-3,170,1960-08-18,US,4,Arizona State
+1987,8,1867,DEN,Denver Nuggets,11,Maurice Martin,SF,6-6,200,1964-07-02,US,R,Saint Joseph's
+1987,8,2120,DEN,Denver Nuggets,33,Calvin Natt,PF,6-6,220,1957-01-08,US,7,Louisiana-Monroe
+1987,8,2405,DEN,Denver Nuggets,41,Blair Rasmussen,C,7-0,250,1962-11-13,US,1,Oregon
+1987,8,2575,DEN,Denver Nuggets,34,Danny Schayes,C,6-11,235,1959-05-10,US,5,Syracuse
+1987,8,2703,DEN,Denver Nuggets,22,Otis Smith,SG,6-5,210,1964-01-30,US,R,Jacksonville University
+1987,8,3007,DEN,Denver Nuggets,4,Darrell Walker,PG,6-4,180,1961-03-09,US,3,Arkansas
+1987,8,3176,DEN,Denver Nuggets,31,Pete Williams,PF,6-7,190,1965-03-10,US,1,Arizona

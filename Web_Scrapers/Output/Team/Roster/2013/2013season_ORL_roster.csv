@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2013,22,22,ORL,Orlando Magic,4,Arron Afflalo,SF,6-5,210,"October 15, 1985",US,5,UCLA
-2013,22,127,ORL,Orlando Magic,19,Gustavo Ayon,C,6-10,250,"April 1, 1985",MX,1,
-2013,22,687,ORL,Orlando Magic,11,Glen Davis,PF,6-9,289,"January 1, 1986",US,5,LSU
-2013,22,1186,ORL,Orlando Magic,21,Maurice Harkless,SF,6-7,220,"May 11, 1993",US,R,St. John's
-2013,22,1197,ORL,Orlando Magic,3,Al Harrington,C,6-9,230,"February 17, 1980",US,14,
-2013,22,1210,ORL,Orlando Magic,12,Tobias Harris,PF,6-8,226,"July 15, 1992",US,1,Tennessee
-2013,22,1536,ORL,Orlando Magic,20,DeQuan Jones,SF,6-8,221,"June 20, 1990",US,R,Miami (FL)
-2013,22,1680,ORL,Orlando Magic,1,Doron Lamb,SG,6-4,210,"November 6, 1991",US,R,Kentucky
-2013,22,1961,ORL,Orlando Magic,17,Josh McRoberts,PF,6-10,240,"February 28, 1987",US,5,Duke
-2013,22,2039,ORL,Orlando Magic,55,E'Twaun Moore,SG,6-3,191,"February 25, 1989",US,1,Purdue
-2013,22,2126,ORL,Orlando Magic,14,Jameer Nelson,PG,6-0,190,"February 9, 1982",US,8,Saint Joseph's
-2013,22,2142,ORL,Orlando Magic,44,Andrew Nicholson,PF,6-9,250,"December 8, 1989",CA,R,St. Bonaventure
-2013,22,2181,ORL,Orlando Magic,2,Kyle O'Quinn,C,6-9,250,"March 26, 1990",US,R,Norfolk State
-2013,22,2414,ORL,Orlando Magic,7,J.J. Redick,SG,6-3,200,"June 24, 1984",US,6,Duke
-2013,22,2681,ORL,Orlando Magic,10,Ish Smith,PG,6-0,175,"July 5, 1988",US,2,Wake Forest
-2013,22,2924,ORL,Orlando Magic,15,Hedo Turkoglu,SF,6-10,220,"March 19, 1979",TR,12,
-2013,22,2941,ORL,Orlando Magic,19,Beno Udrih,PG,6-3,205,"July 5, 1982",SI,8,
-2013,22,2988,ORL,Orlando Magic,9,Nikola Vucevic,C,6-11,260,"October 24, 1990",CH,1,USC
+2013,22,22,ORL,Orlando Magic,4,Arron Afflalo,SF,6-5,210,1985-10-15,US,5,UCLA
+2013,22,127,ORL,Orlando Magic,19,Gustavo Ayon,C,6-10,250,1985-04-01,MX,1,
+2013,22,688,ORL,Orlando Magic,11,Glen Davis,PF,6-9,289,1986-01-01,US,5,LSU
+2013,22,1188,ORL,Orlando Magic,21,Maurice Harkless,SF,6-7,220,1993-05-11,US,R,St. John's
+2013,22,1199,ORL,Orlando Magic,3,Al Harrington,C,6-9,230,1980-02-17,US,14,
+2013,22,1212,ORL,Orlando Magic,12,Tobias Harris,PF,6-8,226,1992-07-15,US,1,Tennessee
+2013,22,1538,ORL,Orlando Magic,20,DeQuan Jones,SF,6-8,221,1990-06-20,US,R,Miami (FL)
+2013,22,1683,ORL,Orlando Magic,1,Doron Lamb,SG,6-4,210,1991-11-06,US,R,Kentucky
+2013,22,1964,ORL,Orlando Magic,17,Josh McRoberts,PF,6-10,240,1987-02-28,US,5,Duke
+2013,22,2042,ORL,Orlando Magic,55,E'Twaun Moore,SG,6-3,191,1989-02-25,US,1,Purdue
+2013,22,2129,ORL,Orlando Magic,14,Jameer Nelson,PG,6-0,190,1982-02-09,US,8,Saint Joseph's
+2013,22,2145,ORL,Orlando Magic,44,Andrew Nicholson,PF,6-9,250,1989-12-08,CA,R,St. Bonaventure
+2013,22,2184,ORL,Orlando Magic,2,Kyle O'Quinn,C,6-9,250,1990-03-26,US,R,Norfolk State
+2013,22,2418,ORL,Orlando Magic,7,J.J. Redick,SG,6-3,200,1984-06-24,US,6,Duke
+2013,22,2685,ORL,Orlando Magic,10,Ish Smith,PG,6-0,175,1988-07-05,US,2,Wake Forest
+2013,22,2929,ORL,Orlando Magic,15,Hedo Turkoglu,SF,6-10,220,1979-03-19,TR,12,
+2013,22,2946,ORL,Orlando Magic,19,Beno Udrih,PG,6-3,205,1982-07-05,SI,8,
+2013,22,2993,ORL,Orlando Magic,9,Nikola Vucevic,C,6-11,260,1990-10-24,CH,1,USC

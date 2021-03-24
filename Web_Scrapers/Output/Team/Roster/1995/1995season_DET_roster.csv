@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1995,9,18,DET,Detroit Pistons,7,Rafael Addison,SF,6-7,215,"July 22, 1964",US,3,Syracuse
-1995,9,286,DET,Detroit Pistons,9,Walter Bond,SG,6-5,200,"February 1, 1969",US,2,Minnesota
-1995,9,651,DET,Detroit Pistons,17,Bill Curley,PF,6-9,220,"May 29, 1972",US,R,Boston College
-1995,9,705,DET,Detroit Pistons,12,Johnny Dawkins,PG,6-2,165,"September 28, 1963",US,8,Duke
-1995,9,797,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,"May 24, 1963",US,9,McNeese State University
-1995,9,1290,DET,Detroit Pistons,33,Grant Hill,SF,6-8,225,"October 5, 1972",US,R,Duke
-1995,9,1335,DET,Detroit Pistons,20,Allan Houston,SG,6-6,200,"April 20, 1971",US,1,Tennessee
-1995,9,1367,DET,Detroit Pistons,1,Lindsey Hunter,PG,6-2,170,"December 3, 1970",US,1,"Alcorn State, Jackson State University"
-1995,9,1640,DET,Detroit Pistons,32,Negele Knight,PG,6-1,175,"March 6, 1967",US,4,Dayton
-1995,9,1715,DET,Detroit Pistons,45,Eric Leckner,C,6-11,265,"May 27, 1966",US,5,Wyoming
-1995,9,1806,DET,Detroit Pistons,2,Mark Macon,SG,6-5,185,"April 14, 1969",US,3,Temple
-1995,9,1997,DET,Detroit Pistons,25,Oliver Miller,PF,6-9,280,"April 6, 1970",US,2,Arkansas
-1995,9,2002,DET,Detroit Pistons,6,Terry Mills,PF,6-10,230,"December 21, 1967",US,4,Michigan
-1995,9,2135,DET,Detroit Pistons,52,Ivano Newbill,SF,6-9,245,"December 12, 1970",US,R,Georgia Tech
-1995,9,2284,DET,Detroit Pistons,54,Mike Peplowski,C,6-10,270,"October 15, 1970",US,1,Michigan State
-1995,9,3078,DET,Detroit Pistons,41,Mark West,C,6-10,230,"November 5, 1960",US,11,Old Dominion
+1995,9,18,DET,Detroit Pistons,7,Rafael Addison,SF,6-7,215,1964-07-22,US,3,Syracuse
+1995,9,286,DET,Detroit Pistons,9,Walter Bond,SG,6-5,200,1969-02-01,US,2,Minnesota
+1995,9,651,DET,Detroit Pistons,17,Bill Curley,PF,6-9,220,1972-05-29,US,R,Boston College
+1995,9,706,DET,Detroit Pistons,12,Johnny Dawkins,PG,6-2,165,1963-09-28,US,8,Duke
+1995,9,799,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,1963-05-24,US,9,McNeese State University
+1995,9,1292,DET,Detroit Pistons,33,Grant Hill,SF,6-8,225,1972-10-05,US,R,Duke
+1995,9,1337,DET,Detroit Pistons,20,Allan Houston,SG,6-6,200,1971-04-20,US,1,Tennessee
+1995,9,1369,DET,Detroit Pistons,1,Lindsey Hunter,PG,6-2,170,1970-12-03,US,1,"Alcorn State, Jackson State University"
+1995,9,1642,DET,Detroit Pistons,32,Negele Knight,PG,6-1,175,1967-03-06,US,4,Dayton
+1995,9,1718,DET,Detroit Pistons,45,Eric Leckner,C,6-11,265,1966-05-27,US,5,Wyoming
+1995,9,1809,DET,Detroit Pistons,2,Mark Macon,SG,6-5,185,1969-04-14,US,3,Temple
+1995,9,2000,DET,Detroit Pistons,25,Oliver Miller,PF,6-9,280,1970-04-06,US,2,Arkansas
+1995,9,2005,DET,Detroit Pistons,6,Terry Mills,PF,6-10,230,1967-12-21,US,4,Michigan
+1995,9,2138,DET,Detroit Pistons,52,Ivano Newbill,SF,6-9,245,1970-12-12,US,R,Georgia Tech
+1995,9,2287,DET,Detroit Pistons,54,Mike Peplowski,C,6-10,270,1970-10-15,US,1,Michigan State
+1995,9,3083,DET,Detroit Pistons,41,Mark West,C,6-10,230,1960-11-05,US,11,Old Dominion

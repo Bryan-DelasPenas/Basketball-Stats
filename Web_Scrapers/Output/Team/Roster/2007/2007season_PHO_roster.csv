@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2007,24,158,PHO,Phoenix Suns,2,Marcus Banks,PG,6-2,200,"November 19, 1981",US,3,UNLV
-2007,24,161,PHO,Phoenix Suns,10,Leandro Barbosa,SG,6-3,194,"November 28, 1982",BR,3,
-2007,24,211,PHO,Phoenix Suns,19,Raja Bell,SG,6-5,204,"September 19, 1976",VI,6,"Boston University, Florida International University"
-2007,24,421,PHO,Phoenix Suns,11,Pat Burke,C,6-11,250,"December 14, 1973",IE,2,Auburn
-2007,24,739,PHO,Phoenix Suns,3,Boris Diaw,PF,6-8,250,"April 16, 1982",FR,3,
-2007,24,1548,PHO,Phoenix Suns,22,James Jones,SF,6-8,218,"October 4, 1980",US,3,Miami (FL)
-2007,24,1550,PHO,Phoenix Suns,20,Jumaine Jones,SF,6-8,218,"February 10, 1979",US,7,Georgia
-2007,24,1838,PHO,Phoenix Suns,31,Shawn Marion,SF,6-7,220,"May 7, 1978",US,7,UNLV
-2007,24,1842,PHO,Phoenix Suns,4,Sean Marks,PF,6-10,250,"August 23, 1975",NZ,6,California
-2007,24,2114,PHO,Phoenix Suns,13,Steve Nash,PG,6-3,195,"February 7, 1974",ZA,10,Santa Clara
-2007,24,2306,PHO,Phoenix Suns,52,Eric Piatkowski,SG,6-7,215,"September 30, 1970",US,12,Nebraska
-2007,24,2509,PHO,Phoenix Suns,8,Jalen Rose,SF,6-8,210,"January 30, 1973",US,12,Michigan
-2007,24,2773,PHO,Phoenix Suns,1,Amar'e Stoudemire,C,6-10,245,"November 16, 1982",US,4,
-2007,24,2857,PHO,Phoenix Suns,40,Kurt Thomas,C,6-9,230,"October 4, 1972",US,11,TCU
+2007,24,158,PHO,Phoenix Suns,2,Marcus Banks,PG,6-2,200,1981-11-19,US,3,UNLV
+2007,24,161,PHO,Phoenix Suns,10,Leandro Barbosa,SG,6-3,194,1982-11-28,BR,3,
+2007,24,211,PHO,Phoenix Suns,19,Raja Bell,SG,6-5,204,1976-09-19,VI,6,"Boston University, Florida International University"
+2007,24,421,PHO,Phoenix Suns,11,Pat Burke,C,6-11,250,1973-12-14,IE,2,Auburn
+2007,24,741,PHO,Phoenix Suns,3,Boris Diaw,PF,6-8,250,1982-04-16,FR,3,
+2007,24,1550,PHO,Phoenix Suns,22,James Jones,SF,6-8,218,1980-10-04,US,3,Miami (FL)
+2007,24,1552,PHO,Phoenix Suns,20,Jumaine Jones,SF,6-8,218,1979-02-10,US,7,Georgia
+2007,24,1841,PHO,Phoenix Suns,31,Shawn Marion,SF,6-7,220,1978-05-07,US,7,UNLV
+2007,24,1845,PHO,Phoenix Suns,4,Sean Marks,PF,6-10,250,1975-08-23,NZ,6,California
+2007,24,2117,PHO,Phoenix Suns,13,Steve Nash,PG,6-3,195,1974-02-07,ZA,10,Santa Clara
+2007,24,2309,PHO,Phoenix Suns,52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,12,Nebraska
+2007,24,2513,PHO,Phoenix Suns,8,Jalen Rose,SF,6-8,210,1973-01-30,US,12,Michigan
+2007,24,2777,PHO,Phoenix Suns,1,Amar'e Stoudemire,C,6-10,245,1982-11-16,US,4,
+2007,24,2861,PHO,Phoenix Suns,40,Kurt Thomas,C,6-9,230,1972-10-04,US,11,TCU

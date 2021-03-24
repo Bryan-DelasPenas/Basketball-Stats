@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2003,1,5,ATL,Atlanta Hawks,3,Shareef Abdur-Rahim,PF,6-9,225,"December 11, 1976",US,6,California
-2003,1,218,ATL,Atlanta Hawks,25,Corey Benjamin,SG,6-6,200,"February 24, 1978",US,3,Oregon State
-2003,1,624,ATL,Atlanta Hawks,4,Chris Crawford,PF,6-9,235,"May 13, 1975",US,5,Marquette
-2003,1,686,ATL,Atlanta Hawks,15,Emanual Davis,SG,6-4,195,"August 27, 1968",US,5,Delaware State University
-2003,1,742,ATL,Atlanta Hawks,12,Dan Dickau,PG,6-0,190,"September 16, 1978",US,R,"Washington, Gonzaga"
-2003,1,1047,ATL,Atlanta Hawks,5,Dion Glover,SG,6-5,228,"October 22, 1978",US,3,Georgia Tech
-2003,1,1156,ATL,Atlanta Hawks,8,Darvin Ham,SG,6-7,220,"July 23, 1973",US,5,Texas Tech
-2003,1,1219,ATL,Atlanta Hawks,40,Antonio Harvey,PF,6-11,225,"July 6, 1970",US,7,"Southern Illinois, Georgia, Pfeiffer University"
-2003,1,1248,ATL,Atlanta Hawks,44,Alan Henderson,C,6-9,235,"December 2, 1972",US,7,Indiana
-2003,1,1403,ATL,Atlanta Hawks,6,Jermaine Jackson,SG,6-4,204,"June 7, 1976",US,2,Detroit Mercy
-2003,1,1825,ATL,Atlanta Hawks,11,Matt Maloney,PG,6-3,192,"December 6, 1971",US,5,"Vanderbilt, Penn"
-2003,1,1902,ATL,Atlanta Hawks,0,Amal McCaskill,C,6-11,235,"October 28, 1973",US,2,Marquette
-2003,1,2022,ATL,Atlanta Hawks,2,Nazr Mohammed,C,6-10,221,"September 5, 1977",US,4,Kentucky
-2003,1,2042,ATL,Atlanta Hawks,38,Mikki Moore,C,6-11,225,"November 4, 1975",US,4,Nebraska
-2003,1,2136,ATL,Atlanta Hawks,14,Ira Newble,SF,6-7,220,"January 20, 1975",US,2,Miami University
-2003,1,2403,ATL,Atlanta Hawks,42,Theo Ratliff,C,6-10,225,"April 17, 1973",US,7,Wyoming
-2003,1,2478,ATL,Atlanta Hawks,13,Glenn Robinson,SF,6-7,225,"January 10, 1973",US,8,Purdue
-2003,1,2619,ATL,Atlanta Hawks,45,Paul Shirley,PF,6-10,230,"December 23, 1977",US,R,Iowa State
-2003,1,2835,ATL,Atlanta Hawks,31,Jason Terry,PG,6-2,185,"September 15, 1977",US,3,Arizona
-2003,1,3127,ATL,Atlanta Hawks,29,Mike Wilks,SG,5-10,185,"May 7, 1979",US,R,Rice University
-2003,1,3131,ATL,Atlanta Hawks,17,Brandon Williams,SF,6-6,215,"February 27, 1975",US,2,Davidson
+2003,1,5,ATL,Atlanta Hawks,3,Shareef Abdur-Rahim,PF,6-9,225,1976-12-11,US,6,California
+2003,1,218,ATL,Atlanta Hawks,25,Corey Benjamin,SG,6-6,200,1978-02-24,US,3,Oregon State
+2003,1,624,ATL,Atlanta Hawks,4,Chris Crawford,PF,6-9,235,1975-05-13,US,5,Marquette
+2003,1,687,ATL,Atlanta Hawks,15,Emanual Davis,SG,6-4,195,1968-08-27,US,5,Delaware State University
+2003,1,744,ATL,Atlanta Hawks,12,Dan Dickau,PG,6-0,190,1978-09-16,US,R,"Washington, Gonzaga"
+2003,1,1049,ATL,Atlanta Hawks,5,Dion Glover,SG,6-5,228,1978-10-22,US,3,Georgia Tech
+2003,1,1158,ATL,Atlanta Hawks,8,Darvin Ham,SG,6-7,220,1973-07-23,US,5,Texas Tech
+2003,1,1221,ATL,Atlanta Hawks,40,Antonio Harvey,PF,6-11,225,1970-07-06,US,7,"Southern Illinois, Georgia, Pfeiffer University"
+2003,1,1250,ATL,Atlanta Hawks,44,Alan Henderson,C,6-9,235,1972-12-02,US,7,Indiana
+2003,1,1405,ATL,Atlanta Hawks,6,Jermaine Jackson,SG,6-4,204,1976-06-07,US,2,Detroit Mercy
+2003,1,1828,ATL,Atlanta Hawks,11,Matt Maloney,PG,6-3,192,1971-12-06,US,5,"Vanderbilt, Penn"
+2003,1,1905,ATL,Atlanta Hawks,0,Amal McCaskill,C,6-11,235,1973-10-28,US,2,Marquette
+2003,1,2025,ATL,Atlanta Hawks,2,Nazr Mohammed,C,6-10,221,1977-09-05,US,4,Kentucky
+2003,1,2045,ATL,Atlanta Hawks,38,Mikki Moore,C,6-11,225,1975-11-04,US,4,Nebraska
+2003,1,2139,ATL,Atlanta Hawks,14,Ira Newble,SF,6-7,220,1975-01-20,US,2,Miami University
+2003,1,2407,ATL,Atlanta Hawks,42,Theo Ratliff,C,6-10,225,1973-04-17,US,7,Wyoming
+2003,1,2483,ATL,Atlanta Hawks,13,Glenn Robinson,SF,6-7,225,1973-01-10,US,8,Purdue
+2003,1,2623,ATL,Atlanta Hawks,45,Paul Shirley,PF,6-10,230,1977-12-23,US,R,Iowa State
+2003,1,2839,ATL,Atlanta Hawks,31,Jason Terry,PG,6-2,185,1977-09-15,US,3,Arizona
+2003,1,3133,ATL,Atlanta Hawks,29,Mike Wilks,SG,5-10,185,1979-05-07,US,R,Rice University
+2003,1,3137,ATL,Atlanta Hawks,17,Brandon Williams,SF,6-6,215,1975-02-27,US,2,Davidson

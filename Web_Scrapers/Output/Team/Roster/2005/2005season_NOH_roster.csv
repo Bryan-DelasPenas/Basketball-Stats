@@ -1,23 +1,23 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2005,19,66,NOH,New Orleans Hornets,12,Chris Andersen,C,6-10,245,"July 7, 1978",US,3,Blinn College
-2005,19,109,NOH,New Orleans Hornets,10,Darrell Armstrong,PG,6-0,170,"June 22, 1968",US,10,Fayetteville State University
-2005,19,194,NOH,New Orleans Hornets,3,Lonny Baxter,PF,6-8,260,"January 27, 1979",US,2,Maryland
-2005,19,393,NOH,New Orleans Hornets,42,P.J. Brown,PF,6-11,225,"October 14, 1969",US,11,Louisiana Tech
-2005,19,551,NOH,New Orleans Hornets,5,Speedy Claxton,PG,5-11,166,"May 8, 1978",US,3,Hofstra
-2005,19,678,NOH,New Orleans Hornets,1,Baron Davis,PG,6-3,209,"April 13, 1979",US,5,UCLA
-2005,19,742,NOH,New Orleans Hornets,2,Dan Dickau,PG,6-0,190,"September 16, 1978",US,2,"Washington, Gonzaga"
-2005,19,829,NOH,New Orleans Hornets,34,Corsley Edwards,C,6-9,275,"March 5, 1979",US,R,Central Connecticut State University
-2005,19,966,NOH,New Orleans Hornets,35,Matt Freije,PF,6-10,240,"October 2, 1981",US,R,Vanderbilt
-2005,19,988,NOH,New Orleans Hornets,20,Alex Garcia,SG,6-3,220,"March 4, 1980",BR,1,
-2005,19,1198,NOH,New Orleans Hornets,6,Junior Harrington,SG,6-4,180,"October 2, 1980",US,1,Wingate University
-2005,19,1421,NOH,New Orleans Hornets,32,Casey Jacobsen,SG,6-6,215,"March 19, 1981",US,2,Stanford
-2005,19,1684,NOH,New Orleans Hornets,15,Maciej Lampe,C,6-11,275,"February 5, 1985",PL,1,
-2005,19,1792,NOH,New Orleans Hornets,9,George Lynch,SF,6-8,218,"September 3, 1970",US,11,UNC
-2005,19,1815,NOH,New Orleans Hornets,21,Jamaal Magloire,C,6-11,259,"May 21, 1978",CA,4,Kentucky
-2005,19,2107,NOH,New Orleans Hornets,10,Bostjan Nachbar,PF,6-9,221,"July 3, 1980",SI,2,
-2005,19,2109,NOH,New Orleans Hornets,33,Lee Nailon,SF,6-9,238,"February 22, 1975",US,4,"Butler County Community College, TCU"
-2005,19,2502,NOH,New Orleans Hornets,54,Rodney Rogers,SF,6-7,235,"June 20, 1971",US,11,Wake Forest
-2005,19,2682,NOH,New Orleans Hornets,23,J.R. Smith,SG,6-6,225,"September 9, 1985",US,R,
-2005,19,2987,NOH,New Orleans Hornets,4,Jackson Vroman,C,6-10,220,"June 6, 1981",US,R,Iowa State
-2005,19,3073,NOH,New Orleans Hornets,4,David Wesley,SG,6-0,190,"November 14, 1970",US,11,Baylor
-2005,19,3074,NOH,New Orleans Hornets,30,David West,SF,6-9,250,"August 29, 1980",US,1,Xavier
+2005,19,66,NOH,New Orleans Hornets,12,Chris Andersen,C,6-10,245,1978-07-07,US,3,Blinn College
+2005,19,109,NOH,New Orleans Hornets,10,Darrell Armstrong,PG,6-0,170,1968-06-22,US,10,Fayetteville State University
+2005,19,194,NOH,New Orleans Hornets,3,Lonny Baxter,PF,6-8,260,1979-01-27,US,2,Maryland
+2005,19,393,NOH,New Orleans Hornets,42,P.J. Brown,PF,6-11,225,1969-10-14,US,11,Louisiana Tech
+2005,19,551,NOH,New Orleans Hornets,5,Speedy Claxton,PG,5-11,166,1978-05-08,US,3,Hofstra
+2005,19,679,NOH,New Orleans Hornets,1,Baron Davis,PG,6-3,209,1979-04-13,US,5,UCLA
+2005,19,744,NOH,New Orleans Hornets,2,Dan Dickau,PG,6-0,190,1978-09-16,US,2,"Washington, Gonzaga"
+2005,19,831,NOH,New Orleans Hornets,34,Corsley Edwards,C,6-9,275,1979-03-05,US,R,Central Connecticut State University
+2005,19,968,NOH,New Orleans Hornets,35,Matt Freije,PF,6-10,240,1981-10-02,US,R,Vanderbilt
+2005,19,990,NOH,New Orleans Hornets,20,Alex Garcia,SG,6-3,220,1980-03-04,BR,1,
+2005,19,1200,NOH,New Orleans Hornets,6,Junior Harrington,SG,6-4,180,1980-10-02,US,1,Wingate University
+2005,19,1423,NOH,New Orleans Hornets,32,Casey Jacobsen,SG,6-6,215,1981-03-19,US,2,Stanford
+2005,19,1687,NOH,New Orleans Hornets,15,Maciej Lampe,C,6-11,275,1985-02-05,PL,1,
+2005,19,1795,NOH,New Orleans Hornets,9,George Lynch,SF,6-8,218,1970-09-03,US,11,UNC
+2005,19,1818,NOH,New Orleans Hornets,21,Jamaal Magloire,C,6-11,259,1978-05-21,CA,4,Kentucky
+2005,19,2110,NOH,New Orleans Hornets,10,Bostjan Nachbar,PF,6-9,221,1980-07-03,SI,2,
+2005,19,2112,NOH,New Orleans Hornets,33,Lee Nailon,SF,6-9,238,1975-02-22,US,4,"Butler County Community College, TCU"
+2005,19,2506,NOH,New Orleans Hornets,54,Rodney Rogers,SF,6-7,235,1971-06-20,US,11,Wake Forest
+2005,19,2686,NOH,New Orleans Hornets,23,J.R. Smith,SG,6-6,225,1985-09-09,US,R,
+2005,19,2992,NOH,New Orleans Hornets,4,Jackson Vroman,C,6-10,220,1981-06-06,US,R,Iowa State
+2005,19,3078,NOH,New Orleans Hornets,4,David Wesley,SG,6-0,190,1970-11-14,US,11,Baylor
+2005,19,3079,NOH,New Orleans Hornets,30,David West,SF,6-9,250,1980-08-29,US,1,Xavier

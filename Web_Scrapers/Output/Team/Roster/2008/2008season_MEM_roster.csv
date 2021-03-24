@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2008,15,367,MEM,Memphis Grizzlies,44,Andre Brown,PF,6-9,245,"May 12, 1981",US,1,DePaul
-2008,15,385,MEM,Memphis Grizzlies,54,Kwame Brown,C,6-11,270,"March 10, 1982",US,6,
-2008,15,469,MEM,Memphis Grizzlies,35,Brian Cardinal,PF,6-8,245,"May 2, 1977",US,7,Purdue
-2008,15,572,MEM,Memphis Grizzlies,34,Jason Collins,C,7-0,255,"December 2, 1978",US,6,Stanford
-2008,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,"October 11, 1987",US,R,Ohio State
-2008,15,633,MEM,Memphis Grizzlies,3,Javaris Crittenton,SG,6-5,200,"December 31, 1987",US,R,Georgia Tech
-2008,15,1008,MEM,Memphis Grizzlies,16,Pau Gasol,C,7-0,250,"July 6, 1980",ES,6,
-2008,15,1011,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,"August 17, 1986",US,1,UConn
-2008,15,1421,MEM,Memphis Grizzlies,23,Casey Jacobsen,SG,6-6,215,"March 19, 1981",US,3,Stanford
-2008,15,1528,MEM,Memphis Grizzlies,6,Bobby Ray Jones,SF,6-7,215,"January 9, 1984",US,1,Washington
-2008,15,1626,MEM,Memphis Grizzlies,7,Tarence Kinsey,SG,6-6,185,"March 21, 1984",US,1,South Carolina
-2008,15,1782,MEM,Memphis Grizzlies,1,Kyle Lowry,PG,6-0,196,"March 25, 1986",US,1,Villanova
-2008,15,1988,MEM,Memphis Grizzlies,31,Darko Milicic,C,7-0,250,"June 20, 1985",RS,4,
-2008,15,1996,MEM,Memphis Grizzlies,33,Mike Miller,SG,6-8,218,"February 19, 1980",US,7,Florida
-2008,15,2119,MEM,Memphis Grizzlies,2,Juan Carlos Navarro,SG,6-3,170,"June 13, 1980",ES,R,
-2008,15,2443,MEM,Memphis Grizzlies,3,Jeremy Richardson,SF,6-6,185,"February 11, 1984",US,1,Delta State University
-2008,15,2771,MEM,Memphis Grizzlies,20,Damon Stoudamire,PG,5-10,171,"September 3, 1973",US,12,Arizona
-2008,15,2796,MEM,Memphis Grizzlies,4,Stromile Swift,PF,6-9,225,"November 21, 1979",US,7,LSU
-2008,15,3030,MEM,Memphis Grizzlies,21,Hakim Warrick,PF,6-9,219,"July 8, 1982",US,2,Syracuse
+2008,15,367,MEM,Memphis Grizzlies,44,Andre Brown,PF,6-9,245,1981-05-12,US,1,DePaul
+2008,15,385,MEM,Memphis Grizzlies,54,Kwame Brown,C,6-11,270,1982-03-10,US,6,
+2008,15,469,MEM,Memphis Grizzlies,35,Brian Cardinal,PF,6-8,245,1977-05-02,US,7,Purdue
+2008,15,572,MEM,Memphis Grizzlies,34,Jason Collins,C,7-0,255,1978-12-02,US,6,Stanford
+2008,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,1987-10-11,US,R,Ohio State
+2008,15,633,MEM,Memphis Grizzlies,3,Javaris Crittenton,SG,6-5,200,1987-12-31,US,R,Georgia Tech
+2008,15,1010,MEM,Memphis Grizzlies,16,Pau Gasol,C,7-0,250,1980-07-06,ES,6,
+2008,15,1013,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,1986-08-17,US,1,UConn
+2008,15,1423,MEM,Memphis Grizzlies,23,Casey Jacobsen,SG,6-6,215,1981-03-19,US,3,Stanford
+2008,15,1530,MEM,Memphis Grizzlies,6,Bobby Jones,SF,6-7,215,1984-01-09,US,1,Washington
+2008,15,1628,MEM,Memphis Grizzlies,7,Tarence Kinsey,SG,6-6,185,1984-03-21,US,1,South Carolina
+2008,15,1785,MEM,Memphis Grizzlies,1,Kyle Lowry,PG,6-0,196,1986-03-25,US,1,Villanova
+2008,15,1991,MEM,Memphis Grizzlies,31,Darko Milicic,C,7-0,250,1985-06-20,RS,4,
+2008,15,1999,MEM,Memphis Grizzlies,33,Mike Miller,SG,6-8,218,1980-02-19,US,7,Florida
+2008,15,2122,MEM,Memphis Grizzlies,2,Juan Carlos Navarro,SG,6-3,170,1980-06-13,ES,R,
+2008,15,2447,MEM,Memphis Grizzlies,3,Jeremy Richardson,SF,6-6,185,1984-02-11,US,1,Delta State University
+2008,15,2775,MEM,Memphis Grizzlies,20,Damon Stoudamire,PG,5-10,171,1973-09-03,US,12,Arizona
+2008,15,2800,MEM,Memphis Grizzlies,4,Stromile Swift,PF,6-9,225,1979-11-21,US,7,LSU
+2008,15,3035,MEM,Memphis Grizzlies,21,Hakim Warrick,PF,6-9,219,1982-07-08,US,2,Syracuse

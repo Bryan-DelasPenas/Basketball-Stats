@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1994,14,312,LAL,Los Angeles Lakers,31,Sam Bowie,C,7-1,235,"March 17, 1961",US,8,Kentucky
-1994,14,463,LAL,Los Angeles Lakers,41,Elden Campbell,PF,6-11,215,"July 23, 1968",US,3,Clemson
-1994,14,533,LAL,Los Angeles Lakers,8,Doug Christie,SG,6-6,200,"May 9, 1970",US,1,Pepperdine
-1994,14,753,LAL,Los Angeles Lakers,12,Vlade Divac,C,7-1,243,"February 3, 1968",RS,4,
-1994,14,832,LAL,Los Angeles Lakers,53,James Edwards,C,7-0,225,"November 22, 1955",US,16,Washington
-1994,14,1219,LAL,Los Angeles Lakers,40,Antonio Harvey,PF,6-11,225,"July 6, 1970",US,R,"Southern Illinois, Georgia, Pfeiffer University"
-1994,14,1569,LAL,Los Angeles Lakers,23,Reggie Jordan,SG,6-4,195,"January 26, 1968",US,R,New Mexico State
-1994,14,1792,LAL,Los Angeles Lakers,"24, 30",George Lynch,SF,6-8,218,"September 3, 1970",US,R,UNC
-1994,14,2277,LAL,Los Angeles Lakers,1,Anthony Peeler,SG,6-4,208,"November 25, 1969",US,1,Missouri
-1994,14,2390,LAL,Los Angeles Lakers,18,Kurt Rambis,PF,6-8,213,"February 25, 1958",US,12,Santa Clara
-1994,14,2571,LAL,Los Angeles Lakers,26,Danny Schayes,C,6-11,235,"May 10, 1959",US,12,Syracuse
-1994,14,2710,LAL,Los Angeles Lakers,34,Tony Smith,SG,6-3,185,"June 14, 1968",US,3,Marquette
-1994,14,2885,LAL,Los Angeles Lakers,3,Sedale Threatt,PG,6-2,175,"September 10, 1961",US,10,West Virginia Tech
-1994,14,2952,LAL,Los Angeles Lakers,9,Nick Van Exel,PG,6-1,170,"November 27, 1971",US,R,"Trinity Valley CC, Cincinnati"
-1994,14,3203,LAL,Los Angeles Lakers,7,Trevor Wilson,PF,6-7,210,"March 16, 1968",US,1,UCLA
-1994,14,3236,LAL,Los Angeles Lakers,42,James Worthy,SF,6-9,225,"February 27, 1961",US,11,UNC
+1994,14,312,LAL,Los Angeles Lakers,31,Sam Bowie,C,7-1,235,1961-03-17,US,8,Kentucky
+1994,14,463,LAL,Los Angeles Lakers,41,Elden Campbell,PF,6-11,215,1968-07-23,US,3,Clemson
+1994,14,533,LAL,Los Angeles Lakers,8,Doug Christie,SG,6-6,200,1970-05-09,US,1,Pepperdine
+1994,14,755,LAL,Los Angeles Lakers,12,Vlade Divac,C,7-1,243,1968-02-03,RS,4,
+1994,14,834,LAL,Los Angeles Lakers,53,James Edwards,C,7-0,225,1955-11-22,US,16,Washington
+1994,14,1221,LAL,Los Angeles Lakers,40,Antonio Harvey,PF,6-11,225,1970-07-06,US,R,"Southern Illinois, Georgia, Pfeiffer University"
+1994,14,1571,LAL,Los Angeles Lakers,23,Reggie Jordan,SG,6-4,195,1968-01-26,US,R,New Mexico State
+1994,14,1795,LAL,Los Angeles Lakers,"24, 30",George Lynch,SF,6-8,218,1970-09-03,US,R,UNC
+1994,14,2280,LAL,Los Angeles Lakers,1,Anthony Peeler,SG,6-4,208,1969-11-25,US,1,Missouri
+1994,14,2394,LAL,Los Angeles Lakers,18,Kurt Rambis,PF,6-8,213,1958-02-25,US,12,Santa Clara
+1994,14,2575,LAL,Los Angeles Lakers,26,Danny Schayes,C,6-11,235,1959-05-10,US,12,Syracuse
+1994,14,2714,LAL,Los Angeles Lakers,34,Tony Smith,SG,6-3,185,1968-06-14,US,3,Marquette
+1994,14,2889,LAL,Los Angeles Lakers,3,Sedale Threatt,PG,6-2,175,1961-09-10,US,10,West Virginia Tech
+1994,14,2957,LAL,Los Angeles Lakers,9,Nick Van Exel,PG,6-1,170,1971-11-27,US,R,"Trinity Valley CC, Cincinnati"
+1994,14,3209,LAL,Los Angeles Lakers,7,Trevor Wilson,PF,6-7,210,1968-03-16,US,1,UCLA
+1994,14,3242,LAL,Los Angeles Lakers,42,James Worthy,SF,6-9,225,1961-02-27,US,11,UNC

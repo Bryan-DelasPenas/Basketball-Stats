@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1980,25,184,POR,Portland Trail Blazers,12,Billy Ray Bates,SG,6-4,210,"May 31, 1956",US,R,Kentucky State University
-1980,25,344,POR,Portland Trail Blazers,52,Jim Brewer,PF,6-9,210,"December 3, 1951",US,6,Minnesota
-1980,25,345,POR,Portland Trail Blazers,10,Ron Brewer,SG,6-4,180,"July 16, 1955",US,1,Arkansas
-1980,25,804,POR,Portland Trail Blazers,23,T.R. Dunn,SG,6-4,192,"February 1, 1955",US,2,Alabama
-1980,25,1131,POR,Portland Trail Blazers,30,Bob Gross,SF,6-6,200,"August 3, 1953",US,4,"Seattle University, Cal State Long Beach"
-1980,25,1313,POR,Portland Trail Blazers,14,Lionel Hollins,PG,6-3,185,"October 19, 1953",US,4,Arizona State
-1980,25,1438,POR,Portland Trail Blazers,11,Abdul Jeelani,SF,6-8,210,"February 10, 1954",US,R,University of Wisconsin-Parkside
-1980,25,1663,POR,Portland Trail Blazers,44,Kevin Kunnert,C,7-0,230,"November 11, 1951",US,6,Iowa
-1980,25,1786,POR,Portland Trail Blazers,20,Maurice Lucas,PF,6-9,215,"February 18, 1952",US,5,Marquette
-1980,25,2117,POR,Portland Trail Blazers,33,Calvin Natt,SF,6-6,220,"January 8, 1957",US,R,Louisiana-Monroe
-1980,25,2231,POR,Portland Trail Blazers,25,Tom Owens,C,6-10,215,"June 28, 1949",US,8,South Carolina
-1980,25,2267,POR,Portland Trail Blazers,4,Jim Paxson,SG,6-6,200,"July 9, 1957",US,R,Dayton
-1980,25,2742,POR,Portland Trail Blazers,15,Larry Steele,SF,6-5,180,"May 5, 1949",US,8,Kentucky
-1980,25,2934,POR,Portland Trail Blazers,13,Dave Twardzik,PG,6-1,175,"September 20, 1950",US,7,Old Dominion
-1980,25,3036,POR,Portland Trail Blazers,42,Kermit Washington,PF,6-8,230,"September 17, 1951",US,6,American University
+1980,25,184,POR,Portland Trail Blazers,12,Billy Ray Bates,SG,6-4,210,1956-05-31,US,R,Kentucky State University
+1980,25,344,POR,Portland Trail Blazers,52,Jim Brewer,PF,6-9,210,1951-12-03,US,6,Minnesota
+1980,25,345,POR,Portland Trail Blazers,10,Ron Brewer,SG,6-4,180,1955-07-16,US,1,Arkansas
+1980,25,806,POR,Portland Trail Blazers,23,T.R. Dunn,SG,6-4,192,1955-02-01,US,2,Alabama
+1980,25,1133,POR,Portland Trail Blazers,30,Bob Gross,SF,6-6,200,1953-08-03,US,4,"Seattle University, Cal State Long Beach"
+1980,25,1315,POR,Portland Trail Blazers,14,Lionel Hollins,PG,6-3,185,1953-10-19,US,4,Arizona State
+1980,25,1440,POR,Portland Trail Blazers,11,Abdul Jeelani,SF,6-8,210,1954-02-10,US,R,University of Wisconsin-Parkside
+1980,25,1665,POR,Portland Trail Blazers,44,Kevin Kunnert,C,7-0,230,1951-11-11,US,6,Iowa
+1980,25,1789,POR,Portland Trail Blazers,20,Maurice Lucas,PF,6-9,215,1952-02-18,US,5,Marquette
+1980,25,2120,POR,Portland Trail Blazers,33,Calvin Natt,SF,6-6,220,1957-01-08,US,R,Louisiana-Monroe
+1980,25,2234,POR,Portland Trail Blazers,25,Tom Owens,C,6-10,215,1949-06-28,US,8,South Carolina
+1980,25,2270,POR,Portland Trail Blazers,4,Jim Paxson,SG,6-6,200,1957-07-09,US,R,Dayton
+1980,25,2746,POR,Portland Trail Blazers,15,Larry Steele,SF,6-5,180,1949-05-05,US,8,Kentucky
+1980,25,2939,POR,Portland Trail Blazers,13,Dave Twardzik,PG,6-1,175,1950-09-20,US,7,Old Dominion
+1980,25,3041,POR,Portland Trail Blazers,42,Kermit Washington,PF,6-8,230,1951-09-17,US,6,American University

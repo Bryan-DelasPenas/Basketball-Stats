@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1995,6,190,CLE,Cleveland Cavaliers,10,John Battle,SG,6-2,175,"November 9, 1962",US,9,Rutgers University
-1995,6,220,CLE,Cleveland Cavaliers,12,Elmer Bennett,PG,6-0,170,"February 13, 1970",US,R,Notre Dame
-1995,6,334,CLE,Cleveland Cavaliers,11,Terrell Brandon,PG,5-11,180,"May 20, 1970",US,3,Oregon
-1995,6,451,CLE,Cleveland Cavaliers,44,Michael Cage,C,6-9,224,"January 28, 1962",US,10,San Diego State
-1995,6,464,CLE,Cleveland Cavaliers,9,Tony Campbell,SF,6-7,215,"May 7, 1962",US,10,Ohio State
-1995,6,582,CLE,Cleveland Cavaliers,5,Steve Colter,PG,6-3,165,"July 24, 1962",US,7,New Mexico State
-1995,6,781,CLE,Cleveland Cavaliers,30,Greg Dreiling,C,7-1,250,"November 7, 1962",US,8,"Wichita State, Kansas"
-1995,6,912,CLE,Cleveland Cavaliers,35,Danny Ferry,PF,6-10,230,"October 17, 1966",US,4,Duke
-1995,6,1294,CLE,Cleveland Cavaliers,32,Tyrone Hill,C,6-9,240,"March 19, 1968",US,4,Xavier
-1995,6,1810,CLE,Cleveland Cavaliers,12,Gerald Madkins,SG,6-4,200,"April 18, 1969",US,1,UCLA
-1995,6,2000,CLE,Cleveland Cavaliers,24,Chris Mills,SF,6-6,215,"January 25, 1970",US,1,"Kentucky, Arizona"
-1995,6,2305,CLE,Cleveland Cavaliers,14,Bobby Phills,SG,6-5,210,"December 20, 1969",US,3,Southern University and A&M College
-1995,6,2363,CLE,Cleveland Cavaliers,25,Mark Price,PG,6-0,170,"February 15, 1964",US,8,Georgia Tech
-1995,6,2464,CLE,Cleveland Cavaliers,31,Fred Roberts,SF,6-10,218,"August 14, 1960",US,10,BYU
-1995,6,3146,CLE,Cleveland Cavaliers,18,Hot Rod Williams,PF,6-11,215,"August 9, 1962",US,8,Tulane
+1995,6,190,CLE,Cleveland Cavaliers,10,John Battle,SG,6-2,175,1962-11-09,US,9,Rutgers University
+1995,6,220,CLE,Cleveland Cavaliers,12,Elmer Bennett,PG,6-0,170,1970-02-13,US,R,Notre Dame
+1995,6,334,CLE,Cleveland Cavaliers,11,Terrell Brandon,PG,5-11,180,1970-05-20,US,3,Oregon
+1995,6,451,CLE,Cleveland Cavaliers,44,Michael Cage,C,6-9,224,1962-01-28,US,10,San Diego State
+1995,6,464,CLE,Cleveland Cavaliers,9,Tony Campbell,SF,6-7,215,1962-05-07,US,10,Ohio State
+1995,6,582,CLE,Cleveland Cavaliers,5,Steve Colter,PG,6-3,165,1962-07-24,US,7,New Mexico State
+1995,6,783,CLE,Cleveland Cavaliers,30,Greg Dreiling,C,7-1,250,1962-11-07,US,8,"Wichita State, Kansas"
+1995,6,914,CLE,Cleveland Cavaliers,35,Danny Ferry,PF,6-10,230,1966-10-17,US,4,Duke
+1995,6,1296,CLE,Cleveland Cavaliers,32,Tyrone Hill,C,6-9,240,1968-03-19,US,4,Xavier
+1995,6,1813,CLE,Cleveland Cavaliers,12,Gerald Madkins,SG,6-4,200,1969-04-18,US,1,UCLA
+1995,6,2003,CLE,Cleveland Cavaliers,24,Chris Mills,SF,6-6,215,1970-01-25,US,1,"Kentucky, Arizona"
+1995,6,2308,CLE,Cleveland Cavaliers,14,Bobby Phills,SG,6-5,210,1969-12-20,US,3,Southern University and A&M College
+1995,6,2367,CLE,Cleveland Cavaliers,25,Mark Price,PG,6-0,170,1964-02-15,US,8,Georgia Tech
+1995,6,2468,CLE,Cleveland Cavaliers,31,Fred Roberts,SF,6-10,218,1960-08-14,US,10,BYU
+1995,6,3152,CLE,Cleveland Cavaliers,18,Hot Rod Williams,PF,6-11,215,1962-08-09,US,8,Tulane

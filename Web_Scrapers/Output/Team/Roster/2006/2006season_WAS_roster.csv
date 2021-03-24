@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2006,30,104,WAS,Washington Wizards,0,Gilbert Arenas,PG,6-3,191,"January 6, 1982",US,4,Arizona
-2006,30,117,WAS,Washington Wizards,7,Chucky Atkins,SG,5-11,160,"August 14, 1974",US,6,South Florida
-2006,30,265,WAS,Washington Wizards,32,Andray Blatche,PF,6-11,235,"August 22, 1986",US,R,
-2006,30,297,WAS,Washington Wizards,52,Calvin Booth,C,6-11,230,"May 7, 1976",US,6,Penn State
-2006,30,436,WAS,Washington Wizards,3,Caron Butler,SF,6-7,228,"March 13, 1980",US,3,UConn
-2006,30,663,WAS,Washington Wizards,6,Antonio Daniels,SG,6-4,195,"March 19, 1975",US,8,Bowling Green
-2006,30,1234,WAS,Washington Wizards,24,Jarvis Hayes,SG,6-7,220,"August 9, 1981",US,2,"Western Carolina University, Georgia"
-2006,30,1241,WAS,Washington Wizards,33,Brendan Haywood,C,7-0,268,"November 27, 1979",US,4,UNC
-2006,30,1433,WAS,Washington Wizards,4,Antawn Jamison,SF,6-8,223,"June 12, 1976",US,7,UNC
-2006,30,1447,WAS,Washington Wizards,1,Jared Jeffries,PF,6-11,230,"November 25, 1981",US,3,Indiana
-2006,30,2529,WAS,Washington Wizards,51,Michael Ruffin,C,6-9,246,"January 21, 1977",US,5,Tulsa
-2006,30,2770,WAS,Washington Wizards,35,Awvee Storey,SF,6-6,222,"April 18, 1977",US,1,"Illinois, Arizona State"
-2006,30,2813,WAS,Washington Wizards,21,Donell Taylor,SG,6-6,180,"July 26, 1982",US,R,"Okaloosa-Walton Community College, UAB"
-2006,30,2843,WAS,Washington Wizards,12,Billy Thomas,SG,6-4,208,"December 23, 1975",US,1,Kansas
-2006,30,2847,WAS,Washington Wizards,36,Etan Thomas,C,6-9,256,"April 1, 1978",US,4,Syracuse
+2006,30,104,WAS,Washington Wizards,0,Gilbert Arenas,PG,6-3,191,1982-01-06,US,4,Arizona
+2006,30,117,WAS,Washington Wizards,7,Chucky Atkins,SG,5-11,160,1974-08-14,US,6,South Florida
+2006,30,265,WAS,Washington Wizards,32,Andray Blatche,PF,6-11,235,1986-08-22,US,R,
+2006,30,297,WAS,Washington Wizards,52,Calvin Booth,C,6-11,230,1976-05-07,US,6,Penn State
+2006,30,436,WAS,Washington Wizards,3,Caron Butler,SF,6-7,228,1980-03-13,US,3,UConn
+2006,30,663,WAS,Washington Wizards,6,Antonio Daniels,SG,6-4,195,1975-03-19,US,8,Bowling Green
+2006,30,1236,WAS,Washington Wizards,24,Jarvis Hayes,SG,6-7,220,1981-08-09,US,2,"Western Carolina University, Georgia"
+2006,30,1243,WAS,Washington Wizards,33,Brendan Haywood,C,7-0,268,1979-11-27,US,4,UNC
+2006,30,1435,WAS,Washington Wizards,4,Antawn Jamison,SF,6-8,223,1976-06-12,US,7,UNC
+2006,30,1449,WAS,Washington Wizards,1,Jared Jeffries,PF,6-11,230,1981-11-25,US,3,Indiana
+2006,30,2533,WAS,Washington Wizards,51,Michael Ruffin,C,6-9,246,1977-01-21,US,5,Tulsa
+2006,30,2774,WAS,Washington Wizards,35,Awvee Storey,SF,6-6,222,1977-04-18,US,1,"Illinois, Arizona State"
+2006,30,2817,WAS,Washington Wizards,21,Donell Taylor,SG,6-6,180,1982-07-26,US,R,"Okaloosa-Walton Community College, UAB"
+2006,30,2847,WAS,Washington Wizards,12,Billy Thomas,SG,6-4,208,1975-12-23,US,1,Kansas
+2006,30,2851,WAS,Washington Wizards,36,Etan Thomas,C,6-9,256,1978-04-01,US,4,Syracuse

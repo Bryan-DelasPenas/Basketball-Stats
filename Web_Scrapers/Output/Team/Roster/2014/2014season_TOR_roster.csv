@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,28,11,TOR,Toronto Raptors,4,Quincy Acy,SF,6-7,240,"October 6, 1990",US,1,Baylor
-2014,28,119,TOR,Toronto Raptors,14,D.J. Augustin,PG,5-11,183,"November 10, 1987",US,5,Texas
-2014,28,442,TOR,Toronto Raptors,13,Dwight Buycks,PG,6-3,190,"March 6, 1989",US,R,Marquette
-2014,28,711,TOR,Toronto Raptors,5,Austin Daye,SF,6-11,220,"June 5, 1988",US,4,Gonzaga
-2014,28,713,TOR,Toronto Raptors,3,Nando De Colo,SF,6-5,200,"June 23, 1987",FR,1,
-2014,28,715,TOR,Toronto Raptors,10,DeMar DeRozan,SG,6-6,220,"August 7, 1989",US,4,USC
-2014,28,915,TOR,Toronto Raptors,2,Landry Fields,SF,6-7,210,"June 27, 1988",US,3,Stanford
-2014,28,1011,TOR,Toronto Raptors,22,Rudy Gay,SF,6-8,250,"August 17, 1986",US,7,UConn
-2014,28,1090,TOR,Toronto Raptors,34,Aaron Gray,C,7-0,270,"December 7, 1984",US,6,Pitt
-2014,28,1174,TOR,Toronto Raptors,50,Tyler Hansbrough,PF,6-9,250,"November 3, 1985",US,4,UNC
-2014,28,1232,TOR,Toronto Raptors,44,Chuck Hayes,C,6-6,240,"June 11, 1983",US,8,Kentucky
-2014,28,1464,TOR,Toronto Raptors,15,Amir Johnson,PF,6-9,240,"May 1, 1987",US,8,
-2014,28,1782,TOR,Toronto Raptors,7,Kyle Lowry,PG,6-0,196,"March 25, 1986",US,7,Villanova
-2014,28,2161,TOR,Toronto Raptors,16,Steve Novak,PF,6-10,225,"June 13, 1983",US,7,Marquette
-2014,28,2260,TOR,Toronto Raptors,54,Patrick Patterson,PF,6-8,235,"March 14, 1989",US,3,Kentucky
-2014,28,2513,TOR,Toronto Raptors,31,Terrence Ross,SG,6-6,206,"February 5, 1991",US,1,Washington
-2014,28,2544,TOR,Toronto Raptors,25,John Salmons,SG,6-7,210,"December 12, 1979",US,11,Miami (FL)
-2014,28,2769,TOR,Toronto Raptors,77,Julyan Stone,SG,6-6,200,"December 7, 1988",US,2,Texas-El Paso
-2014,28,2948,TOR,Toronto Raptors,17,Jonas Valanciunas,C,6-11,265,"May 6, 1992",LT,1,
-2014,28,2963,TOR,Toronto Raptors,21,Greivis Vasquez,PG,6-6,217,"January 16, 1987",VE,3,Maryland
+2014,28,11,TOR,Toronto Raptors,4,Quincy Acy,SF,6-7,240,1990-10-06,US,1,Baylor
+2014,28,119,TOR,Toronto Raptors,14,D.J. Augustin,PG,5-11,183,1987-11-10,US,5,Texas
+2014,28,442,TOR,Toronto Raptors,13,Dwight Buycks,PG,6-3,190,1989-03-06,US,R,Marquette
+2014,28,712,TOR,Toronto Raptors,5,Austin Daye,SF,6-11,220,1988-06-05,US,4,Gonzaga
+2014,28,714,TOR,Toronto Raptors,3,Nando De Colo,SF,6-5,200,1987-06-23,FR,1,
+2014,28,716,TOR,Toronto Raptors,10,DeMar DeRozan,SG,6-6,220,1989-08-07,US,4,USC
+2014,28,917,TOR,Toronto Raptors,2,Landry Fields,SF,6-7,210,1988-06-27,US,3,Stanford
+2014,28,1013,TOR,Toronto Raptors,22,Rudy Gay,SF,6-8,250,1986-08-17,US,7,UConn
+2014,28,1092,TOR,Toronto Raptors,34,Aaron Gray,C,7-0,270,1984-12-07,US,6,Pitt
+2014,28,1176,TOR,Toronto Raptors,50,Tyler Hansbrough,PF,6-9,250,1985-11-03,US,4,UNC
+2014,28,1234,TOR,Toronto Raptors,44,Chuck Hayes,C,6-6,240,1983-06-11,US,8,Kentucky
+2014,28,1466,TOR,Toronto Raptors,15,Amir Johnson,PF,6-9,240,1987-05-01,US,8,
+2014,28,1785,TOR,Toronto Raptors,7,Kyle Lowry,PG,6-0,196,1986-03-25,US,7,Villanova
+2014,28,2164,TOR,Toronto Raptors,16,Steve Novak,PF,6-10,225,1983-06-13,US,7,Marquette
+2014,28,2263,TOR,Toronto Raptors,54,Patrick Patterson,PF,6-8,235,1989-03-14,US,3,Kentucky
+2014,28,2517,TOR,Toronto Raptors,31,Terrence Ross,SG,6-6,206,1991-02-05,US,1,Washington
+2014,28,2548,TOR,Toronto Raptors,25,John Salmons,SG,6-7,210,1979-12-12,US,11,Miami (FL)
+2014,28,2773,TOR,Toronto Raptors,77,Julyan Stone,SG,6-6,200,1988-12-07,US,2,Texas-El Paso
+2014,28,2953,TOR,Toronto Raptors,17,Jonas Valanciunas,C,6-11,265,1992-05-06,LT,1,
+2014,28,2968,TOR,Toronto Raptors,21,Greivis Vasquez,PG,6-6,217,1987-01-16,VE,3,Maryland

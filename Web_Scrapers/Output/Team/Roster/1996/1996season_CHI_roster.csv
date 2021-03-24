@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1996,5,394,CHI,Chicago Bulls,0,Randy Brown,PG,6-2,190,"May 22, 1968",US,4,"Houston, New Mexico State"
-1996,5,417,CHI,Chicago Bulls,30,Jud Buechler,SF,6-6,220,"June 19, 1968",US,5,Arizona
-1996,5,450,CHI,Chicago Bulls,35,Jason Caffey,PF,6-8,255,"June 12, 1973",US,R,Alabama
-1996,5,832,CHI,Chicago Bulls,53,James Edwards,C,7-0,225,"November 22, 1955",US,18,Washington
-1996,5,1150,CHI,Chicago Bulls,54,Jack Haley,C,6-10,240,"January 27, 1964",US,6,UCLA
-1996,5,1192,CHI,Chicago Bulls,9,Ron Harper,PG,6-6,185,"January 20, 1964",US,9,Miami University
-1996,5,1568,CHI,Chicago Bulls,23,Michael Jordan,SG,6-6,198,"February 17, 1963",US,10,UNC
-1996,5,1599,CHI,Chicago Bulls,25,Steve Kerr,PG,6-3,175,"September 27, 1965",LB,7,Arizona
-1996,5,1662,CHI,Chicago Bulls,7,Toni Kukoc,SF,6-10,192,"September 18, 1968",HR,2,
-1996,5,1773,CHI,Chicago Bulls,13,Luc Longley,C,7-2,265,"January 19, 1969",AU,4,New Mexico
-1996,5,2316,CHI,Chicago Bulls,33,Scottie Pippen,SF,6-8,210,"September 25, 1965",US,8,University of Central Arkansas
-1996,5,2497,CHI,Chicago Bulls,91,Dennis Rodman,PF,6-7,210,"May 13, 1961",US,9,Southeastern Oklahoma State University
-1996,5,2543,CHI,Chicago Bulls,22,John Salley,PF,6-11,230,"May 16, 1964",US,9,Georgia Tech
-1996,5,2643,CHI,Chicago Bulls,8,Dickey Simpkins,PF,6-9,248,"April 6, 1972",US,1,Providence
-1996,5,3070,CHI,Chicago Bulls,34,Bill Wennington,C,7-0,245,"April 26, 1963",CA,8,St. John's
+1996,5,394,CHI,Chicago Bulls,0,Randy Brown,PG,6-2,190,1968-05-22,US,4,"Houston, New Mexico State"
+1996,5,417,CHI,Chicago Bulls,30,Jud Buechler,SF,6-6,220,1968-06-19,US,5,Arizona
+1996,5,450,CHI,Chicago Bulls,35,Jason Caffey,PF,6-8,255,1973-06-12,US,R,Alabama
+1996,5,834,CHI,Chicago Bulls,53,James Edwards,C,7-0,225,1955-11-22,US,18,Washington
+1996,5,1152,CHI,Chicago Bulls,54,Jack Haley,C,6-10,240,1964-01-27,US,6,UCLA
+1996,5,1194,CHI,Chicago Bulls,9,Ron Harper,PG,6-6,185,1964-01-20,US,9,Miami University
+1996,5,1570,CHI,Chicago Bulls,23,Michael Jordan,SG,6-6,198,1963-02-17,US,10,UNC
+1996,5,1601,CHI,Chicago Bulls,25,Steve Kerr,PG,6-3,175,1965-09-27,LB,7,Arizona
+1996,5,1664,CHI,Chicago Bulls,7,Toni Kukoc,SF,6-10,192,1968-09-18,HR,2,
+1996,5,1776,CHI,Chicago Bulls,13,Luc Longley,C,7-2,265,1969-01-19,AU,4,New Mexico
+1996,5,2319,CHI,Chicago Bulls,33,Scottie Pippen,SF,6-8,210,1965-09-25,US,8,University of Central Arkansas
+1996,5,2501,CHI,Chicago Bulls,91,Dennis Rodman,PF,6-7,210,1961-05-13,US,9,Southeastern Oklahoma State University
+1996,5,2547,CHI,Chicago Bulls,22,John Salley,PF,6-11,230,1964-05-16,US,9,Georgia Tech
+1996,5,2647,CHI,Chicago Bulls,8,Dickey Simpkins,PF,6-9,248,1972-04-06,US,1,Providence
+1996,5,3075,CHI,Chicago Bulls,34,Bill Wennington,C,7-0,245,1963-04-26,CA,8,St. John's

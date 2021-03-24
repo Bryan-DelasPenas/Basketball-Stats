@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1980,29,296,UTA,Utah Jazz,24,Ron Boone,SG,6-2,200,"September 6, 1946",US,11,Idaho State University
-1980,29,304,UTA,Utah Jazz,33,Tom Boswell,PF,6-9,220,"October 2, 1953",US,4,"South Carolina State, South Carolina"
-1980,29,354,UTA,Utah Jazz,44,Allan Bristow,SF,6-7,210,"August 23, 1951",US,6,Virginia Tech
-1980,29,383,UTA,Utah Jazz,"32, 52",John Brown,SF,6-7,220,"December 14, 1951",DE,6,Missouri
-1980,29,459,UTA,Utah Jazz,33,Mack Calvin,PG,6-0,165,"July 27, 1947",US,9,USC
-1980,29,669,UTA,Utah Jazz,4,Adrian Dantley,SF,6-5,208,"February 28, 1955",US,3,Notre Dame
-1980,29,680,UTA,Utah Jazz,12,Brad Davis,PG,6-3,180,"December 17, 1955",US,2,Maryland
-1980,29,706,UTA,Utah Jazz,31,Paul Dawkins,SF,6-5,190,"June 10, 1957",US,R,Northern Illinois
-1980,29,716,UTA,Utah Jazz,33,Greg Deane,SG,6-4,190,"December 6, 1957",US,R,Utah
-1980,29,973,UTA,Utah Jazz,25,Terry Furlow,SG,6-4,190,"October 18, 1954",US,3,Michigan State
-1980,29,1025,UTA,Utah Jazz,40,John Gianelli,C,6-10,220,"June 10, 1950",US,7,University of the Pacific
-1980,29,1185,UTA,Utah Jazz,11,James Hardy,PF,6-8,220,"December 1, 1956",US,1,San Francisco
-1980,29,1610,UTA,Utah Jazz,51,Carl Kilpatrick,C,6-10,230,"May 16, 1956",US,R,Louisiana-Monroe
-1980,29,1616,UTA,Utah Jazz,22,Bernard King,SF,6-7,205,"December 4, 1956",US,2,Tennessee
-1980,29,1833,UTA,Utah Jazz,7,Pete Maravich,SG,6-5,197,"June 22, 1947",US,9,LSU
-1980,29,2338,UTA,Utah Jazz,50,Ben Poquette,C,6-9,235,"May 7, 1955",US,2,Central Michigan University
-1980,29,2703,UTA,Utah Jazz,5,Robert Smith,PG,5-11,165,"March 10, 1955",US,2,UNLV
-1980,29,3000,UTA,Utah Jazz,15,Andre Wakefield,SG,6-3,175,"January 11, 1955",US,1,Loyola Chicago
-1980,29,3103,UTA,Utah Jazz,40,Jerome Whitehead,C,6-10,220,"September 30, 1956",US,1,Marquette
-1980,29,3137,UTA,Utah Jazz,20,Duck Williams,PG,6-2,180,"August 2, 1956",US,R,Notre Dame
+1980,29,296,UTA,Utah Jazz,24,Ron Boone,SG,6-2,200,1946-09-06,US,11,Idaho State University
+1980,29,304,UTA,Utah Jazz,33,Tom Boswell,PF,6-9,220,1953-10-02,US,4,"South Carolina State, South Carolina"
+1980,29,354,UTA,Utah Jazz,44,Allan Bristow,SF,6-7,210,1951-08-23,US,6,Virginia Tech
+1980,29,383,UTA,Utah Jazz,"32, 52",John Brown,SF,6-7,220,1951-12-14,DE,6,Missouri
+1980,29,459,UTA,Utah Jazz,33,Mack Calvin,PG,6-0,165,1947-07-27,US,9,USC
+1980,29,669,UTA,Utah Jazz,4,Adrian Dantley,SF,6-5,208,1955-02-28,US,3,Notre Dame
+1980,29,681,UTA,Utah Jazz,12,Brad Davis,PG,6-3,180,1955-12-17,US,2,Maryland
+1980,29,707,UTA,Utah Jazz,31,Paul Dawkins,SF,6-5,190,1957-06-10,US,R,Northern Illinois
+1980,29,717,UTA,Utah Jazz,33,Greg Deane,SG,6-4,190,1957-12-06,US,R,Utah
+1980,29,975,UTA,Utah Jazz,25,Terry Furlow,SG,6-4,190,1954-10-18,US,3,Michigan State
+1980,29,1027,UTA,Utah Jazz,40,John Gianelli,C,6-10,220,1950-06-10,US,7,University of the Pacific
+1980,29,1187,UTA,Utah Jazz,11,James Hardy,PF,6-8,220,1956-12-01,US,1,San Francisco
+1980,29,1612,UTA,Utah Jazz,51,Carl Kilpatrick,C,6-10,230,1956-05-16,US,R,Louisiana-Monroe
+1980,29,1618,UTA,Utah Jazz,22,Bernard King,SF,6-7,205,1956-12-04,US,2,Tennessee
+1980,29,1836,UTA,Utah Jazz,7,Pete Maravich,SG,6-5,197,1947-06-22,US,9,LSU
+1980,29,2341,UTA,Utah Jazz,50,Ben Poquette,C,6-9,235,1955-05-07,US,2,Central Michigan University
+1980,29,2707,UTA,Utah Jazz,5,Robert Smith,PG,5-11,165,1955-03-10,US,2,UNLV
+1980,29,3005,UTA,Utah Jazz,15,Andre Wakefield,SG,6-3,175,1955-01-11,US,1,Loyola Chicago
+1980,29,3108,UTA,Utah Jazz,40,Jerome Whitehead,C,6-10,220,1956-09-30,US,1,Marquette
+1980,29,3143,UTA,Utah Jazz,20,Duck Williams,PG,6-2,180,1956-08-02,US,R,Notre Dame

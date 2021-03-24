@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1984,11,141,HOU,Houston Rockets,2,James Bailey,PF,6-9,220,"May 21, 1957",US,4,Rutgers University
-1984,11,838,HOU,Houston Rockets,3,Craig Ehlo,SG,6-6,180,"August 11, 1961",US,R,Washington State
-1984,11,936,HOU,Houston Rockets,1,Phil Ford,PG,6-2,175,"February 9, 1956",US,5,UNC
-1984,11,1233,HOU,Houston Rockets,44,Elvin Hayes,PF,6-9,235,"November 17, 1945",US,15,Houston
-1984,11,1529,HOU,Houston Rockets,27,Caldwell Jones,C,6-11,217,"August 4, 1950",US,10,Albany State University
-1984,11,1552,HOU,Houston Rockets,11,Major Jones,PF,6-9,225,"July 9, 1953",US,4,Albany State University
-1984,11,1713,HOU,Houston Rockets,30,Allen Leavell,PG,6-1,170,"May 27, 1957",US,4,Oklahoma City University
-1984,11,1761,HOU,Houston Rockets,32,Lewis Lloyd,SG,6-6,205,"February 22, 1959",US,2,Drake University
-1984,11,1913,HOU,Houston Rockets,22,Rodney McCray,SF,6-7,220,"August 29, 1961",US,R,Louisville
-1984,11,2426,HOU,Houston Rockets,33,Robert Reid,SF,6-8,205,"August 30, 1955",US,5,St. Mary's University
-1984,11,2552,HOU,Houston Rockets,50,Ralph Sampson,C,7-4,228,"July 7, 1960",US,R,Virginia
-1984,11,2825,HOU,Houston Rockets,20,Terry Teagle,SG,6-5,195,"April 10, 1960",US,1,Baylor
-1984,11,3009,HOU,Houston Rockets,42,Wally Walker,SF,6-7,190,"July 18, 1954",US,7,Virginia
+1984,11,141,HOU,Houston Rockets,2,James Bailey,PF,6-9,220,1957-05-21,US,4,Rutgers University
+1984,11,840,HOU,Houston Rockets,3,Craig Ehlo,SG,6-6,180,1961-08-11,US,R,Washington State
+1984,11,938,HOU,Houston Rockets,1,Phil Ford,PG,6-2,175,1956-02-09,US,5,UNC
+1984,11,1235,HOU,Houston Rockets,44,Elvin Hayes,PF,6-9,235,1945-11-17,US,15,Houston
+1984,11,1531,HOU,Houston Rockets,27,Caldwell Jones,C,6-11,217,1950-08-04,US,10,Albany State University
+1984,11,1554,HOU,Houston Rockets,11,Major Jones,PF,6-9,225,1953-07-09,US,4,Albany State University
+1984,11,1716,HOU,Houston Rockets,30,Allen Leavell,PG,6-1,170,1957-05-27,US,4,Oklahoma City University
+1984,11,1764,HOU,Houston Rockets,32,Lewis Lloyd,SG,6-6,205,1959-02-22,US,2,Drake University
+1984,11,1916,HOU,Houston Rockets,22,Rodney McCray,SF,6-7,220,1961-08-29,US,R,Louisville
+1984,11,2430,HOU,Houston Rockets,33,Robert Reid,SF,6-8,205,1955-08-30,US,5,St. Mary's University
+1984,11,2556,HOU,Houston Rockets,50,Ralph Sampson,C,7-4,228,1960-07-07,US,R,Virginia
+1984,11,2829,HOU,Houston Rockets,20,Terry Teagle,SG,6-5,195,1960-04-10,US,1,Baylor
+1984,11,3014,HOU,Houston Rockets,42,Wally Walker,SF,6-7,190,1954-07-18,US,7,Virginia

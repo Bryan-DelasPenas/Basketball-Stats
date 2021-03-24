@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2000,26,80,SAC,Sacramento Kings,25,Nick Anderson,SG,6-6,205,"January 20, 1968",US,10,Illinois
-2000,26,176,SAC,Sacramento Kings,20,Jon Barry,SG,6-4,195,"July 25, 1969",US,7,"University of the Pacific, Georgia Tech"
-2000,26,609,SAC,Sacramento Kings,23,Tyrone Corbin,SF,6-6,210,"December 31, 1962",US,14,DePaul
-2000,26,726,SAC,Sacramento Kings,0,Tony Delk,PG,6-1,189,"January 28, 1974",US,3,Kentucky
-2000,26,753,SAC,Sacramento Kings,21,Vlade Divac,C,7-1,243,"February 3, 1968",RS,10,
-2000,26,972,SAC,Sacramento Kings,51,Lawrence Funderburke,PF,6-9,230,"December 15, 1970",US,2,"Indiana, Ohio State"
-2000,26,1855,SAC,Sacramento Kings,15,Darrick Martin,PG,5-11,170,"March 6, 1971",US,5,UCLA
-2000,26,2330,SAC,Sacramento Kings,31,Scot Pollard,C,6-11,265,"February 12, 1975",US,2,Kansas
-2000,26,2468,SAC,Sacramento Kings,10,Ryan Robertson,SG,6-5,190,"October 2, 1976",US,R,Kansas
-2000,26,2764,SAC,Sacramento Kings,16,Peja Stojakovic,SF,6-10,229,"June 9, 1977",HR,1,
-2000,26,3057,SAC,Sacramento Kings,4,Chris Webber,PF,6-9,245,"March 1, 1973",US,6,Michigan
-2000,26,3070,SAC,Sacramento Kings,7,Bill Wennington,C,7-0,245,"April 26, 1963",CA,12,St. John's
-2000,26,3147,SAC,Sacramento Kings,55,Jason Williams,PG,6-1,190,"November 18, 1975",US,1,"Marshall, Florida"
-2000,26,3189,SAC,Sacramento Kings,34,Corliss Williamson,SF,6-7,245,"December 4, 1973",US,4,Arkansas
+2000,26,80,SAC,Sacramento Kings,25,Nick Anderson,SG,6-6,205,1968-01-20,US,10,Illinois
+2000,26,176,SAC,Sacramento Kings,20,Jon Barry,SG,6-4,195,1969-07-25,US,7,"University of the Pacific, Georgia Tech"
+2000,26,609,SAC,Sacramento Kings,23,Tyrone Corbin,SF,6-6,210,1962-12-31,US,14,DePaul
+2000,26,727,SAC,Sacramento Kings,0,Tony Delk,PG,6-1,189,1974-01-28,US,3,Kentucky
+2000,26,755,SAC,Sacramento Kings,21,Vlade Divac,C,7-1,243,1968-02-03,RS,10,
+2000,26,974,SAC,Sacramento Kings,51,Lawrence Funderburke,PF,6-9,230,1970-12-15,US,2,"Indiana, Ohio State"
+2000,26,1858,SAC,Sacramento Kings,15,Darrick Martin,PG,5-11,170,1971-03-06,US,5,UCLA
+2000,26,2333,SAC,Sacramento Kings,31,Scot Pollard,C,6-11,265,1975-02-12,US,2,Kansas
+2000,26,2472,SAC,Sacramento Kings,10,Ryan Robertson,SG,6-5,190,1976-10-02,US,R,Kansas
+2000,26,2768,SAC,Sacramento Kings,16,Peja Stojakovic,SF,6-10,229,1977-06-09,HR,1,
+2000,26,3062,SAC,Sacramento Kings,4,Chris Webber,PF,6-9,245,1973-03-01,US,6,Michigan
+2000,26,3075,SAC,Sacramento Kings,7,Bill Wennington,C,7-0,245,1963-04-26,CA,12,St. John's
+2000,26,3153,SAC,Sacramento Kings,55,Jason Williams,PG,6-1,190,1975-11-18,US,1,"Marshall, Florida"
+2000,26,3195,SAC,Sacramento Kings,34,Corliss Williamson,SF,6-7,245,1973-12-04,US,4,Arkansas

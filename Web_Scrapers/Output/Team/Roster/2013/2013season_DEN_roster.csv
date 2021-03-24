@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2013,8,342,DEN,Denver Nuggets,13,Corey Brewer,SF,6-9,186,"March 5, 1986",US,5,Florida
-2013,8,515,DEN,Denver Nuggets,21,Wilson Chandler,PF,6-8,235,"May 10, 1987",US,5,DePaul
-2013,8,889,DEN,Denver Nuggets,35,Kenneth Faried,PF,6-8,220,"November 19, 1989",US,1,Morehead State University
-2013,8,948,DEN,Denver Nuggets,94,Evan Fournier,SG,6-7,205,"October 29, 1992",FR,R,
-2013,8,983,DEN,Denver Nuggets,8,Danilo Gallinari,SF,6-10,233,"August 8, 1988",IT,4,
-2013,8,1159,DEN,Denver Nuggets,1,Jordan Hamilton,SF,6-7,220,"October 6, 1990",US,1,Texas
-2013,8,1377,DEN,Denver Nuggets,9,Andre Iguodala,SG,6-6,215,"January 28, 1984",US,8,Arizona
-2013,8,1653,DEN,Denver Nuggets,41,Kosta Koufos,C,7-0,245,"February 24, 1989",US,4,Ohio State
-2013,8,1709,DEN,Denver Nuggets,3,Ty Lawson,PG,5-11,195,"November 3, 1987",US,3,UNC
-2013,8,1932,DEN,Denver Nuggets,34,JaVale McGee,C,7-0,270,"January 19, 1988",US,4,Nevada
-2013,8,1989,DEN,Denver Nuggets,24,Andre Miller,PG,6-3,200,"March 19, 1976",US,13,Utah
-2013,8,1998,DEN,Denver Nuggets,30,Quincy Miller,PF,6-9,210,"November 18, 1992",US,R,Baylor
-2013,8,2072,DEN,Denver Nuggets,25,Timofey Mozgov,C,7-1,275,"July 16, 1986",RU,2,
-2013,8,2396,DEN,Denver Nuggets,15,Anthony Randolph,PF,6-10,205,"July 15, 1989",DE,4,LSU
-2013,8,2769,DEN,Denver Nuggets,10,Julyan Stone,PG,6-6,200,"December 7, 1988",US,1,Texas-El Paso
+2013,8,342,DEN,Denver Nuggets,13,Corey Brewer,SF,6-9,186,1986-03-05,US,5,Florida
+2013,8,515,DEN,Denver Nuggets,21,Wilson Chandler,PF,6-8,235,1987-05-10,US,5,DePaul
+2013,8,891,DEN,Denver Nuggets,35,Kenneth Faried,PF,6-8,220,1989-11-19,US,1,Morehead State University
+2013,8,950,DEN,Denver Nuggets,94,Evan Fournier,SG,6-7,205,1992-10-29,FR,R,
+2013,8,985,DEN,Denver Nuggets,8,Danilo Gallinari,SF,6-10,233,1988-08-08,IT,4,
+2013,8,1161,DEN,Denver Nuggets,1,Jordan Hamilton,SF,6-7,220,1990-10-06,US,1,Texas
+2013,8,1379,DEN,Denver Nuggets,9,Andre Iguodala,SG,6-6,215,1984-01-28,US,8,Arizona
+2013,8,1655,DEN,Denver Nuggets,41,Kosta Koufos,C,7-0,245,1989-02-24,US,4,Ohio State
+2013,8,1712,DEN,Denver Nuggets,3,Ty Lawson,PG,5-11,195,1987-11-03,US,3,UNC
+2013,8,1935,DEN,Denver Nuggets,34,JaVale McGee,C,7-0,270,1988-01-19,US,4,Nevada
+2013,8,1992,DEN,Denver Nuggets,24,Andre Miller,PG,6-3,200,1976-03-19,US,13,Utah
+2013,8,2001,DEN,Denver Nuggets,30,Quincy Miller,PF,6-9,210,1992-11-18,US,R,Baylor
+2013,8,2075,DEN,Denver Nuggets,25,Timofey Mozgov,C,7-1,275,1986-07-16,RU,2,
+2013,8,2400,DEN,Denver Nuggets,15,Anthony Randolph,PF,6-10,205,1989-07-15,DE,4,LSU
+2013,8,2773,DEN,Denver Nuggets,10,Julyan Stone,PG,6-6,200,1988-12-07,US,1,Texas-El Paso

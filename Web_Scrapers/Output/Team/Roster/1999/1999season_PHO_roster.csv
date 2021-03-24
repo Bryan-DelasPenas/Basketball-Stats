@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1999,24,143,PHO,Phoenix Suns,12,Toby Bailey,SG,6-6,213,"November 19, 1975",US,R,UCLA
-1999,24,380,PHO,Phoenix Suns,4,Gerald Brown,SG,6-4,210,"July 28, 1975",US,R,Pepperdine
-1999,24,517,PHO,Phoenix Suns,3,Rex Chapman,SG,6-4,185,"October 5, 1967",US,10,Kentucky
-1999,24,1006,PHO,Phoenix Suns,8,Pat Garrity,PF,6-9,238,"August 23, 1976",US,R,Notre Dame
-1999,24,1136,PHO,Phoenix Suns,24,Tom Gugliotta,PF,6-10,240,"December 19, 1969",US,6,NC State
-1999,24,1605,PHO,Phoenix Suns,32,Jason Kidd,PG,6-4,205,"March 23, 1973",US,4,California
-1999,24,1633,PHO,Phoenix Suns,35,Joe Kleine,C,6-11,255,"January 4, 1962",US,13,"Notre Dame, Arkansas"
-1999,24,1758,PHO,Phoenix Suns,2,Randy Livingston,PG,6-4,209,"April 2, 1975",US,2,LSU
-1999,24,1773,PHO,Phoenix Suns,13,Luc Longley,C,7-2,265,"January 19, 1969",AU,7,New Mexico
-1999,24,1829,PHO,Phoenix Suns,15,Danny Manning,PF,6-10,230,"May 17, 1966",US,10,Kansas
-1999,24,1906,PHO,Phoenix Suns,21,George McCloud,SF,6-6,205,"May 27, 1967",US,8,Florida State
-1999,24,1987,PHO,Phoenix Suns,20,Marko Milic,SG,6-6,235,"May 7, 1977",SI,1,
-1999,24,2050,PHO,Phoenix Suns,34,Chris Morris,SF,6-8,210,"January 20, 1966",US,10,Auburn
-1999,24,2207,PHO,Phoenix Suns,11,Jimmy Oliver,SG,6-5,205,"July 12, 1969",US,4,Purdue
-1999,24,2432,PHO,Phoenix Suns,2,Shawn Respert,SG,6-1,195,"February 6, 1972",US,3,Michigan State
-1999,24,2473,PHO,Phoenix Suns,30,Clifford Robinson,SF,6-10,225,"December 16, 1966",US,9,UConn
-1999,24,2645,PHO,Phoenix Suns,19,Alvin Sims,SG,6-4,235,"October 18, 1974",US,R,Louisville
+1999,24,143,PHO,Phoenix Suns,12,Toby Bailey,SG,6-6,213,1975-11-19,US,R,UCLA
+1999,24,380,PHO,Phoenix Suns,4,Gerald Brown,SG,6-4,210,1975-07-28,US,R,Pepperdine
+1999,24,517,PHO,Phoenix Suns,3,Rex Chapman,SG,6-4,185,1967-10-05,US,10,Kentucky
+1999,24,1008,PHO,Phoenix Suns,8,Pat Garrity,PF,6-9,238,1976-08-23,US,R,Notre Dame
+1999,24,1138,PHO,Phoenix Suns,24,Tom Gugliotta,PF,6-10,240,1969-12-19,US,6,NC State
+1999,24,1607,PHO,Phoenix Suns,32,Jason Kidd,PG,6-4,205,1973-03-23,US,4,California
+1999,24,1635,PHO,Phoenix Suns,35,Joe Kleine,C,6-11,255,1962-01-04,US,13,"Notre Dame, Arkansas"
+1999,24,1761,PHO,Phoenix Suns,2,Randy Livingston,PG,6-4,209,1975-04-02,US,2,LSU
+1999,24,1776,PHO,Phoenix Suns,13,Luc Longley,C,7-2,265,1969-01-19,AU,7,New Mexico
+1999,24,1832,PHO,Phoenix Suns,15,Danny Manning,PF,6-10,230,1966-05-17,US,10,Kansas
+1999,24,1909,PHO,Phoenix Suns,21,George McCloud,SF,6-6,205,1967-05-27,US,8,Florida State
+1999,24,1990,PHO,Phoenix Suns,20,Marko Milic,SG,6-6,235,1977-05-07,SI,1,
+1999,24,2053,PHO,Phoenix Suns,34,Chris Morris,SF,6-8,210,1966-01-20,US,10,Auburn
+1999,24,2210,PHO,Phoenix Suns,11,Jimmy Oliver,SG,6-5,205,1969-07-12,US,4,Purdue
+1999,24,2436,PHO,Phoenix Suns,2,Shawn Respert,SG,6-1,195,1972-02-06,US,3,Michigan State
+1999,24,2477,PHO,Phoenix Suns,30,Clifford Robinson,SF,6-10,225,1966-12-16,US,9,UConn
+1999,24,2649,PHO,Phoenix Suns,19,Alvin Sims,SG,6-4,235,1974-10-18,US,R,Louisville

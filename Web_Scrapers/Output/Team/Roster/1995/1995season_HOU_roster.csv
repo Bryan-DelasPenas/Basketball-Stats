@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1995,11,339,HOU,Houston Rockets,15,Tim Breaux,SF,6-7,215,"September 19, 1970",US,R,Wyoming
-1995,11,366,HOU,Houston Rockets,1,Scott Brooks,PG,5-11,165,"July 31, 1965",US,6,"TCU, University of California, Irvine"
-1995,11,372,HOU,Houston Rockets,52,Chucky Brown,SF,6-7,214,"February 29, 1968",US,5,NC State
-1995,11,454,HOU,Houston Rockets,44,Adrian Caldwell,PF,6-8,265,"July 4, 1966",US,2,"SMU, Lamar"
-1995,11,497,HOU,Houston Rockets,10,Sam Cassell,PG,6-3,185,"November 18, 1969",US,1,Florida State
-1995,11,526,HOU,Houston Rockets,32,Pete Chilcutt,PF,6-10,230,"September 14, 1968",US,3,UNC
-1995,11,786,HOU,Houston Rockets,22,Clyde Drexler,SG,6-7,210,"June 22, 1962",US,11,Houston
-1995,11,842,HOU,Houston Rockets,17,Mario Elie,SF,6-5,210,"November 26, 1963",US,4,American International College
-1995,11,1270,HOU,Houston Rockets,7,Carl Herrera,PF,6-9,215,"December 14, 1966",TT,3,"Jacksonville University, Houston"
-1995,11,1330,HOU,Houston Rockets,25,Robert Horry,PF,6-10,240,"August 25, 1970",US,2,Alabama
-1995,11,1530,HOU,Houston Rockets,27,Charles Jones,PF,6-9,215,"April 3, 1957",US,11,Albany State University
-1995,11,1881,HOU,Houston Rockets,11,Vernon Maxwell,SG,6-4,180,"September 12, 1965",US,6,Florida
-1995,11,2094,HOU,Houston Rockets,31,Tracy Murray,SF,6-7,225,"July 25, 1971",US,2,UCLA
-1995,11,2201,HOU,Houston Rockets,34,Hakeem Olajuwon,C,7-0,255,"January 21, 1963",NG,10,Houston
-1995,11,2691,HOU,Houston Rockets,30,Kenny Smith,PG,6-3,170,"March 8, 1965",US,7,UNC
-1995,11,2802,HOU,Houston Rockets,55,Zan Tabak,C,7-0,245,"June 15, 1970",HR,R,
-1995,11,2884,HOU,Houston Rockets,33,Otis Thorpe,PF,6-9,225,"August 5, 1962",US,10,Providence
+1995,11,339,HOU,Houston Rockets,15,Tim Breaux,SF,6-7,215,1970-09-19,US,R,Wyoming
+1995,11,366,HOU,Houston Rockets,1,Scott Brooks,PG,5-11,165,1965-07-31,US,6,"TCU, University of California, Irvine"
+1995,11,372,HOU,Houston Rockets,52,Chucky Brown,SF,6-7,214,1968-02-29,US,5,NC State
+1995,11,454,HOU,Houston Rockets,44,Adrian Caldwell,PF,6-8,265,1966-07-04,US,2,"SMU, Lamar"
+1995,11,497,HOU,Houston Rockets,10,Sam Cassell,PG,6-3,185,1969-11-18,US,1,Florida State
+1995,11,526,HOU,Houston Rockets,32,Pete Chilcutt,PF,6-10,230,1968-09-14,US,3,UNC
+1995,11,788,HOU,Houston Rockets,22,Clyde Drexler,SG,6-7,210,1962-06-22,US,11,Houston
+1995,11,844,HOU,Houston Rockets,17,Mario Elie,SF,6-5,210,1963-11-26,US,4,American International College
+1995,11,1272,HOU,Houston Rockets,7,Carl Herrera,PF,6-9,215,1966-12-14,TT,3,"Jacksonville University, Houston"
+1995,11,1332,HOU,Houston Rockets,25,Robert Horry,PF,6-10,240,1970-08-25,US,2,Alabama
+1995,11,1534,HOU,Houston Rockets,27,Charles Jones,PF,6-9,215,1957-04-03,US,11,Albany State University
+1995,11,1884,HOU,Houston Rockets,11,Vernon Maxwell,SG,6-4,180,1965-09-12,US,6,Florida
+1995,11,2097,HOU,Houston Rockets,31,Tracy Murray,SF,6-7,225,1971-07-25,US,2,UCLA
+1995,11,2204,HOU,Houston Rockets,34,Hakeem Olajuwon,C,7-0,255,1963-01-21,NG,10,Houston
+1995,11,2695,HOU,Houston Rockets,30,Kenny Smith,PG,6-3,170,1965-03-08,US,7,UNC
+1995,11,2806,HOU,Houston Rockets,55,Zan Tabak,C,7-0,245,1970-06-15,HR,R,
+1995,11,2888,HOU,Houston Rockets,33,Otis Thorpe,PF,6-9,225,1962-08-05,US,10,Providence

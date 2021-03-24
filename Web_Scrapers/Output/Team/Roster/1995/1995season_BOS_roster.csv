@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1995,2,257,BOS,Boston Celtics,8,James Blackwell,PG,6-0,190,"February 25, 1968",US,R,Dartmouth College
-1995,2,374,BOS,Boston Celtics,7,DeCovan Brown,SG,6-1,160,"November 29, 1968",US,4,Jacksonville University
-1995,2,709,BOS,Boston Celtics,45,Tony Dawson,SF,6-7,215,"August 25, 1967",US,1,Florida State
-1995,2,771,BOS,Boston Celtics,20,Sherman Douglas,PG,6-0,180,"September 15, 1966",US,5,Syracuse
-1995,2,814,BOS,Boston Celtics,55,Acie Earl,C,6-10,240,"June 23, 1970",US,1,Iowa
-1995,2,827,BOS,Boston Celtics,30,Blue Edwards,SF,6-4,200,"October 31, 1965",US,5,East Carolina University
-1995,2,854,BOS,Boston Celtics,29,Pervis Ellison,C,6-9,210,"April 3, 1967",US,5,Louisville
-1995,2,951,BOS,Boston Celtics,44,Rick Fox,SF,6-7,230,"July 24, 1969",CA,3,UNC
-1995,2,1211,BOS,Boston Celtics,43,Tony Harris,SG,6-3,190,"May 13, 1967",US,2,"Lamar, New Orleans"
-1995,2,1361,BOS,Boston Celtics,5,Jay Humphries,PG,6-3,185,"October 17, 1962",US,10,Colorado
-1995,2,1919,BOS,Boston Celtics,34,Xavier McDaniel,SF,6-7,205,"June 4, 1963",US,9,Wichita State
-1995,2,2009,BOS,Boston Celtics,9,Greg Minor,SG,6-6,210,"September 18, 1971",US,R,Louisville
-1995,2,2034,BOS,Boston Celtics,0,Eric Montross,C,7-0,270,"September 23, 1971",US,R,UNC
-1995,2,2384,BOS,Boston Celtics,40,Dino Radja,PF,6-11,225,"April 24, 1967",HR,1,
-1995,2,2779,BOS,Boston Celtics,31,Derek Strong,PF,6-8,220,"February 9, 1968",US,3,Xavier
-1995,2,3073,BOS,Boston Celtics,4,David Wesley,PG,6-0,190,"November 14, 1970",US,1,Baylor
-1995,2,3122,BOS,Boston Celtics,12,Dominique Wilkins,SF,6-8,215,"January 12, 1960",FR,12,Georgia
+1995,2,257,BOS,Boston Celtics,8,James Blackwell,PG,6-0,190,1968-02-25,US,R,Dartmouth College
+1995,2,375,BOS,Boston Celtics,7,Dee Brown,SG,6-1,160,1968-11-29,US,4,Jacksonville University
+1995,2,710,BOS,Boston Celtics,45,Tony Dawson,SF,6-7,215,1967-08-25,US,1,Florida State
+1995,2,773,BOS,Boston Celtics,20,Sherman Douglas,PG,6-0,180,1966-09-15,US,5,Syracuse
+1995,2,816,BOS,Boston Celtics,55,Acie Earl,C,6-10,240,1970-06-23,US,1,Iowa
+1995,2,829,BOS,Boston Celtics,30,Blue Edwards,SF,6-4,200,1965-10-31,US,5,East Carolina University
+1995,2,856,BOS,Boston Celtics,29,Pervis Ellison,C,6-9,210,1967-04-03,US,5,Louisville
+1995,2,953,BOS,Boston Celtics,44,Rick Fox,SF,6-7,230,1969-07-24,CA,3,UNC
+1995,2,1213,BOS,Boston Celtics,43,Tony Harris,SG,6-3,190,1967-05-13,US,2,"Lamar, New Orleans"
+1995,2,1363,BOS,Boston Celtics,5,Jay Humphries,PG,6-3,185,1962-10-17,US,10,Colorado
+1995,2,1922,BOS,Boston Celtics,34,Xavier McDaniel,SF,6-7,205,1963-06-04,US,9,Wichita State
+1995,2,2012,BOS,Boston Celtics,9,Greg Minor,SG,6-6,210,1971-09-18,US,R,Louisville
+1995,2,2037,BOS,Boston Celtics,0,Eric Montross,C,7-0,270,1971-09-23,US,R,UNC
+1995,2,2388,BOS,Boston Celtics,40,Dino Radja,PF,6-11,225,1967-04-24,HR,1,
+1995,2,2783,BOS,Boston Celtics,31,Derek Strong,PF,6-8,220,1968-02-09,US,3,Xavier
+1995,2,3078,BOS,Boston Celtics,4,David Wesley,PG,6-0,190,1970-11-14,US,1,Baylor
+1995,2,3128,BOS,Boston Celtics,12,Dominique Wilkins,SF,6-8,215,1960-01-12,FR,12,Georgia

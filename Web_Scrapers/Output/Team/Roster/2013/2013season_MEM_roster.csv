@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2013,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,"January 11, 1982",US,8,"Butler County Community College, Oklahoma State"
-2013,15,112,MEM,Memphis Grizzlies,0,Darrell Arthur,PF,6-9,235,"March 25, 1988",US,3,Kansas
-2013,15,195,MEM,Memphis Grizzlies,7,Jerryd Bayless,PG,6-3,200,"August 20, 1988",US,4,Arizona
-2013,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,"October 11, 1987",US,5,Ohio State
-2013,15,685,MEM,Memphis Grizzlies,32,Ed Davis,PF,6-9,218,"June 5, 1989",US,2,UNC
-2013,15,711,MEM,Memphis Grizzlies,5,Austin Daye,SF,6-11,220,"June 5, 1988",US,3,Gonzaga
-2013,15,759,MEM,Memphis Grizzlies,55,Keyon Dooling,PG,6-3,196,"May 8, 1980",US,12,Missouri
-2013,15,845,MEM,Memphis Grizzlies,3,Wayne Ellington,SG,6-4,207,"November 29, 1987",US,3,UNC
-2013,15,1007,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,"January 29, 1985",ES,4,
-2013,15,1011,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,"August 17, 1986",US,6,UConn
-2013,15,1143,MEM,Memphis Grizzlies,15,Hamed Haddadi,C,7-2,254,"May 19, 1985",IR,4,
-2013,15,1475,MEM,Memphis Grizzlies,4,Chris Johnson (1990),SF,6-6,206,"April 29, 1990",US,R,Dayton
-2013,15,1740,MEM,Memphis Grizzlies,30,Jon Leuer,PF,6-10,228,"May 14, 1989",US,1,Wisconsin
-2013,15,2318,MEM,Memphis Grizzlies,45,Dexter Pittman,C,6-11,308,"March 2, 1988",US,2,Texas
-2013,15,2332,MEM,Memphis Grizzlies,20,Quincy Pondexter,SF,6-7,230,"March 10, 1988",US,2,Washington
-2013,15,2368,MEM,Memphis Grizzlies,21,Tayshaun Prince,SF,6-9,212,"February 28, 1980",US,10,Kentucky
-2013,15,2398,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,"July 16, 1981",US,11,Michigan State
-2013,15,2595,MEM,Memphis Grizzlies,2,Josh Selby,PG,6-2,183,"March 27, 1991",US,1,Kansas
-2013,15,2727,MEM,Memphis Grizzlies,5,Marreese Speights,C,6-10,255,"August 4, 1987",US,4,Florida
-2013,15,3252,MEM,Memphis Grizzlies,1,Tony Wroten,SG,6-6,205,"April 13, 1993",US,R,Washington
+2013,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,1982-01-11,US,8,"Butler County Community College, Oklahoma State"
+2013,15,112,MEM,Memphis Grizzlies,0,Darrell Arthur,PF,6-9,235,1988-03-25,US,3,Kansas
+2013,15,195,MEM,Memphis Grizzlies,7,Jerryd Bayless,PG,6-3,200,1988-08-20,US,4,Arizona
+2013,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,1987-10-11,US,5,Ohio State
+2013,15,686,MEM,Memphis Grizzlies,32,Ed Davis,PF,6-9,218,1989-06-05,US,2,UNC
+2013,15,712,MEM,Memphis Grizzlies,5,Austin Daye,SF,6-11,220,1988-06-05,US,3,Gonzaga
+2013,15,761,MEM,Memphis Grizzlies,55,Keyon Dooling,PG,6-3,196,1980-05-08,US,12,Missouri
+2013,15,847,MEM,Memphis Grizzlies,3,Wayne Ellington,SG,6-4,207,1987-11-29,US,3,UNC
+2013,15,1009,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,1985-01-29,ES,4,
+2013,15,1013,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,1986-08-17,US,6,UConn
+2013,15,1145,MEM,Memphis Grizzlies,15,Hamed Haddadi,C,7-2,254,1985-05-19,IR,4,
+2013,15,1477,MEM,Memphis Grizzlies,4,Chris Johnson,SF,6-6,206,1990-04-29,US,R,Dayton
+2013,15,1743,MEM,Memphis Grizzlies,30,Jon Leuer,PF,6-10,228,1989-05-14,US,1,Wisconsin
+2013,15,2321,MEM,Memphis Grizzlies,45,Dexter Pittman,C,6-11,308,1988-03-02,US,2,Texas
+2013,15,2335,MEM,Memphis Grizzlies,20,Quincy Pondexter,SF,6-7,230,1988-03-10,US,2,Washington
+2013,15,2372,MEM,Memphis Grizzlies,21,Tayshaun Prince,SF,6-9,212,1980-02-28,US,10,Kentucky
+2013,15,2402,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,1981-07-16,US,11,Michigan State
+2013,15,2599,MEM,Memphis Grizzlies,2,Josh Selby,PG,6-2,183,1991-03-27,US,1,Kansas
+2013,15,2731,MEM,Memphis Grizzlies,5,Marreese Speights,C,6-10,255,1987-08-04,US,4,Florida
+2013,15,3258,MEM,Memphis Grizzlies,1,Tony Wroten,SG,6-6,205,1993-04-13,US,R,Washington

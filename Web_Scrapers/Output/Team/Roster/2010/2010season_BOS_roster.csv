@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2010,2,54,BOS,Boston Celtics,20,Ray Allen,SG,6-5,205,"July 20, 1975",US,13,UConn
-2010,2,55,BOS,Boston Celtics,42,Tony Allen,SG,6-4,213,"January 11, 1982",US,5,"Butler County Community College, Oklahoma State"
-2010,2,666,BOS,Boston Celtics,7,Marquis Daniels,SF,6-6,200,"January 7, 1981",US,6,Auburn
-2010,2,687,BOS,Boston Celtics,11,Glen Davis,PF,6-9,289,"January 1, 1986",US,2,LSU
-2010,2,916,BOS,Boston Celtics,40,Michael Finley,SF,6-7,215,"March 6, 1973",US,14,Wisconsin
-2010,2,997,BOS,Boston Celtics,5,Kevin Garnett,PF,6-11,240,"May 19, 1976",US,14,
-2010,2,1030,BOS,Boston Celtics,4,J.R. Giddens,SF,6-5,215,"February 13, 1985",US,1,"Kansas, New Mexico"
-2010,2,1334,BOS,Boston Celtics,50,Eddie House,PG,6-1,180,"May 14, 1978",US,9,Arizona State
-2010,2,1346,BOS,Boston Celtics,26,Lester Hudson,PG,6-3,190,"August 7, 1984",US,R,University of Tennessee at Martin
-2010,2,1678,BOS,Boston Celtics,40,Oliver Lafayette,SG,6-2,190,"May 6, 1984",US,R,Houston
-2010,2,1688,BOS,Boston Celtics,12,Marcus Landry,SF,6-7,230,"November 1, 1985",US,R,Wisconsin
-2010,2,2286,BOS,Boston Celtics,43,Kendrick Perkins,C,6-10,270,"November 10, 1984",US,6,
-2010,2,2307,BOS,Boston Celtics,34,Paul Pierce,SF,6-7,235,"October 13, 1977",US,11,Kansas
-2010,2,2487,BOS,Boston Celtics,4,Nate Robinson,PG,5-9,180,"May 31, 1984",US,4,Washington
-2010,2,2506,BOS,Boston Celtics,9,Rajon Rondo,PG,6-1,180,"February 22, 1986",US,3,Kentucky
-2010,2,2568,BOS,Boston Celtics,44,Brian Scalabrine,PF,6-9,241,"March 18, 1978",US,8,USC
-2010,2,3004,BOS,Boston Celtics,12,Henry Walker,SF,6-6,220,"October 9, 1987",US,1,Kansas State
-2010,2,3014,BOS,Boston Celtics,30,Rasheed Wallace,C,6-10,225,"September 17, 1974",US,14,UNC
-2010,2,3182,BOS,Boston Celtics,13,Shelden Williams,PF,6-9,250,"October 21, 1983",US,3,Duke
+2010,2,54,BOS,Boston Celtics,20,Ray Allen,SG,6-5,205,1975-07-20,US,13,UConn
+2010,2,55,BOS,Boston Celtics,42,Tony Allen,SG,6-4,213,1982-01-11,US,5,"Butler County Community College, Oklahoma State"
+2010,2,666,BOS,Boston Celtics,7,Marquis Daniels,SF,6-6,200,1981-01-07,US,6,Auburn
+2010,2,688,BOS,Boston Celtics,11,Glen Davis,PF,6-9,289,1986-01-01,US,2,LSU
+2010,2,918,BOS,Boston Celtics,40,Michael Finley,SF,6-7,215,1973-03-06,US,14,Wisconsin
+2010,2,999,BOS,Boston Celtics,5,Kevin Garnett,PF,6-11,240,1976-05-19,US,14,
+2010,2,1032,BOS,Boston Celtics,4,J.R. Giddens,SF,6-5,215,1985-02-13,US,1,"Kansas, New Mexico"
+2010,2,1336,BOS,Boston Celtics,50,Eddie House,PG,6-1,180,1978-05-14,US,9,Arizona State
+2010,2,1348,BOS,Boston Celtics,26,Lester Hudson,PG,6-3,190,1984-08-07,US,R,University of Tennessee at Martin
+2010,2,1680,BOS,Boston Celtics,40,Oliver Lafayette,SG,6-2,190,1984-05-06,US,R,Houston
+2010,2,1691,BOS,Boston Celtics,12,Marcus Landry,SF,6-7,230,1985-11-01,US,R,Wisconsin
+2010,2,2289,BOS,Boston Celtics,43,Kendrick Perkins,C,6-10,270,1984-11-10,US,6,
+2010,2,2310,BOS,Boston Celtics,34,Paul Pierce,SF,6-7,235,1977-10-13,US,11,Kansas
+2010,2,2491,BOS,Boston Celtics,4,Nate Robinson,PG,5-9,180,1984-05-31,US,4,Washington
+2010,2,2510,BOS,Boston Celtics,9,Rajon Rondo,PG,6-1,180,1986-02-22,US,3,Kentucky
+2010,2,2572,BOS,Boston Celtics,44,Brian Scalabrine,PF,6-9,241,1978-03-18,US,8,USC
+2010,2,3009,BOS,Boston Celtics,12,Henry Walker,SF,6-6,220,1987-10-09,US,1,Kansas State
+2010,2,3019,BOS,Boston Celtics,30,Rasheed Wallace,C,6-10,225,1974-09-17,US,14,UNC
+2010,2,3188,BOS,Boston Celtics,13,Shelden Williams,PF,6-9,250,1983-10-21,US,3,Duke

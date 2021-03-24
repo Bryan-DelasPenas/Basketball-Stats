@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1998,25,77,POR,Portland Trail Blazers,7,Kenny Anderson,PG,6-0,168,"October 9, 1970",US,6,Georgia Tech
-1998,25,115,POR,Portland Trail Blazers,17,Vincent Askew,SG,6-6,210,"February 28, 1966",US,8,Memphis
-1998,25,118,POR,Portland Trail Blazers,2,Stacey Augmon,SG,6-8,205,"August 1, 1968",US,6,UNLV
-1998,25,405,POR,Portland Trail Blazers,9,Rick Brunson,PG,6-4,190,"June 14, 1972",US,R,Temple
-1998,25,501,POR,Portland Trail Blazers,31,Kelvin Cato,C,6-11,255,"August 26, 1974",US,R,"University of South Alabama, Iowa State"
-1998,25,639,POR,Portland Trail Blazers,12,John Crotty,PG,6-1,185,"July 15, 1969",US,5,Virginia
-1998,25,1079,POR,Portland Trail Blazers,44,Brian Grant,SF,6-9,254,"March 5, 1972",US,3,Xavier
-1998,25,1080,POR,Portland Trail Blazers,23,Gary Grant,PG,6-3,185,"April 21, 1965",US,9,Michigan
-1998,25,1283,POR,Portland Trail Blazers,19,Sean Higgins,SF,6-9,205,"December 30, 1968",US,5,Michigan
-1998,25,1756,POR,Portland Trail Blazers,53,Alton Lister,C,7-0,240,"October 1, 1958",US,15,Arizona State
-1998,25,2178,POR,Portland Trail Blazers,5,Jermaine O'Neal,PF,6-11,226,"October 13, 1978",US,1,
-1998,25,2451,POR,Portland Trail Blazers,34,Isaiah Rider,SG,6-5,215,"March 12, 1971",US,4,UNLV
-1998,25,2500,POR,Portland Trail Blazers,4,Carlos Rogers,PF,6-11,220,"February 6, 1971",US,3,"Little Rock, Tennessee State"
-1998,25,2540,POR,Portland Trail Blazers,11,Arvydas Sabonis,C,7-3,279,"December 19, 1964",LT,2,
-1998,25,2771,POR,Portland Trail Blazers,3,Damon Stoudamire,PG,5-10,171,"September 3, 1973",US,2,Arizona
-1998,25,2909,POR,Portland Trail Blazers,33,Gary Trent,PF,6-8,250,"September 22, 1974",US,2,Ohio University
-1998,25,3014,POR,Portland Trail Blazers,30,Rasheed Wallace,PF,6-10,225,"September 17, 1974",US,2,UNC
-1998,25,3130,POR,Portland Trail Blazers,21,Alvin Williams,SG,6-5,185,"August 6, 1974",US,R,Villanova
-1998,25,3187,POR,Portland Trail Blazers,42,Walt Williams,SF,6-8,219,"April 16, 1970",US,5,Maryland
-1998,25,3208,POR,Portland Trail Blazers,10,Dontonio Wingfield,SF,6-8,256,"June 23, 1974",US,3,Cincinnati
+1998,25,77,POR,Portland Trail Blazers,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,6,Georgia Tech
+1998,25,115,POR,Portland Trail Blazers,17,Vincent Askew,SG,6-6,210,1966-02-28,US,8,Memphis
+1998,25,118,POR,Portland Trail Blazers,2,Stacey Augmon,SG,6-8,205,1968-08-01,US,6,UNLV
+1998,25,405,POR,Portland Trail Blazers,9,Rick Brunson,PG,6-4,190,1972-06-14,US,R,Temple
+1998,25,501,POR,Portland Trail Blazers,31,Kelvin Cato,C,6-11,255,1974-08-26,US,R,"University of South Alabama, Iowa State"
+1998,25,639,POR,Portland Trail Blazers,12,John Crotty,PG,6-1,185,1969-07-15,US,5,Virginia
+1998,25,1081,POR,Portland Trail Blazers,44,Brian Grant,SF,6-9,254,1972-03-05,US,3,Xavier
+1998,25,1082,POR,Portland Trail Blazers,23,Gary Grant,PG,6-3,185,1965-04-21,US,9,Michigan
+1998,25,1285,POR,Portland Trail Blazers,19,Sean Higgins,SF,6-9,205,1968-12-30,US,5,Michigan
+1998,25,1759,POR,Portland Trail Blazers,53,Alton Lister,C,7-0,240,1958-10-01,US,15,Arizona State
+1998,25,2181,POR,Portland Trail Blazers,5,Jermaine O'Neal,PF,6-11,226,1978-10-13,US,1,
+1998,25,2455,POR,Portland Trail Blazers,34,Isaiah Rider,SG,6-5,215,1971-03-12,US,4,UNLV
+1998,25,2504,POR,Portland Trail Blazers,4,Carlos Rogers,PF,6-11,220,1971-02-06,US,3,"Little Rock, Tennessee State"
+1998,25,2544,POR,Portland Trail Blazers,11,Arvydas Sabonis,C,7-3,279,1964-12-19,LT,2,
+1998,25,2775,POR,Portland Trail Blazers,3,Damon Stoudamire,PG,5-10,171,1973-09-03,US,2,Arizona
+1998,25,2915,POR,Portland Trail Blazers,33,Gary Trent,PF,6-8,250,1974-09-22,US,2,Ohio University
+1998,25,3019,POR,Portland Trail Blazers,30,Rasheed Wallace,PF,6-10,225,1974-09-17,US,2,UNC
+1998,25,3136,POR,Portland Trail Blazers,21,Alvin Williams,SG,6-5,185,1974-08-06,US,R,Villanova
+1998,25,3193,POR,Portland Trail Blazers,42,Walt Williams,SF,6-8,219,1970-04-16,US,5,Maryland
+1998,25,3214,POR,Portland Trail Blazers,10,Dontonio Wingfield,SF,6-8,256,1974-06-23,US,3,Cincinnati

@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1983,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,"July 19, 1954",US,7,Oklahoma
-1983,24,594,PHO,Phoenix Suns,45,Jeff Cook,PF,6-10,215,"October 21, 1956",US,3,Idaho State University
-1983,24,702,PHO,Phoenix Suns,6,Walter Davis,SG,6-6,193,"September 9, 1954",US,5,UNC
-1983,24,832,PHO,Phoenix Suns,53,James Edwards,C,7-0,225,"November 22, 1955",US,5,Washington
-1983,24,1285,PHO,Phoenix Suns,11,Johnny High,SG,6-3,185,"April 25, 1957",US,2,Nevada
-1983,24,1482,PHO,Phoenix Suns,24,Dennis Johnson,PG,6-4,185,"September 18, 1954",US,6,Pepperdine
-1983,24,1655,PHO,Phoenix Suns,50,Joel Kramer,C,6-7,203,"November 30, 1955",US,4,San Diego State
-1983,24,1786,PHO,Phoenix Suns,20,Maurice Lucas,PF,6-9,215,"February 18, 1952",US,8,Marquette
-1983,24,1808,PHO,Phoenix Suns,4,Kyle Macy,PG,6-3,175,"April 9, 1957",US,2,"Purdue, Kentucky"
-1983,24,2111,PHO,Phoenix Suns,22,Larry Nance,PF,6-10,205,"February 12, 1959",US,1,Clemson
-1983,24,2317,PHO,Phoenix Suns,32,Charles Pittman,PF,6-8,220,"March 23, 1958",US,R,Maryland
-1983,24,2582,PHO,Phoenix Suns,14,Alvin Scott,SF,6-7,185,"September 14, 1955",US,5,Oral Roberts
-1983,24,2841,PHO,Phoenix Suns,40,David Thirdkill,SF,6-7,195,"April 12, 1960",US,R,Bradley
-1983,24,3097,PHO,Phoenix Suns,7,Rory White,SF,6-8,210,"August 16, 1959",US,R,University of South Alabama
+1983,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,1954-07-19,US,7,Oklahoma
+1983,24,594,PHO,Phoenix Suns,45,Jeff Cook,PF,6-10,215,1956-10-21,US,3,Idaho State University
+1983,24,703,PHO,Phoenix Suns,6,Walter Davis,SG,6-6,193,1954-09-09,US,5,UNC
+1983,24,834,PHO,Phoenix Suns,53,James Edwards,C,7-0,225,1955-11-22,US,5,Washington
+1983,24,1287,PHO,Phoenix Suns,11,Johnny High,SG,6-3,185,1957-04-25,US,2,Nevada
+1983,24,1484,PHO,Phoenix Suns,24,Dennis Johnson,PG,6-4,185,1954-09-18,US,6,Pepperdine
+1983,24,1657,PHO,Phoenix Suns,50,Joel Kramer,C,6-7,203,1955-11-30,US,4,San Diego State
+1983,24,1789,PHO,Phoenix Suns,20,Maurice Lucas,PF,6-9,215,1952-02-18,US,8,Marquette
+1983,24,1811,PHO,Phoenix Suns,4,Kyle Macy,PG,6-3,175,1957-04-09,US,2,"Purdue, Kentucky"
+1983,24,2115,PHO,Phoenix Suns,22,Larry Nance,PF,6-10,205,1959-02-12,US,1,Clemson
+1983,24,2320,PHO,Phoenix Suns,32,Charles Pittman,PF,6-8,220,1958-03-23,US,R,Maryland
+1983,24,2586,PHO,Phoenix Suns,14,Alvin Scott,SF,6-7,185,1955-09-14,US,5,Oral Roberts
+1983,24,2845,PHO,Phoenix Suns,40,David Thirdkill,SF,6-7,195,1960-04-12,US,R,Bradley
+1983,24,3102,PHO,Phoenix Suns,7,Rory White,SF,6-8,210,1959-08-16,US,R,University of South Alabama

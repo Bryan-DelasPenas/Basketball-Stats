@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1995,7,366,DAL,Dallas Mavericks,1,Scott Brooks,PG,5-11,165,"July 31, 1965",US,6,"TCU, University of California, Irvine"
-1995,7,700,DAL,Dallas Mavericks,43,Terry Davis,PF,6-9,225,"June 17, 1967",US,5,Virginia Union University
-1995,7,799,DAL,Dallas Mavericks,7,Tony Dumas,SG,6-6,190,"August 25, 1972",US,R,Missouri-Kansas City
-1995,7,1205,DAL,Dallas Mavericks,30,Lucious Harris,SG,6-5,190,"December 18, 1970",US,1,Cal State Long Beach
-1995,7,1303,DAL,Dallas Mavericks,35,Donald Hodge,C,7-0,230,"February 25, 1969",US,3,Temple
-1995,7,1404,DAL,Dallas Mavericks,24,Jim Jackson,SG,6-6,220,"October 14, 1970",US,2,Ohio State
-1995,7,1558,DAL,Dallas Mavericks,54,Popeye Jones,PF,6-8,250,"June 17, 1970",US,1,Murray State
-1995,7,1605,DAL,Dallas Mavericks,5,Jason Kidd,PG,6-4,205,"March 23, 1973",US,R,California
-1995,7,1865,DAL,Dallas Mavericks,32,Jamal Mashburn,SF,6-8,240,"November 29, 1972",US,1,Kentucky
-1995,7,1906,DAL,Dallas Mavericks,21,George McCloud,SF,6-6,205,"May 27, 1967",US,4,Florida State
-1995,7,2679,DAL,Dallas Mavericks,34,Doug Smith,PF,6-10,220,"September 17, 1969",US,3,Missouri
-1995,7,2806,DAL,Dallas Mavericks,42,Roy Tarpley,C,6-11,230,"November 28, 1964",US,5,Michigan
-1995,7,3117,DAL,Dallas Mavericks,20,Morlon Wiley,PG,6-4,185,"September 24, 1966",US,6,Cal State Long Beach
-1995,7,3159,DAL,Dallas Mavericks,44,Lorenzo Williams,C,6-9,200,"July 15, 1969",US,2,Stetson University
+1995,7,366,DAL,Dallas Mavericks,1,Scott Brooks,PG,5-11,165,1965-07-31,US,6,"TCU, University of California, Irvine"
+1995,7,701,DAL,Dallas Mavericks,43,Terry Davis,PF,6-9,225,1967-06-17,US,5,Virginia Union University
+1995,7,801,DAL,Dallas Mavericks,7,Tony Dumas,SG,6-6,190,1972-08-25,US,R,Missouri-Kansas City
+1995,7,1207,DAL,Dallas Mavericks,30,Lucious Harris,SG,6-5,190,1970-12-18,US,1,Cal State Long Beach
+1995,7,1305,DAL,Dallas Mavericks,35,Donald Hodge,C,7-0,230,1969-02-25,US,3,Temple
+1995,7,1406,DAL,Dallas Mavericks,24,Jim Jackson,SG,6-6,220,1970-10-14,US,2,Ohio State
+1995,7,1560,DAL,Dallas Mavericks,54,Popeye Jones,PF,6-8,250,1970-06-17,US,1,Murray State
+1995,7,1607,DAL,Dallas Mavericks,5,Jason Kidd,PG,6-4,205,1973-03-23,US,R,California
+1995,7,1868,DAL,Dallas Mavericks,32,Jamal Mashburn,SF,6-8,240,1972-11-29,US,1,Kentucky
+1995,7,1909,DAL,Dallas Mavericks,21,George McCloud,SF,6-6,205,1967-05-27,US,4,Florida State
+1995,7,2683,DAL,Dallas Mavericks,34,Doug Smith,PF,6-10,220,1969-09-17,US,3,Missouri
+1995,7,2810,DAL,Dallas Mavericks,42,Roy Tarpley,C,6-11,230,1964-11-28,US,5,Michigan
+1995,7,3123,DAL,Dallas Mavericks,20,Morlon Wiley,PG,6-4,185,1966-09-24,US,6,Cal State Long Beach
+1995,7,3165,DAL,Dallas Mavericks,44,Lorenzo Williams,C,6-9,200,1969-07-15,US,2,Stetson University

@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1998,9,723,DET,Detroit Pistons,8,Bison Dele,C,6-9,235,"April 6, 1969",US,6,"Maryland, Arizona"
-1998,9,797,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,"May 24, 1963",US,12,McNeese State University
-1998,9,1265,DET,Detroit Pistons,12,Steve Henson,PG,5-11,177,"February 2, 1968",US,5,Kansas State
-1998,9,1290,DET,Detroit Pistons,33,Grant Hill,SF,6-8,225,"October 5, 1972",US,3,Duke
-1998,9,1367,DET,Detroit Pistons,1,Lindsey Hunter,PG,6-2,170,"December 3, 1970",US,4,"Alcorn State, Jackson State University"
-1998,9,1770,DET,Detroit Pistons,43,Grant Long,PF,6-8,225,"March 12, 1966",US,9,Eastern Michigan
-1998,9,1817,DET,Detroit Pistons,44,Rick Mahorn,C,6-10,240,"September 21, 1958",US,16,Hampton
-1998,9,1944,DET,Detroit Pistons,23,Aaron McKie,SF,6-5,209,"October 2, 1972",US,3,Temple
-1998,9,2034,DET,Detroit Pistons,0,Eric Montross,C,7-0,270,"September 23, 1971",US,3,UNC
-1998,9,2172,DET,Detroit Pistons,5,Charles O'Bannon,SG,6-5,209,"February 22, 1975",US,R,UCLA
-1998,9,2330,DET,Detroit Pistons,31,Scot Pollard,C,6-11,265,"February 12, 1975",US,R,Kansas
-1998,9,2403,DET,Detroit Pistons,42,Theo Ratliff,C,6-10,225,"April 17, 1973",US,2,Wyoming
-1998,9,2423,DET,Detroit Pistons,52,Don Reid,PF,6-8,250,"December 30, 1973",US,2,Georgetown
-1998,9,2592,DET,Detroit Pistons,14,Malik Sealy,SF,6-8,190,"February 1, 1970",US,5,St. John's
-1998,9,2736,DET,Detroit Pistons,42,Jerry Stackhouse,SG,6-6,218,"November 5, 1974",US,2,UNC
-1998,9,3151,DET,Detroit Pistons,13,Jerome Williams,PF,6-9,206,"May 10, 1973",US,1,Georgetown
+1998,9,724,DET,Detroit Pistons,8,Bison Dele,C,6-9,235,1969-04-06,US,6,"Maryland, Arizona"
+1998,9,799,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,1963-05-24,US,12,McNeese State University
+1998,9,1267,DET,Detroit Pistons,12,Steve Henson,PG,5-11,177,1968-02-02,US,5,Kansas State
+1998,9,1292,DET,Detroit Pistons,33,Grant Hill,SF,6-8,225,1972-10-05,US,3,Duke
+1998,9,1369,DET,Detroit Pistons,1,Lindsey Hunter,PG,6-2,170,1970-12-03,US,4,"Alcorn State, Jackson State University"
+1998,9,1773,DET,Detroit Pistons,43,Grant Long,PF,6-8,225,1966-03-12,US,9,Eastern Michigan
+1998,9,1820,DET,Detroit Pistons,44,Rick Mahorn,C,6-10,240,1958-09-21,US,16,Hampton
+1998,9,1947,DET,Detroit Pistons,23,Aaron McKie,SF,6-5,209,1972-10-02,US,3,Temple
+1998,9,2037,DET,Detroit Pistons,0,Eric Montross,C,7-0,270,1971-09-23,US,3,UNC
+1998,9,2175,DET,Detroit Pistons,5,Charles O'Bannon,SG,6-5,209,1975-02-22,US,R,UCLA
+1998,9,2333,DET,Detroit Pistons,31,Scot Pollard,C,6-11,265,1975-02-12,US,R,Kansas
+1998,9,2407,DET,Detroit Pistons,42,Theo Ratliff,C,6-10,225,1973-04-17,US,2,Wyoming
+1998,9,2427,DET,Detroit Pistons,52,Don Reid,PF,6-8,250,1973-12-30,US,2,Georgetown
+1998,9,2596,DET,Detroit Pistons,14,Malik Sealy,SF,6-8,190,1970-02-01,US,5,St. John's
+1998,9,2740,DET,Detroit Pistons,42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,2,UNC
+1998,9,3157,DET,Detroit Pistons,13,Jerome Williams,PF,6-9,206,1973-05-10,US,1,Georgetown

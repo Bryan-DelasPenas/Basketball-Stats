@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,6,219,CLE,Cleveland Cavaliers,15,Anthony Bennett,PF,6-8,245,"March 14, 1993",CA,R,UNLV
-2014,6,444,CLE,Cleveland Cavaliers,21,Andrew Bynum,C,7-0,285,"October 27, 1987",US,7,
-2014,6,540,CLE,Cleveland Cavaliers,6,Earl Clark,PF,6-10,225,"January 17, 1988",US,4,Louisville
-2014,6,656,CLE,Cleveland Cavaliers,31,Seth Curry,PG,6-2,185,"August 23, 1990",US,R,"Liberty, Duke"
-2014,6,727,CLE,Cleveland Cavaliers,"8, 9",Matthew Dellavedova,SG,6-3,200,"September 8, 1990",AU,R,Saint Mary's
-2014,6,731,CLE,Cleveland Cavaliers,9,Luol Deng,SF,6-9,237,"April 16, 1985",SS,9,Duke
-2014,6,836,CLE,Cleveland Cavaliers,24,Shane Edwards,SF,6-7,220,"May 31, 1987",US,R,Little Rock
-2014,6,901,CLE,Cleveland Cavaliers,30,Carrick Felix,SG,6-6,201,"August 17, 1990",US,R,Arizona State
-2014,6,1015,CLE,Cleveland Cavaliers,33,Alonzo Gee,SF,6-6,225,"May 29, 1987",US,4,Alabama
-2014,6,1227,CLE,Cleveland Cavaliers,32,Spencer Hawes,C,7-1,245,"April 28, 1988",US,6,Washington
-2014,6,1324,CLE,Cleveland Cavaliers,24,Scotty Hopson,SG,6-7,204,"August 8, 1989",US,R,Tennessee
-2014,6,1387,CLE,Cleveland Cavaliers,2,Kyrie Irving,PG,6-2,195,"March 23, 1992",AU,2,Duke
-2014,6,1394,CLE,Cleveland Cavaliers,1,Jarrett Jack,PG,6-3,200,"October 28, 1983",US,8,Georgia Tech
-2014,6,1582,CLE,Cleveland Cavaliers,10,Sergey Karasev,SF,6-7,208,"October 26, 1993",RU,R,
-2014,6,1985,CLE,Cleveland Cavaliers,0,C.J. Miles,SG,6-6,220,"March 18, 1987",US,8,
-2014,6,2212,CLE,Cleveland Cavaliers,50,Arinze Onuaku,PF,6-9,255,"July 13, 1987",US,R,Syracuse
-2014,6,2647,CLE,Cleveland Cavaliers,14,Henry Sims,C,6-10,248,"March 27, 1990",US,1,Georgetown
-2014,6,2879,CLE,Cleveland Cavaliers,13,Tristan Thompson,PF,6-9,254,"March 13, 1991",CA,2,Texas
-2014,6,2961,CLE,Cleveland Cavaliers,17,Anderson Varejao,C,6-10,273,"September 28, 1982",BR,9,
-2014,6,2998,CLE,Cleveland Cavaliers,3,Dion Waiters,SG,6-3,215,"December 10, 1991",US,1,Syracuse
-2014,6,3271,CLE,Cleveland Cavaliers,40,Tyler Zeller,C,7-0,253,"January 17, 1990",US,1,UNC
+2014,6,219,CLE,Cleveland Cavaliers,15,Anthony Bennett,PF,6-8,245,1993-03-14,CA,R,UNLV
+2014,6,444,CLE,Cleveland Cavaliers,21,Andrew Bynum,C,7-0,285,1987-10-27,US,7,
+2014,6,540,CLE,Cleveland Cavaliers,6,Earl Clark,PF,6-10,225,1988-01-17,US,4,Louisville
+2014,6,656,CLE,Cleveland Cavaliers,31,Seth Curry,PG,6-2,185,1990-08-23,US,R,"Liberty, Duke"
+2014,6,728,CLE,Cleveland Cavaliers,"8, 9",Matthew Dellavedova,SG,6-3,200,1990-09-08,AU,R,Saint Mary's
+2014,6,732,CLE,Cleveland Cavaliers,9,Luol Deng,SF,6-9,237,1985-04-16,SS,9,Duke
+2014,6,838,CLE,Cleveland Cavaliers,24,Shane Edwards,SF,6-7,220,1987-05-31,US,R,Little Rock
+2014,6,903,CLE,Cleveland Cavaliers,30,Carrick Felix,SG,6-6,201,1990-08-17,US,R,Arizona State
+2014,6,1017,CLE,Cleveland Cavaliers,33,Alonzo Gee,SF,6-6,225,1987-05-29,US,4,Alabama
+2014,6,1229,CLE,Cleveland Cavaliers,32,Spencer Hawes,C,7-1,245,1988-04-28,US,6,Washington
+2014,6,1326,CLE,Cleveland Cavaliers,24,Scotty Hopson,SG,6-7,204,1989-08-08,US,R,Tennessee
+2014,6,1389,CLE,Cleveland Cavaliers,2,Kyrie Irving,PG,6-2,195,1992-03-23,AU,2,Duke
+2014,6,1396,CLE,Cleveland Cavaliers,1,Jarrett Jack,PG,6-3,200,1983-10-28,US,8,Georgia Tech
+2014,6,1584,CLE,Cleveland Cavaliers,10,Sergey Karasev,SF,6-7,208,1993-10-26,RU,R,
+2014,6,1988,CLE,Cleveland Cavaliers,0,C.J. Miles,SG,6-6,220,1987-03-18,US,8,
+2014,6,2215,CLE,Cleveland Cavaliers,50,Arinze Onuaku,PF,6-9,255,1987-07-13,US,R,Syracuse
+2014,6,2651,CLE,Cleveland Cavaliers,14,Henry Sims,C,6-10,248,1990-03-27,US,1,Georgetown
+2014,6,2883,CLE,Cleveland Cavaliers,13,Tristan Thompson,PF,6-9,254,1991-03-13,CA,2,Texas
+2014,6,2966,CLE,Cleveland Cavaliers,17,Anderson Varejao,C,6-10,273,1982-09-28,BR,9,
+2014,6,3003,CLE,Cleveland Cavaliers,3,Dion Waiters,SG,6-3,215,1991-12-10,US,1,Syracuse
+2014,6,3277,CLE,Cleveland Cavaliers,40,Tyler Zeller,C,7-0,253,1990-01-17,US,1,UNC

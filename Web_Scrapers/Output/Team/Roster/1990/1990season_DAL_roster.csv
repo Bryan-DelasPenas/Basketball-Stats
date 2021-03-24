@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1990,7,45,DAL,Dallas Mavericks,2,Steve Alford,PG,6-2,183,"November 23, 1964",US,2,Indiana
-1990,7,254,DAL,Dallas Mavericks,22,Rolando Blackman,SG,6-6,190,"February 26, 1959",PA,8,Kansas State
-1990,7,669,DAL,Dallas Mavericks,4,Adrian Dantley,SF,6-5,208,"February 28, 1955",US,13,Notre Dame
-1990,7,680,DAL,Dallas Mavericks,15,Brad Davis,PG,6-3,180,"December 17, 1955",US,12,Maryland
-1990,7,756,DAL,Dallas Mavericks,40,James Donaldson,C,7-2,275,"August 16, 1957",GB,9,Washington State
-1990,7,1188,DAL,Dallas Mavericks,12,Derek Harper,PG,6-4,185,"October 13, 1961",US,6,Illinois
-1990,7,1524,DAL,Dallas Mavericks,21,Anthony Jones,SG,6-6,195,"September 13, 1962",US,2,"Georgetown, UNLV"
-1990,7,1896,DAL,Dallas Mavericks,7,Bob McCann,SF,6-6,244,"April 22, 1964",US,R,"Upsala College, Morehead State University"
-1990,7,2287,DAL,Dallas Mavericks,44,Sam Perkins,SF,6-9,235,"June 14, 1961",US,5,UNC
-1990,7,2806,DAL,Dallas Mavericks,42,Roy Tarpley,PF,6-11,230,"November 28, 1964",US,3,Michigan
-1990,7,2945,DAL,Dallas Mavericks,5,Kelvin Upshaw,SG,6-2,180,"January 24, 1963",US,1,Utah
-1990,7,2993,DAL,Dallas Mavericks,10,Mark Wade,PG,5-11,160,"October 15, 1965",US,1,"Oklahoma, UNLV"
-1990,7,3070,DAL,Dallas Mavericks,23,Bill Wennington,C,7-0,245,"April 26, 1963",CA,4,St. John's
-1990,7,3095,DAL,Dallas Mavericks,33,Randy White,PF,6-8,240,"November 4, 1967",US,R,Louisiana Tech
-1990,7,3145,DAL,Dallas Mavericks,32,Herb Williams,C,6-10,242,"February 16, 1958",US,8,Ohio State
+1990,7,45,DAL,Dallas Mavericks,2,Steve Alford,PG,6-2,183,1964-11-23,US,2,Indiana
+1990,7,254,DAL,Dallas Mavericks,22,Rolando Blackman,SG,6-6,190,1959-02-26,PA,8,Kansas State
+1990,7,669,DAL,Dallas Mavericks,4,Adrian Dantley,SF,6-5,208,1955-02-28,US,13,Notre Dame
+1990,7,681,DAL,Dallas Mavericks,15,Brad Davis,PG,6-3,180,1955-12-17,US,12,Maryland
+1990,7,758,DAL,Dallas Mavericks,40,James Donaldson,C,7-2,275,1957-08-16,GB,9,Washington State
+1990,7,1190,DAL,Dallas Mavericks,12,Derek Harper,PG,6-4,185,1961-10-13,US,6,Illinois
+1990,7,1526,DAL,Dallas Mavericks,21,Anthony Jones,SG,6-6,195,1962-09-13,US,2,"Georgetown, UNLV"
+1990,7,1899,DAL,Dallas Mavericks,7,Bob McCann,SF,6-6,244,1964-04-22,US,R,"Upsala College, Morehead State University"
+1990,7,2290,DAL,Dallas Mavericks,44,Sam Perkins,SF,6-9,235,1961-06-14,US,5,UNC
+1990,7,2810,DAL,Dallas Mavericks,42,Roy Tarpley,PF,6-11,230,1964-11-28,US,3,Michigan
+1990,7,2950,DAL,Dallas Mavericks,5,Kelvin Upshaw,SG,6-2,180,1963-01-24,US,1,Utah
+1990,7,2998,DAL,Dallas Mavericks,10,Mark Wade,PG,5-11,160,1965-10-15,US,1,"Oklahoma, UNLV"
+1990,7,3075,DAL,Dallas Mavericks,23,Bill Wennington,C,7-0,245,1963-04-26,CA,4,St. John's
+1990,7,3100,DAL,Dallas Mavericks,33,Randy White,PF,6-8,240,1967-11-04,US,R,Louisiana Tech
+1990,7,3151,DAL,Dallas Mavericks,32,Herb Williams,C,6-10,242,1958-02-16,US,8,Ohio State

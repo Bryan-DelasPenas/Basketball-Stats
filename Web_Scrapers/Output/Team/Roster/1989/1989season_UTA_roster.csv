@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1989,29,142,UTA,Utah Jazz,41,Thurl Bailey,SF,6-11,215,"April 7, 1961",US,5,NC State
-1989,29,390,UTA,Utah Jazz,40,Mike Brown,C,6-9,257,"July 19, 1963",US,2,George Washington
-1989,29,816,UTA,Utah Jazz,53,Mark Eaton,C,7-4,275,"January 24, 1957",US,6,UCLA
-1989,29,892,UTA,Utah Jazz,30,Jim Farmer,SG,6-4,190,"September 23, 1964",US,1,Alabama
-1989,29,1129,UTA,Utah Jazz,35,Darrell Griffith,SG,6-4,190,"June 16, 1958",US,7,Louisville
-1989,29,1175,UTA,Utah Jazz,20,Bob Hansen,SG,6-6,190,"January 18, 1961",US,5,Iowa
-1989,29,1375,UTA,Utah Jazz,43,Marc Iavaroni,PF,6-8,210,"September 15, 1956",US,6,Virginia
-1989,29,1644,UTA,Utah Jazz,11,Bart Kofoed,SG,6-4,210,"March 24, 1964",US,1,"Hastings College, University of Nebraska at Kearney"
-1989,29,1715,UTA,Utah Jazz,45,Eric Leckner,C,6-11,265,"May 27, 1966",US,R,Wyoming
-1989,29,1736,UTA,Utah Jazz,25,Jim Les,PG,5-11,165,"August 18, 1963",US,R,"Cleveland State University, Bradley"
-1989,29,1823,UTA,Utah Jazz,32,Karl Malone,PF,6-9,250,"July 24, 1963",US,3,Louisiana Tech
-1989,29,2215,UTA,Utah Jazz,44,Jose Ortiz,PF,6-10,225,"October 25, 1963",PR,R,Oregon State
-1989,29,2515,UTA,Utah Jazz,33,Scott Roth,SF,6-8,212,"June 3, 1963",US,1,Wisconsin
-1989,29,2763,UTA,Utah Jazz,12,John Stockton,PG,6-1,170,"March 26, 1962",US,4,Gonzaga
-1989,29,3090,UTA,Utah Jazz,22,Eric White,SF,6-8,200,"December 30, 1965",US,1,Pepperdine
+1989,29,142,UTA,Utah Jazz,41,Thurl Bailey,SF,6-11,215,1961-04-07,US,5,NC State
+1989,29,390,UTA,Utah Jazz,40,Mike Brown,C,6-9,257,1963-07-19,US,2,George Washington
+1989,29,818,UTA,Utah Jazz,53,Mark Eaton,C,7-4,275,1957-01-24,US,6,UCLA
+1989,29,894,UTA,Utah Jazz,30,Jim Farmer,SG,6-4,190,1964-09-23,US,1,Alabama
+1989,29,1131,UTA,Utah Jazz,35,Darrell Griffith,SG,6-4,190,1958-06-16,US,7,Louisville
+1989,29,1177,UTA,Utah Jazz,20,Bob Hansen,SG,6-6,190,1961-01-18,US,5,Iowa
+1989,29,1377,UTA,Utah Jazz,43,Marc Iavaroni,PF,6-8,210,1956-09-15,US,6,Virginia
+1989,29,1646,UTA,Utah Jazz,11,Bart Kofoed,SG,6-4,210,1964-03-24,US,1,"Hastings College, University of Nebraska at Kearney"
+1989,29,1718,UTA,Utah Jazz,45,Eric Leckner,C,6-11,265,1966-05-27,US,R,Wyoming
+1989,29,1739,UTA,Utah Jazz,25,Jim Les,PG,5-11,165,1963-08-18,US,R,"Cleveland State University, Bradley"
+1989,29,1826,UTA,Utah Jazz,32,Karl Malone,PF,6-9,250,1963-07-24,US,3,Louisiana Tech
+1989,29,2218,UTA,Utah Jazz,44,Jose Ortiz,PF,6-10,225,1963-10-25,PR,R,Oregon State
+1989,29,2519,UTA,Utah Jazz,33,Scott Roth,SF,6-8,212,1963-06-03,US,1,Wisconsin
+1989,29,2767,UTA,Utah Jazz,12,John Stockton,PG,6-1,170,1962-03-26,US,4,Gonzaga
+1989,29,3095,UTA,Utah Jazz,22,Eric White,SF,6-8,200,1965-12-30,US,1,Pepperdine

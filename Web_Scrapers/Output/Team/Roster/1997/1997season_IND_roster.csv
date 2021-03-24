@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1997,12,49,IND,Indiana Pacers,53,Jerome Allen,SG,6-4,184,"January 28, 1973",US,1,Penn
-1997,12,115,IND,Indiana Pacers,2,Vincent Askew,SG,6-6,210,"February 28, 1966",US,7,Memphis
-1997,12,234,IND,Indiana Pacers,4,Travis Best,PG,5-11,182,"July 12, 1972",US,1,Georgia Tech
-1997,12,661,IND,Indiana Pacers,25,Erick Dampier,C,6-11,265,"July 14, 1975",US,R,Mississippi State
-1997,12,677,IND,Indiana Pacers,33,Antonio Davis,PF,6-9,215,"October 31, 1968",US,3,Texas-El Paso
-1997,12,683,IND,Indiana Pacers,32,Dale Davis,PF,6-11,230,"March 25, 1969",US,5,Clemson
-1997,12,910,IND,Indiana Pacers,27,Duane Ferrell,SF,6-7,209,"February 28, 1965",US,8,Georgia Tech
-1997,12,1156,IND,Indiana Pacers,24,Darvin Ham,SF,6-7,220,"July 23, 1973",US,R,Texas Tech
-1997,12,1306,IND,Indiana Pacers,20,Fred Hoiberg,SG,6-4,203,"October 15, 1972",US,1,Iowa State
-1997,12,1409,IND,Indiana Pacers,13,Mark Jackson,PG,6-1,180,"April 1, 1965",US,9,St. John's
-1997,12,1485,IND,Indiana Pacers,8,Edward Arnet Johnson,SF,6-7,215,"May 1, 1959",US,14,Illinois
-1997,12,1943,IND,Indiana Pacers,9,Derrick McKey,SF,6-9,205,"October 10, 1966",US,9,Alabama
-1997,12,1999,IND,Indiana Pacers,31,Reggie Miller,SG,6-7,185,"August 24, 1965",US,9,UCLA
-1997,12,2509,IND,Indiana Pacers,5,Jalen Rose,SF,6-8,210,"January 30, 1973",US,2,Michigan
-1997,12,2583,IND,Indiana Pacers,55,Brent Scott,PF,6-10,250,"June 15, 1971",US,R,Rice University
-1997,12,2713,IND,Indiana Pacers,45,Rik Smits,C,7-4,250,"August 23, 1966",NL,8,Marist College
-1997,12,2874,IND,Indiana Pacers,41,LaSalle Thompson,C,6-10,245,"June 23, 1961",US,14,Texas
-1997,12,3172,IND,Indiana Pacers,7,Reggie Williams,SF,6-7,190,"March 5, 1964",US,9,Georgetown
-1997,12,3233,IND,Indiana Pacers,3,Haywoode Workman,PG,6-2,180,"January 23, 1966",US,5,"Winston-Salem State, Oral Roberts"
+1997,12,49,IND,Indiana Pacers,53,Jerome Allen,SG,6-4,184,1973-01-28,US,1,Penn
+1997,12,115,IND,Indiana Pacers,2,Vincent Askew,SG,6-6,210,1966-02-28,US,7,Memphis
+1997,12,234,IND,Indiana Pacers,4,Travis Best,PG,5-11,182,1972-07-12,US,1,Georgia Tech
+1997,12,661,IND,Indiana Pacers,25,Erick Dampier,C,6-11,265,1975-07-14,US,R,Mississippi State
+1997,12,678,IND,Indiana Pacers,33,Antonio Davis,PF,6-9,215,1968-10-31,US,3,Texas-El Paso
+1997,12,684,IND,Indiana Pacers,32,Dale Davis,PF,6-11,230,1969-03-25,US,5,Clemson
+1997,12,912,IND,Indiana Pacers,27,Duane Ferrell,SF,6-7,209,1965-02-28,US,8,Georgia Tech
+1997,12,1158,IND,Indiana Pacers,24,Darvin Ham,SF,6-7,220,1973-07-23,US,R,Texas Tech
+1997,12,1308,IND,Indiana Pacers,20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,1,Iowa State
+1997,12,1411,IND,Indiana Pacers,13,Mark Jackson,PG,6-1,180,1965-04-01,US,9,St. John's
+1997,12,1487,IND,Indiana Pacers,8,Eddie Johnson,SF,6-7,215,1959-05-01,US,14,Illinois
+1997,12,1946,IND,Indiana Pacers,9,Derrick McKey,SF,6-9,205,1966-10-10,US,9,Alabama
+1997,12,2002,IND,Indiana Pacers,31,Reggie Miller,SG,6-7,185,1965-08-24,US,9,UCLA
+1997,12,2513,IND,Indiana Pacers,5,Jalen Rose,SF,6-8,210,1973-01-30,US,2,Michigan
+1997,12,2587,IND,Indiana Pacers,55,Brent Scott,PF,6-10,250,1971-06-15,US,R,Rice University
+1997,12,2717,IND,Indiana Pacers,45,Rik Smits,C,7-4,250,1966-08-23,NL,8,Marist College
+1997,12,2878,IND,Indiana Pacers,41,LaSalle Thompson,C,6-10,245,1961-06-23,US,14,Texas
+1997,12,3179,IND,Indiana Pacers,7,Reggie Williams,SF,6-7,190,1964-03-05,US,9,Georgetown
+1997,12,3239,IND,Indiana Pacers,3,Haywoode Workman,PG,6-2,180,1966-01-23,US,5,"Winston-Salem State, Oral Roberts"

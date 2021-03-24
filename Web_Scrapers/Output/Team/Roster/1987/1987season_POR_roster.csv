@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1987,25,230,POR,Portland Trail Blazers,21,Walter Berry,PF,6-8,215,"May 14, 1964",US,R,St. John's
-1987,25,243,POR,Portland Trail Blazers,50,Joe Binion,PF,6-8,235,"March 26, 1961",US,R,North Carolina A&T
-1987,25,312,POR,Portland Trail Blazers,31,Sam Bowie,C,7-1,235,"March 17, 1961",US,2,Kentucky
-1987,25,478,POR,Portland Trail Blazers,34,Kenny Carr,PF,6-7,220,"August 15, 1955",US,9,NC State
-1987,25,786,POR,Portland Trail Blazers,22,Clyde Drexler,SG,6-7,210,"June 22, 1962",US,3,Houston
-1987,25,791,POR,Portland Trail Blazers,0,Kevin Duckworth,C,7-0,275,"April 1, 1964",US,R,Eastern Illinois University
-1987,25,860,POR,Portland Trail Blazers,50,Chris Engler,C,6-11,245,"March 1, 1959",US,3,"Minnesota, Wyoming"
-1987,25,1317,POR,Portland Trail Blazers,6,Michael Holton,PG,6-4,185,"August 4, 1961",US,2,UCLA
-1987,25,1514,POR,Portland Trail Blazers,33,Steve Johnson,C,6-10,235,"November 3, 1957",US,5,Oregon State
-1987,25,1529,POR,Portland Trail Blazers,27,Caldwell Jones,PF,6-11,217,"August 4, 1950",US,13,Albany State University
-1987,25,1600,POR,Portland Trail Blazers,25,Jerome Kersey,SF,6-7,215,"June 26, 1962",US,2,Longwood University
-1987,25,1856,POR,Portland Trail Blazers,10,Fernando Martin,C,6-9,220,"March 25, 1962",ES,R,
-1987,25,2267,POR,Portland Trail Blazers,4,Jim Paxson,SG,6-6,200,"July 9, 1957",US,7,Dayton
-1987,25,2344,POR,Portland Trail Blazers,30,Terry Porter,PG,6-3,195,"April 8, 1963",US,1,University of Wisconsin-Stevens Point
-1987,25,2517,POR,Portland Trail Blazers,11,Ron Rowan,SG,6-5,200,"April 23, 1962",US,R,"Notre Dame, St. John's"
-1987,25,2957,POR,Portland Trail Blazers,55,Kiki Vandeweghe,SF,6-8,220,"August 1, 1958",DE,6,UCLA
-1987,25,3263,POR,Portland Trail Blazers,2,Perry Young,SG,6-5,210,"August 4, 1963",US,R,Virginia Tech
+1987,25,230,POR,Portland Trail Blazers,21,Walter Berry,PF,6-8,215,1964-05-14,US,R,St. John's
+1987,25,243,POR,Portland Trail Blazers,50,Joe Binion,PF,6-8,235,1961-03-26,US,R,North Carolina A&T
+1987,25,312,POR,Portland Trail Blazers,31,Sam Bowie,C,7-1,235,1961-03-17,US,2,Kentucky
+1987,25,478,POR,Portland Trail Blazers,34,Kenny Carr,PF,6-7,220,1955-08-15,US,9,NC State
+1987,25,788,POR,Portland Trail Blazers,22,Clyde Drexler,SG,6-7,210,1962-06-22,US,3,Houston
+1987,25,793,POR,Portland Trail Blazers,0,Kevin Duckworth,C,7-0,275,1964-04-01,US,R,Eastern Illinois University
+1987,25,863,POR,Portland Trail Blazers,50,Chris Engler,C,6-11,245,1959-03-01,US,3,"Minnesota, Wyoming"
+1987,25,1319,POR,Portland Trail Blazers,6,Michael Holton,PG,6-4,185,1961-08-04,US,2,UCLA
+1987,25,1516,POR,Portland Trail Blazers,33,Steve Johnson,C,6-10,235,1957-11-03,US,5,Oregon State
+1987,25,1531,POR,Portland Trail Blazers,27,Caldwell Jones,PF,6-11,217,1950-08-04,US,13,Albany State University
+1987,25,1602,POR,Portland Trail Blazers,25,Jerome Kersey,SF,6-7,215,1962-06-26,US,2,Longwood University
+1987,25,1859,POR,Portland Trail Blazers,10,Fernando Martin,C,6-9,220,1962-03-25,ES,R,
+1987,25,2270,POR,Portland Trail Blazers,4,Jim Paxson,SG,6-6,200,1957-07-09,US,7,Dayton
+1987,25,2348,POR,Portland Trail Blazers,30,Terry Porter,PG,6-3,195,1963-04-08,US,1,University of Wisconsin-Stevens Point
+1987,25,2521,POR,Portland Trail Blazers,11,Ron Rowan,SG,6-5,200,1962-04-23,US,R,"Notre Dame, St. John's"
+1987,25,2962,POR,Portland Trail Blazers,55,Kiki Vandeweghe,SF,6-8,220,1958-08-01,DE,6,UCLA
+1987,25,3269,POR,Portland Trail Blazers,2,Perry Young,SG,6-5,210,1963-08-04,US,R,Virginia Tech

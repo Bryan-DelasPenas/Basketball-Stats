@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2001,12,215,IND,Indiana Pacers,24,Jonathan Bender,SF,6-11,202,"January 30, 1981",US,1,
-2001,12,234,IND,Indiana Pacers,4,Travis Best,PG,5-11,182,"July 12, 1972",US,5,Georgia Tech
-2001,12,636,IND,Indiana Pacers,44,Austin Croshere,PF,6-9,235,"May 1, 1975",US,3,Providence
-2001,12,824,IND,Indiana Pacers,2,Tyus Edney,PG,5-10,152,"February 14, 1973",US,3,UCLA
-2001,12,945,IND,Indiana Pacers,10,Jeff Foster,C,6-11,236,"January 16, 1977",US,1,Texas State University
-2001,12,1197,IND,Indiana Pacers,3,Al Harrington,PF,6-9,230,"February 17, 1980",US,2,
-2001,12,1602,IND,Indiana Pacers,8,Lari Ketner,PF,6-9,277,"February 1, 1977",US,1,UMass
-2001,12,1943,IND,Indiana Pacers,9,Derrick McKey,SF,6-9,205,"October 10, 1966",US,13,Alabama
-2001,12,1999,IND,Indiana Pacers,31,Reggie Miller,SG,6-7,185,"August 24, 1965",US,13,UCLA
-2001,12,2002,IND,Indiana Pacers,6,Terry Mills,PF,6-10,230,"December 21, 1967",US,10,Michigan
-2001,12,2178,IND,Indiana Pacers,7,Jermaine O'Neal,C,6-11,226,"October 13, 1978",US,4,
-2001,12,2287,IND,Indiana Pacers,14,Sam Perkins,PF,6-9,235,"June 14, 1961",US,16,UNC
-2001,12,2509,IND,Indiana Pacers,5,Jalen Rose,SF,6-8,210,"January 30, 1973",US,6,Michigan
-2001,12,2788,IND,Indiana Pacers,40,Bruno Sundov,C,7-2,220,"February 10, 1980",HR,2,
-2001,12,2802,IND,Indiana Pacers,55,Zan Tabak,C,7-0,245,"June 15, 1970",HR,5,
+2001,12,215,IND,Indiana Pacers,24,Jonathan Bender,SF,6-11,202,1981-01-30,US,1,
+2001,12,234,IND,Indiana Pacers,4,Travis Best,PG,5-11,182,1972-07-12,US,5,Georgia Tech
+2001,12,636,IND,Indiana Pacers,44,Austin Croshere,PF,6-9,235,1975-05-01,US,3,Providence
+2001,12,826,IND,Indiana Pacers,2,Tyus Edney,PG,5-10,152,1973-02-14,US,3,UCLA
+2001,12,947,IND,Indiana Pacers,10,Jeff Foster,C,6-11,236,1977-01-16,US,1,Texas State University
+2001,12,1199,IND,Indiana Pacers,3,Al Harrington,PF,6-9,230,1980-02-17,US,2,
+2001,12,1604,IND,Indiana Pacers,8,Lari Ketner,PF,6-9,277,1977-02-01,US,1,UMass
+2001,12,1946,IND,Indiana Pacers,9,Derrick McKey,SF,6-9,205,1966-10-10,US,13,Alabama
+2001,12,2002,IND,Indiana Pacers,31,Reggie Miller,SG,6-7,185,1965-08-24,US,13,UCLA
+2001,12,2005,IND,Indiana Pacers,6,Terry Mills,PF,6-10,230,1967-12-21,US,10,Michigan
+2001,12,2181,IND,Indiana Pacers,7,Jermaine O'Neal,C,6-11,226,1978-10-13,US,4,
+2001,12,2290,IND,Indiana Pacers,14,Sam Perkins,PF,6-9,235,1961-06-14,US,16,UNC
+2001,12,2513,IND,Indiana Pacers,5,Jalen Rose,SF,6-8,210,1973-01-30,US,6,Michigan
+2001,12,2792,IND,Indiana Pacers,40,Bruno Sundov,C,7-2,220,1980-02-10,HR,2,
+2001,12,2806,IND,Indiana Pacers,55,Zan Tabak,C,7-0,245,1970-06-15,HR,5,

@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2006,14,385,LAL,Los Angeles Lakers,54,Kwame Brown,C,6-11,270,"March 10, 1982",US,4,
-2006,14,408,LAL,Los Angeles Lakers,8,Kobe Bryant,SG,6-6,212,"August 23, 1978",US,9,
-2006,14,444,LAL,Los Angeles Lakers,17,Andrew Bynum,C,7-0,285,"October 27, 1987",US,R,
-2006,14,591,LAL,Los Angeles Lakers,43,Brian Cook,PF,6-9,234,"December 4, 1980",US,2,Illinois
-2006,14,1018,LAL,Los Angeles Lakers,3,Devean George,SF,6-8,220,"August 29, 1977",US,6,Augsburg College
-2006,14,1100,LAL,Los Angeles Lakers,11,Devin Green,SG,6-7,210,"October 25, 1982",US,R,Hampton
-2006,14,1404,LAL,Los Angeles Lakers,24,Jim Jackson,SF,6-6,220,"October 14, 1970",US,13,Ohio State
-2006,14,1944,LAL,Los Angeles Lakers,2,Aaron McKie,PG,6-5,209,"October 2, 1972",US,11,Temple
-2006,14,1962,LAL,Los Angeles Lakers,14,Stanislav Medvedenko,PF,6-10,250,"April 4, 1979",UA,5,
-2006,14,1982,LAL,Los Angeles Lakers,31,Chris Mihm,C,7-0,265,"July 16, 1979",US,5,Texas
-2006,14,2187,LAL,Los Angeles Lakers,7,Lamar Odom,PF,6-10,220,"November 6, 1979",US,6,Rhode Island
-2006,14,2249,LAL,Los Angeles Lakers,1,Smush Parker,PG,6-4,190,"June 1, 1981",US,2,Fordham
-2006,14,2371,LAL,Los Angeles Lakers,9,Laron Profit,SG,6-5,204,"August 5, 1977",US,3,Maryland
-2006,14,2922,LAL,Los Angeles Lakers,21,Ronny Turiaf,C,6-10,249,"January 13, 1983",MQ,R,Gonzaga
-2006,14,2989,LAL,Los Angeles Lakers,18,Sasha Vujacic,PG,6-7,195,"March 8, 1984",SI,1,
-2006,14,2994,LAL,Los Angeles Lakers,23,Von Wafer,SG,6-5,210,"July 21, 1985",US,R,Florida State
-2006,14,3022,LAL,Los Angeles Lakers,4,Luke Walton,SF,6-8,235,"March 28, 1980",US,2,Arizona
+2006,14,385,LAL,Los Angeles Lakers,54,Kwame Brown,C,6-11,270,1982-03-10,US,4,
+2006,14,408,LAL,Los Angeles Lakers,8,Kobe Bryant,SG,6-6,212,1978-08-23,US,9,
+2006,14,444,LAL,Los Angeles Lakers,17,Andrew Bynum,C,7-0,285,1987-10-27,US,R,
+2006,14,591,LAL,Los Angeles Lakers,43,Brian Cook,PF,6-9,234,1980-12-04,US,2,Illinois
+2006,14,1020,LAL,Los Angeles Lakers,3,Devean George,SF,6-8,220,1977-08-29,US,6,Augsburg College
+2006,14,1102,LAL,Los Angeles Lakers,11,Devin Green,SG,6-7,210,1982-10-25,US,R,Hampton
+2006,14,1406,LAL,Los Angeles Lakers,24,Jim Jackson,SF,6-6,220,1970-10-14,US,13,Ohio State
+2006,14,1947,LAL,Los Angeles Lakers,2,Aaron McKie,PG,6-5,209,1972-10-02,US,11,Temple
+2006,14,1965,LAL,Los Angeles Lakers,14,Stanislav Medvedenko,PF,6-10,250,1979-04-04,UA,5,
+2006,14,1985,LAL,Los Angeles Lakers,31,Chris Mihm,C,7-0,265,1979-07-16,US,5,Texas
+2006,14,2190,LAL,Los Angeles Lakers,7,Lamar Odom,PF,6-10,220,1979-11-06,US,6,Rhode Island
+2006,14,2252,LAL,Los Angeles Lakers,1,Smush Parker,PG,6-4,190,1981-06-01,US,2,Fordham
+2006,14,2375,LAL,Los Angeles Lakers,9,Laron Profit,SG,6-5,204,1977-08-05,US,3,Maryland
+2006,14,2927,LAL,Los Angeles Lakers,21,Ronny Turiaf,C,6-10,249,1983-01-13,MQ,R,Gonzaga
+2006,14,2994,LAL,Los Angeles Lakers,18,Sasha Vujacic,PG,6-7,195,1984-03-08,SI,1,
+2006,14,2999,LAL,Los Angeles Lakers,23,Von Wafer,SG,6-5,210,1985-07-21,US,R,Florida State
+2006,14,3027,LAL,Los Angeles Lakers,4,Luke Walton,SF,6-8,235,1980-03-28,US,2,Arizona

@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1983,11,141,HOU,Houston Rockets,2,James Bailey,PF,6-9,220,"May 21, 1957",US,3,Rutgers University
-1983,11,407,HOU,Houston Rockets,22,Joe Bryant,SF,6-9,185,"October 19, 1954",US,7,La Salle
-1983,11,1000,HOU,Houston Rockets,0,Calvin Garrett,SF,6-7,190,"July 11, 1956",US,2,"Austin Peay State University, Oral Roberts"
-1983,11,1233,HOU,Houston Rockets,44,Elvin Hayes,PF,6-9,235,"November 17, 1945",US,14,Houston
-1983,11,1257,HOU,Houston Rockets,6,Tom Henderson,SG,6-3,190,"January 26, 1952",US,8,Hawaii
-1983,11,1529,HOU,Houston Rockets,27,Caldwell Jones,C,6-11,217,"August 4, 1950",US,9,Albany State University
-1983,11,1552,HOU,Houston Rockets,11,Major Jones,PF,6-9,225,"July 9, 1953",US,3,Albany State University
-1983,11,1713,HOU,Houston Rockets,30,Allen Leavell,PG,6-1,170,"May 27, 1957",US,3,Oklahoma City University
-1983,11,2083,HOU,Houston Rockets,23,Calvin Murphy,PG,5-9,165,"May 9, 1948",US,12,Niagara University
-1983,11,2133,HOU,Houston Rockets,52,Chuck Nevitt,C,7-5,217,"June 13, 1959",US,R,NC State
-1983,11,2265,HOU,Houston Rockets,5,Billy Paultz,C,6-11,235,"July 30, 1948",US,12,"Cameron University, St. John's"
-1983,11,2816,HOU,Houston Rockets,13,Jeff Taylor,SG,6-4,175,"January 1, 1960",US,R,Texas Tech
-1983,11,2825,HOU,Houston Rockets,20,Terry Teagle,SG,6-5,195,"April 10, 1960",US,R,Baylor
-1983,11,3009,HOU,Houston Rockets,42,Wally Walker,SF,6-7,190,"July 18, 1954",US,6,Virginia
+1983,11,141,HOU,Houston Rockets,2,James Bailey,PF,6-9,220,1957-05-21,US,3,Rutgers University
+1983,11,407,HOU,Houston Rockets,22,Joe Bryant,SF,6-9,185,1954-10-19,US,7,La Salle
+1983,11,1002,HOU,Houston Rockets,0,Calvin Garrett,SF,6-7,190,1956-07-11,US,2,"Austin Peay State University, Oral Roberts"
+1983,11,1235,HOU,Houston Rockets,44,Elvin Hayes,PF,6-9,235,1945-11-17,US,14,Houston
+1983,11,1259,HOU,Houston Rockets,6,Tom Henderson,SG,6-3,190,1952-01-26,US,8,Hawaii
+1983,11,1531,HOU,Houston Rockets,27,Caldwell Jones,C,6-11,217,1950-08-04,US,9,Albany State University
+1983,11,1554,HOU,Houston Rockets,11,Major Jones,PF,6-9,225,1953-07-09,US,3,Albany State University
+1983,11,1716,HOU,Houston Rockets,30,Allen Leavell,PG,6-1,170,1957-05-27,US,3,Oklahoma City University
+1983,11,2086,HOU,Houston Rockets,23,Calvin Murphy,PG,5-9,165,1948-05-09,US,12,Niagara University
+1983,11,2136,HOU,Houston Rockets,52,Chuck Nevitt,C,7-5,217,1959-06-13,US,R,NC State
+1983,11,2268,HOU,Houston Rockets,5,Billy Paultz,C,6-11,235,1948-07-30,US,12,"Cameron University, St. John's"
+1983,11,2820,HOU,Houston Rockets,13,Jeff Taylor,SG,6-4,175,1960-01-01,US,R,Texas Tech
+1983,11,2829,HOU,Houston Rockets,20,Terry Teagle,SG,6-5,195,1960-04-10,US,R,Baylor
+1983,11,3014,HOU,Houston Rockets,42,Wally Walker,SF,6-7,190,1954-07-18,US,6,Virginia

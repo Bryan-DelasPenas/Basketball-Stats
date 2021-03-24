@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1998,21,95,SEA,Seattle Supersonics,2,Greg Anthony,PG,6-0,176,"November 15, 1967",US,6,"University of Portland, UNLV"
-1998,21,148,SEA,Seattle Supersonics,42,Vin Baker,C,6-11,232,"November 23, 1971",US,4,University of Hartford
-1998,21,614,SEA,Seattle Supersonics,4,James Cotton,SG,6-5,220,"December 14, 1975",US,R,Cal State Long Beach
-1998,21,849,SEA,Seattle Supersonics,9,Dale Ellis,SF,6-7,205,"August 6, 1960",US,14,Tennessee
-1998,21,1229,SEA,Seattle Supersonics,33,Hersey Hawkins,SG,6-3,190,"September 29, 1966",US,9,Bradley
-1998,21,1343,SEA,Seattle Supersonics,44,Stephen Howard,SF,6-9,225,"July 15, 1970",US,3,DePaul
-1998,21,1600,SEA,Seattle Supersonics,7,Jerome Kersey,SF,6-7,215,"June 26, 1962",US,13,Longwood University
-1998,21,1939,SEA,Seattle Supersonics,22,Jim McIlvaine,C,7-1,240,"July 30, 1972",US,3,Marquette
-1998,21,1953,SEA,Seattle Supersonics,10,Nate McMillan,SG,6-5,195,"August 3, 1964",US,11,NC State
-1998,21,2273,SEA,Seattle Supersonics,20,Gary Payton,PG,6-4,180,"July 23, 1968",US,7,Oregon State
-1998,21,2287,SEA,Seattle Supersonics,14,Sam Perkins,PF,6-9,235,"June 14, 1961",US,13,UNC
-1998,21,2578,SEA,Seattle Supersonics,11,Detlef Schrempf,SF,6-10,235,"January 21, 1963",DE,12,Washington
-1998,21,2716,SEA,Seattle Supersonics,13,Eric Snow,PG,6-3,190,"April 24, 1973",US,2,Michigan State
-1998,21,3128,SEA,Seattle Supersonics,15,Aaron Williams,PF,6-9,220,"October 2, 1971",US,3,Xavier
-1998,21,3207,SEA,Seattle Supersonics,25,David Wingate,SG,6-5,185,"December 15, 1963",US,11,Georgetown
-1998,21,3275,SEA,Seattle Supersonics,52,George Zidek,C,7-0,250,"August 2, 1973",CZ,2,UCLA
+1998,21,95,SEA,Seattle Supersonics,2,Greg Anthony,PG,6-0,176,1967-11-15,US,6,"University of Portland, UNLV"
+1998,21,148,SEA,Seattle Supersonics,42,Vin Baker,C,6-11,232,1971-11-23,US,4,University of Hartford
+1998,21,614,SEA,Seattle Supersonics,4,James Cotton,SG,6-5,220,1975-12-14,US,R,Cal State Long Beach
+1998,21,851,SEA,Seattle Supersonics,9,Dale Ellis,SF,6-7,205,1960-08-06,US,14,Tennessee
+1998,21,1231,SEA,Seattle Supersonics,33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,9,Bradley
+1998,21,1345,SEA,Seattle Supersonics,44,Stephen Howard,SF,6-9,225,1970-07-15,US,3,DePaul
+1998,21,1602,SEA,Seattle Supersonics,7,Jerome Kersey,SF,6-7,215,1962-06-26,US,13,Longwood University
+1998,21,1942,SEA,Seattle Supersonics,22,Jim McIlvaine,C,7-1,240,1972-07-30,US,3,Marquette
+1998,21,1956,SEA,Seattle Supersonics,10,Nate McMillan,SG,6-5,195,1964-08-03,US,11,NC State
+1998,21,2277,SEA,Seattle Supersonics,20,Gary Payton,PG,6-4,180,1968-07-23,US,7,Oregon State
+1998,21,2290,SEA,Seattle Supersonics,14,Sam Perkins,PF,6-9,235,1961-06-14,US,13,UNC
+1998,21,2582,SEA,Seattle Supersonics,11,Detlef Schrempf,SF,6-10,235,1963-01-21,DE,12,Washington
+1998,21,2720,SEA,Seattle Supersonics,13,Eric Snow,PG,6-3,190,1973-04-24,US,2,Michigan State
+1998,21,3134,SEA,Seattle Supersonics,15,Aaron Williams,PF,6-9,220,1971-10-02,US,3,Xavier
+1998,21,3213,SEA,Seattle Supersonics,25,David Wingate,SG,6-5,185,1963-12-15,US,11,Georgetown
+1998,21,3281,SEA,Seattle Supersonics,52,George Zidek,C,7-0,250,1973-08-02,CZ,2,UCLA

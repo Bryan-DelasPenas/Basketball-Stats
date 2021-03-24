@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1999,10,278,GSW,Golden State Warriors,1,Muggsy Bogues,PG,5-3,136,"January 9, 1965",US,11,Wake Forest
-1999,10,450,GSW,Golden State Warriors,21,Jason Caffey,PF,6-8,255,"June 12, 1973",US,3,Alabama
-1999,10,565,GSW,Golden State Warriors,12,Bimbo Coles,PG,6-1,180,"April 22, 1968",US,8,Virginia Tech
-1999,10,644,GSW,Golden State Warriors,35,Terry Cummings,PF,6-9,220,"March 15, 1961",US,16,DePaul
-1999,10,661,GSW,Golden State Warriors,25,Erick Dampier,C,6-11,265,"July 14, 1975",US,2,Mississippi State
-1999,10,726,GSW,Golden State Warriors,0,Tony Delk,PG,6-1,189,"January 28, 1974",US,2,Kentucky
-1999,10,910,GSW,Golden State Warriors,33,Duane Ferrell,SF,6-7,209,"February 28, 1965",US,10,Georgia Tech
-1999,10,953,GSW,Golden State Warriors,31,Adonal Foyle,C,6-10,250,"March 9, 1975",VC,1,Colgate
-1999,10,1433,GSW,Golden State Warriors,7,Antawn Jamison,SF,6-8,223,"June 12, 1976",US,R,UNC
-1999,10,1844,GSW,Golden State Warriors,3,Donyell Marshall,SF,6-9,218,"May 18, 1973",US,4,UConn
-1999,10,2000,GSW,Golden State Warriors,34,Chris Mills,SF,6-6,215,"January 25, 1970",US,5,"Kentucky, Arizona"
-1999,10,2731,GSW,Golden State Warriors,50,Felton Spencer,C,7-0,265,"January 15, 1968",US,8,Louisville
-1999,10,2740,GSW,Golden State Warriors,9,John Starks,SG,6-3,180,"August 10, 1965",US,9,Oklahoma State
+1999,10,278,GSW,Golden State Warriors,1,Muggsy Bogues,PG,5-3,136,1965-01-09,US,11,Wake Forest
+1999,10,450,GSW,Golden State Warriors,21,Jason Caffey,PF,6-8,255,1973-06-12,US,3,Alabama
+1999,10,565,GSW,Golden State Warriors,12,Bimbo Coles,PG,6-1,180,1968-04-22,US,8,Virginia Tech
+1999,10,644,GSW,Golden State Warriors,35,Terry Cummings,PF,6-9,220,1961-03-15,US,16,DePaul
+1999,10,661,GSW,Golden State Warriors,25,Erick Dampier,C,6-11,265,1975-07-14,US,2,Mississippi State
+1999,10,727,GSW,Golden State Warriors,0,Tony Delk,PG,6-1,189,1974-01-28,US,2,Kentucky
+1999,10,912,GSW,Golden State Warriors,33,Duane Ferrell,SF,6-7,209,1965-02-28,US,10,Georgia Tech
+1999,10,955,GSW,Golden State Warriors,31,Adonal Foyle,C,6-10,250,1975-03-09,VC,1,Colgate
+1999,10,1435,GSW,Golden State Warriors,7,Antawn Jamison,SF,6-8,223,1976-06-12,US,R,UNC
+1999,10,1847,GSW,Golden State Warriors,3,Donyell Marshall,SF,6-9,218,1973-05-18,US,4,UConn
+1999,10,2003,GSW,Golden State Warriors,34,Chris Mills,SF,6-6,215,1970-01-25,US,5,"Kentucky, Arizona"
+1999,10,2735,GSW,Golden State Warriors,50,Felton Spencer,C,7-0,265,1968-01-15,US,8,Louisville
+1999,10,2744,GSW,Golden State Warriors,9,John Starks,SG,6-3,180,1965-08-10,US,9,Oklahoma State

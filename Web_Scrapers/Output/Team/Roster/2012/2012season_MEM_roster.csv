@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2012,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,"January 11, 1982",US,7,"Butler County Community College, Oklahoma State"
-2012,15,104,MEM,Memphis Grizzlies,10,Gilbert Arenas,PG,6-3,191,"January 6, 1982",US,10,Arizona
-2012,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,"October 11, 1987",US,4,Ohio State
-2012,15,646,MEM,Memphis Grizzlies,44,Dante Cunningham,PF,6-8,230,"April 22, 1987",US,2,Villanova
-2012,15,691,MEM,Memphis Grizzlies,18,Josh Davis,PF,6-8,235,"August 10, 1980",US,3,Wyoming
-2012,15,1007,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,"January 29, 1985",ES,3,
-2012,15,1011,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,"August 17, 1986",US,5,UConn
-2012,15,1143,MEM,Memphis Grizzlies,15,Hamed Haddadi,C,7-2,254,"May 19, 1985",IR,3,
-2012,15,1346,MEM,Memphis Grizzlies,14,Lester Hudson,PG,6-3,190,"August 7, 1984",US,2,University of Tennessee at Martin
-2012,15,1888,MEM,Memphis Grizzlies,32,O.J. Mayo,SG,6-5,210,"November 5, 1987",US,3,USC
-2012,15,2245,MEM,Memphis Grizzlies,1,Jeremy Pargo,PG,6-2,219,"March 17, 1986",US,R,Gonzaga
-2012,15,2332,MEM,Memphis Grizzlies,20,Quincy Pondexter,SF,6-7,230,"March 10, 1988",US,1,Washington
-2012,15,2398,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,"July 16, 1981",US,10,Michigan State
-2012,15,2595,MEM,Memphis Grizzlies,2,Josh Selby,PG,6-2,183,"March 27, 1991",US,R,Kansas
-2012,15,2658,MEM,Memphis Grizzlies,3,Brian Skinner,C,6-9,255,"May 19, 1976",US,13,Baylor
-2012,15,2727,MEM,Memphis Grizzlies,5,Marreese Speights,PF,6-10,255,"August 4, 1987",US,3,Florida
-2012,15,3264,MEM,Memphis Grizzlies,4,Sam Young,SF,6-6,220,"June 1, 1985",US,2,Pitt
+2012,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,1982-01-11,US,7,"Butler County Community College, Oklahoma State"
+2012,15,104,MEM,Memphis Grizzlies,10,Gilbert Arenas,PG,6-3,191,1982-01-06,US,10,Arizona
+2012,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,1987-10-11,US,4,Ohio State
+2012,15,646,MEM,Memphis Grizzlies,44,Dante Cunningham,PF,6-8,230,1987-04-22,US,2,Villanova
+2012,15,692,MEM,Memphis Grizzlies,18,Josh Davis,PF,6-8,235,1980-08-10,US,3,Wyoming
+2012,15,1009,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,1985-01-29,ES,3,
+2012,15,1013,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,1986-08-17,US,5,UConn
+2012,15,1145,MEM,Memphis Grizzlies,15,Hamed Haddadi,C,7-2,254,1985-05-19,IR,3,
+2012,15,1348,MEM,Memphis Grizzlies,14,Lester Hudson,PG,6-3,190,1984-08-07,US,2,University of Tennessee at Martin
+2012,15,1891,MEM,Memphis Grizzlies,32,O.J. Mayo,SG,6-5,210,1987-11-05,US,3,USC
+2012,15,2248,MEM,Memphis Grizzlies,1,Jeremy Pargo,PG,6-2,219,1986-03-17,US,R,Gonzaga
+2012,15,2335,MEM,Memphis Grizzlies,20,Quincy Pondexter,SF,6-7,230,1988-03-10,US,1,Washington
+2012,15,2402,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,1981-07-16,US,10,Michigan State
+2012,15,2599,MEM,Memphis Grizzlies,2,Josh Selby,PG,6-2,183,1991-03-27,US,R,Kansas
+2012,15,2662,MEM,Memphis Grizzlies,3,Brian Skinner,C,6-9,255,1976-05-19,US,13,Baylor
+2012,15,2731,MEM,Memphis Grizzlies,5,Marreese Speights,PF,6-10,255,1987-08-04,US,3,Florida
+2012,15,3270,MEM,Memphis Grizzlies,4,Sam Young,SF,6-6,220,1985-06-01,US,2,Pitt

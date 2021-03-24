@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2007,11,60,HOU,Houston Rockets,12,Rafer Alston,PG,6-2,171,"July 24, 1976",US,7,Fresno State
-2007,11,189,HOU,Houston Rockets,31,Shane Battier,SF,6-8,220,"September 9, 1978",US,5,Duke
-2007,11,1232,HOU,Houston Rockets,44,Chuck Hayes,PF,6-6,240,"June 11, 1983",US,1,Kentucky
-2007,11,1243,HOU,Houston Rockets,2,Luther Head,SG,6-3,185,"November 26, 1982",US,1,Illinois
-2007,11,1341,HOU,Houston Rockets,5,Juwan Howard,PF,6-9,240,"February 7, 1973",US,12,Michigan
-2007,11,1787,HOU,Houston Rockets,15,John Lucas III,PG,5-11,166,"November 21, 1982",US,1,"Baylor, Oklahoma State"
-2007,11,1935,HOU,Houston Rockets,1,Tracy McGrady,SG,6-8,210,"May 24, 1979",US,9,
-2007,11,2007,HOU,Houston Rockets,11,Yao Ming,C,7-6,310,"September 12, 1980",CN,4,
-2007,11,2099,HOU,Houston Rockets,55,Dikembe Mutombo,C,7-2,245,"June 25, 1966",CD,15,Georgetown
-2007,11,2161,HOU,Houston Rockets,20,Steve Novak,SF,6-10,225,"June 13, 1983",US,R,Marquette
-2007,11,2237,HOU,Houston Rockets,35,Scott Padgett,PF,6-9,240,"April 19, 1976",US,7,Kentucky
-2007,11,2717,HOU,Houston Rockets,13,Kirk Snyder,SF,6-6,225,"June 5, 1983",US,2,Nevada
-2007,11,2725,HOU,Houston Rockets,10,Vassilis Spanoulis,SG,6-4,195,"August 7, 1982",GR,R,
-2007,11,2915,HOU,Houston Rockets,25,Jake Tsakalidis,C,7-2,285,"June 10, 1979",GE,6,
-2007,11,3065,HOU,Houston Rockets,6,Bonzi Wells,SF,6-5,210,"September 28, 1976",US,8,Ball State University
+2007,11,60,HOU,Houston Rockets,12,Rafer Alston,PG,6-2,171,1976-07-24,US,7,Fresno State
+2007,11,189,HOU,Houston Rockets,31,Shane Battier,SF,6-8,220,1978-09-09,US,5,Duke
+2007,11,1234,HOU,Houston Rockets,44,Chuck Hayes,PF,6-6,240,1983-06-11,US,1,Kentucky
+2007,11,1245,HOU,Houston Rockets,2,Luther Head,SG,6-3,185,1982-11-26,US,1,Illinois
+2007,11,1343,HOU,Houston Rockets,5,Juwan Howard,PF,6-9,240,1973-02-07,US,12,Michigan
+2007,11,1790,HOU,Houston Rockets,15,John Lucas III,PG,5-11,166,1982-11-21,US,1,"Baylor, Oklahoma State"
+2007,11,1938,HOU,Houston Rockets,1,Tracy McGrady,SG,6-8,210,1979-05-24,US,9,
+2007,11,2010,HOU,Houston Rockets,11,Yao Ming,C,7-6,310,1980-09-12,CN,4,
+2007,11,2102,HOU,Houston Rockets,55,Dikembe Mutombo,C,7-2,245,1966-06-25,CD,15,Georgetown
+2007,11,2164,HOU,Houston Rockets,20,Steve Novak,SF,6-10,225,1983-06-13,US,R,Marquette
+2007,11,2240,HOU,Houston Rockets,35,Scott Padgett,PF,6-9,240,1976-04-19,US,7,Kentucky
+2007,11,2721,HOU,Houston Rockets,13,Kirk Snyder,SF,6-6,225,1983-06-05,US,2,Nevada
+2007,11,2729,HOU,Houston Rockets,10,Vassilis Spanoulis,SG,6-4,195,1982-08-07,GR,R,
+2007,11,2920,HOU,Houston Rockets,25,Jake Tsakalidis,C,7-2,285,1979-06-10,GE,6,
+2007,11,3070,HOU,Houston Rockets,6,Bonzi Wells,SF,6-5,210,1976-09-28,US,8,Ball State University

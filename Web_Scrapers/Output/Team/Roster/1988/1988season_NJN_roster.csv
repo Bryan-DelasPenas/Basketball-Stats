@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1988,3,137,NJN,New Jersey Nets,5,John Bagley,PG,6-0,185,"April 23, 1960",US,5,Boston College
-1988,3,247,NJN,New Jersey Nets,10,Otis Birdsong,SG,6-3,190,"December 9, 1955",US,10,Houston
-1988,3,324,NJN,New Jersey Nets,22,Dudley Bradley,SG,6-6,195,"March 19, 1957",US,7,UNC
-1988,3,332,NJN,New Jersey Nets,21,Adrian Branch,SF,6-7,185,"November 17, 1963",US,1,Maryland
-1988,3,562,NJN,New Jersey Nets,40,Ben Coleman,PF,6-9,235,"November 14, 1961",US,1,"Minnesota, Maryland"
-1988,3,584,NJN,New Jersey Nets,45,Dallas Comegys,PF,6-9,205,"August 17, 1964",US,R,DePaul
-1988,3,860,NJN,New Jersey Nets,50,Chris Engler,C,6-11,245,"March 1, 1959",US,4,"Minnesota, Wyoming"
-1988,3,1049,NJN,New Jersey Nets,42,Mike Gminski,C,6-11,250,"August 3, 1959",US,7,Duke
-1988,3,1298,NJN,New Jersey Nets,21,Roy Hinson,SF,6-9,210,"May 2, 1961",US,4,Rutgers University
-1988,3,1323,NJN,New Jersey Nets,23,Dennis Hopson,SG,6-5,200,"April 22, 1965",US,R,Ohio State
-1988,3,1910,NJN,New Jersey Nets,40,Tim McCormick,C,6-11,240,"March 10, 1962",US,3,Michigan
-1988,3,1941,NJN,New Jersey Nets,12,Kevin McKenna,SG,6-5,195,"January 8, 1959",US,5,Creighton
-1988,3,2040,NJN,New Jersey Nets,0,Johnny Moore,PG,6-1,175,"March 3, 1958",US,7,Texas
-1988,3,2177,NJN,New Jersey Nets,31,Mike O'Koren,SF,6-7,207,"February 7, 1958",US,7,UNC
-1988,3,3016,NJN,New Jersey Nets,15,Jamie Waller,SG,6-4,215,"November 20, 1964",US,R,Virginia Union University
-1988,3,3034,NJN,New Jersey Nets,14,Duane Washington,SG,6-4,195,"August 31, 1964",DE,R,Middle Tennessee
-1988,3,3038,NJN,New Jersey Nets,1,Pearl Washington,PG,6-2,190,"January 6, 1964",US,1,Syracuse
-1988,3,3132,NJN,New Jersey Nets,52,Buck Williams,PF,6-8,215,"March 8, 1960",US,6,Maryland
-1988,3,3202,NJN,New Jersey Nets,15,Ricky Wilson,PG,6-3,195,"July 16, 1964",US,R,George Mason
-1988,3,3232,NJN,New Jersey Nets,0,Orlando Woolridge,SF,6-9,215,"December 16, 1959",US,6,Notre Dame
+1988,3,137,NJN,New Jersey Nets,5,John Bagley,PG,6-0,185,1960-04-23,US,5,Boston College
+1988,3,247,NJN,New Jersey Nets,10,Otis Birdsong,SG,6-3,190,1955-12-09,US,10,Houston
+1988,3,324,NJN,New Jersey Nets,22,Dudley Bradley,SG,6-6,195,1957-03-19,US,7,UNC
+1988,3,332,NJN,New Jersey Nets,21,Adrian Branch,SF,6-7,185,1963-11-17,US,1,Maryland
+1988,3,562,NJN,New Jersey Nets,40,Ben Coleman,PF,6-9,235,1961-11-14,US,1,"Minnesota, Maryland"
+1988,3,584,NJN,New Jersey Nets,45,Dallas Comegys,PF,6-9,205,1964-08-17,US,R,DePaul
+1988,3,863,NJN,New Jersey Nets,50,Chris Engler,C,6-11,245,1959-03-01,US,4,"Minnesota, Wyoming"
+1988,3,1051,NJN,New Jersey Nets,42,Mike Gminski,C,6-11,250,1959-08-03,US,7,Duke
+1988,3,1300,NJN,New Jersey Nets,21,Roy Hinson,SF,6-9,210,1961-05-02,US,4,Rutgers University
+1988,3,1325,NJN,New Jersey Nets,23,Dennis Hopson,SG,6-5,200,1965-04-22,US,R,Ohio State
+1988,3,1913,NJN,New Jersey Nets,40,Tim McCormick,C,6-11,240,1962-03-10,US,3,Michigan
+1988,3,1944,NJN,New Jersey Nets,12,Kevin McKenna,SG,6-5,195,1959-01-08,US,5,Creighton
+1988,3,2043,NJN,New Jersey Nets,0,Johnny Moore,PG,6-1,175,1958-03-03,US,7,Texas
+1988,3,2180,NJN,New Jersey Nets,31,Mike O'Koren,SF,6-7,207,1958-02-07,US,7,UNC
+1988,3,3021,NJN,New Jersey Nets,15,Jamie Waller,SG,6-4,215,1964-11-20,US,R,Virginia Union University
+1988,3,3039,NJN,New Jersey Nets,14,Duane Washington,SG,6-4,195,1964-08-31,DE,R,Middle Tennessee
+1988,3,3043,NJN,New Jersey Nets,1,Pearl Washington,PG,6-2,190,1964-01-06,US,1,Syracuse
+1988,3,3138,NJN,New Jersey Nets,52,Buck Williams,PF,6-8,215,1960-03-08,US,6,Maryland
+1988,3,3208,NJN,New Jersey Nets,15,Ricky Wilson,PG,6-3,195,1964-07-16,US,R,George Mason
+1988,3,3238,NJN,New Jersey Nets,0,Orlando Woolridge,SF,6-9,215,1959-12-16,US,6,Notre Dame

@@ -1,23 +1,23 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2008,16,25,MIA,Miami Heat,6,Blake Ahearn,PG,6-2,190,"May 27, 1984",US,R,Missouri State University
-2008,16,96,MIA,Miami Heat,50,Joel Anthony,PF,6-9,245,"August 9, 1982",CA,R,UNLV
-2008,16,158,MIA,Miami Heat,5,Marcus Banks,PG,6-2,200,"November 19, 1981",US,4,UNLV
-2008,16,172,MIA,Miami Heat,30,Earl Barron,C,7-0,250,"August 14, 1981",US,2,Memphis
-2008,16,271,MIA,Miami Heat,15,Mark Blount,C,7-0,230,"November 30, 1975",US,7,Pitt
-2008,16,592,MIA,Miami Heat,14,Daequan Cook,SG,6-5,205,"April 28, 1987",US,R,Ohio State
-2008,16,697,MIA,Miami Heat,31,Ricky Davis,SF,6-6,195,"September 23, 1979",US,9,Iowa
-2008,16,1180,MIA,Miami Heat,7,Anfernee Hardaway,SF,6-7,195,"July 18, 1971",US,13,Memphis
-2008,16,1222,MIA,Miami Heat,40,Udonis Haslem,PF,6-8,235,"June 9, 1980",US,4,Florida
-2008,16,1407,MIA,Miami Heat,6,Luke Jackson,SF,6-7,215,"November 6, 1981",US,3,Oregon
-2008,16,1462,MIA,Miami Heat,13,Alexander Johnson,PF,6-9,240,"February 8, 1983",US,1,Florida State
-2008,16,1528,MIA,Miami Heat,21,Bobby Ray Jones,SF,6-7,215,"January 9, 1984",US,1,Washington
-2008,16,1701,MIA,Miami Heat,45,Stephane Lasme,PF,6-8,215,"December 17, 1982",GA,R,UMass
-2008,16,1838,MIA,Miami Heat,7,Shawn Marion,PF,6-7,220,"May 7, 1978",US,8,UNLV
-2008,16,2071,MIA,Miami Heat,33,Alonzo Mourning,C,6-10,240,"February 8, 1970",US,14,Georgetown
-2008,16,2179,MIA,Miami Heat,32,Shaquille O'Neal,C,7-1,325,"March 6, 1972",US,15,LSU
-2008,16,2249,MIA,Miami Heat,21,Smush Parker,PG,6-4,190,"June 1, 1981",US,4,Fordham
-2008,16,2353,MIA,Miami Heat,12,Kasib Powell,SF,6-7,215,"March 18, 1981",US,R,Texas Tech
-2008,16,2380,MIA,Miami Heat,11,Chris Quinn,PG,6-2,185,"September 27, 1983",US,1,Notre Dame
-2008,16,2992,MIA,Miami Heat,3,Dwyane Wade,SG,6-4,220,"January 17, 1982",US,4,Marquette
-2008,16,3147,MIA,Miami Heat,55,Jason Williams,PG,6-1,190,"November 18, 1975",US,9,"Marshall, Florida"
-2008,16,3244,MIA,Miami Heat,1,Dorell Wright,SF,6-9,205,"December 2, 1985",US,3,
+2008,16,25,MIA,Miami Heat,6,Blake Ahearn,PG,6-2,190,1984-05-27,US,R,Missouri State University
+2008,16,96,MIA,Miami Heat,50,Joel Anthony,PF,6-9,245,1982-08-09,CA,R,UNLV
+2008,16,158,MIA,Miami Heat,5,Marcus Banks,PG,6-2,200,1981-11-19,US,4,UNLV
+2008,16,172,MIA,Miami Heat,30,Earl Barron,C,7-0,250,1981-08-14,US,2,Memphis
+2008,16,271,MIA,Miami Heat,15,Mark Blount,C,7-0,230,1975-11-30,US,7,Pitt
+2008,16,592,MIA,Miami Heat,14,Daequan Cook,SG,6-5,205,1987-04-28,US,R,Ohio State
+2008,16,698,MIA,Miami Heat,31,Ricky Davis,SF,6-6,195,1979-09-23,US,9,Iowa
+2008,16,1182,MIA,Miami Heat,7,Anfernee Hardaway,SF,6-7,195,1971-07-18,US,13,Memphis
+2008,16,1224,MIA,Miami Heat,40,Udonis Haslem,PF,6-8,235,1980-06-09,US,4,Florida
+2008,16,1409,MIA,Miami Heat,6,Luke Jackson,SF,6-7,215,1981-11-06,US,3,Oregon
+2008,16,1464,MIA,Miami Heat,13,Alexander Johnson,PF,6-9,240,1983-02-08,US,1,Florida State
+2008,16,1530,MIA,Miami Heat,21,Bobby Jones,SF,6-7,215,1984-01-09,US,1,Washington
+2008,16,1704,MIA,Miami Heat,45,Stephane Lasme,PF,6-8,215,1982-12-17,GA,R,UMass
+2008,16,1841,MIA,Miami Heat,7,Shawn Marion,PF,6-7,220,1978-05-07,US,8,UNLV
+2008,16,2074,MIA,Miami Heat,33,Alonzo Mourning,C,6-10,240,1970-02-08,US,14,Georgetown
+2008,16,2182,MIA,Miami Heat,32,Shaquille O'Neal,C,7-1,325,1972-03-06,US,15,LSU
+2008,16,2252,MIA,Miami Heat,21,Smush Parker,PG,6-4,190,1981-06-01,US,4,Fordham
+2008,16,2357,MIA,Miami Heat,12,Kasib Powell,SF,6-7,215,1981-03-18,US,R,Texas Tech
+2008,16,2384,MIA,Miami Heat,11,Chris Quinn,PG,6-2,185,1983-09-27,US,1,Notre Dame
+2008,16,2997,MIA,Miami Heat,3,Dwyane Wade,SG,6-4,220,1982-01-17,US,4,Marquette
+2008,16,3153,MIA,Miami Heat,55,Jason Williams,PG,6-1,190,1975-11-18,US,9,"Marshall, Florida"
+2008,16,3250,MIA,Miami Heat,1,Dorell Wright,SF,6-9,205,1985-12-02,US,3,

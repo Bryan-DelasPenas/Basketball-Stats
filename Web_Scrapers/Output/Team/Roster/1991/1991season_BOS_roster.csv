@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1991,2,246,BOS,Boston Celtics,33,Larry Bird,SF,6-9,220,"December 7, 1956",US,11,Indiana State University
-1991,2,374,BOS,Boston Celtics,7,DeCovan Brown,PG,6-1,160,"November 29, 1968",US,R,Jacksonville University
-1991,2,985,BOS,Boston Celtics,34,Kevin Gamble,SF,6-5,210,"November 13, 1965",US,3,Iowa
-1991,2,1633,BOS,Boston Celtics,53,Joe Kleine,C,6-11,255,"January 4, 1962",US,5,"Notre Dame, Arkansas"
-1991,2,1749,BOS,Boston Celtics,35,Reggie Lewis,SG,6-7,195,"November 21, 1965",US,3,Northeastern University
-1991,2,1938,BOS,Boston Celtics,32,Kevin McHale,PF,6-10,210,"December 19, 1957",US,10,Minnesota
-1991,2,2246,BOS,Boston Celtics,0,Robert Parish,C,7-1,230,"August 30, 1953",US,14,Centenary (LA)
-1991,2,2311,BOS,Boston Celtics,54,Ed Pinckney,PF,6-9,195,"March 27, 1963",US,5,Villanova
-1991,2,2337,BOS,Boston Celtics,42,Dave Popson,PF,6-10,220,"May 17, 1964",US,1,UNC
-1991,2,2611,BOS,Boston Celtics,20,Brian Shaw,PG,6-6,190,"March 22, 1966",US,1,"Saint Mary's, UC Santa Barbara"
-1991,2,2670,BOS,Boston Celtics,13,Charles Edward Smith,PG,6-1,160,"November 29, 1967",US,1,Georgetown
-1991,2,2677,BOS,Boston Celtics,43,Derek Smith,SF,6-6,205,"November 1, 1961",US,8,Louisville
-1991,2,2695,BOS,Boston Celtics,11,Michael Smith (1965),PF,6-10,225,"May 19, 1965",US,1,BYU
-1991,2,2985,BOS,Boston Celtics,52,Stojko Vrankovic,C,7-2,260,"January 22, 1964",HR,R,
-1991,2,3253,BOS,Boston Celtics,12,A.J. Wynder,PG,6-2,180,"September 11, 1964",US,R,"UMass, Fairfield"
+1991,2,246,BOS,Boston Celtics,33,Larry Bird,SF,6-9,220,1956-12-07,US,11,Indiana State University
+1991,2,375,BOS,Boston Celtics,7,Dee Brown,PG,6-1,160,1968-11-29,US,R,Jacksonville University
+1991,2,987,BOS,Boston Celtics,34,Kevin Gamble,SF,6-5,210,1965-11-13,US,3,Iowa
+1991,2,1635,BOS,Boston Celtics,53,Joe Kleine,C,6-11,255,1962-01-04,US,5,"Notre Dame, Arkansas"
+1991,2,1752,BOS,Boston Celtics,35,Reggie Lewis,SG,6-7,195,1965-11-21,US,3,Northeastern University
+1991,2,1941,BOS,Boston Celtics,32,Kevin McHale,PF,6-10,210,1957-12-19,US,10,Minnesota
+1991,2,2249,BOS,Boston Celtics,0,Robert Parish,C,7-1,230,1953-08-30,US,14,Centenary (LA)
+1991,2,2314,BOS,Boston Celtics,54,Ed Pinckney,PF,6-9,195,1963-03-27,US,5,Villanova
+1991,2,2340,BOS,Boston Celtics,42,Dave Popson,PF,6-10,220,1964-05-17,US,1,UNC
+1991,2,2615,BOS,Boston Celtics,20,Brian Shaw,PG,6-6,190,1966-03-22,US,1,"Saint Mary's, UC Santa Barbara"
+1991,2,2675,BOS,Boston Celtics,13,Charles Smith,PG,6-1,160,1967-11-29,US,1,Georgetown
+1991,2,2681,BOS,Boston Celtics,43,Derek Smith,SF,6-6,205,1961-11-01,US,8,Louisville
+1991,2,2700,BOS,Boston Celtics,11,Michael Smith,PF,6-10,225,1965-05-19,US,1,BYU
+1991,2,2990,BOS,Boston Celtics,52,Stojko Vrankovic,C,7-2,260,1964-01-22,HR,R,
+1991,2,3259,BOS,Boston Celtics,12,A.J. Wynder,PG,6-2,180,1964-09-11,US,R,"UMass, Fairfield"

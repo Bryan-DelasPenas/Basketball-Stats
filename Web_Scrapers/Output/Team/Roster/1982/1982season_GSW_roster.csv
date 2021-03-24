@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1982,10,396,GSW,Golden State Warriors,23,Rickey Brown,C,6-10,215,"August 20, 1958",US,1,Mississippi State
-1982,10,482,GSW,Golden State Warriors,2,Joe Barry Carroll,C,7-0,225,"July 24, 1958",US,1,Purdue
-1982,10,964,GSW,Golden State Warriors,21,World B. Free,SG,6-2,185,"December 9, 1953",US,6,Guilford College
-1982,10,981,GSW,Golden State Warriors,12,Mike Gale,PG,6-4,185,"July 18, 1950",US,10,Elizabeth City State University
-1982,10,1224,GSW,Golden State Warriors,10,Joe Hassett,SG,6-5,180,"September 11, 1955",US,4,Providence
-1982,10,1616,GSW,Golden State Warriors,30,Bernard King,SF,6-7,205,"December 4, 1956",US,4,Tennessee
-1982,10,1761,GSW,Golden State Warriors,32,Lewis Lloyd,SG,6-6,205,"February 22, 1959",US,R,Drake University
-1982,10,1927,GSW,Golden State Warriors,44,Hank McDowell,PF,6-9,215,"November 13, 1959",US,R,Memphis
-1982,10,2250,GSW,Golden State Warriors,22,Sonny Parker,SF,6-6,200,"March 22, 1955",US,5,Texas A&M
-1982,10,2505,GSW,Golden State Warriors,18,Lorenzo Romar,PG,6-1,175,"November 13, 1958",US,1,Washington
-1982,10,2620,GSW,Golden State Warriors,45,Purvis Short,SF,6-7,210,"July 2, 1957",US,3,Jackson State University
-1982,10,2693,GSW,Golden State Warriors,13,Larry Smith,PF,6-8,215,"January 18, 1958",US,1,Alcorn State
-1982,10,3177,GSW,Golden State Warriors,33,Sam Williams,PF,6-8,210,"March 7, 1959",US,R,Arizona State
+1982,10,396,GSW,Golden State Warriors,23,Rickey Brown,C,6-10,215,1958-08-20,US,1,Mississippi State
+1982,10,482,GSW,Golden State Warriors,2,Joe Barry Carroll,C,7-0,225,1958-07-24,US,1,Purdue
+1982,10,966,GSW,Golden State Warriors,21,World B. Free,SG,6-2,185,1953-12-09,US,6,Guilford College
+1982,10,983,GSW,Golden State Warriors,12,Mike Gale,PG,6-4,185,1950-07-18,US,10,Elizabeth City State University
+1982,10,1226,GSW,Golden State Warriors,10,Joe Hassett,SG,6-5,180,1955-09-11,US,4,Providence
+1982,10,1618,GSW,Golden State Warriors,30,Bernard King,SF,6-7,205,1956-12-04,US,4,Tennessee
+1982,10,1764,GSW,Golden State Warriors,32,Lewis Lloyd,SG,6-6,205,1959-02-22,US,R,Drake University
+1982,10,1930,GSW,Golden State Warriors,44,Hank McDowell,PF,6-9,215,1959-11-13,US,R,Memphis
+1982,10,2253,GSW,Golden State Warriors,22,Sonny Parker,SF,6-6,200,1955-03-22,US,5,Texas A&M
+1982,10,2509,GSW,Golden State Warriors,18,Lorenzo Romar,PG,6-1,175,1958-11-13,US,1,Washington
+1982,10,2624,GSW,Golden State Warriors,45,Purvis Short,SF,6-7,210,1957-07-02,US,3,Jackson State University
+1982,10,2697,GSW,Golden State Warriors,13,Larry Smith,PF,6-8,215,1958-01-18,US,1,Alcorn State
+1982,10,3183,GSW,Golden State Warriors,33,Sam Williams,PF,6-8,210,1959-03-07,US,R,Arizona State

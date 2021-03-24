@@ -4,6 +4,7 @@ import pandas as pd
 import unicodedata, unidecode
 import unicodedata
 import re 
+from datetime import datetime
 
 '''
 Removes accents from string
@@ -49,3 +50,11 @@ def remove_char(string, postion):
     # Returning string after removing 
     # nth indexed character. 
     return a + b 
+
+def proper_dates(date):
+    # Removes the comma 
+    date = date.replace(',','')
+    
+    # Changes into YYYY-MM-DD
+    datetime_object = datetime.strptime(date, "%B %d %Y").strftime('%Y-%m-%d')
+    return str(datetime_object)

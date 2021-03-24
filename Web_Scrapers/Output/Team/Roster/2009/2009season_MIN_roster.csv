@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2009,18,297,MIN,Minnesota Timberwolves,52,Calvin Booth,C,6-11,230,"May 7, 1976",US,9,Penn State
-2009,18,342,MIN,Minnesota Timberwolves,22,Corey Brewer,SF,6-9,186,"March 5, 1986",US,1,Florida
-2009,18,369,MIN,Minnesota Timberwolves,1,Bobby Brown,PG,6-2,175,"September 24, 1984",US,R,Cal State Fullerton
-2009,18,469,MIN,Minnesota Timberwolves,14,Brian Cardinal,PF,6-8,245,"May 2, 1977",US,8,Purdue
-2009,18,473,MIN,Minnesota Timberwolves,10,Rodney Carney,SG,6-7,205,"April 15, 1984",US,2,Memphis
-2009,18,572,MIN,Minnesota Timberwolves,34,Jason Collins,C,7-0,255,"December 2, 1978",US,7,Stanford
-2009,18,952,MIN,Minnesota Timberwolves,4,Randy Foye,SG,6-4,213,"September 24, 1983",US,2,Villanova
-2009,18,1053,MIN,Minnesota Timberwolves,8,Ryan Gomes,SF,6-7,250,"September 1, 1982",US,3,Providence
-2009,18,1441,MIN,Minnesota Timberwolves,25,Al Jefferson,C,6-10,289,"January 4, 1985",US,4,
-2009,18,1780,MIN,Minnesota Timberwolves,42,Kevin Love,C,6-8,251,"September 7, 1988",US,R,UCLA
-2009,18,1811,MIN,Minnesota Timberwolves,35,Mark Madsen,C,6-9,240,"January 28, 1976",US,8,Stanford
-2009,18,1898,MIN,Minnesota Timberwolves,1,Rashad McCants,SG,6-4,207,"September 25, 1984",US,3,UNC
-2009,18,1996,MIN,Minnesota Timberwolves,33,Mike Miller,SF,6-8,218,"February 19, 1980",US,8,Florida
-2009,18,2208,MIN,Minnesota Timberwolves,12,Kevin Ollie,PG,6-4,195,"December 27, 1972",US,11,UConn
-2009,18,2675,MIN,Minnesota Timberwolves,5,Craig Smith,PF,6-7,250,"November 10, 1983",US,2,Boston College
-2009,18,2829,MIN,Minnesota Timberwolves,3,Sebastian Telfair,PG,6-0,165,"June 9, 1985",US,4,
-2009,18,3182,MIN,Minnesota Timberwolves,23,Shelden Williams,PF,6-9,250,"October 21, 1983",US,2,Duke
+2009,18,297,MIN,Minnesota Timberwolves,52,Calvin Booth,C,6-11,230,1976-05-07,US,9,Penn State
+2009,18,342,MIN,Minnesota Timberwolves,22,Corey Brewer,SF,6-9,186,1986-03-05,US,1,Florida
+2009,18,369,MIN,Minnesota Timberwolves,1,Bobby Brown,PG,6-2,175,1984-09-24,US,R,Cal State Fullerton
+2009,18,469,MIN,Minnesota Timberwolves,14,Brian Cardinal,PF,6-8,245,1977-05-02,US,8,Purdue
+2009,18,473,MIN,Minnesota Timberwolves,10,Rodney Carney,SG,6-7,205,1984-04-15,US,2,Memphis
+2009,18,572,MIN,Minnesota Timberwolves,34,Jason Collins,C,7-0,255,1978-12-02,US,7,Stanford
+2009,18,954,MIN,Minnesota Timberwolves,4,Randy Foye,SG,6-4,213,1983-09-24,US,2,Villanova
+2009,18,1055,MIN,Minnesota Timberwolves,8,Ryan Gomes,SF,6-7,250,1982-09-01,US,3,Providence
+2009,18,1443,MIN,Minnesota Timberwolves,25,Al Jefferson,C,6-10,289,1985-01-04,US,4,
+2009,18,1783,MIN,Minnesota Timberwolves,42,Kevin Love,C,6-8,251,1988-09-07,US,R,UCLA
+2009,18,1814,MIN,Minnesota Timberwolves,35,Mark Madsen,C,6-9,240,1976-01-28,US,8,Stanford
+2009,18,1901,MIN,Minnesota Timberwolves,1,Rashad McCants,SG,6-4,207,1984-09-25,US,3,UNC
+2009,18,1999,MIN,Minnesota Timberwolves,33,Mike Miller,SF,6-8,218,1980-02-19,US,8,Florida
+2009,18,2211,MIN,Minnesota Timberwolves,12,Kevin Ollie,PG,6-4,195,1972-12-27,US,11,UConn
+2009,18,2679,MIN,Minnesota Timberwolves,5,Craig Smith,PF,6-7,250,1983-11-10,US,2,Boston College
+2009,18,2833,MIN,Minnesota Timberwolves,3,Sebastian Telfair,PG,6-0,165,1985-06-09,US,4,
+2009,18,3188,MIN,Minnesota Timberwolves,23,Shelden Williams,PF,6-9,250,1983-10-21,US,2,Duke

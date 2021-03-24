@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1991,22,10,ORL,Orlando Magic,42,Mark Acres,C,6-11,220,"November 15, 1962",US,3,Oral Roberts
-1991,22,80,ORL,Orlando Magic,25,Nick Anderson,SG,6-6,205,"January 20, 1968",US,1,Illinois
-1991,22,88,ORL,Orlando Magic,45,Michael Ansley,SF,6-7,225,"February 8, 1967",US,1,Alabama
-1991,22,500,ORL,Orlando Magic,33,Terry Catledge,PF,6-8,220,"August 22, 1963",US,5,University of South Alabama
-1991,22,1630,ORL,Orlando Magic,34,Greg Kite,C,6-11,250,"August 5, 1961",US,7,BYU
-1991,22,1955,ORL,Orlando Magic,41,Mark McNamara,C,6-11,235,"June 8, 1959",US,7,"Santa Clara, California"
-1991,22,2435,ORL,Orlando Magic,35,Jerry Reynolds,SG,6-8,200,"December 23, 1962",US,5,LSU
-1991,22,2586,ORL,Orlando Magic,3,Dennis Scott,SG,6-8,229,"September 5, 1968",US,R,Georgia Tech
-1991,22,2656,ORL,Orlando Magic,4,Scott Skiles,PG,6-1,180,"March 5, 1964",US,4,Michigan State
-1991,22,2699,ORL,Orlando Magic,32,Otis Smith,SF,6-5,210,"January 30, 1964",US,4,Jacksonville University
-1991,22,2929,ORL,Orlando Magic,31,Jeff Turner,PF,6-9,230,"April 9, 1962",US,4,Vanderbilt
-1991,22,2976,ORL,Orlando Magic,11,Sam Vincent,PG,6-2,185,"May 18, 1963",US,5,Michigan State
-1991,22,3117,ORL,Orlando Magic,20,Morlon Wiley,PG,6-4,185,"September 24, 1966",US,2,Cal State Long Beach
-1991,22,3245,ORL,Orlando Magic,42,Howard Wright,PF,6-8,220,"December 20, 1967",US,R,Stanford
+1991,22,10,ORL,Orlando Magic,42,Mark Acres,C,6-11,220,1962-11-15,US,3,Oral Roberts
+1991,22,80,ORL,Orlando Magic,25,Nick Anderson,SG,6-6,205,1968-01-20,US,1,Illinois
+1991,22,88,ORL,Orlando Magic,45,Michael Ansley,SF,6-7,225,1967-02-08,US,1,Alabama
+1991,22,500,ORL,Orlando Magic,33,Terry Catledge,PF,6-8,220,1963-08-22,US,5,University of South Alabama
+1991,22,1632,ORL,Orlando Magic,34,Greg Kite,C,6-11,250,1961-08-05,US,7,BYU
+1991,22,1958,ORL,Orlando Magic,41,Mark McNamara,C,6-11,235,1959-06-08,US,7,"Santa Clara, California"
+1991,22,2439,ORL,Orlando Magic,35,Jerry Reynolds,SG,6-8,200,1962-12-23,US,5,LSU
+1991,22,2590,ORL,Orlando Magic,3,Dennis Scott,SG,6-8,229,1968-09-05,US,R,Georgia Tech
+1991,22,2660,ORL,Orlando Magic,4,Scott Skiles,PG,6-1,180,1964-03-05,US,4,Michigan State
+1991,22,2703,ORL,Orlando Magic,32,Otis Smith,SF,6-5,210,1964-01-30,US,4,Jacksonville University
+1991,22,2934,ORL,Orlando Magic,31,Jeff Turner,PF,6-9,230,1962-04-09,US,4,Vanderbilt
+1991,22,2981,ORL,Orlando Magic,11,Sam Vincent,PG,6-2,185,1963-05-18,US,5,Michigan State
+1991,22,3123,ORL,Orlando Magic,20,Morlon Wiley,PG,6-4,185,1966-09-24,US,2,Cal State Long Beach
+1991,22,3251,ORL,Orlando Magic,42,Howard Wright,PF,6-8,220,1967-12-20,US,R,Stanford

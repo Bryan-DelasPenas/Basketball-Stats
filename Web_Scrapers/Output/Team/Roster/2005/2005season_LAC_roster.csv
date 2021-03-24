@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2005,13,77,LAC,Los Angeles Clippers,7,Kenny Anderson,PG,6-0,168,"October 9, 1970",US,13,Georgia Tech
-2005,13,146,LAC,Los Angeles Clippers,4,Maurice Baker,PG,6-1,175,"July 28, 1979",US,R,Oklahoma State
-2005,13,333,LAC,Los Angeles Clippers,42,Elton Brand,PF,6-8,275,"March 11, 1979",US,5,Duke
-2005,13,405,LAC,Los Angeles Clippers,9,Rick Brunson,PG,6-4,190,"June 14, 1972",US,7,Temple
-2005,13,510,LAC,Los Angeles Clippers,0,Lionel Chalmers,PG,6-0,180,"November 10, 1980",US,R,Xavier
-2005,13,1435,LAC,Los Angeles Clippers,20,Marko Jaric,PG,6-7,198,"October 12, 1978",RS,2,
-2005,13,1578,LAC,Los Angeles Clippers,35,Chris Kaman,C,7-0,265,"April 28, 1982",US,1,Central Michigan University
-2005,13,1631,LAC,Los Angeles Clippers,30,Kerry Kittles,SG,6-5,179,"June 12, 1974",US,7,Villanova
-2005,13,1759,LAC,Los Angeles Clippers,14,Shaun Livingston,PG,6-7,192,"September 11, 1985",US,R,
-2005,13,1813,LAC,Los Angeles Clippers,50,Corey Maggette,SG,6-6,218,"November 12, 1979",US,5,Duke
-2005,13,1855,LAC,Los Angeles Clippers,15,Darrick Martin,PG,5-11,170,"March 6, 1971",US,9,UCLA
-2005,13,2042,LAC,Los Angeles Clippers,33,Mikki Moore,PF,6-11,225,"November 4, 1975",US,6,Nebraska
-2005,13,2105,LAC,Los Angeles Clippers,34,Mamadou N'Diaye,C,7-0,255,"June 16, 1975",SN,4,Auburn
-2005,13,2283,LAC,Los Angeles Clippers,22,Kirk Penney,SG,6-5,220,"November 23, 1980",NZ,1,Wisconsin
-2005,13,2410,LAC,Los Angeles Clippers,11,Zeljko Rebraca,C,7-0,257,"April 9, 1972",RS,3,
-2005,13,2512,LAC,Los Angeles Clippers,13,Quinton Ross,SG,6-6,195,"April 30, 1981",US,R,SMU
-2005,13,2636,LAC,Los Angeles Clippers,21,Bobby Simmons,SF,6-7,210,"June 2, 1980",US,3,DePaul
-2005,13,3114,LAC,Los Angeles Clippers,54,Chris Wilcox,C,6-10,221,"September 3, 1982",US,2,Maryland
+2005,13,77,LAC,Los Angeles Clippers,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,13,Georgia Tech
+2005,13,146,LAC,Los Angeles Clippers,4,Maurice Baker,PG,6-1,175,1979-07-28,US,R,Oklahoma State
+2005,13,333,LAC,Los Angeles Clippers,42,Elton Brand,PF,6-8,275,1979-03-11,US,5,Duke
+2005,13,405,LAC,Los Angeles Clippers,9,Rick Brunson,PG,6-4,190,1972-06-14,US,7,Temple
+2005,13,510,LAC,Los Angeles Clippers,0,Lionel Chalmers,PG,6-0,180,1980-11-10,US,R,Xavier
+2005,13,1437,LAC,Los Angeles Clippers,20,Marko Jaric,PG,6-7,198,1978-10-12,RS,2,
+2005,13,1580,LAC,Los Angeles Clippers,35,Chris Kaman,C,7-0,265,1982-04-28,US,1,Central Michigan University
+2005,13,1633,LAC,Los Angeles Clippers,30,Kerry Kittles,SG,6-5,179,1974-06-12,US,7,Villanova
+2005,13,1762,LAC,Los Angeles Clippers,14,Shaun Livingston,PG,6-7,192,1985-09-11,US,R,
+2005,13,1816,LAC,Los Angeles Clippers,50,Corey Maggette,SG,6-6,218,1979-11-12,US,5,Duke
+2005,13,1858,LAC,Los Angeles Clippers,15,Darrick Martin,PG,5-11,170,1971-03-06,US,9,UCLA
+2005,13,2045,LAC,Los Angeles Clippers,33,Mikki Moore,PF,6-11,225,1975-11-04,US,6,Nebraska
+2005,13,2108,LAC,Los Angeles Clippers,34,Mamadou N'Diaye,C,7-0,255,1975-06-16,SN,4,Auburn
+2005,13,2286,LAC,Los Angeles Clippers,22,Kirk Penney,SG,6-5,220,1980-11-23,NZ,1,Wisconsin
+2005,13,2414,LAC,Los Angeles Clippers,11,Zeljko Rebraca,C,7-0,257,1972-04-09,RS,3,
+2005,13,2516,LAC,Los Angeles Clippers,13,Quinton Ross,SG,6-6,195,1981-04-30,US,R,SMU
+2005,13,2640,LAC,Los Angeles Clippers,21,Bobby Simmons,SF,6-7,210,1980-06-02,US,3,DePaul
+2005,13,3120,LAC,Los Angeles Clippers,54,Chris Wilcox,C,6-10,221,1982-09-03,US,2,Maryland

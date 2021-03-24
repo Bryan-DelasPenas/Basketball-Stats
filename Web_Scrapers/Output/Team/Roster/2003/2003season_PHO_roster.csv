@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2003,24,394,PHO,Phoenix Suns,0,Randy Brown,PG,6-2,190,"May 22, 1968",US,11,"Houston, New Mexico State"
-2003,24,933,PHO,Phoenix Suns,4,Alton Ford,PF,6-9,275,"May 29, 1981",US,1,Houston
-2003,24,1136,PHO,Phoenix Suns,24,Tom Gugliotta,PF,6-10,240,"December 19, 1969",US,10,NC State
-2003,24,1180,PHO,Phoenix Suns,1,Anfernee Hardaway,SG,6-7,195,"July 18, 1971",US,9,Memphis
-2003,24,1421,PHO,Phoenix Suns,23,Casey Jacobsen,SF,6-6,215,"March 19, 1981",US,R,Stanford
-2003,24,1494,PHO,Phoenix Suns,2,Joe Johnson,SG,6-7,240,"June 29, 1981",US,1,Arkansas
-2003,24,1697,PHO,Phoenix Suns,14,Dan Langhi,SF,6-11,220,"November 28, 1977",US,2,Vanderbilt
-2003,24,1836,PHO,Phoenix Suns,3,Stephon Marbury,PG,6-2,180,"February 20, 1977",US,6,Georgia Tech
-2003,24,1838,PHO,Phoenix Suns,31,Shawn Marion,SF,6-7,220,"May 7, 1978",US,3,UNLV
-2003,24,2222,PHO,Phoenix Suns,45,Bo Outlaw,C,6-8,210,"April 13, 1971",US,9,"South Plains College, Houston"
-2003,24,2773,PHO,Phoenix Suns,32,Amar'e Stoudemire,PF,6-10,245,"November 16, 1982",US,R,
-2003,24,2915,PHO,Phoenix Suns,25,Jake Tsakalidis,C,7-2,285,"June 10, 1979",GE,2,
-2003,24,2982,PHO,Phoenix Suns,43,Jake Voskuhl,C,6-11,245,"November 1, 1977",US,2,UConn
-2003,24,3178,PHO,Phoenix Suns,47,Scott Williams,C,6-10,230,"March 21, 1968",US,12,UNC
+2003,24,394,PHO,Phoenix Suns,0,Randy Brown,PG,6-2,190,1968-05-22,US,11,"Houston, New Mexico State"
+2003,24,935,PHO,Phoenix Suns,4,Alton Ford,PF,6-9,275,1981-05-29,US,1,Houston
+2003,24,1138,PHO,Phoenix Suns,24,Tom Gugliotta,PF,6-10,240,1969-12-19,US,10,NC State
+2003,24,1182,PHO,Phoenix Suns,1,Anfernee Hardaway,SG,6-7,195,1971-07-18,US,9,Memphis
+2003,24,1423,PHO,Phoenix Suns,23,Casey Jacobsen,SF,6-6,215,1981-03-19,US,R,Stanford
+2003,24,1496,PHO,Phoenix Suns,2,Joe Johnson,SG,6-7,240,1981-06-29,US,1,Arkansas
+2003,24,1700,PHO,Phoenix Suns,14,Dan Langhi,SF,6-11,220,1977-11-28,US,2,Vanderbilt
+2003,24,1839,PHO,Phoenix Suns,3,Stephon Marbury,PG,6-2,180,1977-02-20,US,6,Georgia Tech
+2003,24,1841,PHO,Phoenix Suns,31,Shawn Marion,SF,6-7,220,1978-05-07,US,3,UNLV
+2003,24,2225,PHO,Phoenix Suns,45,Bo Outlaw,C,6-8,210,1971-04-13,US,9,"South Plains College, Houston"
+2003,24,2777,PHO,Phoenix Suns,32,Amar'e Stoudemire,PF,6-10,245,1982-11-16,US,R,
+2003,24,2920,PHO,Phoenix Suns,25,Jake Tsakalidis,C,7-2,285,1979-06-10,GE,2,
+2003,24,2987,PHO,Phoenix Suns,43,Jake Voskuhl,C,6-11,245,1977-11-01,US,2,UConn
+2003,24,3184,PHO,Phoenix Suns,47,Scott Williams,C,6-10,230,1968-03-21,US,12,UNC

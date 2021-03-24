@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2017,24,161,PHO,Phoenix Suns,19,Leandro Barbosa,SG,6-3,194,"November 28, 1982",BR,13,
-2017,24,214,PHO,Phoenix Suns,35,Dragan Bender,PF,7-0,225,"November 17, 1997",BA,R,
-2017,24,267,PHO,Phoenix Suns,2,Eric Bledsoe,PG,6-1,214,"December 9, 1989",US,6,Kentucky
-2017,24,292,PHO,Phoenix Suns,1,Devin Booker,SG,6-5,206,"October 30, 1996",US,1,Kentucky
-2017,24,514,PHO,Phoenix Suns,4,Tyson Chandler,C,7-0,235,"October 2, 1982",US,15,
-2017,24,532,PHO,Phoenix Suns,0,Marquese Chriss,PF,6-9,240,"July 2, 1997",US,R,Washington
-2017,24,793,PHO,Phoenix Suns,3,Jared Dudley,PF,6-6,237,"July 10, 1985",US,9,Boston College
-2017,24,820,PHO,Phoenix Suns,31,Jarell Eddie,SF,6-7,218,"October 30, 1991",US,1,Virginia Tech
-2017,24,1450,PHO,Phoenix Suns,23,John Jenkins,SG,6-4,215,"March 6, 1991",US,4,Vanderbilt
-2017,24,1537,PHO,Phoenix Suns,10,Derrick Jones Jr.,SF,6-5,210,"February 15, 1997",US,R,UNLV
-2017,24,1637,PHO,Phoenix Suns,11,Brandon Knight,SG,6-2,182,"December 2, 1991",US,5,Kentucky
-2017,24,1731,PHO,Phoenix Suns,21,Alex Len,C,7-0,250,"June 16, 1993",UA,3,Maryland
-2017,24,2003,PHO,Phoenix Suns,22,Elijah Millsap,SG,6-6,225,"August 12, 1987",US,2,"Louisiana, UAB"
-2017,24,2364,PHO,Phoenix Suns,14,Ronnie Price,PG,6-2,190,"June 21, 1983",US,11,"Nicholls State, Utah Valley"
-2017,24,2919,PHO,Phoenix Suns,17,P.J. Tucker,SF,6-5,245,"May 5, 1985",US,5,Texas
-2017,24,2943,PHO,Phoenix Suns,8,Tyler Ulis,PG,5-10,160,"January 5, 1996",US,R,Kentucky
-2017,24,3027,PHO,Phoenix Suns,12,T.J. Warren,SF,6-8,220,"September 5, 1993",US,2,NC State
-2017,24,3129,PHO,Phoenix Suns,15,Alan Williams,C,6-8,265,"January 28, 1993",US,1,UC Santa Barbara
+2017,24,161,PHO,Phoenix Suns,19,Leandro Barbosa,SG,6-3,194,1982-11-28,BR,13,
+2017,24,214,PHO,Phoenix Suns,35,Dragan Bender,PF,7-0,225,1997-11-17,BA,R,
+2017,24,267,PHO,Phoenix Suns,2,Eric Bledsoe,PG,6-1,214,1989-12-09,US,6,Kentucky
+2017,24,292,PHO,Phoenix Suns,1,Devin Booker,SG,6-5,206,1996-10-30,US,1,Kentucky
+2017,24,514,PHO,Phoenix Suns,4,Tyson Chandler,C,7-0,235,1982-10-02,US,15,
+2017,24,532,PHO,Phoenix Suns,0,Marquese Chriss,PF,6-9,240,1997-07-02,US,R,Washington
+2017,24,795,PHO,Phoenix Suns,3,Jared Dudley,PF,6-6,237,1985-07-10,US,9,Boston College
+2017,24,822,PHO,Phoenix Suns,31,Jarell Eddie,SF,6-7,218,1991-10-30,US,1,Virginia Tech
+2017,24,1452,PHO,Phoenix Suns,23,John Jenkins,SG,6-4,215,1991-03-06,US,4,Vanderbilt
+2017,24,1539,PHO,Phoenix Suns,10,Derrick Jones,SF,6-5,210,1997-02-15,US,R,UNLV
+2017,24,1639,PHO,Phoenix Suns,11,Brandon Knight,SG,6-2,182,1991-12-02,US,5,Kentucky
+2017,24,1734,PHO,Phoenix Suns,21,Alex Len,C,7-0,250,1993-06-16,UA,3,Maryland
+2017,24,2006,PHO,Phoenix Suns,22,Elijah Millsap,SG,6-6,225,1987-08-12,US,2,"Louisiana, UAB"
+2017,24,2368,PHO,Phoenix Suns,14,Ronnie Price,PG,6-2,190,1983-06-21,US,11,"Nicholls State, Utah Valley"
+2017,24,2924,PHO,Phoenix Suns,17,P.J. Tucker,SF,6-5,245,1985-05-05,US,5,Texas
+2017,24,2948,PHO,Phoenix Suns,8,Tyler Ulis,PG,5-10,160,1996-01-05,US,R,Kentucky
+2017,24,3032,PHO,Phoenix Suns,12,T.J. Warren,SF,6-8,220,1993-09-05,US,2,NC State
+2017,24,3135,PHO,Phoenix Suns,15,Alan Williams,C,6-8,265,1993-01-28,US,1,UC Santa Barbara

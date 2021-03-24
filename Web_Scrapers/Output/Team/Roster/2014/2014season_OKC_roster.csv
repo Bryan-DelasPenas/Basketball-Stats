@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,21,17,OKC,Oklahoma City Thunder,12,Steven Adams,C,6-11,265,"July 20, 1993",NZ,R,Pitt
-2014,21,436,OKC,Oklahoma City Thunder,2,Caron Butler,SF,6-7,228,"March 13, 1980",US,11,UConn
-2014,21,579,OKC,Oklahoma City Thunder,4,Nick Collison,PF,6-10,255,"October 26, 1980",US,9,Kansas
-2014,21,806,OKC,Oklahoma City Thunder,35,Kevin Durant,SF,6-10,240,"September 29, 1988",US,6,Texas
-2014,21,919,OKC,Oklahoma City Thunder,6,Derek Fisher,SG,6-1,200,"August 9, 1974",US,17,Little Rock
-2014,21,1053,OKC,Oklahoma City Thunder,8,Ryan Gomes,SF,6-7,250,"September 1, 1982",US,7,Providence
-2014,21,1376,OKC,Oklahoma City Thunder,9,Serge Ibaka,PF,6-10,235,"September 18, 1989",CG,4,
-2014,21,1392,OKC,Oklahoma City Thunder,7,Royal Ivey,SG,6-3,200,"December 20, 1981",US,9,Texas
-2014,21,1416,OKC,Oklahoma City Thunder,15,Reggie Jackson,PG,6-2,208,"April 16, 1990",IT,2,Boston College
-2014,21,1557,OKC,Oklahoma City Thunder,3,Perry Jones,PF,6-11,235,"September 24, 1991",US,1,Baylor
-2014,21,1681,OKC,Oklahoma City Thunder,11,Jeremy Lamb,SG,6-5,180,"May 30, 1992",US,1,UConn
-2014,21,2286,OKC,Oklahoma City Thunder,5,Kendrick Perkins,C,6-10,270,"November 10, 1984",US,10,
-2014,21,2459,OKC,Oklahoma City Thunder,21,Andre Roberson,SG,6-7,210,"December 4, 1991",US,R,Colorado
-2014,21,2593,OKC,Oklahoma City Thunder,25,Thabo Sefolosha,SG,6-6,215,"May 2, 1984",CH,7,
-2014,21,2606,OKC,Oklahoma City Thunder,22,Mustafa Shakur,PG,6-3,190,"August 18, 1984",US,1,Arizona
-2014,21,2837,OKC,Oklahoma City Thunder,34,Hasheem Thabeet,C,7-3,263,"February 16, 1987",TZ,4,UConn
-2014,21,3079,OKC,Oklahoma City Thunder,0,Russell Westbrook,PG,6-3,200,"November 12, 1988",US,5,UCLA
-2014,21,3173,OKC,Oklahoma City Thunder,14,Reginald Leon Williams,SF,6-6,205,"September 14, 1986",US,4,Virginia Military Institute
+2014,21,17,OKC,Oklahoma City Thunder,12,Steven Adams,C,6-11,265,1993-07-20,NZ,R,Pitt
+2014,21,436,OKC,Oklahoma City Thunder,2,Caron Butler,SF,6-7,228,1980-03-13,US,11,UConn
+2014,21,579,OKC,Oklahoma City Thunder,4,Nick Collison,PF,6-10,255,1980-10-26,US,9,Kansas
+2014,21,808,OKC,Oklahoma City Thunder,35,Kevin Durant,SF,6-10,240,1988-09-29,US,6,Texas
+2014,21,921,OKC,Oklahoma City Thunder,6,Derek Fisher,SG,6-1,200,1974-08-09,US,17,Little Rock
+2014,21,1055,OKC,Oklahoma City Thunder,8,Ryan Gomes,SF,6-7,250,1982-09-01,US,7,Providence
+2014,21,1378,OKC,Oklahoma City Thunder,9,Serge Ibaka,PF,6-10,235,1989-09-18,CG,4,
+2014,21,1394,OKC,Oklahoma City Thunder,7,Royal Ivey,SG,6-3,200,1981-12-20,US,9,Texas
+2014,21,1418,OKC,Oklahoma City Thunder,15,Reggie Jackson,PG,6-2,208,1990-04-16,IT,2,Boston College
+2014,21,1559,OKC,Oklahoma City Thunder,3,Perry Jones,PF,6-11,235,1991-09-24,US,1,Baylor
+2014,21,1684,OKC,Oklahoma City Thunder,11,Jeremy Lamb,SG,6-5,180,1992-05-30,US,1,UConn
+2014,21,2289,OKC,Oklahoma City Thunder,5,Kendrick Perkins,C,6-10,270,1984-11-10,US,10,
+2014,21,2463,OKC,Oklahoma City Thunder,21,Andre Roberson,SG,6-7,210,1991-12-04,US,R,Colorado
+2014,21,2597,OKC,Oklahoma City Thunder,25,Thabo Sefolosha,SG,6-6,215,1984-05-02,CH,7,
+2014,21,2610,OKC,Oklahoma City Thunder,22,Mustafa Shakur,PG,6-3,190,1984-08-18,US,1,Arizona
+2014,21,2841,OKC,Oklahoma City Thunder,34,Hasheem Thabeet,C,7-3,263,1987-02-16,TZ,4,UConn
+2014,21,3084,OKC,Oklahoma City Thunder,0,Russell Westbrook,PG,6-3,200,1988-11-12,US,5,UCLA
+2014,21,3179,OKC,Oklahoma City Thunder,14,Reggie Williams,SF,6-6,205,1986-09-14,US,4,Virginia Military Institute

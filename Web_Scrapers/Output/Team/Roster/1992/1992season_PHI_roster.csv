@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1992,23,82,PHI,Philadelphia 76Ers,20,Ron Anderson,SF,6-7,215,"October 15, 1958",US,7,Fresno State
-1992,23,88,PHI,Philadelphia 76Ers,45,Michael Ansley,SF,6-7,225,"February 8, 1967",US,2,Alabama
-1992,23,165,PHI,Philadelphia 76Ers,32,Charles Barkley,SF,6-6,252,"February 20, 1963",US,7,Auburn
-1992,23,282,PHI,Philadelphia 76Ers,11,Manute Bol,C,7-7,200,"October 16, 1962",SS,6,University of Bridgeport
-1992,23,705,PHI,Philadelphia 76Ers,12,Johnny Dawkins,PG,6-2,165,"September 28, 1963",US,5,Duke
-1992,23,1038,PHI,Philadelphia 76Ers,35,Armen Gilliam,PF,6-9,230,"May 28, 1964",US,4,UNLV
-1992,23,1081,PHI,Philadelphia 76Ers,3,Greg Grant,PG,5-7,140,"August 29, 1966",US,2,Trenton State University
-1992,23,1229,PHI,Philadelphia 76Ers,33,Hersey Hawkins,SG,6-3,190,"September 29, 1966",US,3,Bradley
-1992,23,1322,PHI,Philadelphia 76Ers,40,Dave Hoppen,C,6-11,235,"March 13, 1964",US,4,Nebraska
-1992,23,1885,PHI,Philadelphia 76Ers,25,Tharon Mayes,SG,6-3,175,"September 9, 1968",US,R,Florida State
-1992,23,2205,PHI,Philadelphia 76Ers,31,Brian Oliver,SG,6-4,210,"June 1, 1968",US,1,Georgia Tech
-1992,23,2271,PHI,Philadelphia 76Ers,21,Kenny Payne,SF,6-8,195,"November 25, 1966",US,2,Louisville
-1992,23,2531,PHI,Philadelphia 76Ers,43,Jeff Ruland,C,6-10,240,"December 16, 1958",US,6,Iona College
-1992,23,2605,PHI,Philadelphia 76Ers,14,Charles Shackleford,C,6-10,225,"April 22, 1966",US,2,NC State
-1992,23,3112,PHI,Philadelphia 76Ers,23,Mitchell Wiggins,SG,6-4,185,"September 28, 1959",US,5,"Clemson, Florida State"
-1992,23,3150,PHI,Philadelphia 76Ers,55,Jayson Williams,PF,6-9,240,"February 22, 1968",US,1,St. John's
+1992,23,82,PHI,Philadelphia 76Ers,20,Ron Anderson,SF,6-7,215,1958-10-15,US,7,Fresno State
+1992,23,88,PHI,Philadelphia 76Ers,45,Michael Ansley,SF,6-7,225,1967-02-08,US,2,Alabama
+1992,23,165,PHI,Philadelphia 76Ers,32,Charles Barkley,SF,6-6,252,1963-02-20,US,7,Auburn
+1992,23,282,PHI,Philadelphia 76Ers,11,Manute Bol,C,7-7,200,1962-10-16,SS,6,University of Bridgeport
+1992,23,706,PHI,Philadelphia 76Ers,12,Johnny Dawkins,PG,6-2,165,1963-09-28,US,5,Duke
+1992,23,1040,PHI,Philadelphia 76Ers,35,Armen Gilliam,PF,6-9,230,1964-05-28,US,4,UNLV
+1992,23,1083,PHI,Philadelphia 76Ers,3,Greg Grant,PG,5-7,140,1966-08-29,US,2,Trenton State University
+1992,23,1231,PHI,Philadelphia 76Ers,33,Hersey Hawkins,SG,6-3,190,1966-09-29,US,3,Bradley
+1992,23,1324,PHI,Philadelphia 76Ers,40,Dave Hoppen,C,6-11,235,1964-03-13,US,4,Nebraska
+1992,23,1888,PHI,Philadelphia 76Ers,25,Tharon Mayes,SG,6-3,175,1968-09-09,US,R,Florida State
+1992,23,2208,PHI,Philadelphia 76Ers,31,Brian Oliver,SG,6-4,210,1968-06-01,US,1,Georgia Tech
+1992,23,2274,PHI,Philadelphia 76Ers,21,Kenny Payne,SF,6-8,195,1966-11-25,US,2,Louisville
+1992,23,2535,PHI,Philadelphia 76Ers,43,Jeff Ruland,C,6-10,240,1958-12-16,US,6,Iona College
+1992,23,2609,PHI,Philadelphia 76Ers,14,Charles Shackleford,C,6-10,225,1966-04-22,US,2,NC State
+1992,23,3118,PHI,Philadelphia 76Ers,23,Mitchell Wiggins,SG,6-4,185,1959-09-28,US,5,"Clemson, Florida State"
+1992,23,3156,PHI,Philadelphia 76Ers,55,Jayson Williams,PF,6-9,240,1968-02-22,US,1,St. John's

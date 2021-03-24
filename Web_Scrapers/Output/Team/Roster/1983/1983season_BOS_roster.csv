@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1983,2,26,BOS,Boston Celtics,44,Danny Ainge,SG,6-4,175,"March 17, 1959",US,1,BYU
-1983,2,102,BOS,Boston Celtics,7,Tiny Archibald,PG,6-1,150,"September 2, 1948",US,11,Texas-El Paso
-1983,2,246,BOS,Boston Celtics,33,Larry Bird,PF,6-9,220,"December 7, 1956",US,3,Indiana State University
-1983,2,323,BOS,Boston Celtics,35,Charles Bradley,SG,6-5,215,"May 16, 1959",US,1,Wyoming
-1983,2,415,BOS,Boston Celtics,28,Quinn Buckner,SG,6-3,190,"August 20, 1954",US,6,Indiana
-1983,2,479,BOS,Boston Celtics,30,M.L. Carr,SF,6-6,205,"January 9, 1951",US,7,Guilford College
-1983,2,1252,BOS,Boston Celtics,43,Gerald Henderson,PG,6-2,175,"January 16, 1956",US,3,VCU
-1983,2,1880,BOS,Boston Celtics,31,Cedric Maxwell,SF,6-8,205,"November 21, 1955",US,5,UNC Charlotte
-1983,2,1938,BOS,Boston Celtics,32,Kevin McHale,PF,6-10,210,"December 19, 1957",US,2,Minnesota
-1983,2,2246,BOS,Boston Celtics,0,Robert Parish,C,7-1,230,"August 30, 1953",US,6,Centenary (LA)
-1983,2,2469,BOS,Boston Celtics,53,Rick Robey,C,6-11,230,"January 30, 1956",US,4,Kentucky
-1983,2,2887,BOS,Boston Celtics,52,Darren Tillis,C,6-11,215,"February 23, 1960",US,R,Cleveland State University
-1983,2,3062,BOS,Boston Celtics,20,Scott Wedman,SF,6-7,215,"July 29, 1952",US,8,Colorado
+1983,2,26,BOS,Boston Celtics,44,Danny Ainge,SG,6-4,175,1959-03-17,US,1,BYU
+1983,2,102,BOS,Boston Celtics,7,Tiny Archibald,PG,6-1,150,1948-09-02,US,11,Texas-El Paso
+1983,2,246,BOS,Boston Celtics,33,Larry Bird,PF,6-9,220,1956-12-07,US,3,Indiana State University
+1983,2,323,BOS,Boston Celtics,35,Charles Bradley,SG,6-5,215,1959-05-16,US,1,Wyoming
+1983,2,415,BOS,Boston Celtics,28,Quinn Buckner,SG,6-3,190,1954-08-20,US,6,Indiana
+1983,2,479,BOS,Boston Celtics,30,M.L. Carr,SF,6-6,205,1951-01-09,US,7,Guilford College
+1983,2,1255,BOS,Boston Celtics,43,Gerald Henderson,PG,6-2,175,1956-01-16,US,3,VCU
+1983,2,1883,BOS,Boston Celtics,31,Cedric Maxwell,SF,6-8,205,1955-11-21,US,5,UNC Charlotte
+1983,2,1941,BOS,Boston Celtics,32,Kevin McHale,PF,6-10,210,1957-12-19,US,2,Minnesota
+1983,2,2249,BOS,Boston Celtics,0,Robert Parish,C,7-1,230,1953-08-30,US,6,Centenary (LA)
+1983,2,2473,BOS,Boston Celtics,53,Rick Robey,C,6-11,230,1956-01-30,US,4,Kentucky
+1983,2,2892,BOS,Boston Celtics,52,Darren Tillis,C,6-11,215,1960-02-23,US,R,Cleveland State University
+1983,2,3067,BOS,Boston Celtics,20,Scott Wedman,SF,6-7,215,1952-07-29,US,8,Colorado

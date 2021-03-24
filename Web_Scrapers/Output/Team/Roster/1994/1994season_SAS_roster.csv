@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1994,27,85,SAS,San Antonio Spurs,40,Willie Anderson,SG,6-7,190,"January 8, 1967",US,5,Georgia
-1994,27,474,SAS,San Antonio Spurs,35,Antoine Carr,PF,6-9,225,"July 23, 1961",US,9,Wichita State
-1994,27,644,SAS,San Antonio Spurs,34,Terry Cummings,PF,6-9,220,"March 15, 1961",US,11,DePaul
-1994,27,665,SAS,San Antonio Spurs,24,Lloyd Daniels,SG,6-7,205,"September 4, 1967",US,1,Mount San Antonio College
-1994,27,721,SAS,San Antonio Spurs,15,Vinny Del Negro,SG,6-4,185,"August 9, 1966",US,3,NC State
-1994,27,849,SAS,San Antonio Spurs,3,Dale Ellis,SF,6-7,205,"August 6, 1960",US,10,Tennessee
-1994,27,925,SAS,San Antonio Spurs,21,Sleepy Floyd,PG,6-3,170,"March 6, 1960",US,11,Georgetown
-1994,27,1150,SAS,San Antonio Spurs,54,Jack Haley,PF,6-10,240,"January 27, 1964",US,4,UCLA
-1994,27,1640,SAS,San Antonio Spurs,32,Negele Knight,PG,6-1,175,"March 6, 1967",US,3,Dayton
-1994,27,2133,SAS,San Antonio Spurs,52,Chuck Nevitt,C,7-5,217,"June 13, 1959",US,8,NC State
-1994,27,2424,SAS,San Antonio Spurs,7,J.R. Reid,PF,6-9,247,"March 31, 1968",US,4,UNC
-1994,27,2474,SAS,San Antonio Spurs,50,David Robinson,C,7-1,235,"August 6, 1965",US,4,United States Naval Academy
-1994,27,2497,SAS,San Antonio Spurs,10,Dennis Rodman,PF,6-7,210,"May 13, 1961",US,7,Southeastern Oklahoma State University
-1994,27,3107,SAS,San Antonio Spurs,20,Chris Whitney,PG,6-0,168,"October 5, 1971",US,R,Clemson
+1994,27,85,SAS,San Antonio Spurs,40,Willie Anderson,SG,6-7,190,1967-01-08,US,5,Georgia
+1994,27,474,SAS,San Antonio Spurs,35,Antoine Carr,PF,6-9,225,1961-07-23,US,9,Wichita State
+1994,27,644,SAS,San Antonio Spurs,34,Terry Cummings,PF,6-9,220,1961-03-15,US,11,DePaul
+1994,27,665,SAS,San Antonio Spurs,24,Lloyd Daniels,SG,6-7,205,1967-09-04,US,1,Mount San Antonio College
+1994,27,722,SAS,San Antonio Spurs,15,Vinny Del Negro,SG,6-4,185,1966-08-09,US,3,NC State
+1994,27,851,SAS,San Antonio Spurs,3,Dale Ellis,SF,6-7,205,1960-08-06,US,10,Tennessee
+1994,27,927,SAS,San Antonio Spurs,21,Sleepy Floyd,PG,6-3,170,1960-03-06,US,11,Georgetown
+1994,27,1152,SAS,San Antonio Spurs,54,Jack Haley,PF,6-10,240,1964-01-27,US,4,UCLA
+1994,27,1642,SAS,San Antonio Spurs,32,Negele Knight,PG,6-1,175,1967-03-06,US,3,Dayton
+1994,27,2136,SAS,San Antonio Spurs,52,Chuck Nevitt,C,7-5,217,1959-06-13,US,8,NC State
+1994,27,2428,SAS,San Antonio Spurs,7,J.R. Reid,PF,6-9,247,1968-03-31,US,4,UNC
+1994,27,2478,SAS,San Antonio Spurs,50,David Robinson,C,7-1,235,1965-08-06,US,4,United States Naval Academy
+1994,27,2501,SAS,San Antonio Spurs,10,Dennis Rodman,PF,6-7,210,1961-05-13,US,7,Southeastern Oklahoma State University
+1994,27,3112,SAS,San Antonio Spurs,20,Chris Whitney,PG,6-0,168,1971-10-05,US,R,Clemson

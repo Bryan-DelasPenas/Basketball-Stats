@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2017,6,66,CLE,Cleveland Cavaliers,00,Chris Andersen,C,6-10,245,"July 7, 1978",US,14,Blinn College
-2017,6,279,CLE,Cleveland Cavaliers,6,Andrew Bogut,C,7-0,260,"November 28, 1984",AU,11,Utah
-2017,6,802,CLE,Cleveland Cavaliers,3,Mike Dunleavy Jr.,SF,6-9,230,"September 15, 1980",US,14,Duke
-2017,6,899,CLE,Cleveland Cavaliers,20,Kay Felder,PG,5-9,176,"March 29, 1995",US,R,Oakland
-2017,6,967,CLE,Cleveland Cavaliers,8,Channing Frye,C,7-0,255,"May 17, 1983",US,10,Arizona
-2017,6,1387,CLE,Cleveland Cavaliers,2,Kyrie Irving,PG,6-2,195,"March 23, 1992",AU,5,Duke
-2017,6,1429,CLE,Cleveland Cavaliers,23,LeBron James,SF,6-9,250,"December 30, 1984",US,13,
-2017,6,1445,CLE,Cleveland Cavaliers,24,Richard Jefferson,SF,6-7,233,"June 21, 1980",US,15,Arizona
-2017,6,1533,CLE,Cleveland Cavaliers,30,Dahntay Jones,SF,6-6,225,"December 27, 1980",US,12,"Rutgers University, Duke"
-2017,6,1548,CLE,Cleveland Cavaliers,1,James Jones,SF,6-8,218,"October 4, 1980",US,13,Miami (FL)
-2017,6,1652,CLE,Cleveland Cavaliers,26,Kyle Korver,SG,6-7,212,"March 17, 1981",US,13,Creighton
-2017,6,1752,CLE,Cleveland Cavaliers,14,DeAndre Liggins,SG,6-6,209,"March 31, 1988",US,3,Kentucky
-2017,6,1780,CLE,Cleveland Cavaliers,0,Kevin Love,PF,6-8,251,"September 7, 1988",US,8,UCLA
-2017,6,1960,CLE,Cleveland Cavaliers,12,Jordan McRae,SG,6-5,179,"March 28, 1991",US,1,Tennessee
-2017,6,2557,CLE,Cleveland Cavaliers,9,Larry Sanders,C,6-11,235,"November 21, 1988",US,5,VCU
-2017,6,2623,CLE,Cleveland Cavaliers,4,Iman Shumpert,SG,6-5,215,"June 26, 1990",US,5,Georgia Tech
-2017,6,2682,CLE,Cleveland Cavaliers,5,J.R. Smith,SG,6-6,225,"September 9, 1985",US,12,
-2017,6,2810,CLE,Cleveland Cavaliers,40,Edy Tavares,C,7-3,260,"March 22, 1992",CV,1,
-2017,6,2879,CLE,Cleveland Cavaliers,13,Tristan Thompson,C,6-9,254,"March 13, 1991",CA,5,Texas
-2017,6,3135,CLE,Cleveland Cavaliers,31,Deron Williams,PG,6-3,200,"June 26, 1984",US,11,Illinois
-2017,6,3136,CLE,Cleveland Cavaliers,"3, 32",Derrick Williams,PF,6-8,240,"May 25, 1991",US,5,Arizona
+2017,6,66,CLE,Cleveland Cavaliers,00,Chris Andersen,C,6-10,245,1978-07-07,US,14,Blinn College
+2017,6,279,CLE,Cleveland Cavaliers,6,Andrew Bogut,C,7-0,260,1984-11-28,AU,11,Utah
+2017,6,804,CLE,Cleveland Cavaliers,3,Mike Dunleavy,SF,6-9,230,1980-09-15,US,14,Duke
+2017,6,901,CLE,Cleveland Cavaliers,20,Kay Felder,PG,5-9,176,1995-03-29,US,R,Oakland
+2017,6,969,CLE,Cleveland Cavaliers,8,Channing Frye,C,7-0,255,1983-05-17,US,10,Arizona
+2017,6,1389,CLE,Cleveland Cavaliers,2,Kyrie Irving,PG,6-2,195,1992-03-23,AU,5,Duke
+2017,6,1431,CLE,Cleveland Cavaliers,23,LeBron James,SF,6-9,250,1984-12-30,US,13,
+2017,6,1447,CLE,Cleveland Cavaliers,24,Richard Jefferson,SF,6-7,233,1980-06-21,US,15,Arizona
+2017,6,1535,CLE,Cleveland Cavaliers,30,Dahntay Jones,SF,6-6,225,1980-12-27,US,12,"Rutgers University, Duke"
+2017,6,1550,CLE,Cleveland Cavaliers,1,James Jones,SF,6-8,218,1980-10-04,US,13,Miami (FL)
+2017,6,1654,CLE,Cleveland Cavaliers,26,Kyle Korver,SG,6-7,212,1981-03-17,US,13,Creighton
+2017,6,1755,CLE,Cleveland Cavaliers,14,DeAndre Liggins,SG,6-6,209,1988-03-31,US,3,Kentucky
+2017,6,1783,CLE,Cleveland Cavaliers,0,Kevin Love,PF,6-8,251,1988-09-07,US,8,UCLA
+2017,6,1963,CLE,Cleveland Cavaliers,12,Jordan McRae,SG,6-5,179,1991-03-28,US,1,Tennessee
+2017,6,2561,CLE,Cleveland Cavaliers,9,Larry Sanders,C,6-11,235,1988-11-21,US,5,VCU
+2017,6,2627,CLE,Cleveland Cavaliers,4,Iman Shumpert,SG,6-5,215,1990-06-26,US,5,Georgia Tech
+2017,6,2686,CLE,Cleveland Cavaliers,5,J.R. Smith,SG,6-6,225,1985-09-09,US,12,
+2017,6,2814,CLE,Cleveland Cavaliers,40,Edy Tavares,C,7-3,260,1992-03-22,CV,1,
+2017,6,2883,CLE,Cleveland Cavaliers,13,Tristan Thompson,C,6-9,254,1991-03-13,CA,5,Texas
+2017,6,3141,CLE,Cleveland Cavaliers,31,Deron Williams,PG,6-3,200,1984-06-26,US,11,Illinois
+2017,6,3142,CLE,Cleveland Cavaliers,"3, 32",Derrick Williams,PF,6-8,240,1991-05-25,US,5,Arizona

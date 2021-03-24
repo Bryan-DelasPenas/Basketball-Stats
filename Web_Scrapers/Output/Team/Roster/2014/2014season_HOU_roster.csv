@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,11,114,HOU,Houston Rockets,3,Omer Asik,C,7-0,255,"July 4, 1986",TR,3,
-2014,11,235,HOU,Houston Rockets,2,Patrick Beverley,PG,6-1,180,"July 12, 1988",US,1,Arkansas
-2014,11,346,HOU,Houston Rockets,10,Ronnie Brewer,SF,6-7,220,"March 20, 1985",US,7,Arkansas
-2014,11,361,HOU,Houston Rockets,0,Aaron Brooks,PG,6-0,161,"January 14, 1985",US,5,Oregon
-2014,11,465,HOU,Houston Rockets,1,Isaiah Canaan,PG,6-0,201,"May 21, 1991",US,R,Murray State
-2014,11,498,HOU,Houston Rockets,18,Omri Casspi,PF,6-9,225,"June 22, 1988",IL,4,
-2014,11,619,HOU,Houston Rockets,33,Robert Covington,SF,6-7,209,"December 14, 1990",US,R,Tennessee State
-2014,11,667,HOU,Houston Rockets,30,Troy Daniels,SG,6-4,200,"July 15, 1991",US,R,VCU
-2014,11,989,HOU,Houston Rockets,32,Francisco Garcia,SF,6-7,195,"December 31, 1981",DO,8,Louisville
-2014,11,1159,HOU,Houston Rockets,5,Jordan Hamilton,SF,6-7,220,"October 6, 1990",US,2,Texas
-2014,11,1183,HOU,Houston Rockets,13,James Harden,SG,6-5,220,"August 26, 1989",US,4,Arizona State
-2014,11,1339,HOU,Houston Rockets,12,Dwight Howard,C,6-10,265,"December 8, 1985",US,9,
-2014,11,1561,HOU,Houston Rockets,6,Terrence Jones,PF,6-9,252,"January 9, 1992",US,1,Kentucky
-2014,11,1754,HOU,Houston Rockets,7,Jeremy Lin,PG,6-3,200,"August 23, 1988",US,3,Harvard University
-2014,11,2067,HOU,Houston Rockets,20,Donatas Motiejunas,PF,7-0,222,"September 20, 1990",LT,1,
-2014,11,2253,HOU,Houston Rockets,25,Chandler Parsons,SF,6-9,230,"October 25, 1988",US,2,Florida
-2014,11,2352,HOU,Houston Rockets,21,Josh Powell,PF,6-9,225,"January 25, 1983",US,6,NC State
-2014,11,2680,HOU,Houston Rockets,4,Greg Smith,C,6-10,250,"January 8, 1991",US,2,Fresno State
+2014,11,114,HOU,Houston Rockets,3,Omer Asik,C,7-0,255,1986-07-04,TR,3,
+2014,11,235,HOU,Houston Rockets,2,Patrick Beverley,PG,6-1,180,1988-07-12,US,1,Arkansas
+2014,11,346,HOU,Houston Rockets,10,Ronnie Brewer,SF,6-7,220,1985-03-20,US,7,Arkansas
+2014,11,361,HOU,Houston Rockets,0,Aaron Brooks,PG,6-0,161,1985-01-14,US,5,Oregon
+2014,11,465,HOU,Houston Rockets,1,Isaiah Canaan,PG,6-0,201,1991-05-21,US,R,Murray State
+2014,11,498,HOU,Houston Rockets,18,Omri Casspi,PF,6-9,225,1988-06-22,IL,4,
+2014,11,619,HOU,Houston Rockets,33,Robert Covington,SF,6-7,209,1990-12-14,US,R,Tennessee State
+2014,11,667,HOU,Houston Rockets,30,Troy Daniels,SG,6-4,200,1991-07-15,US,R,VCU
+2014,11,991,HOU,Houston Rockets,32,Francisco Garcia,SF,6-7,195,1981-12-31,DO,8,Louisville
+2014,11,1161,HOU,Houston Rockets,5,Jordan Hamilton,SF,6-7,220,1990-10-06,US,2,Texas
+2014,11,1185,HOU,Houston Rockets,13,James Harden,SG,6-5,220,1989-08-26,US,4,Arizona State
+2014,11,1341,HOU,Houston Rockets,12,Dwight Howard,C,6-10,265,1985-12-08,US,9,
+2014,11,1563,HOU,Houston Rockets,6,Terrence Jones,PF,6-9,252,1992-01-09,US,1,Kentucky
+2014,11,1757,HOU,Houston Rockets,7,Jeremy Lin,PG,6-3,200,1988-08-23,US,3,Harvard University
+2014,11,2070,HOU,Houston Rockets,20,Donatas Motiejunas,PF,7-0,222,1990-09-20,LT,1,
+2014,11,2256,HOU,Houston Rockets,25,Chandler Parsons,SF,6-9,230,1988-10-25,US,2,Florida
+2014,11,2356,HOU,Houston Rockets,21,Josh Powell,PF,6-9,225,1983-01-25,US,6,NC State
+2014,11,2684,HOU,Houston Rockets,4,Greg Smith,C,6-10,250,1991-01-08,US,2,Fresno State

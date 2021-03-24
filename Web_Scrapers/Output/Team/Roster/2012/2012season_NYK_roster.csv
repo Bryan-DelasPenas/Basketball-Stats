@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2012,20,93,NYK,New York Knicks,7,Carmelo Anthony,SF,6-7,238,"May 29, 1984",US,8,Syracuse
-2012,20,150,NYK,New York Knicks,32,Renaldo Balkman,SF,6-8,208,"July 14, 1984",US,5,South Carolina
-2012,20,240,NYK,New York Knicks,20,Mike Bibby,PG,6-1,190,"May 13, 1978",US,13,Arizona
-2012,20,514,NYK,New York Knicks,6,Tyson Chandler,C,7-0,235,"October 2, 1982",US,10,
-2012,20,678,NYK,New York Knicks,85,Baron Davis,PG,6-3,209,"April 13, 1979",US,12,UCLA
-2012,20,772,NYK,New York Knicks,23,Toney Douglas,PG,6-2,195,"March 16, 1986",US,2,"Auburn, Florida State"
-2012,20,915,NYK,New York Knicks,2,Landry Fields,SG,6-7,210,"June 27, 1988",US,1,Stanford
-2012,20,975,NYK,New York Knicks,50,Dan Gadzuric,C,6-11,240,"February 2, 1978",NL,9,UCLA
-2012,20,1195,NYK,New York Knicks,55,Josh Harrellson,PF,6-10,275,"February 12, 1989",US,R,Kentucky
-2012,20,1447,NYK,New York Knicks,9,Jared Jeffries,PF,6-11,230,"November 25, 1981",US,9,Indiana
-2012,20,1567,NYK,New York Knicks,44,Jerome Jordan,C,7-0,253,"September 29, 1986",JM,R,Tulsa
-2012,20,1754,NYK,New York Knicks,17,Jeremy Lin,PG,6-3,200,"August 23, 1988",US,1,Harvard University
-2012,20,2161,NYK,New York Knicks,16,Steve Novak,PF,6-10,225,"June 13, 1983",US,5,Marquette
-2012,20,2623,NYK,New York Knicks,21,Iman Shumpert,PG,6-5,215,"June 26, 1990",US,R,Georgia Tech
-2012,20,2682,NYK,New York Knicks,8,J.R. Smith,SG,6-6,225,"September 9, 1985",US,7,
-2012,20,2773,NYK,New York Knicks,1,Amar'e Stoudemire,PF,6-10,245,"November 16, 1982",US,9,
-2012,20,3004,NYK,New York Knicks,5,Henry Walker,SG,6-6,220,"October 9, 1987",US,3,Kansas State
+2012,20,93,NYK,New York Knicks,7,Carmelo Anthony,SF,6-7,238,1984-05-29,US,8,Syracuse
+2012,20,150,NYK,New York Knicks,32,Renaldo Balkman,SF,6-8,208,1984-07-14,US,5,South Carolina
+2012,20,240,NYK,New York Knicks,20,Mike Bibby,PG,6-1,190,1978-05-13,US,13,Arizona
+2012,20,514,NYK,New York Knicks,6,Tyson Chandler,C,7-0,235,1982-10-02,US,10,
+2012,20,679,NYK,New York Knicks,85,Baron Davis,PG,6-3,209,1979-04-13,US,12,UCLA
+2012,20,774,NYK,New York Knicks,23,Toney Douglas,PG,6-2,195,1986-03-16,US,2,"Auburn, Florida State"
+2012,20,917,NYK,New York Knicks,2,Landry Fields,SG,6-7,210,1988-06-27,US,1,Stanford
+2012,20,977,NYK,New York Knicks,50,Dan Gadzuric,C,6-11,240,1978-02-02,NL,9,UCLA
+2012,20,1197,NYK,New York Knicks,55,Josh Harrellson,PF,6-10,275,1989-02-12,US,R,Kentucky
+2012,20,1449,NYK,New York Knicks,9,Jared Jeffries,PF,6-11,230,1981-11-25,US,9,Indiana
+2012,20,1569,NYK,New York Knicks,44,Jerome Jordan,C,7-0,253,1986-09-29,JM,R,Tulsa
+2012,20,1757,NYK,New York Knicks,17,Jeremy Lin,PG,6-3,200,1988-08-23,US,1,Harvard University
+2012,20,2164,NYK,New York Knicks,16,Steve Novak,PF,6-10,225,1983-06-13,US,5,Marquette
+2012,20,2627,NYK,New York Knicks,21,Iman Shumpert,PG,6-5,215,1990-06-26,US,R,Georgia Tech
+2012,20,2686,NYK,New York Knicks,8,J.R. Smith,SG,6-6,225,1985-09-09,US,7,
+2012,20,2777,NYK,New York Knicks,1,Amar'e Stoudemire,PF,6-10,245,1982-11-16,US,9,
+2012,20,3009,NYK,New York Knicks,5,Henry Walker,SG,6-6,220,1987-10-09,US,3,Kansas State

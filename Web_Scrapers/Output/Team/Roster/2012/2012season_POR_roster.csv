@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2012,25,34,POR,Portland Trail Blazers,12,LaMarcus Aldridge,PF,6-11,250,"July 19, 1985",US,5,Texas
-2012,25,133,POR,Portland Trail Blazers,8,Luke Babbitt,SF,6-9,225,"June 20, 1989",US,1,Nevada
-2012,25,193,POR,Portland Trail Blazers,88,Nicolas Batum,SF,6-8,230,"December 14, 1988",FR,3,
-2012,25,461,POR,Portland Trail Blazers,23,Marcus Camby,C,6-11,220,"March 22, 1974",US,15,UMass
-2012,25,625,POR,Portland Trail Blazers,11,Jamal Crawford,PG,6-5,185,"March 20, 1980",US,11,Michigan
-2012,25,903,POR,Portland Trail Blazers,5,Raymond Felton,PG,6-1,205,"June 26, 1984",US,6,UNC
-2012,25,926,POR,Portland Trail Blazers,3,Jonny Flynn,PG,6-0,185,"February 6, 1989",US,2,Syracuse
-2012,25,1278,POR,Portland Trail Blazers,21,J.J. Hickson,PF,6-9,242,"September 4, 1988",US,3,NC State
-2012,25,1466,POR,Portland Trail Blazers,1,Armon Johnson,PG,6-3,195,"February 23, 1989",US,1,Nevada
-2012,25,1474,POR,Portland Trail Blazers,17,Chris Johnson (1985),C,6-11,210,"July 15, 1985",US,1,LSU
-2012,25,1876,POR,Portland Trail Blazers,2,Wesley Matthews,SG,6-4,220,"October 14, 1986",US,2,Marquette
-2012,25,2373,POR,Portland Trail Blazers,10,Joel Przybilla,C,7-1,255,"October 10, 1979",US,11,Minnesota
-2012,25,2675,POR,Portland Trail Blazers,83,Craig Smith,PF,6-7,250,"November 10, 1983",US,5,Boston College
-2012,25,2698,POR,Portland Trail Blazers,4,Nolan Smith,PG,6-2,185,"July 25, 1988",US,R,Duke
-2012,25,2837,POR,Portland Trail Blazers,34,Hasheem Thabeet,C,7-3,263,"February 16, 1987",TZ,2,UConn
-2012,25,2857,POR,Portland Trail Blazers,40,Kurt Thomas,C,6-9,230,"October 4, 1972",US,16,TCU
-2012,25,3012,POR,Portland Trail Blazers,3,Gerald Wallace,SF,6-7,215,"July 23, 1982",US,10,Alabama
-2012,25,3138,POR,Portland Trail Blazers,9,Elliot Williams,SG,6-5,190,"June 20, 1989",US,R,"Duke, Memphis"
+2012,25,34,POR,Portland Trail Blazers,12,LaMarcus Aldridge,PF,6-11,250,1985-07-19,US,5,Texas
+2012,25,133,POR,Portland Trail Blazers,8,Luke Babbitt,SF,6-9,225,1989-06-20,US,1,Nevada
+2012,25,193,POR,Portland Trail Blazers,88,Nicolas Batum,SF,6-8,230,1988-12-14,FR,3,
+2012,25,461,POR,Portland Trail Blazers,23,Marcus Camby,C,6-11,220,1974-03-22,US,15,UMass
+2012,25,625,POR,Portland Trail Blazers,11,Jamal Crawford,PG,6-5,185,1980-03-20,US,11,Michigan
+2012,25,905,POR,Portland Trail Blazers,5,Raymond Felton,PG,6-1,205,1984-06-26,US,6,UNC
+2012,25,928,POR,Portland Trail Blazers,3,Jonny Flynn,PG,6-0,185,1989-02-06,US,2,Syracuse
+2012,25,1280,POR,Portland Trail Blazers,21,J.J. Hickson,PF,6-9,242,1988-09-04,US,3,NC State
+2012,25,1468,POR,Portland Trail Blazers,1,Armon Johnson,PG,6-3,195,1989-02-23,US,1,Nevada
+2012,25,1477,POR,Portland Trail Blazers,17,Chris Johnson,C,6-11,210,1985-07-15,US,1,LSU
+2012,25,1879,POR,Portland Trail Blazers,2,Wesley Matthews,SG,6-4,220,1986-10-14,US,2,Marquette
+2012,25,2377,POR,Portland Trail Blazers,10,Joel Przybilla,C,7-1,255,1979-10-10,US,11,Minnesota
+2012,25,2679,POR,Portland Trail Blazers,83,Craig Smith,PF,6-7,250,1983-11-10,US,5,Boston College
+2012,25,2702,POR,Portland Trail Blazers,4,Nolan Smith,PG,6-2,185,1988-07-25,US,R,Duke
+2012,25,2841,POR,Portland Trail Blazers,34,Hasheem Thabeet,C,7-3,263,1987-02-16,TZ,2,UConn
+2012,25,2861,POR,Portland Trail Blazers,40,Kurt Thomas,C,6-9,230,1972-10-04,US,16,TCU
+2012,25,3017,POR,Portland Trail Blazers,3,Gerald Wallace,SF,6-7,215,1982-07-23,US,10,Alabama
+2012,25,3144,POR,Portland Trail Blazers,9,Elliot Williams,SG,6-5,190,1989-06-20,US,R,"Duke, Memphis"

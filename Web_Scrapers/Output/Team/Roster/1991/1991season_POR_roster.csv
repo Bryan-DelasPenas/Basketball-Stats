@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1991,25,1,POR,Portland Trail Blazers,31,Alaa Abdelnaby,PF,6-10,240,"June 24, 1968",EG,R,Duke
-1991,25,26,POR,Portland Trail Blazers,9,Danny Ainge,SG,6-4,175,"March 17, 1959",US,9,BYU
-1991,25,409,POR,Portland Trail Blazers,2,Mark Bryant,PF,6-9,245,"April 25, 1965",US,2,Seton Hall
-1991,25,604,POR,Portland Trail Blazers,42,Wayne Cooper,C,6-10,220,"November 16, 1956",US,12,New Orleans
-1991,25,702,POR,Portland Trail Blazers,6,Walter Davis,SG,6-6,193,"September 9, 1954",US,13,UNC
-1991,25,786,POR,Portland Trail Blazers,22,Clyde Drexler,SG,6-7,210,"June 22, 1962",US,7,Houston
-1991,25,791,POR,Portland Trail Blazers,0,Kevin Duckworth,C,7-0,275,"April 1, 1964",US,4,Eastern Illinois University
-1991,25,1600,POR,Portland Trail Blazers,25,Jerome Kersey,SF,6-7,215,"June 26, 1962",US,6,Longwood University
-1991,25,2299,POR,Portland Trail Blazers,44,Drazen Petrovic,SG,6-5,195,"October 22, 1964",HR,1,
-1991,25,2344,POR,Portland Trail Blazers,30,Terry Porter,PG,6-3,195,"April 8, 1963",US,5,University of Wisconsin-Stevens Point
-1991,25,2473,POR,Portland Trail Blazers,3,Clifford Robinson,PF,6-10,225,"December 16, 1966",US,1,UConn
-1991,25,3132,POR,Portland Trail Blazers,52,Buck Williams,PF,6-8,215,"March 8, 1960",US,9,Maryland
-1991,25,3257,POR,Portland Trail Blazers,21,Danny Young,PG,6-3,175,"July 26, 1962",US,6,Wake Forest
+1991,25,1,POR,Portland Trail Blazers,31,Alaa Abdelnaby,PF,6-10,240,1968-06-24,EG,R,Duke
+1991,25,26,POR,Portland Trail Blazers,9,Danny Ainge,SG,6-4,175,1959-03-17,US,9,BYU
+1991,25,409,POR,Portland Trail Blazers,2,Mark Bryant,PF,6-9,245,1965-04-25,US,2,Seton Hall
+1991,25,604,POR,Portland Trail Blazers,42,Wayne Cooper,C,6-10,220,1956-11-16,US,12,New Orleans
+1991,25,703,POR,Portland Trail Blazers,6,Walter Davis,SG,6-6,193,1954-09-09,US,13,UNC
+1991,25,788,POR,Portland Trail Blazers,22,Clyde Drexler,SG,6-7,210,1962-06-22,US,7,Houston
+1991,25,793,POR,Portland Trail Blazers,0,Kevin Duckworth,C,7-0,275,1964-04-01,US,4,Eastern Illinois University
+1991,25,1602,POR,Portland Trail Blazers,25,Jerome Kersey,SF,6-7,215,1962-06-26,US,6,Longwood University
+1991,25,2302,POR,Portland Trail Blazers,44,Drazen Petrovic,SG,6-5,195,1964-10-22,HR,1,
+1991,25,2348,POR,Portland Trail Blazers,30,Terry Porter,PG,6-3,195,1963-04-08,US,5,University of Wisconsin-Stevens Point
+1991,25,2477,POR,Portland Trail Blazers,3,Clifford Robinson,PF,6-10,225,1966-12-16,US,1,UConn
+1991,25,3138,POR,Portland Trail Blazers,52,Buck Williams,PF,6-8,215,1960-03-08,US,9,Maryland
+1991,25,3263,POR,Portland Trail Blazers,21,Danny Young,PG,6-3,175,1962-07-26,US,6,Wake Forest

@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2018,2,50,BOS,Boston Celtics,45,Kadeem Allen,PG,6-1,200,"January 15, 1993",US,R,Arizona
-2018,2,196,BOS,Boston Celtics,46,Aron Baynes,C,6-10,260,"December 9, 1986",NZ,5,Washington State
-2018,2,245,BOS,Boston Celtics,26,Jabari Bird,SG,6-6,198,"July 3, 1994",US,R,California
-2018,2,382,BOS,Boston Celtics,7,Jaylen Brown,SG,6-6,223,"October 24, 1996",US,1,California
-2018,2,820,BOS,Boston Celtics,9,Jarell Eddie,SF,6-7,218,"October 30, 1991",US,2,Virginia Tech
-2018,2,1027,BOS,Boston Celtics,60,Jonathan Gibson,PG,6-2,185,"November 8, 1987",US,1,New Mexico State
-2018,2,1239,BOS,Boston Celtics,20,Gordon Hayward,SF,6-7,225,"March 23, 1990",US,7,Butler
-2018,2,1326,BOS,Boston Celtics,42,Al Horford,C,6-9,240,"June 3, 1986",DO,10,Florida
-2018,2,1387,BOS,Boston Celtics,11,Kyrie Irving,PG,6-2,195,"March 23, 1992",AU,6,Duke
-2018,2,1700,BOS,Boston Celtics,8,Shane Larkin,PG,5-11,175,"October 2, 1992",US,3,Miami (FL)
-2018,2,2031,BOS,Boston Celtics,55,Greg Monroe,C,6-11,265,"June 4, 1990",US,7,Georgetown
-2018,2,2054,BOS,Boston Celtics,13,Marcus Morris,PF,6-8,218,"September 2, 1989",US,6,Kansas
-2018,2,2108,BOS,Boston Celtics,28,Abdel Nader,SF,6-5,225,"September 25, 1993",EG,R,"Northern Illinois, Iowa State"
-2018,2,2190,BOS,Boston Celtics,37,Semi Ojeleye,PF,6-6,240,"December 5, 1994",US,R,"Duke, SMU"
-2018,2,2524,BOS,Boston Celtics,12,Terry Rozier,PG,6-1,190,"March 17, 1994",US,2,Louisville
-2018,2,2631,BOS,Boston Celtics,9,Xavier Silas,SG,6-5,205,"January 22, 1988",US,1,"Colorado, Northern Illinois"
-2018,2,2667,BOS,Boston Celtics,36,Marcus Smart,SG,6-3,220,"March 6, 1994",US,3,Oklahoma State
-2018,2,2809,BOS,Boston Celtics,0,Jayson Tatum,SF,6-8,210,"March 3, 1998",US,R,Duke
-2018,2,2838,BOS,Boston Celtics,27,Daniel Theis,C,6-8,245,"April 4, 1992",DE,R,
-2018,2,3254,BOS,Boston Celtics,30,Guerschon Yabusele,PF,6-8,260,"December 17, 1995",FR,R,
+2018,2,50,BOS,Boston Celtics,45,Kadeem Allen,PG,6-1,200,1993-01-15,US,R,Arizona
+2018,2,196,BOS,Boston Celtics,46,Aron Baynes,C,6-10,260,1986-12-09,NZ,5,Washington State
+2018,2,245,BOS,Boston Celtics,26,Jabari Bird,SG,6-6,198,1994-07-03,US,R,California
+2018,2,382,BOS,Boston Celtics,7,Jaylen Brown,SG,6-6,223,1996-10-24,US,1,California
+2018,2,822,BOS,Boston Celtics,9,Jarell Eddie,SF,6-7,218,1991-10-30,US,2,Virginia Tech
+2018,2,1029,BOS,Boston Celtics,60,Jonathan Gibson,PG,6-2,185,1987-11-08,US,1,New Mexico State
+2018,2,1241,BOS,Boston Celtics,20,Gordon Hayward,SF,6-7,225,1990-03-23,US,7,Butler
+2018,2,1328,BOS,Boston Celtics,42,Al Horford,C,6-9,240,1986-06-03,DO,10,Florida
+2018,2,1389,BOS,Boston Celtics,11,Kyrie Irving,PG,6-2,195,1992-03-23,AU,6,Duke
+2018,2,1703,BOS,Boston Celtics,8,Shane Larkin,PG,5-11,175,1992-10-02,US,3,Miami (FL)
+2018,2,2034,BOS,Boston Celtics,55,Greg Monroe,C,6-11,265,1990-06-04,US,7,Georgetown
+2018,2,2057,BOS,Boston Celtics,13,Marcus Morris,PF,6-8,218,1989-09-02,US,6,Kansas
+2018,2,2111,BOS,Boston Celtics,28,Abdel Nader,SF,6-5,225,1993-09-25,EG,R,"Northern Illinois, Iowa State"
+2018,2,2193,BOS,Boston Celtics,37,Semi Ojeleye,PF,6-6,240,1994-12-05,US,R,"Duke, SMU"
+2018,2,2528,BOS,Boston Celtics,12,Terry Rozier,PG,6-1,190,1994-03-17,US,2,Louisville
+2018,2,2635,BOS,Boston Celtics,9,Xavier Silas,SG,6-5,205,1988-01-22,US,1,"Colorado, Northern Illinois"
+2018,2,2671,BOS,Boston Celtics,36,Marcus Smart,SG,6-3,220,1994-03-06,US,3,Oklahoma State
+2018,2,2813,BOS,Boston Celtics,0,Jayson Tatum,SF,6-8,210,1998-03-03,US,R,Duke
+2018,2,2842,BOS,Boston Celtics,27,Daniel Theis,C,6-8,245,1992-04-04,DE,R,
+2018,2,3260,BOS,Boston Celtics,30,Guerschon Yabusele,PF,6-8,260,1995-12-17,FR,R,

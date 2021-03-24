@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2007,26,5,SAC,Sacramento Kings,3,Shareef Abdur-Rahim,C,6-9,225,"December 11, 1976",US,10,California
-2007,26,240,SAC,Sacramento Kings,10,Mike Bibby,PG,6-1,190,"May 13, 1978",US,8,Arizona
-2007,26,767,SAC,Sacramento Kings,8,Quincy Douby,PG,6-3,175,"May 16, 1984",US,R,Rutgers University
-2007,26,989,SAC,Sacramento Kings,32,Francisco Garcia,SF,6-7,195,"December 31, 1981",DO,1,Louisville
-2007,26,1216,SAC,Sacramento Kings,5,Jason Hart,PG,6-3,185,"April 29, 1978",US,5,Syracuse
-2007,26,1863,SAC,Sacramento Kings,23,Kevin Martin,SG,6-7,199,"February 1, 1983",US,2,Western Carolina University
-2007,26,1992,SAC,Sacramento Kings,52,Brad Miller,C,6-11,244,"April 12, 1976",US,8,Purdue
-2007,26,2349,SAC,Sacramento Kings,20,Vitaly Potapenko,C,6-10,280,"March 21, 1975",UA,10,Wright State University
-2007,26,2364,SAC,Sacramento Kings,7,Ronnie Price,PG,6-2,190,"June 21, 1983",US,1,"Nicholls State, Utah Valley"
-2007,26,2544,SAC,Sacramento Kings,15,John Salmons,SG,6-7,210,"December 12, 1979",US,4,Miami (FL)
-2007,26,2821,SAC,Sacramento Kings,24,Maurice Taylor,PF,6-9,260,"October 30, 1976",US,8,"Michigan, LSU"
-2007,26,2855,SAC,Sacramento Kings,9,Kenny Thomas,PF,6-7,261,"July 25, 1977",US,7,New Mexico
-2007,26,3155,SAC,Sacramento Kings,30,Justin Williams,C,6-10,225,"May 12, 1984",US,R,Wyoming
-2007,26,3189,SAC,Sacramento Kings,34,Corliss Williamson,PF,6-7,245,"December 4, 1973",US,11,Arkansas
-2007,26,3234,SAC,Sacramento Kings,93,Metta World Peace,SF,6-6,260,"November 13, 1979",US,7,St. John's
+2007,26,5,SAC,Sacramento Kings,3,Shareef Abdur-Rahim,C,6-9,225,1976-12-11,US,10,California
+2007,26,240,SAC,Sacramento Kings,10,Mike Bibby,PG,6-1,190,1978-05-13,US,8,Arizona
+2007,26,769,SAC,Sacramento Kings,8,Quincy Douby,PG,6-3,175,1984-05-16,US,R,Rutgers University
+2007,26,991,SAC,Sacramento Kings,32,Francisco Garcia,SF,6-7,195,1981-12-31,DO,1,Louisville
+2007,26,1218,SAC,Sacramento Kings,5,Jason Hart,PG,6-3,185,1978-04-29,US,5,Syracuse
+2007,26,1866,SAC,Sacramento Kings,23,Kevin Martin,SG,6-7,199,1983-02-01,US,2,Western Carolina University
+2007,26,1995,SAC,Sacramento Kings,52,Brad Miller,C,6-11,244,1976-04-12,US,8,Purdue
+2007,26,2353,SAC,Sacramento Kings,20,Vitaly Potapenko,C,6-10,280,1975-03-21,UA,10,Wright State University
+2007,26,2368,SAC,Sacramento Kings,7,Ronnie Price,PG,6-2,190,1983-06-21,US,1,"Nicholls State, Utah Valley"
+2007,26,2548,SAC,Sacramento Kings,15,John Salmons,SG,6-7,210,1979-12-12,US,4,Miami (FL)
+2007,26,2825,SAC,Sacramento Kings,24,Maurice Taylor,PF,6-9,260,1976-10-30,US,8,"Michigan, LSU"
+2007,26,2859,SAC,Sacramento Kings,9,Kenny Thomas,PF,6-7,261,1977-07-25,US,7,New Mexico
+2007,26,3161,SAC,Sacramento Kings,30,Justin Williams,C,6-10,225,1984-05-12,US,R,Wyoming
+2007,26,3195,SAC,Sacramento Kings,34,Corliss Williamson,PF,6-7,245,1973-12-04,US,11,Arkansas
+2007,26,3240,SAC,Sacramento Kings,93,Metta World Peace,SF,6-6,260,1979-11-13,US,7,St. John's

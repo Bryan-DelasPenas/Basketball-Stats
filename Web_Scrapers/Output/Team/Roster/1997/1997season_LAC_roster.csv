@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1997,13,174,LAC,Los Angeles Clippers,31,Brent Barry,SG,6-6,185,"December 31, 1971",US,1,Oregon State
-1997,13,718,LAC,Los Angeles Clippers,24,Terry Dehere,PG,6-2,190,"September 12, 1971",US,3,Seton Hall
-1997,13,791,LAC,Los Angeles Clippers,0,Kevin Duckworth,C,7-0,275,"April 1, 1964",US,10,Eastern Illinois University
-1997,13,1830,LAC,Los Angeles Clippers,50,Rich Manning,PF,6-11,253,"June 23, 1970",US,1,"Syracuse, Washington"
-1997,13,1855,LAC,Los Angeles Clippers,15,Darrick Martin,PG,5-11,170,"March 6, 1971",US,2,UCLA
-1997,13,2092,LAC,Los Angeles Clippers,7,Lamond Murray,SF,6-7,236,"April 20, 1973",US,2,California
-1997,13,2222,LAC,Los Angeles Clippers,45,Bo Outlaw,PF,6-8,210,"April 13, 1971",US,3,"South Plains College, Houston"
-1997,13,2306,LAC,Los Angeles Clippers,52,Eric Piatkowski,SG,6-7,215,"September 30, 1970",US,2,Nebraska
-1997,13,2448,LAC,Los Angeles Clippers,2,Pooh Richardson,PG,6-1,180,"May 14, 1966",US,7,UCLA
-1997,13,2466,LAC,Los Angeles Clippers,53,Stanley Roberts,C,7-0,285,"February 7, 1970",US,4,LSU
-1997,13,2502,LAC,Los Angeles Clippers,54,Rodney Rogers,SF,6-7,235,"June 20, 1971",US,3,Wake Forest
-1997,13,2575,LAC,Los Angeles Clippers,33,Dwayne Schintzius,C,7-1,260,"October 14, 1968",US,6,Florida
-1997,13,2592,LAC,Los Angeles Clippers,21,Malik Sealy,SG,6-8,190,"February 1, 1970",US,4,St. John's
-1997,13,2968,LAC,Los Angeles Clippers,35,Loy Vaught,PF,6-9,230,"February 27, 1968",US,6,Michigan
-1997,13,3248,LAC,Los Angeles Clippers,55,Lorenzen Wright,C,6-11,225,"November 4, 1975",US,R,Memphis
+1997,13,174,LAC,Los Angeles Clippers,31,Brent Barry,SG,6-6,185,1971-12-31,US,1,Oregon State
+1997,13,719,LAC,Los Angeles Clippers,24,Terry Dehere,PG,6-2,190,1971-09-12,US,3,Seton Hall
+1997,13,793,LAC,Los Angeles Clippers,0,Kevin Duckworth,C,7-0,275,1964-04-01,US,10,Eastern Illinois University
+1997,13,1833,LAC,Los Angeles Clippers,50,Rich Manning,PF,6-11,253,1970-06-23,US,1,"Syracuse, Washington"
+1997,13,1858,LAC,Los Angeles Clippers,15,Darrick Martin,PG,5-11,170,1971-03-06,US,2,UCLA
+1997,13,2095,LAC,Los Angeles Clippers,7,Lamond Murray,SF,6-7,236,1973-04-20,US,2,California
+1997,13,2225,LAC,Los Angeles Clippers,45,Bo Outlaw,PF,6-8,210,1971-04-13,US,3,"South Plains College, Houston"
+1997,13,2309,LAC,Los Angeles Clippers,52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,2,Nebraska
+1997,13,2452,LAC,Los Angeles Clippers,2,Pooh Richardson,PG,6-1,180,1966-05-14,US,7,UCLA
+1997,13,2470,LAC,Los Angeles Clippers,53,Stanley Roberts,C,7-0,285,1970-02-07,US,4,LSU
+1997,13,2506,LAC,Los Angeles Clippers,54,Rodney Rogers,SF,6-7,235,1971-06-20,US,3,Wake Forest
+1997,13,2579,LAC,Los Angeles Clippers,33,Dwayne Schintzius,C,7-1,260,1968-10-14,US,6,Florida
+1997,13,2596,LAC,Los Angeles Clippers,21,Malik Sealy,SG,6-8,190,1970-02-01,US,4,St. John's
+1997,13,2973,LAC,Los Angeles Clippers,35,Loy Vaught,PF,6-9,230,1968-02-27,US,6,Michigan
+1997,13,3254,LAC,Los Angeles Clippers,55,Lorenzen Wright,C,6-11,225,1975-11-04,US,R,Memphis

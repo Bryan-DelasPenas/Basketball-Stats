@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2011,19,67,NOH,New Orleans Hornets,11,David Andersen,PF,6-11,245,"June 23, 1980",AU,1,
-2011,19,105,NOH,New Orleans Hornets,1,Trevor Ariza,SF,6-8,215,"June 30, 1985",US,6,UCLA
-2011,19,195,NOH,New Orleans Hornets,32,Jerryd Bayless,PG,6-3,200,"August 20, 1988",US,2,Arizona
-2011,19,208,NOH,New Orleans Hornets,8,Marco Belinelli,SG,6-5,220,"March 25, 1986",IT,3,
-2011,19,884,NOH,New Orleans Hornets,22,Patrick Ewing Jr.,SF,6-8,235,"May 20, 1984",US,R,"Indiana, Georgetown"
-2011,19,1090,NOH,New Orleans Hornets,34,Aaron Gray,C,7-0,270,"December 7, 1984",US,3,Pitt
-2011,19,1116,NOH,New Orleans Hornets,33,Willie Green,SG,6-4,200,"July 28, 1981",US,7,Detroit Mercy
-2011,19,1380,NOH,New Orleans Hornets,28,D.J. Mbenga,C,7-0,245,"December 30, 1980",CD,6,
-2011,19,1394,NOH,New Orleans Hornets,2,Jarrett Jack,SG,6-3,200,"October 28, 1983",US,5,Georgia Tech
-2011,19,1687,NOH,New Orleans Hornets,24,Carl Landry,PF,6-9,248,"September 19, 1983",US,3,Purdue
-2011,19,1972,NOH,New Orleans Hornets,44,Pops Mensah-Bonsu,PF,6-9,240,"September 7, 1983",GB,3,George Washington
-2011,19,2191,NOH,New Orleans Hornets,50,Emeka Okafor,C,6-10,252,"September 28, 1982",US,6,UConn
-2011,19,2264,NOH,New Orleans Hornets,3,Chris Paul,PG,6-0,175,"May 6, 1985",US,5,Wake Forest
-2011,19,2266,NOH,New Orleans Hornets,6,Sasha Pavlovic,SG,6-8,220,"November 15, 1983",ME,7,
-2011,19,2332,NOH,New Orleans Hornets,20,Quincy Pondexter,SF,6-7,230,"March 10, 1988",US,R,Washington
-2011,19,2685,NOH,New Orleans Hornets,14,Jason Smith,C,7-0,240,"March 2, 1986",US,2,Colorado State
-2011,19,2764,NOH,New Orleans Hornets,16,Peja Stojakovic,SF,6-10,229,"June 9, 1977",HR,12,
-2011,19,2882,NOH,New Orleans Hornets,5,Marcus Thornton,SG,6-4,205,"June 5, 1987",US,1,LSU
-2011,19,3074,NOH,New Orleans Hornets,30,David West,PF,6-9,250,"August 29, 1980",US,7,Xavier
+2011,19,67,NOH,New Orleans Hornets,11,David Andersen,PF,6-11,245,1980-06-23,AU,1,
+2011,19,105,NOH,New Orleans Hornets,1,Trevor Ariza,SF,6-8,215,1985-06-30,US,6,UCLA
+2011,19,195,NOH,New Orleans Hornets,32,Jerryd Bayless,PG,6-3,200,1988-08-20,US,2,Arizona
+2011,19,208,NOH,New Orleans Hornets,8,Marco Belinelli,SG,6-5,220,1986-03-25,IT,3,
+2011,19,886,NOH,New Orleans Hornets,22,Patrick Ewing,SF,6-8,235,1984-05-20,US,R,"Indiana, Georgetown"
+2011,19,1092,NOH,New Orleans Hornets,34,Aaron Gray,C,7-0,270,1984-12-07,US,3,Pitt
+2011,19,1118,NOH,New Orleans Hornets,33,Willie Green,SG,6-4,200,1981-07-28,US,7,Detroit Mercy
+2011,19,1382,NOH,New Orleans Hornets,28,Didier Ilunga-Mbenga,C,7-0,245,1980-12-30,CD,6,
+2011,19,1396,NOH,New Orleans Hornets,2,Jarrett Jack,SG,6-3,200,1983-10-28,US,5,Georgia Tech
+2011,19,1690,NOH,New Orleans Hornets,24,Carl Landry,PF,6-9,248,1983-09-19,US,3,Purdue
+2011,19,1975,NOH,New Orleans Hornets,44,Pops Mensah-Bonsu,PF,6-9,240,1983-09-07,GB,3,George Washington
+2011,19,2194,NOH,New Orleans Hornets,50,Emeka Okafor,C,6-10,252,1982-09-28,US,6,UConn
+2011,19,2267,NOH,New Orleans Hornets,3,Chris Paul,PG,6-0,175,1985-05-06,US,5,Wake Forest
+2011,19,2269,NOH,New Orleans Hornets,6,Sasha Pavlovic,SG,6-8,220,1983-11-15,ME,7,
+2011,19,2335,NOH,New Orleans Hornets,20,Quincy Pondexter,SF,6-7,230,1988-03-10,US,R,Washington
+2011,19,2689,NOH,New Orleans Hornets,14,Jason Smith,C,7-0,240,1986-03-02,US,2,Colorado State
+2011,19,2768,NOH,New Orleans Hornets,16,Peja Stojakovic,SF,6-10,229,1977-06-09,HR,12,
+2011,19,2886,NOH,New Orleans Hornets,5,Marcus Thornton,SG,6-4,205,1987-06-05,US,1,LSU
+2011,19,3079,NOH,New Orleans Hornets,30,David West,PF,6-9,250,1980-08-29,US,7,Xavier

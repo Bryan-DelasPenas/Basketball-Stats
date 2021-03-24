@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1991,3,73,NJN,New Jersey Nets,33,Greg Anderson,PF,6-10,230,"June 22, 1964",US,3,Houston
-1991,3,266,NJN,New Jersey Nets,10,Mookie Blaylock,PG,6-0,180,"March 20, 1967",US,1,"Midland College, Oklahoma"
-1991,3,312,NJN,New Jersey Nets,31,Sam Bowie,C,7-1,235,"March 17, 1961",US,5,Kentucky
-1991,3,417,NJN,New Jersey Nets,35,Jud Buechler,SF,6-6,220,"June 19, 1968",US,R,Arizona
-1991,3,563,NJN,New Jersey Nets,44,Derrick Coleman,PF,6-10,230,"June 21, 1967",US,R,Syracuse
-1991,3,588,NJN,New Jersey Nets,15,Lester Conner,PG,6-4,180,"September 17, 1959",US,7,Oregon State
-1991,3,792,NJN,New Jersey Nets,22,Chris Dudley,C,6-11,235,"February 22, 1965",US,3,Yale
-1991,3,1020,NJN,New Jersey Nets,12,Tate George,PG,6-5,190,"May 29, 1968",US,R,UConn
-1991,3,1023,NJN,New Jersey Nets,30,Derrick Gervin,PF,6-8,200,"March 28, 1963",US,1,Texas-San Antonio
-1991,3,1150,NJN,New Jersey Nets,54,Jack Haley,PF,6-10,240,"January 27, 1964",US,2,UCLA
-1991,3,1298,NJN,New Jersey Nets,6,Roy Hinson,PF,6-9,210,"May 2, 1961",US,7,Rutgers University
-1991,3,1724,NJN,New Jersey Nets,20,Kurk Lee,PG,6-3,190,"June 3, 1967",US,R,"Western Kentucky, Towson University"
-1991,3,2002,NJN,New Jersey Nets,5,Terry Mills,PF,6-10,230,"December 21, 1967",US,R,Michigan
-1991,3,2050,NJN,New Jersey Nets,34,Chris Morris,SF,6-8,210,"January 20, 1966",US,2,Auburn
-1991,3,2299,NJN,New Jersey Nets,3,Drazen Petrovic,SG,6-5,195,"October 22, 1964",HR,1,
-1991,3,2839,NJN,New Jersey Nets,24,Reggie Theus,SG,6-7,190,"October 13, 1957",US,12,UNLV
+1991,3,73,NJN,New Jersey Nets,33,Greg Anderson,PF,6-10,230,1964-06-22,US,3,Houston
+1991,3,266,NJN,New Jersey Nets,10,Mookie Blaylock,PG,6-0,180,1967-03-20,US,1,"Midland College, Oklahoma"
+1991,3,312,NJN,New Jersey Nets,31,Sam Bowie,C,7-1,235,1961-03-17,US,5,Kentucky
+1991,3,417,NJN,New Jersey Nets,35,Jud Buechler,SF,6-6,220,1968-06-19,US,R,Arizona
+1991,3,563,NJN,New Jersey Nets,44,Derrick Coleman,PF,6-10,230,1967-06-21,US,R,Syracuse
+1991,3,588,NJN,New Jersey Nets,15,Lester Conner,PG,6-4,180,1959-09-17,US,7,Oregon State
+1991,3,794,NJN,New Jersey Nets,22,Chris Dudley,C,6-11,235,1965-02-22,US,3,Yale
+1991,3,1022,NJN,New Jersey Nets,12,Tate George,PG,6-5,190,1968-05-29,US,R,UConn
+1991,3,1025,NJN,New Jersey Nets,30,Derrick Gervin,PF,6-8,200,1963-03-28,US,1,Texas-San Antonio
+1991,3,1152,NJN,New Jersey Nets,54,Jack Haley,PF,6-10,240,1964-01-27,US,2,UCLA
+1991,3,1300,NJN,New Jersey Nets,6,Roy Hinson,PF,6-9,210,1961-05-02,US,7,Rutgers University
+1991,3,1727,NJN,New Jersey Nets,20,Kurk Lee,PG,6-3,190,1967-06-03,US,R,"Western Kentucky, Towson University"
+1991,3,2005,NJN,New Jersey Nets,5,Terry Mills,PF,6-10,230,1967-12-21,US,R,Michigan
+1991,3,2053,NJN,New Jersey Nets,34,Chris Morris,SF,6-8,210,1966-01-20,US,2,Auburn
+1991,3,2302,NJN,New Jersey Nets,3,Drazen Petrovic,SG,6-5,195,1964-10-22,HR,1,
+1991,3,2843,NJN,New Jersey Nets,24,Reggie Theus,SG,6-7,190,1957-10-13,US,12,UNLV

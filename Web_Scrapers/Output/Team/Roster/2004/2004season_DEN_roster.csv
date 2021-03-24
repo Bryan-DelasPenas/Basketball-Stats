@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2004,8,66,DEN,Denver Nuggets,12,Chris Andersen,PF,6-10,245,"July 7, 1978",US,2,Blinn College
-2004,8,93,DEN,Denver Nuggets,15,Carmelo Anthony,SF,6-7,238,"May 29, 1984",US,R,Syracuse
-2004,8,176,DEN,Denver Nuggets,20,Jon Barry,SG,6-4,195,"July 25, 1969",US,11,"University of the Pacific, Georgia Tech"
-2004,8,310,DEN,Denver Nuggets,32,Ryan Bowen,PF,6-7,215,"November 20, 1975",US,4,Iowa
-2004,8,316,DEN,Denver Nuggets,11,Earl Boykins,SG,5-5,135,"June 2, 1976",US,5,Eastern Michigan
-2004,8,461,DEN,Denver Nuggets,23,Marcus Camby,C,6-11,220,"March 22, 1974",US,7,UMass
-2004,8,755,DEN,Denver Nuggets,51,Michael Doleac,C,6-11,262,"June 15, 1977",US,5,Utah
-2004,8,856,DEN,Denver Nuggets,56,Francisco Elson,C,7-0,235,"February 28, 1976",NL,R,California
-2004,8,1287,DEN,Denver Nuggets,31,Nene Hilario,PF,6-11,250,"September 13, 1982",BR,1,
-2004,8,1732,DEN,Denver Nuggets,1,Voshon Lenard,SG,6-4,205,"May 14, 1973",US,8,Minnesota
-2004,8,1989,DEN,Denver Nuggets,24,Andre Miller,PG,6-3,200,"March 19, 1976",US,4,Utah
-2004,8,2336,DEN,Denver Nuggets,41,Mark Pope,PF,6-10,235,"September 11, 1972",US,4,"Washington, Kentucky"
-2004,8,2911,DEN,Denver Nuggets,4,Jeff Trepagnier,SG,6-4,200,"July 11, 1979",US,2,USC
-2004,8,2916,DEN,Denver Nuggets,22,Nikoloz Tskitishvili,PF,7-0,225,"April 14, 1983",GE,1,
-2004,8,3096,DEN,Denver Nuggets,5,Rodney White,SF,6-9,238,"June 28, 1980",US,2,UNC Charlotte
+2004,8,66,DEN,Denver Nuggets,12,Chris Andersen,PF,6-10,245,1978-07-07,US,2,Blinn College
+2004,8,93,DEN,Denver Nuggets,15,Carmelo Anthony,SF,6-7,238,1984-05-29,US,R,Syracuse
+2004,8,176,DEN,Denver Nuggets,20,Jon Barry,SG,6-4,195,1969-07-25,US,11,"University of the Pacific, Georgia Tech"
+2004,8,310,DEN,Denver Nuggets,32,Ryan Bowen,PF,6-7,215,1975-11-20,US,4,Iowa
+2004,8,316,DEN,Denver Nuggets,11,Earl Boykins,SG,5-5,135,1976-06-02,US,5,Eastern Michigan
+2004,8,461,DEN,Denver Nuggets,23,Marcus Camby,C,6-11,220,1974-03-22,US,7,UMass
+2004,8,757,DEN,Denver Nuggets,51,Michael Doleac,C,6-11,262,1977-06-15,US,5,Utah
+2004,8,858,DEN,Denver Nuggets,56,Francisco Elson,C,7-0,235,1976-02-28,NL,R,California
+2004,8,1289,DEN,Denver Nuggets,31,Nene Hilario,PF,6-11,250,1982-09-13,BR,1,
+2004,8,1735,DEN,Denver Nuggets,1,Voshon Lenard,SG,6-4,205,1973-05-14,US,8,Minnesota
+2004,8,1992,DEN,Denver Nuggets,24,Andre Miller,PG,6-3,200,1976-03-19,US,4,Utah
+2004,8,2339,DEN,Denver Nuggets,41,Mark Pope,PF,6-10,235,1972-09-11,US,4,"Washington, Kentucky"
+2004,8,2916,DEN,Denver Nuggets,4,Jeff Trepagnier,SG,6-4,200,1979-07-11,US,2,USC
+2004,8,2921,DEN,Denver Nuggets,22,Nikoloz Tskitishvili,PF,7-0,225,1983-04-14,GE,1,
+2004,8,3101,DEN,Denver Nuggets,5,Rodney White,SF,6-9,238,1980-06-28,US,2,UNC Charlotte

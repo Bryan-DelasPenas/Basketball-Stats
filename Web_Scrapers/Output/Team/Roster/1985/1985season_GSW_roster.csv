@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1985,10,35,GSW,Golden State Warriors,50,Chuck Aleksinas,C,6-11,260,"February 26, 1959",US,R,"Kentucky, UConn"
-1985,10,337,GSW,Golden State Warriors,23,Mike Bratz,PG,6-2,185,"October 17, 1955",US,7,Stanford
-1985,10,434,GSW,Golden State Warriors,15,Steve Burtt,SG,6-2,185,"November 5, 1962",US,R,Iona College
-1985,10,588,GSW,Golden State Warriors,32,Lester Conner,PG,6-4,180,"September 17, 1959",US,2,Oregon State
-1985,10,925,GSW,Golden State Warriors,21,Sleepy Floyd,SG,6-3,170,"March 6, 1960",US,2,Georgetown
-1985,10,1506,GSW,Golden State Warriors,43,Mickey Johnson,PF,6-10,190,"August 31, 1952",US,10,Aurora University
-1985,10,2324,GSW,Golden State Warriors,44,Gary Plummer,PF,6-9,215,"February 21, 1962",US,R,Boston University
-1985,10,2620,GSW,Golden State Warriors,45,Purvis Short,SF,6-7,210,"July 2, 1957",US,6,Jackson State University
-1985,10,2693,GSW,Golden State Warriors,13,Larry Smith,PF,6-8,215,"January 18, 1958",US,4,Alcorn State
-1985,10,2825,GSW,Golden State Warriors,20,Terry Teagle,SG,6-5,195,"April 10, 1960",US,2,Baylor
-1985,10,2840,GSW,Golden State Warriors,7,Peter Thibeaux,SF,6-7,210,"October 3, 1961",US,R,Saint Mary's
-1985,10,3103,GSW,Golden State Warriors,33,Jerome Whitehead,C,6-10,220,"September 30, 1956",US,6,Marquette
-1985,10,3200,GSW,Golden State Warriors,11,Othell Wilson,PG,6-0,190,"October 26, 1961",US,R,Virginia
+1985,10,35,GSW,Golden State Warriors,50,Chuck Aleksinas,C,6-11,260,1959-02-26,US,R,"Kentucky, UConn"
+1985,10,337,GSW,Golden State Warriors,23,Mike Bratz,PG,6-2,185,1955-10-17,US,7,Stanford
+1985,10,434,GSW,Golden State Warriors,15,Steve Burtt,SG,6-2,185,1962-11-05,US,R,Iona College
+1985,10,588,GSW,Golden State Warriors,32,Lester Conner,PG,6-4,180,1959-09-17,US,2,Oregon State
+1985,10,927,GSW,Golden State Warriors,21,Sleepy Floyd,SG,6-3,170,1960-03-06,US,2,Georgetown
+1985,10,1508,GSW,Golden State Warriors,43,Mickey Johnson,PF,6-10,190,1952-08-31,US,10,Aurora University
+1985,10,2327,GSW,Golden State Warriors,44,Gary Plummer,PF,6-9,215,1962-02-21,US,R,Boston University
+1985,10,2624,GSW,Golden State Warriors,45,Purvis Short,SF,6-7,210,1957-07-02,US,6,Jackson State University
+1985,10,2697,GSW,Golden State Warriors,13,Larry Smith,PF,6-8,215,1958-01-18,US,4,Alcorn State
+1985,10,2829,GSW,Golden State Warriors,20,Terry Teagle,SG,6-5,195,1960-04-10,US,2,Baylor
+1985,10,2844,GSW,Golden State Warriors,7,Peter Thibeaux,SF,6-7,210,1961-10-03,US,R,Saint Mary's
+1985,10,3108,GSW,Golden State Warriors,33,Jerome Whitehead,C,6-10,220,1956-09-30,US,6,Marquette
+1985,10,3206,GSW,Golden State Warriors,11,Othell Wilson,PG,6-0,190,1961-10-26,US,R,Virginia

@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2001,5,136,CHI,Chicago Bulls,44,Dalibor Bagaric,C,7-1,255,"February 7, 1980",DE,R,
-2001,5,218,CHI,Chicago Bulls,25,Corey Benjamin,PG,6-6,200,"February 24, 1978",US,2,Oregon State
-2001,5,333,CHI,Chicago Bulls,42,Elton Brand,PF,6-8,275,"March 11, 1979",US,1,Duke
-2001,5,625,CHI,Chicago Bulls,1,Jamal Crawford,PG,6-5,185,"March 20, 1980",US,R,Michigan
-2001,5,782,CHI,Chicago Bulls,24,Bryce Drew,PG,6-2,185,"September 21, 1974",US,2,Valparaiso
-2001,5,841,CHI,Chicago Bulls,2,Khalid El-Amin,PG,5-10,200,"April 25, 1979",US,R,UConn
-2001,5,921,CHI,Chicago Bulls,21,Marcus Fizer,PF,6-9,262,"August 10, 1978",US,R,Iowa State
-2001,5,1057,CHI,Chicago Bulls,30,Steve Goodrich,PF,6-10,220,"March 18, 1976",US,R,Princeton
-2001,5,1141,CHI,Chicago Bulls,11,A.J. Guyton,PG,6-1,180,"February 12, 1978",US,R,Indiana
-2001,5,1306,CHI,Chicago Bulls,20,Fred Hoiberg,SG,6-4,203,"October 15, 1972",US,5,Iowa State
-2001,5,1973,CHI,Chicago Bulls,5,Ron Mercer,SG,6-7,210,"May 18, 1976",US,3,Kentucky
-2001,5,1992,CHI,Chicago Bulls,40,Brad Miller,C,6-11,244,"April 12, 1976",US,2,Purdue
-2001,5,2529,CHI,Chicago Bulls,51,Michael Ruffin,PF,6-9,246,"January 21, 1977",US,1,Tulsa
-2001,5,2805,CHI,Chicago Bulls,12,Dragan Tarlac,C,6-10,260,"May 9, 1973",RS,R,
-2001,5,2982,CHI,Chicago Bulls,43,Jake Voskuhl,C,6-11,245,"November 1, 1977",US,R,UConn
-2001,5,3234,CHI,Chicago Bulls,15,Metta World Peace,SF,6-6,260,"November 13, 1979",US,1,St. John's
+2001,5,136,CHI,Chicago Bulls,44,Dalibor Bagaric,C,7-1,255,1980-02-07,DE,R,
+2001,5,218,CHI,Chicago Bulls,25,Corey Benjamin,PG,6-6,200,1978-02-24,US,2,Oregon State
+2001,5,333,CHI,Chicago Bulls,42,Elton Brand,PF,6-8,275,1979-03-11,US,1,Duke
+2001,5,625,CHI,Chicago Bulls,1,Jamal Crawford,PG,6-5,185,1980-03-20,US,R,Michigan
+2001,5,784,CHI,Chicago Bulls,24,Bryce Drew,PG,6-2,185,1974-09-21,US,2,Valparaiso
+2001,5,843,CHI,Chicago Bulls,2,Khalid El-Amin,PG,5-10,200,1979-04-25,US,R,UConn
+2001,5,923,CHI,Chicago Bulls,21,Marcus Fizer,PF,6-9,262,1978-08-10,US,R,Iowa State
+2001,5,1059,CHI,Chicago Bulls,30,Steve Goodrich,PF,6-10,220,1976-03-18,US,R,Princeton
+2001,5,1143,CHI,Chicago Bulls,11,A.J. Guyton,PG,6-1,180,1978-02-12,US,R,Indiana
+2001,5,1308,CHI,Chicago Bulls,20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,5,Iowa State
+2001,5,1976,CHI,Chicago Bulls,5,Ron Mercer,SG,6-7,210,1976-05-18,US,3,Kentucky
+2001,5,1995,CHI,Chicago Bulls,40,Brad Miller,C,6-11,244,1976-04-12,US,2,Purdue
+2001,5,2533,CHI,Chicago Bulls,51,Michael Ruffin,PF,6-9,246,1977-01-21,US,1,Tulsa
+2001,5,2809,CHI,Chicago Bulls,12,Dragan Tarlac,C,6-10,260,1973-05-09,RS,R,
+2001,5,2987,CHI,Chicago Bulls,43,Jake Voskuhl,C,6-11,245,1977-11-01,US,R,UConn
+2001,5,3240,CHI,Chicago Bulls,15,Metta World Peace,SF,6-6,260,1979-11-13,US,1,St. John's

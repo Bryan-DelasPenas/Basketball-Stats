@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1985,23,165,PHI,Philadelphia 76Ers,34,Charles Barkley,PF,6-6,252,"February 20, 1963",US,R,Auburn
-1985,23,522,PHI,Philadelphia 76Ers,10,Maurice Cheeks,PG,6-1,180,"September 8, 1956",US,6,West Texas A&M University
-1985,23,869,PHI,Philadelphia 76Ers,6,Julius Erving,SF,6-7,210,"February 22, 1950",US,13,UMass
-1985,23,1238,PHI,Philadelphia 76Ers,31,Steve Hayes,C,7-0,205,"August 2, 1955",US,3,Idaho State University
-1985,23,1375,PHI,Philadelphia 76Ers,8,Marc Iavaroni,PF,6-8,210,"September 15, 1956",US,2,Virginia
-1985,23,1477,PHI,Philadelphia 76Ers,45,Clemon Johnson,C,6-10,240,"September 12, 1956",US,6,Florida A&M
-1985,23,1490,PHI,Philadelphia 76Ers,12,George Lee Johnson,SF,6-7,210,"December 8, 1956",US,6,St. John's
-1985,23,1527,PHI,Philadelphia 76Ers,24,Robert Jones,PF,6-9,210,"December 18, 1951",US,10,UNC
-1985,23,1824,PHI,Philadelphia 76Ers,2,Moses Malone,C,6-10,215,"March 23, 1955",US,10,
-1985,23,2441,PHI,Philadelphia 76Ers,4,Clint Richardson,SG,6-3,195,"August 7, 1956",US,5,Seattle University
-1985,23,2885,PHI,Philadelphia 76Ers,9,Sedale Threatt,PG,6-2,175,"September 10, 1961",US,1,West Virginia Tech
-1985,23,2896,PHI,Philadelphia 76Ers,22,Andrew Toney,SG,6-3,178,"November 23, 1957",US,4,Louisiana
-1985,23,3177,PHI,Philadelphia 76Ers,33,Sam Williams,PF,6-8,210,"March 7, 1959",US,3,Arizona State
-1985,23,3226,PHI,Philadelphia 76Ers,20,Leon Wood,PG,6-3,185,"March 25, 1962",US,R,"Arizona, Cal State Fullerton"
+1985,23,165,PHI,Philadelphia 76Ers,34,Charles Barkley,PF,6-6,252,1963-02-20,US,R,Auburn
+1985,23,522,PHI,Philadelphia 76Ers,10,Maurice Cheeks,PG,6-1,180,1956-09-08,US,6,West Texas A&M University
+1985,23,871,PHI,Philadelphia 76Ers,6,Julius Erving,SF,6-7,210,1950-02-22,US,13,UMass
+1985,23,1240,PHI,Philadelphia 76Ers,31,Steve Hayes,C,7-0,205,1955-08-02,US,3,Idaho State University
+1985,23,1377,PHI,Philadelphia 76Ers,8,Marc Iavaroni,PF,6-8,210,1956-09-15,US,2,Virginia
+1985,23,1479,PHI,Philadelphia 76Ers,45,Clemon Johnson,C,6-10,240,1956-09-12,US,6,Florida A&M
+1985,23,1492,PHI,Philadelphia 76Ers,12,George Johnson,SF,6-7,210,1956-12-08,US,6,St. John's
+1985,23,1530,PHI,Philadelphia 76Ers,24,Bobby Jones,PF,6-9,210,1951-12-18,US,10,UNC
+1985,23,1827,PHI,Philadelphia 76Ers,2,Moses Malone,C,6-10,215,1955-03-23,US,10,
+1985,23,2445,PHI,Philadelphia 76Ers,4,Clint Richardson,SG,6-3,195,1956-08-07,US,5,Seattle University
+1985,23,2889,PHI,Philadelphia 76Ers,9,Sedale Threatt,PG,6-2,175,1961-09-10,US,1,West Virginia Tech
+1985,23,2901,PHI,Philadelphia 76Ers,22,Andrew Toney,SG,6-3,178,1957-11-23,US,4,Louisiana
+1985,23,3183,PHI,Philadelphia 76Ers,33,Sam Williams,PF,6-8,210,1959-03-07,US,3,Arizona State
+1985,23,3232,PHI,Philadelphia 76Ers,20,Leon Wood,PG,6-3,185,1962-03-25,US,R,"Arizona, Cal State Fullerton"

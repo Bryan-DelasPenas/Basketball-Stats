@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2018,10,210,GSW,Golden State Warriors,2,Jordan Bell,C,6-8,216,"January 7, 1995",US,R,Oregon
-2018,10,305,GSW,Golden State Warriors,25,Chris Boucher,PF,6-9,200,"January 11, 1993",LC,R,Oregon
-2018,10,498,GSW,Golden State Warriors,18,Omri Casspi,SF,6-9,225,"June 22, 1988",IL,8,
-2018,10,596,GSW,Golden State Warriors,4,Quinn Cook,PG,6-1,180,"March 23, 1993",US,1,Duke
-2018,10,657,GSW,Golden State Warriors,30,Stephen Curry,PG,6-3,185,"March 14, 1988",US,8,Davidson
-2018,10,806,GSW,Golden State Warriors,35,Kevin Durant,SF,6-10,240,"September 29, 1988",US,10,Texas
-2018,10,1101,GSW,Golden State Warriors,23,Draymond Green,PF,6-6,230,"March 4, 1990",US,5,Michigan State
-2018,10,1377,GSW,Golden State Warriors,9,Andre Iguodala,SF,6-6,215,"January 28, 1984",US,13,Arizona
-2018,10,1534,GSW,Golden State Warriors,15,Damian Jones,C,6-11,245,"June 30, 1995",US,1,Vanderbilt
-2018,10,1759,GSW,Golden State Warriors,34,Shaun Livingston,PG,6-7,192,"September 11, 1985",US,12,
-2018,10,1774,GSW,Golden State Warriors,5,Kevon Looney,C,6-9,222,"February 6, 1996",US,2,UCLA
-2018,10,1903,GSW,Golden State Warriors,0,Patrick McCaw,SG,6-7,181,"October 25, 1995",US,1,UNLV
-2018,10,1932,GSW,Golden State Warriors,1,JaVale McGee,C,7-0,270,"January 19, 1988",US,9,Nevada
-2018,10,2234,GSW,Golden State Warriors,27,Zaza Pachulia,C,6-11,270,"February 10, 1984",GE,14,
-2018,10,2873,GSW,Golden State Warriors,11,Klay Thompson,SG,6-6,215,"February 8, 1990",US,6,Washington State
-2018,10,3074,GSW,Golden State Warriors,3,David West,C,6-9,250,"August 29, 1980",US,14,Xavier
-2018,10,3262,GSW,Golden State Warriors,6,Nick Young,SG,6-7,210,"June 1, 1985",US,10,USC
+2018,10,210,GSW,Golden State Warriors,2,Jordan Bell,C,6-8,216,1995-01-07,US,R,Oregon
+2018,10,305,GSW,Golden State Warriors,25,Chris Boucher,PF,6-9,200,1993-01-11,LC,R,Oregon
+2018,10,498,GSW,Golden State Warriors,18,Omri Casspi,SF,6-9,225,1988-06-22,IL,8,
+2018,10,596,GSW,Golden State Warriors,4,Quinn Cook,PG,6-1,180,1993-03-23,US,1,Duke
+2018,10,657,GSW,Golden State Warriors,30,Stephen Curry,PG,6-3,185,1988-03-14,US,8,Davidson
+2018,10,808,GSW,Golden State Warriors,35,Kevin Durant,SF,6-10,240,1988-09-29,US,10,Texas
+2018,10,1103,GSW,Golden State Warriors,23,Draymond Green,PF,6-6,230,1990-03-04,US,5,Michigan State
+2018,10,1379,GSW,Golden State Warriors,9,Andre Iguodala,SF,6-6,215,1984-01-28,US,13,Arizona
+2018,10,1536,GSW,Golden State Warriors,15,Damian Jones,C,6-11,245,1995-06-30,US,1,Vanderbilt
+2018,10,1762,GSW,Golden State Warriors,34,Shaun Livingston,PG,6-7,192,1985-09-11,US,12,
+2018,10,1777,GSW,Golden State Warriors,5,Kevon Looney,C,6-9,222,1996-02-06,US,2,UCLA
+2018,10,1906,GSW,Golden State Warriors,0,Patrick McCaw,SG,6-7,181,1995-10-25,US,1,UNLV
+2018,10,1935,GSW,Golden State Warriors,1,JaVale McGee,C,7-0,270,1988-01-19,US,9,Nevada
+2018,10,2237,GSW,Golden State Warriors,27,Zaza Pachulia,C,6-11,270,1984-02-10,GE,14,
+2018,10,2877,GSW,Golden State Warriors,11,Klay Thompson,SG,6-6,215,1990-02-08,US,6,Washington State
+2018,10,3079,GSW,Golden State Warriors,3,David West,C,6-9,250,1980-08-29,US,14,Xavier
+2018,10,3268,GSW,Golden State Warriors,6,Nick Young,SG,6-7,210,1985-06-01,US,10,USC

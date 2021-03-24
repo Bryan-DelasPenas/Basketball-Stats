@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1984,5,411,CHI,Chicago Bulls,54,Wallace Bryant,C,7-0,245,"July 14, 1959",ES,R,San Francisco
-1984,5,611,CHI,Chicago Bulls,40,Dave Corzine,C,6-11,250,"April 25, 1956",US,5,DePaul
-1984,5,659,CHI,Chicago Bulls,44,Quintin Dailey,SG,6-3,180,"January 22, 1961",US,1,San Francisco
-1984,5,1114,CHI,Chicago Bulls,21,Sidney Green,PF,6-9,220,"January 4, 1961",US,R,UNLV
-1984,5,1119,CHI,Chicago Bulls,34,Dave Greenwood,PF,6-9,222,"May 27, 1957",US,4,UCLA
-1984,5,1282,CHI,Chicago Bulls,22,Rod Higgins,SF,6-7,200,"January 31, 1960",US,1,Fresno State
-1984,5,1514,CHI,Chicago Bulls,32,Steve Johnson,C,6-10,235,"November 3, 1957",US,2,Oregon State
-1984,5,1738,CHI,Chicago Bulls,12,Ronnie Lester,PG,6-2,175,"January 1, 1959",US,3,Iowa
-1984,5,2203,CHI,Chicago Bulls,33,Jawann Oldham,C,7-0,215,"July 4, 1957",US,3,Seattle University
-1984,5,2839,CHI,Chicago Bulls,24,Reggie Theus,PG,6-7,190,"October 13, 1957",US,5,UNLV
-1984,5,3082,CHI,Chicago Bulls,3,Ennis Whatley,PG,6-3,177,"August 11, 1962",US,R,Alabama
-1984,5,3112,CHI,Chicago Bulls,15,Mitchell Wiggins,SG,6-4,185,"September 28, 1959",US,R,"Clemson, Florida State"
-1984,5,3232,CHI,Chicago Bulls,0,Orlando Woolridge,SF,6-9,215,"December 16, 1959",US,2,Notre Dame
+1984,5,411,CHI,Chicago Bulls,54,Wallace Bryant,C,7-0,245,1959-07-14,ES,R,San Francisco
+1984,5,611,CHI,Chicago Bulls,40,Dave Corzine,C,6-11,250,1956-04-25,US,5,DePaul
+1984,5,659,CHI,Chicago Bulls,44,Quintin Dailey,SG,6-3,180,1961-01-22,US,1,San Francisco
+1984,5,1116,CHI,Chicago Bulls,21,Sidney Green,PF,6-9,220,1961-01-04,US,R,UNLV
+1984,5,1121,CHI,Chicago Bulls,34,Dave Greenwood,PF,6-9,222,1957-05-27,US,4,UCLA
+1984,5,1284,CHI,Chicago Bulls,22,Rod Higgins,SF,6-7,200,1960-01-31,US,1,Fresno State
+1984,5,1516,CHI,Chicago Bulls,32,Steve Johnson,C,6-10,235,1957-11-03,US,2,Oregon State
+1984,5,1741,CHI,Chicago Bulls,12,Ronnie Lester,PG,6-2,175,1959-01-01,US,3,Iowa
+1984,5,2206,CHI,Chicago Bulls,33,Jawann Oldham,C,7-0,215,1957-07-04,US,3,Seattle University
+1984,5,2843,CHI,Chicago Bulls,24,Reggie Theus,PG,6-7,190,1957-10-13,US,5,UNLV
+1984,5,3087,CHI,Chicago Bulls,3,Ennis Whatley,PG,6-3,177,1962-08-11,US,R,Alabama
+1984,5,3118,CHI,Chicago Bulls,15,Mitchell Wiggins,SG,6-4,185,1959-09-28,US,R,"Clemson, Florida State"
+1984,5,3238,CHI,Chicago Bulls,0,Orlando Woolridge,SF,6-9,215,1959-12-16,US,2,Notre Dame

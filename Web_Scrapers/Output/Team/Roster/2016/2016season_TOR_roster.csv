@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,28,219,TOR,Toronto Raptors,15,Anthony Bennett,PF,6-8,245,"March 14, 1993",CA,2,UNLV
-2016,28,249,TOR,Toronto Raptors,8,Bismack Biyombo,C,6-8,255,"August 28, 1992",CD,4,
-2016,28,448,TOR,Toronto Raptors,20,Bruno Caboclo,SF,6-9,218,"September 21, 1995",BR,1,
-2016,28,481,TOR,Toronto Raptors,5,DeMarre Carroll,SF,6-6,215,"July 27, 1986",US,6,"Vanderbilt, Missouri"
-2016,28,715,TOR,Toronto Raptors,10,DeMar DeRozan,SG,6-6,220,"August 7, 1989",US,6,USC
-2016,28,1493,TOR,Toronto Raptors,3,James Johnson,PF,6-7,240,"February 20, 1987",US,6,Wake Forest
-2016,28,1572,TOR,Toronto Raptors,6,Cory Joseph,SG,6-3,200,"August 20, 1991",CA,4,Texas
-2016,28,1782,TOR,Toronto Raptors,7,Kyle Lowry,PG,6-0,196,"March 25, 1986",US,9,Villanova
-2016,28,2154,TOR,Toronto Raptors,92,Lucas Nogueira,C,7-0,241,"July 26, 1992",BR,1,
-2016,28,2260,TOR,Toronto Raptors,54,Patrick Patterson,PF,6-8,235,"March 14, 1989",US,5,Kentucky
-2016,28,2354,TOR,Toronto Raptors,24,Norman Powell,SG,6-3,215,"May 25, 1993",US,R,UCLA
-2016,28,2513,TOR,Toronto Raptors,31,Terrence Ross,SF,6-6,206,"February 5, 1991",US,3,Washington
-2016,28,2581,TOR,Toronto Raptors,4,Luis Scola,PF,6-9,240,"April 30, 1980",AR,8,
-2016,28,2871,TOR,Toronto Raptors,1,Jason Thompson,C,6-11,250,"July 21, 1986",US,7,Rider University
-2016,28,2948,TOR,Toronto Raptors,17,Jonas Valanciunas,C,6-11,265,"May 6, 1992",LT,3,
-2016,28,3243,TOR,Toronto Raptors,55,Delon Wright,PG,6-5,185,"April 26, 1992",US,R,Utah
+2016,28,219,TOR,Toronto Raptors,15,Anthony Bennett,PF,6-8,245,1993-03-14,CA,2,UNLV
+2016,28,249,TOR,Toronto Raptors,8,Bismack Biyombo,C,6-8,255,1992-08-28,CD,4,
+2016,28,448,TOR,Toronto Raptors,20,Bruno Caboclo,SF,6-9,218,1995-09-21,BR,1,
+2016,28,481,TOR,Toronto Raptors,5,DeMarre Carroll,SF,6-6,215,1986-07-27,US,6,"Vanderbilt, Missouri"
+2016,28,716,TOR,Toronto Raptors,10,DeMar DeRozan,SG,6-6,220,1989-08-07,US,6,USC
+2016,28,1495,TOR,Toronto Raptors,3,James Johnson,PF,6-7,240,1987-02-20,US,6,Wake Forest
+2016,28,1574,TOR,Toronto Raptors,6,Cory Joseph,SG,6-3,200,1991-08-20,CA,4,Texas
+2016,28,1785,TOR,Toronto Raptors,7,Kyle Lowry,PG,6-0,196,1986-03-25,US,9,Villanova
+2016,28,2157,TOR,Toronto Raptors,92,Lucas Nogueira,C,7-0,241,1992-07-26,BR,1,
+2016,28,2263,TOR,Toronto Raptors,54,Patrick Patterson,PF,6-8,235,1989-03-14,US,5,Kentucky
+2016,28,2358,TOR,Toronto Raptors,24,Norman Powell,SG,6-3,215,1993-05-25,US,R,UCLA
+2016,28,2517,TOR,Toronto Raptors,31,Terrence Ross,SF,6-6,206,1991-02-05,US,3,Washington
+2016,28,2585,TOR,Toronto Raptors,4,Luis Scola,PF,6-9,240,1980-04-30,AR,8,
+2016,28,2875,TOR,Toronto Raptors,1,Jason Thompson,C,6-11,250,1986-07-21,US,7,Rider University
+2016,28,2953,TOR,Toronto Raptors,17,Jonas Valanciunas,C,6-11,265,1992-05-06,LT,3,
+2016,28,3249,TOR,Toronto Raptors,55,Delon Wright,PG,6-5,185,1992-04-26,US,R,Utah

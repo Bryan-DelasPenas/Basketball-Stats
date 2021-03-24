@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,18,250,MIN,Minnesota Timberwolves,88,Nemanja Bjelica,PF,6-10,234,"May 9, 1988",RS,R,
-2016,18,746,MIN,Minnesota Timberwolves,5,Gorgui Dieng,C,6-10,252,"January 18, 1990",SN,2,Louisville
-2016,18,997,MIN,Minnesota Timberwolves,21,Kevin Garnett,PF,6-11,240,"May 19, 1976",US,20,
-2016,18,1563,MIN,Minnesota Timberwolves,1,Tyus Jones,PG,6-0,196,"May 10, 1996",US,R,Duke
-2016,18,1674,MIN,Minnesota Timberwolves,8,Zach LaVine,SG,6-5,200,"March 10, 1995",US,1,UCLA
-2016,18,1863,MIN,Minnesota Timberwolves,23,Kevin Martin,SG,6-7,199,"February 1, 1983",US,11,Western Carolina University
-2016,18,1989,MIN,Minnesota Timberwolves,24,Andre Miller,PG,6-3,200,"March 19, 1976",US,16,Utah
-2016,18,2074,MIN,Minnesota Timberwolves,15,Shabazz Muhammad,SF,6-6,223,"November 13, 1992",US,2,UCLA
-2016,18,2269,MIN,Minnesota Timberwolves,33,Adreian Payne,PF,6-10,237,"February 19, 1991",US,1,Michigan State
-2016,18,2278,MIN,Minnesota Timberwolves,14,Nikola Pekovic,C,6-11,307,"January 3, 1986",ME,5,
-2016,18,2368,MIN,Minnesota Timberwolves,12,Tayshaun Prince,SF,6-9,212,"February 28, 1980",US,13,Kentucky
-2016,18,2525,MIN,Minnesota Timberwolves,9,Ricky Rubio,PG,6-3,190,"October 21, 1990",ES,4,
-2016,18,2528,MIN,Minnesota Timberwolves,10,Damjan Rudez,SF,6-10,228,"June 17, 1986",HR,1,
-2016,18,2680,MIN,Minnesota Timberwolves,4,Greg Smith,PF,6-10,250,"January 8, 1991",US,4,Fresno State
-2016,18,2906,MIN,Minnesota Timberwolves,32,Karl-Anthony Towns,C,6-11,248,"November 15, 1995",US,R,Kentucky
-2016,18,3111,MIN,Minnesota Timberwolves,22,Andrew Wiggins,SF,6-7,197,"February 23, 1995",CA,1,Kansas
+2016,18,250,MIN,Minnesota Timberwolves,88,Nemanja Bjelica,PF,6-10,234,1988-05-09,RS,R,
+2016,18,748,MIN,Minnesota Timberwolves,5,Gorgui Dieng,C,6-10,252,1990-01-18,SN,2,Louisville
+2016,18,999,MIN,Minnesota Timberwolves,21,Kevin Garnett,PF,6-11,240,1976-05-19,US,20,
+2016,18,1565,MIN,Minnesota Timberwolves,1,Tyus Jones,PG,6-0,196,1996-05-10,US,R,Duke
+2016,18,1676,MIN,Minnesota Timberwolves,8,Zach LaVine,SG,6-5,200,1995-03-10,US,1,UCLA
+2016,18,1866,MIN,Minnesota Timberwolves,23,Kevin Martin,SG,6-7,199,1983-02-01,US,11,Western Carolina University
+2016,18,1992,MIN,Minnesota Timberwolves,24,Andre Miller,PG,6-3,200,1976-03-19,US,16,Utah
+2016,18,2077,MIN,Minnesota Timberwolves,15,Shabazz Muhammad,SF,6-6,223,1992-11-13,US,2,UCLA
+2016,18,2272,MIN,Minnesota Timberwolves,33,Adreian Payne,PF,6-10,237,1991-02-19,US,1,Michigan State
+2016,18,2281,MIN,Minnesota Timberwolves,14,Nikola Pekovic,C,6-11,307,1986-01-03,ME,5,
+2016,18,2372,MIN,Minnesota Timberwolves,12,Tayshaun Prince,SF,6-9,212,1980-02-28,US,13,Kentucky
+2016,18,2529,MIN,Minnesota Timberwolves,9,Ricky Rubio,PG,6-3,190,1990-10-21,ES,4,
+2016,18,2532,MIN,Minnesota Timberwolves,10,Damjan Rudez,SF,6-10,228,1986-06-17,HR,1,
+2016,18,2684,MIN,Minnesota Timberwolves,4,Greg Smith,PF,6-10,250,1991-01-08,US,4,Fresno State
+2016,18,2911,MIN,Minnesota Timberwolves,32,Karl-Anthony Towns,C,6-11,248,1995-11-15,US,R,Kentucky
+2016,18,3117,MIN,Minnesota Timberwolves,22,Andrew Wiggins,SF,6-7,197,1995-02-23,CA,1,Kansas

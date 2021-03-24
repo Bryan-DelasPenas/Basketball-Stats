@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1982,20,320,NYK,New York Knicks,30,Alex Bradley,SF,6-6,215,"October 30, 1959",US,R,Villanova
-1982,20,490,NYK,New York Knicks,35,Reggie Carter,SG,6-3,175,"October 10, 1957",US,1,"Hawaii, St. John's"
-1982,20,495,NYK,New York Knicks,25,Bill Cartwright,C,7-1,245,"July 30, 1957",US,2,San Francisco
-1982,20,607,NYK,New York Knicks,45,Hollis Copeland,SF,6-6,180,"December 20, 1955",US,1,Rutgers University
-1982,20,729,NYK,New York Knicks,42,Larry Demic,PF,6-9,225,"June 27, 1957",US,2,Arizona
-1982,20,1641,NYK,New York Knicks,43,Toby Knight,SF,6-9,210,"May 3, 1955",US,3,Notre Dame
-1982,20,1786,NYK,New York Knicks,23,Maurice Lucas,PF,6-9,215,"February 18, 1952",US,7,Marquette
-1982,20,2137,NYK,New York Knicks,14,Mike Newlin,SG,6-4,200,"January 2, 1949",US,10,Utah
-1982,20,2446,NYK,New York Knicks,20,Micheal Ray Richardson,PG,6-5,189,"April 11, 1955",US,3,Montana
-1982,20,2536,NYK,New York Knicks,21,Campy Russell,SF,6-8,215,"January 12, 1952",US,7,Michigan
-1982,20,2570,NYK,New York Knicks,31,DeWayne Scales,PF,6-8,208,"December 28, 1958",US,1,LSU
-1982,20,2701,NYK,New York Knicks,9,Randy Smith,SG,6-3,180,"December 12, 1948",US,10,Buffalo State
-1982,20,3061,NYK,New York Knicks,40,Marvin Webster,C,7-1,225,"April 13, 1952",US,6,Morgan State University
-1982,20,3080,NYK,New York Knicks,44,Paul Westphal,SG,6-4,195,"November 30, 1950",US,9,USC
-1982,20,3183,NYK,New York Knicks,33,Sly Williams,SF,6-7,210,"January 26, 1958",US,2,Rhode Island
+1982,20,320,NYK,New York Knicks,30,Alex Bradley,SF,6-6,215,1959-10-30,US,R,Villanova
+1982,20,490,NYK,New York Knicks,35,Reggie Carter,SG,6-3,175,1957-10-10,US,1,"Hawaii, St. John's"
+1982,20,495,NYK,New York Knicks,25,Bill Cartwright,C,7-1,245,1957-07-30,US,2,San Francisco
+1982,20,607,NYK,New York Knicks,45,Hollis Copeland,SF,6-6,180,1955-12-20,US,1,Rutgers University
+1982,20,730,NYK,New York Knicks,42,Larry Demic,PF,6-9,225,1957-06-27,US,2,Arizona
+1982,20,1643,NYK,New York Knicks,43,Toby Knight,SF,6-9,210,1955-05-03,US,3,Notre Dame
+1982,20,1789,NYK,New York Knicks,23,Maurice Lucas,PF,6-9,215,1952-02-18,US,7,Marquette
+1982,20,2140,NYK,New York Knicks,14,Mike Newlin,SG,6-4,200,1949-01-02,US,10,Utah
+1982,20,2450,NYK,New York Knicks,20,Micheal Ray Richardson,PG,6-5,189,1955-04-11,US,3,Montana
+1982,20,2540,NYK,New York Knicks,21,Campy Russell,SF,6-8,215,1952-01-12,US,7,Michigan
+1982,20,2574,NYK,New York Knicks,31,DeWayne Scales,PF,6-8,208,1958-12-28,US,1,LSU
+1982,20,2705,NYK,New York Knicks,9,Randy Smith,SG,6-3,180,1948-12-12,US,10,Buffalo State
+1982,20,3066,NYK,New York Knicks,40,Marvin Webster,C,7-1,225,1952-04-13,US,6,Morgan State University
+1982,20,3085,NYK,New York Knicks,44,Paul Westphal,SG,6-4,195,1950-11-30,US,9,USC
+1982,20,3189,NYK,New York Knicks,33,Sly Williams,SF,6-7,210,1958-01-26,US,2,Rhode Island

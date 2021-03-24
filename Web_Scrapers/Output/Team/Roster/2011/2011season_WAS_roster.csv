@@ -1,24 +1,24 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2011,30,104,WAS,Washington Wizards,9,Gilbert Arenas,PG,6-3,191,"January 6, 1982",US,9,Arizona
-2011,30,110,WAS,Washington Wizards,24,Hilton Armstrong,C,6-11,235,"November 11, 1984",US,4,UConn
-2011,30,240,WAS,Washington Wizards,0,Mike Bibby,PG,6-1,190,"May 13, 1978",US,12,Arizona
-2011,30,265,WAS,Washington Wizards,7,Andray Blatche,PF,6-11,235,"August 22, 1986",US,5,
-2011,30,294,WAS,Washington Wizards,35,Trevor Booker,PF,6-8,228,"November 25, 1987",US,R,Clemson
-2011,30,627,WAS,Washington Wizards,15,Jordan Crawford,SG,6-4,195,"October 23, 1988",US,R,"Indiana, Xavier"
-2011,30,878,WAS,Washington Wizards,6,Maurice Evans,SF,6-5,220,"November 8, 1978",US,7,"Wichita State, Texas"
-2011,30,1015,WAS,Washington Wizards,15,Alonzo Gee,SG,6-6,225,"May 29, 1987",US,1,Alabama
-2011,30,1297,WAS,Washington Wizards,12,Kirk Hinrich,SG,6-4,190,"January 2, 1981",US,7,Kansas
-2011,30,1340,WAS,Washington Wizards,5,Josh Howard,SF,6-7,210,"April 28, 1980",US,7,Wake Forest
-2011,30,1346,WAS,Washington Wizards,3,Lester Hudson,PG,6-3,190,"August 7, 1984",US,1,University of Tennessee at Martin
-2011,30,1440,WAS,Washington Wizards,12,Othyus Jeffers,SG,6-5,200,"August 5, 1985",US,1,"University of Illinois at Chicago, Robert Morris University (IL)"
-2011,30,1459,WAS,Washington Wizards,31,Yi Jianlian,PF,7-0,240,"October 27, 1987",CN,3,
-2011,30,1748,WAS,Washington Wizards,9,Rashard Lewis,SF,6-10,215,"August 8, 1979",US,12,
-2011,30,1852,WAS,Washington Wizards,20,Cartier Martin,SF,6-7,220,"November 20, 1984",US,2,Kansas State
-2011,30,1932,WAS,Washington Wizards,34,JaVale McGee,C,7-0,270,"January 19, 1988",US,2,Nevada
-2011,30,2103,WAS,Washington Wizards,55,Hamady N'Diaye,C,7-0,235,"January 12, 1987",SN,R,Rutgers University
-2011,30,2229,WAS,Washington Wizards,32,Larry Owens,SF,6-7,210,"January 8, 1983",US,R,Oral Roberts
-2011,30,2599,WAS,Washington Wizards,13,Kevin Seraphin,PF,6-9,285,"December 7, 1989",GF,R,
-2011,30,2606,WAS,Washington Wizards,22,Mustafa Shakur,PG,6-3,190,"August 18, 1984",US,R,Arizona
-2011,30,2880,WAS,Washington Wizards,14,Al Thornton,SF,6-8,220,"December 7, 1983",US,3,Florida State
-2011,30,3010,WAS,Washington Wizards,2,John Wall,PG,6-3,210,"September 6, 1990",US,R,Kentucky
-2011,30,3262,WAS,Washington Wizards,1,Nick Young,SG,6-7,210,"June 1, 1985",US,3,USC
+2011,30,104,WAS,Washington Wizards,9,Gilbert Arenas,PG,6-3,191,1982-01-06,US,9,Arizona
+2011,30,110,WAS,Washington Wizards,24,Hilton Armstrong,C,6-11,235,1984-11-11,US,4,UConn
+2011,30,240,WAS,Washington Wizards,0,Mike Bibby,PG,6-1,190,1978-05-13,US,12,Arizona
+2011,30,265,WAS,Washington Wizards,7,Andray Blatche,PF,6-11,235,1986-08-22,US,5,
+2011,30,294,WAS,Washington Wizards,35,Trevor Booker,PF,6-8,228,1987-11-25,US,R,Clemson
+2011,30,627,WAS,Washington Wizards,15,Jordan Crawford,SG,6-4,195,1988-10-23,US,R,"Indiana, Xavier"
+2011,30,880,WAS,Washington Wizards,6,Maurice Evans,SF,6-5,220,1978-11-08,US,7,"Wichita State, Texas"
+2011,30,1017,WAS,Washington Wizards,15,Alonzo Gee,SG,6-6,225,1987-05-29,US,1,Alabama
+2011,30,1299,WAS,Washington Wizards,12,Kirk Hinrich,SG,6-4,190,1981-01-02,US,7,Kansas
+2011,30,1342,WAS,Washington Wizards,5,Josh Howard,SF,6-7,210,1980-04-28,US,7,Wake Forest
+2011,30,1348,WAS,Washington Wizards,3,Lester Hudson,PG,6-3,190,1984-08-07,US,1,University of Tennessee at Martin
+2011,30,1442,WAS,Washington Wizards,12,Othyus Jeffers,SG,6-5,200,1985-08-05,US,1,"University of Illinois at Chicago, Robert Morris University (IL)"
+2011,30,1461,WAS,Washington Wizards,31,Yi Jianlian,PF,7-0,240,1987-10-27,CN,3,
+2011,30,1751,WAS,Washington Wizards,9,Rashard Lewis,SF,6-10,215,1979-08-08,US,12,
+2011,30,1855,WAS,Washington Wizards,20,Cartier Martin,SF,6-7,220,1984-11-20,US,2,Kansas State
+2011,30,1935,WAS,Washington Wizards,34,JaVale McGee,C,7-0,270,1988-01-19,US,2,Nevada
+2011,30,2106,WAS,Washington Wizards,55,Hamady N'Diaye,C,7-0,235,1987-01-12,SN,R,Rutgers University
+2011,30,2232,WAS,Washington Wizards,32,Larry Owens,SF,6-7,210,1983-01-08,US,R,Oral Roberts
+2011,30,2603,WAS,Washington Wizards,13,Kevin Seraphin,PF,6-9,285,1989-12-07,GF,R,
+2011,30,2610,WAS,Washington Wizards,22,Mustafa Shakur,PG,6-3,190,1984-08-18,US,R,Arizona
+2011,30,2884,WAS,Washington Wizards,14,Al Thornton,SF,6-8,220,1983-12-07,US,3,Florida State
+2011,30,3015,WAS,Washington Wizards,2,John Wall,PG,6-3,210,1990-09-06,US,R,Kentucky
+2011,30,3268,WAS,Washington Wizards,1,Nick Young,SG,6-7,210,1985-06-01,US,3,USC

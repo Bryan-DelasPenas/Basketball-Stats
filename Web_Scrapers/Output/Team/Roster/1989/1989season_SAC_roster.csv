@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1989,26,26,SAC,Sacramento Kings,7,Danny Ainge,PG,6-4,175,"March 17, 1959",US,7,BYU
-1989,26,53,SAC,Sacramento Kings,33,Randy Allen,SG,6-8,220,"January 26, 1965",US,R,Florida State
-1989,26,229,SAC,Sacramento Kings,34,Ricky Berry,SG,6-8,205,"October 6, 1964",US,R,"Oregon State, San Jose State"
-1989,26,721,SAC,Sacramento Kings,15,Vinny Del Negro,SG,6-4,185,"August 9, 1966",US,R,NC State
-1989,26,1037,SAC,Sacramento Kings,50,Ben Gillery,C,7-0,235,"September 19, 1965",US,R,Georgetown
-1989,26,1410,SAC,Sacramento Kings,2,Michael Jackson,PG,6-2,183,"July 13, 1964",US,1,Georgetown
-1989,26,1633,SAC,Sacramento Kings,35,Joe Kleine,C,6-11,255,"January 4, 1962",US,3,"Notre Dame, Arkansas"
-1989,26,1768,SAC,Sacramento Kings,54,Brad Lohaus,PF,6-11,230,"September 29, 1964",US,1,Iowa
-1989,26,1913,SAC,Sacramento Kings,22,Rodney McCray,SF,6-7,220,"August 29, 1961",US,5,Louisville
-1989,26,2296,SAC,Sacramento Kings,43,Jim Petersen,C,6-10,235,"February 22, 1962",US,4,Minnesota
-1989,26,2311,SAC,Sacramento Kings,54,Ed Pinckney,PF,6-9,195,"March 27, 1963",US,3,Villanova
-1989,26,2360,SAC,Sacramento Kings,21,Harold Pressley,PF,6-7,210,"July 14, 1963",US,2,Villanova
-1989,26,2677,SAC,Sacramento Kings,18,Derek Smith,SG,6-6,205,"November 1, 1961",US,6,Louisville
-1989,26,2691,SAC,Sacramento Kings,30,Kenny Smith,PG,6-3,170,"March 8, 1965",US,1,UNC
-1989,26,2874,SAC,Sacramento Kings,41,LaSalle Thompson,C,6-10,245,"June 23, 1961",US,6,Texas
-1989,26,2890,SAC,Sacramento Kings,23,Wayman Tisdale,PF,6-9,240,"June 9, 1964",US,3,Oklahoma
-1989,26,3217,SAC,Sacramento Kings,10,Randy Wittman,SF,6-6,210,"October 28, 1959",US,5,Indiana
+1989,26,26,SAC,Sacramento Kings,7,Danny Ainge,PG,6-4,175,1959-03-17,US,7,BYU
+1989,26,53,SAC,Sacramento Kings,33,Randy Allen,SG,6-8,220,1965-01-26,US,R,Florida State
+1989,26,229,SAC,Sacramento Kings,34,Ricky Berry,SG,6-8,205,1964-10-06,US,R,"Oregon State, San Jose State"
+1989,26,722,SAC,Sacramento Kings,15,Vinny Del Negro,SG,6-4,185,1966-08-09,US,R,NC State
+1989,26,1039,SAC,Sacramento Kings,50,Ben Gillery,C,7-0,235,1965-09-19,US,R,Georgetown
+1989,26,1412,SAC,Sacramento Kings,2,Michael Jackson,PG,6-2,183,1964-07-13,US,1,Georgetown
+1989,26,1635,SAC,Sacramento Kings,35,Joe Kleine,C,6-11,255,1962-01-04,US,3,"Notre Dame, Arkansas"
+1989,26,1771,SAC,Sacramento Kings,54,Brad Lohaus,PF,6-11,230,1964-09-29,US,1,Iowa
+1989,26,1916,SAC,Sacramento Kings,22,Rodney McCray,SF,6-7,220,1961-08-29,US,5,Louisville
+1989,26,2299,SAC,Sacramento Kings,43,Jim Petersen,C,6-10,235,1962-02-22,US,4,Minnesota
+1989,26,2314,SAC,Sacramento Kings,54,Ed Pinckney,PF,6-9,195,1963-03-27,US,3,Villanova
+1989,26,2364,SAC,Sacramento Kings,21,Harold Pressley,PF,6-7,210,1963-07-14,US,2,Villanova
+1989,26,2681,SAC,Sacramento Kings,18,Derek Smith,SG,6-6,205,1961-11-01,US,6,Louisville
+1989,26,2695,SAC,Sacramento Kings,30,Kenny Smith,PG,6-3,170,1965-03-08,US,1,UNC
+1989,26,2878,SAC,Sacramento Kings,41,LaSalle Thompson,C,6-10,245,1961-06-23,US,6,Texas
+1989,26,2895,SAC,Sacramento Kings,23,Wayman Tisdale,PF,6-9,240,1964-06-09,US,3,Oklahoma
+1989,26,3223,SAC,Sacramento Kings,10,Randy Wittman,SF,6-6,210,1959-10-28,US,5,Indiana

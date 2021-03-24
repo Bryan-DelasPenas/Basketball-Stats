@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1992,14,372,LAL,Los Angeles Lakers,6,Chucky Brown,SF,6-7,214,"February 29, 1968",US,2,NC State
-1992,14,457,LAL,Los Angeles Lakers,7,Demetrius Calip,PG,6-1,165,"November 18, 1969",US,R,Michigan
-1992,14,463,LAL,Los Angeles Lakers,41,Elden Campbell,C,6-11,215,"July 23, 1968",US,1,Clemson
-1992,14,753,LAL,Los Angeles Lakers,12,Vlade Divac,C,7-1,243,"February 3, 1968",RS,2,
-1992,14,1098,LAL,Los Angeles Lakers,45,A.C. Green,PF,6-9,220,"October 4, 1963",US,6,Oregon State
-1992,14,1150,LAL,Los Angeles Lakers,54,Jack Haley,C,6-10,240,"January 27, 1964",US,3,UCLA
-1992,14,2228,LAL,Los Angeles Lakers,25,Keith Owens,SF,6-7,225,"May 31, 1969",US,R,UCLA
-1992,14,2287,LAL,Los Angeles Lakers,14,Sam Perkins,PF,6-9,235,"June 14, 1961",US,7,UNC
-1992,14,2472,LAL,Los Angeles Lakers,43,Cliff Robinson,PF,6-9,220,"March 13, 1960",US,10,USC
-1992,14,2584,LAL,Los Angeles Lakers,4,Byron Scott,SG,6-3,195,"March 28, 1961",US,8,Arizona State
-1992,14,2710,LAL,Los Angeles Lakers,34,Tony Smith,PG,6-3,185,"June 14, 1968",US,1,Marquette
-1992,14,2726,LAL,Los Angeles Lakers,2,Rory Sparrow,PG,6-2,175,"June 12, 1958",US,11,Villanova
-1992,14,2825,LAL,Los Angeles Lakers,20,Terry Teagle,SG,6-5,195,"April 10, 1960",US,9,Baylor
-1992,14,2885,LAL,Los Angeles Lakers,3,Sedale Threatt,PG,6-2,175,"September 10, 1961",US,8,West Virginia Tech
-1992,14,3236,LAL,Los Angeles Lakers,42,James Worthy,SF,6-9,225,"February 27, 1961",US,9,UNC
+1992,14,372,LAL,Los Angeles Lakers,6,Chucky Brown,SF,6-7,214,1968-02-29,US,2,NC State
+1992,14,457,LAL,Los Angeles Lakers,7,Demetrius Calip,PG,6-1,165,1969-11-18,US,R,Michigan
+1992,14,463,LAL,Los Angeles Lakers,41,Elden Campbell,C,6-11,215,1968-07-23,US,1,Clemson
+1992,14,755,LAL,Los Angeles Lakers,12,Vlade Divac,C,7-1,243,1968-02-03,RS,2,
+1992,14,1100,LAL,Los Angeles Lakers,45,A.C. Green,PF,6-9,220,1963-10-04,US,6,Oregon State
+1992,14,1152,LAL,Los Angeles Lakers,54,Jack Haley,C,6-10,240,1964-01-27,US,3,UCLA
+1992,14,2231,LAL,Los Angeles Lakers,25,Keith Owens,SF,6-7,225,1969-05-31,US,R,UCLA
+1992,14,2290,LAL,Los Angeles Lakers,14,Sam Perkins,PF,6-9,235,1961-06-14,US,7,UNC
+1992,14,2476,LAL,Los Angeles Lakers,43,Cliff Robinson,PF,6-9,220,1960-03-13,US,10,USC
+1992,14,2588,LAL,Los Angeles Lakers,4,Byron Scott,SG,6-3,195,1961-03-28,US,8,Arizona State
+1992,14,2714,LAL,Los Angeles Lakers,34,Tony Smith,PG,6-3,185,1968-06-14,US,1,Marquette
+1992,14,2730,LAL,Los Angeles Lakers,2,Rory Sparrow,PG,6-2,175,1958-06-12,US,11,Villanova
+1992,14,2829,LAL,Los Angeles Lakers,20,Terry Teagle,SG,6-5,195,1960-04-10,US,9,Baylor
+1992,14,2889,LAL,Los Angeles Lakers,3,Sedale Threatt,PG,6-2,175,1961-09-10,US,8,West Virginia Tech
+1992,14,3242,LAL,Los Angeles Lakers,42,James Worthy,SF,6-9,225,1961-02-27,US,9,UNC

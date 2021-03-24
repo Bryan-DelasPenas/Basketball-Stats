@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1997,25,77,POR,Portland Trail Blazers,7,Kenny Anderson,PG,6-0,168,"October 9, 1970",US,5,Georgia Tech
-1997,25,118,POR,Portland Trail Blazers,2,Stacey Augmon,SG,6-8,205,"August 1, 1968",US,5,UNLV
-1997,25,388,POR,Portland Trail Blazers,4,Marcus Brown,PG,6-3,185,"April 3, 1974",US,R,Murray State
-1997,25,440,POR,Portland Trail Blazers,6,Mitchell Butler,SG,6-5,210,"December 15, 1970",US,3,UCLA
-1997,25,528,POR,Portland Trail Blazers,12,Randolph Childress,PG,6-2,188,"September 21, 1972",US,1,Wake Forest
-1997,25,792,POR,Portland Trail Blazers,24,Chris Dudley,C,6-11,235,"February 22, 1965",US,9,Yale
-1997,25,1569,POR,Portland Trail Blazers,31,Reggie Jordan,SG,6-4,195,"January 26, 1968",US,2,New Mexico State
-1997,25,1944,POR,Portland Trail Blazers,23,Aaron McKie,SG,6-5,209,"October 2, 1972",US,2,Temple
-1997,25,2127,POR,Portland Trail Blazers,9,Ruben Nembhard,PG,6-3,208,"February 20, 1972",US,R,Weber State
-1997,25,2178,POR,Portland Trail Blazers,5,Jermaine O'Neal,PF,6-11,226,"October 13, 1978",US,R,
-1997,25,2451,POR,Portland Trail Blazers,34,Isaiah Rider,SG,6-5,215,"March 12, 1971",US,3,UNLV
-1997,25,2473,POR,Portland Trail Blazers,3,Clifford Robinson,SF,6-10,225,"December 16, 1966",US,7,UConn
-1997,25,2489,POR,Portland Trail Blazers,21,Rumeal Robinson,PG,6-2,195,"November 13, 1966",JM,5,Michigan
-1997,25,2540,POR,Portland Trail Blazers,11,Arvydas Sabonis,C,7-3,279,"December 19, 1964",LT,1,
-1997,25,2909,POR,Portland Trail Blazers,33,Gary Trent,PF,6-8,250,"September 22, 1974",US,1,Ohio University
-1997,25,3014,POR,Portland Trail Blazers,30,Rasheed Wallace,PF,6-10,225,"September 17, 1974",US,1,UNC
-1997,25,3082,POR,Portland Trail Blazers,8,Ennis Whatley,PG,6-3,177,"August 11, 1962",US,9,Alabama
-1997,25,3208,POR,Portland Trail Blazers,10,Dontonio Wingfield,SF,6-8,256,"June 23, 1974",US,2,Cincinnati
-1997,25,760,POR,Portland Trail Blazers,19,Aleksandar Djordjevic,SG,6-2,198,"August 26, 1967",RS,R,
+1997,25,77,POR,Portland Trail Blazers,7,Kenny Anderson,PG,6-0,168,1970-10-09,US,5,Georgia Tech
+1997,25,118,POR,Portland Trail Blazers,2,Stacey Augmon,SG,6-8,205,1968-08-01,US,5,UNLV
+1997,25,388,POR,Portland Trail Blazers,4,Marcus Brown,PG,6-3,185,1974-04-03,US,R,Murray State
+1997,25,440,POR,Portland Trail Blazers,6,Mitchell Butler,SG,6-5,210,1970-12-15,US,3,UCLA
+1997,25,528,POR,Portland Trail Blazers,12,Randolph Childress,PG,6-2,188,1972-09-21,US,1,Wake Forest
+1997,25,794,POR,Portland Trail Blazers,24,Chris Dudley,C,6-11,235,1965-02-22,US,9,Yale
+1997,25,1571,POR,Portland Trail Blazers,31,Reggie Jordan,SG,6-4,195,1968-01-26,US,2,New Mexico State
+1997,25,1947,POR,Portland Trail Blazers,23,Aaron McKie,SG,6-5,209,1972-10-02,US,2,Temple
+1997,25,2130,POR,Portland Trail Blazers,9,Ruben Nembhard,PG,6-3,208,1972-02-20,US,R,Weber State
+1997,25,2181,POR,Portland Trail Blazers,5,Jermaine O'Neal,PF,6-11,226,1978-10-13,US,R,
+1997,25,2455,POR,Portland Trail Blazers,34,Isaiah Rider,SG,6-5,215,1971-03-12,US,3,UNLV
+1997,25,2477,POR,Portland Trail Blazers,3,Clifford Robinson,SF,6-10,225,1966-12-16,US,7,UConn
+1997,25,2493,POR,Portland Trail Blazers,21,Rumeal Robinson,PG,6-2,195,1966-11-13,JM,5,Michigan
+1997,25,2544,POR,Portland Trail Blazers,11,Arvydas Sabonis,C,7-3,279,1964-12-19,LT,1,
+1997,25,2915,POR,Portland Trail Blazers,33,Gary Trent,PF,6-8,250,1974-09-22,US,1,Ohio University
+1997,25,3019,POR,Portland Trail Blazers,30,Rasheed Wallace,PF,6-10,225,1974-09-17,US,1,UNC
+1997,25,3087,POR,Portland Trail Blazers,8,Ennis Whatley,PG,6-3,177,1962-08-11,US,9,Alabama
+1997,25,3214,POR,Portland Trail Blazers,10,Dontonio Wingfield,SF,6-8,256,1974-06-23,US,2,Cincinnati
+1997,25,762,POR,Portland Trail Blazers,19,Aleksandar Djordjevic,SG,6-2,198,1967-08-26,RS,R,

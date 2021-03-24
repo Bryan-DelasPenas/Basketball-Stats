@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2012,12,65,IND,Indiana Pacers,17,Lou Amundson,PF,6-9,220,"December 7, 1982",US,5,UNLV
-2012,12,128,IND,Indiana Pacers,29,Jeff Ayres,C,6-9,240,"April 29, 1987",US,1,Arizona State
-2012,12,161,IND,Indiana Pacers,28,Leandro Barbosa,SG,6-3,194,"November 28, 1982",BR,8,
-2012,12,578,IND,Indiana Pacers,2,Darren Collison,PG,6-0,175,"August 23, 1987",US,2,UCLA
-2012,12,913,IND,Indiana Pacers,44,Kyrylo Fesenko,C,7-1,288,"December 24, 1986",UA,4,
-2012,12,945,IND,Indiana Pacers,10,Jeff Foster,C,6-11,236,"January 16, 1977",US,12,Texas State University
-2012,12,1019,IND,Indiana Pacers,24,Paul George,SG,6-8,220,"May 2, 1990",US,1,Fresno State
-2012,12,1077,IND,Indiana Pacers,33,Danny Granger,SF,6-9,222,"April 20, 1983",US,6,"Bradley, New Mexico"
-2012,12,1174,IND,Indiana Pacers,50,Tyler Hansbrough,PF,6-9,250,"November 3, 1985",US,2,UNC
-2012,12,1276,IND,Indiana Pacers,55,Roy Hibbert,C,7-2,270,"December 11, 1986",US,3,Georgetown
-2012,12,1289,IND,Indiana Pacers,3,George Hill,PG,6-4,188,"May 4, 1986",US,3,IUPUI
-2012,12,1533,IND,Indiana Pacers,1,Dahntay Jones,SF,6-6,225,"December 27, 1980",US,8,"Rutgers University, Duke"
-2012,12,2361,IND,Indiana Pacers,12,A.J. Price,PG,6-2,181,"October 7, 1986",US,2,UConn
-2012,12,2748,IND,Indiana Pacers,6,Lance Stephenson,SG,6-6,230,"September 5, 1990",US,1,Cincinnati
-2012,12,3074,IND,Indiana Pacers,21,David West,PF,6-9,250,"August 29, 1980",US,8,Xavier
+2012,12,65,IND,Indiana Pacers,17,Lou Amundson,PF,6-9,220,1982-12-07,US,5,UNLV
+2012,12,128,IND,Indiana Pacers,29,Jeff Ayres,C,6-9,240,1987-04-29,US,1,Arizona State
+2012,12,161,IND,Indiana Pacers,28,Leandro Barbosa,SG,6-3,194,1982-11-28,BR,8,
+2012,12,578,IND,Indiana Pacers,2,Darren Collison,PG,6-0,175,1987-08-23,US,2,UCLA
+2012,12,915,IND,Indiana Pacers,44,Kyrylo Fesenko,C,7-1,288,1986-12-24,UA,4,
+2012,12,947,IND,Indiana Pacers,10,Jeff Foster,C,6-11,236,1977-01-16,US,12,Texas State University
+2012,12,1021,IND,Indiana Pacers,24,Paul George,SG,6-8,220,1990-05-02,US,1,Fresno State
+2012,12,1079,IND,Indiana Pacers,33,Danny Granger,SF,6-9,222,1983-04-20,US,6,"Bradley, New Mexico"
+2012,12,1176,IND,Indiana Pacers,50,Tyler Hansbrough,PF,6-9,250,1985-11-03,US,2,UNC
+2012,12,1278,IND,Indiana Pacers,55,Roy Hibbert,C,7-2,270,1986-12-11,US,3,Georgetown
+2012,12,1291,IND,Indiana Pacers,3,George Hill,PG,6-4,188,1986-05-04,US,3,IUPUI
+2012,12,1535,IND,Indiana Pacers,1,Dahntay Jones,SF,6-6,225,1980-12-27,US,8,"Rutgers University, Duke"
+2012,12,2365,IND,Indiana Pacers,12,A.J. Price,PG,6-2,181,1986-10-07,US,2,UConn
+2012,12,2752,IND,Indiana Pacers,6,Lance Stephenson,SG,6-6,230,1990-09-05,US,1,Cincinnati
+2012,12,3079,IND,Indiana Pacers,21,David West,PF,6-9,250,1980-08-29,US,8,Xavier

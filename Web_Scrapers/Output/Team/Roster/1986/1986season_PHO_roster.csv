@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1986,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,"July 19, 1954",US,10,Oklahoma
-1986,24,702,PHO,Phoenix Suns,6,Walter Davis,SG,6-6,193,"September 9, 1954",US,8,UNC
-1986,24,809,PHO,Phoenix Suns,17,Devin Durrant,SF,6-7,200,"October 20, 1960",US,1,BYU
-1986,24,832,PHO,Phoenix Suns,53,James Edwards,C,7-0,225,"November 22, 1955",US,8,Washington
-1986,24,946,PHO,Phoenix Suns,10,Rod Foster,PG,6-1,160,"October 10, 1960",US,2,UCLA
-1986,24,1046,PHO,Phoenix Suns,16,Georgi Glouchkov,PF,6-8,235,"January 10, 1960",BG,R,
-1986,24,1317,PHO,Phoenix Suns,15,Michael Holton,SG,6-4,185,"August 4, 1961",US,1,UCLA
-1986,24,1361,PHO,Phoenix Suns,24,Jay Humphries,PG,6-3,185,"October 17, 1962",US,1,Colorado
-1986,24,1531,PHO,Phoenix Suns,34,Charles Alexander Jones,PF,6-8,215,"January 12, 1962",US,1,Louisville
-1986,24,2111,PHO,Phoenix Suns,22,Larry Nance,PF,6-10,205,"February 12, 1959",US,4,Clemson
-1986,24,2311,PHO,Phoenix Suns,54,Ed Pinckney,SF,6-9,195,"March 27, 1963",US,R,Villanova
-1986,24,2317,PHO,Phoenix Suns,32,Charles Pittman,PF,6-8,220,"March 23, 1958",US,3,Maryland
-1986,24,2469,PHO,Phoenix Suns,8,Rick Robey,C,6-11,230,"January 30, 1956",US,7,Kentucky
-1986,24,2559,PHO,Phoenix Suns,11,Mike Sanders,SF,6-6,210,"May 7, 1960",US,3,UCLA
-1986,24,2864,PHO,Phoenix Suns,7,Bernard Thompson,SG,6-6,210,"August 30, 1962",US,1,Fresno State
-1986,24,2897,PHO,Phoenix Suns,15,Sedric Toney,PG,6-2,178,"April 13, 1962",US,R,Dayton
-1986,24,2958,PHO,Phoenix Suns,30,Nick Vanos,C,7-1,255,"April 13, 1963",US,R,Santa Clara
+1986,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,1954-07-19,US,10,Oklahoma
+1986,24,703,PHO,Phoenix Suns,6,Walter Davis,SG,6-6,193,1954-09-09,US,8,UNC
+1986,24,811,PHO,Phoenix Suns,17,Devin Durrant,SF,6-7,200,1960-10-20,US,1,BYU
+1986,24,834,PHO,Phoenix Suns,53,James Edwards,C,7-0,225,1955-11-22,US,8,Washington
+1986,24,948,PHO,Phoenix Suns,10,Rod Foster,PG,6-1,160,1960-10-10,US,2,UCLA
+1986,24,1048,PHO,Phoenix Suns,16,Georgi Glouchkov,PF,6-8,235,1960-01-10,BG,R,
+1986,24,1319,PHO,Phoenix Suns,15,Michael Holton,SG,6-4,185,1961-08-04,US,1,UCLA
+1986,24,1363,PHO,Phoenix Suns,24,Jay Humphries,PG,6-3,185,1962-10-17,US,1,Colorado
+1986,24,1534,PHO,Phoenix Suns,34,Charles Jones,PF,6-8,215,1962-01-12,US,1,Louisville
+1986,24,2115,PHO,Phoenix Suns,22,Larry Nance,PF,6-10,205,1959-02-12,US,4,Clemson
+1986,24,2314,PHO,Phoenix Suns,54,Ed Pinckney,SF,6-9,195,1963-03-27,US,R,Villanova
+1986,24,2320,PHO,Phoenix Suns,32,Charles Pittman,PF,6-8,220,1958-03-23,US,3,Maryland
+1986,24,2473,PHO,Phoenix Suns,8,Rick Robey,C,6-11,230,1956-01-30,US,7,Kentucky
+1986,24,2563,PHO,Phoenix Suns,11,Mike Sanders,SF,6-6,210,1960-05-07,US,3,UCLA
+1986,24,2868,PHO,Phoenix Suns,7,Bernard Thompson,SG,6-6,210,1962-08-30,US,1,Fresno State
+1986,24,2902,PHO,Phoenix Suns,15,Sedric Toney,PG,6-2,178,1962-04-13,US,R,Dayton
+1986,24,2963,PHO,Phoenix Suns,30,Nick Vanos,C,7-1,255,1963-04-13,US,R,Santa Clara

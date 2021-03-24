@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1994,25,409,POR,Portland Trail Blazers,2,Mark Bryant,C,6-9,245,"April 25, 1965",US,5,Seton Hall
-1994,25,786,POR,Portland Trail Blazers,22,Clyde Drexler,SG,6-7,210,"June 22, 1962",US,10,Houston
-1994,25,792,POR,Portland Trail Blazers,24,Chris Dudley,C,6-11,235,"February 22, 1965",US,6,Yale
-1994,25,1082,POR,Portland Trail Blazers,44,Harvey Grant,SF,6-8,195,"July 4, 1965",US,5,"Clemson, Oklahoma"
-1994,25,1401,POR,Portland Trail Blazers,21,Jaren Jackson,SG,6-4,190,"October 27, 1967",US,3,Georgetown
-1994,25,1600,POR,Portland Trail Blazers,25,Jerome Kersey,SF,6-7,215,"June 26, 1962",US,9,Longwood University
-1994,25,2094,POR,Portland Trail Blazers,31,Tracy Murray,SF,6-7,225,"July 25, 1971",US,1,UCLA
-1994,25,2344,POR,Portland Trail Blazers,30,Terry Porter,PG,6-3,195,"April 8, 1963",US,8,University of Wisconsin-Stevens Point
-1994,25,2473,POR,Portland Trail Blazers,3,Clifford Robinson,C,6-10,225,"December 16, 1966",US,4,UConn
-1994,25,2482,POR,Portland Trail Blazers,26,James Robinson,PG,6-2,180,"August 31, 1970",US,R,Alabama
-1994,25,2702,POR,Portland Trail Blazers,54,Reggie Smith,PF,6-10,240,"August 21, 1970",US,1,TCU
-1994,25,2777,POR,Portland Trail Blazers,1,Rod Strickland,PG,6-3,175,"July 11, 1966",US,5,DePaul
-1994,25,2872,POR,Portland Trail Blazers,35,Kevin Thompson,C,6-11,260,"February 7, 1971",US,R,NC State
-1994,25,3132,POR,Portland Trail Blazers,52,Buck Williams,PF,6-8,215,"March 8, 1960",US,12,Maryland
+1994,25,409,POR,Portland Trail Blazers,2,Mark Bryant,C,6-9,245,1965-04-25,US,5,Seton Hall
+1994,25,788,POR,Portland Trail Blazers,22,Clyde Drexler,SG,6-7,210,1962-06-22,US,10,Houston
+1994,25,794,POR,Portland Trail Blazers,24,Chris Dudley,C,6-11,235,1965-02-22,US,6,Yale
+1994,25,1084,POR,Portland Trail Blazers,44,Harvey Grant,SF,6-8,195,1965-07-04,US,5,"Clemson, Oklahoma"
+1994,25,1404,POR,Portland Trail Blazers,21,Jaren Jackson,SG,6-4,190,1967-10-27,US,3,Georgetown
+1994,25,1602,POR,Portland Trail Blazers,25,Jerome Kersey,SF,6-7,215,1962-06-26,US,9,Longwood University
+1994,25,2097,POR,Portland Trail Blazers,31,Tracy Murray,SF,6-7,225,1971-07-25,US,1,UCLA
+1994,25,2348,POR,Portland Trail Blazers,30,Terry Porter,PG,6-3,195,1963-04-08,US,8,University of Wisconsin-Stevens Point
+1994,25,2477,POR,Portland Trail Blazers,3,Clifford Robinson,C,6-10,225,1966-12-16,US,4,UConn
+1994,25,2486,POR,Portland Trail Blazers,26,James Robinson,PG,6-2,180,1970-08-31,US,R,Alabama
+1994,25,2706,POR,Portland Trail Blazers,54,Reggie Smith,PF,6-10,240,1970-08-21,US,1,TCU
+1994,25,2781,POR,Portland Trail Blazers,1,Rod Strickland,PG,6-3,175,1966-07-11,US,5,DePaul
+1994,25,2876,POR,Portland Trail Blazers,35,Kevin Thompson,C,6-11,260,1971-02-07,US,R,NC State
+1994,25,3138,POR,Portland Trail Blazers,52,Buck Williams,PF,6-8,215,1960-03-08,US,12,Maryland

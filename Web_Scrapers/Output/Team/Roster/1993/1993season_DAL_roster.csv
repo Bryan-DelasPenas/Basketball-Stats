@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1993,7,162,DAL,Dallas Mavericks,23,Steve Bardo,SG,6-5,190,"April 5, 1968",US,1,Illinois
-1993,7,286,DAL,Dallas Mavericks,40,Walter Bond,SG,6-5,200,"February 1, 1969",US,R,Minnesota
-1993,7,460,DAL,Dallas Mavericks,30,Dexter Cambridge,SF,6-7,224,"January 29, 1970",BS,R,Texas
-1993,7,649,DAL,Dallas Mavericks,44,Radisav Curcic,C,6-10,275,"September 26, 1965",RS,R,
-1993,7,700,DAL,Dallas Mavericks,43,Terry Davis,PF,6-9,225,"June 17, 1967",US,3,Virginia Union University
-1993,7,1188,DAL,Dallas Mavericks,12,Derek Harper,SG,6-4,185,"October 13, 1961",US,9,Illinois
-1993,7,1303,DAL,Dallas Mavericks,35,Donald Hodge,C,7-0,230,"February 25, 1969",US,1,Temple
-1993,7,1338,DAL,Dallas Mavericks,41,Brian Howard,SF,6-6,204,"October 19, 1967",US,1,NC State
-1993,7,1390,DAL,Dallas Mavericks,13,Mike Iuzzolino,PG,5-10,175,"January 22, 1968",US,1,"Penn State, Saint Francis University"
-1993,7,1404,DAL,Dallas Mavericks,24,Jim Jackson,SF,6-6,220,"October 14, 1970",US,R,Ohio State
-1993,7,1729,DAL,Dallas Mavericks,23,Tim Legler,SG,6-4,200,"December 26, 1966",US,2,La Salle
-1993,7,2044,DAL,Dallas Mavericks,20,Tracy Moore,SG,6-4,200,"December 28, 1965",US,1,Tulsa
-1993,7,2240,DAL,Dallas Mavericks,31,Walter Palmer,C,7-1,215,"October 23, 1968",US,1,Dartmouth College
-1993,7,2507,DAL,Dallas Mavericks,45,Sean Rooks,C,6-10,250,"September 9, 1969",US,R,Arizona
-1993,7,2679,DAL,Dallas Mavericks,34,Doug Smith,PF,6-10,220,"September 17, 1969",US,1,Missouri
-1993,7,2780,DAL,Dallas Mavericks,10,Lamont Strothers,SG,6-4,190,"May 10, 1968",US,1,Christopher Newport University
-1993,7,3095,DAL,Dallas Mavericks,52,Randy White,PF,6-8,240,"November 4, 1967",US,3,Louisiana Tech
-1993,7,3117,DAL,Dallas Mavericks,20,Morlon Wiley,PG,6-4,185,"September 24, 1966",US,4,Cal State Long Beach
+1993,7,162,DAL,Dallas Mavericks,23,Steve Bardo,SG,6-5,190,1968-04-05,US,1,Illinois
+1993,7,286,DAL,Dallas Mavericks,40,Walter Bond,SG,6-5,200,1969-02-01,US,R,Minnesota
+1993,7,460,DAL,Dallas Mavericks,30,Dexter Cambridge,SF,6-7,224,1970-01-29,BS,R,Texas
+1993,7,649,DAL,Dallas Mavericks,44,Radisav Curcic,C,6-10,275,1965-09-26,RS,R,
+1993,7,701,DAL,Dallas Mavericks,43,Terry Davis,PF,6-9,225,1967-06-17,US,3,Virginia Union University
+1993,7,1190,DAL,Dallas Mavericks,12,Derek Harper,SG,6-4,185,1961-10-13,US,9,Illinois
+1993,7,1305,DAL,Dallas Mavericks,35,Donald Hodge,C,7-0,230,1969-02-25,US,1,Temple
+1993,7,1340,DAL,Dallas Mavericks,41,Brian Howard,SF,6-6,204,1967-10-19,US,1,NC State
+1993,7,1392,DAL,Dallas Mavericks,13,Mike Iuzzolino,PG,5-10,175,1968-01-22,US,1,"Penn State, Saint Francis University"
+1993,7,1406,DAL,Dallas Mavericks,24,Jim Jackson,SF,6-6,220,1970-10-14,US,R,Ohio State
+1993,7,1732,DAL,Dallas Mavericks,23,Tim Legler,SG,6-4,200,1966-12-26,US,2,La Salle
+1993,7,2047,DAL,Dallas Mavericks,20,Tracy Moore,SG,6-4,200,1965-12-28,US,1,Tulsa
+1993,7,2243,DAL,Dallas Mavericks,31,Walter Palmer,C,7-1,215,1968-10-23,US,1,Dartmouth College
+1993,7,2511,DAL,Dallas Mavericks,45,Sean Rooks,C,6-10,250,1969-09-09,US,R,Arizona
+1993,7,2683,DAL,Dallas Mavericks,34,Doug Smith,PF,6-10,220,1969-09-17,US,1,Missouri
+1993,7,2784,DAL,Dallas Mavericks,10,Lamont Strothers,SG,6-4,190,1968-05-10,US,1,Christopher Newport University
+1993,7,3100,DAL,Dallas Mavericks,52,Randy White,PF,6-8,240,1967-11-04,US,3,Louisiana Tech
+1993,7,3123,DAL,Dallas Mavericks,20,Morlon Wiley,PG,6-4,185,1966-09-24,US,4,Cal State Long Beach

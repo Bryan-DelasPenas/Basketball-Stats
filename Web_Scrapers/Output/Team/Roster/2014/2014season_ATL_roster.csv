@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,1,97,ATL,Atlanta Hawks,6,Pero Antic,C,6-11,260,"July 29, 1982",MK,R,
-2014,1,127,ATL,Atlanta Hawks,14,Gustavo Ayon,C,6-10,250,"April 1, 1985",MX,2,
-2014,1,333,ATL,Atlanta Hawks,42,Elton Brand,C,6-8,275,"March 11, 1979",US,14,Duke
-2014,1,481,ATL,Atlanta Hawks,5,DeMarre Carroll,SF,6-6,215,"July 27, 1986",US,4,"Vanderbilt, Missouri"
-2014,1,647,ATL,Atlanta Hawks,7,Jared Cunningham,SG,6-4,195,"May 22, 1991",US,1,Oregon State
-2014,1,1326,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,"June 3, 1986",DO,6,Florida
-2014,1,1450,ATL,Atlanta Hawks,12,John Jenkins,SG,6-4,215,"March 6, 1991",US,1,Vanderbilt
-2014,1,1652,ATL,Atlanta Hawks,26,Kyle Korver,SG,6-7,212,"March 17, 1981",US,10,Creighton
-2014,1,1801,ATL,Atlanta Hawks,8,Shelvin Mack,PG,6-3,203,"April 22, 1990",US,2,Butler
-2014,1,1852,ATL,Atlanta Hawks,20,Cartier Martin,SF,6-7,220,"November 20, 1984",US,5,Kansas State
-2014,1,2004,ATL,Atlanta Hawks,4,Paul Millsap,PF,6-7,257,"February 10, 1985",US,7,Louisiana Tech
-2014,1,2097,ATL,Atlanta Hawks,31,Mike Muscala,PF,6-10,240,"July 1, 1991",US,R,Bucknell
-2014,1,2166,ATL,Atlanta Hawks,2,James Nunnally,SF,6-7,208,"July 14, 1990",US,R,UC Santa Barbara
-2014,1,2318,ATL,Atlanta Hawks,45,Dexter Pittman,C,6-11,308,"March 2, 1988",US,3,Texas
-2014,1,2579,ATL,Atlanta Hawks,17,Dennis Schroder,PG,6-3,172,"September 15, 1993",DE,R,
-2014,1,2588,ATL,Atlanta Hawks,32,Mike Scott,PF,6-7,237,"July 16, 1988",US,1,Virginia
-2014,1,2826,ATL,Atlanta Hawks,0,Jeff Teague,PG,6-3,195,"June 10, 1988",US,4,Wake Forest
-2014,1,3160,ATL,Atlanta Hawks,3,Lou Williams,PG,6-1,175,"October 27, 1986",US,8,
+2014,1,97,ATL,Atlanta Hawks,6,Pero Antic,C,6-11,260,1982-07-29,MK,R,
+2014,1,127,ATL,Atlanta Hawks,14,Gustavo Ayon,C,6-10,250,1985-04-01,MX,2,
+2014,1,333,ATL,Atlanta Hawks,42,Elton Brand,C,6-8,275,1979-03-11,US,14,Duke
+2014,1,481,ATL,Atlanta Hawks,5,DeMarre Carroll,SF,6-6,215,1986-07-27,US,4,"Vanderbilt, Missouri"
+2014,1,647,ATL,Atlanta Hawks,7,Jared Cunningham,SG,6-4,195,1991-05-22,US,1,Oregon State
+2014,1,1328,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,1986-06-03,DO,6,Florida
+2014,1,1452,ATL,Atlanta Hawks,12,John Jenkins,SG,6-4,215,1991-03-06,US,1,Vanderbilt
+2014,1,1654,ATL,Atlanta Hawks,26,Kyle Korver,SG,6-7,212,1981-03-17,US,10,Creighton
+2014,1,1804,ATL,Atlanta Hawks,8,Shelvin Mack,PG,6-3,203,1990-04-22,US,2,Butler
+2014,1,1855,ATL,Atlanta Hawks,20,Cartier Martin,SF,6-7,220,1984-11-20,US,5,Kansas State
+2014,1,2007,ATL,Atlanta Hawks,4,Paul Millsap,PF,6-7,257,1985-02-10,US,7,Louisiana Tech
+2014,1,2100,ATL,Atlanta Hawks,31,Mike Muscala,PF,6-10,240,1991-07-01,US,R,Bucknell
+2014,1,2169,ATL,Atlanta Hawks,2,James Nunnally,SF,6-7,208,1990-07-14,US,R,UC Santa Barbara
+2014,1,2321,ATL,Atlanta Hawks,45,Dexter Pittman,C,6-11,308,1988-03-02,US,3,Texas
+2014,1,2583,ATL,Atlanta Hawks,17,Dennis Schroder,PG,6-3,172,1993-09-15,DE,R,
+2014,1,2592,ATL,Atlanta Hawks,32,Mike Scott,PF,6-7,237,1988-07-16,US,1,Virginia
+2014,1,2830,ATL,Atlanta Hawks,0,Jeff Teague,PG,6-3,195,1988-06-10,US,4,Wake Forest
+2014,1,3166,ATL,Atlanta Hawks,3,Lou Williams,PG,6-1,175,1986-10-27,US,8,

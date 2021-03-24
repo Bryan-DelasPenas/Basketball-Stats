@@ -1,13 +1,13 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1980,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,"July 19, 1954",US,4,Oklahoma
-1980,24,337,PHO,Phoenix Suns,23,Mike Bratz,PG,6-2,185,"October 17, 1955",US,2,Stanford
-1980,24,435,PHO,Phoenix Suns,10,Don Buse,PG,6-4,190,"August 10, 1950",US,7,University of Evansville
-1980,24,594,PHO,Phoenix Suns,45,Jeff Cook,PF,6-10,215,"October 21, 1956",US,R,Idaho State University
-1980,24,702,PHO,Phoenix Suns,6,Walter Davis,SF,6-6,193,"September 9, 1954",US,2,UNC
-1980,24,1245,PHO,Phoenix Suns,24,Gar Heard,PF,6-6,219,"May 3, 1948",US,9,Oklahoma
-1980,24,1285,PHO,Phoenix Suns,"12, 22",Johnny High,PG,6-3,185,"April 25, 1957",US,R,Nevada
-1980,24,1589,PHO,Phoenix Suns,53,Rich Kelley,C,7-0,235,"March 23, 1953",US,4,Stanford
-1980,24,1655,PHO,Phoenix Suns,50,Joel Kramer,C,6-7,203,"November 30, 1955",US,1,San Diego State
-1980,24,2491,PHO,Phoenix Suns,21,Truck Robinson,PF,6-7,225,"October 4, 1951",US,5,Tennessee State
-1980,24,2582,PHO,Phoenix Suns,14,Alvin Scott,SF,6-7,185,"September 14, 1955",US,2,Oral Roberts
-1980,24,3080,PHO,Phoenix Suns,44,Paul Westphal,SG,6-4,195,"November 30, 1950",US,7,USC
+1980,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,1954-07-19,US,4,Oklahoma
+1980,24,337,PHO,Phoenix Suns,23,Mike Bratz,PG,6-2,185,1955-10-17,US,2,Stanford
+1980,24,435,PHO,Phoenix Suns,10,Don Buse,PG,6-4,190,1950-08-10,US,7,University of Evansville
+1980,24,594,PHO,Phoenix Suns,45,Jeff Cook,PF,6-10,215,1956-10-21,US,R,Idaho State University
+1980,24,703,PHO,Phoenix Suns,6,Walter Davis,SF,6-6,193,1954-09-09,US,2,UNC
+1980,24,1247,PHO,Phoenix Suns,24,Gar Heard,PF,6-6,219,1948-05-03,US,9,Oklahoma
+1980,24,1287,PHO,Phoenix Suns,"12, 22",Johnny High,PG,6-3,185,1957-04-25,US,R,Nevada
+1980,24,1591,PHO,Phoenix Suns,53,Rich Kelley,C,7-0,235,1953-03-23,US,4,Stanford
+1980,24,1657,PHO,Phoenix Suns,50,Joel Kramer,C,6-7,203,1955-11-30,US,1,San Diego State
+1980,24,2495,PHO,Phoenix Suns,21,Truck Robinson,PF,6-7,225,1951-10-04,US,5,Tennessee State
+1980,24,2586,PHO,Phoenix Suns,14,Alvin Scott,SF,6-7,185,1955-09-14,US,2,Oral Roberts
+1980,24,3085,PHO,Phoenix Suns,44,Paul Westphal,SG,6-4,195,1950-11-30,US,7,USC

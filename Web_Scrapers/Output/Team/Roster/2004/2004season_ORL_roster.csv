@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2004,22,101,ORL,Orlando Magic,21,Robert Archibald,PF,6-11,250,"March 29, 1980",GB,1,Illinois
-2004,22,275,ORL,Orlando Magic,3,Keith Bogans,SF,6-5,215,"May 12, 1980",US,R,Kentucky
-2004,22,714,ORL,Orlando Magic,55,Andrew DeClercq,C,6-10,230,"February 1, 1973",US,8,Florida
-2004,22,736,ORL,Orlando Magic,13,Derrick Dial,SG,6-4,184,"December 20, 1975",US,3,Eastern Michigan
-2004,22,979,ORL,Orlando Magic,22,Reece Gaines,PG,6-6,205,"January 7, 1981",US,R,Louisville
-2004,22,1006,ORL,Orlando Magic,8,Pat Garrity,PF,6-9,238,"August 23, 1976",US,5,Notre Dame
-2004,22,1041,ORL,Orlando Magic,7,Gordan Giricek,SF,6-6,210,"June 20, 1977",HR,1,
-2004,22,1056,ORL,Orlando Magic,0,Drew Gooden,PF,6-10,250,"September 24, 1981",US,1,Kansas
-2004,22,1220,ORL,Orlando Magic,4,Donnell Harvey,PF,6-8,220,"August 26, 1980",US,3,Florida
-2004,22,1341,ORL,Orlando Magic,5,Juwan Howard,PF,6-9,240,"February 7, 1973",US,9,Michigan
-2004,22,1370,ORL,Orlando Magic,34,Steven Hunter,C,7-0,220,"October 31, 1981",US,2,DePaul
-2004,22,1461,ORL,Orlando Magic,31,Britton Johnsen,C,6-10,210,"July 8, 1979",US,R,Utah
-2004,22,1788,ORL,Orlando Magic,10,Tyronn Lue,PG,6-0,175,"May 3, 1977",US,5,Nebraska
-2004,22,1935,ORL,Orlando Magic,1,Tracy McGrady,SG,6-8,210,"May 24, 1979",US,6,
-2004,22,2109,ORL,Orlando Magic,4,Lee Nailon,SF,6-9,238,"February 22, 1975",US,3,"Butler County Community College, TCU"
-2004,22,2234,ORL,Orlando Magic,27,Zaza Pachulia,C,6-11,270,"February 10, 1984",GE,R,
-2004,22,2282,ORL,Orlando Magic,26,Desmond Penigar,PF,6-7,245,"July 16, 1981",US,R,Utah State University
-2004,22,2507,ORL,Orlando Magic,45,Sean Rooks,C,6-10,250,"September 9, 1969",US,11,Arizona
-2004,22,2753,ORL,Orlando Magic,2,DeShawn Stevenson,SF,6-5,210,"April 3, 1981",US,3,
-2004,22,2777,ORL,Orlando Magic,31,Rod Strickland,PG,6-3,175,"July 11, 1966",US,15,DePaul
-2004,22,3180,ORL,Orlando Magic,11,Shammond Williams,SG,6-1,201,"April 5, 1975",US,5,UNC
+2004,22,101,ORL,Orlando Magic,21,Robert Archibald,PF,6-11,250,1980-03-29,GB,1,Illinois
+2004,22,275,ORL,Orlando Magic,3,Keith Bogans,SF,6-5,215,1980-05-12,US,R,Kentucky
+2004,22,715,ORL,Orlando Magic,55,Andrew DeClercq,C,6-10,230,1973-02-01,US,8,Florida
+2004,22,738,ORL,Orlando Magic,13,Derrick Dial,SG,6-4,184,1975-12-20,US,3,Eastern Michigan
+2004,22,981,ORL,Orlando Magic,22,Reece Gaines,PG,6-6,205,1981-01-07,US,R,Louisville
+2004,22,1008,ORL,Orlando Magic,8,Pat Garrity,PF,6-9,238,1976-08-23,US,5,Notre Dame
+2004,22,1043,ORL,Orlando Magic,7,Gordan Giricek,SF,6-6,210,1977-06-20,HR,1,
+2004,22,1058,ORL,Orlando Magic,0,Drew Gooden,PF,6-10,250,1981-09-24,US,1,Kansas
+2004,22,1222,ORL,Orlando Magic,4,Donnell Harvey,PF,6-8,220,1980-08-26,US,3,Florida
+2004,22,1343,ORL,Orlando Magic,5,Juwan Howard,PF,6-9,240,1973-02-07,US,9,Michigan
+2004,22,1372,ORL,Orlando Magic,34,Steven Hunter,C,7-0,220,1981-10-31,US,2,DePaul
+2004,22,1463,ORL,Orlando Magic,31,Britton Johnsen,C,6-10,210,1979-07-08,US,R,Utah
+2004,22,1791,ORL,Orlando Magic,10,Tyronn Lue,PG,6-0,175,1977-05-03,US,5,Nebraska
+2004,22,1938,ORL,Orlando Magic,1,Tracy McGrady,SG,6-8,210,1979-05-24,US,6,
+2004,22,2112,ORL,Orlando Magic,4,Lee Nailon,SF,6-9,238,1975-02-22,US,3,"Butler County Community College, TCU"
+2004,22,2237,ORL,Orlando Magic,27,Zaza Pachulia,C,6-11,270,1984-02-10,GE,R,
+2004,22,2285,ORL,Orlando Magic,26,Desmond Penigar,PF,6-7,245,1981-07-16,US,R,Utah State University
+2004,22,2511,ORL,Orlando Magic,45,Sean Rooks,C,6-10,250,1969-09-09,US,11,Arizona
+2004,22,2757,ORL,Orlando Magic,2,DeShawn Stevenson,SF,6-5,210,1981-04-03,US,3,
+2004,22,2781,ORL,Orlando Magic,31,Rod Strickland,PG,6-3,175,1966-07-11,US,15,DePaul
+2004,22,3186,ORL,Orlando Magic,11,Shammond Williams,SG,6-1,201,1975-04-05,US,5,UNC

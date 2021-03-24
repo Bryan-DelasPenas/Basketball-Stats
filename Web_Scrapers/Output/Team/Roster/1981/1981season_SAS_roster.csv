@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1981,27,345,SAS,San Antonio Spurs,10,Ron Brewer,SG,6-4,180,"July 16, 1955",US,2,Arkansas
-1981,27,611,SAS,San Antonio Spurs,40,Dave Corzine,C,6-11,250,"April 25, 1956",US,2,DePaul
-1981,27,981,SAS,San Antonio Spurs,12,Mike Gale,PG,6-4,185,"July 18, 1950",US,9,Elizabeth City State University
-1981,27,1022,SAS,San Antonio Spurs,22,Gus Gerard,SF,6-8,200,"July 27, 1953",US,6,Virginia
-1981,27,1024,SAS,San Antonio Spurs,44,George Gervin,SG,6-7,180,"April 27, 1952",US,8,Eastern Michigan
-1981,27,1127,SAS,San Antonio Spurs,30,Paul Griffin,PF,6-9,205,"January 20, 1954",US,4,Western Michigan
-1981,27,1489,SAS,San Antonio Spurs,52,George Thomas Johnson,C,6-11,205,"December 18, 1948",US,8,Dillard University
-1981,27,1511,SAS,San Antonio Spurs,32,Reggie Johnson,PF,6-9,205,"June 25, 1957",US,R,Tennessee
-1981,27,2040,SAS,San Antonio Spurs,"00, 10",Johnny Moore,PG,6-1,175,"March 3, 1958",US,R,Texas
-1981,27,2202,SAS,San Antonio Spurs,53,Mark Olberding,SF,6-8,225,"April 21, 1956",US,5,Minnesota
-1981,27,2433,SAS,San Antonio Spurs,31,Kevin Restani,SF,6-9,225,"December 23, 1951",US,6,San Francisco
-1981,27,2622,SAS,San Antonio Spurs,34,John Shumate,PF,6-9,235,"April 6, 1952",US,4,Notre Dame
-1981,27,2629,SAS,San Antonio Spurs,13,James Silas,PG,6-1,180,"February 11, 1949",US,8,Stephen F. Austin
-1981,27,3116,SAS,San Antonio Spurs,33,Michael Wiley,PF,6-9,200,"October 16, 1957",US,R,Cal State Long Beach
+1981,27,345,SAS,San Antonio Spurs,10,Ron Brewer,SG,6-4,180,1955-07-16,US,2,Arkansas
+1981,27,611,SAS,San Antonio Spurs,40,Dave Corzine,C,6-11,250,1956-04-25,US,2,DePaul
+1981,27,983,SAS,San Antonio Spurs,12,Mike Gale,PG,6-4,185,1950-07-18,US,9,Elizabeth City State University
+1981,27,1024,SAS,San Antonio Spurs,22,Gus Gerard,SF,6-8,200,1953-07-27,US,6,Virginia
+1981,27,1026,SAS,San Antonio Spurs,44,George Gervin,SG,6-7,180,1952-04-27,US,8,Eastern Michigan
+1981,27,1129,SAS,San Antonio Spurs,30,Paul Griffin,PF,6-9,205,1954-01-20,US,4,Western Michigan
+1981,27,1492,SAS,San Antonio Spurs,52,George Johnson,C,6-11,205,1948-12-18,US,8,Dillard University
+1981,27,1513,SAS,San Antonio Spurs,32,Reggie Johnson,PF,6-9,205,1957-06-25,US,R,Tennessee
+1981,27,2043,SAS,San Antonio Spurs,"00, 10",Johnny Moore,PG,6-1,175,1958-03-03,US,R,Texas
+1981,27,2205,SAS,San Antonio Spurs,53,Mark Olberding,SF,6-8,225,1956-04-21,US,5,Minnesota
+1981,27,2437,SAS,San Antonio Spurs,31,Kevin Restani,SF,6-9,225,1951-12-23,US,6,San Francisco
+1981,27,2626,SAS,San Antonio Spurs,34,John Shumate,PF,6-9,235,1952-04-06,US,4,Notre Dame
+1981,27,2633,SAS,San Antonio Spurs,13,James Silas,PG,6-1,180,1949-02-11,US,8,Stephen F. Austin
+1981,27,3122,SAS,San Antonio Spurs,33,Michael Wiley,PF,6-9,200,1957-10-16,US,R,Cal State Long Beach

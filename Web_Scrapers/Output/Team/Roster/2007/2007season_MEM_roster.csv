@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2007,15,117,MEM,Memphis Grizzlies,3,Chucky Atkins,PG,5-11,160,"August 14, 1974",US,7,South Florida
-2007,15,469,MEM,Memphis Grizzlies,35,Brian Cardinal,PF,6-8,245,"May 2, 1977",US,6,Purdue
-2007,15,589,MEM,Memphis Grizzlies,5,Will Conroy,SG,6-2,195,"December 8, 1982",US,R,Washington
-2007,15,1008,MEM,Memphis Grizzlies,16,Pau Gasol,C,7-0,250,"July 6, 1980",ES,5,
-2007,15,1011,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,"August 17, 1986",US,R,UConn
-2007,15,1198,MEM,Memphis Grizzlies,10,Junior Harrington,PG,6-4,180,"October 2, 1980",US,2,Wingate University
-2007,15,1462,MEM,Memphis Grizzlies,32,Alexander Johnson,PF,6-9,240,"February 8, 1983",US,R,Florida State
-2007,15,1533,MEM,Memphis Grizzlies,30,Dahntay Jones,SG,6-6,225,"December 27, 1980",US,3,"Rutgers University, Duke"
-2007,15,1543,MEM,Memphis Grizzlies,6,Eddie Jones,SG,6-6,190,"October 20, 1971",US,12,Temple
-2007,15,1626,MEM,Memphis Grizzlies,7,Tarence Kinsey,SG,6-6,185,"March 21, 1984",US,R,South Carolina
-2007,15,1782,MEM,Memphis Grizzlies,1,Kyle Lowry,PG,6-0,196,"March 25, 1986",US,R,Villanova
-2007,15,1996,MEM,Memphis Grizzlies,33,Mike Miller,SG,6-8,218,"February 19, 1980",US,6,Florida
-2007,15,2237,MEM,Memphis Grizzlies,34,Scott Padgett,PF,6-9,240,"April 19, 1976",US,7,Kentucky
-2007,15,2465,MEM,Memphis Grizzlies,44,Lawrence Roberts,PF,6-9,240,"October 20, 1982",US,1,"Baylor, Mississippi State"
-2007,15,2771,MEM,Memphis Grizzlies,20,Damon Stoudamire,PG,5-10,171,"September 3, 1973",US,11,Arizona
-2007,15,2796,MEM,Memphis Grizzlies,4,Stromile Swift,C,6-9,225,"November 21, 1979",US,6,LSU
-2007,15,2915,MEM,Memphis Grizzlies,12,Jake Tsakalidis,C,7-2,285,"June 10, 1979",GE,6,
-2007,15,3030,MEM,Memphis Grizzlies,21,Hakim Warrick,PF,6-9,219,"July 8, 1982",US,1,Syracuse
+2007,15,117,MEM,Memphis Grizzlies,3,Chucky Atkins,PG,5-11,160,1974-08-14,US,7,South Florida
+2007,15,469,MEM,Memphis Grizzlies,35,Brian Cardinal,PF,6-8,245,1977-05-02,US,6,Purdue
+2007,15,589,MEM,Memphis Grizzlies,5,Will Conroy,SG,6-2,195,1982-12-08,US,R,Washington
+2007,15,1010,MEM,Memphis Grizzlies,16,Pau Gasol,C,7-0,250,1980-07-06,ES,5,
+2007,15,1013,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,1986-08-17,US,R,UConn
+2007,15,1200,MEM,Memphis Grizzlies,10,Junior Harrington,PG,6-4,180,1980-10-02,US,2,Wingate University
+2007,15,1464,MEM,Memphis Grizzlies,32,Alexander Johnson,PF,6-9,240,1983-02-08,US,R,Florida State
+2007,15,1535,MEM,Memphis Grizzlies,30,Dahntay Jones,SG,6-6,225,1980-12-27,US,3,"Rutgers University, Duke"
+2007,15,1545,MEM,Memphis Grizzlies,6,Eddie Jones,SG,6-6,190,1971-10-20,US,12,Temple
+2007,15,1628,MEM,Memphis Grizzlies,7,Tarence Kinsey,SG,6-6,185,1984-03-21,US,R,South Carolina
+2007,15,1785,MEM,Memphis Grizzlies,1,Kyle Lowry,PG,6-0,196,1986-03-25,US,R,Villanova
+2007,15,1999,MEM,Memphis Grizzlies,33,Mike Miller,SG,6-8,218,1980-02-19,US,6,Florida
+2007,15,2240,MEM,Memphis Grizzlies,34,Scott Padgett,PF,6-9,240,1976-04-19,US,7,Kentucky
+2007,15,2469,MEM,Memphis Grizzlies,44,Lawrence Roberts,PF,6-9,240,1982-10-20,US,1,"Baylor, Mississippi State"
+2007,15,2775,MEM,Memphis Grizzlies,20,Damon Stoudamire,PG,5-10,171,1973-09-03,US,11,Arizona
+2007,15,2800,MEM,Memphis Grizzlies,4,Stromile Swift,C,6-9,225,1979-11-21,US,6,LSU
+2007,15,2920,MEM,Memphis Grizzlies,12,Jake Tsakalidis,C,7-2,285,1979-06-10,GE,6,
+2007,15,3035,MEM,Memphis Grizzlies,21,Hakim Warrick,PF,6-9,219,1982-07-08,US,1,Syracuse

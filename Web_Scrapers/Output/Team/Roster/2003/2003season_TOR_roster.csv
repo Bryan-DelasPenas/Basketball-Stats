@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2003,28,60,TOR,Toronto Raptors,12,Rafer Alston,PG,6-2,171,"July 24, 1976",US,3,Fresno State
-2003,28,182,TOR,Toronto Raptors,14,Maceo Baston,PF,6-9,215,"May 29, 1975",US,R,Michigan
-2003,28,325,TOR,Toronto Raptors,5,Michael Bradley,PF,6-10,245,"April 18, 1979",US,1,"Kentucky, Villanova"
-2003,28,373,TOR,Toronto Raptors,54,Damone Brown,PF,6-9,200,"June 28, 1979",US,1,Syracuse
-2003,28,492,TOR,Toronto Raptors,15,Vince Carter,SG,6-6,220,"January 26, 1977",US,4,UNC
-2003,28,677,TOR,Toronto Raptors,33,Antonio Davis,C,6-9,215,"October 31, 1968",US,9,Texas-El Paso
-2003,28,944,TOR,Toronto Raptors,44,Greg Foster,C,6-11,240,"October 3, 1968",US,12,"UCLA, Texas-El Paso"
-2003,28,1165,TOR,Toronto Raptors,54,Zendon Hamilton,C,6-11,250,"April 27, 1975",US,2,St. John's
-2003,28,1351,TOR,Toronto Raptors,7,Nate Huffman,C,7-1,245,"April 2, 1975",US,R,Central Michigan University
-2003,28,1367,TOR,Toronto Raptors,11,Lindsey Hunter,PG,6-2,170,"December 3, 1970",US,9,"Alcorn State, Jackson State University"
-2003,28,1403,TOR,Toronto Raptors,8,Jermaine Jackson,SG,6-4,204,"June 7, 1976",US,2,Detroit Mercy
-2003,28,1439,TOR,Toronto Raptors,1,Chris Jefferies,SF,6-8,225,"February 13, 1980",US,R,"Arkansas, Fresno State"
-2003,28,1732,TOR,Toronto Raptors,2,Voshon Lenard,SG,6-4,205,"May 14, 1973",US,7,Minnesota
-2003,28,1769,TOR,Toronto Raptors,42,Art Long,PF,6-9,250,"October 1, 1972",US,2,Cincinnati
-2003,28,1911,TOR,Toronto Raptors,4,Jelani McCoy,C,6-10,245,"December 6, 1977",US,4,UCLA
-2003,28,2105,TOR,Toronto Raptors,32,Mamadou N'Diaye,C,7-0,255,"June 16, 1975",SN,2,Auburn
-2003,28,2297,TOR,Toronto Raptors,24,Morris Peterson,SF,6-7,218,"August 26, 1977",US,2,Michigan State
-2003,28,3130,TOR,Toronto Raptors,20,Alvin Williams,PG,6-5,185,"August 6, 1974",US,5,Villanova
-2003,28,3151,TOR,Toronto Raptors,13,Jerome Williams,PF,6-9,206,"May 10, 1973",US,6,Georgetown
+2003,28,60,TOR,Toronto Raptors,12,Rafer Alston,PG,6-2,171,1976-07-24,US,3,Fresno State
+2003,28,182,TOR,Toronto Raptors,14,Maceo Baston,PF,6-9,215,1975-05-29,US,R,Michigan
+2003,28,325,TOR,Toronto Raptors,5,Michael Bradley,PF,6-10,245,1979-04-18,US,1,"Kentucky, Villanova"
+2003,28,373,TOR,Toronto Raptors,54,Damone Brown,PF,6-9,200,1979-06-28,US,1,Syracuse
+2003,28,492,TOR,Toronto Raptors,15,Vince Carter,SG,6-6,220,1977-01-26,US,4,UNC
+2003,28,678,TOR,Toronto Raptors,33,Antonio Davis,C,6-9,215,1968-10-31,US,9,Texas-El Paso
+2003,28,946,TOR,Toronto Raptors,44,Greg Foster,C,6-11,240,1968-10-03,US,12,"UCLA, Texas-El Paso"
+2003,28,1167,TOR,Toronto Raptors,54,Zendon Hamilton,C,6-11,250,1975-04-27,US,2,St. John's
+2003,28,1353,TOR,Toronto Raptors,7,Nate Huffman,C,7-1,245,1975-04-02,US,R,Central Michigan University
+2003,28,1369,TOR,Toronto Raptors,11,Lindsey Hunter,PG,6-2,170,1970-12-03,US,9,"Alcorn State, Jackson State University"
+2003,28,1405,TOR,Toronto Raptors,8,Jermaine Jackson,SG,6-4,204,1976-06-07,US,2,Detroit Mercy
+2003,28,1441,TOR,Toronto Raptors,1,Chris Jefferies,SF,6-8,225,1980-02-13,US,R,"Arkansas, Fresno State"
+2003,28,1735,TOR,Toronto Raptors,2,Voshon Lenard,SG,6-4,205,1973-05-14,US,7,Minnesota
+2003,28,1772,TOR,Toronto Raptors,42,Art Long,PF,6-9,250,1972-10-01,US,2,Cincinnati
+2003,28,1914,TOR,Toronto Raptors,4,Jelani McCoy,C,6-10,245,1977-12-06,US,4,UCLA
+2003,28,2108,TOR,Toronto Raptors,32,Mamadou N'Diaye,C,7-0,255,1975-06-16,SN,2,Auburn
+2003,28,2300,TOR,Toronto Raptors,24,Morris Peterson,SF,6-7,218,1977-08-26,US,2,Michigan State
+2003,28,3136,TOR,Toronto Raptors,20,Alvin Williams,PG,6-5,185,1974-08-06,US,5,Villanova
+2003,28,3157,TOR,Toronto Raptors,13,Jerome Williams,PF,6-9,206,1973-05-10,US,6,Georgetown

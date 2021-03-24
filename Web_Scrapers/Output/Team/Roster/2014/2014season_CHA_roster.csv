@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,4,21,CHA,Charlotte Bobcats,4,Jeff Adrien,PF,6-7,245,"February 10, 1986",US,3,UConn
-2014,4,249,CHA,Charlotte Bobcats,0,Bismack Biyombo,C,6-8,255,"August 28, 1992",CD,2,
-2014,4,773,CHA,Charlotte Bobcats,55,Chris Douglas-Roberts,SF,6-7,200,"January 8, 1987",US,4,Memphis
-2014,4,1061,CHA,Charlotte Bobcats,8,Ben Gordon,SG,6-3,200,"April 4, 1983",GB,9,UConn
-2014,4,1160,CHA,Charlotte Bobcats,41,Justin Hamilton,C,7-0,260,"April 1, 1990",US,R,"Iowa State, LSU"
-2014,4,1253,CHA,Charlotte Bobcats,9,Gerald Henderson Jr.,SG,6-5,215,"December 9, 1987",US,4,Duke
-2014,4,1441,CHA,Charlotte Bobcats,25,Al Jefferson,C,6-10,289,"January 4, 1985",US,9,
-2014,4,1608,CHA,Charlotte Bobcats,14,Michael Kidd-Gilchrist,SF,6-6,232,"September 26, 1993",US,1,Kentucky
-2014,4,1961,CHA,Charlotte Bobcats,11,Josh McRoberts,PF,6-10,240,"February 28, 1987",US,6,Duke
-2014,4,2122,CHA,Charlotte Bobcats,12,Gary Neal,SG,6-4,210,"October 3, 1984",US,3,"La Salle, Towson University"
-2014,4,2244,CHA,Charlotte Bobcats,5,Jannero Pargo,PG,6-1,175,"October 22, 1979",US,9,Arkansas
-2014,4,2452,CHA,Charlotte Bobcats,13,Luke Ridnour,PG,6-2,175,"February 13, 1981",US,10,Oregon
-2014,4,2601,CHA,Charlotte Bobcats,7,Ramon Sessions,PG,6-3,190,"April 11, 1986",US,6,Nevada
-2014,4,2721,CHA,Charlotte Bobcats,31,James Southerland,SF,6-8,215,"April 28, 1990",US,R,Syracuse
-2014,4,2817,CHA,Charlotte Bobcats,44,Jeff Matthew Taylor,SF,6-7,225,"May 23, 1989",SE,1,Vanderbilt
-2014,4,2894,CHA,Charlotte Bobcats,43,Anthony Tolliver,PF,6-8,240,"June 1, 1985",US,5,Creighton
-2014,4,3005,CHA,Charlotte Bobcats,15,Kemba Walker,PG,6-0,184,"May 8, 1990",US,2,UConn
-2014,4,3088,CHA,Charlotte Bobcats,8,D.J. White,PF,6-9,251,"August 31, 1986",US,5,Indiana
-2014,4,3269,CHA,Charlotte Bobcats,40,Cody Zeller,C,6-11,240,"October 5, 1992",US,R,Indiana
+2014,4,21,CHA,Charlotte Bobcats,4,Jeff Adrien,PF,6-7,245,1986-02-10,US,3,UConn
+2014,4,249,CHA,Charlotte Bobcats,0,Bismack Biyombo,C,6-8,255,1992-08-28,CD,2,
+2014,4,775,CHA,Charlotte Bobcats,55,Chris Douglas-Roberts,SF,6-7,200,1987-01-08,US,4,Memphis
+2014,4,1063,CHA,Charlotte Bobcats,8,Ben Gordon,SG,6-3,200,1983-04-04,GB,9,UConn
+2014,4,1162,CHA,Charlotte Bobcats,41,Justin Hamilton,C,7-0,260,1990-04-01,US,R,"Iowa State, LSU"
+2014,4,1255,CHA,Charlotte Bobcats,9,Gerald Henderson,SG,6-5,215,1987-12-09,US,4,Duke
+2014,4,1443,CHA,Charlotte Bobcats,25,Al Jefferson,C,6-10,289,1985-01-04,US,9,
+2014,4,1610,CHA,Charlotte Bobcats,14,Michael Kidd-Gilchrist,SF,6-6,232,1993-09-26,US,1,Kentucky
+2014,4,1964,CHA,Charlotte Bobcats,11,Josh McRoberts,PF,6-10,240,1987-02-28,US,6,Duke
+2014,4,2125,CHA,Charlotte Bobcats,12,Gary Neal,SG,6-4,210,1984-10-03,US,3,"La Salle, Towson University"
+2014,4,2247,CHA,Charlotte Bobcats,5,Jannero Pargo,PG,6-1,175,1979-10-22,US,9,Arkansas
+2014,4,2456,CHA,Charlotte Bobcats,13,Luke Ridnour,PG,6-2,175,1981-02-13,US,10,Oregon
+2014,4,2605,CHA,Charlotte Bobcats,7,Ramon Sessions,PG,6-3,190,1986-04-11,US,6,Nevada
+2014,4,2725,CHA,Charlotte Bobcats,31,James Southerland,SF,6-8,215,1990-04-28,US,R,Syracuse
+2014,4,2821,CHA,Charlotte Bobcats,44,Jeffery Taylor,SF,6-7,225,1989-05-23,SE,1,Vanderbilt
+2014,4,2899,CHA,Charlotte Bobcats,43,Anthony Tolliver,PF,6-8,240,1985-06-01,US,5,Creighton
+2014,4,3010,CHA,Charlotte Bobcats,15,Kemba Walker,PG,6-0,184,1990-05-08,US,2,UConn
+2014,4,3093,CHA,Charlotte Bobcats,8,D.J. White,PF,6-9,251,1986-08-31,US,5,Indiana
+2014,4,3275,CHA,Charlotte Bobcats,40,Cody Zeller,C,6-11,240,1992-10-05,US,R,Indiana

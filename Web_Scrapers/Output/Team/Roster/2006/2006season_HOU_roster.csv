@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2006,11,60,HOU,Houston Rockets,12,Rafer Alston,PG,6-2,171,"July 24, 1976",US,6,Fresno State
-2006,11,70,HOU,Houston Rockets,8,Derek Anderson,SG,6-5,194,"July 18, 1974",US,8,"Ohio State, Kentucky"
-2006,11,176,HOU,Houston Rockets,20,Jon Barry,SG,6-4,195,"July 25, 1969",US,13,"University of the Pacific, Georgia Tech"
-2006,11,194,HOU,Houston Rockets,35,Lonny Baxter,C,6-8,260,"January 27, 1979",US,3,Maryland
-2006,11,275,HOU,Houston Rockets,10,Keith Bogans,SF,6-5,215,"May 12, 1980",US,2,Kentucky
-2006,11,310,HOU,Houston Rockets,40,Ryan Bowen,SF,6-7,215,"November 20, 1975",US,6,Iowa
-2006,11,405,HOU,Houston Rockets,9,Rick Brunson,PG,6-4,190,"June 14, 1972",US,8,Temple
-2006,11,691,HOU,Houston Rockets,18,Josh Davis,PF,6-8,235,"August 10, 1980",US,2,Wyoming
-2006,11,954,HOU,Houston Rockets,14,Richie Frahm,SG,6-5,210,"August 14, 1977",US,2,Gonzaga
-2006,11,1073,HOU,Houston Rockets,9,Stephen Graham,SG,6-6,215,"June 11, 1982",US,R,"Central Florida, Oklahoma State"
-2006,11,1232,HOU,Houston Rockets,44,Chuck Hayes,PF,6-6,240,"June 11, 1983",US,R,Kentucky
-2006,11,1243,HOU,Houston Rockets,2,Luther Head,SG,6-3,185,"November 26, 1982",US,R,Illinois
-2006,11,1341,HOU,Houston Rockets,5,Juwan Howard,PF,6-9,240,"February 7, 1973",US,11,Michigan
-2006,11,1684,HOU,Houston Rockets,15,Maciej Lampe,C,6-11,275,"February 5, 1985",PL,2,
-2006,11,1787,HOU,Houston Rockets,15,John Lucas III,PG,5-11,166,"November 21, 1982",US,R,"Baylor, Oklahoma State"
-2006,11,1935,HOU,Houston Rockets,1,Tracy McGrady,SF,6-8,210,"May 24, 1979",US,8,
-2006,11,2007,HOU,Houston Rockets,11,Yao Ming,C,7-6,310,"September 12, 1980",CN,3,
-2006,11,2099,HOU,Houston Rockets,55,Dikembe Mutombo,C,7-2,245,"June 25, 1966",CD,14,Georgetown
-2006,11,2158,HOU,Houston Rockets,25,Moochie Norris,PG,6-1,175,"July 27, 1973",US,8,"Auburn, University of West Florida"
-2006,11,2796,HOU,Houston Rockets,4,Stromile Swift,C,6-9,225,"November 21, 1979",US,5,LSU
-2006,11,3073,HOU,Houston Rockets,7,David Wesley,SG,6-0,190,"November 14, 1970",US,12,Baylor
+2006,11,60,HOU,Houston Rockets,12,Rafer Alston,PG,6-2,171,1976-07-24,US,6,Fresno State
+2006,11,70,HOU,Houston Rockets,8,Derek Anderson,SG,6-5,194,1974-07-18,US,8,"Ohio State, Kentucky"
+2006,11,176,HOU,Houston Rockets,20,Jon Barry,SG,6-4,195,1969-07-25,US,13,"University of the Pacific, Georgia Tech"
+2006,11,194,HOU,Houston Rockets,35,Lonny Baxter,C,6-8,260,1979-01-27,US,3,Maryland
+2006,11,275,HOU,Houston Rockets,10,Keith Bogans,SF,6-5,215,1980-05-12,US,2,Kentucky
+2006,11,310,HOU,Houston Rockets,40,Ryan Bowen,SF,6-7,215,1975-11-20,US,6,Iowa
+2006,11,405,HOU,Houston Rockets,9,Rick Brunson,PG,6-4,190,1972-06-14,US,8,Temple
+2006,11,692,HOU,Houston Rockets,18,Josh Davis,PF,6-8,235,1980-08-10,US,2,Wyoming
+2006,11,956,HOU,Houston Rockets,14,Richie Frahm,SG,6-5,210,1977-08-14,US,2,Gonzaga
+2006,11,1075,HOU,Houston Rockets,9,Stephen Graham,SG,6-6,215,1982-06-11,US,R,"Central Florida, Oklahoma State"
+2006,11,1234,HOU,Houston Rockets,44,Chuck Hayes,PF,6-6,240,1983-06-11,US,R,Kentucky
+2006,11,1245,HOU,Houston Rockets,2,Luther Head,SG,6-3,185,1982-11-26,US,R,Illinois
+2006,11,1343,HOU,Houston Rockets,5,Juwan Howard,PF,6-9,240,1973-02-07,US,11,Michigan
+2006,11,1687,HOU,Houston Rockets,15,Maciej Lampe,C,6-11,275,1985-02-05,PL,2,
+2006,11,1790,HOU,Houston Rockets,15,John Lucas III,PG,5-11,166,1982-11-21,US,R,"Baylor, Oklahoma State"
+2006,11,1938,HOU,Houston Rockets,1,Tracy McGrady,SF,6-8,210,1979-05-24,US,8,
+2006,11,2010,HOU,Houston Rockets,11,Yao Ming,C,7-6,310,1980-09-12,CN,3,
+2006,11,2102,HOU,Houston Rockets,55,Dikembe Mutombo,C,7-2,245,1966-06-25,CD,14,Georgetown
+2006,11,2161,HOU,Houston Rockets,25,Moochie Norris,PG,6-1,175,1973-07-27,US,8,"Auburn, University of West Florida"
+2006,11,2800,HOU,Houston Rockets,4,Stromile Swift,C,6-9,225,1979-11-21,US,5,LSU
+2006,11,3078,HOU,Houston Rockets,7,David Wesley,SG,6-0,190,1970-11-14,US,12,Baylor

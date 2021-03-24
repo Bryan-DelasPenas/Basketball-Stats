@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1981,5,747,CHI,Chicago Bulls,26,Coby Dietrick,C,6-10,220,"July 23, 1948",US,10,San Jose State
-1981,5,1039,CHI,Chicago Bulls,53,Artis Gilmore,C,7-2,240,"September 21, 1949",US,9,"Gardner-Webb University, Jacksonville University"
-1981,5,1119,CHI,Chicago Bulls,34,Dave Greenwood,PF,6-9,222,"May 27, 1957",US,1,UCLA
-1981,5,1541,CHI,Chicago Bulls,13,Dwight Jones,PF,6-10,210,"February 27, 1952",US,7,Houston
-1981,5,1597,CHI,Chicago Bulls,35,Larry Kenon,SF,6-9,205,"December 13, 1952",US,7,Memphis
-1981,5,1738,CHI,Chicago Bulls,12,Ronnie Lester,PG,6-2,175,"January 1, 1959",US,R,Iowa
-1981,5,1799,CHI,Chicago Bulls,23,Ollie Mack,SG,6-3,185,"June 6, 1957",US,1,East Carolina University
-1981,5,1882,CHI,Chicago Bulls,7,Scott May,SF,6-7,215,"March 19, 1954",US,4,Indiana
-1981,5,2718,CHI,Chicago Bulls,"14, 40",Ricky Sobers,PG,6-3,198,"January 15, 1953",US,5,UNLV
-1981,5,2839,CHI,Chicago Bulls,24,Reggie Theus,SG,6-7,190,"October 13, 1957",US,2,UNLV
-1981,5,3118,CHI,Chicago Bulls,33,Bob Wilkerson,SG,6-6,195,"August 15, 1954",US,4,Indiana
-1981,5,3120,CHI,Chicago Bulls,32,James Wilkes,SF,6-7,195,"April 1, 1958",US,R,UCLA
-1981,5,3235,CHI,Chicago Bulls,31,Sam Worthen,PG,6-5,195,"January 17, 1958",US,R,Marquette
+1981,5,749,CHI,Chicago Bulls,26,Coby Dietrick,C,6-10,220,1948-07-23,US,10,San Jose State
+1981,5,1041,CHI,Chicago Bulls,53,Artis Gilmore,C,7-2,240,1949-09-21,US,9,"Gardner-Webb University, Jacksonville University"
+1981,5,1121,CHI,Chicago Bulls,34,Dave Greenwood,PF,6-9,222,1957-05-27,US,1,UCLA
+1981,5,1543,CHI,Chicago Bulls,13,Dwight Jones,PF,6-10,210,1952-02-27,US,7,Houston
+1981,5,1599,CHI,Chicago Bulls,35,Larry Kenon,SF,6-9,205,1952-12-13,US,7,Memphis
+1981,5,1741,CHI,Chicago Bulls,12,Ronnie Lester,PG,6-2,175,1959-01-01,US,R,Iowa
+1981,5,1802,CHI,Chicago Bulls,23,Ollie Mack,SG,6-3,185,1957-06-06,US,1,East Carolina University
+1981,5,1885,CHI,Chicago Bulls,7,Scott May,SF,6-7,215,1954-03-19,US,4,Indiana
+1981,5,2722,CHI,Chicago Bulls,"14, 40",Ricky Sobers,PG,6-3,198,1953-01-15,US,5,UNLV
+1981,5,2843,CHI,Chicago Bulls,24,Reggie Theus,SG,6-7,190,1957-10-13,US,2,UNLV
+1981,5,3124,CHI,Chicago Bulls,33,Bob Wilkerson,SG,6-6,195,1954-08-15,US,4,Indiana
+1981,5,3126,CHI,Chicago Bulls,32,James Wilkes,SF,6-7,195,1958-04-01,US,R,UCLA
+1981,5,3241,CHI,Chicago Bulls,31,Sam Worthen,PG,6-5,195,1958-01-17,US,R,Marquette

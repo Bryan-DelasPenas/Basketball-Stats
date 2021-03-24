@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2007,6,398,CLE,Cleveland Cavaliers,6,Shannon Brown,SG,6-4,205,"November 29, 1985",US,R,Michigan State
-2007,6,1026,CLE,Cleveland Cavaliers,1,Daniel Gibson,PG,6-2,190,"February 27, 1986",US,R,Texas
-2007,6,1056,CLE,Cleveland Cavaliers,90,Drew Gooden,PF,6-10,250,"September 24, 1981",US,4,Kansas
-2007,6,1356,CLE,Cleveland Cavaliers,32,Larry Hughes,SG,6-5,184,"January 23, 1979",US,8,Saint Louis
-2007,6,1378,CLE,Cleveland Cavaliers,11,Zydrunas Ilgauskas,C,7-3,238,"June 5, 1975",LT,8,
-2007,6,1429,CLE,Cleveland Cavaliers,23,LeBron James,SF,6-9,250,"December 30, 1984",US,3,
-2007,6,1535,CLE,Cleveland Cavaliers,19,Damon Jones,PG,6-3,185,"August 25, 1976",US,8,Houston
-2007,6,1540,CLE,Cleveland Cavaliers,27,Dwayne Jones,PF,6-11,250,"June 9, 1983",US,1,Saint Joseph's
-2007,6,1844,CLE,Cleveland Cavaliers,24,Donyell Marshall,PF,6-9,218,"May 18, 1973",US,12,UConn
-2007,6,2136,CLE,Cleveland Cavaliers,14,Ira Newble,SF,6-7,220,"January 20, 1975",US,6,Miami University
-2007,6,2266,CLE,Cleveland Cavaliers,3,Sasha Pavlovic,SG,6-8,220,"November 15, 1983",ME,3,
-2007,6,2330,CLE,Cleveland Cavaliers,31,Scot Pollard,C,6-11,265,"February 12, 1975",US,9,Kansas
-2007,6,2716,CLE,Cleveland Cavaliers,20,Eric Snow,PG,6-3,190,"April 24, 1973",US,11,Michigan State
-2007,6,2961,CLE,Cleveland Cavaliers,17,Anderson Varejao,C,6-10,273,"September 28, 1982",BR,2,
-2007,6,3073,CLE,Cleveland Cavaliers,4,David Wesley,SG,6-0,190,"November 14, 1970",US,13,Baylor
+2007,6,398,CLE,Cleveland Cavaliers,6,Shannon Brown,SG,6-4,205,1985-11-29,US,R,Michigan State
+2007,6,1028,CLE,Cleveland Cavaliers,1,Daniel Gibson,PG,6-2,190,1986-02-27,US,R,Texas
+2007,6,1058,CLE,Cleveland Cavaliers,90,Drew Gooden,PF,6-10,250,1981-09-24,US,4,Kansas
+2007,6,1358,CLE,Cleveland Cavaliers,32,Larry Hughes,SG,6-5,184,1979-01-23,US,8,Saint Louis
+2007,6,1380,CLE,Cleveland Cavaliers,11,Zydrunas Ilgauskas,C,7-3,238,1975-06-05,LT,8,
+2007,6,1431,CLE,Cleveland Cavaliers,23,LeBron James,SF,6-9,250,1984-12-30,US,3,
+2007,6,1537,CLE,Cleveland Cavaliers,19,Damon Jones,PG,6-3,185,1976-08-25,US,8,Houston
+2007,6,1542,CLE,Cleveland Cavaliers,27,Dwayne Jones,PF,6-11,250,1983-06-09,US,1,Saint Joseph's
+2007,6,1847,CLE,Cleveland Cavaliers,24,Donyell Marshall,PF,6-9,218,1973-05-18,US,12,UConn
+2007,6,2139,CLE,Cleveland Cavaliers,14,Ira Newble,SF,6-7,220,1975-01-20,US,6,Miami University
+2007,6,2269,CLE,Cleveland Cavaliers,3,Sasha Pavlovic,SG,6-8,220,1983-11-15,ME,3,
+2007,6,2333,CLE,Cleveland Cavaliers,31,Scot Pollard,C,6-11,265,1975-02-12,US,9,Kansas
+2007,6,2720,CLE,Cleveland Cavaliers,20,Eric Snow,PG,6-3,190,1973-04-24,US,11,Michigan State
+2007,6,2966,CLE,Cleveland Cavaliers,17,Anderson Varejao,C,6-10,273,1982-09-28,BR,2,
+2007,6,3078,CLE,Cleveland Cavaliers,4,David Wesley,SG,6-0,190,1970-11-14,US,13,Baylor

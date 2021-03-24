@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1988,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,"July 19, 1954",US,12,Oklahoma
-1988,24,141,PHO,Phoenix Suns,2,James Bailey,PF,6-9,220,"May 21, 1957",US,8,Rutgers University
-1988,24,594,PHO,Phoenix Suns,45,Jeff Cook,PF,6-10,215,"October 21, 1956",US,7,Idaho State University
-1988,24,609,PHO,Phoenix Suns,23,Tyrone Corbin,SF,6-6,210,"December 31, 1962",US,2,DePaul
-1988,24,632,PHO,Phoenix Suns,12,Winston Crite,SF,6-7,233,"June 20, 1965",US,R,Texas A&M
-1988,24,702,PHO,Phoenix Suns,6,Walter Davis,SF,6-6,193,"September 9, 1954",US,10,UNC
-1988,24,832,PHO,Phoenix Suns,53,James Edwards,C,7-0,225,"November 22, 1955",US,10,Washington
-1988,24,1038,PHO,Phoenix Suns,35,Armen Gilliam,PF,6-9,230,"May 28, 1964",US,R,UNLV
-1988,24,1305,PHO,Phoenix Suns,25,Craig Hodges,SG,6-2,190,"June 27, 1960",US,5,Cal State Long Beach
-1988,24,1328,PHO,Phoenix Suns,14,Jeff Hornacek,SG,6-3,190,"May 3, 1963",US,1,Iowa State
-1988,24,1361,PHO,Phoenix Suns,24,Jay Humphries,PG,6-3,185,"October 17, 1962",US,3,Colorado
-1988,24,1485,PHO,Phoenix Suns,8,Edward Arnet Johnson,SF,6-7,215,"May 1, 1959",US,6,Illinois
-1988,24,1500,PHO,Phoenix Suns,11,Kevin Johnson,PG,6-1,180,"March 4, 1966",US,R,California
-1988,24,1848,PHO,Phoenix Suns,26,Bill Martin,SF,6-7,205,"August 16, 1962",US,2,Georgetown
-1988,24,2043,PHO,Phoenix Suns,53,Ron Moore,C,7-0,260,"January 16, 1962",US,R,"Salem International University, West Virginia State University"
-1988,24,2111,PHO,Phoenix Suns,22,Larry Nance,PF,6-10,205,"February 12, 1959",US,6,Clemson
-1988,24,2559,PHO,Phoenix Suns,11,Mike Sanders,SF,6-6,210,"May 7, 1960",US,5,UCLA
-1988,24,2864,PHO,Phoenix Suns,7,Bernard Thompson,SF,6-6,210,"August 30, 1962",US,3,Fresno State
-1988,24,3078,PHO,Phoenix Suns,41,Mark West,C,6-10,230,"November 5, 1960",US,4,Old Dominion
+1988,24,12,PHO,Phoenix Suns,33,Alvan Adams,C,6-9,210,1954-07-19,US,12,Oklahoma
+1988,24,141,PHO,Phoenix Suns,2,James Bailey,PF,6-9,220,1957-05-21,US,8,Rutgers University
+1988,24,594,PHO,Phoenix Suns,45,Jeff Cook,PF,6-10,215,1956-10-21,US,7,Idaho State University
+1988,24,609,PHO,Phoenix Suns,23,Tyrone Corbin,SF,6-6,210,1962-12-31,US,2,DePaul
+1988,24,632,PHO,Phoenix Suns,12,Winston Crite,SF,6-7,233,1965-06-20,US,R,Texas A&M
+1988,24,703,PHO,Phoenix Suns,6,Walter Davis,SF,6-6,193,1954-09-09,US,10,UNC
+1988,24,834,PHO,Phoenix Suns,53,James Edwards,C,7-0,225,1955-11-22,US,10,Washington
+1988,24,1040,PHO,Phoenix Suns,35,Armen Gilliam,PF,6-9,230,1964-05-28,US,R,UNLV
+1988,24,1307,PHO,Phoenix Suns,25,Craig Hodges,SG,6-2,190,1960-06-27,US,5,Cal State Long Beach
+1988,24,1330,PHO,Phoenix Suns,14,Jeff Hornacek,SG,6-3,190,1963-05-03,US,1,Iowa State
+1988,24,1363,PHO,Phoenix Suns,24,Jay Humphries,PG,6-3,185,1962-10-17,US,3,Colorado
+1988,24,1487,PHO,Phoenix Suns,8,Eddie Johnson,SF,6-7,215,1959-05-01,US,6,Illinois
+1988,24,1502,PHO,Phoenix Suns,11,Kevin Johnson,PG,6-1,180,1966-03-04,US,R,California
+1988,24,1851,PHO,Phoenix Suns,26,Bill Martin,SF,6-7,205,1962-08-16,US,2,Georgetown
+1988,24,2046,PHO,Phoenix Suns,53,Ron Moore,C,7-0,260,1962-01-16,US,R,"Salem International University, West Virginia State University"
+1988,24,2115,PHO,Phoenix Suns,22,Larry Nance,PF,6-10,205,1959-02-12,US,6,Clemson
+1988,24,2563,PHO,Phoenix Suns,11,Mike Sanders,SF,6-6,210,1960-05-07,US,5,UCLA
+1988,24,2868,PHO,Phoenix Suns,7,Bernard Thompson,SF,6-6,210,1962-08-30,US,3,Fresno State
+1988,24,3083,PHO,Phoenix Suns,41,Mark West,C,6-10,230,1960-11-05,US,4,Old Dominion

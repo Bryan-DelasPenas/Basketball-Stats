@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1995,1,73,ATL,Atlanta Hawks,22,Greg Anderson,PF,6-10,230,"June 22, 1964",US,6,Houston
-1995,1,118,ATL,Atlanta Hawks,2,Stacey Augmon,SG,6-8,205,"August 1, 1968",US,3,UNLV
-1995,1,197,ATL,Atlanta Hawks,5,Sergei Bazarevich,PG,6-2,168,"March 16, 1965",RU,R,
-1995,1,266,ATL,Atlanta Hawks,10,Mookie Blaylock,PG,6-0,180,"March 20, 1967",US,5,"Midland College, Oklahoma"
-1995,1,609,ATL,Atlanta Hawks,33,Tyrone Corbin,SF,6-6,210,"December 31, 1962",US,9,DePaul
-1995,1,830,ATL,Atlanta Hawks,34,Doug Edwards,PF,6-7,220,"January 21, 1971",US,1,Florida State
-1995,1,838,ATL,Atlanta Hawks,3,Craig Ehlo,SG,6-6,180,"August 11, 1961",US,11,Washington State
-1995,1,1337,ATL,Atlanta Hawks,17,Tom Hovasse,SF,6-8,205,"January 31, 1967",US,R,Penn State
-1995,1,1645,ATL,Atlanta Hawks,32,Jon Koncak,C,7-0,250,"May 17, 1963",US,9,SMU
-1995,1,1691,ATL,Atlanta Hawks,28,Andrew Lang,C,6-11,245,"June 28, 1966",US,6,Arkansas
-1995,1,1736,ATL,Atlanta Hawks,14,Jim Les,PG,5-11,165,"August 18, 1963",US,6,"Cleveland State University, Bradley"
-1995,1,1770,ATL,Atlanta Hawks,43,Grant Long,PF,6-8,225,"March 12, 1966",US,6,Eastern Michigan
-1995,1,2156,ATL,Atlanta Hawks,4,Ken Norman,SF,6-8,215,"September 5, 1964",US,7,Illinois
-1995,1,2706,ATL,Atlanta Hawks,8,Steve Smith,SG,6-7,200,"March 31, 1969",US,3,Michigan State
-1995,1,2978,ATL,Atlanta Hawks,11,Fred Vinson,SG,6-4,190,"January 28, 1971",US,R,Georgia Tech
-1995,1,3082,ATL,Atlanta Hawks,1,Ennis Whatley,PG,6-3,177,"August 11, 1962",US,8,Alabama
-1995,1,3117,ATL,Atlanta Hawks,11,Morlon Wiley,PG,6-4,185,"September 24, 1966",US,6,Cal State Long Beach
-1995,1,3192,ATL,Atlanta Hawks,42,Kevin Willis,PF,7-0,220,"September 6, 1962",US,9,Michigan State
+1995,1,73,ATL,Atlanta Hawks,22,Greg Anderson,PF,6-10,230,1964-06-22,US,6,Houston
+1995,1,118,ATL,Atlanta Hawks,2,Stacey Augmon,SG,6-8,205,1968-08-01,US,3,UNLV
+1995,1,197,ATL,Atlanta Hawks,5,Sergei Bazarevich,PG,6-2,168,1965-03-16,RU,R,
+1995,1,266,ATL,Atlanta Hawks,10,Mookie Blaylock,PG,6-0,180,1967-03-20,US,5,"Midland College, Oklahoma"
+1995,1,609,ATL,Atlanta Hawks,33,Tyrone Corbin,SF,6-6,210,1962-12-31,US,9,DePaul
+1995,1,832,ATL,Atlanta Hawks,34,Doug Edwards,PF,6-7,220,1971-01-21,US,1,Florida State
+1995,1,840,ATL,Atlanta Hawks,3,Craig Ehlo,SG,6-6,180,1961-08-11,US,11,Washington State
+1995,1,1339,ATL,Atlanta Hawks,17,Tom Hovasse,SF,6-8,205,1967-01-31,US,R,Penn State
+1995,1,1647,ATL,Atlanta Hawks,32,Jon Koncak,C,7-0,250,1963-05-17,US,9,SMU
+1995,1,1694,ATL,Atlanta Hawks,28,Andrew Lang,C,6-11,245,1966-06-28,US,6,Arkansas
+1995,1,1739,ATL,Atlanta Hawks,14,Jim Les,PG,5-11,165,1963-08-18,US,6,"Cleveland State University, Bradley"
+1995,1,1773,ATL,Atlanta Hawks,43,Grant Long,PF,6-8,225,1966-03-12,US,6,Eastern Michigan
+1995,1,2159,ATL,Atlanta Hawks,4,Ken Norman,SF,6-8,215,1964-09-05,US,7,Illinois
+1995,1,2710,ATL,Atlanta Hawks,8,Steve Smith,SG,6-7,200,1969-03-31,US,3,Michigan State
+1995,1,2983,ATL,Atlanta Hawks,11,Fred Vinson,SG,6-4,190,1971-01-28,US,R,Georgia Tech
+1995,1,3087,ATL,Atlanta Hawks,1,Ennis Whatley,PG,6-3,177,1962-08-11,US,8,Alabama
+1995,1,3123,ATL,Atlanta Hawks,11,Morlon Wiley,PG,6-4,185,1966-09-24,US,6,Cal State Long Beach
+1995,1,3198,ATL,Atlanta Hawks,42,Kevin Willis,PF,7-0,220,1962-09-06,US,9,Michigan State

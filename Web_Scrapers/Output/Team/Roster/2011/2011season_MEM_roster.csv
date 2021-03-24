@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2011,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,"January 11, 1982",US,6,"Butler County Community College, Oklahoma State"
-2011,15,112,MEM,Memphis Grizzlies,0,Darrell Arthur,PF,6-9,235,"March 25, 1988",US,2,Kansas
-2011,15,189,MEM,Memphis Grizzlies,31,Shane Battier,SF,6-8,220,"September 9, 1978",US,9,Duke
-2011,15,473,MEM,Memphis Grizzlies,10,Rodney Carney,SF,6-7,205,"April 15, 1984",US,4,Memphis
-2011,15,481,MEM,Memphis Grizzlies,1,DeMarre Carroll,PF,6-6,215,"July 27, 1986",US,1,"Vanderbilt, Missouri"
-2011,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,"October 11, 1987",US,3,Ohio State
-2011,15,1007,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,"January 29, 1985",ES,2,
-2011,15,1011,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,"August 17, 1986",US,4,UConn
-2011,15,1143,MEM,Memphis Grizzlies,15,Hamed Haddadi,C,7-2,254,"May 19, 1985",IR,2,
-2011,15,1263,MEM,Memphis Grizzlies,13,Xavier Henry,SG,6-6,220,"March 15, 1991",BE,R,Kansas
-2011,15,1704,MEM,Memphis Grizzlies,2,Acie Law,PG,6-3,195,"January 25, 1985",US,3,Texas A&M
-2011,15,1888,MEM,Memphis Grizzlies,32,O.J. Mayo,SG,6-5,210,"November 5, 1987",US,2,USC
-2011,15,2350,MEM,Memphis Grizzlies,7,Leon Powe,C,6-8,240,"January 22, 1984",US,4,California
-2011,15,2398,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,"July 16, 1981",US,9,Michigan State
-2011,15,2681,MEM,Memphis Grizzlies,5,Ish Smith,PG,6-0,175,"July 5, 1988",US,R,Wake Forest
-2011,15,2837,MEM,Memphis Grizzlies,34,Hasheem Thabeet,C,7-3,263,"February 16, 1987",TZ,1,UConn
-2011,15,2963,MEM,Memphis Grizzlies,21,Greivis Vasquez,PG,6-6,217,"January 16, 1987",VE,R,Maryland
-2011,15,3147,MEM,Memphis Grizzlies,3,Jason Williams,PG,6-1,190,"November 18, 1975",US,11,"Marshall, Florida"
-2011,15,3264,MEM,Memphis Grizzlies,4,Sam Young,SF,6-6,220,"June 1, 1985",US,1,Pitt
+2011,15,55,MEM,Memphis Grizzlies,9,Tony Allen,SG,6-4,213,1982-01-11,US,6,"Butler County Community College, Oklahoma State"
+2011,15,112,MEM,Memphis Grizzlies,0,Darrell Arthur,PF,6-9,235,1988-03-25,US,2,Kansas
+2011,15,189,MEM,Memphis Grizzlies,31,Shane Battier,SF,6-8,220,1978-09-09,US,9,Duke
+2011,15,473,MEM,Memphis Grizzlies,10,Rodney Carney,SF,6-7,205,1984-04-15,US,4,Memphis
+2011,15,481,MEM,Memphis Grizzlies,1,DeMarre Carroll,PF,6-6,215,1986-07-27,US,1,"Vanderbilt, Missouri"
+2011,15,585,MEM,Memphis Grizzlies,11,Mike Conley,PG,6-1,175,1987-10-11,US,3,Ohio State
+2011,15,1009,MEM,Memphis Grizzlies,33,Marc Gasol,C,6-11,255,1985-01-29,ES,2,
+2011,15,1013,MEM,Memphis Grizzlies,22,Rudy Gay,SF,6-8,250,1986-08-17,US,4,UConn
+2011,15,1145,MEM,Memphis Grizzlies,15,Hamed Haddadi,C,7-2,254,1985-05-19,IR,2,
+2011,15,1265,MEM,Memphis Grizzlies,13,Xavier Henry,SG,6-6,220,1991-03-15,BE,R,Kansas
+2011,15,1707,MEM,Memphis Grizzlies,2,Acie Law,PG,6-3,195,1985-01-25,US,3,Texas A&M
+2011,15,1891,MEM,Memphis Grizzlies,32,O.J. Mayo,SG,6-5,210,1987-11-05,US,2,USC
+2011,15,2354,MEM,Memphis Grizzlies,7,Leon Powe,C,6-8,240,1984-01-22,US,4,California
+2011,15,2402,MEM,Memphis Grizzlies,50,Zach Randolph,PF,6-9,250,1981-07-16,US,9,Michigan State
+2011,15,2685,MEM,Memphis Grizzlies,5,Ish Smith,PG,6-0,175,1988-07-05,US,R,Wake Forest
+2011,15,2841,MEM,Memphis Grizzlies,34,Hasheem Thabeet,C,7-3,263,1987-02-16,TZ,1,UConn
+2011,15,2968,MEM,Memphis Grizzlies,21,Greivis Vasquez,PG,6-6,217,1987-01-16,VE,R,Maryland
+2011,15,3153,MEM,Memphis Grizzlies,3,Jason Williams,PG,6-1,190,1975-11-18,US,11,"Marshall, Florida"
+2011,15,3270,MEM,Memphis Grizzlies,4,Sam Young,SF,6-6,220,1985-06-01,US,1,Pitt

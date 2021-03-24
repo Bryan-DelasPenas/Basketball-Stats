@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2000,15,5,VAN,Vancouver Grizzlies,3,Shareef Abdur-Rahim,SF,6-9,225,"December 11, 1976",US,3,California
-2000,15,240,VAN,Vancouver Grizzlies,10,Mike Bibby,PG,6-1,190,"May 13, 1978",US,1,Arizona
-2000,15,474,VAN,Vancouver Grizzlies,55,Antoine Carr,SF,6-9,225,"July 23, 1961",US,15,Wichita State
-2000,15,744,VAN,Vancouver Grizzlies,8,Michael Dickerson,SG,6-5,190,"June 25, 1975",US,1,Arizona
-2000,15,840,VAN,Vancouver Grizzlies,54,Obinna Ekezie,PF,6-9,270,"August 22, 1975",NG,R,Maryland
-2000,15,1199,VAN,Vancouver Grizzlies,24,Othella Harrington,PF,6-9,235,"January 31, 1974",US,3,Georgetown
-2000,15,1770,VAN,Vancouver Grizzlies,43,Grant Long,PF,6-8,225,"March 12, 1966",US,11,Eastern Michigan
-2000,15,1776,VAN,Vancouver Grizzlies,13,Felipe Lopez,SG,6-5,199,"December 19, 1974",DO,1,St. John's
-2000,15,2239,VAN,Vancouver Grizzlies,5,Milt Palacio,PG,6-3,195,"February 7, 1978",US,R,"Midland College, Colorado State"
-2000,15,2252,VAN,Vancouver Grizzlies,1,Cherokee Parks,C,6-11,235,"October 11, 1972",US,4,Duke
-2000,15,2362,VAN,Vancouver Grizzlies,20,Brent Price,PG,6-1,165,"December 9, 1968",US,6,"South Carolina, Oklahoma"
-2000,15,2420,VAN,Vancouver Grizzlies,50,Bryant Reeves,C,7-0,275,"June 8, 1973",US,4,Oklahoma State
-2000,15,2586,VAN,Vancouver Grizzlies,9,Dennis Scott,SF,6-8,229,"September 5, 1968",US,9,Georgia Tech
-2000,15,2747,VAN,Vancouver Grizzlies,23,Joe Stephens,SF,6-7,210,"January 28, 1973",US,2,"Colorado, Little Rock"
-2000,15,3076,VAN,Vancouver Grizzlies,2,Doug West,SG,6-6,200,"May 27, 1967",US,10,Villanova
+2000,15,5,VAN,Vancouver Grizzlies,3,Shareef Abdur-Rahim,SF,6-9,225,1976-12-11,US,3,California
+2000,15,240,VAN,Vancouver Grizzlies,10,Mike Bibby,PG,6-1,190,1978-05-13,US,1,Arizona
+2000,15,474,VAN,Vancouver Grizzlies,55,Antoine Carr,SF,6-9,225,1961-07-23,US,15,Wichita State
+2000,15,746,VAN,Vancouver Grizzlies,8,Michael Dickerson,SG,6-5,190,1975-06-25,US,1,Arizona
+2000,15,842,VAN,Vancouver Grizzlies,54,Obinna Ekezie,PF,6-9,270,1975-08-22,NG,R,Maryland
+2000,15,1201,VAN,Vancouver Grizzlies,24,Othella Harrington,PF,6-9,235,1974-01-31,US,3,Georgetown
+2000,15,1773,VAN,Vancouver Grizzlies,43,Grant Long,PF,6-8,225,1966-03-12,US,11,Eastern Michigan
+2000,15,1779,VAN,Vancouver Grizzlies,13,Felipe Lopez,SG,6-5,199,1974-12-19,DO,1,St. John's
+2000,15,2242,VAN,Vancouver Grizzlies,5,Milt Palacio,PG,6-3,195,1978-02-07,US,R,"Midland College, Colorado State"
+2000,15,2255,VAN,Vancouver Grizzlies,1,Cherokee Parks,C,6-11,235,1972-10-11,US,4,Duke
+2000,15,2366,VAN,Vancouver Grizzlies,20,Brent Price,PG,6-1,165,1968-12-09,US,6,"South Carolina, Oklahoma"
+2000,15,2424,VAN,Vancouver Grizzlies,50,Bryant Reeves,C,7-0,275,1973-06-08,US,4,Oklahoma State
+2000,15,2590,VAN,Vancouver Grizzlies,9,Dennis Scott,SF,6-8,229,1968-09-05,US,9,Georgia Tech
+2000,15,2751,VAN,Vancouver Grizzlies,23,Joe Stephens,SF,6-7,210,1973-01-28,US,2,"Colorado, Little Rock"
+2000,15,3081,VAN,Vancouver Grizzlies,2,Doug West,SG,6-6,200,1967-05-27,US,10,Villanova

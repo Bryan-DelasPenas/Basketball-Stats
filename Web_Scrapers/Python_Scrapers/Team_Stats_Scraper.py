@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID, ABV_TO_TEAM, RIGHT_NAME_DICT, PLAYER_ID
-from utils import remove_char, strip_accents
+from utils import remove_char, strip_accents, proper_dates
 
 
 '''
@@ -34,7 +34,10 @@ def get_roster(team, season, orginal = False):
         
         # Create a new column called season
         df['Season'] = season
-        
+
+        # Change dates to YYYY-MM-DD
+        df['Birth Date'] = df['Birth Date'].apply(lambda date: proper_dates(date))
+
         # Create a new column named team
         df['Team'] = team
         df['Team'] = df['Team'].apply(lambda x:ABV_TO_TEAM[x].title())

@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2014,16,54,MIA,Miami Heat,34,Ray Allen,SG,6-5,205,"July 20, 1975",US,17,UConn
-2014,16,66,MIA,Miami Heat,11,Chris Andersen,C,6-10,245,"July 7, 1978",US,11,Blinn College
-2014,16,96,MIA,Miami Heat,50,Joel Anthony,C,6-9,245,"August 9, 1982",CA,6,UNLV
-2014,16,189,MIA,Miami Heat,31,Shane Battier,SF,6-8,220,"September 9, 1978",US,12,Duke
-2014,16,203,MIA,Miami Heat,8,Michael Beasley,SF,6-9,235,"January 9, 1989",US,5,Kansas State
-2014,16,302,MIA,Miami Heat,1,Chris Bosh,C,6-11,235,"March 24, 1984",US,10,Georgia Tech
-2014,16,511,MIA,Miami Heat,15,Mario Chalmers,PG,6-2,190,"May 19, 1986",US,5,Kansas
-2014,16,561,MIA,Miami Heat,30,Norris Cole,PG,6-2,175,"October 13, 1988",US,2,Cleveland State University
-2014,16,772,MIA,Miami Heat,0,Toney Douglas,PG,6-2,195,"March 16, 1986",US,4,"Auburn, Florida State"
-2014,16,1160,MIA,Miami Heat,7,Justin Hamilton,C,7-0,260,"April 1, 1990",US,R,"Iowa State, LSU"
-2014,16,1222,MIA,Miami Heat,40,Udonis Haslem,PF,6-8,235,"June 9, 1980",US,10,Florida
-2014,16,1429,MIA,Miami Heat,6,LeBron James,PF,6-9,250,"December 30, 1984",US,10,
-2014,16,1548,MIA,Miami Heat,22,James Jones,SF,6-8,218,"October 4, 1980",US,10,Miami (FL)
-2014,16,1748,MIA,Miami Heat,9,Rashard Lewis,SF,6-10,215,"August 8, 1979",US,15,
-2014,16,1752,MIA,Miami Heat,14,DeAndre Liggins,SG,6-6,209,"March 31, 1988",US,2,Kentucky
-2014,16,1869,MIA,Miami Heat,21,Roger Mason,SG,6-5,200,"September 10, 1980",US,9,Virginia
-2014,16,2186,MIA,Miami Heat,20,Greg Oden,C,7-0,250,"January 22, 1988",US,2,Ohio State
-2014,16,2992,MIA,Miami Heat,3,Dwyane Wade,SG,6-4,220,"January 17, 1982",US,10,Marquette
+2014,16,54,MIA,Miami Heat,34,Ray Allen,SG,6-5,205,1975-07-20,US,17,UConn
+2014,16,66,MIA,Miami Heat,11,Chris Andersen,C,6-10,245,1978-07-07,US,11,Blinn College
+2014,16,96,MIA,Miami Heat,50,Joel Anthony,C,6-9,245,1982-08-09,CA,6,UNLV
+2014,16,189,MIA,Miami Heat,31,Shane Battier,SF,6-8,220,1978-09-09,US,12,Duke
+2014,16,203,MIA,Miami Heat,8,Michael Beasley,SF,6-9,235,1989-01-09,US,5,Kansas State
+2014,16,302,MIA,Miami Heat,1,Chris Bosh,C,6-11,235,1984-03-24,US,10,Georgia Tech
+2014,16,511,MIA,Miami Heat,15,Mario Chalmers,PG,6-2,190,1986-05-19,US,5,Kansas
+2014,16,561,MIA,Miami Heat,30,Norris Cole,PG,6-2,175,1988-10-13,US,2,Cleveland State University
+2014,16,774,MIA,Miami Heat,0,Toney Douglas,PG,6-2,195,1986-03-16,US,4,"Auburn, Florida State"
+2014,16,1162,MIA,Miami Heat,7,Justin Hamilton,C,7-0,260,1990-04-01,US,R,"Iowa State, LSU"
+2014,16,1224,MIA,Miami Heat,40,Udonis Haslem,PF,6-8,235,1980-06-09,US,10,Florida
+2014,16,1431,MIA,Miami Heat,6,LeBron James,PF,6-9,250,1984-12-30,US,10,
+2014,16,1550,MIA,Miami Heat,22,James Jones,SF,6-8,218,1980-10-04,US,10,Miami (FL)
+2014,16,1751,MIA,Miami Heat,9,Rashard Lewis,SF,6-10,215,1979-08-08,US,15,
+2014,16,1755,MIA,Miami Heat,14,DeAndre Liggins,SG,6-6,209,1988-03-31,US,2,Kentucky
+2014,16,1872,MIA,Miami Heat,21,Roger Mason,SG,6-5,200,1980-09-10,US,9,Virginia
+2014,16,2189,MIA,Miami Heat,20,Greg Oden,C,7-0,250,1988-01-22,US,2,Ohio State
+2014,16,2997,MIA,Miami Heat,3,Dwyane Wade,SG,6-4,220,1982-01-17,US,10,Marquette

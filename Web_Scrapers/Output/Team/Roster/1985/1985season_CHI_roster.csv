@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1985,5,611,CHI,Chicago Bulls,40,Dave Corzine,C,6-11,250,"April 25, 1956",US,6,DePaul
-1985,5,659,CHI,Chicago Bulls,44,Quintin Dailey,SG,6-3,180,"January 22, 1961",US,2,San Francisco
-1985,5,860,CHI,Chicago Bulls,34,Chris Engler,C,6-11,245,"March 1, 1959",US,2,"Minnesota, Wyoming"
-1985,5,1114,CHI,Chicago Bulls,21,Sidney Green,PF,6-9,220,"January 4, 1961",US,1,UNLV
-1985,5,1119,CHI,Chicago Bulls,10,Dave Greenwood,PF,6-9,222,"May 27, 1957",US,5,UCLA
-1985,5,1282,CHI,Chicago Bulls,22,Rod Higgins,SF,6-7,200,"January 31, 1960",US,2,Fresno State
-1985,5,1514,CHI,Chicago Bulls,32,Steve Johnson,C,6-10,235,"November 3, 1957",US,3,Oregon State
-1985,5,1529,CHI,Chicago Bulls,39,Caldwell Jones,C,6-11,217,"August 4, 1950",US,11,Albany State University
-1985,5,1530,CHI,Chicago Bulls,13,Charles Jones,PF,6-9,215,"April 3, 1957",US,1,Albany State University
-1985,5,1568,CHI,Chicago Bulls,23,Michael Jordan,SG,6-6,198,"February 17, 1963",US,R,UNC
-1985,5,1875,CHI,Chicago Bulls,1,Wes Matthews,PG,6-1,170,"August 24, 1959",US,4,Wisconsin
-1985,5,2203,CHI,Chicago Bulls,33,Jawann Oldham,C,7-0,215,"July 4, 1957",US,4,Seattle University
-1985,5,3082,CHI,Chicago Bulls,3,Ennis Whatley,PG,6-3,177,"August 11, 1962",US,1,Alabama
-1985,5,3232,CHI,Chicago Bulls,0,Orlando Woolridge,SF,6-9,215,"December 16, 1959",US,3,Notre Dame
+1985,5,611,CHI,Chicago Bulls,40,Dave Corzine,C,6-11,250,1956-04-25,US,6,DePaul
+1985,5,659,CHI,Chicago Bulls,44,Quintin Dailey,SG,6-3,180,1961-01-22,US,2,San Francisco
+1985,5,863,CHI,Chicago Bulls,34,Chris Engler,C,6-11,245,1959-03-01,US,2,"Minnesota, Wyoming"
+1985,5,1116,CHI,Chicago Bulls,21,Sidney Green,PF,6-9,220,1961-01-04,US,1,UNLV
+1985,5,1121,CHI,Chicago Bulls,10,Dave Greenwood,PF,6-9,222,1957-05-27,US,5,UCLA
+1985,5,1284,CHI,Chicago Bulls,22,Rod Higgins,SF,6-7,200,1960-01-31,US,2,Fresno State
+1985,5,1516,CHI,Chicago Bulls,32,Steve Johnson,C,6-10,235,1957-11-03,US,3,Oregon State
+1985,5,1531,CHI,Chicago Bulls,39,Caldwell Jones,C,6-11,217,1950-08-04,US,11,Albany State University
+1985,5,1534,CHI,Chicago Bulls,13,Charles Jones,PF,6-9,215,1957-04-03,US,1,Albany State University
+1985,5,1570,CHI,Chicago Bulls,23,Michael Jordan,SG,6-6,198,1963-02-17,US,R,UNC
+1985,5,1878,CHI,Chicago Bulls,1,Wes Matthews,PG,6-1,170,1959-08-24,US,4,Wisconsin
+1985,5,2206,CHI,Chicago Bulls,33,Jawann Oldham,C,7-0,215,1957-07-04,US,4,Seattle University
+1985,5,3087,CHI,Chicago Bulls,3,Ennis Whatley,PG,6-3,177,1962-08-11,US,1,Alabama
+1985,5,3238,CHI,Chicago Bulls,0,Orlando Woolridge,SF,6-9,215,1959-12-16,US,3,Notre Dame

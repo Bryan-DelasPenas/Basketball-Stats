@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1994,1,118,ATL,Atlanta Hawks,2,Stacey Augmon,SG,6-8,205,"August 1, 1968",US,2,UNLV
-1994,1,137,ATL,Atlanta Hawks,5,John Bagley,PG,6-0,185,"April 23, 1960",US,10,Boston College
-1994,1,266,ATL,Atlanta Hawks,10,Mookie Blaylock,PG,6-0,180,"March 20, 1967",US,4,"Midland College, Oklahoma"
-1994,1,830,ATL,Atlanta Hawks,34,Doug Edwards,PF,6-7,220,"January 21, 1971",US,R,Florida State
-1994,1,838,ATL,Atlanta Hawks,3,Craig Ehlo,SG,6-6,180,"August 11, 1961",US,10,Washington State
-1994,1,910,ATL,Atlanta Hawks,33,Duane Ferrell,SF,6-7,209,"February 28, 1965",US,5,Georgia Tech
-1994,1,1067,ATL,Atlanta Hawks,15,Ricky Grace,PG,6-1,180,"August 20, 1967",US,R,"Midland College, Oklahoma"
-1994,1,1072,ATL,Atlanta Hawks,25,Paul Graham,SG,6-6,200,"November 28, 1967",US,2,Ohio University
-1994,1,1587,ATL,Atlanta Hawks,31,Adam Keefe,PF,6-9,230,"February 22, 1970",US,1,Stanford
-1994,1,1645,ATL,Atlanta Hawks,32,Jon Koncak,C,7-0,250,"May 17, 1963",US,8,SMU
-1994,1,1691,ATL,Atlanta Hawks,28,Andrew Lang,C,6-11,245,"June 28, 1966",US,5,Arkansas
-1994,1,1829,ATL,Atlanta Hawks,5,Danny Manning,PF,6-10,230,"May 17, 1966",US,5,Kansas
-1994,1,3082,ATL,Atlanta Hawks,1,Ennis Whatley,PG,6-3,177,"August 11, 1962",US,7,Alabama
-1994,1,3122,ATL,Atlanta Hawks,21,Dominique Wilkins,SF,6-8,215,"January 12, 1960",FR,11,Georgia
-1994,1,3192,ATL,Atlanta Hawks,42,Kevin Willis,PF,7-0,220,"September 6, 1962",US,8,Michigan State
+1994,1,118,ATL,Atlanta Hawks,2,Stacey Augmon,SG,6-8,205,1968-08-01,US,2,UNLV
+1994,1,137,ATL,Atlanta Hawks,5,John Bagley,PG,6-0,185,1960-04-23,US,10,Boston College
+1994,1,266,ATL,Atlanta Hawks,10,Mookie Blaylock,PG,6-0,180,1967-03-20,US,4,"Midland College, Oklahoma"
+1994,1,832,ATL,Atlanta Hawks,34,Doug Edwards,PF,6-7,220,1971-01-21,US,R,Florida State
+1994,1,840,ATL,Atlanta Hawks,3,Craig Ehlo,SG,6-6,180,1961-08-11,US,10,Washington State
+1994,1,912,ATL,Atlanta Hawks,33,Duane Ferrell,SF,6-7,209,1965-02-28,US,5,Georgia Tech
+1994,1,1069,ATL,Atlanta Hawks,15,Ricky Grace,PG,6-1,180,1967-08-20,US,R,"Midland College, Oklahoma"
+1994,1,1074,ATL,Atlanta Hawks,25,Paul Graham,SG,6-6,200,1967-11-28,US,2,Ohio University
+1994,1,1589,ATL,Atlanta Hawks,31,Adam Keefe,PF,6-9,230,1970-02-22,US,1,Stanford
+1994,1,1647,ATL,Atlanta Hawks,32,Jon Koncak,C,7-0,250,1963-05-17,US,8,SMU
+1994,1,1694,ATL,Atlanta Hawks,28,Andrew Lang,C,6-11,245,1966-06-28,US,5,Arkansas
+1994,1,1832,ATL,Atlanta Hawks,5,Danny Manning,PF,6-10,230,1966-05-17,US,5,Kansas
+1994,1,3087,ATL,Atlanta Hawks,1,Ennis Whatley,PG,6-3,177,1962-08-11,US,7,Alabama
+1994,1,3128,ATL,Atlanta Hawks,21,Dominique Wilkins,SF,6-8,215,1960-01-12,FR,11,Georgia
+1994,1,3198,ATL,Atlanta Hawks,42,Kevin Willis,PF,7-0,220,1962-09-06,US,8,Michigan State

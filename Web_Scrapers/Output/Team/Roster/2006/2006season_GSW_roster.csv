@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2006,10,241,GSW,Golden State Warriors,15,Andris Biedrins,C,6-11,240,"April 2, 1986",LV,1,
-2006,10,445,GSW,Golden State Warriors,3,Will Bynum,PG,6-0,185,"January 4, 1983",US,R,"Arizona, Georgia Tech"
-2006,10,447,GSW,Golden State Warriors,11,Zarko Cabarkapa,PF,6-11,235,"May 21, 1981",RS,2,
-2006,10,520,GSW,Golden State Warriors,40,Calbert Cheaney,SF,6-7,209,"July 17, 1971",US,12,Indiana
-2006,10,678,GSW,Golden State Warriors,5,Baron Davis,PG,6-3,209,"April 13, 1979",US,6,UCLA
-2006,10,751,GSW,Golden State Warriors,9,Ike Diogu,PF,6-8,250,"September 11, 1983",US,R,Arizona State
-2006,10,802,GSW,Golden State Warriors,34,Mike Dunleavy Jr.,SF,6-9,230,"September 15, 1980",US,3,Duke
-2006,10,853,GSW,Golden State Warriors,8,Monta Ellis,SG,6-3,185,"October 26, 1985",US,R,
-2006,10,919,GSW,Golden State Warriors,4,Derek Fisher,PG,6-1,200,"August 9, 1974",US,9,Little Rock
-2006,10,953,GSW,Golden State Warriors,31,Adonal Foyle,C,6-10,250,"March 9, 1975",VC,8,Colgate
-2006,10,1984,GSW,Golden State Warriors,0,Aaron Miles,PG,6-1,175,"April 13, 1983",US,R,Kansas
-2006,10,2089,GSW,Golden State Warriors,1,Troy Murphy,PF,6-11,245,"May 2, 1980",US,4,Notre Dame
-2006,10,2310,GSW,Golden State Warriors,2,Mickael Pietrus,SF,6-6,215,"February 7, 1982",GP,2,
-2006,10,2442,GSW,Golden State Warriors,23,Jason Richardson,SG,6-6,220,"January 20, 1981",US,4,Michigan State
-2006,10,2804,GSW,Golden State Warriors,21,Chris Taft,C,6-10,260,"March 10, 1985",US,R,Pitt
+2006,10,241,GSW,Golden State Warriors,15,Andris Biedrins,C,6-11,240,1986-04-02,LV,1,
+2006,10,445,GSW,Golden State Warriors,3,Will Bynum,PG,6-0,185,1983-01-04,US,R,"Arizona, Georgia Tech"
+2006,10,447,GSW,Golden State Warriors,11,Zarko Cabarkapa,PF,6-11,235,1981-05-21,RS,2,
+2006,10,520,GSW,Golden State Warriors,40,Calbert Cheaney,SF,6-7,209,1971-07-17,US,12,Indiana
+2006,10,679,GSW,Golden State Warriors,5,Baron Davis,PG,6-3,209,1979-04-13,US,6,UCLA
+2006,10,753,GSW,Golden State Warriors,9,Ike Diogu,PF,6-8,250,1983-09-11,US,R,Arizona State
+2006,10,804,GSW,Golden State Warriors,34,Mike Dunleavy,SF,6-9,230,1980-09-15,US,3,Duke
+2006,10,855,GSW,Golden State Warriors,8,Monta Ellis,SG,6-3,185,1985-10-26,US,R,
+2006,10,921,GSW,Golden State Warriors,4,Derek Fisher,PG,6-1,200,1974-08-09,US,9,Little Rock
+2006,10,955,GSW,Golden State Warriors,31,Adonal Foyle,C,6-10,250,1975-03-09,VC,8,Colgate
+2006,10,1987,GSW,Golden State Warriors,0,Aaron Miles,PG,6-1,175,1983-04-13,US,R,Kansas
+2006,10,2092,GSW,Golden State Warriors,1,Troy Murphy,PF,6-11,245,1980-05-02,US,4,Notre Dame
+2006,10,2313,GSW,Golden State Warriors,2,Mickael Pietrus,SF,6-6,215,1982-02-07,GP,2,
+2006,10,2446,GSW,Golden State Warriors,23,Jason Richardson,SG,6-6,220,1981-01-20,US,4,Michigan State
+2006,10,2808,GSW,Golden State Warriors,21,Chris Taft,C,6-10,260,1985-03-10,US,R,Pitt

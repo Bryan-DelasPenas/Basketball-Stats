@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2004,11,330,HOU,Houston Rockets,32,Torraye Braggs,PF,6-8,245,"May 15, 1976",US,R,Xavier
-2004,11,501,HOU,Houston Rockets,13,Kelvin Cato,PF,6-11,255,"August 26, 1974",US,6,"University of South Alabama, Iowa State"
-2004,11,933,HOU,Houston Rockets,1,Alton Ford,PF,6-9,275,"May 29, 1981",US,2,Houston
-2004,11,955,HOU,Houston Rockets,3,Steve Francis,PG,6-3,195,"February 21, 1977",US,4,Maryland
-2004,11,1124,HOU,Houston Rockets,7,Adrian Griffin,SG,6-5,217,"July 4, 1974",US,4,Seton Hall
-2004,11,1404,HOU,Houston Rockets,21,Jim Jackson,SF,6-6,220,"October 14, 1970",US,11,Ohio State
-2004,11,1409,HOU,Houston Rockets,31,Mark Jackson,PG,6-1,180,"April 1, 1965",US,16,St. John's
-2004,11,2007,HOU,Houston Rockets,11,Yao Ming,C,7-6,310,"September 12, 1980",CN,1,
-2004,11,2020,HOU,Houston Rockets,5,Cuttino Mobley,SG,6-4,190,"September 1, 1975",US,5,Rhode Island
-2004,11,2107,HOU,Houston Rockets,9,Bostjan Nachbar,SF,6-9,221,"July 3, 1980",SI,1,
-2004,11,2158,HOU,Houston Rockets,12,Moochie Norris,PG,6-1,175,"July 27, 1973",US,6,"Auburn, University of West Florida"
-2004,11,2183,HOU,Houston Rockets,33,Charles Oakley,PF,6-8,225,"December 18, 1963",US,18,Virginia Union University
-2004,11,2237,HOU,Houston Rockets,35,Scott Padgett,PF,6-9,240,"April 19, 1976",US,4,Kentucky
-2004,11,2306,HOU,Houston Rockets,52,Eric Piatkowski,SF,6-7,215,"September 30, 1970",US,9,Nebraska
-2004,11,2821,HOU,Houston Rockets,2,Maurice Taylor,PF,6-9,260,"October 30, 1976",US,5,"Michigan, LSU"
-2004,11,3050,HOU,Houston Rockets,30,Clarence Weatherspoon,PF,6-6,240,"September 8, 1970",US,11,Southern Miss
-2004,11,3127,HOU,Houston Rockets,29,Mike Wilks,PG,5-10,185,"May 7, 1979",US,1,Rice University
+2004,11,330,HOU,Houston Rockets,32,Torraye Braggs,PF,6-8,245,1976-05-15,US,R,Xavier
+2004,11,501,HOU,Houston Rockets,13,Kelvin Cato,PF,6-11,255,1974-08-26,US,6,"University of South Alabama, Iowa State"
+2004,11,935,HOU,Houston Rockets,1,Alton Ford,PF,6-9,275,1981-05-29,US,2,Houston
+2004,11,957,HOU,Houston Rockets,3,Steve Francis,PG,6-3,195,1977-02-21,US,4,Maryland
+2004,11,1126,HOU,Houston Rockets,7,Adrian Griffin,SG,6-5,217,1974-07-04,US,4,Seton Hall
+2004,11,1406,HOU,Houston Rockets,21,Jim Jackson,SF,6-6,220,1970-10-14,US,11,Ohio State
+2004,11,1411,HOU,Houston Rockets,31,Mark Jackson,PG,6-1,180,1965-04-01,US,16,St. John's
+2004,11,2010,HOU,Houston Rockets,11,Yao Ming,C,7-6,310,1980-09-12,CN,1,
+2004,11,2023,HOU,Houston Rockets,5,Cuttino Mobley,SG,6-4,190,1975-09-01,US,5,Rhode Island
+2004,11,2110,HOU,Houston Rockets,9,Bostjan Nachbar,SF,6-9,221,1980-07-03,SI,1,
+2004,11,2161,HOU,Houston Rockets,12,Moochie Norris,PG,6-1,175,1973-07-27,US,6,"Auburn, University of West Florida"
+2004,11,2186,HOU,Houston Rockets,33,Charles Oakley,PF,6-8,225,1963-12-18,US,18,Virginia Union University
+2004,11,2240,HOU,Houston Rockets,35,Scott Padgett,PF,6-9,240,1976-04-19,US,4,Kentucky
+2004,11,2309,HOU,Houston Rockets,52,Eric Piatkowski,SF,6-7,215,1970-09-30,US,9,Nebraska
+2004,11,2825,HOU,Houston Rockets,2,Maurice Taylor,PF,6-9,260,1976-10-30,US,5,"Michigan, LSU"
+2004,11,3055,HOU,Houston Rockets,30,Clarence Weatherspoon,PF,6-6,240,1970-09-08,US,11,Southern Miss
+2004,11,3133,HOU,Houston Rockets,29,Mike Wilks,PG,5-10,185,1979-05-07,US,1,Rice University

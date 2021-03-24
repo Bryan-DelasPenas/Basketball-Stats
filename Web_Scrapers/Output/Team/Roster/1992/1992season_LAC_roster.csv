@@ -1,18 +1,18 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1992,13,401,LAC,Los Angeles Clippers,17,Tony Brown,SF,6-6,185,"July 29, 1960",US,6,Arkansas
-1992,13,608,LAC,Los Angeles Clippers,21,Lanard Copeland,SG,6-6,190,"July 16, 1965",US,1,Georgia State University
-1992,13,832,LAC,Los Angeles Clippers,53,James Edwards,C,7-0,225,"November 22, 1955",US,14,Washington
-1992,13,852,LAC,Los Angeles Clippers,22,LeRon Ellis,C,6-9,225,"April 28, 1969",US,R,"Kentucky, Syracuse"
-1992,13,1080,LAC,Los Angeles Clippers,23,Gary Grant,PG,6-3,185,"April 21, 1965",US,3,Michigan
-1992,13,1192,LAC,Los Angeles Clippers,4,Ron Harper,SG,6-6,185,"January 20, 1964",US,5,Miami University
-1992,13,1612,LAC,Los Angeles Clippers,30,Bo Kimble,SG,6-4,190,"April 9, 1966",US,1,"USC, Loyola Marymount"
-1992,13,1829,LAC,Los Angeles Clippers,5,Danny Manning,PF,6-10,230,"May 17, 1966",US,3,Kansas
-1992,13,1885,LAC,Los Angeles Clippers,8,Tharon Mayes,SG,6-3,175,"September 9, 1968",US,R,Florida State
-1992,13,2156,LAC,Los Angeles Clippers,3,Ken Norman,SF,6-8,215,"September 5, 1964",US,4,Illinois
-1992,13,2290,LAC,Los Angeles Clippers,34,Elliot Perry,PG,6-0,150,"March 28, 1969",US,R,Memphis
-1992,13,2331,LAC,Los Angeles Clippers,0,Olden Polynice,C,6-11,220,"November 21, 1964",HT,4,Virginia
-1992,13,2457,LAC,Los Angeles Clippers,32,David Rivers,PG,6-0,170,"January 20, 1965",US,2,Notre Dame
-1992,13,2458,LAC,Los Angeles Clippers,25,Doc Rivers,PG,6-4,185,"October 13, 1961",US,8,Marquette
-1992,13,2669,LAC,Los Angeles Clippers,54,Charles Daniel Smith,SF,6-10,230,"July 16, 1965",US,3,Pitt
-1992,13,2968,LAC,Los Angeles Clippers,35,Loy Vaught,PF,6-9,230,"February 27, 1968",US,1,Michigan
-1992,13,3257,LAC,Los Angeles Clippers,21,Danny Young,PG,6-3,175,"July 26, 1962",US,7,Wake Forest
+1992,13,401,LAC,Los Angeles Clippers,17,Tony Brown,SF,6-6,185,1960-07-29,US,6,Arkansas
+1992,13,608,LAC,Los Angeles Clippers,21,Lanard Copeland,SG,6-6,190,1965-07-16,US,1,Georgia State University
+1992,13,834,LAC,Los Angeles Clippers,53,James Edwards,C,7-0,225,1955-11-22,US,14,Washington
+1992,13,854,LAC,Los Angeles Clippers,22,LeRon Ellis,C,6-9,225,1969-04-28,US,R,"Kentucky, Syracuse"
+1992,13,1082,LAC,Los Angeles Clippers,23,Gary Grant,PG,6-3,185,1965-04-21,US,3,Michigan
+1992,13,1194,LAC,Los Angeles Clippers,4,Ron Harper,SG,6-6,185,1964-01-20,US,5,Miami University
+1992,13,1614,LAC,Los Angeles Clippers,30,Bo Kimble,SG,6-4,190,1966-04-09,US,1,"USC, Loyola Marymount"
+1992,13,1832,LAC,Los Angeles Clippers,5,Danny Manning,PF,6-10,230,1966-05-17,US,3,Kansas
+1992,13,1888,LAC,Los Angeles Clippers,8,Tharon Mayes,SG,6-3,175,1968-09-09,US,R,Florida State
+1992,13,2159,LAC,Los Angeles Clippers,3,Ken Norman,SF,6-8,215,1964-09-05,US,4,Illinois
+1992,13,2293,LAC,Los Angeles Clippers,34,Elliot Perry,PG,6-0,150,1969-03-28,US,R,Memphis
+1992,13,2334,LAC,Los Angeles Clippers,0,Olden Polynice,C,6-11,220,1964-11-21,HT,4,Virginia
+1992,13,2461,LAC,Los Angeles Clippers,32,David Rivers,PG,6-0,170,1965-01-20,US,2,Notre Dame
+1992,13,2462,LAC,Los Angeles Clippers,25,Doc Rivers,PG,6-4,185,1961-10-13,US,8,Marquette
+1992,13,2675,LAC,Los Angeles Clippers,54,Charles Smith,SF,6-10,230,1965-07-16,US,3,Pitt
+1992,13,2973,LAC,Los Angeles Clippers,35,Loy Vaught,PF,6-9,230,1968-02-27,US,1,Michigan
+1992,13,3263,LAC,Los Angeles Clippers,21,Danny Young,PG,6-3,175,1962-07-26,US,7,Wake Forest

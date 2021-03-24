@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2009,6,1026,CLE,Cleveland Cavaliers,1,Daniel Gibson,PG,6-2,190,"February 27, 1986",US,2,Texas
-2009,6,1278,CLE,Cleveland Cavaliers,21,J.J. Hickson,C,6-9,242,"September 4, 1988",US,R,NC State
-2009,6,1378,CLE,Cleveland Cavaliers,11,Zydrunas Ilgauskas,C,7-3,238,"June 5, 1975",LT,10,
-2009,6,1398,CLE,Cleveland Cavaliers,0,Darnell Jackson,PF,6-9,253,"November 7, 1985",US,R,Kansas
-2009,6,1429,CLE,Cleveland Cavaliers,23,LeBron James,SF,6-9,250,"December 30, 1984",US,5,
-2009,6,1515,CLE,Cleveland Cavaliers,24,Trey Johnson,SG,6-5,218,"August 30, 1984",US,R,"Alcorn State, Jackson State University"
-2009,6,1626,CLE,Cleveland Cavaliers,8,Tarence Kinsey,SG,6-6,185,"March 21, 1984",US,2,South Carolina
-2009,6,2266,CLE,Cleveland Cavaliers,3,Sasha Pavlovic,SF,6-8,220,"November 15, 1983",ME,5,
-2009,6,2688,CLE,Cleveland Cavaliers,32,Joe Smith,C,6-10,225,"July 26, 1975",US,13,Maryland
-2009,6,2801,CLE,Cleveland Cavaliers,10,Wally Szczerbiak,SF,6-7,244,"March 5, 1977",ES,9,Miami University
-2009,6,2961,CLE,Cleveland Cavaliers,17,Anderson Varejao,PF,6-10,273,"September 28, 1982",BR,4,
-2009,6,3011,CLE,Cleveland Cavaliers,4,Ben Wallace,PF,6-9,240,"September 10, 1974",US,12,Virginia Union University
-2009,6,3075,CLE,Cleveland Cavaliers,13,Delonte West,SG,6-4,180,"July 26, 1983",US,4,Saint Joseph's
-2009,6,3148,CLE,Cleveland Cavaliers,31,Jawad Williams,SF,6-9,218,"February 19, 1983",US,R,UNC
-2009,6,3167,CLE,Cleveland Cavaliers,2,Mo Williams,PG,6-1,198,"December 19, 1982",US,5,Alabama
-2009,6,3248,CLE,Cleveland Cavaliers,55,Lorenzen Wright,C,6-11,225,"November 4, 1975",US,12,Memphis
+2009,6,1028,CLE,Cleveland Cavaliers,1,Daniel Gibson,PG,6-2,190,1986-02-27,US,2,Texas
+2009,6,1280,CLE,Cleveland Cavaliers,21,J.J. Hickson,C,6-9,242,1988-09-04,US,R,NC State
+2009,6,1380,CLE,Cleveland Cavaliers,11,Zydrunas Ilgauskas,C,7-3,238,1975-06-05,LT,10,
+2009,6,1400,CLE,Cleveland Cavaliers,0,Darnell Jackson,PF,6-9,253,1985-11-07,US,R,Kansas
+2009,6,1431,CLE,Cleveland Cavaliers,23,LeBron James,SF,6-9,250,1984-12-30,US,5,
+2009,6,1517,CLE,Cleveland Cavaliers,24,Trey Johnson,SG,6-5,218,1984-08-30,US,R,"Alcorn State, Jackson State University"
+2009,6,1628,CLE,Cleveland Cavaliers,8,Tarence Kinsey,SG,6-6,185,1984-03-21,US,2,South Carolina
+2009,6,2269,CLE,Cleveland Cavaliers,3,Sasha Pavlovic,SF,6-8,220,1983-11-15,ME,5,
+2009,6,2692,CLE,Cleveland Cavaliers,32,Joe Smith,C,6-10,225,1975-07-26,US,13,Maryland
+2009,6,2805,CLE,Cleveland Cavaliers,10,Wally Szczerbiak,SF,6-7,244,1977-03-05,ES,9,Miami University
+2009,6,2966,CLE,Cleveland Cavaliers,17,Anderson Varejao,PF,6-10,273,1982-09-28,BR,4,
+2009,6,3016,CLE,Cleveland Cavaliers,4,Ben Wallace,PF,6-9,240,1974-09-10,US,12,Virginia Union University
+2009,6,3080,CLE,Cleveland Cavaliers,13,Delonte West,SG,6-4,180,1983-07-26,US,4,Saint Joseph's
+2009,6,3154,CLE,Cleveland Cavaliers,31,Jawad Williams,SF,6-9,218,1983-02-19,US,R,UNC
+2009,6,3173,CLE,Cleveland Cavaliers,2,Mo Williams,PG,6-1,198,1982-12-19,US,5,Alabama
+2009,6,3254,CLE,Cleveland Cavaliers,55,Lorenzen Wright,C,6-11,225,1975-11-04,US,12,Memphis

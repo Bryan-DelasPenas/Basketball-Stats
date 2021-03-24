@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1996,13,174,LAC,Los Angeles Clippers,31,Brent Barry,SG,6-6,185,"December 31, 1971",US,R,Oregon State
-1996,13,718,LAC,Los Angeles Clippers,24,Terry Dehere,PG,6-2,190,"September 12, 1971",US,2,Seton Hall
-1996,13,723,LAC,Los Angeles Clippers,8,Bison Dele,C,6-9,235,"April 6, 1969",US,4,"Maryland, Arizona"
-1996,13,1219,LAC,Los Angeles Clippers,40,Antonio Harvey,PF,6-11,225,"July 6, 1970",US,2,"Southern Illinois, Georgia, Pfeiffer University"
-1996,13,2092,LAC,Los Angeles Clippers,7,Lamond Murray,SF,6-7,236,"April 20, 1973",US,1,California
-1996,13,2222,LAC,Los Angeles Clippers,45,Bo Outlaw,PF,6-8,210,"April 13, 1971",US,2,"South Plains College, Houston"
-1996,13,2306,LAC,Los Angeles Clippers,52,Eric Piatkowski,SG,6-7,215,"September 30, 1970",US,1,Nebraska
-1996,13,2448,LAC,Los Angeles Clippers,2,Pooh Richardson,PG,6-1,180,"May 14, 1966",US,6,UCLA
-1996,13,2466,LAC,Los Angeles Clippers,53,Stanley Roberts,C,7-0,285,"February 7, 1970",US,3,LSU
-1996,13,2502,LAC,Los Angeles Clippers,54,Rodney Rogers,SF,6-7,235,"June 20, 1971",US,2,Wake Forest
-1996,13,2592,LAC,Los Angeles Clippers,21,Malik Sealy,SF,6-8,190,"February 1, 1970",US,3,St. John's
-1996,13,2904,LAC,Los Angeles Clippers,51,Keith Tower,C,6-11,250,"May 15, 1970",US,2,Notre Dame
-1996,13,2955,LAC,Los Angeles Clippers,25,Logan Vander Velden,SF,6-8,215,"April 3, 1971",US,R,Green Bay
-1996,13,2968,LAC,Los Angeles Clippers,35,Loy Vaught,PF,6-9,230,"February 27, 1968",US,5,Michigan
+1996,13,174,LAC,Los Angeles Clippers,31,Brent Barry,SG,6-6,185,1971-12-31,US,R,Oregon State
+1996,13,719,LAC,Los Angeles Clippers,24,Terry Dehere,PG,6-2,190,1971-09-12,US,2,Seton Hall
+1996,13,724,LAC,Los Angeles Clippers,8,Bison Dele,C,6-9,235,1969-04-06,US,4,"Maryland, Arizona"
+1996,13,1221,LAC,Los Angeles Clippers,40,Antonio Harvey,PF,6-11,225,1970-07-06,US,2,"Southern Illinois, Georgia, Pfeiffer University"
+1996,13,2095,LAC,Los Angeles Clippers,7,Lamond Murray,SF,6-7,236,1973-04-20,US,1,California
+1996,13,2225,LAC,Los Angeles Clippers,45,Bo Outlaw,PF,6-8,210,1971-04-13,US,2,"South Plains College, Houston"
+1996,13,2309,LAC,Los Angeles Clippers,52,Eric Piatkowski,SG,6-7,215,1970-09-30,US,1,Nebraska
+1996,13,2452,LAC,Los Angeles Clippers,2,Pooh Richardson,PG,6-1,180,1966-05-14,US,6,UCLA
+1996,13,2470,LAC,Los Angeles Clippers,53,Stanley Roberts,C,7-0,285,1970-02-07,US,3,LSU
+1996,13,2506,LAC,Los Angeles Clippers,54,Rodney Rogers,SF,6-7,235,1971-06-20,US,2,Wake Forest
+1996,13,2596,LAC,Los Angeles Clippers,21,Malik Sealy,SF,6-8,190,1970-02-01,US,3,St. John's
+1996,13,2909,LAC,Los Angeles Clippers,51,Keith Tower,C,6-11,250,1970-05-15,US,2,Notre Dame
+1996,13,2960,LAC,Los Angeles Clippers,25,Logan Vander Velden,SF,6-8,215,1971-04-03,US,R,Green Bay
+1996,13,2973,LAC,Los Angeles Clippers,35,Loy Vaught,PF,6-9,230,1968-02-27,US,5,Michigan

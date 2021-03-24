@@ -1,14 +1,14 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1982,12,160,IND,Indiana Pacers,42,Mike Bantom,SF,6-9,200,"December 3, 1951",US,8,Saint Joseph's
-1982,12,435,IND,Indiana Pacers,10,Don Buse,PG,6-4,190,"August 10, 1950",US,9,University of Evansville
-1982,12,486,IND,Indiana Pacers,12,Butch Carter,SG,6-5,180,"June 11, 1958",US,1,Indiana
-1982,12,690,IND,Indiana Pacers,16,Johnny Davis,SG,6-2,170,"October 21, 1955",US,5,Dayton
-1982,12,1477,IND,Indiana Pacers,45,Clemon Johnson,C,6-10,240,"September 12, 1956",US,3,Florida A&M
-1982,12,1490,IND,Indiana Pacers,24,George Lee Johnson,PF,6-7,210,"December 8, 1956",US,3,St. John's
-1982,12,1635,IND,Indiana Pacers,25,Billy Knight,SF,6-6,195,"June 9, 1952",US,7,Pitt
-1982,12,1934,IND,Indiana Pacers,30,George McGinnis,PF,6-8,235,"August 12, 1950",US,10,Indiana
-1982,12,2214,IND,Indiana Pacers,55,Louis Orr,SF,6-8,175,"May 7, 1958",US,1,Syracuse
-1982,12,2231,IND,Indiana Pacers,26,Tom Owens,PF,6-10,215,"June 28, 1949",US,10,South Carolina
-1982,12,2627,IND,Indiana Pacers,14,Jerry Sichting,PG,6-1,168,"November 29, 1956",US,1,Purdue
-1982,12,2907,IND,Indiana Pacers,11,Raymond Townsend,SG,6-3,175,"December 20, 1955",US,2,UCLA
-1982,12,3145,IND,Indiana Pacers,32,Herb Williams,C,6-10,242,"February 16, 1958",US,R,Ohio State
+1982,12,160,IND,Indiana Pacers,42,Mike Bantom,SF,6-9,200,1951-12-03,US,8,Saint Joseph's
+1982,12,435,IND,Indiana Pacers,10,Don Buse,PG,6-4,190,1950-08-10,US,9,University of Evansville
+1982,12,486,IND,Indiana Pacers,12,Butch Carter,SG,6-5,180,1958-06-11,US,1,Indiana
+1982,12,691,IND,Indiana Pacers,16,Johnny Davis,SG,6-2,170,1955-10-21,US,5,Dayton
+1982,12,1479,IND,Indiana Pacers,45,Clemon Johnson,C,6-10,240,1956-09-12,US,3,Florida A&M
+1982,12,1492,IND,Indiana Pacers,24,George Johnson,PF,6-7,210,1956-12-08,US,3,St. John's
+1982,12,1637,IND,Indiana Pacers,25,Billy Knight,SF,6-6,195,1952-06-09,US,7,Pitt
+1982,12,1937,IND,Indiana Pacers,30,George McGinnis,PF,6-8,235,1950-08-12,US,10,Indiana
+1982,12,2217,IND,Indiana Pacers,55,Louis Orr,SF,6-8,175,1958-05-07,US,1,Syracuse
+1982,12,2234,IND,Indiana Pacers,26,Tom Owens,PF,6-10,215,1949-06-28,US,10,South Carolina
+1982,12,2631,IND,Indiana Pacers,14,Jerry Sichting,PG,6-1,168,1956-11-29,US,1,Purdue
+1982,12,2912,IND,Indiana Pacers,11,Raymond Townsend,SG,6-3,175,1955-12-20,US,2,UCLA
+1982,12,3151,IND,Indiana Pacers,32,Herb Williams,C,6-10,242,1958-02-16,US,R,Ohio State

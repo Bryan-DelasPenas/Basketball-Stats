@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2002,29,62,UTA,Utah Jazz,13,John Amaechi,PF,6-10,270,"November 26, 1970",US,3,"Vanderbilt, Penn State"
-2002,29,571,UTA,Utah Jazz,31,Jarron Collins,C,6-11,255,"December 2, 1978",US,R,Stanford
-2002,29,639,UTA,Utah Jazz,25,John Crotty,PG,6-1,185,"July 15, 1969",US,9,Virginia
-2002,29,1627,UTA,Utah Jazz,47,Andrei Kirilenko,SF,6-9,220,"February 18, 1981",RU,R,
-2002,29,1673,UTA,Utah Jazz,5,Rusty LaRue,PG,6-2,210,"December 10, 1973",US,3,Wake Forest
-2002,29,1746,UTA,Utah Jazz,20,Quincy Lewis,SG,6-7,215,"June 26, 1977",US,2,Minnesota
-2002,29,1823,UTA,Utah Jazz,32,Karl Malone,PF,6-9,250,"July 24, 1963",US,16,Louisiana Tech
-2002,29,1844,UTA,Utah Jazz,42,Donyell Marshall,SF,6-9,218,"May 18, 1973",US,7,UConn
-2002,29,2218,UTA,Utah Jazz,0,Greg Ostertag,C,7-2,280,"March 6, 1973",US,6,Kansas
-2002,29,2237,UTA,Utah Jazz,34,Scott Padgett,PF,6-9,240,"April 19, 1976",US,2,Kentucky
-2002,29,2535,UTA,Utah Jazz,3,Bryon Russell,SG,6-7,225,"December 31, 1970",US,8,Cal State Long Beach
-2002,29,2740,UTA,Utah Jazz,9,John Starks,SG,6-3,180,"August 10, 1965",US,12,Oklahoma State
-2002,29,2753,UTA,Utah Jazz,2,DeShawn Stevenson,SG,6-5,210,"April 3, 1981",US,1,
-2002,29,2763,UTA,Utah Jazz,12,John Stockton,PG,6-1,170,"March 26, 1962",US,17,Gonzaga
+2002,29,62,UTA,Utah Jazz,13,John Amaechi,PF,6-10,270,1970-11-26,US,3,"Vanderbilt, Penn State"
+2002,29,571,UTA,Utah Jazz,31,Jarron Collins,C,6-11,255,1978-12-02,US,R,Stanford
+2002,29,639,UTA,Utah Jazz,25,John Crotty,PG,6-1,185,1969-07-15,US,9,Virginia
+2002,29,1629,UTA,Utah Jazz,47,Andrei Kirilenko,SF,6-9,220,1981-02-18,RU,R,
+2002,29,1675,UTA,Utah Jazz,5,Rusty LaRue,PG,6-2,210,1973-12-10,US,3,Wake Forest
+2002,29,1749,UTA,Utah Jazz,20,Quincy Lewis,SG,6-7,215,1977-06-26,US,2,Minnesota
+2002,29,1826,UTA,Utah Jazz,32,Karl Malone,PF,6-9,250,1963-07-24,US,16,Louisiana Tech
+2002,29,1847,UTA,Utah Jazz,42,Donyell Marshall,SF,6-9,218,1973-05-18,US,7,UConn
+2002,29,2221,UTA,Utah Jazz,0,Greg Ostertag,C,7-2,280,1973-03-06,US,6,Kansas
+2002,29,2240,UTA,Utah Jazz,34,Scott Padgett,PF,6-9,240,1976-04-19,US,2,Kentucky
+2002,29,2539,UTA,Utah Jazz,3,Bryon Russell,SG,6-7,225,1970-12-31,US,8,Cal State Long Beach
+2002,29,2744,UTA,Utah Jazz,9,John Starks,SG,6-3,180,1965-08-10,US,12,Oklahoma State
+2002,29,2757,UTA,Utah Jazz,2,DeShawn Stevenson,SG,6-5,210,1981-04-03,US,1,
+2002,29,2767,UTA,Utah Jazz,12,John Stockton,PG,6-1,170,1962-03-26,US,17,Gonzaga

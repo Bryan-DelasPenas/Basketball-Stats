@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2012,1,572,ATL,Atlanta Hawks,34,Jason Collins,C,7-0,255,"December 2, 1978",US,10,Stanford
-2012,1,661,ATL,Atlanta Hawks,25,Erick Dampier,C,6-11,265,"July 14, 1975",US,15,Mississippi State
-2012,1,1116,ATL,Atlanta Hawks,33,Willie Green,SG,6-4,200,"July 28, 1981",US,8,Detroit Mercy
-2012,1,1297,ATL,Atlanta Hawks,6,Kirk Hinrich,SG,6-4,190,"January 2, 1981",US,8,Kansas
-2012,1,1326,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,"June 3, 1986",DO,4,Florida
-2012,1,1491,ATL,Atlanta Hawks,44,Ivan Johnson,PF,6-8,230,"April 10, 1984",US,R,"Oregon, Cal State San Bernardino"
-2012,1,1494,ATL,Atlanta Hawks,2,Joe Johnson,SG,6-7,240,"June 29, 1981",US,10,Arkansas
-2012,1,1935,ATL,Atlanta Hawks,1,Tracy McGrady,SF,6-8,210,"May 24, 1979",US,14,
-2012,1,2234,ATL,Atlanta Hawks,27,Zaza Pachulia,C,6-11,270,"February 10, 1984",GE,8,
-2012,1,2244,ATL,Atlanta Hawks,7,Jannero Pargo,PG,6-1,175,"October 22, 1979",US,7,Arkansas
-2012,1,2385,ATL,Atlanta Hawks,77,Vladimir Radmanovic,SF,6-10,227,"November 19, 1980",BA,10,
-2012,1,2662,ATL,Atlanta Hawks,12,Donald Sloan,PG,6-3,205,"January 15, 1988",US,R,Texas A&M
-2012,1,2689,ATL,Atlanta Hawks,5,Josh Smith,PF,6-9,225,"December 5, 1985",US,7,
-2012,1,2736,ATL,Atlanta Hawks,42,Jerry Stackhouse,SF,6-6,218,"November 5, 1974",US,16,UNC
-2012,1,2826,ATL,Atlanta Hawks,0,Jeff Teague,PG,6-3,195,"June 10, 1988",US,2,Wake Forest
-2012,1,3163,ATL,Atlanta Hawks,24,Marvin Williams,SF,6-8,237,"June 19, 1986",US,6,UNC
+2012,1,572,ATL,Atlanta Hawks,34,Jason Collins,C,7-0,255,1978-12-02,US,10,Stanford
+2012,1,661,ATL,Atlanta Hawks,25,Erick Dampier,C,6-11,265,1975-07-14,US,15,Mississippi State
+2012,1,1118,ATL,Atlanta Hawks,33,Willie Green,SG,6-4,200,1981-07-28,US,8,Detroit Mercy
+2012,1,1299,ATL,Atlanta Hawks,6,Kirk Hinrich,SG,6-4,190,1981-01-02,US,8,Kansas
+2012,1,1328,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,1986-06-03,DO,4,Florida
+2012,1,1493,ATL,Atlanta Hawks,44,Ivan Johnson,PF,6-8,230,1984-04-10,US,R,"Oregon, Cal State San Bernardino"
+2012,1,1496,ATL,Atlanta Hawks,2,Joe Johnson,SG,6-7,240,1981-06-29,US,10,Arkansas
+2012,1,1938,ATL,Atlanta Hawks,1,Tracy McGrady,SF,6-8,210,1979-05-24,US,14,
+2012,1,2237,ATL,Atlanta Hawks,27,Zaza Pachulia,C,6-11,270,1984-02-10,GE,8,
+2012,1,2247,ATL,Atlanta Hawks,7,Jannero Pargo,PG,6-1,175,1979-10-22,US,7,Arkansas
+2012,1,2389,ATL,Atlanta Hawks,77,Vladimir Radmanovic,SF,6-10,227,1980-11-19,BA,10,
+2012,1,2666,ATL,Atlanta Hawks,12,Donald Sloan,PG,6-3,205,1988-01-15,US,R,Texas A&M
+2012,1,2693,ATL,Atlanta Hawks,5,Josh Smith,PF,6-9,225,1985-12-05,US,7,
+2012,1,2740,ATL,Atlanta Hawks,42,Jerry Stackhouse,SF,6-6,218,1974-11-05,US,16,UNC
+2012,1,2830,ATL,Atlanta Hawks,0,Jeff Teague,PG,6-3,195,1988-06-10,US,2,Wake Forest
+2012,1,3169,ATL,Atlanta Hawks,24,Marvin Williams,SF,6-8,237,1986-06-19,US,6,UNC

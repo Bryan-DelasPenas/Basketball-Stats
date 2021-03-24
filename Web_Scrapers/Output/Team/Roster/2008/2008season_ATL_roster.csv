@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2008,1,240,ATL,Atlanta Hawks,10,Mike Bibby,PG,6-1,190,"May 13, 1978",US,9,Arizona
-2008,1,527,ATL,Atlanta Hawks,1,Josh Childress,SF,6-8,210,"June 20, 1983",US,3,Stanford
-2008,1,1326,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,"June 3, 1986",DO,R,Florida
-2008,1,1465,ATL,Atlanta Hawks,8,Anthony Johnson,PG,6-3,190,"October 2, 1974",US,10,College of Charleston
-2008,1,1494,ATL,Atlanta Hawks,2,Joe Johnson,SG,6-7,240,"June 29, 1981",US,6,Arkansas
-2008,1,1560,ATL,Atlanta Hawks,44,Solomon Jones,PF,6-10,230,"July 16, 1984",US,1,South Florida
-2008,1,1704,ATL,Atlanta Hawks,4,Acie Law,PG,6-3,195,"January 25, 1985",US,R,Texas A&M
-2008,1,1788,ATL,Atlanta Hawks,10,Tyronn Lue,PG,6-0,175,"May 3, 1977",US,9,Nebraska
-2008,1,2234,ATL,Atlanta Hawks,27,Zaza Pachulia,C,6-11,270,"February 10, 1984",GE,4,
-2008,1,2443,ATL,Atlanta Hawks,32,Jeremy Richardson,SF,6-6,185,"February 11, 1984",US,1,Delta State University
-2008,1,2689,ATL,Atlanta Hawks,5,Josh Smith,PF,6-9,225,"December 5, 1985",US,3,
-2008,1,2772,ATL,Atlanta Hawks,20,Salim Stoudamire,PG,6-1,179,"October 11, 1982",US,2,Arizona
-2008,1,3077,ATL,Atlanta Hawks,6,Mario West,SG,6-5,210,"June 19, 1984",US,R,Georgia Tech
-2008,1,3163,ATL,Atlanta Hawks,24,Marvin Williams,SF,6-8,237,"June 19, 1986",US,2,UNC
-2008,1,3182,ATL,Atlanta Hawks,33,Shelden Williams,PF,6-9,250,"October 21, 1983",US,1,Duke
-2008,1,3248,ATL,Atlanta Hawks,42,Lorenzen Wright,C,6-11,225,"November 4, 1975",US,11,Memphis
+2008,1,240,ATL,Atlanta Hawks,10,Mike Bibby,PG,6-1,190,1978-05-13,US,9,Arizona
+2008,1,527,ATL,Atlanta Hawks,1,Josh Childress,SF,6-8,210,1983-06-20,US,3,Stanford
+2008,1,1328,ATL,Atlanta Hawks,15,Al Horford,C,6-9,240,1986-06-03,DO,R,Florida
+2008,1,1467,ATL,Atlanta Hawks,8,Anthony Johnson,PG,6-3,190,1974-10-02,US,10,College of Charleston
+2008,1,1496,ATL,Atlanta Hawks,2,Joe Johnson,SG,6-7,240,1981-06-29,US,6,Arkansas
+2008,1,1562,ATL,Atlanta Hawks,44,Solomon Jones,PF,6-10,230,1984-07-16,US,1,South Florida
+2008,1,1707,ATL,Atlanta Hawks,4,Acie Law,PG,6-3,195,1985-01-25,US,R,Texas A&M
+2008,1,1791,ATL,Atlanta Hawks,10,Tyronn Lue,PG,6-0,175,1977-05-03,US,9,Nebraska
+2008,1,2237,ATL,Atlanta Hawks,27,Zaza Pachulia,C,6-11,270,1984-02-10,GE,4,
+2008,1,2447,ATL,Atlanta Hawks,32,Jeremy Richardson,SF,6-6,185,1984-02-11,US,1,Delta State University
+2008,1,2693,ATL,Atlanta Hawks,5,Josh Smith,PF,6-9,225,1985-12-05,US,3,
+2008,1,2776,ATL,Atlanta Hawks,20,Salim Stoudamire,PG,6-1,179,1982-10-11,US,2,Arizona
+2008,1,3082,ATL,Atlanta Hawks,6,Mario West,SG,6-5,210,1984-06-19,US,R,Georgia Tech
+2008,1,3169,ATL,Atlanta Hawks,24,Marvin Williams,SF,6-8,237,1986-06-19,US,2,UNC
+2008,1,3188,ATL,Atlanta Hawks,33,Shelden Williams,PF,6-9,250,1983-10-21,US,1,Duke
+2008,1,3254,ATL,Atlanta Hawks,42,Lorenzen Wright,C,6-11,225,1975-11-04,US,11,Memphis

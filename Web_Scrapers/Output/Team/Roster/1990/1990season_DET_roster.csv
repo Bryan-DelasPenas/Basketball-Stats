@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1990,9,24,DET,Detroit Pistons,23,Mark Aguirre,SF,6-6,232,"December 10, 1959",US,8,DePaul
-1990,9,206,DET,Detroit Pistons,20,William Bedford,C,7-0,225,"December 14, 1963",US,2,Memphis
-1990,9,797,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,"May 24, 1963",US,4,McNeese State University
-1990,9,832,DET,Detroit Pistons,53,James Edwards,C,7-0,225,"November 22, 1955",US,12,Washington
-1990,9,1119,DET,Detroit Pistons,33,Dave Greenwood,PF,6-9,222,"May 27, 1957",US,10,UCLA
-1990,9,1225,DET,Detroit Pistons,35,Scott Hastings,PF,6-10,235,"June 3, 1960",US,7,Arkansas
-1990,9,1252,DET,Detroit Pistons,12,Gerald Henderson,PG,6-2,175,"January 16, 1956",US,10,VCU
-1990,9,1517,DET,Detroit Pistons,15,Vinnie Johnson,SG,6-2,200,"September 1, 1956",US,10,Baylor
-1990,9,1613,DET,Detroit Pistons,3,Stan Kimbrough,PG,5-11,153,"April 24, 1966",US,R,"Central Florida, Xavier"
-1990,9,1679,DET,Detroit Pistons,40,Bill Laimbeer,C,6-11,245,"May 19, 1957",US,9,Notre Dame
-1990,9,1747,DET,Detroit Pistons,35,Ralph Lewis,SG,6-6,200,"March 28, 1963",US,2,La Salle
-1990,9,2497,DET,Detroit Pistons,10,Dennis Rodman,SF,6-7,210,"May 13, 1961",US,3,Southeastern Oklahoma State University
-1990,9,2543,DET,Detroit Pistons,22,John Salley,PF,6-11,230,"May 16, 1964",US,3,Georgia Tech
-1990,9,2850,DET,Detroit Pistons,11,Isiah Thomas,PG,6-1,180,"April 30, 1961",US,8,Indiana
+1990,9,24,DET,Detroit Pistons,23,Mark Aguirre,SF,6-6,232,1959-12-10,US,8,DePaul
+1990,9,206,DET,Detroit Pistons,20,William Bedford,C,7-0,225,1963-12-14,US,2,Memphis
+1990,9,799,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,1963-05-24,US,4,McNeese State University
+1990,9,834,DET,Detroit Pistons,53,James Edwards,C,7-0,225,1955-11-22,US,12,Washington
+1990,9,1121,DET,Detroit Pistons,33,Dave Greenwood,PF,6-9,222,1957-05-27,US,10,UCLA
+1990,9,1227,DET,Detroit Pistons,35,Scott Hastings,PF,6-10,235,1960-06-03,US,7,Arkansas
+1990,9,1255,DET,Detroit Pistons,12,Gerald Henderson,PG,6-2,175,1956-01-16,US,10,VCU
+1990,9,1519,DET,Detroit Pistons,15,Vinnie Johnson,SG,6-2,200,1956-09-01,US,10,Baylor
+1990,9,1615,DET,Detroit Pistons,3,Stan Kimbrough,PG,5-11,153,1966-04-24,US,R,"Central Florida, Xavier"
+1990,9,1681,DET,Detroit Pistons,40,Bill Laimbeer,C,6-11,245,1957-05-19,US,9,Notre Dame
+1990,9,1750,DET,Detroit Pistons,35,Ralph Lewis,SG,6-6,200,1963-03-28,US,2,La Salle
+1990,9,2501,DET,Detroit Pistons,10,Dennis Rodman,SF,6-7,210,1961-05-13,US,3,Southeastern Oklahoma State University
+1990,9,2547,DET,Detroit Pistons,22,John Salley,PF,6-11,230,1964-05-16,US,3,Georgia Tech
+1990,9,2854,DET,Detroit Pistons,11,Isiah Thomas,PG,6-1,180,1961-04-30,US,8,Indiana

@@ -1,17 +1,17 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2002,18,125,MIN,Minnesota Timberwolves,5,William Avery,PG,6-2,197,"August 8, 1979",US,2,Duke
-2002,18,242,MIN,Minnesota Timberwolves,4,Chauncey Billups,PG,6-3,202,"September 25, 1976",US,4,Colorado
-2002,18,334,MIN,Minnesota Timberwolves,7,Terrell Brandon,PG,5-11,180,"May 20, 1970",US,10,Oregon
-2002,18,878,MIN,Minnesota Timberwolves,1,Maurice Evans,SG,6-5,220,"November 8, 1978",US,R,"Wichita State, Texas"
-2002,18,997,MIN,Minnesota Timberwolves,21,Kevin Garnett,PF,6-11,240,"May 19, 1976",US,6,
-2002,18,1001,MIN,Minnesota Timberwolves,22,Dean Garrett,C,6-10,225,"November 27, 1966",US,5,Indiana
-2002,18,1408,MIN,Minnesota Timberwolves,25,Marc Jackson,C,6-10,270,"January 16, 1975",US,1,"VCU, Temple"
-2002,18,1776,MIN,Minnesota Timberwolves,13,Felipe Lopez,SG,6-5,199,"December 19, 1974",DO,3,St. John's
-2002,18,2014,MIN,Minnesota Timberwolves,42,Sam Mitchell,SF,6-6,210,"September 2, 1963",US,12,Mercer University
-2002,18,2131,MIN,Minnesota Timberwolves,8,Rasho Nesterovic,C,7-0,248,"May 30, 1976",SI,3,
-2002,18,2235,MIN,Minnesota Timberwolves,14,Robert Pack,PG,6-2,180,"February 3, 1969",US,10,USC
-2002,18,2277,MIN,Minnesota Timberwolves,44,Anthony Peeler,SG,6-4,208,"November 25, 1969",US,9,Missouri
-2002,18,2688,MIN,Minnesota Timberwolves,32,Joe Smith,C,6-10,225,"July 26, 1975",US,6,Maryland
-2002,18,2801,MIN,Minnesota Timberwolves,10,Wally Szczerbiak,SF,6-7,244,"March 5, 1977",ES,2,Miami University
-2002,18,2909,MIN,Minnesota Timberwolves,20,Gary Trent,PF,6-8,250,"September 22, 1974",US,6,Ohio University
-2002,18,3228,MIN,Minnesota Timberwolves,3,Loren Woods,C,7-1,245,"June 21, 1978",US,R,"Wake Forest, Arizona"
+2002,18,125,MIN,Minnesota Timberwolves,5,William Avery,PG,6-2,197,1979-08-08,US,2,Duke
+2002,18,242,MIN,Minnesota Timberwolves,4,Chauncey Billups,PG,6-3,202,1976-09-25,US,4,Colorado
+2002,18,334,MIN,Minnesota Timberwolves,7,Terrell Brandon,PG,5-11,180,1970-05-20,US,10,Oregon
+2002,18,880,MIN,Minnesota Timberwolves,1,Maurice Evans,SG,6-5,220,1978-11-08,US,R,"Wichita State, Texas"
+2002,18,999,MIN,Minnesota Timberwolves,21,Kevin Garnett,PF,6-11,240,1976-05-19,US,6,
+2002,18,1003,MIN,Minnesota Timberwolves,22,Dean Garrett,C,6-10,225,1966-11-27,US,5,Indiana
+2002,18,1410,MIN,Minnesota Timberwolves,25,Marc Jackson,C,6-10,270,1975-01-16,US,1,"VCU, Temple"
+2002,18,1779,MIN,Minnesota Timberwolves,13,Felipe Lopez,SG,6-5,199,1974-12-19,DO,3,St. John's
+2002,18,2017,MIN,Minnesota Timberwolves,42,Sam Mitchell,SF,6-6,210,1963-09-02,US,12,Mercer University
+2002,18,2134,MIN,Minnesota Timberwolves,8,Rasho Nesterovic,C,7-0,248,1976-05-30,SI,3,
+2002,18,2238,MIN,Minnesota Timberwolves,14,Robert Pack,PG,6-2,180,1969-02-03,US,10,USC
+2002,18,2280,MIN,Minnesota Timberwolves,44,Anthony Peeler,SG,6-4,208,1969-11-25,US,9,Missouri
+2002,18,2692,MIN,Minnesota Timberwolves,32,Joe Smith,C,6-10,225,1975-07-26,US,6,Maryland
+2002,18,2805,MIN,Minnesota Timberwolves,10,Wally Szczerbiak,SF,6-7,244,1977-03-05,ES,2,Miami University
+2002,18,2915,MIN,Minnesota Timberwolves,20,Gary Trent,PF,6-8,250,1974-09-22,US,6,Ohio University
+2002,18,3234,MIN,Minnesota Timberwolves,3,Loren Woods,C,7-1,245,1978-06-21,US,R,"Wake Forest, Arizona"

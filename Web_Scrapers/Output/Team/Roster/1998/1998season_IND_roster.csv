@@ -1,15 +1,15 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1998,12,234,IND,Indiana Pacers,4,Travis Best,PG,5-11,182,"July 12, 1972",US,2,Georgia Tech
-1998,12,280,IND,Indiana Pacers,21,Etdrick Bohannon,PF,6-9,220,"May 29, 1973",US,R,"Arizona, Tennessee, Auburn University at Montgomery"
-1998,12,636,IND,Indiana Pacers,44,Austin Croshere,PF,6-9,235,"May 1, 1975",US,R,Providence
-1998,12,677,IND,Indiana Pacers,33,Antonio Davis,PF,6-9,215,"October 31, 1968",US,4,Texas-El Paso
-1998,12,683,IND,Indiana Pacers,32,Dale Davis,C,6-11,230,"March 25, 1969",US,6,Clemson
-1998,12,1306,IND,Indiana Pacers,20,Fred Hoiberg,SG,6-4,203,"October 15, 1972",US,2,Iowa State
-1998,12,1409,IND,Indiana Pacers,13,Mark Jackson,PG,6-1,180,"April 1, 1965",US,10,St. John's
-1998,12,1943,IND,Indiana Pacers,9,Derrick McKey,SF,6-9,205,"October 10, 1966",US,10,Alabama
-1998,12,1999,IND,Indiana Pacers,31,Reggie Miller,SG,6-7,185,"August 24, 1965",US,10,UCLA
-1998,12,2077,IND,Indiana Pacers,17,Chris Mullin,SF,6-6,200,"July 30, 1963",US,12,St. John's
-1998,12,2336,IND,Indiana Pacers,43,Mark Pope,SF,6-10,235,"September 11, 1972",US,R,"Washington, Kentucky"
-1998,12,2509,IND,Indiana Pacers,5,Jalen Rose,SF,6-8,210,"January 30, 1973",US,3,Michigan
-1998,12,2713,IND,Indiana Pacers,45,Rik Smits,C,7-4,250,"August 23, 1966",NL,9,Marist College
-1998,12,3078,IND,Indiana Pacers,41,Mark West,C,6-10,230,"November 5, 1960",US,14,Old Dominion
+1998,12,234,IND,Indiana Pacers,4,Travis Best,PG,5-11,182,1972-07-12,US,2,Georgia Tech
+1998,12,280,IND,Indiana Pacers,21,Etdrick Bohannon,PF,6-9,220,1973-05-29,US,R,"Arizona, Tennessee, Auburn University at Montgomery"
+1998,12,636,IND,Indiana Pacers,44,Austin Croshere,PF,6-9,235,1975-05-01,US,R,Providence
+1998,12,678,IND,Indiana Pacers,33,Antonio Davis,PF,6-9,215,1968-10-31,US,4,Texas-El Paso
+1998,12,684,IND,Indiana Pacers,32,Dale Davis,C,6-11,230,1969-03-25,US,6,Clemson
+1998,12,1308,IND,Indiana Pacers,20,Fred Hoiberg,SG,6-4,203,1972-10-15,US,2,Iowa State
+1998,12,1411,IND,Indiana Pacers,13,Mark Jackson,PG,6-1,180,1965-04-01,US,10,St. John's
+1998,12,1946,IND,Indiana Pacers,9,Derrick McKey,SF,6-9,205,1966-10-10,US,10,Alabama
+1998,12,2002,IND,Indiana Pacers,31,Reggie Miller,SG,6-7,185,1965-08-24,US,10,UCLA
+1998,12,2080,IND,Indiana Pacers,17,Chris Mullin,SF,6-6,200,1963-07-30,US,12,St. John's
+1998,12,2339,IND,Indiana Pacers,43,Mark Pope,SF,6-10,235,1972-09-11,US,R,"Washington, Kentucky"
+1998,12,2513,IND,Indiana Pacers,5,Jalen Rose,SF,6-8,210,1973-01-30,US,3,Michigan
+1998,12,2717,IND,Indiana Pacers,45,Rik Smits,C,7-4,250,1966-08-23,NL,9,Marist College
+1998,12,3083,IND,Indiana Pacers,41,Mark West,C,6-10,230,1960-11-05,US,14,Old Dominion

@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1999,9,205,DET,Detroit Pistons,20,Corey Beck,PG,6-1,190,"May 27, 1971",US,2,"South Plains College, Arkansas"
-1999,9,417,DET,Detroit Pistons,30,Jud Buechler,SF,6-6,220,"June 19, 1968",US,8,Arizona
-1999,9,723,DET,Detroit Pistons,8,Bison Dele,C,6-9,235,"April 6, 1969",US,7,"Maryland, Arizona"
-1999,9,797,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,"May 24, 1963",US,13,McNeese State University
-1999,9,1265,DET,Detroit Pistons,12,Steve Henson,PG,5-11,177,"February 2, 1968",US,6,Kansas State
-1999,9,1290,DET,Detroit Pistons,33,Grant Hill,SF,6-8,225,"October 5, 1972",US,4,Duke
-1999,9,1367,DET,Detroit Pistons,1,Lindsey Hunter,PG,6-2,170,"December 3, 1970",US,5,"Alcorn State, Jackson State University"
-1999,9,1677,DET,Detroit Pistons,32,Christian Laettner,PF,6-11,235,"August 17, 1969",US,6,Duke
-1999,9,1806,DET,Detroit Pistons,3,Mark Macon,SG,6-5,185,"April 14, 1969",US,5,Temple
-1999,9,2034,DET,Detroit Pistons,0,Eric Montross,C,7-0,270,"September 23, 1971",US,4,UNC
-1999,9,2042,DET,Detroit Pistons,31,Mikki Moore,C,6-11,225,"November 4, 1975",US,R,Nebraska
-1999,9,2172,DET,Detroit Pistons,5,Charles O'Bannon,SG,6-5,209,"February 22, 1975",US,1,UCLA
-1999,9,2421,DET,Detroit Pistons,20,Khalid Reeves,PG,6-3,199,"July 15, 1972",US,4,Arizona
-1999,9,2423,DET,Detroit Pistons,52,Don Reid,PF,6-8,250,"December 30, 1973",US,3,Georgetown
-1999,9,2736,DET,Detroit Pistons,42,Jerry Stackhouse,SG,6-6,218,"November 5, 1974",US,3,UNC
-1999,9,2968,DET,Detroit Pistons,35,Loy Vaught,PF,6-9,230,"February 27, 1968",US,8,Michigan
-1999,9,3151,DET,Detroit Pistons,13,Jerome Williams,PF,6-9,206,"May 10, 1973",US,2,Georgetown
-1999,9,3260,DET,Detroit Pistons,45,Korleone Young,SF,6-7,213,"December 31, 1978",US,R,
+1999,9,205,DET,Detroit Pistons,20,Corey Beck,PG,6-1,190,1971-05-27,US,2,"South Plains College, Arkansas"
+1999,9,417,DET,Detroit Pistons,30,Jud Buechler,SF,6-6,220,1968-06-19,US,8,Arizona
+1999,9,724,DET,Detroit Pistons,8,Bison Dele,C,6-9,235,1969-04-06,US,7,"Maryland, Arizona"
+1999,9,799,DET,Detroit Pistons,4,Joe Dumars,SG,6-3,190,1963-05-24,US,13,McNeese State University
+1999,9,1267,DET,Detroit Pistons,12,Steve Henson,PG,5-11,177,1968-02-02,US,6,Kansas State
+1999,9,1292,DET,Detroit Pistons,33,Grant Hill,SF,6-8,225,1972-10-05,US,4,Duke
+1999,9,1369,DET,Detroit Pistons,1,Lindsey Hunter,PG,6-2,170,1970-12-03,US,5,"Alcorn State, Jackson State University"
+1999,9,1679,DET,Detroit Pistons,32,Christian Laettner,PF,6-11,235,1969-08-17,US,6,Duke
+1999,9,1809,DET,Detroit Pistons,3,Mark Macon,SG,6-5,185,1969-04-14,US,5,Temple
+1999,9,2037,DET,Detroit Pistons,0,Eric Montross,C,7-0,270,1971-09-23,US,4,UNC
+1999,9,2045,DET,Detroit Pistons,31,Mikki Moore,C,6-11,225,1975-11-04,US,R,Nebraska
+1999,9,2175,DET,Detroit Pistons,5,Charles O'Bannon,SG,6-5,209,1975-02-22,US,1,UCLA
+1999,9,2425,DET,Detroit Pistons,20,Khalid Reeves,PG,6-3,199,1972-07-15,US,4,Arizona
+1999,9,2427,DET,Detroit Pistons,52,Don Reid,PF,6-8,250,1973-12-30,US,3,Georgetown
+1999,9,2740,DET,Detroit Pistons,42,Jerry Stackhouse,SG,6-6,218,1974-11-05,US,3,UNC
+1999,9,2973,DET,Detroit Pistons,35,Loy Vaught,PF,6-9,230,1968-02-27,US,8,Michigan
+1999,9,3157,DET,Detroit Pistons,13,Jerome Williams,PF,6-9,206,1973-05-10,US,2,Georgetown
+1999,9,3266,DET,Detroit Pistons,45,Korleone Young,SF,6-7,213,1978-12-31,US,R,

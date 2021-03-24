@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2005,2,55,BOS,Boston Celtics,42,Tony Allen,SG,6-4,213,"January 11, 1982",US,R,"Butler County Community College, Oklahoma State"
-2005,2,158,BOS,Boston Celtics,11,Marcus Banks,PG,6-2,200,"November 19, 1981",US,1,UNLV
-2005,2,271,BOS,Boston Celtics,30,Mark Blount,C,7-0,230,"November 30, 1975",US,4,Pitt
-2005,2,697,BOS,Boston Celtics,12,Ricky Davis,SG,6-6,195,"September 23, 1979",US,6,Iowa
-2005,2,1136,BOS,Boston Celtics,7,Tom Gugliotta,PF,6-10,240,"December 19, 1969",US,12,NC State
-2005,2,1441,BOS,Boston Celtics,"7, 8",Al Jefferson,PF,6-10,289,"January 4, 1985",US,R,
-2005,2,1671,BOS,Boston Celtics,45,Raef LaFrentz,PF,6-11,240,"May 29, 1976",US,6,Kansas
-2005,2,1901,BOS,Boston Celtics,0,Walter McCarty,PF,6-10,230,"February 1, 1974",US,8,Kentucky
-2005,2,2273,BOS,Boston Celtics,20,Gary Payton,PG,6-4,180,"July 23, 1968",US,14,Oregon State
-2005,2,2286,BOS,Boston Celtics,43,Kendrick Perkins,C,6-10,270,"November 10, 1984",US,1,
-2005,2,2307,BOS,Boston Celtics,34,Paul Pierce,SF,6-7,235,"October 13, 1977",US,6,Kansas
-2005,2,2417,BOS,Boston Celtics,9,Justin Reed,SF,6-8,240,"January 16, 1982",US,R,Ole Miss
-2005,2,3001,BOS,Boston Celtics,88,Antoine Walker,PF,6-8,224,"August 12, 1976",US,8,Kentucky
-2005,2,3068,BOS,Boston Celtics,44,Jiri Welsch,SG,6-7,208,"January 27, 1980",CZ,2,
-2005,2,3075,BOS,Boston Celtics,13,Delonte West,SG,6-4,180,"July 26, 1983",US,R,Saint Joseph's
+2005,2,55,BOS,Boston Celtics,42,Tony Allen,SG,6-4,213,1982-01-11,US,R,"Butler County Community College, Oklahoma State"
+2005,2,158,BOS,Boston Celtics,11,Marcus Banks,PG,6-2,200,1981-11-19,US,1,UNLV
+2005,2,271,BOS,Boston Celtics,30,Mark Blount,C,7-0,230,1975-11-30,US,4,Pitt
+2005,2,698,BOS,Boston Celtics,12,Ricky Davis,SG,6-6,195,1979-09-23,US,6,Iowa
+2005,2,1138,BOS,Boston Celtics,7,Tom Gugliotta,PF,6-10,240,1969-12-19,US,12,NC State
+2005,2,1443,BOS,Boston Celtics,"7, 8",Al Jefferson,PF,6-10,289,1985-01-04,US,R,
+2005,2,1673,BOS,Boston Celtics,45,Raef LaFrentz,PF,6-11,240,1976-05-29,US,6,Kansas
+2005,2,1904,BOS,Boston Celtics,0,Walter McCarty,PF,6-10,230,1974-02-01,US,8,Kentucky
+2005,2,2277,BOS,Boston Celtics,20,Gary Payton,PG,6-4,180,1968-07-23,US,14,Oregon State
+2005,2,2289,BOS,Boston Celtics,43,Kendrick Perkins,C,6-10,270,1984-11-10,US,1,
+2005,2,2310,BOS,Boston Celtics,34,Paul Pierce,SF,6-7,235,1977-10-13,US,6,Kansas
+2005,2,2421,BOS,Boston Celtics,9,Justin Reed,SF,6-8,240,1982-01-16,US,R,Ole Miss
+2005,2,3006,BOS,Boston Celtics,88,Antoine Walker,PF,6-8,224,1976-08-12,US,8,Kentucky
+2005,2,3073,BOS,Boston Celtics,44,Jiri Welsch,SG,6-7,208,1980-01-27,CZ,2,
+2005,2,3080,BOS,Boston Celtics,13,Delonte West,SG,6-4,180,1983-07-26,US,R,Saint Joseph's

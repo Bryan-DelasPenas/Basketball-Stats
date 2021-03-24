@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,11,105,HOU,Houston Rockets,1,Trevor Ariza,SF,6-8,215,"June 30, 1985",US,11,UCLA
-2016,11,203,HOU,Houston Rockets,8,Michael Beasley,PF,6-9,235,"January 9, 1989",US,7,Kansas State
-2016,11,235,HOU,Houston Rockets,2,Patrick Beverley,PG,6-1,180,"July 12, 1988",US,3,Arkansas
-2016,11,342,HOU,Houston Rockets,33,Corey Brewer,SF,6-9,186,"March 5, 1986",US,8,Florida
-2016,11,467,HOU,Houston Rockets,15,Clint Capela,C,6-10,240,"May 18, 1994",CH,1,
-2016,11,720,HOU,Houston Rockets,7,Sam Dekker,PF,6-9,230,"May 6, 1994",US,R,Wisconsin
-2016,11,1066,HOU,Houston Rockets,0,Andrew Goudelock,PG,6-3,200,"December 7, 1988",US,2,College of Charleston
-2016,11,1183,HOU,Houston Rockets,13,James Harden,SG,6-5,220,"August 26, 1989",US,6,Arizona State
-2016,11,1194,HOU,Houston Rockets,35,Montrezl Harrell,PF,6-7,240,"January 26, 1994",US,R,Louisville
-2016,11,1232,HOU,Houston Rockets,44,Chuck Hayes,C,6-6,240,"June 11, 1983",US,10,Kentucky
-2016,11,1339,HOU,Houston Rockets,12,Dwight Howard,C,6-10,265,"December 8, 1985",US,11,
-2016,11,1561,HOU,Houston Rockets,6,Terrence Jones,PF,6-9,252,"January 9, 1992",US,3,Kentucky
-2016,11,1709,HOU,Houston Rockets,3,Ty Lawson,PG,5-11,195,"November 3, 1987",US,6,UNC
-2016,11,1922,HOU,Houston Rockets,32,K.J. McDaniels,SF,6-6,205,"February 9, 1993",US,1,Clemson
-2016,11,2067,HOU,Houston Rockets,20,Donatas Motiejunas,PF,7-0,222,"September 20, 1990",LT,3,
-2016,11,2689,HOU,Houston Rockets,5,Josh Smith,PF,6-9,225,"December 5, 1985",US,11,
-2016,11,2835,HOU,Houston Rockets,31,Jason Terry,SG,6-2,185,"September 15, 1977",US,16,Arizona
-2016,11,2882,HOU,Houston Rockets,10,Marcus Thornton,SG,6-4,205,"June 5, 1987",US,6,LSU
+2016,11,105,HOU,Houston Rockets,1,Trevor Ariza,SF,6-8,215,1985-06-30,US,11,UCLA
+2016,11,203,HOU,Houston Rockets,8,Michael Beasley,PF,6-9,235,1989-01-09,US,7,Kansas State
+2016,11,235,HOU,Houston Rockets,2,Patrick Beverley,PG,6-1,180,1988-07-12,US,3,Arkansas
+2016,11,342,HOU,Houston Rockets,33,Corey Brewer,SF,6-9,186,1986-03-05,US,8,Florida
+2016,11,467,HOU,Houston Rockets,15,Clint Capela,C,6-10,240,1994-05-18,CH,1,
+2016,11,721,HOU,Houston Rockets,7,Sam Dekker,PF,6-9,230,1994-05-06,US,R,Wisconsin
+2016,11,1068,HOU,Houston Rockets,0,Andrew Goudelock,PG,6-3,200,1988-12-07,US,2,College of Charleston
+2016,11,1185,HOU,Houston Rockets,13,James Harden,SG,6-5,220,1989-08-26,US,6,Arizona State
+2016,11,1196,HOU,Houston Rockets,35,Montrezl Harrell,PF,6-7,240,1994-01-26,US,R,Louisville
+2016,11,1234,HOU,Houston Rockets,44,Chuck Hayes,C,6-6,240,1983-06-11,US,10,Kentucky
+2016,11,1341,HOU,Houston Rockets,12,Dwight Howard,C,6-10,265,1985-12-08,US,11,
+2016,11,1563,HOU,Houston Rockets,6,Terrence Jones,PF,6-9,252,1992-01-09,US,3,Kentucky
+2016,11,1712,HOU,Houston Rockets,3,Ty Lawson,PG,5-11,195,1987-11-03,US,6,UNC
+2016,11,1925,HOU,Houston Rockets,32,K.J. McDaniels,SF,6-6,205,1993-02-09,US,1,Clemson
+2016,11,2070,HOU,Houston Rockets,20,Donatas Motiejunas,PF,7-0,222,1990-09-20,LT,3,
+2016,11,2693,HOU,Houston Rockets,5,Josh Smith,PF,6-9,225,1985-12-05,US,11,
+2016,11,2839,HOU,Houston Rockets,31,Jason Terry,SG,6-2,185,1977-09-15,US,16,Arizona
+2016,11,2886,HOU,Houston Rockets,10,Marcus Thornton,SG,6-4,205,1987-06-05,US,6,LSU

@@ -1,21 +1,21 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2019,9,370,DET,Detroit Pistons,6,Bruce Brown,SG,6-4,202,"August 15, 1996",US,R,Miami (FL)
-2019,9,420,DET,Detroit Pistons,25,Reggie Bullock,SG,6-6,205,"March 16, 1991",US,5,UNC
-2019,9,453,DET,Detroit Pistons,81,Jose Calderon,PG,6-3,200,"September 28, 1981",ES,13,
-2019,9,790,DET,Detroit Pistons,0,Andre Drummond,C,6-10,279,"August 10, 1993",US,6,UConn
-2019,9,844,DET,Detroit Pistons,8,Henry Ellenson,PF,6-10,240,"January 13, 1997",US,2,Marquette
-2019,9,845,DET,Detroit Pistons,20,Wayne Ellington,SG,6-4,207,"November 29, 1987",US,9,UNC
-2019,9,984,DET,Detroit Pistons,9,Langston Galloway,SG,6-1,200,"December 9, 1991",US,4,Saint Joseph's
-2019,9,1125,DET,Detroit Pistons,23,Blake Griffin,PF,6-9,250,"March 16, 1989",US,8,Oklahoma
-2019,9,1416,DET,Detroit Pistons,1,Reggie Jackson,PG,6-2,208,"April 16, 1990",IT,7,Boston College
-2019,9,1512,DET,Detroit Pistons,7,Stanley Johnson,SF,6-6,242,"May 29, 1996",US,3,Arizona
-2019,9,1595,DET,Detroit Pistons,5,Luke Kennard,SG,6-5,206,"June 24, 1996",US,1,Duke
-2019,9,1740,DET,Detroit Pistons,30,Jon Leuer,PF,6-10,228,"May 14, 1989",US,7,Wisconsin
-2019,9,1767,DET,Detroit Pistons,18,Zach Lofton,SG,6-4,180,"November 18, 1992",US,R,"Illinois State, Texas Southern, New Mexico State"
-2019,9,1785,DET,Detroit Pistons,24,Kalin Lucas,PG,6-1,195,"May 24, 1989",US,1,Michigan State
-2019,9,1820,DET,Detroit Pistons,7,Thon Maker,PF,7-0,221,"February 25, 1997",SS,2,
-2019,9,2102,DET,Detroit Pistons,19,Sviatoslav Mykhailiuk,SF,6-7,205,"June 10, 1997",UA,R,Kansas
-2019,9,2234,DET,Detroit Pistons,27,Zaza Pachulia,C,6-11,270,"February 10, 1984",GE,15,
-2019,9,2479,DET,Detroit Pistons,22,Glenn Robinson III,SF,6-6,222,"January 8, 1994",US,4,Michigan
-2019,9,2681,DET,Detroit Pistons,14,Ish Smith,PG,6-0,175,"July 5, 1988",US,8,Wake Forest
-2019,9,2856,DET,Detroit Pistons,13,Khyri Thomas,SG,6-3,210,"May 8, 1996",US,R,Creighton
+2019,9,370,DET,Detroit Pistons,6,Bruce Brown,SG,6-4,202,1996-08-15,US,R,Miami (FL)
+2019,9,420,DET,Detroit Pistons,25,Reggie Bullock,SG,6-6,205,1991-03-16,US,5,UNC
+2019,9,453,DET,Detroit Pistons,81,Jose Calderon,PG,6-3,200,1981-09-28,ES,13,
+2019,9,792,DET,Detroit Pistons,0,Andre Drummond,C,6-10,279,1993-08-10,US,6,UConn
+2019,9,846,DET,Detroit Pistons,8,Henry Ellenson,PF,6-10,240,1997-01-13,US,2,Marquette
+2019,9,847,DET,Detroit Pistons,20,Wayne Ellington,SG,6-4,207,1987-11-29,US,9,UNC
+2019,9,986,DET,Detroit Pistons,9,Langston Galloway,SG,6-1,200,1991-12-09,US,4,Saint Joseph's
+2019,9,1127,DET,Detroit Pistons,23,Blake Griffin,PF,6-10,250,1989-03-16,US,8,Oklahoma
+2019,9,1418,DET,Detroit Pistons,1,Reggie Jackson,PG,6-2,208,1990-04-16,IT,7,Boston College
+2019,9,1514,DET,Detroit Pistons,7,Stanley Johnson,SF,6-6,242,1996-05-29,US,3,Arizona
+2019,9,1597,DET,Detroit Pistons,5,Luke Kennard,SG,6-5,206,1996-06-24,US,1,Duke
+2019,9,1743,DET,Detroit Pistons,30,Jon Leuer,PF,6-10,228,1989-05-14,US,7,Wisconsin
+2019,9,1770,DET,Detroit Pistons,18,Zach Lofton,SG,6-4,180,1992-11-18,US,R,"Illinois State, Texas Southern, New Mexico State"
+2019,9,1788,DET,Detroit Pistons,24,Kalin Lucas,PG,6-1,195,1989-05-24,US,1,Michigan State
+2019,9,1823,DET,Detroit Pistons,7,Thon Maker,PF,7-0,221,1997-02-25,SS,2,
+2019,9,2105,DET,Detroit Pistons,19,Sviatoslav Mykhailiuk,SF,6-7,205,1997-06-10,UA,R,Kansas
+2019,9,2237,DET,Detroit Pistons,27,Zaza Pachulia,C,6-11,270,1984-02-10,GE,15,
+2019,9,2483,DET,Detroit Pistons,22,Glenn Robinson,SF,6-6,222,1994-01-08,US,4,Michigan
+2019,9,2685,DET,Detroit Pistons,14,Ish Smith,PG,6-0,175,1988-07-05,US,8,Wake Forest
+2019,9,2860,DET,Detroit Pistons,13,Khyri Thomas,SG,6-3,210,1996-05-08,US,R,Creighton

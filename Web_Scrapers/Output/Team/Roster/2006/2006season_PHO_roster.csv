@@ -1,19 +1,19 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2006,24,161,PHO,Phoenix Suns,10,Leandro Barbosa,SG,6-3,194,"November 28, 1982",BR,2,
-2006,24,170,PHO,Phoenix Suns,12,Andre Barrett,PG,5-10,172,"February 21, 1982",US,1,Seton Hall
-2006,24,211,PHO,Phoenix Suns,19,Raja Bell,SG,6-5,204,"September 19, 1976",VI,5,"Boston University, Florida International University"
-2006,24,421,PHO,Phoenix Suns,11,Pat Burke,C,6-11,250,"December 14, 1973",IE,1,Auburn
-2006,24,691,PHO,Phoenix Suns,15,Josh Davis,PF,6-8,235,"August 10, 1980",US,2,Wyoming
-2006,24,739,PHO,Phoenix Suns,3,Boris Diaw,PF,6-8,250,"April 16, 1982",FR,2,
-2006,24,937,PHO,Phoenix Suns,23,Sharrod Ford,PF,6-9,225,"January 9, 1982",US,R,Clemson
-2006,24,1079,PHO,Phoenix Suns,55,Brian Grant,C,6-9,254,"March 5, 1972",US,11,Xavier
-2006,24,1334,PHO,Phoenix Suns,50,Eddie House,PG,6-1,180,"May 14, 1978",US,5,Arizona State
-2006,24,1404,PHO,Phoenix Suns,21,Jim Jackson,SF,6-6,220,"October 14, 1970",US,13,Ohio State
-2006,24,1548,PHO,Phoenix Suns,22,James Jones,SF,6-8,218,"October 4, 1980",US,2,Miami (FL)
-2006,24,1838,PHO,Phoenix Suns,31,Shawn Marion,PF,6-7,220,"May 7, 1978",US,6,UNLV
-2006,24,2114,PHO,Phoenix Suns,13,Steve Nash,PG,6-3,195,"February 7, 1974",ZA,9,Santa Clara
-2006,24,2773,PHO,Phoenix Suns,32,Amar'e Stoudemire,C,6-10,245,"November 16, 1982",US,3,
-2006,24,2857,PHO,Phoenix Suns,40,Kurt Thomas,C,6-9,230,"October 4, 1972",US,10,TCU
-2006,24,2861,PHO,Phoenix Suns,2,Tim Thomas,PF,6-10,230,"February 26, 1977",US,8,Villanova
-2006,24,2869,PHO,Phoenix Suns,1,Dijon Thompson,SG,6-7,195,"February 23, 1983",US,R,UCLA
-2006,24,2916,PHO,Phoenix Suns,15,Nikoloz Tskitishvili,SF,7-0,225,"April 14, 1983",GE,3,
+2006,24,161,PHO,Phoenix Suns,10,Leandro Barbosa,SG,6-3,194,1982-11-28,BR,2,
+2006,24,170,PHO,Phoenix Suns,12,Andre Barrett,PG,5-10,172,1982-02-21,US,1,Seton Hall
+2006,24,211,PHO,Phoenix Suns,19,Raja Bell,SG,6-5,204,1976-09-19,VI,5,"Boston University, Florida International University"
+2006,24,421,PHO,Phoenix Suns,11,Pat Burke,C,6-11,250,1973-12-14,IE,1,Auburn
+2006,24,692,PHO,Phoenix Suns,15,Josh Davis,PF,6-8,235,1980-08-10,US,2,Wyoming
+2006,24,741,PHO,Phoenix Suns,3,Boris Diaw,PF,6-8,250,1982-04-16,FR,2,
+2006,24,939,PHO,Phoenix Suns,23,Sharrod Ford,PF,6-9,225,1982-01-09,US,R,Clemson
+2006,24,1081,PHO,Phoenix Suns,55,Brian Grant,C,6-9,254,1972-03-05,US,11,Xavier
+2006,24,1336,PHO,Phoenix Suns,50,Eddie House,PG,6-1,180,1978-05-14,US,5,Arizona State
+2006,24,1406,PHO,Phoenix Suns,21,Jim Jackson,SF,6-6,220,1970-10-14,US,13,Ohio State
+2006,24,1550,PHO,Phoenix Suns,22,James Jones,SF,6-8,218,1980-10-04,US,2,Miami (FL)
+2006,24,1841,PHO,Phoenix Suns,31,Shawn Marion,PF,6-7,220,1978-05-07,US,6,UNLV
+2006,24,2117,PHO,Phoenix Suns,13,Steve Nash,PG,6-3,195,1974-02-07,ZA,9,Santa Clara
+2006,24,2777,PHO,Phoenix Suns,32,Amar'e Stoudemire,C,6-10,245,1982-11-16,US,3,
+2006,24,2861,PHO,Phoenix Suns,40,Kurt Thomas,C,6-9,230,1972-10-04,US,10,TCU
+2006,24,2865,PHO,Phoenix Suns,2,Tim Thomas,PF,6-10,230,1977-02-26,US,8,Villanova
+2006,24,2873,PHO,Phoenix Suns,1,Dijon Thompson,SG,6-7,195,1983-02-23,US,R,UCLA
+2006,24,2921,PHO,Phoenix Suns,15,Nikoloz Tskitishvili,SF,7-0,225,1983-04-14,GE,3,

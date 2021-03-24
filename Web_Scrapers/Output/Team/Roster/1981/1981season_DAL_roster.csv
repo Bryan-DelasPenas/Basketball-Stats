@@ -1,22 +1,22 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1981,7,57,DAL,Dallas Mavericks,32,Darrell Allums,PF,6-9,220,"September 12, 1958",US,R,UCLA
-1981,7,317,DAL,Dallas Mavericks,6,Winford Boynes,SG,6-6,185,"May 17, 1957",US,2,San Francisco
-1981,7,446,DAL,Dallas Mavericks,45,Marty Byrnes,SF,6-7,215,"April 30, 1956",US,2,Syracuse
-1981,7,475,DAL,Dallas Mavericks,34,Austin Carr,SG,6-4,200,"March 10, 1948",US,9,Notre Dame
-1981,7,680,DAL,Dallas Mavericks,15,Brad Davis,PG,6-3,180,"December 17, 1955",US,3,Maryland
-1981,7,695,DAL,Dallas Mavericks,43,Monti Davis,PF,6-7,205,"July 26, 1958",US,R,Tennessee State
-1981,7,789,DAL,Dallas Mavericks,52,Ralph Drollinger,C,7-2,250,"April 20, 1954",US,R,UCLA
-1981,7,794,DAL,Dallas Mavericks,42,Terry Duerod,SF,6-2,180,"July 29, 1956",US,1,Detroit Mercy
-1981,7,1224,DAL,Dallas Mavericks,10,Joe Hassett,SG,6-5,180,"September 11, 1955",US,3,Providence
-1981,7,1373,DAL,Dallas Mavericks,20,Geoff Huston,PG,6-2,175,"November 8, 1957",US,1,Texas Tech
-1981,7,1438,DAL,Dallas Mavericks,11,Abdul Jeelani,SF,6-8,210,"February 10, 1954",US,1,University of Wisconsin-Parkside
-1981,7,1586,DAL,Dallas Mavericks,53,Clarence Kea,PF,6-6,218,"February 2, 1959",US,R,Lamar
-1981,7,1614,DAL,Dallas Mavericks,21,Chad Kinch,SG,6-4,190,"May 22, 1958",US,R,UNC Charlotte
-1981,7,1672,DAL,Dallas Mavericks,25,Tom LaGarde,C,6-10,220,"February 10, 1955",US,3,UNC
-1981,7,1762,DAL,Dallas Mavericks,44,Scott Lloyd,C,6-10,230,"December 19, 1952",US,3,Arizona State
-1981,7,1799,DAL,Dallas Mavericks,17,Ollie Mack,SG,6-3,185,"June 6, 1957",US,1,East Carolina University
-1981,7,2309,DAL,Dallas Mavericks,43,Stan Pietkiewicz,SG,6-5,200,"July 14, 1956",US,2,Auburn
-1981,7,2493,DAL,Dallas Mavericks,54,Bill Robinzine,PF,6-7,230,"January 20, 1953",US,5,DePaul
-1981,7,2724,DAL,Dallas Mavericks,"33, 34",Jim Spanarkel,SF,6-5,190,"June 28, 1957",US,1,Duke
-1981,7,3039,DAL,Dallas Mavericks,31,Richard Washington,PF,6-11,220,"July 15, 1955",US,4,UCLA
-1981,7,3103,DAL,Dallas Mavericks,54,Jerome Whitehead,C,6-10,220,"September 30, 1956",US,2,Marquette
+1981,7,57,DAL,Dallas Mavericks,32,Darrell Allums,PF,6-9,220,1958-09-12,US,R,UCLA
+1981,7,317,DAL,Dallas Mavericks,6,Winford Boynes,SG,6-6,185,1957-05-17,US,2,San Francisco
+1981,7,446,DAL,Dallas Mavericks,45,Marty Byrnes,SF,6-7,215,1956-04-30,US,2,Syracuse
+1981,7,475,DAL,Dallas Mavericks,34,Austin Carr,SG,6-4,200,1948-03-10,US,9,Notre Dame
+1981,7,681,DAL,Dallas Mavericks,15,Brad Davis,PG,6-3,180,1955-12-17,US,3,Maryland
+1981,7,696,DAL,Dallas Mavericks,43,Monti Davis,PF,6-7,205,1958-07-26,US,R,Tennessee State
+1981,7,791,DAL,Dallas Mavericks,52,Ralph Drollinger,C,7-2,250,1954-04-20,US,R,UCLA
+1981,7,796,DAL,Dallas Mavericks,42,Terry Duerod,SF,6-2,180,1956-07-29,US,1,Detroit Mercy
+1981,7,1226,DAL,Dallas Mavericks,10,Joe Hassett,SG,6-5,180,1955-09-11,US,3,Providence
+1981,7,1375,DAL,Dallas Mavericks,20,Geoff Huston,PG,6-2,175,1957-11-08,US,1,Texas Tech
+1981,7,1440,DAL,Dallas Mavericks,11,Abdul Jeelani,SF,6-8,210,1954-02-10,US,1,University of Wisconsin-Parkside
+1981,7,1588,DAL,Dallas Mavericks,53,Clarence Kea,PF,6-6,218,1959-02-02,US,R,Lamar
+1981,7,1616,DAL,Dallas Mavericks,21,Chad Kinch,SG,6-4,190,1958-05-22,US,R,UNC Charlotte
+1981,7,1674,DAL,Dallas Mavericks,25,Tom LaGarde,C,6-10,220,1955-02-10,US,3,UNC
+1981,7,1765,DAL,Dallas Mavericks,44,Scott Lloyd,C,6-10,230,1952-12-19,US,3,Arizona State
+1981,7,1802,DAL,Dallas Mavericks,17,Ollie Mack,SG,6-3,185,1957-06-06,US,1,East Carolina University
+1981,7,2312,DAL,Dallas Mavericks,43,Stan Pietkiewicz,SG,6-5,200,1956-07-14,US,2,Auburn
+1981,7,2497,DAL,Dallas Mavericks,54,Bill Robinzine,PF,6-7,230,1953-01-20,US,5,DePaul
+1981,7,2728,DAL,Dallas Mavericks,"33, 34",Jim Spanarkel,SF,6-5,190,1957-06-28,US,1,Duke
+1981,7,3044,DAL,Dallas Mavericks,31,Richard Washington,PF,6-11,220,1955-07-15,US,4,UCLA
+1981,7,3108,DAL,Dallas Mavericks,54,Jerome Whitehead,C,6-10,220,1956-09-30,US,2,Marquette

@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2001,3,771,NJN,New Jersey Nets,11,Sherman Douglas,PG,6-0,180,"September 15, 1966",US,11,Syracuse
-2001,3,870,NJN,New Jersey Nets,42,Evan Eschmeyer,C,6-11,255,"May 30, 1975",US,1,Northwestern
-2001,3,897,NJN,New Jersey Nets,14,Jamie Feick,C,6-9,255,"July 3, 1974",US,4,Michigan State
-2001,3,1035,NJN,New Jersey Nets,8,Eddie Gill,PG,6-0,190,"August 16, 1978",US,R,Weber State
-2001,3,1036,NJN,New Jersey Nets,13,Kendall Gill,SG,6-5,195,"May 25, 1968",US,10,Illinois
-2001,3,1205,NJN,New Jersey Nets,12,Lucious Harris,SG,6-5,190,"December 18, 1970",US,7,Cal State Long Beach
-2001,3,1418,NJN,New Jersey Nets,24,Stephen Jackson,SF,6-8,218,"April 5, 1978",US,R,Butler County Community College
-2001,3,1836,NJN,New Jersey Nets,33,Stephon Marbury,PG,6-2,180,"February 20, 1977",US,4,Georgia Tech
-2001,3,1861,NJN,New Jersey Nets,6,Kenyon Martin,PF,6-9,234,"December 30, 1977",US,R,Cincinnati
-2001,3,1939,NJN,New Jersey Nets,22,Jim McIlvaine,C,7-1,240,"July 30, 1972",US,6,Marquette
-2001,3,2138,NJN,New Jersey Nets,20,Johnny Newman,SG,6-7,190,"November 28, 1963",US,14,Richmond
-2001,3,2208,NJN,New Jersey Nets,2,Kevin Ollie,PG,6-4,195,"December 27, 1972",US,3,UConn
-2001,3,2224,NJN,New Jersey Nets,2,Doug Overton,PG,6-3,190,"August 3, 1969",US,8,La Salle
-2001,3,2546,NJN,New Jersey Nets,45,Soumaila Samake,C,7-0,230,"March 18, 1978",ML,R,
-2001,3,2744,NJN,New Jersey Nets,50,Vladimir Stepania,C,7-0,236,"May 8, 1976",GE,2,
-2001,3,2776,NJN,New Jersey Nets,31,Mark Strickland,SF,6-9,210,"July 14, 1970",US,5,Temple
-2001,3,2851,NJN,New Jersey Nets,5,Jamel Thomas,SF,6-6,215,"March 25, 1973",US,1,Providence
-2001,3,2953,NJN,New Jersey Nets,44,Keith Van Horn,SF,6-10,220,"October 23, 1975",US,3,Utah
-2001,3,3128,NJN,New Jersey Nets,34,Aaron Williams,PF,6-9,220,"October 2, 1971",US,6,Xavier
+2001,3,773,NJN,New Jersey Nets,11,Sherman Douglas,PG,6-0,180,1966-09-15,US,11,Syracuse
+2001,3,872,NJN,New Jersey Nets,42,Evan Eschmeyer,C,6-11,255,1975-05-30,US,1,Northwestern
+2001,3,899,NJN,New Jersey Nets,14,Jamie Feick,C,6-9,255,1974-07-03,US,4,Michigan State
+2001,3,1037,NJN,New Jersey Nets,8,Eddie Gill,PG,6-0,190,1978-08-16,US,R,Weber State
+2001,3,1038,NJN,New Jersey Nets,13,Kendall Gill,SG,6-5,195,1968-05-25,US,10,Illinois
+2001,3,1207,NJN,New Jersey Nets,12,Lucious Harris,SG,6-5,190,1970-12-18,US,7,Cal State Long Beach
+2001,3,1420,NJN,New Jersey Nets,24,Stephen Jackson,SF,6-8,218,1978-04-05,US,R,Butler County Community College
+2001,3,1839,NJN,New Jersey Nets,33,Stephon Marbury,PG,6-2,180,1977-02-20,US,4,Georgia Tech
+2001,3,1865,NJN,New Jersey Nets,6,Kenyon Martin,PF,6-9,234,1977-12-30,US,R,Cincinnati
+2001,3,1942,NJN,New Jersey Nets,22,Jim McIlvaine,C,7-1,240,1972-07-30,US,6,Marquette
+2001,3,2141,NJN,New Jersey Nets,20,Johnny Newman,SG,6-7,190,1963-11-28,US,14,Richmond
+2001,3,2211,NJN,New Jersey Nets,2,Kevin Ollie,PG,6-4,195,1972-12-27,US,3,UConn
+2001,3,2227,NJN,New Jersey Nets,2,Doug Overton,PG,6-3,190,1969-08-03,US,8,La Salle
+2001,3,2550,NJN,New Jersey Nets,45,Soumaila Samake,C,7-0,230,1978-03-18,ML,R,
+2001,3,2748,NJN,New Jersey Nets,50,Vladimir Stepania,C,7-0,236,1976-05-08,GE,2,
+2001,3,2780,NJN,New Jersey Nets,31,Mark Strickland,SF,6-9,210,1970-07-14,US,5,Temple
+2001,3,2855,NJN,New Jersey Nets,5,Jamel Thomas,SF,6-6,215,1973-03-25,US,1,Providence
+2001,3,2958,NJN,New Jersey Nets,44,Keith Van Horn,SF,6-10,220,1975-10-23,US,3,Utah
+2001,3,3134,NJN,New Jersey Nets,34,Aaron Williams,PF,6-9,220,1971-10-02,US,6,Xavier

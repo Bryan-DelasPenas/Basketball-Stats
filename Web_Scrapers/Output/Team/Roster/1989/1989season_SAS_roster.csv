@@ -1,23 +1,23 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1989,27,73,SAS,San Antonio Spurs,33,Greg Anderson,PF,6-10,230,"June 22, 1964",US,1,Houston
-1989,27,79,SAS,San Antonio Spurs,10,Michael Anderson,PG,5-11,184,"March 23, 1966",US,R,Drexel
-1989,27,85,SAS,San Antonio Spurs,40,Willie Anderson,SF,6-7,190,"January 8, 1967",US,R,Georgia
-1989,27,311,SAS,San Antonio Spurs,25,Anthony Bowie,SG,6-6,190,"November 9, 1963",US,R,Oklahoma
-1989,27,348,SAS,San Antonio Spurs,43,Frank Brickowski,C,6-9,240,"August 14, 1959",US,4,Penn State
-1989,27,584,SAS,San Antonio Spurs,22,Dallas Comegys,PF,6-9,205,"August 17, 1964",US,1,DePaul
-1989,27,593,SAS,San Antonio Spurs,12,Darwin Cook,SG,6-3,184,"August 6, 1958",US,7,University of Portland
-1989,27,705,SAS,San Antonio Spurs,24,Johnny Dawkins,PG,6-2,165,"September 28, 1963",US,2,Duke
-1989,27,1119,SAS,San Antonio Spurs,10,Dave Greenwood,PF,6-9,222,"May 27, 1957",US,9,UCLA
-1989,27,1134,SAS,San Antonio Spurs,35,Petur Gudmundsson,C,7-2,260,"October 30, 1958",IS,3,Washington
-1989,27,1559,SAS,San Antonio Spurs,31,Shelton Jones,SF,6-9,210,"April 6, 1966",US,R,St. John's
-1989,27,1615,SAS,San Antonio Spurs,55,Albert King,SF,6-6,190,"December 17, 1959",US,7,Maryland
-1989,27,1881,SAS,San Antonio Spurs,11,Vernon Maxwell,SG,6-4,180,"September 12, 1965",US,R,Florida
-1989,27,2015,SAS,San Antonio Spurs,32,Todd Mitchell,SF,6-7,205,"July 26, 1966",US,R,Purdue
-1989,27,2117,SAS,San Antonio Spurs,7,Calvin Natt,SF,6-6,220,"January 8, 1957",US,9,Louisiana-Monroe
-1989,27,2467,SAS,San Antonio Spurs,21,Alvin Robertson,SG,6-3,185,"July 22, 1962",US,4,Arkansas
-1989,27,2515,SAS,San Antonio Spurs,3,Scott Roth,SF,6-8,212,"June 3, 1963",US,1,Wisconsin
-1989,27,2666,SAS,San Antonio Spurs,3,Keith Smart,PG,6-1,175,"September 21, 1964",US,R,Indiana
-1989,27,2714,SAS,San Antonio Spurs,52,Mike Smrek,PF,7-0,250,"August 31, 1962",CA,3,Canisius
-1989,27,2778,SAS,San Antonio Spurs,32,John Stroeder,PF,6-10,260,"July 24, 1958",US,1,Montana
-1989,27,2975,SAS,San Antonio Spurs,31,Jay Vincent,SF,6-7,220,"June 10, 1959",US,7,Michigan State
-1989,27,3103,SAS,San Antonio Spurs,6,Jerome Whitehead,C,6-10,220,"September 30, 1956",US,10,Marquette
+1989,27,73,SAS,San Antonio Spurs,33,Greg Anderson,PF,6-10,230,1964-06-22,US,1,Houston
+1989,27,79,SAS,San Antonio Spurs,10,Michael Anderson,PG,5-11,184,1966-03-23,US,R,Drexel
+1989,27,85,SAS,San Antonio Spurs,40,Willie Anderson,SF,6-7,190,1967-01-08,US,R,Georgia
+1989,27,311,SAS,San Antonio Spurs,25,Anthony Bowie,SG,6-6,190,1963-11-09,US,R,Oklahoma
+1989,27,348,SAS,San Antonio Spurs,43,Frank Brickowski,C,6-9,240,1959-08-14,US,4,Penn State
+1989,27,584,SAS,San Antonio Spurs,22,Dallas Comegys,PF,6-9,205,1964-08-17,US,1,DePaul
+1989,27,593,SAS,San Antonio Spurs,12,Darwin Cook,SG,6-3,184,1958-08-06,US,7,University of Portland
+1989,27,706,SAS,San Antonio Spurs,24,Johnny Dawkins,PG,6-2,165,1963-09-28,US,2,Duke
+1989,27,1121,SAS,San Antonio Spurs,10,Dave Greenwood,PF,6-9,222,1957-05-27,US,9,UCLA
+1989,27,1136,SAS,San Antonio Spurs,35,Petur Gudmundsson,C,7-2,260,1958-10-30,IS,3,Washington
+1989,27,1561,SAS,San Antonio Spurs,31,Shelton Jones,SF,6-9,210,1966-04-06,US,R,St. John's
+1989,27,1617,SAS,San Antonio Spurs,55,Albert King,SF,6-6,190,1959-12-17,US,7,Maryland
+1989,27,1884,SAS,San Antonio Spurs,11,Vernon Maxwell,SG,6-4,180,1965-09-12,US,R,Florida
+1989,27,2018,SAS,San Antonio Spurs,32,Todd Mitchell,SF,6-7,205,1966-07-26,US,R,Purdue
+1989,27,2120,SAS,San Antonio Spurs,7,Calvin Natt,SF,6-6,220,1957-01-08,US,9,Louisiana-Monroe
+1989,27,2471,SAS,San Antonio Spurs,21,Alvin Robertson,SG,6-3,185,1962-07-22,US,4,Arkansas
+1989,27,2519,SAS,San Antonio Spurs,3,Scott Roth,SF,6-8,212,1963-06-03,US,1,Wisconsin
+1989,27,2670,SAS,San Antonio Spurs,3,Keith Smart,PG,6-1,175,1964-09-21,US,R,Indiana
+1989,27,2718,SAS,San Antonio Spurs,52,Mike Smrek,PF,7-0,250,1962-08-31,CA,3,Canisius
+1989,27,2782,SAS,San Antonio Spurs,32,John Stroeder,PF,6-10,260,1958-07-24,US,1,Montana
+1989,27,2980,SAS,San Antonio Spurs,31,Jay Vincent,SF,6-7,220,1959-06-10,US,7,Michigan State
+1989,27,3108,SAS,San Antonio Spurs,6,Jerome Whitehead,C,6-10,220,1956-09-30,US,10,Marquette

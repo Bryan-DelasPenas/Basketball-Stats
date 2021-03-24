@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1991,29,142,UTA,Utah Jazz,41,Thurl Bailey,PF,6-11,215,"April 7, 1961",US,7,NC State
-1991,29,390,UTA,Utah Jazz,40,Mike Brown,C,6-9,257,"July 19, 1963",US,4,George Washington
-1991,29,401,UTA,Utah Jazz,21,Tony Brown,SG,6-6,185,"July 29, 1960",US,5,Arkansas
-1991,29,643,UTA,Utah Jazz,50,Pat Cummings,PF,6-9,230,"July 11, 1956",US,11,Cincinnati
-1991,29,816,UTA,Utah Jazz,53,Mark Eaton,C,7-4,275,"January 24, 1957",US,8,UCLA
-1991,29,827,UTA,Utah Jazz,30,Blue Edwards,SF,6-4,200,"October 31, 1965",US,1,East Carolina University
-1991,29,1129,UTA,Utah Jazz,35,Darrell Griffith,SG,6-4,190,"June 16, 1958",US,9,Louisville
-1991,29,1822,UTA,Utah Jazz,24,Jeff Malone,SG,6-4,205,"June 28, 1961",US,7,Mississippi State
-1991,29,1823,UTA,Utah Jazz,32,Karl Malone,PF,6-9,250,"July 24, 1963",US,5,Louisiana Tech
-1991,29,2080,UTA,Utah Jazz,44,Chris Munk,PF,6-9,225,"August 5, 1967",US,R,USC
-1991,29,2182,UTA,Utah Jazz,45,Dan O'Sullivan,C,6-10,250,"March 3, 1968",US,R,Fordham
-1991,29,2240,UTA,Utah Jazz,33,Walter Palmer,C,7-1,215,"October 23, 1968",US,R,Dartmouth College
-1991,29,2527,UTA,Utah Jazz,11,Delaney Rudd,PG,6-2,180,"November 8, 1962",US,1,Wake Forest
-1991,29,2763,UTA,Utah Jazz,12,John Stockton,PG,6-1,170,"March 26, 1962",US,6,Gonzaga
-1991,29,2898,UTA,Utah Jazz,5,Andy Toolson,SF,6-6,210,"January 19, 1966",US,R,BYU
+1991,29,142,UTA,Utah Jazz,41,Thurl Bailey,PF,6-11,215,1961-04-07,US,7,NC State
+1991,29,390,UTA,Utah Jazz,40,Mike Brown,C,6-9,257,1963-07-19,US,4,George Washington
+1991,29,401,UTA,Utah Jazz,21,Tony Brown,SG,6-6,185,1960-07-29,US,5,Arkansas
+1991,29,643,UTA,Utah Jazz,50,Pat Cummings,PF,6-9,230,1956-07-11,US,11,Cincinnati
+1991,29,818,UTA,Utah Jazz,53,Mark Eaton,C,7-4,275,1957-01-24,US,8,UCLA
+1991,29,829,UTA,Utah Jazz,30,Blue Edwards,SF,6-4,200,1965-10-31,US,1,East Carolina University
+1991,29,1131,UTA,Utah Jazz,35,Darrell Griffith,SG,6-4,190,1958-06-16,US,9,Louisville
+1991,29,1825,UTA,Utah Jazz,24,Jeff Malone,SG,6-4,205,1961-06-28,US,7,Mississippi State
+1991,29,1826,UTA,Utah Jazz,32,Karl Malone,PF,6-9,250,1963-07-24,US,5,Louisiana Tech
+1991,29,2083,UTA,Utah Jazz,44,Chris Munk,PF,6-9,225,1967-08-05,US,R,USC
+1991,29,2185,UTA,Utah Jazz,45,Dan O'Sullivan,C,6-10,250,1968-03-03,US,R,Fordham
+1991,29,2243,UTA,Utah Jazz,33,Walter Palmer,C,7-1,215,1968-10-23,US,R,Dartmouth College
+1991,29,2531,UTA,Utah Jazz,11,Delaney Rudd,PG,6-2,180,1962-11-08,US,1,Wake Forest
+1991,29,2767,UTA,Utah Jazz,12,John Stockton,PG,6-1,170,1962-03-26,US,6,Gonzaga
+1991,29,2903,UTA,Utah Jazz,5,Andy Toolson,SF,6-6,210,1966-01-19,US,R,BYU

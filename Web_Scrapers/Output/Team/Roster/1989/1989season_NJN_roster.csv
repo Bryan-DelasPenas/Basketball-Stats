@@ -1,16 +1,16 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-1989,3,137,NJN,New Jersey Nets,5,John Bagley,PG,6-0,185,"April 23, 1960",US,6,Boston College
-1989,3,230,NJN,New Jersey Nets,6,Walter Berry,PF,6-8,215,"May 14, 1964",US,2,St. John's
-1989,3,482,NJN,New Jersey Nets,11,Joe Barry Carroll,C,7-0,225,"July 24, 1958",US,7,Purdue
-1989,3,507,NJN,New Jersey Nets,40,Ron Cavenall,C,7-1,230,"April 30, 1959",US,1,Texas Southern
-1989,3,588,NJN,New Jersey Nets,15,Lester Conner,PG,6-4,180,"September 17, 1959",US,5,Oregon State
-1989,3,978,NJN,New Jersey Nets,12,Corey Gaines,SG,6-3,195,"June 1, 1965",US,R,"UCLA, Loyola Marymount"
-1989,3,1298,NJN,New Jersey Nets,23,Roy Hinson,SF,6-9,210,"May 2, 1961",US,5,Rutgers University
-1989,3,1323,NJN,New Jersey Nets,2,Dennis Hopson,SG,6-5,200,"April 22, 1965",US,1,Ohio State
-1989,3,1526,NJN,New Jersey Nets,20,Bill Jones,PF,6-7,175,"March 18, 1966",US,R,Iowa
-1989,3,1723,NJN,New Jersey Nets,24,Keith Lee,PF,6-10,215,"December 28, 1962",US,2,Memphis
-1989,3,1933,NJN,New Jersey Nets,22,Mike McGee,SG,6-5,190,"July 29, 1959",US,7,Michigan
-1989,3,2050,NJN,New Jersey Nets,34,Chris Morris,SF,6-8,210,"January 20, 1966",US,R,Auburn
-1989,3,2605,NJN,New Jersey Nets,33,Charles Shackleford,C,6-10,225,"April 22, 1966",US,R,NC State
-1989,3,3132,NJN,New Jersey Nets,52,Buck Williams,PF,6-8,215,"March 8, 1960",US,7,Maryland
-1989,3,3158,NJN,New Jersey Nets,7,Kevin Williams,SG,6-2,175,"September 11, 1961",US,4,"TCU, St. John's"
+1989,3,137,NJN,New Jersey Nets,5,John Bagley,PG,6-0,185,1960-04-23,US,6,Boston College
+1989,3,230,NJN,New Jersey Nets,6,Walter Berry,PF,6-8,215,1964-05-14,US,2,St. John's
+1989,3,482,NJN,New Jersey Nets,11,Joe Barry Carroll,C,7-0,225,1958-07-24,US,7,Purdue
+1989,3,507,NJN,New Jersey Nets,40,Ron Cavenall,C,7-1,230,1959-04-30,US,1,Texas Southern
+1989,3,588,NJN,New Jersey Nets,15,Lester Conner,PG,6-4,180,1959-09-17,US,5,Oregon State
+1989,3,980,NJN,New Jersey Nets,12,Corey Gaines,SG,6-3,195,1965-06-01,US,R,"UCLA, Loyola Marymount"
+1989,3,1300,NJN,New Jersey Nets,23,Roy Hinson,SF,6-9,210,1961-05-02,US,5,Rutgers University
+1989,3,1325,NJN,New Jersey Nets,2,Dennis Hopson,SG,6-5,200,1965-04-22,US,1,Ohio State
+1989,3,1528,NJN,New Jersey Nets,20,Bill Jones,PF,6-7,175,1966-03-18,US,R,Iowa
+1989,3,1726,NJN,New Jersey Nets,24,Keith Lee,PF,6-10,215,1962-12-28,US,2,Memphis
+1989,3,1936,NJN,New Jersey Nets,22,Mike McGee,SG,6-5,190,1959-07-29,US,7,Michigan
+1989,3,2053,NJN,New Jersey Nets,34,Chris Morris,SF,6-8,210,1966-01-20,US,R,Auburn
+1989,3,2609,NJN,New Jersey Nets,33,Charles Shackleford,C,6-10,225,1966-04-22,US,R,NC State
+1989,3,3138,NJN,New Jersey Nets,52,Buck Williams,PF,6-8,215,1960-03-08,US,7,Maryland
+1989,3,3164,NJN,New Jersey Nets,7,Kevin Williams,SG,6-2,175,1961-09-11,US,4,"TCU, St. John's"

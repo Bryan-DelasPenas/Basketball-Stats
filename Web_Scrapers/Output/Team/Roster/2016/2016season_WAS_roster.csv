@@ -1,20 +1,20 @@
 Season,Team ID,Player ID,Team ABV,Team,Number,Player,Pos,Height,Weight,Birth Date,Nationality,Experience,College
-2016,30,68,WAS,Washington Wizards,6,Alan Anderson,SG,6-6,220,"October 16, 1982",US,6,Michigan State
-2016,30,200,WAS,Washington Wizards,3,Bradley Beal,SG,6-3,207,"June 28, 1993",US,3,Florida
-2016,30,259,WAS,Washington Wizards,45,DeJuan Blair,C,6-7,270,"April 22, 1989",US,6,Pitt
-2016,30,793,WAS,Washington Wizards,1,Jared Dudley,PF,6-6,237,"July 10, 1985",US,8,Boston College
-2016,30,820,WAS,Washington Wizards,8,Jarell Eddie,SF,6-7,218,"October 30, 1991",US,R,Virginia Tech
-2016,30,1056,WAS,Washington Wizards,90,Drew Gooden,PF,6-10,250,"September 24, 1981",US,13,Kansas
-2016,30,1065,WAS,Washington Wizards,13,Marcin Gortat,C,6-11,240,"February 17, 1984",PL,8,
-2016,30,1278,WAS,Washington Wizards,21,J.J. Hickson,C,6-9,242,"September 4, 1988",US,7,NC State
-2016,30,1287,WAS,Washington Wizards,42,Nene Hilario,PF,6-11,250,"September 13, 1982",BR,13,
-2016,30,1314,WAS,Washington Wizards,15,Ryan Hollins,C,7-0,240,"October 10, 1984",US,9,UCLA
-2016,30,1362,WAS,Washington Wizards,43,Kris Humphries,PF,6-9,235,"February 6, 1985",US,11,Minnesota
-2016,30,2055,WAS,Washington Wizards,5,Markieff Morris,PF,6-9,245,"September 2, 1989",US,4,Kansas
-2016,30,2122,WAS,Washington Wizards,14,Gary Neal,SG,6-4,210,"October 3, 1984",US,5,"La Salle, Towson University"
-2016,30,2221,WAS,Washington Wizards,12,Kelly Oubre Jr.,SF,6-7,203,"December 9, 1995",US,R,Kansas
-2016,30,2343,WAS,Washington Wizards,22,Otto Porter,SF,6-8,198,"June 3, 1993",US,2,Georgetown
-2016,30,2601,WAS,Washington Wizards,7,Ramon Sessions,PG,6-3,190,"April 11, 1986",US,8,Nevada
-2016,30,2830,WAS,Washington Wizards,17,Garrett Temple,SF,6-5,195,"May 8, 1986",US,5,LSU
-2016,30,2882,WAS,Washington Wizards,15,Marcus Thornton,SG,6-4,205,"June 5, 1987",US,6,LSU
-2016,30,3010,WAS,Washington Wizards,2,John Wall,PG,6-3,210,"September 6, 1990",US,5,Kentucky
+2016,30,68,WAS,Washington Wizards,6,Alan Anderson,SG,6-6,220,1982-10-16,US,6,Michigan State
+2016,30,200,WAS,Washington Wizards,3,Bradley Beal,SG,6-3,207,1993-06-28,US,3,Florida
+2016,30,259,WAS,Washington Wizards,45,DeJuan Blair,C,6-7,270,1989-04-22,US,6,Pitt
+2016,30,795,WAS,Washington Wizards,1,Jared Dudley,PF,6-6,237,1985-07-10,US,8,Boston College
+2016,30,822,WAS,Washington Wizards,8,Jarell Eddie,SF,6-7,218,1991-10-30,US,R,Virginia Tech
+2016,30,1058,WAS,Washington Wizards,90,Drew Gooden,PF,6-10,250,1981-09-24,US,13,Kansas
+2016,30,1067,WAS,Washington Wizards,13,Marcin Gortat,C,6-11,240,1984-02-17,PL,8,
+2016,30,1280,WAS,Washington Wizards,21,J.J. Hickson,C,6-9,242,1988-09-04,US,7,NC State
+2016,30,1289,WAS,Washington Wizards,42,Nene Hilario,PF,6-11,250,1982-09-13,BR,13,
+2016,30,1316,WAS,Washington Wizards,15,Ryan Hollins,C,7-0,240,1984-10-10,US,9,UCLA
+2016,30,1364,WAS,Washington Wizards,43,Kris Humphries,PF,6-9,235,1985-02-06,US,11,Minnesota
+2016,30,2058,WAS,Washington Wizards,5,Markieff Morris,PF,6-9,245,1989-09-02,US,4,Kansas
+2016,30,2125,WAS,Washington Wizards,14,Gary Neal,SG,6-4,210,1984-10-03,US,5,"La Salle, Towson University"
+2016,30,2224,WAS,Washington Wizards,12,Kelly Oubre,SF,6-7,203,1995-12-09,US,R,Kansas
+2016,30,2347,WAS,Washington Wizards,22,Otto Porter,SF,6-8,198,1993-06-03,US,2,Georgetown
+2016,30,2605,WAS,Washington Wizards,7,Ramon Sessions,PG,6-3,190,1986-04-11,US,8,Nevada
+2016,30,2834,WAS,Washington Wizards,17,Garrett Temple,SF,6-5,195,1986-05-08,US,5,LSU
+2016,30,2886,WAS,Washington Wizards,15,Marcus Thornton,SG,6-4,205,1987-06-05,US,6,LSU
+2016,30,3015,WAS,Washington Wizards,2,John Wall,PG,6-3,210,1990-09-06,US,5,Kentucky
