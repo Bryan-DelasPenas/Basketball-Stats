@@ -75,6 +75,17 @@ def percentage_regex(percentage):
         return True
 
 '''
+Regex for any floating point number with + or - in the start
+'''
+def floating_point_regex(floating_point):
+    # Convert floating_point into a valid string in Python
+    # Check if the parameter floating_point is valid 
+    floating_point_string = str(floating_point)
+    if(not re.match(r'^[-+]?[0-9]*\.?[0-9]+$', floating_point_string)):
+        print("Please enter a valid floating point number")
+        return True
+
+'''
 Regex for strings
 '''
 '''
@@ -82,7 +93,7 @@ Regex for team_name parameter
 '''
 def team_name_regex(team_name):
     # Convert team_name into a valid string in Python
-    # Check if the parameter team is valid, no numbers and special chars
+    # Check if the parameter team_name is valid, no numbers and special chars
     team_name_string = str(team_name)
     if(not re.match("^[A-Za-z]+((\s)?([A-Za-z])+)*$", team_name_string)):
         print("Please enter a valid name with only letters and space")
@@ -113,3 +124,7 @@ def player_name_regrex(player_name):
 '''
 Regex for date of births  
 '''
+
+def main():
+    floating_point_regex('10.3gggegeg')
+main()

@@ -11,7 +11,7 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-from Regular_Expression import season_id_regex, team_id_regex, team_name_regex, team_abv_regex, games_amount_regex, percentage_regex, binary_regex
+from Regular_Expression import season_id_regex, team_id_regex, team_name_regex, team_abv_regex
 
 '''
 Function that calls query_all_team_sid
