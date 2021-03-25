@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2009,25.0,908,POR,Portland Trail Blazers,Rudy Fernandez,1985-04-04,23.0,NBA,SG,78,4,25.6,3.4,8.1,0.425,2.0,5.1,0.399,1.4,3.0,0.47,0.552,1.5,1.8,0.839,0.6,2.1,2.7,2.0,0.9,0.2,1.1,1.4,10.4
+2010,25.0,908,POR,Portland Trail Blazers,Rudy Fernandez,1985-04-04,24.0,NBA,SG,62,2,23.2,2.6,6.8,0.378,1.6,4.3,0.368,1.0,2.5,0.395,0.494,1.4,1.6,0.867,0.6,2.1,2.6,2.0,1.0,0.2,1.2,1.4,8.1
+2011,25.0,908,POR,Portland Trail Blazers,Rudy Fernandez,1985-04-04,25.0,NBA,SG,78,3,23.3,2.7,7.4,0.37,1.5,4.6,0.321,1.2,2.7,0.453,0.471,1.6,1.9,0.863,0.5,1.7,2.2,2.5,1.1,0.2,1.1,1.7,8.6
+2012,8.0,908,DEN,Denver Nuggets,Rudy Fernandez,1985-04-04,26.0,NBA,SG,31,1,22.9,3.2,7.3,0.44,1.3,3.9,0.328,1.9,3.3,0.573,0.529,1.0,1.4,0.698,0.3,1.8,2.1,2.4,1.0,0.1,1.3,1.2,8.6

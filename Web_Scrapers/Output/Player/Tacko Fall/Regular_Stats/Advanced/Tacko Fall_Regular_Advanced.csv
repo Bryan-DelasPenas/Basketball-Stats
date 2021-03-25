@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,2,890,BOS,Boston Celtics,Tacko Fall,1995-12-10,24.0,NBA,C,7,33,28.4,0.75,0.0,0.21,3.3,44.9,24.3,5.8,1.5,11.2,16.4,23.7,0.1,0.1,0.2,0.22,0.4,6.0,6.5,0.1
+2021,2,890,BOS,Boston Celtics,Tacko Fall,1995-12-10,25.0,NBA,C,10,68,21.7,0.64,0.0,0.61,13.1,26.7,19.8,4.4,0.0,13.8,8.1,15.7,0.1,0.1,0.3,0.19,-0.6,2.0,1.4,0.1

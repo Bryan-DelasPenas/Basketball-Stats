@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2019,7,91,DAL,Dallas Mavericks,Kostas Antetokounmpo,1997-11-20,21.0,NBA,PF,2.0,11.0,-0.9,0.21,0.0,1.33,0.0,9.7,4.9,0.0,8.8,0.0,17.4,22.5,-0.1,0.0,-0.1,-0.25,-12.6,-0.1,-12.7,0.0
+2020,14,91,LAL,Los Angeles Lakers,Kostas Antetokounmpo,1997-11-20,22.0,NBA,PF,5.0,20.0,16.3,0.9,0.0,0.67,11.1,5.4,8.2,13.7,0.0,0.0,20.5,10.3,0.1,0.0,0.1,0.19,0.2,-0.9,-0.7,0.0
+2021,14,91,LAL,Los Angeles Lakers,Kostas Antetokounmpo,1997-11-20,23.0,NBA,PF,5.0,24.0,6.1,0.52,0.0,1.0,9.5,31.9,20.9,0.0,4.0,10.9,51.0,21.3,-0.1,0.1,-0.1,-0.12,-10.9,3.6,-7.3,0.0

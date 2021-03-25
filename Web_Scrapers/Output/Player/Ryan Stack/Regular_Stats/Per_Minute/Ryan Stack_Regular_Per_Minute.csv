@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1999,6,2739,CLE,Cleveland Cavaliers,Ryan Stack,1975-07-24,23.0,NBA,PF,18,0,199,2.5,6.7,0.38,0.0,0.0,,2.5,6.7,0.38,3.4,3.6,0.95,3.4,2.7,6.2,0.9,0.4,2.0,1.6,5.6,8.5
+2000,6,2739,CLE,Cleveland Cavaliers,Ryan Stack,1975-07-24,24.0,NBA,PF,25,0,198,3.1,9.3,0.33,0.0,0.2,0.0,3.1,9.1,0.34,3.3,4.9,0.67,2.7,5.5,8.2,0.9,0.7,2.0,3.1,8.5,9.5

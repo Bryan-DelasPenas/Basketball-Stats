@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2017,24,2948,PHO,Phoenix Suns,Tyler Ulis,1996-01-05,21.0,NBA,PG,61.0,1123.0,13.0,0.47,0.18,0.16,1.9,7.5,4.6,30.5,2.0,0.4,14.1,20.3,0.3,0.4,0.7,0.03,-0.9,-1.4,-2.4,-0.1
+2018,24,2948,PHO,Phoenix Suns,Tyler Ulis,1996-01-05,22.0,NBA,PG,71.0,1658.0,10.1,0.46,0.26,0.18,1.5,6.8,4.1,28.0,2.0,0.3,17.6,18.5,-0.7,0.5,-0.2,-0.01,-3.0,-1.4,-4.4,-1.0
+2019,5,2948,CHI,Chicago Bulls,Tyler Ulis,1996-01-05,23.0,NBA,PG,1.0,1.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.02,-7.7,-2.7,-10.4,0.0

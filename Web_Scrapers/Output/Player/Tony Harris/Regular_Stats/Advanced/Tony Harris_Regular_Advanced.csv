@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1991,23,1213,PHI,Philadelphia 76Ers,Tony Harris,1967-05-13,23.0,NBA,SG,6.0,41.0,-5.0,0.28,0.12,0.25,0.0,2.7,1.4,0.0,1.2,0.0,14.5,22.1,-0.2,0.0,-0.2,-0.25,-12.1,-4.3,-16.4,-0.1
+1994,2,1213,BOS,Boston Celtics,Tony Harris,1967-05-13,26.0,NBA,SG,5.0,88.0,14.9,0.52,0.29,0.81,3.8,9.0,6.4,12.4,2.3,0.0,12.5,23.7,0.1,0.1,0.2,0.11,0.8,0.5,1.2,0.1
+1995,2,1213,BOS,Boston Celtics,Tony Harris,1967-05-13,27.0,NBA,SG,3.0,18.0,17.6,0.58,0.12,1.12,0.0,0.0,0.0,0.0,0.0,0.0,7.7,31.2,0.1,0.0,0.1,0.17,-1.0,-3.5,-4.5,0.0

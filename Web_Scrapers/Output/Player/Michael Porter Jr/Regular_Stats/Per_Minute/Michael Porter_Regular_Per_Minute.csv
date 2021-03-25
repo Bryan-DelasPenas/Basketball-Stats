@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,8,2346,DEN,Denver Nuggets,Michael Porter Jr.,1998-06-29,21.0,NBA,SF,55,8,903,7.8,15.3,0.51,2.5,5.9,0.42,5.3,9.4,0.56,2.4,2.9,0.83,2.6,7.7,10.3,1.8,1.1,1.0,2.0,4.0,20.4
+2021,8,2346,DEN,Denver Nuggets,Michael Porter Jr.,1998-06-29,22.0,NBA,SF,33,26,971,7.4,14.1,0.52,2.8,6.8,0.42,4.6,7.3,0.63,1.9,2.6,0.75,1.7,7.3,9.0,1.1,0.9,1.2,1.3,2.6,19.5

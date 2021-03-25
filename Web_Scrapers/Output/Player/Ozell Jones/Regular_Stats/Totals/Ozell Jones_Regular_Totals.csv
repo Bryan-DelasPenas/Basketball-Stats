@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1985,27,1558,SAS,San Antonio Spurs,Ozell Jones,1960-11-20,24.0,NBA,C,67.0,6.0,888.0,106.0,180.0,0.59,0.0,1.0,0.0,106.0,179.0,0.59,0.59,33.0,83.0,0.4,65.0,173.0,238.0,56.0,30.0,57.0,61.0,139.0,245.0
+1986,13,1558,LAC,Los Angeles Clippers,Ozell Jones,1960-11-20,25.0,NBA,C,3.0,0.0,18.0,0.0,2.0,0.0,0.0,0.0,,0.0,2.0,0.0,0.0,0.0,0.0,,0.0,2.0,2.0,0.0,2.0,1.0,3.0,5.0,0.0

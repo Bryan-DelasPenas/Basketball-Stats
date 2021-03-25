@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1999,24,143,PHO,Phoenix Suns,Toby Bailey,1975-11-19,23.0,NBA,SG,27,10,249,4.9,12.4,0.4,0.1,0.7,0.2,4.8,11.7,0.41,1.3,1.9,0.69,3.5,4.3,7.8,1.9,1.3,0.3,1.6,3.5,11.3
+2000,24,143,PHO,Phoenix Suns,Toby Bailey,1975-11-19,24.0,NBA,SG,46,2,449,4.7,11.2,0.41,0.2,0.8,0.2,4.5,10.4,0.43,3.6,5.2,0.69,2.1,3.7,5.8,2.4,1.0,0.3,1.9,4.4,13.1

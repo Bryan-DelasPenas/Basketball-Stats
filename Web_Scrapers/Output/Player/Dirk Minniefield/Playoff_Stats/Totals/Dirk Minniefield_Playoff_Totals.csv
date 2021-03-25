@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1987,11,2011,HOU,Houston Rockets,Dirk Minniefield,1961-01-17,26.0,NBA,PG,8.0,0.0,27.0,4.0,8.0,0.5,0.0,1.0,0.0,4.0,7.0,0.57,0.5,6.0,6.0,1.0,2.0,0.0,2.0,2.0,1.0,0.0,4.0,8.0,14.0
+1988,2,2011,BOS,Boston Celtics,Dirk Minniefield,1961-01-17,27.0,NBA,PG,11.0,0.0,50.0,6.0,14.0,0.43,2.0,4.0,0.5,4.0,10.0,0.4,0.5,2.0,2.0,1.0,1.0,1.0,2.0,11.0,2.0,0.0,10.0,13.0,16.0

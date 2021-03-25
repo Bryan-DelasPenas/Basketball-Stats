@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1980,20,730,NYK,New York Knicks,Larry Demic,1957-06-27,22.0,NBA,PF,82,1872,7.4,0.47,0.0,0.35,11.2,16.9,14.1,4.1,1.3,0.9,21.6,16.0,-1.4,1.3,-0.1,-0.0,-4.5,-1.6,-6.2,-2.0
+1981,20,730,NYK,New York Knicks,Larry Demic,1957-06-27,23.0,NBA,PF,76,964,10.4,0.53,0.01,0.36,13.0,15.8,14.4,3.9,0.6,0.8,16.5,14.8,0.8,0.8,1.6,0.08,-2.5,-1.5,-4.0,-0.5
+1982,20,730,NYK,New York Knicks,Larry Demic,1957-06-27,24.0,NBA,PF,48,356,5.7,0.46,0.01,0.47,9.1,16.4,12.7,5.0,0.5,1.0,20.6,14.6,-0.4,0.2,-0.1,-0.02,-5.3,-1.2,-6.5,-0.4

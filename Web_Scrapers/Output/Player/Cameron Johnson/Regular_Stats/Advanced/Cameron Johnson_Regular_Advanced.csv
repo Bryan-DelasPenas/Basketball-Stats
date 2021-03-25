@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,24,1473,PHO,Phoenix Suns,Cameron Johnson,1996-03-03,23.0,NBA,PF,57,1255,12.9,0.59,0.67,0.14,4.3,12.4,8.3,7.7,1.4,1.4,6.9,15.7,1.7,1.0,2.7,0.1,0.8,-0.4,0.3,0.7
+2021,24,1473,PHO,Phoenix Suns,Cameron Johnson,1996-03-03,24.0,NBA,PF,36,857,13.2,0.59,0.68,0.12,2.7,12.5,7.8,7.8,1.3,1.3,8.0,17.6,0.9,1.0,2.0,0.11,1.0,-0.2,0.8,0.6

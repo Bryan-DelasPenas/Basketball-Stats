@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2015,12,2532,IND,Indiana Pacers,Damjan Rudez,1986-06-17,28.0,NBA,SF,68.0,2.0,15.4,1.8,3.9,0.45,1.0,2.5,0.41,0.7,1.4,0.54,0.58,0.2,0.3,0.7,0.1,0.6,0.7,0.8,0.2,0.1,0.7,1.2,4.8
+2016,18,2532,MIN,Minnesota Timberwolves,Damjan Rudez,1986-06-17,29.0,NBA,SF,33.0,0.0,8.4,0.8,1.9,0.4,0.5,1.5,0.34,0.2,0.4,0.67,0.54,0.2,0.2,1.0,0.2,0.5,0.6,0.3,0.1,0.0,0.4,1.0,2.3
+2017,22,2532,ORL,Orlando Magic,Damjan Rudez,1986-06-17,30.0,NBA,SF,45.0,0.0,7.0,0.7,2.0,0.35,0.4,1.4,0.31,0.2,0.5,0.46,0.47,0.0,0.0,,0.1,0.4,0.6,0.4,0.3,0.0,0.2,0.7,1.8

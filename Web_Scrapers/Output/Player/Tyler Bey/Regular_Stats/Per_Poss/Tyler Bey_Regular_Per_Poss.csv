@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2021,7,237,DAL,Dallas Mavericks,Tyler Bey,1998-02-10,22.0,NBA,SF,6,0,21,4.7,18.7,0.25,0.0,2.3,0.0,4.7,16.4,0.29,4.7,9.4,0.5,4.7,9.4,14.0,2.3,0.0,2.3,0.0,7.0,14.0,84,113

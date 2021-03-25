@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2019,25,2646,POR,Portland Trail Blazers,Anfernee Simons,1999-06-08,19.0,NBA,SG,20,1,141,9.6,21.6,0.44,3.4,10.0,0.34,6.2,11.7,0.53,3.1,5.5,0.56,1.0,3.4,4.5,4.5,0.3,0.0,3.8,3.1,25.8,102,116
+2020,25,2646,POR,Portland Trail Blazers,Anfernee Simons,1999-06-08,20.0,NBA,SG,70,4,1449,7.0,17.6,0.4,2.5,7.4,0.33,4.6,10.2,0.45,2.5,3.0,0.83,0.8,4.2,5.0,3.2,0.9,0.3,2.0,4.4,19.0,102,119
+2021,25,2646,POR,Portland Trail Blazers,Anfernee Simons,1999-06-08,21.0,NBA,SG,36,0,597,8.0,20.2,0.39,5.7,14.0,0.41,2.2,6.2,0.36,2.0,2.5,0.8,0.7,6.2,6.8,4.2,0.7,0.4,2.4,5.0,23.6,110,121

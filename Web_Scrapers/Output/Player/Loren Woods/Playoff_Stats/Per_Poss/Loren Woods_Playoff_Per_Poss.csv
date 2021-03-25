@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2003,18,3234,MIN,Minnesota Timberwolves,Loren Woods,1978-06-21,24.0,NBA,C,2.0,0.0,2.0,25.3,76.0,0.33,0.0,0.0,,25.3,76.0,0.33,0.0,0.0,,25.3,0.0,25.3,0.0,0.0,0.0,0.0,0.0,50.6,86.0,120.0
+2004,16,3234,MIA,Miami Heat,Loren Woods,1978-06-21,25.0,NBA,C,1.0,0.0,2.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,108.0
+2008,11,3234,HOU,Houston Rockets,Loren Woods,1978-06-21,29.0,NBA,C,1.0,0.0,1.0,56.6,56.6,1.0,0.0,0.0,,56.6,56.6,1.0,0.0,0.0,,56.6,0.0,56.6,0.0,0.0,0.0,0.0,0.0,113.2,203.0,117.0

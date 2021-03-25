@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1994,10,731,GSW,Golden State Warriors,Dell Demps,1970-02-12,23.0,NBA,PG,2.0,11.0,4.5,0.29,0.0,0.33,0.0,0.0,0.0,12.9,8.8,0.0,12.7,29.5,-0.1,0.0,0.0,-0.21,-10.5,2.4,-8.0,0.0
+1996,27,731,SAS,San Antonio Spurs,Dell Demps,1970-02-12,25.0,NBA,SG,16.0,87.0,17.1,0.66,0.06,0.52,2.7,8.6,5.8,15.9,1.8,0.8,22.9,27.1,0.1,0.1,0.2,0.1,-2.0,0.2,-1.8,0.0
+1997,22,731,ORL,Orlando Magic,Dell Demps,1970-02-12,26.0,NBA,SG,2.0,10.0,1.9,0.26,0.33,0.67,0.0,0.0,0.0,0.0,5.4,0.0,0.0,17.9,0.0,0.0,0.0,-0.07,-7.0,2.9,-4.2,0.0

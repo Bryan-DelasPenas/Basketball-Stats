@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2005,7,2328,DAL,Dallas Mavericks,Pavel Podkolzin,1985-01-15,20.0,NBA,C,5,0,10,0.0,0.0,,0.0,0.0,,0.0,0.0,,5.2,10.4,0.5,0.0,10.4,10.4,0.0,0.0,0.0,10.4,20.7,5.2,34,105
+2006,7,2328,DAL,Dallas Mavericks,Pavel Podkolzin,1985-01-15,21.0,NBA,C,1,0,18,0.0,6.1,0.0,0.0,0.0,,0.0,6.1,0.0,9.1,18.2,0.5,0.0,21.3,21.3,0.0,0.0,3.0,6.1,0.0,9.1,50,97

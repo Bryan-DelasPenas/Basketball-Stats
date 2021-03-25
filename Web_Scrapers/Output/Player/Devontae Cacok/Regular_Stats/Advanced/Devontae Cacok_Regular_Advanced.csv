@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,14,449,LAL,Los Angeles Lakers,Devontae Cacok,1996-10-08,23.0,NBA,C,1,9,28.6,0.5,0.0,0.0,24.6,36.1,30.4,20.3,0.0,0.0,0.0,28.1,0.0,0.0,0.0,0.23,4.8,-4.6,0.2,0.0
+2021,14,449,LAL,Los Angeles Lakers,Devontae Cacok,1996-10-08,24.0,NBA,PF,8,44,19.9,0.65,0.0,0.15,10.4,19.9,15.2,3.5,4.4,2.0,12.6,15.7,0.1,0.1,0.2,0.18,0.4,2.9,3.4,0.1

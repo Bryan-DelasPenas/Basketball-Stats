@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1981,12.0,1637,IND,Indiana Pacers,Billy Knight,1952-06-09,28.0,NBA,SG,2.0,71.0,15.2,0.55,0.0,0.27,7.7,10.1,8.7,12.7,0.7,0.0,13.0,21.2,0.1,0.0,0.1,0.08,2.5,-1.6,0.9,0.1
+1984,26.0,1637,KCK,Kansas City Kings,Billy Knight,1952-06-09,31.0,NBA,SF,3.0,37.0,4.6,0.36,0.0,0.08,5.3,3.5,4.5,8.8,0.0,0.0,7.4,29.1,-0.1,0.0,-0.1,-0.14,-4.5,-4.6,-9.1,-0.1
+1985,27.0,1637,SAS,San Antonio Spurs,Billy Knight,1952-06-09,32.0,NBA,SF,5.0,45.0,11.9,0.53,0.27,0.0,8.3,7.3,7.8,9.8,2.0,0.0,11.8,15.5,0.0,0.0,0.0,0.04,1.6,-1.2,0.5,0.0

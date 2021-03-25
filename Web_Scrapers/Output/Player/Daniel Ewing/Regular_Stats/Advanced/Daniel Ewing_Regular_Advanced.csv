@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2006,13,884,LAC,Los Angeles Clippers,Daniel Ewing,1983-03-26,22.0,NBA,SG,66,971,7.6,0.46,0.31,0.18,2.9,7.1,5.1,13.2,2.0,0.5,17.2,15.8,-0.7,1.0,0.3,0.02,-3.8,0.6,-3.2,-0.3
+2007,13,884,LAC,Los Angeles Clippers,Daniel Ewing,1983-03-26,23.0,NBA,PG,61,712,9.3,0.5,0.27,0.28,1.5,10.7,6.1,19.8,2.4,0.4,21.7,15.0,-0.3,0.7,0.5,0.03,-3.4,0.6,-2.8,-0.1

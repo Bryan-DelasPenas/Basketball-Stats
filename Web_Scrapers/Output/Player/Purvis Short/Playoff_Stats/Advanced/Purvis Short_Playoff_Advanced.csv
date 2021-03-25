@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1987,10,2624,GSW,Golden State Warriors,Purvis Short,1957-07-02,29.0,NBA,SF,10.0,253.0,15.0,0.53,0.02,0.29,5.1,10.2,7.4,16.3,2.3,0.5,13.1,26.1,0.1,0.2,0.3,0.06,0.4,-0.7,-0.3,0.1
+1988,11,2624,HOU,Houston Rockets,Purvis Short,1957-07-02,30.0,NBA,SG,4.0,71.0,3.1,0.37,0.04,0.31,6.0,8.0,7.0,2.0,0.7,0.0,11.9,19.9,-0.1,0.0,-0.1,-0.07,-7.3,-3.6,-10.9,-0.2
+1989,11,2624,HOU,Houston Rockets,Purvis Short,1957-07-02,31.0,NBA,SF,4.0,37.0,10.0,0.41,0.1,0.24,18.6,9.3,13.9,4.4,0.0,0.0,4.1,27.2,0.0,0.0,0.0,0.0,-2.6,-4.1,-6.7,0.0

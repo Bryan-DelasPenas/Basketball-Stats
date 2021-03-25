@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2000,10,645,GSW,Golden State Warriors,Vonteego Cummings,1976-02-29,23.0,NBA,PG,75.0,1793.0,12.9,0.48,0.23,0.26,3.1,7.9,5.4,22.6,2.6,0.5,15.3,20.2,0.7,0.7,1.3,0.04,-1.2,-0.5,-1.7,0.2
+2001,10,645,GSW,Golden State Warriors,Vonteego Cummings,1976-02-29,24.0,NBA,PG,66.0,1495.0,10.4,0.42,0.28,0.22,3.1,7.0,4.9,24.4,2.3,0.7,13.8,18.6,-0.2,0.4,0.2,0.01,-2.6,-0.8,-3.4,-0.5
+2002,23,645,PHI,Philadelphia 76Ers,Vonteego Cummings,1976-02-29,25.0,NBA,PG,58.0,501.0,11.8,0.48,0.25,0.17,3.2,8.5,5.9,21.6,1.9,0.8,15.2,21.7,0.0,0.6,0.6,0.06,-1.8,0.2,-1.6,0.1

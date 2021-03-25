@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1986,31,1853,TOT,Total After Trade,Brian Martin,1962-08-18,23.0,NBA,"PF,SF",8.0,0.0,21.0,5.1,12.0,0.43,0.0,0.0,,5.1,12.0,0.43,0.0,3.4,0.0,1.7,5.1,6.9,0.0,0.0,1.7,3.4,12.0,10.3
+1986,21,1853,SEA,Seattle Supersonics,Brian Martin,1962-08-18,23.0,NBA,PF,3.0,0.0,7.0,5.1,10.3,0.5,0.0,0.0,,5.1,10.3,0.5,0.0,0.0,,5.1,15.4,20.6,0.0,0.0,5.1,10.3,10.3,10.3
+1986,25,1853,POR,Portland Trail Blazers,Brian Martin,1962-08-18,23.0,NBA,SF,5.0,0.0,14.0,5.1,12.9,0.4,0.0,0.0,,5.1,12.9,0.4,0.0,5.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.9,10.3

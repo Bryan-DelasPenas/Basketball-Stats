@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,20,338,NYK,New York Knicks,Ignas Brazdeikis,1999-01-08,21.0,NBA,SF,9,0,53,4.1,14.9,0.27,0.7,6.1,0.11,3.4,8.8,0.38,2.7,3.4,0.8,1.4,2.0,3.4,2.7,0.0,0.7,1.4,2.0,11.5
+2021,20,338,NYK,New York Knicks,Ignas Brazdeikis,1999-01-08,22.0,NBA,SF,4,0,7,0.0,5.1,0.0,0.0,0.0,,0.0,5.1,0.0,10.3,10.3,1.0,5.1,5.1,10.3,5.1,0.0,0.0,5.1,0.0,10.3

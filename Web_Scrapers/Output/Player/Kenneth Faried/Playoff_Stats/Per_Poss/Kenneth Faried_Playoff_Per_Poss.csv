@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2012,8,891,DEN,Denver Nuggets,Kenneth Faried,1989-11-19,22.0,NBA,PF,7.0,7.0,192.0,8.9,16.6,0.53,0.0,0.0,,8.9,16.6,0.53,2.5,3.3,0.75,6.9,12.5,19.4,1.1,1.4,2.2,3.9,5.5,20.2,106.0,102.0
+2013,8,891,DEN,Denver Nuggets,Kenneth Faried,1989-11-19,23.0,NBA,PF,5.0,4.0,145.0,6.8,10.9,0.62,0.0,0.0,,6.8,10.9,0.62,3.7,5.1,0.73,4.1,10.2,14.3,0.3,1.7,0.3,1.7,7.5,17.4,126.0,108.0
+2019,11,891,HOU,Houston Rockets,Kenneth Faried,1989-11-19,29.0,NBA,C,6.0,0.0,56.0,8.0,11.5,0.69,0.9,0.9,1.0,7.1,10.6,0.67,4.4,5.3,0.83,2.7,15.9,18.6,1.8,1.8,0.0,0.0,5.3,21.2,166.0,103.0

@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2012,1,1493,ATL,Atlanta Hawks,Ivan Johnson,1984-04-10,27.0,NBA,PF,56,934,14.3,0.56,0.02,0.36,8.2,20.1,14.2,5.7,2.4,1.5,17.8,19.5,0.5,1.7,2.2,0.11,-2.8,0.6,-2.2,0.0
+2013,1,1493,ATL,Atlanta Hawks,Ivan Johnson,1984-04-10,28.0,NBA,PF,69,1035,15.7,0.55,0.04,0.37,8.5,20.7,14.7,7.4,2.8,1.0,14.7,21.7,0.6,1.7,2.3,0.11,-2.3,0.7,-1.6,0.1

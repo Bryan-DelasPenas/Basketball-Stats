@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2016,7,76,DAL,Dallas Mavericks,Justin Anderson,1993-11-19,22.0,NBA,SF,5.0,1.0,95.0,9.4,20.4,0.46,2.2,7.2,0.31,7.2,13.2,0.54,5.0,7.7,0.64,5.0,6.1,11.0,3.9,2.2,1.7,2.8,6.6,25.9,110.0,119.0
+2018,23,76,PHI,Philadelphia 76Ers,Justin Anderson,1993-11-19,24.0,NBA,SF,7.0,0.0,33.0,4.5,11.9,0.38,3.0,10.4,0.29,1.5,1.5,1.0,0.0,0.0,,1.5,11.9,13.4,0.0,1.5,0.0,3.0,11.9,11.9,83.0,105.0
+2020,3,76,BRK,Brooklyn Nets,Justin Anderson,1993-11-19,26.0,NBA,SG,3.0,0.0,28.0,8.3,19.9,0.42,8.3,18.2,0.46,0.0,1.7,0.0,6.6,6.6,1.0,0.0,13.3,13.3,5.0,0.0,1.7,3.3,3.3,31.5,121.0,120.0

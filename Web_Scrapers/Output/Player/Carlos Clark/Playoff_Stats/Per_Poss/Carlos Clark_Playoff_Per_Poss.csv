@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1984,2,539,BOS,Boston Celtics,Carlos Clark,1960-08-10,23.0,NBA,SG,8,,20,9.8,24.5,0.4,0.0,0.0,,9.8,24.5,0.4,2.4,4.9,0.5,2.4,0.0,2.4,2.4,2.4,4.9,2.4,7.3,22.0,91,106
+1985,2,539,BOS,Boston Celtics,Carlos Clark,1960-08-10,24.0,NBA,SG,3,0.0,11,12.9,21.5,0.6,0.0,0.0,,12.9,21.5,0.6,8.6,8.6,1.0,8.6,0.0,8.6,12.9,4.3,0.0,0.0,8.6,34.4,162,108

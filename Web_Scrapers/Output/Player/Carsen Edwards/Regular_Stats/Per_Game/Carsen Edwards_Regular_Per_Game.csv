@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,2,830,BOS,Boston Celtics,Carsen Edwards,1998-03-12,21.0,NBA,SG,37,0,9.5,1.1,3.5,0.33,0.6,2.1,0.32,0.5,1.4,0.35,0.42,0.4,0.5,0.68,0.2,1.1,1.3,0.6,0.3,0.1,0.4,0.9,3.3
+2021,2,830,BOS,Boston Celtics,Carsen Edwards,1998-03-12,22.0,NBA,SG,16,1,10.2,2.0,4.3,0.46,0.7,2.3,0.31,1.3,2.1,0.64,0.54,0.4,0.6,0.78,0.1,1.0,1.1,0.6,0.3,0.1,0.1,1.2,5.1

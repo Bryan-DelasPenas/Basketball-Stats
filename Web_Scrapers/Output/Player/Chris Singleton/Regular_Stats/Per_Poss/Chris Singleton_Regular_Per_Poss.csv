@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2012,30,2654,WAS,Washington Wizards,Chris Singleton,1989-11-21,22.0,NBA,SF,66,51,1431,4.2,11.3,0.37,1.6,4.6,0.35,2.6,6.7,0.39,1.1,1.6,0.68,1.6,6.9,8.4,1.8,2.5,1.1,1.4,6.4,11.1,97,105
+2013,30,2654,WAS,Washington Wizards,Chris Singleton,1989-11-21,23.0,NBA,PF,57,11,924,5.2,13.6,0.38,0.4,2.0,0.19,4.8,11.6,0.42,2.3,3.9,0.57,2.9,7.5,10.4,2.1,2.1,1.4,2.5,7.0,13.0,87,101
+2014,30,2654,WAS,Washington Wizards,Chris Singleton,1989-11-21,24.0,NBA,SF,25,0,250,5.1,13.8,0.37,1.4,3.9,0.37,3.7,9.9,0.38,3.7,5.1,0.72,3.7,7.6,11.3,1.2,1.9,0.6,3.5,5.1,15.4,92,104

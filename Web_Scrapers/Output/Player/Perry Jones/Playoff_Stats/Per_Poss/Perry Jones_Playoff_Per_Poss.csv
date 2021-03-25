@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2013,21,1559,OKC,Oklahoma City Thunder,Perry Jones,1991-09-24,21.0,NBA,SF,1,0,5,0.0,10.3,0.0,0.0,0.0,,0.0,10.3,0.0,0.0,0.0,,0.0,10.3,10.3,0.0,0.0,0.0,0.0,0.0,0.0,0,107
+2014,21,1559,OKC,Oklahoma City Thunder,Perry Jones,1991-09-24,22.0,NBA,PF,11,0,55,6.6,17.0,0.39,2.8,9.5,0.3,3.8,7.6,0.5,0.0,0.0,,2.8,5.7,8.5,0.9,0.0,0.9,0.9,8.5,16.1,103,113

@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2017,21,2545,OKC,Oklahoma City Thunder,Domantas Sabonis,1996-05-03,20.0,NBA,PF,2.0,0.0,6.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,4.0,4.0,1.0,0.0,2.0,2.0,0.0,1.0,1.0,0.0,4.0,4.0
+2018,12,2545,IND,Indiana Pacers,Domantas Sabonis,1996-05-03,21.0,NBA,C,7.0,0.0,166.0,36.0,62.0,0.58,1.0,7.0,0.14,35.0,55.0,0.64,0.59,14.0,18.0,0.78,14.0,18.0,32.0,5.0,1.0,2.0,7.0,22.0,87.0
+2019,12,2545,IND,Indiana Pacers,Domantas Sabonis,1996-05-03,22.0,NBA,C,4.0,0.0,96.0,12.0,29.0,0.41,1.0,4.0,0.25,11.0,25.0,0.44,0.43,9.0,14.0,0.64,7.0,22.0,29.0,16.0,3.0,1.0,5.0,12.0,34.0

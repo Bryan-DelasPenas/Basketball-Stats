@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,4,1924,CHO,Charlotte Hornets,Jalen McDaniels,1998-01-31,22.0,NBA,SF,16,0,293,4.1,8.6,0.47,1.1,2.9,0.38,2.9,5.7,0.52,1.7,2.1,0.82,1.8,6.1,8.0,1.6,1.0,0.4,1.4,4.4,10.9
+2021,4,1924,CHO,Charlotte Hornets,Jalen McDaniels,1998-01-31,23.0,NBA,SF,20,1,230,5.2,11.6,0.45,1.3,4.2,0.3,3.9,7.4,0.53,2.3,3.3,0.71,1.3,6.1,7.4,1.4,0.3,0.8,2.7,4.9,13.9

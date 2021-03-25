@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2013,20,2370,NYK,New York Knicks,Pablo Prigioni,1977-05-17,35.0,NBA,PG,11.0,230.0,13.8,0.55,0.7,0.09,1.0,8.4,4.4,24.8,3.4,0.4,11.8,10.6,0.4,0.4,0.8,0.17,0.7,2.6,3.4,0.3
+2015,11,2370,HOU,Houston Rockets,Pablo Prigioni,1977-05-17,37.0,NBA,PG,17.0,293.0,6.8,0.45,0.72,0.07,2.2,4.5,3.4,18.7,2.4,0.0,17.0,10.1,0.1,0.1,0.2,0.02,-3.8,1.2,-2.6,0.0
+2016,13,2370,LAC,Los Angeles Clippers,Pablo Prigioni,1977-05-17,38.0,NBA,PG,5.0,26.0,-6.3,0.0,0.4,0.0,7.7,3.8,5.7,34.8,0.0,0.0,37.5,13.7,-0.1,0.0,-0.1,-0.22,-12.2,-3.4,-15.6,-0.1

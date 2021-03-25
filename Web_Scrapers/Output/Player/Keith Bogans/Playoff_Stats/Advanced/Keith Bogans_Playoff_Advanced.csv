@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2008,22,275,ORL,Orlando Magic,Keith Bogans,1980-05-12,27.0,NBA,SG,10.0,293.0,7.6,0.5,0.66,0.16,1.6,15.0,8.4,5.8,0.7,0.0,8.8,13.0,0.1,0.2,0.3,0.05,-1.7,0.3,-1.4,0.0
+2010,27,275,SAS,San Antonio Spurs,Keith Bogans,1980-05-12,29.0,NBA,SF,8.0,55.0,-0.6,0.25,0.6,0.0,2.1,10.4,6.2,5.0,1.9,1.5,16.7,10.2,-0.1,0.0,-0.1,-0.08,-6.8,1.1,-5.7,-0.1
+2011,5,275,CHI,Chicago Bulls,Keith Bogans,1980-05-12,30.0,NBA,SG,16.0,307.0,9.3,0.58,0.86,0.06,1.5,6.3,3.9,6.4,1.8,0.8,9.0,11.7,0.4,0.4,0.7,0.12,-0.7,1.6,0.9,0.2
+2013,3,275,BRK,Brooklyn Nets,Keith Bogans,1980-05-12,32.0,NBA,SG,2.0,23.0,-2.3,0.0,1.0,0.0,0.0,10.6,5.2,11.8,0.0,0.0,50.0,4.1,0.0,0.0,0.0,-0.06,-7.7,-0.7,-8.4,0.0

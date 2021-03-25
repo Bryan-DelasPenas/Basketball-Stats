@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2013,25,967,POR,Portland Trail Blazers,Joel Freeland,1987-02-07,25.0,NBA,PF,51,1,477,4.4,10.7,0.41,0.0,0.0,,4.4,10.7,0.41,1.4,2.0,0.67,3.0,6.0,9.0,1.0,1.0,0.8,1.4,5.1,10.1
+2014,25,967,POR,Portland Trail Blazers,Joel Freeland,1987-02-07,26.0,NBA,C,52,0,727,3.8,8.0,0.48,0.0,0.1,0.0,3.8,7.9,0.48,1.0,1.4,0.69,4.4,5.9,10.3,1.8,0.5,1.1,1.6,4.7,8.6
+2015,25,967,POR,Portland Trail Blazers,Joel Freeland,1987-02-07,27.0,NBA,C,48,8,617,4.3,8.8,0.49,0.0,0.0,,4.3,8.8,0.49,1.2,1.5,0.84,3.6,7.5,11.1,0.9,0.5,1.3,1.3,5.4,9.9

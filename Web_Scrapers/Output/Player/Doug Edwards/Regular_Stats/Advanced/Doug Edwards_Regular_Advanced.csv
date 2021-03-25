@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1994,1,832,ATL,Atlanta Hawks,Doug Edwards,1971-01-21,23.0,NBA,PF,16.0,107.0,9.4,0.38,0.02,0.33,7.2,11.3,9.2,11.3,1.0,3.0,9.7,24.9,-0.2,0.1,0.0,-0.01,-5.7,-2.4,-8.1,-0.2
+1995,1,832,ATL,Atlanta Hawks,Doug Edwards,1971-01-21,24.0,NBA,PF,38.0,212.0,10.1,0.54,0.02,0.67,10.2,16.3,13.2,9.5,1.3,1.4,26.2,18.0,-0.1,0.3,0.2,0.04,-4.8,-0.1,-4.8,-0.2
+1996,15,832,VAN,Vancouver Grizzlies,Doug Edwards,1971-01-21,25.0,NBA,PF,31.0,519.0,7.5,0.43,0.04,0.42,7.6,12.2,9.8,11.8,1.0,2.6,21.2,12.0,-0.3,0.4,0.1,0.0,-4.3,0.2,-4.0,-0.3

@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2018,6,546,CLE,Cleveland Cavaliers,Jordan Clarkson,1992-06-07,25.0,NBA,SG,19.0,0.0,286.0,6.8,22.5,0.3,2.0,8.4,0.24,4.8,14.1,0.34,0.9,1.1,0.83,1.6,4.2,5.9,2.4,1.5,0.5,2.4,3.8,16.5,77.0,113.0
+2020,29,546,UTA,Utah Jazz,Jordan Clarkson,1992-06-07,27.0,NBA,SG,7.0,0.0,200.0,11.8,25.5,0.46,4.5,12.9,0.35,7.3,12.6,0.58,2.6,2.6,1.0,0.5,5.8,6.3,3.9,1.6,0.0,1.8,3.9,30.7,116.0,120.0

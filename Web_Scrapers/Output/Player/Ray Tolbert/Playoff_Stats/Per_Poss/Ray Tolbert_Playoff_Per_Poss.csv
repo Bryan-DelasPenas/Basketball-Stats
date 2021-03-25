@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1982,21,2897,SEA,Seattle Supersonics,Ray Tolbert,1958-09-10,23.0,NBA,PF,4.0,,31.0,4.9,8.2,0.6,0.0,0.0,,4.9,8.2,0.6,6.5,13.1,0.5,1.6,6.5,8.2,1.6,6.5,0.0,0.0,11.4,16.4,129.0,93.0
+1984,9,2897,DET,Detroit Pistons,Ray Tolbert,1958-09-10,25.0,NBA,PF,1.0,,2.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,117.0

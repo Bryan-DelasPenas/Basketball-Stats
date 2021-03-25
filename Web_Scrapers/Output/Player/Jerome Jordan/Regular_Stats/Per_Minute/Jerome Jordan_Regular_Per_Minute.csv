@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2012,20,1569,NYK,New York Knicks,Jerome Jordan,1986-09-29,25.0,NBA,C,21.0,0.0,108.0,5.7,11.0,0.52,0.0,0.0,,5.7,11.0,0.52,2.7,3.3,0.8,4.7,4.3,9.0,1.3,0.3,2.0,0.7,5.0,14.0
+2015,3,1569,BRK,Brooklyn Nets,Jerome Jordan,1986-09-29,28.0,NBA,C,44.0,0.0,383.0,4.7,8.8,0.53,0.0,0.0,,4.7,8.8,0.53,3.6,4.1,0.86,4.9,5.0,9.9,1.2,0.8,1.4,2.1,5.5,13.0

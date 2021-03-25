@@ -201,7 +201,7 @@ RIGHT_NAME_DICT = {
     ("Mark Jones", "1961-04-10")             : "Mark Anthony Jones",
     ("Walt Lemon", "1992-07-26")             : "Walt Lemon Jr.",
     ("Kira Lewis", "2001-04-06")             : "Kira Lewis Jr.",
-    ("Kenyon Martin", "001-01-06")           : "Kenyon Martin Jr.",
+    ("Kenyon Martin", "2001-01-06")           : "Kenyon Martin Jr.",
     ("Frank Mason", "1994-04-03")            : "Frank Mason III",
     ("Didier Ilunga-Mbenga", "1980-12-30")   : "D.J. Mbenga",
     ("Tony Mitchell", "1992-04-07")          : "Tony LaShae Mitchell",
@@ -219,9 +219,9 @@ RIGHT_NAME_DICT = {
     ("Charles Smith", "1975-08-22")          : "Charles Cornelius Smith",
     ("Chris Smith", "1970-05-17")            : "Chris G. Smith",
     ("Dennis Smith", "1997-11-25")           : "Dennis Smith Jr.",
-    ("Michael Smith", "1965-05-19")        : "Michael Smith (1965)",
-    ("Michael Smith", "1972-03-28")      : "Michael Smith (1972)",
-    ("Jeffery Taylor", "1989-05-23")       : "Jeff Matthew Taylor",
+    ("Michael Smith", "1965-05-19")          : "Michael Smith (1965)",
+    ("Michael Smith", "1972-03-28")          : "Michael Smith (1972)",
+    ("Jeffery Taylor", "1989-05-23")         : "Jeff Matthew Taylor",
     ("Xavier Tillman", "1999-01-12")         : "Xavier Tillman Sr.",
     ("Gary Trent", "1999-01-18")             : "Gary Trent Jr.",
     ("Marcus Williams", "1985-12-03")        : "Marcus Darell Williams",
@@ -330,7 +330,7 @@ RIGHT_PLAYER_SUFIX = {
     ("Frank Ntilikina", "1998-07-28")                : "Larank Ntilikina",
     ("Cedi Osman", "1995-04-08")                     : "De Osman",
     ("Sasha Pavlovic", "1983-11-15")                 : "alsha Pavlovic",
-    ("Mouhamed Sene", "1986-06-12")                  : "Sa Sene",
+    ("Mouhamed Sene", "1986-05-12")                  : "Sa Sene",
     ("Edy Tavares", "1992-03-22")                    : "Walter Tavares",
     ("Nick Van Exel", "1971-11-27")                  : "Nick VanExel",
     ("Keith Van Horn", "1975-10-23")                 : "Keith VanHorn",
@@ -338,15 +338,15 @@ RIGHT_PLAYER_SUFIX = {
     ("Marcus Vinicius", "1984-05-31")                : "Marcus Vincius",
     ("Henry Walker", "1987-10-09")                   : "Bill Walker",
     ("Mo Williams", "1982-12-19")                    : "Maurice Williams",
-    ("Metta World Peace", "1979-11-13")              : "Ron Artes"
-
+    ("Metta World Peace", "1979-11-13")              : "Ron Artes",
+    ("Wayne Engelstad", "1965-12-06")                : "Wayne Englestad"
 }
 
 '''
 If the name is correct but the page name is not correct 
 '''
 SPECIAL_NAME_DICT = {
-    ("Nene Hilario", "1982-11-13")            : "Nene",
+    ("Nene Hilario", "1982-09-13")            : "Nene",
     ("Dee Brown", "1968-11-29")               : "Dee Brown",
     ("Mark Davis","1963-06-08")               : "Mark Davis",
     ("Mark Davis", "1973-04-26")              : "Mark Davis",

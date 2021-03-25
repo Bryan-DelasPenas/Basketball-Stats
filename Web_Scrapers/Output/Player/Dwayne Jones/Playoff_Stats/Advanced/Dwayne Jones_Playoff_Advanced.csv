@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2008,6,1542,CLE,Cleveland Cavaliers,Dwayne Jones,1983-06-09,24.0,NBA,PF,5.0,20.0,6.6,0.52,0.0,1.0,11.9,24.8,18.2,0.0,0.0,4.3,25.8,9.2,0.0,0.0,0.0,0.08,-6.3,0.1,-6.2,0.0
+2010,24,1542,PHO,Phoenix Suns,Dwayne Jones,1983-06-09,26.0,NBA,PF,2.0,10.0,21.3,0.66,0.0,2.0,12.3,47.3,30.1,0.0,0.0,0.0,21.0,21.9,0.0,0.0,0.0,0.17,2.6,-1.0,1.6,0.0
+2013,10,1542,GSW,Golden State Warriors,Dwayne Jones,1983-06-09,29.0,NBA,PF,2.0,2.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,-0.01,-4.6,-5.1,-9.7,0.0

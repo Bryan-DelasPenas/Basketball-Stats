@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1988,10.0,2998,GSW,Golden State Warriors,Mark Wade,1965-10-15,22.0,NBA,PG,11,0,11.2,0.3,1.8,0.15,0.0,0.2,0.0,0.3,1.6,0.167,0.15,0.2,0.4,0.5,0.3,1.1,1.4,3.1,0.6,0.1,1.2,1.2,0.7
+1990,7.0,2998,DAL,Dallas Mavericks,Mark Wade,1965-10-15,24.0,NBA,PG,1,0,3.0,0.0,0.0,,0.0,0.0,,0.0,0.0,,,0.0,0.0,,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0

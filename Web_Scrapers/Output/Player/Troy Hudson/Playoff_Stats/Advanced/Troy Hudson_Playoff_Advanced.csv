@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2001,22,1349,ORL,Orlando Magic,Troy Hudson,1976-03-13,24.0,NBA,PG,4.0,56.0,10.3,0.36,0.14,0.29,8.9,7.4,8.2,23.5,0.9,0.0,11.3,21.0,0.0,0.0,-0.1,-0.07,-2.3,-3.3,-5.5,0.0
+2002,22,1349,ORL,Orlando Magic,Troy Hudson,1976-03-13,25.0,NBA,PG,4.0,106.0,9.1,0.46,0.1,0.33,0.0,4.1,2.1,11.6,0.0,0.0,12.7,28.8,-0.1,0.0,-0.2,-0.08,-2.3,-4.8,-7.1,-0.1
+2003,18,1349,MIN,Minnesota Timberwolves,Troy Hudson,1976-03-13,26.0,NBA,PG,6.0,221.0,21.9,0.57,0.37,0.36,0.6,5.2,3.1,26.3,1.8,0.0,11.5,28.3,0.6,0.0,0.6,0.12,5.7,-1.0,4.7,0.4

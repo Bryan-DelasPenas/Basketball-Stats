@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2019,21,740,OKC,Oklahoma City Thunder,Hamidou Diallo,1998-07-31,20.0,NBA,SG,51,3,526,5.1,11.3,0.46,0.3,1.6,0.17,4.9,9.7,0.5,2.5,4.0,0.61,2.6,4.0,6.6,1.2,1.4,0.7,1.6,5.3,13.0
+2020,21,740,OKC,Oklahoma City Thunder,Hamidou Diallo,1998-07-31,21.0,NBA,SF,46,3,896,5.3,11.9,0.45,0.6,2.3,0.28,4.7,9.6,0.48,1.5,2.5,0.6,1.8,4.9,6.7,1.4,1.5,0.4,2.0,4.1,12.8
+2021,21,740,OKC,Oklahoma City Thunder,Hamidou Diallo,1998-07-31,22.0,NBA,SG,32,5,761,6.8,14.0,0.48,0.6,1.9,0.29,6.2,12.1,0.51,3.9,6.2,0.63,1.8,6.1,7.8,3.6,1.5,0.6,2.3,3.9,18.0

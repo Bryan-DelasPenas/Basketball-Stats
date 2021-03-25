@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1989,12.0,964,IND,Indiana Pacers,Anthony Frederick,1964-12-07,24.0,NBA,SF,46,0,6.8,1.4,2.7,0.504,0.0,0.1,0.4,1.3,2.6,0.508,0.512,0.5,0.7,0.706,0.6,0.6,1.1,0.4,0.3,0.1,0.7,1.3,3.3
+1991,26.0,964,SAC,Sacramento Kings,Anthony Frederick,1964-12-07,26.0,NBA,SF,35,3,13.6,1.9,4.8,0.399,0.0,0.0,,1.9,4.8,0.399,0.399,1.2,1.7,0.717,1.0,1.4,2.4,1.3,0.6,0.4,1.1,1.4,5.1
+1992,4.0,964,CHO,Charlotte Hornets,Anthony Frederick,1964-12-07,27.0,NBA,SF,66,26,12.9,2.4,5.6,0.435,0.1,0.3,0.235,2.4,5.3,0.445,0.441,1.0,1.4,0.685,1.1,1.0,2.2,1.1,0.6,0.4,0.9,1.4,5.9

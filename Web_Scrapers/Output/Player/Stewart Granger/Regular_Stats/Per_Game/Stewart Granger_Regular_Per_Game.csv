@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1984,6.0,1080,CLE,Cleveland Cavaliers,Stewart Granger,1961-10-27,22.0,NBA,PG,56,13,13.2,1.7,4.0,0.429,0.1,0.2,0.308,1.7,3.8,0.437,0.438,0.9,1.3,0.757,0.1,0.8,1.0,2.4,0.4,0.0,1.0,1.7,4.5
+1985,1.0,1080,ATL,Atlanta Hawks,Stewart Granger,1961-10-27,23.0,NBA,PG,9,1,10.2,0.7,1.9,0.353,0.0,0.1,0.0,0.7,1.8,0.375,0.353,0.4,0.9,0.5,0.1,0.6,0.7,1.3,0.2,0.0,1.3,1.4,1.8
+1987,20.0,1080,NYK,New York Knicks,Stewart Granger,1961-10-27,25.0,NBA,PG,15,0,11.1,1.3,3.6,0.37,0.0,0.2,0.0,1.3,3.4,0.392,0.37,0.6,0.7,0.818,0.4,0.7,1.1,1.8,0.5,0.1,1.5,1.1,3.3

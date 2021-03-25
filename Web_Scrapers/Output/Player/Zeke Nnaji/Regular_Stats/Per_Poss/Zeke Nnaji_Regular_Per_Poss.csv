@@ -1,0 +1,2 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2021,8,2152,DEN,Denver Nuggets,Zeke Nnaji,2001-01-09,20.0,NBA,PF,28,1,296,6.7,12.4,0.54,2.8,6.7,0.42,3.8,5.7,0.68,0.8,1.2,0.71,2.0,5.2,7.2,0.8,0.7,0.5,1.0,3.7,17.0,127,116

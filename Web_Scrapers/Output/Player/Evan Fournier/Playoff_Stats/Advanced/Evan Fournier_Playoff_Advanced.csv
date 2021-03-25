@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2013,8,950,DEN,Denver Nuggets,Evan Fournier,1992-10-29,20.0,NBA,SG,4.0,53.0,4.1,0.46,0.47,0.47,0.0,0.0,0.0,11.4,1.9,0.0,22.6,21.4,-0.1,0.0,-0.1,-0.1,-5.4,-2.1,-7.5,-0.1
+2019,22,950,ORL,Orlando Magic,Evan Fournier,1992-10-29,26.0,NBA,SG,5.0,175.0,5.0,0.43,0.49,0.12,1.7,8.7,5.0,10.7,2.0,0.0,14.2,21.4,-0.4,0.1,-0.3,-0.09,-4.4,-0.5,-4.8,-0.1
+2020,22,950,ORL,Orlando Magic,Evan Fournier,1992-10-29,27.0,NBA,SF,5.0,171.0,8.9,0.5,0.61,0.3,1.7,10.7,6.0,11.6,1.6,1.8,12.2,18.3,-0.2,0.2,0.0,0.01,-1.5,-0.6,-2.1,0.0

@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2011,3,1427,NJN,New Jersey Nets,Damion James,1987-10-07,23.0,NBA,SF,25.0,403.0,10.1,0.48,0.03,0.27,4.8,20.5,12.5,8.1,2.1,2.3,17.8,16.2,-0.4,0.5,0.1,0.02,-3.8,1.1,-2.6,-0.1
+2012,3,1427,NJN,New Jersey Nets,Damion James,1987-10-07,24.0,NBA,SF,7.0,170.0,6.1,0.42,0.03,0.34,4.6,18.3,11.3,2.8,2.2,3.2,23.0,14.1,-0.3,0.1,-0.2,-0.04,-6.2,0.2,-6.0,-0.2
+2013,3,1427,BRK,Brooklyn Nets,Damion James,1987-10-07,25.0,NBA,SF,2.0,0.0,,,,,,,,,,,,,0.0,0.0,0.0,,-3.8,17.8,14.0,0.0
+2014,27,1427,SAS,San Antonio Spurs,Damion James,1987-10-07,26.0,NBA,SF,5.0,50.0,4.1,0.3,0.22,0.22,2.4,23.8,13.5,7.5,0.0,1.4,9.2,9.8,-0.1,0.1,0.0,0.01,-4.9,0.2,-4.7,0.0

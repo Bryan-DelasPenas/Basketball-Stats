@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2010,26,357,SAC,Sacramento Kings,Jon Brockman,1987-03-20,22.0,NBA,PF,52.0,4.0,12.6,1.1,2.0,0.53,0.0,0.0,,1.1,2.0,0.53,0.53,0.7,1.2,0.6,2.0,2.1,4.1,0.4,0.3,0.1,0.4,2.2,2.8
+2011,17,357,MIL,Milwaukee Bucks,Jon Brockman,1987-03-20,23.0,NBA,C,63.0,6.0,10.7,0.8,1.5,0.51,0.0,0.0,,0.8,1.5,0.51,0.51,0.6,0.9,0.68,1.2,1.7,2.9,0.3,0.2,0.0,0.4,1.9,2.2
+2012,17,357,MIL,Milwaukee Bucks,Jon Brockman,1987-03-20,24.0,NBA,PF,35.0,0.0,6.8,0.4,1.3,0.33,0.0,0.0,0.0,0.4,1.3,0.34,0.33,0.2,0.4,0.47,0.9,1.2,2.1,0.3,0.1,0.0,0.3,0.9,1.1

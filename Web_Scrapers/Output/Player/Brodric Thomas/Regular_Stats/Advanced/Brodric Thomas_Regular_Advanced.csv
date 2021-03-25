@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2021,31,2848,TOT,Total After Trade,Brodric Thomas,1997-01-28,24.0,NBA,SG,9.0,63.0,15.5,0.57,0.56,0.39,3.3,8.9,6.0,22.0,1.5,2.8,12.9,21.1,0.1,0.1,0.1,0.11,0.3,1.0,1.2,0.1
+2021,11,2848,HOU,Houston Rockets,Brodric Thomas,1997-01-28,24.0,NBA,SG,4.0,24.0,7.4,0.5,0.86,1.0,4.2,13.9,8.8,23.3,2.0,3.7,28.4,25.0,-0.1,0.0,0.0,-0.05,-6.9,-0.5,-7.3,0.0
+2021,6,2848,CLE,Cleveland Cavaliers,Brodric Thomas,1997-01-28,24.0,NBA,SG,5.0,39.0,20.4,0.62,0.44,0.12,2.8,5.9,4.3,21.3,1.3,2.3,0.0,18.7,0.1,0.0,0.2,0.2,4.7,1.9,6.5,0.1

@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+2020,28,2864,TOR,Toronto Raptors,Matt Thomas,1994-08-04,25.0,NBA,SG,41,440,13.3,0.65,0.66,0.08,2.2,12.2,7.3,7.5,1.1,0.2,9.3,16.6,0.7,0.6,1.2,0.13,1.0,0.1,1.1,0.3
+2021,28,2864,TOR,Toronto Raptors,Matt Thomas,1994-08-04,26.0,NBA,SG,26,192,8.1,0.55,0.66,0.11,1.7,10.7,6.0,6.7,0.5,0.0,8.4,16.0,0.0,0.1,0.1,0.02,-2.2,-2.5,-4.7,-0.1

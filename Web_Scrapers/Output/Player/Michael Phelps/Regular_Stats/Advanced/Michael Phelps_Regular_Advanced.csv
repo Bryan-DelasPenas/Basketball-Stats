@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1986,21,2306,SEA,Seattle Supersonics,Michael Phelps,1961-10-03,24.0,NBA,SG,70.0,880.0,7.7,0.44,0.04,0.26,3.8,8.3,6.0,11.5,2.5,0.1,16.3,18.1,-1.0,1.0,-0.1,-0.0,-4.6,0.3,-4.4,-0.5
+1987,21,2306,SEA,Seattle Supersonics,Michael Phelps,1961-10-03,25.0,NBA,SG,60.0,469.0,10.3,0.47,0.06,0.25,3.7,7.9,5.8,18.3,2.1,0.2,14.1,19.1,0.0,0.3,0.3,0.04,-3.0,-0.3,-3.3,-0.2
+1988,13,2306,LAC,Los Angeles Clippers,Michael Phelps,1961-10-03,26.0,NBA,SG,2.0,23.0,19.3,0.51,0.0,0.57,0.0,9.6,4.6,19.3,10.3,0.0,18.6,19.0,0.0,0.1,0.1,0.13,-1.6,7.7,6.1,0.0

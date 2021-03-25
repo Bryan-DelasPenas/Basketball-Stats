@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+1981,24,1657,PHO,Phoenix Suns,Joel Kramer,1955-11-30,25.0,NBA,PF,7,,101,13,25,0.52,0.0,0.0,,13,25,0.52,0.52,1,2,0.5,2,14,16,4,2,2,1,18,27
+1982,24,1657,PHO,Phoenix Suns,Joel Kramer,1955-11-30,26.0,NBA,PF,4,,20,5,7,0.71,0.0,0.0,,5,7,0.71,0.71,2,3,0.67,2,3,5,1,1,0,1,2,12
+1983,24,1657,PHO,Phoenix Suns,Joel Kramer,1955-11-30,27.0,NBA,C,2,,6,0,2,0.0,0.0,0.0,,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,5 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,MP,PER,TS%,3PAr,FTr,ORB%,DRB%,TRB%,AST%,STL%,BLK%,TOV%,USG%,OWS,DWS,WS,WS/48,OBPM,DBPM,BPM,VORP
+1983,23,1958,PHI,Philadelphia 76Ers,Mark McNamara,1959-06-08,23.0,NBA,C,2.0,2.0,85.2,1.0,0.0,0.0,0.0,54.3,27.9,0.0,0.0,0.0,0.0,41.6,0.1,0.0,0.1,1.49,38.3,9.2,47.6,0.0
+1987,23,1958,PHI,Philadelphia 76Ers,Mark McNamara,1959-06-08,27.0,NBA,C,1.0,2.0,44.1,1.0,0.0,0.0,0.0,53.7,28.4,0.0,0.0,0.0,0.0,20.7,0.0,0.0,0.0,0.39,17.8,7.8,25.6,0.0
+1989,14,1958,LAL,Los Angeles Lakers,Mark McNamara,1959-06-08,29.0,NBA,C,3.0,7.0,11.8,0.52,0.0,1.0,0.0,15.3,8.2,0.0,0.0,0.0,0.0,17.9,0.0,0.0,0.0,0.07,-1.2,-4.4,-5.6,0.0
+1990,14,1958,LAL,Los Angeles Lakers,Mark McNamara,1959-06-08,30.0,NBA,C,2.0,5.0,-5.4,0.25,0.0,0.0,0.0,22.9,11.9,0.0,0.0,0.0,0.0,35.2,0.0,0.0,0.0,-0.3,-16.4,-9.7,-26.1,0.0

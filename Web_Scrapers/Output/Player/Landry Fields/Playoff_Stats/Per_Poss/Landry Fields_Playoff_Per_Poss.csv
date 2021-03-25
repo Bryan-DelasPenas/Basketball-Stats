@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+2011,20,917,NYK,New York Knicks,Landry Fields,1988-06-27,22.0,NBA,SG,4.0,4.0,71.0,2.2,11.1,0.2,0.0,2.9,0.0,2.2,8.1,0.27,0.7,4.4,0.17,0.7,2.9,3.7,3.7,1.5,2.2,2.9,0.0,5.2,49.0,110.0
+2012,20,917,NYK,New York Knicks,Landry Fields,1988-06-27,23.0,NBA,SG,5.0,4.0,115.0,7.2,14.9,0.48,0.5,2.4,0.2,6.7,12.5,0.54,2.4,3.4,0.71,1.9,5.3,7.2,3.4,1.4,0.0,4.3,2.4,17.3,95.0,113.0
+2014,28,917,TOR,Toronto Raptors,Landry Fields,1988-06-27,25.0,NBA,SF,3.0,0.0,26.0,0.0,4.2,0.0,0.0,0.0,,0.0,4.2,0.0,0.0,0.0,,4.2,10.4,14.5,2.1,8.3,2.1,2.1,4.2,0.0,55.0,91.0

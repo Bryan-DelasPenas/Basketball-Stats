@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2002,8,183,DEN,Denver Nuggets,Mengke Bateer,1975-11-20,26.0,NBA,C,27.0,10.0,408.0,4.7,11.6,0.4,0.4,1.1,0.33,4.3,10.6,0.41,2.6,3.3,0.78,2.8,5.6,8.5,1.9,0.9,0.4,2.8,8.3,12.3
+2003,27,183,SAS,San Antonio Spurs,Mengke Bateer,1975-11-20,27.0,NBA,C,12.0,0.0,46.0,3.1,13.3,0.24,0.8,2.3,0.33,2.3,11.0,0.21,0.0,1.6,0.0,1.6,6.3,7.8,3.1,0.0,0.0,4.7,11.0,7.0
+2004,28,183,TOR,Toronto Raptors,Mengke Bateer,1975-11-20,28.0,NBA,C,7.0,0.0,40.0,3.6,6.3,0.57,0.0,0.0,,3.6,6.3,0.57,0.0,0.0,,4.5,2.7,7.2,0.9,0.9,0.0,1.8,9.0,7.2

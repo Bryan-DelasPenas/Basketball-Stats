@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2020,2,3046,BOS,Boston Celtics,Tremont Waters,1998-01-10,22.0,NBA,PG,11,1,119,4.2,14.8,0.29,1.2,7.3,0.17,3.0,7.6,0.4,2.4,2.4,1.0,0.0,3.6,3.6,4.8,3.0,0.6,4.5,3.9,12.1
+2021,2,3046,BOS,Boston Celtics,Tremont Waters,1998-01-10,23.0,NBA,PG,11,1,98,3.7,11.4,0.32,2.2,5.5,0.4,1.5,5.9,0.25,2.6,2.9,0.88,0.7,2.2,2.9,11.0,2.2,0.0,4.8,2.2,12.1

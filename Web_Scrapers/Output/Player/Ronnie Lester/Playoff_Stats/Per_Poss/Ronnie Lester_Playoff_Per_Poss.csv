@@ -1,0 +1,3 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,ORtg,DRtg
+1981,5,1741,CHI,Chicago Bulls,Ronnie Lester,1959-01-01,22.0,NBA,PG,5.0,,42.0,8.3,21.3,0.39,0.0,1.2,0.0,8.3,20.1,0.41,5.9,8.3,0.71,5.9,1.2,7.1,4.7,2.4,0.0,5.9,4.7,22.5,92.0,111.0
+1985,14,1741,LAL,Los Angeles Lakers,Ronnie Lester,1959-01-01,26.0,NBA,PG,9.0,0.0,54.0,4.9,12.3,0.4,0.0,0.0,,4.9,12.3,0.4,5.8,7.4,0.78,1.6,4.9,6.6,7.4,0.0,0.0,3.3,5.8,15.6,106.0,113.0

@@ -1,0 +1,4 @@
+Season,Team ID,Player ID,Team ABV,Team,Player Name,Birth Date,Age,League,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2000,31,2928,TOT,Total After Trade,Mirsad Turkcan,1976-06-07,23.0,NBA,PF,17.0,0.0,5.3,0.8,2.2,0.37,0.0,0.4,0.0,0.8,1.9,0.44,0.37,0.3,0.5,0.62,0.8,1.2,1.9,0.3,0.2,0.1,0.5,0.8,1.9
+2000,20,2928,NYK,New York Knicks,Mirsad Turkcan,1976-06-07,23.0,NBA,PF,7.0,0.0,3.6,0.3,1.4,0.2,0.0,0.3,0.0,0.3,1.1,0.25,0.2,0.0,0.0,,0.3,1.1,1.4,0.1,0.3,0.0,0.1,0.6,0.6
+2000,17,2928,MIL,Milwaukee Bucks,Mirsad Turkcan,1976-06-07,23.0,NBA,PF,10.0,0.0,6.5,1.2,2.8,0.43,0.0,0.4,0.0,1.2,2.4,0.5,0.43,0.5,0.8,0.62,1.1,1.2,2.3,0.4,0.1,0.1,0.7,1.0,2.9

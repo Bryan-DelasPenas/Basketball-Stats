@@ -74,13 +74,13 @@ def get_player_suffix(name, birth_date):
     # Special Case: for name = Jeff Aryes since he changed his name in 2013
     if(name_tuple in RIGHT_PLAYER_SUFIX):
         sub_name = RIGHT_PLAYER_SUFIX[name_tuple]
-        
+
         # Get the first initial of last name
         initial = sub_name.split(' ')[1][0].lower()
         suffix = '/players/' + initial + '/' + create_player_suffix(sub_name) + '01.html'
        
     # Special case, he does not start at 01 but 02
-    elif(name == "P.J. Hairston" or name == "Markus Howard" or name == "Xavier Munford" or name == "Cherokee Parks" or name == "Tony Smith"):
+    elif(name == "P.J. Hairston" or name == "Markus Howard" or name == "Xavier Munford" or name == "Cherokee Parks" or name == "Tony Smith" or name == "Killian Tillie"):
         initial = name.split(' ')[1][0].lower()
         suffix = '/players/' + initial + '/' + create_player_suffix(name) + '02.html'
     
@@ -117,14 +117,15 @@ def get_player_suffix(name, birth_date):
     page = get(f'https://www.basketball-reference.com{suffix}')
     
     #print(suffix)
-
+    
     # Check if the request can go through 
+    #print(page.status_code)
     while page.status_code == 200:
         soup = BeautifulSoup(page.content, 'html.parser')
         h1 = soup.find('h1', attrs={'itemprop': 'name'})
         h2 = soup.find("span", itemprop='birthDate')
         list1 = []
-
+      
         if h1:
             page_name = h1.find('span').text
            
@@ -195,7 +196,7 @@ Returns csv of player stats from every year they played from 1980
 def get_player_stats(name, birth_date,format='PER_GAME', playoffs=False): 
     
     record = lookup(name, birth_date)
-    
+   
     # Check if it a valid player and birthdate
     if(record[0][0] == name and record[0][1] == birth_date):
         pass
@@ -684,5 +685,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_player_suffix("Jeff Ayres", "1987-04-29"))
+    print(get_player_suffix("Killian Tillie", "1998-03-05"))
 main()
