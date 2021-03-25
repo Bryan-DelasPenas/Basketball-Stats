@@ -685,5 +685,5 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         return career_df
 
 def main():
-    print(get_player_suffix("Killian Tillie", "1998-03-05"))
-main()
+    print(get_player_suffix("Reggie Williams", "1986-09-14"))
+#main()

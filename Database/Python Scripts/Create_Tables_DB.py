@@ -100,10 +100,10 @@ def create_player_table():
             """
             CREATE TABLE IF NOT EXISTS Player(
             Player_ID   INT NOT NULL,
-            Birth_Date  VARCHAR(30) NOT NULL,
+            Birth_Date  DATE NOT NULL,
             Player_Name VARCHAR(45) NOT NULL,
             PRIMARY KEY(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -192,7 +192,7 @@ def create_roster_table():
             Player_Postion      VARCHAR(10) NOT NULL,
             Player_Height       VARCHAR(4) NOT NULL,
             Player_Weight       INT NOT NULL, 
-            Birth_Date          VARCHAR(30) NOT NULL, 
+            Birth_Date          DATE NOT NULL, 
             Player_Nationality  VARCHAR(2),
             Player_Experience   VARCHAR(2) NOT NULL,
             Player_College_Name VARCHAR(100), 
@@ -204,7 +204,7 @@ def create_roster_table():
             FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -585,7 +585,7 @@ def create_player_stats_table():
             Player_ID           INT NOT NULL,
             Team_ABV            VARCHAR(3) NOT NULL,
             Team_Name           VARCHAR(45) NOT NULL,
-            Birth_Date  		VARCHAR(30) NOT NULL,
+            Birth_Date  		DATE NOT NULL,
             Player_Name 		VARCHAR(45) NOT NULL,
             
             CONSTRAINT Player_Stats_UNIQUE_Chk UNIQUE(Season_ID, Team_ID, Player_ID),
@@ -594,7 +594,7 @@ def create_player_stats_table():
             FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
             CONSTRAINT Player_Stats_Season_ID_Chk CHECK (Season_ID BETWEEN 1980 AND 2021),
             CONSTRAINT Player_Stats_Team_ID_Chk CHECK(Team_ID BETWEEN 1 and 31),
-            CONSTRAINT Player_Stats_Player_ID_Chk CHECK(Player_ID BETWEEN 1 and 3281)
+            CONSTRAINT Player_Stats_Player_ID_Chk CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -631,7 +631,7 @@ def create_player_advanced_table():
             Team_ABV                      VARCHAR(3) NOT NULL,
             Team_Name                     VARCHAR(45) NOT NULL,
             Player_Name                   VARCHAR(45) NOT NULL,
-            Birth_Date                    VARCHAR(45) NOT NULL,
+            Birth_Date                    DATE NOT NULL,
             Player_Age                    INT NOT NULL, 
             League                        VARCHAR(3),
             Player_Postion                VARCHAR(20),
@@ -664,7 +664,7 @@ def create_player_advanced_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -701,7 +701,7 @@ def create_player_per_game_table():
             Team_ABV                        VARCHAR(3) NOT NULL,
             Team_Name                       VARCHAR(45) NOT NULL,
             Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Birth_Date                      DATE NOT NULL,
             Player_Age                      INT NOT NULL,
             League                          VARCHAR(3),
             Player_Postion                  VARCHAR(10),
@@ -737,7 +737,7 @@ def create_player_per_game_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -774,7 +774,7 @@ def create_player_per_minute_table():
             Team_ABV                        VARCHAR(3) NOT NULL,
             Team_Name                       VARCHAR(45) NOT NULL,
             Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Birth_Date                      DATE NOT NULL,
             Player_Age                      INT NOT NULL,
             League                          VARCHAR(3),
             Player_Postion                  VARCHAR(10),
@@ -809,7 +809,7 @@ def create_player_per_minute_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -846,7 +846,7 @@ def create_player_per_poss_table():
             Team_ABV                        VARCHAR(3) NOT NULL,
             Team_Name                       VARCHAR(45) NOT NULL,
             Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Birth_Date                      DATE NOT NULL,
             Player_Age                      INT NOT NULL,
             League                          VARCHAR(3),
             Player_Postion                  VARCHAR(10),
@@ -883,7 +883,7 @@ def create_player_per_poss_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -920,7 +920,7 @@ def create_player_totals_table():
             Team_ABV                        VARCHAR(3) NOT NULL,
             Team_Name                       VARCHAR(45) NOT NULL,
             Player_Name                     VARCHAR(45) NOT NULL, 
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Birth_Date                      DATE NOT NULL,
             Player_Age                      INT NOT NULL,
             League                          VARCHAR(3),
             Player_Postion                  VARCHAR(10),
@@ -957,7 +957,7 @@ def create_player_totals_table():
             FOREIGN KEY (Season_ID, Team_ID, Player_ID) REFERENCES Player_Stats(Season_ID, Team_ID, Player_ID),
             CHECK(Season_ID BETWEEN 1980 AND 2021),
             CHECK(Team_ID BETWEEN 1 and 31),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -989,12 +989,12 @@ def create_player_career_stats_table():
             """
             CREATE TABLE IF NOT EXISTS Player_Career_Stats(
             Player_ID           INT NOT NULL,
-            Birth_Date  		VARCHAR(30) NOT NULL,
+            Birth_Date  		DATE NOT NULL,
             Player_Name 		VARCHAR(45) NOT NULL,
             
             PRIMARY KEY (Player_ID),
             FOREIGN KEY (Player_ID) REFERENCES Player(Player_ID),
-            CONSTRAINT CHECK(Player_ID BETWEEN 1 and 3281)
+            CONSTRAINT CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -1027,7 +1027,7 @@ def create_player_career_advanced_table():
             CREATE TABLE IF NOT EXISTS Player_Career_Advanced(
             Player_ID                     INT NOT NULL,
             Player_Name                   VARCHAR(45) NOT NULL,
-            Birth_Date                    VARCHAR(45) NOT NULL,
+            Birth_Date                    DATE NOT NULL,
             Games_Played       	          INT, 
             Minutes_Played                INT,
             Per_Minute_Production         FLOAT,
@@ -1055,7 +1055,7 @@ def create_player_career_advanced_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID), 
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -1088,7 +1088,7 @@ def create_player_career_per_game_table():
             CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
             Player_ID                       INT NOT NULL,
             Player_Name                     VARCHAR(45) NOT NULL,
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Birth_Date                      DATE NOT NULL,
             Games_Played       	            INT NOT NULL, 
             Games_Started                   INT,
             Minutes_Played                  INT NOT NULL,
@@ -1119,7 +1119,7 @@ def create_player_career_per_game_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()
@@ -1151,8 +1151,8 @@ def create_player_career_per_minute_table():
             """
             CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
             Player_ID                       INT NOT NULL,
-            Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Player_Name                     VARCHAR(45) NOT NULL, 
+            Birth_Date                      DATE NOT NULL,
             Games_Played       	            INT NOT NULL, 
             Games_Started                   INT,
             Minutes_Played                  INT NOT NULL,
@@ -1182,7 +1182,7 @@ def create_player_career_per_minute_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3281) 
+            CHECK(Player_ID BETWEEN 1 and 3287) 
             )
             """)
             trans.commit()
@@ -1215,7 +1215,7 @@ def create_player_career_per_poss_table():
             CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
             Player_ID                       INT NOT NULL,
             Player_Name                     VARCHAR(45) NOT NULL, 
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Birth_Date                      DATE NOT NULL,
             Games_Played       	            INT NOT NULL, 
             Games_Started                   INT,
             Minutes_Played                  INT NOT NULL,
@@ -1247,7 +1247,7 @@ def create_player_career_per_poss_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3281) 
+            CHECK(Player_ID BETWEEN 1 and 3287) 
             )
             """)
             trans.commit()
@@ -1280,7 +1280,7 @@ def create_player_career_totals_table():
             CREATE TABLE IF NOT EXISTS Player_Career_Totals(
             Player_ID                       INT NOT NULL,
             Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
-            Birth_Date                      VARCHAR(45) NOT NULL,
+            Birth_Date                      DATE NOT NULL,
             Games_Played       	            INT, 
             Games_Started                   INT,
             Minutes_Played                  INT,
@@ -1312,7 +1312,7 @@ def create_player_career_totals_table():
             UNIQUE(Player_ID, Stat_Form),
             PRIMARY KEY (Player_ID, Stat_Form),
             FOREIGN KEY (Player_ID) REFERENCES Player_Career_Stats(Player_ID),
-            CHECK(Player_ID BETWEEN 1 and 3281)
+            CHECK(Player_ID BETWEEN 1 and 3287)
             )
             """)
             trans.commit()

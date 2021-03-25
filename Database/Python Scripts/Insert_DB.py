@@ -84,7 +84,7 @@ def insert_player(df):
     
     trans = conn.begin()
     
-    if(check_table('Team')):
+    if(check_table('Player')):
         # Test to see if the insertion works 
         try:
             df.to_sql('player', con = engine, if_exists='append', index = False)

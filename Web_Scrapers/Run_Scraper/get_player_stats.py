@@ -108,7 +108,7 @@ def get_player_csv():
     record = df.values.tolist()
 
     # Iterate through the list 
-    for x in range(2886, len(record)):
+    for x in range(3174, len(record)):
         
         #print(count)
         print(x)

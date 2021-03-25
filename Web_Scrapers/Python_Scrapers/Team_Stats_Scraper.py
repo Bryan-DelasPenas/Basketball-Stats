@@ -84,9 +84,6 @@ def get_roster(team, season, orginal = False):
         
         return final_df
 
-    else: 
-        print('Error 404: Page could not be found')
-
 '''
 Creates a dataframe of everyteam's teams for the season
 '''

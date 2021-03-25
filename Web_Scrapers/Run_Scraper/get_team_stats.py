@@ -309,7 +309,7 @@ def get_team_csv():
         # Roster Names
         csv_team_roster(year)
         
-        
+        '''
         # Team Stats Main
         csv_team_stats_main(year, 'Per_Game')
         csv_team_stats_main(year, 'Per_Poss')
@@ -323,7 +323,7 @@ def get_team_csv():
         # Team Stats Other
         csv_team_stats_other(year, 'Team_Advanced')
         csv_team_stats_main(year, 'Team_Misc')
-        
+        '''
 
 def main():
 

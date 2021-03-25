@@ -226,7 +226,7 @@ RIGHT_NAME_DICT = {
     ("Gary Trent", "1999-01-18")             : "Gary Trent Jr.",
     ("Marcus Williams", "1985-12-03")        : "Marcus Darell Williams",
     ("Marcus Williams", "1986-11-18")        : "Marcus Eliot Williams",
-    ("Reggie Williams", "1986-11-14")        : "Reginald Leon Williams",
+    ("Reggie Williams", "1986-09-14")        : "Reginald Leon Williams",
     ("James Webb", "1993-08-19")             : "James Webb III",
     ("Chris Wright", "1988-11-30")           : "Chris Wright (1988)",
     ("Chris Wright", "1989-11-04")           : "Chris Wright (1989)",
@@ -387,7 +387,7 @@ SPECIAL_NAME_DICT = {
     ("Marcus Williams", "1985-12-03")         : "Marcus Williams",
     ("Marcus Williams", "1986-11-18")         : "Marcus Williams",
     ("Reggie Williams", "1964-03-05")         : "Reggie Williams",
-    ("Reggie Williams", "1986-11-14")         : "Reggie Williams",
+    ("Reggie Williams", "1986-09-14")         : "Reggie Williams",
     ("Chris Wright", "1988-11-30")            : "Chris Wright",
     ("Chris Wright", "1989-11-04")            : "Chris Wright",
     ("Vitor Faverani", "1988-05-05" )         : "Vitor Luiz Faverani"
@@ -397,17 +397,17 @@ SPECIAL_NAME_DICT = {
 This is for players who didn't play in the reg season but in the playoffs for a given year
 '''
 DATABASE_DICT = {
-        'Dorell Wright' : [[2016, 16, 3244, 'MIA', 'Miami Heat', '1985-12-2', 'Dorell Wright']],    
-        'Dwayne Jones': [[2013, 10, 1540, 'GSW', 'Golden State Warriors', '1983-06-09', 'Dwayne Jones']],
-        'Ed Sherod': [[1982, 3, 2618, 'NJN', 'New Jersey Nets', '1959-09-13', 'Ed Sherod']],
+        'Dorell Wright' : [[2016, 16, 3250, 'MIA', 'Miami Heat', '1985-12-2', 'Dorell Wright']],    
+        'Dwayne Jones': [[2013, 10, 1542, 'GSW', 'Golden State Warriors', '1983-06-09', 'Dwayne Jones']],
+        'Ed Sherod': [[1982, 3, 2622, 'NJN', 'New Jersey Nets', '1959-09-13', 'Ed Sherod']],
         'Jaylen Adams': [[2020, 25, 14, 'POR', 'Portland Trail Blazers', '1996-05-04', 'Jaylen Adams']],
-        'John Holland': [[2016, 2, 1312, 'BOS', 'Boston Celtics', '1988-11-06', 'John Holland']],
-        'Larry Krystkowiak': [[1991, 17, 1659, 'MIL', 'Milwaukee Bucks', '1964-09-23', 'Larry Krystkowiak']],
+        'John Holland': [[2016, 2, 1314, 'BOS', 'Boston Celtics', '1988-11-06', 'John Holland']],
+        'Larry Krystkowiak': [[1991, 17, 1661, 'MIL', 'Milwaukee Bucks', '1964-09-23', 'Larry Krystkowiak']],
         'Mike Brown': [[1998, 24, 390, 'PHO', 'Phoenix Suns', '1963-07-19', 'Mike Brown']],
-        'Mike Mitchell': [[1990, 27, 2013, 'SAS', 'San Antonio Spurs', '1956-01-01', 'Mike Mitchell']],
-        'Scott Machado': [[2013, 10, 1797, 'GSW', 'Golden State Warriors', '1990-06-08', 'Scott Machado']],
-        'Tracy McGrady': [[2013, 27, 1935, 'SAS', 'San Antonio Spurs', '1979-05-24', 'Tracy McGrady']],
-        'Ty Lawson': [[2018, 30, 1709, 'WAS', 'Washington Wizards', '1987-11-03', 'Ty Lawson']]
+        'Mike Mitchell': [[1990, 27, 2016, 'SAS', 'San Antonio Spurs', '1956-01-01', 'Mike Mitchell']],
+        'Scott Machado': [[2013, 10, 1800, 'GSW', 'Golden State Warriors', '1990-06-08', 'Scott Machado']],
+        'Tracy McGrady': [[2013, 27, 1938, 'SAS', 'San Antonio Spurs', '1979-05-24', 'Tracy McGrady']],
+        'Ty Lawson': [[2018, 30, 1712, 'WAS', 'Washington Wizards', '1987-11-03', 'Ty Lawson']]
 }
 
 '''
