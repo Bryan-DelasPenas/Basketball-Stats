@@ -86,6 +86,20 @@ def floating_point_regex(floating_point):
         return True
 
 '''
+Regex for Date
+'''
+'''
+Regex for format YYYY-MM-DD where YYYY is between 1980 and 2021
+'''
+def date_regex(date):
+    # Convert date into a valid string in Python
+    # Check if the parameter date is valid
+    date_string = str(date)
+    if(not re.match(r'(19[89][0-9]|20[0-1][0-9]|2020)[- \/.](0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])', date_string)):
+        print("Please enter a valid date from years 1980 - 2021")
+        return True
+
+'''
 Regex for strings
 '''
 '''
@@ -120,11 +134,3 @@ def player_name_regrex(player_name):
     if(not re.match("^[A-Za-z]+((\s)?((\'|\-|\.)?([A-Za-z])+))*$", player_name_string)):
         print("Please enter a valid player name that may contain special chars")
         return True
-
-'''
-Regex for date of births  
-'''
-
-def main():
-    floating_point_regex('10.3gggegeg')
-main()
