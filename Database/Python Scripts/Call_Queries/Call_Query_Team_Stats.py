@@ -706,7 +706,3 @@ def call_query_team_stats_primary_sid_tid(table_name, season_id, team_id, opp_bo
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
    
-
-def main():
-    print(call_query_team_stats_major_one("Field_Goals_Made", "Team_Per_Game", 40))
-main()
