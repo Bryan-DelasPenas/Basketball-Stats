@@ -120,7 +120,7 @@ def team_abv_regex(abv):
     # Convert abv into a valid string in Python
     # Check if the parameter abv is valid, only 3 captial letters
     abv_string = str(abv)
-    if(not re.match("^[A-Z]{3}$", abv_string)):
+    if(not re.match(r'^[A-Z]{3}$', abv_string)):
         print("Please enter only 3 captial letters")
         return True
 
@@ -131,6 +131,17 @@ def player_name_regrex(player_name):
     # Convert player_name into a valid string in Python
     # Check if the parameter player_name is valid, with spaces and special chars
     player_name_string = str(player_name)
-    if(not re.match("^[A-Za-z]+((\s)?((\'|\-|\.)?([A-Za-z])+))*$", player_name_string)):
+    if(not re.match(r'^[A-Za-z]+((\s)?((\'|\-|\.)?([A-Za-z])+))*$', player_name_string)):
         print("Please enter a valid player name that may contain special chars")
+        return True
+
+'''
+Regex for any string that contains space or . 
+'''
+def reg_string_regex(function_input):
+    # Converts string into a valid input in Python
+    # Check if the parameter input is valid with spaces and periods
+    function_string = str(function_input)
+    if(not re.match(r'^[a-zA-Z._ ]*$', function_string)):
+        print("Please enter a valid string with letters, spaces and periods")
         return True
