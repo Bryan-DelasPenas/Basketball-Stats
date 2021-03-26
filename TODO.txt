@@ -21,7 +21,7 @@ Conference Standings:     Done        | 8  | Done          UNIT TEST DONE?: Rest
 Roster:                   Done        | 10 | Done          UNIT TEST DONE?: Restart
 Team Stats:               Done        | 16 | Done          UNIT TEST DONE?: Restart 
 Team Advanced:            Done        | 5  | Done          UNIT TEST DONE?: Restart
-Team Misc:                Done        | 5  | IN PROGRESS   UNIT TEST DONE?: Restart
+Team Misc:                Done        | 5  | Done          UNIT TEST DONE?: Restart
 Team Per Game:            Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
 Team Per Poss:            Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
 Team Totals:              Done        | 10 | IN PROGRESS   UNIT TEST DONE?: Restart
