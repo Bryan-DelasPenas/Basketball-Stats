@@ -11,7 +11,7 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-from Regular_Expression import season_id_regex, team_id_regex, team_name_regex, team_abv_regex, floating_point_regex, reg_string_regex
+from Regular_Expression import season_id_regex, team_id_regex, team_name_regex, team_abv_regex, floating_point_regex, reg_string_regex, binary_regex
 from Constants import VALID_TEAM_STATS_MINOR, VALID_COL_TEAM_STATS_MINOR, STRING_STATS_TEAM_STATS_MINOR, VALID_TEAM_STATS_MAJOR, VALID_COL_TEAM_STATS_MAJOR 
 
 '''
@@ -234,7 +234,7 @@ def call_query_team_stats_major_one(col_one, table_name, val_one):
     """, [col_one, table_name, val_one]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', col_one])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', 'Opponent', col_one])
     return df_result
 
 '''
@@ -278,7 +278,7 @@ def call_query_team_stats_major_two(col_one, col_two, table_name, val_one, val_t
     """, [col_one, col_two, table_name, val_one, val_two]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', col_one, col_two])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', 'Opponent', col_one, col_two])
     return df_result
 
 '''
@@ -331,7 +331,7 @@ def call_query_team_stats_major_three(col_one, col_two, col_three, table_name, v
     """, [col_one, col_two, col_three, table_name, val_one, val_two, val_three]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', col_one, col_two, col_three])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', 'Opponent', col_one, col_two, col_three])
     return df_result
 
 '''
@@ -367,7 +367,7 @@ def call_query_team_stats_major_op_one(col_one, table_name, val_one):
     """, [col_one, table_name, val_one]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', col_one])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name',  'Opponent', col_one])
     return df_result
 
 '''
@@ -411,7 +411,7 @@ def call_query_team_stats_major_op_two(col_one, col_two, table_name, val_one, va
     """, [col_one, col_two, table_name, val_one, val_two]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', col_one, col_two])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name',  'Opponent', col_one, col_two])
     return df_result
 
 '''
@@ -464,46 +464,249 @@ def call_query_team_stats_major_op_three(col_one, col_two, col_three, table_name
     """, [col_one, col_two, col_three, table_name, val_one, val_two, val_three]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name', col_one, col_two, col_three])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name',  'Opponent',col_one, col_two, col_three])
+    return df_result
+
+'''
+Function calls query_team_stats_major_compare_one
+'''
+def call_query_team_stats_major_compare_one(col_one, table_name, val_one):
+    # First Check if the table is valid     
+    # Check if table_name is a valid parameter
+    if(not table_name in VALID_TEAM_STATS_MAJOR):
+        print("Table Name is not valid")
+        return None
+
+    # Next check if col_one is in table_name
+    if(not col_one in VALID_COL_TEAM_STATS_MAJOR[table_name]):
+        print(col_one + " is not in table " + table_name)
+        return None
+
+    # Check Regex for parameter val_one
+    if(floating_point_regex(val_one)):
+        return None
+    
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+
+    # Using the year 2020
+    result = conn.execute(
+    """
+    CALL query_team_stats_major_compare_one(%s, %s, %s)
+    """, [col_one, table_name, val_one]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name',  'Opponent', col_one])
+    return df_result
+
+'''
+Function calls query_team_stats_major_compare_two
+'''
+def call_query_team_stats_major_compare_two(col_one, col_two, table_name, val_one, val_two):
+     # First Check if the table is valid     
+    # Check if table_name is a valid parameter
+    if(not table_name in VALID_TEAM_STATS_MAJOR):
+        print("Table Name is not valid")
+        return None
+
+    # Next check if col_one is in table_name
+    if(not col_one in VALID_COL_TEAM_STATS_MAJOR[table_name]):
+        print(col_one + " is not in table " + table_name)
+        return None
+
+    # Next check if col_two is in table_name
+    if(not col_two in VALID_COL_TEAM_STATS_MAJOR[table_name]):
+        print(col_two + " is not in table " + table_name)
+        return None
+
+    # Check Regex for parameter val_one
+    if(floating_point_regex(val_one)):
+        return None
+
+    # Check Regex for parameter val_one
+    if(floating_point_regex(val_two)):
+        return None
+
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+
+    # Using the year 2020
+    result = conn.execute(
+    """
+    CALL query_team_stats_major_compare_two(%s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, val_one, val_two]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name',  'Opponent', col_one, col_two])
+    return df_result
+
+'''
+Function calls query_team_stats_major_compare_three
+'''
+def call_query_team_stats_major_compare_three(col_one, col_two, col_three, table_name, val_one, val_two, val_three):
+    # First Check if the table is valid     
+    # Check if table_name is a valid parameter
+    if(not table_name in VALID_TEAM_STATS_MAJOR):
+        print("Table Name is not valid")
+        return None
+
+    # Next check if col_one is in table_name
+    if(not col_one in VALID_COL_TEAM_STATS_MAJOR[table_name]):
+        print(col_one + " is not in table " + table_name)
+        return None
+
+    # Next check if col_two is in table_name
+    if(not col_two in VALID_COL_TEAM_STATS_MAJOR[table_name]):
+        print(col_two + " is not in table " + table_name)
+        return None
+
+     # Next check if col_three is in table_name
+    if(not col_three in VALID_COL_TEAM_STATS_MAJOR[table_name]):
+        print(col_three + " is not in table " + table_name)
+        return None
+
+    # Check Regex for parameter val_one
+    if(floating_point_regex(val_one)):
+        return None
+
+    # Check Regex for parameter val_two
+    if(floating_point_regex(val_two)):
+        return None
+
+    # Check Regex for parameter val_three
+    if(floating_point_regex(val_three)):
+        return None
+
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+
+    # Using the year 2020
+    result = conn.execute(
+    """
+    CALL query_team_stats_major_compare_three(%s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, val_one, val_two, val_three]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_Name',  'Opponent',col_one, col_two, col_three])
     return df_result
 
 '''
 Function calls query_team_stats_primary_sid
 '''
 def call_query_team_stats_primary_sid(table_name, season_id, opp_bool):
-    return None
+    # First Check if the table is valid     
+    # Check if table_name is a valid parameter
+    if(not table_name in VALID_TEAM_STATS_MAJOR):
+        print("Table Name is not valid")
+        return None
 
+    # Check season_id to regex 
+    if(season_id_regex(season_id)):
+        return None
+
+    # Check opp_bool to regex
+    if(binary_regex(opp_bool)):
+        return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+
+    # Using the year 2020
+    result = conn.execute(
+    """
+    CALL query_team_stats_primary_sid(%s, %s, %s)
+    """, [table_name, season_id, opp_bool]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+   
 '''
 Function calls query_team_stats_primary_tid
 '''
 def call_query_team_stats_primary_tid(table_name, team_id, opp_bool):
-    return None
+    # First Check if the table is valid     
+    # Check if table_name is a valid parameter
+    if(not table_name in VALID_TEAM_STATS_MAJOR):
+        print("Table Name is not valid")
+        return None
 
+    # Check team_id to regex 
+    if(team_id_regex(team_id)):
+        return None
+
+    # Check opp_bool to regex
+    if(binary_regex(opp_bool)):
+        return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+
+    # Using the year 2020
+    result = conn.execute(
+    """
+    CALL query_team_stats_primary_tid(%s, %s, %s)
+    """, [table_name, team_id, opp_bool]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+   
 '''
 Function calls query_team_stats_primary_sid_tid
 '''
-def call_query_team_stats_primary_sid_tid(table_name, season_id, team_id):
-    return None
+def call_query_team_stats_primary_sid_tid(table_name, season_id, team_id, opp_bool):
+    # First Check if the table is valid     
+    # Check if table_name is a valid parameter
+    if(not table_name in VALID_TEAM_STATS_MAJOR):
+        print("Table Name is not valid")
+        return None
 
-'''
-Function calls query_team_stats_major_compare_one
-'''
-def call_query_team_stats_major_compare_one(col_one, table_name, val_one):
-    return None
+    # Check season_id to regex
+    if(season_id_regex(season_id)):
+        return None
 
-'''
-Function calls query_team_stats_major_compare_two
-'''
-def call_query_team_stats_major_compare_two(col_one, col_two, table_name, val_one, val_two):
-    return None
+    # Check team_id to regex 
+    if(team_id_regex(team_id)):
+        return None
 
-'''
-Function calls query_team_stats_major_compare_three
-'''
-def call_query_team_stats_major_compare_three(col_one, col_two, col_three, table_name, val_one, val_two, val_three):
-    return None
+    # Check opp_bool to regex
+    if(binary_regex(opp_bool)):
+        return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+
+    # Using the year 2020
+    result = conn.execute(
+    """
+    CALL query_team_stats_primary_sid_tid(%s, %s, %s, %s)
+    """, [table_name, season_id, team_id, opp_bool]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+   
 
 def main():
-    print(call_query_team_stats_minor_one("Arena", "Team_Misc", 110))
+    print(call_query_team_stats_major_one("Field_Goals_Made", "Team_Per_Game", 40))
 main()
