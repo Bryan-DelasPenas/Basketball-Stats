@@ -33,7 +33,7 @@ Player Per Poss:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Rest
 Player Totals:            Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
 Player Career Stats:      Done        | 14 | Done          UNIT TEST DONE?: Restart
 Player Career Advanced:   Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
-Player Career Per Game:   Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Career Per Game:   Done        | 4  | Done          UNIT TEST DONE?: Restart
 Player Career Per Minute: Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
 Player Career Per Poss:   Done        | 4  | IN PROGRESS   UNIT TEST DONE?: Restart
 Player Career Totals:     Done        | 4  | Done          UNIT TEST DONE?: Restart
