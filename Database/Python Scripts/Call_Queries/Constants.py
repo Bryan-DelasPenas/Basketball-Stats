@@ -63,6 +63,38 @@ VALID_COL_TEAM_STATS_MAJOR = {
 }
 
 '''
+List containing valid table names for player stats
+'''
+VALID_TABLE_PLAYER_STATS = [
+    "Player_Advanced",
+    "Player_Per_Game", 
+    "Player_Per_Minute",
+    "Player_Per_Poss",
+    "Player_Totals"
+]
+
+'''
+List containg valid table names for primary player stats
+'''
+VALID_TABLE_PRIMARY_PLAYER_STATS = [
+    "Player_Per_Game", 
+    "Player_Per_Minute",
+    "Player_Per_Poss",
+    "Player_Totals"
+]
+
+'''
+Dict:  Key is the table names and key is valid column names
+'''
+VALID_COL_PLAYER_STATS = {
+    "Player_Advanced" : ,
+    "Player_Per_Game" : , 
+    "Player_Per_Minute": ,
+    "Player_Per_Poss" : ,
+    "Player_Totals" : 
+}   
+
+'''
 List containing valid table names for career player stats
 '''
 VALID_TABLE_PLAYER_CAREER_STATS = [
