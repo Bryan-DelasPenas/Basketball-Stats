@@ -12,7 +12,7 @@ from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
 from Regular_Expression import season_id_regex, team_id_regex, team_name_regex, team_abv_regex, floating_point_regex, reg_string_regex, binary_regex
-from Constants import VALID_TEAM_STATS_MINOR, VALID_COL_TEAM_STATS_MINOR, STRING_STATS_TEAM_STATS_MINOR, VALID_TEAM_STATS_MAJOR, VALID_COL_TEAM_STATS_MAJOR 
+from Constants import VALID_TABLE_TEAM_STATS_MINOR, VALID_COL_TEAM_STATS_MINOR, STRING_STATS_TEAM_STATS_MINOR, VALID_TABLE_TEAM_STATS_MAJOR, VALID_COL_TEAM_STATS_MAJOR 
 
 '''
 Function calls query_team_stats_minor_one
@@ -20,7 +20,7 @@ Function calls query_team_stats_minor_one
 def call_query_team_stats_minor_one(col_one, table_name, val_one):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MINOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MINOR):
         print("Table Name is not valid")
         return None
 
@@ -65,7 +65,7 @@ Function calls query_team_stats_minor_two
 def call_query_team_stats_minor_two(col_one, col_two, table_name, val_one, val_two):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MINOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MINOR):
         print("Table Name is not valid")
         return None
 
@@ -127,7 +127,7 @@ Function calls query_team_stats_minor_three
 def call_query_team_stats_minor_three(col_one, col_two, col_three, table_name, val_one, val_two, val_three):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MINOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MINOR):
         print("Table Name is not valid")
         return None
 
@@ -207,7 +207,7 @@ Function calls query_team_stats_major_one
 def call_query_team_stats_major_one(col_one, table_name, val_one):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -243,7 +243,7 @@ Function calls query_team_stats_major_two
 def call_query_team_stats_major_two(col_one, col_two, table_name, val_one, val_two):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -287,7 +287,7 @@ Function calls query_team_stats_major_three
 def call_query_team_stats_major_three(col_one, col_two, col_three, table_name, val_one, val_two, val_three):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -340,7 +340,7 @@ Function calls query_team_stats_major_op_one
 def call_query_team_stats_major_op_one(col_one, table_name, val_one):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -376,7 +376,7 @@ Function calls query_team_stats_major_op_two
 def call_query_team_stats_major_op_two(col_one, col_two, table_name, val_one, val_two):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -420,7 +420,7 @@ Function calls query_team_stats_major_op_three
 def call_query_team_stats_major_op_three(col_one, col_two, col_three, table_name, val_one, val_two, val_three):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -473,7 +473,7 @@ Function calls query_team_stats_major_compare_one
 def call_query_team_stats_major_compare_one(col_one, table_name, val_one):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -509,7 +509,7 @@ Function calls query_team_stats_major_compare_two
 def call_query_team_stats_major_compare_two(col_one, col_two, table_name, val_one, val_two):
      # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -553,7 +553,7 @@ Function calls query_team_stats_major_compare_three
 def call_query_team_stats_major_compare_three(col_one, col_two, col_three, table_name, val_one, val_two, val_three):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -606,7 +606,7 @@ Function calls query_team_stats_primary_sid
 def call_query_team_stats_primary_sid(table_name, season_id, opp_bool):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -640,7 +640,7 @@ Function calls query_team_stats_primary_tid
 def call_query_team_stats_primary_tid(table_name, team_id, opp_bool):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 
@@ -674,7 +674,7 @@ Function calls query_team_stats_primary_sid_tid
 def call_query_team_stats_primary_sid_tid(table_name, season_id, team_id, opp_bool):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
-    if(not table_name in VALID_TEAM_STATS_MAJOR):
+    if(not table_name in VALID_TABLE_TEAM_STATS_MAJOR):
         print("Table Name is not valid")
         return None
 

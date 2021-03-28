@@ -5,9 +5,9 @@ from pathlib import Path
 
 
 '''
-List containing Team_Stats_Minor 
+List containing valid table names for Team_Stats_Minor 
 '''
-VALID_TEAM_STATS_MINOR = [
+VALID_TABLE_TEAM_STATS_MINOR = [
     'Team_Advanced',
     'Team_Misc'
 ]
@@ -35,9 +35,9 @@ STRING_STATS_TEAM_STATS_MINOR = [
 ]
 
 '''
-List containing Team_Stats_Major
+List containing valid tables names for Team_Stats_Major
 '''
-VALID_TEAM_STATS_MAJOR = [
+VALID_TABLE_TEAM_STATS_MAJOR = [
     'Team_Per_Game',
     'Team_Per_Poss',
     'Team_Totals'
@@ -62,6 +62,16 @@ VALID_COL_TEAM_STATS_MAJOR = {
         'Free_Throws_Made', 'Free_Throws_Attempted', 'Free_Throws_Percentage', 'Offensive_Rebound', 'Defensive_Rebound', 'True_Rebounds', 'Assists', 'Steals', 'Blocks', 'Turn_Over', 
         'Personal_Foul', 'Points'],
 }
+
+
+'''
+List containing valid table names for player stats
+'''
+VALID_TABLE_PLAYER_STATS = [
+    ""
+]
+
+
 
 '''
 Function that creates VALID_SID_TEAM_IDS
