@@ -87,11 +87,31 @@ VALID_TABLE_PRIMARY_PLAYER_STATS = [
 Dict:  Key is the table names and key is valid column names
 '''
 VALID_COL_PLAYER_STATS = {
-    "Player_Advanced" : ,
-    "Player_Per_Game" : , 
-    "Player_Per_Minute": ,
-    "Player_Per_Poss" : ,
-    "Player_Totals" : 
+    "Player_Advanced" : ['Games_Played', 'Minutes_Played', 'Per_Minute_Production', 
+        'True_Shooting_Percent', 'Three_Points_Attempted', 'Free_Throws_Per_Field_Goals', 'Offensive_Rebound_Percentage', 'Defensive_Rebound_Percentage', 
+        'True_Rebounds_Percentage', 'Assit_Percentage', 'Steal_Percentage', 'Block_Percentage', 'Turn_Over_Percentage', 'Usage_Percentage', 'Offensive_Win_Shares', 
+        'Defensive_Win_Shares', 'Win_Shares', 'Win_Shares_Fourty_Eight', 'Offensive_Box_Score', 'Defensive_Box_Score', 'Box_Plus_Minus', 'Value_Over_Replacement', 'Stat_Form'],
+    
+    "Player_Per_Game" : ['Games_Played', 'Games_Started', 'Minutes_Played', 'Field_Goals_Made', 
+        'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Three_Points_Made', 'Three_Points_Attempted', 'Three_Points_Percentage', 'Two_Points_Made', 
+        'Two_Points_Attempted', 'Two_Points_Percentage', 'Effective_Field_Goal_Percentage', 'Free_Throws_Made', 'Free_Throws_Attempted', 'Free_Throws_Percentage', 
+        'Offensive_Rebounds', 'Defensive_Rebounds', 'True_Rebounds', 'Assists', 'Steals', 'Blocks', 'Turn_Over', 'Personal_Fouls', 'Points', 'Stat_Form'], 
+    
+    "Player_Per_Minute": ['Games_Played', 'Games_Started', 'Minutes_Played', 'Field_Goals_Made', 
+        'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Three_Points_Made', 'Three_Points_Attempted', 'Three_Points_Percentage', 'Two_Points_Made', 
+        'Two_Points_Attempted', 'Two_Points_Percentage',  'Free_Throws_Made', 'Free_Throws_Attempted', 'Free_Throws_Percentage', 
+        'Offensive_Rebounds', 'Defensive_Rebounds', 'True_Rebounds', 'Assists', 'Steals', 'Blocks', 'Turn_Over', 'Personal_Fouls', 'Points', 'Stat_Form'],
+    
+    "Player_Per_Poss" : ['Games_Played', 'Games_Started', 'Minutes_Played', 'Field_Goals_Made', 
+        'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Three_Points_Made', 'Three_Points_Attempted', 'Three_Points_Percentage', 'Two_Points_Made', 
+        'Two_Points_Attempted', 'Two_Points_Percentage',  'Free_Throws_Made', 'Free_Throws_Attempted', 'Free_Throws_Percentage', 
+        'Offensive_Rebounds', 'Defensive_Rebounds', 'True_Rebounds', 'Assists', 'Steals', 'Blocks', 'Turn_Over', 'Personal_Fouls', 'Points', 
+        'Offensive_Rating', 'Defensive_Rating','Stat_Form'],
+    
+    "Player_Totals" : ['Games_Started', 'Minutes_Played', 'Field_Goals_Made', 
+        'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Three_Points_Made', 'Three_Points_Attempted', 'Three_Points_Percentage', 'Two_Points_Made', 
+        'Two_Points_Attempted', 'Two_Points_Percentage', 'Effective_Field_Goal_Percentage', 'Free_Throws_Made', 'Free_Throws_Attempted', 'Free_Throws_Percentage', 
+        'Offensive_Rebounds', 'Defensive_Rebounds', 'True_Rebounds', 'Assists', 'Steals', 'Blocks', 'Turn_Over', 'Personal_Fouls', 'Points', 'Triple_Double', 'Stat_Form']
 }   
 
 '''
