@@ -37,6 +37,23 @@ def call_query_player_stats_one_pid(col_one, table_name, playoffs, player_id):
     if(player_id_regex(player_id)):
         return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_pid(%s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
+
 '''
 Function calls query_player_stats_two_pid
 '''
@@ -64,6 +81,23 @@ def call_query_player_stats_two_pid(col_one, col_two, table_name, playoffs, play
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_pid(%s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, playoffs, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_pid
@@ -98,6 +132,23 @@ def call_query_player_stats_three_pid(col_one, col_two, col_three, table_name, p
     if(player_id_regex(player_id)):
         return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, playoffs, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_stats_primary_pid
 '''
@@ -116,6 +167,23 @@ def call_query_player_stats_primary_pid(table_name, playoffs, player_id):
     if(player_id_regex(player_id)):
         return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_primary_pid(%s, %s, %s)
+    """, [table_name, playoffs, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+
+    return df_result
+    
 '''
 Function calls query_player_stats_one_above_pid
 '''
@@ -142,6 +210,23 @@ def call_query_player_stats_one_above_pid(col_one, table_name, playoffs, player_
     # Check parameter val_one with regex
     if(floating_point_regex(val_one)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_above_pid(%s, %s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, player_id, val_one]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_player_stats_two_above_pid
@@ -178,6 +263,23 @@ def call_query_player_stats_two_above_pid(col_one, col_two, table_name, playoffs
     # Check parameter val_two with regex
     if(floating_point_regex(val_two)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_above_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, player_id, val_one, val_two]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_Stats_three_above_pid
@@ -224,6 +326,23 @@ def call_query_player_stats_three_above_pid(col_one, col_two, col_three, table_n
     if(floating_point_regex(val_three)):
         return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_above_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, player_id, val_one, val_two, val_three]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_stats_one_tid_pid
 '''
@@ -250,6 +369,23 @@ def call_query_player_stats_one_tid_pid(col_one, table_name, playoffs, team_id, 
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_tid_pid(%s, %s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_player_stats_two_tid_pid
@@ -282,6 +418,23 @@ def call_query_player_stats_two_tid_pid(col_one, col_two, table_name, playoffs, 
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_tid_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, playoffs, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_tid_pid
@@ -320,6 +473,23 @@ def call_query_player_stats_three_tid_pid(col_one, col_two, col_three, table_nam
     if(player_id_regex(player_id)):
         return None 
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_tid_pid(%s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, playoffs, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_stats_primary_tid_pid
 '''
@@ -341,6 +511,23 @@ def call_query_player_stats_primary_tid_pid(table_name, playoffs, team_id, playe
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None 
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_primary_tid_pid(%s, %s, %s, %s)
+    """, [table_name, playoffs, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+
+    return df_result
 
 '''
 Function calls query_player_stats_one_above_tid_pid
@@ -372,6 +559,23 @@ def call_query_player_stats_one_above_tid_pid(col_one, table_name, playoffs, tea
     # Check parameter val_one with regex
     if(floating_point_regex(val_one)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_above_tid_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, team_id, player_id, val_one]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_player_stats_two_above_tid_pid
@@ -412,6 +616,23 @@ def call_query_player_stats_two_above_tid_pid(col_one, col_two, table_name, play
     # Check parameter val_two with regex
     if(floating_point_regex(val_two)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_above_tid_pid(%s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, playoffs, team_id, player_id, val_one, val_two]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_above_tid_pid
@@ -462,6 +683,23 @@ def call_query_player_stats_three_above_tid_pid(col_one, col_two, col_three, tab
     if(floating_point_regex(val_three)):
         return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_above_tid_pid(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, playoffs, team_id, player_id, val_one, val_two, val_three]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_ststs_one_sid_pid
 '''
@@ -488,6 +726,23 @@ def call_query_player_stats_one_sid_pid(col_one, table_name, playoffs, season_id
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_sid_pid(%s, %s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_player_stats_two_sid_pid 
@@ -520,6 +775,23 @@ def call_query_player_stats_two_sid_pid(col_one, col_two, table_name, playoffs, 
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_sid_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, playoffs, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_sid_pid
@@ -558,6 +830,23 @@ def call_query_player_stats_three_sid_pid(col_one, col_two, col_three, table_nam
     if(player_id_regex(player_id)):
         return None 
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_sid_pid(%s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, playoffs, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_stats_primary_sid_pid
 '''
@@ -579,6 +868,23 @@ def call_query_player_stats_primary_sid_pid(table_name, playoffs, season_id, pla
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None 
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_primary_sid_pid(%s, %s, %s, %s)
+    """, [table_name, playoffs, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+
+    return df_result
 
 '''
 Function calls query_stats_one_above_sid_pid
@@ -610,6 +916,23 @@ def call_query_player_stats_one_above_sid_pid(col_one, table_name, playoffs, sea
     # Check parameter val_one with regex
     if(floating_point_regex(val_one)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_above_sid_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, table_name, playoffs, season_id, player_id, val_one]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_stats_two_above_sid_pid
@@ -650,6 +973,23 @@ def call_query_player_stats_two_above_sid_pid(col_one, col_two, table_name, play
     # Check parameter val_two with regex
     if(floating_point_regex(val_two)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_above_sid_pid(%s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, playoffs, season_id, player_id, val_one, val_two]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_stats_three_above_sid_pid
@@ -700,6 +1040,23 @@ def call_query_player_stats_three_above_sid_pid(col_one, col_two, col_three, tab
     if(floating_point_regex(val_three)):
         return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_above_sid_pid(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, playoffs, season_id, player_id, val_one, val_two, val_three]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_stats_one_both_pid
 '''
@@ -718,6 +1075,23 @@ def call_query_player_stats_one_both_pid(col_one, table_name, player_id):
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_both_pid(%s, %s, %s)
+    """, [col_one, table_name, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_stats_two_both_pid
@@ -743,6 +1117,23 @@ def call_query_player_stats_two_both_pid(col_one, col_two, table_name, player_id
     if(player_id_regex(player_id)):
         return None
     
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_both_pid(%s, %s, %s)
+    """, [col_one, col_two, table_name, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
+
 '''
 Function calls query_stats_three_both_pid 
 '''
@@ -772,6 +1163,23 @@ def call_query_player_stats_three_both_pid(col_one, col_two, col_three, table_na
     if(player_id_regex(player_id)):
         return None
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_pid(%s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_stats_primary_both_pid
 '''
@@ -785,6 +1193,23 @@ def call_query_player_stats_primary_both_pid(table_name, player_id):
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_primary_both_pid(%s, %s)
+    """, [table_name, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+
+    return df_result
 
 '''
 Function calls query_player_stats_one_both_above_pid
@@ -808,6 +1233,23 @@ def call_query_player_stats_one_both_above_pid(col_one, table_name, player_id, v
     # Check parameter val_one with regex
     if(floating_point_regex(val_one)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_both_above_pid(%s, %s, %s, %s)
+    """, [col_one, table_name, player_id, val_one]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_player_stats_two_both_above_pid
@@ -840,6 +1282,23 @@ def call_query_player_stats_two_both_above_pid(col_one, col_two, table_name, pla
     # Check parameter val_two with regex
     if(floating_point_regex(val_two)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_both_above_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, player_id, val_one, val_two]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_both_above_pid
@@ -882,6 +1341,23 @@ def call_query_player_stats_three_both_above_pid(col_one, col_two, col_three, ta
     if(floating_point_regex(val_three)):
         return None
     
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_above_pid(%s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, player_id, val_one, val_two, val_three]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_stats_one_both_tid_pid
 '''
@@ -904,6 +1380,23 @@ def call_query_player_stats_one_both_tid_pid(col_one, table_name, team_id, playe
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None 
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_both_tid_pid(%s, %s, %s, %s)
+    """, [col_one, table_name, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_player_stats_two_both_tid_pid
@@ -932,6 +1425,23 @@ def call_query_player_stats_two_both_tid_pid(col_one, col_two, table_name, team_
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None 
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_both_tid_pid(%s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_both_tid_pid
@@ -966,6 +1476,23 @@ def call_query_player_stats_three_both_tid_pid(col_one, col_two, col_three, tabl
     if(player_id_regex(player_id)):
         return None 
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_tid_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_stats_primary_both_tid_pid
 '''
@@ -983,6 +1510,23 @@ def call_query_player_stats_primary_both_tid_pid(table_name, team_id, player_id)
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_primary_both_tid_pid(%s, %s, %s)
+    """, [table_name, team_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+
+    return df_result
 
 '''
 Function calls query_player_stats_one_both_above_tid_pid
@@ -1010,6 +1554,23 @@ def call_query_player_stats_one_both_above_tid_pid(col_one, table_name, team_id,
     # Check parameter val_one with regex
     if(floating_point_regex(val_one)):
         return None
+
+     # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_one_both_above_tid_pid(%s, %s, %s, %s, %s)
+    """, [col_one, table_name, team_id, player_id, val_one]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls _query_player_stats_two_both_above_tid_pid
@@ -1046,6 +1607,23 @@ def call_query_player_stats_two_both_above_tid_pid(col_one, col_two, table_name,
     # Check parameter val_two with regex
     if(floating_point_regex(val_two)):
         return None
+
+     # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_both_above_tid_pid(%s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, team_id, player_id, val_one, val_two]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 ''' 
 Function calls query_player_stats_three_both_above_tid_pid(
@@ -1091,7 +1669,24 @@ def call_query_player_stats_three_both_above_tid_pid(col_one, col_two, col_three
     # Check parameter val_three with regex
     if(floating_point_regex(val_three)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
     
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_above_tid_pid(%s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, team_id, player_id, val_one, val_two, val_three]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_stats_one_both_sid_pid
 '''
@@ -1115,6 +1710,23 @@ def call_query_player_stats_one_both_sid_pid(col_one, table_name, season_id, pla
     if(player_id_regex(player_id)):
         return None 
     
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_sid_pid(%s, %s, %s, %s)
+    """, [col_one, table_name, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
+
 '''
 Function calls query_player_stats_two_both_sid_pid
 '''
@@ -1142,6 +1754,23 @@ def call_query_player_stats_two_both_sid_pid(col_one, col_two, table_name, seaso
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None 
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_both_sid_pid(%s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_both_sid_pid
@@ -1176,6 +1805,23 @@ def call_query_player_stats_three_both_sid_pid(col_one, col_two, col_three, tabl
     if(player_id_regex(player_id)):
         return None 
 
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_sid_pid(%s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
+
 '''
 Function calls query_player_stats_primary_both_sid_pid
 '''
@@ -1193,6 +1839,23 @@ def call_query_player_stats_primary_both_sid_pid(table_name, season_id, player_i
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None 
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_primary_both_sid_pid(%s, %s, %s)
+    """, [table_name, season_id, player_id]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
+
+    return df_result
 
 '''
 Function calls uery_player_stats_one_both_above_sid_pid(
@@ -1220,6 +1883,23 @@ def call_query_player_stats_one_both_above_sid_pid(col_one, table_name, season_i
     # Check parameter val_one with regex
     if(floating_point_regex(val_one)):
         return None
+    
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_above_sid_pid(%s, %s, %s, %s, %s)
+    """, [col_one, table_name, season_id, player_id, val_one]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
+
+    return df_result
 
 '''
 Function calls query_player_stats_two_both_above_sid_pid
@@ -1256,6 +1936,23 @@ def call_query_player_stats_two_both_above_sid_pid(col_one, col_two, table_name,
     # Check parameter val_two with regex
     if(floating_point_regex(val_two)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_two_both_above_sid_pid(%s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, season_id, player_id, val_one, val_two]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
+
+    return df_result
 
 '''
 Function calls query_player_stats_three_both_above_sid_pid
@@ -1301,3 +1998,20 @@ def call_query_player_stats_three_both_above_sid_pid(col_one, col_two, col_three
     # Check parameter val_three with regex
     if(floating_point_regex(val_three)):
         return None
+
+    # Connect to sql database
+    engine = create_connection()
+    
+    # Test the connection of the database
+    conn = test_connection(engine)
+    trans = conn.begin()
+    
+    result = conn.execute(
+    """
+    CALL query_player_stats_three_both_above_sid_pid(%s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, season_id, player_id, val_one, val_two, val_three]
+    ).fetchall()
+    
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
+
+    return df_result
