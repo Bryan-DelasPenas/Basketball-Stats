@@ -11,7 +11,7 @@ Complete User Manual        In Progress
 
 Create_All_Queries: Done
 Drop_All_Queries:   Done
-Call_Queries:       In Progress
+Call_Queries:       Done
 
 For Queries:                          Amount CALL
 Season:                   NA          | 0  | NA            UNIT TEST DONE?: NA
@@ -26,7 +26,7 @@ Team Per Game:            Done        | 10 | Done          UNIT TEST DONE?: Rest
 Team Per Poss:            Done        | 10 | Done          UNIT TEST DONE?: Restart
 Team Totals:              Done        | 10 | Done          UNIT TEST DONE?: Restart
 Player Stats:             Done        | 42 | Done          UNIT TEST DONE?: Restart
-Player Advanced:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Advanced:          Done        | 12 | Done          UNIT TEST DONE?: Restart
 Player Per Game:          Done        | 12 | Done          UNIT TEST DONE?: Restart
 Player Per Minute:        Done        | 12 | Done          UNIT TEST DONE?: Restart
 Player Per Poss:          Done        | 12 | Done          UNIT TEST DONE?: Restart
