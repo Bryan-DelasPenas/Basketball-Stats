@@ -27,7 +27,7 @@ Team Per Poss:            Done        | 10 | Done          UNIT TEST DONE?: Rest
 Team Totals:              Done        | 10 | Done          UNIT TEST DONE?: Restart
 Player Stats:             Done        | 42 | Done          UNIT TEST DONE?: Restart
 Player Advanced:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
-Player Per Game:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
+Player Per Game:          Done        | 12 | Done          UNIT TEST DONE?: Restart
 Player Per Minute:        Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
 Player Per Poss:          Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
 Player Totals:            Done        | 12 | IN PROGRESS   UNIT TEST DONE?: Restart
