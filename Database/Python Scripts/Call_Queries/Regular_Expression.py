@@ -145,3 +145,7 @@ def reg_string_regex(function_input):
     if(not re.match(r'^[a-zA-Z._ ]*$', function_string)):
         print("Please enter a valid string with letters, spaces and periods")
         return True
+
+def main():
+    season_id_regex(2020)
+main()

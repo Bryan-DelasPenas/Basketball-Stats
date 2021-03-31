@@ -22,7 +22,7 @@ Roster:                   Done        | 10 | Done          UNIT TEST DONE?: Rest
 Team Stats:               Done        | 16 | Done          UNIT TEST DONE?: Done 
 Team Advanced:            Done        | 5  | Done          UNIT TEST DONE?: Done
 Team Misc:                Done        | 5  | Done          UNIT TEST DONE?: Done
-Team Per Game:            Done        | 10 | Done          UNIT TEST DONE?: Restart
+Team Per Game:            Done        | 10 | Done          UNIT TEST DONE?: Done
 Team Per Poss:            Done        | 10 | Done          UNIT TEST DONE?: Restart
 Team Totals:              Done        | 10 | Done          UNIT TEST DONE?: Restart
 Player Stats:             Done        | 42 | Done          UNIT TEST DONE?: Restart
