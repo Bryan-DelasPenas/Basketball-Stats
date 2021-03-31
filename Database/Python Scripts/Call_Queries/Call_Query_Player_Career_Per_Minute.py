@@ -16,13 +16,13 @@ from Regular_Expression import player_id_regex, player_name_regrex, binary_regex
 '''
 Function call query_player_career_per_minute_pid
 '''
-def create_query_player_career_per_minute_pid(playoffs, player_id):
-    # Check paramter playoffs with regex 
-    if(binary_regex(playoffs)):
-        return None
-
+def call_query_player_career_per_minute_pid(player_id, playoffs):
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
+        return None
+    
+    # Check paramter playoffs with regex 
+    if(binary_regex(playoffs)):
         return None
 
     # Connect to sql database
@@ -48,13 +48,13 @@ def create_query_player_career_per_minute_pid(playoffs, player_id):
 '''
 Function call query_player_career_per_minute_pname
 '''
-def create_query_player_career_per_minute_pname(playoffs, player_name):
-    # Check parameter playoffs with regex 
-    if(binary_regex(playoffs)):
-        return None
-
+def call_query_player_career_per_minute_pname(player_name, playoffs):
     # Check parameter player_name with regex 
     if(player_name_regrex(player_name)):
+        return None
+
+    # Check parameter playoffs with regex 
+    if(binary_regex(playoffs)):
         return None
 
     # Connect to sql database
@@ -80,7 +80,7 @@ def create_query_player_career_per_minute_pname(playoffs, player_name):
 '''
 Function call query_player_career_per_minute_both_pid
 '''
-def create_query_player_career_per_minute_both_pid(player_id):
+def call_query_player_career_per_minute_both_pid(player_id):
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
@@ -108,7 +108,7 @@ def create_query_player_career_per_minute_both_pid(player_id):
 '''
 Function call query_player_career_per_minute_both_pname
 '''
-def create_query_player_career_per_minute_both_pname(player_name):
+def call_query_player_career_per_minute_both_pname(player_name):
     # Check parameter player_name with regex
     if(player_name_regrex(player_name)):
         return None

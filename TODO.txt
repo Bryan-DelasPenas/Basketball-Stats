@@ -34,7 +34,7 @@ Player Totals:            Done        | 12 | Done          UNIT TEST DONE?: Rest
 Player Career Stats:      Done        | 14 | Done          UNIT TEST DONE?: Restart
 Player Career Advanced:   Done        | 4  | Done          UNIT TEST DONE?: Restart
 Player Career Per Game:   Done        | 4  | Done          UNIT TEST DONE?: Restart
-Player Career Per Minute: Done        | 4  | Done          UNIT TEST DONE?: Restart
+Player Career Per Minute: Done        | 4  | Done          UNIT TEST DONE?: Done
 Player Career Per Poss:   Done        | 4  | Done          UNIT TEST DONE?: Done
 Player Career Totals:     Done        | 4  | Done          UNIT TEST DONE?: Done
 
