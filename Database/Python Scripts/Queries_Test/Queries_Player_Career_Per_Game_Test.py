@@ -35,7 +35,7 @@ class TestQueryPlayerCareerPerGame(unittest.TestCase):
         'Offensive_Rebounds':float, 'Defensive_Rebounds':float, 'True_Rebounds':float, 'Assists':float, 'Steals':float, 'Blocks':float, 'Turn_Over':float, 
         'Personal_Fouls':float, 'Points':float})
         
-        df_result = call_query_career_per_game_pid(2, 0)
+        df_result = call_query_player_career_per_game_pid(2, 0)
         df_result = df_result.astype({'Birth_Date': str})
         pd.testing.assert_frame_equal(df_result, df_expected)
       
