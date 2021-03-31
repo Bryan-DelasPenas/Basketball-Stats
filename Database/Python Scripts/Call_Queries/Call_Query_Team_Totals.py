@@ -36,7 +36,7 @@ def call_query_all_team_totals_sid(season_id, opp_bool):
     result = conn.execute(
     """
     CALL query_all_team_totals_sid(%s, %s)
-    """, [binary_regex, season_id]
+    """, [opp_bool, season_id]
     ).fetchall()
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Games_Played', 'Minutes_Played', 'Field_Goals_Made', 'Field_Goals_Attempted', 
@@ -69,7 +69,7 @@ def call_query_all_team_totals_tid(team_id, opp_bool):
     result = conn.execute(
     """
     CALL query_all_team_totals_tid(%s, %s)
-    """, [binary_regex, team_id]
+    """, [opp_bool, team_id]
     ).fetchall()
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Games_Played', 'Minutes_Played', 'Field_Goals_Made', 'Field_Goals_Attempted', 
@@ -106,7 +106,7 @@ def call_query_all_team_totals_sid_tid(season_id, team_id, opp_bool):
     result = conn.execute(
     """
     CALL query_all_team_totals_sid_tid(%s, %s, %s)
-    """, [binary_regex, season_id, team_id]
+    """, [opp_bool, season_id, team_id]
     ).fetchall()
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Games_Played', 'Minutes_Played', 'Field_Goals_Made', 'Field_Goals_Attempted', 
@@ -139,7 +139,7 @@ def call_query_all_team_totals_name(team_name, opp_bool):
     result = conn.execute(
     """
     CALL query_all_team_totals_name(%s, %s)
-    """, [binary_regex, team_name]
+    """, [opp_bool, team_name]
     ).fetchall()
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Games_Played', 'Minutes_Played', 'Field_Goals_Made', 'Field_Goals_Attempted', 
@@ -152,7 +152,7 @@ def call_query_all_team_totals_name(team_name, opp_bool):
 '''
 Function calls query_all_team_totals_ABV
 '''
-def call_query_all_team_totals_ABV(team_abv, opp_bool):
+def call_query_all_team_totals_abv(team_abv, opp_bool):
     # Check parameter team_abv with regex
     if(team_abv_regex(team_abv)):
         return None
@@ -172,7 +172,7 @@ def call_query_all_team_totals_ABV(team_abv, opp_bool):
     result = conn.execute(
     """
     CALL query_all_team_totals_abv(%s, %s)
-    """, [binary_regex, team_abv]
+    """, [opp_bool, team_abv]
     ).fetchall()
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Games_Played', 'Minutes_Played', 'Field_Goals_Made', 'Field_Goals_Attempted', 
@@ -305,7 +305,7 @@ def call_query_all_team_totals_both_name(team_name):
 '''
 Function calls query_all_team_totals_both_ABV
 '''
-def call_query_all_team_totals_both_ABV(team_abv):
+def call_query_all_team_totals_both_abv(team_abv):
     # Check parameter team_abv with regex
     if(team_abv_regex(team_abv)):
         return None
