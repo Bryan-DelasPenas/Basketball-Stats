@@ -76,7 +76,7 @@ class TestQueryTeam(unittest.TestCase):
         pd.testing.assert_frame_equal(df_result, df_expected)
 
 
-    def test_create_query_all_ABV(self):
+    def test_create_query_all_abv(self):
         data = []
         # Iterate through all completed seasons
         for i in range(1980, 2021):
@@ -84,7 +84,7 @@ class TestQueryTeam(unittest.TestCase):
         
         # Create a empty dataframe with the following columns
         df_expected = pd.DataFrame(data, columns=['Season_ID', 'Team_ID', 'Team_Name', 'Team_ABV'])
-        df_result = call_query_all_team_ABV('BOS')
+        df_result = call_query_all_team_abv('BOS')
     
         pd.testing.assert_frame_equal(df_result, df_expected)
     

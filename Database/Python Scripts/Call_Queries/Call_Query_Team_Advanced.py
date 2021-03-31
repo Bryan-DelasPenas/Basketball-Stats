@@ -89,7 +89,7 @@ def call_query_all_team_advanced_sid_tid(season_id, team_id):
     # Using the year 2020
     result = conn.execute(
     """
-    CALL query_all_team_advanced_sid_tid(%s)
+    CALL query_all_team_advanced_sid_tid(%s, %s)
     """, [season_id, team_id]
     ).fetchall()
     
@@ -128,7 +128,7 @@ def call_query_all_team_advanced_name(team_name):
 '''
 Function call query_all_team_advanced_ABV
 '''
-def call_query_all_team_advanced_ABV(team_abv):
+def call_query_all_team_advanced_abv(team_abv):
     # Check parameter team_abv parameter with regex
     if(team_abv_regex(team_abv)):
         return None
@@ -149,4 +149,5 @@ def call_query_all_team_advanced_ABV(team_abv):
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Team_Wins', 'Team_Loses', 'Win_Lose_Percentage', 'Team_Finish', 'Simple_Rating_System',
     'Pace', 'Relative_Pace', 'Offensive_Rating', 'Relative_Offensive_Rating', 'Defensive_Rating', 'Relative_Defensive_Rating', 'Playoffs_Finish', 'Coaches'])
-   
+    
+    return df_result
