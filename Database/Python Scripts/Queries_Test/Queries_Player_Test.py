@@ -57,7 +57,7 @@ class TestQueryPlayer(unittest.TestCase):
         result = call_query_player_name('Kareem Abdul-Jabbar')
         
         # Every query call in python returns a 2d list 
-        self.assertEqual(result[0][0], player_id_expected)
+        self.assertEqual(result, player_id_expected)
     
 if __name__ == '__main__':
     unittest.main()

@@ -95,4 +95,4 @@ def call_query_player_name(player_name):
     ).fetchall()
     
     
-    return result
+    return result[0][0]

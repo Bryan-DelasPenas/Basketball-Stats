@@ -37,7 +37,7 @@ def call_query_all_team_sid(season_id):
     
     # Convert Query Result into a dataframe  
     df_result = pd.DataFrame(result, 
-    columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name'])
+    columns=['Season_ID', 'Team_ID', 'Team_Name', 'Team_ABV'])
     
     # Return the dataframe
     return df_result
@@ -66,7 +66,7 @@ def call_query_all_team_tid(team_id):
     
     # Convert Query Result into a dataframe  
     df_result = pd.DataFrame(result, 
-    columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name'])
+    columns=['Season_ID', 'Team_ID', 'Team_Name', 'Team_ABV'])
     
     # Return the dataframe
     return df_result
@@ -95,7 +95,7 @@ def call_query_all_team_name(team_name):
     
     # Convert Query Result into a dataframe  
     df_result = pd.DataFrame(result, 
-    columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name'])
+    columns=['Season_ID', 'Team_ID', 'Team_Name', 'Team_ABV'])
 
     # Return the dataframe
     return df_result
@@ -124,7 +124,7 @@ def call_query_all_team_ABV(team_abv):
      
     # Convert Query Result into a dataframe  
     df_result = pd.DataFrame(result, 
-    columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name'])
+    columns=['Season_ID', 'Team_ID', 'Team_Name', 'Team_ABV'])
     
     # Return the dataframe
     return df_result
@@ -151,12 +151,7 @@ def call_query_team_name(team_name):
     """, team_name
     ).fetchall()
      
-    # Convert Query Result into a dataframe  
-    df_result = pd.DataFrame(result, 
-    columns=['Team_ID'])
-    
-    # Return the dataframe
-    return df_result
+    return result[0][0]
 
 '''
 Function that calls query_all_team_abv
@@ -180,9 +175,5 @@ def calls_query_team_abv(team_abv):
     """, team_abv
     ).fetchall()
      
-    # Convert Query Result into a dataframe  
-    df_result = pd.DataFrame(result, 
-    columns=['Team_ID'])
-    
     # Return the dataframe
-    return df_result
+    return result[0][0]
