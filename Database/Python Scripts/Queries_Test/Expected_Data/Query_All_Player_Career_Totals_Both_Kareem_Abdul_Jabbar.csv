@@ -1,3 +1,3 @@
 Player_ID,Player_Name,Birth_Date,Games_Played,Games_Started,Minutes_Played,Field_Goals_Made,Field_Goals_Attempted,Field_Goals_Percentage,Three_Points_Made,Three_Points_Attempted,Three_Points_Percentage,Two_Points_Made,Two_Points_Attempted,Two_Points_Percentage,Effective_Field_Goal_Percentage,Free_Throws_Made,Free_Throws_Attempted,Free_Throws_Percentage,Offensive_Rebounds,Defensive_Rebounds,True_Rebounds,Assists,Steals,Blocks,Turn_Over,Personal_Fouls,Points,Triple_Double,Stat_Form
-2,"Kareem Abdul-Jabbar","April 16, 1947",787,625,25675,6693,11707,0.57,1,18,0.06,6692,11689,0.57,0.57,2859,3846,0.74,1563,4417,5980,2220,584,1594,2037,2258,16246,3,0
-2,"Kareem Abdul-Jabbar","April 16, 1947",158,90,5327,1370,2557,0.54,0,4,0,1370,2553,0.54,0.54,640,846,0.76,355,833,1188,446,140,354,404,543,3380,0,1
+2,"Kareem Abdul-Jabbar",1947-04-16,787,625,25675,6693,11707,0.57,1,18,0.06,6692,11689,0.57,0.57,2859,3846,0.74,1563,4417,5980,2220,584,1594,2037,2258,16246,3,0
+2,"Kareem Abdul-Jabbar",1947-04-16,158,90,5327,1370,2557,0.54,0,4,0,1370,2553,0.54,0.54,640,846,0.76,355,833,1188,446,140,354,404,543,3380,0,1
