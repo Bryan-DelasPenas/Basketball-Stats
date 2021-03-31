@@ -683,7 +683,3 @@ def get_career_stats(name, birth_date, format='Per_Game', playoffs = False):
         if(format == 'Per_Minute' or format == 'Per_Poss'):
             career_df = career_df.drop(['eFG%'], axis=1)
         return career_df
-
-def main():
-    print(get_player_suffix("Reggie Williams", "1986-09-14"))
-#main()

@@ -90,12 +90,9 @@ def call_query_player_name(player_name):
     # Execute the Query 
     result = conn.execute(
     """
-    CALL query_all_player_name(%s)
+    CALL query_player_name(%s)
     """, player_name
     ).fetchall()
     
-    # Convert Query Result into a dataframe  
-    df_result = pd.DataFrame(result, 
-    columns=['Player_ID', 'Birth_Date', 'Player_Name'])
-
-    return df_result
+    
+    return result

@@ -6,12 +6,16 @@ import os
 import unittest
 sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts')
 sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts' + '\\Queries')
+sys.path.append(str(pathlib.Path().absolute()) + '\\Database' +'\\Python Scripts' + '\\Call_Queries')
+
 import pyodbc
 import sqlalchemy as sal
 from sqlalchemy import create_engine
+from datetime import datetime
 
 from Helper_DB import create_connection, test_connection, check_table
 from Query_Player import drop_player_query, create_player_query
+from Call_Query_Player import *
 
 '''
 Class that will Player_Queries, Assuming that the data has been inserted correctly and the procedures are created
@@ -27,63 +31,32 @@ class TestQueryPlayer(unittest.TestCase):
         create_player_query()
 
     def test_create_query_all_player_pid(self):
-        data = [[2, "April 16, 1947", "Kareem Abdul-Jabbar"]]
+        data = [[2, "1947-04-16", "Kareem Abdul-Jabbar"]]
         df_expected = pd.DataFrame(data, columns=['Player_ID', 'Birth_Date', 'Player_Name'])
-     
-        # Connect to sql database
-        engine = create_connection()
+         
+        df_result = call_query_all_player_pid(2)
         
-        # Test the connection of the database
-        conn = test_connection(engine)
-        trans = conn.begin()
-        
-        result = conn.execute(
-        """
-        CALL query_all_player_pid(%s)
-        """, 2
-        ).fetchall()
-       
-        df_result = pd.DataFrame(result, columns=['Player_ID', 'Birth_Date', 'Player_Name'])
+        # Change Date into string 
+        df_result = df_result.astype({'Birth_Date': str})
         pd.testing.assert_frame_equal(df_result, df_expected)
-        
-    def test_create_query_all_player_name_dob(self):
-        data = [[2, "April 16, 1947", "Kareem Abdul-Jabbar"]]
-        df_expected = pd.DataFrame(data, columns=['Player_ID', 'Birth_Date', 'Player_Name'])
-
-        # Connect to sql database
-        engine = create_connection()
-        
-        # Test the connection of the database
-        conn = test_connection(engine)
-        trans = conn.begin()
-
-        result = conn.execute(
-        """
-        CALL query_all_player_name_dob(%s, %s)
-        """, ["Kareem Abdul-Jabbar", "April 16, 1947"]
-        ).fetchall()
-       
-        df_result = pd.DataFrame(result, columns=['Player_ID', 'Birth_Date', 'Player_Name'])
     
+    def test_create_query_all_player_name_dob(self):
+        data = [[2, "1947-04-16", "Kareem Abdul-Jabbar"]]
+        df_expected = pd.DataFrame(data, columns=['Player_ID', 'Birth_Date', 'Player_Name'])
+         
+        df_result = call_query_all_player_name_dob("Kareem Abdul-Jabbar", "1947-04-16")
+    
+        # Change Date into string 
+        df_result = df_result.astype({'Birth_Date': str})
         pd.testing.assert_frame_equal(df_result, df_expected)
+    
     
     def test_create_query_player_name(self):
         player_id_expected = 2
 
-        # Connect to sql database
-        engine = create_connection()
+        result = call_query_player_name('Kareem Abdul-Jabbar')
         
-        # Test the connection of the database
-        conn = test_connection(engine)
-        trans = conn.begin()
-
-        # Using the year 2020
-        result = conn.execute(
-        """
-        CALL query_player_name(%s)
-        """, 'Kareem Abdul-Jabbar'
-        ).fetchall()
-       
+        # Every query call in python returns a 2d list 
         self.assertEqual(result[0][0], player_id_expected)
     
 if __name__ == '__main__':

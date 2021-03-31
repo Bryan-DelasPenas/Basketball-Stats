@@ -89,13 +89,13 @@ def floating_point_regex(floating_point):
 Regex for Date
 '''
 '''
-Regex for format YYYY-MM-DD where YYYY is between 1980 and 2021
+Regex for format YYYY-MM-DD where YYYY is between 
 '''
 def date_regex(date):
     # Convert date into a valid string in Python
     # Check if the parameter date is valid
     date_string = str(date)
-    if(not re.match(r'(19[89][0-9]|20[0-1][0-9]|2020)[- \/.](0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])', date_string)):
+    if(not re.match(r'(19[0-9][0-9]|20[0-1][0-9]|2020)[- \/.](0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])', date_string)):
         print("Please enter a valid date from years 1980 - 2021")
         return True
 
