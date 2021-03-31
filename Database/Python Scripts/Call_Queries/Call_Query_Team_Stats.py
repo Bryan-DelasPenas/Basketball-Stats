@@ -407,7 +407,7 @@ def call_query_team_stats_major_op_two(col_one, col_two, table_name, val_one, va
     # Using the year 2020
     result = conn.execute(
     """
-    CALL query_team_stats_major_two(%s, %s, %s, %s, %s)
+    CALL query_team_stats_major_op_two(%s, %s, %s, %s, %s)
     """, [col_one, col_two, table_name, val_one, val_two]
     ).fetchall()
     
@@ -460,7 +460,7 @@ def call_query_team_stats_major_op_three(col_one, col_two, col_three, table_name
     # Using the year 2020
     result = conn.execute(
     """
-    CALL query_team_stats_major_three(%s, %s, %s, %s, %s, %s, %s)
+    CALL query_team_stats_major_op_three(%s, %s, %s, %s, %s, %s, %s)
     """, [col_one, col_two, col_three, table_name, val_one, val_two, val_three]
     ).fetchall()
     
@@ -634,6 +634,8 @@ def call_query_team_stats_primary_sid(table_name, season_id, opp_bool):
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
    
+    return df_result
+
 '''
 Function calls query_team_stats_primary_tid
 '''
@@ -668,6 +670,8 @@ def call_query_team_stats_primary_tid(table_name, team_id, opp_bool):
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
    
+    return df_result
+
 '''
 Function calls query_team_stats_primary_sid_tid
 '''
@@ -706,3 +710,4 @@ def call_query_team_stats_primary_sid_tid(table_name, season_id, team_id, opp_bo
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Opponent', 'Team_Name', 'Points', 'Assists', 'True_Rebounds', 'Steals', 'Blocks'])
    
+    return df_result

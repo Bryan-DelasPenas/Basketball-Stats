@@ -523,7 +523,7 @@ def create_query_team_stats_major_compare_one():
             CREATE PROCEDURE query_team_stats_major_compare_one(IN select_one LONGTEXT, IN tbl_name longtext, IN val longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Opponent, Team_Name, ',select_one, 
+                    'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, 
                     ' FROM ', tbl_name, 
                     ' WHERE ', select_one,' >= ?');
                 PREPARE stmt1 FROM @s;
@@ -561,7 +561,7 @@ def create_query_team_stats_major_compare_two():
             IN tbl_name longtext, IN val_one longtext, IN val_two Longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Opponent, Team_Name,  ',select_one, ',' ,select_two, 
+                    'SELECT Season_ID, Team_ID, Team_Name, Opponent,  ',select_one, ',' ,select_two, 
                     ' FROM ', tbl_name, 
                     ' WHERE ', select_one,' >= ?  
                       AND ', select_two, ' >= ?');
@@ -601,7 +601,7 @@ def create_query_team_stats_major_compare_three():
             IN tbl_name longtext, IN val_one longtext, IN val_two Longtext, IN val_three Longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Opponent, Team_Name, ',select_one, ',' ,select_two, ',', select_three,
+                    'SELECT Season_ID, Team_ID, Team_Name, Opponent, ',select_one, ',' ,select_two, ',', select_three,
                     ' FROM ', tbl_name, 
                     ' WHERE ', select_one,' >= ? 
                      AND ', select_two, ' >= ?
