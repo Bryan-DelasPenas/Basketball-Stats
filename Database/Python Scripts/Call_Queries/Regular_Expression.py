@@ -21,7 +21,7 @@ def team_id_regex(team_id):
     # Convert team_id to a string 
     # Check if the parameter team_id is between 1 - 31
     team_id_string = str(team_id)
-    if(not re.match(r'\b^([1-9]|[12][0-9]|3[01])$\b', team_id_string)):
+    if(not re.match(r'\b^([1-9]|[12][0-9]|3[01])\b', team_id_string)):
         print("Please enter a valid int from 1 - 31")
         return True 
 

@@ -40,13 +40,14 @@ def call_query_all_team_misc_sid(season_id):
     'Margin_Of_Victory', 'Strength_Of_Schedule', 'Simple_Rating_System', 'Offensive_Rating', 'Defensive_Rating', 'Net_Rating', 'Pace', 'Free_Throw_Attempt_Rate', 
     'Three_Point_Attempt_Rate', 'True_Shooting_Percentage', 'Offensive_Rebound_Percentage', 'Defensive_Rebound_Percentage', 'Arena', 'Attend', 'Attend_Per_Game'])
    
+    return df_result
 
 '''
 Function call query_all_team_misc_tid
 '''
 def call_query_all_team_misc_tid(team_id):
     # Check parameter team_id with regex
-    if(team_id_regex(team_id_regex)):
+    if(team_id_regex(team_id)):
         return None
     
     # Connect to sql database
@@ -66,7 +67,8 @@ def call_query_all_team_misc_tid(team_id):
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Team_Average_Age', 'Team_Wins', 'Team_Loses', 'Pythagorean_Wins', 'Pythagorean_Loses', 
     'Margin_Of_Victory', 'Strength_Of_Schedule', 'Simple_Rating_System', 'Offensive_Rating', 'Defensive_Rating', 'Net_Rating', 'Pace', 'Free_Throw_Attempt_Rate', 
     'Three_Point_Attempt_Rate', 'True_Shooting_Percentage', 'Offensive_Rebound_Percentage', 'Defensive_Rebound_Percentage', 'Arena', 'Attend', 'Attend_Per_Game'])
-   
+    
+    return df_result
 
 '''
 Function call query_all_team_misc_sid_tid
@@ -77,7 +79,7 @@ def call_query_all_team_misc_sid_tid(season_id, team_id):
         return None
 
     # Check parameter team_id with regex
-    if(team_id_regex(team_id_regex)):
+    if(team_id_regex(team_id)):
         return None
     
     # Connect to sql database
@@ -97,7 +99,8 @@ def call_query_all_team_misc_sid_tid(season_id, team_id):
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID', 'Team_ABV', 'Team_Name', 'Team_Average_Age', 'Team_Wins', 'Team_Loses', 'Pythagorean_Wins', 'Pythagorean_Loses', 
     'Margin_Of_Victory', 'Strength_Of_Schedule', 'Simple_Rating_System', 'Offensive_Rating', 'Defensive_Rating', 'Net_Rating', 'Pace', 'Free_Throw_Attempt_Rate', 
     'Three_Point_Attempt_Rate', 'True_Shooting_Percentage', 'Offensive_Rebound_Percentage', 'Defensive_Rebound_Percentage', 'Arena', 'Attend', 'Attend_Per_Game'])
-   
+    
+    return df_result
 
 '''
 Function call query_all_team_misc_name
@@ -125,11 +128,12 @@ def call_query_all_team_misc_name(team_name):
     'Margin_Of_Victory', 'Strength_Of_Schedule', 'Simple_Rating_System', 'Offensive_Rating', 'Defensive_Rating', 'Net_Rating', 'Pace', 'Free_Throw_Attempt_Rate', 
     'Three_Point_Attempt_Rate', 'True_Shooting_Percentage', 'Offensive_Rebound_Percentage', 'Defensive_Rebound_Percentage', 'Arena', 'Attend', 'Attend_Per_Game'])
    
+    return df_result
 
 '''
 Function call query_all_team_misc_ABV
 '''
-def call_query_all_team_misc_ABV(team_abv):
+def call_query_all_team_misc_abv(team_abv):
     # Check team_abv parameter with regex
     if(team_abv_regex(team_abv)):
         return None
@@ -152,3 +156,4 @@ def call_query_all_team_misc_ABV(team_abv):
     'Margin_Of_Victory', 'Strength_Of_Schedule', 'Simple_Rating_System', 'Offensive_Rating', 'Defensive_Rating', 'Net_Rating', 'Pace', 'Free_Throw_Attempt_Rate', 
     'Three_Point_Attempt_Rate', 'True_Shooting_Percentage', 'Offensive_Rebound_Percentage', 'Defensive_Rebound_Percentage', 'Arena', 'Attend', 'Attend_Per_Game'])
    
+    return df_result
