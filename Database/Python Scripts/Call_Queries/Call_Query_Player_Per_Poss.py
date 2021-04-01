@@ -16,14 +16,15 @@ from Regular_Expression import player_id_regex, team_id_regex, season_id_regex, 
 '''
 Function call query_all_player_per_poss_pid
 '''
-def call_query_all_player_per_poss_pid(playoffs, player_id):
+def call_query_all_player_per_poss_pid(player_id, playoffs):
+    # Check parameter player_id with regex
+    if(player_id_regex(player_id)):
+        return None
+
     # Check parameter playoffs with regex 
     if(binary_regex(playoffs)):
         return None
 
-    # Check parameter player_id with regex
-    if(player_id_regex(player_id)):
-        return None
 
     # Connect to sql database
     engine = create_connection()
@@ -49,17 +50,17 @@ def call_query_all_player_per_poss_pid(playoffs, player_id):
 '''
 Function call query_all_player_per_poss_sid_pid
 '''
-def call_query_all_player_per_poss_sid_pid(playoffs, season_id, player_id):
-    # Check parameter playoffs with regex 
-    if(binary_regex(playoffs)):
-        return None
-
+def call_query_all_player_per_poss_sid_pid(season_id, player_id, playoffs):
     # Check parameter season_id with regex
     if(season_id_regex(season_id)):
         return None
 
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
+        return None
+
+    # Check parameter playoffs with regex 
+    if(binary_regex(playoffs)):
         return None
 
     # Connect to sql database
@@ -86,17 +87,17 @@ def call_query_all_player_per_poss_sid_pid(playoffs, season_id, player_id):
 '''
 Function call query_all_player_per_poss_tid_pid
 '''
-def call_query_all_player_per_poss_tid_pid(playoffs, team_id, player_id):
-    # Check parameter playoffs with regex 
-    if(binary_regex(playoffs)):
-        return None
-
+def call_query_all_player_per_poss_tid_pid(team_id, player_id, playoffs):
     # Check parameter team_id with regex
     if(team_id_regex(team_id)):
         return None
 
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
+        return None
+
+    # Check parameter playoffs with regex 
+    if(binary_regex(playoffs)):
         return None
 
     # Connect to sql database
@@ -123,15 +124,15 @@ def call_query_all_player_per_poss_tid_pid(playoffs, team_id, player_id):
 '''
 Function call query_all_player_per_poss_pname
 '''
-def call_query_all_player_per_poss_pname(playoffs, player_name):
-    # Check parameter player_name
-    if(player_name_regex(player_name)):
-        return None
-   
+def call_query_all_player_per_poss_pname(player_name, playoffs):
     # Check parameter playoffs with regex 
     if(binary_regex(playoffs)):
         return None
 
+    # Check parameter player_name
+    if(player_name_regex(player_name)):
+        return None
+   
     # Connect to sql database
     engine = create_connection()
     
@@ -156,17 +157,17 @@ def call_query_all_player_per_poss_pname(playoffs, player_name):
 '''
 Function call query_all_player_per_poss_pname_sid
 '''
-def call_query_all_player_per_poss_pname_sid(playoffs, player_name, season_id):
-    # Check parameter playoffs with regex 
-    if(binary_regex(playoffs)):
-        return None
-
+def call_query_all_player_per_poss_pname_sid(player_name, season_id, playoffs):
     # Check parameter player_name
     if(player_name_regex(player_name)):
         return None
 
     # Check parameter season_id with regex
     if(season_id_regex(season_id)):
+        return None
+
+    # Check parameter playoffs with regex 
+    if(binary_regex(playoffs)):
         return None
 
     # Connect to sql database
@@ -193,17 +194,17 @@ def call_query_all_player_per_poss_pname_sid(playoffs, player_name, season_id):
 '''
 Function call query_all_player_per_poss_pname_tid
 '''
-def call_query_all_player_per_poss_pname_tid(playoffs, player_name, team_id):
-    # Check parameter playoffs with regex 
-    if(binary_regex(playoffs)):
-        return None
-
+def call_query_all_player_per_poss_pname_tid(player_name, team_id, playoffs):
     # Check parameter player_name
     if(player_name_regex(player_name)):
         return None
 
     # Check parameter team_id with regex
     if(team_id_regex(team_id)):
+        return None
+
+    # Check parameter playoffs with regex 
+    if(binary_regex(playoffs)):
         return None
 
     # Connect to sql database
@@ -372,7 +373,7 @@ def call_query_all_player_per_poss_both_pname_sid(player_name, season_id):
     
     result = conn.execute(
     """
-    CALL query_all_player_per_poss_both_pname(%s, %s)
+    CALL query_all_player_per_poss_both_pname_sid(%s, %s)
     """, [player_name, season_id]
     ).fetchall()
     
