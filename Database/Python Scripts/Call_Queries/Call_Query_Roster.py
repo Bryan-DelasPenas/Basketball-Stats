@@ -11,8 +11,8 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-from Regular_Expression import season_id_regex, team_id_regex, player_id_regex, team_name_regex, team_abv_regex, player_name_regrex
-from Constants import PLAYER_FOR_TEAM_ID, VALID_SID_TEAM_IDS
+from Regular_Expression import season_id_regex, team_id_regex, player_id_regex, team_name_regex, team_abv_regex, player_name_regex
+from Constants import PLAYED_FOR_TEAM_ID, VALID_SID_TEAM_IDS
 
 '''
 Function that calls query_all_roster_sid
@@ -109,7 +109,7 @@ Function that calls query_all_roster_pname
 '''
 def call_query_all_roster_pname(player_name):
     # Check parameter with regex  
-    if(player_name_regrex(player_name)):
+    if(player_name_regex(player_name)):
         return None
     
     # Connect to sql database
@@ -200,7 +200,7 @@ Function that calls query_all_roster_college
 def call_query_all_roster_college(college_name):
     # Check parameter with regex 
     # Use player_name as it allows for special chars
-    if(player_name_regrex(college_name)):
+    if(player_name_regex(college_name)):
         return None
 
     # Connect to sql database
@@ -274,7 +274,7 @@ def call_query_all_roster_tid_pid(team_id, player_id):
         return None
 
     # Check if the team exists in season
-    if(player_id not in PLAYER_FOR_TEAM_ID[team_id]):
+    if(player_id not in PLAYED_FOR_TEAM_ID[team_id]):
         return None
 
     # Connect to sql database
@@ -288,7 +288,7 @@ def call_query_all_roster_tid_pid(team_id, player_id):
     result = conn.execute(
     """
     CALL query_all_roster_tid_pid(%s, %s)
-    """, [team_id, team_id]
+    """, [team_id, player_id]
     ).fetchall()
     
     # Convert Query Result into a dataframe  
@@ -314,13 +314,13 @@ def call_query_all_roster_sid_tid_pid(season_id, team_id, player_id):
         return None
 
     # Check if the team exists in season
-    if(not team_id in VALID_SID_TEAM_IDS[season_id]):
+    if(team_id not in VALID_SID_TEAM_IDS[season_id]):
         return None
-
+    
     # Check if the team exists in season
-    if(player_id not in PLAYER_FOR_TEAM_ID[team_id]):
+    if(player_id not in PLAYED_FOR_TEAM_ID[team_id]):
         return None
-
+    
     # Connect to sql database
     engine = create_connection()
     
@@ -332,7 +332,7 @@ def call_query_all_roster_sid_tid_pid(season_id, team_id, player_id):
     result = conn.execute(
     """
     CALL query_all_roster_sid_tid_pid(%s, %s, %s)
-    """, [season_id, team_id, team_id]
+    """, [season_id, team_id, player_id]
     ).fetchall()
     
     # Convert Query Result into a dataframe  

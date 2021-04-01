@@ -1,672 +1,672 @@
 Season_ID,Team_ID,Player_ID,Team_ABV,Team_Name,Player_Number,Player_Name,Player_Postion,Player_Height,Player_Weight,Birth_Date,Player_Nationality,Player_Experience,Player_College_Name
-1980,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,"September 2, 1948",US,8,"Texas-El Paso"
-1980,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,"December 7, 1956",US,R,"Indiana State University"
-1980,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,"January 9, 1951",US,4,"Guilford College"
-1980,2,516,BOS,"Boston Celtics",12,"Don Chaney",SG,6-5,210,"March 22, 1946",US,11,Houston
-1980,2,620,BOS,"Boston Celtics",18,"Dave Cowens",C,6-9,230,"October 25, 1948",US,9,"Florida State"
-1980,2,908,BOS,"Boston Celtics",45,"Eric Fernsten",PF,6-10,205,"November 1, 1953",US,2,"San Francisco"
-1980,2,934,BOS,"Boston Celtics",42,"Chris Ford",SG,6-5,190,"January 11, 1949",US,7,Villanova
-1980,2,1252,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,"January 16, 1956",US,R,VCU
-1980,2,1576,BOS,"Boston Celtics",32,"Jeff Judkins",SF,6-6,185,"March 23, 1956",US,1,Utah
-1980,2,1833,BOS,"Boston Celtics",44,"Pete Maravich",SG,6-5,197,"June 22, 1947",US,9,LSU
-1980,2,1880,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,"November 21, 1955",US,2,"UNC Charlotte"
-1980,2,2469,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,"January 30, 1956",US,1,Kentucky
-1981,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,"September 2, 1948",US,9,"Texas-El Paso"
-1981,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,"December 7, 1956",US,1,"Indiana State University"
-1981,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,"January 9, 1951",US,5,"Guilford College"
-1981,2,794,BOS,"Boston Celtics",40,"Terry Duerod",SG,6-2,180,"July 29, 1956",US,1,"Detroit Mercy"
-1981,2,908,BOS,"Boston Celtics",45,"Eric Fernsten",C,6-10,205,"November 1, 1953",US,3,"San Francisco"
-1981,2,934,BOS,"Boston Celtics",42,"Chris Ford",SG,6-5,190,"January 11, 1949",US,8,Villanova
-1981,2,1252,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,"January 16, 1956",US,1,VCU
-1981,2,1657,BOS,"Boston Celtics",20,"Wayne Kreklow",SG,6-4,175,"January 4, 1957",US,R,"Drake University"
-1981,2,1880,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,"November 21, 1955",US,3,"UNC Charlotte"
-1981,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,R,Minnesota
-1981,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,4,"Centenary (LA)"
-1981,2,2469,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,"January 30, 1956",US,2,Kentucky
-1982,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,"March 17, 1959",US,R,BYU
-1982,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,"September 2, 1948",US,10,"Texas-El Paso"
-1982,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,"December 7, 1956",US,2,"Indiana State University"
-1982,2,323,BOS,"Boston Celtics",35,"Charles Bradley",SG,6-5,215,"May 16, 1959",US,R,Wyoming
-1982,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,"January 9, 1951",US,6,"Guilford College"
-1982,2,794,BOS,"Boston Celtics",40,"Terry Duerod",SG,6-2,180,"July 29, 1956",US,2,"Detroit Mercy"
-1982,2,908,BOS,"Boston Celtics",45,"Eric Fernsten",C,6-10,205,"November 1, 1953",US,4,"San Francisco"
-1982,2,934,BOS,"Boston Celtics",42,"Chris Ford",SG,6-5,190,"January 11, 1949",US,9,Villanova
-1982,2,1252,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,"January 16, 1956",US,2,VCU
-1982,2,1420,BOS,"Boston Celtics",11,"Tracy Jackson",SG,6-6,205,"April 21, 1959",US,R,"Notre Dame"
-1982,2,1880,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,"November 21, 1955",US,4,"UNC Charlotte"
-1982,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,1,Minnesota
-1982,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,5,"Centenary (LA)"
-1982,2,2469,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,"January 30, 1956",US,3,Kentucky
-1983,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,"March 17, 1959",US,1,BYU
-1983,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,"September 2, 1948",US,11,"Texas-El Paso"
-1983,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,"December 7, 1956",US,3,"Indiana State University"
-1983,2,323,BOS,"Boston Celtics",35,"Charles Bradley",SG,6-5,215,"May 16, 1959",US,1,Wyoming
-1983,2,415,BOS,"Boston Celtics",28,"Quinn Buckner",SG,6-3,190,"August 20, 1954",US,6,Indiana
-1983,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,"January 9, 1951",US,7,"Guilford College"
-1983,2,1252,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,"January 16, 1956",US,3,VCU
-1983,2,1880,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,"November 21, 1955",US,5,"UNC Charlotte"
-1983,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,2,Minnesota
-1983,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,6,"Centenary (LA)"
-1983,2,2469,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,"January 30, 1956",US,4,Kentucky
-1983,2,2887,BOS,"Boston Celtics",52,"Darren Tillis",C,6-11,215,"February 23, 1960",US,R,"Cleveland State University"
-1983,2,3062,BOS,"Boston Celtics",20,"Scott Wedman",SF,6-7,215,"July 29, 1952",US,8,Colorado
-1984,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,"March 17, 1959",US,2,BYU
-1984,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,"December 7, 1956",US,4,"Indiana State University"
-1984,2,415,BOS,"Boston Celtics",28,"Quinn Buckner",PG,6-3,190,"August 20, 1954",US,7,Indiana
-1984,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,"January 9, 1951",US,8,"Guilford College"
-1984,2,539,BOS,"Boston Celtics",40,"Carlos Clark",SG,6-4,210,"August 10, 1960",US,R,"Ole Miss"
-1984,2,1252,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,"January 16, 1956",US,4,VCU
-1984,2,1482,BOS,"Boston Celtics",3,"Dennis Johnson",SG,6-4,185,"September 18, 1954",US,7,Pepperdine
-1984,2,1630,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,"August 5, 1961",US,R,BYU
-1984,2,1880,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,"November 21, 1955",US,6,"UNC Charlotte"
-1984,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,3,Minnesota
-1984,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,7,"Centenary (LA)"
-1984,2,3062,BOS,"Boston Celtics",20,"Scott Wedman",SF,6-7,215,"July 29, 1952",US,9,Colorado
-1985,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,"March 17, 1959",US,3,BYU
-1985,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,5,"Indiana State University"
-1985,2,415,BOS,"Boston Celtics",28,"Quinn Buckner",PG,6-3,190,"August 20, 1954",US,8,Indiana
-1985,2,472,BOS,"Boston Celtics",34,"Rick Carlisle",SG,6-5,210,"October 27, 1959",US,R,"University of Maine, Virginia"
-1985,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,"January 9, 1951",US,9,"Guilford College"
-1985,2,539,BOS,"Boston Celtics",40,"Carlos Clark",SG,6-4,210,"August 10, 1960",US,1,"Ole Miss"
-1985,2,1482,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,"September 18, 1954",US,8,Pepperdine
-1985,2,1630,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,"August 5, 1961",US,1,BYU
-1985,2,1880,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,"November 21, 1955",US,7,"UNC Charlotte"
-1985,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,4,Minnesota
-1985,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,8,"Centenary (LA)"
-1985,2,3062,BOS,"Boston Celtics",8,"Scott Wedman",SF,6-7,215,"July 29, 1952",US,10,Colorado
-1985,2,3171,BOS,"Boston Celtics",20,"Ray Williams",PG,6-3,188,"October 14, 1954",US,7,Minnesota
-1986,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,"March 17, 1959",US,4,BYU
-1986,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,6,"Indiana State University"
-1986,2,472,BOS,"Boston Celtics",34,"Rick Carlisle",SG,6-5,210,"October 27, 1959",US,1,"University of Maine, Virginia"
-1986,2,1482,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,"September 18, 1954",US,9,Pepperdine
-1986,2,1630,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,"August 5, 1961",US,2,BYU
-1986,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,5,Minnesota
-1986,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,9,"Centenary (LA)"
-1986,2,2627,BOS,"Boston Celtics",12,"Jerry Sichting",PG,6-1,168,"November 29, 1956",US,5,Purdue
-1986,2,2841,BOS,"Boston Celtics",45,"David Thirdkill",PF,6-7,195,"April 12, 1960",US,3,Bradley
-1986,2,2976,BOS,"Boston Celtics",11,"Sam Vincent",SG,6-2,185,"May 18, 1963",US,R,"Michigan State"
-1986,2,3019,BOS,"Boston Celtics",5,"Bill Walton",C,6-11,210,"November 5, 1952",US,8,UCLA
-1986,2,3062,BOS,"Boston Celtics",8,"Scott Wedman",SF,6-7,215,"July 29, 1952",US,11,Colorado
-1986,2,3183,BOS,"Boston Celtics",35,"Sly Williams",SF,6-7,210,"January 26, 1958",US,6,"Rhode Island"
-1987,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,"March 17, 1959",US,5,BYU
-1987,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,7,"Indiana State University"
-1987,2,472,BOS,"Boston Celtics",34,"Rick Carlisle",SG,6-5,210,"October 27, 1959",US,2,"University of Maine, Virginia"
-1987,2,712,BOS,"Boston Celtics",20,"Darren Daye",SF,6-8,220,"November 30, 1960",US,3,UCLA
-1987,2,1260,BOS,"Boston Celtics",43,"Conner Henry",SG,6-7,195,"July 21, 1963",US,R,"UC Santa Barbara"
-1987,2,1482,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,"September 18, 1954",US,10,Pepperdine
-1987,2,1630,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,"August 5, 1961",US,3,BYU
-1987,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,6,Minnesota
-1987,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,10,"Centenary (LA)"
-1987,2,2464,BOS,"Boston Celtics",31,"Fred Roberts",PF,6-10,218,"August 14, 1960",US,3,BYU
-1987,2,2627,BOS,"Boston Celtics",12,"Jerry Sichting",PG,6-1,168,"November 29, 1956",US,6,Purdue
-1987,2,2841,BOS,"Boston Celtics",45,"David Thirdkill",SF,6-7,195,"April 12, 1960",US,4,Bradley
-1987,2,2925,BOS,"Boston Celtics",7,"Andre Turner",PG,5-11,160,"December 13, 1964",US,R,Memphis
-1987,2,2976,BOS,"Boston Celtics",11,"Sam Vincent",PG,6-2,185,"May 18, 1963",US,1,"Michigan State"
-1987,2,3019,BOS,"Boston Celtics",5,"Bill Walton",C,6-11,210,"November 5, 1952",US,9,UCLA
-1987,2,3062,BOS,"Boston Celtics",8,"Scott Wedman",SF,6-7,215,"July 29, 1952",US,12,Colorado
-1988,2,10,BOS,"Boston Celtics",42,"Mark Acres",C,6-11,220,"November 15, 1962",US,R,"Oral Roberts"
-1988,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,"March 17, 1959",US,6,BYU
-1988,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,8,"Indiana State University"
-1988,2,712,BOS,"Boston Celtics",20,"Darren Daye",SF,6-8,220,"November 30, 1960",US,4,UCLA
-1988,2,1039,BOS,"Boston Celtics",53,"Artis Gilmore",C,7-2,240,"September 21, 1949",US,16,"Gardner-Webb University, Jacksonville University"
-1988,2,1260,BOS,"Boston Celtics",43,"Conner Henry",SG,6-7,195,"July 21, 1963",US,1,"UC Santa Barbara"
-1988,2,1482,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,"September 18, 1954",US,11,Pepperdine
-1988,2,1630,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,"August 5, 1961",US,4,BYU
-1988,2,1749,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,"November 21, 1965",US,R,"Northeastern University"
-1988,2,1768,BOS,"Boston Celtics",54,"Brad Lohaus",PF,6-11,230,"September 29, 1964",US,R,Iowa
-1988,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,7,Minnesota
-1988,2,2008,BOS,"Boston Celtics",11,"Dirk Minniefield",PG,6-3,180,"January 17, 1961",US,2,Kentucky
-1988,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,11,"Centenary (LA)"
-1988,2,2267,BOS,"Boston Celtics",4,"Jim Paxson",SG,6-6,200,"July 9, 1957",US,8,Dayton
-1988,2,2464,BOS,"Boston Celtics",31,"Fred Roberts",PF,6-10,218,"August 14, 1960",US,4,BYU
-1988,2,2627,BOS,"Boston Celtics",12,"Jerry Sichting",PG,6-1,168,"November 29, 1956",US,7,Purdue
-1989,2,10,BOS,"Boston Celtics",42,"Mark Acres",C,6-11,220,"November 15, 1962",US,1,"Oral Roberts"
-1989,2,26,BOS,"Boston Celtics",44,"Danny Ainge",PG,6-4,175,"March 17, 1959",US,7,BYU
-1989,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,9,"Indiana State University"
-1989,2,247,BOS,"Boston Celtics",12,"Otis Birdsong",SG,6-3,190,"December 9, 1955",US,11,Houston
-1989,2,985,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,"November 13, 1965",US,1,Iowa
-1989,2,1076,BOS,"Boston Celtics",31,"Ron Grandison",PF,6-6,215,"July 9, 1964",US,R,"University of California, Irvine, New Orleans"
-1989,2,1482,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,"September 18, 1954",US,12,Pepperdine
-1989,2,1633,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,"January 4, 1962",US,3,"Notre Dame, Arkansas"
-1989,2,1749,BOS,"Boston Celtics",35,"Reggie Lewis",SF,6-7,195,"November 21, 1965",US,1,"Northeastern University"
-1989,2,1768,BOS,"Boston Celtics",54,"Brad Lohaus",PF,6-11,230,"September 29, 1964",US,1,Iowa
-1989,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,8,Minnesota
-1989,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,12,"Centenary (LA)"
-1989,2,2267,BOS,"Boston Celtics",4,"Jim Paxson",PG,6-6,200,"July 9, 1957",US,9,Dayton
-1989,2,2311,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,"March 27, 1963",US,3,Villanova
-1989,2,2455,BOS,"Boston Celtics",45,"Ramon Rivas",C,6-10,260,"June 3, 1966",PR,R,Temple
-1989,2,2611,BOS,"Boston Celtics",20,"Brian Shaw",SG,6-6,190,"March 22, 1966",US,R,"Saint Mary's, UC Santa Barbara"
-1989,2,2945,BOS,"Boston Celtics",7,"Kelvin Upshaw",SG,6-2,180,"January 24, 1963",US,R,Utah
-1990,2,137,BOS,"Boston Celtics",5,"John Bagley",PG,6-0,185,"April 23, 1960",US,7,"Boston College"
-1990,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,10,"Indiana State University"
-1990,2,985,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,"November 13, 1965",US,2,Iowa
-1990,2,1482,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,"September 18, 1954",US,13,Pepperdine
-1990,2,1633,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,"January 4, 1962",US,4,"Notre Dame, Arkansas"
-1990,2,1749,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,"November 21, 1965",US,2,"Northeastern University"
-1990,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,9,Minnesota
-1990,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,13,"Centenary (LA)"
-1990,2,2267,BOS,"Boston Celtics",4,"Jim Paxson",PG,6-6,200,"July 9, 1957",US,10,Dayton
-1990,2,2311,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,"March 27, 1963",US,4,Villanova
-1990,2,2670,BOS,"Boston Celtics",13,"Charles Edward Smith",PG,6-1,160,"November 29, 1967",US,R,Georgetown
-1990,2,2695,BOS,"Boston Celtics",11,"Michael Smith (1965)",PF,6-10,225,"May 19, 1965",US,R,BYU
-1990,2,2945,BOS,"Boston Celtics",7,"Kelvin Upshaw",SG,6-2,180,"January 24, 1963",US,1,Utah
-1991,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,11,"Indiana State University"
-1991,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,"November 29, 1968",US,R,"Jacksonville University"
-1991,2,985,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,"November 13, 1965",US,3,Iowa
-1991,2,1633,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,"January 4, 1962",US,5,"Notre Dame, Arkansas"
-1991,2,1749,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,"November 21, 1965",US,3,"Northeastern University"
-1991,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,10,Minnesota
-1991,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,14,"Centenary (LA)"
-1991,2,2311,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,"March 27, 1963",US,5,Villanova
-1991,2,2337,BOS,"Boston Celtics",42,"Dave Popson",PF,6-10,220,"May 17, 1964",US,1,UNC
-1991,2,2611,BOS,"Boston Celtics",20,"Brian Shaw",PG,6-6,190,"March 22, 1966",US,1,"Saint Mary's, UC Santa Barbara"
-1991,2,2670,BOS,"Boston Celtics",13,"Charles Edward Smith",PG,6-1,160,"November 29, 1967",US,1,Georgetown
-1991,2,2677,BOS,"Boston Celtics",43,"Derek Smith",SF,6-6,205,"November 1, 1961",US,8,Louisville
-1991,2,2695,BOS,"Boston Celtics",11,"Michael Smith (1965)",PF,6-10,225,"May 19, 1965",US,1,BYU
-1991,2,2985,BOS,"Boston Celtics",52,"Stojko Vrankovic",C,7-2,260,"January 22, 1964",HR,R,NULL
-1991,2,3253,BOS,"Boston Celtics",12,"A.J. Wynder",PG,6-2,180,"September 11, 1964",US,R,"UMass, Fairfield"
-1992,2,137,BOS,"Boston Celtics",5,"John Bagley",PG,6-0,185,"April 23, 1960",US,8,"Boston College"
-1992,2,191,BOS,"Boston Celtics",8,"Kenny Battle",SG,6-6,210,"October 10, 1964",US,2,"Northern Illinois, Illinois"
-1992,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,"December 7, 1956",US,12,"Indiana State University"
-1992,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,"November 29, 1968",US,1,"Jacksonville University"
-1992,2,771,BOS,"Boston Celtics","4, 20","Sherman Douglas",PG,6-0,180,"September 15, 1966",US,2,Syracuse
-1992,2,951,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,"July 24, 1969",CA,R,UNC
-1992,2,985,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,"November 13, 1965",US,4,Iowa
-1992,2,1112,BOS,"Boston Celtics",13,"Rickey Green",PG,6-0,170,"August 18, 1954",US,13,Michigan
-1992,2,1633,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,"January 4, 1962",US,6,"Notre Dame, Arkansas"
-1992,2,1749,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,"November 21, 1965",US,4,"Northeastern University"
-1992,2,1870,BOS,"Boston Celtics",41,"Tony Massenburg",PF,6-9,220,"July 31, 1967",US,1,Maryland
-1992,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,11,Minnesota
-1992,2,2246,BOS,"Boston Celtics",00,"Robert Parish",C,7-1,230,"August 30, 1953",US,15,"Centenary (LA)"
-1992,2,2311,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,"March 27, 1963",US,6,Villanova
-1992,2,2369,BOS,"Boston Celtics",12,"Kevin Pritchard",PG,6-3,180,"July 17, 1967",US,1,Kansas
-1992,2,2485,BOS,"Boston Celtics",4,"Larry Robinson",SG,6-3,180,"January 11, 1968",US,1,"Centenary (LA)"
-1992,2,2611,BOS,"Boston Celtics",20,"Brian Shaw",PG,6-6,190,"March 22, 1966",US,2,"Saint Mary's, UC Santa Barbara"
-1992,2,2985,BOS,"Boston Celtics",11,"Stojko Vrankovic",C,7-2,260,"January 22, 1964",HR,1,NULL
-1993,2,1,BOS,"Boston Celtics",4,"Alaa Abdelnaby",PF,6-10,240,"June 24, 1968",EG,2,Duke
-1993,2,137,BOS,"Boston Celtics",5,"John Bagley",PG,6-0,185,"April 23, 1960",US,9,"Boston College"
-1993,2,191,BOS,"Boston Celtics",8,"Kenny Battle",SG,6-6,210,"October 10, 1964",US,3,"Northern Illinois, Illinois"
-1993,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,"November 29, 1968",US,2,"Jacksonville University"
-1993,2,771,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,"September 15, 1966",US,3,Syracuse
-1993,2,951,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,"July 24, 1969",CA,1,UNC
-1993,2,985,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,"November 13, 1965",US,5,Iowa
-1993,2,1633,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,"January 4, 1962",US,7,"Notre Dame, Arkansas"
-1993,2,1644,BOS,"Boston Celtics",12,"Bart Kofoed",SG,6-4,210,"March 24, 1964",US,4,"Hastings College, University of Nebraska at Kearney"
-1993,2,1749,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,"November 21, 1965",US,5,"Northeastern University"
-1993,2,1919,BOS,"Boston Celtics",31,"Xavier McDaniel",PF,6-7,205,"June 4, 1963",US,7,"Wichita State"
-1993,2,1938,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,"December 19, 1957",US,12,Minnesota
-1993,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,16,"Centenary (LA)"
-1993,2,2311,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,"March 27, 1963",US,7,Villanova
-1993,2,3055,BOS,"Boston Celtics",41,"Marcus Webb",PF,6-9,255,"May 9, 1970",US,R,Alabama
-1993,2,3159,BOS,"Boston Celtics",43,"Lorenzo Williams",PF,6-9,200,"July 15, 1969",US,R,"Stetson University"
-1993,2,3219,BOS,"Boston Celtics",42,"Joe Wolf",C,6-11,230,"December 17, 1964",US,5,UNC
-1994,2,1,BOS,"Boston Celtics",4,"Alaa Abdelnaby",PF,6-10,240,"June 24, 1968",EG,3,Duke
-1994,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",SG,6-1,160,"November 29, 1968",US,3,"Jacksonville University"
-1994,2,610,BOS,"Boston Celtics",12,"Chris Corchiani",PG,6-0,185,"March 28, 1968",US,2,"NC State"
-1994,2,771,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,"September 15, 1966",US,4,Syracuse
-1994,2,814,BOS,"Boston Celtics",55,"Acie Earl",C,6-10,240,"June 23, 1970",US,R,Iowa
-1994,2,951,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,"July 24, 1969",CA,2,UNC
-1994,2,985,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,"November 13, 1965",US,6,Iowa
-1994,2,1211,BOS,"Boston Celtics",43,"Tony Harris",SG,6-3,190,"May 13, 1967",US,1,"Lamar, New Orleans"
-1994,2,1751,BOS,"Boston Celtics",30,"Todd Lichti",SG,6-4,205,"January 8, 1967",US,4,Stanford
-1994,2,1919,BOS,"Boston Celtics",31,"Xavier McDaniel",SF,6-7,205,"June 4, 1963",US,8,"Wichita State"
-1994,2,2207,BOS,"Boston Celtics",27,"Jimmy Oliver",SG,6-5,205,"July 12, 1969",US,1,Purdue
-1994,2,2246,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,"August 30, 1953",US,17,"Centenary (LA)"
-1994,2,2311,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,"March 27, 1963",US,8,Villanova
-1994,2,2384,BOS,"Boston Celtics",40,"Dino Radja",PF,6-11,225,"April 24, 1967",HR,R,NULL
-1994,2,3071,BOS,"Boston Celtics",50,"Matt Wenstrom",C,7-1,250,"November 4, 1970",US,R,UNC
-1995,2,257,BOS,"Boston Celtics",8,"James Blackwell",PG,6-0,190,"February 25, 1968",US,R,"Dartmouth College"
-1995,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",SG,6-1,160,"November 29, 1968",US,4,"Jacksonville University"
-1995,2,709,BOS,"Boston Celtics",45,"Tony Dawson",SF,6-7,215,"August 25, 1967",US,1,"Florida State"
-1995,2,771,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,"September 15, 1966",US,5,Syracuse
-1995,2,814,BOS,"Boston Celtics",55,"Acie Earl",C,6-10,240,"June 23, 1970",US,1,Iowa
-1995,2,827,BOS,"Boston Celtics",30,"Blue Edwards",SF,6-4,200,"October 31, 1965",US,5,"East Carolina University"
-1995,2,854,BOS,"Boston Celtics",29,"Pervis Ellison",C,6-9,210,"April 3, 1967",US,5,Louisville
-1995,2,951,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,"July 24, 1969",CA,3,UNC
-1995,2,1211,BOS,"Boston Celtics",43,"Tony Harris",SG,6-3,190,"May 13, 1967",US,2,"Lamar, New Orleans"
-1995,2,1361,BOS,"Boston Celtics",5,"Jay Humphries",PG,6-3,185,"October 17, 1962",US,10,Colorado
-1995,2,1919,BOS,"Boston Celtics",34,"Xavier McDaniel",SF,6-7,205,"June 4, 1963",US,9,"Wichita State"
-1995,2,2009,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,"September 18, 1971",US,R,Louisville
-1995,2,2034,BOS,"Boston Celtics",0,"Eric Montross",C,7-0,270,"September 23, 1971",US,R,UNC
-1995,2,2384,BOS,"Boston Celtics",40,"Dino Radja",PF,6-11,225,"April 24, 1967",HR,1,NULL
-1995,2,2779,BOS,"Boston Celtics",31,"Derek Strong",PF,6-8,220,"February 9, 1968",US,3,Xavier
-1995,2,3073,BOS,"Boston Celtics",4,"David Wesley",PG,6-0,190,"November 14, 1970",US,1,Baylor
-1995,2,3122,BOS,"Boston Celtics",12,"Dominique Wilkins",SF,6-8,215,"January 12, 1960",FR,12,Georgia
-1996,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,"April 13, 1967",US,6,"Boston College"
-1996,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,"November 29, 1968",US,5,"Jacksonville University"
-1996,2,431,BOS,"Boston Celtics",5,"Junior Burrough",PF,6-8,242,"January 18, 1973",US,R,Virginia
-1996,2,549,BOS,"Boston Celtics",51,"Charles Claxton",C,7-0,265,"December 13, 1970",VI,R,Georgia
-1996,2,710,BOS,"Boston Celtics",13,"Todd Day",SG,6-6,188,"January 7, 1970",US,3,Arkansas
-1996,2,771,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,"September 15, 1966",US,6,Syracuse
-1996,2,854,BOS,"Boston Celtics",29,"Pervis Ellison",C,6-9,210,"April 3, 1967",US,6,Louisville
-1996,2,951,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,"July 24, 1969",CA,4,UNC
-1996,2,1164,BOS,"Boston Celtics",30,"Thomas Hamilton",C,7-2,330,"April 3, 1975",US,R,Pitt
-1996,2,1756,BOS,"Boston Celtics",53,"Alton Lister",C,7-0,240,"October 1, 1958",US,13,"Arizona State"
-1996,2,2009,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,"September 18, 1971",US,1,Louisville
-1996,2,2034,BOS,"Boston Celtics",0,"Eric Montross",C,7-0,270,"September 23, 1971",US,1,UNC
-1996,2,2078,BOS,"Boston Celtics",51,"Todd Mundt",C,7-0,250,"May 17, 1970",US,R,"Memphis, Delta State University"
-1996,2,2384,BOS,"Boston Celtics",40,"Dino Radja",PF,6-11,225,"April 24, 1967",HR,2,NULL
-1996,2,2679,BOS,"Boston Celtics",34,"Doug Smith",PF,6-10,220,"September 17, 1969",US,4,Missouri
-1996,2,2799,BOS,"Boston Celtics",54,"Larry Sykes",PF,6-9,255,"April 11, 1973",US,R,Xavier
-1996,2,3073,BOS,"Boston Celtics",4,"David Wesley",PG,6-0,190,"November 14, 1970",US,2,Baylor
-1996,2,3139,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,"July 17, 1972",US,R,Providence
-1997,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,"April 13, 1967",US,7,"Boston College"
-1997,2,348,BOS,"Boston Celtics",34,"Frank Brickowski",PF,6-9,240,"August 14, 1959",US,11,"Penn State"
-1997,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,"November 29, 1968",US,6,"Jacksonville University"
-1997,2,586,BOS,"Boston Celtics",30,"Marty Conlon",C,6-10,224,"January 19, 1968",US,5,Providence
-1997,2,710,BOS,"Boston Celtics",13,"Todd Day",SG,6-6,188,"January 7, 1970",US,4,Arkansas
-1997,2,787,BOS,"Boston Celtics",27,"Nate Driggers",SG,6-5,215,"October 12, 1973",US,R,"University of Montevallo"
-1997,2,854,BOS,"Boston Celtics",29,"Pervis Ellison",PF,6-9,210,"April 3, 1967",US,7,Louisville
-1997,2,951,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,"July 24, 1969",CA,5,UNC
-1997,2,1157,BOS,"Boston Celtics",42,"Steve Hamer",C,7-0,245,"November 13, 1973",US,R,Tennessee
-1997,2,1231,BOS,"Boston Celtics",5,"Michael Hawkins",PG,6-0,178,"October 28, 1972",US,R,Xavier
-1997,2,1625,BOS,"Boston Celtics",41,"Stacey King",C,6-11,230,"January 29, 1967",US,7,Oklahoma
-1997,2,1756,BOS,"Boston Celtics",53,"Alton Lister",C,7-0,240,"October 1, 1958",US,14,"Arizona State"
-1997,2,2009,BOS,"Boston Celtics",9,"Greg Minor",SF,6-6,210,"September 18, 1971",US,2,Louisville
-1997,2,2384,BOS,"Boston Celtics",40,"Dino Radja",C,6-11,225,"April 24, 1967",HR,3,NULL
-1997,2,2800,BOS,"Boston Celtics",43,"Brett Szabo",C,6-11,230,"February 1, 1968",US,R,"Augustana College (SD)"
-1997,2,3001,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,R,Kentucky
-1997,2,3073,BOS,"Boston Celtics",4,"David Wesley",PG,6-0,190,"November 14, 1970",US,3,Baylor
-1997,2,3139,BOS,"Boston Celtics",55,"Eric Williams",SG,6-8,220,"July 17, 1972",US,1,Providence
-1998,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,"October 9, 1970",US,6,"Georgia Tech"
-1998,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,"April 13, 1967",US,8,"Boston College"
-1998,2,242,BOS,"Boston Celtics",4,"Chauncey Billups",PG,6-3,202,"September 25, 1976",US,R,Colorado
-1998,2,309,BOS,"Boston Celtics",12,"Bruce Bowen",SF,6-7,185,"June 14, 1971",US,1,"Cal State Fullerton"
-1998,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",SG,6-1,160,"November 29, 1968",US,7,"Jacksonville University"
-1998,2,714,BOS,"Boston Celtics",45,"Andrew DeClercq",C,6-10,230,"February 1, 1973",US,2,Florida
-1998,2,824,BOS,"Boston Celtics",20,"Tyus Edney",PG,5-10,152,"February 14, 1973",US,2,UCLA
-1998,2,854,BOS,"Boston Celtics",29,"Pervis Ellison",PF,6-9,210,"April 3, 1967",US,8,Louisville
-1998,2,1177,BOS,"Boston Celtics",34,"Reggie Hanson",SF,6-8,195,"October 6, 1968",US,R,Kentucky
-1998,2,1539,BOS,"Boston Celtics",13,"Dontae' Jones",SF,6-8,220,"June 2, 1975",US,R,"Northeast Mississippi Community College, Mississippi State"
-1998,2,1642,BOS,"Boston Celtics",40,"Travis Knight",C,7-0,235,"September 13, 1974",US,1,UConn
-1998,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",SF,6-10,230,"February 1, 1974",US,1,Kentucky
-1998,2,1973,BOS,"Boston Celtics",5,"Ron Mercer",SG,6-7,210,"May 18, 1976",US,R,Kentucky
-1998,2,2009,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,"September 18, 1971",US,3,Louisville
-1998,2,2503,BOS,"Boston Celtics",99,"Roy Rogers",PF,6-10,235,"August 19, 1973",US,1,Alabama
-1998,2,2802,BOS,"Boston Celtics",55,"Zan Tabak",C,7-0,245,"June 15, 1970",HR,3,NULL
-1998,2,2854,BOS,"Boston Celtics",55,"John Thomas",PF,6-9,265,"September 8, 1975",US,R,Minnesota
-1998,2,3001,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,1,Kentucky
-1999,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,"October 9, 1970",US,7,"Georgia Tech"
-1999,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,"April 13, 1967",US,9,"Boston College"
-1999,2,188,BOS,"Boston Celtics",40,"Tony Battie",C,6-11,230,"February 11, 1976",US,1,"Texas Tech"
-1999,2,309,BOS,"Boston Celtics",12,"Bruce Bowen",SF,6-7,185,"June 14, 1971",US,2,"Cal State Fullerton"
-1999,2,714,BOS,"Boston Celtics",45,"Andrew DeClercq",C,6-10,230,"February 1, 1973",US,3,Florida
-1999,2,998,BOS,"Boston Celtics",20,"Marlon Garnett",PG,6-2,186,"July 3, 1975",US,R,"Santa Clara"
-1999,2,1535,BOS,"Boston Celtics",13,"Damon Jones",PG,6-3,185,"August 25, 1976",US,R,Houston
-1999,2,1558,BOS,"Boston Celtics",4,"Popeye Jones",PF,6-8,250,"June 17, 1970",US,5,"Murray State"
-1999,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,"February 1, 1974",US,2,Kentucky
-1999,2,1973,BOS,"Boston Celtics",5,"Ron Mercer",SG,6-7,210,"May 18, 1976",US,1,Kentucky
-1999,2,2009,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,"September 18, 1971",US,4,Louisville
-1999,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,R,Kansas
-1999,2,2349,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,"March 21, 1975",UA,2,"Wright State University"
-1999,2,2454,BOS,"Boston Celtics",44,"Eric Riley",C,7-0,245,"June 2, 1970",US,4,Michigan
-1999,2,2575,BOS,"Boston Celtics",55,"Dwayne Schintzius",C,7-1,260,"October 14, 1968",US,7,Florida
-1999,2,3001,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,2,Kentucky
-2000,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,"October 9, 1970",US,8,"Georgia Tech"
-2000,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,"April 13, 1967",US,10,"Boston College"
-2000,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,"February 11, 1976",US,2,"Texas Tech"
-2000,2,520,BOS,"Boston Celtics",40,"Calbert Cheaney",SG,6-7,209,"July 17, 1971",US,6,Indiana
-2000,2,854,BOS,"Boston Celtics",29,"Pervis Ellison",C,6-9,210,"April 3, 1967",US,9,Louisville
-2000,2,943,BOS,"Boston Celtics",27,"Danny Fortson",PF,6-7,260,"March 27, 1976",US,2,Cincinnati
-2000,2,1124,BOS,"Boston Celtics",44,"Adrian Griffin",SG,6-5,217,"July 4, 1974",US,R,"Seton Hall"
-2000,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,"February 1, 1974",US,3,Kentucky
-2000,2,2224,BOS,"Boston Celtics",20,"Doug Overton",PG,6-3,190,"August 3, 1969",US,7,"La Salle"
-2000,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,1,Kansas
-2000,2,2349,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,"March 21, 1975",UA,3,"Wright State University"
-2000,2,2851,BOS,"Boston Celtics",5,"Jamel Thomas",SF,6-6,215,"March 25, 1973",US,R,Providence
-2000,2,2932,BOS,"Boston Celtics",5,"Wayne Turner",PG,6-2,190,"March 22, 1976",US,R,Kentucky
-2000,2,3001,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,3,Kentucky
-2000,2,3139,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,"July 17, 1972",US,4,Providence
-2001,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,"October 9, 1970",US,9,"Georgia Tech"
-2001,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,"February 11, 1976",US,3,"Texas Tech"
-2001,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,"November 30, 1975",US,R,Pitt
-2001,2,394,BOS,"Boston Celtics",11,"Randy Brown",PG,6-2,190,"May 22, 1968",US,9,"Houston, New Mexico State"
-2001,2,405,BOS,"Boston Celtics",40,"Rick Brunson",PG,6-4,190,"June 14, 1972",US,3,Temple
-2001,2,476,BOS,"Boston Celtics",43,"Chris Carr",SG,6-5,207,"March 12, 1974",US,5,"Southern Illinois"
-2001,2,1124,BOS,"Boston Celtics",44,"Adrian Griffin",SF,6-5,217,"July 4, 1974",US,1,"Seton Hall"
-2001,2,1269,BOS,"Boston Celtics",12,"Chris Herren",PG,6-2,197,"September 27, 1975",US,1,"Boston College, Fresno State"
-2001,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,"February 1, 1974",US,4,Kentucky
-2001,2,2023,BOS,"Boston Celtics",5,"Jerome Moiso",C,6-10,235,"June 15, 1978",FR,R,UCLA
-2001,2,2224,BOS,"Boston Celtics",9,"Doug Overton",PG,6-3,190,"August 3, 1969",US,8,"La Salle"
-2001,2,2239,BOS,"Boston Celtics",9,"Milt Palacio",PG,6-3,195,"February 7, 1978",US,1,"Midland College, Colorado State"
-2001,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,2,Kansas
-2001,2,2349,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,"March 21, 1975",UA,4,"Wright State University"
-2001,2,2760,BOS,"Boston Celtics",20,"Bryant Stith",SG,6-5,208,"December 10, 1970",US,8,Virginia
-2001,2,3001,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,4,Kentucky
-2001,2,3139,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,"July 17, 1972",US,5,Providence
-2002,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,"October 9, 1970",US,10,"Georgia Tech"
-2002,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,"February 11, 1976",US,4,"Texas Tech"
-2002,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,"November 30, 1975",US,1,Pitt
-2002,2,384,BOS,"Boston Celtics",42,"Kedrick Brown",SF,6-7,222,"March 18, 1981",US,R,"Okaloosa-Walton Community College"
-2002,2,394,BOS,"Boston Celtics",11,"Randy Brown",PG,6-2,190,"May 22, 1968",US,10,"Houston, New Mexico State"
-2002,2,726,BOS,"Boston Celtics",28,"Tony Delk",SG,6-1,189,"January 28, 1974",US,5,Kentucky
-2002,2,941,BOS,"Boston Celtics",40,"Joseph Forte",SG,6-4,194,"March 23, 1981",US,R,UNC
-2002,2,1494,BOS,"Boston Celtics",31,"Joe Johnson",SG,6-7,240,"June 29, 1981",US,R,Arkansas
-2002,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,"February 1, 1974",US,5,Kentucky
-2002,2,2239,BOS,"Boston Celtics",9,"Milt Palacio",PG,6-3,195,"February 7, 1978",US,2,"Midland College, Colorado State"
-2002,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,"October 13, 1977",US,3,Kansas
-2002,2,2349,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,"March 21, 1975",UA,5,"Wright State University"
-2002,2,2502,BOS,"Boston Celtics",54,"Rodney Rogers",SF,6-7,235,"June 20, 1971",US,8,"Wake Forest"
-2002,2,2775,BOS,"Boston Celtics",20,"Erick Strickland",PG,6-3,210,"November 25, 1973",US,5,Nebraska
-2002,2,3001,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,5,Kentucky
-2002,2,3139,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,"July 17, 1972",US,6,Providence
-2003,2,148,BOS,"Boston Celtics",42,"Vin Baker",C,6-11,232,"November 23, 1971",US,9,"University of Hartford"
-2003,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,"February 11, 1976",US,5,"Texas Tech"
-2003,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,"November 30, 1975",US,2,Pitt
-2003,2,340,BOS,"Boston Celtics",9,"J.R. Bremer",PG,6-2,185,"September 19, 1980",US,R,"St. Bonaventure"
-2003,2,384,BOS,"Boston Celtics",5,"Kedrick Brown",SF,6-7,222,"March 18, 1981",US,1,"Okaloosa-Walton Community College"
-2003,2,409,BOS,"Boston Celtics",11,"Mark Bryant",PF,6-9,245,"April 25, 1965",US,14,"Seton Hall"
-2003,2,565,BOS,"Boston Celtics",12,"Bimbo Coles",PG,6-1,180,"April 22, 1968",US,12,"Virginia Tech"
-2003,2,726,BOS,"Boston Celtics",7,"Tony Delk",PG,6-1,189,"January 28, 1974",US,6,Kentucky
-2003,2,1770,BOS,"Boston Celtics",43,"Grant Long",PF,6-8,225,"March 12, 1966",US,14,"Eastern Michigan"
-2003,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",SF,6-10,230,"February 1, 1974",US,6,Kentucky
-2003,2,2042,BOS,"Boston Celtics",31,"Mikki Moore",C,6-11,225,"November 4, 1975",US,4,Nebraska
-2003,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,"October 13, 1977",US,4,Kansas
-2003,2,2788,BOS,"Boston Celtics",41,"Bruno Sundov",C,7-2,220,"February 10, 1980",HR,4,NULL
-2003,2,3001,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,6,Kentucky
-2003,2,3139,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,"July 17, 1972",US,7,Providence
-2003,2,3180,BOS,"Boston Celtics",11,"Shammond Williams",PG,6-1,201,"April 5, 1975",US,4,UNC
-2003,2,3220,BOS,"Boston Celtics",45,"Ruben Wolkowyski",PF,6-10,270,"September 30, 1973",AR,1,NULL
-2004,2,117,BOS,"Boston Celtics",7,"Chucky Atkins",PG,5-11,160,"August 14, 1974",US,4,"South Florida"
-2004,2,148,BOS,"Boston Celtics",42,"Vin Baker",PF,6-11,232,"November 23, 1971",US,10,"University of Hartford"
-2004,2,158,BOS,"Boston Celtics",11,"Marcus Banks",PG,6-2,200,"November 19, 1981",US,R,UNLV
-2004,2,173,BOS,"Boston Celtics",13,"Dana Barros",SG,5-11,163,"April 13, 1967",US,13,"Boston College"
-2004,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,"February 11, 1976",US,6,"Texas Tech"
-2004,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,"November 30, 1975",US,3,Pitt
-2004,2,384,BOS,"Boston Celtics",5,"Kedrick Brown",SF,6-7,222,"March 18, 1981",US,2,"Okaloosa-Walton Community College"
-2004,2,697,BOS,"Boston Celtics",12,"Ricky Davis",SF,6-6,195,"September 23, 1979",US,5,Iowa
-2004,2,1363,BOS,"Boston Celtics",56,"Brandon Hunter",PF,6-7,260,"November 24, 1980",US,R,"Ohio University"
-2004,2,1430,BOS,"Boston Celtics",13,"Michael Lamont James",PG,6-2,188,"June 23, 1975",US,2,Duquesne
-2004,2,1550,BOS,"Boston Celtics",20,"Jumaine Jones",SG,6-8,218,"February 10, 1979",US,4,Georgia
-2004,2,1671,BOS,"Boston Celtics",45,"Raef LaFrentz",C,6-11,240,"May 29, 1976",US,5,Kansas
-2004,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,"February 1, 1974",US,7,Kentucky
-2004,2,1982,BOS,"Boston Celtics",4,"Chris Mihm",C,7-0,265,"July 16, 1979",US,3,Texas
-2004,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,R,NULL
-2004,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,"October 13, 1977",US,5,Kansas
-2004,2,2757,BOS,"Boston Celtics",5,"Michael Stewart",C,6-10,230,"April 25, 1975",FR,6,California
-2004,2,3068,BOS,"Boston Celtics",44,"Jiri Welsch",SG,6-7,208,"January 27, 1980",CZ,1,NULL
-2004,2,3139,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,"July 17, 1972",US,8,Providence
-2005,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,"January 11, 1982",US,R,"Butler County Community College, Oklahoma State"
-2005,2,158,BOS,"Boston Celtics",11,"Marcus Banks",PG,6-2,200,"November 19, 1981",US,1,UNLV
-2005,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,"November 30, 1975",US,4,Pitt
-2005,2,697,BOS,"Boston Celtics",12,"Ricky Davis",SG,6-6,195,"September 23, 1979",US,6,Iowa
-2005,2,1136,BOS,"Boston Celtics",7,"Tom Gugliotta",PF,6-10,240,"December 19, 1969",US,12,"NC State"
-2005,2,1441,BOS,"Boston Celtics","7, 8","Al Jefferson",PF,6-10,289,"January 4, 1985",US,R,NULL
-2005,2,1671,BOS,"Boston Celtics",45,"Raef LaFrentz",PF,6-11,240,"May 29, 1976",US,6,Kansas
-2005,2,1901,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,"February 1, 1974",US,8,Kentucky
-2005,2,2273,BOS,"Boston Celtics",20,"Gary Payton",PG,6-4,180,"July 23, 1968",US,14,"Oregon State"
-2005,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,1,NULL
-2005,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,6,Kansas
-2005,2,2417,BOS,"Boston Celtics",9,"Justin Reed",SF,6-8,240,"January 16, 1982",US,R,"Ole Miss"
-2005,2,3001,BOS,"Boston Celtics",88,"Antoine Walker",PF,6-8,224,"August 12, 1976",US,8,Kentucky
-2005,2,3068,BOS,"Boston Celtics",44,"Jiri Welsch",SG,6-7,208,"January 27, 1980",CZ,2,NULL
-2005,2,3075,BOS,"Boston Celtics",13,"Delonte West",SG,6-4,180,"July 26, 1983",US,R,"Saint Joseph's"
-2006,2,55,BOS,"Boston Celtics",42,"Tony Allen",PG,6-4,213,"January 11, 1982",US,1,"Butler County Community College, Oklahoma State"
-2006,2,158,BOS,"Boston Celtics",11,"Marcus Banks",PG,6-2,200,"November 19, 1981",US,2,UNLV
-2006,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,"November 30, 1975",US,5,Pitt
-2006,2,697,BOS,"Boston Celtics",12,"Ricky Davis",SG,6-6,195,"September 23, 1979",US,7,Iowa
-2006,2,742,BOS,"Boston Celtics",20,"Dan Dickau",PG,6-0,190,"September 16, 1978",US,3,"Washington, Gonzaga"
-2006,2,1053,BOS,"Boston Celtics",4,"Ryan Gomes",PF,6-7,250,"September 1, 1982",US,R,Providence
-2006,2,1103,BOS,"Boston Celtics",5,"Gerald Green",SG,6-6,205,"January 26, 1986",US,R,NULL
-2006,2,1118,BOS,"Boston Celtics",0,"Orien Greene",PG,6-4,208,"February 4, 1982",US,R,"Florida, Louisiana"
-2006,2,1441,BOS,"Boston Celtics",7,"Al Jefferson",PF,6-10,289,"January 4, 1985",US,1,NULL
-2006,2,1540,BOS,"Boston Celtics",27,"Dwayne Jones",PF,6-11,250,"June 9, 1983",US,R,"Saint Joseph's"
-2006,2,1671,BOS,"Boston Celtics",45,"Raef LaFrentz",PF,6-11,240,"May 29, 1976",US,7,Kansas
-2006,2,2209,BOS,"Boston Celtics",41,"Michael Olowokandi",C,7-0,269,"April 3, 1975",NG,7,"University of the Pacific"
-2006,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,2,NULL
-2006,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,7,Kansas
-2006,2,2417,BOS,"Boston Celtics",9,"Justin Reed",SF,6-8,240,"January 16, 1982",US,1,"Ole Miss"
-2006,2,2568,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,"March 18, 1978",US,4,USC
-2006,2,2801,BOS,"Boston Celtics",55,"Wally Szczerbiak",SF,6-7,244,"March 5, 1977",ES,6,"Miami University"
-2006,2,3075,BOS,"Boston Celtics",13,"Delonte West",PG,6-4,180,"July 26, 1983",US,1,"Saint Joseph's"
-2007,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,"January 11, 1982",US,2,"Butler County Community College, Oklahoma State"
-2007,2,1053,BOS,"Boston Celtics",4,"Ryan Gomes",PF,6-7,250,"September 1, 1982",US,1,Providence
-2007,2,1103,BOS,"Boston Celtics",5,"Gerald Green",SF,6-6,205,"January 26, 1986",US,1,NULL
-2007,2,1441,BOS,"Boston Celtics",7,"Al Jefferson",C,6-10,289,"January 4, 1985",US,2,NULL
-2007,2,2209,BOS,"Boston Celtics",41,"Michael Olowokandi",C,7-0,269,"April 3, 1975",NG,8,"University of the Pacific"
-2007,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,3,NULL
-2007,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,"October 13, 1977",US,8,Kansas
-2007,2,2312,BOS,"Boston Celtics",51,"Kevinn Pinkney",PF,6-10,245,"October 20, 1983",US,R,Nevada
-2007,2,2350,BOS,"Boston Celtics",0,"Leon Powe",C,6-8,240,"January 22, 1984",US,R,California
-2007,2,2403,BOS,"Boston Celtics",50,"Theo Ratliff",C,6-10,225,"April 17, 1973",US,11,Wyoming
-2007,2,2406,BOS,"Boston Celtics",12,"Allan Ray",SG,6-2,190,"June 17, 1984",US,R,Villanova
-2007,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,R,Kentucky
-2007,2,2568,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,"March 18, 1978",US,5,USC
-2007,2,2801,BOS,"Boston Celtics",55,"Wally Szczerbiak",SF,6-7,244,"March 5, 1977",ES,7,"Miami University"
-2007,2,2829,BOS,"Boston Celtics",30,"Sebastian Telfair",PG,6-0,165,"June 9, 1985",US,2,NULL
-2007,2,3075,BOS,"Boston Celtics",13,"Delonte West",SG,6-4,180,"July 26, 1983",US,2,"Saint Joseph's"
-2008,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,"July 20, 1975",US,11,UConn
-2008,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,"January 11, 1982",US,3,"Butler County Community College, Oklahoma State"
-2008,2,393,BOS,"Boston Celtics",93,"P.J. Brown",PF,6-11,225,"October 14, 1969",US,14,"Louisiana Tech"
-2008,2,497,BOS,"Boston Celtics",28,"Sam Cassell",PG,6-3,185,"November 18, 1969",US,14,"Florida State"
-2008,2,687,BOS,"Boston Celtics",11,"Glen Davis",C,6-9,289,"January 1, 1986",US,R,LSU
-2008,2,997,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,"May 19, 1976",US,12,NULL
-2008,2,1334,BOS,"Boston Celtics",50,"Eddie House",PG,6-1,180,"May 14, 1978",US,7,"Arizona State"
-2008,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,4,NULL
-2008,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,9,Kansas
-2008,2,2330,BOS,"Boston Celtics",66,"Scot Pollard",C,6-11,265,"February 12, 1975",US,10,Kansas
-2008,2,2347,BOS,"Boston Celtics",41,"James Posey",PF,6-8,215,"January 13, 1977",US,8,Xavier
-2008,2,2350,BOS,"Boston Celtics",0,"Leon Powe",C,6-8,240,"January 22, 1984",US,1,California
-2008,2,2372,BOS,"Boston Celtics",13,"Gabe Pruitt",PG,6-4,170,"April 19, 1986",US,R,USC
-2008,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,1,Kentucky
-2008,2,2568,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,"March 18, 1978",US,6,USC
-2009,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,"July 20, 1975",US,12,UConn
-2009,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,"January 11, 1982",US,4,"Butler County Community College, Oklahoma State"
-2009,2,687,BOS,"Boston Celtics",11,"Glen Davis",C,6-9,289,"January 1, 1986",US,1,LSU
-2009,2,997,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,"May 19, 1976",US,13,NULL
-2009,2,1030,BOS,"Boston Celtics",4,"J.R. Giddens",SF,6-5,215,"February 13, 1985",US,R,"Kansas, New Mexico"
-2009,2,1334,BOS,"Boston Celtics",50,"Eddie House",PG,6-1,180,"May 14, 1978",US,8,"Arizona State"
-2009,2,1836,BOS,"Boston Celtics",8,"Stephon Marbury",PG,6-2,180,"February 20, 1977",US,12,"Georgia Tech"
-2009,2,2042,BOS,"Boston Celtics",7,"Mikki Moore",C,6-11,225,"November 4, 1975",US,10,Nebraska
-2009,2,2176,BOS,"Boston Celtics",26,"Patrick O'Bryant",C,7-0,260,"June 20, 1986",US,2,Bradley
-2009,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,5,NULL
-2009,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,10,Kansas
-2009,2,2350,BOS,"Boston Celtics",0,"Leon Powe",PF,6-8,240,"January 22, 1984",US,2,California
-2009,2,2372,BOS,"Boston Celtics",13,"Gabe Pruitt",SG,6-4,170,"April 19, 1986",US,1,USC
-2009,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,2,Kentucky
-2009,2,2568,BOS,"Boston Celtics",44,"Brian Scalabrine",C,6-9,241,"March 18, 1978",US,7,USC
-2009,2,3004,BOS,"Boston Celtics",12,"Henry Walker",SF,6-6,220,"October 9, 1987",US,R,"Kansas State"
-2010,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,"July 20, 1975",US,13,UConn
-2010,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,"January 11, 1982",US,5,"Butler County Community College, Oklahoma State"
-2010,2,666,BOS,"Boston Celtics",7,"Marquis Daniels",SF,6-6,200,"January 7, 1981",US,6,Auburn
-2010,2,687,BOS,"Boston Celtics",11,"Glen Davis",PF,6-9,289,"January 1, 1986",US,2,LSU
-2010,2,916,BOS,"Boston Celtics",40,"Michael Finley",SF,6-7,215,"March 6, 1973",US,14,Wisconsin
-2010,2,997,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,"May 19, 1976",US,14,NULL
-2010,2,1030,BOS,"Boston Celtics",4,"J.R. Giddens",SF,6-5,215,"February 13, 1985",US,1,"Kansas, New Mexico"
-2010,2,1334,BOS,"Boston Celtics",50,"Eddie House",PG,6-1,180,"May 14, 1978",US,9,"Arizona State"
-2010,2,1346,BOS,"Boston Celtics",26,"Lester Hudson",PG,6-3,190,"August 7, 1984",US,R,"University of Tennessee at Martin"
-2010,2,1678,BOS,"Boston Celtics",40,"Oliver Lafayette",SG,6-2,190,"May 6, 1984",US,R,Houston
-2010,2,1688,BOS,"Boston Celtics",12,"Marcus Landry",SF,6-7,230,"November 1, 1985",US,R,Wisconsin
-2010,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,6,NULL
-2010,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,11,Kansas
-2010,2,2487,BOS,"Boston Celtics",4,"Nate Robinson",PG,5-9,180,"May 31, 1984",US,4,Washington
-2010,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,3,Kentucky
-2010,2,2568,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,"March 18, 1978",US,8,USC
-2010,2,3004,BOS,"Boston Celtics",12,"Henry Walker",SF,6-6,220,"October 9, 1987",US,1,"Kansas State"
-2010,2,3014,BOS,"Boston Celtics",30,"Rasheed Wallace",C,6-10,225,"September 17, 1974",US,14,UNC
-2010,2,3182,BOS,"Boston Celtics",13,"Shelden Williams",PF,6-9,250,"October 21, 1983",US,3,Duke
-2011,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,"July 20, 1975",US,14,UConn
-2011,2,111,BOS,"Boston Celtics",45,"Carlos Arroyo",PG,6-2,202,"July 30, 1979",PR,8,"Florida International University"
-2011,2,322,BOS,"Boston Celtics",0,"Avery Bradley",PG,6-3,180,"November 26, 1990",US,R,Texas
-2011,2,666,BOS,"Boston Celtics",8,"Marquis Daniels",SF,6-6,200,"January 7, 1981",US,7,Auburn
-2011,2,687,BOS,"Boston Celtics",11,"Glen Davis",C,6-9,289,"January 1, 1986",US,3,LSU
-2011,2,868,BOS,"Boston Celtics",86,"Semih Erden",C,7-0,240,"July 28, 1986",TR,R,NULL
-2011,2,997,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,"May 19, 1976",US,15,NULL
-2011,2,1106,BOS,"Boston Celtics",8,"Jeff Green",SF,6-8,235,"August 28, 1986",US,3,Georgetown
-2011,2,1179,BOS,"Boston Celtics",55,"Luke Harangody",PF,6-8,246,"January 2, 1988",US,R,"Notre Dame"
-2011,2,1474,BOS,"Boston Celtics",86,"Chris Johnson (1985)",C,6-11,210,"July 15, 1985",US,R,LSU
-2011,2,1658,BOS,"Boston Celtics",4,"Nenad Krstic",C,7-0,240,"July 25, 1983",RS,6,NULL
-2011,2,2089,BOS,"Boston Celtics",30,"Troy Murphy",PF,6-11,245,"May 2, 1980",US,9,"Notre Dame"
-2011,2,2178,BOS,"Boston Celtics",7,"Jermaine O'Neal",C,6-11,226,"October 13, 1978",US,14,NULL
-2011,2,2179,BOS,"Boston Celtics",36,"Shaquille O'Neal",C,7-1,325,"March 6, 1972",US,18,LSU
-2011,2,2266,BOS,"Boston Celtics",77,"Sasha Pavlovic",SG,6-8,220,"November 15, 1983",ME,7,NULL
-2011,2,2286,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,"November 10, 1984",US,7,NULL
-2011,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,12,Kansas
-2011,2,2487,BOS,"Boston Celtics",4,"Nate Robinson",PG,5-9,180,"May 31, 1984",US,5,Washington
-2011,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,4,Kentucky
-2011,2,2994,BOS,"Boston Celtics",12,"Von Wafer",SG,6-5,210,"July 21, 1985",US,4,"Florida State"
-2011,2,3075,BOS,"Boston Celtics",13,"Delonte West",PG,6-4,180,"July 26, 1983",US,6,"Saint Joseph's"
-2012,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,"July 20, 1975",US,15,UConn
-2012,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,"April 30, 1985",US,6,LSU
-2012,2,322,BOS,"Boston Celtics",0,"Avery Bradley",PG,6-3,180,"November 26, 1990",US,1,Texas
-2012,2,666,BOS,"Boston Celtics",4,"Marquis Daniels",SG,6-6,200,"January 7, 1981",US,8,Auburn
-2012,2,759,BOS,"Boston Celtics",51,"Keyon Dooling",SG,6-3,196,"May 8, 1980",US,11,Missouri
-2012,2,997,BOS,"Boston Celtics",5,"Kevin Garnett",C,6-11,240,"May 19, 1976",US,16,NULL
-2012,2,1314,BOS,"Boston Celtics",50,"Ryan Hollins",C,7-0,240,"October 10, 1984",US,5,UCLA
-2012,2,1492,BOS,"Boston Celtics",12,"JaJuan Johnson",PF,6-10,221,"February 8, 1989",US,R,Purdue
-2012,2,2039,BOS,"Boston Celtics",55,"E'Twaun Moore",PG,6-3,191,"February 25, 1989",US,R,Purdue
-2012,2,2178,BOS,"Boston Celtics",7,"Jermaine O'Neal",C,6-11,226,"October 13, 1978",US,15,NULL
-2012,2,2266,BOS,"Boston Celtics",11,"Sasha Pavlovic",SF,6-8,220,"November 15, 1983",ME,8,NULL
-2012,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,13,Kansas
-2012,2,2310,BOS,"Boston Celtics",28,"Mickael Pietrus",SG,6-6,215,"February 7, 1982",GP,8,NULL
-2012,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,5,Kentucky
-2012,2,2758,BOS,"Boston Celtics",54,"Greg Stiemsma",C,6-11,260,"September 26, 1985",US,R,Wisconsin
-2012,2,3114,BOS,"Boston Celtics",44,"Chris Wilcox",C,6-10,221,"September 3, 1982",US,9,Maryland
-2012,2,3179,BOS,"Boston Celtics",56,"Sean Williams",C,6-10,235,"September 13, 1986",US,3,"Boston College"
-2013,2,161,BOS,"Boston Celtics",12,"Leandro Barbosa",PG,6-3,194,"November 28, 1982",BR,9,NULL
-2013,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,"April 30, 1985",US,7,LSU
-2013,2,322,BOS,"Boston Celtics",0,"Avery Bradley",PG,6-3,180,"November 26, 1990",US,2,Texas
-2013,2,572,BOS,"Boston Celtics",98,"Jason Collins",C,7-0,255,"December 2, 1978",US,11,Stanford
-2013,2,627,BOS,"Boston Celtics",27,"Jordan Crawford",SG,6-4,195,"October 23, 1988",US,2,"Indiana, Xavier"
-2013,2,997,BOS,"Boston Celtics",5,"Kevin Garnett",C,6-11,240,"May 19, 1976",US,17,NULL
-2013,2,1106,BOS,"Boston Celtics",8,"Jeff Green",PF,6-8,235,"August 28, 1986",US,4,Georgetown
-2013,2,1574,BOS,"Boston Celtics",43,"Kris Joseph",SF,6-7,210,"December 17, 1988",CA,R,Syracuse
-2013,2,1719,BOS,"Boston Celtics",11,"Courtney Lee",SG,6-5,215,"October 3, 1985",US,4,"Western Kentucky"
-2013,2,1969,BOS,"Boston Celtics",13,"Fab Melo",C,7-0,255,"June 20, 1990",BR,R,Syracuse
-2013,2,1988,BOS,"Boston Celtics",99,"Darko Milicic",C,7-0,250,"June 20, 1985",RS,9,NULL
-2013,2,2307,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,"October 13, 1977",US,14,Kansas
-2013,2,2397,BOS,"Boston Celtics",42,"Shavlik Randolph",PF,6-10,240,"November 24, 1983",US,5,Duke
-2013,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,6,Kentucky
-2013,2,2784,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,"March 4, 1992",US,R,"Ohio State"
-2013,2,2835,BOS,"Boston Celtics",4,"Jason Terry",SG,6-2,185,"September 15, 1977",US,13,Arizona
-2013,2,2962,BOS,"Boston Celtics",41,"Jarvis Varnado",PF,6-9,230,"March 1, 1988",US,R,"Mississippi State"
-2013,2,3088,BOS,"Boston Celtics",12,"D.J. White",PF,6-9,251,"August 31, 1986",US,4,Indiana
-2013,2,3114,BOS,"Boston Celtics",44,"Chris Wilcox",C,6-10,221,"September 3, 1982",US,10,Maryland
-2013,2,3184,BOS,"Boston Celtics",55,"Terrence Williams",SF,6-6,220,"June 28, 1987",US,3,Louisville
-2014,2,96,BOS,"Boston Celtics",50,"Joel Anthony",C,6-9,245,"August 9, 1982",CA,6,UNLV
-2014,2,132,BOS,"Boston Celtics",52,"Chris Babb",SG,6-5,225,"February 14, 1990",US,R,"Penn State, Iowa State"
-2014,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,"April 30, 1985",US,8,LSU
-2014,2,195,BOS,"Boston Celtics",11,"Jerryd Bayless",PG,6-3,200,"August 20, 1988",US,5,Arizona
-2014,2,272,BOS,"Boston Celtics",13,"Vander Blue",SG,6-4,200,"July 17, 1992",US,R,Marquette
-2014,2,275,BOS,"Boston Celtics",4,"Keith Bogans",SG,6-5,215,"May 12, 1980",US,10,Kentucky
-2014,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,"November 26, 1990",US,3,Texas
-2014,2,364,BOS,"Boston Celtics",12,"MarShon Brooks",SG,6-5,200,"January 26, 1989",US,2,Providence
-2014,2,627,BOS,"Boston Celtics",27,"Jordan Crawford",PG,6-4,195,"October 23, 1988",US,3,"Indiana, Xavier"
-2014,2,894,BOS,"Boston Celtics",38,"Vitor Faverani",C,6-11,260,"May 5, 1988",BR,R,NULL
-2014,2,1106,BOS,"Boston Celtics",8,"Jeff Green",SF,6-8,235,"August 28, 1986",US,5,Georgetown
-2014,2,1362,BOS,"Boston Celtics",43,"Kris Humphries",PF,6-9,235,"February 6, 1985",US,9,Minnesota
-2014,2,1475,BOS,"Boston Celtics",12,"Chris Johnson (1990)",SF,6-6,206,"April 29, 1990",US,1,Dayton
-2014,2,1719,BOS,"Boston Celtics",11,"Courtney Lee",SG,6-5,215,"October 3, 1985",US,5,"Western Kentucky"
-2014,2,2210,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,"April 19, 1991",CA,R,Gonzaga
-2014,2,2358,BOS,"Boston Celtics",26,"Phil Pressey",PG,5-11,175,"February 17, 1991",US,R,Missouri
-2014,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,7,Kentucky
-2014,2,2784,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,"March 4, 1992",US,1,"Ohio State"
-2014,2,3012,BOS,"Boston Celtics",45,"Gerald Wallace",SF,6-7,215,"July 23, 1982",US,12,Alabama
-2015,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,"April 30, 1985",US,9,LSU
-2015,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,"November 26, 1990",US,4,Texas
-2015,2,641,BOS,"Boston Celtics",99,"Jae Crowder",SF,6-6,235,"July 6, 1990",US,2,Marquette
-2015,2,671,BOS,"Boston Celtics",70,"Gigi Datome",SF,6-8,215,"November 27, 1987",IT,1,NULL
-2015,2,1106,BOS,"Boston Celtics",8,"Jeff Green",SF,6-8,235,"August 28, 1986",US,6,Georgetown
-2015,2,1455,BOS,"Boston Celtics",8,"Jonas Jerebko",PF,6-10,231,"March 2, 1987",SE,4,NULL
-2015,2,2126,BOS,"Boston Celtics",28,"Jameer Nelson",PG,6-0,190,"February 9, 1982",US,10,"Saint Joseph's"
-2015,2,2210,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,"April 19, 1991",CA,1,Gonzaga
-2015,2,2351,BOS,"Boston Celtics",12,"Dwight Powell",PF,6-10,240,"July 20, 1991",CA,R,Stanford
-2015,2,2358,BOS,"Boston Celtics",26,"Phil Pressey",PG,5-11,175,"February 17, 1991",US,1,Missouri
-2015,2,2368,BOS,"Boston Celtics",12,"Tayshaun Prince",SF,6-9,212,"February 28, 1980",US,12,Kentucky
-2015,2,2397,BOS,"Boston Celtics",42,"Shavlik Randolph",PF,6-10,240,"November 24, 1983",US,7,Duke
-2015,2,2506,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,"February 22, 1986",US,8,Kentucky
-2015,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",PG,6-3,220,"March 6, 1994",US,R,"Oklahoma State"
-2015,2,2784,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,"March 4, 1992",US,2,"Ohio State"
-2015,2,2849,BOS,"Boston Celtics",4,"Isaiah Thomas",PG,5-9,185,"February 7, 1989",US,3,Washington
-2015,2,2882,BOS,"Boston Celtics",4,"Marcus Thornton",SG,6-4,205,"June 5, 1987",US,5,LSU
-2015,2,2927,BOS,"Boston Celtics",11,"Evan Turner",SG,6-6,220,"October 27, 1988",US,4,"Ohio State"
-2015,2,3012,BOS,"Boston Celtics",45,"Gerald Wallace",SF,6-7,215,"July 23, 1982",US,13,Alabama
-2015,2,3240,BOS,"Boston Celtics",12,"Brandan Wright",PF,6-10,210,"October 5, 1987",US,6,UNC
-2015,2,3258,BOS,"Boston Celtics",13,"James Young",SG,6-6,215,"August 16, 1995",US,R,Kentucky
-2015,2,3271,BOS,"Boston Celtics",44,"Tyler Zeller",C,7-0,253,"January 17, 1990",US,2,UNC
-2016,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,"November 26, 1990",US,5,Texas
-2016,2,545,BOS,"Boston Celtics",63,"Coty Clarke",SF,6-7,232,"July 4, 1992",US,R,Arkansas
-2016,2,641,BOS,"Boston Celtics",99,"Jae Crowder",SF,6-6,235,"July 6, 1990",US,3,Marquette
-2016,2,1312,BOS,"Boston Celtics",30,"John Holland",SF,6-5,205,"November 6, 1988",US,R,"Boston University"
-2016,2,1369,BOS,"Boston Celtics",28,"R.J. Hunter",SG,6-5,185,"October 24, 1993",US,R,"Georgia State University"
-2016,2,1455,BOS,"Boston Celtics",8,"Jonas Jerebko",PF,6-10,231,"March 2, 1987",SE,5,NULL
-2016,2,1464,BOS,"Boston Celtics",90,"Amir Johnson",PF,6-9,240,"May 1, 1987",US,10,NULL
-2016,2,1721,BOS,"Boston Celtics",42,"David Lee",PF,6-9,245,"April 29, 1983",US,10,Florida
-2016,2,1980,BOS,"Boston Celtics",55,"Jordan Mickey",PF,6-8,235,"July 9, 1994",US,R,LSU
-2016,2,2210,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,"April 19, 1991",CA,2,Gonzaga
-2016,2,2524,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,"March 17, 1994",US,R,Louisville
-2016,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",PG,6-3,220,"March 6, 1994",US,1,"Oklahoma State"
-2016,2,2784,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,"March 4, 1992",US,3,"Ohio State"
-2016,2,2849,BOS,"Boston Celtics",4,"Isaiah Thomas",PG,5-9,185,"February 7, 1989",US,4,Washington
-2016,2,2927,BOS,"Boston Celtics",11,"Evan Turner",SG,6-6,220,"October 27, 1988",US,5,"Ohio State"
-2016,2,3258,BOS,"Boston Celtics",13,"James Young",SG,6-6,215,"August 16, 1995",US,1,Kentucky
-2016,2,3271,BOS,"Boston Celtics",44,"Tyler Zeller",C,7-0,253,"January 17, 1990",US,3,UNC
-2017,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,"November 26, 1990",US,6,Texas
-2017,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SF,6-6,223,"October 24, 1996",US,R,California
-2017,2,641,BOS,"Boston Celtics",99,"Jae Crowder",SF,6-6,235,"July 6, 1990",US,4,Marquette
-2017,2,1103,BOS,"Boston Celtics",30,"Gerald Green",SF,6-6,205,"January 26, 1986",US,9,NULL
-2017,2,1326,BOS,"Boston Celtics",42,"Al Horford",C,6-9,240,"June 3, 1986",DO,9,Florida
-2017,2,1399,BOS,"Boston Celtics",9,"Demetrius Jackson",PG,6-1,201,"September 7, 1994",US,R,"Notre Dame"
-2017,2,1455,BOS,"Boston Celtics",8,"Jonas Jerebko",PF,6-10,231,"March 2, 1987",SE,6,NULL
-2017,2,1464,BOS,"Boston Celtics",90,"Amir Johnson",PF,6-9,240,"May 1, 1987",US,11,NULL
-2017,2,1980,BOS,"Boston Celtics",55,"Jordan Mickey",PF,6-8,235,"July 9, 1994",US,1,LSU
-2017,2,2210,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,"April 19, 1991",CA,3,Gonzaga
-2017,2,2524,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,"March 17, 1994",US,1,Louisville
-2017,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,"March 6, 1994",US,2,"Oklahoma State"
-2017,2,2849,BOS,"Boston Celtics",4,"Isaiah Thomas",PG,5-9,185,"February 7, 1989",US,5,Washington
-2017,2,3258,BOS,"Boston Celtics",13,"James Young",SG,6-6,215,"August 16, 1995",US,2,Kentucky
-2017,2,3271,BOS,"Boston Celtics",44,"Tyler Zeller",C,7-0,253,"January 17, 1990",US,4,UNC
-2018,2,50,BOS,"Boston Celtics",45,"Kadeem Allen",PG,6-1,200,"January 15, 1993",US,R,Arizona
-2018,2,196,BOS,"Boston Celtics",46,"Aron Baynes",C,6-10,260,"December 9, 1986",NZ,5,"Washington State"
-2018,2,245,BOS,"Boston Celtics",26,"Jabari Bird",SG,6-6,198,"July 3, 1994",US,R,California
-2018,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,"October 24, 1996",US,1,California
-2018,2,820,BOS,"Boston Celtics",9,"Jarell Eddie",SF,6-7,218,"October 30, 1991",US,2,"Virginia Tech"
-2018,2,1027,BOS,"Boston Celtics",60,"Jonathan Gibson",PG,6-2,185,"November 8, 1987",US,1,"New Mexico State"
-2018,2,1239,BOS,"Boston Celtics",20,"Gordon Hayward",SF,6-7,225,"March 23, 1990",US,7,Butler
-2018,2,1326,BOS,"Boston Celtics",42,"Al Horford",C,6-9,240,"June 3, 1986",DO,10,Florida
-2018,2,1387,BOS,"Boston Celtics",11,"Kyrie Irving",PG,6-2,195,"March 23, 1992",AU,6,Duke
-2018,2,1700,BOS,"Boston Celtics",8,"Shane Larkin",PG,5-11,175,"October 2, 1992",US,3,"Miami (FL)"
-2018,2,2031,BOS,"Boston Celtics",55,"Greg Monroe",C,6-11,265,"June 4, 1990",US,7,Georgetown
-2018,2,2054,BOS,"Boston Celtics",13,"Marcus Morris",PF,6-8,218,"September 2, 1989",US,6,Kansas
-2018,2,2108,BOS,"Boston Celtics",28,"Abdel Nader",SF,6-5,225,"September 25, 1993",EG,R,"Northern Illinois, Iowa State"
-2018,2,2190,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,"December 5, 1994",US,R,"Duke, SMU"
-2018,2,2524,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,"March 17, 1994",US,2,Louisville
-2018,2,2631,BOS,"Boston Celtics",9,"Xavier Silas",SG,6-5,205,"January 22, 1988",US,1,"Colorado, Northern Illinois"
-2018,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,"March 6, 1994",US,3,"Oklahoma State"
-2018,2,2809,BOS,"Boston Celtics",0,"Jayson Tatum",SF,6-8,210,"March 3, 1998",US,R,Duke
-2018,2,2838,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,"April 4, 1992",DE,R,NULL
-2018,2,3254,BOS,"Boston Celtics",30,"Guerschon Yabusele",PF,6-8,260,"December 17, 1995",FR,R,NULL
-2019,2,196,BOS,"Boston Celtics",46,"Aron Baynes",C,6-10,260,"December 9, 1986",NZ,6,"Washington State"
-2019,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,"October 24, 1996",US,2,California
-2019,2,777,BOS,"Boston Celtics",50,"PJ Dozier",SG,6-6,205,"October 25, 1996",US,1,"South Carolina"
-2019,2,1239,BOS,"Boston Celtics",20,"Gordon Hayward",PF,6-7,225,"March 23, 1990",US,8,Butler
-2019,2,1326,BOS,"Boston Celtics",42,"Al Horford",C,6-9,240,"June 3, 1986",DO,11,Florida
-2019,2,1369,BOS,"Boston Celtics",28,"R.J. Hunter",SG,6-5,185,"October 24, 1993",US,3,"Georgia State University"
-2019,2,1387,BOS,"Boston Celtics",11,"Kyrie Irving",PG,6-2,195,"March 23, 1992",AU,7,Duke
-2019,2,2031,BOS,"Boston Celtics",55,"Greg Monroe",C,6-11,265,"June 4, 1990",US,8,Georgetown
-2019,2,2054,BOS,"Boston Celtics",13,"Marcus Morris",PF,6-8,218,"September 2, 1989",US,7,Kansas
-2019,2,2190,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,"December 5, 1994",US,1,"Duke, SMU"
-2019,2,2524,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,"March 17, 1994",US,3,Louisville
-2019,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,"March 6, 1994",US,4,"Oklahoma State"
-2019,2,2809,BOS,"Boston Celtics",0,"Jayson Tatum",SF,6-8,210,"March 3, 1998",US,1,Duke
-2019,2,2838,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,"April 4, 1992",DE,1,NULL
-2019,2,3023,BOS,"Boston Celtics",9,"Brad Wanamaker",PG,6-3,210,"July 25, 1989",US,R,Pitt
-2019,2,3176,BOS,"Boston Celtics",44,"Robert Williams",C,6-8,237,"October 17, 1997",US,R,"Texas A&M"
-2019,2,3254,BOS,"Boston Celtics",30,"Guerschon Yabusele",PF,6-8,260,"December 17, 1995",FR,1,NULL
-2020,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,"October 24, 1996",US,3,California
-2020,2,828,BOS,"Boston Celtics",4,"Carsen Edwards",SG,5-11,200,"March 12, 1998",US,R,Purdue
-2020,2,888,BOS,"Boston Celtics",99,"Tacko Fall",C,7-5,311,"December 10, 1995",SN,R,"Central Florida"
-2020,2,1105,BOS,"Boston Celtics",43,"Javonte Green",SG,6-4,205,"July 23, 1993",US,R,Radford
-2020,2,1239,BOS,"Boston Celtics",20,"Gordon Hayward",SF,6-7,225,"March 23, 1990",US,9,Butler
-2020,2,1580,BOS,"Boston Celtics",11,"Enes Kanter",C,6-10,250,"May 20, 1992",CH,8,NULL
-2020,2,1696,BOS,"Boston Celtics",45,"Romeo Langford",SG,6-4,216,"October 25, 1999",US,R,Indiana
-2020,2,2190,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,"December 5, 1994",US,2,"Duke, SMU"
-2020,2,2327,BOS,"Boston Celtics",77,"Vincent Poirier",C,7-0,235,"October 17, 1993",FR,R,NULL
-2020,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,"March 6, 1994",US,5,"Oklahoma State"
-2020,2,2809,BOS,"Boston Celtics",0,"Jayson Tatum",PF,6-8,210,"March 3, 1998",US,2,Duke
-2020,2,2838,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,"April 4, 1992",DE,2,NULL
-2020,2,3005,BOS,"Boston Celtics",8,"Kemba Walker",PG,6-0,184,"May 8, 1990",US,8,UConn
-2020,2,3023,BOS,"Boston Celtics",9,"Brad Wanamaker",PG,6-3,210,"July 25, 1989",US,1,Pitt
-2020,2,3041,BOS,"Boston Celtics",51,"Tremont Waters",PG,5-10,175,"January 10, 1998",US,R,LSU
-2020,2,3142,BOS,"Boston Celtics",12,"Grant Williams",PF,6-6,236,"November 30, 1998",US,R,Tennessee
-2020,2,3176,BOS,"Boston Celtics",44,"Robert Williams",C,6-8,237,"October 17, 1997",US,1,"Texas A&M"
+1980,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,1948-09-02,US,8,"Texas-El Paso"
+1980,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,1956-12-07,US,R,"Indiana State University"
+1980,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,1951-01-09,US,4,"Guilford College"
+1980,2,516,BOS,"Boston Celtics",12,"Don Chaney",SG,6-5,210,1946-03-22,US,11,Houston
+1980,2,620,BOS,"Boston Celtics",18,"Dave Cowens",C,6-9,230,1948-10-25,US,9,"Florida State"
+1980,2,910,BOS,"Boston Celtics",45,"Eric Fernsten",PF,6-10,205,1953-11-01,US,2,"San Francisco"
+1980,2,936,BOS,"Boston Celtics",42,"Chris Ford",SG,6-5,190,1949-01-11,US,7,Villanova
+1980,2,1254,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,1956-01-16,US,R,VCU
+1980,2,1578,BOS,"Boston Celtics",32,"Jeff Judkins",SF,6-6,185,1956-03-23,US,1,Utah
+1980,2,1836,BOS,"Boston Celtics",44,"Pete Maravich",SG,6-5,197,1947-06-22,US,9,LSU
+1980,2,1883,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,1955-11-21,US,2,"UNC Charlotte"
+1980,2,2473,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,1956-01-30,US,1,Kentucky
+1981,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,1948-09-02,US,9,"Texas-El Paso"
+1981,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,1956-12-07,US,1,"Indiana State University"
+1981,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,1951-01-09,US,5,"Guilford College"
+1981,2,796,BOS,"Boston Celtics",40,"Terry Duerod",SG,6-2,180,1956-07-29,US,1,"Detroit Mercy"
+1981,2,910,BOS,"Boston Celtics",45,"Eric Fernsten",C,6-10,205,1953-11-01,US,3,"San Francisco"
+1981,2,936,BOS,"Boston Celtics",42,"Chris Ford",SG,6-5,190,1949-01-11,US,8,Villanova
+1981,2,1254,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,1956-01-16,US,1,VCU
+1981,2,1659,BOS,"Boston Celtics",20,"Wayne Kreklow",SG,6-4,175,1957-01-04,US,R,"Drake University"
+1981,2,1883,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,1955-11-21,US,3,"UNC Charlotte"
+1981,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,R,Minnesota
+1981,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,4,"Centenary (LA)"
+1981,2,2473,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,1956-01-30,US,2,Kentucky
+1982,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,1959-03-17,US,R,BYU
+1982,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,1948-09-02,US,10,"Texas-El Paso"
+1982,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,1956-12-07,US,2,"Indiana State University"
+1982,2,323,BOS,"Boston Celtics",35,"Charles Bradley",SG,6-5,215,1959-05-16,US,R,Wyoming
+1982,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,1951-01-09,US,6,"Guilford College"
+1982,2,796,BOS,"Boston Celtics",40,"Terry Duerod",SG,6-2,180,1956-07-29,US,2,"Detroit Mercy"
+1982,2,910,BOS,"Boston Celtics",45,"Eric Fernsten",C,6-10,205,1953-11-01,US,4,"San Francisco"
+1982,2,936,BOS,"Boston Celtics",42,"Chris Ford",SG,6-5,190,1949-01-11,US,9,Villanova
+1982,2,1254,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,1956-01-16,US,2,VCU
+1982,2,1422,BOS,"Boston Celtics",11,"Tracy Jackson",SG,6-6,205,1959-04-21,US,R,"Notre Dame"
+1982,2,1883,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,1955-11-21,US,4,"UNC Charlotte"
+1982,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,1,Minnesota
+1982,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,5,"Centenary (LA)"
+1982,2,2473,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,1956-01-30,US,3,Kentucky
+1983,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,1959-03-17,US,1,BYU
+1983,2,102,BOS,"Boston Celtics",7,"Tiny Archibald",PG,6-1,150,1948-09-02,US,11,"Texas-El Paso"
+1983,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,1956-12-07,US,3,"Indiana State University"
+1983,2,323,BOS,"Boston Celtics",35,"Charles Bradley",SG,6-5,215,1959-05-16,US,1,Wyoming
+1983,2,415,BOS,"Boston Celtics",28,"Quinn Buckner",SG,6-3,190,1954-08-20,US,6,Indiana
+1983,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,1951-01-09,US,7,"Guilford College"
+1983,2,1254,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,1956-01-16,US,3,VCU
+1983,2,1883,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,1955-11-21,US,5,"UNC Charlotte"
+1983,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,2,Minnesota
+1983,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,6,"Centenary (LA)"
+1983,2,2473,BOS,"Boston Celtics",53,"Rick Robey",C,6-11,230,1956-01-30,US,4,Kentucky
+1983,2,2892,BOS,"Boston Celtics",52,"Darren Tillis",C,6-11,215,1960-02-23,US,R,"Cleveland State University"
+1983,2,3067,BOS,"Boston Celtics",20,"Scott Wedman",SF,6-7,215,1952-07-29,US,8,Colorado
+1984,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,1959-03-17,US,2,BYU
+1984,2,246,BOS,"Boston Celtics",33,"Larry Bird",PF,6-9,220,1956-12-07,US,4,"Indiana State University"
+1984,2,415,BOS,"Boston Celtics",28,"Quinn Buckner",PG,6-3,190,1954-08-20,US,7,Indiana
+1984,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,1951-01-09,US,8,"Guilford College"
+1984,2,539,BOS,"Boston Celtics",40,"Carlos Clark",SG,6-4,210,1960-08-10,US,R,"Ole Miss"
+1984,2,1254,BOS,"Boston Celtics",43,"Gerald Henderson",PG,6-2,175,1956-01-16,US,4,VCU
+1984,2,1484,BOS,"Boston Celtics",3,"Dennis Johnson",SG,6-4,185,1954-09-18,US,7,Pepperdine
+1984,2,1632,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,1961-08-05,US,R,BYU
+1984,2,1883,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,1955-11-21,US,6,"UNC Charlotte"
+1984,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,3,Minnesota
+1984,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,7,"Centenary (LA)"
+1984,2,3067,BOS,"Boston Celtics",20,"Scott Wedman",SF,6-7,215,1952-07-29,US,9,Colorado
+1985,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,1959-03-17,US,3,BYU
+1985,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,5,"Indiana State University"
+1985,2,415,BOS,"Boston Celtics",28,"Quinn Buckner",PG,6-3,190,1954-08-20,US,8,Indiana
+1985,2,472,BOS,"Boston Celtics",34,"Rick Carlisle",SG,6-5,210,1959-10-27,US,R,"University of Maine, Virginia"
+1985,2,479,BOS,"Boston Celtics",30,"M.L. Carr",SF,6-6,205,1951-01-09,US,9,"Guilford College"
+1985,2,539,BOS,"Boston Celtics",40,"Carlos Clark",SG,6-4,210,1960-08-10,US,1,"Ole Miss"
+1985,2,1484,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,1954-09-18,US,8,Pepperdine
+1985,2,1632,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,1961-08-05,US,1,BYU
+1985,2,1883,BOS,"Boston Celtics",31,"Cedric Maxwell",SF,6-8,205,1955-11-21,US,7,"UNC Charlotte"
+1985,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,4,Minnesota
+1985,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,8,"Centenary (LA)"
+1985,2,3067,BOS,"Boston Celtics",8,"Scott Wedman",SF,6-7,215,1952-07-29,US,10,Colorado
+1985,2,3177,BOS,"Boston Celtics",20,"Ray Williams",PG,6-3,188,1954-10-14,US,7,Minnesota
+1986,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,1959-03-17,US,4,BYU
+1986,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,6,"Indiana State University"
+1986,2,472,BOS,"Boston Celtics",34,"Rick Carlisle",SG,6-5,210,1959-10-27,US,1,"University of Maine, Virginia"
+1986,2,1484,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,1954-09-18,US,9,Pepperdine
+1986,2,1632,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,1961-08-05,US,2,BYU
+1986,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,5,Minnesota
+1986,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,9,"Centenary (LA)"
+1986,2,2631,BOS,"Boston Celtics",12,"Jerry Sichting",PG,6-1,168,1956-11-29,US,5,Purdue
+1986,2,2845,BOS,"Boston Celtics",45,"David Thirdkill",PF,6-7,195,1960-04-12,US,3,Bradley
+1986,2,2981,BOS,"Boston Celtics",11,"Sam Vincent",SG,6-2,185,1963-05-18,US,R,"Michigan State"
+1986,2,3024,BOS,"Boston Celtics",5,"Bill Walton",C,6-11,210,1952-11-05,US,8,UCLA
+1986,2,3067,BOS,"Boston Celtics",8,"Scott Wedman",SF,6-7,215,1952-07-29,US,11,Colorado
+1986,2,3189,BOS,"Boston Celtics",35,"Sly Williams",SF,6-7,210,1958-01-26,US,6,"Rhode Island"
+1987,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,1959-03-17,US,5,BYU
+1987,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,7,"Indiana State University"
+1987,2,472,BOS,"Boston Celtics",34,"Rick Carlisle",SG,6-5,210,1959-10-27,US,2,"University of Maine, Virginia"
+1987,2,713,BOS,"Boston Celtics",20,"Darren Daye",SF,6-8,220,1960-11-30,US,3,UCLA
+1987,2,1262,BOS,"Boston Celtics",43,"Conner Henry",SG,6-7,195,1963-07-21,US,R,"UC Santa Barbara"
+1987,2,1484,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,1954-09-18,US,10,Pepperdine
+1987,2,1632,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,1961-08-05,US,3,BYU
+1987,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,6,Minnesota
+1987,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,10,"Centenary (LA)"
+1987,2,2468,BOS,"Boston Celtics",31,"Fred Roberts",PF,6-10,218,1960-08-14,US,3,BYU
+1987,2,2631,BOS,"Boston Celtics",12,"Jerry Sichting",PG,6-1,168,1956-11-29,US,6,Purdue
+1987,2,2845,BOS,"Boston Celtics",45,"David Thirdkill",SF,6-7,195,1960-04-12,US,4,Bradley
+1987,2,2930,BOS,"Boston Celtics",7,"Andre Turner",PG,5-11,160,1964-12-13,US,R,Memphis
+1987,2,2981,BOS,"Boston Celtics",11,"Sam Vincent",PG,6-2,185,1963-05-18,US,1,"Michigan State"
+1987,2,3024,BOS,"Boston Celtics",5,"Bill Walton",C,6-11,210,1952-11-05,US,9,UCLA
+1987,2,3067,BOS,"Boston Celtics",8,"Scott Wedman",SF,6-7,215,1952-07-29,US,12,Colorado
+1988,2,10,BOS,"Boston Celtics",42,"Mark Acres",C,6-11,220,1962-11-15,US,R,"Oral Roberts"
+1988,2,26,BOS,"Boston Celtics",44,"Danny Ainge",SG,6-4,175,1959-03-17,US,6,BYU
+1988,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,8,"Indiana State University"
+1988,2,713,BOS,"Boston Celtics",20,"Darren Daye",SF,6-8,220,1960-11-30,US,4,UCLA
+1988,2,1041,BOS,"Boston Celtics",53,"Artis Gilmore",C,7-2,240,1949-09-21,US,16,"Gardner-Webb University, Jacksonville University"
+1988,2,1262,BOS,"Boston Celtics",43,"Conner Henry",SG,6-7,195,1963-07-21,US,1,"UC Santa Barbara"
+1988,2,1484,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,1954-09-18,US,11,Pepperdine
+1988,2,1632,BOS,"Boston Celtics",50,"Greg Kite",C,6-11,250,1961-08-05,US,4,BYU
+1988,2,1752,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,1965-11-21,US,R,"Northeastern University"
+1988,2,1771,BOS,"Boston Celtics",54,"Brad Lohaus",PF,6-11,230,1964-09-29,US,R,Iowa
+1988,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,7,Minnesota
+1988,2,2011,BOS,"Boston Celtics",11,"Dirk Minniefield",PG,6-3,180,1961-01-17,US,2,Kentucky
+1988,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,11,"Centenary (LA)"
+1988,2,2270,BOS,"Boston Celtics",4,"Jim Paxson",SG,6-6,200,1957-07-09,US,8,Dayton
+1988,2,2468,BOS,"Boston Celtics",31,"Fred Roberts",PF,6-10,218,1960-08-14,US,4,BYU
+1988,2,2631,BOS,"Boston Celtics",12,"Jerry Sichting",PG,6-1,168,1956-11-29,US,7,Purdue
+1989,2,10,BOS,"Boston Celtics",42,"Mark Acres",C,6-11,220,1962-11-15,US,1,"Oral Roberts"
+1989,2,26,BOS,"Boston Celtics",44,"Danny Ainge",PG,6-4,175,1959-03-17,US,7,BYU
+1989,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,9,"Indiana State University"
+1989,2,247,BOS,"Boston Celtics",12,"Otis Birdsong",SG,6-3,190,1955-12-09,US,11,Houston
+1989,2,987,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,1965-11-13,US,1,Iowa
+1989,2,1078,BOS,"Boston Celtics",31,"Ron Grandison",PF,6-6,215,1964-07-09,US,R,"University of California, Irvine, New Orleans"
+1989,2,1484,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,1954-09-18,US,12,Pepperdine
+1989,2,1635,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,1962-01-04,US,3,"Notre Dame, Arkansas"
+1989,2,1752,BOS,"Boston Celtics",35,"Reggie Lewis",SF,6-7,195,1965-11-21,US,1,"Northeastern University"
+1989,2,1771,BOS,"Boston Celtics",54,"Brad Lohaus",PF,6-11,230,1964-09-29,US,1,Iowa
+1989,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,8,Minnesota
+1989,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,12,"Centenary (LA)"
+1989,2,2270,BOS,"Boston Celtics",4,"Jim Paxson",PG,6-6,200,1957-07-09,US,9,Dayton
+1989,2,2314,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,1963-03-27,US,3,Villanova
+1989,2,2459,BOS,"Boston Celtics",45,"Ramon Rivas",C,6-10,260,1966-06-03,PR,R,Temple
+1989,2,2615,BOS,"Boston Celtics",20,"Brian Shaw",SG,6-6,190,1966-03-22,US,R,"Saint Mary's, UC Santa Barbara"
+1989,2,2950,BOS,"Boston Celtics",7,"Kelvin Upshaw",SG,6-2,180,1963-01-24,US,R,Utah
+1990,2,137,BOS,"Boston Celtics",5,"John Bagley",PG,6-0,185,1960-04-23,US,7,"Boston College"
+1990,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,10,"Indiana State University"
+1990,2,987,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,1965-11-13,US,2,Iowa
+1990,2,1484,BOS,"Boston Celtics",3,"Dennis Johnson",PG,6-4,185,1954-09-18,US,13,Pepperdine
+1990,2,1635,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,1962-01-04,US,4,"Notre Dame, Arkansas"
+1990,2,1752,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,1965-11-21,US,2,"Northeastern University"
+1990,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,9,Minnesota
+1990,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,13,"Centenary (LA)"
+1990,2,2270,BOS,"Boston Celtics",4,"Jim Paxson",PG,6-6,200,1957-07-09,US,10,Dayton
+1990,2,2314,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,1963-03-27,US,4,Villanova
+1990,2,2674,BOS,"Boston Celtics",13,"Charles Edward Smith",PG,6-1,160,1967-11-29,US,R,Georgetown
+1990,2,2699,BOS,"Boston Celtics",11,"Michael Smith (1965)",PF,6-10,225,1965-05-19,US,R,BYU
+1990,2,2950,BOS,"Boston Celtics",7,"Kelvin Upshaw",SG,6-2,180,1963-01-24,US,1,Utah
+1991,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,11,"Indiana State University"
+1991,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,1968-11-29,US,R,"Jacksonville University"
+1991,2,987,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,1965-11-13,US,3,Iowa
+1991,2,1635,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,1962-01-04,US,5,"Notre Dame, Arkansas"
+1991,2,1752,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,1965-11-21,US,3,"Northeastern University"
+1991,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,10,Minnesota
+1991,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,14,"Centenary (LA)"
+1991,2,2314,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,1963-03-27,US,5,Villanova
+1991,2,2340,BOS,"Boston Celtics",42,"Dave Popson",PF,6-10,220,1964-05-17,US,1,UNC
+1991,2,2615,BOS,"Boston Celtics",20,"Brian Shaw",PG,6-6,190,1966-03-22,US,1,"Saint Mary's, UC Santa Barbara"
+1991,2,2674,BOS,"Boston Celtics",13,"Charles Edward Smith",PG,6-1,160,1967-11-29,US,1,Georgetown
+1991,2,2681,BOS,"Boston Celtics",43,"Derek Smith",SF,6-6,205,1961-11-01,US,8,Louisville
+1991,2,2699,BOS,"Boston Celtics",11,"Michael Smith (1965)",PF,6-10,225,1965-05-19,US,1,BYU
+1991,2,2990,BOS,"Boston Celtics",52,"Stojko Vrankovic",C,7-2,260,1964-01-22,HR,R,NULL
+1991,2,3259,BOS,"Boston Celtics",12,"A.J. Wynder",PG,6-2,180,1964-09-11,US,R,"UMass, Fairfield"
+1992,2,137,BOS,"Boston Celtics",5,"John Bagley",PG,6-0,185,1960-04-23,US,8,"Boston College"
+1992,2,191,BOS,"Boston Celtics",8,"Kenny Battle",SG,6-6,210,1964-10-10,US,2,"Northern Illinois, Illinois"
+1992,2,246,BOS,"Boston Celtics",33,"Larry Bird",SF,6-9,220,1956-12-07,US,12,"Indiana State University"
+1992,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,1968-11-29,US,1,"Jacksonville University"
+1992,2,773,BOS,"Boston Celtics","4, 20","Sherman Douglas",PG,6-0,180,1966-09-15,US,2,Syracuse
+1992,2,953,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,1969-07-24,CA,R,UNC
+1992,2,987,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,1965-11-13,US,4,Iowa
+1992,2,1114,BOS,"Boston Celtics",13,"Rickey Green",PG,6-0,170,1954-08-18,US,13,Michigan
+1992,2,1635,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,1962-01-04,US,6,"Notre Dame, Arkansas"
+1992,2,1752,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,1965-11-21,US,4,"Northeastern University"
+1992,2,1873,BOS,"Boston Celtics",41,"Tony Massenburg",PF,6-9,220,1967-07-31,US,1,Maryland
+1992,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,11,Minnesota
+1992,2,2249,BOS,"Boston Celtics",00,"Robert Parish",C,7-1,230,1953-08-30,US,15,"Centenary (LA)"
+1992,2,2314,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,1963-03-27,US,6,Villanova
+1992,2,2373,BOS,"Boston Celtics",12,"Kevin Pritchard",PG,6-3,180,1967-07-17,US,1,Kansas
+1992,2,2489,BOS,"Boston Celtics",4,"Larry Robinson",SG,6-3,180,1968-01-11,US,1,"Centenary (LA)"
+1992,2,2615,BOS,"Boston Celtics",20,"Brian Shaw",PG,6-6,190,1966-03-22,US,2,"Saint Mary's, UC Santa Barbara"
+1992,2,2990,BOS,"Boston Celtics",11,"Stojko Vrankovic",C,7-2,260,1964-01-22,HR,1,NULL
+1993,2,1,BOS,"Boston Celtics",4,"Alaa Abdelnaby",PF,6-10,240,1968-06-24,EG,2,Duke
+1993,2,137,BOS,"Boston Celtics",5,"John Bagley",PG,6-0,185,1960-04-23,US,9,"Boston College"
+1993,2,191,BOS,"Boston Celtics",8,"Kenny Battle",SG,6-6,210,1964-10-10,US,3,"Northern Illinois, Illinois"
+1993,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,1968-11-29,US,2,"Jacksonville University"
+1993,2,773,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,1966-09-15,US,3,Syracuse
+1993,2,953,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,1969-07-24,CA,1,UNC
+1993,2,987,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,1965-11-13,US,5,Iowa
+1993,2,1635,BOS,"Boston Celtics",53,"Joe Kleine",C,6-11,255,1962-01-04,US,7,"Notre Dame, Arkansas"
+1993,2,1646,BOS,"Boston Celtics",12,"Bart Kofoed",SG,6-4,210,1964-03-24,US,4,"Hastings College, University of Nebraska at Kearney"
+1993,2,1752,BOS,"Boston Celtics",35,"Reggie Lewis",SG,6-7,195,1965-11-21,US,5,"Northeastern University"
+1993,2,1922,BOS,"Boston Celtics",31,"Xavier McDaniel",PF,6-7,205,1963-06-04,US,7,"Wichita State"
+1993,2,1941,BOS,"Boston Celtics",32,"Kevin McHale",PF,6-10,210,1957-12-19,US,12,Minnesota
+1993,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,16,"Centenary (LA)"
+1993,2,2314,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,1963-03-27,US,7,Villanova
+1993,2,3060,BOS,"Boston Celtics",41,"Marcus Webb",PF,6-9,255,1970-05-09,US,R,Alabama
+1993,2,3165,BOS,"Boston Celtics",43,"Lorenzo Williams",PF,6-9,200,1969-07-15,US,R,"Stetson University"
+1993,2,3225,BOS,"Boston Celtics",42,"Joe Wolf",C,6-11,230,1964-12-17,US,5,UNC
+1994,2,1,BOS,"Boston Celtics",4,"Alaa Abdelnaby",PF,6-10,240,1968-06-24,EG,3,Duke
+1994,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",SG,6-1,160,1968-11-29,US,3,"Jacksonville University"
+1994,2,610,BOS,"Boston Celtics",12,"Chris Corchiani",PG,6-0,185,1968-03-28,US,2,"NC State"
+1994,2,773,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,1966-09-15,US,4,Syracuse
+1994,2,816,BOS,"Boston Celtics",55,"Acie Earl",C,6-10,240,1970-06-23,US,R,Iowa
+1994,2,953,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,1969-07-24,CA,2,UNC
+1994,2,987,BOS,"Boston Celtics",34,"Kevin Gamble",SF,6-5,210,1965-11-13,US,6,Iowa
+1994,2,1213,BOS,"Boston Celtics",43,"Tony Harris",SG,6-3,190,1967-05-13,US,1,"Lamar, New Orleans"
+1994,2,1754,BOS,"Boston Celtics",30,"Todd Lichti",SG,6-4,205,1967-01-08,US,4,Stanford
+1994,2,1922,BOS,"Boston Celtics",31,"Xavier McDaniel",SF,6-7,205,1963-06-04,US,8,"Wichita State"
+1994,2,2210,BOS,"Boston Celtics",27,"Jimmy Oliver",SG,6-5,205,1969-07-12,US,1,Purdue
+1994,2,2249,BOS,"Boston Celtics",0,"Robert Parish",C,7-1,230,1953-08-30,US,17,"Centenary (LA)"
+1994,2,2314,BOS,"Boston Celtics",54,"Ed Pinckney",PF,6-9,195,1963-03-27,US,8,Villanova
+1994,2,2388,BOS,"Boston Celtics",40,"Dino Radja",PF,6-11,225,1967-04-24,HR,R,NULL
+1994,2,3076,BOS,"Boston Celtics",50,"Matt Wenstrom",C,7-1,250,1970-11-04,US,R,UNC
+1995,2,257,BOS,"Boston Celtics",8,"James Blackwell",PG,6-0,190,1968-02-25,US,R,"Dartmouth College"
+1995,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",SG,6-1,160,1968-11-29,US,4,"Jacksonville University"
+1995,2,710,BOS,"Boston Celtics",45,"Tony Dawson",SF,6-7,215,1967-08-25,US,1,"Florida State"
+1995,2,773,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,1966-09-15,US,5,Syracuse
+1995,2,816,BOS,"Boston Celtics",55,"Acie Earl",C,6-10,240,1970-06-23,US,1,Iowa
+1995,2,829,BOS,"Boston Celtics",30,"Blue Edwards",SF,6-4,200,1965-10-31,US,5,"East Carolina University"
+1995,2,856,BOS,"Boston Celtics",29,"Pervis Ellison",C,6-9,210,1967-04-03,US,5,Louisville
+1995,2,953,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,1969-07-24,CA,3,UNC
+1995,2,1213,BOS,"Boston Celtics",43,"Tony Harris",SG,6-3,190,1967-05-13,US,2,"Lamar, New Orleans"
+1995,2,1363,BOS,"Boston Celtics",5,"Jay Humphries",PG,6-3,185,1962-10-17,US,10,Colorado
+1995,2,1922,BOS,"Boston Celtics",34,"Xavier McDaniel",SF,6-7,205,1963-06-04,US,9,"Wichita State"
+1995,2,2012,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,1971-09-18,US,R,Louisville
+1995,2,2037,BOS,"Boston Celtics",0,"Eric Montross",C,7-0,270,1971-09-23,US,R,UNC
+1995,2,2388,BOS,"Boston Celtics",40,"Dino Radja",PF,6-11,225,1967-04-24,HR,1,NULL
+1995,2,2783,BOS,"Boston Celtics",31,"Derek Strong",PF,6-8,220,1968-02-09,US,3,Xavier
+1995,2,3078,BOS,"Boston Celtics",4,"David Wesley",PG,6-0,190,1970-11-14,US,1,Baylor
+1995,2,3128,BOS,"Boston Celtics",12,"Dominique Wilkins",SF,6-8,215,1960-01-12,FR,12,Georgia
+1996,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,1967-04-13,US,6,"Boston College"
+1996,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,1968-11-29,US,5,"Jacksonville University"
+1996,2,431,BOS,"Boston Celtics",5,"Junior Burrough",PF,6-8,242,1973-01-18,US,R,Virginia
+1996,2,549,BOS,"Boston Celtics",51,"Charles Claxton",C,7-0,265,1970-12-13,VI,R,Georgia
+1996,2,711,BOS,"Boston Celtics",13,"Todd Day",SG,6-6,188,1970-01-07,US,3,Arkansas
+1996,2,773,BOS,"Boston Celtics",20,"Sherman Douglas",PG,6-0,180,1966-09-15,US,6,Syracuse
+1996,2,856,BOS,"Boston Celtics",29,"Pervis Ellison",C,6-9,210,1967-04-03,US,6,Louisville
+1996,2,953,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,1969-07-24,CA,4,UNC
+1996,2,1166,BOS,"Boston Celtics",30,"Thomas Hamilton",C,7-2,330,1975-04-03,US,R,Pitt
+1996,2,1759,BOS,"Boston Celtics",53,"Alton Lister",C,7-0,240,1958-10-01,US,13,"Arizona State"
+1996,2,2012,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,1971-09-18,US,1,Louisville
+1996,2,2037,BOS,"Boston Celtics",0,"Eric Montross",C,7-0,270,1971-09-23,US,1,UNC
+1996,2,2081,BOS,"Boston Celtics",51,"Todd Mundt",C,7-0,250,1970-05-17,US,R,"Memphis, Delta State University"
+1996,2,2388,BOS,"Boston Celtics",40,"Dino Radja",PF,6-11,225,1967-04-24,HR,2,NULL
+1996,2,2683,BOS,"Boston Celtics",34,"Doug Smith",PF,6-10,220,1969-09-17,US,4,Missouri
+1996,2,2803,BOS,"Boston Celtics",54,"Larry Sykes",PF,6-9,255,1973-04-11,US,R,Xavier
+1996,2,3078,BOS,"Boston Celtics",4,"David Wesley",PG,6-0,190,1970-11-14,US,2,Baylor
+1996,2,3145,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,1972-07-17,US,R,Providence
+1997,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,1967-04-13,US,7,"Boston College"
+1997,2,348,BOS,"Boston Celtics",34,"Frank Brickowski",PF,6-9,240,1959-08-14,US,11,"Penn State"
+1997,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",PG,6-1,160,1968-11-29,US,6,"Jacksonville University"
+1997,2,586,BOS,"Boston Celtics",30,"Marty Conlon",C,6-10,224,1968-01-19,US,5,Providence
+1997,2,711,BOS,"Boston Celtics",13,"Todd Day",SG,6-6,188,1970-01-07,US,4,Arkansas
+1997,2,789,BOS,"Boston Celtics",27,"Nate Driggers",SG,6-5,215,1973-10-12,US,R,"University of Montevallo"
+1997,2,856,BOS,"Boston Celtics",29,"Pervis Ellison",PF,6-9,210,1967-04-03,US,7,Louisville
+1997,2,953,BOS,"Boston Celtics",44,"Rick Fox",SF,6-7,230,1969-07-24,CA,5,UNC
+1997,2,1159,BOS,"Boston Celtics",42,"Steve Hamer",C,7-0,245,1973-11-13,US,R,Tennessee
+1997,2,1233,BOS,"Boston Celtics",5,"Michael Hawkins",PG,6-0,178,1972-10-28,US,R,Xavier
+1997,2,1627,BOS,"Boston Celtics",41,"Stacey King",C,6-11,230,1967-01-29,US,7,Oklahoma
+1997,2,1759,BOS,"Boston Celtics",53,"Alton Lister",C,7-0,240,1958-10-01,US,14,"Arizona State"
+1997,2,2012,BOS,"Boston Celtics",9,"Greg Minor",SF,6-6,210,1971-09-18,US,2,Louisville
+1997,2,2388,BOS,"Boston Celtics",40,"Dino Radja",C,6-11,225,1967-04-24,HR,3,NULL
+1997,2,2804,BOS,"Boston Celtics",43,"Brett Szabo",C,6-11,230,1968-02-01,US,R,"Augustana College (SD)"
+1997,2,3006,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,1976-08-12,US,R,Kentucky
+1997,2,3078,BOS,"Boston Celtics",4,"David Wesley",PG,6-0,190,1970-11-14,US,3,Baylor
+1997,2,3145,BOS,"Boston Celtics",55,"Eric Williams",SG,6-8,220,1972-07-17,US,1,Providence
+1998,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,1970-10-09,US,6,"Georgia Tech"
+1998,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,1967-04-13,US,8,"Boston College"
+1998,2,242,BOS,"Boston Celtics",4,"Chauncey Billups",PG,6-3,202,1976-09-25,US,R,Colorado
+1998,2,309,BOS,"Boston Celtics",12,"Bruce Bowen",SF,6-7,185,1971-06-14,US,1,"Cal State Fullerton"
+1998,2,374,BOS,"Boston Celtics",7,"DeCovan Brown",SG,6-1,160,1968-11-29,US,7,"Jacksonville University"
+1998,2,715,BOS,"Boston Celtics",45,"Andrew DeClercq",C,6-10,230,1973-02-01,US,2,Florida
+1998,2,826,BOS,"Boston Celtics",20,"Tyus Edney",PG,5-10,152,1973-02-14,US,2,UCLA
+1998,2,856,BOS,"Boston Celtics",29,"Pervis Ellison",PF,6-9,210,1967-04-03,US,8,Louisville
+1998,2,1179,BOS,"Boston Celtics",34,"Reggie Hanson",SF,6-8,195,1968-10-06,US,R,Kentucky
+1998,2,1541,BOS,"Boston Celtics",13,"Dontae' Jones",SF,6-8,220,1975-06-02,US,R,"Northeast Mississippi Community College, Mississippi State"
+1998,2,1644,BOS,"Boston Celtics",40,"Travis Knight",C,7-0,235,1974-09-13,US,1,UConn
+1998,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",SF,6-10,230,1974-02-01,US,1,Kentucky
+1998,2,1976,BOS,"Boston Celtics",5,"Ron Mercer",SG,6-7,210,1976-05-18,US,R,Kentucky
+1998,2,2012,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,1971-09-18,US,3,Louisville
+1998,2,2507,BOS,"Boston Celtics",99,"Roy Rogers",PF,6-10,235,1973-08-19,US,1,Alabama
+1998,2,2806,BOS,"Boston Celtics",55,"Zan Tabak",C,7-0,245,1970-06-15,HR,3,NULL
+1998,2,2858,BOS,"Boston Celtics",55,"John Thomas",PF,6-9,265,1975-09-08,US,R,Minnesota
+1998,2,3006,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,1976-08-12,US,1,Kentucky
+1999,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,1970-10-09,US,7,"Georgia Tech"
+1999,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,1967-04-13,US,9,"Boston College"
+1999,2,188,BOS,"Boston Celtics",40,"Tony Battie",C,6-11,230,1976-02-11,US,1,"Texas Tech"
+1999,2,309,BOS,"Boston Celtics",12,"Bruce Bowen",SF,6-7,185,1971-06-14,US,2,"Cal State Fullerton"
+1999,2,715,BOS,"Boston Celtics",45,"Andrew DeClercq",C,6-10,230,1973-02-01,US,3,Florida
+1999,2,1000,BOS,"Boston Celtics",20,"Marlon Garnett",PG,6-2,186,1975-07-03,US,R,"Santa Clara"
+1999,2,1537,BOS,"Boston Celtics",13,"Damon Jones",PG,6-3,185,1976-08-25,US,R,Houston
+1999,2,1560,BOS,"Boston Celtics",4,"Popeye Jones",PF,6-8,250,1970-06-17,US,5,"Murray State"
+1999,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,1974-02-01,US,2,Kentucky
+1999,2,1976,BOS,"Boston Celtics",5,"Ron Mercer",SG,6-7,210,1976-05-18,US,1,Kentucky
+1999,2,2012,BOS,"Boston Celtics",9,"Greg Minor",SG,6-6,210,1971-09-18,US,4,Louisville
+1999,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,R,Kansas
+1999,2,2353,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,1975-03-21,UA,2,"Wright State University"
+1999,2,2458,BOS,"Boston Celtics",44,"Eric Riley",C,7-0,245,1970-06-02,US,4,Michigan
+1999,2,2579,BOS,"Boston Celtics",55,"Dwayne Schintzius",C,7-1,260,1968-10-14,US,7,Florida
+1999,2,3006,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,1976-08-12,US,2,Kentucky
+2000,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,1970-10-09,US,8,"Georgia Tech"
+2000,2,173,BOS,"Boston Celtics",11,"Dana Barros",PG,5-11,163,1967-04-13,US,10,"Boston College"
+2000,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,1976-02-11,US,2,"Texas Tech"
+2000,2,520,BOS,"Boston Celtics",40,"Calbert Cheaney",SG,6-7,209,1971-07-17,US,6,Indiana
+2000,2,856,BOS,"Boston Celtics",29,"Pervis Ellison",C,6-9,210,1967-04-03,US,9,Louisville
+2000,2,945,BOS,"Boston Celtics",27,"Danny Fortson",PF,6-7,260,1976-03-27,US,2,Cincinnati
+2000,2,1126,BOS,"Boston Celtics",44,"Adrian Griffin",SG,6-5,217,1974-07-04,US,R,"Seton Hall"
+2000,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,1974-02-01,US,3,Kentucky
+2000,2,2227,BOS,"Boston Celtics",20,"Doug Overton",PG,6-3,190,1969-08-03,US,7,"La Salle"
+2000,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,1,Kansas
+2000,2,2353,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,1975-03-21,UA,3,"Wright State University"
+2000,2,2855,BOS,"Boston Celtics",5,"Jamel Thomas",SF,6-6,215,1973-03-25,US,R,Providence
+2000,2,2937,BOS,"Boston Celtics",5,"Wayne Turner",PG,6-2,190,1976-03-22,US,R,Kentucky
+2000,2,3006,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,1976-08-12,US,3,Kentucky
+2000,2,3145,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,1972-07-17,US,4,Providence
+2001,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,1970-10-09,US,9,"Georgia Tech"
+2001,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,1976-02-11,US,3,"Texas Tech"
+2001,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,1975-11-30,US,R,Pitt
+2001,2,394,BOS,"Boston Celtics",11,"Randy Brown",PG,6-2,190,1968-05-22,US,9,"Houston, New Mexico State"
+2001,2,405,BOS,"Boston Celtics",40,"Rick Brunson",PG,6-4,190,1972-06-14,US,3,Temple
+2001,2,476,BOS,"Boston Celtics",43,"Chris Carr",SG,6-5,207,1974-03-12,US,5,"Southern Illinois"
+2001,2,1126,BOS,"Boston Celtics",44,"Adrian Griffin",SF,6-5,217,1974-07-04,US,1,"Seton Hall"
+2001,2,1271,BOS,"Boston Celtics",12,"Chris Herren",PG,6-2,197,1975-09-27,US,1,"Boston College, Fresno State"
+2001,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,1974-02-01,US,4,Kentucky
+2001,2,2026,BOS,"Boston Celtics",5,"Jerome Moiso",C,6-10,235,1978-06-15,FR,R,UCLA
+2001,2,2227,BOS,"Boston Celtics",9,"Doug Overton",PG,6-3,190,1969-08-03,US,8,"La Salle"
+2001,2,2242,BOS,"Boston Celtics",9,"Milt Palacio",PG,6-3,195,1978-02-07,US,1,"Midland College, Colorado State"
+2001,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,2,Kansas
+2001,2,2353,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,1975-03-21,UA,4,"Wright State University"
+2001,2,2764,BOS,"Boston Celtics",20,"Bryant Stith",SG,6-5,208,1970-12-10,US,8,Virginia
+2001,2,3006,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,1976-08-12,US,4,Kentucky
+2001,2,3145,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,1972-07-17,US,5,Providence
+2002,2,77,BOS,"Boston Celtics",7,"Kenny Anderson",PG,6-0,168,1970-10-09,US,10,"Georgia Tech"
+2002,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,1976-02-11,US,4,"Texas Tech"
+2002,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,1975-11-30,US,1,Pitt
+2002,2,384,BOS,"Boston Celtics",42,"Kedrick Brown",SF,6-7,222,1981-03-18,US,R,"Okaloosa-Walton Community College"
+2002,2,394,BOS,"Boston Celtics",11,"Randy Brown",PG,6-2,190,1968-05-22,US,10,"Houston, New Mexico State"
+2002,2,727,BOS,"Boston Celtics",28,"Tony Delk",SG,6-1,189,1974-01-28,US,5,Kentucky
+2002,2,943,BOS,"Boston Celtics",40,"Joseph Forte",SG,6-4,194,1981-03-23,US,R,UNC
+2002,2,1496,BOS,"Boston Celtics",31,"Joe Johnson",SG,6-7,240,1981-06-29,US,R,Arkansas
+2002,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,1974-02-01,US,5,Kentucky
+2002,2,2242,BOS,"Boston Celtics",9,"Milt Palacio",PG,6-3,195,1978-02-07,US,2,"Midland College, Colorado State"
+2002,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,1977-10-13,US,3,Kansas
+2002,2,2353,BOS,"Boston Celtics",52,"Vitaly Potapenko",C,6-10,280,1975-03-21,UA,5,"Wright State University"
+2002,2,2506,BOS,"Boston Celtics",54,"Rodney Rogers",SF,6-7,235,1971-06-20,US,8,"Wake Forest"
+2002,2,2779,BOS,"Boston Celtics",20,"Erick Strickland",PG,6-3,210,1973-11-25,US,5,Nebraska
+2002,2,3006,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,1976-08-12,US,5,Kentucky
+2002,2,3145,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,1972-07-17,US,6,Providence
+2003,2,148,BOS,"Boston Celtics",42,"Vin Baker",C,6-11,232,1971-11-23,US,9,"University of Hartford"
+2003,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,1976-02-11,US,5,"Texas Tech"
+2003,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,1975-11-30,US,2,Pitt
+2003,2,340,BOS,"Boston Celtics",9,"J.R. Bremer",PG,6-2,185,1980-09-19,US,R,"St. Bonaventure"
+2003,2,384,BOS,"Boston Celtics",5,"Kedrick Brown",SF,6-7,222,1981-03-18,US,1,"Okaloosa-Walton Community College"
+2003,2,409,BOS,"Boston Celtics",11,"Mark Bryant",PF,6-9,245,1965-04-25,US,14,"Seton Hall"
+2003,2,565,BOS,"Boston Celtics",12,"Bimbo Coles",PG,6-1,180,1968-04-22,US,12,"Virginia Tech"
+2003,2,727,BOS,"Boston Celtics",7,"Tony Delk",PG,6-1,189,1974-01-28,US,6,Kentucky
+2003,2,1773,BOS,"Boston Celtics",43,"Grant Long",PF,6-8,225,1966-03-12,US,14,"Eastern Michigan"
+2003,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",SF,6-10,230,1974-02-01,US,6,Kentucky
+2003,2,2045,BOS,"Boston Celtics",31,"Mikki Moore",C,6-11,225,1975-11-04,US,4,Nebraska
+2003,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,1977-10-13,US,4,Kansas
+2003,2,2792,BOS,"Boston Celtics",41,"Bruno Sundov",C,7-2,220,1980-02-10,HR,4,NULL
+2003,2,3006,BOS,"Boston Celtics",8,"Antoine Walker",PF,6-8,224,1976-08-12,US,6,Kentucky
+2003,2,3145,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,1972-07-17,US,7,Providence
+2003,2,3186,BOS,"Boston Celtics",11,"Shammond Williams",PG,6-1,201,1975-04-05,US,4,UNC
+2003,2,3226,BOS,"Boston Celtics",45,"Ruben Wolkowyski",PF,6-10,270,1973-09-30,AR,1,NULL
+2004,2,117,BOS,"Boston Celtics",7,"Chucky Atkins",PG,5-11,160,1974-08-14,US,4,"South Florida"
+2004,2,148,BOS,"Boston Celtics",42,"Vin Baker",PF,6-11,232,1971-11-23,US,10,"University of Hartford"
+2004,2,158,BOS,"Boston Celtics",11,"Marcus Banks",PG,6-2,200,1981-11-19,US,R,UNLV
+2004,2,173,BOS,"Boston Celtics",13,"Dana Barros",SG,5-11,163,1967-04-13,US,13,"Boston College"
+2004,2,188,BOS,"Boston Celtics",4,"Tony Battie",C,6-11,230,1976-02-11,US,6,"Texas Tech"
+2004,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,1975-11-30,US,3,Pitt
+2004,2,384,BOS,"Boston Celtics",5,"Kedrick Brown",SF,6-7,222,1981-03-18,US,2,"Okaloosa-Walton Community College"
+2004,2,698,BOS,"Boston Celtics",12,"Ricky Davis",SF,6-6,195,1979-09-23,US,5,Iowa
+2004,2,1365,BOS,"Boston Celtics",56,"Brandon Hunter",PF,6-7,260,1980-11-24,US,R,"Ohio University"
+2004,2,1432,BOS,"Boston Celtics",13,"Michael Lamont James",PG,6-2,188,1975-06-23,US,2,Duquesne
+2004,2,1552,BOS,"Boston Celtics",20,"Jumaine Jones",SG,6-8,218,1979-02-10,US,4,Georgia
+2004,2,1673,BOS,"Boston Celtics",45,"Raef LaFrentz",C,6-11,240,1976-05-29,US,5,Kansas
+2004,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,1974-02-01,US,7,Kentucky
+2004,2,1985,BOS,"Boston Celtics",4,"Chris Mihm",C,7-0,265,1979-07-16,US,3,Texas
+2004,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,R,NULL
+2004,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,1977-10-13,US,5,Kansas
+2004,2,2761,BOS,"Boston Celtics",5,"Michael Stewart",C,6-10,230,1975-04-25,FR,6,California
+2004,2,3073,BOS,"Boston Celtics",44,"Jiri Welsch",SG,6-7,208,1980-01-27,CZ,1,NULL
+2004,2,3145,BOS,"Boston Celtics",55,"Eric Williams",SF,6-8,220,1972-07-17,US,8,Providence
+2005,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,1982-01-11,US,R,"Butler County Community College, Oklahoma State"
+2005,2,158,BOS,"Boston Celtics",11,"Marcus Banks",PG,6-2,200,1981-11-19,US,1,UNLV
+2005,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,1975-11-30,US,4,Pitt
+2005,2,698,BOS,"Boston Celtics",12,"Ricky Davis",SG,6-6,195,1979-09-23,US,6,Iowa
+2005,2,1138,BOS,"Boston Celtics",7,"Tom Gugliotta",PF,6-10,240,1969-12-19,US,12,"NC State"
+2005,2,1443,BOS,"Boston Celtics","7, 8","Al Jefferson",PF,6-10,289,1985-01-04,US,R,NULL
+2005,2,1673,BOS,"Boston Celtics",45,"Raef LaFrentz",PF,6-11,240,1976-05-29,US,6,Kansas
+2005,2,1904,BOS,"Boston Celtics",0,"Walter McCarty",PF,6-10,230,1974-02-01,US,8,Kentucky
+2005,2,2276,BOS,"Boston Celtics",20,"Gary Payton",PG,6-4,180,1968-07-23,US,14,"Oregon State"
+2005,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,1,NULL
+2005,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,6,Kansas
+2005,2,2421,BOS,"Boston Celtics",9,"Justin Reed",SF,6-8,240,1982-01-16,US,R,"Ole Miss"
+2005,2,3006,BOS,"Boston Celtics",88,"Antoine Walker",PF,6-8,224,1976-08-12,US,8,Kentucky
+2005,2,3073,BOS,"Boston Celtics",44,"Jiri Welsch",SG,6-7,208,1980-01-27,CZ,2,NULL
+2005,2,3080,BOS,"Boston Celtics",13,"Delonte West",SG,6-4,180,1983-07-26,US,R,"Saint Joseph's"
+2006,2,55,BOS,"Boston Celtics",42,"Tony Allen",PG,6-4,213,1982-01-11,US,1,"Butler County Community College, Oklahoma State"
+2006,2,158,BOS,"Boston Celtics",11,"Marcus Banks",PG,6-2,200,1981-11-19,US,2,UNLV
+2006,2,271,BOS,"Boston Celtics",30,"Mark Blount",C,7-0,230,1975-11-30,US,5,Pitt
+2006,2,698,BOS,"Boston Celtics",12,"Ricky Davis",SG,6-6,195,1979-09-23,US,7,Iowa
+2006,2,744,BOS,"Boston Celtics",20,"Dan Dickau",PG,6-0,190,1978-09-16,US,3,"Washington, Gonzaga"
+2006,2,1055,BOS,"Boston Celtics",4,"Ryan Gomes",PF,6-7,250,1982-09-01,US,R,Providence
+2006,2,1105,BOS,"Boston Celtics",5,"Gerald Green",SG,6-6,205,1986-01-26,US,R,NULL
+2006,2,1120,BOS,"Boston Celtics",0,"Orien Greene",PG,6-4,208,1982-02-04,US,R,"Florida, Louisiana"
+2006,2,1443,BOS,"Boston Celtics",7,"Al Jefferson",PF,6-10,289,1985-01-04,US,1,NULL
+2006,2,1542,BOS,"Boston Celtics",27,"Dwayne Jones",PF,6-11,250,1983-06-09,US,R,"Saint Joseph's"
+2006,2,1673,BOS,"Boston Celtics",45,"Raef LaFrentz",PF,6-11,240,1976-05-29,US,7,Kansas
+2006,2,2212,BOS,"Boston Celtics",41,"Michael Olowokandi",C,7-0,269,1975-04-03,NG,7,"University of the Pacific"
+2006,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,2,NULL
+2006,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,7,Kansas
+2006,2,2421,BOS,"Boston Celtics",9,"Justin Reed",SF,6-8,240,1982-01-16,US,1,"Ole Miss"
+2006,2,2572,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,1978-03-18,US,4,USC
+2006,2,2805,BOS,"Boston Celtics",55,"Wally Szczerbiak",SF,6-7,244,1977-03-05,ES,6,"Miami University"
+2006,2,3080,BOS,"Boston Celtics",13,"Delonte West",PG,6-4,180,1983-07-26,US,1,"Saint Joseph's"
+2007,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,1982-01-11,US,2,"Butler County Community College, Oklahoma State"
+2007,2,1055,BOS,"Boston Celtics",4,"Ryan Gomes",PF,6-7,250,1982-09-01,US,1,Providence
+2007,2,1105,BOS,"Boston Celtics",5,"Gerald Green",SF,6-6,205,1986-01-26,US,1,NULL
+2007,2,1443,BOS,"Boston Celtics",7,"Al Jefferson",C,6-10,289,1985-01-04,US,2,NULL
+2007,2,2212,BOS,"Boston Celtics",41,"Michael Olowokandi",C,7-0,269,1975-04-03,NG,8,"University of the Pacific"
+2007,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,3,NULL
+2007,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SG,6-7,235,1977-10-13,US,8,Kansas
+2007,2,2315,BOS,"Boston Celtics",51,"Kevinn Pinkney",PF,6-10,245,1983-10-20,US,R,Nevada
+2007,2,2354,BOS,"Boston Celtics",0,"Leon Powe",C,6-8,240,1984-01-22,US,R,California
+2007,2,2407,BOS,"Boston Celtics",50,"Theo Ratliff",C,6-10,225,1973-04-17,US,11,Wyoming
+2007,2,2410,BOS,"Boston Celtics",12,"Allan Ray",SG,6-2,190,1984-06-17,US,R,Villanova
+2007,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,R,Kentucky
+2007,2,2572,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,1978-03-18,US,5,USC
+2007,2,2805,BOS,"Boston Celtics",55,"Wally Szczerbiak",SF,6-7,244,1977-03-05,ES,7,"Miami University"
+2007,2,2833,BOS,"Boston Celtics",30,"Sebastian Telfair",PG,6-0,165,1985-06-09,US,2,NULL
+2007,2,3080,BOS,"Boston Celtics",13,"Delonte West",SG,6-4,180,1983-07-26,US,2,"Saint Joseph's"
+2008,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,1975-07-20,US,11,UConn
+2008,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,1982-01-11,US,3,"Butler County Community College, Oklahoma State"
+2008,2,393,BOS,"Boston Celtics",93,"P.J. Brown",PF,6-11,225,1969-10-14,US,14,"Louisiana Tech"
+2008,2,497,BOS,"Boston Celtics",28,"Sam Cassell",PG,6-3,185,1969-11-18,US,14,"Florida State"
+2008,2,688,BOS,"Boston Celtics",11,"Glen Davis",C,6-9,289,1986-01-01,US,R,LSU
+2008,2,999,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,1976-05-19,US,12,NULL
+2008,2,1336,BOS,"Boston Celtics",50,"Eddie House",PG,6-1,180,1978-05-14,US,7,"Arizona State"
+2008,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,4,NULL
+2008,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,9,Kansas
+2008,2,2333,BOS,"Boston Celtics",66,"Scot Pollard",C,6-11,265,1975-02-12,US,10,Kansas
+2008,2,2351,BOS,"Boston Celtics",41,"James Posey",PF,6-8,215,1977-01-13,US,8,Xavier
+2008,2,2354,BOS,"Boston Celtics",0,"Leon Powe",C,6-8,240,1984-01-22,US,1,California
+2008,2,2376,BOS,"Boston Celtics",13,"Gabe Pruitt",PG,6-4,170,1986-04-19,US,R,USC
+2008,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,1,Kentucky
+2008,2,2572,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,1978-03-18,US,6,USC
+2009,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,1975-07-20,US,12,UConn
+2009,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,1982-01-11,US,4,"Butler County Community College, Oklahoma State"
+2009,2,688,BOS,"Boston Celtics",11,"Glen Davis",C,6-9,289,1986-01-01,US,1,LSU
+2009,2,999,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,1976-05-19,US,13,NULL
+2009,2,1032,BOS,"Boston Celtics",4,"J.R. Giddens",SF,6-5,215,1985-02-13,US,R,"Kansas, New Mexico"
+2009,2,1336,BOS,"Boston Celtics",50,"Eddie House",PG,6-1,180,1978-05-14,US,8,"Arizona State"
+2009,2,1839,BOS,"Boston Celtics",8,"Stephon Marbury",PG,6-2,180,1977-02-20,US,12,"Georgia Tech"
+2009,2,2045,BOS,"Boston Celtics",7,"Mikki Moore",C,6-11,225,1975-11-04,US,10,Nebraska
+2009,2,2179,BOS,"Boston Celtics",26,"Patrick O'Bryant",C,7-0,260,1986-06-20,US,2,Bradley
+2009,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,5,NULL
+2009,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,10,Kansas
+2009,2,2354,BOS,"Boston Celtics",0,"Leon Powe",PF,6-8,240,1984-01-22,US,2,California
+2009,2,2376,BOS,"Boston Celtics",13,"Gabe Pruitt",SG,6-4,170,1986-04-19,US,1,USC
+2009,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,2,Kentucky
+2009,2,2572,BOS,"Boston Celtics",44,"Brian Scalabrine",C,6-9,241,1978-03-18,US,7,USC
+2009,2,3009,BOS,"Boston Celtics",12,"Henry Walker",SF,6-6,220,1987-10-09,US,R,"Kansas State"
+2010,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,1975-07-20,US,13,UConn
+2010,2,55,BOS,"Boston Celtics",42,"Tony Allen",SG,6-4,213,1982-01-11,US,5,"Butler County Community College, Oklahoma State"
+2010,2,666,BOS,"Boston Celtics",7,"Marquis Daniels",SF,6-6,200,1981-01-07,US,6,Auburn
+2010,2,688,BOS,"Boston Celtics",11,"Glen Davis",PF,6-9,289,1986-01-01,US,2,LSU
+2010,2,918,BOS,"Boston Celtics",40,"Michael Finley",SF,6-7,215,1973-03-06,US,14,Wisconsin
+2010,2,999,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,1976-05-19,US,14,NULL
+2010,2,1032,BOS,"Boston Celtics",4,"J.R. Giddens",SF,6-5,215,1985-02-13,US,1,"Kansas, New Mexico"
+2010,2,1336,BOS,"Boston Celtics",50,"Eddie House",PG,6-1,180,1978-05-14,US,9,"Arizona State"
+2010,2,1348,BOS,"Boston Celtics",26,"Lester Hudson",PG,6-3,190,1984-08-07,US,R,"University of Tennessee at Martin"
+2010,2,1680,BOS,"Boston Celtics",40,"Oliver Lafayette",SG,6-2,190,1984-05-06,US,R,Houston
+2010,2,1691,BOS,"Boston Celtics",12,"Marcus Landry",SF,6-7,230,1985-11-01,US,R,Wisconsin
+2010,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,6,NULL
+2010,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,11,Kansas
+2010,2,2491,BOS,"Boston Celtics",4,"Nate Robinson",PG,5-9,180,1984-05-31,US,4,Washington
+2010,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,3,Kentucky
+2010,2,2572,BOS,"Boston Celtics",44,"Brian Scalabrine",PF,6-9,241,1978-03-18,US,8,USC
+2010,2,3009,BOS,"Boston Celtics",12,"Henry Walker",SF,6-6,220,1987-10-09,US,1,"Kansas State"
+2010,2,3019,BOS,"Boston Celtics",30,"Rasheed Wallace",C,6-10,225,1974-09-17,US,14,UNC
+2010,2,3188,BOS,"Boston Celtics",13,"Shelden Williams",PF,6-9,250,1983-10-21,US,3,Duke
+2011,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,1975-07-20,US,14,UConn
+2011,2,111,BOS,"Boston Celtics",45,"Carlos Arroyo",PG,6-2,202,1979-07-30,PR,8,"Florida International University"
+2011,2,322,BOS,"Boston Celtics",0,"Avery Bradley",PG,6-3,180,1990-11-26,US,R,Texas
+2011,2,666,BOS,"Boston Celtics",8,"Marquis Daniels",SF,6-6,200,1981-01-07,US,7,Auburn
+2011,2,688,BOS,"Boston Celtics",11,"Glen Davis",C,6-9,289,1986-01-01,US,3,LSU
+2011,2,870,BOS,"Boston Celtics",86,"Semih Erden",C,7-0,240,1986-07-28,TR,R,NULL
+2011,2,999,BOS,"Boston Celtics",5,"Kevin Garnett",PF,6-11,240,1976-05-19,US,15,NULL
+2011,2,1108,BOS,"Boston Celtics",8,"Jeff Green",SF,6-8,235,1986-08-28,US,3,Georgetown
+2011,2,1181,BOS,"Boston Celtics",55,"Luke Harangody",PF,6-8,246,1988-01-02,US,R,"Notre Dame"
+2011,2,1476,BOS,"Boston Celtics",86,"Chris Johnson (1985)",C,6-11,210,1985-07-15,US,R,LSU
+2011,2,1660,BOS,"Boston Celtics",4,"Nenad Krstic",C,7-0,240,1983-07-25,RS,6,NULL
+2011,2,2092,BOS,"Boston Celtics",30,"Troy Murphy",PF,6-11,245,1980-05-02,US,9,"Notre Dame"
+2011,2,2181,BOS,"Boston Celtics",7,"Jermaine O'Neal",C,6-11,226,1978-10-13,US,14,NULL
+2011,2,2182,BOS,"Boston Celtics",36,"Shaquille O'Neal",C,7-1,325,1972-03-06,US,18,LSU
+2011,2,2269,BOS,"Boston Celtics",77,"Sasha Pavlovic",SG,6-8,220,1983-11-15,ME,7,NULL
+2011,2,2289,BOS,"Boston Celtics",43,"Kendrick Perkins",C,6-10,270,1984-11-10,US,7,NULL
+2011,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,12,Kansas
+2011,2,2491,BOS,"Boston Celtics",4,"Nate Robinson",PG,5-9,180,1984-05-31,US,5,Washington
+2011,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,4,Kentucky
+2011,2,2999,BOS,"Boston Celtics",12,"Von Wafer",SG,6-5,210,1985-07-21,US,4,"Florida State"
+2011,2,3080,BOS,"Boston Celtics",13,"Delonte West",PG,6-4,180,1983-07-26,US,6,"Saint Joseph's"
+2012,2,54,BOS,"Boston Celtics",20,"Ray Allen",SG,6-5,205,1975-07-20,US,15,UConn
+2012,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,1985-04-30,US,6,LSU
+2012,2,322,BOS,"Boston Celtics",0,"Avery Bradley",PG,6-3,180,1990-11-26,US,1,Texas
+2012,2,666,BOS,"Boston Celtics",4,"Marquis Daniels",SG,6-6,200,1981-01-07,US,8,Auburn
+2012,2,761,BOS,"Boston Celtics",51,"Keyon Dooling",SG,6-3,196,1980-05-08,US,11,Missouri
+2012,2,999,BOS,"Boston Celtics",5,"Kevin Garnett",C,6-11,240,1976-05-19,US,16,NULL
+2012,2,1316,BOS,"Boston Celtics",50,"Ryan Hollins",C,7-0,240,1984-10-10,US,5,UCLA
+2012,2,1494,BOS,"Boston Celtics",12,"JaJuan Johnson",PF,6-10,221,1989-02-08,US,R,Purdue
+2012,2,2042,BOS,"Boston Celtics",55,"E'Twaun Moore",PG,6-3,191,1989-02-25,US,R,Purdue
+2012,2,2181,BOS,"Boston Celtics",7,"Jermaine O'Neal",C,6-11,226,1978-10-13,US,15,NULL
+2012,2,2269,BOS,"Boston Celtics",11,"Sasha Pavlovic",SF,6-8,220,1983-11-15,ME,8,NULL
+2012,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,13,Kansas
+2012,2,2313,BOS,"Boston Celtics",28,"Mickael Pietrus",SG,6-6,215,1982-02-07,GP,8,NULL
+2012,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,5,Kentucky
+2012,2,2762,BOS,"Boston Celtics",54,"Greg Stiemsma",C,6-11,260,1985-09-26,US,R,Wisconsin
+2012,2,3120,BOS,"Boston Celtics",44,"Chris Wilcox",C,6-10,221,1982-09-03,US,9,Maryland
+2012,2,3185,BOS,"Boston Celtics",56,"Sean Williams",C,6-10,235,1986-09-13,US,3,"Boston College"
+2013,2,161,BOS,"Boston Celtics",12,"Leandro Barbosa",PG,6-3,194,1982-11-28,BR,9,NULL
+2013,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,1985-04-30,US,7,LSU
+2013,2,322,BOS,"Boston Celtics",0,"Avery Bradley",PG,6-3,180,1990-11-26,US,2,Texas
+2013,2,572,BOS,"Boston Celtics",98,"Jason Collins",C,7-0,255,1978-12-02,US,11,Stanford
+2013,2,627,BOS,"Boston Celtics",27,"Jordan Crawford",SG,6-4,195,1988-10-23,US,2,"Indiana, Xavier"
+2013,2,999,BOS,"Boston Celtics",5,"Kevin Garnett",C,6-11,240,1976-05-19,US,17,NULL
+2013,2,1108,BOS,"Boston Celtics",8,"Jeff Green",PF,6-8,235,1986-08-28,US,4,Georgetown
+2013,2,1576,BOS,"Boston Celtics",43,"Kris Joseph",SF,6-7,210,1988-12-17,CA,R,Syracuse
+2013,2,1722,BOS,"Boston Celtics",11,"Courtney Lee",SG,6-5,215,1985-10-03,US,4,"Western Kentucky"
+2013,2,1972,BOS,"Boston Celtics",13,"Fab Melo",C,7-0,255,1990-06-20,BR,R,Syracuse
+2013,2,1991,BOS,"Boston Celtics",99,"Darko Milicic",C,7-0,250,1985-06-20,RS,9,NULL
+2013,2,2310,BOS,"Boston Celtics",34,"Paul Pierce",SF,6-7,235,1977-10-13,US,14,Kansas
+2013,2,2401,BOS,"Boston Celtics",42,"Shavlik Randolph",PF,6-10,240,1983-11-24,US,5,Duke
+2013,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,6,Kentucky
+2013,2,2788,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,1992-03-04,US,R,"Ohio State"
+2013,2,2839,BOS,"Boston Celtics",4,"Jason Terry",SG,6-2,185,1977-09-15,US,13,Arizona
+2013,2,2967,BOS,"Boston Celtics",41,"Jarvis Varnado",PF,6-9,230,1988-03-01,US,R,"Mississippi State"
+2013,2,3093,BOS,"Boston Celtics",12,"D.J. White",PF,6-9,251,1986-08-31,US,4,Indiana
+2013,2,3120,BOS,"Boston Celtics",44,"Chris Wilcox",C,6-10,221,1982-09-03,US,10,Maryland
+2013,2,3190,BOS,"Boston Celtics",55,"Terrence Williams",SF,6-6,220,1987-06-28,US,3,Louisville
+2014,2,96,BOS,"Boston Celtics",50,"Joel Anthony",C,6-9,245,1982-08-09,CA,6,UNLV
+2014,2,132,BOS,"Boston Celtics",52,"Chris Babb",SG,6-5,225,1990-02-14,US,R,"Penn State, Iowa State"
+2014,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,1985-04-30,US,8,LSU
+2014,2,195,BOS,"Boston Celtics",11,"Jerryd Bayless",PG,6-3,200,1988-08-20,US,5,Arizona
+2014,2,272,BOS,"Boston Celtics",13,"Vander Blue",SG,6-4,200,1992-07-17,US,R,Marquette
+2014,2,275,BOS,"Boston Celtics",4,"Keith Bogans",SG,6-5,215,1980-05-12,US,10,Kentucky
+2014,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,1990-11-26,US,3,Texas
+2014,2,364,BOS,"Boston Celtics",12,"MarShon Brooks",SG,6-5,200,1989-01-26,US,2,Providence
+2014,2,627,BOS,"Boston Celtics",27,"Jordan Crawford",PG,6-4,195,1988-10-23,US,3,"Indiana, Xavier"
+2014,2,896,BOS,"Boston Celtics",38,"Vitor Faverani",C,6-11,260,1988-05-05,BR,R,NULL
+2014,2,1108,BOS,"Boston Celtics",8,"Jeff Green",SF,6-8,235,1986-08-28,US,5,Georgetown
+2014,2,1364,BOS,"Boston Celtics",43,"Kris Humphries",PF,6-9,235,1985-02-06,US,9,Minnesota
+2014,2,1477,BOS,"Boston Celtics",12,"Chris Johnson (1990)",SF,6-6,206,1990-04-29,US,1,Dayton
+2014,2,1722,BOS,"Boston Celtics",11,"Courtney Lee",SG,6-5,215,1985-10-03,US,5,"Western Kentucky"
+2014,2,2213,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,1991-04-19,CA,R,Gonzaga
+2014,2,2362,BOS,"Boston Celtics",26,"Phil Pressey",PG,5-11,175,1991-02-17,US,R,Missouri
+2014,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,7,Kentucky
+2014,2,2788,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,1992-03-04,US,1,"Ohio State"
+2014,2,3017,BOS,"Boston Celtics",45,"Gerald Wallace",SF,6-7,215,1982-07-23,US,12,Alabama
+2015,2,180,BOS,"Boston Celtics",30,"Brandon Bass",PF,6-8,250,1985-04-30,US,9,LSU
+2015,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,1990-11-26,US,4,Texas
+2015,2,641,BOS,"Boston Celtics",99,"Jae Crowder",SF,6-6,235,1990-07-06,US,2,Marquette
+2015,2,672,BOS,"Boston Celtics",70,"Gigi Datome",SF,6-8,215,1987-11-27,IT,1,NULL
+2015,2,1108,BOS,"Boston Celtics",8,"Jeff Green",SF,6-8,235,1986-08-28,US,6,Georgetown
+2015,2,1457,BOS,"Boston Celtics",8,"Jonas Jerebko",PF,6-10,231,1987-03-02,SE,4,NULL
+2015,2,2129,BOS,"Boston Celtics",28,"Jameer Nelson",PG,6-0,190,1982-02-09,US,10,"Saint Joseph's"
+2015,2,2213,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,1991-04-19,CA,1,Gonzaga
+2015,2,2355,BOS,"Boston Celtics",12,"Dwight Powell",PF,6-10,240,1991-07-20,CA,R,Stanford
+2015,2,2362,BOS,"Boston Celtics",26,"Phil Pressey",PG,5-11,175,1991-02-17,US,1,Missouri
+2015,2,2372,BOS,"Boston Celtics",12,"Tayshaun Prince",SF,6-9,212,1980-02-28,US,12,Kentucky
+2015,2,2401,BOS,"Boston Celtics",42,"Shavlik Randolph",PF,6-10,240,1983-11-24,US,7,Duke
+2015,2,2510,BOS,"Boston Celtics",9,"Rajon Rondo",PG,6-1,180,1986-02-22,US,8,Kentucky
+2015,2,2671,BOS,"Boston Celtics",36,"Marcus Smart",PG,6-3,220,1994-03-06,US,R,"Oklahoma State"
+2015,2,2788,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,1992-03-04,US,2,"Ohio State"
+2015,2,2853,BOS,"Boston Celtics",4,"Isaiah Thomas",PG,5-9,185,1989-02-07,US,3,Washington
+2015,2,2886,BOS,"Boston Celtics",4,"Marcus Thornton",SG,6-4,205,1987-06-05,US,5,LSU
+2015,2,2932,BOS,"Boston Celtics",11,"Evan Turner",SG,6-6,220,1988-10-27,US,4,"Ohio State"
+2015,2,3017,BOS,"Boston Celtics",45,"Gerald Wallace",SF,6-7,215,1982-07-23,US,13,Alabama
+2015,2,3246,BOS,"Boston Celtics",12,"Brandan Wright",PF,6-10,210,1987-10-05,US,6,UNC
+2015,2,3264,BOS,"Boston Celtics",13,"James Young",SG,6-6,215,1995-08-16,US,R,Kentucky
+2015,2,3277,BOS,"Boston Celtics",44,"Tyler Zeller",C,7-0,253,1990-01-17,US,2,UNC
+2016,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,1990-11-26,US,5,Texas
+2016,2,545,BOS,"Boston Celtics",63,"Coty Clarke",SF,6-7,232,1992-07-04,US,R,Arkansas
+2016,2,641,BOS,"Boston Celtics",99,"Jae Crowder",SF,6-6,235,1990-07-06,US,3,Marquette
+2016,2,1314,BOS,"Boston Celtics",30,"John Holland",SF,6-5,205,1988-11-06,US,R,"Boston University"
+2016,2,1371,BOS,"Boston Celtics",28,"R.J. Hunter",SG,6-5,185,1993-10-24,US,R,"Georgia State University"
+2016,2,1457,BOS,"Boston Celtics",8,"Jonas Jerebko",PF,6-10,231,1987-03-02,SE,5,NULL
+2016,2,1466,BOS,"Boston Celtics",90,"Amir Johnson",PF,6-9,240,1987-05-01,US,10,NULL
+2016,2,1724,BOS,"Boston Celtics",42,"David Lee",PF,6-9,245,1983-04-29,US,10,Florida
+2016,2,1983,BOS,"Boston Celtics",55,"Jordan Mickey",PF,6-8,235,1994-07-09,US,R,LSU
+2016,2,2213,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,1991-04-19,CA,2,Gonzaga
+2016,2,2528,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,1994-03-17,US,R,Louisville
+2016,2,2671,BOS,"Boston Celtics",36,"Marcus Smart",PG,6-3,220,1994-03-06,US,1,"Oklahoma State"
+2016,2,2788,BOS,"Boston Celtics",7,"Jared Sullinger",PF,6-9,260,1992-03-04,US,3,"Ohio State"
+2016,2,2853,BOS,"Boston Celtics",4,"Isaiah Thomas",PG,5-9,185,1989-02-07,US,4,Washington
+2016,2,2932,BOS,"Boston Celtics",11,"Evan Turner",SG,6-6,220,1988-10-27,US,5,"Ohio State"
+2016,2,3264,BOS,"Boston Celtics",13,"James Young",SG,6-6,215,1995-08-16,US,1,Kentucky
+2016,2,3277,BOS,"Boston Celtics",44,"Tyler Zeller",C,7-0,253,1990-01-17,US,3,UNC
+2017,2,322,BOS,"Boston Celtics",0,"Avery Bradley",SG,6-3,180,1990-11-26,US,6,Texas
+2017,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SF,6-6,223,1996-10-24,US,R,California
+2017,2,641,BOS,"Boston Celtics",99,"Jae Crowder",SF,6-6,235,1990-07-06,US,4,Marquette
+2017,2,1105,BOS,"Boston Celtics",30,"Gerald Green",SF,6-6,205,1986-01-26,US,9,NULL
+2017,2,1328,BOS,"Boston Celtics",42,"Al Horford",C,6-9,240,1986-06-03,DO,9,Florida
+2017,2,1401,BOS,"Boston Celtics",9,"Demetrius Jackson",PG,6-1,201,1994-09-07,US,R,"Notre Dame"
+2017,2,1457,BOS,"Boston Celtics",8,"Jonas Jerebko",PF,6-10,231,1987-03-02,SE,6,NULL
+2017,2,1466,BOS,"Boston Celtics",90,"Amir Johnson",PF,6-9,240,1987-05-01,US,11,NULL
+2017,2,1983,BOS,"Boston Celtics",55,"Jordan Mickey",PF,6-8,235,1994-07-09,US,1,LSU
+2017,2,2213,BOS,"Boston Celtics",41,"Kelly Olynyk",C,6-11,240,1991-04-19,CA,3,Gonzaga
+2017,2,2528,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,1994-03-17,US,1,Louisville
+2017,2,2671,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,1994-03-06,US,2,"Oklahoma State"
+2017,2,2853,BOS,"Boston Celtics",4,"Isaiah Thomas",PG,5-9,185,1989-02-07,US,5,Washington
+2017,2,3264,BOS,"Boston Celtics",13,"James Young",SG,6-6,215,1995-08-16,US,2,Kentucky
+2017,2,3277,BOS,"Boston Celtics",44,"Tyler Zeller",C,7-0,253,1990-01-17,US,4,UNC
+2018,2,50,BOS,"Boston Celtics",45,"Kadeem Allen",PG,6-1,200,1993-01-15,US,R,Arizona
+2018,2,196,BOS,"Boston Celtics",46,"Aron Baynes",C,6-10,260,1986-12-09,NZ,5,"Washington State"
+2018,2,245,BOS,"Boston Celtics",26,"Jabari Bird",SG,6-6,198,1994-07-03,US,R,California
+2018,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,1996-10-24,US,1,California
+2018,2,822,BOS,"Boston Celtics",9,"Jarell Eddie",SF,6-7,218,1991-10-30,US,2,"Virginia Tech"
+2018,2,1029,BOS,"Boston Celtics",60,"Jonathan Gibson",PG,6-2,185,1987-11-08,US,1,"New Mexico State"
+2018,2,1241,BOS,"Boston Celtics",20,"Gordon Hayward",SF,6-7,225,1990-03-23,US,7,Butler
+2018,2,1328,BOS,"Boston Celtics",42,"Al Horford",C,6-9,240,1986-06-03,DO,10,Florida
+2018,2,1389,BOS,"Boston Celtics",11,"Kyrie Irving",PG,6-2,195,1992-03-23,AU,6,Duke
+2018,2,1703,BOS,"Boston Celtics",8,"Shane Larkin",PG,5-11,175,1992-10-02,US,3,"Miami (FL)"
+2018,2,2034,BOS,"Boston Celtics",55,"Greg Monroe",C,6-11,265,1990-06-04,US,7,Georgetown
+2018,2,2057,BOS,"Boston Celtics",13,"Marcus Morris",PF,6-8,218,1989-09-02,US,6,Kansas
+2018,2,2111,BOS,"Boston Celtics",28,"Abdel Nader",SF,6-5,225,1993-09-25,EG,R,"Northern Illinois, Iowa State"
+2018,2,2193,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,1994-12-05,US,R,"Duke, SMU"
+2018,2,2528,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,1994-03-17,US,2,Louisville
+2018,2,2635,BOS,"Boston Celtics",9,"Xavier Silas",SG,6-5,205,1988-01-22,US,1,"Colorado, Northern Illinois"
+2018,2,2671,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,1994-03-06,US,3,"Oklahoma State"
+2018,2,2813,BOS,"Boston Celtics",0,"Jayson Tatum",SF,6-8,210,1998-03-03,US,R,Duke
+2018,2,2842,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,1992-04-04,DE,R,NULL
+2018,2,3260,BOS,"Boston Celtics",30,"Guerschon Yabusele",PF,6-8,260,1995-12-17,FR,R,NULL
+2019,2,196,BOS,"Boston Celtics",46,"Aron Baynes",C,6-10,260,1986-12-09,NZ,6,"Washington State"
+2019,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,1996-10-24,US,2,California
+2019,2,779,BOS,"Boston Celtics",50,"PJ Dozier",SG,6-6,205,1996-10-25,US,1,"South Carolina"
+2019,2,1241,BOS,"Boston Celtics",20,"Gordon Hayward",PF,6-7,225,1990-03-23,US,8,Butler
+2019,2,1328,BOS,"Boston Celtics",42,"Al Horford",C,6-9,240,1986-06-03,DO,11,Florida
+2019,2,1371,BOS,"Boston Celtics",28,"R.J. Hunter",SG,6-5,185,1993-10-24,US,3,"Georgia State University"
+2019,2,1389,BOS,"Boston Celtics",11,"Kyrie Irving",PG,6-2,195,1992-03-23,AU,7,Duke
+2019,2,2034,BOS,"Boston Celtics",55,"Greg Monroe",C,6-11,265,1990-06-04,US,8,Georgetown
+2019,2,2057,BOS,"Boston Celtics",13,"Marcus Morris",PF,6-8,218,1989-09-02,US,7,Kansas
+2019,2,2193,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,1994-12-05,US,1,"Duke, SMU"
+2019,2,2528,BOS,"Boston Celtics",12,"Terry Rozier",PG,6-1,190,1994-03-17,US,3,Louisville
+2019,2,2671,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,1994-03-06,US,4,"Oklahoma State"
+2019,2,2813,BOS,"Boston Celtics",0,"Jayson Tatum",SF,6-8,210,1998-03-03,US,1,Duke
+2019,2,2842,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,1992-04-04,DE,1,NULL
+2019,2,3028,BOS,"Boston Celtics",9,"Brad Wanamaker",PG,6-3,210,1989-07-25,US,R,Pitt
+2019,2,3182,BOS,"Boston Celtics",44,"Robert Williams",C,6-8,237,1997-10-17,US,R,"Texas A&M"
+2019,2,3260,BOS,"Boston Celtics",30,"Guerschon Yabusele",PF,6-8,260,1995-12-17,FR,1,NULL
+2020,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,1996-10-24,US,3,California
+2020,2,830,BOS,"Boston Celtics",4,"Carsen Edwards",SG,5-11,200,1998-03-12,US,R,Purdue
+2020,2,890,BOS,"Boston Celtics",99,"Tacko Fall",C,7-5,311,1995-12-10,SN,R,"Central Florida"
+2020,2,1107,BOS,"Boston Celtics",43,"Javonte Green",SG,6-4,205,1993-07-23,US,R,Radford
+2020,2,1241,BOS,"Boston Celtics",20,"Gordon Hayward",SF,6-7,225,1990-03-23,US,9,Butler
+2020,2,1582,BOS,"Boston Celtics",11,"Enes Kanter",C,6-10,250,1992-05-20,CH,8,NULL
+2020,2,1699,BOS,"Boston Celtics",45,"Romeo Langford",SG,6-4,216,1999-10-25,US,R,Indiana
+2020,2,2193,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,1994-12-05,US,2,"Duke, SMU"
+2020,2,2330,BOS,"Boston Celtics",77,"Vincent Poirier",C,7-0,235,1993-10-17,FR,R,NULL
+2020,2,2671,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,1994-03-06,US,5,"Oklahoma State"
+2020,2,2813,BOS,"Boston Celtics",0,"Jayson Tatum",PF,6-8,210,1998-03-03,US,2,Duke
+2020,2,2842,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,1992-04-04,DE,2,NULL
+2020,2,3010,BOS,"Boston Celtics",8,"Kemba Walker",PG,6-0,184,1990-05-08,US,8,UConn
+2020,2,3028,BOS,"Boston Celtics",9,"Brad Wanamaker",PG,6-3,210,1989-07-25,US,1,Pitt
+2020,2,3046,BOS,"Boston Celtics",51,"Tremont Waters",PG,5-10,175,1998-01-10,US,R,LSU
+2020,2,3148,BOS,"Boston Celtics",12,"Grant Williams",PF,6-6,236,1998-11-30,US,R,Tennessee
+2020,2,3182,BOS,"Boston Celtics",44,"Robert Williams",C,6-8,237,1997-10-17,US,1,"Texas A&M"

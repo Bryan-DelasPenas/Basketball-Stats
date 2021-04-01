@@ -222,7 +222,7 @@ def create_query_all_roster_college():
             """
             CREATE PROCEDURE query_all_roster_college(college varchar(100))
             BEGIN
-               SELECT *
+               SELECT DISTINCT *
                FROM Roster
                Where Player_College_Name = college;
             END

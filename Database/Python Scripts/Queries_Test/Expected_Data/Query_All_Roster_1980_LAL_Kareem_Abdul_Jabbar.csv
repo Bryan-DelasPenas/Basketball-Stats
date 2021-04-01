@@ -1,2 +1,2 @@
 Season_ID,Team_ID,Player_ID,Team_ABV,Team_Name,Player_Number,Player_Name,Player_Postion,Player_Height,Player_Weight,Birth_Date,Player_Nationality,Player_Experience,Player_College_Name
-1980,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,10,UCLA
+1980,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,10,UCLA

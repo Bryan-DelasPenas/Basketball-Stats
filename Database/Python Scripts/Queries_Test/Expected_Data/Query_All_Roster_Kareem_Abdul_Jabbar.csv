@@ -1,11 +1,11 @@
 Season_ID,Team_ID,Player_ID,Team_ABV,Team_Name,Player_Number,Player_Name,Player_Postion,Player_Height,Player_Weight,Birth_Date,Player_Nationality,Player_Experience,Player_College_Name
-1980,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,10,UCLA
-1981,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,11,UCLA
-1982,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,12,UCLA
-1983,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,13,UCLA
-1984,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,14,UCLA
-1985,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,15,UCLA
-1986,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,16,UCLA
-1987,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,17,UCLA
-1988,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,18,UCLA
-1989,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,"April 16, 1947",US,19,UCLA
+1980,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,10,UCLA
+1981,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,11,UCLA
+1982,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,12,UCLA
+1983,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,13,UCLA
+1984,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,14,UCLA
+1985,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,15,UCLA
+1986,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,16,UCLA
+1987,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,17,UCLA
+1988,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,18,UCLA
+1989,14,2,LAL,"Los Angeles Lakers",33,"Kareem Abdul-Jabbar",C,7-2,225,1947-04-16,US,19,UCLA

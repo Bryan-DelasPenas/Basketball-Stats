@@ -1,18 +1,18 @@
 Season_ID,Team_ID,Player_ID,Team_ABV,Team_Name,Player_Number,Player_Name,Player_Postion,Player_Height,Player_Weight,Birth_Date,Player_Nationality,Player_Experience,Player_College_Name
-2020,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,"October 24, 1996",US,3,California
-2020,2,828,BOS,"Boston Celtics",4,"Carsen Edwards",SG,5-11,200,"March 12, 1998",US,R,Purdue
-2020,2,888,BOS,"Boston Celtics",99,"Tacko Fall",C,7-5,311,"December 10, 1995",SN,R,"Central Florida"
-2020,2,1105,BOS,"Boston Celtics",43,"Javonte Green",SG,6-4,205,"July 23, 1993",US,R,Radford
-2020,2,1239,BOS,"Boston Celtics",20,"Gordon Hayward",SF,6-7,225,"March 23, 1990",US,9,Butler
-2020,2,1580,BOS,"Boston Celtics",11,"Enes Kanter",C,6-10,250,"May 20, 1992",CH,8,NULL
-2020,2,1696,BOS,"Boston Celtics",45,"Romeo Langford",SG,6-4,216,"October 25, 1999",US,R,Indiana
-2020,2,2190,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,"December 5, 1994",US,2,"Duke, SMU"
-2020,2,2327,BOS,"Boston Celtics",77,"Vincent Poirier",C,7-0,235,"October 17, 1993",FR,R,NULL
-2020,2,2667,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,"March 6, 1994",US,5,"Oklahoma State"
-2020,2,2809,BOS,"Boston Celtics",0,"Jayson Tatum",PF,6-8,210,"March 3, 1998",US,2,Duke
-2020,2,2838,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,"April 4, 1992",DE,2,NULL
-2020,2,3005,BOS,"Boston Celtics",8,"Kemba Walker",PG,6-0,184,"May 8, 1990",US,8,UConn
-2020,2,3023,BOS,"Boston Celtics",9,"Brad Wanamaker",PG,6-3,210,"July 25, 1989",US,1,Pitt
-2020,2,3041,BOS,"Boston Celtics",51,"Tremont Waters",PG,5-10,175,"January 10, 1998",US,R,LSU
-2020,2,3142,BOS,"Boston Celtics",12,"Grant Williams",PF,6-6,236,"November 30, 1998",US,R,Tennessee
-2020,2,3176,BOS,"Boston Celtics",44,"Robert Williams",C,6-8,237,"October 17, 1997",US,1,"Texas A&M"
+2020,2,382,BOS,"Boston Celtics",7,"Jaylen Brown",SG,6-6,223,1996-10-24,US,3,California
+2020,2,830,BOS,"Boston Celtics",4,"Carsen Edwards",SG,5-11,200,1998-03-12,US,R,Purdue
+2020,2,890,BOS,"Boston Celtics",99,"Tacko Fall",C,7-5,311,1995-12-10,SN,R,"Central Florida"
+2020,2,1107,BOS,"Boston Celtics",43,"Javonte Green",SG,6-4,205,1993-07-23,US,R,Radford
+2020,2,1241,BOS,"Boston Celtics",20,"Gordon Hayward",SF,6-7,225,1990-03-23,US,9,Butler
+2020,2,1582,BOS,"Boston Celtics",11,"Enes Kanter",C,6-10,250,1992-05-20,CH,8,NULL
+2020,2,1699,BOS,"Boston Celtics",45,"Romeo Langford",SG,6-4,216,1999-10-25,US,R,Indiana
+2020,2,2193,BOS,"Boston Celtics",37,"Semi Ojeleye",PF,6-6,240,1994-12-05,US,2,"Duke, SMU"
+2020,2,2330,BOS,"Boston Celtics",77,"Vincent Poirier",C,7-0,235,1993-10-17,FR,R,NULL
+2020,2,2671,BOS,"Boston Celtics",36,"Marcus Smart",SG,6-3,220,1994-03-06,US,5,"Oklahoma State"
+2020,2,2813,BOS,"Boston Celtics",0,"Jayson Tatum",PF,6-8,210,1998-03-03,US,2,Duke
+2020,2,2842,BOS,"Boston Celtics",27,"Daniel Theis",C,6-8,245,1992-04-04,DE,2,NULL
+2020,2,3010,BOS,"Boston Celtics",8,"Kemba Walker",PG,6-0,184,1990-05-08,US,8,UConn
+2020,2,3028,BOS,"Boston Celtics",9,"Brad Wanamaker",PG,6-3,210,1989-07-25,US,1,Pitt
+2020,2,3046,BOS,"Boston Celtics",51,"Tremont Waters",PG,5-10,175,1998-01-10,US,R,LSU
+2020,2,3148,BOS,"Boston Celtics",12,"Grant Williams",PF,6-6,236,1998-11-30,US,R,Tennessee
+2020,2,3182,BOS,"Boston Celtics",44,"Robert Williams",C,6-8,237,1997-10-17,US,1,"Texas A&M"
