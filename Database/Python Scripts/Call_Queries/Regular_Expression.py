@@ -127,7 +127,7 @@ def team_abv_regex(abv):
 '''
 Regex for player_name parameter
 '''
-def player_name_regrex(player_name):
+def player_name_regex(player_name):
     # Convert player_name into a valid string in Python
     # Check if the parameter player_name is valid, with spaces and special chars
     player_name_string = str(player_name)
