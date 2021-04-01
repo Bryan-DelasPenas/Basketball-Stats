@@ -26,7 +26,7 @@ Team Per Game:            Done        | 10 | Done          UNIT TEST DONE?: Done
 Team Per Poss:            Done        | 10 | Done          UNIT TEST DONE?: Done
 Team Totals:              Done        | 10 | Done          UNIT TEST DONE?: Done
 Player Stats:             Done        | 42 | Done          UNIT TEST DONE?: Restart
-Player Advanced:          Done        | 12 | Done          UNIT TEST DONE?: Restart
+Player Advanced:          Done        | 12 | Done          UNIT TEST DONE?: Done
 Player Per Game:          Done        | 12 | Done          UNIT TEST DONE?: Done
 Player Per Minute:        Done        | 12 | Done          UNIT TEST DONE?: Done
 Player Per Poss:          Done        | 12 | Done          UNIT TEST DONE?: Done
