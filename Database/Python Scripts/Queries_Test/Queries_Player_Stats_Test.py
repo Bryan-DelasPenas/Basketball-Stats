@@ -227,31 +227,79 @@ class TestQueryPlayerTotals(unittest.TestCase):
         df_result = call_query_player_stats_three_both_pid('Field_Goals_Made', 'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Player_Totals', 2)
         pd.testing.assert_frame_equal(df_result, df_expected)
 
-    '''
+    
     def test_query_player_stats_primary_both_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Kareem_Abdul_Jabbar_Both_Primary.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Points' : float, 'Assists' : float, 'True_Rebounds' : float, 'Steals' : float, 'Blocks' : float})
+       
+        df_result = call_query_player_stats_primary_both_pid( 'Player_Totals', 2)
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
+    
     def test_query_player_stats_one_both_above_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Kareem_Abdul_Jabbar_Both_FGM_Above600.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float})
+       
+        df_result = call_query_player_stats_one_both_above_pid('Field_Goals_Made', 'Player_Totals', 2, 600)
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
+    
     def test_query_player_stats_two_both_above_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Kareem_Abdul_Jabbar_Both_FGM_Above600_FGA_Above1200.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float})
+       
+        df_result = call_query_player_stats_two_both_above_pid('Field_Goals_Made', 'Field_Goals_Attempted', 'Player_Totals', 2, 600, 1200)
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
+    
     def test_query_player_stats_three_both_above_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Kareem_Abdul_Jabbar_Both_FGM_Above600_FGA_Above1200_FG%_Above50.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float})
+       
+        df_result = call_query_player_stats_three_both_above_pid('Field_Goals_Made', 'Field_Goals_Attempted',  'Field_Goals_Percentage', 'Player_Totals', 2, 600, 1200, .5)
+        pd.testing.assert_frame_equal(df_result, df_expected)
+
 
     def test_query_player_stats_one_both_tid_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Lakers_Kareem_Abdul_Jabbar_Both_FGM.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float})
+       
+        df_result = call_query_player_stats_one_both_tid_pid('Field_Goals_Made', 'Player_Totals', 14, 2)
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
+    
     def test_query_player_stats_two_both_tid_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Lakers_Kareem_Abdul_Jabbar_Both_FGM_FGA.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float})
+       
+        df_result = call_query_player_stats_two_both_tid_pid('Field_Goals_Made', 'Field_Goals_Attempted', 'Player_Totals', 14, 2)
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
+    
     def test_query_player_stats_three_both_tid_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Lakers_Kareem_Abdul_Jabbar_Both_FGM_FGA_FG%.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float})
+       
+        df_result = call_query_player_stats_three_both_tid_pid('Field_Goals_Made', 'Field_Goals_Attempted', 'Field_Goals_Percentage', 'Player_Totals', 14, 2)
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
+    
     def test_query_player_stats_primary_both_tid_pid(self):
-        return None
+        path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Queries_Test', 'Expected_Data', 'Query_Player_Stats_Lakers_Kareem_Abdul_Jabbar_Both_Primary.csv')
+        df_expected = pd.read_csv(path)
+        df_expected = df_expected.astype({'Points' : float, 'Assists' : float, 'True_Rebounds' : float, 'Steals' : float, 'Blocks' : float})
+       
+        df_result = call_query_player_stats_primary_both_tid_pid( 'Player_Totals', 14, 2)
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
+    '''
     def test_query_player_stats_one_both_above_tid_pid(self):
         return None
 
