@@ -18,7 +18,7 @@ Season:                   NA          | 0  | NA            UNIT TEST DONE?: NA
 Team:                     Done        | 5  | Done          UNIT TEST DONE?: Done
 Player:                   Done        | 3  | Done          UNIT TEST DONE?: Done
 Conference Standings:     Done        | 8  | Done          UNIT TEST DONE?: Done
-Roster:                   Done        | 10 | Done          UNIT TEST DONE?: Restart
+Roster:                   Done        | 10 | Done          UNIT TEST DONE?: Done
 Team Stats:               Done        | 16 | Done          UNIT TEST DONE?: Done 
 Team Advanced:            Done        | 5  | Done          UNIT TEST DONE?: Done
 Team Misc:                Done        | 5  | Done          UNIT TEST DONE?: Done

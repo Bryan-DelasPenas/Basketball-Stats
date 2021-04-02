@@ -17,7 +17,7 @@ from Constants import VALID_TABLE_PLAYER_STATS, VALID_COL_PLAYER_STATS, VALID_TA
 '''
 Function calls query_player_stats_one_pid
 '''
-def call_query_player_stats_one_pid(col_one, table_name, playoffs, player_id):
+def call_query_player_stats_one_pid(col_one, table_name, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -57,7 +57,7 @@ def call_query_player_stats_one_pid(col_one, table_name, playoffs, player_id):
 '''
 Function calls query_player_stats_two_pid
 '''
-def call_query_player_stats_two_pid(col_one, col_two, table_name, playoffs, player_id):
+def call_query_player_stats_two_pid(col_one, col_two, table_name, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -102,7 +102,7 @@ def call_query_player_stats_two_pid(col_one, col_two, table_name, playoffs, play
 '''
 Function calls query_player_stats_three_pid
 '''
-def call_query_player_stats_three_pid(col_one, col_two, col_three, table_name, playoffs, player_id):
+def call_query_player_stats_three_pid(col_one, col_two, col_three, table_name, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -152,7 +152,7 @@ def call_query_player_stats_three_pid(col_one, col_two, col_three, table_name, p
 '''
 Function calls query_player_stats_primary_pid
 '''
-def call_query_player_stats_primary_pid(table_name, playoffs, player_id): 
+def call_query_player_stats_primary_pid(table_name, player_id, playoffs): 
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PRIMARY_PLAYER_STATS):
@@ -187,7 +187,7 @@ def call_query_player_stats_primary_pid(table_name, playoffs, player_id):
 '''
 Function calls query_player_stats_one_above_pid
 '''
-def call_query_player_stats_one_above_pid(col_one, table_name, playoffs, player_id, val_one):
+def call_query_player_stats_one_above_pid(col_one, table_name, player_id, playoffs, val_one):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -231,7 +231,7 @@ def call_query_player_stats_one_above_pid(col_one, table_name, playoffs, player_
 '''
 Function calls query_player_stats_two_above_pid
 '''
-def call_query_player_stats_two_above_pid(col_one, col_two, table_name, playoffs, player_id, val_one, val_two):
+def call_query_player_stats_two_above_pid(col_one, col_two, table_name, player_id, playoffs, val_one, val_two):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -273,8 +273,8 @@ def call_query_player_stats_two_above_pid(col_one, col_two, table_name, playoffs
     
     result = conn.execute(
     """
-    CALL query_player_stats_two_above_pid(%s, %s, %s, %s, %s, %s)
-    """, [col_one, table_name, playoffs, player_id, val_one, val_two]
+    CALL query_player_stats_two_above_pid(%s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, table_name, playoffs, player_id, val_one, val_two]
     ).fetchall()
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
@@ -284,7 +284,7 @@ def call_query_player_stats_two_above_pid(col_one, col_two, table_name, playoffs
 '''
 Function calls query_player_Stats_three_above_pid
 '''
-def call_query_player_stats_three_above_pid(col_one, col_two, col_three, table_name, playoffs, player_id, val_one, val_two, val_three):
+def call_query_player_stats_three_above_pid(col_one, col_two, col_three, table_name, player_id, playoffs, val_one, val_two, val_three):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -335,8 +335,8 @@ def call_query_player_stats_three_above_pid(col_one, col_two, col_three, table_n
     
     result = conn.execute(
     """
-    CALL query_player_stats_one_above_pid(%s, %s, %s, %s, %s, %s)
-    """, [col_one, table_name, playoffs, player_id, val_one, val_two, val_three]
+    CALL query_player_stats_three_above_pid(%s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """, [col_one, col_two, col_three, table_name, playoffs, player_id, val_one, val_two, val_three]
     ).fetchall()
     
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
@@ -346,7 +346,7 @@ def call_query_player_stats_three_above_pid(col_one, col_two, col_three, table_n
 '''
 Function calls query_player_stats_one_tid_pid
 '''
-def call_query_player_stats_one_tid_pid(col_one, table_name, playoffs, team_id, player_id):
+def call_query_player_stats_one_tid_pid(col_one, table_name, team_id, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -390,7 +390,7 @@ def call_query_player_stats_one_tid_pid(col_one, table_name, playoffs, team_id, 
 '''
 Function calls query_player_stats_two_tid_pid
 '''
-def call_query_player_stats_two_tid_pid(col_one, col_two, table_name, playoffs, team_id, player_id):
+def call_query_player_stats_two_tid_pid(col_one, col_two, table_name, team_id, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -439,7 +439,7 @@ def call_query_player_stats_two_tid_pid(col_one, col_two, table_name, playoffs, 
 '''
 Function calls query_player_stats_three_tid_pid
 '''
-def call_query_player_stats_three_tid_pid(col_one, col_two, col_three, table_name, playoffs, team_id, player_id):
+def call_query_player_stats_three_tid_pid(col_one, col_two, col_three, table_name, team_id, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -493,7 +493,7 @@ def call_query_player_stats_three_tid_pid(col_one, col_two, col_three, table_nam
 '''
 Function calls query_player_stats_primary_tid_pid
 '''
-def call_query_player_stats_primary_tid_pid(table_name, playoffs, team_id, player_id):
+def call_query_player_stats_primary_tid_pid(table_name, team_id, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PRIMARY_PLAYER_STATS):
@@ -532,7 +532,7 @@ def call_query_player_stats_primary_tid_pid(table_name, playoffs, team_id, playe
 '''
 Function calls query_player_stats_one_above_tid_pid
 '''
-def call_query_player_stats_one_above_tid_pid(col_one, table_name, playoffs, team_id, player_id, val_one):
+def call_query_player_stats_one_above_tid_pid(col_one, table_name, team_id, player_id, playoffs, val_one):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -580,7 +580,7 @@ def call_query_player_stats_one_above_tid_pid(col_one, table_name, playoffs, tea
 '''
 Function calls query_player_stats_two_above_tid_pid
 '''
-def call_query_player_stats_two_above_tid_pid(col_one, col_two, table_name, playoffs, team_id, player_id, val_one, val_two):
+def call_query_player_stats_two_above_tid_pid(col_one, col_two, table_name, team_id, player_id, playoffs, val_one, val_two):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -637,7 +637,7 @@ def call_query_player_stats_two_above_tid_pid(col_one, col_two, table_name, play
 '''
 Function calls query_player_stats_three_above_tid_pid
 '''
-def call_query_player_stats_three_above_tid_pid(col_one, col_two, col_three, table_name, playoffs, team_id, player_id, val_one, val_two, val_three):
+def call_query_player_stats_three_above_tid_pid(col_one, col_two, col_three, table_name, team_id, player_id, playoffs, val_one, val_two, val_three):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -692,7 +692,7 @@ def call_query_player_stats_three_above_tid_pid(col_one, col_two, col_three, tab
     
     result = conn.execute(
     """
-    CALL query_player_stats_two_above_tid_pid(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    CALL query_player_stats_three_above_tid_pid(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """, [col_one, col_two, col_three, table_name, playoffs, team_id, player_id, val_one, val_two, val_three]
     ).fetchall()
     
@@ -703,7 +703,7 @@ def call_query_player_stats_three_above_tid_pid(col_one, col_two, col_three, tab
 '''
 Function calls query_player_ststs_one_sid_pid
 '''
-def call_query_player_stats_one_sid_pid(col_one, table_name, playoffs, season_id, player_id):
+def call_query_player_stats_one_sid_pid(col_one, table_name, season_id, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -747,7 +747,7 @@ def call_query_player_stats_one_sid_pid(col_one, table_name, playoffs, season_id
 '''
 Function calls query_player_stats_two_sid_pid 
 '''
-def call_query_player_stats_two_sid_pid(col_one, col_two, table_name, playoffs, season_id, player_id):
+def call_query_player_stats_two_sid_pid(col_one, col_two, table_name, season_id, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -796,7 +796,7 @@ def call_query_player_stats_two_sid_pid(col_one, col_two, table_name, playoffs, 
 '''
 Function calls query_player_stats_three_sid_pid
 '''
-def call_query_player_stats_three_sid_pid(col_one, col_two, col_three, table_name, playoffs, season_id, player_id): 
+def call_query_player_stats_three_sid_pid(col_one, col_two, col_three, table_name, season_id, player_id, playoffs): 
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -850,7 +850,7 @@ def call_query_player_stats_three_sid_pid(col_one, col_two, col_three, table_nam
 '''
 Function calls query_stats_primary_sid_pid
 '''
-def call_query_player_stats_primary_sid_pid(table_name, playoffs, season_id, player_id):
+def call_query_player_stats_primary_sid_pid(table_name, season_id, player_id, playoffs):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PRIMARY_PLAYER_STATS):
@@ -889,7 +889,7 @@ def call_query_player_stats_primary_sid_pid(table_name, playoffs, season_id, pla
 '''
 Function calls query_stats_one_above_sid_pid
 '''
-def call_query_player_stats_one_above_sid_pid(col_one, table_name, playoffs, season_id, player_id, val_one):
+def call_query_player_stats_one_above_sid_pid(col_one, table_name, season_id, player_id, playoffs, val_one):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -937,7 +937,7 @@ def call_query_player_stats_one_above_sid_pid(col_one, table_name, playoffs, sea
 '''
 Function calls query_stats_two_above_sid_pid
 '''
-def call_query_player_stats_two_above_sid_pid(col_one, col_two, table_name, playoffs, season_id, player_id, val_one, val_two):
+def call_query_player_stats_two_above_sid_pid(col_one, col_two, table_name, season_id, player_id, playoffs, val_one, val_two):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -994,7 +994,7 @@ def call_query_player_stats_two_above_sid_pid(col_one, col_two, table_name, play
 '''
 Function calls query_stats_three_above_sid_pid
 '''
-def call_query_player_stats_three_above_sid_pid(col_one, col_two, col_three, table_name, playoffs, season_id, player_id, val_one, val_two, val_three):
+def call_query_player_stats_three_above_sid_pid(col_one, col_two, col_three, table_name, season_id, player_id, playoffs, val_one, val_two, val_three):
     # First Check if the table is valid     
     # Check if table_name is a valid parameter
     if(not table_name in VALID_TABLE_PLAYER_STATS):
@@ -2015,3 +2015,4 @@ def call_query_player_stats_three_both_above_sid_pid(col_one, col_two, col_three
     df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
 
     return df_result
+
