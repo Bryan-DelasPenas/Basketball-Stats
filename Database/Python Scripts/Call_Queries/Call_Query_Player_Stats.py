@@ -1548,7 +1548,7 @@ def call_query_player_stats_one_both_sid_pid(col_one, table_name, season_id, pla
     
     result = conn.execute(
     """
-    CALL query_player_stats_three_both_sid_pid(%s, %s, %s, %s)
+    CALL query_player_stats_one_both_sid_pid(%s, %s, %s, %s)
     """, [col_one, table_name, season_id, player_id]
     ).fetchall()
     

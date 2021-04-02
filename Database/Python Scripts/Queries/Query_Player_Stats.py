@@ -1386,7 +1386,7 @@ def create_query_player_stats_one_both_sid_pid():
             IN val_one longtext, IN val_two LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, 
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, ',select_one, 
                     ' FROM ', tbl_name, 
                     ' WHERE Season_ID = ?
                      AND Player_ID = ?');
@@ -1426,7 +1426,7 @@ def create_query_player_stats_two_both_sid_pid():
             IN val_one longtext, IN val_two LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',',select_two,
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, ',select_one, ',',select_two,
                     ' FROM ', tbl_name, 
                     ' WHERE Season_ID = ?
                      AND Player_ID = ?');
@@ -1466,7 +1466,7 @@ def create_query_player_stats_three_both_sid_pid():
             IN val_one longtext, IN val_two LONGTEXT)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',',select_two, ',',select_three,
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, ',select_one, ',',select_two, ',',select_three,
                     ' FROM ', tbl_name, 
                     ' WHERE Season_ID = ?
                      AND Player_ID = ?');
