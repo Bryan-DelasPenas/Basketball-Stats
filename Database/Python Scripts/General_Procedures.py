@@ -167,9 +167,3 @@ Function that drops all general procedures
 def drop_general_procedures():
     drop_procedure_truncate_if_exist()
     drop_procedure_drop_table()
-'''
-Main Function
-'''
-def main():
-    create_truncate_table_procedure()
-main()
