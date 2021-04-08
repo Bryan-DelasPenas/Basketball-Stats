@@ -106,7 +106,7 @@ def call_query_all_cs_name(team_name):
 '''
 Function to call query_all_cs_ABV
 '''
-def call_query_all_cs_ABV(team_abv):
+def call_query_all_cs_abv(team_abv):
     # Compare team_name with regular expression 
     if(team_abv_regex(team_abv)):
         return None
