@@ -918,7 +918,7 @@ def call_query_player_stats_one_both_pid(col_one, table_name, player_id):
     """, [col_one, table_name, player_id]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', col_one])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one])
 
     return df_result
 
@@ -959,7 +959,7 @@ def call_query_player_stats_two_both_pid(col_one, col_two, table_name, player_id
     """, [col_one, col_two, table_name, player_id]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', col_one, col_two])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two])
 
     return df_result
 
@@ -1005,7 +1005,7 @@ def call_query_player_stats_three_both_pid(col_one, col_two, col_three, table_na
     """, [col_one, col_two, col_three, table_name, player_id]
     ).fetchall()
     
-    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', col_one, col_two, col_three])
+    df_result = pd.DataFrame(result, columns=['Season_ID', 'Team_ID','Player_ID', 'Player_Name', 'Stat_Form', col_one, col_two, col_three])
 
     return df_result
 

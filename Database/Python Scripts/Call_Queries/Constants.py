@@ -175,7 +175,7 @@ def create_sid_team_id_dict():
     path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers",'Output', 'Season', 'Team_Names')
 
     # When running in the notebook
-    if(not os.path.isfile(path)):
+    if(not os.path.isdir(path)):
         path = os.path.join(pathlib.Path().absolute().parent.parent, "Web_Scrapers",'Output', 'Season', 'Team_Names')
 
     team_files = os.listdir(path)
@@ -199,9 +199,8 @@ Function that cretes PLAYED_FOR_TEAM
 def played_for_team():
     temp_dict = {}
     path = os.path.join(pathlib.Path().absolute(), 'Database', 'Python Scripts', 'Call_Queries', 'Played_For_Teams')
-    if(not os.path.isfile(path)):
+    if(not os.path.isdir(path)):
         path = os.path.join(pathlib.Path().absolute().parent , 'Python Scripts' , 'Call_Queries', 'Played_For_Teams')
-
     team_csv = os.listdir(path)
     for team in team_csv:
         # Convert file name into dataframes

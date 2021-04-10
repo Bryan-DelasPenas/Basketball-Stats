@@ -814,7 +814,7 @@ def create_query_player_stats_one_both_pid():
             CREATE PROCEDURE query_player_stats_one_both_pid(IN select_one LONGTEXT, IN tbl_name longtext, IN val_one longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, 
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, ',select_one, 
                     ' FROM ', tbl_name, 
                     ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
@@ -851,7 +851,7 @@ def create_query_player_stats_two_both_pid():
             CREATE PROCEDURE query_player_stats_two_both_pid(IN select_one LONGTEXT, select_two LONGTEXT ,IN tbl_name longtext, IN val_one longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',' ,select_two, 
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form,',select_one, ',' ,select_two, 
                     ' FROM ', tbl_name, 
                     ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
@@ -888,7 +888,7 @@ def create_query_player_stats_three_both_pid():
             CREATE PROCEDURE query_player_stats_three_both_pid(IN select_one LONGTEXT, IN select_two LONGTEXT, IN select_three LONGTEXT, IN tbl_name longtext, IN val_one longtext)
             BEGIN
                 SET @s=CONCAT(
-                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, ',select_one, ',' ,select_two, ',', select_three,
+                    'SELECT Season_ID, Team_ID, Player_ID, Player_Name, Stat_Form, ',select_one, ',' ,select_two, ',', select_three,
                     ' FROM ', tbl_name, 
                     ' WHERE PLAYER_ID = ?');
                 PREPARE stmt1 FROM @s;
@@ -1810,7 +1810,6 @@ def drop_query_player_stats_two_tid_pid():
     conn = test_connection(engine)
  
     trans = conn.begin()
-
     if check_procedure('query_player_stats_two_tid_pid'):
         try: 
             # Create a procedure
@@ -1820,6 +1819,7 @@ def drop_query_player_stats_two_tid_pid():
             """)
             trans.commit()
             conn.close()
+           
             print("Deletion of procedure Query_Player_Stats_Two_Tid_Pid was Successful")
         except:
             raise Exception("Deletion of Procedure Query_Player_Stats_Two_Tid_Pid Failed")
@@ -2575,6 +2575,7 @@ def drop_query_player_stats_primary_both_sid_pid():
 Drop All Procedures for Player_Stats
 '''
 def drop_player_stats_query():
+    
     drop_query_player_stats_one_pid()
     drop_query_player_stats_two_pid()
     drop_query_player_stats_three_pid()
@@ -2582,7 +2583,7 @@ def drop_player_stats_query():
     drop_query_player_stats_one_above_pid()
     drop_query_player_stats_two_above_pid()
     drop_query_player_stats_three_above_pid()
-
+    
     drop_query_player_stats_one_tid_pid()
     drop_query_player_stats_two_tid_pid()
     drop_query_player_stats_three_tid_pid()
@@ -2616,4 +2617,3 @@ def drop_player_stats_query():
     drop_query_player_stats_two_both_sid_pid()
     drop_query_player_stats_three_both_sid_pid()
     drop_query_player_stats_primary_both_sid_pid()
-  

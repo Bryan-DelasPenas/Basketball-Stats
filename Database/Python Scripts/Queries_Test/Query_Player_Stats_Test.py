@@ -112,19 +112,6 @@ class TestQueryPlayerTotals(unittest.TestCase):
         df_expected = pd.read_csv(path)
         df_expected = df_expected.astype({'Field_Goals_Made' : float, 'Field_Goals_Attempted' : float})
         
-        # Connect to sql database
-        engine = create_connection()
-        
-        # Test the connection of the database
-        conn = test_connection(engine)
-        trans = conn.begin()
-        
-        result = conn.execute(
-        """
-        CALL query_player_stats_three_tid_pid(%s, %s, %s, %s, %s, %s, %s)
-        """, ['Field_Goals_Made','Field_Goals_Attempted','Field_Goals_Percentage' ,'Player_Totals', 0, 14, 2]
-        ).fetchall()
-       
         df_result = call_query_player_stats_three_tid_pid('Field_Goals_Made','Field_Goals_Attempted','Field_Goals_Percentage' ,'Player_Totals', 14, 2, 0)
         pd.testing.assert_frame_equal(df_result, df_expected)
 
