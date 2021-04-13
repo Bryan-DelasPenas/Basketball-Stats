@@ -16,7 +16,7 @@ from Regular_Expression import player_id_regex, player_name_regex, binary_regex
 '''
 Function call query_player_career_advanced_pid
 '''
-def call_query_player_career_advanced_pid(player_id, playoffs):
+def call_query_all_player_career_advanced_pid(player_id, playoffs):
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
@@ -48,7 +48,7 @@ def call_query_player_career_advanced_pid(player_id, playoffs):
 '''
 Function call query_player_career_advanced_pname
 '''
-def call_query_player_career_advanced_pname(player_name, playoffs):
+def call_query_all_player_career_advanced_pname(player_name, playoffs):
     # Check parameter player_name with regex 
     if(player_name_regex(player_name)):
         return None
@@ -80,7 +80,7 @@ def call_query_player_career_advanced_pname(player_name, playoffs):
 '''
 Function call query_player_career_advanced_both_pid
 '''
-def call_query_player_career_advanced_both_pid(player_id):
+def call_query_all_player_career_advanced_both_pid(player_id):
     # Check parameter player_id with regex
     if(player_id_regex(player_id)):
         return None
@@ -107,7 +107,7 @@ def call_query_player_career_advanced_both_pid(player_id):
 '''
 Function call query_player_career_advanced_both_pname
 '''
-def call_query_player_career_advanced_both_pname(player_name):
+def call_query_all_player_career_advanced_both_pname(player_name):
     # Check parameter player_name with regex
     if(player_name_regex(player_name)):
         return None
