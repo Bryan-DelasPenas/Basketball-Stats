@@ -11,7 +11,7 @@ import sqlalchemy as sal
 from sqlalchemy import create_engine
 
 from Helper_DB import create_connection, test_connection, check_table
-from Regular_Expression import player_id_regex, player_name_regrex, binary_regex
+from Regular_Expression import player_id_regex, player_name_regex, binary_regex
 
 '''
 Function call query_player_career_advanced_pid
@@ -50,7 +50,7 @@ Function call query_player_career_advanced_pname
 '''
 def call_query_player_career_advanced_pname(player_name, playoffs):
     # Check parameter player_name with regex 
-    if(player_name_regrex(player_name)):
+    if(player_name_regex(player_name)):
         return None
 
     # Check parameter playoffs with regex 
@@ -109,7 +109,7 @@ Function call query_player_career_advanced_both_pname
 '''
 def call_query_player_career_advanced_both_pname(player_name):
     # Check parameter player_name with regex
-    if(player_name_regrex(player_name)):
+    if(player_name_regex(player_name)):
         return None
 
     # Connect to sql database
