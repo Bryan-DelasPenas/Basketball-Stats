@@ -309,7 +309,7 @@ CREATE TABLE IF NOT EXISTS Player_Advanced(
     Defensive_Box_Score           FLOAT,
     Box_Plus_Minus                FLOAT,
     Value_Over_Replacement        FLOAT,
-    Stat_Form                     BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                     BOOLEAN,  
 
     UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID),
@@ -325,7 +325,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game(
     Player_ID                       INT NOT NULL,
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
@@ -355,7 +355,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Game(
     Turn_Over                       FLOAT,
     Personal_Fouls                  FLOAT,
     Points                          FLOAT,
-    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -371,7 +371,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     Player_ID                       INT NOT NULL,
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
@@ -400,7 +400,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Minute(
     Turn_Over                       FLOAT,
     Personal_Fouls                   FLOAT,
     Points                          FLOAT,
-    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -416,7 +416,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     Player_ID                       INT NOT NULL,
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
@@ -447,7 +447,7 @@ CREATE TABLE IF NOT EXISTS Player_Per_Poss(
     Points                          FLOAT,
     Offensive_Rating                INT,
     Defensive_Rating                INT,
-	Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+	Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -463,7 +463,7 @@ CREATE TABLE IF NOT EXISTS Player_Totals(
     Player_ID                       INT NOT NULL,
     Team_ABV                        VARCHAR(3) NOT NULL,
     Team_Name                       VARCHAR(45) NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Player_Age                      INT NOT NULL,
     League                          VARCHAR(3),
@@ -494,7 +494,7 @@ CREATE TABLE IF NOT EXISTS Player_Totals(
     Personal_Fouls                   FLOAT,
     Points                          FLOAT,
     Triple_Double                   INT,
-    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Season_ID, Team_ID, Player_ID, Stat_Form),
     PRIMARY KEY (Season_ID, Team_ID, Player_ID, Stat_Form),
@@ -550,7 +550,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Advanced(
 
 CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
     Player_ID                       INT NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Games_Played       	            INT NOT NULL, 
     Games_Started                   INT,
@@ -577,7 +577,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
     Turn_Over                       FLOAT,
     Personal_Fouls                  FLOAT,
     Points                          FLOAT,
-    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
@@ -587,7 +587,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Game(
 
 CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
     Player_ID                       INT NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Games_Played       	            INT NOT NULL, 
     Games_Started                   INT,
@@ -613,7 +613,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
     Turn_Over                       FLOAT,
     Personal_Fouls                  FLOAT,
     Points                          FLOAT,
-    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
@@ -623,7 +623,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Minute(
 
 CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
 	Player_ID                       INT NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Games_Played       	            INT NOT NULL, 
     Games_Started                   INT,
@@ -651,7 +651,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
     Points                          FLOAT,
 	Offensive_Rating                INT,
     Defensive_Rating                INT,
-    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
@@ -661,7 +661,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Per_Poss(
 
 CREATE TABLE IF NOT EXISTS Player_Career_Totals(
 	Player_ID                       INT NOT NULL,
-    Player_Name                     VARCHAR(45) NOT NULL, -- Need to Rerun Web Scrapers
+    Player_Name                     VARCHAR(45) NOT NULL, 
     Birth_Date                      VARCHAR(45) NOT NULL,
     Games_Played       	            INT, 
     Games_Started                   INT,
@@ -689,7 +689,7 @@ CREATE TABLE IF NOT EXISTS Player_Career_Totals(
     Personal_Fouls                   FLOAT,
     Points                          FLOAT,
     Triple_Double                   INT,
-    Stat_Form                       BOOLEAN,  -- Career | Regular | Playoffs
+    Stat_Form                       BOOLEAN,  
 
 	UNIQUE(Player_ID, Stat_Form),
     PRIMARY KEY (Player_ID, Stat_Form),
