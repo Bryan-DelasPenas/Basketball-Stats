@@ -386,7 +386,6 @@ Function that drops all procedures
 def drop_team_query():
     drop_query_all_team_sid()
     drop_query_all_team_tid()
-    
     drop_query_all_team_name()
     drop_query_all_team_ABV()
     drop_query_team_name()
