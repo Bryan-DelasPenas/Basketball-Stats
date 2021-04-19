@@ -297,7 +297,7 @@ def drop_query_all_team_misc_name():
 '''
 Function that drops query_all_team_misc_ABV
 '''
-def drop_query_all_team_misc_ABV():
+def drop_query_all_team_misc_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -329,4 +329,4 @@ def drop_team_misc_query():
     drop_query_all_team_misc_tid()
     drop_query_all_team_misc_sid_tid()
     drop_query_all_team_misc_name()
-    drop_query_all_team_misc_ABV()
+    drop_query_all_team_misc_abv()

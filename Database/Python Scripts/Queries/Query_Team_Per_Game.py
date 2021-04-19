@@ -151,7 +151,7 @@ def create_query_all_team_per_game_name():
 '''
 Function that creates procedure that queries all team_advanced based Team ABV
 '''
-def create_query_all_team_per_game_ABV():
+def create_query_all_team_per_game_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -317,7 +317,7 @@ def create_query_all_team_per_game_both_name():
 '''
 Function that creates procedure that queries all team_advanced based Team ABV
 '''
-def create_query_all_team_per_game_both_ABV():
+def create_query_all_team_per_game_both_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -354,13 +354,13 @@ def create_team_per_game_query():
     create_query_all_team_per_game_tid()
     create_query_all_team_per_game_sid_tid()
     create_query_all_team_per_game_name()
-    create_query_all_team_per_game_ABV()
+    create_query_all_team_per_game_abv()
 
     create_query_all_team_per_game_both_sid()
     create_query_all_team_per_game_both_tid()
     create_query_all_team_per_game_both_sid_tid()
     create_query_all_team_per_game_both_name()
-    create_query_all_team_per_game_both_ABV()
+    create_query_all_team_per_game_both_abv()
 
 '''
 Drop Procedures
@@ -481,7 +481,7 @@ def drop_query_all_team_per_game_name():
 '''
 Function that drops query_all_team_per_game_ABV
 '''
-def drop_query_all_team_per_game_ABV():
+def drop_query_all_team_per_game_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -621,7 +621,7 @@ def drop_query_all_team_per_game_both_name():
 '''
 Function that drops query_all_team_per_game_ABV
 '''
-def drop_query_all_team_per_game_both_ABV():
+def drop_query_all_team_per_game_both_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -653,10 +653,10 @@ def drop_team_per_game_query():
     drop_query_all_team_per_game_tid()
     drop_query_all_team_per_game_sid_tid()
     drop_query_all_team_per_game_name()
-    drop_query_all_team_per_game_ABV()
+    drop_query_all_team_per_game_abv()
 
     drop_query_all_team_per_game_both_sid()
     drop_query_all_team_per_game_both_tid()
     drop_query_all_team_per_game_both_sid_tid()
     drop_query_all_team_per_game_both_name()
-    drop_query_all_team_per_game_both_ABV()
+    drop_query_all_team_per_game_both_abv()
