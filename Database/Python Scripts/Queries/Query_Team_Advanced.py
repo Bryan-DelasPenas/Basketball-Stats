@@ -143,7 +143,7 @@ def create_query_all_team_advanced_name():
 '''
 Function that creates procedure that queries all team_advanced based Team ABV
 '''
-def create_query_all_team_advanced_ABV():
+def create_query_all_team_advanced_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -180,7 +180,7 @@ def create_team_advanced_query():
     create_query_all_team_advanced_tid()
     create_query_all_team_advanced_sid_tid()
     create_query_all_team_advanced_name()
-    create_query_all_team_advanced_ABV()
+    create_query_all_team_advanced_abv()
 
 '''
 Drop Procedures
