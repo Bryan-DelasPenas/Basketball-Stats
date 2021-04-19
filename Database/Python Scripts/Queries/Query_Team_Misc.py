@@ -143,7 +143,7 @@ def create_query_all_team_misc_name():
 '''
 Function that creates procedure that queries all team_misc based Team ABV
 '''
-def create_query_all_team_misc_ABV():
+def create_query_all_team_misc_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -180,7 +180,7 @@ def create_team_misc_query():
     create_query_all_team_misc_tid()
     create_query_all_team_misc_sid_tid()
     create_query_all_team_misc_name()
-    create_query_all_team_misc_ABV()
+    create_query_all_team_misc_abv()
 
 '''
 Drop Procedures
