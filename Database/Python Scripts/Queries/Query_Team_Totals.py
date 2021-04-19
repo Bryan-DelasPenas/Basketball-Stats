@@ -151,7 +151,7 @@ def create_query_all_team_totals_name():
 '''
 Function that creates procedure that queries all team_advanced based Team ABV
 '''
-def create_query_all_team_totals_ABV():
+def create_query_all_team_totals_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -165,7 +165,7 @@ def create_query_all_team_totals_ABV():
             # Create a procedure
             conn.execute(
             """
-            CREATE PROCEDURE query_all_team_totals_ABV(opp int, abv VARCHAR(3))
+            CREATE PROCEDURE query_all_team_totals_abv(opp int, abv VARCHAR(3))
             BEGIN
                SELECT *
                FROM Team_Totals
@@ -317,7 +317,7 @@ def create_query_all_team_totals_both_name():
 '''
 Function that creates procedure that queries all team_advanced based Team ABV
 '''
-def create_query_all_team_totals_both_ABV():
+def create_query_all_team_totals_both_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -331,7 +331,7 @@ def create_query_all_team_totals_both_ABV():
             # Create a procedure
             conn.execute(
             """
-            CREATE PROCEDURE query_all_team_totals_both_ABV(abv VARCHAR(3))
+            CREATE PROCEDURE query_all_team_totals_both_abv(abv VARCHAR(3))
             BEGIN
                SELECT *
                FROM Team_Totals
@@ -354,13 +354,13 @@ def create_team_totals_query():
     create_query_all_team_totals_tid()
     create_query_all_team_totals_sid_tid()
     create_query_all_team_totals_name()
-    create_query_all_team_totals_ABV()
+    create_query_all_team_totals_abv()
 
     create_query_all_team_totals_both_sid()
     create_query_all_team_totals_both_tid()
     create_query_all_team_totals_both_sid_tid()
     create_query_all_team_totals_both_name()
-    create_query_all_team_totals_both_ABV()
+    create_query_all_team_totals_both_abv()
 
 '''
 Drop Procedures
@@ -481,7 +481,7 @@ def drop_query_all_team_totals_name():
 '''
 Function that drops query_all_team_totals_ABV
 '''
-def drop_query_all_team_totals_ABV():
+def drop_query_all_team_totals_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -621,7 +621,7 @@ def drop_query_all_team_totals_both_name():
 '''
 Function that drops query_all_team_totals_ABV
 '''
-def drop_query_all_team_totals_both_ABV():
+def drop_query_all_team_totals_both_abv():
     # Connect to sql database
     engine = create_connection()
     
@@ -653,10 +653,10 @@ def drop_team_totals_query():
     drop_query_all_team_totals_tid()
     drop_query_all_team_totals_sid_tid()
     drop_query_all_team_totals_name()
-    drop_query_all_team_totals_ABV()
+    drop_query_all_team_totals_abv()
 
     drop_query_all_team_totals_both_sid()
     drop_query_all_team_totals_both_tid()
     drop_query_all_team_totals_both_sid_tid()
     drop_query_all_team_totals_both_name()
-    drop_query_all_team_totals_both_ABV()
+    drop_query_all_team_totals_both_abv()
