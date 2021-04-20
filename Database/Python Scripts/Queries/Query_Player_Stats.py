@@ -1518,11 +1518,11 @@ def create_query_player_stats_primary_both_sid_pid():
             """)
             trans.commit()
             conn.close()
-            print("Creation of procedure Query_Player_Stats_Primary_Both_Tid_Pid was Successful")
+            print("Creation of procedure Query_Player_Stats_Primary_Both_Sid_Pid was Successful")
         except:
-            raise Exception("Creation Procedure Query_Player_Stats_Primary_Both_Tid_Pid Failed")
+            raise Exception("Creation Procedure Query_Player_Stats_Primary_Both_Sid_Pid Failed")
     else:
-        raise Exception("Procedure Query_Player_Stats_Primary_Both_Tid_Pid does exists") 
+        raise Exception("Procedure Query_Player_Stats_Primary_Both_Sid_Pid does exists") 
 
 '''
 Create all Player_Stats Procedures
