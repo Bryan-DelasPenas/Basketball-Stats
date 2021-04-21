@@ -406,11 +406,11 @@ def create_query_all_player_per_minute_both_pname_tid():
             """)
             trans.commit()
             conn.close()
-            print("Creation of procedure Query_Player_All_Player_Per_Minute_Pname_Tid was Successful")
+            print("Creation of procedure Query_Player_All_Player_Per_Minute_Both_Pname_Tid was Successful")
         except:
-            raise Exception("Create Procedure Query_Player_All_Player_Per_Minute_Pname_Tid Failed")
+            raise Exception("Create Procedure Query_Player_All_Player_Per_Minute_Both_Pname_Tid Failed")
     else:
-        raise Exception("Procedure Query_Player_All_Player_Per_Minute_Pname_Tid does exists")
+        raise Exception("Procedure Query_Player_All_Player_Per_Minute_Both_Pname_Tid does exists")
 
 
 '''
