@@ -8,7 +8,12 @@ import os
 import pathlib 
 from pathlib import Path
 
-sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
+# This is for running the file in the Notebook
+if(not os.path.isdir(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')):
+    sys.path.append(str(pathlib.Path().absolute().parent.parent) + '\\Web_Scrapers' +'\\Python_Scrapers')
+
+else:
+    sys.path.append(str(pathlib.Path().absolute()) + '\\Web_Scrapers' +'\\Python_Scrapers')
 
 from Team_Constants import RIGHT_NAME_DICT, PLAYER_ID, REVERSE_RIGHT_DICT, DATABASE_DICT
 from Helper_DB import test_connection, create_connection, check_table
@@ -1219,5 +1224,5 @@ def main():
     
     insert_all()
   
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+    #main()
