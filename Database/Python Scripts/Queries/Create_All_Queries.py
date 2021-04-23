@@ -44,7 +44,7 @@ from Query_Player_Career_Stats import create_player_career_stats_query
 from Query_Player_Career_Totals import create_player_career_totals_query
 
 
-def main():
+def create_all():
     # Season Procedures 
     create_cs_query()
 
@@ -74,6 +74,9 @@ def main():
     create_player_career_per_poss_query()
     create_player_career_stats_query()
     create_player_career_totals_query()
+
+def main():
+    create_all()
 
 if __name__ == "__main__":
     main()

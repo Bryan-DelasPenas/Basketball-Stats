@@ -44,7 +44,7 @@ from Query_Player_Career_Stats import drop_player_career_stats_query
 from Query_Player_Career_Totals import drop_player_career_totals_query
 
 
-def main():
+def drop_all():
     # Season Procedures 
     drop_cs_query()
 
@@ -75,6 +75,9 @@ def main():
     drop_player_career_stats_query()
     drop_player_career_totals_query()
 
+
+def main():
+    drop_all()
 
 if __name__ == "__main__":
     main()
