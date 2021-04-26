@@ -5,11 +5,10 @@
 and machine learning, we can use data from the that can be broken down into three phases
 and a possible fourth phase.</p>
 
-<strong>Current Phase: 2</strong><br>
+<strong>Current Phase: 3</strong><br>
 <strong>Phase 1:</strong> Web scraping<br>
 <strong>Phase 2:</strong> Creating the database<br> 
 <strong>Phase 3:</strong> Predicting the MVP based on player stats<br> 
-<strong>Phase 4:</strong> Creating a web application<br>
 
 <strong>Additional Features:</strong><br>
 <p>1) Creating a docker file, and create a docker container for the local database</p>
@@ -97,7 +96,7 @@ the root directory, aka <em>Basketball-Stats</em>.</p>
 ### Web Scrapers Expected Output
 <p>Inside of the source directory,<em>Basketball-Stats</em>, there will be a directory called <em>Output</em>.<br>
 Inside of <em>Output</em>, should be three directories, corresponding to the name of the scrapers. More information 
-be in a api.md file</p>
+be in a Web_Scraper_User_Manual</p>
 
 ### Running the Database 
 <p><strong>IMPORTANT:</strong>For any queries, the names of people with accent has been normalized<br>
@@ -108,4 +107,4 @@ Example: Nikola Jokić will be Nikola Jokic</p>
 <p>TBD</p>
 
 ### Running the Django Website
-<p>TBD</p>
+
