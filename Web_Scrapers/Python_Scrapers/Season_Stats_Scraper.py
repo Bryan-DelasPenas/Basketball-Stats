@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from requests import get
 
 from Team_Constants import TEAM_TO_ABBRIVATION, TEAM_ID
-
+from utils import strip_accents
 '''
 Creates a dataframe that returns the teams name 
 '''
@@ -47,7 +47,7 @@ def get_team_name(season):
     return df 
 
 ''' 
-Creates a datafrane that returns standings 
+Creates a dataframe that returns standings 
 '''
 def get_standings(season, data_format = 'standard'):
 
@@ -167,3 +167,53 @@ def get_standings(season, data_format = 'standard'):
 
         else: 
             print('Error 404: Page could not be found')
+
+'''
+Creates a dataframe that returns the award voting 
+'''
+def get_award_voting(season, format = 'MVP'):
+    # Get the url of the page for starting purposes, using widgets.sports-references.com
+    page = get(f'https://www.basketball-reference.com/awards/awards_{season}.html') 
+
+    # Init the dataframe 
+    df = None 
+
+    # Check the status code, if the code is 200, it means the request went through
+    if page.status_code == 200: 
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find('table')
+
+        # MVP = Most Valuable Player
+        if(format == 'MVP'):
+            # Search in the page for 
+            table = soup.find('table', attrs={'id':'mvp'})
+    
+        # ROY = Rookie of the Year
+        elif(format == 'ROY'):
+            table = soup.find('table', attrs={'id':'roy'})
+
+        # Insert this data into a pandas dataframe
+        df = pd.read_html(str(table))[0]
+
+        # Remove muti set for the columns 
+        df.columns = ['Rank', 'Player', 'Age', 'Tm', 'First', 'Pts Won', 'Pts Max', 'Share', 'G', 'MP', 'PTS', 'TRB','AST', 'STL', 'BLK', 'FG%', '3P%', 'FT%', 'WS', 'WS/48']
+        df = df.drop(['Age', 'First', 'G', 'MP', 'PTS', 'TRB','AST', 'STL', 'BLK', 'FG%', '3P%', 'FT%', 'WS', 'WS/48'], axis =1)
+        
+        # Remove accented chars in player name 
+        df['Player'] = df['Player'].apply(lambda name: strip_accents(name))
+        df['Season'] = season
+        df['Type'] = format
+
+        # Move team ID to the second element and Season to be the first
+        df = df[ ['Player'] + [ col for col in df.columns if col != 'Player' ] ]
+        df = df[ ['Tm'] + [ col for col in df.columns if col != 'Tm' ] ]
+        df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
+        
+        print(df)
+        return df
+
+
+def main():
+    get_award_voting(2020, 'DPOY')
+
+main()
