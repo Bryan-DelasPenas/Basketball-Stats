@@ -32,3 +32,24 @@ def create_output_child_directory(parent_directory, format):
     else:
         print('Already Made')
         return False
+
+
+'''
+Helper function that creates years 1980 - 2020 directory
+'''
+def create_years_dir(path):
+
+    # If this is false, creates file else just print message
+    if(os.path.isdir(os.path.join(path, "1980")) == False):
+        print("Creating files from 1980 to 2020")
+        
+        # Iterate through 1980 - 2020
+        for season in range(1980, 2021):
+
+            # Creates folder 
+            os.mkdir(os.path.join(path, str(season)))
+        return True
+
+    else:
+        print("Files are already created")
+        return False
