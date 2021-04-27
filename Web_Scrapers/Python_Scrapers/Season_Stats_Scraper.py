@@ -209,11 +209,5 @@ def get_award_voting(season, format = 'MVP'):
         df = df[ ['Tm'] + [ col for col in df.columns if col != 'Tm' ] ]
         df = df[ ['Season'] + [ col for col in df.columns if col != 'Season' ] ]
         
-        print(df)
         return df
 
-
-def main():
-    get_award_voting(2020, 'DPOY')
-
-main()
