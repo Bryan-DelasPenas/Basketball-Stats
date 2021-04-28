@@ -13,8 +13,8 @@ from helper import create_output_directory, create_years_dir
 Generates a CSV file of team names for a season 
 '''
 def csv_team_name(year):
-    # ... /src/Web_Scrapers/Output/Season/Team_Name
-    first_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Season", "Team_Name")
+    # ... /src/Web_Scrapers/Output/Season/Team_Names
+    first_path = os.path.join(pathlib.Path().absolute(), "Web_Scrapers", "Output", "Season", "Team_Names")
     if(not os.path.isdir(first_path)):
         
         # Create the directory with the first_path
@@ -156,8 +156,7 @@ Main Function
 def main():
 
     start_time = time.time()
-    csv_award_voting(2020, 'MVP')
-    #get_season_csv()
+    get_season_csv()
     print("--- %s seconds ---" % (time.time() - start_time))
 
 if __name__ == "__main__":
